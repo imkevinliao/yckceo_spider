@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "别加简介，懒得改了，就用简介操作",
+        "bookSourceGroup": "现实debug",
+        "bookSourceName": "知乎文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://zhihuwenxue.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1657609425828,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": ".bookintro@tag.img@src",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "id.rtext@html\n@js:\na=result\n\nb=\"书源提示:网站没有目录，右上角三个点-->刷新目录，每次可获取10页正文，目录将生成10个，本内容仅在第一章显示\"\nc=book.durChapterTitle\nif(c.match(/第00001章/)){\n\ta=b+a\n\t}\na",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".author.0@text",
+            "bookList": "<js>\nkey=java.get(\"key\")\ncookie.removeCookie(\"https://zhihuwenxue.com\")\n\na='https://zhihuwenxue.com/search/,{\"body\": \"searchkey='+key+'&submit=\",\"method\": \"POST\"}'\n\nb=java.ajax(a)\njava.setContent(b)\n\nc=java.getElements(\"class.bookbox@class.p10@class.bookinfo\")\n</js>\n\n",
+            "bookUrl": ".bookname@tag.a@href",
+            "checkKeyWord": "我的",
+            "intro": "{{book.intro}}",
+            "lastChapter": ".cat@text",
+            "name": ".bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "@js:\nlist=[]\nli=book.intro\nli=li.replace(\",\",\"\")\njava.log(li)\na=\"https://zhihuwenxue.com\"\n\nif(li==\"\"){\ndyz=java.getString(\"text.开始阅读@href\")\nd=a+dyz\n\nfor(i=0;i<10;i++){\n\tif(list.length>0){\n\t\td=a+c\n\t\t}\n\tf=java.ajax(d)\n\tjava.setContent(f)\n\tc=java.getString(\"text.下一页.0@href||text.下一章.0@href\")\n\tg=java.getString(\"id.acontent@tag.h1@text\")\n\tif(i==0){\n\tlist[i]=\"<div>第00001章\"+g+\"</div><p>\"+d+\"</p>\\n\"\n\t}else{\n\t\tlist[i]=\"<div>\"+g+\"</div><p>\"+d+\"</p>\\n\"\n\t\t}\n\t//java.log(list[i])\n\t}\n}\nif(li != \"\"){\n\tlist=li.match(/.*?\\n/gi)\n\ts=list.length-1\n\te=list[s].match(/<p>.*?<\\/p>/gi)[0]\n\t\n\te=e.replace(\"<p>\",\"\")\n\te=e.replace(\"</p>\",\"\")\n\ts=0\n\tlis=[]\n\tfor(i=0;i<11;i++){\n\tif(s==0){\n\t\ts=s+1\n\t\t}else{\n\t\t\te=a+c\n\t\t\t}\n\tf=java.ajax(e)\n\tjava.setContent(f)\n\tc=java.getString(\"text.下一页.0@href||text.下一章.0@href\")\n\tif(i!=0){\n\tg=java.getString(\"id.acontent@tag.h1@text\")\n\tif(g!=\"\"){\n\tlis[i-1]=\"<div>\"+g+\"</div><p>\"+e+\"</p>\\n\"\n\t}else{\n\t\tbreak\n\t\t}\n   }\n\t}\n\tfor(i=0;i<lis.length;i++){\n\t\tlist[list.length]=lis[i]\n\t\t}\n\t}\nbook.intro=String(list)\nbook.upCustomIntro()\n//java.toast(list.length)\nlist",
+            "chapterName": "tag.div@text",
+            "chapterUrl": "tag.p@text"
+        },
+        "searchUrl": "{{java.put(\"key\",key)}}",
+        "weight": 0
+    }
+]

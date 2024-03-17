@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "测试",
+        "bookSourceName": "123读小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.123ds.org/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1621831674120,
+        "ruleBookInfo": {
+            "author": "class.bookinfo@tag.a.0@text##作者:",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "class.intro@href",
+            "kind": "class.bookinfo@tag.a.1@text##类别:",
+            "lastChapter": "class.bookinfo@tag.a.2@text##最新:",
+            "name": "tag.h1@text",
+            "tocUrl": "class.book-op@tag.a.1@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.nr@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.mr15@text",
+            "bookList": "class.list-item",
+            "bookUrl": "class.article@tag.a@href",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "class.fs12 gray.1@text",
+            "name": "class.article@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.even",
+            "chapterName": "tag. a@text",
+            "chapterUrl": "tag. a@href"
+        },
+        "searchUrl": "http://m.123ds.org/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n\"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

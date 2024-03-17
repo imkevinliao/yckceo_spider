@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "目录下页修复，加入发现规则",
+        "bookSourceGroup": "②🌸  常用,优化",
+        "bookSourceName": "🌸宝书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.baoshus.com",
+        "bookUrlPattern": "http://www.baoshus.com/shu/\\d+",
+        "customOrder": -2085978286,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"青春校园\",\"url\":\"/shuclass/1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/shuclass/2/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市生活\",\"url\":\"/shuclass/3/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游动漫\",\"url\":\"/shuclass/4/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越重生\",\"url\":\"/shuclass/5/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻未来\",\"url\":\"/shuclass/6/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"现代言情\",\"url\":\"/shuclass/7/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻魔法\",\"url\":\"/shuclass/8/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻奇幻\",\"url\":\"/shuclass/9/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/shuclass/10/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠修真\",\"url\":\"/shuclass/11/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/shuclass/12/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑灵异\",\"url\":\"/shuclass/13/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖灵异\",\"url\":\"/shuclass/14/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人小说\",\"url\":\"/shuclass/15/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古代言情\",\"url\":\"/shuclass/16/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/shuclass/17/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"侦探推理\",\"url\":\"/shuclass/18/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"二次元\",\"url\":\"/shuclass/19/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"新书\",\"url\":\"/shuclass/20/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其它\",\"url\":\"/shuclass/21/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; M2007J22C Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1686908959657,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 65027,
+        "ruleBookInfo": {
+            "author": "class.book-author.0@text## · .*",
+            "canReName": "1",
+            "coverUrl": "tag.img.0@src",
+            "init": "",
+            "intro": "class.aui-book-intro@html",
+            "kind": "class.book-status.0@text",
+            "lastChapter": "class.last-chapter.0@text",
+            "name": "class.book-name.0@text",
+            "tocUrl": "class.aui-flex aui-book-chapter@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "class.chapter-content@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book-module@text## · .*",
+            "bookList": "class.aui-book-list@tag.a",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.book-intro@html",
+            "kind": "class.book-module@text##.*? · ",
+            "name": "class.aui-book-img@tag.img@alt"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-index-name@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value<js>\nvar url = baseUrl+\"/\";\nvar go = Object.values(result);\nvar list = go.map(num => url + num);\nlist;</js>##$##,{'webView': true}"
+        },
+        "searchUrl": "http://www.baoshus.com/search/{{key}}",
+        "weight": 0
+    }
+]

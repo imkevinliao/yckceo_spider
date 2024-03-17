@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "优质",
+        "bookSourceName": "笔仙阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bixiange.top/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1679414437150,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".date a@text",
+            "coverUrl": ".pic img@src",
+            "init": "",
+            "intro": ".infos p@html",
+            "kind": "",
+            "lastChapter": ".book_list a.-1@text",
+            "name": ".infos h1@text",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": ".read_chapterDetail@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "##作者.([^<]+)##$1###",
+            "bookList": ".bk",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text##简介.|\\s",
+            "kind": "label.1@text",
+            "lastChapter": "h3@text##.*\\(|\\)",
+            "name": "h3@text##\\(.*",
+            "wordCount": "label.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "##作者.([^<]+)##$1###",
+            "bookList": ".bk",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p@text##简介.|\\s",
+            "kind": "label@text",
+            "name": "a.1@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".clearfix li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/e/search/indexpage.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=\"\n}",
+        "weight": 0
+    }
+]

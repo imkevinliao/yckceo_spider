@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "R.i",
+        "bookSourceName": "都市文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.dswx.cc",
+        "bookUrlPattern": "https://www.dswx.cc/book/\\d+/\\d+.htm",
+        "customOrder": 227,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::http://www.dswx.cc/modules/article/articlelist.php?class=1&page={{page}}\n武侠修真::http://www.dswx.cc/modules/article/articlelist.php?class=2&page={{page}}\n都市小说::http://www.dswx.cc/modules/article/articlelist.php?class=3&page={{page}}\n官场小说::http://www.dswx.cc/modules/article/articlelist.php?class=12&page={{page}}\n言情小说::http://www.dswx.cc/modules/article/articlelist.php?class=9&page={{page}}\n古代言情::http://www.dswx.cc/modules/article/articlelist.php?class=8&page={{page}}\n穿越重生::http://www.dswx.cc/modules/article/articlelist.php?class=13&page={{page}}\n青春校园::http://www.dswx.cc/modules/article/articlelist.php?class=11&page={{page}}\n耽美同人::http://www.dswx.cc/modules/article/articlelist.php?class=14&page={{page}}\n网游竞技::http://www.dswx.cc/modules/article/articlelist.php?class=6&page={{page}}\n恐怖悬疑::http://www.dswx.cc/modules/article/articlelist.php?class=5&page={{page}}\n科幻童话::http://www.dswx.cc/modules/article/articlelist.php?class=7&page={{page}}\n军事战争::http://www.dswx.cc/modules/article/articlelist.php?class=4&page={{page}}\n官场小说::http://www.dswx.cc/modules/article/articlelist.php?class=12&page={{page}}\n",
+        "lastUpdateTime": 1634389557739,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.infotitle@span@a@text",
+            "coverUrl": "class.infoimg@img@src",
+            "intro": "class.jianjie@text",
+            "name": "class.infotitle@h1@text",
+            "tocUrl": "class.read2@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html##.*最新章节！|"
+        },
+        "ruleExplore": {
+            "author": "class.odd.1@tag.a@text",
+            "bookList": "class.grid@tag.tbody@tag.tr",
+            "bookUrl": "tag.a@href",
+            "kind": "class.even.3@text&&class.odd..2@text",
+            "lastChapter": "class.even.0@tag.a@text",
+            "name": "class.odd.0@tag.a@text",
+            "wordCount": "class.even.2@text"
+        },
+        "ruleSearch": {
+            "bookList": "class.grid@tag.tr",
+            "bookUrl": "class.even@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.even@p@text##简介：",
+            "name": "class.even@tag.a@tag.b@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.ccss@children",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.dswx.cc/modules/article/search.php?searchtype=articlename&searchkey={{key}}&Submit=+%CB%D1+%CB%F7+&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

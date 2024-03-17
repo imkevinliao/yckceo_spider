@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "💰 正版 💰,☁️可用",
+        "bookSourceName": "💰七猫中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qimao.com/",
+        "bookUrlPattern": "https://www.qimao.com/shuku/\\d+/",
+        "customOrder": 214023,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows; U; Windows NT 5.2;. en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 Quark/4.6.6.164\"\n}",
+        "lastUpdateTime": 1641966308425,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.data-txt@class.p-name@a@text",
+            "coverUrl": "class.poster-pic@img@src",
+            "intro": "class.pWorkInformation@text",
+            "kind": "class.data-txt@class.time@text&&\nclass.data-txt@class.p-tags@text##分类：",
+            "lastChapter": "class.data-txt@class.p-update@tag.a@text",
+            "name": "class.data-txt@h2@text",
+            "wordCount": "class.data-txt@class.p-num@tag.span.0@text"
+        },
+        "ruleContent": {
+            "content": "class.article@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.s-txt.0@a@text",
+            "bookList": "class.qm-mod-tb@li",
+            "bookUrl": "class.s-tit@a@href@js:result+',{webView:“true”}'",
+            "coverUrl": "class.pic@img@src",
+            "intro": "class.s-des@text",
+            "kind": "class.s-tags@text",
+            "lastChapter": "class.s-txt.1@a@text",
+            "name": "class.s-tit@a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-directory@class.js-sort-data.0@a",
+            "chapterName": "text",
+            "chapterUrl": "href@js:result+',{webView:“true”}'",
+            "isVip": "@js:result.select('class').hasClass('vip')",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.qimao.com/search/index/?keyword={{key}}&page={{page}},{\n\"charset\": \"gbk\", \n\"headers\": {\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"}, \"webView\": true}",
+        "weight": 0
+    }
+]

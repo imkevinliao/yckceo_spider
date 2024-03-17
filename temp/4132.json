@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "起舞中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.75zwz.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::https://m.75zwz.com/allsort/{{page}}.html\n奇幻玄幻::https://m.75zwz.com/xuanhuan/{{page}}.html\n武侠仙侠::https://m.75zwz.com/wuxia/{{page}}.html\n都市生活::https://m.75zwz.com/dushi/{{page}}.html\n历史军事::https://m.75zwz.com/lishi/{{page}}.html\n游戏竞技::https://m.75zwz.com/youxi/{{page}}.html\n科幻未来::https://m.75zwz.com/kehuan/{{peh}}.html\n恐怖悬疑::https://m.75zwz.com/xuanyi/{{page}}.html\n其他类型::https://m.75zwz.com/qita/{{page}}.html\n古代言情::https://m.75zwz.com/guyan/{{page}}.html\n现代言情::https://m.75zwz.com/xianyan/{{page}}.html\n幻想奇缘::https://m.75zwz.com/huanqing/{{page}}.html\n游戏情缘::https://m.75zwz.com/zongcai/{page{}}.html\n浪漫青春::https://m.75zwz.com/qingchun/{{page}}.html\n言情美文::https://m.75zwz.com/wangluo/{{page}}.html\n科幻灵异::https://m.75zwz.com/mmkehuan/{{page}}.html\n其他类型::https://m.75zwz.com/mmqita/{{page}}.html\n最近更新::https://m.75zwz.com/lastupdate/{{page}}.html\n日点榜::https://m.75zwz.com/dayvisit/{{page}}.html\n月点榜::https://m.75zwz.com/monthvisit/{{page}}.html\n月推榜::https://m.75zwz.com/monthvote/{{page}}.html",
+        "header": "{\"referer\":\"https://m.75zwz.com\",\"Cookie\": \"sex=boy\"}",
+        "lastUpdateTime": 1649862245266,
+        "respondTime": 5835,
+        "ruleBookInfo": {
+            "author": "class.author@text",
+            "coverUrl": "img.0@src",
+            "init": "",
+            "intro": "class.intro@tag.p.1@html",
+            "kind": "class.detail@tag.p.2@tag.a@text",
+            "lastChapter": "tag.p.3@text##最新章节：",
+            "name": "class.name@text",
+            "tocUrl": "class.now@tag.a@href",
+            "wordCount": "class.detail@tag.p.2@tag.span.-1@text"
+        },
+        "ruleContent": {
+            "content": "class.p75zwcom_content@div@ownText",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完，请点击下一页继续阅读，后面更精彩！"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "li@tag.a.-2@text",
+            "bookList": "class.list@li",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "夜的命名术",
+            "coverUrl": "img@src",
+            "intro": "class.intro@html",
+            "kind": "span.0@text",
+            "lastChapter": "span.-1@text",
+            "name": "class.bookname@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.read@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

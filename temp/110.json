@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceName": "六零文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.60355.net",
+        "customOrder": -7,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1663724506768,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#info@p.0@a@text",
+            "coverUrl": "img@src",
+            "intro": "div#intro@html##《.*》是.*精心创作的.*",
+            "kind": "#info@p.3@text&&#info@p.6@text##状态：|最后更新：",
+            "lastChapter": "#info@.hidden-xs@a@text",
+            "name": "h1@text",
+            "tocUrl": "#list@dl@a.-1@href",
+            "wordCount": "#info@p.2@text##字数：|\\s*"
+        },
+        "ruleContent": {
+            "content": "#booktxt@p@text",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完.*下一页继续阅读."
+        },
+        "ruleSearch": {
+            "author": "dl@.btm@a@text",
+            "bookList": "div.item",
+            "bookUrl": "dl@dt@a@href",
+            "intro": "dl@dd@html",
+            "name": "dl@dt@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "#content_1@a",
+            "chapterName": "dd@text",
+            "chapterUrl": "href",
+            "nextTocUrl": "select@option@value"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

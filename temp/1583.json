@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "全本小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.quanben5.com",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 223660,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "{\n    \"User-Agent\":\"Mozilla/5.0 (Linux; Android 11; PCLM10 Build/RKQ1.200928.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.120 Mobile Safari/537.36\",\n\"x-requested-with\":\"XBrowser\",\n\"Referer\":\"http://www.quanben5.com\",\n\"Cookie\":\"uc=wKgDMWDnwnMTX2rpJw0iAg==; bookChapter=true\"\n}",
+        "lastUpdateTime": 1669721198493,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@text",
+            "coverUrl": "class.pic.0@img@src",
+            "intro": "class.description.0@text",
+            "kind": "class.info.1@text",
+            "lastChapter": "",
+            "name": "class.pic_txt_list.0@h3@span@text",
+            "tocUrl": "class.button s1@href##$##,{'webView': true}",
+            "wordCount": "class.info.2@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.pic_txt_list",
+            "bookUrl": "tag.h3@tag.a@href##$##,{'webView': true}",
+            "coverUrl": "tag.img@src",
+            "intro": "class.description@text",
+            "name": "tag.h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list@li",
+            "chapterName": "a@span@text",
+            "chapterUrl": "a@href##$##,{'webView': true}"
+        },
+        "searchUrl": "http://www.quanben5.io/index.php?c=book&a=search&keywords={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceFromType": "",
+        "bookSourceGroup": "小说",
+        "bookSourceMainId": "",
+        "bookSourceName": "53文学book53.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.book53.com",
+        "createTime": 0,
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "奇幻 玄幻::https://www.book53.com/qihuan/.html\n武侠 仙侠::https://www.book53.com/wuxia/.html\n都市 青春::https://www.book53.com/dushi/\n历史 穿越::https://www.book53.com/lishi/\n游戏 竞技::https://www.book53.com/youxi/\n科幻 灵异::https://www.book53.com/kehuan/\n全本::https://www.book53.com/quanben/",
+        "indexSourceType": "",
+        "lastUpdateTime": 1675507655535,
+        "miBookSourceUrl": "https://www.book53.com",
+        "id": "",
+        "openRecommendToOfficial": false,
+        "recommendToOfficialState": 0,
+        "ruleBookInfo": {
+            "author": "class.novel_info_title@i@a@text",
+            "coverUrl": "id.img@src",
+            "intro": "",
+            "kind": "class.novel_info_title@p@span.2@text",
+            "lastChapter": "class.flex to100@text",
+            "name": "h1@text",
+            "wordCount": "class.novel_info_title@p@span.1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@text",
+            "imageStyle": "full",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "class.li_bottom@a@text",
+            "bookList": "class.flex@tag.li",
+            "bookUrl": "tag.a@herf",
+            "coverUrl": "id.img@crs",
+            "intro": "class.indent@text",
+            "kind": "class.title@text",
+            "name": "class.w100@h2@text",
+            "wordCount": "class.orange@text"
+        },
+        "ruleSearch": {
+            "author": "class.li_bottom@a@text",
+            "bookList": "class.flex",
+            "bookUrl": "a@href",
+            "coverUrl": "class.img_span@img@crs@src{seq}",
+            "intro": "class.indent@text",
+            "kind": "class.img_span@a@span@text",
+            "lastChapter": "class.flex to100@text",
+            "name": "tag.span.1@text",
+            "wordCount": "class.orange@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section chapter_list@li\r\n",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.book53.com/so/{{key}}",
+        "useNum": ""
+    }
+]

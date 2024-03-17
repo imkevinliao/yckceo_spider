@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎨漫画",
+        "bookSourceName": "快乐图书—正文图片加密求修复",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://www.san449.com/##",
+        "customOrder": 3,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"美女写真\",\"url\":\"/meinv/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"连载漫画\",\"url\":\"/item/连载/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完结漫画\",\"url\":\"/item/完结/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"爱情漫画\",\"url\":\"/mh/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1673957451710,
+        "loginUrl": "https://www.san449.com/",
+        "respondTime": 1842,
+        "ruleBookInfo": {
+            "author": ".article-tags@text##标签",
+            "coverUrl": ".c-img@img@src",
+            "intro": ".dis@text",
+            "kind": ".breadcrumbs@a.1@text",
+            "lastChapter": ".article-paging.0@span.-2@text",
+            "name": ".article-title@a@text",
+            "tocUrl": ".article-content@p@herf",
+            "wordCount": ".article-meta@li.0@text"
+        },
+        "ruleContent": {
+            "content": "class.article-content@p!-1@html",
+            "imageStyle": "FULL",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": ".post-tags@text##标签：",
+            "bookList": ".box",
+            "bookUrl": ".focus@a@href",
+            "coverUrl": "img@data-original##$##,{\"headers\":{\"Referer\":\"https://www.san449.com\"}}",
+            "intro": ".note@text",
+            "kind": ".subtitle@text",
+            "lastChapter": "small@text",
+            "name": "h2@a@text",
+            "wordCount": ".time@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".post-tags@text##标签：",
+            "bookList": "class.box",
+            "bookUrl": ".focus@a@href",
+            "checkKeyWord": "姐姐",
+            "coverUrl": "img@data-original##$##,{\"headers\":{\"Referer\":\"https://www.san449.com\"}}",
+            "intro": ".note@text",
+            "kind": ".label-important@text",
+            "lastChapter": ".subtitle@text",
+            "name": "h2@a@text",
+            "wordCount": "small@text"
+        },
+        "ruleToc": {
+            "chapterList": ".article-paging.0@.post-page-numbers!-1",
+            "chapterName": "span.0@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.san449.com/?s={{key}}",
+        "weight": 0
+    }
+]

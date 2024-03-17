@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "快书库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.kuaishuku.com",
+        "customOrder": -3,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "header": "",
+        "lastUpdateTime": 1663736353119,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "li.author@text##.*/\\s",
+            "coverUrl": ".fm@img@src",
+            "intro": "p.intro@html",
+            "kind": "li.author@text&&a@span@text##\\s/.*|\\s最近更新",
+            "lastChapter": ".lastchapter@a@text##更新：|\\s最近更新",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "div.content@html",
+            "replaceRegex": "##→"
+        },
+        "ruleSearch": {
+            "author": "span@text##/\\s",
+            "bookList": ".result@li",
+            "bookUrl": "a.black@href",
+            "checkKeyWord": "离谱",
+            "name": "a.black@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s.php,{\n\"charset\": \"UTF-8\",\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

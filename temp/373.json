@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceGroup": "刘备,仅发现",
+        "bookSourceName": "好看小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.fengliumishi.com/",
+        "bookUrlPattern": "http://www.fengliumishi.com/book/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::http://www.fengliumishi.com/\n书库::/<shuku/,index{{page}}.html>,{\"charset\": \"gbk\"}",
+        "lastUpdateTime": 1651410424650,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".book-describe@p.0@text##作者.",
+            "coverUrl": ".book-img img@src",
+            "init": "",
+            "intro": ".describe-html@text",
+            "kind": ".book-describe@p.1:2@text##类型：|状态：",
+            "lastChapter": ".book-list li a.-1@text",
+            "name": ".book-describe h1@text"
+        },
+        "ruleContent": {
+            "content": "article>p@html"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": ".bk||.hot-book",
+            "bookUrl": "h3 a@href||a@href",
+            "coverUrl": "img@src",
+            "intro": "p@html##简介：",
+            "lastChapter": ".booknews a@text",
+            "name": "h3 a@text||h2@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "bookList": ""
+        },
+        "ruleToc": {
+            "chapterList": ".book-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "weight": 0
+    }
+]

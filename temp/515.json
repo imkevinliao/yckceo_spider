@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "www.wucuo8.com整理",
+        "bookSourceGroup": "A级",
+        "bookSourceName": "多多书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.txtduo.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1648104344437,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作&nbsp;&nbsp;&nbsp;&nbsp;者：",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "init": "",
+            "intro": "class.introtxt@text",
+            "lastChapter": "id.info@tag.p.4@tag.a@text",
+            "name": "tag.h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p!-1@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.title.0@tag.span@text",
+            "bookList": "id.alistbox",
+            "bookUrl": "class.title.0@tag.h2@tag.a@href",
+            "intro": "class.info.0@text",
+            "kind": "",
+            "lastChapter": "class.sys.0@tag.li@tag.a@text",
+            "name": "class.title.0@tag.h2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd@tag.a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.txtduo.com/search.html,{\r\n'charset': 'UTF-8',\r\n'method': 'POST',\r\n'body': 'searchkey={{key}}'\r\n}",
+        "weight": 0
+    }
+]

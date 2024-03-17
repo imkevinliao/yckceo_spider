@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceUrl": "https://www.biqugeabc.com",
+        "bookSourceType": "0",
+        "bookSourceName": "biqugeabc",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/search.html?key={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1655402707152,
+        "ruleSearch": {
+            "bookList": ".txt-list-row5@li!0",
+            "name": ".s2@text",
+            "author": ".s4@text",
+            "kind": ".s1@text##[]",
+            "lastChapter": ".s3@text",
+            "bookUrl": ".s2@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": [],
+        "ruleToc": {
+            "chapterList": "id.chapter_list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "ruleContent": {
+            "content": "<js>\n(() => {\n    let html = '';\n    try {\n        var plist = java.getElements('div.text_row_txt@p');\n        for (var i = 0; i < plist.length; i++) {\n            var eleDList = java.getElements('div.text_row_txt@p.' + i + '@d');\n            let dsort = [];\n            for (let j = 0; j < eleDList.length; j++) {\n                let eled = eleDList[j];\n                let index = parseInt(java.getString('div.text_row_txt@p.' + i + '@d.' + j + '@data-index'));\n                dsort[index] = java.getString('div.text_row_txt@p.' + i + '@d.' + j + '@text');\n            }\n            html += '<p>' + dsort.join('') + '</p>';\n        }\n\n    } catch (e) {\n        // 当返回结果为字符串时\n        return '' + e;\n    }\n    return html;\n})()\n</js>"
+        }
+    }
+]

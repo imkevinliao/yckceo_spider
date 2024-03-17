@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceGroup": "💠 小说",
+        "bookSourceName": "黑岩",
+        "bookSourceType": 0,
+        "bookSourceUrl": "黑岩阅读",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1675501304563,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h3@a@text",
+            "coverUrl": "img@src",
+            "intro": "{{@@p.0@textNodes##简介：}}##^|\\\\n##<br>",
+            "kind": "{{@@.infos@span.1:2:3@text##.*：|中|已}}字",
+            "lastChapter": ".upd@a.1@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": ".contentbox@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": ".so",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": "p.0@text",
+            "kind": "{{@@span.3:2:1@text##.*：|中|已}}字",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_list@li",
+            "chapterName": "text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.heiyan.org/plus/search.php?q={{key}}",
+        "weight": 0
+    }
+]

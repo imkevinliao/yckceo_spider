@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "书趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ishuquge.la",
+        "customOrder": 229871,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻::/category/1_{{page}}.html\n武侠::/category/2_{{page}}.html\n都市::/category/3_{{page}}.html\n历史::/category/4_{{page}}.html\n侦探::/category/5_{{page}}.html\n网游::/category/6_{{page}}.html\n科幻::/category/7_{{page}}.html",
+        "lastUpdateTime": 1682056289779,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##小说|\\s\\d.*",
+            "lastChapter": "{{@@[property$=chapter_name]@content}} • {{@@[property$=update_time]@content##\\s.*}}",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#content@html##.*ishuquge.la.*"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".l@li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##\\d+##$0###\n@js:\nid=result\niid=parseInt(id/1e3)\n\"/files/article/image/\"+iid+\"/\"+id+\"/\"+id+\"s.jpg\"",
+            "kind": ".s1@text&&.s5@text##\\[|\\]",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookinfo",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##\\d+##$0###\n@js:\nid=result\niid=parseInt(id/1e3)\n\"/files/article/image/\"+iid+\"/\"+id+\"/\"+id+\"s.jpg\"",
+            "kind": ".cat@text##分类：",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".listmain@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"s=0000000000000000000&searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

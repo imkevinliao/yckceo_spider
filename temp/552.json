@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceName": "飘天中文",
+        "bookSourceGroup": "",
+        "bookSourceUrl": "https://www.piaotianzw.com/",
+        "loginUrl": "",
+        "checkUrl": "",
+        "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+        "ruleFindUrl": "总点击榜::https://www.piaotianzw.com/top/allvisit/",
+        "ruleSearchUrl": "https://www.piaotianzw.com/modules/article/search.php?searchkey=",
+        "ruleSearchList": "id.main",
+        "ruleSearchName": "class.novelslistss@tag.li.0@tag.span.1@text",
+        "ruleSearchAuthor": "class.novelslistss@tag.li.0@tag.span.3@text",
+        "ruleSearchCoverUrl": "",
+        "ruleSearchKind": "",
+        "ruleSearchLastChapter": "class.novelslistss@tag.li.0@tag.span.2@text",
+        "ruleSearchNoteUrl": "class.novelslistss@tag.li.0@tag.a.0@href",
+        "ruleBookUrlPattern": "",
+        "ruleBookName": "id.info@tag.h1.0@text",
+        "ruleBookAuthor": "id.info@tag.a.0@text",
+        "ruleCoverUrl": "id.fmimg@img@src",
+        "ruleBookKind": "",
+        "ruleBookLastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "ruleChapterUrl": "",
+        "ruleChapterUrlNext": "",
+        "ruleIntroduce": "id.intro@textNodes",
+        "ruleChapterList": "id.list@dd",
+        "ruleChapterName": "tag.a@text",
+        "ruleContentUrl": "tag.a@href",
+        "ruleContentUrlNext": "",
+        "ruleBookContent": "id.content@textNodes##飘天中.*com，|最快更新.*!"
+    }
+]

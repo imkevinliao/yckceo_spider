@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceName": "巴巴鱼",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.babayu.tv/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1667652717233,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "canReName": "1",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？\\s]+[”」）】]?)##$1<br>",
+            "kind": "[property~=status|category|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "a.catalogbtn@href",
+            "wordCount": "text.字数：@text##.*[|]字数：|[|]作者：.*"
+        },
+        "ruleContent": {
+            "content": "div.article-con@p@ownText",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleSearch": {
+            "author": "h2@a@text##.*最新章节列表_[(](.*)[)]免费在线阅读_巴巴鱼##$1",
+            "bookList": "li.b_algo",
+            "bookUrl": "h2@a@href",
+            "name": "h2@a@text##最新章节列表_.*"
+        },
+        "ruleToc": {
+            "chapterList": "ul.chapter-list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.bing.com/search?q={{key}}+site:www.babayu.tv,{\"webView\":true}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "\n搜索用的是m，发现和正文用www\n网站可下载书籍\n目录w和m都可以写，但是搜索不稳定（问题存疑），出不来\n校验发现非常顺畅",
+        "bookSourceGroup": "☁️可用,☁参照组,☣️发现大精选",
+        "bookSourceName": "☁炫书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ibiquta.com",
+        "bookUrlPattern": "https://m.ibiquta.com/down/197001/\\d+.html",
+        "customOrder": -88917360,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "同人小说::https://www.ibiquta.com/soft6/index_{{page}}.html\n最新章节::/shuku/0_0_0_0_edittime_0_{{page}}.html\n\n科幻诸天::https://www.ibiquta.com/soft7/index_{{page}}.html\n完结经典::https://www.ibiquta.com/shuku/0_0_0_0_default_0_{{page}}.html\n历史架空::https://www.ibiquta.com/soft5/index_{{page}}.html\n都市起点::https://www.ibiquta.com/soft4/index_{{page}}.html\n穿越言情::https://www.ibiquta.com/soft3/index_{{page}}.html\n仙侠武侠::https://www.ibiquta.com/soft2/index_{{page}}.html\n奇幻玄幻::https://www.ibiquta.com/soft1/index_{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/\"\n}",
+        "lastUpdateTime": 1642073206000,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.container@class.info@class.detail@tag.p.0@a@text",
+            "coverUrl": "class.container@class.info@class.cover@img@onerro||class.container@class.info@class.cover@img@src##http.*com@js:'https://m.ibiquta.com'+result",
+            "intro": "class.container@class.box@tag.p@text##用户评论",
+            "kind": "class.container@class.info@class.detail@tag.p.4@text&&class.container@class.info@class.detail@tag.p.1@text##更新：|类别：",
+            "lastChapter": "class.container@class.mod@class.title str-over-dot@tag.p@text##.*更新时间：",
+            "name": "class.wrapper@class.caption@tag.p@text",
+            "tocUrl": "class.container@class.mod@class.button@tag.a@href",
+            "wordCount": "class.container@class.info@class.detail@tag.p.3@text##字数："
+        },
+        "ruleContent": {
+            "content": "class.view_content@id.view_content_txt@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "tag.p.0@tag.a.0@text##书籍作者：",
+            "bookList": "id.taoshumain@ul||id.mainlistUL@class.mainListInfo",
+            "bookUrl": "tag.a.1@href||class.mainListName@tag.a@href##http.*com@js:'https://m.ibiquta.com'+result",
+            "coverUrl": "tag.a.0@img@src##http.*com@js:'https://m.ibiquta.com'+result",
+            "intro": "tag.p.1@text",
+            "kind": "tag.p.0@tag.a.1@text&&tag.p.2@text##更新：.* |.*大小：|　.*:.*|",
+            "lastChapter": "tag.p.2@text||class.mainListDate@text##.*更新：",
+            "name": "tag.a.1@text||@class.mainListName@tag.a@text##《|》",
+            "wordCount": "tag.p.2@text##大小：.*|　|字数："
+        },
+        "ruleSearch": {
+            "author": "class.genxin@a@text",
+            "bookList": "class.waps_one",
+            "bookUrl": "class.waps_name@a@href",
+            "coverUrl": "img@src##http.*com@js:'https://m.ibiquta.com'+result",
+            "lastChapter": "class.waps_name@a@href<js>java.ajax(result)</js>class.chapter@tag.li.0@a@text",
+            "name": "class.waps_name@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.readlist@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href##https://m.*com@js:'https://www.ibiquta.com'+result",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://m.ibiquta.com/search.html,{\n\t\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

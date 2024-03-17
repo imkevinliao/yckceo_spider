@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "雪痕伤",
+        "bookSourceName": "笔趣阁1-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qbiqu.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/1_{{page}}.html\n修真小说::/xiuzhenxiaoshuo/2_{{page}}.html\n都市小说::/dushixiaoshuo/3_{{page}}.html\n穿越小说::/chuanyuexiaoshuo/4_{{page}}.html\n网游小说::/wangyouxiaoshuo/5_{{page}}.html\n科幻小说::/kehuanxiaoshuo/6_{{page}}.html",
+        "lastUpdateTime": 1654101536465,
+        "respondTime": 2273,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "id.intro@tag.p.0@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "author": "class.s5@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "id.nr",
+            "bookUrl": "tag.td.0@a@href",
+            "coverUrl": "tag.a.0@href<js>\nvar a = result.match(/(\\d+)\\/?$/)[1];\nvar b = parseInt(a/1000);\n'https://www.qbiqu.com/files/article/image/'+b+'/'+a+'/'+a+'s.jpg';\n</js>",
+            "lastChapter": "tag.td.1@a@text",
+            "name": "tag.td.0@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

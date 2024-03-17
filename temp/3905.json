@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "https://www.eexiaoshuo.com/\nwww.zwda.com",
+        "bookSourceGroup": "🌹,☣️精选senhora",
+        "bookSourceName": "🧾E小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.eexiaoshuo.net",
+        "customOrder": -2086087819,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻::/xuanhuan/\n修真::/xiuzhen/\n都市::/dushi/\n历史小说::/lishi/\n网游::/wangyou/\n科幻::/kehuan/\n言情::/yanqing/\n其他小说::/qita/",
+        "lastUpdateTime": 1692350406930,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作者：",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "",
+            "intro": "id.intro@text##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "class.con_top@tag.a.1@text&&\nid.info@tag.p.2@text##最后更新：",
+            "lastChapter": "id.info@tag.p.0@tag.a@text",
+            "name": "id.info@tag.h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##喜欢.*大家收藏：.*\\s.*\\s.*|\\(https://w.*\\)\\s.*"
+        },
+        "ruleExplore": {
+            "author": ".s5@text",
+            "bookList": "id.newscontent@ul@li",
+            "bookUrl": ".s2@a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": ".s3@text##.*\\(|\\)",
+            "lastChapter": ".s3@a@text",
+            "name": ".s2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.result-game-item-info@tag.p.0@tag.span.1@text",
+            "bookList": "class.result-list@class.result-item result-game-item",
+            "bookUrl": "class.result-game-item-detail@tag.h3@tag.a@href@js:'https://www.eexiaoshuo.com'+result",
+            "coverUrl": "class.result-game-item-pic@img@src",
+            "intro": "class.result-game-item-detail@tag.p.0@text",
+            "kind": "class.result-game-item-info@tag.p.1@tag.span.1@text&&\nclass.result-game-item-info@tag.p.2@tag.span.1@text",
+            "lastChapter": "class.result-game-item-info@tag.p.3@tag.a@text",
+            "name": "class.result-game-item-detail@tag.h3@tag.a@tag.span@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.eexiaoshuo.net/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

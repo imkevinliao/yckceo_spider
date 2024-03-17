@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "全本小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.iquanben.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1682577473591,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content ",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:title\"]@content"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes##.*\\(第.*页\\)",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##（本章未完.*下一页继续阅读）"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list@li!0",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": ".s1@text&&.s5@text##\\[|\\]",
+            "lastChapter": ".s4@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

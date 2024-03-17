@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceGroup": "爱猫小说书源合集",
+        "bookSourceName": "腐小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.jiqinw.com",
+        "bookUrlPattern": "",
+        "customOrder": 263,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "现代耽美::/xiandai/list_4_{{page}}.html\n古代耽美::/gudai/list_5_{{page}}.html\n穿越重生::/chuanyue/list_6_{{page}}.html\n玄幻灵异::/qihuan/list_7_{{page}}.html\n网游竞技::/wangyou/list_8_{{page}}.html\n同人耽美::/tongren/list_9_{{page}}.html\nG L 百合::/baihe/list_10_{{page}}.html\nnull",
+        "header": "",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "##作者：([^<]+)<##$1###",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.co-by@html",
+            "imageStyle": "0.0",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "tag.a.0@text##.*作者：",
+            "bookList": "class.list_article@ul@li||class.list_article@ul@li",
+            "bookUrl": "tag.a.0@href||",
+            "coverUrl": "@js:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566992610688&di=df0ff5ed9b03b65e479ddbea6594b1f0&imgtype=0&src=http%3A%2F%2Fpic9.nipic.com%2F20100826%2F2457331_152132536376_2.jpg'",
+            "intro": "class.desc.0@text",
+            "kind": "",
+            "lastChapter": "class.time.0@text",
+            "name": "tag.a.0@b@text||tag.a.0@strong@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "##作者：([^<]+)<##$1###",
+            "bookList": "class.list_article@ul@li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "",
+            "intro": "class.desc.0@text",
+            "kind": "tag.a.0@text",
+            "lastChapter": "class.time.0@text",
+            "name": "tag.a.1@text##\\作者：.*",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.art_pege@ul@tag.li!0:1:2:3@a",
+            "chapterName": "text##(\\d+)##第$1页",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "http://www.jiqinw.com/plus/search.php?q={{key}}",
+        "weight": 0
+    }
+]

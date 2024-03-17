@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "加载较慢，偶尔超时宕机",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "秋叶楼/平板电子书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://wap.qiuyelou.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/xuanhuan/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真小说\",\"url\":\"/xiuzhen/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠小说\",\"url\":\"/wuxia/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史小说\",\"url\":\"/lishi/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/dushi/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游小说\",\"url\":\"/game/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/kehuan/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖小说\",\"url\":\"/kongbu/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越小说\",\"url\":\"/chuanyue/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情小说\",\"url\":\"/yanqing/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"校园小说\",\"url\":\"/xiaoyuan/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "lastUpdateTime": 1685001956485,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.2@text",
+            "coverUrl": "img@src",
+            "downloadUrls": "text.TXT下载@href",
+            "intro": "class.intro_info@text##最新章节推荐.*",
+            "kind": "p.3:4:5@text##分类：|状态：|更新：",
+            "lastChapter": "p.6@text##最新：",
+            "name": "h1@text",
+            "tocUrl": "text.更多章节@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html##（本章未完.*继续阅读）",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "textNodes##.*\\]\\s.*/",
+            "bookList": "class.line",
+            "bookUrl": "a@href",
+            "kind": "textNodes##\\s/.*|\\[|\\]",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.3@text",
+            "bookList": "class.block",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "",
+            "kind": "p.2@text##分类：",
+            "lastChapter": "p.4@text##最新章节：",
+            "name": "h2@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://wap.qiuyelou.net/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

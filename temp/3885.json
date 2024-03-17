@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "18笔趣阁/笔趣小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.18biquge.com",
+        "bookUrlPattern": "https?://wap.18biquge.com/read/\\d+/$",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/sort/1/{{page}}/\n武侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n历史军事::/sort/4/{{page}}/\n耽美女频::/sort/5/{{page}}/\n游戏竞技::/sort/6/{{page}}/\n科幻惊悚::/sort/7/{{page}}/\n其他类型::/sort/8/{{page}}/\n完本小说::/quanben/sort/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691887181089,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#TextContent@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "p@text",
+            "bookList": "ul li",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": ".desc@text",
+            "kind": "0",
+            "name": "h3@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p span@text##\\/",
+            "bookList": ".list li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": "span.1@text&&tag.i@text##\\[|\\]",
+            "name": "p@textNodes"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://wap.18biquge.com/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

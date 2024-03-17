@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "如非必要，最好别用",
+        "bookSourceGroup": "C",
+        "bookSourceName": "ou中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ouoou.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1619918866173,
+        "ruleBookInfo": {
+            "author": "##作.*?者：([^&lt;]+)&lt;##$1###",
+            "coverUrl": "img@src",
+            "init": "#maininfo",
+            "intro": "id.intro@tag.p.1@text",
+            "kind": "##类.*?别：([^&lt;]+)&lt;##$1###",
+            "lastChapter": "##最新章节[^>]+>([^&lt;]+?)&lt;/[\\s\\S]+?更新时间：([^&lt;]+?)&lt;/##$1•$2###",
+            "name": "h1@text##\\(.*\\)",
+            "wordCount": "##作品状态：([^&lt;]+)&lt;##$1###"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "class.result",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@src",
+            "name": "h3@text##^([^\\_]*).*##$1\n&lt;js>result.replace(/最新章节/,\"\").replace(/\\(.*\\)/,\"\")&lt;/js>"
+        },
+        "ruleToc": {
+            "chapterList": "#list a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://zhannei.baidu.com/cse/site?q={{key}}&cc=ouoou.com",
+        "weight": 0
+    }
+]

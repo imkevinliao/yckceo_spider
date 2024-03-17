@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "好看中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.haokanzw.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1621048044253,
+        "ruleBookInfo": {
+            "coverUrl": ".synopsisArea_detail img@src",
+            "intro": ".review@text",
+            "lastChapter": ".directoryArea@tag.a.0@text&&tag.h2.0@text##\\n.*更新：##•",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*本章未完.*阅读\\s*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "##作者：([^<]+)<##$1###",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href##book\\/(([\\d]+)[\\d]{3})##https://pic.haokanzw.com/$2/$1/$1s.jpg###",
+            "kind": "##or\\\">([^\\|]+) | 作者##$1###",
+            "lastChapter": "##更新：([^<]+)</##$1###",
+            "name": ".title@text",
+            "wordCount": "class.author.1@text##([^\\|]+) | 更新##$1###"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}&t=1&sumbit=搜索\"\n}",
+        "weight": 0
+    }
+]

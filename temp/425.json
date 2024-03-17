@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "版主",
+        "bookSourceName": "第一版主",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bz9999.xyz/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最近更新::http://www.bz9999.xyz/\n全部::http://www.bz9999.xyz/shuku/0-lastupdate-0-{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36\"}",
+        "lastUpdateTime": 1636356477763,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "name": "class.right@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "class.neirong@html",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "@js:\n(()=>{try{\nvar html = result\nvar p = /chapterPages[\\s\\S]*?<\\/center/\nvar ss = html.match(p)[0]\nvar as = ss.match(/<a.*?>/g)\nvar len = as.length\nvar i = 0\nfor(i=0;i<len;i++){\n\tif(as[i].indexOf(\"curr\")>0){\n\t\tbreak\n\t\t}\n\t}\nif (i!=len-1){\n\treturn as[i+1].match(/href=\"(.*?)\"/)[1]\n\t}\nelse{\n\treturn html.match(/href=\"(.*?)\".*?class=\"next\"/)[1]\n\t}}\n\tcatch(e){return e}\n\t})()"
+        },
+        "ruleExplore": {
+            "author": "class.info@tag.a@text",
+            "bookList": "class.bd@class.column-2",
+            "bookUrl": "class.name@href",
+            "kind": "tag.span.0@text",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "class.name@text",
+            "wordCount": "class.info@tag.span@text##字数："
+        },
+        "ruleSearch": {
+            "author": "class.info@text",
+            "bookList": "class.column-2 ",
+            "bookUrl": "class.right@class.name@href",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "class.right@class.name@text",
+            "wordCount": "class.info@tag.span@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-list.1@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.nextPage@href"
+        },
+        "searchUrl": "http://www.diyibanzhu666.xyz/s.php,{\n\t\"charset\":\"gbk\",\n\t\"method\":\"POST\",\n\t\"headers\":{\"Referer\": \"{{baseUrl}}s/php\"},\n\t\"body\":\"objectType=2&type=articlename&s={{key}}&page={{page}}\"\n\t}",
+        "weight": 0
+    }
+]

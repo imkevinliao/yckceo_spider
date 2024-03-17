@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceName": "野蛮漫画",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://www.xsyz.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1685024985091,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "#js_desc_content@text",
+            "kind": "a.type@text"
+        },
+        "ruleContent": {
+            "content": "#imgsec@img@data-src\n@js:\nresult.split(\"\\n\").map(x=>'<img src=\"'+x+'\">').join(\"\\n\")"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "#js_comicSortList@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "天命大反派",
+            "coverUrl": "img@src",
+            "lastChapter": ".chapter@text",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": "#js_chapters@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search?searchkey={{key}}",
+        "weight": 0
+    }
+]

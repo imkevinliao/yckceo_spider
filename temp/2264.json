@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "学习写源",
+        "bookSourceName": "丫丫",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.yayayd.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1614803012252,
+        "ruleBookInfo": {
+            "author": "class.size12.1@text",
+            "lastChapter": "class.flex-wrp flex-between pt10 pb10.0@text",
+            "name": "tag.h1@text",
+            "tocUrl": "class.pt-chapter@tag.a.-1@href",
+            "wordCount": "class.size12 lh100 color4.1@text## / .*"
+        },
+        "ruleContent": {
+            "content": "id.pt-pop@tag.p!0@text",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.color5 size12@text",
+            "bookList": "class.flex-wrp pt-recomment-item",
+            "bookUrl": "class.size14 color7@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.size12 compulsory-row mb10 mt10 lh130 color4@text",
+            "kind": "class.pt-recomment-label@txet",
+            "name": "class.size14 color7@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-list",
+            "chapterName": "tag.span.0@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.yayayd.com/search/result.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

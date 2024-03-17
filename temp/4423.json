@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "修复优化",
+        "bookSourceName": "新御书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xinyushuwu.cc/",
+        "bookUrlPattern": "https?://m.xinyushuwu.cc/\\d+/\\d+/",
+        "customOrder": 4,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"玄幻小说\",\"url\":\"https://m.xinyushuwu.cc/sort/1_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠小说\",\"url\":\"https://m.xinyushuwu.cc/sort/2_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市小说\",\"url\":\"https://m.xinyushuwu.cc/sort/3_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军史小说\",\"url\":\"https://m.xinyushuwu.cc/sort/4_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游小说\",\"url\":\"https://m.xinyushuwu.cc/sort/5_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"https://m.xinyushuwu.cc/sort/6_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美小说\",\"url\":\"https://m.xinyushuwu.cc/sort/7_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"辣文合集\",\"url\":\"https://m.xinyushuwu.cc/sort/8_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; MIX 2 Build/PKQ1.190118.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1699503455228,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".infotype p:nth-of-type(1) a@text",
+            "coverUrl": ".pic img@src",
+            "intro": "{{@@p:nth-of-type(3)@text}}\n{{@@div.intro@text}}",
+            "kind": ".infotype p:nth-of-type(2)@text",
+            "lastChapter": "p:nth-of-type(4) a@text",
+            "name": ".cataloginfo h3@text",
+            "tocUrl": "li:nth-of-type(2) p a@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "div.novelcontent@html##上一章|返回目录|加入书签|下一章|上一页|　本章未完，|请点击下一页继续阅读 》》|下一页",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".author a@text",
+            "bookList": "div.article:nth-of-type(n+5)",
+            "bookUrl": "h6 a@href",
+            "coverUrl": "img@src",
+            "intro": "p.simple@text",
+            "kind": "0",
+            "name": "h6 a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author a@text",
+            "bookList": "p.sone",
+            "bookUrl": ".sone > a@href",
+            "checkKeyWord": "",
+            "kind": "0",
+            "name": ".sone > a@text"
+        },
+        "ruleToc": {
+            "chapterList": "li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.xinyushuwu.cc/s.php,{\n\"method\":\"post\",\n\"charset\":\"gbk\",\n\"body\":\"s={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

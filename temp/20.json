@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "备用地址：http://www.fuxsw.cc/",
+        "bookSourceName": "腐小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.fxsw.cc",
+        "customOrder": 21,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"现代耽美\",\"url\":\"/xiandai/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"古代耽美\",\"url\":\"/gudai/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"穿越重生\",\"url\":\"/chuanyue/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"玄幻灵异\",\"url\":\"/qihuan/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"网游竞技\",\"url\":\"/wangyou/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"同人耽美\",\"url\":\"/tongren/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"G L 百合\",\"url\":\"/baihe/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
+        "lastUpdateTime": 1664546421832,
+        "respondTime": 858,
+        "ruleBookInfo": {
+            "author": "strong@a@text",
+            "intro": ".bzmtit@p@html||.wz-nr@p@html||div.wz-nr@html##(\\S*|\\S*\\s*)第(.?|\\d*)(卷|章).*(\\s.*)*|\\s?(Fxsw.org)|☆、.*(\\s.*)*",
+            "kind": ".atts@span@a@text&&.atts@span.0@text##时间：",
+            "lastChapter": ".art_pege@li.-1@a@text||.xiapage@li.-1@a@text",
+            "name": ".con_box@h1@text"
+        },
+        "ruleContent": {
+            "content": ".bzmtit@p@text||.wz-nr@p@text||div.wz-nr@html",
+            "replaceRegex": "##\\s?(Fxsw.org)"
+        },
+        "ruleExplore": {
+            "author": "h2@a@text##.*作者：",
+            "bookList": ".list_article@li",
+            "bookUrl": "h2@a@href",
+            "intro": "p.desc@text##\\s|阅读全文[>]{2}",
+            "kind": "span.tags@text&&span.time@text",
+            "name": "h2@a@text"
+        },
+        "ruleSearch": {
+            "author": "span.click@text",
+            "bookList": ".list_article@li",
+            "bookUrl": "h2@a@href",
+            "intro": "p.desc@text##\\s",
+            "kind": "span.time@text&&li@p.0@text##[(]|[)]",
+            "name": "h2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".art_pege@li:nth-of-type(n+4)@a||.xiapage@li:nth-of-type(n+4)@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/e/search/index.php,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&show=title,writer,ftitle,keyboard&tempid=1&tbname=article\"\n}",
+        "weight": 0
+    }
+]

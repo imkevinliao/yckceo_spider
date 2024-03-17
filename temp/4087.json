@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,网页源,特殊",
+        "bookSourceName": "po18文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.po18wen.xyz",
+        "bookUrlPattern": "https?://m.po18wen.xyz/book/\\d+.html",
+        "customOrder": 46,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/sort/1_{{page}}/\n仙侠::/sort/2_{{page}}/\n都市::/sort/3_{{page}}/\n穿越::/sort/4_{{page}}/\n科幻::/sort/5_{{page}}/\n网游::/sort/6_{{page}}/\n精品::/sort/7_{{page}}/\n完本::/full/{{page}}/",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1694996752160,
+        "respondTime": 8916,
+        "ruleBookInfo": {
+            "author": ".xx a.1@text",
+            "coverUrl": ".xsfm img@src",
+            "intro": ".jianjie@text",
+            "kind": ".xx li.1@text##分类：",
+            "lastChapter": ".xx a.-1@text",
+            "name": ".xx li.0@text",
+            "tocUrl": "text.更多章节@href##/$##_1/"
+        },
+        "ruleContent": {
+            "content": "#nr@html",
+            "nextContentUrl": "text.下一@href"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".fk ul",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "span.-2@text",
+            "kind": "span.-1@href",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".fk li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".lb li!-1@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ".showpage a@href"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"type=articlename&s={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

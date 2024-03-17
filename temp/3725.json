@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "耽美小说网5",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.dmx5.com",
+        "bookUrlPattern": "https://m.dmx5.com/wapbook/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻修仙::/list1/{{page}}.html\n现代都市::/list2/{{page}}.html\n古代架空::/list3/{{page}}.html\n穿越重生::/list4/{{page}}.html\n网游动漫::/list5/{{page}}.html\n科幻未来::/list6/{{page}}.html\n恐怖灵异::/list7/{{page}}.html\n BG言情 ::/list8/{{page}}.html\n其他类型::/list9/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689240546117,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##紧急通知.*更换新域名.+请重新加入收藏！"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.2@text",
+            "bookList": ".block",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "寒山",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text##最新：.*",
+            "kind": "a.-2@text||p.-2@text##时间：",
+            "lastChapter": "a.5@text",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"type=articlename&s={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

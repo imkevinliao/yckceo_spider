@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceUrl": "http://m.bjcan8.com/",
+        "lastUpdateTime": 1674028892348,
+        "ruleToc": {
+            "chapterList": "class.clearfix@li",
+            "chapterName": "@text",
+            "chapterUrl": "@a@href"
+        },
+        "bookSourceType": 0,
+        "searchUrl": "http://m.bjcan8.com/home/search/index.html?keyword={{key}}",
+        "bookSourceName": "笔尖小说网",
+        "ruleSearch": {
+            "bookList": ".clearfix@li",
+            "name": "@a@text",
+            "author": "",
+            "intro": ".intro@text",
+            "coverUrl": "img@src",
+            "bookUrl": ".tit@href",
+            "kind": ".type@text"
+        },
+        "ruleBookInfo": {
+            "name": "class.base clearfix@dd@h2@text",
+            "author": ".info.0@span.3@text##作者：",
+            "kind": ".info.0@span.1@text##分类：",
+            "lastChapter": "class.attentions@tag.li.0@text",
+            "intro": ".intro.0@text",
+            "coverUrl": ".lazy.0@src",
+            "tocUrl": ".review-more@a@href"
+        },
+        "ruleContent": {
+            "content": ".content@html"
+        }
+    }
+]

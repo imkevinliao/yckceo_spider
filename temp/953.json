@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "轻小说",
+        "bookSourceName": "猪婆小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.zpxs.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1633010889523,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "tag.p.1@text",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@text",
+            "kind": "tag.p.2@text",
+            "lastChapter": "tag.p.5@text##最新：",
+            "name": "class.info@tag.p.0@text",
+            "tocUrl": "class.lb_mulu@tag.a.-1@href"
+        },
+        "ruleContent": {
+            "content": "id.nr@tag.p@html",
+            "nextContentUrl": "id.pb_next@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.mr15@text",
+            "bookList": "class.list-item",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "",
+            "coverUrl": "tag.img@src",
+            "intro": "class.fs12 gray.1@text",
+            "name": "class.article@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.lb_mulu@tag.li.!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search,{\n'method': 'POST',\n'body':'searchtype=all&searchkey={{key}}&t_btnsearch='}",
+        "weight": 0
+    }
+]

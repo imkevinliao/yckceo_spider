@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "雪痕伤",
+        "bookSourceName": "斋书苑-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zhaishuyuan.org",
+        "customOrder": 4,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/category/xuanhuan_{{page}}.html\n武侠仙侠::/category/wuxia_{{page}}.html\n都市小说::/category/dushi_{{page}}.html\n网游竞技::/category/wangyou_{{page}}.html\n穿越小说::/category/chuanyue_{{page}}.html\n科幻小说::/category/kehuan_{{page}}.html\n悬疑推理::/category/xuanyi_{{page}}.html\n其他小说::/category/qita_{{page}}.html",
+        "lastUpdateTime": 1653876902761,
+        "respondTime": 3938,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "id.bookintro@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.four@text",
+            "bookList": "class.shulist@ul",
+            "bookUrl": "class.three@a@href",
+            "lastChapter": "class.gray@text",
+            "name": "class.three@tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.dd.1@a@text",
+            "bookList": "id.sitembox@dl",
+            "bookUrl": "tag.dd.0@a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.dd.2@text",
+            "lastChapter": "tag.dd.3@a@text",
+            "name": "tag.dd.0@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlist@li",
+            "chapterName": "a@text##-",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

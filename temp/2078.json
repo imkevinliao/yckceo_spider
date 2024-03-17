@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "一曲书斋™",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yiqushu.cc",
+        "bookUrlPattern": ".+/book/\\d+/",
+        "customOrder": -39093,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618233366930,
+        "ruleBookInfo": {
+            "author": "$4",
+            "coverUrl": "$2",
+            "init": ":>首页(?:[^>]*>){2}([^<]*)[\\s\\S]*?img src=\"([^\"]*)[\\s\\S]*?h1>([^<]*)[\\s\\S]*?作者：([^<]*)[\\s\\S]*?</b>([^&]*)[\\s\\S]*?</b>(\\d+)[\\s\\S]*?</b>([^<]*)(?:[^;]*;){4}([^<]*)[\\s\\S]*? href=\"([^\"]*)[\\s\\S]*?_blank\">([^<]*)",
+            "intro": "$8@js:result.replace(/【展开.*/, '').replace(/^\\s*/, '<br>')",
+            "kind": "$1,$5,$7",
+            "lastChapter": "$10@js:String(result).replace(/^@get:{name}/,\"\")",
+            "name": "$3@put:{name:$3}",
+            "tocUrl": "$9",
+            "wordCount": "$6"
+        },
+        "ruleContent": {
+            "content": "#BookText@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$4",
+            "bookList": ":item-pic[\\s\\S]*?href=\"([^\"]*)[\\s\\S]*?src=\"([^\"]*)\"[^\"]*\"([^\"]*)[\\s\\S]*?作者：<i>([^<]*)[\\s\\S]*?状态：<i>([^<]*)[\\s\\S]*?_blank\">([^<]*)[\\s\\S]*?更新时间：<i>([^<]*)[\\s\\S]*?<p>([^<]*)",
+            "bookUrl": "$1",
+            "coverUrl": "$2",
+            "intro": "$8",
+            "kind": "$5,$7",
+            "lastChapter": "$6",
+            "name": "$3"
+        },
+        "ruleToc": {
+            "chapterList": ":dd><a href=\"([^\"]*)\">([^<]*)",
+            "chapterName": "$2",
+            "chapterUrl": "$1"
+        },
+        "searchUrl": "/modules/article/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+        "weight": 0
+    }
+]

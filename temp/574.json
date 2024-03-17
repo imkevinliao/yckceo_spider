@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️零点看书☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.7725808.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1645446669816,
+        "ruleBookInfo": {
+            "author": "tag.p.0@tag.a.0@title",
+            "coverUrl": "tag.img@src",
+            "intro": "id.intro@html",
+            "kind": "class.visible-xs.2@text##状态：",
+            "lastChapter": "class.lastchapter visible-xs@tag.a@title",
+            "name": "tag.h1@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "class.visible-xs.1@text"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@tag.p@html##。：准备有声小说在线收听",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.btm@tag.a@title",
+            "bookList": "class.item",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.dd@html",
+            "kind": "",
+            "name": "class.image@tag.a@title",
+            "wordCount": "class.orange visible-xs@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@tag.a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://www.7725808.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

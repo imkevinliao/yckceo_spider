@@ -1,0 +1,24 @@
+[
+    {
+        "bookSourceUrl": "www.superbeautygirlx.com",
+        "lastUpdateTime": 1676436396015,
+        "ruleToc": {
+            "chapterList": "h1",
+            "chapterName": "@text"
+        },
+        "bookSourceType": 2,
+        "bookSourceName": "FORUM GIRL//请大佬帮忙完善",
+        "bookSourceGroup": "R18",
+        "exploreUrl": "Chines::https://www.superbeautygirlx.com/search/label/Chinese\nJapanese::https://www.superbeautygirlx.com/search/label/Japanese\nKorean::https://www.superbeautygirlx.com/search/label/Korean",
+        "ruleExplore": {
+            "bookList": "class.post-outer",
+            "name": "h2@a@text",
+            "bookUrl": "a@href",
+            "coverUrl": "class.img-thumbnail@img@src"
+        },
+        "ruleContent": {
+            "content": "class.separator@img@src\n\n@js:\nresult.includes(\".jpg\")?result.split(\"\\n\").map(src=>`<img src=\"${src}\">`).join(\"\\n\"):result"
+        },
+        "bookSourceComment": "1、爬梯子，不然图片加载超时\n2、加载图片出现替换超时，3秒钟后还未结束将重启应用\n3、发现的翻页规则没有完成"
+    }
+]

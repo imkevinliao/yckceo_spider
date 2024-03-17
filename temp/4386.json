@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceName": "万相书城",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wxsc8.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻·奇幻\",\"url\":\"/nav/xuanhuan_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"仙侠·武侠\",\"url\":\"/nav/xianxia_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市·娱乐\",\"url\":\"/nav/dushi_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"历史·军事\",\"url\":\"/nav/lishi_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻·游戏\",\"url\":\"/nav/kehuan_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"恐怖·悬疑\",\"url\":\"/nav/kongbu_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"耽美·纯爱\",\"url\":\"/nav/chunai_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"女生·言情\",\"url\":\"/nav/yanqing_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"轻·小说\",\"url\":\"/nav/erciyuan_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
+        "header": "{\n\t\"User-Agents\": \"Mozilla/5.0 (Linux; U; Android 12.0.1; zh-cn; Pixel 6 Pro) Quark/4.5.5.155 UCBrowser/13.2.0.1100 \"\n}",
+        "lastUpdateTime": 1698816870554,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "downloadUrls": "",
+            "init": "",
+            "intro": "",
+            "lastChapter": "",
+            "name": "h1.book-name a@text##《|》",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "#cont-body@html",
+            "nextContentUrl": "text.下一页@href",
+            "sourceRegex": "",
+            "title": ""
+        },
+        "ruleExplore": {
+            "author": "div > div > div.media-title > h4 > a@href\n<js>\nif(typeof result==\"object\"){\n\tresult=result?result[0]:null\n\t}else{result=result}\nmatch = baseUrl.match(/^(https?:\\/\\/[^/]+)/);\nturl=match ? match[0] : null;\nurl=turl + result;\nh=java.ajax(url);\njava.put('h',h);\n</js>\ndiv.book-info > div > div > div.media > div.media-body > div.row > div:nth-child(1) > a@text",
+            "bookList": "body > div.container.t10 > div.col-left > div.panel.panel-info > div.panel-body > div > div",
+            "bookUrl": "div > div > div.media-title > h4 > a@href",
+            "coverUrl": "div > a > img@src",
+            "intro": "div > div > div.media-info@text",
+            "kind": "<js>\nh=java.get('h');\n</js>\ndiv.book-info > div > div > div.media > div.media-body > div.row > div:nth-child(2)@text\n##状态：",
+            "lastChapter": "<js>\nh=java.get('h');\n</js>\nclass.col-md-8 col-sm-6 dark.1@tag.a.0@text",
+            "name": "div > div > div.media-title > h4 > a@text\n##《|》"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.1@text",
+            "bookList": "div.panel-body > table > tbody > tr[0:9]",
+            "bookUrl": "td > a@href",
+            "checkKeyWord": "",
+            "coverUrl": "<js>\nh=java.get('h');\n</js>\n//img[contains(@class, \"book-img-middel\")]/@src",
+            "intro": "<js>\nh=java.get('h');\n</js>\ndiv.book-detail@text",
+            "kind": "a.0@href\n<js>\nif(typeof result==\"object\"){\n\tresult=result?result[0]:null\n\t}else{result=result}\nmatch = baseUrl.match(/^(https?:\\/\\/[^/]+)/);\nturl=match ? match[0] : null;\nurl=turl + result;\nh=java.ajax(url);\njava.put('h',h);\n</js>\ndiv.book-info > div > div > div.media > div.media-body > div.row > div:nth-child(2)@text##状态：",
+            "lastChapter": "<js>\nh=java.get('h');\n</js>\nclass.col-md-8 col-sm-6 dark.1@tag.a.0@text",
+            "name": "a.0@text##《|》"
+        },
+        "ruleToc": {
+            "chapterList": "#all-chapter > div > div.panel-body > div > div > a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "/plus/search.php?q={{key}}",
+        "weight": 0
+    }
+]

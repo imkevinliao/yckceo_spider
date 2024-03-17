@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceUrl": "http://m.huanyue123.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "幻月书院(m)",
+        "bookSourceGroup": "Zack",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://m.huanyue123.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+        "exploreUrl": "全部::/xclass/0/{{page}}.html\n玄幻::/xclass/1/{{page}}.html\n仙侠::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n历史::/xclass/4/{{page}}.html\n网游::/xclass/5/{{page}}.html\n科幻::/xclass/6/{{page}}.html\n灵异::/xclass/7/{{page}}.html\n言情::/xclass/8/{{page}}.html\n其他::/xclass/9/{{page}}.html",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": "class.hot_sale",
+            "name": "tag.p.0@text",
+            "author": "tag.p.1@text##.*作者：",
+            "kind": "tag.p.1@text##\\s*\\|.*",
+            "wordCount": "",
+            "lastChapter": "tag.p.2@text##.*更新：",
+            "intro": "",
+            "coverUrl": "",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": "id.main@class.hot_sale",
+            "name": "class.title.0@text",
+            "author": "class.author.0@text##.*作者：",
+            "kind": "",
+            "wordCount": "",
+            "lastChapter": "",
+            "intro": "class.review.0@text",
+            "coverUrl": "tag.a.0@tag.img.0@data-original || tag.a.0@tag.img.0@src ",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleBookInfo": {
+            "init": "",
+            "name": "id.bqgmb_h1@text",
+            "author": "class.author.0@text##.*作者：",
+            "kind": "class.sort.0@text##.*类别：",
+            "wordCount": "",
+            "lastChapter": "class.synopsisArea_detail.0@class.upchapter.0@a@text",
+            "intro": "class.review@text",
+            "coverUrl": "class.synopsisArea_detail@tag.img@src",
+            "tocUrl": "{{baseUrl}}all.html"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@p!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": "",
+            "updateTime": "",
+            "nextTocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html##章节错误,点此举报(免注册)",
+            "nextContentUrl": "",
+            "webJs": "",
+            "sourceRegex": ""
+        }
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "bookSourceGroup": "现实debug",
+        "bookSourceName": "海岸线文学网",
+        "bookSourceUrl": "https://m.haxwenx.com",
+        "enable": false,
+        "ruleBookContent": "class.novelcontent@html##本章未完，请点击下一页继续阅读.{3,5}",
+        "ruleBookLastChapter": "class.info_chapters@class.p2.0@tag.li.0@text",
+        "ruleChapterList": "class.main@class.info_chapters@class.p2.1@tag.li",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrlNext": "class.middle@tag.option@value",
+        "ruleContentUrl": "tag.a@href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleSearchAuthor": "class.p3@tag.a@text",
+        "ruleSearchKind": "class.p1@tag.a@text",
+        "ruleSearchList": "class.main1@class.user_content@class.content_link",
+        "ruleSearchName": "class.p2_so@tag.a@text",
+        "ruleSearchNoteUrl": "class.p2_so@tag.a@href",
+        "ruleSearchUrl": "/s.php@s= searchKey&type=articlename|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

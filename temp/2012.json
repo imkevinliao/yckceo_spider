@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "感谢西门吹雪大佬解决了发现的问题，我把书源的列表规则写错了，所以读取到的发现列表有问题。再次感谢大佬！🌹",
+        "bookSourceGroup": "🍈精品",
+        "bookSourceName": "🍈 凤18小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.mc18.cc",
+        "customOrder": -134324,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "奇幻玄幻::http://www.mc18.cc/lists/18.html?page={{page}}\n武侠仙侠::http://www.mc18.cc/lists/19.html?page={{page}}\n历史军事::http://www.mc18.cc/lists/20.html?page={{page}}\n都市娱乐::http://www.mc18.cc/lists/21.html?page={{page}}\n科幻末日::http://www.mc18.cc/lists/22.html?page={{page}}",
+        "lastUpdateTime": 1619157889351,
+        "ruleBookInfo": {
+            "author": "class.author fl@text",
+            "coverUrl": "class.pic fl@tag.span@img@src",
+            "kind": "",
+            "name": "class.name fl@text",
+            "tocUrl": "text@目录(.*)@href",
+            "wordCount": "class.hits@tag.span.0@text"
+        },
+        "ruleContent": {
+            "content": "class.read-section jsChapterWrapper@tag.p@html"
+        },
+        "ruleExplore": {
+            "author": "tag.dd@tag.a.1@text",
+            "bookList": "class.secd-rank-list@dl",
+            "bookUrl": "tag.dd@tag.a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.big-book-info@text",
+            "kind": "tag.dd@tag.a.2@text",
+            "lastChapter": "tag.dd@tag.p.2@text",
+            "name": "tag.dd@tag.a.0@text",
+            "wordCount": "class.clicknum@tag.em.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.dd@tag.a.1@text",
+            "bookList": "class.secd-rank-list",
+            "bookUrl": "tag.dd@tag.a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.big-book-info@text",
+            "kind": "tag.dd@tag.a.2@text",
+            "lastChapter": "tag.dd@tag.p.2@text",
+            "name": "tag.dd@tag.a.0@text",
+            "wordCount": "class.clicknum@tag.em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.cate-list@tag.ul@tag.li!0:1:2:3@tag.a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.mc18.cc/search.html?keyword={{key}}",
+        "weight": 0
+    }
+]

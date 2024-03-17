@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "枫叶文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.fengyewx.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1625028929618,
+        "ruleBookInfo": {
+            "author": "class.p_author@a@text",
+            "coverUrl": "id.bookimg@img@src",
+            "intro": "id.bookintro@p@text##免费提供.*小说:",
+            "kind": "class.count_ul1@tag.span!2@text&&id.uptime@span@text",
+            "lastChapter": "class.chaw@tag.a.0@text",
+            "name": "class.d_title@h1@text",
+            "wordCount": "class.count_ul1@tag.span.2@text"
+        },
+        "ruleContent": {
+            "content": "id.TextContent@p@html##您可以.*最新章节！",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span.2@text",
+            "bookList": "id.nr",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.dd.2@text##免费提供.*小说:",
+            "kind": "tag.span.3@text",
+            "lastChapter": "tag.a.2@text",
+            "name": "h3@a@text",
+            "wordCount": "tag.span.4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chaw_c@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.fengyewx.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

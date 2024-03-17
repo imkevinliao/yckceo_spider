@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "本书源用于下载txt，在线阅读请用仓库里另一个书源",
+        "bookSourceGroup": "📥 下载",
+        "bookSourceName": "📥手机宝书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.baoshuu.com",
+        "bookUrlPattern": "",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "奇幻玄幻::/TXT/list4_{{page}}.html\n武侠仙侠::/TXT/list5_{{page}}.html\n都市重生::/TXT/list6_{{page}}.html\n历史军事::/TXT/list7_{{page}}.html\n恐怖推理::/TXT/list8_{{page}}.html\n科幻网游::/TXT/list9_{{page}}.html\n二次元::/TXT/list10_{{page}}.html\n古代言情::/TXT/list11_{{page}}.html\n穿越重生::/TXT/list12_{{page}}.html\n玄幻仙侠::/TXT/list13_{{page}}.html\n青春同人::/TXT/list14_{{page}}.html\n网游科幻::/TXT/list15_{{page}}.html\n现代耽美::/TXT/list27_{{page}}.html\n古代架空::/TXT/list28_{{page}}.html\n穿越重生::/TXT/list29_{{page}}.html\n玄幻科幻::/TXT/list30_{{page}}.html\nBL同人::/TXT/list31_{{page}}.html\nGL百合::/TXT/list32_{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36\",\n\"Accept-Language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"Cookie\": \"__cfduid=d30b395a85454c7fa1f0547fa6d85a65f1593490177\"}",
+        "lastUpdateTime": 1614105634801,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.mlist@tag.li.0@text",
+            "canReName": "true",
+            "coverUrl": "class.mlist@tag.a.0@img@src",
+            "init": "",
+            "intro": "class.conten@tag.p@html",
+            "kind": "",
+            "name": "class.mlist@tag.h1.0@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "@js:\"点击章节链接跳转浏览器下载\"+baseUrl"
+        },
+        "ruleExplore": {
+            "author": "tag.h3@text##/文",
+            "bookList": "class.man_first@tag.li",
+            "bookUrl": "tag.h1@tag.a@href",
+            "intro": "tag.p@text",
+            "name": "tag.h1@tag.a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.1@href<js>org.jsoup.Jsoup.connect('https://m.baoshuu.com'+result).get()</js>\n##作者：</i><a.*?>([^<]+)##$1###",
+            "bookList": "class.sslist@tag.li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "",
+            "intro": "tag.p.-1@html##阅读全文.*",
+            "lastChapter": "",
+            "name": "tag.a.1@text##_.*|作者.*| 完结\\+番外"
+        },
+        "ruleToc": {
+            "chapterList": "class.qd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://m.baoshuu.com/search.asp?word={{key}}&btzz=&s=0&m=2&page={{page}},{\n\"charset\"= \"gb2312\",\n\"method\": \"GET\"\n}",
+        "weight": 0
+    }
+]

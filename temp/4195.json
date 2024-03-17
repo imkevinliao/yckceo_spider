@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "源仓库,整理检验,自制,网页源",
+        "bookSourceName": "妙笔阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.miaobige.cc",
+        "bookUrlPattern": "http://m.miaobige.cc/\\d+/\\d+/",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n玄幻::/xuanhuan/\n武侠::/wuxia/\n言情::/yanqing/\n历史::/lishi/\n网游::/wangyou/\n科幻::/kehuan/\n恐怖::/kongbu/\n排行榜::/top/\n全本::/quanben/",
+        "header": "{\"referer\": \"{{source.getKey()}}\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1696252373401,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一@href\n@js:\n/_/.test(result)?result:\"\";",
+            "replaceRegex": "##{{chapter.title}}.*\\(第\\d.+页\\)"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "kind": "0",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": ".cat@text##分类：",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last dd a",
+            "chapterName": "text##^\\d+、",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页href"
+        },
+        "searchUrl": "@js:\nvar url=source.key;\nvar web=java.webView(null,url,null);\nvar html=web;\nvar j=org.jsoup.Jsoup.parse(html);\nvar f=j.select('form');\nvar p=f.select(\"input\")\nvar a=f.attr(\"action\")\nvar list=[];\nif(web&&html){\n\tlength=p.length>5?3:p.length;\n\tfor(i=0;i<length;i++){\n\tname=p[i].attr(\"name\")\n\tvalue=p[i].attr(\"value\")\n\tclas=p[i].attr(\"class\")\n\tif(value!=\"\"){\n\tadd=`${name}=${value}`\n\t}else if(clas==\"text\"){\n\t\tk=java.encodeURI(key,\"gbk\")\n\t\tadd=`${name}=${k}`}\n\t//java.log(add)\n\tlist.push(add)}\n\tso=list.join(\"&\")\n\ta+\"?\"+so;\n\t}else{java.toast(\"搜索链接获取失败！\")}",
+        "weight": 0
+    }
+]

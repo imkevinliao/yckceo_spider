@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️鲤鱼乡☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.liyuxiangbl.com#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1643973911488,
+        "ruleBookInfo": {
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "class.m-bkcont@html"
+        },
+        "ruleContent": {
+            "content": "class.m-article-text@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.wid10 cr@tag.b@text",
+            "bookList": ".m-update li!0",
+            "bookUrl": "class.wid35@tag.a@href",
+            "kind": "tag.span.3@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book-list@tag.ul@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/e/search/index.php,{\n\"method\": \"POST\",\n\"body\": \"tbname=bookname&show=title,writer&tempid=1&keyboard={{key}}\"\n}",
+        "weight": 0
+    }
+]

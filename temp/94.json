@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceGroup": "🥑",
+        "bookSourceName": "逆天邪神",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xuanqishi.com",
+        "customOrder": -2085957296,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1663404919715,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".m-infos@span.0@text##作者：",
+            "coverUrl": "doc-info-imglink@img@src",
+            "intro": ".m-book_info@p@textNodes",
+            "lastChapter": ".m-upd@a@text",
+            "name": ".m-infos@h1@text"
+        },
+        "ruleContent": {
+            "content": ".panel-body@p!0@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.col-md-2 col-sm-4 col-xs-4@text",
+            "bookList": "tbody tr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "游龙随月",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".line3",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/e/search/index.php,{\n  \"body\": \"tbname=bookname&show=title,writer&tempid=1&keyboard={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

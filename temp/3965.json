@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceName": "爱寻书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://ixunshu.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1693373394785,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#info p:nth-of-type(1)@text",
+            "coverUrl": "img@src",
+            "intro": "div#intro@text&&p:nth-of-type(6)@text",
+            "kind": ".con_top a:nth-of-type(2)@text",
+            "lastChapter": "#info a@text",
+            "name": "h1@text",
+            "tocUrl": "a.chapterlist@href",
+            "wordCount": "p:nth-of-type(4)@text"
+        },
+        "ruleContent": {
+            "content": "#booktxt p@text##（ 本书网址：.* ）|第.*章|如果您觉得《.*》小说很精彩的话，请粘贴以下网址分享给您的好友，谢谢支持！|爱寻书为广大书友们提供好看的网络小说全文免费在线阅读，如果您喜欢本站，请分享给更多的书友们！",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "div.item",
+            "bookUrl": "dt a@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "name": "dt a@text"
+        },
+        "ruleToc": {
+            "chapterList": "#content_1 a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://ixunshu.net/zhao/?keyword={{key}}",
+        "weight": 0
+    }
+]

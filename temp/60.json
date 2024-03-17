@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "二零书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shu20.com",
+        "bookUrlPattern": "https://www.shu20.com/s/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻小说\",\n\t\"url\":\"/xuanhuan/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠小说\",\n\t\"url\":\"/wuxia/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市小说\",\n\t\"url\":\"/dushi/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史小说\",\n\t\"url\":\"/lishi/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻小说\",\n\t\"url\":\"/kehuan/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游小说\",\n\t\"url\":\"/wangyou/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"女频小说\",\n\t\"url\":\"/nvpin/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/qita/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1664014237197,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:update_time\"]@content&&\n[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "[class=\"col-xs-12 text-center\"]@a@href",
+            "wordCount": "[class=\"blue\"][0]@ownText##\\s"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html"
+        },
+        "ruleExplore": {
+            "author": "td.3@text",
+            "bookList": "tbody@tr!0",
+            "bookUrl": "td.1@a@href",
+            "coverUrl": "@js:\"https://s1.328888.xyz/2022/09/24/Vu0lF.jpg\"",
+            "kind": "td.5:0:6@text",
+            "lastChapter": "td.2@a@text",
+            "name": "td.1@a@text",
+            "wordCount": "td.4@text##\\s"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "small@text",
+            "bookList": "div.book-coverlist",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@style##.*\\(|\\)",
+            "intro": "class.caption@p@text",
+            "kind": "0",
+            "name": "h4@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.col-sm-3",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://www.shu20.com/search/?searchkey={{key}},{\n\t\"headers\": {'referer': 'https://www.shu20.com/'}\n\t}",
+        "weight": 0
+    }
+]

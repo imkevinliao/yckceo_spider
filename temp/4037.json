@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "/*By_zhbyjm7783\n20230908\n正文偶尔需刷新才能获取（代理访问时正常）eval(String(source.bookSourceComment))\n*/\n\t\nvar error=/503 Service Temporarily/;\nwhile(error.test(result)){\n\tjava.log(\"网站重新加载\");\n\tcookie.removeCookie(baseUrl);\n\tresult=java.ajax(baseUrl);\n\t}\n\t\tresult;",
+        "bookSourceGroup": "自写修复0909",
+        "bookSourceName": "神书网[w][自写]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.shenshuwx.com/",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/\n修真小说::/xiuzhenxiaoshuo/\n都市小说::/dushixiaoshuo/\n历史小说::/lishixiaoshuo/\n网游小说::/wangyouxiaoshuo/\n科幻小说::/kehuanxiaoshuo/\n其他小说::/qitaxiaoshuo/\n精品小说::/jingpin/\n完本小说::/wanbenxiaoshuo/",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 EdgA/116.0.1938.64\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1694358126620,
+        "respondTime": 26470,
+        "ruleBookInfo": {
+            "author": ".info@h3@text",
+            "coverUrl": "img@src",
+            "init": "<js>\neval(String(source.bookSourceComment))\n</js>\n",
+            "intro": "id.intro@p@text",
+            "kind": ".info@p@text",
+            "lastChapter": ".info@span@text",
+            "name": ".info@h1@text"
+        },
+        "ruleContent": {
+            "content": "<js>\neval(String(source.bookSourceComment))\n</js>\nid.book_text@html##最新网址：www.shenshuwx.com|手机用户请浏览wap.shenshuwx.com阅读，掌上阅读更方便。"
+        },
+        "ruleExplore": {
+            "author": ".name@span.1@text||text",
+            "bookList": "<js>\neval(String(source.bookSourceComment))\n</js>\nid.BookList@li||class.mainas@ul@li",
+            "bookUrl": "strong a@href||a@href",
+            "coverUrl": "img@src",
+            "intro": ".nrrk@p@text",
+            "kind": ".name@span.0@text",
+            "lastChapter": "dl@dt a@text",
+            "name": "strong a@text||a@text",
+            "wordCount": ".num@span.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "<js>\neval(String(source.bookSourceComment))\n</js>\ntable@tr!0",
+            "bookUrl": "td.0@a@href",
+            "lastChapter": "td.1@text",
+            "name": "td.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\neval(String(source.bookSourceComment))\n</js>\nid.chapterlist@li",
+            "chapterName": "li@a@text",
+            "chapterUrl": "li@a@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

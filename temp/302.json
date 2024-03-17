@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "Li ",
+        "bookSourceName": "【八一中文】",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api.81zwapp.com",
+        "customOrder": -118179,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1654179084734,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{author}",
+            "init": "",
+            "lastChapter": "",
+            "name": "@get:{name}"
+        },
+        "ruleContent": {
+            "content": "all"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "$.author@put:{author:$.author}",
+            "bookList": "$.data.list||$.data[*]",
+            "bookUrl": "<js>\nvar bid=parseInt(java.getString('$.bookId'));\nif(!bid>0){\nbid=parseInt(java.getString('$.id'));\n}\njava.put(\"bid\",bid);\nvar subpath=parseInt((1999+bid)/2000);\nvar url=\"http://statics.rungean.com/static/book/zip/\"+subpath+\"/\"+bid+\".zip\";\nresult=url;</js>",
+            "coverUrl": "$.picture",
+            "intro": "$.intro",
+            "kind": "$.categoryName&&$.bookStatus",
+            "lastChapter": "$.chapterName@put:{update:$.chapterName}",
+            "name": "$.name@put:{name:$.name}",
+            "wordCount": "$.wordNum"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\n//java.log(\"SSSS\"+baseUrl)\nresult=java.getZipStringContent(baseUrl,\"chapter.json\")\n//java.log(result);\n</js>$.data[*]",
+            "chapterName": "$.name",
+            "chapterUrl": "$.content_url"
+        },
+        "searchUrl": "https://api.81zwapp.com/api/v1/novelsearch?content={{key}}&pageIndex={{page}}&pageSize=20&type=2",
+        "weight": 0
+    }
+]

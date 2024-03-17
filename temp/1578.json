@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "写真",
+        "bookSourceName": "秀人集",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xiurend.vip/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "秀人网::XiuRen/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n模范学院::MFStar/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n魅妍社::MiStar/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n美媛馆::MyGirl/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n爱蜜社::IMiss/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n尤物馆::YouWu/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n嗲囡囡::FeiLin/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n蜜桃社::MiiTao/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n尤蜜荟::YouMi/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n画语界::XiaoYu/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n花漾::HuaYang/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n星颜社::XingYan/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n兔几盟::BoLoli/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n优星馆::Uxing/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n影私荟::WingS/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n星乐园::LeYuan/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n顽味生活::Taste/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n花の颜::HuaYan/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n御女郎::DKGirl/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n糖果画报/网红馆::Candy/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n薄荷叶::MintYe/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n模特联盟::MTMeng/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\r\n猫萌榜/瑞丝馆::Micat/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}",
+        "header": "",
+        "lastUpdateTime": 1622960875490,
+        "ruleBookInfo": {
+            "name": "class.title",
+            "tocUrl": "class.title"
+        },
+        "ruleContent": {
+            "content": "class.img@tag.img@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "bookList": "class.dan",
+            "bookUrl": "@tag.a@href",
+            "coverUrl": "@tag.img@src",
+            "intro": "@tag.b@text",
+            "name": "@tag.a@title"
+        },
+        "ruleSearch": {
+            "bookList": "class.title1@tag.a",
+            "bookUrl": "@href",
+            "coverUrl": "",
+            "name": "@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.page.0@tag.a!-1",
+            "chapterName": "@text",
+            "chapterUrl": "@href"
+        },
+        "searchUrl": "/plus/search/index.asp?keyword={{key}}&searchtype=titlekeywords{{page - 1 == 0 ? \"\":\"&p=\"+ page}},{\"charset\": \"gbk\"}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "18禁",
+        "bookSourceName": "第二版主2",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.dybz1.vip",
+        "customOrder": -3,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36\"\n}",
+        "lastUpdateTime": 1617033566834,
+        "ruleBookInfo": {
+            "author": "//meta[@property=\"og:novel:author\"]/@content()",
+            "coverUrl": "//meta[@property=\"og:image\"]/@content()",
+            "intro": "//meta[@property=\"og:description\"]/@content()\n<js>result.replace(/^|\\s+(?=[^a-zA-Z])|(—|–|=){3,}/g,\"\\n\")</js>",
+            "kind": "//meta[@property=\"og:novel:category\"]/@content()",
+            "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content()\n<js>result.replace(/.+(?=第[\\u4e00-\\u9fa5][章卷部]\\b)/g,\"\")</js>",
+            "name": "//meta[@property=\"og:novel:book_name\"]/@content()"
+        },
+        "ruleContent": {
+            "content": "class.page-content@html",
+            "nextContentUrl": "//a[@class=\"curr\"]/following-sibling::a[1]/@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p@.info@text##\\作者：(.*)\\字数.*##$1###",
+            "bookList": "class.mod block book-all-list@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href\n<js>result.replace(/.+\\D(\\d+)_(\\d+)\\//,\"/files/article/image/$1/$2/$2s.jpg\")</js>",
+            "kind": "tag.td!0:1:2@text",
+            "lastChapter": ".update@tag.a@text",
+            "name": ".name@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.mod block update chapter-list.1@tag.li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.dybz1.vip/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"objectType=2&type=articlename&s={{key}}\"\n}",
+        "weight": 0
+    }
+]

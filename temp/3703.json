@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "https://www.45zw.com\nhttps://m.45zw.com\nhttps://45zw.com",
+        "bookSourceName": "四五中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.45zw.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/xs/{{page}}/\n玄幻小说::/xs/1/{{page}}/\n武侠小说::/xs/2/{{page}}/\n都市小说::/xs/3/{{page}}/\n历史小说::/xs/4/{{page}}/\n网游小说::/xs/5/{{page}}/\n科幻小说::/xs/6/{{page}}/\n其他类型::/xs/7/{{page}}/",
+        "lastUpdateTime": 1688807791783,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##小说|\\s\\d.*",
+            "lastChapter": "{{@@[property$=chapter_name]@content}} • {{@@[property$=update_time]@content##\\s.*}}",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "<js>\n// 1550-2056 的 16进制\nz = \"百安八半按包比爱般办标保白必把不出并边本报备层表北变常操称但步部达厂插产此布除查别参斗段被持单动程成车处场便法从打才代带导次发到府队地等党度大存低定传得多抚而第的放风儿革根感干点给采该公共光分东很个即话二当管道号火关格何工合红划间反国对及广后改观行基更计江集和华叫方规海记几接过回价各还界科见技级节较九己京了花里件加都力角电克就断复济今精积进口每么例高候好军非理六极况据历近快流开利律量满构或名果列会率际路料解化将年马联目难具立机器金命活南农品毛可决看却交其三能上拉去连老片期强没建们清切日确世两那美石面空你热民千容门类阶是派社取奶人色七气斯究少平教家市生论区全它史书然摸亲四权结十来数提声特劳米受如什入群示她使内青任领局通林实事舌省且调适外术经土式身商水矿速前思完识收时图头为情算万手设无问同始题务说文我西他细离属天维听酸系位下响现体团向物求素线五往条明写消太认效县先温山王新起形性所习需型深心想选研象压相统许验小养铁信须要委业严一吻也样咬已学义以因易些引议意影应用由眼有于音油又育与员元圆原约院月再在运越造则增展张战长者照这着真正争证整支政只之知直织值至志指质制置中治周主重众种专转住状准自资走总子作组最装族做\";\nfor(i=0;i<z.length;i++){\n\treg = new RegExp('<i>&#xe'+(i+1550).toString(16)+';?</i>','g');\n\tresult = result.replace(reg, z[i]);\n\t}\n</js>\n#content@p@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".content dl",
+            "bookUrl": "a.1@href##^##https://www.45zw.com",
+            "checkKeyWord": "",
+            "coverUrl": "img@data-original",
+            "intro": "dd.0@text",
+            "kind": "span.0@text",
+            "name": "a.1@text",
+            "wordCount": "span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "variableComment": "",
+        "weight": 0
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceGroup": "置顶搜书",
+        "bookSourceName": "搜小说(感谢)",
+        "bookSourceUrl": "https://m.soxs.cc",
+        "enable": true,
+        "loginUrl": "",
+        "ruleBookAuthor": "class.author@tag.a@text",
+        "ruleBookContent": "class.content@html##喜欢.*更新速度最快。|《.*》无错章节.*推荐搜小说！",
+        "ruleBookInfoInit": "class.detail",
+        "ruleBookKind": "class.layui-btn layui-btn-xs layui-btn-radius@text&&\ntag.p.2@tag.span.0@text&&\ntag.p.4@text##最后更新：",
+        "ruleBookLastChapter": "class.new@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "ruleBookName": "class.name@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "ruleChapterList": "class.read@tag.li",
+        "ruleChapterName": "tag.a.0@text",
+        "ruleChapterUrl": "",
+        "ruleChapterUrlNext": "option@value",
+        "ruleContentUrl": "tag.a.0@href",
+        "ruleCoverUrl": "img@src",
+        "ruleIntroduce": "class.intro@tag.p.0@text",
+        "ruleSearchAuthor": "tag.p.1@tag.a@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchIntroduce": "tag.p.2@text",
+        "ruleSearchKind": "tag.p.1@tag.span.0@text&&\ntag.p.1@tag.span.1@text",
+        "ruleSearchLastChapter": "tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "ruleSearchList": "class.list@tag.li",
+        "ruleSearchName": "tag.p.0@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "ruleSearchNoteUrl": "tag.p.0@tag.a@href",
+        "ruleSearchUrl": "https://m.soxs.cc/search.html@searchtype=all&searchkey=searchKey@Header:{     'cookie': 'Hm_lvt_b2fc3c01d84988ddb93ad96e5f63ffd4=1629841506; Hm_lpvt_b2fc3c01d84988ddb93ad96e5f63ffd4=1629841506'  }",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

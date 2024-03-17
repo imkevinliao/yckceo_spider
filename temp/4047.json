@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "修",
+        "bookSourceGroup": "",
+        "bookSourceName": "追书网zhuishu.cc",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.zhuishu.cc/",
+        "customOrder": -2085978599,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1694390440046,
+        "respondTime": 180378,
+        "ruleBookInfo": {
+            "author": "#info@p.2@text##作\\s者：",
+            "coverUrl": "#fmimg@img@src",
+            "init": "",
+            "intro": "#intro@p.0@text##最新章节推荐地址：.*|\\s.*\\.com",
+            "kind": "#info@p.0@text##分类：",
+            "lastChapter": "#info@p.4@a@text##最新：",
+            "name": "#info@h1.0@text",
+            "wordCount": "#info@p.5@text##最后更新："
+        },
+        "ruleContent": {
+            "content": ".showtxt@textNodes",
+            "nextContentUrl": "",
+            "replaceRegex": "##第.*章.*\\(.*\\)"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookimg@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": ".bookinfo@p@text",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": ".listmain@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/sdgsdfgsfgh.php?ie=gbk&q={{key}},{\"charset\":\"gbk\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\",\"Referer\":\"http://www.zhuishu.cc/\"},\"webView\":true}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "源仓库,整理检验,自制,网页源",
+        "bookSourceName": "新笔趣阁8",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biquge8.xyz",
+        "bookUrlPattern": "https?://www.biquge8.xyz/\\d+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/xh<,?page={{page}}>\n修真武侠::/xz<,?page={{page}}>\n都市言情::/ds<,?page={{page}}>\n穿越历史::/cy<,?page={{page}}>\n网游竞技::/wy<,?page={{page}}>\n科幻灵异::/kh<,?page={{page}}>\n完结小说::/wj<,?page={{page}}>\n排行榜::/ph<,?page={{page}}>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1696287153276,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#article@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".card",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".des@text",
+            "kind": "0",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": "ol li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.biquge8.xyz/search?keyword={{key}}<,&page={{page}}>",
+        "weight": 0
+    }
+]

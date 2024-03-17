@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceName": "小说路上",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xs63.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"仙侠\",\"url\":\"/xianxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市\",\"url\":\"/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"恐怖\",\"url\":\"/kongbu/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"其他\",\"url\":\"/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"全本\",\"url\":\"/quanben/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1652106110017,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "#nr1@html##您#所#看#到#的#内容#中间#有#缺#失,退#出#阅#读#模#式#继#续#阅#读#全#文：xs63.cc",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*本章未完，点下一页继续阅读。>>>\\s*"
+        },
+        "ruleExplore": {
+            "author": ".s3@text",
+            "bookList": ".lis li",
+            "bookUrl": "a@href",
+            "kind": ".s1@text##\\[|\\]",
+            "name": "a@text"
+        },
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".lis li",
+            "bookUrl": "a@href",
+            "kind": ".s1@text##\\[|\\]",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search,{\n  \"body\": \"_token=tZcxAGAcPi9W1S6Glh0d0vFxfGG4cX4vzmYxXBmm&kw={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

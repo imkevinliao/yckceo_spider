@@ -1,0 +1,64 @@
+[
+    {
+        "bookSourceComment": "try{\ns=result.match(/\"[^\"]*[{}]{2,}[^\"]+\"/g);\nfor(i in s){\n x=s[i].match(/\"([^\"]*[{}]{2,})([^\"]+)\"/);\nxx=java.aesBase64DecodeToString(x[2],\"OW84U8Eerdb99rtsTXWSILDO\",\"DESede/CBC/PKCS5Padding\",\"SK8bncVu\");\n result=result.replace(x[1]+x[2],xx)\n\t}\n}catch(e){\"\"}\nresult",
+        "bookSourceGroup": "🎓自制源",
+        "bookSourceName": "👑笔趣小说阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "红色笔趣阁App",
+        "customOrder": -2086014608,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"玄幻奇幻\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最热\",\"url\":\"https://scxs.pysmei.com/Categories/1/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新\",\"url\":\"https://scxs.pysmei.com/Categories/1/new/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"评分\",\"url\":\"https://scxs.pysmei.com/Categories/1/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://scxs.pysmei.com/Categories/1/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"武侠仙侠\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最热\",\"url\":\"https://scxs.pysmei.com/Categories/2/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新\",\"url\":\"https://scxs.pysmei.com/Categories/2/new/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"评分\",\"url\":\"https://scxs.pysmei.com/Categories/2/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://scxs.pysmei.com/Categories/2/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"都市言情\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最热\",\"url\":\"https://scxs.pysmei.com/Categories/3/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新\",\"url\":\"https://scxs.pysmei.com/Categories/3/new/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"评分\",\"url\":\"https://scxs.pysmei.com/Categories/3/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://scxs.pysmei.com/Categories/3/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"历史军事\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最热\",\"url\":\"https://scxs.pysmei.com/Categories/4/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新\",\"url\":\"https://scxs.pysmei.com/Categories/4/new/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"评分\",\"url\":\"https://scxs.pysmei.com/Categories/4/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://scxs.pysmei.com/Categories/4/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"科幻灵异\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最热\",\"url\":\"https://scxs.pysmei.com/Categories/5/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新\",\"url\":\"https://scxs.pysmei.com/Categories/5/new/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"评分\",\"url\":\"https://scxs.pysmei.com/Categories/5/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://scxs.pysmei.com/Categories/5/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"网游竞技\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最热\",\"url\":\"https://scxs.pysmei.com/Categories/6/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新\",\"url\":\"https://scxs.pysmei.com/Categories/6/new/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"评分\",\"url\":\"https://scxs.pysmei.com/Categories/6/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://scxs.pysmei.com/Categories/6/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"女生频道\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最热\",\"url\":\"https://scxs.pysmei.com/Categories/7/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新\",\"url\":\"https://scxs.pysmei.com/Categories/7/new/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"评分\",\"url\":\"https://scxs.pysmei.com/Categories/7/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://scxs.pysmei.com/Categories/7/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"同人小说\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最热\",\"url\":\"https://scxs.pysmei.com/Categories/66/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新\",\"url\":\"https://scxs.pysmei.com/Categories/66/new/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"评分\",\"url\":\"https://scxs.pysmei.com/Categories/66/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://scxs.pysmei.com/Categories/66/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n\n]",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 12; Redmi K30 5G Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.76 Mobile Safari/537.36\"\n\t}",
+        "lastUpdateTime": 1686203755422,
+        "respondTime": 128515,
+        "ruleBookInfo": {
+            "author": "data.Author",
+            "coverUrl": "data.Img",
+            "init": "<js>\neval(String(source.bookSourceComment))\n</js>",
+            "intro": "data.Desc",
+            "kind": "data.CName&&data.BookStatus&&{Score}分&&data.LastTime",
+            "lastChapter": "data.LastChapter",
+            "name": "data.Name",
+            "tocUrl": "https://infosxs.pysmei.com/BookFiles/Html/{{Math.trunc(java.getString(\"data.Id\")/1000)+1}}/{{$.data.Id}}/index.html",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<js>eval(String(source.bookSourceComment))</js>\ndata[?(@.hasContent==1)].content"
+        },
+        "ruleExplore": {
+            "author": "Author",
+            "bookList": ".data.BookList[*]",
+            "bookUrl": "https://infosxs.pysmei.com/BookFiles/Html/{{Math.trunc(java.getString(\"Id\")/1000)+1}}/{{$.Id}}/info.html",
+            "coverUrl": "https://imgapixs.pysmei.com/bookfiles/bookimages/{{$.Img}}",
+            "intro": "Desc",
+            "kind": "{{$.CName}},{{$.Score}}",
+            "lastChapter": "LastChapter",
+            "name": "Name"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "Author",
+            "bookList": ".data[*]",
+            "bookUrl": "https://infosxs.pysmei.com/BookFiles/Html/{{Math.trunc(java.getString(\"Id\")/1000)+1}}/{{$.Id}}/info.html",
+            "checkKeyWord": "系统",
+            "coverUrl": "Img",
+            "intro": "Desc",
+            "kind": "BookStatus",
+            "lastChapter": "LastChapter",
+            "name": "Name",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "<js>eval(String(source.bookSourceComment))</js>\ndata.list[*].list[*]",
+            "chapterName": "{{java.getString(\"name\")}}",
+            "chapterUrl": "{{baseUrl}}##index.html##{{$.id}}.html",
+            "isVolume": "",
+            "nextTocUrl": "",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "https://souxs.pigqq.com/search.aspx?key={{key}}&page={{page}}&siteid=app2",
+        "weight": 0
+    }
+]

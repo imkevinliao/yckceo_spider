@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceUrl": "http://www.xbiquge.laa",
+        "bookSourceType": "0",
+        "bookSourceName": "0714💐新笔趣阁 xbiquge.la 🧜‍♀️少敏感字",
+        "bookSourceGroup": "较少敏感字",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0\",\n    \"cookie\":\"Hm_lvt_8fd9f526ca72jb9418ca50c2g79d2f70=1597461516\"\n}",
+        "searchUrl": "http://www.xbiquge.la/modules/article/waps.php?searchkey={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 60,
+        "customOrder": 30,
+        "lastUpdateTime": 1626266469649,
+        "ruleSearch": {
+            "bookList": "class.grid@tag.tbody@tag.tr!0",
+            "name": "class.even.0@tag.a@text",
+            "author": "class.even.1@text",
+            "lastChapter": "class.odd.0@tag.a@text",
+            "coverUrl": "class.even.0@tag.a@href##.+\\D((\\d+)\\d{3})\\D##https://www.xbiquge.la/files/article/image/$2/$1/$1s.jpg###",
+            "bookUrl": "class.even.0@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "init": "\n",
+            "name": "id.info@tag.h1@text",
+            "author": "id.info@tag.p.0@text##作.*者：",
+            "kind": "class.con_top@text ##.*阁\\s>\\s|>.*",
+            "wordCount": "id.info@tag.p.2@text ##最后更新：",
+            "lastChapter": "id.info@tag.p.3@title",
+            "intro": "id.intro@tag.p.1@text",
+            "coverUrl": "id.fmimg@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "imageStyle": "0"
+        }
+    }
+]

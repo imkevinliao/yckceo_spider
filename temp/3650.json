@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "把AO3的作品下载到本地，自动导入阅读。\n\n使用之前务必：\n1、先登录\n2、把AO3账号设置为阅读成人向作品时不发出预警（具体怎么做，嗷3有中文教程，自己找）\n\n有以上两点要求纯粹是因为我太菜了，解决不了成人分级作品不按procced就看不了的问题orz\n\nP.S.看AO3要魔法这件事不用我说吧？",
+        "bookSourceGroup": "📖  特殊",
+        "bookSourceName": "📖 AO3",
+        "bookSourceType": 3,
+        "bookSourceUrl": "https://archiveofourown.org/",
+        "bookUrlPattern": "https://archiveofourown.org/works/\\d+/",
+        "customOrder": -2085958936,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1687717234694,
+        "loginUrl": "https://archiveofourown.org/",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "downloadUrls": ".actions@.download@ul@li.1@a@href"
+        },
+        "ruleContent": {
+            "content": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h4@a.1@text",
+            "bookList": "class.work@li",
+            "bookUrl": "https://archiveofourown.org/works/{{@@id##work_}}",
+            "checkKeyWord": "Infinite World ＆ Infinite Me",
+            "intro": "blockquote@html",
+            "kind": "h5@a@text",
+            "name": "h4@a.0@text",
+            "wordCount": "dd@.words@text##,"
+        },
+        "ruleToc": {
+            "chapterList": ".index@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "formatJs": "",
+            "isVolume": "",
+            "updateTime": "span@text##[()]*"
+        },
+        "searchUrl": "https://archiveofourown.org/works/search?work_search%5Bquery%5D={{key}}",
+        "weight": 0
+    }
+]

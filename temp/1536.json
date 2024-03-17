@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceName": "八零",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.80wx.la/",
+        "customOrder": -2085959120,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1672411063166,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@p.-5@text##作者：",
+            "coverUrl": "img@src",
+            "intro": "class.intro_info@text##最新章节推荐地址.*",
+            "kind": "class.block_txt2@p.-4@text##分类：",
+            "lastChapter": "class.block_txt2@p.-1@text&&class.block_txt2@p.-2@text##更新：|最新：|T.*",
+            "name": "class.block_txt2@h2@text",
+            "tocUrl": "text.查看更多章节@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##（本章未完，请点击下一页继续阅读）",
+            "sourceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.line@text##.*/",
+            "bookList": "class.line",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "class.line@text##\\[|\\].*",
+            "lastChapter": "",
+            "name": "tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.80wx.la/modules/article/search.php,{\n  \"body\": \"s=&searchkey={{key}}&submit=\",\n  \"method\": \"POST\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

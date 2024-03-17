@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceUrl": "https://www.wutuxs.net",
+        "bookSourceType": "0",
+        "bookSourceName": "无图小说网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "꧁♚无聊的我♚꧂",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "https://www.wutuxs.com/books/(\\d+)",
+        "searchUrl": "https://www.wutuxs.net/modules/article/search.php,{\n\"method\":\"POST\",\n\"charset\":\"GBK\",\n\"body\":\"articlesearch=articlename&searchkey={{key}}&page={{page}}\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1635867021163,
+        "ruleSearch": {
+            "bookList": ".grid tr[1:20]",
+            "name": "td.0@text",
+            "author": "td.2@text",
+            "kind": "td.5@text##中|已",
+            "wordCount": "td.3@text##K\n@js:parseInt(result*51.2)+'0'",
+            "lastChapter": "{{@td.1@text}}·{{@td.4@text}}##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+            "coverUrl": "a.0@href##/(\\d+)/(\\d+)/##https://www.wutuxs.com/files/article/image/$1/$2/$2s.jpg###",
+            "bookUrl": "a.0@href##/\\d+/(\\d+)/##https://www.wutuxs.com/books/$1###"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "init": "@put:{\nn:\"dd h1@text\",\na:\"tr.0@td.1@text\",\nk:\"tr.0@td.0:2@text&&tr.1@td.2@text\",\nw:\"tr.1@td.1@text\",\nl:\"dd p a.-1@text\",\ni:\"dd p.4@html\",\nc:\".hst img@src\",\nu:\"text.全文阅读@href\"\n}",
+            "name": "@get:{n}##\\s全文阅读",
+            "author": "@get:{a}",
+            "kind": "@get:{k}##类别.|作品状态.|中|已|更新时间.|日.*|↓@js:result.replace(/[年月]/g,\"-\")",
+            "wordCount": "@get:{w}##字",
+            "lastChapter": "@get:{l}",
+            "intro": "<br>@get:{i}",
+            "coverUrl": "@get:{c}",
+            "tocUrl": "@get:{u}"
+        },
+        "ruleToc": {
+            "chapterList": "tr td a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": ".articlecontent@html||id.content@html||id.contents@html",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

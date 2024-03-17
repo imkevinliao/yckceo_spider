@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "雪痕伤-H",
+        "bookSourceName": "龙腾小说城-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.longtengxiaoshuo.org",
+        "customOrder": 11,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说:: /xuanhuan/{{page}}.html\n仙侠小说:: /xianxia/{{page}}.html\n都市小说:: /dushi/{{page}}.html\n军史小说:: /junshi/{{page}}.html\n网游小说:: /wangyou/{{page}}.html\n科幻小说:: /kehuan/{{page}}.html\n耽美小说:: /danmei/{{page}}.html\n辣文合集:: /lawen/{{page}}.html\n完结小说:: /full/{{page}}\n月点击榜:: /paihang/monthvisit_{{page}}.html\n周点击榜:: /paihang/weekvisit_{{page}}.html\n总推荐榜:: /paihang/allvote_{{page}}.html\n月推荐榜:: /paihang/monthvote_{{page}}.html\n周推荐榜:: /paihang/weekvote_{{page}}.html\n总收藏榜:: /paihang/goodnum_{{page}}.html\n总字数榜:: /paihang/size_{{page}}.html\n最新入库:: /paihang/postdate_{{page}}.html\n最近更新:: /paihang/lastupdate_{{page}}.html",
+        "lastUpdateTime": 1654123330152,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "class.jj@text"
+        },
+        "ruleContent": {
+            "content": "class.articlecontent@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text||class.p1@text||class.bq@a@text",
+            "bookList": "tbody@tr!0||class.tt||class.catalog",
+            "bookUrl": "tag.td.0@a@href||h3@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.p2@text||class.jj@text",
+            "lastChapter": "tag.td.1@text",
+            "name": "tag.td.0@a@text||h3@a@text||h1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.ml_list@li",
+            "chapterName": "text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+        "weight": 0
+    }
+]

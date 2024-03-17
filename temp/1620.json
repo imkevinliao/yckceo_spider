@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "",
+        "bookSourceName": "xchina",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://tw.xchina.co",
+        "customOrder": -2085957904,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "✣                         点 击 榜                         ✣::/fictions/sort-read/{{page}}.html\n\n编辑推荐::/fictions/sort-read/tag-编辑推荐/{{page}}.html\n经验故事::/fictions/sort-read/tag-经验故事/{{page}}.html\n长篇连载::/fictions/sort-read/tag-长篇连载/{{page}}.html\n\n都市生活::/fictions/sort-read/tag-都市生活/{{page}}.html\n公司职场::/fictions/sort-read/tag-公司职场/{{page}}.html\n名人明星::/fictions/sort-read/tag-名人明星/{{page}}.html\n\n伴侣交换::/fictions/sort-read/tag-伴侣交换/{{page}}.html\n多人群交::/fictions/sort-read/tag-多人群交/{{page}}.html\n人妻女友::/fictions/sort-read/tag-人妻女友/{{page}}.html\n\n学生校园::/fictions/sort-read/tag-学生校园/{{page}}.html\n家庭乱伦::/fictions/sort-read/tag-家庭乱伦/{{page}}.html\n露出暴露::/fictions/sort-read/tag-露出暴露/{{page}}.html\n\n古典玄幻::/fictions/sort-read/tag-古典玄幻/{{page}}.html\n西方主题::/fictions/sort-read/tag-西方主题/{{page}}.html\n动漫游戏::/fictions/sort-read/tag-动漫游戏/{{page}}.html\n\n强暴性虐::/fictions/sort-read/tag-强暴性虐/{{page}}.html\n同性主题::/fictions/sort-read/tag-同性主题/{{page}}.html\n绿帽主题::/fictions/sort-read/tag-绿帽主题/{{page}}.html\n\n✣                         新 入 库                         ✣::/fictions/{{page}}.html",
+        "lastUpdateTime": 1644722143997,
+        "respondTime": 1290,
+        "ruleBookInfo": {
+            "author": "class.author@text##作者：",
+            "kind": "",
+            "lastChapter": "class.chapters@tag.a.-1@text",
+            "name": "class.title@text"
+        },
+        "ruleContent": {
+            "content": "class.fiction-content@html",
+            "replaceRegex": "##（.*xchina.xyz）"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "div.fiction",
+            "bookUrl": "a@href##go/action-",
+            "coverUrl": "img@src##.*fiction.jpg",
+            "intro": "div.brief@html",
+            "kind": "tag.a!-2:-1:0@text",
+            "name": "img@alt"
+        },
+        "ruleToc": {
+            "chapterList": "div.chapters a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/fictions/keyword-{{key}}/{{page}}.html,{'charset': 'utf-8'}",
+        "weight": 0
+    }
+]

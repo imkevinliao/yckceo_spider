@@ -1,0 +1,26 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "乐文小说",
+        "bookSourceUrl": "https://m.lwxs11.com",
+        "enable": false,
+        "ruleBookContent": "class.novelcontent@html#本章未完.*|阅读提示.*",
+        "ruleBookLastChapter": "class.p3.0@a@text",
+        "ruleChapterList": "class.p2.4@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrlNext": "option@value",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.tu@img@src",
+        "ruleFindUrl": "最近更新::https://m.lwxs11.com/book/lastupdate-searchPage.html\n最新入库::https://m.lwxs11.com/book/postdate-searchPage.html\n总点击榜::https://m.lwxs11.com/book/allvisit-searchPage.html\n总收藏榜::https://m.lwxs11.com/book/goodnum-searchPage.html\n总推荐榜::https://m.lwxs11.com/book/allvote-searchPage.html\n总字数榜::https://m.lwxs11.com/book/size-searchPage.html\n玄幻魔法::https://m.lwxs11.com/list/1-searchPage.html\n仙侠修真::https://m.lwxs11.com/list/2-searchPage.html\n都市言情::https://m.lwxs11.com/list/3-searchPage.html\n历史军事::https://m.lwxs11.com/list/5-searchPage.html\n网游动漫::https://m.lwxs11.com/list/5-searchPage.html\n科幻小说::https://m.lwxs11.com/list/6-searchPage.html\n恐怖灵异::https://m.lwxs11.com/list/7-searchPage.html\n其他类型::https://m.lwxs11.com/list/8-searchPage.html\n香艳小说::https://m.lwxs11.com/lewen{,searchPage}.html\n完本小说::https://m.lwxs11.com/full/searchPage/",
+        "ruleSearchAuthor": "class.p3@a@text|class.p4@a@text",
+        "ruleSearchCoverUrl": "tag.a.1@href#.*/(\\d+)/(\\d+)/#https://www.lwxs11.com/files/article/image/$1/$2/$2s.jpg",
+        "ruleSearchKind": "class.p2@textNodes|class.p1@a@text#\\[|]",
+        "ruleSearchList": "class.content_link|class.tt",
+        "ruleSearchName": "class.p2_so@a@text|class.p2@a@text|class.p1@a@text",
+        "ruleSearchNoteUrl": "tag.a.1@href",
+        "ruleSearchUrl": "https://m.lwxs11.com/s.php@s=searchKey&type=articlename|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "兰兰文学",
+        "bookSourceUrl": "http://www.lanlanguoji.com",
+        "enable": false,
+        "ruleBookContent": "class.content@p@textNodes",
+        "ruleBookKind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+        "ruleBookLastChapter": "class.section-list fix.0@tag.li.0@a@textNodes",
+        "ruleBookUrlPattern": "",
+        "ruleChapterList": "class.section-list fix.1@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "",
+        "ruleChapterUrlNext": "option@value",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.imgbox@img@src",
+        "ruleFindUrl": "玄幻小说::http://www.lanlanguoji.com/fenlei/1/searchPage/\n奇幻小说::http://www.lanlanguoji.com/fenlei/2/searchPage/\n武侠小说::http://www.lanlanguoji.com/fenlei/3/searchPage/\n仙侠小说::http://www.lanlanguoji.com/fenlei/4/searchPage/\n都市小说::http://www.lanlanguoji.com/fenlei/5/searchPage/\n历史小说::http://www.lanlanguoji.com/fenlei/6/searchPage/\n军事小说::http://www.lanlanguoji.com/fenlei/7/searchPage/\n游戏小说::http://www.lanlanguoji.com/fenlei/8/searchPage/\n体育小说::http://www.lanlanguoji.com/fenlei/9/searchPage/\n科幻小说::http://www.lanlanguoji.com/fenlei/10/searchPage/\n灵异小说::http://www.lanlanguoji.com/fenlei/11/searchPage/\n古代小说::http://www.lanlanguoji.com/fenlei/12/searchPage/\n现代小说::http://www.lanlanguoji.com/fenlei/13/searchPage/\n玄幻小说::http://www.lanlanguoji.com/fenlei/14/searchPage/\n仙侠小说::http://www.lanlanguoji.com/fenlei/15/searchPage/\n浪漫小说::http://www.lanlanguoji.com/fenlei/16/searchPage/\n游戏小说::http://www.lanlanguoji.com/fenlei/17/searchPage/\n科幻小说::http://www.lanlanguoji.com/fenlei/18/searchPage/\n悬疑小说::http://www.lanlanguoji.com/fenlei/19/searchPage/\n二次小说::http://www.lanlanguoji.com/fenlei/20/searchPage/\n其他小说::http://www.lanlanguoji.com/fenlei/21/searchPage/",
+        "ruleIntroduce": "class.m-desc@textNodes",
+        "ruleSearchAuthor": "class.s4@text",
+        "ruleSearchCoverUrl": "tag.a.0@href#/book/(\\d+)(\\d{3})/#/images/$1/$1$2.jpg",
+        "ruleSearchIntroduce": "",
+        "ruleSearchKind": "class.s1@text#\\[|\\]",
+        "ruleSearchLastChapter": "class.s3@a@text",
+        "ruleSearchList": "class.row@li!0",
+        "ruleSearchName": "class.s2@a@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://www.lanlanguoji.com/search/@searchkey=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "new",
+        "bookSourceName": "好吧小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://hao8.net/",
+        "customOrder": -2384,
+        "enabled": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1652532090714,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "lastChapter": "dl@a.-1@text"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.btm@a@text",
+            "bookList": "class.item",
+            "bookUrl": "dl@dt@a@href",
+            "checkKeyWord": "夜的",
+            "coverUrl": "class.image@a@img@src",
+            "intro": "dl@dd@text",
+            "name": "dl@dt@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@a",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "我这里用wifi打不开网页，如果打不开切到手机网络。",
+        "bookSourceName": "🌸中文书城🌸",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.popoxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "                        🌹榜单🌹                            ::\n     全站推荐榜     ::https://m.popoxs.com/top/0-allvote-{{page}}.html\n     人气点击榜     ::https://m.popoxs.com/top/0-allvisit-{{page}}.html\n     新书飙升榜     ::https://m.popoxs.com/top/0-postdate-{{page}}.html\n     男生追书榜     ::https://m.popoxs.com/top/1-weekvisit-{{page}}.html\n     女生人气榜     ::https://m.popoxs.com/top/2-weekvisit-{{page}}.html\n     本站推荐榜     ::https://m.popoxs.com/top/0-monthvote-{{page}}.html\n    人气收藏榜      ::https://m.popoxs.com/top/0-goodnum-{{page}}.html\n    出版好评榜      ::https://m.popoxs.com/top/3-weekvisit-{{page}}.html\n                         🌹男频🌹                           ::\n东方玄幻::https://m.popoxs.com/booklist/1-0-0-0-lastupdate-{{page}}.html\n都市小说::https://m.popoxs.com/booklist/2-0-0-0-lastupdate-{{page}}.html\n西方奇幻::https://m.popoxs.com/booklist/3-0-0-0-lastupdate-{{page}}.html\n武侠仙侠::https://m.popoxs.com/booklist/4-0-0-0-lastupdate-{{page}}.html\n架空历史::https://m.popoxs.com/booklist/5-0-0-0-lastupdate-{{page}}.html\n科幻未来::https://m.popoxs.com/booklist/6-0-0-0-lastupdate-{{page}}.html\n网游竞技::https://m.popoxs.com/booklist/7-0-0-0-lastupdate-{{page}}.html\n悬疑惊悚::https://m.popoxs.com/booklist/8-0-0-0-lastupdate-{{page}}.html\n🌹🌺🌹::\n                         🌹女频🌹                           ::\n古代言情::https://m.popoxs.com/booklist/9-0-0-0-lastupdate-{{page}}.html\n幻想言情::https://m.popoxs.com/booklist/10-0-0-0-lastupdate-{{page}}.html\n都市言情::https://m.popoxs.com/booklist/11-0-0-0-lastupdate-{{page}}.html\n总裁豪门::https://m.popoxs.com/booklist/12-0-0-0-lastupdate-{{page}}.html\n青春校园::https://m.popoxs.com/booklist/13-0-0-0-lastupdate-{{page}}.html\n唯美同人::https://m.popoxs.com/booklist/14-0-0-0-lastupdate-{{page}}.html\n                      🌹出版小说🌹                       ::\n文学小说::https://m.popoxs.com/booklist/15-0-0-0-lastupdate-{{page}}.html\n经典名著::https://m.popoxs.com\t/booklist/16-0-0-0-lastupdate-{{page}}.html\n经管励志::https://m.popoxs.com/booklist/17-0-0-0-lastupdate-{{page}}.html\n生活休闲::https://m.popoxs.com/booklist/18-0-0-0-lastupdate-{{page}}.html\n婚姻家庭::https://m.popoxs.com/booklist/19-0-0-0-lastupdate-{{page}}.html\n科普教育::https://m.popoxs.com/booklist/20-0-0-0-lastupdate-{{page}}.html\n纪实传记::https://m.popoxs.com/booklist/21-0-0-0-lastupdate-{{page}}.html\n亲子育儿::https://m.popoxs.com/booklist/22-0-0-0-lastupdate-{{page}}.html\n工具/百科::https://m.popoxs.com/booklist/23-0-0-0-lastupdate-{{page}}.html",
+        "lastUpdateTime": 1648568306193,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "{{@@.zw_flex.0@text}},{{@@.ui_bookinfo_detail@p.3@text##状态：}}",
+            "lastChapter": ".zw_flex.1@span@text",
+            "tocUrl": ".ui_channel@class.zw_box@a@href",
+            "wordCount": "{{@@text.字数：@text##(?i)(?:\\.\\d+)?k##000}}##字数：|字"
+        },
+        "ruleContent": {
+            "content": ".r-content@html",
+            "nextContentUrl": "class.zw_flex zw_tr@a@href##$##{'webView': true}"
+        },
+        "ruleExplore": {
+            "author": ".authorname@text||.name",
+            "bookList": ".ui_booklistv@ul.0@li||$.bookcoll",
+            "bookUrl": "a@href||.articleid\n<js>\nam=result.match(/([a-z,0-9]{2})/)[1];\n\nif(am == 'ck'){result=result}\nelse{url=\"https://m.popoxs.com/ck101/10\"+result+\".html\"}\n</js>",
+            "coverUrl": "{{@@class.ui_bookv_cover@img@src}}||bb{{$.articleid}}aa{{$.sid}}aa\n<js>\n\nam=result.match(/([a-z,0-9]{3})/)[1];\n\n\n\nif(am == 'htt'){result=result.match(/h(.*?)jpg/)[0]}\nelse{d=result.match(/bb(.*?)aa/)[1];\ns=result.match(/aa(.*?)aa/)[1];\nsrc='https://img.popoxs.com/'+s+'/'+d+'/'+d+'s.jpg'}\n\n</js>",
+            "intro": ".intro@text||.intro",
+            "name": ".ui_bookv_intro@h3@text||.articlename"
+        },
+        "ruleSearch": {
+            "author": ".authorname@text",
+            "bookList": ".ui_booklistv@ul.0@li",
+            "bookUrl": "a@href",
+            "coverUrl": ".lazy@data-original",
+            "intro": ".intro@text",
+            "name": ".ui_bookv_intro@h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".ul_catalog@li||.ul_volume@li",
+            "chapterName": "text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://m.popoxs.com/wap/search.html?s={{key}}&type=articlename",
+        "weight": 0
+    }
+]

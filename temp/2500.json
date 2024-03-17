@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "大佬读",
+        "bookSourceUrl": "https://m.dalaodu.com",
+        "enable": false,
+        "ruleBookContent": "id.acontent@textNodes",
+        "ruleBookLastChapter": "class.c_row nw@a@text",
+        "ruleChapterList": "class.index@dd@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "class.more@href",
+        "ruleChapterUrlNext": "text.下一页@href",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.cover_l@src",
+        "ruleFindUrl": "玄幻奇幻::https://m.dalaodu.com/sort/1/searchPage/\n武侠修真::https://m.dalaodu.com/sort/2/searchPage/\n都市言情::https://m.dalaodu.com/sort/3/searchPage/\n历史军事::https://m.dalaodu.com/sort/4/searchPage/\n科幻灵异::https://m.dalaodu.com/sort/5/searchPage/\n游戏竞技::https://m.dalaodu.com/sort/6/searchPage/\n纯爱耽美::https://m.dalaodu.com/sort/7/searchPage/\n综合其他::https://m.dalaodu.com/sort/8/searchPage/",
+        "ruleIntroduce": "id.introl@textNodes",
+        "ruleSearchAuthor": "class.gray@text#\\| | .*|玄幻奇幻 |武侠修真 |都市言情 |历史军事 |科幻灵异 |游戏竞技 |纯爱耽美 |综合其他 ",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchList": "class.c_row cf",
+        "ruleSearchName": "h4@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://m.dalaodu.com/modules/article/search.php@searchkey=searchKey&searchtype=all|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "知轩藏书",
+        "bookSourceUrl": "http://www.zxcsx.com",
+        "enable": false,
+        "ruleBookContent": "$id.article@p!0:-1@html",
+        "ruleBookKind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+        "ruleBookLastChapter": "id.newchapter@tag.a.0@text",
+        "ruleChapterList": "id.allchapter@a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "img@data-original",
+        "ruleFindUrl": "",
+        "ruleIntroduce": "class.info-main-intro@p@textNodes",
+        "ruleSearchAuthor": "tag.div.1@textNodes",
+        "ruleSearchCoverUrl": "img@data-original",
+        "ruleSearchIntroduce": "class.intross indent@textNodes",
+        "ruleSearchLastChapter": "class.zj@text",
+        "ruleSearchList": "class.category-div",
+        "ruleSearchName": "h3@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://www.zxcsx.com/home/search/@action=search&q=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

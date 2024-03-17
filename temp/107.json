@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceGroup": "置顶搜书",
+        "bookSourceName": "风筝",
+        "bookSourceUrl": "http://m.56fz.net",
+        "enable": true,
+        "ruleBookAuthor": "class.pt-novel@tag.div.2@text",
+        "ruleBookContent": "$id.BookText@html##风筝小.*|www.*|＞＞",
+        "ruleBookInfoInit": "",
+        "ruleBookKind": "class.pt-novel@tag.div.3@tag.a.0@text",
+        "ruleBookLastChapter": "id.newchaperlist@tag.li.0@tag.a.0@text&&class.pt-novel@tag.div.4@text",
+        "ruleBookName": "tag.img.0@alt",
+        "ruleChapterList": "id.chapterlist@tag.li@tag.a.0",
+        "ruleChapterName": "text",
+        "ruleChapterUrlNext": "",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "tag.img.1@src",
+        "ruleFindAuthor": "",
+        "ruleFindIntroduce": "",
+        "ruleFindList": "",
+        "ruleFindName": "",
+        "ruleFindNoteUrl": "",
+        "ruleFindUrl": "",
+        "ruleIntroduce": "class.intro@text",
+        "ruleSearchCoverUrl": "tag.img.0@src",
+        "ruleSearchList": "class.ptm-list-view.1@tag.li",
+        "ruleSearchName": "tag.a.0@title",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleSearchUrl": "https://m.56fz.net/home/search @action=search&q=searchKey|char=utf-8",
+        "serialNumber": 10121,
+        "weight": 0
+    }
+]

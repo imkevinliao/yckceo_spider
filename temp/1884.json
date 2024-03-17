@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎨漫画",
+        "bookSourceName": "动漫之家-M",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.dmzj1.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最近更新::https://api.m.dmzj1.com/recommend/latest/{{page-1}}.json\n人气排行::https://api.m.dmzj1.com/rank/0-0-0-{{page-1}}.json\n吐槽排行::https://api.m.dmzj1.com/rank/1-0-0-{{page-1}}.json\n订阅排行::https://api.m.dmzj1.com/rank/2-0-0-{{page-1}}.json\n人气排序::https://api.m.dmzj.com/classify/0-0-0-0-0-{{page-1}}.json\n更新排序::https://api.m.dmzj.com/classify/0-0-0-0-1-{{page-1}}.json\n连载::https://api.m.dmzj.com/classify/0-0-1-0-0-{{page-1}}.json\n完结::https://api.m.dmzj.com/classify/0-0-2-0-0-{{page-1}}.json\n冒险::https://api.m.dmzj.com/classify/1-0-0-0-0-{{page-1}}.json\n欢乐向::https://api.m.dmzj.com/classify/2-0-0-0-0-{{page-1}}.json\n格斗::https://api.m.dmzj.com/classify/3-0-0-0-0-{{page-1}}.json\n科幻::https://api.m.dmzj.com/classify/4-0-0-0-0-{{page-1}}.json\n爱情::https://api.m.dmzj.com/classify/5-0-0-0-0-{{page-1}}.json\n竞技::https://api.m.dmzj.com/classify/6-0-0-0-0-{{page-1}}.json\n魔法::https://api.m.dmzj.com/classify/7-0-0-0-0-{{page-1}}.json\n校园::https://api.m.dmzj.com/classify/8-0-0-0-0-{{page-1}}.json\n悬疑::https://api.m.dmzj.com/classify/9-0-0-0-0-{{page-1}}.json\n恐怖::https://api.m.dmzj.com/classify/10-0-0-0-0-{{page-1}}.json\n生活亲情::https://api.m.dmzj.com/classify/11-0-0-0-0-{{page-1}}.json\n百合::https://api.m.dmzj.com/classify/12-0-0-0-0-{{page-1}}.json\n伪娘::https://api.m.dmzj.com/classify/13-0-0-0-0-{{page-1}}.json\n耽美::https://api.m.dmzj.com/classify/14-0-0-0-0-{{page-1}}.json\n后宫::https://api.m.dmzj.com/classify/15-0-0-0-0-{{page-1}}.json\n萌系::https://api.m.dmzj.com/classify/16-0-0-0-0-{{page-1}}.json\n治愈::https://api.m.dmzj.com/classify/17-0-0-0-0-{{page-1}}.json\n武侠::https://api.m.dmzj.com/classify/18-0-0-0-0-{{page-1}}.json\n职场::https://api.m.dmzj.com/classify/19-0-0-0-0-{{page-1}}.json\n奇幻::https://api.m.dmzj.com/classify/20-0-0-0-0-{{page-1}}.json\n节操::https://api.m.dmzj.com/classify/21-0-0-0-0-{{page-1}}.json\n轻小说::https://api.m.dmzj.com/classify/22-0-0-0-0-{{page-1}}.json\n搞笑::https://api.m.dmzj.com/classify/23-0-0-0-0-{{page-1}}.json\n少年::https://api.m.dmzj.com/classify/0-1-0-0-0-{{page-1}}.json\n少女::https://api.m.dmzj.com/classify/0-2-0-0-0-{{page-1}}.json\n青年::https://api.m.dmzj.com/classify/0-3-0-0-0-{{page-1}}.json\n日本::https://api.m.dmzj.com/classify/0-0-0-1-0-{{page-1}}.json\n内地::https://api.m.dmzj.com/classify/0-0-0-2-0-{{page-1}}.json\n欧美::https://api.m.dmzj.com/classify/0-0-0-3-0-{{page-1}}.json\n港台::https://api.m.dmzj.com/classify/0-0-0-4-0-{{page-1}}.json\n韩国::https://api.m.dmzj.com/classify/0-0-0-5-0-{{page-1}}.json\n其他::https://api.m.dmzj.com/classify/0-0-0-6-0-{{page-1}}.json",
+        "lastUpdateTime": 1620009743515,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.txtItme.0@tag.a@text",
+            "canReName": "",
+            "coverUrl": "",
+            "intro": "class.txtDesc@text",
+            "kind": "class.txtItme.1@tag.a@text&&class.txtItme.2@tag.a.-1@text",
+            "name": "id.comicName@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nvar data = result.match(/initData\\((.*?\\})\\,/)[1];\ndata\n</js>\n$.page_url.[*]\n@js:\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)};\nresult.split(\"\\n\").map(x=>'<img src=\\\"'+x+','+JSON.stringify(headers)+'\\\">').join(\"\\n\")",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": {
+            "author": "$.authors",
+            "bookList": "$.*",
+            "bookUrl": "https://m.dmzj1.com/info/{{$.id}}.html",
+            "coverUrl": "$.cover##dmzj\\.com##dmzj1\\.com",
+            "kind": "$.types",
+            "lastChapter": "$.last_update_chapter_name",
+            "name": "$.name"
+        },
+        "ruleSearch": {
+            "author": "$.authors",
+            "bookList": "<js>\nvar data;\ndata = result.match(/\\[.*\\]/)[0];\n//java.log(result)\n</js>$.*",
+            "bookUrl": "https://m.dmzj1.com/info/{{$.id}}.html",
+            "coverUrl": "$.cover@js:'https://images.dmzj1.com/'+result",
+            "intro": "$.description",
+            "kind": "$.types",
+            "lastChapter": "$.last_update_chapter_name",
+            "name": "$.name",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "-<js>\nvar data = result.match(/initIntroData\\((.*?)\\)\\;/)[1];\ndata\n</js>\n$.[*]data.[*]",
+            "chapterName": "$.chapter_name",
+            "chapterUrl": "https://m.dmzj1.com/view/{{$.comic_id}}/{{$.id}}.html",
+            "isVip": ""
+        },
+        "searchUrl": "https://m.dmzj1.com/search/{{key}}.html",
+        "weight": 0
+    }
+]

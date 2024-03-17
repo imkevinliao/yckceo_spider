@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "//用不了自己修改ua(进入修改成手机(ua)百度就可以 (ua生成器)\n//dy@天天的鸟蛋蛋 (自)",
+        "bookSourceGroup": "有声书",
+        "bookSourceName": "📻 6月听书网1（天天）(api)",
+        "bookSourceType": 1,
+        "bookSourceUrl": "http://m.6yueting.com#天天的鸟蛋蛋",
+        "customOrder": 137,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"合集分类\",\"url\":\"/ys/t0/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻奇幻\",\"url\":\"/ys/t1/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真武侠\",\"url\":\"/ys/t2/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖灵异\",\"url\":\"/ys/t3/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"古今言情\",\"url\":\"/ys/t4/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越重生\",\"url\":\"/ys/t5/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"粤语古仔\",\"url\":\"/ys/t6/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游小说\",\"url\":\"/ys/t7/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"评书大全\",\"url\":\"/ys/t8/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"相声小品\",\"url\":\"/ys/t9/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"百家讲坛\",\"url\":\"/ys/t10/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"通俗文学\",\"url\":\"/ys/t11/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史纪实\",\"url\":\"/ys/t12/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"军事\",\"url\":\"/ys/t13/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑推理\",\"url\":\"/ys/t14/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"官场商战\",\"url\":\"/ys/t15/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"儿童读物\",\"url\":\"/ys/t16/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"广播剧\",\"url\":\"/ys/t17/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"ebc5系列\",\"url\":\"/ys/t18/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"健康养生\",\"url\":\"/ys/t20/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"教材\",\"url\":\"/ys/t21/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"外文原版\",\"url\":\"/ys/t22/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"期刊头条\",\"url\":\"/ys/t23/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"戏曲\",\"url\":\"/ys/t24/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"脱口秀\",\"url\":\"/ys/t27/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/ys/t28/o1/p{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-A705XC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.5249.118 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693322661447,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".text.2@text&&class.extra.1@text",
+            "intro": "class.extra update-time@text&&class.book-intro tab-cont@text",
+            "lastChapter": ".text.3@text",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "<js>result</js>",
+            "sourceRegex": ".*\\.(mp3|m4a).*"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": ".list-wrapper@ul@a",
+            "bookUrl": "href",
+            "coverUrl": "img@src",
+            "intro": "class.broadcaster@span.-1@text&&class.desc@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "class.name@textNodes"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "{$.broadcaster}\n演播：{$.author}",
+            "bookList": "$..content[*]",
+            "bookUrl": "/list/{$.code}",
+            "coverUrl": "http://img.6yueting.com:20001/{$.coverUrlLocal}",
+            "intro": "采集时间：{$.cdate}\n更新时间：{$.udate}\n简介：{$.descXx}",
+            "kind": "",
+            "name": "$.name##<span style=\"color:red\">|</span>"
+        },
+        "ruleToc": {
+            "chapterList": "class.book-list clearfix@a",
+            "chapterName": "text",
+            "chapterUrl": "href@js:result+',{webView:“true”}'"
+        },
+        "searchUrl": "http://m.6yueting.com/search/index/search?content={{key}}&type=1&pageNum=1&pageSize=40",
+        "weight": 196
+    }
+]

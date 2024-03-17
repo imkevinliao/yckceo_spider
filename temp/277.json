@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceUrl": "https://www.580bk.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "锦绣文学",
+        "bookSourceGroup": "-TinyZ",
+        "bookSourceComment": "tinyzzh815@gmail.com",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/home/search,{\n \"charset\": \"utf-8\",\n \"method\": \"POST\",\n \"body\": \"action=search&q={{key}}&page={{page}}\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1622046016593,
+        "ruleSearch": [],
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.booktitle@h1@text",
+            "author": "id.info@p:eq(1)@a@text",
+            "kind": "class.con_top@a:eq(1)@text",
+            "lastChapter": "id.info@p:eq(4)@a@text",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dl@dd",
+            "chapterName": "dd@a@text",
+            "chapterUrl": "dd@a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "class.bottem2@a:eq(2)@href"
+        }
+    }
+]

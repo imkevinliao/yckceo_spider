@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "api·凡",
+        "bookSourceName": "爱下小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://api.aixdzs.com/",
+        "customOrder": -2085959087,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":0,\"layout_flexBasisPercent\":1}},{\"title\":\"周榜\",\"url\":\"http://api.aixdzs.com/ranking/1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"月榜\",\"url\":\"http://api.aixdzs.com/ranking/2\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"总榜\",\"url\":\"http://api.aixdzs.com/ranking/3\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}}]",
+        "lastUpdateTime": 1669193425793,
+        "respondTime": 13655,
+        "ruleBookInfo": {
+            "author": "$.author",
+            "coverUrl": "https://img22.aixdzs.com/{{$.cover}}",
+            "init": "",
+            "intro": "$.longIntro",
+            "kind": "{{$.updated}}\n{{$.cat}}\n{{$.zt}}",
+            "lastChapter": "$.lastChapter",
+            "name": "$.title",
+            "tocUrl": "http://api.aixdzs.com/content/{{$._id}}?view=chapter",
+            "wordCount": "$.wordCount"
+        },
+        "ruleContent": {
+            "content": "$..body##.*第.*章.*|.*武林中文网.*最新章节！",
+            "replaceRegex": "##.*追书app.咪咪阅读.*|.*\\(\\).|\\u3000+谷[^\\d]|热门推荐：|恋上你，.*|\\u3000+第[^\\d].*|最新网址.*"
+        },
+        "ruleExplore": {
+            "author": "$.author",
+            "bookList": "$..books[*]",
+            "bookUrl": "http://api.aixdzs.com/book/{{$._id}}",
+            "coverUrl": "https://img22.aixdzs.com/{{$.cover}}",
+            "intro": "$.shortIntro",
+            "kind": "{{$.updated}}\n{{$.cat}}\n{{$.zt}}",
+            "lastChapter": "$.lastchapter##更新到:",
+            "name": "$.title"
+        },
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.books[*]",
+            "bookUrl": "http://api.aixdzs.com/book/{{$._id}}",
+            "coverUrl": "https://img22.aixdzs.com/{{$.cover}}",
+            "intro": "$.shortIntro",
+            "kind": "{{$.updated}}\n{{$.cat}}\n{{$.zt}}",
+            "lastChapter": ".nowrap.3@text&&\n.nowrap.2@textNodes##最新:",
+            "name": "$.title",
+            "wordCount": ".meta-r@span@em.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "$..chapters[*]",
+            "chapterName": "$.title",
+            "chapterUrl": "http://api.aixdzs.com/chapter/{{$.link}}"
+        },
+        "searchUrl": "http://api.aixdzs.com/book/search?query={{key}}",
+        "weight": 0
+    }
+]

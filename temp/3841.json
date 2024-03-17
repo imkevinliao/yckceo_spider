@@ -1,0 +1,64 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30s",
+        "bookSourceGroup": "☣️精选senhora,⛎JJ城",
+        "bookSourceName": "无限小说网[仅发现丨搜索间隔30s]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.555x.org,{{'webView': true}}",
+        "bookUrlPattern": "",
+        "customOrder": -2086087814,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "❄玄幻小说::/html/xuanhuan/{{page}}/\n🎯武侠仙侠::/html/wuxia/{{page}}/\n🎩都市小说::/html/dushi/{{page}}/\n🏆网游竞技::/html/wangyou/{{page}}/\n🀄穿越小说::/html/chuanyue/{{page}}/\n🎬科幻小说::/html/kehuan/{{page}}/\n🌴悬疑推理::/html/xuanyi/{{page}}/\n💒其他小说::/html/qita/{{page}}/\n⚓全本小说::/quanben/html/{{page}}/\n都市生活::/html/dushi/list_36_{{page}}.html\n热血青春::/html/dushi/list_38_{{page}}.html\n职场励志::/html/dushi/list_42_{{page}}.html\n官场商战::/html/dushi/list_40_{{page}}.html\n军警谍战::/html/dushi/list_71_{{page}}.html\n都市异能::/html/dushi/list_43_{{page}}.html\n🌠科幻::/html/kehuanxiaoshuo/list_70_{{page}}.html\n👻悬疑推理::/html/xuanyituili/list_71_{{page}}.html\n♐其他::/html/qita/list_45_{{page}}.html\n衍生同人::/html/qita/list_46_{{page}}.html\n历史军工::/html/qita/list_26_{{page}}.html",
+        "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "lastUpdateTime": 1691320132636,
+        "loginUrl": "",
+        "respondTime": 8181,
+        "ruleBookInfo": {
+            "author": "[property=og:novel:author]@content",
+            "coverUrl": "[property=og:image]@content",
+            "intro": "[property=og:description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=og:novel:category]@content&&[property=og:novel:status]@content##(?:更新时间|书籍大小|小说分类)：|（解压后）",
+            "lastChapter": "[property=og:novel:update_time]@content&&[property=og:novel:latest_chapter_name]@content",
+            "name": "[property=og:novel:book_name]@content",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "id.info@class.visible-xs!-1:-3@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html##jj.br>|D-声明：本书为无限小说网\\(555x.org.*?本站无任何关系。|---------------------------用户上传之内容开始--------------------------------|.* ap.*】|最新网址：",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*.*章.*下一页.*|.*《.*》最快更新.*|.*最快更新最新章节.*|.*..*免费阅读.*|『』|言情吧免费阅读|《.*》\\s*|.*追书.*】|.*】【】|话说.*】|.*试试.*】|.*装最新.*】|【讲真.*】"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.l rank@class.item&&class.l@ul@li",
+            "bookUrl": "class.s2@a@href&&class.image@a@href",
+            "coverUrl": ".lazy@data-original",
+            "intro": "dl@dd@text##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "class.s1@text&&class.btm@em.0@text",
+            "lastChapter": "class.s3@text&&class.btm@em.1@text",
+            "name": "class.s2@text&&dt@a@title##《|》.*载",
+            "wordCount": "class.s5@text"
+        },
+        "ruleSearch": {
+            "author": ".btm@a@text",
+            "bookList": "id.hotcontent@class.item",
+            "bookUrl": ".image@a@href",
+            "checkKeyWord": "视帝",
+            "coverUrl": ".lazy@data-original",
+            "intro": "dl@dd@text##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "",
+            "lastChapter": ".btm@em.1@text",
+            "name": "dt@a@title##《|》.*载",
+            "wordCount": ".btm@em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search/?searchkey={{key}},{\"charset\":\"UTF-8\",\"webView\":true}",
+        "weight": 0
+    }
+]

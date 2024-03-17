@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "看书啦",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.stxsw.com",
+        "bookUrlPattern": "https://wap.stxsw.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/ksort/1/{{page}}.html\n武侠仙侠::/ksort/2/{{page}}.html\n都市言情::/ksort/3/{{page}}.html\n历史军事::/ksort/4/{{page}}.html\n科幻灵异::/ksort/5/{{page}}.html\n网游竞技::/ksort/6/{{page}}.html\n女频频道::/ksort/7/{{page}}.html\n完结小说::/quanben/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690956193057,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2 p.2@text",
+            "coverUrl": ".block_img2 img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2 p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2 a.-1@text",
+            "name": ".block_txt2 h2@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@text##简介：",
+            "kind": "0",
+            "lastChapter": "a.2@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://wap.stxsw.com/search.php?keyword={{key}}&submit=",
+        "weight": 0
+    }
+]

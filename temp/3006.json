@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "修复目录地址获取不了",
+        "bookSourceGroup": "🌨耽美",
+        "bookSourceName": "书仓网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.shucang.cc/",
+        "customOrder": -3582,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1601010106339,
+        "ruleBookInfo": {
+            "author": "class.author@tag.a@text",
+            "coverUrl": "img@src",
+            "init": "class.detail",
+            "kind": "class.layui-btn layui-btn-xs layui-btn-radius@text",
+            "lastChapter": "class.new@tag.a@text",
+            "name": "class.name@text",
+            "tocUrl": "@js:result=baseUrl+'_index.html'##\\/_##_",
+            "wordCount": "tag.p.2@tag.span.1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "imageStyle": "0.0",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.data.0@tag.a@text",
+            "bookList": "tag.body@tag.ul@tag.li",
+            "bookUrl": "class.bookname@tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.data@tag.span.0@text",
+            "lastChapter": "tag.p.3@tag.a@text",
+            "name": "tag.p.0@tag.a@text",
+            "wordCount": "class.data@tag.span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.shucang.cc/search.html,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}",
+        "weight": 0
+    }
+]

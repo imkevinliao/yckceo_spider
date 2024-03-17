@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉 精选",
+        "bookSourceName": "🎉 2K小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.sdhear.com",
+        "customOrder": -1,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1674918901125,
+        "loginUrl": "",
+        "respondTime": 25227,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "init": "",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##\\s.*",
+            "lastChapter": "[property$=latest_chapter_name]@content##[\\(（【].*?[求更票谢乐发订合补加K].*?[】）\\)]",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "replaceRegex": "##欢迎广大书友.*"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": "p.2@text##简介.|\\s",
+            "kind": "",
+            "lastChapter": "",
+            "name": "p.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "-class.chapter@li a",
+            "chapterName": "text##[\\(（【].*?[求更票谢乐发订合补加K].*?[】）\\)]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=keywords&searchkey={{key}}&submit=&page={{page}}\"\n}",
+        "weight": 0
+    }
+]

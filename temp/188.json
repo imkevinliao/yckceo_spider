@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceGroup": "微",
+        "bookSourceName": "A建标库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.jianbiaoku.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1660620782559,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "name": "class.title@text",
+            "tocUrl": "class.title@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": "class.links@tag.li.2",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "class.list@tag.li",
+            "bookUrl": "class.title@tag.a@href",
+            "intro": "class.content@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list@tag.li",
+            "chapterName": "class.chapter@tag.span@tag.a@tag.b@text",
+            "chapterUrl": "class.chapter@tag.span@tag.a@href"
+        },
+        "searchUrl": "http://m.jianbiaoku.com/content/index?&searchType=1&key={{key}}&categoryId=115&areaId=0&catalogId=0",
+        "weight": 0
+    }
+]

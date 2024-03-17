@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "三五小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.txt35.com",
+        "bookUrlPattern": "https://www.txt35.com/txt/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻奇幻\",\n\t\"url\":\"/xuanhuan/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠仙侠\",\n\t\"url\":\"/wuxia/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市言情\",\n\t\"url\":\"/dushi/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史军事\",\n\t\"url\":\"/lishi/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻灵异\",\n\t\"url\":\"/kehuan/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游竞技\",\n\t\"url\":\"/wangyou/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"女频频道\",\n\t\"url\":\"/nvpin/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/qita/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1664008214571,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "[property=\"og:novel:read_url\"]@content",
+            "wordCount": "[property=\"og:novel:update_time\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content1@html"
+        },
+        "ruleExplore": {
+            "author": "class.zuozhe@text",
+            "bookList": "class.zuixin@ul@li!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "@js:\"https://s1.328888.xyz/2022/09/24/Vu0lF.jpg\"",
+            "kind": "class.lei@text##\\[|\\]",
+            "lastChapter": "class.xupl@a@text",
+            "name": "class.xname@a@text",
+            "wordCount": "class.uptime@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "tbody@tr!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "@js:\"https://s1.328888.xyz/2022/09/24/Vu0lF.jpg\"",
+            "kind": "td.4@text",
+            "lastChapter": "td.3@a@text",
+            "name": "td.1@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.pc_list@ul@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.txt35.com/search/?wd={{key}},{\n\t\"headers\": {'referer': 'https://www.txt35.com/'}\n\t}",
+        "weight": 0
+    }
+]

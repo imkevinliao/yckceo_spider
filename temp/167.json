@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "关注星瞳_Official，送溜溜梅",
+        "bookSourceName": "如文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.jybdsj.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "<js>\nimportClass(org.jsoup.Jsoup);\nfunction get(www,css)\n{\nlist=Jsoup.parse(java.ajax(www)).select(css).toArray().map(a=>a.text()+\"::\"+a.attr(\"href\")).slice(1,25).join(\"&&\").replace(/1\\/&&/,\"{{page}}/&&\")+\"&&全本::https://m.jybdsj.com/quanben/fenlei/{{page}}/\";\nreturn list;\n}\nresult=get(\"https://m.jybdsj.com/fenlei/\",\".fixed ul li a\")</js>",
+        "lastUpdateTime": 1659233399380,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "img.0@src",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "tocUrl": ".bookchaptermore@href"
+        },
+        "ruleContent": {
+            "content": "#booktxt@p[!-1]@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": "tag.dl",
+            "bookUrl": ".cover@href",
+            "coverUrl": "img@data-original",
+            "intro": "dd.0@text",
+            "kind": "span.0@text",
+            "name": ".cover@title",
+            "wordCount": "span.1@text"
+        },
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": ".bookchapter@li",
+            "chapterName": "a@title",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "weight": 0
+    }
+]

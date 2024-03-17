@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "飞山中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://mip.feishanzw.com",
+        "bookUrlPattern": "https://mip.feishanzw.com/book.+.html",
+        "customOrder": 25,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::https://mip.feishanzw.com/category/1/{{page}}.html\n武侠修真::https://mip.feishanzw.com/category/2/{{page}}.html\n都市言情::https://mip.feishanzw.com/category/3/{{page}}.html\n历史军事::https://mip.feishanzw.com/category/4/{{page}}.html\n网游动漫::https://mip.feishanzw.com/category/6/{{page}}.html\n科幻小说::https://mip.feishanzw.com/category/7/{{page}}.html\n恐怖灵异::https://mip.feishanzw.com/category/8/{{page}}.html\n其他类型::https://mip.feishanzw.com/category/10/{{page}}.html",
+        "header": "{   \"connection\": \"keep-alive\",\n    \"cache-control\": \"max-age=0\",\n    \"upgrade-insecure-requests\": \"1\",\n    \"origin\": \"{{source.getKey()}}\",\n    \"content-type\": \"application/x-www-form-urlencoded\",\n    \"accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\",\n    \"x-requested-with\": \"XMLHttpRequest\",\n    \"sec-fetch-site\": \"same-origin\",\n    \"sec-fetch-mode\": \"navigate\",\n    \"sec-fetch-user\": \"?1\",\n    \"sec-fetch-dest\": \"document\",\n    \"referer\": \"{{source.getKey()}}/\",\n    \"accept-language\": \"zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7\"}",
+        "lastUpdateTime": 1689235759377,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": ".bookintro@text##简介：",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "h5@text",
+            "bookList": ".media",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "p@text",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h5@text",
+            "bookList": ".media",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".booklist@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search.php?search={{key}}",
+        "weight": 0
+    }
+]

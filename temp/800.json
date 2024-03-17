@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceUrl": "http://www.360wxwxs.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "360文学网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/search.html,{\n    \"method\": \"POST\",\n    \"body\": \"searchtype=all&searchkey={{key}}\",\n    \"headers\": {\n        \"Cookie\": \"Hm_lvt_8c192ce3c567023d62750bd92c7fcfa9={{Math.round((new Date()).getTime()/1000)}}; Hm_lpvt_8c192ce3c567023d62750bd92c7fcfa9={{Math.round((new Date()).getTime()/1000)}}\",\n        \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62\"\n    }\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1641368143180,
+        "ruleSearch": {
+            "bookList": "id.sitembox@tag.dl",
+            "name": "tag.h3@text",
+            "author": "class.book_other.0@tag.span.0@text",
+            "kind": "class.book_other.0@tag.span.2@text",
+            "wordCount": "class.book_other.0@tag.span.3@text",
+            "lastChapter": "class.book_other.1@tag.a@text",
+            "intro": "class.book_des@text",
+            "coverUrl": "tag.dt@tag.img@src",
+            "bookUrl": "tag.h3@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "id.info@tag.h1@text",
+            "author": "id.info@tag.p.0@tag.a@text",
+            "kind": "id.info@tag.p.1@text@js:result[0].split('：')[0]",
+            "lastChapter": "id.info@tag.p.3@tag.a@text",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "@css:#list dt:last-of-type~dd>a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p.!-1@html"
+        }
+    }
+]

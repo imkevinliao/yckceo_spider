@@ -1,0 +1,29 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "免费看",
+        "bookSourceUrl": "http://m.dashenbook.com",
+        "enable": false,
+        "ruleBookContent": "id.content@textNodes",
+        "ruleBookLastChapter": "class.lastchapter@a@text",
+        "ruleChapterList": "class.chapters.1@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrlNext": "option@value",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "tetx.下一页@href",
+        "ruleCoverUrl": "class.left@img@src",
+        "ruleFindUrl": "最近更新::http://m.dashenbook.com/top/lastupdate_searchPage.html\n最新入库::http://m.dashenbook.com/top/postdate_searchPage.html\n总排行榜::http://m.dashenbook.com/top/allvisit_searchPage.html\n总推荐榜::http://m.dashenbook.com/top/allvote_searchPage.html\n总收藏榜::http://m.dashenbook.com/top/goodnum_searchPage.html\n总字数榜::http://m.dashenbook.com/top/size_searchPage.html\n完本小说::http://m.dashenbook.com/wanben/1_searchPage\n玄幻小说::http://m.dashenbook.com/xs/1/searchPage.html\n修真小说::http://m.dashenbook.com/xs/2/searchPage.html\n都市小说::http://m.dashenbook.com/xs/3/searchPage.html\n穿越小说::http://m.dashenbook.com/xs/4/searchPage.html\n网游小说::http://m.dashenbook.com/xs/5/searchPage.html\n科幻小说::http://m.dashenbook.com/xs/6/searchPage.html\n其他小说::http://m.dashenbook.com/xs/7/searchPage.html",
+        "ruleIntroduce": "class.intros@textNodes#小说简介：",
+        "ruleSearchAuthor": "class.author@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchIntroduce": "class.intro@textNodes",
+        "ruleSearchKind": "class.sortbtn@text&class.fullbtn@text",
+        "ruleSearchLastChapter": "class.update@a@text",
+        "ruleSearchList": "class.searchlists@li|class.lists@li",
+        "ruleSearchName": "class.articlename@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://m.dashenbook.com/search.php?searchkey=searchKey|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

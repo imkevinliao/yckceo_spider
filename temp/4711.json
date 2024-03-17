@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "自己",
+        "bookSourceName": "笔趣阁https://www.muxtoo.com/",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.muxtoo.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n武侠::/wuxia/{{page}}.html\n都市::/dushi/{{page}}.html\n历史::/lishi/{{page}}.html\n网游::/wangyou/{{page}}.html\n科幻::/kehuan/{{page}}.html\n女生::/mm/{{page}}.html\n完本::/finish/{{page}}.html\n首页::https://www.muxtoo.com/",
+        "lastUpdateTime": 1707296481437,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".small span[0]@text",
+            "coverUrl": "img@src",
+            "init": ".info",
+            "intro": "dl dd@text",
+            "kind": ".path wap_none@textNodes",
+            "lastChapter": ".last a@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes##请收藏本站：.*"
+        },
+        "ruleExplore": {
+            "author": "dt span@text",
+            "bookList": ".hot .item",
+            "bookUrl": "dt a@href",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "lastChapter": "",
+            "name": "dt a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".type_show  .bookbox",
+            "bookUrl": "h4 a@href",
+            "coverUrl": "img@src",
+            "intro": ".uptime@text",
+            "name": "h4 a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".listmain dl dd[!10]",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.muxtoo.com/s?q={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

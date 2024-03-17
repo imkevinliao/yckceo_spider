@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceUrl": "http://m.99wenku.org",
+        "bookSourceType": "0",
+        "bookSourceName": "久久文学",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "疯狂的蜗牛",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://m.99wenku.org/s.php,{ \"charset\": \"gbk\", \"method\": \"POST\", \"body\": \"s={{key}}&type=articlename\" }",
+        "exploreUrl": "日点击榜::http://m.99wenku.org/top-dayvisit-1/\n周点击榜::http://m.99wenku.org/top-weekvisit-1/\n月点击榜::http://m.99wenku.org/top-monthvisit-1/\n总点击榜::http://m.99wenku.org/top-allvisit-1/\n总收藏榜::http://m.99wenku.org/top-goodnum-1/\n总推荐榜::http://m.99wenku.org/top-allvote-1/\n最新入库::http://m.99wenku.org/top-postdate-1/\n",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1620311462638,
+        "ruleSearch": {
+            "bookList": "class.line",
+            "name": "class.blue@text",
+            "author": "class.line@tag.a.2@text",
+            "kind": "class.line@tag.a.0@text",
+            "bookUrl": "class.blue@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.line",
+            "name": "class.blue@text",
+            "author": "@tag.2@text",
+            "kind": "@tag.0@text",
+            "bookUrl": "class.blue@href"
+        },
+        "ruleBookInfo": {
+            "name": "class.read@tag.h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.li",
+            "chapterName": "@tag.a@text",
+            "chapterUrl": "@tag.a@href",
+            "nextTocUrl": "class.page.0@text.下页@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html"
+        }
+    }
+]

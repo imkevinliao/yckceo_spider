@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "💠 综合",
+        "bookSourceName": "💠 奇书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.1qishu.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部分类\",\"url\":\"/soft/sort00/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"玄幻奇幻\",\"url\":\"/soft/sort01/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"武侠仙侠\",\"url\":\"/soft/sort02/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市生活\",\"url\":\"/soft/sort03/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"历史军事\",\"url\":\"/soft/sort04/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"游戏竞技\",\"url\":\"/soft/sort05/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻未来\",\"url\":\"/soft/sort06/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"恐怖悬疑\",\"url\":\"/soft/sort07/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他类型\",\"url\":\"/soft/sort08/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"古代言情\",\"url\":\"/soft/sort09/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"现代言情\",\"url\":\"/soft/sort010/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"幻想奇缘\",\"url\":\"/soft/sort011/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"游戏情缘\",\"url\":\"/soft/sort012/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"浪漫青春\",\"url\":\"/soft/sort013/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"言情美文\",\"url\":\"/soft/sort014/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻灵异\",\"url\":\"/soft/sort015/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他类型\",\"url\":\"/soft/sort016/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36\",\n\t\"Referer\": \"https://m.1qishu.com/\",\n\t\"Content-Type\": \"application/x-www-form-urlencoded\",\n\t\"Origin\": \"https://m.1qishu.com\"\n}",
+        "lastUpdateTime": 1699289278012,
+        "respondTime": 3176,
+        "ruleBookInfo": {
+            "author": "[name=\"author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:discription\"]@content",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": "#info > div.main > div:nth-child(5) > h2 > a@href"
+        },
+        "ruleContent": {
+            "content": "#chapter > div.content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*(www|m)\\..+\\.(com|cn|cc|top|net).*|五一看书.*|天天看书.*|尊贵特权.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p:nth-child(3) > a@text",
+            "bookList": "body > div.main > ul > li",
+            "bookUrl": "p.bookname a@href",
+            "coverUrl": "img@src",
+            "intro": "p.intro@text",
+            "kind": "p:nth-child(3) > span:nth-child(2)@text",
+            "lastChapter": "p:nth-child(5) > a@text",
+            "name": "p.bookname a@text"
+        },
+        "ruleToc": {
+            "chapterList": "#read > div.main > ul.read > li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "@js:\nvar url = \"https://m.1qishu.com/search.html\";\nvar head = JSON.parse(source.header);\nvar body = \"searchkey=\"+key;\nsid=java.post(url,body,head).header(\"Location\");\njava.log(sid);\n\"https://m.1qishu.com\"+sid",
+        "weight": 0
+    }
+]

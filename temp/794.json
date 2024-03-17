@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "2022.01.08",
+        "bookSourceGroup": "☁️修正,☁可用,☣️发现大精选,📚  出版,⛩🎐senhora",
+        "bookSourceName": "天涯在线书库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tianyabook.com#",
+        "customOrder": -88898444,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": " *  最新入库  * ::/top/postdate/{{page}}.html\n *  最近更新  * ::/top/lastupdate/{{page}}.html\n *  总  推荐榜  *::/top/allvote/{{page}}.html\n *  总  点击榜  *::/top/allvisit/{{page}}.html\n字数排行::/top/size/{{page}}.html\n本站推荐::/top/toptime/{{page}}.html\n总收藏榜::/top/goodnum/{{page}}.html\n周推荐榜（80）::/top/weekvote/{{page}}.html\n周排行榜::/top/weekvisit/{{page}}.html\n月推荐榜（80）::/top/monthvote/{{page}}.html\n月排行榜::/top/weekvisit/{{page}}.html\n完本小说::/wanben/{{page}}\n\t🍂                   T O P 30                    🍂 \n玄幻奇幻::/list/1.html\n仙侠想象::/list/2.html\n现代都市::/list/3.html\n历史现实::/list/4.html\n科幻未来::/list/5.html\n网游架空::/list/6.html\n恐怖灵异::/list/7/{{page}}.html\n言情情感::/list/9.html\n武侠古典::/list/10.html",
+        "lastUpdateTime": 1641657127607,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.booktag@tag.a.0@text",
+            "coverUrl": "class.col-md-2 col-xs-4 hidden-xs@img@src",
+            "init": "class.panel-body",
+            "intro": "id.bookIntro@text",
+            "kind": "",
+            "lastChapter": "class.booktag@tag.a.2@text&&class.visible-xs.0@text##更新时间：|",
+            "name": "class.bookTitle@text",
+            "tocUrl": "",
+            "wordCount": "class.blue.0@text"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html##百度搜索.*或.*天涯在线书库.*最新章节.|",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "class.text-muted.1@text||class.text-muted@text",
+            "bookList": "tr||class.list-group list-top@li",
+            "bookUrl": "tag.td.0@tag.a.0@href||tag.a@href",
+            "kind": "tag.td.3@text&&tag.td.5@text||class.pull-right text-muted",
+            "lastChapter": "tag.td.1@tag.a@text&&",
+            "name": "tag.td.0@tag.a.0@text||tag.a@text",
+            "wordCount": "tag.td.4@text"
+        },
+        "ruleSearch": {
+            "author": "tag.li.2@text",
+            "bookList": "class.mySearch@ul",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "孤独",
+            "coverUrl": "img@src",
+            "kind": "tag.li.5@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": "tag.li.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.tianyabook.com/modules/article/search.php?searchkey={{key}},{\"charset\":\"gbk\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"}}",
+        "weight": 0
+    }
+]

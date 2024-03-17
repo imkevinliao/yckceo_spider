@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "天域战歌修改",
+        "bookSourceName": "御书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.yushuge.me",
+        "bookUrlPattern": "",
+        "customOrder": -293100,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "日点击榜::http://m.yushuge.me/top/dayvisit_{{page}}/\n周点击榜::http://m.yushuge.me/top/weekvisit_{{page}}/\n月点击榜::http://m.yushuge.me/top/monthvisit_{{page}}/\n总点击榜::http://m.yushuge.me/top/allvisit_{{page}}/\n总收藏榜::http://m.yushuge.me/top/goodnum_{{page}}/\n字数排行::http://m.yushuge.me/top/size_{{page}}/\n日推荐榜::http://m.yushuge.me/top/dayvote_{{page}}/\n周推荐榜::http://m.yushuge.me/top/weekvote_{{page}}/\n月推荐榜::http://m.yushuge.me/top/monthvote_{{page}}/\n总推荐榜::http://m.yushuge.me/top/allvote_{{page}}/\n最新入库::http://m.yushuge.me/top/postdate_{{page}}/\n最近更新::http://m.yushuge.me/top/lastupdate_{{page}}/\n耽美小说::http://m.yushuge.me/sort/1_{{page}}/\n海棠耽美::http://m.yushuge.me/sort/2_{{page}}/\n言情小说::http://m.yushuge.me/sort/3_{{page}}/\n海棠言情::http://m.yushuge.me/sort/4_{{page}}/\n百合小说::http://m.yushuge.me/sort/5_{{page}}/\n情欲小说::http://m.yushuge.me/sort/6_{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1633474651300,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.infotype@tag.a.0@text",
+            "intro": "class.intro@text",
+            "kind": "class.infotype@tag.p.1@text##类型：",
+            "lastChapter": "class.infotype@tag.a.1@text",
+            "name": "h3@text",
+            "tocUrl": "class.infolink@tag.a.1@href"
+        },
+        "ruleContent": {
+            "content": "class.articlecontent@p@html",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "class.p1 p3@a@href##$##$,{\"webView\":true}",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": "class.sone||class.content||class.articlegeneral",
+            "bookUrl": "tag.a.0@href",
+            "intro": "class.simple@text",
+            "kind": "class.p1@text##\\[|\\]",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##$,{\"webView\":true}",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.yushuge.me/s.html,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n    }",
+        "weight": 0
+    }
+]

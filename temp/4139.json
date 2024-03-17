@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "三八小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.38xs.com",
+        "bookUrlPattern": "",
+        "customOrder": 3,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/XuanHuan/<,{{page}}.html>\n奇幻::/QiHuan/<,{{page}}.html>\n武侠::/WuXia/<,{{page}}.html>\n都市::/DuShi/<,{{page}}.html>\n历史::/LiShi/<,{{page}}.html>\n军事::/JunShi/<,{{page}}.html>\n悬疑::/XuanYi/<,{{page}}.html>\n游戏::/YouXi/<,{{page}}.html>\n科幻::/KeHuan/<,{{page}}.html>\n体育::/TiYu/<,{{page}}.html>\n古言::/GuYan/<,{{page}}.html>\n现言::/XianYan/<,{{page}}.html>\n幻言::/HuanYan/<,{{page}}.html>\n仙侠::/XianXia/<,{{page}}.html>\n青春::/QinɡChun/<,{{page}}.html>\n穿越::/ChuanYue/<,{{page}}.html>\n女生::/NuShenɡ/<,{{page}}.html>\n其他::/QiTa/<,{{page}}.html>",
+        "header": "",
+        "lastUpdateTime": 1695290649846,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}##.*观看小说:",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##喜欢.*请大家收藏.+更新速度全网最快。"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": "ul li",
+            "bookUrl": "a.0@href",
+            "kind": "span.0:-text##\\[|\\]",
+            "lastChapter": "a.1@text",
+            "name": ".s2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": "#sitembox dl",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "dd.-2@text",
+            "kind": "span.-3:-4:-1@text",
+            "lastChapter": "a.-1@text",
+            "name": "h3@text",
+            "wordCount": "span.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n  \"body\": \"searchtype=all&searchkey={{key}}&submit=搜索\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

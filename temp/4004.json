@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "看漫画",
+        "bookSourceType": 2,
+        "bookSourceUrl": "http://m.kanman.com",
+        "bookUrlPattern": "",
+        "customOrder": -2147483646,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "header": "{\ruser-agent: \"Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Mobile Safari/537.36\"\r}",
+        "lastUpdateTime": 1693765687004,
+        "loginCheckJs": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.sub_r@tag.p.0@text",
+            "coverUrl": "id.Cover@tag.img@src",
+            "intro": "class.txtDesc@text##介绍:",
+            "kind": "class.tags@class.item@text",
+            "lastChapter": "id.chapter-list-1@tag.li.-2@tag.a@tag.span@text",
+            "name": "id.js_comic_id@text",
+            "wordCount": "class.date@text"
+        },
+        "ruleContent": {
+            "content": "@js:var json = result.match(/window.comicInfo=(.*?),window.hideguide/)[1];\nvar json = eval('json='+json)\nvar image_list = [];\njson.current_chapter.chapter_img_list.map(item=>{\n    image_list.push('<img src=\"'+item+'\">')\n})\nimage_list.join(\"\\n\");",
+            "imageStyle": "",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.comic-item",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "",
+            "kind": "",
+            "lastChapter": "class.chapter@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://m.kanman.com/sort/all.html?cache=false&search_key={{key}}",
+        "weight": 0
+    }
+]

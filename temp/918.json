@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "S级",
+        "bookSourceName": "笔趣阁vip",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biqugevip.com",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1636350579870,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content\n##\\s20(\\d\\d)##▪️$1",
+            "name": "[property=\"og:title\"]@content"
+        },
+        "ruleContent": {
+            "content": "div#content@html\n##一秒记住.*无弹窗免费阅读！|（本章未完，请翻页）|(（本章完）.*?)?(第.+章 ?.*?)?\\(第\\d+/\\d+页\\).*?（本章未完，请点击下一页继续阅读）|{{title}}",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "td.odd.1@text",
+            "bookList": "tr#nr",
+            "bookUrl": "td.odd@a@href",
+            "checkKeyWord": "--https://www.biqugevip.com/117_117134/63708110.html",
+            "coverUrl": "a.0@href\n@js:\nid1=result.match(/\\/(\\d+)_\\d+\\//)[1]\nid2=result.match(/\\/\\d+_(\\d+)\\//)[1]\nurl='https://www.biqugevip.com/files/article/image/'+id1+'/'+id2+'/'+id2+'s.jpg'",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "td.even@a@text",
+            "name": "td.odd@a@text",
+            "wordCount": "td.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "div.box_con.1@dl@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://www.biqugevip.com/modules/article/sousuo.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 'searchkey={{key}}&searchtype=articlename'\n}",
+        "weight": 0
+    }
+]

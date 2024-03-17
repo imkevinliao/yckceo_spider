@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceGroup": "✨漫画",
+        "bookSourceName": "i尚漫",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://3g.ishangman.com",
+        "bookUrlPattern": "",
+        "customOrder": -3520,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::http://search.ishangman.com/index.php?page={{page}}\n打斗::http://search.ishangman.com/index.php?s_0=0&s_1=1&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n探险::http://search.ishangman.com/index.php?s_0=0&s_1=2&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n科幻::http://search.ishangman.com/index.php?s_0=0&s_1=3&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n魔幻::http://search.ishangman.com/index.php?s_0=0&s_1=4&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n机甲::http://search.ishangman.com/index.php?s_0=0&s_1=5&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n体育::http://search.ishangman.com/index.php?s_0=0&s_1=6&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n推理::http://search.ishangman.com/index.php?s_0=0&s_1=7&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n搞笑::http://search.ishangman.com/index.php?s_0=0&s_1=8&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n校园::http://search.ishangman.com/index.php?s_0=0&s_1=9&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n恋爱::http://search.ishangman.com/index.php?s_0=0&s_1=10&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n生活::http://search.ishangman.com/index.php?s_0=0&s_1=11&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n历史::http://search.ishangman.com/index.php?s_0=0&s_1=12&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n战争::http://search.ishangman.com/index.php?s_0=0&s_1=13&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n恐怖::http://search.ishangman.com/index.php?s_0=0&s_1=14&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n古装::http://search.ishangman.com/index.php?s_0=0&s_1=15&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n故事漫画::http://search.ishangman.com/index.php?s_0=0&s_1=0&s_2=1&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n四格绘本::http://search.ishangman.com/index.php?s_0=0&s_1=0&s_2=2&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n单幅::http://search.ishangman.com/index.php?s_0=0&s_1=0&s_2=3&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n正在连载::http://search.ishangman.com/index.php?s_0=0&s_1=0&s_2=0&s_7=2&s_8=2&s_3=1&s_4=0&s_5=0&page={{page}}\n已完结::http://search.ishangman.com/index.php?s_0=0&s_1=0&s_2=0&s_7=2&s_8=2&s_3=2&s_4=0&s_5=0&page={{page}}",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.covermsgwid.0@tag.a@text",
+            "intro": "tag.meta.4@content##.*就在i尚漫.|i尚漫是.*陆续放出.",
+            "kind": "class.covermsgwid.2@tag.a@text",
+            "lastChapter": "class.cmic_readcontentlist@tag.span.-1@tag.a@text"
+        },
+        "ruleContent": {
+            "content": "class.r_reimg@li@img@html@js:result.replace(/src.*\\\"/g,\"\").replace(/lazy/g,\"src\").replace(/imgid=\\\"\\d+\\\"/g,\"\")",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "class.ism_searchlist1@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "name": "tag.p.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.cmic_readcontentlist@tag.span",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://search.ishangman.com/index.php?keyword={{key}}",
+        "weight": 0
+    }
+]

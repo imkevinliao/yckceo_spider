@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣派",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.biqupai8.com",
+        "bookUrlPattern": "https?://m.biqupai8.com/[\\d_]+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/xclass/0/{{page}}.html\n玄幻奇幻::/xclass/1/{{page}}.html\n武侠仙侠::/xclass/2/{{page}}.html\n都市言情::/xclass/3/{{page}}.html\n历史军事::/xclass/4/{{page}}.html\n科幻灵异::/xclass/5/{{page}}.html\n网游竞技::/xclass/6/{{page}}.html\n女频频道::/xclass/7/{{page}}.html\n其他小说::/xclass/8/{{page}}.html",
+        "header": "{\"referer\": \"{{source.getKey()}}\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693651998555,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}##wap##m",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##[wm].*com"
+        },
+        "ruleExplore": {
+            "author": "p.1@text",
+            "bookList": ".booklist",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text##简介：",
+            "kind": "0",
+            "name": "p.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": ".booklist",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": "p.2@text##状态：",
+            "lastChapter": "p.-1@tex",
+            "name": "p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".directoryArea.1@p a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://m.biqupai8.com/search.php?keyword={{key}},{\n  \"method\": \"GET\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

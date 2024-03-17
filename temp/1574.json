@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceName": "着笔中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.sxjh88.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 1670072288035,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.dd_box.0@span.0@text",
+            "coverUrl": "img.src",
+            "intro": "class.book_about@dd@text##最新章节.*",
+            "kind": "class.dd_box.0@span.1@text",
+            "lastChapter": "class.book_last.0@dd.0@text&&class.book_last@dt@text##最新章节列表|更新时间：|最新章节预览",
+            "name": "class.name@text",
+            "tocUrl": "class.book_last@dd@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##着笔中文网阅读网址.*|.*爱阅小说.*|第.*页|第.*章.*|sxjh88.com"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s3@text",
+            "bookList": "class.lis@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.a@href\n<js>java.ajax('https://m.sxjh88.com'+result)</js>tag.img@src",
+            "intro": "tag.a@href\n<js>java.ajax('https://m.sxjh88.com'+result)</js>class.book_about@dd@text##最新章节.*",
+            "kind": "class.s1@text##\\[|\\].*",
+            "lastChapter": "tag.a@href\n<js>java.ajax('https://m.sxjh88.com'+result)</js>class.book_last.0@dd.0@text&&class.book_last@dt@text##最新章节列表|更新时间：|最新章节预览",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.sxjh88.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

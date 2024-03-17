@@ -1,0 +1,18 @@
+[
+    {
+        "bookSourceName": "卡夜阁小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.kayege.info/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 0,
+        "ruleBookInfo": "{\n  \"intro\": \"class.review@text\",\n  \"tocUrl\": \"text.查看完整目录@href\"\n}",
+        "ruleContent": "{\n  \"content\": \"id.chaptercontent@html\"\n}",
+        "ruleExplore": "{}",
+        "ruleSearch": "{\n  \"author\": \"tag.p.1@text##都市小说 | 作者：\",\n  \"bookList\": \"class.hot_sale\",\n  \"bookUrl\": \"tag.a@href\",\n  \"kind\": \"tag.p.1@text##作者：太岁炖老龙\",\n  \"lastChapter\": \"tag.p.2@text##连载 | 更新：\",\n  \"name\": \"tag.p.0@text\"\n}",
+        "ruleToc": "{\n  \"chapterList\": \"id.chapterlist@tag.p!0\",\n  \"chapterName\": \"tag.a@text\",\n  \"chapterUrl\": \"tag.a@href\"\n}",
+        "searchUrl": "https://m.kayege.info/s.php?keyword={{key}}&t=1",
+        "weight": 0
+    }
+]

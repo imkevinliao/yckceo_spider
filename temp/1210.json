@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceUrl": "http://www.banzhu555.com",
+        "bookSourceType": "0",
+        "bookSourceName": "第一版主",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "疯狂的蜗牛",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.banzhu555.com/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1625235978965,
+        "ruleSearch": {
+            "bookList": "class.column-2 ",
+            "name": "class.name@text",
+            "author": "class.info@text",
+            "lastChapter": "class.update@tag.a@text",
+            "bookUrl": "class.name@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.right@tag.h1@text",
+            "lastChapter": "class.list@tag.li.0@tag.a@text",
+            "intro": "class.bd@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list@tag.li.1",
+            "chapterName": "@tag.a@text",
+            "chapterUrl": "@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "class.page-content font-large@tag.p@html"
+        }
+    }
+]

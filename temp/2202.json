@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "数据",
+        "bookSourceName": "豆瓣网▪书评",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.douban.com/",
+        "bookUrlPattern": ".+/subject/\\d+/.+",
+        "customOrder": -117606,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "<js>\na=\"::https://book.douban.com/tag/\";\nb=\"?start={{20*(page-1)}}&type=T&&\";\ntags=[\"小说\",\"外国文学\",\"文学\",\"经典\",\"中国文学\",\"随笔\",\"日本文学\",\"散文\",\"村上春树\",\"诗歌\",\"童话\",\"名著\",\"儿童文学\",\"古典文学\",\"余华\",\"王小波\",\"杂文\",\"当代文学\",\"张爱玲\",\"外国名著\",\"钱钟书\",\"鲁迅\",\"诗词\",\"茨威格\",\"米兰·昆德拉\",\"杜拉斯\",\"港台\",\"漫画\",\"推理\",\"绘本\",\"东野圭吾\",\"青春\",\"悬疑\",\"科幻\",\"言情\",\"推理小说\",\"奇幻\",\"武侠\",\"日本漫画\",\"耽美\",\"网络小说\",\"科幻小说\",\"韩寒\",\"三毛\",\"亦舒\",\"阿加莎·克里斯蒂\",\"金庸\",\"安妮宝贝\",\"穿越\",\"轻小说\",\"魔幻\",\"郭敬明\",\"青春文学\",\"校园\",\"古龙\",\"高木直子\",\"沧月\",\"余秋雨\",\"张悦然\",\"历史\",\"心理学\",\"哲学\",\"社会学\",\"传记\",\"文化\",\"艺术\",\"社会\",\"政治\",\"设计\",\"政治学\",\"宗教\",\"建筑\",\"电影\",\"数学\",\"中国历史\",\"回忆录\",\"思想\",\"人物传记\",\"国学\",\"艺术史\",\"人文\",\"音乐\",\"绘画\",\"戏剧\",\"西方哲学\",\"近代史\",\"二战\",\"军事\",\"佛教\",\"考古\",\"自由主义\",\"美术\",\"爱情\",\"成长\",\"生活\",\"心理\",\"旅行\",\"女性\",\"励志\",\"教育\",\"摄影\",\"职场\",\"美食\",\"游记\",\"灵修\",\"健康\",\"情感\",\"人际关系\",\"两性\",\"养生\",\"手工\",\"家居\",\"自助游\",\"经济学\",\"管理\",\"经济\",\"商业\",\"金融\",\"投资\",\"营销\",\"理财\",\"创业\",\"股票\",\"广告\",\"企业史\",\"策划\"];\ntags.map(x=>x+a+x+b).join(\"\")\n</js>",
+        "header": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.110 Safari/537.36",
+        "lastUpdateTime": 1615778484519,
+        "ruleBookInfo": {
+            "author": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "##<pubDate>([^<]+)##$1###",
+            "name": "",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.review-content@html||id.content@html##([。！？—…]”?)(?=“?\\w)##$1<br>",
+            "replaceRegex": "##(?<=\\w：)\\s+(?=“\\w)|(?<=\\w，[”」]|[，、‘《（【［「『])\\s+|\\s+(?=[\\n，、’：；》）】］」』])"
+        },
+        "ruleExplore": {
+            "author": "class.pub@text## / .+",
+            "bookList": "class.subject-item",
+            "bookUrl": "##com/subject/(\\d+)/##https://www.douban.com/feed/subject/$1/reviews###",
+            "coverUrl": "class.pic@tag.img@src",
+            "intro": "tag.p@text",
+            "kind": "class.rating_nums@text&&class.pl@text",
+            "name": "tag.h2@text"
+        },
+        "ruleSearch": {
+            "author": "$6",
+            "bookList": ":sid: (\\d+).+?title=\\\\\"(.+?)\".+?<img src=\\\\\"(https:\\/\\/img\\d+\\.doubanio\\.com.+?\\.jpg).+?class=\\\\\"rating_nums\\\\\">([^<]*)(?:[^>]*>){2}([^<]*)<.+?class=\\\\\"subject-cast\\\\\">([^\\\\<]*).+?<p>(.*?)<\\\\\\/p>",
+            "bookUrl": "https://www.douban.com/feed/subject/$1/reviews",
+            "coverUrl": "$3##\\\\",
+            "intro": "$7##\\\\n",
+            "kind": "$4分,$5",
+            "name": "$2##\\\\"
+        },
+        "ruleToc": {
+            "chapterList": "tag.item",
+            "chapterName": "tag.title@text##\\h\\(评论.+",
+            "chapterUrl": "tag.guid@text",
+            "updateTime": "tag.pubDate@text"
+        },
+        "searchUrl": "https://www.douban.com/j/search?q={{key}}&start={{20*(page-1)}}&cat=1001",
+        "weight": 0
+    }
+]

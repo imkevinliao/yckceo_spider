@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "中文圣经在线",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.godcom.net",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "[{\"title\":\"中文圣经在线\",\"url\":\"http://m.godcom.net/play/\",\"style\":{\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1682261252145,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "#song_list@html",
+            "replaceRegex": "##(\\s\\d+)\\s+##$1："
+        },
+        "ruleExplore": {
+            "bookList": ".jingList li",
+            "bookUrl": "a@href",
+            "intro": "",
+            "name": "span@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": ".zhangList li",
+            "chapterName": "第{{@@a@text}}章",
+            "chapterUrl": "a@href"
+        },
+        "weight": 0
+    }
+]

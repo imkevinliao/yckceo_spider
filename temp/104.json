@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "巴巴鱼",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.babayu.tv",
+        "customOrder": -141,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1663128285571,
+        "loginUrl": "",
+        "respondTime": 1013,
+        "ruleBookInfo": {
+            "author": ".info@span.1@a@text",
+            "coverUrl": "dt@img@src",
+            "intro": ".content@p@textNodes",
+            "kind": "i@text&&.info@span.0@a@text&&.info@span.4@text##更新：",
+            "lastChapter": "ul.clearfix@li.0@a.newzhangjie@text",
+            "name": "h2@text",
+            "wordCount": ".info@span.2@text##字数："
+        },
+        "ruleContent": {
+            "content": ".read-section > p@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "ul.clearfix@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img.pic.lazy@src",
+            "intro": "p.intro@text",
+            "kind": "em.type@text&&em.finish@text",
+            "name": "a.tit@text",
+            "wordCount": "em.word@text"
+        },
+        "ruleToc": {
+            "chapterList": ".bookshelf-list@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/soshu.html?ss={{key}}",
+        "weight": 0
+    }
+]

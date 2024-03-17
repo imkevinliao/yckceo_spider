@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "haxc",
+        "bookSourceGroup": "",
+        "bookSourceName": "黑客小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.heikexs.com",
+        "bookUrlPattern": "",
+        "customOrder": -117615,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n二次元::/erciyuan/{{page}}.html\n经典网文::/jingdian/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html\n青春校园::/qingchun/{{page}}.html\n网络情缘::/wangluo/{{page}}.html\n科幻空间::/mmkehuan/{{page}}.html\n鬼怪灵异::/lingyi/{{page}}.html\nN次元::/Nciyuan/{{page}}.html\n言情美文::/yanqing/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1616339412606,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "class.intro.0@text##最新章节.*",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "class.now@a@href"
+        },
+        "ruleContent": {
+            "content": "class.content@html##喜欢.*收藏.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.data.0@tag.a.0@text##作者：",
+            "bookList": "class.list@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.data.0@span@text",
+            "lastChapter": "class.data.1@tag.a@text",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

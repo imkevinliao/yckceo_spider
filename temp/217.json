@@ -1,0 +1,31 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "零点看书",
+        "bookSourceUrl": "http://www.xxdcjt.com",
+        "enable": true,
+        "ruleBookAuthor": "tag.span.1@a@text",
+        "ruleBookContent": "class.read-content@html",
+        "ruleBookKind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+        "ruleBookLastChapter": "class.fs16 c_strong@a@text",
+        "ruleBookName": "tag.h1.1@text",
+        "ruleChapterList": "class.listtj@ol@li@a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.g_thumb@img@src",
+        "ruleFindUrl": "总排行榜::http://www.xxdcjt.com/rank/allvisit/searchPage/\n月排行榜::http://www.xxdcjt.com/rank/monthvisit/searchPage/\n周排行榜::http://www.xxdcjt.com/rank/weekvisit/searchPage/\n总收藏榜::http://www.xxdcjt.com/rank/goodnum/searchPage/\n全部小说::http://www.xxdcjt.com/fenlei/searchPage/\n玄幻魔法::http://www.xxdcjt.com/fenlei/1/searchPage/\n武侠修真::http://www.xxdcjt.com/fenlei/2/searchPage/\n都市狂人::http://www.xxdcjt.com/fenlei/3/searchPage/\n历史军事::http://www.xxdcjt.com/fenlei/4/searchPage/\n科幻奇幻::http://www.xxdcjt.com/fenlei/5/searchPage/\n游戏竞技::http://www.xxdcjt.com/fenlei/6/searchPage/\n女生耽美::http://www.xxdcjt.com/fenlei/7/searchPage/\n其他类型::http://www.xxdcjt.com/fenlei/8/searchPage/",
+        "ruleIntroduce": "[property=\"og:description\"]@content",
+        "ruleSearchAuthor": "class.c_small.0@text|tag.span.1@text",
+        "ruleSearchCoverUrl": "img@_src",
+        "ruleSearchIntroduce": "class.fs16@a@text|tag.p.0@text",
+        "ruleSearchKind": "class.c_small.1@text|tag.span.0@text",
+        "ruleSearchLastChapter": "class.vam@a@text",
+        "ruleSearchList": "id.imgload@li",
+        "ruleSearchName": "h3@text|h2@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://www.xxdcjt.com/search/@searchkey=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

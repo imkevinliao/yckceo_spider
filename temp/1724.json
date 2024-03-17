@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "輕小說",
+        "bookSourceGroup": "📖 轻文",
+        "bookSourceName": "📖 Kakuyomu",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://kakuyomu.jp/",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1680927952765,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.workAuthor-activityName@text",
+            "coverUrl": "id.coverImage@tag.img@src",
+            "intro": "id.introduction@text",
+            "kind": "class.widget-credit.0@dd.2@text",
+            "lastChapter": "class.widget-toc-main@tag.li.-1@tag.span@text",
+            "name": "id.workTitle@text",
+            "wordCount": "class.widget-credit.0@dd.-3@text##文字|,"
+        },
+        "ruleContent": {
+            "content": "id.contentMain-inner@text"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.partialGiftWidgetActivityName ActivityName_inlineBlock__TBG1H@a@text",
+            "bookList": "class. Gap_size-small__Bc7QG Gap_direction-y__ELoPO",
+            "bookUrl": "class. Gap_size-xsmall__5gpaU Gap_direction-x__3b2TF@a@href",
+            "checkKeyWord": "悪役令嬢",
+            "intro": "class.partialGiftWidgetWeakText WeakText_weakText__29CrB WeakText_regular__uS7pt .0@text",
+            "kind": "class.LinkAppearance_link__9wtbm LinkAppearance_hoverblueWithUnderline__lnXWB.3@text",
+            "lastChapter": "class.Meta_metaItem__c_ZZh.1@text##連載中 ",
+            "name": "class. Gap_size-xsmall__5gpaU Gap_direction-x__3b2TF@a@text",
+            "wordCount": "class.Meta_metaItem__c_ZZh.2@text##文字|,"
+        },
+        "ruleToc": {
+            "chapterList": "class.widget-toc-main@tag.li@tag.a",
+            "chapterName": "tag.span@text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search?q={{key}}",
+        "weight": 0
+    }
+]

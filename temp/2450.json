@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "仅发现",
+        "bookSourceName": "盗墓笔记",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.daomubiji.org/",
+        "customOrder": -38476,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "盗墓笔记::http://www.daomubiji.org/",
+        "lastUpdateTime": 1611812514017,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "class.content@p@html##加微信.*?看南派三叔最新小说[\\s\\S]+|.*?[上下]一章.*"
+        },
+        "ruleExplore": {
+            "author": "{{'南派三叔'}}",
+            "bookList": "class.header@center@a!0",
+            "bookUrl": "href",
+            "name": "text##作品集|盗墓笔记全集|盗墓笔记后记|阅读顺序|盗墓笔记txt下载"
+        },
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "class.panel.0@ul@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.daomubiji.org/",
+        "weight": 0
+    }
+]

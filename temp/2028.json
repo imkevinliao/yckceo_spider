@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "W",
+        "bookSourceName": "斋书苑xzhaishuyuan.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xzhaishuyuan.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618645006250,
+        "ruleBookInfo": {
+            "author": "id.author@a@text",
+            "coverUrl": "id.bookimg@img@src",
+            "intro": "id.bookintro@p@textNodes",
+            "kind": "class.count@span!2:3@text",
+            "lastChapter": "id.readerlist@tag.a.-1@text&&class.uptime@tag.span.1@text##\\n##•\n<js>result.replace(/-/,\"\")</js>",
+            "name": "h1@text",
+            "tocUrl": "",
+            "wordCount": "class.count@tag.span.3@text"
+        },
+        "ruleContent": {
+            "content": "id.content@p@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.book_other.0@tag.span.0@text",
+            "bookList": "id.sitembox@dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "class.book_des@text",
+            "kind": "class.book_other@tag.span.1@text&&class.book_other@tag.span.2@text",
+            "lastChapter": "##最新章节[^>]+>([^<]+)</a> 更新时间：<span>([^<]+)<##$1•$2###",
+            "name": "h3@a@text",
+            "wordCount": "class.book_other@tag.span.3@text##$##万字"
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlist@a",
+            "chapterName": "text<js>result.replace(/-/,\"\")</js>",
+            "chapterUrl": "href",
+            "updateTime": "textNodes"
+        },
+        "searchUrl": "/search/,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&submit\",\n\"webView\":true\n}",
+        "weight": 0
+    }
+]

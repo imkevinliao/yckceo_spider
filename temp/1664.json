@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceUrl": "http://dengpao012.top/wap",
+        "lastUpdateTime": 1666943202147,
+        "ruleToc": {
+            "chapterList": ".novel-text-list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "bookSourceType": 0,
+        "bookSourceName": "顶级小说",
+        "searchUrl": "http://dengpao012.top/wap/so/{{key}}/",
+        "ruleSearch": {
+            "bookList": ".book-li",
+            "name": ".book-title@text",
+            "author": ".book-author@text",
+            "kind": ".book-meta-r@span@em.0@text",
+            "intro": ".book-desc@text",
+            "coverUrl": "a@img@crs",
+            "bookUrl": "a@href"
+        },
+        "ruleBookInfo": {
+            "name": ".book-cell@h1@text",
+            "author": ".book-cell@p.0@a.1@text",
+            "kind": ".book-cell@p.0@a.0@text",
+            "lastChapter": ".book-cell@p.3@a@text",
+            "intro": ".book-summary@text",
+            "coverUrl": ".book-layout@img@src",
+            "tocUrl": ".book-detail-btn@li.1@a@href"
+        },
+        "ruleContent": {
+            "content": "#bodybox@html"
+        }
+    }
+]

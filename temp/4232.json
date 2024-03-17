@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "一米小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.yimixs.cc",
+        "bookUrlPattern": "https?://m.yimixs.cc/xs/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::http://m.yimixs.cc/xuanhuan<,?page={{page}}>\n武侠仙侠::http://m.yimixs.cc/xianxia<,?page={{page}}>\n都市言情::http://m.yimixs.cc/dushi<,?page={{page}}>\n历史军事::http://m.yimixs.cc/lishi<,?page={{page}}>\n科幻传奇::http://m.yimixs.cc/kehuan<,?page={{page}}>\n恐怖灵异::http://m.yimixs.cc/kongbu<,?page={{page}}>\n其他类型::http://m.yimixs.cc/qita<,?page={{page}}>\n全本小说::http://m.yimixs.cc/quanben<,?page={{page}}>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1696822328138,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.info a.0@text",
+            "coverUrl": "img@src",
+            "init": ".book-info",
+            "intro": ".intro.0@text",
+            "kind": "p.info span.1:2:3@text\n##类 型：|章 节：|更新时间：",
+            "lastChapter": "p.info a.-1@text",
+            "name": "dd h2@text",
+            "tocUrl": "text.章节列表@href"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "@js:\nvar next=/next1.png/.test(src);\nvar code=src.match(/eval(\\(function.*)/);\nurl=next?eval(code[1]):\"\";\nurl?eval(url.replace(/var/,\"\")):\"\";",
+            "replaceRegex": "##Ｘ更新最快|[!！]?\\s*「[如章节缺失请退出#阅读模式].*」\\s*|【[本章节首发爱有声．,请记住网址（）].*】|.?最快更新最新章节！"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@ownText##.*\\/",
+            "bookList": "ul.bd li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "{{\"http://img.yimixs.cc/2/2912/2912s.jpg\"}}",
+            "kind": "span@text##\\[|\\]",
+            "name": "em@text||a@ownText##\\/.*"
+        },
+        "ruleToc": {
+            "chapterList": "ul.list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\nvar url=source.key;\nvar html=java.ajax(url);\ntoken=org.jsoup.Jsoup.parse(html).select('input[name=_token]').attr('value');\nvar so=\"/search,\";\nvar body=`_token=${token}&keyword=${key}`;\nvar post={\n  \"body\": String(body),\n  \"method\": \"POST\"\n}\nurl+so+JSON.stringify(post)",
+        "weight": 0
+    }
+]

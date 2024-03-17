@@ -1,0 +1,47 @@
+[
+    {
+        "ruleExplore": [],
+        "bookSourceType": 0,
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "class.grid@id.nr",
+            "lastChapter": "tag.td.1@a@text",
+            "coverUrl": "tag.td.0@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.biqusk.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "wordCount": "tag.td.3@text",
+            "intro": "",
+            "kind": "tag.td.4@text",
+            "checkKeyWord": null,
+            "name": "tag.td.0@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说",
+            "bookUrl": "tag.td.0@a@href"
+        },
+        "bookUrlPattern": "https://www.biqusk.com/\\d+_\\d+/",
+        "respondTime": 939,
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "loginUrl": "",
+        "searchUrl": "https://www.biqusk.com/s.php?q={{key}}",
+        "enabledExplore": true,
+        "weight": 0,
+        "bookSourceComment": "",
+        "ruleToc": {
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "chapterList": "id.list@tag.dd@tag.a"
+        },
+        "enabled": true,
+        "bookSourceUrl": "https://www.biqusk.com/#♤pb",
+        "lastUpdateTime": 1678645239652,
+        "bookSourceName": "✎ 笔趣阁",
+        "bookSourceGroup": "⚡️ 1.4次,0-1文本",
+        "customOrder": 2229,
+        "ruleBookInfo": {
+            "coverUrl": "id.fmimg@img@src",
+            "author": "id.info@tag.p.0@text##作 者：",
+            "kind": "id.info@tag.p.2@text##最后更新：",
+            "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说",
+            "intro": "id.intro@text",
+            "lastChapter": "@css:[property=og:novel:latest_chapter_name]@content"
+        }
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣阁m.jx.la",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.jx.la",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1617706905070,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": ".author@p@text##作者：",
+            "coverUrl": ".imgbox@img@src",
+            "intro": "class.m-desc xs-show@textNodes",
+            "name": ".title@tag.span.0@text",
+            "tocUrl": "#AllChapterList2@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author.0@p@text##.*\\||作者：",
+            "bookList": "class.recommend mybook@children",
+            "bookUrl": "tag.a.0@href",
+            "kind": "class.author.0@p@text##\\|.*",
+            "lastChapter": "class.author.1@p@text##.*\\||更新：",
+            "name": ".title@tag.p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix.-1@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://sou.xanbhx.com/search?q={{key}}&s=920895234054625192&t=m&siteid=qula&page={{page}}",
+        "weight": 0
+    }
+]

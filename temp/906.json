@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "网站挂了祭奠一下\n防盗",
+        "bookSourceName": "文学馆",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.wxgbiqu.com",
+        "enabled": false,
+        "ruleBookInfo": {
+            "init": "meta,#info",
+            "intro": "div.intro@html",
+            "kind": "[property=og:novel:category],[property=og:novel:status],[property=og:novel:update_time]@content##\\s.*",
+            "lastChapter": "[property=og:novel:latest_chapter_name]@content"
+        },
+        "ruleContent": {
+            "content": "#article@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleSearch": {
+            "author": "tag.p.0@ownText",
+            "bookList": "li.searchresult",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "p.searchresult_p@textNodes",
+            "kind": "div.img_span span,span.s_gray@text##\\s|.*字|\\/##,",
+            "lastChapter": "tag.a.-1@text",
+            "name": "h3@text",
+            "wordCount": "span.s_gray@text##\\s|字.*"
+        },
+        "ruleToc": {
+            "chapterList": "#ul_all_chapters a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/,{'method':'POST','body':'searchtype=all&searchkey={{key}}'}",
+        "weight": 0
+    }
+]

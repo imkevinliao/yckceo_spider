@@ -1,0 +1,26 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "天文阁",
+        "bookSourceUrl": "https://www.tianwenge.net",
+        "enable": false,
+        "ruleBookContent": "$id.content@textNodes",
+        "ruleBookLastChapter": "id.info@tag.p.3@a@text",
+        "ruleChapterList": "id.list@dd@a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "id.fmimg@img@src",
+        "ruleFindUrl": "最近更新::https://www.tianwenge.net\n排行榜单::https://www.tianwenge.net/alltop.html\n玄幻奇幻::https://www.tianwenge.net/xuanhuan/\n武侠仙侠::https://www.tianwenge.net/wuxia/\n都市言情::https://www.tianwenge.net/dushi/\n历史军事::https://www.tianwenge.net/lishi/\n游戏竞技::https://www.tianwenge.net/youxi/\n科幻末世::https://www.tianwenge.net/kehuan/",
+        "ruleIntroduce": "id.intro@textNodes",
+        "ruleSearchAuthor": "class.s4@a@text",
+        "ruleSearchCoverUrl": "img@data-original|tag.a.1@href#/novel/(\\d+)/(\\d+).html#/uploads/$1/$2.jpg",
+        "ruleSearchKind": "class.s1@a@text",
+        "ruleSearchLastChapter": "class.s3@a@text",
+        "ruleSearchList": "class.l@li|class.lll.0@li",
+        "ruleSearchName": "class.s2@a@text|h3@text",
+        "ruleSearchNoteUrl": "tag.a.1@href|a@href",
+        "ruleSearchUrl": "https://www.tianwenge.net/home/search@action=search&q=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

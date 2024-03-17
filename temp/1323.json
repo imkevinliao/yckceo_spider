@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "//先登录\n//搜索不全,配合其它书源使用，先用其他书源搜索，然后同名换源",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "⭐60KS(电脑)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.60ks.net",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "全部小说::/bookstore/quanbu/default-0-0-0-0-0-0-{{page}}.html\n玄幻小说::/bookstore/xuanhuan/default-0-0-0-0-0-0-{{page}}.html\n仙侠小说::/bookstore/xianxia/default-0-0-0-0-0-0-{{page}}.html\n都市小说::/bookstore/dushi/default-0-0-0-0-0-0-{{page}}.html\n历史小说::/bookstore/lishi/default-0-0-0-0-0-0-{{page}}.html\n悬疑小说::/bookstore/xuanyi/default-0-0-0-0-0-0-{{page}}.html\n网游小说::/bookstore/wangyou/default-0-0-0-0-0-0-{{page}}.html\n科幻小说::/bookstore/kehuan/default-0-0-0-0-0-0-{{page}}.html\n惊悚小说::/bookstore/jingsong/default-0-0-0-0-0-0-{{page}}.html\n穿越小说::/bookstore/chuanyue/default-0-0-0-0-0-0-{{page}}.html\n同人小说::/bookstore/tongren/default-0-0-0-0-0-0-{{page}}.html",
+        "lastUpdateTime": 1679790006876,
+        "loginUrl": "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=TS&ct=2097152&si=www.60ks.net&fenlei=256&oq=%25E6%2588%2591%25E7%259A%2584&rsv_pq=ca7218d10036602d&rsv_t=0cd2hbnfNXgIk3cPjvMEpuKRRUQaNRaxumevA3ptps8GbCyaLpPa3MWO0lY&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_sug3=5&rsv_sug1=3&rsv_sug7=101&rsv_sug2=0&rsv_btype=t&inputT=4519&rsv_sug4=5445&bs=%E6%88%91%E7%9A%84&rsv_jmp=fail",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#author@text",
+            "coverUrl": "img@src",
+            "intro": "#bookintro@tag.p@text",
+            "kind": "class.count@tag.span.0@text",
+            "lastChapter": "class.new_t@text##最后更新",
+            "name": "h1@text",
+            "tocUrl": "",
+            "wordCount": "class.count@tag.span.-1@text"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": ".book_other@tag.span.0@text",
+            "bookList": "#sitebox@tag.dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".book_des@text",
+            "kind": ".book_other@tag.span.2@text",
+            "lastChapter": ".book_other@tag.1@text",
+            "name": "img@alt"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.c-font-normal c-color-gray2 article-span_UGCkY@text##作者：",
+            "bookList": "class.c-container",
+            "bookUrl": "tag.h3@a@href||",
+            "checkKeyWord": "我在诸天收尸变强",
+            "coverUrl": "tag.img.0@src",
+            "intro": "a@ownText##[\\S\\s]+##60ks",
+            "name": "h3@text##_.*"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##^##http://www.60ks.net/",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd={{key}}&ct=2097152&si=www.60ks.net&fenlei=256&oq=%25E6%2588%2591%25E7%259A%2584&rsv_pq=ca7218d10036602d&rsv_t=0cd2hbnfNXgIk3cPjvMEpuKRRUQaNRaxumevA3ptps8GbCyaLpPa3MWO0lY&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_sug3=5&rsv_sug1=3&rsv_sug7=101&rsv_sug2=0&rsv_btype=t&inputT=4519&rsv_sug4=5445&bs=%E6%88%91%E7%9A%84&rsv_jmp=fail",
+        "weight": 0
+    }
+]

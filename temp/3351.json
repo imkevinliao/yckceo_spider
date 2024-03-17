@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,特殊,源仓库,网页源",
+        "bookSourceName": "一品侠小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yipingxia.com/",
+        "customOrder": -2085978516,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort/1_{{page}}/\n修真小说::/sort/2_{{page}}/\n都市小说::/sort/3_{{page}}/\n历史小说::/sort/4_{{page}}/\n网游小说::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n竞技小说::/sort/7_{{page}}/\n言情小说::/sort/8_{{page}}/\n其他小说::/sort/9_{{page}}/",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1686910944536,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.tab@.p1@text",
+            "coverUrl": "img@src",
+            "downloadUrls": "",
+            "intro": "class.jj@.p2@text",
+            "kind": "class.tab1@.p4@text",
+            "lastChapter": "class.tab@.p3@a@text",
+            "name": "h1.1@text"
+        },
+        "ruleContent": {
+            "content": "#novelcontent@html",
+            "nextContentUrl": "text.下一@href"
+        },
+        "ruleExplore": {
+            "author": "p.3@text",
+            "bookList": "class.listtext",
+            "bookUrl": "p.1@a@href",
+            "kind": ".pp1@text",
+            "name": ".pp2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.search_list",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"s={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

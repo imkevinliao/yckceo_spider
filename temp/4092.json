@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "自制,网页源",
+        "bookSourceName": "飞速小说/飞速中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.feisxs.com",
+        "bookUrlPattern": "https?://m.feisxs.com/book-\\d+/",
+        "customOrder": 5,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/sort-0-{{page}}/\n奇幻玄幻::/sort-1-{{page}}/\n武侠仙侠::/sort-2-{{page}}/\n都市小说::/sort-3-{{page}}/\n历史军事::/sort-4-{{page}}/\n游戏竞技::/sort-5-{{page}}/\n科幻灵异::/sort-6-{{page}}/\n同人小说::/sort-7-{{page}}/\n女频言情::/sort-8-{{page}}/\n其他小说::/sort-9-{{page}}/\n全本小说::/full-{{page}}/\n新书入库::/top-postdate-{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1694919982311,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "https://www.feisxs.com/Html/{{baseUrl.match(/\\d+/)[0]}}/index.html,{\n  \"headers\": {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36\"}\n}"
+        },
+        "ruleContent": {
+            "content": "#nr1@html||#content>p@textNodes",
+            "replaceRegex": "##飞速中文.*一键直达|最快更新无错小说阅读，请访问.*|手机请访问：.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".nlist",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".nintro@text",
+            "kind": "span.-2:-1@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul[class=clearfix] li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "",
+            "updateTime": "title"
+        },
+        "searchUrl": "https://m.feisxs.com/search.aspx?s={{key}}&submit=",
+        "weight": 0
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌸 常用",
+        "bookSourceName": "笔趣阁L",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biqugl.com",
+        "customOrder": 29,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "@js:\nJSON.stringify([\"全部分类\",\"玄幻奇幻\",\"武侠修真\",\"都市言情\",\"历史军事\",\"科幻悬疑\",\"游戏竞技\",\"女生专区\",\"其他小说\"].map((title,index)=>({\n\ttitle: title,\n\turl: `/sort/${index}/{{page}\\}/`,\n\tstyle: {\n\t\tlayout_flexGrow: 1,\n\t\tlayout_flexBasisPercent: 0.25\n\t}\n})));",
+        "lastUpdateTime": 1685696642901,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##小说|\\s\\d.*",
+            "lastChapter": "{{@[property$=chapter_name]@content}} • {{@[property$=update_time]@content##\\s.*}}",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.点击阅读@href",
+            "wordCount": "text.全文字数@text##全文字数："
+        },
+        "ruleContent": {
+            "content": "#acontent@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".c_value.0@text",
+            "bookList": "#jieqi_page_contents .c_row",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".c_description@text",
+            "kind": ":contains(类别)+span@text&&\n:contains(状态)+span@text&&\n:contains(更新)+span@text",
+            "lastChapter": "{{@a.-1@text}} • {{@:contains(更新)+span@text}}",
+            "name": ".c_subject a.-2@text||a.1@text",
+            "wordCount": ":contains(字数)+span@text"
+        },
+        "ruleToc": {
+            "chapterList": ".index dd a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "updateTime": "title##，共字"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

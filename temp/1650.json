@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "小说",
+        "bookSourceName": "玄幻文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xhwx5.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1667872634518,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.2@a@text",
+            "intro": "class.intro_info@ownText##最新章节推荐地址：.*|简介：",
+            "kind": "p.3@a@text",
+            "lastChapter": "p[-1,-2]@text##最新：|更新：|\\n|，",
+            "name": "h2@text",
+            "wordCount": "p.4@text##状态："
+        },
+        "ruleContent": {
+            "content": "id.nr1@p@textNodes",
+            "imageStyle": "",
+            "nextContentUrl": "@js:\nif (result.indexOf(\"next.png\") > -1) {\n  var code = result.match(/eval\\((.*)\\);/)[0]\n  eval(code)\n  __uData  \n}",
+            "replaceRegex": "##,如.*误，请.*阅读。|\\n*您.*缺失,退出.*全文,或.*器：.*\\n\\s\\s*本章.*阅读。>>>\\n\\s*|,请退出阅读模式，才可以继续阅读全文。\\n\\s*|您.*失,退出.*全文,或者.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s3@text",
+            "bookList": "class.lis@li",
+            "bookUrl": "tag.a.0@href",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$1##,{\"webView\": true}",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.xhwx5.com/search,{\n  \"body\": \"_token=VaKhQyCIxZph1wJkUuqm0DCJ9nbPwubqvKa1G9CT&kw={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

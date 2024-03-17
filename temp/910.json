@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceUrl": "https://www.cnziyuan.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "2021年10月21日可用，奇书网",
+        "bookSourceGroup": "从零开始的异世界生活",
+        "bookSourceComment": "Kilitao7",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
+        "searchUrl": "https://www.cnziyuan.com/search49.html?searchkey={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1634820501850,
+        "ruleSearch": {
+            "bookList": "@css:.item",
+            "name": "class.item@tag.a.1@text",
+            "author": "class.btm@tag.a.0@text",
+            "intro": "class.item@tag.dl@tag.dd@text",
+            "coverUrl": "class.lazy@data-original",
+            "bookUrl": "class.image@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.con_top@tag.a.2@text",
+            "author": "id.info@tag.p.0@text",
+            "kind": "class.con_top@tag.a.1@text",
+            "wordCount": "id.info@tag.p.2@text",
+            "lastChapter": "id.info@tag.p.5@text",
+            "tocUrl": "class.box_con.1@tag.a.9@href"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "updateTime": "tag.a@text",
+            "nextTocUrl": "id.list@option@value"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@p@text",
+            "nextContentUrl": "id.next_url@href",
+            "replaceRegex": "##\\s*本章未完.*\\s*##"
+        }
+    }
+]

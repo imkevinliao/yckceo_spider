@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "By_zhbyjm7783",
+        "bookSourceGroup": "自写&修复1001",
+        "bookSourceName": "零度书域[自写]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zerobook.me/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n玄幻::/sort/xuanhuan/{{page}}.html\n仙侠::/sort/xianxia/{{page}}.html\n都市::/sort/dushi/{{page}}.html\n军史::/sort/junshi/{{page}}.html\n网游::/sort/wangyou/{{page}}.html\n科幻::/sort/kehuan/{{page}}.html\n灵异::/sort/lingyi/{{page}}.html\n言情::/sort/yanqing/{{page}}.html\n其他::/sort/qita/{{page}}.html\n热门::/rank/allvisit/",
+        "lastUpdateTime": 1696376235066,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@p.0@a@text",
+            "coverUrl": "img@data-original",
+            "intro": "id.intro.0@text",
+            "kind": ".con_top@a.1@text",
+            "lastChapter": ".lastchapter@a@text",
+            "name": "id.info@h1@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "id.info@p.2@text"
+        },
+        "ruleContent": {
+            "content": "#booktxt@p!0:1:-1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".btm@a@text",
+            "bookList": ".item",
+            "bookUrl": "dl@dt@a@href",
+            "coverUrl": "img@data-original",
+            "intro": "dl@dd@text",
+            "kind": ".cover@span@text",
+            "name": "dl@dt@a@text",
+            "wordCount": ".btm@em@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@a",
+            "chapterName": "dd@text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.zerobook.me/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

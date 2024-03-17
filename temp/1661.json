@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceUrl": "https://raynesliterature.com/e-books/?variant=zh-hans",
+        "bookSourceType": "0",
+        "bookSourceName": "雷英斯文学",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "https://raynesliterature.com/member%20login/?variant=zh-hans",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36\"\n}",
+        "bookUrlPattern": "",
+        "searchUrl": "",
+        "exploreUrl": "作品::https://raynesliterature.com/e-books/?variant=zh-hans",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 1,
+        "lastUpdateTime": 1667024573262,
+        "ruleSearch": [],
+        "ruleExplore": {
+            "bookList": "class.elementor-section elementor-top-section elementor-element elementor-element-a32631c elementor-section-boxed elementor-section-height-default elementor-section-height-default@class.elementor-widget-wrap elementor-element-populated",
+            "name": "class.elementor-heading-title elementor-size-medium@text",
+            "wordCount": "tag.p.0@text",
+            "lastChapter": "tag.p.1@text",
+            "bookUrl": "class.elementor-heading-title elementor-size-medium@a@href\n<js>\nString(result)+'/?variant=zh-hans'\n</js>"
+        },
+        "ruleBookInfo": [],
+        "ruleToc": {
+            "chapterList": "class.elementor-widget-container@tag.p.!0",
+            "chapterName": "text",
+            "chapterUrl": "a@href\n<js>\nString(result)+'/?variant=zh-hans'\n</js>"
+        },
+        "ruleContent": {
+            "content": "class.entry-content clear@tag.p@html"
+        }
+    }
+]

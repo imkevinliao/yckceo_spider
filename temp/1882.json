@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "正文没加载出来请刷新\n缺失的章节内容在他的上一章",
+        "bookSourceName": "123读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.123du.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1620109023812,
+        "ruleBookInfo": {
+            "author": "##>作者：([^<]+)<##$1###",
+            "intro": "class.DivBigIntro.-1@text",
+            "kind": "##类型：([^<]+)<##$1###",
+            "tocUrl": "//*[contains(text(), \"全集目录\")]/@href"
+        },
+        "ruleContent": {
+            "content": "//h1@html&&//*[@id=\"PageSet\"]/preceding-sibling::div[-2]@html",
+            "nextContentUrl": "text.下一页@href||tag.ul.tag.li.0@a@href\n@js:baseUrl.replace(/\\d+(-\\d+)*.html/,result.toArray()[0])",
+            "replaceRegex": "\n##转载请注明出处：.*?。|;pma本;pma文;pma来;pma源.*?。|(?<=。).*?提醒你：看后求收藏.*?，接着再看好方便。|本文来源：.*?。|…。\\n.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "@js:\nurl=\"https://www.123ds.org/Search/,\";\npost={\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"st=0&q=\"+java.get(\"key\"),\n\"webView\":\"true\"\n}\npost2={\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"st=0&q=\"+java.get(\"key\")}\nurl1=url+JSON.stringify(post);\nurl2=url+JSON.stringify(post2);\nresult=java.ajax(url1);\nresult=java.ajax(url2);\nlist=result.match(/小说：<a[\\s\\S]+?<hr/g);\njson=[];\nfor(i=0;i<list.length;i++){\ndoc=org.jsoup.Jsoup.parse(list[i]);\ntitle=doc.select('.Title').text();\nhref=doc.select('.Title').attr('href');\ntags=doc.select('font').toArray();\nauthor=tags[1].text();tag=tags[2].text()+','+tags[3].text();\nintro=doc.select('.DivSmallInstro').text();\njson.push({href:href,title:title,tag:tag,author:author,intro:intro})\n}\njson",
+            "bookUrl": "href",
+            "intro": "intro",
+            "kind": "tag",
+            "name": "title"
+        },
+        "ruleToc": {
+            "chapterList": "id.DivTitleList@a\n@js:list=result.toArray();\nchapter=[];\nfor(i=1;i<list.length;i=i+2){\nchapter.push(list[i])\n}\nchapter.sort((a,b)=>a.attr('href').match(/(\\d+).html/)[1]-b.attr('href').match(/(\\d+).html/)[1]).map(x=>({text:x.text(),href:x.attr('href')+',{\"webView\":true}'}))",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.123ds.org/Search/,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"st=0&q={{java.put('key',key)}}\"\n}",
+        "weight": 0
+    }
+]

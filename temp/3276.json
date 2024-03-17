@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceName": "⭐先锋小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xfwxs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1682422353565,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property~=og:novel:category|og:novel:status|og:novel:update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": ".readcontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*.*xfwxs.*|\\s*本章未完.点击下一页继续阅读\\s*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text##作者：",
+            "bookList": ".bookbox",
+            "bookUrl": "a.0@href",
+            "intro": ".update@text##简介：",
+            "kind": "",
+            "lastChapter": ".cat@a@text",
+            "name": ".bookname@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@tag.dd!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"action=login&searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

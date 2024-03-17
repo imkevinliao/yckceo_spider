@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceUrl": "https://www.gb84.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "肉文屋3",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.gb84.com/modules/article/search.php?searchtype=all&searchkey={{key}}&act=search&submit=\n",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1629804959209,
+        "ruleSearch": {
+            "bookList": "id.jieqi_page_contents",
+            "name": "class.c_row.0@class.c_subject.0@text",
+            "author": "class.c_row.0@class.c_tag.0@class.c_value.0@text",
+            "kind": "class.c_row.0@class.c_tag.0@class.c_value.1@text",
+            "wordCount": "class.c_row.0@class.c_tag.0@class.c_value.2@text",
+            "lastChapter": "class.c_row.0@class.c_tag.1@class.c_value@text",
+            "intro": "class.c_description.0@html",
+            "coverUrl": "class.fl.0@tag.img@src",
+            "bookUrl": "class.c_row.0@class.c_subject.0@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.divbox cf@tag.span.0@text",
+            "author": "class.divbox cf@tag.span.1@text",
+            "tocUrl": "text.点击阅读@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.index",
+            "chapterName": "tag.dd.0@text",
+            "chapterUrl": "tag.dd.0@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.acontent@html"
+        }
+    }
+]

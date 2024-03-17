@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "平凡文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.pksge.com",
+        "bookUrlPattern": "http://m.pksge.com/\\w+/",
+        "customOrder": 53,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "武侠仙侠::/sort-1-{{page}}/\n玄幻魔法::/sort-2-{{page}}/\n历史军事::/sort-3-{{page}}/\n都市言情::/sort-4-{{page}}/\n科幻灵异::/sort-5-{{page}}/\n网游竞技::/sort-6-{{page}}/\n其他小说::/sort-7-{{page}}/\n全本小说::/full-{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693360544058,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##{{chapter.title}}|\\(第.*页\\)|（本章未完.+继续阅读）"
+        },
+        "ruleExplore": {
+            "author": "p@ownText##\\/",
+            "bookList": ".line",
+            "bookUrl": "a.1@href",
+            "coverUrl": "{{\"http://www.pksge.com/modules/article/images/nocover.jpg\"}}",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.-2@text",
+            "bookList": ".block",
+            "bookUrl": "a.2@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": "p.-3@text##分类：",
+            "lastChapter": "a.-1@text",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://m.pksge.net/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

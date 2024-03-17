@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "【0.自制】",
+        "bookSourceName": "🔞📖龙腾小说城",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.longtengxiaoshuo.org",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "总点击榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n总推荐榜::top/allvote_{{page}}/",
+        "lastUpdateTime": 1688725765493,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".infotype a.0@text",
+            "coverUrl": "$.thumbnail\n@js:\nresult||\"https://s3.bmp.ovh/imgs/2023/07/02/d23c1e0528e59b1d.jpg\"",
+            "intro": ".infohead p.-1@text",
+            "kind": "text.类型：@text##类型：",
+            "lastChapter": "text.最新章节：@text##最新章节：",
+            "name": ".cataloginfo h3@text",
+            "tocUrl": ".infolink a.1@href",
+            "wordCount": "text.更新时间：@text##更新时间："
+        },
+        "ruleContent": {
+            "content": ".novelcontent@textNodes##&nbsp;|本章未完，请点击下一页继续阅读 》》",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".p3 a@text",
+            "bookList": ".articlegeneral",
+            "bookUrl": ".p2 a@href",
+            "coverUrl": "$.thumbnail\n@js:\nresult||\"https://s3.bmp.ovh/imgs/2023/07/02/d23c1e0528e59b1d.jpg\"",
+            "kind": ".p1@text##[|]",
+            "name": ".p2 a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": "class.sone",
+            "bookUrl": "a@href",
+            "coverUrl": "$.thumbnail\n@js:\nresult||\"https://s3.bmp.ovh/imgs/2023/07/02/d23c1e0528e59b1d.jpg\"",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"type=articlename&s={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

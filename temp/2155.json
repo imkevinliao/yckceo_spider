@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "书名那里重新净化了一下，正文净化套用了别的大佬的规则。在WQJAN大佬的帮助下，纠正了搜索页的分类规则错误，并添加了标签。这个源不太稳定，有时候目录会加载失败。",
+        "bookSourceGroup": "🍈重新修改",
+        "bookSourceName": "🍈 婷阅小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tyuebook.com",
+        "customOrder": 3320,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1616500755361,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p.2@tag.a@text",
+            "canReName": "true",
+            "coverUrl": "img@src",
+            "intro": "class.intro_info@text",
+            "kind": "class.block_txt2@tag.p.3@tag.a@text",
+            "lastChapter": "class.chapter@tag.li.0@text",
+            "name": "h2@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "@js:\nif(/_\\d\\.html/.test(baseUrl)){\n//第二页利用javascript解密\ntry{java.base64Decode(src.match(/var mytxt.*?['\"](.*?)['\"];/)[1])}\ncatch(e){\njava.log(e);\njava.log(baseUrl);\n\"第二页解密失败！链接\\n\"+baseUrl\n}\n}\n//第一页常规方式获取\nelse java.getString(\"id.nr1@textNodes\",false)",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.line",
+            "bookUrl": " class.blue@href",
+            "coverUrl": "class.blue@href##/((\\d+)\\d{3})/##/files/article/image/$2/$1/$1s.jpg###",
+            "intro": "",
+            "kind": "tag.a.0@text",
+            "lastChapter": "",
+            "name": "tag.a.1@text##\\（|\\）"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.tyuebook.com/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"type=articlename&s={{key}}&submit=\"}",
+        "weight": 0
+    }
+]

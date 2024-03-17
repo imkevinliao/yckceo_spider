@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☁️可用",
+        "bookSourceName": "31小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.31xs.net",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": -88962029,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "       最                新     🍂  ::https://www.31xs.net/#top",
+        "header": "",
+        "lastUpdateTime": 1644645655122,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 3184,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "meta[property=\"og:description\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#content p:not(:matches(^[a-z\\s_-]+\\.[a-z\\s]+\\.[a-z\\s_-]+$))@text",
+            "replaceRegex": "##【31小说网\\s*31xs\\.com】|www\\.31xs\\.net\\s*|(^|\\s+)...[，,]【[^【\\n】]*咪.?咪.?阅.?读[^\\u4e00-\\u9fa5]*(?:\\.com|app)[^】a-z0-9A-Z\\u4e00-\\u9fa5]*】[^\\n]+|【讲真.*咪.*读.*】|【推荐.*咪.*读.*】"
+        },
+        "ruleExplore": {
+            "author": ".s4@a@text",
+            "bookList": "id.newscontent@ul@li",
+            "bookUrl": ".s2@a@href",
+            "kind": ".s1@text",
+            "lastChapter": "class.s3@a@text&&class.s5@text",
+            "name": ".s2@a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.3@text",
+            "bookList": "id.bookcase_list@tag.tr",
+            "bookUrl": "@get:{h}",
+            "coverUrl": "@get:{h}##(/\\d+)(/\\d+)##/img$1$2$2s.jpg###",
+            "kind": "td:eq(0),td:eq(5)@text",
+            "lastChapter": "{{@@tag.a.1@text}} {{@@tag.td.4@text}}",
+            "name": "tag.a.0@text@put:{h:\"tag.a.0@href\"}"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.31xs.net/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

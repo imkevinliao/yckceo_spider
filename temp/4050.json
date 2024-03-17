@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "搜索频繁需前往浏览器输入验证码\n20230909修复搜索地址：https://m.silukex.com/search.php?keyword={{key}}&submit=\nBy_zhbyjm783",
+        "bookSourceGroup": "自写修复0909",
+        "bookSourceName": "思路客[修复][w]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.silukex.com/",
+        "customOrder": 1251,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"https://m.silukex.com/ny_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"https://m.silukex.com/ny_2/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"https://m.silukex.com/ny_3/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"https://m.silukex.com/ny_4/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"https://m.silukex.com/ny_5/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"https://m.silukex.com/ny_6/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生\",\"url\":\"https://m.silukex.com/ny_7/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"https://m.silukex.com/ny_8/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"全本\",\"url\":\"https://m.silukex.com/nyjd.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1694193520599,
+        "loginUrl": "",
+        "respondTime": 4592,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "[property=\"og:novel:book_name\"]@content##全文.*|免费.*|在线.*|最新.*|.*新书|小说|笔趣阁|起点中文网"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "replaceRegex": "##无尽的昏迷过后，时宇猛地从床上起身。(.*\\s*)*|.*星文阅读.*|[da-zA-Z0-9]+\\.[da-zA-Z0-9]+\\.[da-zA-Z0-9]+"
+        },
+        "ruleExplore": {
+            "author": ".bookinfo@.author@text",
+            "bookList": ".bookbox",
+            "bookUrl": ".bookinfo@a.0@href##/ny(\\d+)/##https://www.silukex.com/ny$1/###",
+            "coverUrl": ".bookimg@img.0@src",
+            "intro": ".bookinfo@.intro_line@textNodes",
+            "kind": "",
+            "lastChapter": ".bookinfo@a.1@text",
+            "name": ".bookinfo@a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": ".result-item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p.0@text",
+            "kind": "p.2@text##类型：\\s",
+            "lastChapter": "a.2@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?keyword={{key}}&submit=",
+        "weight": 0
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceUrl": "https://www.quanshuzhai.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "全书斋0.5",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.quanshuzhai.com/modules/article/search.php?searchkey={{key}}&action=login&searchtype=all&submit=",
+        "exploreUrl": "玄幻奇幻::/sort/1/{{page}}.html&&武侠仙侠::/sort/2/{{page}}.html&&都市生活::/sort/3/{{page}}.html&&历史军事::/sort/4/{{page}}.html&&游戏竞技::/sort/5/{{page}}.html&&科幻未来::/sort/6/{{page}}.html&&恐怖悬疑::/sort/7/{{page}}.html&&二次元::/sort/8/{{page}}.html&&古代言情::/sort/9/{{page}}.html&&现代言情::/sort/10/{{page}}.html&&幻想奇缘::/sort/11/{{page}}.html&&浪漫青春::/sort/12/{{page}}.html&&网络情缘::/sort/13/{{page}}.html&&科幻空间::/sort/14/{{page}}.html&&鬼怪灵异::/sort/15/{{page}}.html&&言情美文::/sort/17/{{page}}.html&&其他类型::/sort/18/{{page}}.html&&",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1630064637407,
+        "ruleSearch": {
+            "bookList": "class.bookbox",
+            "name": "h4@a@text",
+            "author": "class.author.0@text",
+            "lastChapter": "class.cat@tag.a@text",
+            "intro": "class.update@text",
+            "bookUrl": "h4@a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.booktitle@text",
+            "author": "class.booktag@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll",
+            "chapterName": "tag.dd.0@tag.a@text",
+            "chapterUrl": "tag.dd.0@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "class.readcontent@html"
+        }
+    }
+]

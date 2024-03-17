@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☁️可用,⛩🎐senhora",
+        "bookSourceName": "☁追文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.zhuiwenxsw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1643207746425,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.detail@class.author@a@text",
+            "name": "class.detail@class.name@text",
+            "tocUrl": "text.阅读@href",
+            "wordCount": "class.layui-btn layui-btn-xs layui-bg-red@text"
+        },
+        "ruleContent": {
+            "content": "class.pzhuiwen_content@html",
+            "replaceRegex": "##清凉一夏.*用户均可免费领取！！|.*大家收藏.*com.*追文小说网.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.data.0@a@text",
+            "bookList": "class.list@li",
+            "bookUrl": "a@href",
+            "coverUrl": "a@img@src",
+            "intro": "p.2@text",
+            "kind": "class.data@span@text",
+            "lastChapter": "class.data.1@a@text",
+            "name": "a@title"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option!0@value"
+        },
+        "searchUrl": "https://m.zhuiwenxsw.com/search.html,{\"charset\":\"UTF-8\",\"method\":\"post\",\"body\":\"searchkey={{key}}\"}",
+        "weight": 0
+    }
+]

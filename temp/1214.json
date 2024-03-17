@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "奇书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kankezw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1625222619821,
+        "ruleBookInfo": {
+            "author": "class.small.5@text",
+            "coverUrl": "class.detail_pic@img@src",
+            "intro": "class.showInfo@p@text",
+            "kind": "class.wrap position@tag.a.2@text",
+            "lastChapter": "class.small.6@a@text",
+            "name": "class.detail_right@h1@text##\\《|\\》.*",
+            "tocUrl": "class.downButton@href",
+            "wordCount": "class.small.3@text##更新日期："
+        },
+        "ruleContent": {
+            "content": "id.content1@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "class.grid@tr!0",
+            "bookUrl": "a@href",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.pc_list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.kankezw.com/search.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

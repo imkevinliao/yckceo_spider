@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☁️可用,⛩🎐senhora",
+        "bookSourceName": "无名小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.wumtxt.com",
+        "customOrder": -88962049,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "🍂                        点 击 榜                      🍂::https://m.wumtxt.com/top/allvisit_{{page}}/\n总：::https://m.wumtxt.com/top/allvisit_{{page}}/\n  日   ::https://m.wumtxt.com/top/dayvisit_{{page}}/\n   月  ::https://m.wumtxt.com/top/monthvisit_{{page}}/\n     周::https://m.wumtxt.com/top/weekvisit_{{page}}/\n  玄幻::https://m.wumtxt.com/sort/1_{{page}}/\n修真::https://m.wumtxt.com/sort/2_{{page}}/\n都市::https://m.wumtxt.com/sort/3_{{page}}/\n穿越 ::https://m.wumtxt.com/sort/4_{{page}}/\n  网游::https://m.wumtxt.com/sort/5_{{page}}/\n科幻::https://m.wumtxt.com/sort/6_{{page}}/\n其他::https://m.wumtxt.com/sort/7_{{page}}/\n空白 ::\n总收藏榜::https://m.wumtxt.com/top/goodnum_{{page}}/\n最新入库::https://m.wumtxt.com/top/postdate_{{page}}/\n最近更新::https://m.wumtxt.com/top/lastupdate_{{page}}/",
+        "lastUpdateTime": 1645255743757,
+        "respondTime": 5150,
+        "ruleBookInfo": {
+            "author": "class.tab@class.p1@text##作者：",
+            "coverUrl": "class.tu@img@src",
+            "init": "class.catalog",
+            "intro": "class.p2.1@text",
+            "kind": "class.tab@class.tab1@p@text",
+            "lastChapter": "class.tab@class.p3@text##最新：",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\n　　　.*　　　|天才.*记住：.*\\n|本章未完，请点击下一页继续阅读->>>\\n|\n　　　　　　|天才.*记住：.*|/.*html.*阅读网址.*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "class.pp4@a@text||class.p3@a@text",
+            "bookList": "class.list_xm@ul@li||class.user_content@class.content_link",
+            "bookUrl": "class.pp2@a@href||class.p2@a@href",
+            "kind": "class.p1@a@text##\\[|\\]",
+            "name": "class.pp2@a@text||class.p2@a@text"
+        },
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.search_box@class.search_list",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "诡秘之主",
+            "kind": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.info_chapters@class.p2.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.wumtxt.com/s.php,{\n\t\"charset\":\"gbk\",\n\t\"method\":\"post\",\n\t\"body\":\"s={{key}}&type=articlename\",\n\t\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 7.0; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 T7/10.3 SearchCraft/2.6.2 (baiduboxapp; P1 7.0)\",\n\t\"Referer\":\"https://m.wumtxt.com/\"},\n\t\"webView\":true\n\t}",
+        "weight": 0
+    }
+]

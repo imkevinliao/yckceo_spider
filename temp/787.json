@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceGroup": "saberyz修复",
+        "bookSourceName": "♛-笔下文学①",
+        "bookSourceUrl": "https://www.bxwxorg.com",
+        "enable": true,
+        "loginUrl": "",
+        "ruleBookAuthor": "id.info@tag.p.0@a@text",
+        "ruleBookContent": "id.content@html##因某些原.*突然出现大量.*到回家的路！|喜欢.*更新速度最快。|您可以在百度.*查找最新章节！|.*最新章节地址.*|.*全文阅读地址.*|.*txt下载地址.*|.*手机阅读.*|为了方便下次阅.*下次打开书架即可看到！|喜欢.*请向你的朋友.*",
+        "ruleBookKind": "id.info@tag.p.2@text##最后更新：",
+        "ruleBookLastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "ruleBookName": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "ruleBookUrlPattern": "http://www.bxwxorg.com/read/\\d+/",
+        "ruleChapterList": "class.box_con@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrl": "",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "id.fmimg@tag.img@src",
+        "ruleIntroduce": "id.intro@tag.p.0@text",
+        "ruleSearchAuthor": "class.data.0@tag.a@text##的小说",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchIntroduce": "class.intro@text",
+        "ruleSearchKind": "class.data@tag.span.0@text",
+        "ruleSearchLastChapter": "tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "ruleSearchList": "class.list@tag.li",
+        "ruleSearchName": "class.bookname@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "ruleSearchNoteUrl": "class.bookname@tag.a@href##http.*com@js:'https://www.bxwxorg.com'+result",
+        "ruleSearchUrl": "https://m.bxwxorg.com/search.html@searchtype=all&searchkey=searchKey@Header:{     'cookie': 'Hm_lvt_b2fc3c01d84988ddb93ad96e5f63ffd4=1629841506; Hm_lpvt_b2fc3c01d84988ddb93ad96e5f63ffd4=1629841506'  }",
+        "serialNumber": 629,
+        "weight": 0
+    }
+]

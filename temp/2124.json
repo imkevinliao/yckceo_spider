@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔞漫画",
+        "bookSourceName": "漫香阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://manxiangge.com",
+        "customOrder": -3653,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "韩漫::https://manxiangge.com/list-1-0-{{page}}.html\n日漫::https://manxiangge.com/list-2-0-{{page}}.html\nCosplay::https://manxiangge.com/list-3-0-{{page}}.html",
+        "lastUpdateTime": 1617156497008,
+        "ruleBookInfo": {
+            "intro": "class.infoR@p@text",
+            "kind": "id.menu@tag.li.-1:-2:1@text",
+            "lastChapter": "class.dstate@text",
+            "name": "tag.h2@text",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": ".contentmh@img@html##data-original##src",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": {
+            "bookList": "class.section@tag.a",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "##url\\(\\'(.*)\\'\\)##$1###",
+            "intro": "tag.p@text",
+            "lastChapter": "class.dstate@text",
+            "name": "tag.h3@text"
+        },
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "class.listmh@li@a||tag.title",
+            "chapterName": "text##- 漫香阁",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://manxiangge.com",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceGroup": "自制,特殊,源仓库,网页源",
+        "bookSourceName": "雪文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xuewens.com",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1687173392392,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "<js>\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者容正在手打中，请【收藏本站】稍后访问或者联系管理员更新~\"}\n</js>"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".sc-title@a.1@text",
+            "bookList": "class.container search-card",
+            "bookUrl": ".sc-title@a.0@href",
+            "intro": "class.search-bold sc-content@text",
+            "kind": ".sc-time@span.1@text",
+            "lastChapter": ".sc-time@span.0@text",
+            "name": ".sc-title@a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下页@href"
+        },
+        "searchUrl": "https://m.xuewens.com/search/,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

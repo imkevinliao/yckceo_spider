@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "通用",
+        "bookSourceName": "笔趣阁（shengxu5w）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.shengxu5w.com/",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1641204441751,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@css:body > div.synopsisArea > div > a > p@text##作者：(.*)##$1###",
+            "coverUrl": "@css:body > div.synopsisArea > div > img@src",
+            "intro": "@css:body > div.synopsisArea > p.review@text",
+            "lastChapter": "@css:body > div.recommend > div > p:nth-child(1) > a@text",
+            "name": "@css:body > header > span@text",
+            "tocUrl": "@css:body > div.recommend > h2:nth-child(3) >a @href"
+        },
+        "ruleContent": {
+            "content": "@css:#chaptercontent@all"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "@css:p:nth-child(2)@text##(.*) \\| 作者：(.*)##$2###",
+            "bookList": "@css:body > div > div > a ",
+            "bookUrl": " @css:a@href",
+            "kind": "@css:p:nth-child(2)@text##(.*) \\| 作者：(.*)##$1###",
+            "lastChapter": "@css:p:nth-child(3)@text##(.*) \\| 更新：(.*)##$2###",
+            "name": "@css:p.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "@css:div[id=chapterlist]>p>a:not(a[style])",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://m.shengxu5w.com/s.php?keyword={{key}}",
+        "weight": 0
+    }
+]

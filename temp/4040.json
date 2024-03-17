@@ -1,0 +1,45 @@
+[
+    {
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "p.sone",
+            "name": ".sone > a@text",
+            "bookUrl": ".sone > a@href",
+            "author": ".author a@text"
+        },
+        "ruleBookInfo": {
+            "coverUrl": ".pic img@src",
+            "name": ".cataloginfo h3@text",
+            "author": ".infotype p:nth-of-type(1) a@text",
+            "kind": ".infotype p:nth-of-type(2)@text",
+            "intro": "{{@@p:nth-of-type(3)@text}}\n{{@@div.intro@text}}",
+            "wordCount": "",
+            "lastChapter": "p:nth-of-type(4) a@text",
+            "tocUrl": "li:nth-of-type(2) p a@href"
+        },
+        "ruleToc": {
+            "chapterList": "li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "div.novelcontent@html##上一章|返回目录|加入书签|下一章|上一页|　本章未完，|请点击下一页继续阅读 》》|下一页",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleReview": [],
+        "ruleExplore": {
+            "coverUrl": "img@src",
+            "name": "h6 a@text",
+            "bookUrl": "h6 ahref",
+            "author": ".author a@text",
+            "bookList": "div.article:nth-of-type(n+5)",
+            "intro": "p.simple@text"
+        },
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xinyushuwu.cc/",
+        "bookSourceName": "新御书屋",
+        "searchUrl": "https://m.xinyushuwu.cc/s.php,{\n\"method\":\"post\",\n\"charset\":\"gbk\",\n\"body\":\"s={{key}}&type=articlename\"\n}",
+        "exploreUrl": "[\n{\"title\":\"玄幻小说\",\"url\":\"https://m.xinyushuwu.cc/sort/1_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠小说\",\"url\":\"https://m.xinyushuwu.cc/sort/2_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市小说\",\"url\":\"https://m.xinyushuwu.cc/sort/3_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军史小说\",\"url\":\"https://m.xinyushuwu.cc/sort/4_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游小说\",\"url\":\"https://m.xinyushuwu.cc/sort/5_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"https://m.xinyushuwu.cc/sort/6_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美小说\",\"url\":\"https://m.xinyushuwu.cc/sort/7_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"辣文合集\",\"url\":\"https://m.xinyushuwu.cc/sort/8_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]"
+    }
+]

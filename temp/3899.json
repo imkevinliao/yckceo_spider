@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "独行小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.dxtxt.com",
+        "bookUrlPattern": "http://www.dxtxt.com/noveltxt/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::http://www.dxtxt.com/xuanhuanqihuan/<,{{page}}>\n武侠仙侠::http://www.dxtxt.com/wuxiaxianxia/<,{{page}}>\n都市言情::http://www.dxtxt.com/dushiyanqing/<,{{page}}>\n历史军事::http://www.dxtxt.com/lishijunshi/<,{{page}}>\n科幻传奇::http://www.dxtxt.com/kehuanchuanqi/<,{{page}}>\n恐怖灵异::http://www.dxtxt.com/kongbulingyi/<,{{page}}>\n其他类型::http://www.dxtxt.com/qitaleixing/<,{{page}}>\n全本小说::http://www.dxtxt.com/quanbenxiaoshuo<,/{{page}}>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692071430248,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "downloadUrls": "text.下载@href",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": "{{@@#count span.1@text}}字"
+        },
+        "ruleContent": {
+            "content": "#TextContent p@textNodes",
+            "nextContentUrl": "text.下一页@text\n@js:\nnext=src.match(/var u\\w+=\"(.*)\"/)[1];\n//java.log(next)\nnext;"
+        },
+        "ruleExplore": {
+            "bookList": "#sitebox dl",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@_src",
+            "intro": ".book_des@text",
+            "kind": "span.2:3:1@text",
+            "lastChapter": "a.-1@text",
+            "name": "h3 a@text",
+            "wordCount": "{{@@span.-1@text}}字"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "#nr",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@_src",
+            "intro": ".book_des@text",
+            "kind": "span.2:3:1@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text",
+            "wordCount": "{{@@span.-1@text}}字"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterList li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\n\nvar url=source.getKey();\n\nvar html = java.ajax(url);\n\ntoken = org.jsoup.Jsoup.parse(html).select('input[name=_token]').attr('value');\n\nurl+\"/search,\"+JSON.stringify({\n  \"body\": `_token=${token}&keyword=${key}&searchtype=articlename`,\n  \"method\": \"post\"\n})",
+        "weight": 0
+    }
+]

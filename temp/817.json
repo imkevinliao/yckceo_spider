@@ -1,0 +1,29 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "顶点小说",
+        "bookSourceUrl": "https://wap.maxreader.net",
+        "enable": false,
+        "ruleBookContent": "class.articlecon font-normal@p@textNodes#本章未完.*|百度一下.*免费.*",
+        "ruleBookKind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+        "ruleBookLastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "ruleChapterList": "class.cataloglist@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "text.章节目录@href",
+        "ruleChapterUrlNext": "",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.pic@img@data-original",
+        "ruleFindUrl": "最新更新::https://wap.maxreader.net/sort.html\n最近入库::https://wap.maxreader.net/top/postdate{,/searchPage}.html\n完本小说::https://wap.maxreader.net/over{,/searchPage}.html\n总点击榜::https://wap.maxreader.net/top/allvisit{,/searchPage}.html\n总推荐榜::https://wap.maxreader.net/top/vote{,/searchPage}.html\n总收藏榜::https://wap.maxreader.net/top/mark{,/searchPage}.html\n总下载榜::https://wap.maxreader.net/top/down{,/searchPage}.html\n总评论榜::https://wap.maxreader.net/top/comment{,/searchPage}.html\n总评分榜::https://wap.maxreader.net/top/star_score{,/searchPage}.html\n百度热搜::https://wap.maxreader.net/top/baidu{,/searchPage}.html\n追书热度::https://wap.maxreader.net/top/zhuishu{,/searchPage}.html\n书旗热搜::https://wap.maxreader.net/top/shuqi{,/searchPage}.html\n掌阅热销::https://wap.maxreader.net/top/zhangyue{,/searchPage}.html\n起点月票::https://wap.maxreader.net/top/qidian{,/searchPage}.html\n17K鲜花::https://wap.maxreader.net/top/17k{,/searchPage}.html\n玄幻小说::https://wap.maxreader.net/sort/xuanhuan{,/searchPage}.html\n奇幻小说::https://wap.maxreader.net/sort/qihuan{,/searchPage}.html\n武侠小说::https://wap.maxreader.net/sort/wuxia{,/searchPage}.html\n仙侠小说::https://wap.maxreader.net/sort/xianxia{,/searchPage}.html\n都市小说::https://wap.maxreader.net/sort/dushi{,/searchPage}.html\n历史小说::https://wap.maxreader.net/sort/lishi{,/searchPage}.html\n军事小说::https://wap.maxreader.net/sort/junshi{,/searchPage}.html\n游戏小说::https://wap.maxreader.net/sort/youxi{,/searchPage}.html\n竞技小说::https://wap.maxreader.net/sort/jingji{,/searchPage}.html\n科幻小说::https://wap.maxreader.net/sort/kehuan{,/searchPage}.html\n灵异小说::https://wap.maxreader.net/sort/lingyi{,/searchPage}.html\n其他小说::https://wap.maxreader.net/sort/qita{,/searchPage}.html\n总裁小说::https://wap.maxreader.net/sort/zongcai{,/searchPage}.html\n穿越小说::https://wap.maxreader.net/sort/chongsheng{,/searchPage}.html\n古典小说::https://wap.maxreader.net/sort/gudian{,/searchPage}.html\n宫斗小说::https://wap.maxreader.net/sort/gongdou{,/searchPage}.html\n现言小说::https://wap.maxreader.net/sort/dushi{,/searchPage}.html\n仙侠小说::https://wap.maxreader.net/sort/xianxiaxuanhuan{,/searchPage}.html\n青春小说::https://wap.maxreader.net/sort/qingchun{,/searchPage}.html\n游戏小说::https://wap.maxreader.net/sort/game{,/searchPage}.html\n灵异小说::https://wap.maxreader.net/sort/kehuanlingyi{,/searchPage}.html\n耽美小说::https://wap.maxreader.net/sort/danmei{,/searchPage}.html\n女尊小说::https://wap.maxreader.net/sort/nvzun{,/searchPage}.html\n其他小说::https://wap.maxreader.net/sort/other{,/searchPage}.html",
+        "ruleSearchAuthor": "tag.p.1@textNodes#作者：",
+        "ruleSearchCoverUrl": "img@data-original",
+        "ruleSearchIntroduce": "class.intro@text",
+        "ruleSearchKind": "class.status@text",
+        "ruleSearchList": "id.ulist@li|class.clearfix@li",
+        "ruleSearchName": "class.book_title@text|span@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://wap.maxreader.net/search/result.html?searchkey=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

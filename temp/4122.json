@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "粉扑儿文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.fenpur.com",
+        "bookUrlPattern": "https?://m.fenpur.com/book/[\\d/]+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部::https://m.fenpur.com/class/cat/{{page}}.html\n悬疑::https://m.fenpur.com/class/cat/5/page/{{page}}/\n言情::https://m.fenpur.com/class/cat/7/page/{{page}}/\n都市::https://m.fenpur.com/class/cat/3/page/{{page}}/\n仙武::https://m.fenpur.com/class/cat/2/page/{{page}}/\n历史::https://m.fenpur.com/class/cat/4/page/{{page}}/\n游戏::https://m.fenpur.com/class/cat/6/page/{{page}}/\n科幻::https://m.fenpur.com/class/cat/9/page/{{page}}/\n玄幻::https://m.fenpur.com/class/cat/1/page/{{page}}/\n其他::https://m.fenpur.com/class/cat/8/page/{{page}}/\n全本::https://m.fenpur.com/quanben/class/cat/{{page}}.html\n悬疑::https://m.fenpur.com/quanben/class/cat/5/page/{{page}}/\n言情::https://m.fenpur.com/quanben/class/cat/7/page/{{page}}/\n都市::https://m.fenpur.com/quanben/class/cat/3/page/{{page}}/\n仙武::https://m.fenpur.com/quanben/class/cat/2/page/{{page}}/\n历史::https://m.fenpur.com/quanben/class/cat/4/page/{{page}}/\n游戏::https://m.fenpur.com/quanben/class/cat/6/page/{{page}}/\n科幻::https://m.fenpur.com/quanben/class/cat/9/page/{{page}}/\n玄幻::https://m.fenpur.com/quanben/class/cat/1/page/{{page}}/\n其他::https://m.fenpur.com/quanben/class/cat/8/page/{{page}}/",
+        "header": "{'User-Agent': 'Mozilla/5.0 (linux; u; android 9; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/100.0.2987.108 quark/6.5.5.137 mobile safari/537.36'}",
+        "lastUpdateTime": 1695181270019,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\"dd.info p.2@text##.字数.：\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.打开目录@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##发现内容少了说明你看到的不是完整内容。完整内容请移步粉（扑）兒小説"
+        },
+        "ruleExplore": {
+            "author": "p.1@text##\\|.*",
+            "bookList": ".pictext",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "p.-1@text",
+            "kind": "p.1@text##\\|(.*)\\|(.+)\\|(.*)##$1,$3###",
+            "name": "p.0@text",
+            "wordCount": "p.1@text\n@js:\nvar regex=/([^|]+)/g;\nvar zs=result.match(regex)[2];\nString(zs.replace(/\\s*/,\"\"));"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": ".partlist-info dl",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": "span.1@text",
+            "lastChapter": "a.-1@text",
+            "name": "em@text",
+            "wordCount": "span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}\nhttps://m.fenpur.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

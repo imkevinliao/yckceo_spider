@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "丝路小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.rsilu.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最近更新::http://m.rsilu.com/top/lastupdate_{{page}}/\n最新入库::http://m.rsilu.com/top/postdate_{{page}}/\n全本小说::http://m.rsilu.com/full/{{page}}/\n总点击榜::http://m.rsilu.com/top/allvisit_{{page}}/\n总收藏榜::http://m.rsilu.com/top/goodnum_{{page}}/\n总字数榜::http://m.rsilu.com/top/size_{{page}}/\n总推荐榜::http://m.rsilu.com/top/allvote_{{page}}/\n玄幻魔法::http://m.rsilu.com/sort/1_{{page}}/\n武侠重生::http://m.rsilu.com/sort/2_{{page}}/\n都市言情::http://m.rsilu.com/sort/3_{{page}}/\n历史穿越::http://m.rsilu.com/sort/4_{{page}}/\n网游动漫::http://m.rsilu.com/sort/5_{{page}}/\n科幻推理::http://m.rsilu.com/sort/6_{{page}}/\n恐怖灵异::http://m.rsilu.com/sort/7_{{page}}/\n其他小说::http://m.rsilu.com/sort/8_{{page}}/",
+        "lastUpdateTime": 1608660350014,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.block_img2@img@src",
+            "intro": "class.intro_info@textNodes",
+            "lastChapter": "class.block_txt2@tag.p.6@a@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes&&class.txt@textNodes",
+            "nextContentUrl": "text.下一页@href##$##,{\"webView\":true}"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.1@textNodes||tag.a.2@text##_.*小说.*|小说",
+            "bookList": "class.book_list1@li||class.cover@p",
+            "bookUrl": "p@tag.a.1@href||a@href",
+            "coverUrl": "class.book_cover1@img@src||p@tag.a.1@href##^/(\\d+)(\\d{3}).*##https://tu.tyue.me/image/$1/$1$2/$1$2s.jpg",
+            "kind": "class.status1@text||tag.a.0@text##\\[|]",
+            "lastChapter": "class.time1@text",
+            "name": "class.book_title1@text||tag.a.1@text##.*全文.*|.*最新章节|.*在线阅读.*|.*小说免费.*|.*免费全本.*|（.*）"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.rsilu.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+        "weight": 0
+    }
+]

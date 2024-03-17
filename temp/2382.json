@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "瓜子小说网www",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.gzbpi.com",
+        "customOrder": -904,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/xuanhuan/,{\"webView\":true}\n武侠修真::/wuxia/,{\"webView\":true}\n\n穿越重生::/chuanyue/,{\"webView\":true}\n\n历史军事::/lishi/,{\"webView\":true}\n\n科幻未来::/kehuan/,{\"webView\":true}\n\n都市言情::/dushi/,{\"webView\":true}\n\n女生小说::/nvsheng/,{\"webView\":true}\n\n网游竞技::/wangyou/,{\"webView\":true}\n\n耽美同人::/danmei/,{\"webView\":true}\n\n其他小说::/qita/,{\"webView\":true}\n",
+        "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n}",
+        "lastUpdateTime": 1613533992114,
+        "ruleBookInfo": {
+            "author": "class.aur@text",
+            "coverUrl": "class.xx_left1@tag.img@src",
+            "intro": "class.xx_jianjie@text",
+            "kind": "class.tif@tag.span.1@text",
+            "lastChapter": "class.xx_text@tag.h2@text",
+            "name": "class.div1@tag.h1@text",
+            "tocUrl": "@js:baseUrl.replace('/book','/shu')+',{\"webView\":true}'"
+        },
+        "ruleContent": {
+            "content": "class.page-content@html##本章未完，点击下一篇继续阅读！",
+            "nextContentUrl": "text.下一篇@href"
+        },
+        "ruleExplore": {
+            "author": "tag.p.0@text##更新.*",
+            "bookList": "class.sk_box",
+            "bookUrl": "tag.h3@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.p_nr@text",
+            "kind": "tag.h3@tag.a.1@text",
+            "lastChapter": "class.sp_01@tag.a@text",
+            "name": "tag.h3@tag.a.0@text",
+            "wordCount": "class.sp_02@text"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "tag.article",
+            "bookUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###<js>result.replace('/wapbook','/book').replace(/\\d+.html/,'').replace(/\\/$/,'').replace('m.','www.')</js>",
+            "coverUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###<js>result.replace('/wapbook','/info').replace(/\\d+.html/,'').replace(/\\/$/,'')</js>##.*\\D((\\d+)(\\d+){3})##https://img.gzbpi.com/$2/$1/$1s.jpg",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "h3@text<js>result.replace(/(全文阅读|最新章节).*/,'').replace(/\\s*/g,'').replace(/(正文|第[一二三四五六七八九十百千万零贰\\d]+|\\d+).*?-/,'')</js>",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.mulu_list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://m.baidu.com/from=1022560v/s?pn=<0,{{page*10}}>&word=intitle:{{key}} site:gzbpi.com",
+        "weight": 0
+    }
+]

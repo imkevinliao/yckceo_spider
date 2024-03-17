@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "自制,知乎,源仓库,网页源",
+        "bookSourceName": "短篇小说818",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.txt818.com",
+        "bookUrlPattern": "https?://www.txt818.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/sort/{{page}}\n知乎::/sort/1/{{page}}/\n头条::/sort/2/{{page}}/\n最右::/sort/3/{{page}}/\nUC::/sort/4/{{page}}/\n老福::/sort/5/{{page}}/\n黑岩::/sort/6/{{page}}/\n蓝鲸::/sort/7/{{page}}/\n朵米::/sort/8/{{page}}/\n野象::/sort/9/{{page}}/\n看点::/sort/10/{{page}}/\n海星::/sort/11/{{page}}/\n有糖::/sort/12/{{page}}/\n竹节::/sort/13/{{page}}/\n鹿糖::/sort/14/{{page}}/\n冰甜::/sort/15/{{page}}/\n熊猫::/sort/16/{{page}}/\n其他::/sort/20/{{page}}/\n全本::/quanben/sort/{{page}}\n知乎::/quanben/sort/1/{{page}}/\n头条::/quanben/sort/2/{{page}}/\n最右::/quanben/sort/3/{{page}}/\nUC::/quanben/sort/4/{{page}}/\n老福::/quanben/sort/5/{{page}}/\n黑岩::/quanben/sort/6/{{page}}/\n蓝鲸::/quanben/sort/7/{{page}}/\n朵米::/quanben/sort/8/{{page}}/\n野象::/quanben/sort/9/{{page}}/\n看点::/quanben/sort/10/{{page}}/\n海星::/quanben/sort/11/{{page}}/\n有糖::/quanben/sort/12/{{page}}/\n竹节::/quanben/sort/13/{{page}}/\n鹿糖::/quanben/sort/14/{{page}}/\n冰甜::/quanben/sort/15/{{page}}/\n熊猫::/quanben/sort/16/{{page}}/\n其他::/quanben/sort/20/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1697857937854,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h2 a.1@text",
+            "coverUrl": ".book-info-cover img@src",
+            "intro": "#bookintro@text",
+            "kind": "h2 a.0@text&&h2 span.1@text",
+            "lastChapter": "text.最新章节.0@a@text",
+            "name": "h1 a@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "h2 span.0@text"
+        },
+        "ruleContent": {
+            "content": ".book-read-content>p!0:-1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.0@text##\\/\\s*文",
+            "bookList": ".book-list-1",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-src",
+            "intro": "p.1@text",
+            "kind": "p span@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".am-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

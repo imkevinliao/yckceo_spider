@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceUrl": "https://www.9biquge.com",
+        "bookSourceType": "0",
+        "bookSourceName": "笔趣阁",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "疯狂的蜗牛",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/search?keyword={{key}}&page={{page}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1618537694628,
+        "ruleSearch": {
+            "bookList": "class.novelslist2@ul@li!0",
+            "name": "class.s2@a@text",
+            "author": "class.s4@a@text",
+            "lastChapter": "class.s3@a@text",
+            "bookUrl": "class.s2@a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "id.info@h1@text",
+            "author": "id.info@p.0@a@text",
+            "lastChapter": "id.info@p.3@a@text",
+            "coverUrl": "id.fmimg@img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dl@dd!dt",
+            "chapterName": "@a@text",
+            "chapterUrl": "@a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        }
+    }
+]

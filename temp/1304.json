@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "常用",
+        "bookSourceName": "玄幻文学求大佬修复正文规则",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xhwx3.com",
+        "customOrder": -2085959365,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"https://m.xhwx3.com/xuanhuan.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"仙侠\",\"url\":\"https://m.xhwx3.com/xianxia.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市\",\"url\":\"https://m.xhwx3.com/dushi.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"https://m.xhwx3.com/lishi.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻\",\"url\":\"https://m.xhwx3.com/kehuan.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"恐怖\",\"url\":\"https://m.xhwx3.com/kongbu.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"其他\",\"url\":\"https://m.xhwx3.com/qita.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1675385140148,
+        "respondTime": 5471,
+        "ruleBookInfo": {
+            "author": ".block_txt2 a.2@text",
+            "coverUrl": ".block_img2 img@src",
+            "intro": ".intro_info@textNodes##最新章节[\\s\\S]*|简介.",
+            "kind": ".block_txt2 p.3:4:5@text##.*：|\\s..:.*",
+            "lastChapter": ".block_txt2 p.-1@text##.*：",
+            "name": ".block_txt2 a.1@text",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.nr1@p@textNodes",
+            "nextContentUrl": "@js:\nif (result.indexOf(\"next.png\") > -1) {\n  var code = result.match(/eval\\((.*)\\);/)[0]\n  eval(code)\n  __uData  \n}",
+            "replaceRegex": "##\\,如内容.*阅读。|\\,请退出.*阅读全文。|.*最新章节网.*|您所看到的内容.*|本章未完.*",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".lis li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "a@href##.+\\D((\\d+)\\d{3})\\D##https://img.xhwenxue.com/$2/$1/$1s.jpg###",
+            "kind": ".s1@text##\\[(.*)\\]##$1",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "/search,{\n\t\"method\":\"POST\",\n\t\"body\":\"kw={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

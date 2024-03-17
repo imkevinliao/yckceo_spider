@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "皮皮文学社",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ppwxs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "经典小说::http://www.ppwxs.com/jdxs/<,list_{{page}}.html>\n穿越小说::http://www.ppwxs.com/cyxs/<,list_{{page}}.html>\n玄幻小说::http://www.ppwxs.com/xhxs/<,list_{{page}}.html>\n都市小说::http://www.ppwxs.com/dsxs/<,list_{{page}}.html>\n乡村小说::http://www.ppwxs.com/xcxs/<,list_{{page}}.html>\n恐怖小说::http://www.ppwxs.com/kbxs/<,list_{{page}}.html>\n灵异小说::http://www.ppwxs.com/lyxs/<,list_{{page}}.html>\n网游小说::http://www.ppwxs.com/wyxs/<,list_{{page}}.html>\n校园小说::http://www.ppwxs.com/xyxs/<,list_{{page}}.html>\n言情小说::http://www.ppwxs.com/yqxs/<,list_{{page}}.html>",
+        "lastUpdateTime": 1645103958255,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": ".article_body@img@src",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": ".article_body@p@html",
+            "nextContentUrl": ".list_fy@a!-1@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": ".list_box@li",
+            "bookUrl": "a@href",
+            "intro": "p@textNodes",
+            "name": "span@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "h1",
+            "chapterName": "text"
+        },
+        "searchUrl": "http://www.ppwxs.com",
+        "weight": 0
+    }
+]

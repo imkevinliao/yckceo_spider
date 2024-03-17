@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎨漫画",
+        "bookSourceName": "🎨禁漫天堂(正文有问题)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://jmcomic.mobi/",
+        "customOrder": 37,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "总排行榜::/albums?o=mv?page={{key}}\n月排行榜::/albums?t=m&o=mv?page={{key}}\n周排行榜::/albums?o=mv&t=w?page={{key}}\n日排行榜::/albums?o=mv&t=t?page={{key}}\n最新A漫::/albums?o=mr?page={{key}}\n同人::/albums/doujin?page={{key}}\n\n单行本::/albums/single?o=mr?page={{key}}\n短篇::/albums/short?page={{key}}\n其他::/albums/another?page={{key}}\n韩漫::/albums/hanman?page={{key}}\n美漫::/albums/meiman?page={{key}}\ncosplay::/albums/another/sub/cosplay?page={{key}}",
+        "lastUpdateTime": 1651214216611,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.thumb-overlay.2@tag.img@src",
+            "init": "",
+            "intro": "class.p-t-5 p-b-5.active@text",
+            "kind": "class.tag-block.3@text",
+            "name": "class.panel-heading.0@text"
+        },
+        "ruleContent": {
+            "content": "img@data-original@js:result.split(\"\\n\").map(x=>\"<img src=\\\"\"+x+\"\\\">\").join(\"\\n\")",
+            "imageStyle": "Full"
+        },
+        "ruleExplore": {
+            "bookList": "class.col-xs-6 col-sm-6 col-md-4 col-lg-3 list-col",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.p-t-5 p-b-5.7@text",
+            "kind": "class.title-truncate@tag.a@text",
+            "name": "class.video-title title-truncate m-t-5@text"
+        },
+        "ruleSearch": {
+            "bookList": "class.col-xs-6 col-sm-6 col-md-4 col-lg-3 list-col",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "kind": "class.title-truncate@tag.a@text",
+            "name": "tag.img@title"
+        },
+        "ruleToc": {
+            "chapterList": "class.btn-toolbar.0@tag.a||class.col btn btn-primary dropdown-toggle reading",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://jmcomic.mobi/search/photos?search_query={{key}}&main_tag=0",
+        "weight": 0
+    }
+]

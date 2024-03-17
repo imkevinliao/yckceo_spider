@@ -1,0 +1,32 @@
+[
+    {
+        "ruleSearch": [],
+        "ruleBookInfo": {
+            "name": ".book-title span@text",
+            "intro": "{{@@.book-info div:nth-of-type(4)@text}}\n{{@@.book-info-numbers span@text}}\n简介：\n{{@@p.desc@text}}",
+            "kind": "div.tag@text",
+            "coverUrl": "img.book-img"
+        },
+        "ruleToc": {
+            "chapterName": "text",
+            "chapterList": ".chapter_item a",
+            "chapterUrl": "href##$##,{'webView':true}"
+        },
+        "ruleContent": {
+            "content": "p.chapter@text"
+        },
+        "ruleReview": [],
+        "ruleExplore": {
+            "bookList": "li",
+            "name": "a.title@text",
+            "bookUrl": "a.title@href",
+            "coverUrl": "img.cover@src",
+            "author": "div.avatar@text",
+            "intro": ".book-overlay-info p@text"
+        },
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.duyuedu.net/index",
+        "bookSourceName": "深度阅读",
+        "exploreUrl": "全部::https://www.duyuedu.net/index"
+    }
+]

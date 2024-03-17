@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "提花小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.tihuashu.com",
+        "bookUrlPattern": "https?://m.tihuashu.com/xiaoshuo/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/list/{{page}}_0_0_0_0_0_0.html\n言情小说::/list/{{page}}_0_4_0_0_0_0.html\n都市小说::/list/{{page}}_0_5_0_0_0_0.html\n历史小说::/list/{{page}}_0_6_0_0_0_0.html\n仙侠奇缘::/list/{{page}}_0_7_0_0_0_0.html\n科幻空间::/list/{{page}}_0_8_0_0_0_0.html\n灵异小说::/list/{{page}}_0_9_0_0_0_0.html\n军事小说::/list/{{page}}_0_10_0_0_0_0.html\n武侠仙侠::/list/{{page}}_0_11_0_0_0_0.html\n虚拟网游::/list/{{page}}_0_12_0_0_0_0.html\n魔法小说::/list/{{page}}_0_13_0_0_0_0.html",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"Referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1691993906373,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=status|time]@content",
+            "lastChapter": "[property$=chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.目录@href"
+        },
+        "ruleContent": {
+            "content": "<js>\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者内容正在手打中，请稍后访问~\"}\n</js>"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".CGsectionTwo-right-content-unit",
+            "bookUrl": "a.0@href",
+            "intro": "p.2@text",
+            "kind": "p.-1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".search-card",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "intro": ".sc-content@text",
+            "kind": "span.-1@text",
+            "lastChapter": "span.-2@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "https://m.tihuashu.com/search/,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

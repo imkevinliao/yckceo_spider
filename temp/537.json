@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "发现页没啥东西，挺多书籍第一张是空白的，过滤掉又会出现部分书籍没有第一张",
+        "bookSourceName": "天翼文学👿",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tywxw.la/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1647885779917,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "tag.img@src",
+            "init": "\n<js>\nresult=result.match(/\\(.*\\\"\\)/)[0],\na=\"'\"+result+\"'\"\n\na=java.base64Decode(a)\n\n\n</js>\n.box_con",
+            "intro": "tag.p.5@text"
+        },
+        "ruleContent": {
+            "content": "<js>\nresult=result.match(/\\(.*\\\"\\)/)[0],\na=\"'\"+result+\"'\"\n\na=java.base64Decode(a)\n\n\n\n\nresult=a.match(/\\(.*\\\"\\)/)[0],\na=\"'\"+result+\"'\"\n\na=java.base64Decode(a)\n\n</js>\n",
+            "nextContentUrl": "\n<js>\nresult=result.match(/\\(.*\\\"\\)/)[0],\na=\"'\"+result+\"'\"\n\na=java.base64Decode(a)\n</js>\ntext.下一页@href\n"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "\n<js>\nresult=result.match(/\\(.*\\\"\\)/)[0],\na=\"'\"+result+\"'\"\n\na=java.base64Decode(a)\n\n\n\n</js>\n.grid@tag.tr!0",
+            "bookUrl": "tag.td.0@tag.a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "tag.td.5@text",
+            "lastChapter": "tag.td.1@text",
+            "name": "tag.td.0@text",
+            "wordCount": "tag.td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "\n\n<js>\nresult=result.match(/\\(.*\\\"\\)/)[0],\na=\"'\"+result+\"'\"\n\na=java.base64Decode(a)\n\n\n</js>\n\n.box_con@tag.div@tag.dl@tag.dd[!0,!1,!2,!3,!4,!5,!6,!7,!8]",
+            "chapterName": "@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.tywxw.la/book/Search.aspx?key={{key}}&searchtype=articlename",
+        "weight": 0
+    }
+]

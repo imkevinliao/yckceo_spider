@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceGroup": "失效",
+        "bookSourceName": "EZ看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.luolaii.com",
+        "customOrder": 2307,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 0,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "intro": "",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "class.articleCon@html##小提示:电脑访问.*?m|一秒记住提醒各位天才们谨记站网址：|支持↘E♂Z♂看♂书↙把本站分享更多书友哦.|一秒记住.*?看书网.*?书.*?入.*?\\s",
+            "imageStyle": "0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span.0@text",
+            "bookList": "class.bandItemLeft",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@src",
+            "intro": "class.bandDesc@text",
+            "kind": "tag.span.1@text",
+            "lastChapter": "tag.a.2@text",
+            "name": "h2@text",
+            "wordCount": "tag.span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapterCon@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

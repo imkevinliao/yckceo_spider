@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "优·快眼看书④™",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.botaodz.com",
+        "customOrder": -39080,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618115561706,
+        "ruleBookInfo": {
+            "author": "##:author\"[^\"]*\"([^\"]*)##$1###",
+            "coverUrl": "##:image\"[^\"]*\"([^\"]*)##$1###",
+            "intro": "##:description\"[^\"]*\"([^\"]*)##$1###",
+            "kind": "##:category\"[^\"]*\"([^\"]*)[\\s\\S]*?status\"[^\"]*\"([^\"]*)[\\s\\S]*?_time\"[^\"]*\"([^\"]*)##$1,$2,$3###",
+            "lastChapter": "##_chapter_name\"[^\"]*\"([^\"]*)##$1###",
+            "name": "##:book_name\"[^\"]*\"([^\"]*)##$1###"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "##作者：([^<]*)##$1###",
+            "bookList": "+@css:.librarylist li",
+            "bookUrl": ".novelname@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": ".last@ownText##最新章节：\\(|\\)",
+            "lastChapter": ".last a@text",
+            "name": ".novelname@title"
+        },
+        "ruleToc": {
+            "chapterList": ":章节目录</h2>[\\s\\S]*?/ul&&href=\"([^\"]*)[^>]*>([^<]*)",
+            "chapterName": "$2##正文(_)?",
+            "chapterUrl": "$1"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

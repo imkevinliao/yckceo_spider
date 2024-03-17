@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "//类型：文本 在线阅读\n//切换：文件 可以下载",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "四五中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.45zww.net",
+        "bookUrlPattern": "https?://m.45zww.net/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/sort/allsort<,/{{page}}>.html\n玄幻奇幻::/sort/xuanhuan<,/{{page}}>.html\n武侠仙侠::/sort/wuxia<,/{{page}}>.html\n都市生活::/sort/dushi<,/{{page}}>.html\n历史军事::/sort/lishi<,/{{page}}>.html\n游戏竞技::/sort/youxi<,/{{page}}>.html\n科幻未来::/sort/kehuan<,/{{page}}>.html\n恐怖悬疑::/sort/xuanyi<,/{{page}}>.html\n其他类型::/sort/qita<,/{{page}}>.html\n古代言情::/sort/guyan<,/{{page}}>.html\n现代言情::/sort/xianyan<,/{{page}}>.html\n幻想奇缘::/sort/huanqing<,/{{page}}>.html\n游戏情缘::/sort/zongcai<,/{{page}}>.html\n浪漫青春::/sort/qingchun<,/{{page}}>.html\n言情美文::/sort/wangluo<,/{{page}}>.html\n科幻灵异::/sort/mmkehuan<,/{{page}}>.html\n其他类型::/sort/mmqita<,/{{page}}>.html\n完本小说::\n玄幻奇幻完本::/full/xuanhuan<,/{{page}}>.html\n武侠仙侠完本::/full/wuxia<,/{{page}}>.html\n都市生活完本::/full/dushi<,/{{page}}>.html\n历史军事完本::/full/lishi<,/{{page}}>.html\n游戏竞技完本::/full/youxi<,/{{page}}>.html\n科幻未来完本::/full/kehuan<,/{{page}}>.html\n恐怖悬疑完本::/full/xuanyi<,/{{page}}>.html\n其他类型完本::/full/qita<,/{{page}}>.html\n古代言情完本::/full/guyan<,/{{page}}>.html\n现代言情完本::/full/xianyan<,/{{page}}>.html\n幻想奇缘完本::/full/huanqing<,/{{page}}>.html\n游戏情缘完本::/full/zongcai<,/{{page}}>.html\n浪漫青春完本::/full/qingchun<,/{{page}}>.html\n言情美文完本::/full/wangluo<,/{{page}}>.html\n科幻灵异完本::/full/mmkehuan<,/{{page}}>.html\n其他类型完本::/full/mmqita<,/{{page}}>.html",
+        "header": "@js:\nJSON.stringify({\n\t\"referer\": baseUrl,\n\"x-requested-with\": \"mark.via\",\n\"cookie\":\"waf_sc=5889647726;Hm_lvt_e00b444cb0ba7912d323f0353ddf6522=1699411008;Hm_lpvt_e00b444cb0ba7912d323f0353ddf6522=1699411022\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"})",
+        "lastUpdateTime": 1699494818758,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "downloadUrls": "@get:{d}\n<js>\nurl=book.origin+result;\njava.ajax(url)\n</js>\ntext.下载@href",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\".block_txt2 p.3:4:5@text##.*：\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.目录@href\",d:\"text.下载@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}"
+        },
+        "ruleContent": {
+            "content": "#nr1>p!-1@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@text##简介：",
+            "kind": "0",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "0",
+            "bookList": ".block ul",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": "li@ownText##\\[|\\].*",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下载@href"
+        },
+        "searchUrl": "/so/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

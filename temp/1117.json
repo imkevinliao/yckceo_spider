@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "API",
+        "bookSourceName": "话本小说APP",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ihuaben.com",
+        "customOrder": -118213,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"都市言情\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=都市言情\"},{\"title\":\"古代言情\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=古代言情\"},{\"title\":\"玄幻言情\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=玄幻言情\"},{\"title\":\"校园言情\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=校园言情\"},{\"title\":\"穿越言情\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=穿越言情\"},{\"title\":\"灵异言情\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=灵异言情\"},{\"title\":\"短篇\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=短篇\"},{\"title\":\"二次元\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=二次元\"},{\"title\":\"灵异\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=灵异\"},{\"title\":\"都市\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=都市\"},{\"title\":\"玄幻奇幻\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=玄幻奇幻\"},{\"title\":\"历史军事\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=历史军事\"},{\"title\":\"武侠仙侠\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=武侠仙侠\"},{\"title\":\"游戏竞技\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=游戏竞技\"},{\"title\":\"科幻末世\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=科幻末世\"},{\"title\":\"明星同人\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=明星同人\"},{\"title\":\"动漫同人\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=动漫同人\"},{\"title\":\"游戏同人\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=游戏同人\"},{\"title\":\"影视同人\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=影视同人\"},{\"title\":\"小说同人\",\"url\":\"/app/lib/listv2?packageId=ihuaben&page={{page}}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=小说同人\"}]",
+        "header": "{\"plantype\":\"ANDROID\",\"version\":\"6.2.63\",\"packageid\":\"ihuaben\",\"content-type\":\"application/x-www-form-urlencoded\"}",
+        "lastUpdateTime": 1627036245697,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "$..content##\\[img:(.*?)\\]##<img src=\"http://picapp.ihuaben.com/$1\" />"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$.authorname",
+            "bookList": "$..pageList[*]",
+            "bookUrl": "https://cdncn.ihuaben.com/cdn/chapters/@get:{bookid}/{{Date.parse(new Date())}}",
+            "coverUrl": "http://picapp.ihuaben.com/{{$.bookpic}}",
+            "intro": "$.bookinfo",
+            "kind": "$.bookmarks",
+            "lastChapter": "$.lastchaptertitle",
+            "name": "$.bookname@put:{bookid:$.bookid}",
+            "wordCount": "<js>\n//用于自动生成发现规则\nb=false;\nif(b){\nlet api=\"/app/lib/listv2?packageId=ihuaben&page=\\{\\{page\\}\\}&pageSize=20&sortType=clickcount_days_7&tagId=0&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy&keyword=\";\nlet words=['都市言情','古代言情','玄幻言情','校园言情','穿越言情','灵异言情','短篇','二次元','灵异','都市','玄幻奇幻','历史军事','武侠仙侠','游戏竞技','科幻末世','明星同人','动漫同人','游戏同人','影视同人','小说同人'];\nvar s=[];\nwords.map(o=>{\nvar i={\"title\":o,\"url\":api+o}\ns.push(i);\n})\njava.log(JSON.stringify(s))\n}\njava.getString(\"$.wordcount\")\n</js>"
+        },
+        "ruleToc": {
+            "chapterList": "$..chapters[*]",
+            "chapterName": "$.title",
+            "chapterUrl": "https://cdncn.ihuaben.com/cdn/chapter/{{$.bookId}}/{{$.chapterId}}/{{Date.parse(new Date())}}",
+            "updateTime": "<js>{{$.wordCount}}+\"字 \"+java.timeFormat({{$.publishTime}})</js>"
+        },
+        "searchUrl": "/app/search?indexName=book&keyword={{key}}&page={{page}}&tokenId=NTAyNDUwNTA6MTYyNjcyMzYyMzpjMGU3ODlhNzQ3OTZmYmIy",
+        "weight": 0
+    }
+]

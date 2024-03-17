@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "九点小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.jiudianxs.com",
+        "bookUrlPattern": "http://m.jiudianxs.com/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort-1-{{page}}/\n仙侠小说::/sort-2-{{page}}/\n都市小说::/sort-3-{{page}}/\n历史小说::/sort-4-{{page}}/\n游戏小说::/sort-5-{{page}}/\n科幻小说::/sort-6-{{page}}/\n其他小说::/sort-7-{{page}}/\n全本小说::/full-{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698371474596,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者：@text",
+            "coverUrl": ".block_img2 img@src",
+            "intro": ".intro_info@text",
+            "kind": "text.分类：@text&&\ntext.状态：@text&&\ntext.更新：@text##.*：",
+            "lastChapter": "text.最新：@a@text",
+            "name": "h2 a@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "replaceRegex": "##请牢记收藏.*免费阅读"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@ownText##\\/",
+            "bookList": "p.line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "coverUrl": "@js:\"/modules/article/images/nocover.jpg\"",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href\n@js:\nvar regex=/第\\d*.(\\d+)页.当前\\d*条.页/;\n//正则匹配页数\nvar page=src.match(regex);\npage=page?page[1]:\"\";\nvar next=result?result[0]:\"\";\nnext=String(next);\nvar url=[next];\nfor(i=2;i<=page;i++){\n\turl.push(next.replace(/_\\d+/,\"_\"+i))\n\t}\nurl;"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}\n/modules/article/waps.php,{\n  \"body\": \"searchtype=articlename&searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

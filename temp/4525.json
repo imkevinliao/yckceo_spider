@@ -1,0 +1,30 @@
+[
+    {
+        "bookSourceGroup": "Namo",
+        "bookSourceName": "🌟 豆腐阅读",
+        "bookSourceType": "0",
+        "bookSourceUrl": "http://api.doufu.me",
+        "enable": true,
+        "httpUserAgent": "{\n  \"Cookie\": \"wh=1080*2120; uid=7383010; os=Android-10; av=7.1.0; ch=tencent; md=Mi 10; cskey=90b881a0908991; skey=5f00e564e3ede8.21979201; aid=3; xx=0\"\n}",
+        "loginUrl": "http://api.doufu.me/member/user_login",
+        "ruleBookAuthor": "$.data.topic.author",
+        "ruleBookContent": "$.data.detail.des",
+        "ruleBookKind": "$.tags[0].name&&$.tags[2].name&&$.tags[1].name&&$.tags[3].name",
+        "ruleBookLastChapter": "",
+        "ruleBookName": "$.data.topic.title",
+        "ruleChapterList": "$.data.list",
+        "ruleChapterName": "$.title",
+        "ruleChapterUrl": "http://api.doufu.me/index.php/novel/chapter_list?novel_id={$.data.topic.id}",
+        "ruleContentUrl": "http://api.doufu.me/index.php/post/view/{$.id}?with_ids=1&type=read",
+        "ruleCoverUrl": "$.images[0].path",
+        "ruleSearchAuthor": "$.author",
+        "ruleSearchCoverUrl": "$.images[0].path",
+        "ruleSearchKind": "$.tags[0].name&&$.tags[2].name&&$.tags[1].name&&$.tags[3].name",
+        "ruleSearchList": "$.data[*]",
+        "ruleSearchName": "$.title",
+        "ruleSearchNoteUrl": "http://api.doufu.me/topic/novel?topic_id={$.id}",
+        "ruleSearchUrl": "http://api.doufu.me/search/content?keyword=searchKey&start=0&rows=20&types=18&order=&is_finished=&vip=",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "新笔趣阁2",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap2.xinbiquge.org/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1684066249655,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "class.name@text",
+            "wordCount": "class.dd_box.1@span.1@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##.*\\(.*\\)|新笔趣阁.*|本章未完.*|.*继续阅读|.*阅读完毕，更多请搜索.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@span@text",
+            "bookList": "class.hot_sale hot_saleEm",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last.2@dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://wap2.xinbiquge.org/book/search.aspx?ie=utf-8&siteid=xinbiquge.org&s=000&key={{key}}",
+        "weight": 0
+    }
+]

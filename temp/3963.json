@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceName": "哎呦文学网  AUWXW.COM（天天）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.auwxw.com",
+        "customOrder": 13,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 0,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".nbs_1.0@a@text",
+            "intro": "div.-239@text",
+            "kind": ".nbs_1.1@a@text",
+            "name": "h1@text",
+            "tocUrl": ".nbs_1.2@a@href"
+        },
+        "ruleContent": {
+            "content": ".ReadContents@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": "table@tbody@tr!0",
+            "name": "td.0@text",
+            "author": "td.1@text",
+            "kind": "td.3@text",
+            "lastChapter": "td.2@text",
+            "bookUrl": "a@href"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.1@text",
+            "bookList": "table@tbody@tr!0",
+            "bookUrl": "a@href",
+            "kind": "td.3@text",
+            "lastChapter": "td.2@text",
+            "name": "td.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "tbody@tr@td",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/aulist/{{key}}.html",
+        "weight": 0,
+        "exploreUrl": "[{\"title\":\"书库\",\"url\":\"/aulist/all.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"全本\",\"url\":\"/aulist/全本.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"玄幻\",\"url\":\"/aulist/玄幻.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"奇幻\",\"url\":\"/aulist/奇幻.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"武侠\",\"url\":\"/aulist/武侠.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"仙侠\",\"url\":\"/aulist/仙侠.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市\",\"url\":\"/aulist/都市.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"言情\",\"url\":\"/aulist/言情.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"历史\",\"url\":\"/aulist/历史.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"军事\",\"url\":\"/aulist/军事.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"游戏\",\"url\":\"/aulist/游戏.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"竞技\",\"url\":\"/aulist/竞技.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻\",\"url\":\"/aulist/科幻.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"灵异\",\"url\":\"/aulist/灵异.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
+        "exploreScreen": ""
+    }
+]

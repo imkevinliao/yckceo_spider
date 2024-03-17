@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "奇书塔",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.qishuta.org",
+        "bookUrlPattern": "https://m.qishuta.org/Shtml\\d+.html",
+        "customOrder": 17,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/soft/sort01/<,index_{{page}}.html>\n武侠仙侠::/soft/sort02/<,index_{{page}}.html>\n女频言情::/soft/sort03/<,index_{{page}}.html>\n现代都市::/soft/sort04/<,index_{{page}}.html>\n历史军事::/soft/sort05/<,index_{{page}}.html>\n游戏竞技::/soft/sort06/<,index_{{page}}.html>\n科幻灵异::/soft/sort07/<,index_{{page}}.html>\n美文同人::/soft/sort08/<,index_{{page}}.html>\n完本小说::/full/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1694603912847,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "downloadUrls": "@get:{d}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\".infotype@p.1@text&&[property~=status|time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nd:\"text.TXT下载@href\"}",
+            "intro": "@get:{i}##【展开】|【收起】",
+            "kind": "@get:{k}##类型：",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#novelcontent@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##（本章未完.*）|{{chapter.title}}|\\(第.+页\\)|记住手机版网址.*"
+        },
+        "ruleExplore": {
+            "author": ".p3@text||a.2@text",
+            "bookList": ".article||.full_content",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".simple@text",
+            "kind": ".p1@text##\\[|\\]",
+            "name": ".p2@text||h6@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": ".sone",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "a@href\n@js:\nvar id=result.match(/\\d+/);\nvar iid=parseInt(id/1000);\n`https://www.qishuta.org/files/article/image/${iid}/${id}/${id}s.jpg`",
+            "kind": "0",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list_xm.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://m.qishuta.org/search.html,{\n  \"body\": \"searchkey={{key}}&type=articlename\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

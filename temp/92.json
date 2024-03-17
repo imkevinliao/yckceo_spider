@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉 精选",
+        "bookSourceName": "🎉 西红柿",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api.xihongshixsapp.com",
+        "customOrder": -88903144,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1659193213009,
+        "respondTime": 993,
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "picture",
+            "init": "<js>java.getZipStringContent(baseUrl,'detail.json')</js>$.data",
+            "intro": "intro",
+            "kind": "categoryName&&bookStatus&&chapterUpdateTime##T.*",
+            "lastChapter": "chapterName",
+            "name": "name"
+        },
+        "ruleContent": {
+            "content": "all"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "data.list",
+            "bookUrl": "@js:\nlet bid=parseInt(java.getString('$.bookId'))\nlet subPath=Math.ceil(bid/2000)\n\"http://statics.rungean.com/static/book/zip/\"+subPath+\"/\"+bid+\".zip\"",
+            "coverUrl": "picture",
+            "intro": "intro",
+            "kind": "categoryName&&bookStatus&&chapterUpdateTime##T.*",
+            "lastChapter": "chapterName",
+            "name": "name"
+        },
+        "ruleToc": {
+            "chapterList": "<js>java.getZipStringContent(baseUrl,'chapter.json')</js>$.data",
+            "chapterName": "$.name",
+            "chapterUrl": "$.content_url"
+        },
+        "searchUrl": "/api/v1/novelsearch?content={{key}}&pageIndex={{page}}&pageSize=20",
+        "weight": 0
+    }
+]

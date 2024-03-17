@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "S",
+        "bookSourceName": "小书亭",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xiaoshuting.la",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1663061492157,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.banner@tag.ul",
+            "bookUrl": "class.s2@tag.a@href",
+            "checkKeyWord": "神级",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@tag.a@text",
+            "name": "class.s2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapterlist.1@tag.ul@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

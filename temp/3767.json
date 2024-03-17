@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "搜读小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.sodu.info",
+        "bookUrlPattern": "http://www.sodu.info/mulu_\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n排行::/rank/\n书库::/fl/{{page}}/\n玄幻::/fl/xuanhuan/{{page}}/\n仙侠::/fl/xianxia/{{page}}/\n都市::/fl/dushi/{{page}}/\n历史::/fl/lishi/{{page}}/\n游戏::/fl/youxi/{{page}}/\n科幻::/fl/kehuan/{{page}}/\n恐怖::/fl/kongbu/{{page}}/\n其他::/fl/qita/{{page}}/\n全本::/quanben/fl/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690344204692,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=lastest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##点击切换.+简体版\\]|\n上一页|章节目录|加入书签|下一章"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text||.btm@ownText",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "name": "a.1@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list@dl@a",
+            "chapterName": "dd@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.sodu.info/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

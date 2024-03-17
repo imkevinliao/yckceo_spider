@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "蚂蚁文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.myxzm.com/",
+        "customOrder": -270,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "  总榜 ::/top/&&都市榜::/top/dushi.html&&现情榜::/top/xianqing.html&&穿越榜::/top/chuanyue.html&&重生榜::/top/chongsheng.html&&玄幻榜::/top/xuanhuan.html&&奇幻榜::/top/qihuan.html&&仙侠榜::/top/xianxia.html&&武侠榜::/top/wuxia.html&&职场榜::/top/zhichang.html&&官场榜::/top/guanchang.html&&恐怖榜::/top/kongbu.html&&灵异榜::/top/lingyi.html&&悬疑榜::/top/xuanyi.html&&科幻榜::/top/kehuan.html&&耽美榜::/top/danmei.html&&历史榜::/top/lishi.html&&军事榜::/top/juinshi.html&&游戏榜::/top/youxi.html&&竞技榜::/top/jingji.html&&短篇榜::/top/duanpian.html&&古言榜::/top/guyan.html&&￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣::&&金融投资小说::/heji/jrtzxs.html&&最好看的富豪类小说::/heji/hkfhxs.html&&系统类小说::/heji/xitonxs.html&&赘婿小说::/heji/zhuixuxs.html&&星空小说::/heji/xingkxs.html&&相术小说::/heji/xiangshuxs.html&&特工小说::/heji/tegongxs.html&&男扮女装小说::/heji/yndfxs.html&&网王小说::/heji/wangwxs.html&&鸿蒙小说::/heji/hmxiaoshuo.html&&恋爱小说::/heji/lianaixs.html&&a小说::/heji/axiaoshuo.html&&炼丹小说::/heji/liandanxs.html&&神话小说::/heji/shenhuaxs.html&&囚禁小说::/heji/qiujinxs.html&&王妃小说::/heji/wangfeixs.html&&吸血鬼小说::/heji/xxgxs.html&&召唤小说::/heji/zhaophuanxs.html&&exo小说::/heji/exoxsh.html&&抗战小说::/heji/kangzhanxs.html&&军婚小说::/heji/junhunxs.html&&多肉小说::/heji/duorouxs.html&&修真小说::/heji/xiuzhen.html&&幽默搞笑小说::/heji/ymgxxs.html&&伦理禁忌小说::/heji/lljjxs.html&&报复小说::/heji/bfxs.html&&神医小说::/heji/syxs.html&&励志小说::/heji/lzxs.html&&女主爽文小说::/heji/nzswxs.html&&宅斗小说::/heji/zdxs.html&&纯爱小说::/heji/caxs.html&&女强男强小说::/heji/nqnqxs.html&&宠婚小说::/heji/hcxs.html&&浪漫小说::/heji/lmxs.html&&推理小说::/heji/tlxs.html&&英雄救美小说::/heji/yxjmxs.html&&探险小说::/heji/txxs.html&&监狱题材小说::/heji/jytcxs.html&&宝宝小说::/heji/bbxs.html&&洪荒小说::/heji/hhxs.html&&异世小说::/heji/ysxs.html&&宫廷小说::/heji/gtxs.html&&轮回重生小说::/heji/lxcsxs.html&&婚姻爱情小说::/heji/hyaqxs.html&&百合小说::/heji/bhxs.html&&娱乐圈小说::/heji/ylqxs.html&&搞笑小说::/heji/gxxs.html&&神仙妖精小说::/heji/sxyjxs.html&&冤家小说::/heji/yjxs.html&&种田小说::/heji/ztxs.html&&轻松爽文小说::/heji/qsswxs.html&&校园小说::/heji/xyxs.html&&未来小说::/heji/wlxs.html&&虐恋情深小说::/heji/llqsxs.html&&民国小说::/heji/mgxs.html&&科幻小说::/heji/khxs.html&&修仙小说::/heji/xxxs.html&&空间小说::/heji/kjxs.html&&女强小说::/heji/nqxs.html&&豪门世家小说::/heji/hmsjxs.html&&逆袭小说::/heji/nxxs.html&&宫斗小说::/heji/gdxs.html&&贵族小说::/heji/gzxs.html&&鬼怪小说::/heji/gkxs.html&&网游小说::/heji/wyxs.html&&架空历史小说::/heji/jklsxs.html&&电影小说::/heji/dyxs.html&&神怪小说::/heji/sgxs.html&&讽刺小说::/heji/fcxs.html&&冶艳小说::/heji/zyxs.html&&轻小说::/heji/qxs.html&&明星同人小说::/heji/mxtrxs.html",
+        "lastUpdateTime": 1624186185673,
+        "ruleBookInfo": {
+            "author": "class.info@tag.span.3@tag.a@text",
+            "init": "",
+            "intro": "class.intro@tag.p@text",
+            "lastChapter": "",
+            "name": "class.base clearfix@dd@h2@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.content@html##《.*》 第.*章 .*免费试读"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.info@span@text",
+            "bookList": "class.clearfix@li",
+            "bookUrl": "class.tit@href",
+            "coverUrl": "class.pic lazy@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.serial@text&&class.type@text",
+            "name": "class.tit@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.attentions@class.clearfix@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.myxzm.com/search/?q={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

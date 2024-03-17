@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌼 常用",
+        "bookSourceName": "🌼 卡夜阁📱",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.kygso.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::https://m.kygso.com/category/xuanhuan/{{page}}.html\n奇幻::https://m.kygso.com/category/qihuan/{{page}}.html\n武侠::https://m.kygso.com/category/wuxia/{{page}}.html\n仙侠::https://m.kygso.com/category/xianxia/{{page}}.html\n都市::https://m.kygso.com/category/dushi/{{page}}.html\n历史::https://m.kygso.com/category/lishi/{{page}}.html\n军事::https://m.kygso.com/category/junshi/{{page}}.html\n游戏::https://m.kygso.com/category/youxi/{{page}}.html\n竞技::https://m.kygso.com/category/jingji/{{page}}.html\n科幻::https://m.kygso.com/category/kehuan/{{page}}.html\n灵异::https://m.kygso.com/category/lingyi/{{page}}.html\n其他::https://m.kygso.com/category/qita/{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4080.0 Safari/537.36 Edg/82.0.453.0\"\n}",
+        "lastUpdateTime": 1610254640696,
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "cover",
+            "init": "<js> \nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).text()) ;\nvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\nvar book = {\n\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\tauthor: og('novel:author'),\n\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|章节目录|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, '') + ' • ' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-'),\n\tintro: '　　最近更新:' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-') + '\\n' + og('description').replace(/.*(观看小说|简介)[:：]|分享书籍.*|各位书友.*/g, '').replace(/\\s+/g, '\\n'),\n\tcover: og('image'),\n\turl: og('novel:read_url').replace('m.','www.'),\n};\nbook;\n</js>",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "latest",
+            "name": "name",
+            "tocUrl": "url",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.size16 color5 pt-read-text@html##本章未完，请点击.*|.*请用百度浏览器.*|记住收藏.*高速阅读.|温馨提示.*阅读体验会更好！",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "class.pt-recomment-cont||class.flex-wrp pt-popular-item\n<js>\nresult.toArray().slice(0, 3).map(el => {\n\tvar url = String(el.select('a:eq(0)').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n\tvar J = org.jsoup.Jsoup.parse(java.ajax(url));\n\tvar o = selector => String(J.select(selector).text());\n\tvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\treturn {\n\t\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\t\tauthor: og('novel:author'),\n\t\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n\t\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, '') + ' • ' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-'),\n\t\tintro: og('description').replace(/.*(观看小说|简介)[:：]|各位书友.*/g, '').replace(/\\s+/g, ''),\n\t\tcover: og('image'),\n  url: url,\n\t};\n}); \n</js>",
+            "bookUrl": "url",
+            "coverUrl": "cover",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "latest",
+            "name": "name",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.pt-chapter-cont-detail full@a",
+            "chapterName": "text##[【（](求(评|订阅|[全首][订定]|收藏|月票)|(推荐票|\\d+字)加更|第?[一二三四五六七八九十]{1,3}更).*?[）】]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.kygso.com/search/result.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

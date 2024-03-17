@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "燃文小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ranwen.tw",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1650021301011,
+        "respondTime": 4775,
+        "ruleBookInfo": {
+            "author": "tag.p.0@text",
+            "coverUrl": "img.0@src",
+            "init": "",
+            "intro": "class.intro@html",
+            "kind": "tag.p.1@text##类别：",
+            "lastChapter": "tag.p.4@text##最新：",
+            "name": "h1@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "tag.p.3@text##更新：##更新时间："
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\.\\.\\.\\s+\\-\\-\\>\\>\\s+本章未完，点击下一页继续阅读|本章未完\\，点击下一页继续阅读"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.mr15@text",
+            "bookList": "class.list-item",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.gray@html##作者.*",
+            "name": "class.article@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.last9@li!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.ranwen.tw/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

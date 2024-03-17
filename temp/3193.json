@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceGroup": "A级",
+        "bookSourceName": "笔趣阁biquge5200.cc",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biquge5200.cc",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.81 Safari/537.36\"\n}",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "id.fmimg@tag.img.0@src",
+            "intro": "id.intro@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "class.odd.0@tag.a@href",
+            "lastChapter": "class.even.0@tag.a@text",
+            "name": "class.odd.0@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.biquge5200.cc/modules/article/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

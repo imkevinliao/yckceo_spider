@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceUrl": "https://www.800txt.net",
+        "bookSourceType": "0",
+        "bookSourceName": "八佰中文",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/modules/article/search.php?searchkey={{key}},{\"charset\":\"gbk\"}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": "class.novelslistss@tag.li",
+            "name": "tag.a.0@text",
+            "author": "class.s4@text",
+            "kind": "class.s1@text",
+            "wordCount": "class.s5@text",
+            "lastChapter": "tag.a.1@text",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "id.info@tag.h1@text",
+            "author": "id.info@tag.a.0@text",
+            "wordCount": "id.info@tag.p.2@text##更新时间.",
+            "lastChapter": "id.info@tag.a.4@text",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##.*最新章节！"
+        }
+    }
+]

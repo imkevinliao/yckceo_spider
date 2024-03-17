@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣阁快眼",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.hengfaienterprises.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "奇幻::https://www.hengfaienterprises.com/he/18.html?page={{page}}&&武侠::/he/19.html?page={{page}}&&历史::/he/20.html?page={{page}}&&都市::/he/21.html?page={{page}}&&科幻::/he/22.html?page={{page}}&&悬疑::/he/23.html?page={{page}}&&游戏::/he/34.html?page={{page}}&&其他::/he/35.html?page={{page}}&&\n",
+        "lastUpdateTime": 1625459440821,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"meta[property~=title]@content\n\",a:\"meta[property$=author]@content\n\",k:\"meta[property~=status|category|time]@content\n\",w:\"meta[property~=word]@content\n\",l:\"meta[property*=latest_chapter_name]@content\n\",c:\"meta[property~=image]@content\n\",i:\"meta[property~=description]@content\n\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": "id.txt@html@js:\nvar sourceChars=[\"%uE800\",\"%uE801\",\"%uE802\",\"%uE803\",\"%uE804\",\"%uE805\",\"%uE806\",\"%uE807\",\"%uE808\",\"%uE809\",\"%uE80A\",\"%uE80B\",\"%uE80C\",\"%uE80D\",\"%uE80E\",\"%uE80F\",\"%uE810\",\"%uE811\",\"%uE812\",\"%uE813\",\"%uE814\",\"%uE815\",\"%uE816\",\"%uE817\",\"%uE818\",\"%uE819\",\"%uE81A\",\"%uE81B\",\"%uE81C\",\"%uE81D\",\"%uE81E\",\"%uE81F\",\"%uE820\",\"%uE821\",\"%uE822\",\"%uE823\",\"%uE824\",\"%uE825\",\"%uE826\",\"%uE827\",\"%uE828\",\"%uE829\",\"%uE82A\",\"%uE82B\",\"%uE82C\",\"%uE82D\",\"%uE82E\",\"%uE82F\",\"%uE830\",\"%uE831\",\"%uE832\",\"%uE833\",\"%uE834\",\"%uE835\",\"%uE836\",\"%uE837\",\"%uE838\",\"%uE839\",\"%uE83A\",\"%uE83B\",\"%uE83C\",\"%uE83D\",\"%uE83E\",\"%uE83F\",\"%uE840\",\"%uE841\",\"%uE842\",\"%uE843\",\"%uE844\",\"%uE845\",\"%uE846\",\"%uE847\",\"%uE848\",\"%uE849\",\"%uE84A\",\"%uE84B\",\"%uE84C\",\"%uE84D\",\"%uE84E\",\"%uE84F\",\"%uE850\",\"%uE851\",\"%uE852\",\"%uE853\",\"%uE854\",\"%uE855\",\"%uE856\",\"%uE857\",\"%uE858\",\"%uE859\",\"%uE85A\",\"%uE85B\",\"%uE85C\",\"%uE85D\",\"%uE85E\",\"%uE85F\",\"%uE860\",\"%uE861\",\"%uE862\",\"%uE863\"]\n\nvar displayChars=\"的一是了我不人在他有这个上们来到时大地为子中你说生国年着就那和要她出也得里后自以会家可下而过天去能对小多然于心学么之都好看起发当没成只如事把还用第样道想作种开美总从无情己面最女但现前些所同日手又行意动\";\n\nvar slect=\"i\";\n\nfunction convertChar(str) {\nlet index = sourceChars.indexOf(str)\nif(index != -1) return displayChars[index]\n}\n\nvar doc = org.jsoup.Jsoup.parse(result);\ndoc.select(slect).toArray().forEach(ele=>{\nlet str = escape(ele.text());\nele.text(convertChar(str))\n})\n\ndoc.html()\n",
+            "nextContentUrl": "id.pt_next@href",
+            "replaceRegex": "##第[一二三四五六七八九十百千万\\d]*?章.*?\\(\\d+\\/\\d+\\)|.*?hengfaienterprises.com.*"
+        },
+        "ruleExplore": {
+            "author": ".book_author@a@text",
+            "bookList": ".media",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "p@text##\\[点击阅读\\]",
+            "name": "h4@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": "@css:#bookcon tr:has(a)",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "name": "tag.a.0@text",
+            "wordCount": "tag.p.3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list-charts li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.hengfaienterprises.com/search.html?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

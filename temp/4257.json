@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceGroup": "🌀 仅发现",
+        "bookSourceName": "🌀 60ks",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.60ks.cc",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"排行\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"总点击\",\"url\":\"http://m.60ks.cc/top/allvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"总收藏\",\"url\":\"http://m.60ks.cc/top/goodnum_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"总推荐\",\"url\":\"http://m.60ks.cc/top/allvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"最新入库\",\"url\":\"http://m.60ks.cc/top/postdate_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.47}},\n{\"title\":\"最近更新\",\"url\":\"http://m.60ks.cc/top/lastupdate_1//\",\"style\":{\"layout_flexBasisPercent\":0.47}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"玄幻小说\",\"url\":\"http://m.60ks.cc/sort/1_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"仙侠小说\",\"url\":\"http://m.60ks.cc/sort/2_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"都市小说\",\"url\":\"http://m.60ks.cc/sort/3_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"历史小说\",\"url\":\"http://m.60ks.cc/sort/4_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"游戏小说\",\"url\":\"http://m.60ks.cc/sort/5_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"http://m.60ks.cc/sort/6_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"恐怖小说\",\"url\":\"http://m.60ks.cc/sort/7_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"女生小说\",\"url\":\"http://m.60ks.cc/sort/8_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"其它小说\",\"url\":\"http://m.60ks.cc/sort/9_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n]",
+        "header": "{\n\t\"User-Agents\": \"Mozilla/5.0 (Linux; Android 13; Z832 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.92 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1697211337589,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": ".block_img2@img@src",
+            "intro": ".intro_info@text",
+            "lastChapter": ".intro ul li.0@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@textNodes"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".cover p",
+            "bookUrl": "a.1@href",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": ".chapter li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "@js:\ntry{\nvar n=String(result).match(/第1[^\\d]+(\\d+)/)[1];\njava.log(n);\nlist=[]\nif(n==1){\nlist;}else{\nfor(i=2;i<=n;i++){\nlist.push(baseUrl+i+\".html\")\n};}list\n}catch(e){}"
+        },
+        "weight": 0
+    }
+]

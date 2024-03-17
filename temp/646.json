@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "test",
+        "bookSourceName": "顶点小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ddxs.com/",
+        "bookUrlPattern": "",
+        "customOrder": -88962022,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": " 玄幻小说:http://www.ddxs.com/xuanhuan/\n武侠小说:http://www.ddxs.com/wuxia/\n军事小说:http://www.ddxs.com/junshi/\n都市小说:http://www.ddxs.com/dushi/\n游戏小说:http://www.ddxs.com/youxi/\n科幻小说:http://www.ddxs.com/kehuan/\n言情小说:http://www.ddxs.com/yanqin/\n次元小说:http://www.ddxs.com/ciyuan/\n排行榜:http://www.ddxs.com/top/\n完本小说:http://www.ddxs.com/quanben/",
+        "lastUpdateTime": 1644596378062,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info@class.author@text",
+            "coverUrl": "class.book-boxs@class.imgbox@img@src",
+            "intro": "class.book-dec@class.book-intro@textNodes",
+            "kind": "",
+            "lastChapter": "class.info@class.time@text##最后更新：",
+            "name": "class.info@class.name@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "replaceRegex": "##@@.*@@@|正在手打中.*更新！"
+        },
+        "ruleExplore": {
+            "author": "class.author@text##｜.*",
+            "bookList": "class.g-plate@ul@li",
+            "bookUrl": "class.img@href",
+            "coverUrl": "class.img@img@data-src",
+            "intro": "class.desc@text",
+            "kind": "class.author@text##.*｜",
+            "name": "h2@text"
+        },
+        "ruleSearch": {
+            "author": ".author@text##/ ",
+            "bookList": "class.list search-list@li",
+            "bookUrl": "a@href",
+            "kind": ".cate@text##\\[|\\]",
+            "lastChapter": "class.time@text",
+            "name": "class.name@text##/ .*"
+        },
+        "ruleToc": {
+            "chapterList": "id.main@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "http://www.ddxs.com/search.php.{\"charset\":\"UTF-8\",\"method\":\"post\",\"body\":\"keyWord={{key}}\"}",
+        "weight": 0
+    }
+]

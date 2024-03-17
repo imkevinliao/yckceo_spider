@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "小说",
+        "bookSourceName": "六月文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://wap.lychewang.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "[{\"title\":\"◎    排行榜    ◎\",\"url\":\"\",\"style\":{layout_flexGrow: 1,layout_flexBasisPercent:1}},{\"title\":\"日点击\",\"url\":\"/top/dayvisit_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"周点击\",\"url\":\"/top/weekvisit_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"月点击\",\"url\":\"/top/monthvisit_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"总点击\",\"url\":\"/top/allvisit_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"总收藏\",\"url\":\"/top/goodnum_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"日推荐\",\"url\":\"/top/dayvote_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"周推荐\",\"url\":\"/top/weekvote_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"月推荐\",\"url\":\"/top/monthvote_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"总推荐\",\"url\":\"/top/allvote_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"字数排行\",\"url\":\"/top/size_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.3}},\n{\"title\":\"最新入库\",\"url\":\"/top/postdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.3}},{\"title\":\"最近更新\",\"url\":\"/top/lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.3}},\n\n\n{\"title\":\"◎    分类    ◎\",\"url\":\"\",\"style\":{layout_flexGrow: 1,layout_flexBasisPercent:1}},\n{\"title\":\"古色古香\",\"url\":\"http://wap.lychewang.com/sort/2_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"近代现代\",\"url\":\"http://wap.lychewang.com/sort/3_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"穿越奇遇\",\"url\":\"http://wap.lychewang.com/sort/4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"仙侠修真\",\"url\":\"http://wap.lychewang.com/sort/7_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"玄幻奇幻\",\"url\":\"http://wap.lychewang.com/sort/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻无限\",\"url\":\"http://wap.lychewang.com/sort/6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"游戏推理\",\"url\":\"http://wap.lychewang.com/sort/5_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"美文名著\",\"url\":\"http://wap.lychewang.com/sort/8_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "lastUpdateTime": 1667118444416,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.cataloglyw_author@a@text",
+            "intro": "class.cataloglyw_intor@text## |┃ 配角： |┃ 其它：|全文免费阅读.*提供，如果.*最新章节，请.*|本书简介：##<p>\n<js>",
+            "kind": "class.s1@text",
+            "lastChapter": "class.cataloglyw_newest@a@text",
+            "name": "h3.1@text",
+            "wordCount": "class.s2@text"
+        },
+        "ruleContent": {
+            "content": "class.chapter_content@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##您现在阅读的是\\n*|　　.*提供的《.*》.*(第.*页)|\\)\\s\\s\\s\\s*"
+        },
+        "ruleExplore": {
+            "author": "class.newbook_author@text||class.p3@text",
+            "bookList": "class.articlegeneral@li||class.newbook_novel",
+            "bookUrl": "class.newbook_title@a@href||class.p1@a@href",
+            "intro": "class.newbook_intor@text## |┃ 配角： |┃ 其它： |本书简介：##<br><p> ",
+            "kind": "class.s1@text||class.p2@text",
+            "name": "class.p1@text||class.newbook_title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.newbook_author@text",
+            "bookList": "class.sort_box_list",
+            "bookUrl": "class.newbook_pic@a@href",
+            "checkKeyWord": "农业系统",
+            "intro": "class.newbook_intor@text## |┃ 配角： |┃ 其它： ##<p> ",
+            "kind": "class.wanben_serial_novelsort@text",
+            "name": "class.newbook_title@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.cataloglyw_list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://wap.lychewang.com/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

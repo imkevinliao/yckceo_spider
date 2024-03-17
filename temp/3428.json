@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "⭐备用,⌨自制",
+        "bookSourceName": "⭐242小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.242xs.info##旅途",
+        "customOrder": -2085977926,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "[{\"title\":\"男生小说\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻小说\",\"url\":\"/category/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"奇幻小说\",\"url\":\"/category/qihuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠小说\",\"url\":\"/category/wuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠小说\",\"url\":\"/category/xianxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/category/dushixs/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史小说\",\"url\":\"/category/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"军事小说\",\"url\":\"/category/junshi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏小说\",\"url\":\"/category/youxi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"竞技小说\",\"url\":\"/category/jingji/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/category/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异小说\",\"url\":\"/category/lingyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他小说\",\"url\":\"/category/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生小说\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"总裁豪门\",\"url\":\"/category/zongcai/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越重生\",\"url\":\"/category/chongsheng/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古典架空\",\"url\":\"/category/gudian/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"宫斗宅斗\",\"url\":\"/category/gongdou/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市现言\",\"url\":\"/category/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠玄幻\",\"url\":\"/category/xianxiaxuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"青春校园\",\"url\":\"/category/qingchun/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/category/game/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/category/kehuanlingyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"耽美同人\",\"url\":\"/category/danmei/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女尊王朝\",\"url\":\"/category/nvzun/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"/category/other/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1685277455400,
+        "respondTime": 5657,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.pt-pop@p@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完，请点击下一页继续阅读.*|下载看最新内容[\\s\\S]+",
+            "title": ""
+        },
+        "ruleExplore": {
+            "author": ".color5@text##\\s*\\[|\\]\\s*",
+            "bookList": ".pt-popular-cont .pt-popular-item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".compulsory-row@text",
+            "kind": ".pt-popular-label@text",
+            "name": ".size16@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".color5@text##\\s*\\[|\\]\\s*",
+            "bookList": "//div[@class=\"pt-recomment-cont\"]",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": ".compulsory-row@text",
+            "kind": ".pt-recomment-label@text",
+            "name": ".size16@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list a",
+            "chapterName": "title",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/result.html?searchkey={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

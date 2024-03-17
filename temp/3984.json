@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "天天书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ttshu8.com",
+        "bookUrlPattern": "https?://m.ttshu8.com/\\w+/\\d+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/type/<,{{page}}/>\n玄幻魔法::/sort/1/<,{{page}}/>\n武侠修真::/sort/2/<,{{page}}/>\n都市言情::/sort/3/<,{{page}}/>\n历史军事::/sort/4/<,{{page}}/>\n侦探推理::/sort/5/<,{{page}}/>\n网游动漫::/sort/6/<,{{page}}/>\n科幻小说::/sort/7/<,{{page}}/>\n恐怖灵异::/sort/8/<,{{page}}/>\n散文诗词::/sort/9/<,{{page}}/>\n其他类型::/sort/10/<,{{page}}/>",
+        "header": "{\"referer\": \"{{source.getKey()}}\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693651970288,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author@text",
+            "coverUrl": ".detail img@src",
+            "downloadUrls": "text.TXT下载@href",
+            "intro": ".intro p.0@text",
+            "kind": ".detail a.1@text&&.detail span.0@text&&.detail p.-1@text",
+            "lastChapter": ".detail a.-1@text",
+            "name": ".name@text",
+            "tocUrl": ".now a@href",
+            "wordCount": ".detail span.1@text"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##喜欢.+收藏.*更新速度最快。"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".list li",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "p.-2@text",
+            "kind": "span@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".read li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

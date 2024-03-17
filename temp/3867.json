@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "搜索间隔10秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "精品小说123",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://jpxs123.cc",
+        "bookUrlPattern": "https?://jpxs123.cc/\\w+/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "精品小说::/book/<,index_{{page}}.html>\n都市小说::/dsxs/<,index_{{page}}.html>\n玄幻修真::/xuanhuan/<,index_{{page}}.html>\n历史军事::/lishi/<,index_{{page}}.html>\n科幻竞技::/khjj/<,index_{{page}}.html>\n穿越架空::/cyjk/<,index_{{page}}.html>\n鬼话悬疑::/guihua/<,index_{{page}}.html>\n同人小说::/tongren/<,index_{{page}}.html>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691653532044,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "a.0@text",
+            "canReName": "",
+            "coverUrl": ".pic img@src",
+            "downloadUrls": "text.txt下载@href",
+            "init": ".book_info",
+            "intro": "p.-1@text##简介：",
+            "kind": "span.1@text##时间：",
+            "name": "h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": ".read_chapterDetail@html"
+        },
+        "ruleExplore": {
+            "author": ".booknews@textNodes",
+            "bookList": ".bk",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "label@text",
+            "name": "h3@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".booknews@textNodes",
+            "bookList": ".bk",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p@text##简介：",
+            "kind": ".date@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul[class=clearfix]@li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\n(()=>{\n  if(page==1){\n    let url=source.getKey()+'/e/search/indexsearch.php,'+JSON.stringify({\n  \"body\": \"keyboard=\"+key+\"&show=title&classid=0\",\n  \"charset\": \"GB2312\",\n  \"method\": \"POST\"\n});\n    return java.put('surl',String(java.connect(url).raw().request().url()));\n  } else {\n    return java.get('surl').replace(/result.+searchid/,`result/index.php?page=${page-1==0?\"\":page}&searchid`)\n  }\n})()",
+        "weight": 0
+    }
+]

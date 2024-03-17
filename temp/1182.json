@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceUrl": "http://m.shucw.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "书城网",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "疯狂的蜗牛",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://m.shucw.com/s.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}&t=articlename\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1625927608267,
+        "ruleSearch": {
+            "bookList": "class.hot_sale %%class.hot_sale hot_saleEm",
+            "name": "class.title@text",
+            "author": "class.author.0@text",
+            "lastChapter": "class.author.1@text",
+            "bookUrl": "@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.title@text",
+            "author": "class.author@text##作者：",
+            "kind": "class.sort@text##类别：",
+            "lastChapter": "class.directoryArea@tag.p.0@text",
+            "intro": "class.review@text",
+            "coverUrl": "class.synopsisArea_detail@tag,img@src",
+            "tocUrl": "class.recommend@text.查看完整目录@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.directoryArea@tag.p!0",
+            "chapterName": "@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "class.Readarea ReadAjax_content@html",
+            "nextContentUrl": "class.Readpage_down js_page_down@text.下一页@href",
+            "replaceRegex": "##各种看片神器，破解软件，关注微信公众号：极客箱子。\n　　『加入书签，方便阅读』，『催更报错』"
+        }
+    }
+]

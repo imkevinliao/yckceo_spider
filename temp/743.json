@@ -1,0 +1,28 @@
+[
+    {
+        "bookSourceGroup": "saberyz修复",
+        "bookSourceName": "♠ 请看书",
+        "bookSourceUrl": "https://www.jlxsw.com",
+        "enable": true,
+        "ruleBookAuthor": "id.info@tag.p.2@text##作 者：",
+        "ruleBookContent": "id.content@html##http.*html|天才一秒记住.*cc|喜欢.*更新速度最快。",
+        "ruleBookKind": "id.info@tag.p.0@text&&\nid.info@tag.p.1@text&&\nid.info@tag.p.5@text##最后更新：|状 态：|分类：",
+        "ruleBookLastChapter": "id.info@tag.p.4@tag.a@text",
+        "ruleBookName": "id.info@h1@text",
+        "ruleChapterList": "class.listmain@dd",
+        "ruleChapterName": "tag.a@text",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "id.fmimg@img@src",
+        "ruleIntroduce": "id.intro@tag.p.0@text",
+        "ruleSearchAuthor": "class.author@text##作者：",
+        "ruleSearchCoverUrl": "class.bookimg@img@src",
+        "ruleSearchKind": "class.cat@text##分类：",
+        "ruleSearchLastChapter": "class.update@tag.a@text",
+        "ruleSearchList": "class.bookbox@class.p10",
+        "ruleSearchName": "class.bookname@tag.a@text",
+        "ruleSearchNoteUrl": "class.bookname@tag.a@href",
+        "ruleSearchUrl": "http://www.biquju.com/sodushuge.php?ie=gbk&q=searchKey",
+        "serialNumber": 10011,
+        "weight": 0
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☆☆☆☆☆",
+        "bookSourceName": "☆肉肉屋☆",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.rourouwu.info/",
+        "bookUrlPattern": "https://www.po18.tw/",
+        "customOrder": 6,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"◎    分类    ◎\",\"url\":\"\",\"style\":{layout_flexGrow: 1,layout_flexBasisPercent:1}},\n{\"title\":\"玄幻\",\"url\":\"/list/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"武侠\",\"url\":\"/list/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"穿越\",\"url\":\"/list/4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市\",\"url\":\"/list/5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻\",\"url\":\"/list/6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"网游\",\"url\":\"/list/7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"耽美\",\"url\":\"/list/9/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"校园\",\"url\":\"/list/10/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"恐怖\",\"url\":\"/list/8/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他\",\"url\":\"/list/16/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"◎    排行榜    ◎\",\"url\":\"\",\"style\":{layout_flexGrow: 1,layout_flexBasisPercent:1}},\n{\"title\":\"点击总榜\",\"url\":\"/top/allvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"推荐总榜\",\"url\":\"/top/allvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"点击月榜\",\"url\":\"/top/monthvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"推荐月榜\",\"url\":\"/top/monthvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周排行榜\",\"url\":\"/top/weekvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周推荐榜\",\"url\":\"/top/weekvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总收藏榜\",\"url\":\"/top/goodnum/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"本站推荐\",\"url\":\"/top/toptime/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"字数排行\",\"url\":\"/top/size/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完本小说\",\"url\":\"/wanben/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最近更新\",\"url\":\"/top/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最新入库\",\"url\":\"/top/postdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1656651348431,
+        "loginUrl": "",
+        "respondTime": 10423,
+        "ruleBookInfo": {
+            "author": "class.red.0@text",
+            "init": "",
+            "intro": "",
+            "kind": "class.red.-1@text",
+            "lastChapter": "tag.p.1@text##最新章节：|\\（|\\）",
+            "name": "h1@text",
+            "tocUrl": "",
+            "wordCount": "class.blue.0@text"
+        },
+        "ruleContent": {
+            "content": "class.panel-body@textNodes",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "class.text-muted.-1@text||class.list-group-item@tag.small@text",
+            "bookList": "class.table@tag.tr!0||class.list-group-item",
+            "bookUrl": "tag.a.0@href",
+            "kind": "tag.td.-1@text",
+            "lastChapter": "class.text-muted.0@text",
+            "name": "tag.a.0@text",
+            "wordCount": "class.hidden-xs.-1@text"
+        },
+        "ruleSearch": {
+            "author": "tag.li.2@text",
+            "bookList": "class.mySearch@tag.ul!-1",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "intro": "class.intro@text",
+            "kind": "tag.li.-1@text##状态：",
+            "lastChapter": "class.chapter@text",
+            "name": "tag.a.0@text",
+            "wordCount": "tag.li.3@text##大小："
+        },
+        "ruleToc": {
+            "chapterList": "class.panel-body panel-chapterlist@class.col-md-3",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "",
+            "updateTime": "class.visible-xs@text##更新时间："
+        },
+        "searchUrl": "https://www.rourouwu.info/modules/article/search.php?searchkey={{key}},{\n'charset': 'gbk'}",
+        "weight": 0
+    }
+]

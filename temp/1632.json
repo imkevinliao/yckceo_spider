@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "",
+        "bookSourceName": "给力文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.geilwx.cc",
+        "bookUrlPattern": "https://www.geilwx.cc/book/\\d+/",
+        "customOrder": -2085958217,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::https://www.geilwx.cc/fenlei1/{{page}}.html\n武侠修真::https://www.geilwx.cc/fenlei2/{{page}}.html\n都市言情::https://www.geilwx.cc/fenlei3/{{page}}.html\n历史军事::https://www.geilwx.cc/fenlei4/{{page}}.html\n侦探推理::https://www.geilwx.cc/fenlei5/{{page}}.html\n网游动漫::https://www.geilwx.cc/fenlei6/{{page}}.html\n科幻小说::https://www.geilwx.cc/fenlei7/{{page}}.html\n恐怖灵异::https://www.geilwx.cc/fenlei8/{{page}}.html\n穿越小说::https://www.geilwx.cc/fenlei9/{{page}}.html\n其他类型::https://www.geilwx.cc/fenlei10/{{page}}.html",
+        "lastUpdateTime": 1668224272099,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.small@class.red@text",
+            "coverUrl": "tag.img.1@src",
+            "intro": "id.bookIntro@text",
+            "kind": "class.breadcrumb@tag.li.1@tag.a@text&&class.booktag@tag.span@text",
+            "lastChapter": "class.col-md-10@tag.a.3@text",
+            "name": "class.bookTitle@text##\\s*\\/.*"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@textNodes##给力文学.*更新|最新章节！",
+            "nextContentUrl": "id.linkNext@href"
+        },
+        "ruleExplore": {
+            "kind": ""
+        },
+        "ruleSearch": {
+            "author": "tag.td.3@text",
+            "bookList": "class.table@tag.tr!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "tag.td.0@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.col-md-3",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.geilwx.cc/modules/article/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "棋子♟小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.qizi01.com",
+        "bookUrlPattern": "https?://wap.qizi01.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1_{{page}}/\n武侠修真::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n侦探推理::/sort/5_{{page}}/\n网游动漫::/sort/6_{{page}}/\n科幻小说::/sort/7_{{page}}/\n恐怖灵异::/sort/8_{{page}}/\n其他小说::/sort/10_{{page}}/\n全本小说::/full/{{page}}/\n新书入库::/top/postdate_{{page}}/",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"Referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1691898627770,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2 a.1@text",
+            "coverUrl": ".block_img2 img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2 p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2 a.-1@text",
+            "name": ".block_txt2 h2@text",
+            "tocUrl": "text.目录@href##/$##_1/"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"https://www.qizi01.com/files/article/image/style/noimg.jpg\"",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".lie a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "@js:\nvar regex=/第\\d+.(\\d+)页.当前\\d+条.页/;\nvar page=src.match(regex)[1];\nvar url=[];\nfor(var i=2;i<=page;i++){\n\turl.push(baseUrl.replace(/_1/,\"_\"+i));\n\t}\nurl;"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"type=articlename&s={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "梧州中文台",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ztv.la",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1614819208333,
+        "ruleBookInfo": {
+            "coverUrl": "class.novel-cover@tag.img@src",
+            "intro": "class.summary@textNodes",
+            "tocUrl": "class.ft@tag.a@href",
+            "wordCount": "class.info@tag.dd@tag.p.2@text##状态："
+        },
+        "ruleContent": {
+            "content": "id.content@class.text@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "textNodes##　/　",
+            "bookList": "class.book_textList2@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "kind": "tag.i@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search.htm?keyword={{key}}",
+        "weight": 0
+    }
+]

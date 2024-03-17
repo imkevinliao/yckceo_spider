@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceName": "棉花糖",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.mhtxs.la",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1671426973147,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@p.-5@text##作者：",
+            "coverUrl": "img@src",
+            "intro": "class.intro_info@text",
+            "kind": "class.block_txt2@p.-4@text##分类：",
+            "lastChapter": "class.block_txt2@p.-1@text&&class.block_txt2@p.-2@text##最新：|更新：|T.*",
+            "name": "class.block_txt2@h2@text",
+            "tocUrl": "text.查看更多章节@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "id.pt_next@href",
+            "replaceRegex": "##（本章未完，请点击下一页继续阅读）|最新网址.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.block_txt@p.-2@text##作者：",
+            "bookList": "class.block",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": "tag.a.0@href\n<js>java.ajax('https://wap.mhtxs.la'+result)</js>class.intro_info@text##最新章节推荐地址.*",
+            "kind": "class.block_txt@p.-3@text##分类：",
+            "lastChapter": "tag.a.0@href\n<js>java.ajax('https://wap.mhtxs.la'+result)</js>class.block_txt2@p.-1@text&&class.block_txt2@p.-2@text##最新：|更新：|T.*",
+            "name": "class.block_txt@h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://wap.mhtxs.la/search.php,{\n  \"body\": \"searchkey={{key}}&submit=\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

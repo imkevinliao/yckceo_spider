@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "测试",
+        "bookSourceName": "十八书屋---请教下这种既有文字又有图片的正文怎么写，直接html排版错乱了",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shibashuwu.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1674508498456,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "a.b@text",
+            "intro": "p.BGsectionTwo-bottom@text",
+            "kind": ".category@span:nth-of-type(1)@text",
+            "lastChapter": "a.r@text",
+            "name": "p.title@text",
+            "tocUrl": ".BGsectionThree@a.sectionTwo-bottom@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "p@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span:nth-of-type(3)@a@text",
+            "bookList": "class.SHsectionThree-middle@p",
+            "bookUrl": "span:nth-of-type(2)@a@href",
+            "checkKeyWord": "",
+            "kind": "span:nth-of-type(1)@a.g@text",
+            "lastChapter": "",
+            "name": "span:nth-of-type(2)@a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "li",
+            "chapterName": "a.g@text",
+            "chapterUrl": "a.g@href"
+        },
+        "searchUrl": "https://www.shibashuwu.net/search/,{\r\n  \"body\": \"keyword={{key}}\",\r\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

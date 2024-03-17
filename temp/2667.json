@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "第二书包网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.shubaoan.com/",
+        "customOrder": -40,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "日点击榜::https://wap.shubaoan.com/top/dayvisit_1/\n周点击榜::https://wap.shubaoan.com/top/weekvisit_1/\n月点击榜::https://wap.shubaoan.com/top/monthvisit_1/\n总点击榜::https://wap.shubaoan.com/top/allvisit_1/\n总收藏榜::https://wap.shubaoan.com/top/goodnum_1/\n总推荐榜::https://wap.shubaoan.com/top/allvote_1/\n字数排行::https://wap.shubaoan.com/top/size_1/\n",
+        "lastUpdateTime": 1606635284908,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "intro": ".intro_info@text",
+            "lastChapter": ".block_txt2@tag.p.5@text",
+            "tocUrl": "class.ablum_read@tag.span.1@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "id.pb_next@href"
+        },
+        "ruleExplore": {
+            "author": "class.line@tag.a.2@text",
+            "bookList": "class.line",
+            "bookUrl": "class.line@tag.a.1@href",
+            "kind": "class.line@tag.a.0@text",
+            "name": "class.blue@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": ".line",
+            "bookUrl": "class.line@tag.a.1@href",
+            "coverUrl": "",
+            "kind": "tag.a.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "tag.li@tag.a@text",
+            "chapterUrl": "tag.li@tag.a@href",
+            "nextTocUrl": "text.下一页@href||text.下页.href"
+        },
+        "searchUrl": "s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

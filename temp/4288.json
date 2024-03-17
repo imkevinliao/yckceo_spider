@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceName": "爱奇电子书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.i7txt.cc/",
+        "customOrder": 5,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1697618277622,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info_t4@text",
+            "coverUrl": "class.info_novel_img@tag.a@img@src",
+            "init": "",
+            "intro": "class.info_intro@text",
+            "kind": "class.info_t3@text&&class.info_t2@text&&class.info_t5@text",
+            "lastChapter": "class.info_t6@text",
+            "name": "class.info_t1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes##",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\n.*本章.*\\n第.*章.*第.*页.*\\n\\s\\s|.第1/.页."
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@tag.a@text",
+            "bookList": "class.sone",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "一人之下",
+            "coverUrl": "tag.a@href##(.*)book/(.*)([1-9]{3,3})/##http://www.i7txt.cc/files/article/image/$2/$2$3/$2$3s.jpg####",
+            "kind": "",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.ul.1@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/s.php?search_key={{key}}",
+        "weight": 0
+    }
+]

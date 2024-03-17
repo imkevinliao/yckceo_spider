@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自己",
+        "bookSourceName": "笔趣阁中文小说[xiaoshuo688]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xiaoshuo688.com/",
+        "customOrder": -88962095,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": " [{\"title\": \"男生\",\"url\": \"\",\"style\": {\"layout_flexBasisPercent\":1,\"layout_flexGrow\":0}},\n{\"title\": \"玄幻\",\"url\": \"https://www.xiaoshuo688.com/category/xuanhuan/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\": \"奇幻\",\"url\": \"https://www.xiaoshuo688.com/category/qihuan/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\": \"武侠\",\"url\": \"https://www.xiaoshuo688.com/category/wuxia/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\": \"仙侠\",\"url\": \"https://www.xiaoshuo688.com/category/xianxia/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\": \"都市\",\"url\": \"https://www.xiaoshuo688.com/category/dushi/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\": \"历史\",\"url\": \"https://www.xiaoshuo688.com/category/lishi/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"军事\",\"url\": \"https://www.xiaoshuo688.com/category/junshi/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"游戏\",\"url\": \"https://www.xiaoshuo688.com/category/youxi/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\": \"竞技\",\"url\": \"https://www.xiaoshuo688.com/category/jingji/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\": \"科幻\",\"url\": \"https://www.xiaoshuo688.com/category/kehuan/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\": \"灵异\",\"url\": \"https://www.xiaoshuo688.com/category/lingyi/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n {\"title\": \"其他\",\"url\": \"https://www.xiaoshuo688.com/category/qita/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n {\"title\": \"女生\",\"url\": \"\",\"style\": {\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\r\n{\"title\": \"总裁\",\"url\": \"https://www.xiaoshuo688.com/category/zongcai/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"穿越\",\"url\": \"https://www.xiaoshuo688.com/category/chongsheng/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"古典\",\"url\": \"https://www.xiaoshuo688.com/category/gudian/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"宫斗\",\"url\": \"https://www.xiaoshuo688.com/category/gongdou/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"都市\",\"url\": \"https://www.xiaoshuo688.com/category/dushi/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"仙侠\",\"url\": \"https://www.xiaoshuo688.com/category/xianxiaxuanhuan/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"青春\",\"url\": \"https://www.xiaoshuo688.com/category/qingchun/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"游戏\",\"url\": \"https://www.xiaoshuo688.com/category/game/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"科幻\",\"url\": \"https://www.xiaoshuo688.com/category/kehuanlingyi/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"耽美\",\"url\": \"https://www.xiaoshuo688.com/category/danmei/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"女尊\",\"url\": \"https://www.xiaoshuo688.com/category/nvzun/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"其他\",\"url\": \"https://www.xiaoshuo688.com/category/other/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\r\n{\"title\": \"完本小说\",\"url\": \"https://www.xiaoshuo688.com/over/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\r\n{\"title\": \"站内榜单\",\"url\": \"\",\"style\": {\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\r\n{\"title\": \"总点击\",\"url\": \"https://www.xiaoshuo688.com/rank/allvisit/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\r\n{\"title\": \"月点击\",\"url\": \"https://www.xiaoshuo688.com/rank/monthvisit/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\r\n{\"title\": \"周点击\",\"url\": \"https://www.xiaoshuo688.com/rank/weekvisit/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\r\n{\"title\": \"日点击\",\"url\": \"https://www.xiaoshuo688.com/rank/dayvisit/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\r\n{\"title\": \"推荐数\",\"url\": \"https://www.xiaoshuo688.com/rank/vote/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\r\n{\"title\": \"收藏数\",\"url\": \"https://www.xiaoshuo688.com/rank/mark/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\r\n{\"title\": \"下载数\",\"url\": \"https://www.xiaoshuo688.com/rank/down/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\r\n{\"title\": \"评论数\",\"url\": \"https://www.xiaoshuo688.com/rank/comment/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\r\n{\"title\": \"评    分\",\"url\": \"https://www.xiaoshuo688.com/rank/star_score/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\r\n{\"title\": \"入库时间\",\"url\": \"https://www.xiaoshuo688.com/rank/postdate/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}}\r\n\n]",
+        "lastUpdateTime": 1648752685748,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "kind": "class.pt-bookdetail-label mt10@text"
+        },
+        "ruleContent": {
+            "content": "class.size16 color5 pt-read-text@p@textNodes",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "class.pt-rank-detail@class.mr30@span@text||class.fl compulsory-row-one pt-sortdetail-item4@text",
+            "bookList": "class.color7 pt-sortdetail-title||class.pt-rank-detail",
+            "bookUrl": "class.pt-rank-detail@a@href||class.fl compulsory-row-one pt-sortdetail-item2@a@href",
+            "coverUrl": "class.pt-featured-list clearfix@tag.li@img@src||class.pt-rank-detail@img@src",
+            "intro": "class.pt-rank-detail&&class.fl pt-rank-detail-middle&&class.compulsory-row fl w100 color5 desc@text",
+            "kind": "",
+            "name": "class.color7 pt-sortdetail-title@tag.span.1@tag.a@text||class.pt-rank-detail@tag.a.1@text##txt下载|TXT下载|txt"
+        },
+        "ruleSearch": {
+            "author": "class.fl color7@a.0@text",
+            "bookList": "class.pt-rank-detail",
+            "bookUrl": "class.pt-rank-detail@a@href",
+            "coverUrl": "class.pt-rank-detail@img@src",
+            "intro": "class.compulsory-row fl w100 color5 desc@html",
+            "lastChapter": "class.fl lh100@a@text",
+            "name": "class.pt-rank-detail@tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.pt-chapter-cont-detail full@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.xiaoshuo688.com/search/result.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

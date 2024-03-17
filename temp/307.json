@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "雪痕伤",
+        "bookSourceName": "无极小说-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://ajnnan.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/1_{{page}}.html\n修真小说::/xiuzhenxiaoshuo/2_{{page}}.html\n都市小说::/dushixiaoshuo/3_{{page}}.html\n穿越小说::/chuanyuexiaoshuo/4_{{page}}.html\n网游小说::/wangyouxiaoshuo/5_{{page}}.html\n科幻小说::/kehuanxiaoshuo/6_{{page}}.html\n其它小说::/qitaxiaoshuo/7_{{page}}.html",
+        "lastUpdateTime": 1654017956420,
+        "respondTime": 3558,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "id.intro@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "ruleExplore": {
+            "author": "class.s4@a@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.s4@a@text",
+            "bookList": "class.novelslist2@li!0",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search.html?name={{key}}",
+        "weight": 0
+    }
+]

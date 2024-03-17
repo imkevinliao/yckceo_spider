@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "尽量搜全名",
+        "bookSourceGroup": "自,📖小说",
+        "bookSourceName": "📝三千五",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.cn3k5.com",
+        "bookUrlPattern": "https://m.cn3k5.com/info-\\d+/",
+        "customOrder": 38,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "header": "",
+        "lastUpdateTime": 1675951176889,
+        "respondTime": 7015,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p.2@text##作者：",
+            "canReName": "",
+            "coverUrl": "class.block_img2@img@src",
+            "intro": "class.intro_info@textNodes",
+            "kind": ".block_txt2@tag.p.-4:-3:-2@text##.*：",
+            "lastChapter": "class.block_txt2@tag.p.-1:-2@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "class.block_txt2@tag.h2@tag.a@text",
+            "tocUrl": "class.ablum_read@tag.a.1@href"
+        },
+        "ruleContent": {
+            "content": "id.nr@html##(紧急通知：)*\\n*为您提供.*请务必保存好书签.*|最快更新.*最新.*|『章节有误.*』|\\(本章未完.*下一.*\\)|.*免费阅读：.*更新不易请收藏！|紧急通知.*启用新地址.*com|{{book.name}}|{{title}}|第[零一二两三四五六七八九十百千万\\d+ ]+章.*|你是天才，一秒记住：.*cn3k5.*com",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.line",
+            "bookUrl": "tag.a.1@href",
+            "checkKeyWord": "我的马甲",
+            "kind": "tag.a.0@text##\\[|\\]",
+            "lastChapter": "tag.a.1@href<js>java.ajax('https://m.cn3k5.com'+result)</js>class.block_txt2@tag.p.-1:-2@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/modules/article/waps.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 'searchtype=articlename&searchkey={{key}}&submit='\n}",
+        "weight": 0
+    }
+]

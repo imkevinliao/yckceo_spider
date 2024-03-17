@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "20230906修复发现By_zhbyjm7783",
+        "bookSourceGroup": "自写修复0909",
+        "bookSourceName": "顶点小说[修复][慢]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.23uswx.org/",
+        "bookUrlPattern": "https://www.23uswx.com/\\d+_\\d+/",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"http://www.23uswx.org/xuanhuanxiaoshuo/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"修真小说\",\"url\":\"http://www.23uswx.org/xiuzhenxiaoshuo/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"都市小说\",\"url\":\"http://www.23uswx.org/dushixiaoshuo/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"穿越小说\",\"url\":\"http://www.23uswx.org/chuanyuexiaoshuo/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"网游小说\",\"url\":\"http://www.23uswx.org/wangyouxiaoshuo/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"科幻小说\",\"url\":\"http://www.23uswx.org/kehuanxiaoshuo/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"完本小说\",\"url\":\"http://www.23uswx.org/wanben/\",\"style\":{\"layout_flexGrow\":0.25}}]",
+        "lastUpdateTime": 1694193181444,
+        "loginUrl": "",
+        "respondTime": 25637,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作    者：",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
+            "lastChapter": "id.info@tag.p.3@a@text",
+            "name": "id.info@tag.h1.0@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+        },
+        "ruleContent": {
+            "content": "id.content@html##最新网址.*org|顶点小说.*org|.*23uswx.net",
+            "nextContentUrl": "",
+            "replaceRegex": "##电报书友加群|看最新章节|@shuyouquan|有梯子的书友|加电报书友圈|电报书友圈搜索|艾特shuyouquan|就可以看到|在网上手打发布"
+        },
+        "ruleExplore": {
+            "author": ".s5@text",
+            "bookList": "ul@li",
+            "bookUrl": ".s2 a@href",
+            "coverUrl": "",
+            "intro": "",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "tag.td.0@tag.a@href",
+            "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.23uswx.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "lastChapter": "tag.td.1@tag.a@text",
+            "name": "tag.td.0@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text##[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.23uswx.org/modules/article/search.php?q={{key}}",
+        "weight": 0
+    }
+]

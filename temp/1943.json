@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "HINOTORI，百度\n感谢叶落岚起大佬的帮助，详情页-允许修改书名作者-true，使详情页书名不被搜索页覆盖。",
+        "bookSourceGroup": "名著，发现优质",
+        "bookSourceName": "📚 西方奇幻小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.westnovel.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/index<,_{{page}}>.html\n悬疑::/xy/index<,_{{page}}>.html\n武侠::/wuxia/index<,_{{page}}>.html\n现代::/xiand/index<,_{{page}}>.html\n影视::/ying/index<,_{{page}}>.html\n耽美::/dm/index<,_{{page}}>.html\n《乌有王子》::/Album/100588.html\n《龙腾世纪》::/Album/100531.html\n《太空堡垒》::/Album/100444.html\n《月球家族》::/Album/99884.html\n《龙枪编年史:失落篇章》::/Album/99783.html\n《圣者五部曲》::/Album/99782.html\n《一人部落系列》::/Album/99007.html\n《五棱镜系列》::/Album/99006.html\n《巨灵三部曲》::/Album/98823.html\n《审判者传奇》::/Album/92345.html\n《清明上河图密码》::/Album/86430.html\n《鬼吹灯》::/Album/60533.html\n《谜踪之国》::/Album/60114.html\n《苗疆三部曲》::/Album/60113.html\n《黄河鬼棺》::/Album/57838.html\n《民调局异闻录》::/Album/57837.html\n《茅山后裔》::/Album/57836.html\n《回忆、悲伤与荆棘》::/Album/24865.html\n《火星崛起》::/Album/24374.html\n《利维坦号战记》::/Album/23978.html\n《探寻者》::/Album/23361.html\n《亚特兰蒂斯》::/Album/22802.html\n《黑松镇》::/Album/22405.html\n《地铁》::/Album/21639.html\n《致命引擎》::/Album/21480.html\n《国家阴谋·复仇天使》::/Album/21272.html\n《分歧者》::/Album/20986.html\n《星际争霸》::/Album/20814.html\n《隐页书城》::/Album/20472.html\n《魔法觉醒(发现女巫)》::/Album/19450.html\n《基地三部曲》::/Album/19449.html\n《非理性时代》::/Album/19448.html\n《质量效应》::/Album/19447.html\n《光晕》::/Album/18911.html\n《光晕》::/Album/18910.html\n《恐龙文明》::/Album/18632.html\n《太空漫游》::/Album/18409.html\n《星球大战》::/Album/18070.html\n《摆渡人》::/Album/16412.html\n《风之影》::/Album/16411.html\n《海伯利安》::/Album/15442.html\n《月族》::/Album/15038.html\n《纸魔法》::/Album/14756.html\n《西岸三部曲》::/Album/14445.html\n《圣杯神器》::/Album/13651.html\n《破碎的星球》::/Album/13575.html\n《古王国传奇》::/Album/13132.html\n《原罪之战》::/Album/13018.html\n《闇黑之劍》::/Album/12087.html\n《龙骑士》::/Album/11642.html\n《御剑士传奇》::/Album/11641.html\n《帝泉系列》::/Album/11482.html\n《格里莎》::/Album/11291.html\n《 魔法活船》::/Album/11218.html\n《绅士盗贼》::/Album/11039.html\n《移动迷宫》::/Album/11038.html\n《守夜人系列》::/Album/10432.html\n《沙娜拉之剑》::/Album/10431.html\n《龙族》::/Album/10430.html\n《吸血鬼王》::/Album/10429.html\n《红血女王》::/Album/9168.html\n《大地传奇系列》::/Album/9167.html\n《术士的指环》::/Album/9166.html\n《荆棘与白骨的王国》::/Album/8481.html\n《空间三部曲》::/Album/8227.html\n《波西·杰克逊奥林匹斯英雄系列》::/Album/8168.html\n《波西杰克逊》::/Album/7930.html\n《黑巫师》::/Album/7929.html\n《异乡人》::/Album/7695.html\n《御谜士三部曲》::/Album/7311.html\n《北境三部曲》::/Album/7310.html\n《灰烬余火》::/Album/7309.html\n《塔龙传奇》::/Album/7020.html\n《安珀志》::/Album/7019.html\n《夜城》::/Album/6740.html\n《迷雾之子》::/Album/6551.html\n《遗落的南境》::/Album/6550.html\n《猎魔人》::/Album/6032.html\n《刺客信条》::/Album/6031.html\n《刺客正传》::/Album/5343.html\n《黑暗之地》::/Album/5342.html\n《时空裂隙之战》::/Album/5341.html\n《南方吸血鬼》::/Album/5168.html\n《饥饿游戏》::/Album/5167.html\n《生化危机》::/Album/5166.html\n《龙族》::/Album/4755.html\n《时光之轮》::/Album/4456.html\n《魔兽官方》::/Album/4359.html\n《吸血鬼》::/Album/3699.html\n《黑质三部曲》::/Album/3698.html\n《暮光之城》::/Album/3697.html\n《吸血鬼日记》::/Album/3696.html\n《遗产三部曲》::/Album/3695.html\n《符文之子》::/Album/3694.html\n《龙船长》::/Album/3693.html\n《龙枪传奇》::/Album/2638.html\n《龙枪编年史》::/Album/2637.html\n《黑暗之路》::/Album/2636.html\n《猎人之刃》::/Album/2635.html\n《牧师》::/Album/2634.html\n《精灵血脉》::/Album/2633.html\n《黑暗精灵》::/Album/2632.html\n《冰风谷》::/Album/2631.html\n《地海》::/Album/2586.html\n《纳尼亚传奇》::/Album/2507.html\n《黑暗塔》::/Album/1032.html\n《美国众神》::/Album/948.html\n《魔戒》::/Album/947.html\n《冰与火之歌》::/Album/876.html",
+        "header": "",
+        "lastUpdateTime": 1619586496640,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.btitle@tag.em.0@text##作者：",
+            "canReName": "true",
+            "coverUrl": "class.img-a.0@tag.img@src||class.img-img@src",
+            "intro": "tag.meta.-1@content||class.intro-p2.2@text",
+            "name": "class.intro-p2.0@text||tag.h1@text",
+            "tocUrl": "class.intro2@a@href||h1@a@href"
+        },
+        "ruleContent": {
+            "content": "id.BookText@html",
+            "replaceRegex": "##.*返回列表.*\\n.*|.*分割线.*"
+        },
+        "ruleExplore": {
+            "bookList": "@css:div.intro2",
+            "bookUrl": "class.img-a@href",
+            "coverUrl": "class.img-img2@src",
+            "intro": "class.intro-p2.-1@text",
+            "name": "@css:span.intro-p2>a@text"
+        },
+        "ruleSearch": {
+            "bookList": "class.t@tag.a",
+            "bookUrl": "href",
+            "coverUrl": "",
+            "intro": "",
+            "name": "text##在线阅读_西方奇幻小说网"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapterlist@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href\n<js>'https://www.westnovel.com'+result</js>"
+        },
+        "searchUrl": "https://www.baidu.com/s?q1={{key}}&q2=&q3=&q4=&rn=10&lm=0&ct=0&ft=&q5=&q6=westnovel.com&tn=baiduadv",
+        "weight": 0
+    }
+]

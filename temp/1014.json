@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "修复最新章节不能看的问题",
+        "bookSourceGroup": "",
+        "bookSourceName": "茄子小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.free-xsw.com",
+        "customOrder": -292832,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/wap_fenlei/1.html\n言情::/wap_fenlei/2.html\n仙侠::/wap_fenlei/3.html\n都市商战::/wap_fenlei/29.html\n传奇::/wap_fenlei/5.html\n科幻::/wap_fenlei/6.html\n历史::/wap_fenlei/15.html\n都市::/wap_fenlei/16.html\n刑侦推理::/wap_fenlei/25.html\n纪实::/wap_fenlei/26.html\n恐怖灵异::/wap_fenlei/27.html\n综合其他::/wap_fenlei/28.html",
+        "lastUpdateTime": 1630674563713,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.autor.0@a@text",
+            "coverUrl": ".book img@src",
+            "intro": "class.desp@text##茄子小说网.*\"。|最新章节内容\\[.*\\]：",
+            "kind": "class.autor.1@a@text",
+            "lastChapter": "class.autor.4@tag.a@text",
+            "name": "class.tit.0@text",
+            "tocUrl": ".m@tag.a.1@href"
+        },
+        "ruleContent": {
+            "content": "class.s@html##茄子小说网.*。|收藏网址.*。|茄子小说.*章节！",
+            "imageStyle": "full",
+            "nextContentUrl": "class.m1@tag.a.2@href##javascript:.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": ".z li",
+            "bookUrl": ".tit a@href",
+            "kind": ".lei@text##\\[|\\]",
+            "name": ".tit a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.z@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "/index.php?do=wap_sea&so=yes&name={{key}}",
+        "weight": 0
+    }
+]

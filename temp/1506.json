@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍁笔趣🍁",
+        "bookSourceName": "🍁笔趣阁手机版",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.ibiqu.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 1673853765241,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@tag.p.1@a@text",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro_info@text",
+            "kind": "@tag.p.2@a@text",
+            "lastChapter": "@p.5@a@text",
+            "name": "class.block_txt2@h2@a@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "class.text.6@html",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "@a.2@text",
+            "bookList": "class.cover@children",
+            "bookUrl": "class.blue@href",
+            "kind": "@a.0@text",
+            "name": "class.line@a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "-class.chapter@li",
+            "chapterName": "@a@text",
+            "chapterUrl": "@a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.ibiqu.net/modules/article/waps.php?keyword={{key}}",
+        "weight": 0
+    }
+]

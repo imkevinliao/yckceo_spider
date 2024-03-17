@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "56听书",
+        "bookSourceType": 1,
+        "bookSourceUrl": "http://www.ting56.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻武侠::http://ting56.com/book/1<,_{{page}}>.html&&都市言情::http://ting56.com/book/2<,_{{page}}>.html&&恐怖悬疑::http://ting56.com/book/3<,_{{page}}.html&&综艺娱乐::http://ting56.com/book/45<,_{{page}}>.html&&网游竞技::http://ting56.com/book/4<,_{{page}}>.html&&军事历史::http://ting56.com/book/6<,_{{page}}>.html&&刑侦推理::http://ting56.com/book/41<,_{{page}}>.html&&职场商战::http://ting56.com/book/7<,_{{page}}>.html&&百家讲坛::http://ting56.com/book/10<,_{{page}}>.html&&3D体验::http://ting56.com/book/47<,_{{page}}>.html&&经典评书::http://ting56.com/book/9<,_{{page}}>.html&&广播剧::http://ting56.com/book/40<,_{{page}}>.html&&幽默笑话::http://ting56.com/book/44<,_{{page}}>.html&&\n儿童读物::http://ting56.com/book/11<,_{{page}}>.html&&相声郭德纲::http://ting56.com/book/43<,_{{page}}>.html&&",
+        "lastUpdateTime": 1606540595858,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "<js>result</js>",
+            "sourceRegex": ".*?(mp3|m4a).*"
+        },
+        "ruleExplore": {
+            "author": ".zz@text&&.by@text",
+            "bookList": "class.book||class.left@ul@li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@original||img@src",
+            "intro": ".js@text",
+            "kind": ".lx@text##类型：",
+            "lastChapter": ".zt@text##状态：",
+            "name": "tag.a.1@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.dd.1@text",
+            "bookList": "class.xiaoshuo@ul@li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@src",
+            "intro": "tag.dd.0@text",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.span.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.vlink_1@a||class.l@a",
+            "chapterName": "text",
+            "chapterUrl": "href@js:result+',{\"webView\":true}'"
+        },
+        "searchUrl": "http://ting56.com/search.asp,{\n\"charset\": \"gb2312\",\n\"method\": \"POST\",\n\"body\": \"searchword={{key}}\",\n\"headers\": {\"User-Agent\": \"\"}\n}",
+        "weight": 0
+    }
+]

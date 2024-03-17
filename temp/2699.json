@@ -1,0 +1,68 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "🌼30书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.30sy.com",
+        "bookUrlPattern": "",
+        "customOrder": 698,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.novelinfo-l@tag.a.0@text",
+            "coverUrl": "",
+            "init": "",
+            "intro": "class.novelintro@text##各位书友要是觉得(.*|\\n)",
+            "kind": "class.novelinfo-l@tag.a.1@text",
+            "lastChapter": "class.novelinfo-l@tag.a.2@text",
+            "name": "h1@text",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nvar sid= result.match(/siteid:'(.*)'/)[1];\nvar url = result.match(/url:'(.*)'/)[1];\nvar option = JSON.stringify({\"method\":\"POST\",\"body\":\"siteid=\"+sid+\"&url=\"+url})\norg.jsoup.Jsoup.parse(java.ajax('https://www.30sy.com/novelsearch/chapter/transcode.html,'+ option))\n</js>\nclass.success@textNodes##手机版网址.*|.*第.*章(.*！|\\n)|.*\\(\\)\\;",
+            "imageStyle": "0",
+            "nextContentUrl": "",
+            "replaceRegex": "##作者有话要说(.|\\n)*",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.info@tag.span.1@a@text",
+            "bookList": ".librarylist li",
+            "bookUrl": "class.pt-ll-l@a@href",
+            "coverUrl": "class.pt-ll-l@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.info@tag.span.2@a@text",
+            "lastChapter": "class.last@text##最新章节：|(正文)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*[】）\\)]",
+            "name": "class.info@tag.span.0@a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.dirlist@li@a",
+            "chapterName": "text##(正文)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*[】）\\)]",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/search.html?searchtype=novelname&searchkey={{key}}",
+        "weight": 0
+    }
+]

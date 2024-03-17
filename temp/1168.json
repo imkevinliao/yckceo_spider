@@ -1,0 +1,20 @@
+[
+    {
+        "bookSourceGroup": "❄️",
+        "bookSourceName": "二书包杂",
+        "bookSourceUrl": "https://www.bookbao2.net",
+        "enable": false,
+        "ruleBookContent": "id.content@html",
+        "ruleChapterList": "dl@dd",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "a@href",
+        "ruleSearchAuthor": "tag.td.2@text|tag.p.0@text",
+        "ruleSearchLastChapter": "tag.td.1@text",
+        "ruleSearchList": "id.nr|class.box_con",
+        "ruleSearchName": "tag.td.0@text|h1@text",
+        "ruleSearchNoteUrl": "tag.td.0@a@href",
+        "ruleSearchUrl": "https://www.bookbao2.net/modules/article/search.php?searchkey=searchKey&page=searchPage|char=gbk",
+        "serialNumber": 2,
+        "weight": 0
+    }
+]

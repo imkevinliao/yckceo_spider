@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "https://www.Torrent",
+        "bookSourceGroup": "Torrent",
+        "bookSourceName": "古风漫画",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.gufengmh9.com",
+        "customOrder": -3535,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "排行榜::https://m.gufengmh9.com/rank/\n今日更新::https://m.gufengmh9.com/update/{{page}}/\n日本漫画::https://m.gufengmh9.com/list/ribenmanhua/{{page}}/\n国产漫画::https://m.gufengmh9.com/list/guochanmanhua/{{page}}/\n港台漫画::https://m.gufengmh9.com/list/gangtaimanhua/{{page}}/\n欧美漫画::https://m.gufengmh9.com/list/oumeimanhua/{{page}}/\n韩国漫画::https://m.gufengmh9.com/list/hanguomanhua/{{page}}/\n少年漫画::https://m.gufengmh9.com/list/shaonian/{{page}}/\n少女漫画::https://m.gufengmh9.com/list/shaonv/{{page}}/\n青年漫画::https://m.gufengmh9.com/list/qingnian/{{page}}/\n真人漫画::https://m.gufengmh9.com/list/zhenrenmanhua/{{page}}/",
+        "lastUpdateTime": 1642693125399,
+        "respondTime": 3448,
+        "ruleBookInfo": {
+            "author": "tag.dd.1@text",
+            "coverUrl": "tag.mip-img@src",
+            "intro": "class.txtDesc autoHeight@text",
+            "kind": "tag.dd.2@text",
+            "lastChapter": "class.coll@text",
+            "name": "tag.h1@class.title@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "@js:\nvar options={\"headers\":{\"Referer\":baseUrl}};\n(function getImgList() {\neval(result.match(/chapterImages\\s*=\\s*[^;]*/)[0])\neval(result.match(/chapterPath\\s*=\\s*[^;]*/)[0])\nreturn chapterImages;\r\n}()).map(uri=>\n'<img src=\"'+'https://res.xiaoqinre.com/'+chapterPath+uri+\",\"+JSON.stringify(options)+'\"/>').join(\"\\n\")",
+            "imageStyle": "FULL",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "tag.p@class.txtItme@textNodes",
+            "bookList": "class.itemBox",
+            "bookUrl": "class.title@tag.a@href",
+            "checkKeyWord": "斗罗",
+            "coverUrl": "tag.mip-img@src",
+            "intro": "",
+            "kind": "class.pd@text",
+            "lastChapter": "class.coll@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.Drama autoHeight@tag.a",
+            "chapterName": "tag.a@span.0@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.gufengmh9.com/search/?keywords={{key}}",
+        "weight": 0
+    }
+]

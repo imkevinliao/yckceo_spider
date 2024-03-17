@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "作者：旅途",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "一纸阅读（能看的不多）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yizhiyc.com/search/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1679149666678,
+        "loginUrl": "https://www.yizhiyc.com/login",
+        "respondTime": 6436,
+        "ruleBookInfo": {
+            "init": "",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.rxx-badge-item@html##\\d+(\\n)##$1",
+            "replaceRegex": "",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": "class.search-list-item",
+            "bookUrl": "class.book-info@tag.a@href##$##,{\"webView\": true}",
+            "checkKeyWord": "我的",
+            "coverUrl": "img@src",
+            "intro": "class.book-intro overLine2@text##简介：",
+            "kind": "p.2@text##类别：",
+            "name": "p.0@text",
+            "wordCount": "p.4@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "class.collapse-item-link txt-overflow",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.yizhiyc.com/search/{{key}}/{{page}}##$##,{\"webView\": true}",
+        "weight": 0
+    }
+]

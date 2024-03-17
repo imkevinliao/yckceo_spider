@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "18,wokul",
+        "bookSourceName": "耽美r文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://danmeirouwen.com/",
+        "customOrder": -228562,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "np::/tag/17/p_{{page}}.html\n温馨::/tag/16/p_{{page}}.html\n快穿::/tag/1/p_{{page}}.html\n父子::/tag/18/p_{{page}}.html\n兄弟::/tag/19/p_{{page}}.html\n萌文::/tag/20/p_{{page}}.html\nbe::/tag/21/p_{{page}}.html\n末世::/tag/22/p_{{page}}.html\n人鱼::/tag/23/p_{{page}}.html\n师生::/tag/24/p_{{page}}.html\n网友::/tag/25/p_{{page}}.html\n娱乐圈::/tag/26/p_{{page}}.html\n高干::/tag/27/p_{{page}}.html\n金手指::/tag/28/p_{{page}}.html\n反攻::/tag/29/p_{{page}}.html\n诱受::/tag/30/p_{{page}}.html\n种田::/tag/31/p_{{page}}.html\nsm::/tag/32/p_{{page}}.html\n调教::/tag/33/p_{{page}}.html\n1v1::/tag/34/p_{{page}}.html\npovip::/tah/35/p_{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\",   \"Accept-Language\":\"zh-CN,zh;q=0.9\"}",
+        "lastUpdateTime": 1633500040557,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.infotype@tag.a.0@text",
+            "intro": "class.intro@tag.p.0@text",
+            "kind": "class.infotype@tag.p.1@text",
+            "lastChapter": "class.infotype@tag.p.3@a@text",
+            "name": "h3@texr",
+            "tocUrl": "class.infolink@tag.li.1@a@href"
+        },
+        "ruleContent": {
+            "content": "id.articlecontent",
+            "nextContentUrl": "id.novelbutton@tag.a.-1"
+        },
+        "ruleExplore": {
+            "author": "class.list_author@text",
+            "bookList": "id.list_ul@li",
+            "bookUrl": "tag.a.1@href",
+            "kind": "tag.a.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "class.chapters@li",
+            "chapterName": "text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "weight": 0
+    }
+]

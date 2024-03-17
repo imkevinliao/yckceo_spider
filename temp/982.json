@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "腐小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https:/www.xpsale.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1631780481616,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.novelinfo-l@a.0@text",
+            "coverUrl": "img.1@src",
+            "intro": "class.body novelintro@text",
+            "kind": "class.novelinfo-l@a.1@text&&class.novelinfo-l@li.6@text##更新：",
+            "lastChapter": "class.novelinfo-l@a.-1@text",
+            "name": "class.header line.0@text",
+            "tocUrl": "class.btn btn-info@href"
+        },
+        "ruleContent": {
+            "content": "class.content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.info@a.1@text",
+            "bookList": "class.librarylist@tag.li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.info@a.2@text",
+            "lastChapter": "class.last@a@text",
+            "name": "class.info@a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "-class.chapterlist@li",
+            "chapterName": "a.0@text",
+            "chapterUrl": "a.0@href",
+            "nextTocUrl": "class.next number@href"
+        },
+        "searchUrl": "https://www.xpsale.net/search.html?searchtype=novelname&searchkey={{key}}",
+        "weight": 0
+    }
+]

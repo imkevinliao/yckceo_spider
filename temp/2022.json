@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "A级",
+        "bookSourceName": "新墨坛文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.22mta.cc",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618765058100,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.book_cover fl@tag.img.@src",
+            "intro": "class.info_con@tag.p@text"
+        },
+        "ruleContent": {
+            "content": "id.chapterContent@tag.p@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.rela@tag.a.0@text",
+            "bookList": "class.search_text",
+            "bookUrl": "tag.a@href",
+            "intro": "class.j_info@text",
+            "name": "class.search_text@tag.h2@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.booklist tomeBean@tag.td",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.22mta.cc/s.php?q={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

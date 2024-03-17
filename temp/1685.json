@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "@🍉\n旧https://www.axxsw.com",
+        "bookSourceGroup": "自制",
+        "bookSourceName": "傲轩小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.axxsw.net",
+        "bookUrlPattern": "",
+        "customOrder": -264,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1666072604233,
+        "loginUrl": "",
+        "respondTime": 33164,
+        "ruleBookInfo": {
+            "intro": "",
+            "kind": "meta[property$=category]@content",
+            "lastChapter": "meta[property$=r_name]@content&&meta[property$=time]@content",
+            "wordCount": "meta[property$=status]@content"
+        },
+        "ruleContent": {
+            "content": "id.txt@html||class.word_read@p@html",
+            "imageStyle": "",
+            "nextContentUrl": "text.下章@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".sort_list@li||class.txt-list@li",
+            "bookUrl": ".s2@a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": ".s1@text",
+            "lastChapter": ".s4@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "a[href~=/book/\\d+/\\d]",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\"charset\":\"utf-8\",\"method\":\"post\",\"body\":\"s={{key}}\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\",\"Referer\":\"https://www.axxsw.net\"},\"webView\":true}",
+        "weight": 0
+    }
+]

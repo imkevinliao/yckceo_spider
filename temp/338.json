@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉 精选",
+        "bookSourceName": "🎉 UU看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.uuks.org",
+        "customOrder": -160970,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"奇魔玄幻\",\"url\":\"/list1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真小说\",\"url\":\"/list2/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市小说\",\"url\":\"/list3/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越小说\",\"url\":\"/list4/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游小说\",\"url\":\"/list5/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"/list6/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"次元小说\",\"url\":\"/list7/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"综合言情\",\"url\":\"/list8/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"浪漫青春\",\"url\":\"/list9/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1652633935416,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".book-info dd.0@text",
+            "coverUrl": ".pic img@src",
+            "init": "",
+            "intro": ".desc@html",
+            "kind": ".book-info dd.3:1:2@text##.*：|\\s.*",
+            "lastChapter": ".ml-list a.0@text",
+            "name": ".bookname@text",
+            "tocUrl": ".sametitle@a@href"
+        },
+        "ruleContent": {
+            "content": "#bookContent@html",
+            "replaceRegex": "##[（\\(]未完待续[）\\)]|yqxsw.org"
+        },
+        "ruleExplore": {
+            "author": "p.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.2@text",
+            "name": "p.0@text"
+        },
+        "ruleSearch": {
+            "author": "dd.0@text##作者.|\\s\\|.*",
+            "bookList": ".search-list dl",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\n'https://m.uuks.org/img/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "dd.0@text&&dd.1@textNodes##.*\\|\\s",
+            "lastChapter": "a.1@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".ml-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n\t\"method\":\"POST\",\n\t\"body\":\"keyword={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

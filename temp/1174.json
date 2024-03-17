@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "顶点小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.23wx.io/",
+        "bookUrlPattern": "http://www.23wx.io/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "1.玄幻小说::/fenlei1/{{page}}.html&& 2.修真小说::/fenlei2/{{page}}.html&& 3.都市小说::/fenlei3/{{page}}.html&& 4.历史小说::/fenlei4/{{page}}.html&& 5.网游小说::/fenlei5/{{page}}.html&& 6.科幻小说::/fenlei6/{{page}}.html&& 7.恐怖小说::/fenlei7/{{page}}.html&& 8.其他小说::/fenlei8/{{page}}.html&&1.总排行榜::/topallvisit/{{page}}.html&& 2.月排行榜::/topmonthvisit/{{page}}.html&& 3.周排行榜::/topweekvisit/{{page}}.html&& 4.总推荐榜::/topallvote/{{page}}.html&& 5.月推荐榜::/topmonthvote/{{page}}.html&& 6.周推荐榜::/topweekvote/{{page}}.html&& 7.本站推荐::/toptoptime/{{page}}.html&& 8.收藏排行::/topgoodnum/{{page}}.html&& 9.字数排行::/topsize/{{page}}.html&& 10.最近更新::/toplastupdate/{{page}}.html&& 11.最新小说::/toppostdate/{{page}}.html&&完本::http://www.23wx.io/wanben/{{page}}",
+        "lastUpdateTime": 1623168869545,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"meta[property~=title]@content\n\",a:\"meta[property$=author]@content\n\",k:\"meta[property~=status|category|time]@content\n\",w:\"meta[property~=word]@content\n\",l:\"meta[property~=latest_chapter_name]@content\n\",c:\"meta[property~=image]@content\n\",i:\"meta[property~=description]@content\n\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": " id.htmlContent@textNodes##顶点小说网|www.23wx.io，最快更新|最新章节！",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.caption@tag.small@text##/.*",
+            "bookList": "class.col-md-4 col-xs-4 book-coverlist",
+            "bookUrl": "h4@tag.a@href",
+            "coverUrl": "class.col-md-5@img@src",
+            "intro": "class.caption@tag.p@text",
+            "kind": "",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.col-md-3",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.23wx.io/modules/article/search.php?searchkey={{key}}&page={{page}},{\"charset\": \"gbk\"}",
+        "weight": 0
+    }
+]

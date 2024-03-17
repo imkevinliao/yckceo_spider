@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "修复乱码目录",
+        "bookSourceGroup": "📖  小说",
+        "bookSourceName": "🌸101言情",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.txt101.com",
+        "bookUrlPattern": "",
+        "customOrder": -320,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1657809727226,
+        "loginUrl": "",
+        "respondTime": 6247,
+        "ruleBookInfo": {
+            "coverUrl": "class.picborder@src",
+            "init": "<js>\nif(result.match(/text=new Array\\(\".*?\"\\)/)){\ncon=\"\"\neval(result.match(/text=new Array\\(\".*?\"\\)/)[0]);\nfor(var i=0;i<text.length;i++){con +=text[i];}con=String(java.base64Decode(con));\nresult=con\n}else{\n\tresult=result\n\t}\n</js>",
+            "intro": "id.CrbsSum@textNodes",
+            "lastChapter": "font@a@text",
+            "tocUrl": "font@a@href##/id/(\\d+)/\\d+.html##https://m.txt101.com/id/$1/"
+        },
+        "ruleContent": {
+            "content": "<js>\nif(result.match(/text=new Array\\(\".*?\"\\)/)){\ncon=\"\"\neval(result.match(/text=new Array\\(\".*?\"\\)/)[0]);\nfor(var i=0;i<text.length;i++){con +=text[i];}con=String(java.base64Decode(con));\nresult=con\n}else{\n\tresult=result\n\t}\n</js>\nclass.nr_nr@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##内容未完，下一页继续阅读|【本章阅读完毕.*101言情小说.*com .*更多精彩小说】"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text||tag.td.4@text",
+            "bookList": "<js>\nif(result.match(/text=new Array\\(\".*?\"\\)/)){\ncon=\"\"\neval(result.match(/text=new Array\\(\".*?\"\\)/)[0]);\nfor(var i=0;i<text.length;i++){con +=text[i];}con=String(java.base64Decode(con));\nresult=con\n}else{\n\tresult=result\n\t}\n</js>\nclass.bookbox||class.sf-grid@tr",
+            "bookUrl": "a@href",
+            "coverUrl": "tag.a.0@href##/id/(\\d+).html##/img/$1.jpg",
+            "kind": "class.update@textNodes&&tag.td.0@text&&tag.td.7@text##\\[|]",
+            "lastChapter": "class.cat@a@text||tag.td.2@a@text",
+            "name": "h4@a@text||tag.td.1@a@text##.*完整版.*|.*最新章节.*|小说"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href"
+        },
+        "searchUrl": "http://www.txt101.com/book/search.aspx?key={{key}}",
+        "weight": 0
+    }
+]

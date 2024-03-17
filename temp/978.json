@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceUrl": "http://m.zhangyue.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "掌阅书城by",
+        "bookSourceGroup": "By",
+        "bookSourceComment": "",
+        "loginUrl": "https://m.zhangyue.com/login?backUrl=https%3A%2F%2Fm.zhangyue.com%2F",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/search?keyWord={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 50,
+        "lastUpdateTime": 1631889667363,
+        "ruleSearch": {
+            "bookList": "class.section_b@a||class.rank_booklist@li||class.show@li",
+            "name": "class.name ellipsis@text||tag.dt@text||tag.h3@a@text",
+            "author": "class.author ellipsis@text||tag.dd.0@text||class.tryread@text##试读",
+            "kind": "##<s></s>(\\d+)##本周$1人在读###",
+            "intro": "class.brief@text||tag.dd.-1@text||class.introduce@text",
+            "coverUrl": "tag.img@data-src||tag.img@src",
+            "bookUrl": "tag.a@href<js>result.replace(/[^\\d]+(\\d+)/,\"http://m.zhangyue.com/detail/$1\")</js>"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "kind": "class.lastline@text",
+            "lastChapter": "##\"time\">[^>]+>([^<]+)<\\/a>##$1###",
+            "intro": "//*[@name=\"description\"]/@content",
+            "tocUrl": "##/chapter/(\\d+)##/chapter/$1?page=1&share=0###"
+        },
+        "ruleToc": {
+            "chapterList": "@css:.catalog_ls li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "@css:.catalog_ls@totalpage&&<js>\nvar list=[];\nif(result)\n{\n   var pages=parseInt(result[0]);\n   for(var i=2;i<=pages;i++){\n        list.push(baseUrl.replace(/page=1/,'page='+i));\n   }\n}\nlist</js>"
+        },
+        "ruleContent": {
+            "content": "@class.read_c@html##版权所有·侵权必究"
+        }
+    }
+]

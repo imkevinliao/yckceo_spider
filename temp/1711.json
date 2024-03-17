@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "♥ Li ♥",
+        "bookSourceName": "【☁️Toke-3♥】",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.365xs.la",
+        "bookUrlPattern": "",
+        "customOrder": 126,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "总榜::/allvisit/{{page}}.html\n月榜::/monthvisit/{{page}}.html\n周榜::/weekvisit/{{page}}.html\n日榜::/dayvisit/{{page}}.html\n总推::/allvote/{{page}}.html\n月推::/monthvote/{{page}}.html\n周推::/weekvote/{{page}}.html\n日推::/dayvote/{{page}}.html\n收藏::/goodnum/{{page}}.html\n字数::/size/{{page}}.html\n最新::/postdate/{{page}}.html\n最近::/lastupdate/{{page}}.html\n强推::/toptime/{{page}}.html\n新书::/goodnew/{{page}}.html\n玄幻::/fenlei1_{{page}}.html\n奇幻::/fenlei2_{{page}}.html\n武侠::/fenlei3_{{page}}.html\n都市::/fenlei4_{{page}}.html\n历史::/fenlei5_{{page}}.html\n军事::/fenlei6_{{page}}.html\n悬疑::/fenlei7_{{page}}.html\n游戏::/fenlei8_{{page}}.html\n科幻::/fenlei9_{{page}}.html\n体育::/fenlei10_{{page}}.html\n官场::/fenlei11_{{page}}.html\n古言::/fenlei12_{{page}}.html\n现言::/fenlei13_{{page}}.html\n幻言::/fenlei14_{{page}}.html\n仙侠::/fenlei15_{{page}}.html\n青春::/fenlei16_{{page}}.html\n穿越::/fenlei17_{{page}}.html\n女生::/fenlei18_{{page}}.html\nN次::/fenlei19_{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+        "lastUpdateTime": 1627316099972,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "h1@em@text##作者.",
+            "coverUrl": ".pic img@src",
+            "intro": ".intro@html",
+            "kind": ".bread-crumbs@tag.a.1@text&&.top@tag.span.1@textNodes##\\s.*",
+            "lastChapter": ".last@a@text",
+            "name": "h1@ownText",
+            "tocUrl": ".btopt@a@href"
+        },
+        "ruleContent": {
+            "content": "#content@p@text",
+            "imageStyle": "0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span.0@text##.*：",
+            "bookList": "#alistbox",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "",
+            "lastChapter": "tag.a.2@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".link_14 dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

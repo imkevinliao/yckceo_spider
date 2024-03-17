@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "间隔30s",
+        "bookSourceGroup": "☁️修正",
+        "bookSourceName": "45中文v",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://v1.45zw.com/",
+        "customOrder": -88962032,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::http://v1.45zw.com/xs/{{page}}/\n玄幻::http://v1.45zw.com/xs/1/{{page}}/\n武侠::http://v1.45zw.com/xs/2/{{page}}/\n都市::http://v1.45zw.com/xs/3/{{page}}/\n历史::http://v1.45zw.com/xs/4/{{page}}/\n网游::http://v1.45zw.com/xs/5/{{page}}/\n科幻::http://v1.45zw.com/xs/6/{{page}}/\n其他::http://v1.45zw.com/xs/7/{{page}}/",
+        "lastUpdateTime": 1644776217732,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=og:novel:author]@content",
+            "lastChapter": "[property=og:novel:latest_chapter_name]@content&&[property=og:novel:update_time]@content",
+            "name": "[property=og:novel:book_name]@content"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "nextContentUrl": "text.后一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "dd.1@a@text",
+            "bookList": "class.content@dl",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "我的幼驯染",
+            "coverUrl": "a.0@img@data-original",
+            "intro": "dd.0@text",
+            "kind": "dd.1@span.0@text",
+            "name": "a.0@title",
+            "wordCount": "dd.1@span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.bookchapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "http://v1.45zw.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "new",
+        "bookSourceName": "腐看天地漫画",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.fktd.com/",
+        "customOrder": -292859,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1654749315620,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "lastChapter": "class.head_p@span@i@text"
+        },
+        "ruleContent": {
+            "content": "<js>\nresult=result.match(/imgurl = '(.*?)'/)[1];\nresult='https:'+result\n'<img src=\"'+result+'\">'\n</js>",
+            "imageStyle": "FULL",
+            "nextContentUrl": "option!0@value##$##.html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "p.2@ownText",
+            "bookList": "class.newest_ul@li",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "class.img@src",
+            "intro": "class.jj@text##简　介：",
+            "kind": "p.1@span@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.episode tp5@div@ul@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://m.fktd.com/search/?q={{key}}",
+        "weight": 0
+    }
+]

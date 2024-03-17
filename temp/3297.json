@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "// 正文链接动态添加Referer头\n// 自动更新正文图片密钥\nlet domain = \".\";\n/**\n *@params options {Options|null}\n */\nObject.prototype.addOptions=function(options){let j={\"Referer\":baseUrl.replace(/,[\\s\\S]+\\}/,\"\")};if(!this.toString().includes(domain)){j.Referer=\"\"};options=options||{};options.headers=Object.assign(options.headers||{},j);return options?`${this.toString()},${JSON.stringify(options)}`:this.toString()};\n/**\n *@params func {Function|null}\n *@params options {Options|null}\n */\nObject.prototype.toImg=function(func,options){\n\tlet j=(u)=>`<img src=\"${u.addOptions(options)}\">`,h=(u,i,t)=>typeof func==\"function\"?j(func(u,i,t)):j(u);return Array.isArray(this)?this.map(h).join(\"\\n\"):h(this.toString())};\nfunction load(t){for(let o of t){let j = java.ajax(o);if(!/exception/.test(j))return[j,o]}throw\"Error: 所有链接下载失败\"}\n//阅读后台WebView解析密钥\nfunction parseKey(jsUrl){\njsBaseUrls=[\n\"https://raw.githubusercontents.com/Xwite/decodeObfuscator/main/\", \n\"https://raw.githubusercontent.com/Xwite/decodeObfuscator/main/\", \n  \"https://cdn.jsdelivr.net/gh/Xwite/decodeObfuscator@main/\"];\n  \nurls=[\"plugins/common.js\",\n\"plugins/manwa.js\",\n\"plugins/evalPacker.js\",\n\"tools/babel_asttool.js\",\n\"tools/config.js\",\n\"tools/decode.js\",\n\"tools/decodeOb.js\",\n\"tools/usefulPlugins.js\",\n];\njsBaseUrl = cache.get(\"decodeObfuscator\")\nif (!jsBaseUrl) {\njsBaseUrl = load(jsBaseUrls)[1];\njava.toast(jsBaseUrl);\ncache.put(\"decodeObfuscator\", jsBaseUrl)\n}\nString.prototype.toAbsUrl=function(){\n\treturn /^\\.\\/|^http|^content|^\\/sdcard|^\\/storage/.test(this) ? this : jsBaseUrl.concat(this)\n};\njava.log(jsBaseUrl);\nString.prototype.toAbsUrl=function(){\n\treturn /^\\.\\/|^http|^content|^\\/sdcard|^\\/storage/.test(this) ? this : jsBaseUrl.concat(this)\n}\n//解决跨域js加载问题\nfunction loadJS(urls){\n\t\n\treturn jsBaseUrl && urls.map(url=>script(java.importScript(url.toAbsUrl())))\n\t.join(\"\\n\") || \"\"\n\t}\n\t\nfunction script(content){\n\treturn `<script>${content};</script>`\n\t}\n\tjava.log(\">>>>> 本地密钥解密开始\");\n//html片段\nhtml = `<html><head>${loadJS(urls)}</head><body></body><script>\nfunction HttpGetText(url){return fetch(url).then(res=>res.text()).catch(err=>alert(err));};\nHttpGetText(\"${jsUrl}\").then(js=>decode(js,[manwa])).catch(e=>keys=e);\n</script></html>`;\nkey = JSON.parse(java.webView(html, source.getVariable(),\"keys\"))[0];\njava.log(key);\nreturn key\n}",
+        "bookSourceGroup": "漫画",
+        "bookSourceName": "🎨 漫蛙",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://manwa.space",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "全部::/booklist/?page={{page}}\n校园::/booklist?page={{page}}&tag=校园\n搞笑::/booklist?page={{page}}&tag=搞笑\n后宫::/booklist?page={{page}}&tag=后宫\n生活::/booklist?page={{page}}&tag=生活\n恋爱::/booklist?page={{page}}&tag=恋爱\n霸总::/booklist?page={{page}}&tag=霸总\n玄幻::/booklist?page={{page}}&tag=玄幻\n热血::/booklist?page={{page}}&tag=热血\n科幻::/booklist?page={{page}}&tag=科幻\n竞技::/booklist?page={{page}}&tag=竞技\n灵异::/booklist?page={{page}}&tag=灵异\n冒险::/booklist?page={{page}}&tag=冒险\n古风::/booklist?page={{page}}&tag=古风\n同人::/booklist?page={{page}}&tag=同人\n真人::/booklist?page={{page}}&tag=真人\n悬疑::/booklist?page={{page}}&tag=悬疑\n架空::/booklist?page={{page}}&tag=架空\n穿越::/booklist?page={{page}}&tag=穿越\n动作::/booklist?page={{page}}&tag=动作\n耽美::/booklist?page={{page}}&tag=耽美\n战争::/booklist?page={{page}}&tag=战争\n恐怖::/booklist?page={{page}}&tag=恐怖\n励志::/booklist?page={{page}}&tag=励志\n修真::/booklist?page={{page}}&tag=修真\n百合::/booklist?page={{page}}&tag=百合\n官商::/booklist?page={{page}}&tag=官商\n重生::/booklist?page={{page}}&tag=重生\n女主::/booklist?page={{page}}&tag=女主",
+        "header": "<js>\nheaders={\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 11; V1981A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36\",\n\t\"Referer\":`${source.getVariable()}`,\n\"Cookie\":\"ckc=1;\",\n}\nJSON.stringify(headers)\n</js>",
+        "lastUpdateTime": 1680502811868,
+        "loginCheckJs": "",
+        "loginUrl": "",
+        "respondTime": 27995,
+        "ruleBookInfo": {
+            "author": "class.detail-main-info-author.1@a@text",
+            "coverUrl": "class.detail-main-bg@data-original",
+            "init": "<js>\n// origin \norigin = baseUrl.match(/(https.{3,4}[^\\/]+)\\//)[1]\nsource.setVariable(origin)\n\n\nsrc\n</js>",
+            "intro": "class.detail-desc@text",
+            "kind": "class.detail-main-info-class@tag.a@text",
+            "lastChapter": "id.detail-list-select@tag.li.-1@text",
+            "name": "class.detail-main-info-title@text"
+        },
+        "ruleContent": {
+            "content": "<js>\n//本地解密标志位\nDEBUG = 0\n\n{{source.bookSourceComment}}\n\n// origin \norigin = source.getVariable()\n\n// aes keys auto update\nchjs = src.match(/['\"](.*?ch.js\\?v=(\\d+))/)\nif (DEBUG || (chjs && chjs[2] != 202208132)) {\n  cache.put(\"manwa_aes_key\", parseKey(chjs[1]))\n}\n\n// img_array\nimgs = org.jsoup.Jsoup.parse(src)\n.select(\".content-img\").toArray()\n.map(v=>v.attr(\"data-r-src\"))\n\nif (DEBUG) imgs.splice(1)\n\nimgs.toImg(null,\n{headers:{origin:origin}}\n\t)\n\n</js>",
+            "imageDecode": "/**  https://manwa2.site/static/js/ch.js?v=202208132\n*/\n\nfunction decode(bytes, key){\n\nreturn java.createSymmetricCrypto(\n\t\"aes/cbc/pkcs7padding\", \n\t key,\n\t key\n\t)\n.decrypt(bytes)\n}\n\nkey = cache.get(\"manwa_aes_key\") || \"my2ecret782ecret\"\n\ndecode(result, key)",
+            "imageStyle": "FULL",
+            "replaceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "coverUrl": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.span.0@text##作者：",
+            "bookList": "class.book-list@tag.li||class.manga-list@tag.li||class.rank-list@tag.a",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "tag.img@data-original||img@src",
+            "intro": ".book-list-info-desc@text",
+            "kind": "tag.span.1@text##",
+            "lastChapter": "class.manga-list-2-tip@text##已更新||tag.span.-1@text",
+            "name": ".manga-list-2-title@text||.book-list-info-title@text"
+        },
+        "ruleToc": {
+            "chapterList": ".detail-list-select li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

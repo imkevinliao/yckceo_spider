@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "made by h11128",
+        "bookSourceGroup": "",
+        "bookSourceName": "麻花小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.mahuaxs.com/",
+        "customOrder": -2085958335,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "",
+        "lastUpdateTime": 1631572662039,
+        "respondTime": 1013,
+        "ruleBookInfo": {
+            "coverUrl": "class.book-img@tag.img@src",
+            "intro": "class.book-intro@textNodes##.*gt;|各位书友.*|》还不错.*",
+            "kind": "class.m66.0@tag.a.1@text",
+            "tocUrl": "class.book-link cf@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "nextContentUrl": "class.link bx@tag.a.2@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "id.content@class.m10@tag.tr!0",
+            "bookUrl": "tag.a.0@href",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": "tag.td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-list clrfix@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.mahuaxs.com/modules/article/search.php?searchkey={{key}}<,&page={{page}}>,{\"charset\":\"gbk\"}",
+        "weight": 0
+    }
+]

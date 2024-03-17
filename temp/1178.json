@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎨漫画",
+        "bookSourceName": "非麻瓜",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.fmgmh2.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "❀评分榜❀::https://www.fmgmh2.com/custom/score\n❀月票榜❀::https://www.fmgmh2.com/custom/ticket\n❀收藏榜❀::https://www.fmgmh2.com/custom/fav\n❀今日榜❀::https://www.fmgmh2.com/custom/day\n❀本周榜❀::https://www.fmgmh2.com/custom/week\n❀本月榜❀::https://www.fmgmh2.com/custom/month\n❀年度榜❀::https://www.fmgmh2.com/custom/hot\n热血::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=6&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n科幻::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=8&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n玄幻::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=10&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n校园::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=11&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n搞笑::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=13&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n穿越::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=14&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n耽美::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=16&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n恋爱::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=17&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n悬疑::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=18&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n恐怖::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=19&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n动作::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=21&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n架空::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=25&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n灵异::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=26&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n古风::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=28&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}\n生活::https://www.fmgmh2.com/index.php/api/data/comic,{\"method\": \"POST\", \"body\": \"type%5Btags%5D=29&type%5Border%5D=hits&type%5Blist%5D=0&type%5Bpay%5D=0&type%5Bfinish%5D=0&size=12&page={{page}}\"}",
+        "header": "",
+        "lastUpdateTime": 1626165361090,
+        "loginUrl": "https://www.fmgmh2.com",
+        "ruleBookInfo": {
+            "author": "[property=\"og:cartoon:author\"]@content",
+            "kind": "[property=\"og:cartoon:category\"]@content",
+            "lastChapter": "[property=\"og:cartoon:latest_chapter_name\"]@content",
+            "name": "[property=\"og:cartoon:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": ".lazy-read@data-original@js:\nlist=result.split(\"\\n\");\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)}\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+','+JSON.stringify(headers)+'\">\\n'\n}\nhtml",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": {
+            "author": "class.comic-author@text&&author",
+            "bookList": ".top-list__box-item&&data",
+            "bookUrl": "tag.a@href&&url",
+            "coverUrl": "img@data-original&&pic@js:header={\"Referer\":baseUrl}\nheaders={\"headers\":JSON.stringify(header)}\nresult=result+','+JSON.stringify(headers)",
+            "intro": "class.comic-feature@text&&content",
+            "kind": "serialize",
+            "name": "class.comic__title@text&&name"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": ".common-comic-item",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": ".comic-feature@text",
+            "kind": "",
+            "lastChapter": ".comic-update@a@text",
+            "name": ".comic__title@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter__list-box@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.fmgmh2.com/index.php/search?key={{key}}",
+        "weight": 0
+    }
+]

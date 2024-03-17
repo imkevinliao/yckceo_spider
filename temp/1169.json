@@ -1,0 +1,30 @@
+[
+    {
+        "bookSourceGroup": "❄️",
+        "bookSourceName": "书包网杂",
+        "bookSourceUrl": "https://www.shubaoip.com",
+        "enable": false,
+        "httpUserAgent": "",
+        "ruleBookAuthor": "id.info@tag.p.0@text",
+        "ruleBookContent": "id.content@textNodes",
+        "ruleBookContentReplace": "",
+        "ruleBookLastChapter": "id.info@tag.p.3@text",
+        "ruleChapterList": "dl@dd",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "a@href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleFindCoverUrl": "img@src",
+        "ruleFindList": "class.item-cover",
+        "ruleFindName": "a@text",
+        "ruleFindNoteUrl": "a@href",
+        "ruleFindUrl": "全部小说::/xiaoshuodaquan/page_searchPage.html\n玄幻魔法::/xuanhuan/page_searchPage.html\n武侠修真::/xiuzhen/page_searchPage.html \n历史穿越::/lishi/page_searchPage.html \n游戏竞技::/wangyou/page_searchPage.html \n都市言情::/dushi/page_searchPage.html\n科幻小说::/kehuan/page_searchPage.html \n女频小说::/nvpin/page_searchPage.html",
+        "ruleIntroduce": "id.intro@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchList": "class.lll@li",
+        "ruleSearchName": "a@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://www.shubaoip.com/home/search@action=search&q=searchKey",
+        "serialNumber": 3,
+        "weight": 0
+    }
+]

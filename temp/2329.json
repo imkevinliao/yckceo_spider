@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceGroup": "爱猫小说书源合集",
+        "bookSourceName": "耽美书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.dmshuwang.org",
+        "bookUrlPattern": "",
+        "customOrder": 273,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "2019年::/2019y/index<,_{{page}}>.html\n2018年::/2018y/index<,_{{page}}>.html\n穿越重生::/chuanyuechongsheng/index<,_{{page}}>.html\n玄幻网游::/xuanhuanwangyou/index<,_{{page}}>.html\n现代都市::/xiandaixiaoshuo/index<,_{{page}}>.html\n古代架空::/gudaixiaoshuo/index<,_{{page}}>.html\n同人BL::/tongrenxiaoshuo/index<,_{{page}}>.html\n百合GL::/baihexiaoshuo/index<,_{{page}}>.html\n重生专题::/chshwzt/index<,_{{page}}>.html\n穿越专题::/chywzt/index<,_{{page}}>.html\n修真专题::/xzhwzt/index<,_{{page}}>.html\n兽人专题::/shrwzt/index<,_{{page}}>.html\n末世专题::/mshwzt/index<,_{{page}}>.html\n本站推荐::/best/index<,_{{page}}>.html\nnull",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "intro": "class.nrxs@tag.div@textNodes"
+        },
+        "ruleContent": {
+            "content": "class.nrxs@tag.div@html",
+            "imageStyle": "0.0"
+        },
+        "ruleExplore": {
+            "author": "tag.a@text##.*——|.*/",
+            "bookList": "class.article-list@tag.li",
+            "bookUrl": "tag.a@href",
+            "name": "tag.a@text##——.*|\\[.*|（.*|/.*"
+        },
+        "ruleSearch": {
+            "author": "text##.*——",
+            "bookList": "class.article-list@tag.li@tag.a",
+            "bookUrl": "href",
+            "name": "text##——.*|（.*）"
+        },
+        "ruleToc": {
+            "chapterList": "+<js>\nvar n=result.match(/<b>1<\\/b>\\/<b>(\\d+)<\\/b>/)[1];\nvar list=[{k:'第1页',v:baseUrl}];\nfor(var i=2;i<=n;i++){\nlist.push({k:'第'+i+'页',v:baseUrl.replace(/\\.html/,'_'+i+'.html')});\n}\nlist\n</js>",
+            "chapterName": "k",
+            "chapterUrl": "v"
+        },
+        "searchUrl": "https://wap.dmshuwang.org/search/index.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&tempid=2&tbname=article&x=0&y=0\"\n}",
+        "weight": 0
+    }
+]

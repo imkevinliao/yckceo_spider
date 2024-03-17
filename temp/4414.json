@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "御宅屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://girl-love.online/ ",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "BL::wapsort/1_{{page}}.html\nBG::wapsort/2_{{page}}.html\nGL::wapsort/3_{{page}}.html\n快穿::/tag/kc/p_{{page}}.html\n美攻::/tag/mg/p_{{page}}.html\n肉文::/tag/rw/p_{{page}}.html\n年下::/tag/nx/p_{{page}}.html\n年上::/tag/ns/p_{{page}}.html\n生子::/tag/sz/p_{{page}}.html\n人兽::/tag/rs/p_{{page}}.html\n强强::/tag/qq/p_{{page}}.html\n穿越::/tag/cy/p_{{page}}.html\n双性::/tag/sx/p_{{page}}.html\n强受::/tag/qs/p_{{page}}.html\nABO::/tag/abo/p_{{page}}.html\n重生::/tag/cs/p_{{page}}.html\nHP::/tag/hp/p_{{page}}.html\n虐文::/tag/nw/p_{{page}}.html\n温馨::/tag/wx/p_{{page}}.html\nNP::/tag/np/p_{{page}}.html\n父子::/tag/fz/p_{{page}}.html\n兄弟::/tag/xd/p_{{page}}.html\n萌文::/tag/mw/p_{{page}}.html\nBE::/tag/be/p_{{page}}.html\n末世::/tag/ms/p_{{page}}.html\n人鱼::/tag/ry/p_{{page}}.html\n师生::/tag/ss/p_{{page}}.html\n网游::/tag/wy/p_{{page}}.html\n娱乐圈::/tag/ylq/p_{{page}}.html\n高干::/tag/gg/p_{{page}}.html\n金手指::/tag/jsz/p_{{page}}.html\n反攻::/tag/fg/p_{{page}}.html\n诱受::/tag/ys/p_{{page}}.html\n种田::/tag/zt/p_{{page}}.html\nSM调教::/tag/sm/p_{{page}}.html",
+        "lastUpdateTime": 1650837224094,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".article_info_td@h2@text",
+            "init": "",
+            "intro": "&nbsp;&nbsp;更新时间：{{@@class.article_info_td.0@tag.time@text}}{{'\\n&lrm;\\n'}}{{@@pre@html##更\\d+}}",
+            "lastChapter": ".article_info_td.0@div.2@a@text",
+            "name": "[style=\"background:none;\"]@text",
+            "wordCount": "id.size@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html"
+        },
+        "ruleExplore": {
+            "author": "strong@text||.list_author@text",
+            "bookList": ".common-bookele||#list_ul@li",
+            "bookUrl": "tag.a.1@href##$##,{\"webView\":true}",
+            "intro": ".abstract@text<js>result.replace(/\\s{2,}/g,'\\n').replace(/^\\s*/g,'')</js>",
+            "kind": ".lastupdate time@text||tag.a.0@text",
+            "name": "h3 a@text||tag.a.1@text"
+        },
+        "ruleSearch": {
+            "author": "p@strong@text",
+            "bookList": ".common-bookele",
+            "bookUrl": "tag.a.0@href##$##,{\"webView\":true}",
+            "intro": ".abstract@a@text",
+            "kind": ".lastupdate@text##栏目：",
+            "lastChapter": "tag.a.0@href<js>java.ajax('https://girl-love.online'+result)</js>class.article_info_td.0@div.2@a@text&&class.article_info_td.0@tag.time@text<js>result.replace(/\\n/,' • ')</js>",
+            "name": ".articlename@text"
+        },
+        "ruleToc": {
+            "chapterList": "@js:\n//获取开始章节的id\nstart=java.getString('@@class.chapterList@tag.li.0@a@href').match(/(\\d+)\\.html/)[1];\n\n//获取总章节数\npage=result.match(/共(\\d+)章节/)[1];\nlist=[];\n\n//利用总章节，拼接目录\nfor(i=0;i<page;i++){\nid=Number(start)+i;\nlist.push({text:String('分卷阅读'+Number(i+1)),href:baseUrl.replace(/\\.html/,'/'+id+\".html\")})\n}\nlist",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://girl-love.online/search.html?key={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

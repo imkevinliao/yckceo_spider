@@ -1,0 +1,25 @@
+[
+    {
+        "bookSourceGroup": "神念雪",
+        "bookSourceName": "摘书网",
+        "bookSourceUrl": "https://www.zhaishuw.com",
+        "enable": true,
+        "ruleBookContent": ".content@html",
+        "ruleBookUrlPattern": "https\\:\\/\\/www\\.zhaishuw\\.com\\/(\\d+)\\/",
+        "ruleChapterList": "id.list@dl@dd",
+        "ruleChapterName": "a@text",
+        "ruleContentUrl": "a@href",
+        "ruleCoverUrl": "[property=\"og:image\"]@content",
+        "ruleSearchAuthor": "tag.span.1@a@text",
+        "ruleSearchCoverUrl": "https\\:\\/\\/www\\.zhaishuw\\.com\\/public\\/cover\\/(\\w{2})\\/(\\w{2})\\/(\\w{2})\\/(\\w+)\\.jpg",
+        "ruleSearchIntroduce": ".intro@text",
+        "ruleSearchKind": "tag.span.2@a@text",
+        "ruleSearchLastChapter": ".last@a@text",
+        "ruleSearchList": ".librarylist@li",
+        "ruleSearchName": "tag.span.0@a@text",
+        "ruleSearchNoteUrl": "tag.span.0@a@href",
+        "ruleSearchUrl": "/search.html?searchkey=searchKey&searchtype=all",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

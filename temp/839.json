@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "小说天下",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qjzfcgw.com",
+        "customOrder": -319461,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "都市小说::/list/26_{{page}}.html\n玄幻小说::/list/27_{{page}}.html\n穿越小说::/list/28_{{page}}.html\n修真小说::/list/29_{{page}}.html\n科幻小说::/list/30_{{page}}.html\n网游小说::/list/31_{{page}}.html\n排行榜单::/paihangbang_allvisit/{{page}}.html\n完本小说::/wanjiexiaoshuo/",
+        "lastUpdateTime": 1639312710813,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "#intro@text",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#content@html##请记住本书.*|飞卢盗.*|{{baseUrl}}"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": "id.newscontent@li",
+            "bookUrl": "a@href",
+            "intro": "dd@text",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": ".grid@tr!0",
+            "bookUrl": "a@href",
+            "coverUrl": "",
+            "lastChapter": "td.1@text",
+            "name": "td.0@a@text",
+            "wordCount": "td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.qjzfcgw.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

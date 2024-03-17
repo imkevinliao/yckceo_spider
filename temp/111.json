@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "趣—啦",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qu-la.com/",
+        "bookUrlPattern": "",
+        "customOrder": -88962943,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1661357242372,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "class.book-img@a@href",
+            "intro": "class.intro@text",
+            "kind": "",
+            "lastChapter": "class.book-chapter-list@li.0@text",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "#txt@textNodes"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.search-list@li!0",
+            "bookUrl": "class.s2@a@href",
+            "checkKeyWord": "万相之王",
+            "coverUrl": "",
+            "name": "class.s2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book-chapter-list@ul.1@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=qu-la.com&q={{key}}",
+        "weight": 0
+    }
+]

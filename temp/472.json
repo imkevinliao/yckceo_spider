@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "https://m.aixdzs.com/app/",
+        "bookSourceGroup": "⁉️ 自制",
+        "bookSourceName": "爱下电子书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://api.aixdzs.com",
+        "customOrder": -5,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1648722788531,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "$.author",
+            "coverUrl": "http://img22.aixdzs.com/{{$.cover}}",
+            "init": "",
+            "intro": "$.longIntro",
+            "kind": "$.cat&&zt&&updated##T\\d.*",
+            "lastChapter": "{{$.lastChapter}}▪️{{$.updated##T\\d.*}}",
+            "name": "$.title",
+            "tocUrl": "/content/{{$._id}}?view=chapter"
+        },
+        "ruleContent": {
+            "content": "$..body"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.books",
+            "bookUrl": "/book/{{$._id}}",
+            "coverUrl": "http://img22.aixdzs.com/{{$.cover}}",
+            "intro": "$.shortIntro",
+            "kind": "$.cat&&zt&&updated##T\\d.*",
+            "lastChapter": "{{$.lastchapter##更新到\\:}}▪️{{$.updated##T\\d.*}}",
+            "name": "$.title"
+        },
+        "ruleToc": {
+            "chapterList": "$.mixToc.chapters",
+            "chapterName": "$.title",
+            "chapterUrl": "/chapter/{{$.link}}"
+        },
+        "searchUrl": "/book/search?query={{key}}",
+        "weight": 0
+    }
+]

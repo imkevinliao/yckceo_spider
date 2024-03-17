@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制源",
+        "bookSourceName": "骑士小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.74txt.com",
+        "customOrder": 20560502,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/fenlei/1_{{page}}\n武侠::/fenlei/2_{{page}}\n都市::/fenlei/3_{{page}}\n历史::/fenlei/4_{{page}}\n科幻::/fenlei/6_{{page}}\n游戏::/fenlei/5_{{page}}\n女生::/fenlei/7_{{page}}\n其他::/fenlei/8_{{page}}",
+        "lastUpdateTime": 1693641470744,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "img@src",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1&lt;br&gt;",
+            "kind": "[property~=category|status|update_time]@content##\\s.*",
+            "lastChapter": "[property$=latest_chapter_name]@content##正文卷.|正文.|VIP章节.|免费章节.|VIP卷.|默认卷.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加].*?[】）\\)]",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.更多章节@href",
+            "wordCount": "class.xxx@tag.a@text##$##万字"
+        },
+        "ruleContent": {
+            "content": "id.nr@p@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##(本章完)"
+        },
+        "ruleExplore": {
+            "author": "p.-3@text",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text",
+            "name": "h2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.-3@text",
+            "bookList": "class.cover@class.block",
+            "bookUrl": "a@href",
+            "coverUrl": "class.block_img@img@src",
+            "intro": "p.-1@text",
+            "kind": "p.-2@text",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.74txt.com/search,{\n  \"body\": \"searchtype=all&searchkey={{key}}&t_btnsearch\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

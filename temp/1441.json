@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "😸 自制",
+        "bookSourceName": "求补充正文规则-Diva在线",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://divazx133.xyz/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "水果派::https://divazx133.xyz/type/id/260.html",
+        "lastUpdateTime": 1675402036666,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".box-title.1@text",
+            "coverUrl": "",
+            "kind": "",
+            "name": ".box-title.0@text##资源名称：",
+            "tocUrl": "",
+            "wordCount": ".box-title.4@text"
+        },
+        "ruleContent": {
+            "content": "@js:\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(baseUrl,title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n\t}\n'<p>【刷新正文】播放<br>或者【点击章节链接】跳转到浏览器播放</p>'"
+        },
+        "ruleExplore": {
+            "author": "h5.2@text",
+            "bookList": "class.col-md-2",
+            "bookUrl": "a.1@href##info##play",
+            "coverUrl": "a@style<js>##.*http##http</js><js>##jpg'.*##jpg</js>",
+            "kind": "td@text",
+            "name": "h5.0@text",
+            "wordCount": "h5.3@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h5.1@text",
+            "bookList": "class.col-md-2",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "萝莉",
+            "coverUrl": "a@style<js>##.*http##http</js><js>##jpg'.*##jpg</js>",
+            "kind": "td@text",
+            "name": "h5.0@text",
+            "wordCount": "h5.3@text##更新时间:"
+        },
+        "ruleToc": {
+            "chapterList": ".box-title.0",
+            "chapterName": "text##资源名称：",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/lookup/{{key}}",
+        "weight": 0
+    }
+]

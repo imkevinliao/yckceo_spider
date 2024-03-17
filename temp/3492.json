@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎓自制源",
+        "bookSourceName": "👑笔趣阁5200",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.biquge5200.cc/",
+        "customOrder": -2086014607,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"推荐小说\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"玄幻\",\"url\":\"http://m.biquge5200.cc/sort-1-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"仙侠\",\"url\":\"http://m.biquge5200.cc/sort-2-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市\",\"url\":\"http://m.biquge5200.cc/sort-3-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"历史\",\"url\":\"http://m.biquge5200.cc/sort-4-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"游戏\",\"url\":\"http://m.biquge5200.cc/sort-5-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻\",\"url\":\"http://m.biquge5200.cc/sort-6-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"言情\",\"url\":\"http://m.biquge5200.cc/sort-7-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"同人\",\"url\":\"http://m.biquge5200.cc/sort-8-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"异灵\",\"url\":\"http://m.biquge5200.cc/sort-9-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"奇幻\",\"url\":\"http://m.biquge5200.cc/sort-10-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"竞技\",\"url\":\"http://m.biquge5200.cc/sort-11-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"武侠\",\"url\":\"http://m.biquge5200.cc/sort-12-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"军事\",\"url\":\"http://m.biquge5200.cc/sort-13-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"校园\",\"url\":\"http://m.biquge5200.cc/sort-14-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"官场\",\"url\":\"http://m.biquge5200.cc/sort-15-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}\n\n\n]\n",
+        "lastUpdateTime": 1686104398268,
+        "respondTime": 183465,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@p[2]@a@text",
+            "coverUrl": "class.block_img2@img@src",
+            "intro": "class.intro_info@text",
+            "kind": "class.block_txt2@p[3]@a@text",
+            "lastChapter": "class.block_txt2@p[-1]@a@text",
+            "name": "class.block_txt2@h2@a@text",
+            "tocUrl": "class.ablum_read@span[-1]@a@href##/$##_1/"
+        },
+        "ruleContent": {
+            "content": "id.content@class.text@html##<p>【在阅读模式下不能自动加载下一页，请&lt;退出阅读模式&gt;后点击下一页阅读。】</p>\n.*\n\n"
+        },
+        "ruleExplore": {
+            "author": "a[2]@text",
+            "bookList": "class.line",
+            "bookUrl": "a[1]@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "a[0]@text",
+            "lastChapter": "",
+            "name": "a[1]@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a[2]@text",
+            "bookList": "class.line",
+            "bookUrl": "a[1]@href",
+            "checkKeyWord": "系统",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "a[0]@text",
+            "lastChapter": "",
+            "name": "a[1]@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "class.page@a@text.下一页@href"
+        },
+        "searchUrl": "http://m.biquge5200.cc/modules/article/waps.php?keyword={{key}}&pn={{page}}",
+        "weight": 0
+    }
+]

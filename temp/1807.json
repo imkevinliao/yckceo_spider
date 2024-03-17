@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "番茄小说(源于百度不知道效果)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://writer.muyewx.com",
+        "customOrder": 508,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "言情::https://m.baidu.com/from=1022560v/ssid=0/s?pn={{page*10-10}}&word=言情 site:writer.muyewx.com\n武侠::https://m.baidu.com/from=1022560v/ssid=0/s?pn={{page*10-10}}&word=武侠 site:writer.muyewx.com\n仙侠::https://m.baidu.com/from=1022560v/ssid=0/s?pn={{page*10-10}}&word=网游 site:writer.muyewx.com\n玄幻::https://m.baidu.com/from=1022560v/ssid=0/s?pn={{page*10-10}}&word=玄幻 site:writer.muyewx.com\n",
+        "lastUpdateTime": 1621646977417,
+        "ruleBookInfo": {
+            "author": ".info-author@text",
+            "coverUrl": "tag.img.1@src",
+            "init": "@js:if(baseUrl.match(/reader/)){var bookid = result.match(/bookId\":\"([^\"]+)/)[1];\nvar url = baseUrl.replace(/reader.*/,'page/')+bookid+'?force_mobile=1'}else{var url = baseUrl+'?force_mobile=1'};\njava.put(\"url\",url);\njava.ajax(url)",
+            "intro": ".abstract-content-text@text",
+            "kind": "##category\":\"([^\"]+)##$1###@js:result.replace(/\\\\u\\d{3}\\w{1,2}/g,'  ')",
+            "lastChapter": "##lastChapterTitle\":\"([^\"]+)##$1###",
+            "name": ".info-name@text",
+            "tocUrl": "@get:{url}",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "##content\":\"([^\"]+)##$1###@js:result.replace(/\\\\u\\d{3}\\w{1,2}/g,'\\n')",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "bookUrl": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "h3@text##(.*),(.*?)-.*番茄小说.*##$2###@js:result.replace(/番茄小说.*/,'').replace(/作家福利/,'')",
+            "bookList": "tag.article",
+            "bookUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###",
+            "name": "h3@text##(.*),(.*?)-.*番茄小说.*##$1###@js:result.replace(/番茄小说.*/,'').replace(/作家福利/,'')"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\n\nvar mid = result.match(/itemIds([\\s\\S]+?)hasFetchDirectory/)[1];\n\nvar id = String(mid).replace(/\\,\\,/g,',').replace(/\\\"/g,'').replace(/\\[/g,'').replace(/\\]/g,'');\nvar url = id.split(\",\");\nurl =url.reverse()\nvar list = [];\nfor(var i=1;i<mid.length;i++){list.push({n:'第'+i+'章',m:'https://writer.muyewx.com/reader/'+url[i]})};\nlist\n</js>",
+            "chapterName": "n",
+            "chapterUrl": "m",
+            "isVip": "",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://m.baidu.com/from=1022560v/ssid=0/s?pn={{page*10-10}}&word={{key}} site:writer.muyewx.com",
+        "weight": 0
+    }
+]

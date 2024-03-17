@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "new",
+        "bookSourceName": "邂逅小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xhtxt.cc/",
+        "customOrder": -292869,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1654974801047,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.booktag@a@text",
+            "coverUrl": "class.thumbnail@img@src",
+            "init": "",
+            "intro": "class.bookintro@text",
+            "kind": "class.booktag@span.0@text",
+            "lastChapter": "class.bookchapter@text##章节目录",
+            "name": "class.booktitle@text",
+            "wordCount": "class.booktag@span.2@text"
+        },
+        "ruleContent": {
+            "content": "class.readcontent@html",
+            "nextContentUrl": "id.linkNext@href",
+            "replaceRegex": "##AD\\d\\s*|\\s*本章未完.*下一页.*\\s*|-->>|.*最新章节.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookname@a@href",
+            "checkKeyWord": "都市",
+            "coverUrl": "class.bookname@a@href@js:\nid=result.match(/go\\/(\\d+)\\//)[1];\niid=parseInt(id/1000);\n'http://www.xhtxt.cc/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg'",
+            "intro": "class.update@ownText",
+            "kind": "",
+            "lastChapter": "class.cat@a@text",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n\t\"charset\":\"gbk\",\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}&action=login&submit=\"\n\t}",
+        "weight": 0
+    }
+]

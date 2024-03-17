@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceName": "阿u小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://auxsw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1695801232940,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.novel_info_title@a.0@text",
+            "coverUrl": "img@src",
+            "intro": "class.intro@p@text",
+            "kind": "class.novel_info_title@span.0@text",
+            "lastChapter": "class.novel_info_title@a.1@text",
+            "name": "class.novel_info_title@h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.fa fa-user-circle-o@text",
+            "bookList": "class.searchresult",
+            "bookUrl": "a.0@href",
+            "coverUrl": "",
+            "intro": "class.searchresult_p@text",
+            "kind": "a.0@text",
+            "lastChapter": "a.-1@text",
+            "name": "h3.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section chapter_list.1@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}\n\nhttps://auxsw.com/search/,{\n  \"body\": \"searchkey={{key}}&searchtype=all\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

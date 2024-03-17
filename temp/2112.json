@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "知音漫客",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://m.zymk.cn/",
+        "customOrder": -2147483647,
+        "enabled": true,
+        "lastUpdateTime": 1617687567429,
+        "ruleBookInfo": {
+            "author": "class.author@text",
+            "intro": "class.content@text",
+            "kind": "class.tags@a@text",
+            "name": "h1.name@text"
+        },
+        "ruleContent": {
+            "content": "@js:\nhost='http://mhpic.zymkcdn.com/comic/';\noriginal=result.match(/dr_original:\"([^\"]+)\"/)[1];\nend=result.match(/end_var:(\\d+)/)[1];\n//画质\nhigh='.jpg-zymk.high.webp';\nlow='.jpg-zymk.low.webp';\nmiddle='.jpg-zymk.middle.webp';\n\nhtml='';\nfor(i=1;i<=end;i++){\nhtml+='<img src=\"'+host+original+i+high+'\">\\n'\n}\nhtml",
+            "imageStyle": "FULL"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.item@h3",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-src",
+            "kind": "class.score@text",
+            "lastChapter": "class.chapter@text",
+            "name": "class.title@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "-class.chapterlist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.zymk.cn/sort/all.html?key={{key}}",
+        "weight": 0
+    }
+]

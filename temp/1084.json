@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "小宝小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xbooktxtt.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1630130389813,
+        "ruleBookInfo": {
+            "author": "class.red@text",
+            "coverUrl": "class.thumbnail@src",
+            "intro": "class.bookintro@text",
+            "kind": "class.breadcrumb@a.1@text",
+            "lastChapter": "class.bookchapter@text",
+            "name": "h1@text",
+            "wordCount": "class.booktime@text##更新时间："
+        },
+        "ruleContent": {
+            "content": "class.readcontent@textNodes",
+            "nextContentUrl": "id.linkNext@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author.0@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@a@href",
+            "intro": "class.update@text",
+            "kind": "class.author.1@text##字数：",
+            "lastChapter": "class.cat@a@text",
+            "name": "h4@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.xbooktxtt.com/search?keyword={{key}}&submit=",
+        "weight": 0
+    }
+]

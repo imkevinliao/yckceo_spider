@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "A",
+        "bookSourceName": "笔趣阁网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.1bqg.net",
+        "customOrder": 28,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9; V1901A Build/P00610; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36\"\n\t}",
+        "lastUpdateTime": 1672569720784,
+        "respondTime": 11325,
+        "ruleBookInfo": {
+            "author": "dd.1@span.0@text##作者：",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "[property=og:description]@content",
+            "kind": "span.4:3:2@text##类别：|状态：|更新时间：",
+            "lastChapter": ".Newlist@li.0@a@text",
+            "name": "dt@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": ".TxtContent@html@js:/近期更新缓慢，可能需要1-3天[\\S\\s]+?报错/.test(result)?\"\":result",
+            "nextContentUrl": "#PageSet@a.-1@href",
+            "replaceRegex": "##^\\s*\"\\n|\\s*.*如果你注册为会员收藏我到书架.*|…?.*\\s*本章没完.*?请点击下—页.*\\s*|\\s*\\.*?\\s*.*提醒.*方便继续.*$"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text##作者：",
+            "bookList": ".B",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": ".d2@html##简介：",
+            "kind": "span.1@text##更新时间：",
+            "lastChapter": "dd.-1@a@text",
+            "name": "dt@text"
+        },
+        "ruleToc": {
+            "chapterList": ".MLlist li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "updateTime": ""
+        },
+        "searchUrl": "@js:\nvalue = org.jsoup.Jsoup.parse(java.ajax(\"https://m.1bqg.net\")).select(\"[name=act]\").val();\nbody = \"act=\"+value+\"&q={{key}}&submit=快速搜书\";\noption={\"charset\":\"gbk\",\"method\":\"POST\",\"body\":String(body)};\n\"https://m.1bqg.net/sscc/,\"+JSON.stringify(option)",
+        "weight": 0
+    }
+]

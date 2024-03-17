@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "快眼看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.see023.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "言情::/class/yanqing/{{page}}/&&玄幻::/class/xuanhuan/{{page}}/&&都市::/class/dushi/{{page}}/&&武侠::/class/wuxia/{{page}}/&&耽美::/class/danmei/{{page}}/&&科幻::/class/kehuan/{{page}}/&&轻小说::/class/lightnovel/{{page}}/&&历史::/class/lishi/{{page}}/",
+        "lastUpdateTime": 1620996438404,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": "<js>baseUrl.replace('novel','indexlist')</js>"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".btm a@title",
+            "bookList": ".item",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em@text",
+            "name": "tag.a.0@title"
+        },
+        "ruleToc": {
+            "chapterList": "a[rel=\"chapter\"]",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "@js:\naction=org.jsoup.Jsoup.parse(String(java.ajax(\"https://www.see023.com\"))).select(\"form\").attr(\"action\");\n\nbody = \"searchkey={{key}}\";\noption={\"method\": \"post\",\"body\": String(body)};\n\"https://www.see023.com\"+String(action)+\",\"+JSON.stringify(option)",
+        "weight": 0
+    }
+]

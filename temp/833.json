@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "http://danwenku.com",
+        "bookSourceGroup": "🌹,☣️精选senhora,☁️可用",
+        "bookSourceName": "蛋文库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://wap.danwenku.com",
+        "customOrder": -88917329,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "同人::http://danwenku.com/e/search/result/?searchid=1605&page={{page}}\n生子::http://danwenku.com/e/search/result/?searchid=127&page={{page}}\n种田::http://danwenku.com/e/search/result/?searchid=42&page={{page}}\n重生::http://danwenku.com/e/search/result/?searchid=4&page={{page}}\n百合::http://danwenku.com/e/search/result/?searchid=8734&page={{page}}\n现代::http://danwenku.com/e/search/result/?searchid=1677&page={{page}}\n父子::http://danwenku.com/e/search/result/?searchid=29&page={{page}}\n末世::http://danwenku.com/e/search/result/?searchid=20&page={{page}}\n调教::http://danwenku.com/e/search/result/?searchid=37&page={{page}}\n古代::http://danwenku.com/e/search/result/?searchid=512&page={{page}}\n兽人::http://danwenku.com/e/search/result/?searchid=92&page={{page}}\n双性::http://danwenku.com/e/search/result/?searchid=178&page={{page}}\n老书文库::https://danwenku.com/wenku/index_{{page}}.html\n其他腐书::https://danwenku.com/qita/index_{{page}}.html\n港台言情::https://danwenku.com/gangtai/index_{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/\"\n}",
+        "lastUpdateTime": 1642018945719,
+        "loginUrl": "http://danwenku.com",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "tag.h1@text##.*BY：",
+            "coverUrl": "",
+            "intro": "[name=\"description\"]@content",
+            "kind": "",
+            "lastChapter": "class.pagela@tag.option.-1@text##\\[.*",
+            "name": "tag.h1@text##\\[.*",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@div@textNodes",
+            "nextContentUrl": "",
+            "replaceRegex": "##：简介：.*|小说属性：|关键词：|作者：|发布日期：.*|20.*/.*|1 页， 《.*》.*|：本书总字数为:.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.0@text##.*BY：",
+            "bookList": "tag.article",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "intro": "class.archive-content@text",
+            "kind": "tag.a.0@text##.*(\\[.*\\]).*##$1",
+            "name": "tag.h2@text##\\[.*",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.pagela@option",
+            "chapterName": "text##\\[.*",
+            "chapterUrl": "option@value"
+        },
+        "searchUrl": "https://danwenku.com/e/search/index.php,{\"charset\":\"gb2312\",\"method\":\"post\",\"body\":\"show=title,newstext&keyboard={{key}}\",\"webView\":true}",
+        "weight": 0
+    }
+]

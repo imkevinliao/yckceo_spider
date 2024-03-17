@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "new",
+        "bookSourceName": "笔趣阁4zw",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.4zw.cc/",
+        "customOrder": -2393,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1652687002071,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.imgbox@img@src",
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "id.next_url@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.s1@text",
+            "bookList": "class.txt-list@li!0",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@text&&class.s4@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/search/,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

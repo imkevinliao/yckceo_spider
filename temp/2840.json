@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "02、良",
+        "bookSourceName": "🎊 玫瑰小说(更正发现)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.meiguixsw.com",
+        "bookUrlPattern": ".+\\bbook\\b.+",
+        "customOrder": 52,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最新入库::https://m.meiguixsw.com/top-postdate-{{page}}/\n最近更新::https://m.meiguixsw.com/top-lastupdate-{{page}}/\n日点击榜::https://m.meiguixsw.com/top-dayvisit-{{page}}/\n周点击榜::https://m.meiguixsw.com/top-weekvisit-{{page}}/\n月点击榜::https://m.meiguixsw.com/top-monthvisit-{{page}}/\n总点击榜::https://m.meiguixsw.com/top-allvisit-{{page}}/\n总收藏榜::https://m.meiguixsw.com/top-goodnum-{{page}}/\n字数排行::https://m.meiguixsw.com/top-size-{{page}}/\n日推荐榜::https://m.meiguixsw.com/top-dayvote-{{page}}/\n周推荐榜::https://m.meiguixsw.com/top-weekvote-{{page}}/\n月推荐榜::https://m.meiguixsw.com/top-monthvote-{{page}}/\n总推荐榜::https://m.meiguixsw.com/top-allvote-{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1603619644932,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes##欢迎关注收藏.*|(全本|玫瑰小说网).*|感谢阅读，|",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "tr!0||class.line\n<js>\nresult.toArray().slice(0,8).map(o=>{\n    if(!baseUrl.includes('top')){\n    var detail = o.select('td:eq(0) a').attr('href');\n   }else {\n      var detail = String(o.select('a:eq(1)').attr('href')).replace(/^\\//, 'https://www.meiguixsw.com/');\n    }\n    try{var J = org.jsoup.Jsoup.parse(java.ajax(detail));}\n    catch(_){return {}}\n    var oText = s => String(o.select(s).text()).trim();\n    var jText = s => String(J.select(s).text()).trim();\n    return {\n       name:  oText('td:eq(0)').replace(/\\[.*\\]/g,'')||oText('a:eq(1)').replace(/\\[.*\\]/g,''),\n       author: oText('td:eq(2)')||oText('a:eq(2)'),\n       tags:  J.select('.pd_r:eq(0)').text() + ',' + jText('.pd_r:eq(5)'),\n       num: jText('.pd_r:eq(4)') + '字',\n       latest: !baseUrl.includes('top')? (oText('td:eq(1)').replace(/[\\(（].*[求更谢乐发推].*[）\\)]/,'').replace(/(正文)?(\\s+|_)/,'') + '(' + oText('td:eq(4)')+')'): jText('.new_t').replace('最后更新：',''),\n       intro: jText('#bookintro').replace(/<.*>/,''),\n       cover: J.select('#bookimg img').attr('src'),\n       catalogUrl: String(J.select('#newlist a').attr('href')).replace(/^\\//, 'https://m.meiguixsw.com/')\n    }\n});\n</js>",
+            "bookUrl": "catalogUrl",
+            "coverUrl": "cover",
+            "intro": "intro",
+            "kind": "tags",
+            "lastChapter": "latest",
+            "name": "name",
+            "wordCount": "num"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.a",
+            "chapterName": "text##(正文)?(\\s+|_)|[\\(（].*[求更谢乐发推].*[）\\)]",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": ""
+        },
+        "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

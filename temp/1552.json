@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "s",
+        "bookSourceName": "下书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xiashuba.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1671263206317,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p@text"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.banner@tag.ul",
+            "bookUrl": "class.s2@tag.a@href",
+            "checkKeyWord": "我的",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapterlist.1@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.xiashuba.com/search.php?keyword={{key}},{\n    \"headers\": {\"cookie\":\" __cf_bm=0PiyYJOGylLXT64pRBirvT.fS6JOVO6wg7MZGzc7ni8-1671261528-0-AZQBH9np/6fZsPeDHZN5JC5EB0oisd9Mxa3fM46rSvq9F7Xt5q0PumKDKdDdfIdJ1gHLD8xU+1cNor9VUxugoMiMY3JlVdg3AY2wjsDjneXzABh4/yWADKNC2ythem36Coj6PwC+xMePns1WrALos68=; cf_clearance=1lEJPGyXZzbUGYAIa8Ktk9BaMKErhDh4pl4hia5VApY-1671261673-0-160\",\"user-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54\",\"referer\":\" https://www.xiashuba.com/search.php\"}\n}",
+        "weight": 0
+    }
+]

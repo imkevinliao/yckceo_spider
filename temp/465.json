@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "@wormoon",
+        "bookSourceGroup": "💠 小说",
+        "bookSourceName": "一读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "一读小说",
+        "customOrder": 63,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1680791877571,
+        "respondTime": 4043,
+        "ruleBookInfo": {
+            "author": ".book-stats@a@text",
+            "coverUrl": "[property$=image]@content",
+            "intro": ".book-intro@textNodes##^##<br>",
+            "kind": ".book-stats@b!0@text##.*：",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "#BookText@textNodes",
+            "replaceRegex": "##.*手打中.*稍等片刻.*刷新.*最新更新.*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.1@text",
+            "bookList": "<js>\nif(result.match(/^<script/)&&result.match(/\\/script>$/)){\n\tjava.log('get Cookie...')\n\t$=java.head(baseUrl,{referer:baseUrl}).cookies();\n\tsource.putLoginHeader(JSON.stringify({\n\t\t'Cookie': 't='+$.token+';r='+($.secret-100)\n\t}));\n\turl=baseUrl+`,{'headers':{'referer':'${baseUrl}'}}`\n\tresult=java.ajax(url)\n}\nresult\n</js>\n#sitebox@dl",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@data-src",
+            "intro": ".book_des@textNodes",
+            "kind": "span.3:2:0@text##\\s\\d.*",
+            "lastChapter": "a.-1@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "#allchapter@h2,a[target]",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVolume": "@js:java.getString('href')==''?true:false;"
+        },
+        "searchUrl": "@js:\nurl='https://www.121du.net/search/?wd='+encodeURI(key);\nurl+`,{'headers':{'referer':'${url}'}}`",
+        "weight": 0
+    }
+]

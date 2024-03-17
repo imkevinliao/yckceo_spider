@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "made by h11128",
+        "bookSourceGroup": "资源,出版",
+        "bookSourceName": "笔仙阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bixiange.top",
+        "bookUrlPattern": "",
+        "customOrder": -2086012632,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "都市言情::/dsyq/<,index_{{page}}.html>\n武侠修真::/wxxz/<,index_{{page}}.html>\n玄幻奇幻::/xhqh/<,index_{{page}}.html>\n穿越架空::/cyjk/<,index_{{page}}.html>\n科幻竞技::/khjj/<,index_{{page}}.html>\n鬼话悬疑::/ghxy/<,index_{{page}}.html>\n军事历史::/jsls/<,index_{{page}}.html>\n耽美小说::/dmtr/<,index_{{page}}.html>\n同人小说::/trxs/<,index_{{page}}.html>\n官场商战::/guanchang/<,index_{{page}}.html>\n乡土风情::/xtfq/<,index_{{page}}.html>\n精品小说::/jqxs/<,index_{{page}}.html>",
+        "lastUpdateTime": 1682254145106,
+        "loginUrl": "",
+        "respondTime": 2017,
+        "ruleBookInfo": {
+            "author": "class.descTip@tag.p.1@text##作者：",
+            "coverUrl": "class.cover@tag.img@src",
+            "intro": "class.descInfo@tag.p@textNodes",
+            "kind": "class.sNav@tag.a.1@text",
+            "lastChapter": "class.catalog@class.clearfix@tag.li.-1@tag.a@text",
+            "name": "class.desc@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.mycontent@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.list@tag.li",
+            "bookUrl": "class.title@tag.a@href",
+            "coverUrl": "tag.a.0@tag.img@src",
+            "intro": "class.descript@tag.a@textNodes",
+            "kind": "",
+            "lastChapter": "tag.span.2@text",
+            "name": "tag.a.1@text",
+            "wordCount": "class.tips@tag.span.0@text##大小："
+        },
+        "ruleToc": {
+            "chapterList": "class.catalog@tag.ul@tag.li",
+            "chapterName": "tag.a@text<js>result.replace(/节/,\"章\")</js>",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.bixiange.top/e/search/indexpage.php,{\n  \"charset\": \"gbk\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

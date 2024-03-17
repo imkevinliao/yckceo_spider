@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceName": "单刃小说（天天）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.drygmt.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; ANA-AN00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.15 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693653762266,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
+            "wordCount": ".blue.0@text",
+            "intro": ".bookintro@text",
+            "coverUrl": "img@src",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": ".readcontent@p@html",
+            "nextContentUrl": ".text-center@a.-1@href"
+        },
+        "ruleExplore": {
+            "bookList": ".content@.bookbox",
+            "name": "h4@text",
+            "author": ".author.0@text",
+            "lastChapter": ".cat@text##.*：",
+            "bookUrl": "a@href",
+            "intro": ".update@text##.*："
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".content@.bookbox",
+            "name": "h4@text",
+            "author": ".author.0@text",
+            "kind": "",
+            "lastChapter": ".cat@text##.*：",
+            "intro": ".update@text##.*：",
+            "bookUrl": "a@href"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@dd",
+            "chapterUrl": "a@href",
+            "chapterName": "a@text"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}&submit=\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/sort/1/1/\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"武侠小说\",\"url\":\"/sort/2/1/\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"都市小说\",\"url\":\"/sort/3/1/\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"历史小说\",\"url\":\"/sort/4/1/\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"网游小说\",\"url\":\"/sort/5/1/\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"科幻小说\",\"url\":\"/sort/6/1/\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"耽美小说\",\"url\":\"/sort/7/1/\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"其他小说\",\"url\":\"/sort/8/1/\",\"style\":{\"layout_flexBasisPercent\":0.4}}]",
+        "bookSourceComment": "天天的鸟蛋蛋"
+    }
+]

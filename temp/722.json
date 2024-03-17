@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "注意搜索地址变化\n不能频繁搜索",
+        "bookSourceGroup": "",
+        "bookSourceName": "116文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.23meigui.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1668075963580,
+        "respondTime": 1188,
+        "ruleBookInfo": {
+            "author": "h1@span@text",
+            "canReName": "1",
+            "coverUrl": "img@src",
+            "intro": "p.mohe-text@text##(^|[。！？\\s]+[”」）】]?)##$1<br>",
+            "kind": ".theme-term@span.2@a@text&&.theme-term@span.4@text##状态：",
+            "lastChapter": ".theme-term@span.3@a@text&&.theme-term@span.4@text",
+            "name": "img@alt"
+        },
+        "ruleContent": {
+            "content": "div.5@html"
+        },
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "p.line",
+            "bookUrl": "a.blue@href",
+            "checkKeyWord": "这个",
+            "name": "a.blue@text"
+        },
+        "ruleToc": {
+            "chapterList": ".contlist@a",
+            "chapterName": "text",
+            "chapterUrl": "onclick##.*/(\\d+)..*##$1.html",
+            "nextTocUrl": "select@option@value"
+        },
+        "searchUrl": "/modules/article/d2rsVy9IYikO8bjEpQU.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\",\n\t\"headers\": {\"Referer\": \"https://www.23meigui.com/\"}}",
+        "weight": 0
+    }
+]

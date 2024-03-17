@@ -1,0 +1,36 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️31小说网☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.31xiaoshuo.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1645525311232,
+        "ruleBookInfo": {
+            "author": "class.am-article-meta@text##连载中（.* .*）.*",
+            "intro": "class.am-article-lead@html",
+            "name": "class.am-article-title@text",
+            "tocUrl": "text.---全部章节列表---@href"
+        },
+        "ruleContent": {
+            "content": "class.am-article-bd@html##加入书签|.*【话说，目前朗读听书最好用的app，咪咪阅读，.* 安装最新版。】.*|"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.dd@tag.p.0@text",
+            "bookList": "class.user-bookcase@tag.dl",
+            "bookUrl": "tag.a@href",
+            "lastChapter": "tag.dd@tag.p.1@text##最新：",
+            "name": "tag.dt@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.am-list am-list-striped@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

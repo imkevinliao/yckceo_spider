@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "18",
+        "bookSourceName": "cwj",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.cwjjj.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1695918288897,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".novel_info_title@a.0@text",
+            "coverUrl": ".novel_info_main@img@src",
+            "intro": "class.intro@text",
+            "kind": ".novel_info_title@span.0@text",
+            "lastChapter": ".novel_info_title@a.1@text",
+            "name": ".novel_info_title@text",
+            "tocUrl": "",
+            "wordCount": ".novel_info_title@span.1@text"
+        },
+        "ruleContent": {
+            "content": "id.article@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.0@textNodes",
+            "bookList": "class.searchresult",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".searchresult_p@text",
+            "kind": "span.0@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@h3@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.ul_all_chapters@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}\n\nhttps://www.cwjjj.com/search/,{\n  \"body\": \"searchkey={{key}}&searchtype=all\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

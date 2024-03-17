@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "百度站外搜索和网站内一定时间内访问次数过多会被限制访问，如果搜不到书或者打开加载不了书等一会再打开",
+        "bookSourceName": "笔趣阁52bqv👿看注释",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.52biqv.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::https://www.52biqv.com/xuanhuan/<,{{page}}.html>\n武侠仙侠::https://www.52biqv.com/wuxia/<,{{page}}.html>\n都市青春::https://www.52biqv.com/dushi/<,{{page}}.html>\n历史军事::https://www.52biqv.com/lishi/<,{{page}}.html>\n网游竞技::https://www.52biqv.com/wangyou/<,{{page}}.html>\n纯爱同人::https://www.52biqv.com/chunai/<,{{page}}.html>\n言情女生::https://www.52biqv.com/yanqing/<,{{page}}.html>\n 轻 小 说 ::https://www.52biqv.com/lightnovel/<,{{page}}.html>\n精彩小说::https://www.52biqv.com/zhuanti<,/{{page}}>.html",
+        "lastUpdateTime": 1649021529947,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#count@span.0@text",
+            "coverUrl": "#bookimg@img@src",
+            "init": "",
+            "intro": ".hm-scroll@text",
+            "kind": "{{@@#count@span.1@text}},{{@@#count@span.2@text}},{{@@#count@span.3@text}}",
+            "lastChapter": ".chaw@li.0@text||#uptime@text",
+            "name": ".d_title@text",
+            "tocUrl": ".b2.1@a@href"
+        },
+        "ruleContent": {
+            "content": "all\n\n\n<js>  \nur=result.match(/var nextpage = \"(.*?)\";/)[1];\njava.put('ur',ur);\nresult=result\n\n</js>\n#TextContent@html##（继续下一页）|（如异常请退出阅读/畅读模式）|笔趣阁 52biqv.com",
+            "nextContentUrl": "<js> java.get('ur') </js>"
+        },
+        "ruleExplore": {
+            "author": ".book_other@span.0@text",
+            "bookList": "#sitebox@dl||.prodlist@ol@li",
+            "bookUrl": "a@href",
+            "coverUrl": "dt@a@img@_src",
+            "intro": ".book_des@html",
+            "kind": "dt@span@text",
+            "lastChapter": ".book_other.1@text",
+            "name": "dd@h3@a@text||a@text"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "#content_left@.new-pmd",
+            "bookUrl": "a@href",
+            "coverUrl": ".c-img-radius-large@img@src",
+            "intro": ".content-right_8Zs40@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": ".tts-title@text##最新章节(.*)"
+        },
+        "ruleToc": {
+            "chapterList": ".chaw_c@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href\n<js> \n\n\"https://www.52biqv.com/\"+result\n </js>",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://www.baidu.com/s?wd=site:www.52biqv.com {{key}}&pn={{page-1}}0",
+        "weight": 0
+    }
+]

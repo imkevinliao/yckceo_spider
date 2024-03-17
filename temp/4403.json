@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "// 有些章节有防盗措施，获取不到章节链接，所以章节内容合并到上一章，不影响阅读体验。",
+        "bookSourceName": "布布文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bubuwx.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/sort1_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/sort2_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/sort3_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情\",\"url\":\"/sort4_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越\",\"url\":\"/sort5_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"校园\",\"url\":\"/sort8_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/sort6_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"官场\",\"url\":\"/sort7_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/sort9_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/sort11_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖\",\"url\":\"/sort12_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/sort13_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1699263810957,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "body > div.zh > div:nth-child(3) > div > div > div.hot_sale > p:nth-child(2)@text##作者：",
+            "intro": "body > div.zh > div:nth-child(3) > div > div > div.hot_sale > p:nth-child(7)@text",
+            "kind": "body > div.zh > div:nth-child(3) > div > div > div.hot_sale > p:nth-child(4)@text&&\nbody > div.zh > div:nth-child(3) > div > div > div.hot_sale > p:nth-child(5) > span@text\n##状态：",
+            "lastChapter": "body > div.zh > div:nth-child(3) > div > div > div.hot_sale > p:nth-child(6) > span > a@text",
+            "name": "body > div.zh > div:nth-child(3) > div > div > div.hot_sale > p.title > a@text",
+            "tocUrl": "@js:\ntu=baseUrl.replace(/\\/$/, '_p1/');\ntu;"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "#pb_next@href##$##,{\"webView\": true}",
+            "replaceRegex": "##\\n.*www.*net|.*畅\\*读.*\\n|.*下一[页章].*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.author.0@text##作者：",
+            "bookList": "body > div.zh > div > div.slide > div > div[0:9]",
+            "bookUrl": "p.title a@href",
+            "checkKeyWord": "天下",
+            "intro": "<js>java.get('html')</js>\nbody > div.zh > div:nth-child(3) > div > div > div.hot_sale > p:nth-child(7)@text",
+            "kind": "p.title a@href\n<js>\nif(typeof result==\"object\"){\n\tresult=result?result[0]:null\n\t}else{result=result}\nmatch = baseUrl.match(/^(https?:\\/\\/[^/]+)/);\nturl=match ? match[0] : null;\nurl=turl + result;\njava.log(url);\nhtml=java.ajax(url);\njava.put('html',html);\n</js>\nbody > div.zh > div:nth-child(3) > div > div > div.hot_sale > p:nth-child(4)@text&&\nbody > div.zh > div:nth-child(3) > div > div > div.hot_sale > p:nth-child(5) > span@text\n##状态：",
+            "lastChapter": "<js>java.get('html')</js>\nbody > div.zh > div:nth-child(3) > div > div > div.hot_sale > p:nth-child(6) > span > a@text",
+            "name": "p.title a@text"
+        },
+        "ruleToc": {
+            "chapterList": "body > div.zh > div:nth-child(4) > div > div > div",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{\"webView\": true}",
+            "nextTocUrl": "@js:\ntry{\n// 匹配第1/(\\d+)关键词得到目录总页数\nvar n=String(result).match(/第1[^\\d]+(\\d+)页/)[1];\njava.log(n);\nlist=[]\nif(n==1){\nlist;}else{\nfor(i=2;i<=n;i++){\nturl = baseUrl.replace(/_p\\d+\\//, \"_p\");\nlist.push(turl+i+\"/\")\n};}list\n}catch(e){}"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"s={{key}}&button=搜索\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

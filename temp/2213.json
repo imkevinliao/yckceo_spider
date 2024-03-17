@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "过滤漫画和插图；js目录修复",
+        "bookSourceGroup": "出版,轻小说",
+        "bookSourceName": "📚 有度中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yoduzw.com/",
+        "bookUrlPattern": "https:\\/\\/www\\.yoduzw\\.com\\/book\\/\\d+\\/",
+        "customOrder": -117602,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "总点击::/top/allvisit_{{page}}.html\n月点::/top/monthvisit_{{page}}.html\n周点::/top/weekvisit_{{page}}.html\n日点::/top/dayvisit_{{page}}.html\n\n总推荐::/top/allvote_{{page}}.html\n月推::/top/monthvote_{{page}}.html\n周推::/top/weekvote_{{page}}.html\n日推::/top/dayvote_{{page}}.html\n\n 新 书 榜 ::/top/newhot_{{page}}.html\n 收 藏 榜 ::/top/goodnum_{{page}}.html\n 新 入 库 ::/top/postdate_{{page}}.html\n\n世纪百强::/shijibaiqiang/{{page}}.html\r\n随身智囊::/suishenzhinang/{{page}}.html\r\n历史烟云::/lishiyanyun/{{page}}.html\r\n武侠小说::/wuxia/{{page}}.html\r\n悬疑小说::/xuanyi/{{page}}.html\r\n言情小说::/yanqing/{{page}}.html\r\n奇幻小说::/qihuanxiaoshuo/{{page}}.html\n\n传记回忆::/zhuanjihuiyi/{{page}}.html\r\n英文读本::/yingwenduben/{{page}}.html\r\n杂文随笔::/zawensuibi/{{page}}.html\r\n经典言情::/jingdianyanqing/{{page}}.html\r\n经典历史::/jingdianlishi/{{page}}.html\r\n侦探推理::/zhentantuili/{{page}}.html\r\n惊悚悬疑::/jingsongxuanyi/{{page}}.html\r\n网络玄幻::/wangluoxuanhuan/{{page}}.html\r\n寓言童话::/yuyantonghua/{{page}}.html\r\n青春都市::/qingchundushi/{{page}}.html\r\n社会心理::/shehuixinli/{{page}}.html\r\n外国小说::/waiguoxiaoshuo/{{page}}.html\r\n经典科幻::/jingdiankehuan/{{page}}.html\r\n当代小说::/dangdaixiaoshuo/{{page}}.html\r\n经典武侠::/jingdianwuxia/{{page}}.html\r\n纪实报告::/jishibaogao/{{page}}.html\r\n世界历史::/shijielishi/{{page}}.html\r\n中国历史::/zhongguolishi/{{page}}.html\r\n科普学习::/kepuxuexi/{{page}}.html\r\n诗歌戏曲::/shigexiqu/{{page}}.html\r\n宗教哲学::/zongjiaozhexue/{{page}}.html\r\n文学理论::/wenxuelilun/{{page}}.html\r\n日语读物::/riyuduwu/{{page}}.html\r\n 作 品 集 ::/zuopinji/{{page}}.html\n国学古籍::/guoxueguji/{{page}}.html\r\n战争军事::/zhanzhengjunshi/{{page}}.html\r\n政治经济::/zhengzhijingji/{{page}}.html\r\n古典文学::/gudianwenxue/{{page}}.html\r\n现代小说::/xiandaixiaoshuo/{{page}}.html\r\n官场小说::/guanchangxiaoshuo/{{page}}.html\r\n 轻 小 说 ::/qingxiaoshuo/{{page}}.html\n\n网游小说::/wangyouxiaoshuo/{{page}}.html\r\n玄幻小说::/xuanhuanxiaoshuo/{{page}}.html\r\n穿越小说::/chuanyuexiaoshuo/{{page}}.html\r\n科幻小说::/kehuanxiaoshuo/{{page}}.html\r\n仙侠小说::/xianxiaxiaoshuo/{{page}}.html\r\n都市小说::/dushixiaoshuo/{{page}}.html\r\n武侠小说::/wuxiaxiaoshuo/{{page}}.html\r\n历史小说::/lishixiaoshuo/{{page}}.html\r\n竞技小说::/jingjixiaoshuo/{{page}}.html\r\n言情小说::/yanqingxiaoshuo/{{page}}.html\r\n悬疑小说::/xuanyixiaoshuo/{{page}}.html\r\n军事小说::/junshixiaoshuo/{{page}}.html\r\n灵异小说::/lingyixiaoshuo/{{page}}.html\n\n电击文库::/dianjiwenku/{{page}}.html\r\n富士见文库::/fushijianwenku/{{page}}.html\r\n角川文库::/jiaochuanwenku/{{page}}.html\r\nMF文库J::/MFwenkuJ/{{page}}.html::\r\nFami通文库::/Famitongwenku/{{page}}.html\r\nGA文库::/GAwenku/{{page}}.html\r\nHJ文库::/HJwenku/{{page}}.html\r\n一迅社::/yixunshe/{{page}}.html\n集英社::/jiyingshe/{{page}}.html\n小学馆::/xiaoxueguan/{{page}}.html\n讲谈社::/jiangtanshe/{{page}}.html\n少女文库::/shaonvwenku/{{page}}.html\r\n其他文库::/qitawenku/{{page}}.html",
+        "lastUpdateTime": 1615635264306,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": "class.mb15 ell _tags pt2@tag.span.3@text##\\s"
+        },
+        "ruleContent": {
+            "content": "id.TextContent@tag.p@text",
+            "imageStyle": "",
+            "nextContentUrl": "class.mlfy_page@tag.a.-1@href##(.+_\\d+\\.html)##$1###",
+            "replaceRegex": "##\\s*（本章未完）\\s*|([…─—！？])\\1*(?=\\1\\1)|(?<=[『「“])(?:[…—─_]+|[\\.．]{3,})(?=\\w)|(?mi)^[^\\w\\n]+\\d{0,2}$|(?<=\\w：)\\s+(?=“\\w)|(?<=\\w，[”」]|[，、‘《（【［「『])\\s+|\\s+(?=[\\n，、’：；》）】］」』])",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "tag.span.0@text",
+            "bookList": "class.j_bookList@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@_src",
+            "intro": "tag.a.-1@text",
+            "kind": "tag.span.1@text&&tag.span.2@text##小说",
+            "name": "tag.h2@text##.+（漫画）$"
+        },
+        "ruleSearch": {
+            "author": "tag.em@tag.span.1@text",
+            "bookList": "class.ser-ret@tag.li",
+            "bookUrl": "tag.a.0@href##\\?for-search",
+            "coverUrl": "tag.img@_src",
+            "intro": "tag.p.0@text",
+            "kind": "tag.em@tag.span!1@text##\\h+|\\.##,",
+            "lastChapter": "tag.a.-1@text",
+            "name": "tag.h3@text##.+（漫画）$"
+        },
+        "ruleToc": {
+            "chapterList": "<js>result.replace(/(\"w33p\"><a href=\")javascript:(\" class=(?:.+?(?:\\n.+?)??\\n.+?)<a href=\")([^\"]+)/g,\"$1$3#$2$3\")</js>\nid.chapterList@tag.li@tag.a",
+            "chapterName": "text##^(.+ )?(插[图画]|前情提要)$",
+            "chapterUrl": "href<js>result.indexOf(\"html#\") != -1?java.ajax(result).match(/var url_preview = \"([^\"]+)/)[1]:result</js>",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.yoduzw.com/s,{\n\"charset\": \"UTF-8\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=all\",\n\"headers\": {\"User-Agent\": \"\"}\n}",
+        "weight": 0
+    }
+]

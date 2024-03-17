@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "雪痕伤",
+        "bookSourceName": "燃文小说-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ranwen.com",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/xuanhuan/\n武侠修真::/xiuzhen/\n都市言情::/dushi/\n历史军事::/lishi/\n网游动漫::/wangyou/\n科幻小说::/kehuan/\n恐怖灵异::/lingyi/\n其他小说::/qita/",
+        "lastUpdateTime": 1654017967049,
+        "respondTime": 2823,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "id.intro@tag.p.0@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text##燃文小说网"
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookname@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.bookinfo@p@text",
+            "lastChapter": "class.update@a@text",
+            "name": "class.bookname@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/ddfdw333.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

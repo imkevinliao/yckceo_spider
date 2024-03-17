@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "目录栏只要列表规则加父级就行\n详情页目录（1～100）翻页不需要写url规则\n正文不分段加次级标签（tag.*）",
+        "bookSourceGroup": "自写，练习，完",
+        "bookSourceName": "头文字",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.touwz.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"http://m.touwz.com/xuanhuan/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠\",\"url\":\"http://m.touwz.com/xianxia/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"http://m.touwz.com/dushi/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"http://m.touwz.com/lishi/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"http://m.touwz.com/kehuan/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖\",\"url\":\"http://m.touwz.com/kongbu/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"http://m.touwz.com/qita/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本\",\"url\":\"http://m.touwz.com/quanben/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1680864808094,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@p.2@tag.a@text",
+            "coverUrl": "class.block_img2@tag.img@src",
+            "intro": "class.intro_info@text##最新章节推荐.*",
+            "kind": "class.block_txt2@p.3@tag.a@text",
+            "lastChapter": "class.block_txt2@p.-1@tag.a@text",
+            "name": "class.block_txt2@h2@tag.a@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.mkklhsjd content-div dsnncjsii@tag.p@text",
+            "nextContentUrl": "@js:\nif (result.indexOf(\"下一页\") > -1) {\n\tvar code = result.match(/eval\\(function(.*)\\);/)[0]\n\teval(code)\n\t__uData\n}",
+            "replaceRegex": "##\\s本章未完.*|.*牢记网址.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": "dl",
+            "bookUrl": ".s2@tag.a@href",
+            "kind": ".s1@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "select@option@value"
+        },
+        "searchUrl": "https://m.touwz.com/search,{\n  \"body\": \"_token=.*&kw={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "迷迭22.2.16。书源＆小说交流群637775313\n网站有少量废驴小说。\n这网站部分正文有防扒机制（w页不懂解），m页面用webview勉强能解决，将就可用。\n比如：\n大秦：从弃婴到千古一帝",
+        "bookSourceGroup": "﹅ ♛精品,",
+        "bookSourceName": "🆗飞速中文m #md",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.feiszw.com/#md",
+        "customOrder": 2146,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "总点击榜::/top-allvisit-{{page}}/\n字数排行::/top-size-{{page}}/\n最新入库::/top-postdate-{{page}}/\n奇幻玄幻::/sort-1-{{page}}/\n武侠仙侠::/sort-2-{{page}}/\n都市小说::/sort-3-{{page}}/\n历史军事::/sort-4-{{page}}/\n游戏竞技::/sort-5-{{page}}/\n科幻灵异::/sort-6-{{page}}/\n同人小说::/sort-7-{{page}}/\n女频言情::/sort-8-{{page}}/\n其他小说::/sort-9-{{page}}/",
+        "header": "{\"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/92.0.4515.159\"}",
+        "lastUpdateTime": 1645018886568,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@p.0@a@text",
+            "coverUrl": "img@src",
+            "intro": "id.intr@p.0@text",
+            "kind": "class.block_txt2@p.1:2@text## \\| |更新：|\\s|\\d+:\\d+:\\d+##,",
+            "lastChapter": "class.block_txt2@p.3@a@text",
+            "name": "class.block_txt2@h2@text"
+        },
+        "ruleContent": {
+            "content": "id.nr1@p@text",
+            "replaceRegex": "##[Ww][Ww].*[Mm]|最快更新.*|手机请访问.*|推荐：|飞速中文.*|╱╲速╲╱文╲|╲飞╲╱中╲　网雅何须大，书香不在多|请收藏.*"
+        },
+        "ruleExplore": {
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.nbox@class.author@a@text",
+            "bookList": "class.cover@class.nlist",
+            "bookUrl": "class.nbox@h3@a@href",
+            "checkKeyWord": "大秦：从弃婴到千古一帝",
+            "coverUrl": "img@src",
+            "intro": "class.nbox@class.nintro@text",
+            "kind": "class.nbox@class.nstate@text&&class.nbox@class.ncate@a@text",
+            "lastChapter": "class.nbox@h3@a@href<js>java.ajax('https://m.feiszw.com'+result)</js>class.block_txt2@p.3@text",
+            "name": "class.nbox@h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.feiszw.com/search.aspx?s={{key}}&submit=",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "漫画",
+        "bookSourceName": "鬼罗丽漫画",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.gll8.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "木偶                           ::\n惊奇手札::/jqsz/list_{{page}}.html\n幽冥诡匠::/ymgj/list_{{page}}.html\n末代天师::/mdts/list_{{page}}.html\n枪爷异闻录::/qyywl/list_{{page}}.html\n白头探灵::/baitoutanling/list_{{page}}.html\n诡事会[完结]::/slygsh/list_{{page}}.html\n诡案实录[完结]::/gasl/list_{{page}}.html\n仙山传奇[完结]::/xscq/list_{{page}}.html\n唐人街小先生[完结]::/trjxxs/list_{{page}}.html\n彼岸姐妹[完结]::/bajm/list_{{page}}.html\n诡案特九组[完结]::/tatjz/list_{{page}}.html\n恐怖                             ::\n怪奇笔记::/gqbj/list_50_{{page}}.html\n百鬼夜行志::/bgyxz/list_43_{{page}}.html\n怪奇实录::/gqsl/list_54_{{page}}.html\n宿运街18号::/suyun18/list__69{{page}}.html\n原住民::/yzmdbmh/list_66_{{page}}.html\n小林怪谈::/xlgt/list_64_{{page}}.html\n怪诞寓言::/kbmh/guaidanyuyan/list_57_{{page}}.html\n无声惊恐::/wsjk/list_52_{{page}}.html\n黑盒子::/kbmh/heihezi/list_70_{{page}}.html\n密集重口::/miji/list_53_{{page}}.html\n韩国恐怖漫画::/hgkbmh/list_69_{{page}}.html\n恐漫杂集::/kbmh/kmzj/list_29_{{page}}.html\n",
+        "lastUpdateTime": 1619186519076,
+        "ruleBookInfo": {
+            "author": "class.spanimg1@text##发布者："
+        },
+        "ruleContent": {
+            "content": "class.article-content@html",
+            "imageStyle": "FULL",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.listl@li",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p.-1@text",
+            "kind": "tag.a.2@text",
+            "lastChapter": "tag.span.-1@text",
+            "name": "tag.a.1@title"
+        },
+        "ruleSearch": {
+            "bookList": "class.news_list_1@a",
+            "bookUrl": "href",
+            "coverUrl": "img@src",
+            "lastChapter": "class.news_list_tw_p@text",
+            "name": "class.hdline@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.article-content",
+            "chapterName": "{{book.name}}",
+            "chapterUrl": "{{baseUrl}}"
+        },
+        "searchUrl": "/plus/search_m.php?keyword={{key}}<,&PageNo={{page}}>,{\n\"charset\": \"gbk\",\n\"body\": \"\"\n}",
+        "weight": 0
+    }
+]

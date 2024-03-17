@@ -1,0 +1,64 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.changqing51.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "总排行榜::/rank<,{{page}}>\n月排行榜::/rank/monthvisit<,{{page}}>\n周排行榜::/rank/weekvisit<,{{page}}>\n收藏榜::/rank/goodnum<,{{page}}>\n玄幻::/sort/1/{{page}}\n仙侠::/sort/2/{{page}}\n都市::/sort/3/{{page}}\n历史::/sort/4/{{page}}\n游戏::/sort/5/{{page}}\n科幻::/sort/6/{{page}}\n女生::/sort/7/{{page}}\n其他::/sort/8/{{page}}",
+        "header": "",
+        "lastUpdateTime": 1677147318787,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.am-badge.1@text",
+            "coverUrl": "class.book-info-cover@img@src",
+            "intro": "class.am-text-sm@text",
+            "kind": "class.am-badge.0:4@text&&class.am-fr.0@text&&class.book-info-last@ownText##最新章节：",
+            "lastChapter": "class.book-info-last@a@text",
+            "name": "class.am-text-lg@text",
+            "tocUrl": "",
+            "wordCount": "class.am-badge.2@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html##章节报错\\(免登录\\)",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book-list-1-author@text",
+            "bookList": "class.am-u-sm-12",
+            "bookUrl": "class.book-list-1-info@h4@a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": "class.book-list-1-intro@text",
+            "kind": "class.am-badge.0:2@text",
+            "lastChapter": "",
+            "name": "class.book-list-1-info@h4@text",
+            "wordCount": "class.am-badge.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.flex-between",
+            "chapterName": "li@a@text",
+            "chapterUrl": "li@a@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "http://www.changqing51.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

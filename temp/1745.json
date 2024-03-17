@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉️精选",
+        "bookSourceName": "笔趣阁66",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.biqugecom.co/#",
+        "bookUrlPattern": "https?://www\\.caimoge\\.com(/html)?/txt/(\\d+).html/?",
+        "customOrder": -2086002435,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1680863502478,
+        "loginUrl": "",
+        "respondTime": 1746,
+        "ruleBookInfo": {
+            "author": "class.p_author@a@text",
+            "coverUrl": "id.bookimg@img@src",
+            "init": "",
+            "intro": "id.bookintro@tag.p@text",
+            "kind": "id.count@li.0@span@text",
+            "lastChapter": "id.uptime@span@text",
+            "name": "class.d_title@h1@text",
+            "tocUrl": "class.motion2@tag.a.0@href",
+            "wordCount": "id.count@li.1@span@text"
+        },
+        "ruleContent": {
+            "content": "id.TextContent@html",
+            "imageStyle": "0",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.dd.1@tag.span.0@text",
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "tag.dd.0@tag.h3@tag.a@href",
+            "coverUrl": "tag.dt@img@src",
+            "intro": "tag.dd.2@text",
+            "kind": "tag.dt@tag.span@text",
+            "lastChapter": "tag.dd.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*|\\-",
+            "name": "tag.dd.0@tag.h3@tag.a@text",
+            "wordCount": "tag.dd.1@tag.span.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chaw_c@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.biqugecom.co/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

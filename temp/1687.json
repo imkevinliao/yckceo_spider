@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceGroup": "✯.自用",
+        "bookSourceName": "绅士漫画",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://www.shenmh.top",
+        "customOrder": -88962909,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1665481694677,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.a529-068d-be88-6744.0@text##作者：",
+            "coverUrl": "class.ca00-0cf2-ab62-1422@img@src",
+            "intro": "class.aa5d-c24c-a529-068d.1@text",
+            "name": "class.ca00-0cf2-ab62-1422@img@title"
+        },
+        "ruleContent": {
+            "content": "class.center@img@html",
+            "imageStyle": "full"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.weui-panel__bd@a",
+            "bookUrl": "@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "class.weui-media-box__thumb@src",
+            "intro": "class.weui-media-box__desc@text",
+            "name": "@title"
+        },
+        "ruleToc": {
+            "chapterList": "id.html_box@class.item",
+            "chapterName": "a@title",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.shenmh.top/search/index?keywords={{key}}",
+        "weight": 0
+    }
+]

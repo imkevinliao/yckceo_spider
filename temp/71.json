@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍉修复",
+        "bookSourceName": "追书,zhuishu5",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zhuishu5.com",
+        "customOrder": 592,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+        "lastUpdateTime": 1663824686240,
+        "respondTime": 180830,
+        "ruleBookInfo": {
+            "intro": "id.bookIntro@textNodes"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@textNodes##.*追书网.*|.*最新章节！",
+            "nextContentUrl": "id.linkNext@text.下一页@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.booktag@tag.a.0@text",
+            "bookList": "class.row",
+            "bookUrl": "class.bookTitle@tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "lastChapter": "tag.p.1@tag.a.0@text",
+            "name": "class.bookTitle@text##留言反馈"
+        },
+        "ruleToc": {
+            "chapterList": "class.panel-body panel-chapterlist.1@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/modules/article/2022search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

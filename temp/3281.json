@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "书本网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.bookben.org/",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/class/xuanhuan/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"修真小说\",\"url\":\"/class/xiuzhen/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市小说\",\"url\":\"/class/dushi/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"穿越小说\",\"url\":\"/class/chuanyue/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"网游小说\",\"url\":\"/class/wangyou/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻小说\",\"url\":\"/class/kehuan/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他小说\",\"url\":\"/class/qita/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1682475094590,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.detail@p@a@text",
+            "coverUrl": "img@src",
+            "downloadUrls": "class.read@td.1@href||text.本书下载@href",
+            "intro": "class.intro@text##各位书友.*推荐哦！",
+            "kind": "class.detail@p.1:2:4@text\n##类别：|状态：|更新：",
+            "lastChapter": "class.read@ul@li@a@text",
+            "name": "class.caption@p@text",
+            "tocUrl": "class.read@td.0@href||text.阅读目录@href",
+            "wordCount": "class.detail@p.3@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@text##.*/",
+            "bookList": "class.mod@ul@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": "a@text##\\[|\\] .*",
+            "name": "b@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.readlist@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"utf-8\",\n  \"method\": \"post\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

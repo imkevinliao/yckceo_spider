@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "爱看书/零点小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.aiks68.com",
+        "bookUrlPattern": "https?://www.aiks68.com/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻 ::/list/1-{{page}}.html\n仙侠 ::/list/2-{{page}}.html\n言情 ::/list/3-{{page}}.html\n历史 ::/list/4-{{page}}.html\n网游 ::/list/5-{{page}}.html\n科幻 ::/list/6-{{page}}.html\n恐怖 ::/list/7-{{page}}.html\n其他 ::/list/8-{{page}}.html\n总排行榜::/book/allvisit-{{page}}.html\n本周排行榜::/book/weekvisit-{{page}}.html\n当月排行榜::/book/monthvisit-{{page}}.html\n总推荐榜::/book/allvote-{{page}}.html\n本周推荐榜::/book/weekvote-{{page}}.html\n当月推荐榜::/book/monthvote-{{page}}.html",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1695189743002,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": ".content-body@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".media||.article li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "kind": "0",
+            "name": "h4@text||a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": "#bookcon tr!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "p.-1:-2@text",
+            "name": "p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list-group.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}\n/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

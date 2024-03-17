@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceName": "番茄小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.fanqianxs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1670316231796,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.infobar@p.0@text",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "",
+            "lastChapter": "class.infobar@p.-1@text&&class.infobar@p.-2@text",
+            "name": "class.infobar@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4.0@text",
+            "bookList": "id.book-list@li!0",
+            "bookUrl": "class.s2.1@tag.a@href",
+            "checkKeyWord": "我的属性修行人生",
+            "coverUrl": "class.s2.1@tag.a@href\n<js>java.ajax('https://www.fanqianxs.com'+result)</js>img@src",
+            "intro": "class.s2.1@tag.a@href\n<js>java.ajax('https://www.fanqianxs.com'+result)</js>class.intro@text",
+            "kind": "class.s2.0@text",
+            "lastChapter": "class.s5@text&&class.s4.1@text",
+            "name": "class.s2.1@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.fanqianxs.com/user/search.html?q={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

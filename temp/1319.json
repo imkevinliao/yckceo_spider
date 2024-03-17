@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceGroup": "✉️网络文学",
+        "bookSourceName": "txt下载",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bookshuku.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "header": "{\"user-agrent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51\"}",
+        "lastUpdateTime": 1679835581949,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.downInfoTitle@tag.a.0@text",
+            "lastChapter": "class.downInfoTitle@tag.a.-1@text",
+            "name": "",
+            "tocUrl": "class.downlistbox@tag.li.1@a@href"
+        },
+        "ruleContent": {
+            "content": "id.view_content_txt@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.searchTopic",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "name": "tag.a.0@title"
+        },
+        "ruleToc": {
+            "chapterList": "class.read_list@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

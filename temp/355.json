@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "小说屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xiaoshuowu.com/",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "总点击榜::http://www.xiaoshuowu.com/book/topallvisit/0/{{page}}.html\n月点击榜::http://www.xiaoshuowu.com/book/topmonthvisit/0/{{page}}.html\n总推荐榜::http://www.xiaoshuowu.com/book/topallvote/0/{{page}}.html\n月推荐榜::http://www.xiaoshuowu.com/book/topmonthvote/0/{{page}}.html\n总月票榜::http://www.xiaoshuowu.com/book/topallvipvote/0/{{page}}.html\n月月票榜::http://www.xiaoshuowu.com/book/topmonthvipvote/0/{{page}}.html\n总鲜花榜::http://www.xiaoshuowu.com/book/topallflower/0/{{page}}.html\n月鲜花榜::http://www.xiaoshuowu.com/book/topmonthflower/0/{{page}}.html\n月勤更榜::http://www.xiaoshuowu.com/book/topmonthsize/0/{{page}}.html\n最近更新::http://www.xiaoshuowu.com/book/toplastupdate/0/{{page}}.html\n最近入库::http://www.xiaoshuowu.com/book/toppostdate/0/{{page}}.html\n最新上架::http://www.xiaoshuowu.com/book/topsigntime/0/{{page}}.html\n总收藏帮::http://www.xiaoshuowu.com/book/topgoodnum/0/{{page}}.html\n",
+        "header": "",
+        "lastUpdateTime": 1652202591575,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.divbox cf@tag.span.1@text",
+            "coverUrl": "class.divbox cf@tag.img.0@src",
+            "init": "",
+            "intro": "class.tabcontent@class.tabvalue.0@text",
+            "kind": "class.tabcontent@class.tabvalue.1@tag.tr.0@tag.td.0@text",
+            "lastChapter": "class.divbox@tag.h3@tag.a@text",
+            "name": "class.divbox cf@tag.span.0@text",
+            "tocUrl": "class.btnlink b_hot mbs@href",
+            "wordCount": "class.tabcontent@class.tabvalue.1@tag.tr.2@tag.td.0@text"
+        },
+        "ruleContent": {
+            "content": "class.acontent@all##小说屋 www.xiaoshuowu.com",
+            "nextContentUrl": "class.linkright@tag.a.2@href"
+        },
+        "ruleExplore": {
+            "author": "tag.td.2@text",
+            "bookList": "id.jieqi_page_contents@tag.tr",
+            "bookUrl": "tag.td.0@tag.a.1@href",
+            "lastChapter": "tag.td.a@text",
+            "name": "tag.td.0@tag.a.1@text"
+        },
+        "ruleSearch": {
+            "author": "class.c_tag.0@tag.span.1@text",
+            "bookList": "class.c_row",
+            "bookUrl": "class.fl@tag.a@href",
+            "coverUrl": "class.fl@tag.img@src",
+            "kind": "class.c_tag.0@tag.span.3@text",
+            "lastChapter": "class.c_tag.1@text",
+            "name": "class.c_subject@tag.a@text",
+            "wordCount": "class.c_tag.0@tag.span.5@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.index@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.xiaoshuowu.com/modules/article/search.php?q={{key}}",
+        "weight": 0
+    }
+]

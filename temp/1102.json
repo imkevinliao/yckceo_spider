@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "♥ Li ♥",
+        "bookSourceName": "【E小说】",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zwda.com",
+        "bookUrlPattern": "",
+        "customOrder": 278,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1627317243298,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作    者.",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@text",
+            "kind": "class.con_top@tag.a.1@text",
+            "lastChapter": "id.info@tag.a.-1@text&&id.info@tag.p.-2@text##最后更新.|..\\:.*",
+            "name": "id.info@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.1@text##作者.",
+            "bookList": "class.result-item",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.p.0@text",
+            "kind": "tag.p.2@text##类型.",
+            "lastChapter": "tag.a.-1@text&&tag.p.-2@text##更新时间.|..\\:.*",
+            "name": "tag.h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.zwda.com/search.php?q={{key}}",
+        "weight": 0
+    }
+]

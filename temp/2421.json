@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "耽美小说~dmxs.org",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.dmxs.org/",
+        "bookUrlPattern": ".+(/book/\\d+).+",
+        "customOrder": -113204,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "近代现代::/book/index<,_{{page}}>.html\n古代架空::/gdjk/index<,_{{page}}>.html\n穿越重生::/cycs/index<,_{{page}}>.html\n网游竞技::/wyjj/index<,_{{page}}>.html\n玄幻灵异::/xhly/index<,_{{page}}>.html\n推理悬疑::/tlxy/index<,_{{page}}>.html\nBL同人::/BLTR/index<,_{{page}}>.html\nGL同人::/GLBH/index<,_{{page}}>.html",
+        "lastUpdateTime": 1612671949895,
+        "ruleBookInfo": {
+            "author": "tag.a.0@text",
+            "init": "class.infos",
+            "kind": "class.tags@tag.a@text",
+            "name": "tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "class.read_chapterDetail@textNodes##€"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.autor@text##作者：",
+            "bookList": "class.bk",
+            "bookUrl": "tag.a.0@href",
+            "intro": "tag.p@textNodes",
+            "kind": "class.date@text",
+            "name": "tag.h3@text",
+            "wordCount": "class.size@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_list@tag.ul@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.dmxs.org/e/search/index.php,{\n\"charset\": \"gb2312\",\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "biquso标准\nSra.ᚿᚫ⸙",
+        "bookSourceGroup": "💦 精品 💦,🌹",
+        "bookSourceName": "💦爱尚小说①",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.23hh.com/",
+        "bookUrlPattern": "https://www.23hh.com/book/\\d+/\\d+/",
+        "customOrder": -88961984,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::https://m.23hh.com/fenlei1_{{page}}.html\n修真小说::https://m.23hh.com/fenlei2_{{page}}.html\n都市小说::https://m.23hh.com/fenlei3_{{page}}.html\n历史小说::https://m.23hh.com/fenlei4_{{page}}.html\n网游小说::https://m.23hh.com/fenlei5_{{page}}.html\n科幻小说::https://m.23hh.com/fenlei6_{{page}}.html\n言情小说::https://m.23hh.com/fenlei7_{{page}}.html",
+        "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36;",
+        "lastUpdateTime": 1646272624543,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:novel:author\"]@content",
+            "kind": "[property=\"og:novel:status\"]@content&&class.book-main@class.green@text",
+            "lastChapter": "class.book-main@class.update@a@text&&class.book-main@class.time@text##更新时间：",
+            "name": "[property=\"og:novel:author\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes||id.txt@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.search-list@ul@li!0",
+            "bookUrl": "class.s2@a@href",
+            "checkKeyWord": "剧本",
+            "coverUrl": "img@src",
+            "intro": "class.intro_line@text##简介：",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s2@href<js>java.ajax('https://www.23hh.com'+result)</js>id.info@tag.p.3@a@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.block-box.1@ul@li||class.book-chapter-list@class.cf.1@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?s=17934470774457639775&siteid=23hh.com&ie=gbk&q={{key}},{\"charset\":\"gbk\"}",
+        "weight": 0
+    }
+]

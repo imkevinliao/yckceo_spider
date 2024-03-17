@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "酷友",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ybiquge.com/",
+        "bookUrlPattern": "",
+        "customOrder": 24697,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1631489562932,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property$=category]@content&&[property$=status]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": "[property$=update_time]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "span.2@text",
+            "bookList": "class.result-item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p.0@text",
+            "kind": "span.4@text",
+            "lastChapter": "a.2@text",
+            "name": "a.1@text",
+            "wordCount": "span.6@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.ybiquge.com/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

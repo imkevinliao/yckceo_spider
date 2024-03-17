@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "Li ™",
+        "bookSourceName": "【八一中文】",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.81zw.com",
+        "bookUrlPattern": "https://www.81zw.com/b/\\d+/\\d+/",
+        "concurrentRate": "",
+        "customOrder": 2,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1654421212255,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text",
+            "coverUrl": "id.fmimg@@tag.img@src",
+            "init": "",
+            "intro": "id.intro@tag.p.0@text",
+            "kind": "id.info@tag.p.2@text##最后更新：",
+            "lastChapter": "id.info@tag.p.3@text##最新章节： ",
+            "name": "id.info@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "#content@html##请退出转码页面.*|八一中文网.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.result-game-item-info@tag.p.0@text",
+            "bookList": "class.result-item",
+            "bookUrl": "class.result-item-title@tag.a@href",
+            "coverUrl": "class.result-game-item-pic@tag.a@tag.img@src",
+            "intro": "class.result-game-item-desc@text",
+            "kind": "class.result-game-item-info@tag.p.1@text##类型： ",
+            "lastChapter": "class.result-game-item-info@tag.p.3@text&&\nclass.result-game-item-info@tag.p.2@text##最新章节： |更新时间： ",
+            "name": "class.result-item-title@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list@tag.dl@tag.dd!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search.php?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

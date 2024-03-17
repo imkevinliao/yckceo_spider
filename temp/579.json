@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": " \nSra.ᚿᚫ⸙\n",
+        "bookSourceGroup": "🌹,☁修正,⛩🎐senhora,经典名著📚,📚出版,☣️精选senhora,失效",
+        "bookSourceName": "📚3g天涯知识库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://3g.sbkk8.com#",
+        "bookUrlPattern": "",
+        "customOrder": -88962084,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "诸子百家::http://3g.sbkk8.com/gudai/zhuzibaijia/\n古代文学::http://3g.sbkk8.com/gudai/\n古代医书::http://3g.sbkk8.com/gudai/gudaiyishu/\n佛经大全::http://3g.sbkk8.com/gudai/fujingdaquan/\n故事会::http://3g.sbkk8.com/gushihui/\n易经::http://3g.sbkk8.com/gudai/yijingshuji/\n史书::http://3g.sbkk8.com/gudai/shishu/",
+        "lastUpdateTime": 1646275917183,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "tag.p@textNodes##2016|- 版权所有|声明 :本网站.*|"
+        },
+        "ruleExplore": {
+            "bookList": "class.index_list@tag.a",
+            "bookUrl": "href",
+            "name": "text##>"
+        },
+        "ruleSearch": {
+            "bookList": "class.result",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "的画像",
+            "intro": "text",
+            "name": "tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": ":a href=\"(.*?)\"\\s+target=\"_blank\">(.*?)<",
+            "chapterName": "$2",
+            "chapterUrl": "$1"
+        },
+        "searchUrl": "http://zhannei.baidu.com/cse/search?s=5140549751047532462&nsid=&q={{key}}&searchtype=title&isNeedCheckDomain=1&jump=1",
+        "weight": 0
+    }
+]

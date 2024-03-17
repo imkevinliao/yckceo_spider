@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "自制源",
+        "bookSourceName": "星月中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xinyuezw.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": " 玄幻魔法::/class/1/{{page}}.html\n 武侠修真::/class/2/{{page}}.html\n 都市言情::/class/3/{{page}}.html\n 历史军事::/class/4/{{page}}.html\n 网游动漫::/class/6/{{page}}.html\n 科幻小说::/class/7/{{page}}.html\n 恐怖灵异::/class/8/{{page}}.html\n 其他类型::/class/10/{{page}}.html",
+        "header": "{\n 'User-Agent': 'Mozilla/5.0 (Linux; Android 11; Pixel 3 XL Build/RQ3A.211001.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.4988.0 Mobile Safari/537.36 SearchCraft/3.9.2 (Baidu; P1 11) '\n}",
+        "lastUpdateTime": 1695256759369,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h6.1@text",
+            "coverUrl": "img@src",
+            "intro": ".bookintro@text##简介：",
+            "kind": "class.mb-3.0@text##分类：",
+            "lastChapter": "h6.-1@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "h5@text",
+            "bookList": "class.col-12 col-sm-6",
+            "bookUrl": "a@href",
+            "coverUrl": "class.clearfix@img@data-original",
+            "intro": "class.i-intro@text",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h5@text",
+            "bookList": "class.col-12",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "class.i-intro@text",
+            "kind": "",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.xinyuezw.com/xy7.php?search={{key}},{\n  \"charset\": \"UTF-8\",\n  \"method\": \"GET\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

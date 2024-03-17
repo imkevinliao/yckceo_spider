@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "By junzilan",
+        "bookSourceGroup": "API",
+        "bookSourceName": "爱阅小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api.dgjiayuan.cn/",
+        "customOrder": 2,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"男频\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"推荐\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/recommend?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=1&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"收藏\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/collect?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=1&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"评分\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/score?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=1&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"热搜\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/search?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=1&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完结\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/over?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=1&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"新书\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/new?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=1&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女频\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"推荐\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/recommend?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=2&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"收藏\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/collect?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=2&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"评分\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/score?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=2&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"热搜\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/search?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=2&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完结\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/over?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=2&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"新书\",\"url\":\"https://api.dgjiayuan.cn/v1/rankings/new?app_id=5&channel_id=default&platform_id=1&version=1.0.16&gender=2&scope=4&pages=10&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1661270446898,
+        "respondTime": 3319,
+        "ruleBookInfo": {
+            "init": "",
+            "tocUrl": "https://appstore-1306798419.file.myqcloud.com/v1/chapters/@get:{i}/{{parseInt((new Date().getTime())/1000)}}.txt"
+        },
+        "ruleContent": {
+            "content": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n Packages.java.lang,\n Packages.javax.crypto,\n Packages.javax.crypto.spec,\n Packages.java.io,\n Packages.java.util,\n Packages.java.util.zip,\n);\n\nwith(javaImport){\n function decrypt(str){\n \t\n \tvar h=result.substring(16);\n \tvar u=result.substring(0,16);\n \tvar k = 'Shuew237HSFH242s';\n \tvar m=java.aesBase64DecodeToByteArray(h,k ,\"AES/CBC/PKCS5Padding\", u);\n var arr1 = new Array(m.length+1);\n arr1.push(m);\n arr1[m.length]=0;\n var inflaterInputStream = new InflaterInputStream(new ByteArrayInputStream(m));\n var byteArrayOutputStream = new ByteArrayOutputStream(512);\n while (true) {\n var read = inflaterInputStream.read();\n if (read != -1) {\n byteArrayOutputStream.write(read);\n } else {\n \tbyteArrayOutputStream.close();\n return byteArrayOutputStream.toString();\n }\n }\n }\n}\ndecrypt(result)\n</js>$.data",
+            "payAction": ""
+        },
+        "ruleExplore": {
+            "author": "$.author",
+            "bookList": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n Packages.java.lang,\n Packages.javax.crypto,\n Packages.javax.crypto.spec,\n Packages.java.io,\n Packages.java.util,\n Packages.java.util.zip,\n);\n\nwith(javaImport){\n function decrypt(str){\n \tvar h=result.substring(16);\n \tvar u=result.substring(0,16);\n \tvar k = 'Shuew237HSFH242s';\n \tvar m=java.aesBase64DecodeToByteArray(h,k ,\"AES/CBC/PKCS5Padding\", u);\n var arr1 = new Array(m.length+1);\n arr1.push(m);\n arr1[m.length]=0;\n var inflaterInputStream = new InflaterInputStream(new ByteArrayInputStream(m));\n var byteArrayOutputStream = new ByteArrayOutputStream(512);\n while (true) {\n var read = inflaterInputStream.read();\n if (read != -1) {\n byteArrayOutputStream.write(read);\n } else {\n \tbyteArrayOutputStream.close();\n return byteArrayOutputStream.toString();\n }\n }\n }\n}\ndecrypt(result)\n</js>$.data",
+            "bookUrl": "https://appstore-1306798419.file.myqcloud.com/v1/chapters/@get:{i}/{{parseInt((new Date().getTime())/1000)}}.txt",
+            "coverUrl": "<js>\nvar s='{{$.cover}}';\n\"https://txtstore-1306798419.file.myqcloud.com/images/\"+s</js>",
+            "intro": "$.intro@put:{i:$.id}",
+            "kind": "$.category&&$.state&&$.actor",
+            "lastChapter": "{{$.last_chap}}·{{$.last_at}}",
+            "name": "$.title",
+            "wordCount": "$.words"
+        },
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n Packages.java.lang,\n Packages.javax.crypto,\n Packages.javax.crypto.spec,\n Packages.java.io,\n Packages.java.util,\n Packages.java.util.zip,\n);\n\nwith(javaImport){\n function decrypt(str){\n \tvar h=result.substring(16);\n \tvar u=result.substring(0,16);\n \tvar k = 'Shuew237HSFH242s';\n \tvar m=java.aesBase64DecodeToByteArray(h,k ,\"AES/CBC/PKCS5Padding\", u);\n var arr1 = new Array(m.length+1);\n arr1.push(m);\n arr1[m.length]=0;\n var inflaterInputStream = new InflaterInputStream(new ByteArrayInputStream(m));\n var byteArrayOutputStream = new ByteArrayOutputStream(512);\n while (true) {\n var read = inflaterInputStream.read();\n if (read != -1) {\n byteArrayOutputStream.write(read);\n } else {\n \tbyteArrayOutputStream.close();\n return byteArrayOutputStream.toString();\n }\n }\n }\n}\ndecrypt(result)\n</js>$.data",
+            "bookUrl": "https://appstore-1306798419.file.myqcloud.com/v1/chapters/@get:{i}/{{parseInt((new Date().getTime())/1000)}}.txt",
+            "coverUrl": "<js>\nvar s='{{$.cover}}';\n\"https://txtstore-1306798419.file.myqcloud.com/images/\"+s</js>",
+            "intro": "$.intro@put:{i:$.id}",
+            "kind": "$.category&&$.state",
+            "lastChapter": "$.last_chap",
+            "name": "$.title",
+            "wordCount": "$.words"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n Packages.java.lang,\n Packages.javax.crypto,\n Packages.javax.crypto.spec,\n Packages.java.io,\n Packages.java.util,\n Packages.java.util.zip,\n);\n\nwith(javaImport){\n function decrypt(str){\n \tvar h=result.substring(16);\n \tvar u=result.substring(0,16);\n \tvar k = 'Shuew237HSFH242s';\n \tvar m=java.aesBase64DecodeToByteArray(h,k ,\"AES/CBC/PKCS5Padding\", u);\n var arr1 = new Array(m.length+1);\n arr1.push(m);\n arr1[m.length]=0;\n var inflaterInputStream = new InflaterInputStream(new ByteArrayInputStream(m));\n var byteArrayOutputStream = new ByteArrayOutputStream(512);\n while (true) {\n var read = inflaterInputStream.read();\n if (read != -1) {\n byteArrayOutputStream.write(read);\n } else {\n \tbyteArrayOutputStream.close();\n return byteArrayOutputStream.toString();\n }\n }\n }\n}\ndecrypt(result)\n</js>$.data",
+            "chapterName": "$.title",
+            "chapterUrl": "https://txtstore-1306798419.file.myqcloud.com//v1/contents/{{$.id}}/{{$.v}}.txt"
+        },
+        "searchUrl": "https://api.dgjiayuan.cn/v1/search/result?app_id=5&channel_id=default&platform_id=1&version=1.0.16&page={{page}}&keyword={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "error:Timed out waiting for 180000 ms\n",
+        "bookSourceGroup": "",
+        "bookSourceName": "☘️全本1☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.qb5200.co/##响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1643973698404,
+        "ruleBookInfo": {
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "id.pb_next@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.mr15@text",
+            "bookList": "class.list-item",
+            "bookUrl": "class.article@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.fs12 gray@text",
+            "name": "class.article@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.last9@tag.li!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.qb5200.co/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n\"charset\": \"gbk\"}",
+        "weight": 0
+    }
+]

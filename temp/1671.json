@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "章节读取缓慢原因我也不知道\n如果出现内容异常可去除目录里的正文规则最后的##第.+章.*，该处是去除含有第xx章的那一段的规则。",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.aishu5.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "全部::http://m.aishu5.com/xclass/0/{{page}}.html\n玄幻魔法::http://m.aishu5.com/xclass/1/{{page}}.html\n仙侠修真::http://m.aishu5.com/xclass/2/{{page}}.html\n都市言情::http://m.aishu5.com/xclass/3/{{page}}.html\n网游动漫::http://m.aishu5.com/xclass/4/{{page}}.html\n科幻小说::http://m.aishu5.com/xclass/5/{{page}}.html\n恐怖灵异::http://m.aishu5.com/xclass/6/{{page}}.html\n其他小说::http://m.aishu5.com/xclass/7/page={{page}}.html\u0013\u0004\u0013\n周榜::http://m.aishu5.com/ph/week_{{page}}.html\n周榜::http://m.aishu5.com/ph/week1_{{page}}.html\n周榜::http://m.aishu5.com/ph/week2_{{page}}.html\n周榜::http://m.aishu5.com/ph/week3_{{page}}.html\n周榜::http://m.aishu5.com/ph/week4_{{page}}.html\n周榜::http://m.aishu5.com/ph/week5_{{page}}.html\n周榜::http://m.aishu5.com/ph/week6_{{page}}.html\n周榜::http://m.aishu5.com/ph/week7_{{page}}.html\n月榜::http://m.aishu5.com/ph/month_{{page}}.html\n月榜::http://m.aishu5.com/ph/month1_{{page}}.html\n月榜::http://m.aishu5.com/ph/month2_{{page}}.html\n月榜::http://m.aishu5.com/ph/month3_{{page}}.html\n月榜::http://m.aishu5.com/ph/month4_{{page}}.html\n月榜::http://m.aishu5.com/ph/month5_{{page}}.html\n月榜::http://m.aishu5.com/ph/month6_{{page}}.html\n月榜::http://m.aishu5.com/ph/month7_{{page}}.html\n总榜::http://m.aishu5.com/ph/all_{{page}}.html\n总榜::http://m.aishu5.com/ph/all1_{{page}}.html\n总榜::http://m.aishu5.com/ph/all2_{{page}}.html\n总榜::http://m.aishu5.com/ph/all3_{{page}}.html\n总榜::http://m.aishu5.com/ph/all4_{{page}}.html\n总榜::http://m.aishu5.com/ph/all5_{{page}}.html\n总榜::http://m.aishu5.com/ph/all6_{{page}}.html\n总榜::http://m.aishu5.com/ph/all7_{{page}}.html",
+        "lastUpdateTime": 1666366644014,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "class.review@text",
+            "lastChapter": "tag.p.5@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes##第.+章.*",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##第.+节.*",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.review@text",
+            "lastChapter": "",
+            "name": "class.title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.p.1@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "kind": "tag.p.1@text",
+            "lastChapter": "tag.p.2@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "div.directoryArea@p",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "class.right@a@href",
+            "updateTime": "class.synopsisArea_detail@tag.p.2atext"
+        },
+        "searchUrl": "http://m.aishu5.com/s.php,{\n\t\"charset\":\"\",\n\t\"method\":\"POST\",\n\t\"body\":\"keyword={{key}}&t=1\"\n\t} ",
+        "weight": 0
+    }
+]

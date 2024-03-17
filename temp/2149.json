@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "普通",
+        "bookSourceName": "斗罗大陆网553wx",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.553wx.com",
+        "customOrder": -156,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1/{{page}}\n武侠修真::/sort/2/{{page}}\n都市言情::/sort/3/{{page}}\n历史军事::/sort/4/{{page}}\n网游竞技::/sort/5/{{page}}\n科幻未来::/sort/6/{{page}}\n恐怖灵异::/sort/7/{{page}}\n其他类型::/sort/8/{{page}}\n全部小说::/sort/{{page}}/\n                        排行榜单                        ::\n周点击榜::/rank/weekvisit/\n月点击榜::/rank/monthvisit/\n总点击榜::/rank/allvisit/\n总收藏榜::/rank/goodnum/\n完本小说::/quanben/sort/{{page}}/",
+        "lastUpdateTime": 1616464730999,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "class.bookchaptermore@href",
+            "wordCount": "class.book-cell@tag.p.3@text"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "nextContentUrl": "id.next_url@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.dd.1@tag.a@text",
+            "bookList": "class.content@tag.dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@data-original",
+            "intro": "tag.dd.0@text",
+            "kind": "tag.dd.1@tag.span.0@text",
+            "name": "tag.dt@tag.a.0@text",
+            "wordCount": "tag.dd.1@tag.span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.ul@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "http://m.553wx.com/search1c85.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

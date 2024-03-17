@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "W",
+        "bookSourceName": "E小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.eexiaoshuo.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1616906205396,
+        "ruleBookInfo": {
+            "intro": "id.intro@p!1@textNodes",
+            "lastChapter": "##>最新章节[^>]+?>([^<]+)</[\\s\\S]+?最后更新：([^<]+)</##$1•$2###"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "##作者：([^<]+)</##$1###",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p.-1@text",
+            "kind": "##分类：([^<]+)</##$1###",
+            "lastChapter": "class.update@a@text",
+            "name": "h4@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s.php?ie=gbk&q={{key}},{\n\"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

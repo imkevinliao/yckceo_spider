@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "发现这个网站电脑版搜索好像用不了了，做了一个手机版的，请求头随便复制了一个自制去晋江感谢文字间『』。",
+        "bookSourceGroup": "📖  小说,验",
+        "bookSourceName": "小小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xiaoxs.com",
+        "customOrder": 289,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n}",
+        "lastUpdateTime": 1645445607984,
+        "respondTime": 20905,
+        "ruleBookInfo": {
+            "author": ".author@tag.a@text",
+            "coverUrl": ".detail@tag.img@src",
+            "intro": ".intro@text",
+            "kind": ".detail@tag.p.2@tag.a@text&&.detail@tag.p.2@tag.span.0@text&&class.update@tag.p.-1@text##.*：",
+            "lastChapter": ".update@tag.a@text&&class.update@tag.p.-1@text\n##最后更新：|更新(于|至)|.*卷.|正文.|.*目录.|.*章节|(更|最)新|时间|卷\\d.|\\d{2}:.*|求.*\\(.*\\)|…|（|）|(:|：)|\\(|.*Chapter|\\)|。|连载|\\n|T\n@js:result.replace(/、/,'.').replace(/正文\\s/,'').replace(/.*(第\\d{1,}章).*章(.*)/,'$1$2').replace(/.*(第.*章)(.*)/,'◆$1◆$2').replace(/(\\d{2,4}-\\d{2}.*)/,'⌚$1').replace(/(.*)，\\s*/,'$1').replace(/-\\s(\\d{2,4}-\\d{2}.*)/,'$1')",
+            "name": ".name@text",
+            "tocUrl": "text.查看目录@href",
+            "wordCount": ".detail@tag.p.2@tag.span.1@text"
+        },
+        "ruleContent": {
+            "content": ".content@html##『([^『』\\r\\n]*)』##$1",
+            "sourceRegex": "##.*感谢投出.*的小天使.*|.*感谢.*营养液.*|感谢灌溉营养液的小天使：.*|感谢在\\d{4}-.*|.*期间为我投出霸王票或灌溉营养液的小天使.*|感谢.*小天使.*支持.*|.*扔了.*(手榴弹|地雷|火箭炮).*|.*感谢.*投.*(手榴弹|地雷|火箭炮).*|.*感谢.*的支持.*|.*更多精彩内容.*连城.*|.*(\\d)+；|.*扔了.*(手榴弹|营养液|地雷|浅水炸弹|深水炸弹|深水鱼雷|火箭炮|投雷).*时间:\\d{4}.*|投掷时间:\\d{4}.*|.*,灌溉营养液.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".author@textNodes",
+            "bookList": ".list@tag.a",
+            "bookUrl": "@href",
+            "checkKeyWord": "游戏",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@text",
+            "kind": ".author@span@text",
+            "lastChapter": "@href##/xiaoxs_(.*).html##https://m.xiaoxs.com/xiaoxs_$1.html###<js>java.ajax(result)\n</js>class.update@tag.a@text&&class.update@tag.p.-1@text\n##最后更新：|更新(于|至)|.*卷.|正文.|.*目录.|.*章节|(更|最)新|时间|卷\\d.|\\d{2}:.*|求.*\\(.*\\)|…|（|）|(:|：)|\\(|.*Chapter|\\)|。|连载|\\n|T\n@js:result.replace(/、/,'.').replace(/正文\\s/,'').replace(/.*(第\\d{1,}章).*章(.*)/,'$1$2').replace(/.*(第.*章)(.*)/,'◆$1◆$2').replace(/(\\d{2,4}-\\d{2}.*)/,'⌚$1').replace(/(.*)，\\s*/,'$1').replace(/-\\s(\\d{2,4}-\\d{2}.*)/,'$1')",
+            "name": ".bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": ".read@tag.a",
+            "chapterName": "@text\n##最后更新：|更新(于|至)|.*卷.|正文.|.*目录.|.*章节|(更|最)新|时间|卷\\d.|\\d{2}:.*|求.*\\(.*\\)|…|（|）|(:|：)|\\(|.*Chapter|\\)|。|连载|\\n|T\n@js:result.replace(/、/,'.').replace(/正文\\s/,'').replace(/.*(第\\d{1,}章).*章(.*)/,'$1$2').replace(/.*(第.*章)(.*)/,'◆$1◆$2').replace(/(\\d{2,4}-\\d{2}.*)/,'⌚$1').replace(/(.*)，\\s*/,'$1').replace(/-\\s(\\d{2,4}-\\d{2}.*)/,'$1')",
+            "chapterUrl": "@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.xiaoxs.com/search.html,{\n'method': 'POST',\n'body': 'searchkey={{key}}'\n}",
+        "weight": 0
+    }
+]

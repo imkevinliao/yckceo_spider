@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceUrl": "http://wap.qiliuxs.com",
+        "bookSourceType": "0",
+        "bookSourceName": "7766小说网18",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://wap.qiliuxs.com/s.php?keyword={{key}}",
+        "exploreUrl": "周榜::http://wap.qiliuxs.com/ph/week.html",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1617891699524,
+        "ruleSearch": {
+            "bookList": "class.recommend mybook@tag.div!0",
+            "name": "class.title@text",
+            "author": "class.author.0@text",
+            "lastChapter": "class.author.1@text",
+            "bookUrl": "@tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.hot_sale",
+            "name": "class.title@text",
+            "author": "class.author@text",
+            "intro": "class.review@text",
+            "coverUrl": "class.lazy@src",
+            "bookUrl": "@a@href"
+        },
+        "ruleBookInfo": {
+            "name": "class.title@text",
+            "author": "class.author@text##作者：",
+            "kind": "class.sort@text##类别：",
+            "tocUrl": "class.recommend@tag.h2.1@tag.a@href"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.p!0",
+            "chapterName": "@a@text",
+            "chapterUrl": "@a@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes",
+            "nextContentUrl": "id.pt_next@text.下一页@href"
+        }
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bqg11.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1647957129133,
+        "respondTime": 2921,
+        "ruleBookInfo": {
+            "author": "tag.p.0@text",
+            "coverUrl": "tag.img@href",
+            "intro": "class.intro@text",
+            "kind": "tag.a.3@text",
+            "lastChapter": "tag.a.4@text",
+            "name": "tag.h1@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.fs12 gray.0@text##阅读.*",
+            "bookList": "class.list-item",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.a@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.even",
+            "chapterName": "tag.li@tag.a@text",
+            "chapterUrl": "tag.li@tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.bqg11.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n'charset': 'gbk'}\n",
+        "weight": 0
+    }
+]

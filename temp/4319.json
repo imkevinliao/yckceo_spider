@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceName": "uu小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.uuxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "exploreUrl": "热门::https://www.uuxs.com/rmxs/{{page}}.html\n玄幻::https://www.uuxs.com/xuanhuan/{{page}}.html\n武侠::https://www.uuxs.com/wuxia/{{page}}.html\n都市::https://www.uuxs.com/dushi/{{page}}.html\n历史::https://www.uuxs.com/lishi/{{page}}.html\n网游::https://www.uuxs.com/wangyou/{{page}}.html\n科幻::https://www.uuxs.com/kehuan/{{page}}.html\n轻小说::https://www.uuxs.com/qing/{{page}}.html\n辣文::https://www.uuxs.com/lawen/{{page}}.html",
+        "jsLib": "",
+        "lastUpdateTime": 1698167442018,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.justify-start@a@text",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "class.col-span-2 sm:col-auto@p@text",
+            "kind": "text.類型：@text##類型：",
+            "lastChapter": "text.最新章節：@text##最新章節：",
+            "name": "h1.1@text",
+            "tocUrl": "id.catalog@class.text-red-500@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": "class.py-3 dark:text-slate-300",
+            "bookUrl": "a.0@href",
+            "intro": "class.text-justify@text",
+            "kind": "a.1@text",
+            "lastChapter": "div.-1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.py-3 dark:text-slate-300",
+            "bookUrl": "a.0@href",
+            "intro": "p@text",
+            "kind": "a.1@text",
+            "lastChapter": "div.-1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.catalog@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "formatJs": ""
+        },
+        "searchUrl": "https://www.uuxs.com/search/book.html?wd={{key}}",
+        "weight": 0
+    }
+]

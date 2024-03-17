@@ -1,0 +1,69 @@
+[
+    {
+        "bookSourceComment": "修正补全",
+        "bookSourceGroup": "🍁发现,优化,自用,📖小说",
+        "bookSourceName": "999小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.x999xs.com",
+        "bookUrlPattern": "",
+        "customOrder": 30,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/xuanhuan/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真小说\",\"url\":\"/xiuzhen/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/dushi/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史小说\",\"url\":\"/lishi/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游小说\",\"url\":\"/wangyou/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/kehuan/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情小说\",\"url\":\"/yanqing/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其它小说\",\"url\":\"/qita/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完结小说\",\"url\":\"/quanben/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "",
+        "lastUpdateTime": 1681898297546,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content||class.block_txt2@tag.p.2@text||class.info@tag.span.0@text",
+            "coverUrl": "[property$=image]@content||class.block_img2@img@src||class.bookimg@img@src",
+            "init": "",
+            "intro": "class.intro_info@ownText||class.book-intro@textNodes",
+            "kind": "[property~=category|status|update_time]@content||class.block_txt2@tag.p.3:4:5@text||class.info@tag.span.1:2:3:4@text##.*：|\\s.*",
+            "lastChapter": "class.block_txt2@tag.p.-1@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "[property$=book_name]@content||class.block_txt2@h2@text||class.bookname@text",
+            "tocUrl": "text.查看目录@href||text.全部章节@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.nr_nr@html##{{book.name}}|{{title}}|第[\\s\\S]{1,5}章.*|(?i)[m\\.999xs\\.net]{5,}",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##你是天才，一秒记住.*|您可以在.*最新章节！",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "class.author@text||a.2@text",
+            "bookList": ".cover@tag.p||class.list@tag.li||class.bookbox",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro_line@ownText",
+            "kind": "",
+            "lastChapter": "class.update@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "a.1@text",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text||a.2@text",
+            "bookList": ".cover@tag.p||class.list@tag.li||class.bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "class.intro_line@ownText",
+            "kind": "",
+            "lastChapter": "class.update@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "a.1@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一@href"
+        },
+        "searchUrl": "https://m.x999xs.com/search.php?keyword={{key}}&submit=",
+        "weight": 0
+    }
+]

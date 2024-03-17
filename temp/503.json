@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "By~缨.",
+        "bookSourceGroup": "By~缨.",
+        "bookSourceName": "吉吉小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.jywlkj05.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1647965992960,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content&&\n[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "#rd-txt p@textNodes##https:///.*?html|天才一秒记住本站地址.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".book-author@text",
+            "bookList": ".book-li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".book-desc@text",
+            "kind": "em!-1@text",
+            "lastChapter": "",
+            "name": "img@alt"
+        },
+        "ruleToc": {
+            "chapterList": ".novel-text-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/so/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"post\"\n}",
+        "weight": 0
+    }
+]

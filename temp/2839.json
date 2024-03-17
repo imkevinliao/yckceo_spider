@@ -1,0 +1,30 @@
+[
+    {
+        "bookSourceGroup": "普通",
+        "bookSourceName": "就爱找小说",
+        "bookSourceUrl": "https://www.92zhao.com",
+        "enable": true,
+        "ruleBookAuthor": "class.mr30@tag.a@span@text",
+        "ruleBookContent": "class.size16 color5 pt-read-text@html",
+        "ruleBookKind": "class.fl pt-bookdetail-info@tag.span.2@tag.a@tag.span@text",
+        "ruleBookLastChapter": "class.fl pt-bookdetail-info@tag.a.3@tag.span@text",
+        "ruleBookName": "class.size24  mr20 novelname@tag.a@text",
+        "ruleChapterList": "class.pt-chapter-cont-detail full@tag.a",
+        "ruleChapterName": "tag.a@span@text",
+        "ruleChapterUrl": "",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "class.pt-bookdetail.0@tag.a@img@src",
+        "ruleIntroduce": "class.compulsory-row-three pt-bookdetail-intro@text",
+        "ruleSearchAuthor": "class.mr30.0@a@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchIntroduce": "class.compulsory-row fl w100 color5 desc@html",
+        "ruleSearchKind": "class.fl color7@tag.span.2@a@text",
+        "ruleSearchLastChapter": "class.color2 mr20@text",
+        "ruleSearchList": "class.pt-rank-detail",
+        "ruleSearchName": "class.fl mr60@tag.a@text",
+        "ruleSearchNoteUrl": "class.fl mr60@tag.a@href",
+        "ruleSearchUrl": "https://www.92zhao.com/search.html?searchkey=searchKey",
+        "serialNumber": 1,
+        "weight": 0
+    }
+]

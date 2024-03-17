@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔞",
+        "bookSourceName": "宝文吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.baowen8.com",
+        "bookUrlPattern": "https://www.baowen8.com/book/\\d+",
+        "customOrder": 213,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "耽美::/category/1/{{page}}.html\n言情::/category/4/{{page}}.html\n辣文::/category/2/{{page}}.html\n百合::/category/5/{{page}}.html\n种田::/category/13/{{page}}.html\n科幻::/category/18/{{page}}.html\n玄幻::/category/8/{{page}}.html\n都市::/category/16/{{page}}.html\n修真::/category/9/{{page}}.html\n穿越::/category/17/{{page}}.html\n私密::/category/6/{{page}}.html\n高干::/category/10/{{page}}.html\n腹黑::/category/11/{{page}}.html\n网游::/category/15/{{page}}.html\n其他::/category/3/{{page}}.html",
+        "lastUpdateTime": 1606956329772,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content##https://www.baowen8.comhttp##http",
+            "intro": "[property=og:description]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=og:novel:lastest_chapter_name]@content",
+            "name": "class.title@text",
+            "tocUrl": "class.sectionTwo-bottom.1@href",
+            "wordCount": "[property=\"og:novel:update_time\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.C0NTENT@tag.p@textNodes",
+            "nextContentUrl": "class.RBGsectionTwo-right@href"
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text",
+            "bookList": "class.CGsectionTwo-right-content-unit",
+            "bookUrl": "class.read@href",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "tag.p.2@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.SHsectionThree-middle.-1@tag.p",
+            "bookUrl": "tag.a.1@href",
+            "kind": "tag.a.0@text",
+            "name": "tag.span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top-chapter",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href##$##$,{\"webView\":true}",
+            "nextTocUrl": "@js:var n=String(result).match(/第<span>1<\\/span>\\/<span>(.*?)<\\/span>/)[1];\nlist=[]\nif(n==1){\nlist;}else{\nfor(i=2;i<=n;i++){\nlist.push(baseUrl+i+\".html\")\n};}\nlist"
+        },
+        "searchUrl": "/search/{{key}}",
+        "weight": 0
+    }
+]

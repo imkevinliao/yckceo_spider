@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "gone",
+        "bookSourceGroup": "gone",
+        "bookSourceName": "达文小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.dawen.org",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1646919657758,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "&nbsp;最近更新：{{@[property=\"og:novel:update_time\"]@content&&p.jj_con@text}}##{{\"阅读\"+book.name+\".*\"}}",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加假].*?[】）\\)]",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "a.mulu@href##$##,{'webView': true}",
+            "wordCount": ".inf02 p.1@text##.+："
+        },
+        "ruleContent": {
+            "content": "dd p!-1@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "span a[title]@text",
+            "bookList": ".result li",
+            "bookUrl": "h3 a@href",
+            "coverUrl": "img@data-original",
+            "kind": "span a[target]@text&&span.2@text&&.right span@text##.+：",
+            "lastChapter": "p a[title][target]@text##[\\(（【].*?[求更谢乐发订合补加假].*?[】）\\)]",
+            "name": "h3 a@text",
+            "wordCount": "span.3@text##.+："
+        },
+        "ruleToc": {
+            "chapterList": "#chapter a",
+            "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加假].*?[】）\\)]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n\"method\": \"POST\",\n\"body\": \"key={{key}}\"\n}",
+        "weight": 0
+    }
+]

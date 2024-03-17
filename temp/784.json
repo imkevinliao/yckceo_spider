@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎨漫画",
+        "bookSourceName": "🎨 18禁漫",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://www.18mh.cc",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 461,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "连载::/index-html-status-1-typeid-0-sort-pubtime?&page={{page}}\n完结::/index-html-status-2-typeid-0-sort-pubtime?&page={{page}}",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+        "lastUpdateTime": 1675019922182,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 154213,
+        "ruleBookInfo": {
+            "author": "class.mh-detail@tag.p.0@text##漫畫作者：",
+            "coverUrl": "class.mh-detail@tag.img@data-url",
+            "kind": "class.mh-detail@tag.a.2@text",
+            "lastChapter": "class.mh-detail@tag.a.0@tag.em@text"
+        },
+        "ruleContent": {
+            "content": "class.e.0@tag.img@html",
+            "imageStyle": "FULL",
+            "nextContentUrl": "text.下一頁.0@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.liemh htmls indliemh@tag.li",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "tag.img@data-url",
+            "intro": "tag.font@text",
+            "name": "class.tit@text"
+        },
+        "ruleToc": {
+            "chapterList": "+class.b1.0@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search-index?searchType=1&q={{key}}",
+        "weight": 0
+    }
+]

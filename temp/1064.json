@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "九二文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.92wx.la/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1628557459763,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.p_author@text",
+            "coverUrl": "id.bookimg@tag.img@src",
+            "init": "",
+            "intro": "class.d2@text",
+            "kind": "class.pd_r.0:3@text",
+            "lastChapter": "id.newlist@tag.li.0@a@text",
+            "name": "class.d_title@tag.h1@text",
+            "tocUrl": "class.li2@tag.a@href",
+            "wordCount": "class.pd_r.2@text"
+        },
+        "ruleContent": {
+            "content": "id.ccontent@html##最新网址：.*",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "class.odd.0@a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "class.even.2@text&&class.odd.2@text",
+            "lastChapter": "class.even.0@a@text",
+            "name": "class.odd.0@a@text",
+            "wordCount": "class.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.mread row@td",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.92wx.la/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&t_btnsearch=%EE%B8%A8\"\n}",
+        "weight": 0
+    }
+]

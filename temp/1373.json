@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "我的书源",
+        "bookSourceName": "搜索时会跳转到主页，求大佬修复",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bookxml.com/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "header": "",
+        "lastUpdateTime": 1676651219752,
+        "respondTime": 12705,
+        "ruleBookInfo": {
+            "author": "class.info col-lg-9 col-md-9 col-sm-9 col-xs-8@tag.table@tag.tbody@tag.tr.1@text",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.info col-lg-9 col-md-9 col-sm-9 col-xs-8@tag.table@tag.tbody@tag.tr.0@text",
+            "lastChapter": "class.infowell col-lg-11 hidden-xs@p.0@a@text",
+            "name": "class.info col-lg-9 col-md-9 col-sm-9 col-xs-8@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": "class.page hidden-xs hidden-sm@a.2@href",
+            "sourceRegex": ""
+        },
+        "ruleSearch": {
+            "author": "class.col-md-2 col-sm-4 col-xs-4@text",
+            "bookList": "tbody tr",
+            "bookUrl": "class.col-md-2 col-sm-6 col-xs-8@a@href",
+            "checkKeyWord": "1980",
+            "lastChapter": "class.col-md-6 hidden-sm hidden-xs@a@text",
+            "name": ".col-md-2 a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-group-item col-lg-3 col-md-3 col-sm-4 col-xs-6 book",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search.php,{\n    \"method\": \"POST\",\n    \"body\": \"search={{key}}\",\n    \"headers\": {\"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safari/9537.53\"}\n}\n",
+        "weight": 0
+    }
+]

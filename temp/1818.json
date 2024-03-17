@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "目录加载慢",
+        "bookSourceGroup": "🏙 青灯",
+        "bookSourceName": "🗃 完本神站[手机端]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xinwanben.com",
+        "bookUrlPattern": "",
+        "customOrder": -100,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "               【            男           频            】            ::\n搜索:https://m.xinwanben.com/hot/szss_{{page}}.html\n阅读::https://m.xinwanben.com/top-1-allvisit-{{page}}.html\n收藏::https://m.xinwanben.com/top-1-goodnum-{{page}}.html\n推荐::https://m.xinwanben.com/top-1-allvote-{{page}}.html\n玄幻小说::https://m.xinwanben.com/all/1_allvisit_0_0_{{page}}.html\n奇幻小说::https://m.xinwanben.com/all/2_allvisit_0_0_{{page}}.html\n武侠小说::https://m.xinwanben.com/all/3_allvisit_0_0_{{page}}.html\n仙侠小说::https://m.xinwanben.com/all/4_allvisit_0_0_{{page}}.html\n都市小说::https://m.xinwanben.com/all/5_allvisit_0_0_{{page}}.html\n军事小说::https://m.xinwanben.com/all/6_allvisit_0_0_{{page}}.html\n历史小说::https://m.xinwanben.com/all/7_allvisit_0_0_{{page}}.html\n游戏小说::https://m.xinwanben.com/all/8_allvisit_0_0_{{page}}.html\n竞技小说::https://m.xinwanben.com/all/9_allvisit_0_0_{{page}}.html\n科幻小说::https://m.xinwanben.com/all/10_allvisit_0_0_{{page}}.html\n悬疑小说::https://m.xinwanben.com/all/11_allvisit_0_0_{{page}}.html\n灵异小说::https://m.xinwanben.com/all/12_allvisit_0_0_{{page}}.html\n其他小说::https://m.xinwanben.com/all/13_allvisit_0_0_{{page}}.html\n\n               【            女           频            】            ::\n阅读::https://m.xinwanben.com/top-2-allvisit-{{page}}.html\n收藏::https://m.xinwanben.com/top-2-goodnum-{{page}}.html\n推荐::https://m.xinwanben.com/top-2-allvote-{{page}}.html\n古代言情::https://m.xinwanben.com/all/14_allvisit_0_0_{{page}}.html\n仙侠奇缘::https://m.xinwanben.com/all/15_allvisit_0_0_{{page}}.html\n现代言情::https://m.xinwanben.com/all/16_allvisit_0_0_{{page}}.html\n浪漫青春::https://m.xinwanben.com/all/17_allvisit_0_0_{{page}}.html\n玄幻言情::https://m.xinwanben.com/all/18_allvisit_0_0_{{page}}.html\n悬疑灵异::https://m.xinwanben.com/all/19_allvisit_0_0_{{page}}.html\n科幻空间::https://m.xinwanben.com/all/20_allvisit_0_0_{{page}}.html\n游戏竞技::https://m.xinwanben.com/all/21_allvisit_0_0_{{page}}.html\nBL文::https://m.xinwanben.com/all/22_allvisit_0_0_{{page}}.html\nGL文::https://m.xinwanben.com/all/23_allvisit_0_0_{{page}}.html\n二次元::https://m.xinwanben.com/all/24_allvisit_0_0_{{page}}.html\n",
+        "header": "",
+        "lastUpdateTime": 1621459406532,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.bookPhrMid@tag.p.0@text##作者：",
+            "coverUrl": "class.detailTopLeft@img@src",
+            "intro": "class.bookInfo@tag.span@text",
+            "kind": "class.state@tag.span.0@text&&class.star@text&&class.bookPhrMid@tag.p.2@text##类型：",
+            "lastChapter": "class.otherTitle@tag.a@text",
+            "name": "class.bookPhr@tag.h2@text",
+            "tocUrl": "class.category@tag.a.-1@href",
+            "wordCount": "class.state@tag.span.1@text"
+        },
+        "ruleContent": {
+            "content": "class.raderCon@textNodes",
+            "nextContentUrl": "",
+            "replaceRegex": "##(Wanbentxt|.*手机访问.*\\n|.*谨记我们的网址.*|.*手机阅读地址.*\\n|p1.*\\n|.*完.*本.*神.*站.*|第.{0,10}章.*\\n)"
+        },
+        "ruleExplore": {
+            "author": "h5@text",
+            "bookList": "class.listBottom@a",
+            "bookUrl": "href",
+            "coverUrl": "tag.li@tag.img@src",
+            "intro": "p@text",
+            "name": "h4@text"
+        },
+        "ruleSearch": {
+            "author": "h5@text",
+            "bookList": "class.listBottom@tag.ul@a",
+            "bookUrl": "href",
+            "coverUrl": "tag.li@tag.img@src",
+            "intro": "p@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapterList@tag.ul@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.xinwanben.com/s21041001.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

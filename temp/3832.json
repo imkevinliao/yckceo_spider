@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "速读谷",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.sudugu.com",
+        "bookUrlPattern": "https://www.sudugu.com/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuan/<,{{page}}.html>\n仙侠小说::/xianxia/<,{{page}}.html>\n都市小说::/dushi/<,{{page}}.html>\n历史小说::/lishi/<,{{page}}.html>\n科幻小说::/kehuan/<,{{page}}.html>\n奇幻小说::/qihuan/<,{{page}}.html>\n重生小说::/chongsheng/<,{{page}}.html>\n军事小说::/junshi/<,{{page}}.html>\n游戏小说::/youxi/<,{{page}}.html>\n轻小说::/qing/<,{{page}}.html>\n武侠小说::/wuxia/<,{{page}}.html>\n诸天无限::/zhutianwuxian/<,{{page}}.html>\n悬疑小说::/xuanyi/<,{{page}}.html>\n言情小说::/yanqing/<,{{page}}.html>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691146819199,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".itemtxt p.1@text",
+            "coverUrl": ".item img@src",
+            "intro": ".des.0@text",
+            "kind": ".itemtxt span@text",
+            "lastChapter": ".itemtxt li.0@text",
+            "name": "h1 a@text",
+            "wordCount": "h1 i@text"
+        },
+        "ruleContent": {
+            "content": ".con@html",
+            "nextContentUrl": "text.下一页@href##$##,{'webView': true}"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": "span@text",
+            "lastChapter": "li.0@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list li a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.sudugu.com/i/sor.aspx?key={{key}}",
+        "weight": 0
+    }
+]

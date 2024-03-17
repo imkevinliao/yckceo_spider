@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4094.1 Safari/537.36\"\n}",
+        "bookSourceGroup": "漫画，现实debug",
+        "bookSourceName": "733漫画",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://www.733.so",
+        "bookUrlPattern": "",
+        "customOrder": -38130,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部::https://www.733.so/all/{{page}}.html\n完结::https://www.733.so/mh/wanjie/{{page}}.html\n连载::https://www.733.so/mh/lianzai/{{page}}.html\n热血::https://www.733.so/mh/rexue/{{page}}.html\n格斗::https://www.733.so/mh/gedou/{{page}}.html\n科幻::https://www.733.so/mh/kehuan/{{page}}.html\n竞技::https://www.733.so/mh/jingji/{{page}}.html\n搞笑::https://www.733.so/mh/gaoxiao/{{page}}.html\n推理::https://www.733.so/mh/tuili/{{page}}.html\n恐怖::https://www.733.so/mh/kongbu/{{page}}.html\n耽美::https://www.733.so/mh/danmei/{{page}}.html\n少女::https://www.733.so/mh/shaonv/{{page}}.html\n恋爱::https://www.733.so/mh/lianai/{{page}}.html\n生活::https://www.733.so/mh/shenghuo/{{page}}.html\n战争::https://www.733.so/mh/zhanzheng/{{page}}.html\n故事::https://www.733.so/mh/gushi/{{page}}.html\n冒险::https://www.733.so/mh/maoxian/{{page}}.html\n魔幻::https://www.733.so/mh/mohuan/{{page}}.html\n玄幻::https://www.733.so/mh/xuanhuan/{{page}}.html\n校园::https://www.733.so/mh/xiaoyuan/{{page}}.html\n悬疑::https://www.733.so/mh/xuanyi/{{page}}.html\n萌系::https://www.733.so/mh/mengxi/{{page}}.html\n穿越::https://www.733.so/mh/chuanyue/{{page}}.html\n后宫::https://www.733.so/mh/hougong/{{page}}.html\n都市::https://www.733.so/mh/dushi/{{page}}.html\n全部::https://www.733.so/mh/all/{{page}}.html\n武侠::https://www.733.so/mh/wuxia/{{page}}.html\n历史::https://www.733.so/mh/lishi/{{page}}.html\n同人::https://www.733.so/mh/tongren/{{page}}.html\n励志::https://www.733.so/mh/lizhi/{{page}}.html\n百合::https://www.733.so/mh/baihe/{{page}}.html\n治愈::https://www.733.so/mh/zhiyu/{{page}}.html\n机甲::https://www.733.so/mh/jijia/{{page}}.html\n纯爱::https://www.733.so/mh/chunai/{{page}}.html\n血腥::https://www.733.so/mh/xuexing/{{page}}.html\n僵尸::https://www.733.so/mh/jiangshi/{{page}}.html\n恶搞::https://www.733.so/mh/egao/{{page}}.html\n虐心::https://www.733.so/mh/nuexin/{{page}}.html\n动作::https://www.733.so/mh/dongzuo/{{page}}.html\n惊险::https://www.733.so/mh/jingxian/{{page}}.html\n唯美::https://www.733.so/mh/weimei/{{page}}.html\n震撼::https://www.733.so/mh/zhenhan/{{page}}.html\n复仇::https://www.733.so/mh/fuchou/{{page}}.html\n侦探::https://www.733.so/mh/zhentan/{{page}}.html\n脑洞::https://www.733.so/mh/naodong/{{page}}.html\n奇幻::https://www.733.so/mh/qihuan/{{page}}.html\n宫斗::https://www.733.so/mh/gongdou/{{page}}.html\n爆笑::https://www.733.so/mh/baoxiao/{{page}}.html\n运动::https://www.733.so/mh/yundong/{{page}}.html\n青春::https://www.733.so/mh/qingchun/{{page}}.html\n灵异::https://www.733.so/mh/lingyi/{{page}}.html\n古风::https://www.733.so/mh/gufeng/{{page}}.html\n权谋::https://www.733.so/mh/quanmou/{{page}}.html\n节操::https://www.733.so/mh/jiecao/{{page}}.html\n明星::https://www.733.so/mh/mingxing/{{page}}.html\n暗黑::https://www.733.so/mh/anhei/{{page}}.html\n社会::https://www.733.so/mh/shehui/{{page}}.html\n浪漫::https://www.733.so/mh/langman/{{page}}.html\n栏目::https://www.733.so/mh/lanmu/{{page}}.html\n仙侠::https://www.733.so/mh/xianxia/{{page}}.html\n日韩::https://www.733.so/mh/riben/{{page}}.html\n内地::https://www.733.so/mh/guochan/{{page}}.html\n港台::https://www.733.so/mh/gangntai/{{page}}.html\n欧美::https://www.733.so/mh/oumei/{{page}}.html\n其他::https://www.733.so/mh/qita/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1661955542397,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.cy_xinxi.0@tag.a.0@text",
+            "intro": "id.comic-description@text",
+            "kind": "class.cy_xinxi.0@tag.font@text&&class.cy_xinxi.1@tag.a.0@text",
+            "lastChapter": "class.cy_zhangjie_top@tag.a.0@text"
+        },
+        "ruleContent": {
+            "content": "@js:\na=result.match(/qTcms_S_m_murl_e=\".*?(?=\")/)[0].replace('qTcms_S_m_murl_e=\"',\"\")\na1=result.match(/qTcms_S_m_id=\".*?(?=\")/)[0].replace('qTcms_S_m_id=\"',\"\")\na2=result.match(/qTcms_S_p_id=\".*?(?=\")/)[0].replace('qTcms_S_p_id=\"',\"\")\nb=java.base64Decode(a)\nc=String(b).split(\"$qingtiandy$\")\nvar myDate = new Date();\nlist=[]\nfor(i=0;i<c.length;i++){\nd=myDate.getTime().toFixed()\ne=c[i]+\"|\"+d+\"|\"+a1+\"|\"+a2+\"|pc\"\nf=java.base64Encode(e)\nlist.push('<img src=\"https://api.733.so/newfile.php?data='+f+'\" />')\n}\nString(list).replace(new RegExp(\",\",\"gi\"),\"\")"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "class.cy_list@tag.ul",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "候补",
+            "coverUrl": "tag.img@src",
+            "kind": "class.zuozhe@text##状态：",
+            "lastChapter": "class.updata@tag.span@text",
+            "name": "class.title@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "-id.mh-chapter-list-ol-0@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.733.so/statics/search.aspx?key={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

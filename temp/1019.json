@@ -1,0 +1,29 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "新笔趣阁手机版",
+        "bookSourceUrl": "https://m.xquge.com",
+        "enable": false,
+        "ruleBookContent": "class.read-section jsChapterWrapper@p@textNodes",
+        "ruleBookKind": "class.info@li@a@text&&class.info@tag.li.2@text#状态：",
+        "ruleBookLastChapter": "class.newChapter@tag.li.0@a@textNodes",
+        "ruleBookUrlPattern": "",
+        "ruleChapterList": "class.catalog_ls@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "class.pull-right@a@href",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.bg@img@src",
+        "ruleFindUrl": "最新更新::https://m.xquge.com/book/top/update.html\n最新入库::https://m.xquge.com/book/top/overs.html\n总人气榜::https://m.xquge.com/book/top/all.htm\n总收藏榜::https://m.xquge.com/book/top/bookcard.html\n阅读人数::https://m.xquge.com/book/top/readnum.html\n总点击榜::https://m.xquge.com/book/top/month.html\n完结热榜::https://m.xquge.com/book/top/overs.html\n男生热榜::https://m.xquge.com/book/top/cate1.html\n女生热榜::https://m.xquge.com/book/top/cate2.html\n男生小说::https://m.xquge.com/category/1.html?status=\n玄幻奇幻::https://m.xquge.com/category/1001.html?status=\n科幻小说::https://m.xquge.com/category/1002.html?status=\n都市生活::https://m.xquge.com/category/1003.html?status=\n仙侠修真::https://m.xquge.com/category/1004.html?status=\n武侠小说::https://m.xquge.com/category/1005.html?status=\n悬疑推理::https://m.xquge.com/category/1006.html?status=\n游戏竞技::https://m.xquge.com/category/1007.html?status=\n军事历史::https://m.xquge.com/category/1008.html?status=\n女生小说::https://m.xquge.com/category/1.html?status=\n古代言情::https://m.xquge.com/category/2000.html?status=\n现代言情::https://m.xquge.com/category/2001.html?status=\n玄幻言情::https://m.xquge.com/category/2002.html?status=\n仙侠奇缘::https://m.xquge.com/category/2003.html?status=\n青春浪漫::https://m.xquge.com/category/2004.html?status=\n科幻空间::https://m.xquge.com/category/2005.html?status=",
+        "ruleIntroduce": "class.body@textNodes",
+        "ruleSearchAuthor": "class.author@text|class.col.0@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchIntroduce": "class.text@text",
+        "ruleSearchKind": "label@text",
+        "ruleSearchList": "class.item",
+        "ruleSearchName": "class.title@span@textNodes|class.title@textNodes",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://m.xquge.com/Book/search.html?key=searchKey&p_reload=1",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

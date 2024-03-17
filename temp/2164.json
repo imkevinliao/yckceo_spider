@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "再修补\n#class.sbintro\n#class.bbox\n#class.chapters\n#class.zw",
+        "bookSourceGroup": "📚 出版",
+        "bookSourceName": "📚 小说天堂",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xstt5.com/",
+        "bookUrlPattern": ".+/(\\d+/)$",
+        "customOrder": 81,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "文学名著::/mingzhu/index<,_{{page}}>.html\n现代小说::/dangdai/index<,_{{page}}>.html\n世界名著::/waiwen/index<,_{{page}}>.html\n儿童文学::/ertong/index<,_{{page}}>.html\n古典名著::/gudian/index<,_{{page}}>.html\n散文随笔::/sanwen/index<,_{{page}}>.html\n青春校园::/qingchun/index<,_{{page}}>.html\n文学评论::/pinglun/index<,_{{page}}>.html\n玄幻小说::/xuanhuan/index<,_{{page}}>.html\n言情小说::/yanqing/index<,_{{page}}>.html\n武侠小说::/wuxia/index<,_{{page}}>.html\n穿越小说::/chuanyue/index<,_{{page}}>.html\n侦探悬疑::/xuanyi/index<,_{{page}}>.html\n科幻小说::/kehuan/index<,_{{page}}>.html\n网游小说::/wangyou/index<,_{{page}}>.html\n人文社科::/renwen/index<,_{{page}}>.html\n人文传记::/zhuanji/index<,_{{page}}>.html\n历史小说::/lishi/index<,_{{page}}>.html\n军事小说::/junshi/index<,_{{page}}>.html\n励志书籍::/lizhi/index<,_{{page}}>.html\n社会科普::/shenghuo/index<,_{{page}}>.html\n杂志合集::/writer/zazhi.html\n杂志合集::/writer/huayu_2.html",
+        "lastUpdateTime": 1616412401382,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.zhaungtai@tag.a.0@text",
+            "coverUrl": "class.img1@src",
+            "init": "",
+            "intro": "id.aboutbook@tag.p!-1@text",
+            "kind": "class.zhaungtai@tag.li!0@text##.+：|txt.+",
+            "lastChapter": "",
+            "name": "tag.h1@text##txt下载",
+            "wordCount": "##<li>字数：(\\d+)##$1###"
+        },
+        "ruleContent": {
+            "content": "class.zw@tag.p@textNodes||class.articlecon@tag.p@textNodes||class.zw@textNodes",
+            "nextContentUrl": "",
+            "replaceRegex": "##(?mi)^([^\\n\\u4e00-\\u9fa5]{0,6}[小说天堂]){4}\\n|.+([^\\n\\w]{0,3}[shuotxtnet]){10}|(?<=\\w：)\\s+(?=“\\w)|(?<=\\w，[”」]|[，、‘《（【［「『])\\s+|\\s+(?=[\\n，、’：；》）】］」』])"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.1@tag.a.0@text",
+            "bookList": "class.sbintro||class.bbox",
+            "bookUrl": "class.sbzp@tag.a.0@href||tag.h3@tag.a.0@href",
+            "coverUrl": "class.bpic@tag.img@src",
+            "intro": "class.tp@textNodes",
+            "kind": "tag.h3@tag.span@text&&class.ex.0@textNodes##\\s*\\S+[：:]##,",
+            "lastChapter": "tag.p.0@tag.a.0@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@tag.table@tag.ul.0@tag.a%%class.chapters@tag.table@tag.ul.1@tag.li@tag.a%%class.chapters@tag.table@tag.ul.2@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/e/search/index.php,{\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\",\n  \"body\": \"show=title&entry=1&keyboard={{key}}&x=20&y=5\"\n}",
+        "weight": 0
+    }
+]

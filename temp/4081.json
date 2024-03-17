@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "//有时候需要关闭精确搜索\n//搜索书名全名",
+        "bookSourceGroup": "🎴 小说,⌨ 自制",
+        "bookSourceName": "🎴 六零看书",
+        "bookSourceType": 2,
+        "bookSourceUrl": "http://www.60ks.cc##旅途",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/bookstore/quanbu/default-0-0-0-0-0-0-{{page}}.html\n玄幻小说::/bookstore/xuanhuan/default-0-0-0-0-0-0-{{page}}.html\n仙侠小说::/bookstore/xianxia/default-0-0-0-0-0-0-{{page}}.html\n都市小说::/bookstore/dushi/default-0-0-0-0-0-0-{{page}}.html\n历史小说::/bookstore/lishi/default-0-0-0-0-0-0-{{page}}.html\n悬疑小说::/bookstore/xuanyi/default-0-0-0-0-0-0-{{page}}.html\n网游小说::/bookstore/wangyou/default-0-0-0-0-0-0-{{page}}.html\n科幻小说::/bookstore/kehuan/default-0-0-0-0-0-0-{{page}}.html\n惊悚小说::/bookstore/jingsong/default-0-0-0-0-0-0-{{page}}.html\n穿越小说::/bookstore/chuanyue/default-0-0-0-0-0-0-{{page}}.html\n同人小说::/bookstore/tongren/default-0-0-0-0-0-0-{{page}}.html",
+        "lastUpdateTime": 1694926997300,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#author@text",
+            "coverUrl": "img@src",
+            "intro": "#bookintro@tag.p@text",
+            "kind": "class.count@tag.span.0@text",
+            "lastChapter": "class.new_t@text##最后更新：",
+            "name": "h1@text",
+            "tocUrl": "",
+            "wordCount": "class.count@tag.span.-1@text"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "imageStyle": "FULL",
+            "replaceRegex": "##\\s*此内容.*?首发|<script>[\\s\\S]+?<\\/script>",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": ".book_other@tag.span.0@text",
+            "bookList": "#sitebox@tag.dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".book_des@text",
+            "kind": ".book_other@tag.span.2@text",
+            "lastChapter": ".book_other@tag.1@text",
+            "name": "img@alt"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h2@text##_(.*?)_##$1###",
+            "bookList": ".b_algo.0",
+            "bookUrl": "h2@a.0@href",
+            "checkKeyWord": "武侠之神级聊天群",
+            "coverUrl": "",
+            "intro": "地址：{{@@h2@a@href}}",
+            "kind": "",
+            "name": "@js:if(\"{{@@cite@text##(www.60ks.cc/ks)##$1###}}\"==\"www.60ks.cc/ks\"){result=\"{{@@h2@text##(_|最新章节|-).*}}\"}else{\nresult=\"\"}"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist@ul@li",
+            "chapterName": "a@text##T|T|Ｔ## (图片文字)<js>##【.*】|加更规则.*|上架感言.*</js>",
+            "chapterUrl": "a@href",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "https://cn.bing.com/search?q={{key}}+60ks.cc",
+        "weight": 0
+    }
+]

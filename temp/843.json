@@ -1,0 +1,28 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "熊猫妖怪小说网",
+        "bookSourceUrl": "http://xmyg.cc",
+        "enable": false,
+        "httpUserAgent": "Mozilla/5.0 (Linux; Android 10; M2007J22C Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36",
+        "ruleBookContent": "class.chapter-preview@p@html#首章.*返回目录",
+        "ruleBookKind": "class.multi@text#·#,",
+        "ruleChapterList": "id.j-catalog-datalist@li@a",
+        "ruleChapterName": "class.title-text@text",
+        "ruleChapterUrl": "",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.cover-wrapper@img@data-src",
+        "ruleFindUrl": "人气榜::http://a.xmyg.cc/index.php/custom/book-hot\n收藏榜::http://a.xmyg.cc/index.php/custom/book-fav\n月票榜::http://a.xmyg.cc/index.php/custom/book-ticket\n打赏榜::http://a.xmyg.cc/index.php/custom/book-gift\n免费小说::http://a.xmyg.cc/index.php/custom/book-free\n男频小说::http://xmyg.cc/index.php/category/list/1",
+        "ruleIntroduce": "class.j-desc-text text@text",
+        "ruleSearchAuthor": "class.comic-author.0@text|class.author@text",
+        "ruleSearchCoverUrl": "img@data-src|img@src",
+        "ruleSearchIntroduce": "class.comic-author.1@text|class.desc@text",
+        "ruleSearchKind": "class.comic-update-at@text|class.tag-item@text|class.group@div!0@text|class.count@text#\\(|\\).*",
+        "ruleSearchList": "class.comic-list-item clearfix|class.story-top__rank-item|ul@li",
+        "ruleSearchName": "class.comic-name@a@text|class.title@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://xmyg.cc/search?key=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

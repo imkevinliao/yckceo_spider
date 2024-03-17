@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "六欲小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.6yu6.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/sort/1-{{page}}.html\n修仙::/sort/2-{{page}}.html\n都市::/sort/3-{{page}}.html\n历史::/sort/4-{{page}}.html\n网游::/sort/5-{{page}}.html\n科幻::/sort/6-{{page}}.html\n言情::/sort/7-{{page}}.html\n灵异::/sort/8-{{page}}.html\n奇幻::/sort/9-{{page}}.html\n武侠::/sort/10-{{page}}.html\n校园::/sort/11-{{page}}.html",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.book-meta.0@a@text",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.book-summary@text",
+            "lastChapter": "class.book-cell.0@class.book-meta.-1@text##最新：",
+            "name": "class.book-title.0@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "class.chaptercontent@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.book-author@text",
+            "bookList": "class.book-li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.book-desc@text",
+            "kind": "class.tag-small@text",
+            "lastChapter": "",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "-class.novel-text-list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href##java.*"
+        },
+        "searchUrl": "http://m.6yu6.com/search.html?k={{key}},{\n  \"charset\": \"utf-8\"\n}",
+        "weight": 0
+    }
+]

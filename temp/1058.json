@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "1kzm",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.1kzm.com",
+        "bookUrlPattern": "",
+        "enabled": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "init": "meta",
+            "intro": "[property=og:description]@content",
+            "kind": "",
+            "lastChapter": "[property=og:novel:latest_chapter_name]@content"
+        },
+        "ruleContent": {
+            "content": "#content p@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.dd.0@text##\\s\\|.*",
+            "bookList": "div.search-list dl",
+            "bookUrl": "a@href##/m##/www",
+            "coverUrl": "dt a@href\n##/(\\d+)/(\\d+)##https://imgtsxsw.cdn.bcebos.com/files/article/image/$1/$2/$2s.jpg###",
+            "intro": "",
+            "kind": "dd@ownText##.*\\|\\s",
+            "lastChapter": "dd a@text",
+            "name": "dt a@text"
+        },
+        "ruleToc": {
+            "chapterList": "div.chapterlist+div.chapterlist ul a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n'charset': 'GBK',\n'method': 'POST',\n'body': 'keyword={{key}}'\n}",
+        "weight": 0
+    }
+]

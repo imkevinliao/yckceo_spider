@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔20秒\n//言情书吧同站",
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "言情书库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.yqshuku.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "最近更新::/gengxin/<,index_{{page}}.html>\n穿越重生::/chuanyuechongsheng/<,index_{{page}}.html>\n玄幻灵异::/xuanhuanlingyi/<,index_{{page}}.html>\n无限流派::/wuxianliupai/<,index_{{page}}.html>\n现代都市::/xiandaidushi/<,index_{{page}}.html>\n古代架空::/gudaijiakong/<,index_{{page}}.html>\nBG同人::/tongrenxiaoshuo/<,index_{{page}}.html>\n网游竞技::/wangyoujingji/<,index_{{page}}.html>\n本站推荐::/best/<,index_{{page}}.html>",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690959769720,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h3@ownText##.*——",
+            "coverUrl": "img@src",
+            "kind": "h3@span@text##时间：",
+            "name": "h3@ownText##——.*"
+        },
+        "ruleContent": {
+            "content": "class.xscont@html##.*下一页.*尾页.*"
+        },
+        "ruleExplore": {
+            "author": "a.1@text||a@text##.*——",
+            "bookList": ".article-list@li",
+            "bookUrl": "a.1@href||a@href",
+            "kind": "a.0@text%%span@text##.*——.*",
+            "name": "a.1@text||a@text##——.*"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@text##.*——",
+            "bookList": ".article-list@li",
+            "bookUrl": "a@href",
+            "kind": "span@text",
+            "name": "a@text##——.*"
+        },
+        "ruleToc": {
+            "chapterList": "+<js>\nvar n=result.match(/<b>1<\\/b>\\/<b>(\\d+)<\\/b>/)[1];\nvar list=[{k:'第1页',v:baseUrl}];\nfor(var i=2;i<=n;i++){\nlist.push({k:'第'+i+'页',v:baseUrl.replace(/\\.html/,'_'+i+'.html')});\n}\nlist\n</js>",
+            "chapterName": "k",
+            "chapterUrl": "v"
+        },
+        "searchUrl": "/search/index.php<,?page={{page}}&>,{\n  \"body\": \"keyboard={{key}}&show=title&tempid=2&tbname=article\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

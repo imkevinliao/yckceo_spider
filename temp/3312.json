@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "_:(´□`」 ∠):_",
+        "bookSourceGroup": "abysses",
+        "bookSourceName": "📜五二小说[abyssesml]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xs52.la",
+        "customOrder": -2086019004,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"<js>String(java.get('http://www.xs52.la/xuanhuan/',{}).headers()['Location']).replace(/1\\\\.html/,'{{page}}.html')</js>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"武侠仙侠\",\"url\":\"<js>String(java.get('http://www.xs52.la/wuxia/',{}).headers()['Location']).replace(/1\\\\.html/,'{{page}}.html')</js>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市言情\",\"url\":\"<js>String(java.get('http://www.xs52.la/yanqing/',{}).headers()['Location']).replace(/1\\\\.html/,'{{page}}.html')</js>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"架空历史\",\"url\":\"<js>String(java.get('http://www.xs52.la/lishi/',{}).headers()['Location']).replace(/1\\\\.html/,'{{page}}.html')</js>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻小说\",\"url\":\"<js>String(java.get('http://www.xs52.la/kehuan/',{}).headers()['Location']).replace(/1\\\\.html/,'{{page}}.html')</js>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"恐怖灵异\",\"url\":\"<js>String(java.get('http://www.xs52.la/kongbu/',{}).headers()['Location']).replace(/1\\\\.html/,'{{page}}.html')</js>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"军事侦探\",\"url\":\"<js>String(java.get('http://www.xs52.la/junshi/',{}).headers()['Location']).replace(/1\\\\.html/,'{{page}}.html')</js>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"网游竞技\",\"url\":\"<js>String(java.get('http://www.xs52.la/wangyou/',{}).headers()['Location']).replace(/1\\\\.html/,'{{page}}.html')</js>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"综合其他\",\"url\":\"<js>String(java.get('http://www.xs52.la/zonghe/',{}).headers()['Location']).replace(/1\\\\.html/,'{{page}}.html')</js>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"全本小说\",\"url\":\"http://www.xs52.la/quanben/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "lastUpdateTime": 1683090036031,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "canReName": "true",
+            "coverUrl": "[property$=image]@content",
+            "init": "head > meta[property]",
+            "intro": "[property$=description]@content\n##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##[T\\s].*",
+            "lastChapter": "[property$=chapter_name]@content\n##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "{{baseUrl}}##(?<=\\/\\/)m(?=\\.)##www"
+        },
+        "ruleContent": {
+            "content": "[id~=text]@html",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "a:contains(下一页)@href",
+            "replaceRegex": "##\\s*[（【\\(\\[].*?[Xx][Ss]52.*?[\\]\\)】）]\\s*"
+        },
+        "ruleExplore": {
+            "author": "td:nth-of-type(3)@text",
+            "bookList": "tr[align] ~ tr",
+            "bookUrl": "td:nth-of-type(1) > a:eq(0)@href\n##(?<=\\/\\/)www(?=\\.)##m",
+            "coverUrl": "td:nth-of-type(1) > a:eq(0)@href\n##\\/(\\d+)\\/(\\d+)\\/##/files/article/image/$1/$2/$2s.jpg###",
+            "kind": "td:nth-of-type(5)@text&&\ntd:nth-of-type(4)@text",
+            "lastChapter": "td:nth-of-type(2) > a:eq(1)@text",
+            "name": "td:nth-of-type(1) > a:eq(0)@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td:nth-of-type(3)@text",
+            "bookList": "tr[align] ~ tr",
+            "bookUrl": "td:nth-of-type(1) > a:eq(1)@href\n##(?<=\\/\\/)www(?=\\.)##m",
+            "coverUrl": "td:nth-of-type(1) > a:eq(1)@href\n##\\/(\\d+)\\/(\\d+)\\/##/files/article/image/$1/$2/$2s.jpg###",
+            "kind": "td:nth-of-type(1) > a:eq(0)@text&&\ntd:nth-of-type(6)@text&&\ntd:nth-of-type(5)@text",
+            "lastChapter": "td:nth-of-type(2) > a:eq(1)@text",
+            "name": "td:nth-of-type(1) > a:eq(1)@text",
+            "wordCount": "td:nth-of-type(4)@text##K##000"
+        },
+        "ruleToc": {
+            "chapterList": "#chapter_list > *",
+            "chapterName": "text",
+            "chapterUrl": "*@href"
+        },
+        "searchUrl": "modules/article/search.php,{\n\t\"method\":\"post\",\n\t\"body\":\"searchtype=articlename&searchkey={{key}}&Submit= 搜 索 \"\n}",
+        "weight": 0
+    }
+]

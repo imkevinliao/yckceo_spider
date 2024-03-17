@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "52看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.52kshu.info",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1653807040398,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book_info@tag.li.0@text",
+            "init": "",
+            "lastChapter": "class.newchapters@tag.a.0@text",
+            "name": ".info@h1@text##《|》",
+            "tocUrl": "http://www.52kshu.info/{{baseUrl.match(/(\\d+).html/)[1]}}/"
+        },
+        "ruleContent": {
+            "content": "class.chapter@html",
+            "nextContentUrl": "@css:a:contains(下一页:)@href",
+            "replaceRegex": "##\\s*状态提示：[\\s\\S]+?谢谢您的支持！！\\s*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.pt-author@ownText##\\||\\s|分类.",
+            "bookList": "class.pt-card@li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "class.pt-desc@text##简介.",
+            "kind": "class.pt-author@a@ownText##\\||\\s",
+            "name": "class.pt-name@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://m.52kshu.info/book.php?action=search&searchtype=novelname&searchkey={{key}}&input=搜索,{\"charset\":\"gbk\"}",
+        "weight": 0
+    }
+]

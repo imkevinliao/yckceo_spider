@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "现实debug",
+        "bookSourceName": "亮亮文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.liangxyz.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1615870567245,
+        "ruleBookInfo": {
+            "kind": "id.info@class.visible-xs.2@text",
+            "lastChapter": "class.lastchapter visible-xs@tag.a@text",
+            "tocUrl": "id.list@tag.dl@tag.a.-1@href"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.dl@class.btm@tag.a@text",
+            "bookList": "class.l rank@class.item",
+            "bookUrl": "class.image@tag.a@href",
+            "coverUrl": "class.image@tag.a@tag.img@data-original",
+            "intro": "tag.dl@tag.dd@text",
+            "lastChapter": "tag.dl@class.btm@tag.em@text",
+            "name": "tag.dl@tag.dt@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@tag.a",
+            "chapterName": "tag.dd@text",
+            "chapterUrl": "href",
+            "nextTocUrl": "id.indexselect@tag.option@value"
+        },
+        "searchUrl": "https://www.liangxyz.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

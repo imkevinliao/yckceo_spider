@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "Namo精选版",
+        "bookSourceName": "小说旗",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xs7.la",
+        "bookUrlPattern": "",
+        "customOrder": 10,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1600359042902,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "lastChapter": "class.infot.1@tag.a@text##正文卷 ",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "replaceRegex": "##一秒记住.*免费阅读！"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span.0@text##作者：",
+            "bookList": "id.alistbox",
+            "bookUrl": "tag.h2@a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@textNodes",
+            "lastChapter": "tag.a.2@text",
+            "name": "tag.h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.td@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.xs7.la/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

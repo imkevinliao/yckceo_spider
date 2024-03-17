@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "2022.01.13",
+        "bookSourceGroup": "☁️可用,☁修正,⛩🎐senhora",
+        "bookSourceName": "新笔趣阁00②",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.jdxs5200.net",
+        "customOrder": 213935,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1642081471539,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "##:author\"[^\"]*\"([^\"]*)##$1###",
+            "coverUrl": "##:image\"[^\"]*\"([^\"]*)##$1###",
+            "intro": "##:description\"[^\"]*\"([^\"]*)##$1###@js:result.replace(/^\\s*/, '<br>')",
+            "kind": "##:category\"[^\"]*\"([^\"]*)[\\s\\S]*?status\"[^\"]*\"([^\"]*)[\\s\\S]*?_time\"[^\"]*\"([^\"]*)##$1,$2,$3###",
+            "lastChapter": "##_chapter_name\"[^\"]*\"([^\"]*)##$1###",
+            "name": "##:book_name\"[^\"]*\"([^\"]*)##$1###",
+            "wordCount": "##本书已更新[^>]*>([^<]*)##$1###"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".odd!0:2@text",
+            "bookList": "tr!0",
+            "bookUrl": "a!1@href",
+            "checkKeyWord": "治愈系",
+            "coverUrl": "a!1@href@js:\nvar id = result.match(/_(\\d+)/)[1];\n'/files/article/image/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+            "kind": ".even!0:1@text&&.odd!0:1@text",
+            "lastChapter": "a!0@text",
+            "name": "a!1@text",
+            "wordCount": ".even!0:2@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dl@dd!0:1:2:3:4:5:6:7:8:9:10:11",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/s.php,{\n\t\"charset\":\"utf-8\",\n\t\"method\":\"post\",\n\t\"body\":\"searchkey={{key}}&searchtype=articlename\"\n}",
+        "weight": 0
+    }
+]

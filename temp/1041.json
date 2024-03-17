@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "阅读书源长期更新地址↓\nhttps://blog.itaj.xyz/2021/09/34.html",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "[阿玖·AJiu]花生小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.hs313.net/",
+        "bookUrlPattern": ".*www\\.hs313\\.net/book/[0-9]{2,10}.html",
+        "customOrder": -3867,
+        "enabled": true,
+        "enabledExplore": false,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36\"\n}",
+        "lastUpdateTime": 1622521770189,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "dd@class.info@tag.a.0@span@textNodes",
+            "coverUrl": "dt@img@src",
+            "init": "class.book-info",
+            "intro": "dd@class.intro@textNodes",
+            "kind": "dd@class.info@tag.span.1@a@textNodes",
+            "name": "dd@h1@textNodes"
+        },
+        "ruleContent": {
+            "content": "class.main.0@class.content.0@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.info@tag.a.0@text",
+            "bookList": "class.book-list@ul@li",
+            "bookUrl": "tag.h5@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@text",
+            "kind": "class.info@tag.span.1@a@text",
+            "lastChapter": "class.update@text",
+            "name": "class.tit@text",
+            "wordCount": "class.serial@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.attentions.1@tag.ul@tag.li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search.html?searchtype=novelname&searchkey={{key}}",
+        "weight": 0
+    }
+]

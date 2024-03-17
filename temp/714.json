@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "\n搜索间隔30s",
+        "bookSourceGroup": "☁️可用,☣️发现大精选,⛩🎐senhora",
+        "bookSourceName": "m笔趣tv",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.biqutv.com/",
+        "bookUrlPattern": "http://www.biqutxt.com/\\d+_\\d+/",
+        "customOrder": -88944751,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "     🍂     全      部     🍂     ::http://m.biqutv.com/xiaoshuo/{{page}}.html\n其他::http://m.biqutv.com/xiaoshuo/7_{{page}}.html\n修真::http://m.biqutv.com/xiaoshuo/2_{{page}}.html\n玄幻::http://m.biqutv.com/xiaoshuo/1_{{page}}.html\n都市::http://m.biqutv.com/xiaoshuo/3_{{page}}.html\n历史::http://m.biqutv.com/xiaoshuo/4_{{page}}.html\n科幻::http://m.biqutv.com/xiaoshuo/6_{{page}}.html\n竞技::http://m.biqutv.com/xiaoshuo/5_{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1643184639223,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.synopsisArea@class.synopsisArea_detail@tag.p.2@text##小说作者：",
+            "coverUrl": "class.synopsisArea@class.synopsisArea_detail@img@src",
+            "init": "",
+            "intro": "class.synopsisArea@class.review@text",
+            "kind": "class.synopsisArea@class.synopsisArea_detail@tag.p.0@text&&class.synopsisArea@class.synopsisArea_detail@tag.p.1@text##小说类型：|更新时间：|",
+            "lastChapter": "class.synopsisArea@class.synopsisArea_detail@tag.p.3@text##更新时间：",
+            "name": "class.synopsisArea@class.synopsisArea_detail@class.title@text",
+            "tocUrl": "class.recommend@id.chapterlist@p.-1@a@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html##笔趣阁.*最新章节！|最快更新.*最新章节！|『加入书签，方便阅读』",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.author@text##（.*）|作者：",
+            "bookList": "id.main@class.hot_sale",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "",
+            "intro": "class. review@text",
+            "lastChapter": "class.author@text##）|作者：.*（",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "author": "class.author.0@text##作者：",
+            "bookList": "class.read_book@class.bookbox",
+            "bookUrl": "h4@a@href##.html",
+            "coverUrl": "class.bookimg@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.author.1@text##类型：",
+            "lastChapter": "class.update@a@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.directoryArea@tag.p",
+            "chapterName": "tag.a@text##【求收藏！】|（.*）",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.biqutv.com/search/,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&Submit=\"\n}",
+        "weight": 0
+    }
+]

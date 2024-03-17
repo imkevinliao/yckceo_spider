@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "优化,发现",
+        "bookSourceName": "米读小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.miduxs.com",
+        "bookUrlPattern": "http://m.miduxs.com/shu/\\d+.html",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan_{{page}}/\n仙侠::/xianxia_{{page}}/\n都市::/dushi_{{page}}/\n历史::/lishi_{{page}}/\n科幻::/kehuan_{{page}}/\n恐怖::/kongbu_{{page}}/\n其他::/qita_{{page}}/\n全本::/quanben_{{page}}/",
+        "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 7.0; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 T7/10.3 SearchCraft/2.6.2 (baiduboxapp; P1 7.0)\"}",
+        "lastUpdateTime": 1688206971883,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "canReName": "true",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}##简介：\\s+",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "imageStyle": "FULL",
+            "nextContentUrl": "text.下一页@class\n@js:\nvar go=result[0];\nif(go){\nvar jst =java.getElements(\"script\");\nvar to=String(jst);\nvar url=to.match(/var.*= \"(.+)\"/);\nif(url&&url[1]){\n\tvar next=url[1];\n\tresult=next;\n\t}else{result=\"\";}\n\t\t}else{result=\"\";}",
+            "replaceRegex": "##本章未完.+继续阅读.*|.*牢记米读小说.*",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "bookUrl": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".lis@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/images/default.jpg\"",
+            "intro": "",
+            "kind": ".s1@text##\\[|\\]",
+            "lastChapter": "",
+            "name": "a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "isVip": "",
+            "nextTocUrl": "option@value||text.下一页@href",
+            "updateTime": ""
+        },
+        "searchUrl": "@js:\n\nhtml = java.ajax(source.getKey())\n\ntoken = org.jsoup.Jsoup.parse(html).select('input[name=_token]').attr('value')\n\n\"/search,\"+JSON.stringify({\n  \"body\": `_token=${token}&kw=${key}`,\n  \"method\": \"POST\"\n})",
+        "weight": 0
+    }
+]

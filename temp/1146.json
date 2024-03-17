@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "有一部分飞卢小说，不过不多",
+        "bookSourceGroup": "",
+        "bookSourceName": "趣闻小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.quwenxs.com/",
+        "customOrder": -134674,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1626440709738,
+        "ruleBookInfo": {
+            "author": "class.diswap@tag.p.0@text",
+            "coverUrl": "class.info-main@tag.img@data-original",
+            "intro": "class.info-main-intro@text##【.*】",
+            "lastChapter": "class.flex-wrap!1@tag.a.0@text%%tag.p.2@text##[直达底部+最近更新：]",
+            "name": "h1@text",
+            "tocUrl": "id.info_url@href"
+        },
+        "ruleContent": {
+            "content": "id.article@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "class.category-div",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.a@img@data-original",
+            "intro": "class.indent@text##【.*】",
+            "lastChapter": "",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.info-chapters!0@tag.a",
+            "chapterName": "tag.a.0@text",
+            "chapterUrl": "tag.a.0@href"
+        },
+        "searchUrl": "http://www.quwenxs.com/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\"charset\": \"gbk\"}",
+        "weight": 0
+    }
+]

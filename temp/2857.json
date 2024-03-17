@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceUrl": "https://www.villadroman.com",
+        "bookSourceType": "0",
+        "bookSourceName": "顶点书城",
+        "bookSourceGroup": "",
+        "bookSourceComment": "修复断章",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.villadroman.com/search.html?keyword={{key}}&page={{page}}",
+        "exploreUrl": "古装言情::/vi/25.html?page={{page}}\n都市言情::/vi/26.html?page={{page}}\n浪漫青春::/vi/27.html?page={{page}}\n幻想言情::/vi/28.html?page={{page}}\n科幻空间::/vi/37.html?page={{page}}\n灵异悬疑::/vi/38.html?page={{page}}\n同人衍生::/vi/39.html?page={{page}}\n耽美百合::/vi/40.html?page={{page}}\n完本小说::/other/rank/over/1.html<,?page={{page}}>\n点击总榜::/other/rank/order/hits.html<,?page={{page}}>\n点击月榜::/other/rank/order/hits_month.html<,?page={{page}}>\n点击周榜::/other/rank/order/hits_week.html<,?page={{page}}>\n字数排行::/all/serialize/1/order/word+desc.html?page={{page}}\n最近更新::/all/order/update_time+desc.html?page={{page}}\n最新入库::/all/order/id+desc.html?page={{page}}",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 76,
+        "lastUpdateTime": 1603402837205,
+        "ruleSearch": {
+            "bookList": "class.table@tag.tbody@tag.tr!0",
+            "name": "class.odd.0@tag.a.0@text",
+            "author": "class.odd.1@text",
+            "kind": "class.even@text&&class.hidden-xs.2@text",
+            "wordCount": "class.hidden-xs.1@text",
+            "lastChapter": "class.hidden-xs.0@text&&class.hidden-xs.2@text##（.*）",
+            "bookUrl": "class.odd.0@tag.a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.table@tag.tr!0",
+            "name": "tag.a.0@text",
+            "author": "class.text-muted.1@text",
+            "kind": "class.hidden-xs.2@text",
+            "wordCount": "class.hidden-xs.1@text",
+            "lastChapter": "tag.a.1@text",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleBookInfo": {
+            "name": "tag.h1@text",
+            "author": "class.booktag@tag.a.0@text",
+            "kind": "class.red.1@text&&class.blue.2@text",
+            "wordCount": "class.blue.0@text##字数：",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content##（.*）",
+            "intro": "id.bookIntro@p@text",
+            "coverUrl": "class.img-thumbnail@src",
+            "tocUrl": "class.btn btn-success@tag.a@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.row clearfix@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.txt@html##天才一秒钟.*小说网站!",
+            "nextContentUrl": "class.next@tag.a@href",
+            "replaceRegex": "##\\s*第.*章.*\\(.\\/.\\)\\s*"
+        }
+    }
+]

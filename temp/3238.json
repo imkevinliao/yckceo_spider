@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceGroup": "⭐常用",
+        "bookSourceName": "⭐256中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.256zw.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"现代耽美\",\"url\":\"/xiandai/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古代架空\",\"url\":\"/jiakong/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越重生\",\"url\":\"/chuanyue/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"BL同人\",\"url\":\"/bltongren/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"GL百合\",\"url\":\"/glbaihe/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻科幻\",\"url\":\"/xuanhuan/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/yanqing/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古代言情\",\"url\":\"/gudaiyanqing/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"\",\"url\":\"#\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1682048846745,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[name=keywords]@content##.*作者:",
+            "intro": "[name=description]@content",
+            "name": "[name=keywords]@content##作者:.*"
+        },
+        "ruleContent": {
+            "content": "class.book_con@p@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h2@text##.*作者：",
+            "bookList": "class.list@li",
+            "bookUrl": "h2@a@href",
+            "intro": "p@text",
+            "kind": "time@text||a.-1@text",
+            "name": "h2@text##作者：.*"
+        },
+        "ruleToc": {
+            "chapterList": ".catalog@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.256zw.cc/sousuo/search.php?q={{key}}&m=&f=_all&s=&p={{page}}",
+        "weight": 0
+    }
+]

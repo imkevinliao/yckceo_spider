@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceGroup": "爱猫小说书源合集",
+        "bookSourceName": "米趣小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.meegoq.com",
+        "bookUrlPattern": "",
+        "customOrder": 241,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::https://www.meegoq.com/xuanhuan/{{page}}.htm\n奇幻::https://www.meegoq.com/qihuan/{{page}}.htm\n修真::https://www.meegoq.com/xiuzhen/{{page}}.htm\n都市::https://www.meegoq.com/dushi/{{page}}.htm\n言情::https://www.meegoq.com/yanqing/{{page}}.htm\n历史::https://www.meegoq.com/lishi/{{page}}.htm\n同人::https://www.meegoq.com/tongren/{{page}}.htm\n武侠::https://www.meegoq.com/wuxia/{{page}}.htm\n科幻::https://www.meegoq.com/kehuan/{{page}}.htm\n游戏::https://www.meegoq.com/youxi/{{page}}.htm\n军事::https://www.meegoq.com/junshi/{{page}}.htm\n竞技::https://www.meegoq.com/jingji/{{page}}.htm\n灵异::https://www.meegoq.com/lingyi/{{page}}.htm\n其他::https://www.meegoq.com/qita/{{page}}.htm",
+        "lastUpdateTime": 0,
+        "ruleBookInfo": {
+            "author": "$3",
+            "coverUrl": "$2",
+            "init": ":\"line\"(?:[^>]*>){2}([^<]*)(?:[^\"]*\"){3}([^\"]*)(?:[^>]*>){5}([^<]*)(?:[^\"]*\"){4}>([^<]+)(?:[^>]*>){13}([^<]*)(?:[^>]*>){6}(.*?)\\s(?:[^\"]*\"){19}(.*?)\"",
+            "intro": "$6",
+            "kind": "$4",
+            "lastChapter": "$5",
+            "name": "$1",
+            "tocUrl": "$7"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "imageStyle": "0.0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$5",
+            "bookList": ":<span class=\"nt\">(.*?)<(?:[^>]*>){2}<a href=\"(.*?)\"[^>]*>(.*?)<(?:[^>]*>){4}(.*?)<(?:[^>]*>){4}(.*?)<(?:[^>]*>){3}(.*?)<",
+            "bookUrl": "$2",
+            "intro": "$6",
+            "kind": "$1",
+            "lastChapter": "$4",
+            "name": "$3"
+        },
+        "ruleToc": {
+            "chapterList": ":<li class=\"col3\">.*?\"(.*?\\d+_\\d+.*?)\".*?>(.*?)<",
+            "chapterName": "$2",
+            "chapterUrl": "$1"
+        },
+        "searchUrl": "https://www.meegoq.com/search.htm?keyword={{key}}",
+        "weight": 0
+    }
+]

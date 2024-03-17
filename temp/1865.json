@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "看书吧",
+        "bookSourceUrl": "https://m.kanshu78.com",
+        "enable": false,
+        "ruleBookContent": "id.content@textNodes",
+        "ruleBookLastChapter": "class.other@a@text",
+        "ruleChapterList": "class.cell-items@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "class.more@a@href#https://m.#https://www.",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.unit-0@img@src",
+        "ruleFindUrl": "玄幻魔法::https://m.kanshu78.com/modules/article/articlefilter.php?order=lastupdate&page=searchPage&sortid=1\n武侠修真::https://m.kanshu78.com/modules/article/articlefilter.php?order=lastupdate&page=searchPage&sortid=2\n都市言情::https://m.kanshu78.com/modules/article/articlefilter.php?order=lastupdate&page=searchPage&sortid=3\n历史军事::https://m.kanshu78.com/modules/article/articlefilter.php?order=lastupdate&page=searchPage&sortid=4\n游戏竞技::https://m.kanshu78.com/modules/article/articlefilter.php?order=lastupdate&page=searchPage&sortid=5\n科幻同人::https://m.kanshu78.com/modules/article/articlefilter.php?order=lastupdate&page=searchPage&sortid=6\n现代言情::https://m.kanshu78.com/modules/article/articlefilter.php?order=lastupdate&page=searchPage&sortid=7\n古代言情::https://m.kanshu78.com/modules/article/articlefilter.php?order=lastupdate&page=searchPage&sortid=8",
+        "ruleIntroduce": "class.tab-item active content@p@textNodes#【展开】.*",
+        "ruleSearchAuthor": "class.unit-0 author@a@text|class.author@span@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchIntroduce": "class.site-box@textNodes|class.desc@textNodes",
+        "ruleSearchKind": "class.site-box.4@a@text|class.author@text#\\|",
+        "ruleSearchList": "class.flex-left",
+        "ruleSearchName": "class.unit-0 bookname@a@text|class.tit@a@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://m.kanshu78.com/modules/article/search.php?searchkey=searchKey|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

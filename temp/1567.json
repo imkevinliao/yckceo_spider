@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "精品小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.jpxs123.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "都市小说::/dsxs/<,index_{{page}}.html>\n玄幻小说::/xuanhuan/<,index_{{page}}.html>\n历史小说::/lishi/<,index_{{page}}.html>\n科幻竞技::/khjj/<,index_{{page}}.html>\n穿越架空::/cyjk/<,index_{{page}}.html>\n鬼话小说::/guihua/<,index_{{page}}.html>\n同人小说::/tongren/<,index_{{page}}.html>",
+        "lastUpdateTime": 1647623531113,
+        "respondTime": 5688,
+        "ruleBookInfo": {
+            "init": "",
+            "kind": "tag.a.10@text"
+        },
+        "ruleContent": {
+            "content": "class.read_chapterDetail@html"
+        },
+        "ruleExplore": {
+            "author": "class.booknews@text##\\d+\\-\\d+\\-\\d+|\\d+.|MB|KB",
+            "bookList": "class.bk",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p@text",
+            "lastChapter": "class.date@text",
+            "name": "tag.h3@text"
+        },
+        "ruleSearch": {
+            "author": "class.booknews.0@text##\\d+\\-\\d+\\-\\d+",
+            "bookList": "class.books m-cols@div[1:10]",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img.0@src",
+            "intro": "tag.p.0@text##简介：",
+            "kind": "",
+            "name": "class.bk_right.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.clearfix@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/e/search/indexsearch.php,{\n  \"body\": \"keyboard={{key}}&show=title&classid=0\",\n  \"charset\": \"gbk\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

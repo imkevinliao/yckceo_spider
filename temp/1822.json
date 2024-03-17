@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "HINOTORI",
+        "bookSourceGroup": "有效",
+        "bookSourceName": "🎯笔趣阁biquzhh",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biquzhh.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1621261264346,
+        "ruleBookInfo": {
+            "author": "#info@tag.p.0@text##作者：",
+            "coverUrl": "#fmimg@img@src",
+            "intro": "#intro@tag.p.0@html",
+            "kind": "#info@tag.p.1@text##状 态：",
+            "lastChapter": "#info@tag.p.-1@text##最新章节：",
+            "name": "h1@text",
+            "wordCount": "#info@tag.p.-2@text##最后更新：|\\s.*"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes##第.*章\\s.*|https://www.biquzhh.com.*|天才一秒记住本站地址.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".search-list@li!0",
+            "bookUrl": ".s2@a@href",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=zanghaihuatxt.com&q={{key}}",
+        "weight": 0
+    }
+]

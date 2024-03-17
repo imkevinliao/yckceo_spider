@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⭐常用",
+        "bookSourceName": "⭐采墨阁-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.caimoge.net",
+        "bookUrlPattern": "",
+        "customOrder": 44,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻奇幻::https://m.caimoge.net/shuku/xuanhuan/{{page}}.html\n武侠仙侠::https://m.caimoge.net/shuku/wuxia/{{page}}.html\n女频言情::https://m.caimoge.net:/shuku/yanqing/{{page}}.html\n现代都市::https://m.caimoge.net/shuku/dushi/{{page}}.html\n历史军事::https://m.caimoge.net/shuku/lishi/{{page}}.html\n游戏竞技::https://m.caimoge.net/shuku/youxi/{{page}}.html\n科幻灵异::https://m.caimoge.net/shuku/kehuan/{{page}}.html\n美文同人::https://m.caimoge.net/shuku/tongren/{{page}}.html\n其他类型::https://m.caimoge.net/shuku/qita/{{page}}.html",
+        "lastUpdateTime": 1681978370239,
+        "loginUrl": "https://www.caimoge.net",
+        "respondTime": 3015,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "class.author@a.1@text",
+            "bookList": "class.book_slist@class.bookbox",
+            "bookUrl": "a@href##^##https://www.caimoge.net",
+            "coverUrl": "class.book-img@img@src",
+            "intro": "class.intro_line@textNodes",
+            "lastChapter": "class.update@textNodes",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.dd.1@a@text",
+            "bookList": "id.sitembox@dl",
+            "bookUrl": "tag.dd.0@a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.dd.2@text",
+            "lastChapter": "tag.dd.3@a@text",
+            "name": "tag.dd.0@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlist@li",
+            "chapterName": "a@text##-",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

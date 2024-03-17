@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "练习6，自写，完",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bqg18.cc/",
+        "customOrder": 4,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/wuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/wangyou/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生\",\"url\":\"/mm/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本\",\"url\":\"/finish/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\"referer\":\"https://m.bqg18.cc\"}",
+        "lastUpdateTime": 1681128198062,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book_info@dl@dd.0@span.0@text##.*：",
+            "coverUrl": "img@src",
+            "intro": "class.book_about@text##5.*展开全部.*",
+            "kind": "class.book_info@dl@dd.0@span.1@text##.*：",
+            "lastChapter": "class.book_last@dl@dd.0@text",
+            "name": "class.book_box@dl@dt@text",
+            "tocUrl": "class.book_more@a@href",
+            "wordCount": "class.book_info@dl@dd.1@span.1@text##.*："
+        },
+        "ruleContent": {
+            "content": "class.Readarea ReadAjax_content@textNodes##请收藏：ht.*\n@js:result+'🍑下一页'",
+            "nextContentUrl": "text.下一章@href",
+            "replaceRegex": "##\\s*🍑下一页\\s*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dt@span@text",
+            "bookList": "class.item",
+            "bookUrl": "dt@a@href",
+            "coverUrl": "img@src",
+            "intro": "dl@dd@text",
+            "name": "dt@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last@dd!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.bqg18.cc/s?q={{key}}",
+        "weight": 0
+    }
+]

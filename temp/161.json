@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "现实debug",
+        "bookSourceName": "阳光影视",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ttzmz.vip",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1660099781581,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".data",
+            "init": ".stui-content__detail",
+            "kind": "book.variable=9999",
+            "name": ".title"
+        },
+        "ruleContent": {
+            "content": ".prism-player@tag.video@src\n@js:\n\na=result\n\nif(book.durChapterIndex==chapter.index){\n//chapter.url=a\njava.startBrowser(a,title)\n\n}\n\nb=\"刷新即可观看\""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".detail@tag.p.0@text&&.detail@tag.p.1@text",
+            "bookList": ".stui-vodlist__media@tag.li",
+            "bookUrl": ".detail@class.title@tag.a@href##$##,{\"webView\":true}",
+            "coverUrl": ".thumb@tag.a@data-original",
+            "intro": ".detail@tag.p.3@text",
+            "kind": ".detail@tag.p.2@text",
+            "lastChapter": "",
+            "name": ".detail@class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": ".stui-content__playlist@tag.li",
+            "chapterName": "text",
+            "chapterUrl": "a@href\n@js:\na=result\na=\"http://www.ttzmz.vip\"+a+',{\"webView\":true}'\na"
+        },
+        "searchUrl": "http://www.ttzmz.vip/check/{{key}}-{{page}}.html",
+        "weight": 0
+    }
+]

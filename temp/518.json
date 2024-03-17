@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "自用",
+        "bookSourceGroup": "电脑版🖥",
+        "bookSourceName": "热门榜小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bangxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1640699716105,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text",
+            "coverUrl": "id.fmimgtag.img@src",
+            "intro": "id.intro@text",
+            "name": "id.info@tag.h1.0@text"
+        },
+        "ruleContent": {
+            "content": "id.content@p@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.search-list@tag.li.!0",
+            "bookUrl": "class.s2@tag.a.0@href",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.bangxs.com/home/search/",
+        "weight": 0
+    }
+]

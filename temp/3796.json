@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "源仓库,整理检验,自制,网页源",
+        "bookSourceName": "星空小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://wap.aixs.info",
+        "bookUrlPattern": "http://wap.aixs.cc/book/\\d+.html",
+        "customOrder": 86,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/mulu/\n完结小说::/quanben/{{page}}.html\n玄幻小说::/mulu/1_{{page}}.html\n仙侠小说::/mulu/2_{{page}}.html\n都市小说::/mulu/3_{{page}}.html\n历史小说::/mulu/4_{{page}}.html\n游戏小说::/mulu/5_{{page}}.html\n科幻小说::/mulu/6_{{page}}.html\n恐怖小说::/mulu/7_{{page}}.html\n女生小说::/mulu/8_{{page}}.html\n其他小说::/mulu/8_{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1694241423177,
+        "respondTime": 54238,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "canReName": "",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.目录列表@href##$##,{'webView': true}"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href##$##,{'webView': true}",
+            "replaceRegex": "##{{chapter.title}}| \\(第.*页\\)|（本章未完.+继续阅读）|阅读.*最新章节.+请关注.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@textNodes##.+\\(|\\)",
+            "bookList": ".bd@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": "span@text##\\[|\\]",
+            "name": "a@textNodes##\\(.*\\)"
+        },
+        "ruleToc": {
+            "chapterList": ".list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}"
+        },
+        "searchUrl": "http://wap.xaixs.cc/s.php,{\n  \"body\": \"s={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

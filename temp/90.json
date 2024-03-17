@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "tips:目录就在详情页的不用目录URL",
+        "bookSourceGroup": "🍉自制,修复",
+        "bookSourceName": "爱上读书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.23dushu.net",
+        "bookUrlPattern": "",
+        "customOrder": 542,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1663516988868,
+        "loginUrl": "",
+        "respondTime": 180122,
+        "ruleBookInfo": {
+            "coverUrl": ".bookintro@img@src",
+            "intro": "",
+            "name": ".bookinfo@h1@textNodes",
+            "tocUrl": "",
+            "wordCount": "booktag@sapn.0@text"
+        },
+        "ruleContent": {
+            "content": ".readcontent@p@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text##作者：",
+            "bookList": ".bookbox",
+            "bookUrl": ".bookname@a@href",
+            "checkKeyWord": "重生之",
+            "intro": ".update@textNodes",
+            "lastChapter": ".cat@a@text",
+            "name": ".bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.23dushu.net/search,\n{\n  \"body\": \"searchkey={{key}}&submit=\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

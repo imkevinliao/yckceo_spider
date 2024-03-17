@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceUrl": "https://www.zhanqunbao.cn",
+        "bookSourceType": "0",
+        "bookSourceName": "山药小说网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/index.php?do=wap_sea&so=yes&name={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1641307711054,
+        "ruleSearch": {
+            "bookList": "class.z@tag.li",
+            "name": "tag.a@text",
+            "bookUrl": "tag.a@href@js:result.replace('wap_','')"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.a@text",
+            "author": "class.a@tag.a@text",
+            "kind": "class.b@tag.span.0@text",
+            "lastChapter": "class.time@class.a@text",
+            "intro": "class.d@text",
+            "tocUrl": "@js:baseUrl.replace('novel', 'zhang')"
+        },
+        "ruleToc": {
+            "chapterList": "class.shang@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "ruleContent": {
+            "content": "class.nr1@html",
+            "nextContentUrl": "class.r@tag.a@href"
+        }
+    }
+]

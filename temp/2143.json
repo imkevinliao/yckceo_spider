@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "苏拉格小说sulage",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.sulage.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/fenlei/1_{{page}}/\n武侠小说::/fenlei/2_{{page}}/\n都市小说::/fenlei/3_{{page}}/\n历史小说::/fenlei/4_{{page}}/\n网游小说::/fenlei/5_{{page}}/\n科幻小说::/fenlei/6_{{page}}/\n女生小说::/fenlei/7_{{page}}/\n经典小说::/fenlei/8_{{page}}/",
+        "lastUpdateTime": 1616168352497,
+        "ruleBookInfo": {
+            "coverUrl": "id.bookimg@tag.img@src",
+            "intro": "id.bookintro@text",
+            "lastChapter": "id.keywords@tag.a@text",
+            "tocUrl": "class.new@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "author": "class.book_other@tag.span.0@tag.a@text",
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.dt@tag.a@img@src",
+            "intro": "class.book_des@text",
+            "kind": "class.book_other@tag.span.1@text&&class.book_other@tag.span.2@text&&class.uptime@text",
+            "lastChapter": "tag.dd.3@tag.a@text",
+            "name": "tag.dd.0@tag.a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "class.grid searall@tr!0",
+            "bookUrl": "tag.td.0@tag.a@text",
+            "kind": "tag.td.5@text&&tag.td.4@text",
+            "lastChapter": "tag.td.1@tag.a@text",
+            "name": "tag.td.0@tag.a@text",
+            "wordCount": "tag.td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlist@ul@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "巅峰小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.fdsrxx.com",
+        "bookUrlPattern": "https://wap.fdsrxx.com/\\d+_\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n玄幻::/sort_1/{{page}}/\n仙侠::/sort_2/{{page}}/\n都市::/sort_3/{{page}}/\n军事::/sort_4/{{page}}/\n网游::/sort_5/{{page}}/\n科幻::/sort_6/{{page}}/\n女生::/sort_7/{{page}}/\n其他::/sort_8/{{page}}/\n完本::/quanben/sort_",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689572759192,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": ".cover@img@data-src",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=lastest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#TextContent@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-src",
+            "intro": "dd@text",
+            "kind": "0",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-src",
+            "kind": ".cat@text&&.uptime@text\n@js:\nresult=String(result);\nvar type=result.match(/分类：(.+),/)[1];\nvar date=result.match(/\\d+/);\nvar time=java.timeFormat(date);\nresult=type+\",\"+time;",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list@li",
+            "chapterName": "a.1@text",
+            "chapterUrl": "a.1@href"
+        },
+        "searchUrl": "https://wap.fdsrxx.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

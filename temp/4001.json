@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "by~江湖",
+        "bookSourceName": "全本小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.iqb8.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/class/xuanhuan/{{page}}/\n修真::/class/xiuzhen/{{page}}/\n都市::/class/dushi/{{page}}/\n穿越::/class/chuanyue/{{page}}/\n网游::/class/wangyou/{{page}}/\n科幻::/class/kehuan/{{page}}/\n其他::/class/qita/{{page}}/\n全本::/quanben/class/{{page}}/",
+        "lastUpdateTime": 1693754791709,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content&&\n[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#article > p@text",
+            "nextContentUrl": "//*[@class=\"read_nav\"]/a[contains(text(),\"下一页\")]/@href"
+        },
+        "ruleExplore": {
+            "author": ".dispc@text##\\s.*",
+            "bookList": ".list-out",
+            "bookUrl": "//*[@class=\"flex w80\"]/em[2]/a/@href",
+            "coverUrl": "//*[@class=\"flex w80\"]/em[2]/a/@href@js:\n(() => {\n    let id = result.match(/\\/(\\d+)_(\\d+)\\//)\n    return `http://img.iqb8.cc/${id[1]}/${id[2]}/${id[2]}s.jpg`\n})();",
+            "kind": "",
+            "lastChapter": "//*[@class=\"flex w80\"]/em[3]/a/text()",
+            "name": "//*[@class=\"flex w80\"]/em[2]/a/text()"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".commend-title span@text",
+            "bookList": ".category-div",
+            "bookUrl": ".commend-title a@href",
+            "coverUrl": "img@data-original",
+            "intro": ".intro@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".mb20 > .info-chapters > a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\n//注意：一般网站默认首页(即baseUrl)有搜索框，否则请填入搜索页面地址\nlet url = baseUrl;\nlet html = java.ajax(url);\nlet doc = org.jsoup.Jsoup.parse(html);\nlet form = doc.select('form[action]:not([name~=login]):not([class~=login]):not([id~=login])')[0];\nlet method = form.attr('method');\nlet action = form.attr('action');\nlet charset = doc.select('meta[charset]').attr('charset');\nif (charset == ''){\n    charset = String(doc.select('meta[content~=charset=]').attr('content')).replace(/^.*charset=([a-z0-9\\-]+).*$/i, \n    '$1');\n}\nurl = baseUrl.replace(/([^\\/])$/i, '$1/') + String(action).replace(/^\\//, '');\nlet body = '';\nlet option = {};\nlet sk = form.select('input[name][type=\"text\"],input[name][class=\"text\"]').attr('name');\nlet es = form.select('input[name]:not([type=\"submit\"])');\nfor (let it in es){\n    let e = es[it];\n    let k = e.attr('name');\n    let v = e.attr('value');\n    if (k == sk) {\n        body += sk + '={{key}}&';\n    }\n    else {\n        body += k + '=' + v + '&';\n    }\n}\nes = form.select('select[name]');\nfor (it in es){\n    let e = es[it];\n    let k = e.attr('name');\n    let v = e.select('option')[0].attr('value');\n    body += k + '=' + v + '&';\n}\nbody = String(body).replace(/&$/, '');\nif (method.match(/post/i)){\n    option = \n    {\n        \"charset\" : String(charset), \n        \"method\" : String(method), \n        \"body\" : String(body)\n    };\n    url += ',' + JSON.stringify(option);\n}\nelse {\n    //get\n    option = \n    {\n        \"charset\" : String(charset)\n    };\n    url += '?' + body + ',' + JSON.stringify(option);\n}\njava.log(url);",
+        "weight": 0
+    }
+]

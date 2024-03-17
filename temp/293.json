@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "LIAN",
+        "bookSourceGroup": "",
+        "bookSourceName": "全本小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qb5.tw",
+        "bookUrlPattern": "",
+        "customOrder": 42,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1655135322821,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.h1@tag.a@text",
+            "coverUrl": "class.img_in@tag.img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "lastChapter": "class.zjlist@tag.a.0@text",
+            "name": "##<h1>(.*?)<small>##$1###"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##全本小说.*\\s.*",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "class.odd.0@tag.a@href",
+            "kind": "class.even!0@text",
+            "lastChapter": "class.even.0@tag.a@text",
+            "name": "class.odd.0@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.zjlist@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

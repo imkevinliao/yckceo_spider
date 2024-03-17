@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "练习5，自写，完",
+        "bookSourceName": "33言情",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.33yqxs.com/",
+        "customOrder": 4,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/xclass/0/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻小说\",\"url\":\"/xclass/1/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠小说\",\"url\":\"/xclass/2/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情小说\",\"url\":\"/xclass/3/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史小说\",\"url\":\"/xclass/4/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游小说\",\"url\":\"/xclass/5/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/xclass/6/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖小说\",\"url\":\"/xclass/7/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其它小说\",\"url\":\"/xclass/8/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1681127425112,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.book_detail@li@a@text",
+            "coverUrl": "id.bookdetail@img@src",
+            "intro": "class.review@text",
+            "kind": "li.1@span@text",
+            "lastChapter": "class.directoryArea@p.0@text",
+            "name": "class.channelHea channelHea2@span@text",
+            "tocUrl": "class.recommend@h2.-1@a@href"
+        },
+        "ruleContent": {
+            "content": "class.Readarea ReadAjax_content@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##www.*"
+        },
+        "ruleExplore": {
+            "author": "class.author@a.1@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "class.detail@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.review@text##简介：",
+            "name": "class.title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@a.1@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "a@href",
+            "kind": "p.2@text##\\|.*",
+            "lastChapter": "p.2@text##.*：\\s",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.directoryArea@p!0@a",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://wap.33yqxs.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

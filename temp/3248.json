@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "自制,手机版,网页源",
+        "bookSourceName": "棉花糖",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.mianhuatang.info/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1682146867519,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@p.2@text",
+            "coverUrl": "img@src",
+            "downloadUrls": "text.TXT下载@href",
+            "intro": "class.intro_info@text##最新章节推荐地址：.*",
+            "kind": "class.block_txt2@p.3:4:5@text##分类：|状态：|更新：",
+            "lastChapter": "class.block_txt2@p.6@a@text",
+            "name": "class.block_txt2@h2@a@text",
+            "tocUrl": "text.开始阅读@href||text.查看更多章节@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html##最新网址：.*|（本章未完，请点击下一页继续阅读）",
+            "nextContentUrl": "text.下ー页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.block_txt@p.3@text",
+            "bookList": "class.block",
+            "bookUrl": "class.block_txt@p.0@a@href",
+            "checkKeyWord": "高天",
+            "coverUrl": "img@src",
+            "kind": "class.block_txt@p.2@text##分类：",
+            "lastChapter": "class.block_txt@p.4@a@text",
+            "name": "class.block_txt@h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

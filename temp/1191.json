@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "HINOTORI修",
+        "bookSourceGroup": "🌼晨光雨露🍒精品源💯",
+        "bookSourceName": "🍩 天籁小说网m>增加更新时间",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.tianlaixsw.org/",
+        "bookUrlPattern": "",
+        "customOrder": -165976,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::https://m.tianlaixsw.org/xuanhuan_{{page}}/\n武侠仙侠::https://m.tianlaixsw.org/wuxia_{{page}}/\n都市生活::https://m.tianlaixsw.org/dushi_{{page}}/\n历史军事::https://m.tianlaixsw.org/lishi_{{page}}/\n游戏竞技::https://m.tianlaixsw.org/youxi_{{page}}/\n科幻未来::https://m.tianlaixsw.org/kehuan_{{page}}/\n恐怖悬疑::https://m.tianlaixsw.org/xuanyi_{{page}}/\n其他类型::https://m.tianlaixsw.org/qita_{{page}}/\n                              女生                              ::\n古代言情::https://m.tianlaixsw.org/guyan_{{page}}/\n现代言情::https://m.tianlaixsw.org/xianyan_{{page}}/\n幻想奇缘::https://m.tianlaixsw.org/huanqing_{{oage}}/\n总裁豪门::https://m.tianlaixsw.org/zongcai_{{page}}/\n青春校园::https://m.tianlaixsw.org/qingchun_{{page}}/\n网络情缘::https://m.tianlaixsw.org/wangluo_{{page}}/\n科幻灵异::https://m.tianlaixsw.org/mmkehuan_{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1625652661044,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.detail@tag.a.0@text",
+            "coverUrl": "class.detail@tag.img@src",
+            "intro": "tag.p.4@text&&class.intro@tag.p.1@text",
+            "kind": "class.detail@tag.a.1@text",
+            "lastChapter": "class.detail@tag.a.-1@text",
+            "name": "class.detail@tag.p.0@text",
+            "tocUrl": "class.action@tag.a.0@href",
+            "wordCount": "class.detail@tag.span.1@text"
+        },
+        "ruleContent": {
+            "content": "class.ptianlaixsw_content@tag.div@textNodes##关闭方法.*|本章未完.*|喜欢.*请大家收藏.*|五一看书天天乐，充100赠500VIP点券！|立即抢充.*|汜减.*汜[减。]?|牺如.*牺[如。]?|芈何.*芈[何。]?|<!-- -->",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.data@tag.a@text",
+            "bookList": "class.list@li",
+            "bookUrl": "class.bookname@tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "lastChapter": "class.data@text",
+            "name": "class.bookname@tag.a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.list@tag.li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.p.2@text",
+            "kind": "tag.span@text",
+            "lastChapter": "tag.a.-1@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.tianlaixsw.com/search.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.biquqe.com",
+        "customOrder": -3598,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/list/1_{{page}}/\n武侠修真::/list/2_{{page}}/\n都市言情::/list/3_{{page}}/\n历史军事::/list/4_{{page}}/\n科幻灵异::/list/5_{{page}}/\n游戏竞技::/list/6_{{page}}/\n女生耽美::/list/7_{{page}}/\n其他类型::/list/8_{{page}}/",
+        "lastUpdateTime": 1602252867883,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "",
+            "wordCount": "class.xq_bookne@tag.div.-2@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.TextContent@html##.，最快更新最新章节！",
+            "imageStyle": "full",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.book_other@tag.span.0@text",
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@data-original",
+            "intro": "class.book_des@text",
+            "kind": "class.book_other@tag.span.1@text",
+            "name": "tag.h3@a@text",
+            "wordCount": "class.book_other@tag.span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterList@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "http://m.biquqe.com/search/,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"submit=搜索&searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

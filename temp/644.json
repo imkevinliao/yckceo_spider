@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "废文",
+        "bookSourceName": "废文-有趣有品有点丧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://xn--pxtr7m5ny.com/",
+        "bookUrlPattern": "https://xn--pxtr7m5ny.com/threads/.*/profile",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "废文收藏::https://xn--pxtr7m5ny.com/collection",
+        "lastUpdateTime": 1645079948388,
+        "loginUrl": "https://xn--pxtr7m5ny.com/login",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.pull-right@text",
+            "lastChapter": "class.pull-left@text",
+            "name": "div.font-2@div@a@text",
+            "wordCount": "class.glyphicon glyphicon-pencil@text"
+        },
+        "ruleContent": {
+            "content": "div.panel-body.post-body@div.main-text.indentation.no-selection@tag.span.0@all"
+        },
+        "ruleExplore": {
+            "author": "div.col-xs-12@tag.span.1@a@text",
+            "bookList": "div.panel-body@article",
+            "bookUrl": "div.col-xs-12@tag.span.0@a.bigger-5@href",
+            "intro": "span.smaller-5@all",
+            "name": "div.col-xs-12@tag.span.0@a.bigger-5@text"
+        },
+        "ruleSearch": {
+            "author": "class.pull-right@text",
+            "bookList": "class.col-xs-12 h5",
+            "bookUrl": "class.col-xs-12 h5@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "",
+            "kind": "class.badge bianyuan-tag badge-tag@text\n",
+            "lastChapter": "class.pull-left@text",
+            "name": "class.bigger-10@text",
+            "wordCount": "class.glyphicon glyphicon-pencil@text"
+        },
+        "ruleToc": {
+            "chapterList": "div.hidden-sm.hidden-md.hidden-lg.overflow-hidden.text-center@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://xn--pxtr7m.com/search?search={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "文学屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wenxue5.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1628553819210,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property$=category]@content&&[property$=status]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": "[property$=update_time]@content"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes##http.*html|天才一秒.*net",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".p10",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": ".cat@text##分类：",
+            "lastChapter": "a.2@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.wenxue5.net/s789.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "这个网页……emmmm，写都写了，放出来叭",
+        "bookSourceGroup": "🍏普通",
+        "bookSourceName": "🍏 18小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kyankanshu.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/sort/{{page}}\n玄幻::/sort1/{{page}}\n仙侠::/sort2/{{page}}\n都市::/sort3/{{page}}\n军史::/sort4/{{page}}\n网游::/sort5/{{page}}\n科幻::/sort6/{{page}}\n灵异::/sort7/{{page}}\n言情::/sort8/{{page}}\n其他::/sort9/{{page}}\n                             排行                               ::\n总点击榜::/top/allvisit/{{page}}\n月点击榜::/top/monthvisit/{{page}}\n周点击榜::/top/weekvisit/{{page}}\n字数排行::/top/size/{{page}}\n最近更新::/top/lastupdate/{{page}}\n最新小说::/top/postdate/{{page}}",
+        "lastUpdateTime": 1619148323304,
+        "ruleBookInfo": {
+            "author": "class.info@tag.span.0@tag.a@text",
+            "coverUrl": "img@data-original",
+            "intro": "class.intro@class.content@text",
+            "kind": "class.info@tag.span.1@tag.a@text",
+            "lastChapter": "class.info@tag.span.2@tag.a@text",
+            "name": "h2@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.content@html##--.*|本章未完.*",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##→全-网→更-新→→最-快→1`8`小`说`网→→m.18xsw.org|,lgyu8|.*首发、域名.*|第.*章.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.1@span@text##作者：",
+            "bookList": "class.clearfix@li!0",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.intro@text",
+            "kind": "tag.p.1@tag.em.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.attentions@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.right@tag.a@href"
+        },
+        "searchUrl": "https://www.kyankanshu.com/search.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

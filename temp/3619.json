@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自制,修复优化,源仓库,网页源",
+        "bookSourceName": "苏明小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.sumingxs.com",
+        "bookUrlPattern": "https?://www.sumingxs.com/\\w+/\\d+/",
+        "customOrder": 250,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "宿命之环::/xiaoshuo/1/\n灵境行者::/xiaoshuo/2/\n光阴之外::/xiaoshuo/3/\n择日飞升::/xiaoshuo/6/\n万相之王::/xiaoshuo/16/\n仙者::/xiaoshuo/5/\n苟在妖武乱世修仙::/xiaoshuo/7/\n更多···全部::/xiaoshuo/<,1-{{page}}.html>",
+        "header": "{\n\t\"referer\": \"{{source.getKey()}}\",\n\t\"x-requested-with\": \"mark.via\",\n\t\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\t\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"\n\t}",
+        "lastUpdateTime": 1693883383206,
+        "respondTime": 5020,
+        "ruleBookInfo": {
+            "author": "text.作者@text",
+            "coverUrl": ".item@img@src",
+            "intro": ".des@text",
+            "kind": ".itemtxt@span@text",
+            "lastChapter": ".itemtxt@li.0@a@text",
+            "name": "h3@text"
+        },
+        "ruleContent": {
+            "content": ".con@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "kind": "span@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "kind": "span@text",
+            "lastChapter": "ul@li.0@a@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://www.sumingxs.com/ask/{{key}}/",
+        "variableComment": "",
+        "weight": 0
+    }
+]

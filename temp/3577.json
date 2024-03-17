@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "★自制,★专搜耽美",
+        "bookSourceName": "A 99阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.9920102.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "{\"title\":\"游戏\",\"url\":\"/fl/16/\",\"style\":{}},\n{\"title\":\"仙侠\",\"url\":\"/fl/12/\",\"style\":{}},\n{\"title\":\"科幻\",\"url\":\"/fl/11/\",\"style\":{}},\n{\"title\":\"玄幻\",\"url\":\"/fl/9/\",\"style\":{}},\n{\"title\":\"穿越\",\"url\":\"/fl/4/\",\"style\":{}},\n{\"title\":\"言情\",\"url\":\"/fl/2/\",\"style\":{}},\n{\"title\":\"都市\",\"url\":\"/fl/1/\",\"style\":{}},\n{\"title\":\"热门\",\"url\":\"/fl/\",\"style\":{}},",
+        "lastUpdateTime": 1686736963683,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".p_author@text",
+            "coverUrl": "img@src",
+            "intro": ".hm-scroll@text",
+            "kind": "#count@li.0@span@text",
+            "lastChapter": "@uptime@text",
+            "name": "#bookinfo@.d_title@h1@text",
+            "tocUrl": "@button_all@.b1@a@href",
+            "wordCount": "#count@li.1@span@text"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "title": "h1@text"
+        },
+        "ruleExplore": {
+            "bookList": ".list_center@#sitebox",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@src",
+            "intro": ".book_other.0@.book_des@text",
+            "kind": ".book_other.0@.span.0@text",
+            "lastChapter": ".book_other.1@href",
+            "name": "h3@a@text",
+            "wordCount": ".book_other.0@.span.2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".list_center@#sitebox@dl",
+            "bookUrl": "@h3@a.0@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "img@src",
+            "intro": ".book_des@text",
+            "kind": ".book_other@span.0@text",
+            "lastChapter": "@dt@a@href",
+            "name": "@h3@a.0@text",
+            "wordCount": ".book_other@span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#newlist@#chapterList@li",
+            "chapterName": "@a@text",
+            "chapterUrl": "@a@href"
+        },
+        "searchUrl": "http://www.9920102.com/search?keywords={{key}}",
+        "weight": 0
+    }
+]

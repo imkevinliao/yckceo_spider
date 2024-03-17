@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自己",
+        "bookSourceName": "追书看ws",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zhuishukan.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "小说首页::https://www.zhuishukan.com/\n玄幻奇幻::/BookList_1_{{page}}.html\n武侠仙侠::/BookList_2_{{page}}.html\n都市生活::/BookList_3_{{page}}.html\n历史军事::/BookList_4_{{page}}.html\n游戏竞技::/BookList_5_{{page}}.html\n科幻未来::/BookList_6_{{page}}.html\n恐怖悬疑::/BookList_7_{{page}}.html\n其他类型1::/BookList_8_{{page}}.html\n古代言情::/BookList_9_{{page}}.html\n现代言情::/BookList_10_{{page}}.html\n幻想奇缘::/BookList_11_{{page}}.html\n游戏情缘::/BookList_12_{{page}}.html\n浪漫青春::/BookList_13_{{page}}.html\n言情美文::/BookList_14_{{page}}.html\n科幻灵异::/BookList_15_{{page}}.html\n其他类型2::/BookList_16_{{page}}.html",
+        "header": "{\n\"referer\": \"https://www.zhuishukan.com/\"\n}",
+        "lastUpdateTime": 1679735468525,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#info p:nth-of-type(1) a@text",
+            "coverUrl": "div#fmimg img@src",
+            "init": "#main > div.box_con",
+            "intro": "#intro p:nth-of-type(1)@text",
+            "kind": "",
+            "lastChapter": "#info p:nth-of-type(4) a@text",
+            "name": "h1@text",
+            "wordCount": "#info p:nth-of-type(3)@text##最后更新："
+        },
+        "ruleContent": {
+            "content": "#content p!-1@html"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".l ul@li&&.novelslist2 li:nth-of-type(n+2)",
+            "bookUrl": ".s2 a@href",
+            "kind": ".s1@text##\\[|\\]",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text",
+            "wordCount": ".s5@text&&.s7@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span:nth-of-type(1)@text",
+            "bookList": "div#sitembox dl",
+            "bookUrl": "h3 a@href",
+            "coverUrl": "dt a img@src",
+            "intro": "dd.book_des@text",
+            "kind": "span:nth-of-type(3)@text",
+            "lastChapter": ".book_other a@text",
+            "name": "h3 a@text",
+            "wordCount": "span:nth-of-type(4)@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dl@dd:nth-of-type(n+13)",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.zhuishukan.com/search.html,{\"charset\": \"UTF-8\",\"method\": \"post\",\"body\": \"searchtype=all&searchkey={{key}}\",\"webView\": true}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔趣阁看小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.biqugek.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1619383890538,
+        "ruleBookInfo": {
+            "canReName": "",
+            "kind": "class.infotype@tag.p.1@text##类型：",
+            "lastChapter": "class.infotype@tag.a.-1@text&&class.infotype@tag.p.2@text##\\n更新时间：##•",
+            "tocUrl": "text.章节目录@href##$##,{\"webView\":true}"
+        },
+        "ruleContent": {
+            "content": "class.articlecontent@class.content_detail@text##☆免费小说阅读.*|手机用户.*|天才.*biqugek.*\\n|本书由小说云.*\\n",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.article",
+            "bookUrl": "h6@a@href##$##,{\"webView\":true}",
+            "coverUrl": "img@src",
+            "intro": "class.simple@text",
+            "name": "h6@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@a!0:-1",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/search,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&type=articlename&submit=点击搜索\",\n\"webView\":true\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": " 普通",
+        "bookSourceName": "TXT小说下载",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.txtbook.org",
+        "customOrder": -38353,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/xuanhuan/<,{{page}}/>\n武侠修真::/wuxia/<,{{page}}/>\n都市青春::/dushi/<,{{page}}/>\n历史军事::/lishi/<,{{page}}/>\n游戏动漫::/youxi/<,{{page}}/>\n科幻灵异::/kehuan/<,{{page}}/>\n女生言情::/yanqing/<,{{page}}/>",
+        "lastUpdateTime": 1606172923109,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "class.bookintro@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "class.downbox@tag.a.1@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.read-content@html##【TXT小说下载网.*无弹窗免费阅读！|佰度搜索.*电子书免费下载！",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "tag.dd.1@tag.span.0@tag.a@text",
+            "bookList": "id.sitembox@tag.dl",
+            "bookUrl": "tag.dd.0@tag.h3@tag.a@href",
+            "coverUrl": "tag.dt@img@src",
+            "intro": "tag.dd.2@text",
+            "kind": "tag.dd.1@tag.span.1@text&&\ntag.dd.3@tag.span@text",
+            "lastChapter": "tag.dd.3@tag.a@text",
+            "name": "tag.dd.0@tag.h3@tag.a@text##《|》TXT下载"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.shulist@tag.ul",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a@href##(\\d{2})\\d+##https://www.ujxs.net/files/article/image/$1/$0/$0s.jpg##",
+            "kind": "tag.li.-1@text&&\ntag.li.-2@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlist@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.txtbook.org/searchbooks.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

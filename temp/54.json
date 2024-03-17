@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "章节数小于8会导致目录加载不全",
+        "bookSourceName": "手机小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shoujixs.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1664022593801,
+        "respondTime": 5410,
+        "ruleBookInfo": {
+            "author": "#muluzuoceh@p.0@text##作者：",
+            "coverUrl": "img@src",
+            "intro": "#shojixsinto@p:nth-of-type(1)@html",
+            "kind": ".shoujixsml2@a:nth-of-type(2)@text&&#muluzuoceh@p.1@text##更新时间：",
+            "lastChapter": "#muluzuoceh@a@text",
+            "name": "h1@text",
+            "wordCount": "#muluzuoceh@p.3@text##字数："
+        },
+        "ruleContent": {
+            "content": "#zjny@p@text"
+        },
+        "ruleSearch": {
+            "author": "div.c_tag:nth-of-type(2)@span:nth-of-type(2)@text",
+            "bookList": "div#sjxskk@div.c_row",
+            "bookUrl": ".c_subject@a@href",
+            "coverUrl": "a@img@src",
+            "intro": "div.c_description@text",
+            "kind": "div.c_tag:nth-of-type(2)@span:nth-of-type(4)@text&&span:nth-of-type(8)@text&&div.c_tag:nth-of-type(4)@span:nth-of-type(4)@text",
+            "lastChapter": ".c_value@a@text",
+            "name": ".c_subject@a@text",
+            "wordCount": "span:nth-of-type(6)@text"
+        },
+        "ruleToc": {
+            "chapterList": "dd:nth-of-type(n+9)@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "select@option@value"
+        },
+        "searchUrl": "/modules/article/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+        "weight": 0
+    }
+]

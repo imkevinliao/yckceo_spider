@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceUrl": "http://www.42biquge.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "新笔趣阁",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/search?keyword={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1641130791664,
+        "ruleSearch": {
+            "checkKeyWord": "半仙",
+            "bookList": "class.novelslist2@tag.li.!0",
+            "name": "class.s2@text",
+            "author": "class.s4@text",
+            "lastChapter": "class.s3@text",
+            "bookUrl": "class.s2@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "id.info@tag.h1@text",
+            "author": "id.info@tag.p.0@tag.a@text",
+            "lastChapter": "id.info@tag.p.3@tag.a@text",
+            "intro": "id.intro",
+            "coverUrl": "id.fmimg@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "@css:#list dt:last-of-type~dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        }
+    }
+]

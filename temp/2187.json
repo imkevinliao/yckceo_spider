@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "tag.a.0@href\n<js>a=result;\nb=\"http://m.ttshu8.org/\";\njava.ajax(b+a)\n</js>\nclass.review@text\n\n\n\n---------------------------上边为搜索页简介，下方为搜索页封面自行复制到    搜索页对应栏中，将严重影响搜索速度--------------------------------------\n\n\n\ntag.a.0@href\n<js>a=result;\nb=\"http://m.ttshu8.org/\";\njava.ajax(b+a)\n</js>\nclass.synopsisArea_detail@tag.img@src",
+        "bookSourceGroup": "现实debug",
+        "bookSourceName": "天天书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.ttshu8.org/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1616025656973,
+        "ruleBookInfo": {
+            "coverUrl": "class.synopsisArea_detail@tag.img@src",
+            "lastChapter": "",
+            "tocUrl": "class.recommend@text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "class.Readarea ReadAjax_content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author.0@text",
+            "bookList": "class.recommend mybook@class.hot_sale",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "\nclass.author.1@textNodes&&class.author.0@text## *\\| *作者.*| *\\| *",
+            "lastChapter": "class.author.1@tag.a.0@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.directoryArea@tag.p!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://m.ttshu8.org/so.html,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\",\n\"headers\": {\"User-Agent\": \"\"}\n}",
+        "weight": 0
+    }
+]

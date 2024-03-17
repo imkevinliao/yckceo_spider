@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "xpath;coolapk@芜恙;nextUrl",
+        "bookSourceGroup": "💟 芜恙",
+        "bookSourceName": "斋书苑ⓞ",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zhaishuyuan.org#sitembox dl",
+        "bookUrlPattern": "https://www.zhaishuyuan.org/book/\\d+/\\d+/",
+        "customOrder": -2058,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1621531603879,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "//*[@property=\"og:novel:author\"]/@content",
+            "coverUrl": "//*[@property=\"og:image\"]/@content",
+            "intro": "//*[@class=\"wrapper\"]##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "//*[@property=\"og:novel:category\"]/@content&&\n//*[@property=\"og:novel:status\"]/@content##中|已",
+            "lastChapter": "//*[@property=\"og:novel:lastest_chapter_name\"]/@content&&//*[@property=\"og:novel:update_time\"]/@content\n<js>\nvar n = result.replace(/\\n.*/, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>",
+            "name": "//*[@property=\"og:novel:book_name\"]/@content",
+            "tocUrl": "//*[@property=\"og:novel:read_url\"]/@content",
+            "wordCount": "//*[@class=\"count\"]/ul/li[4]/span/text()##\\s"
+        },
+        "ruleContent": {
+            "content": "//*[@id=\"content\"]",
+            "nextContentUrl": "//a[text()=\"下一页\"]/@href",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "//dd[2]/span[1]//text()",
+            "bookList": "//*[@id=\"sitembox\"]/dl",
+            "bookUrl": "//dt/a/@href",
+            "coverUrl": "//img/@src",
+            "intro": "//dd[3]/text()",
+            "kind": "//dd[2]/span[3]/text()&&//dd[2]/span[2]/text()##中|已",
+            "lastChapter": "//dd[4]//text()\n<js>\nvar n = result.replace(/最新章节：|更新时间.*/g, '');\nvar t = result.replace(/.*更新时间：/g, '');\nn + '▪' + t\n</js>",
+            "name": "//h3/a//text()",
+            "wordCount": "//dd[2]/span[4]/text()##$##万字"
+        },
+        "ruleToc": {
+            "chapterList": "//*[@id=\"readerlist\"]/ul/li/a",
+            "chapterName": "title",
+            "chapterUrl": "href",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

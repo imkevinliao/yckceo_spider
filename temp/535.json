@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "\nSra.ᚿᚫ⸙",
+        "bookSourceGroup": "☣️精选senhora,☣️senhora起点,🌹",
+        "bookSourceName": "笔下文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bixiabook.com",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": -88962086,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+        "lastUpdateTime": 1646275037063,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:update_time\"]@content&&[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:title\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "imageStyle": "0",
+            "replaceRegex": "##.*一秒记住本站.*|https.*com.*/|.*bixia.*com|笔下文学"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": "class.novelslist2@tag.li!0",
+            "bookUrl": "tag.a.0@href##$##,{'webView': true}",
+            "checkKeyWord": "剧本",
+            "coverUrl": "##href=\"/(\\d+)_(\\d+)/\"##https://www.bixiabook.com/files/article/image/$1/$2/$2s.jpg###",
+            "lastChapter": "tag.a.-1@text&&class.s6@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "//div[@id=\"list\"]/dl/dt[2]/following-sibling::dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.bixiabook.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

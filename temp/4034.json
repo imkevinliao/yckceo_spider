@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "by zhbyjm7783\n替换一程\n注意网址是：（后面的m/不能去掉）\nhttps://www.52ggdxs.com/m/",
+        "bookSourceGroup": "自写修复0909",
+        "bookSourceName": "格格党网[自写]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.52ggdxs.com/m/",
+        "bookUrlPattern": "",
+        "customOrder": 82,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻修真\",\"url\":\"https://www.52ggdxs.com/m_1_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"悬疑推理\",\"url\":\"https://www.52ggdxs.com/m_5_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"古典言情\",\"url\":\"https://www.52ggdxs.com/m_7_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"现代言情\",\"url\":\"https://www.52ggdxs.com/m_8_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市商战\",\"url\":\"https://www.52ggdxs.com/m_2_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"https://www.52ggdxs.com/m_3_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"网游科幻\",\"url\":\"https://www.52ggdxs.com/m_4_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"穿越架空\",\"url\":\"https://www.52ggdxs.com/m_6_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"综合其他\",\"url\":\"https://www.52ggdxs.com/m_10_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "header": "",
+        "lastUpdateTime": 1694193122101,
+        "loginUrl": "",
+        "respondTime": 11442,
+        "ruleBookInfo": {
+            "author": ".con span@text",
+            "coverUrl": "",
+            "intro": ".des@text",
+            "kind": "",
+            "lastChapter": ".con.1@dl@dd.0@a@text",
+            "name": "h3 a@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": ".con.1@p!-1:-2:-3@html",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "kind": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".con span@text",
+            "bookList": ".round",
+            "bookUrl": "h3 a@href",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "intro": ".des@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "h3 a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.g@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://www.52ggdxs.com/m/search/?wd={{key}}",
+        "weight": 0
+    }
+]

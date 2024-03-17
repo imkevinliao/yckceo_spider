@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "耽美小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.dmxso.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1621075427827,
+        "ruleBookInfo": {
+            "coverUrl": "img@data-original",
+            "intro": "class.summary@html##展开全文",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "class.read-section@html##免费小说尽在.*|.*最快更新.*最新章节.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.list-ul@li",
+            "bookUrl": "a@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.desc@html",
+            "kind": "class.info@p@span@text",
+            "name": "class.tit@text##【.*|《|》|完结.*|章节列表.*|免费无删|最新.*|大结局|全文.*"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapter-list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.dmxso.com/search/?k={{key}},{\"webView\":true}",
+        "weight": 0
+    }
+]

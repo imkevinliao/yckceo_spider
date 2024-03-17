@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "目前网站搜索功能不可用，只能通过“发现”或者点击“书架”的右上角“菜单”->点击“添加网址”->将浏览器中复制到的书籍详情页链接填进去",
+        "bookSourceGroup": "",
+        "bookSourceName": "乐读窝",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.qiduwx.com/",
+        "bookUrlPattern": "http://m.qiduwx.com/book/\\d+./",
+        "customOrder": 97,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部       ::/quanben_{{page}}.html\n玄幻奇幻::/class/1/{{page}}.html\n武侠仙侠::/class/2/{{page}}.html\n现代都市::/class/3/{{page}}.html\n历史军事::/class/4/{{page}}.html\n网游竞技::/class/5/{{page}}.html\n科幻灵异::/class/6/{{page}}.html\n美文同人::/class/7/{{page}}.html\n其他小说::/class/8/{{page}}.html",
+        "lastUpdateTime": 1626803624174,
+        "ruleBookInfo": {
+            "author": "tag.p.2@text",
+            "coverUrl": "class.block_img2@img@src",
+            "intro": "class.intro_info@text",
+            "kind": "tag.p.3@text##分类：",
+            "lastChapter": "tag.p.-1@text##最新：",
+            "name": "h2@text",
+            "wordCount": "tag.p.4@text##状态："
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html##xleduwo.com.*",
+            "imageStyle": "0",
+            "nextContentUrl": "class.Readpage_down js_page_down@href"
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "class.hot_sale@tag.a.0@href",
+            "coverUrl": "tag.a@img@src",
+            "intro": "class.review@text##简介\\：\\s*",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "author": "class.author.0@text",
+            "bookList": "class.hot_sale||class.hot_sale hot_saleEm",
+            "bookUrl": "tag.a.0@href",
+            "kind": "class.author.0@ownText##\\ \\| 作者.*",
+            "lastChapter": "class.author.1@text##连载\\ \\| 更新：",
+            "name": "class.title@text",
+            "wordCount": "class.author.1@text##\\ \\| .*"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter.1@li||class.chapter@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.middle@option!0@value",
+            "updateTime": ""
+        },
+        "searchUrl": "https://m.qiduwx.com/s.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

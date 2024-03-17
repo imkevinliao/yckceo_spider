@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "by~江湖\n搜索间隔60秒",
+        "bookSourceName": "茶杯狐",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.5izhengjiang.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻::/sort/1_{{page}}.html\n武侠::/sort/2_{{page}}.html\n都市::/sort/3_{{page}}.html\n历史::/sort/4_{{page}}.html\n科幻::/sort/6_{{page}}.html\n网游::/sort/5_{{page}}.html\n女生::/sort/8_{{page}}.html\n其它::/sort/7_{{page}}.html\n完本::/quanben/sort/{{page}}.html",
+        "lastUpdateTime": 1663908235756,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": ".intro p@html",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "//*[@property=\"og:novel:lastest_chapter_name\"]/@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ".last9 .more a@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "//p/span[1]/text()##作者 :",
+            "bookList": ".list-item",
+            "bookUrl": "//*[@class=\"article\"]/a[1]/@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": "//*[@class=\"article\"]/a[last()]/span/text()",
+            "kind": "//p/span[last()]/text()##分类 : ",
+            "name": "//*[@class=\"article\"]/a[1]/text()"
+        },
+        "ruleToc": {
+            "chapterList": ".lb_mulu li~li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}&searchtype=all\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

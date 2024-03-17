@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceUrl": "https://m.biqu.vip/",
+        "bookSourceType": "0",
+        "bookSourceName": "笔趣VIP",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://m.biqu.vip/s.php,{\n    \"charset\": \"gbk\",\n    \"method\": \"POST\",\n    \"body\": \"s={{key}}&type=articlename\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1676857115425,
+        "ruleSearch": {
+            "bookList": ".searchresult p",
+            "name": "a.0@text",
+            "author": "a.1@text",
+            "bookUrl": "@css:.sone>a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": ".cataloginfo h3@text",
+            "author": ".infotype a.0@text",
+            "kind": ".infotype p.1@text##类型：",
+            "lastChapter": ".infotype a.1@text",
+            "intro": ".intro p.0@text",
+            "coverUrl": ".pic img@src",
+            "tocUrl": ".intro p.1@text##超脑驱动最新章节地址：https://m.##https://www."
+        },
+        "ruleToc": {
+            "chapterList": ".box_con div dl dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "replaceRegex": "##请记住最新网址：www.biqu.vip|『章节错误,点此举报\\(需注册会员\\)』,举报后维护人员稍后会校正章节内容。"
+        }
+    }
+]

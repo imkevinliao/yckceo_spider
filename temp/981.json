@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "人文书库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.rwsk.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1631785694921,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "img.1@src",
+            "init": "",
+            "intro": "class.r_cons@text",
+            "kind": "class.txt_nav@a.1@text",
+            "name": "#info@h1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "class.list@table",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text##.*\\{",
+            "lastChapter": "",
+            "name": "img@alt"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-item@li!-1",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.rwsk.net/search.php?keyword={{key}}&submit=,{\n'charset': 'gb2312',\n'method': 'GET'\n}",
+        "weight": 0
+    }
+]

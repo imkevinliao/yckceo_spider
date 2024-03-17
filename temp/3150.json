@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceGroup": "👍 优质,网络,发现",
+        "bookSourceName": "👍 书馆中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.sgzew.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/list/1_{{page}}.html\n武侠修真::/list/2_{{page}}.html\n都市言情::/list/3_{{page}}.html\n历史军事::/list/4_{{page}}.html\n穿越时空::/list/5_{{page}}.html\n网游动漫::/list/6_{{page}}.html\n科幻小说::/list/7_{{page}}.html\n乡村小说::/list/8_{{page}}.html\n其他类型::/list/9_{{page}}.html",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.novel_msg@tag.li@tag.a.0@text",
+            "intro": "id.description1@text",
+            "name": "id.content@tag.h1@tag.a.0@text",
+            "tocUrl": "class.button2 white@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.booktext@html##章节错误/点此举报"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "class.odd.0@tag.a.0@href",
+            "lastChapter": "class.even.0@tag.a.0@text",
+            "name": "class.odd.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_article_listtext@tag.dl@id.chapterlist@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.sgzew.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

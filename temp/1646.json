@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceName": "书趣馆",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.souzhon.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1668165393693,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "canReName": "1",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？\\s]+[”」）】]?)##$1<br>",
+            "kind": "[property~=status|category|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property$=update_time]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "{{@@[property=\"og:novel:read_url\"]@content}}#catalog",
+            "wordCount": "div.hits@span.0@text##\\s"
+        },
+        "ruleContent": {
+            "content": "div.read-content@p@ownText"
+        },
+        "ruleSearch": {
+            "author": "dd@p.0@a.0@text",
+            "bookList": "div.secd-rank-list",
+            "bookUrl": "a.bigpic-book-name@href",
+            "coverUrl": "img.lazyimg@data-original",
+            "intro": "p.big-book-info@text##简介：|\\s",
+            "kind": "dd@p.0@a.1@text&&dd@p.0@ownText##[|]\\s[|]\\s",
+            "name": "a.bigpic-book-name@text",
+            "wordCount": "span.clicknum@em.0@text##\\s"
+        },
+        "ruleToc": {
+            "chapterList": "div.cate-list@a",
+            "chapterName": "title",
+            "chapterUrl": "href",
+            "updateTime": "span.chapter_date@text"
+        },
+        "searchUrl": "/search.html?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

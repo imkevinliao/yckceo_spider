@@ -1,0 +1,28 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "酷小说",
+        "bookSourceUrl": "https://www.kuxiaoshuo.com",
+        "ruleSearchUrl": "https://www.kuxiaoshuo.com/modules/article/search.php?searchkey=searchKey",
+        "httpUserAgent": "",
+        "ruleBookAuthor": "id.info@tag.p.0@text#作者：",
+        "ruleBookContent": "id.content@textNodes",
+        "ruleBookName": "id.info@tag.h1@text",
+        "ruleChapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrl": "",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "id.fmimg@tag.img@src",
+        "ruleFindUrl": "",
+        "ruleIntroduce": "id.intro@tag.p.0@text",
+        "ruleSearchAuthor": "class.odd.1@text",
+        "ruleSearchCoverUrl": "",
+        "ruleSearchKind": "",
+        "ruleSearchLastChapter": "class.even.0@tag.a@text",
+        "ruleSearchList": "class.grid@tag.tr!0",
+        "ruleSearchName": "class.odd.0@tag.a@text",
+        "ruleSearchNoteUrl": "class.odd.0@tag.a@href",
+        "enable": true,
+        "serialNumber": 1
+    }
+]

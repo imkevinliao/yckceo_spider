@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "百草堂文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bctshu.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/sort-1-{{page}}/\n武侠仙侠::/sort-2-{{page}}/\n现代都市::/sort-3-{{page}}/\n女频言情::/sort-4-{{page}}/\n游戏竞技::/sort-5-{{page}}/\n科幻灵异::/sort-6-{{page}}/\n历史军事::/sort-7-{{page}}/\n综合其他::/sort-8-{{page}}/\n百草书库::/sort-0-{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1697858892913,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}##本站提示：.*",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#booktext@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".author@text",
+            "bookList": ".listbg1 li",
+            "bookUrl": "a.1@href",
+            "kind": "a.0@text&&span.-2:-3@text",
+            "lastChapter": "a.2@text",
+            "name": "a.1@text",
+            "wordCount": "span.-1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".title-info@ownText##.*作者：",
+            "bookList": ".article-list",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "intro": ".p-intro@text",
+            "kind": "a.1@text&&span@text##（|）",
+            "lastChapter": "a.-2@text",
+            "name": "h6 a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "dl.1@dd a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "a.next@href"
+        },
+        "searchUrl": "https://www.bctshu.com/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}&action=login&searchtype=all\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

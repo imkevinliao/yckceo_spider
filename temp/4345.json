@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "// 需要科学上网",
+        "bookSourceGroup": "🍊 女频",
+        "bookSourceName": "🍊 耽美小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bookbl.com",
+        "customOrder": 1278,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "header": "{\n\t\"User-Agents\": \"Mozilla/5.0 (Linux; Android 13; Z832 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.92 Mobile Safari/537.36\",\n \"Referer\": \"{{baseUrl}}\"\n}",
+        "lastUpdateTime": 1698383645478,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "body > section:nth-child(4) > div > div.bookinfo.col-lg-9.col-md-9.col-sm-12.col-xs-12 > div.bookcover.col-lg-3.col-md-3.col-sm-3.col-xs-4 > img@src",
+            "intro": "body > section:nth-child(4) > div > div.bookinfo.col-lg-9.col-md-9.col-sm-12.col-xs-12 > div.info.col-lg-9.col-md-9.col-sm-9.col-xs-8 > div@textNodes",
+            "kind": "body > section:nth-child(4) > div > div.bookinfo.col-lg-9.col-md-9.col-sm-12.col-xs-12 > div.info.col-lg-9.col-md-9.col-sm-9.col-xs-8 > table > tbody > tr:nth-child(1) > td@text##分類：",
+            "lastChapter": "body > section.container.booklist > div > div.panel.panel-booklist.col-lg-12.col-md-12.col-xs-12.col-sm-12 > ul > li.-1@text"
+        },
+        "ruleContent": {
+            "content": "#content > div.content@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.col-md-2.col-sm-4.col-xs-4@text||\ntable > tbody > tr:nth-child(2) > td@text##作者：",
+            "bookList": "body > section.container.top > div > div.panel.panel-default.col-lg-9.col-md-9.col-xs-12.col-sm-12 > table > tbody > tr||\nbody > section:nth-child(4) > div > div.bookinfo.col-lg-9.col-md-9.col-sm-12.col-xs-12 > div.info.col-lg-9.col-md-9.col-sm-9.col-xs-8",
+            "bookUrl": "td.col-md-2.col-sm-6.col-xs-8 > a@href||\nbashUrl",
+            "checkKeyWord": "炮灰的人生",
+            "coverUrl": "",
+            "lastChapter": "td.col-md-6.hidden-sm.hidden-xs > a@text",
+            "name": "td.col-md-2.col-sm-6.col-xs-8 > a@text||\nh1@text"
+        },
+        "ruleToc": {
+            "chapterList": "body > section.container.booklist > div > div.panel.panel-booklist.col-lg-12.col-md-12.col-xs-12.col-sm-12 > ul > li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/bl.php?search={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

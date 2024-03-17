@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "小说云九📎",
+        "bookSourceUrl": "https://www.xsy9.com",
+        "enable": true,
+        "httpUserAgent": "",
+        "ruleBookAuthor": ".msg@a!1@text#(小说|\\/)?全[本文](免费)?(阅读|完整)|文免费阅读 |全本免费|最新章节|完整版(阅读)?",
+        "ruleBookContent": "&lt;js>\nid=result.match(/article_id = \"(\\d+)\"/)[1];\ncid=result.match(/chapter_id = \"(\\d+)\"/)[1];\nhash=result.match(/hash = \"([\\d\\w]+)\"/)[1];\ntmp=\"https://www.fzfzw.com/home/index/ajaxchapter@id=\"+id+\"&eKey=\"+hash+\"&cid=\"+cid+\"&basecid=\"+cid;\nresult=JSON.parse(java.ajax(tmp)).info.content\nresult=result.replace(/本书由首发，请勿转载！/g,\"\")\n&lt;/js>",
+        "ruleBookKind": ".place@a!0:2@text&em!0:3@text#.*：|\\s[0-9].*",
+        "ruleBookLastChapter": ".msg@a!0@text",
+        "ruleBookName": "h1@text#(全文免?|小说)?免费(阅读|全本)(全文|：)?|小说(免费|全文阅读)|\\s*[\\(\\[〖（《【「](穿越|免费|出版)?\\+?已?(签约|完结|出书?版|结局|番外|全集|[完全](本|整版)?|大结局)[＋\\+]?(番外(后记)?|作品|免费|(番外)?已?出版|完结|影视|上市)?[\\)\\]〗）》】」]|[\\+·]?(已出版|番外|txt下载|(在线|全文)阅读)$|(?&lt;=（)出版名：?|,已签约出版|《|》(－?番外)?|最新章节(阅读)?|((免费| )小说|－?全本|完整版)$",
+        "ruleChapterList": "+.mulu!0@li@a",
+        "ruleChapterName": "",
+        "ruleChapterUrlNext": "",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "",
+        "ruleCoverUrl": "img@src",
+        "ruleFindUrl": "",
+        "ruleIntroduce": ".intro@text#【展开】【收起】|－{11}☆内容简介☆－{11}|剧情简介：|欢迎您点击阅读.*?原创网络小说《.*?并留下宝贵意见，谢谢！|.*?（全本\\+已出版）： ★本文正文已全部完结，|【本文已完.*?实体书已于各大网上书店有售。 －{22}|(－{22}|【完结】)$|分享书籍《.*?》作者：.*|啃书免费提供.*?》，最新清爽干净的文字章节在线阅读和《.*?全文阅读。|【风尚阁出品】|.*?》是.*?创作的.*?，恋上你看书网实时更新.*?最新章节并且提供无弹窗阅.*|^(【(完结|完本保证[！，](放心阅读)?)】|小说简介:( 内容简介：)?)|▼{6}本文简介▼{6}|\\... \\[详细介绍\\] 最新章节：.*|\"\\/metaproperty=",
+        "ruleSearchAuthor": "span@text#(小说|\\/)?全[本文](免费)?(阅读|完整)|文免费阅读 |全本免费|最新章节|完整版(阅读)?",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchIntroduce": "p@text#\\...$|.*?是由作者.*?创作的.*?小说，欢迎您来本站阅读.*|－{11}☆内容简介☆－{11}|【本文已完.*?实体书已于各大网上书店有售。 －{20}|啃书免费提供.*?《.*?，最新清爽干净的文字章节在线阅读和《.*|【风尚阁出品】|.*?》是.*?精心创作的.*?，恋上你看书网实时更新.*?最新章节并且|^(【(完结|完本保证[！，](放心阅读)?)】|小说简介:( 内容简介：)?)|▼{6}本文简介▼{6}|\"\\/metaproperty=",
+        "ruleSearchKind": "",
+        "ruleSearchLastChapter": "",
+        "ruleSearchList": ".cf@dl",
+        "ruleSearchName": "h3@text#(全文免?|小说)?免费(阅读|全本)(全文|：)?|小说(免费|全文阅读)|\\s*[\\(\\[〖（《【「](穿越|免费|出版)?\\+?已?(签约|完结|出书?版|结局|番外|全集|[完全](本|整版)?|大结局)[＋\\+]?(番外(后记)?|作品|免费|(番外)?已?出版|完结|影视|上市)?[\\)\\]〗）》】」]|[\\+·]?(已出版|番外|txt下载|(在线|全文)阅读)$|(?&lt;=（)出版名：?|,已签约出版|《|》(－?番外)?|最新章节(阅读)?|((免费| )小说|－?全本|完整版)$",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "/home/search@action=search&q=searchKey|char=utf-8",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

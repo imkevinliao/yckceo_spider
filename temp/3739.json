@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "六点小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.liudianxs.com",
+        "bookUrlPattern": "http://m.liudianxs.com/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort-1-{{page}}/\n仙侠小说::/sort-2-{{page}}/\n都市小说::/sort-3-{{page}}/\n历史小说::/sort-4-{{page}}/\n游戏小说::/sort-5-{{page}}/\n科幻小说::/sort-6-{{page}}/\n其他小说::/sort-7-{{page}}/\n全本小说::/full-{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689729109236,
+        "loginCheckJs": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@p.2@text",
+            "coverUrl": ".block_img2@img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2@p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2@a.-1@text",
+            "name": ".block_txt2@h2@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "replaceRegex": "##请牢记收藏：|六点小说.+免费阅读"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "ownText##\\/",
+            "bookList": ".line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "coverUrl": "@js:\"http://m.liudianxs.com/modules/article/images/nocover.jpg\"",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/modules/article/waps.php,{\n  \"body\": \"searchtype=articlename&searchkey={{key}}&submit=\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceUrl": "http://www.10gujin.com",
+        "bookSourceType": "0",
+        "bookSourceName": "拾古今小说",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+        "searchUrl": "/search/?searchtype=all&action=login&searchkey={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1603025389185,
+        "ruleSearch": {
+            "bookList": "//*[@class=\"table\"]//tr[position()>1]",
+            "name": "//td[1]/a/text()",
+            "author": "//td[3]/text()",
+            "wordCount": "//td[4]/text()",
+            "lastChapter": "//td[3]/a/text()",
+            "bookUrl": "//td[1]/a/@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "//div[1]/div/div/div[2]/h1/text()",
+            "author": "//div[1]/div/div/div[2]/p[1]/a[1]/text()",
+            "kind": "//div[1]/div/div/div[2]/p[1]/a[2]/text()",
+            "lastChapter": "//div[1]/div/div/div[2]/p[3]/a/text()",
+            "intro": "//*[@id=\"bookIntro d3d3LnhpYW9zaHVvbS5jb20=\"]",
+            "coverUrl": "//div/img/@src"
+        },
+        "ruleToc": {
+            "chapterList": "//div[2]/div[3]/dl/dd//a",
+            "chapterName": "//text()",
+            "chapterUrl": "//@href@js:\nr=result.match(/['\"]([^'\"]*)/)\nr&&r[1]||result"
+        },
+        "ruleContent": {
+            "content": "//*[@id=\"BookText\"]",
+            "nextContentUrl": "text.下一页@tag.a@href@js:\nr=(\"\"+result).match(/['\"]([^'\"]*)/)\nr&&r[1]||result"
+        }
+    }
+]

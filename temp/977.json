@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "酷友",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://qq.hehuamei.com",
+        "bookUrlPattern": "",
+        "customOrder": 23872,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/xclass/0/{{page}}.html\",\"style\":{}},\n{\"title\":\"玄幻小说\",\"url\":\"/xclass/1/{{page}}.html\",\"style\":{}},\n{\"title\":\"修真小说\",\"url\":\"/xclass/2/{{page}}.html\",\"style\":{}},\n{\"title\":\"都市小说\",\"url\":\"/xclass/3/{{page}}.html\",\"style\":{}},\n{\"title\":\"穿越小说\",\"url\":\"/xclass/4/{{page}}.html\",\"style\":{}},\n{\"title\":\"网游小说\",\"url\":\"/xclass/5/{{page}}.html\",\"style\":{}},\n{\"title\":\"科幻小说\",\"url\":\"/xclass/6/{{page}}.html\",\"style\":{}},\n{\"title\":\"女生小说\",\"url\":\"/xclass/7/{{page}}.html\",\"style\":{}},\n{\"title\":\"其他小说\",\"url\":\"/xclass/8/{{page}}.html\",\"style\":{}}]",
+        "lastUpdateTime": 1631852892988,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property$=category]@content&&[property$=status]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.全部章节@href",
+            "wordCount": "[property$=update_time]@content"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes##本章节.*继续阅读.",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".author@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.review@text##简介：",
+            "name": ".title@text"
+        },
+        "ruleSearch": {
+            "author": "p.1@text##作者：([^<]*)##$1###",
+            "bookList": "class.hot_sale",
+            "bookUrl": "a@href",
+            "kind": "p.1:2@text##\\s.*",
+            "lastChapter": "p.2@text##更新：([^<]*)##$1###",
+            "name": "p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.p!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://qq.hehuamei.com/s.php?keyword={{key}}&t=1",
+        "weight": 0
+    }
+]

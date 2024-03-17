@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "new",
+        "bookSourceName": "玩吧小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.wanbar.net/",
+        "customOrder": -292913,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"玄幻奇幻\",\n\"url\":\"/xuanhuan/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n{\"title\":\"武侠仙侠\",\n\"url\":\"/wuxia/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"都市生活\",\n\"url\":\"/dushi/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"历史军事\",\n\"url\":\"/lishi/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"游戏竞技\",\n\"url\":\"/youxi/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"科幻未来\",\n\"url\":\"/kehuan/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"恐怖悬疑\",\n\"url\":\"/xuanyi/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"古代言情\",\n\"url\":\"/guyan/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"现代言情\",\n\"url\":\"/xianyan/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"幻想奇缘\",\n\"url\":\"/huanqing/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"游戏情缘\",\n\"url\":\"/zongcai/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"浪漫青春\",\n\"url\":\"/qingchun/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"言情美文\",\n\"url\":\"/wangluo/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"科幻灵异\",\n\"url\":\"/mmkehuan/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"其他类型\",\n\"url\":\"/qita/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}}\n\t]",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\",\n\t\"Cookie\":\"waf_sc=5889647726; sex=boy;\",\n\t\"Referer\":\"https://m.wanbar.net/search.html\"\n\t}",
+        "lastUpdateTime": 1658648698153,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "lastChapter": "",
+            "wordCount": "class.detail@class.layui-btn.-1@text"
+        },
+        "ruleContent": {
+            "content": "class.awanbar_f62d66cd@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*7天免广告阅读.*|本章未完.*|喜欢.*请大家收藏.*"
+        },
+        "ruleExplore": {
+            "author": "class.data.0@a@text",
+            "bookList": "class.list@li",
+            "bookUrl": "a.0@href##shu(\\d+).html##$1",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.data.0@span@text",
+            "lastChapter": "class.data.-1@a@text",
+            "name": "class.bookname@text"
+        },
+        "ruleSearch": {
+            "author": "class.layui-btn.0@text",
+            "bookList": "class.list@li",
+            "bookUrl": "a.0@href##.*shu(\\d+).html##$1",
+            "checkKeyWord": "不科学御兽",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.layui-btn[1,2]@text",
+            "lastChapter": "class.data.-1@text##最新：",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option!0@value"
+        },
+        "searchUrl": "/search.html,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

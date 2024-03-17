@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "无忧小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.51eshu.com",
+        "bookUrlPattern": "https?://m.51eshu.com/\\w+/\\d+.(html)?",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/allsort/{{page}}.html\n玄幻::/XuanHuan/{{page}}.html\n奇幻::/QiHuan/{{page}}.html\n武侠::/WuXia/{{page}}.html\n都市::/DuShi/{{page}}.html\n历史::/LiShi/{{page}}.html\n军事::/JunShi/{{page}}.html\n悬疑::/XuanYi/{{page}}.html\n游戏::/YouXi/{{page}}.html\n科幻::/KeHuan/{{page}}.html\n体育::/TiYu/{{page}}.html\n古言::/GuYan/{{page}}.html\n现言::/XianYan/{{page}}.html\n幻言::/HuanYan/{{page}}.html\n仙侠::/XianXia/{{page}}.html\n青春::/QinɡChun/{{page}}.html\n穿越::/ChuanYue/{{page}}.html\n女生::/NuShenɡ/{{page}}.html\n其他::/QiTa/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1694231212645,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\".now a@href\"}",
+            "intro": "@get:{i}##无忧小说网.+观看小说:",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*下一页继续阅读.*|喜欢.+无忧小说网更新速度全网最快。|（本章未完，请翻页）"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".list li",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "span@text",
+            "lastChapter": "a.-1@text",
+            "name": "p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".read li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

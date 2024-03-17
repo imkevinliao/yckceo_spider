@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "📖  小说",
+        "bookSourceName": "📝52格格党",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.52ggd.com",
+        "customOrder": -299014,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n}",
+        "lastUpdateTime": 1656692337621,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@tag.p.2@text##.*：",
+            "coverUrl": ".block_img2@tag.img@src",
+            "init": "",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2@text##.*分类：(.*)状态：(.*)更新：.*##$1,$2",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content\n##最后更新：|更新(于|至)|.*卷.|正文.|.*目录.|.*章节|(更|最)新|时间|卷\\d.|\\d{2}:.*|求.*\\(.*\\)|…|（|）|(:|：)|\\(|.*Chapter|\\)|。|连载|\\n|T\n@js:result.replace(/、/,'.').replace(/正文\\s/,'').replace(/.*(第\\d{1,}章).*章(.*)/,'$1$2').replace(/.*(第.*章)(.*)/,'◆$1◆$2').replace(/(\\d{2,4}-\\d{2}.*)/,'⌚$1').replace(/(.*)，\\s*/,'$1').replace(/-\\s(\\d{2,4}-\\d{2}.*)/,'$1')",
+            "name": ".block_txt2@h2@text",
+            "tocUrl": "text.目录正序@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html##52格格党",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".waps_one",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "我的马甲",
+            "kind": ".waps_sort@text&&.waps_full_0@text##\\(|\\)",
+            "lastChapter": "tag.a.0@href##(.*)##http://m.52ggd.com$1<js>java.ajax(result)\n</js>[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content\n##最后更新：|更新(于|至)|.*卷.|正文.|.*目录.|.*章节|(更|最)新|时间|卷\\d.|\\d{2}:.*|求.*\\(.*\\)|…|（|）|(:|：)|\\(|.*Chapter|\\)|。|连载|\\n|T\n@js:result.replace(/、/,'.').replace(/正文\\s/,'').replace(/.*(第\\d{1,}章).*章(.*)/,'$1$2').replace(/.*(第.*章)(.*)/,'◆$1◆$2').replace(/(\\d{2,4}-\\d{2}.*)/,'⌚$1').replace(/(.*)，\\s*/,'$1').replace(/-\\s(\\d{2,4}-\\d{2}.*)/,'$1')",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.52ggd.com/modules/article/waps.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 'searchtype=articlename&searchkey={{key}}&submit='\n}",
+        "weight": 0
+    }
+]

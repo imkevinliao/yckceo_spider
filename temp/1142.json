@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "且用且珍惜，重写了目录，解析了包含2013年3月到2021年所有资源\n\n不fq就用老方法hosts直连，推荐clash\n\n172.64.87.179 www.wnacg.com\n104.26.12.115 t3.wnacg.download\n51.158.154.110 d5.wnacg.download\n104.21.42.104 t3.wnacg.com\n172.67.161.59 img1.wnacg.com\n172.67.161.59 img2.wnacg.com\n172.67.161.59 img3.wnacg.com",
+        "bookSourceGroup": "漫画",
+        "bookSourceName": "绅士漫画",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wnacg.com",
+        "customOrder": 65,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "\n首页::/albums-index-page-{{page}}.html\n\n风的工坊::/search/index.php?q=風的工房&m=&f=_all&s=create_time_DESC&p={{page}}\n\n4k汉化组::/search/index.php?q=4K漢化組&m=&f=_all&s=create_time_DESC&p={{page}}\n\nCG画集::/albums-index-page-{{page}}-cate-2.html\n\nCosplay::/albums-index-page-{{page}}-cate-3.html\n\n                                                                                                     ::                                    \n韩漫[汉化]::/albums-index-page-{{page}}-cate-20.html\n韩漫[生肉]::/albums-index-page-{{page}}-cate-21.html\n                                                                                                     ::                                    \n同人志[日语]::/albums-index-page-{{page}}-cate-12.html\n杂志&短篇[日语]::/albums-index-page-{{page}}-cate-14.html\n单行本[日语]::/albums-index-page-{{page}}-cate-13.html\n                                                                                                     ::                                    \n同人志[汉化]::/albums-index-page-{{page}}-cate-1.html\n杂志&短篇[汉化]::/albums-index-page-{{page}}-cate-10.html\n单行本[汉化]::/albums-index-page-{{page}}-cate-9.html\n",
+        "header": "",
+        "lastUpdateTime": 1626486744368,
+        "loginUrl": "https://www.wnacg.com/users-login.html",
+        "ruleBookInfo": {
+            "author": "class.asTBcell uwuinfo@tag.p@text",
+            "coverUrl": "class.asTBcell uwconn@tag.img@src",
+            "intro": "class.asTBcell uwconn@tag.p@html",
+            "kind": "class.tagshow@text",
+            "lastChapter": "class.asTBcell uwconn@tag.label.1@text",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "@js:\ndoc = org.jsoup.Jsoup.parse(result)\n\nname = doc.select(\"div.title span.name\")\n\ntime = doc.select(\"div.info_col\")[0].text().match(/(\\d{4})-(\\d{2})-\\d{2}/)\n\nyear = time[1]\n\nmonth = time[2]\n\n//java.log(year)\n\nnum = name.size()\n\ncheckUrl = 'https://www.wnacg.com'+ doc.select(\"div.grid li a\")[0].attr(\"href\")\ncheckDoc = org.jsoup.Jsoup.parse(java.ajax(checkUrl))\ncheckId = checkDoc.select(\"#picarea\").attr(\"src\").match(/\\/\\/(\\w+?).wnacg/)[1]\n\n//java.log(checkId)\n\nif(!name[0].text().match(/[\\u4e00-\\u9fa5]+/g)&&(year>=2013&&month>=3)){\n\nimgs = doc.select(\"div.grid li img\")\n\nid = imgs[0].attr(\"src\").match(/\\/[\\d]{4,6}\\/[\\d]{2,8}\\//g)[0]\n\na = '<img src = \\\"https://'+checkId+'.wnacg.com/data'+id\n\nb = '.jpg\\\">'\n\nlist = []\n\nfor(i=0;i<num;i++){\nlist[i] = a+name[i].text()+b\n}\nresult = list.join(\"\")\n}else{\n\nimgs = doc.select(\"div.cc li img\")\n\nlist = []\nfor(i in imgs){\npath = imgs[i].attr(\"src\").match(/\\/[\\d]{4,6}\\/[\\d]{2,8}\\/[^\"]+/g)[0]\nlist[i]= '<img src = \\\"https://'+checkId+'.wnacg.com/data'+path+ '\\\">'\n}\nresult = list.join(\"\")\n}\n\n",
+            "imageStyle": "FULL",
+            "nextContentUrl": "",
+            "replaceRegex": "",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": "ul[class=cc] li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.info_col@text",
+            "name": "class.title@tag.a@title@js:result.replace(/<[^>]+>/g,\"\")"
+        },
+        "ruleSearch": {
+            "bookList": "ul[class=cc] li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.info_col@text",
+            "name": "class.title@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.f_left paginator&&link[rel*=alternate]@js:\n\ndoc = org.jsoup.Jsoup.parse(result)\n//java.log(doc)\nsize = doc.select(\"span\").size()\n\nswitch(size) {\n     case 1:\n        link = doc.select(\"link\").attr(\"href\")\n        id = link.match(/aid-(\\d+)/)[1]\n        //java.log(id)\n        list = [] \n        list [0] = '<a href = \\\"https://www.wnacg.com/photos-index-aid-'+id+'.html\\\"></a>'\n        result = list\n        break;\n     default:\n        element = doc.select(\"a\")[doc.select(\"a\").size()-2]\n        num = Number(element.text())\n        path = element.attr(\"href\")\n        id = path.match(/aid-(\\d+)/)[1]\n        url = '<a href = \\\"https://www.wnacg.com/'\n        list = []\n        for(i=1;i<=num;i++){\nlist.push(url+\"photos-index-page-\"+i+\"-aid-\"+id+'.html\\\">'+i+'</a>')\n}\n        result = list\n} ",
+            "chapterName": "tag.a@text##$## 卷",
+            "chapterUrl": "tag.a@href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/search/index.php?q={{key}}&m=&f=_all&s=create_time_DESC&p={{page}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "搜索过快容易宕机",
+        "bookSourceGroup": "自制,优质,源仓库,网页源",
+        "bookSourceName": "番茄小说123",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.fqxs123.com",
+        "bookUrlPattern": "https://m.fqxs123.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/<,{{page}}.html>\n武侠::/wuxia/<,{{page}}.html>\n都市::/dushi/<,{{page}}.html>\n历史::/lishi/<,{{page}}.html>\n网游::/wangyou/<,{{page}}.html>\n科幻::/kehuan/<,{{page}}.html>\n女生::/mm/<,{{page}}.html>\n全本::/finish/<,{{page}}.html>",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1685357463431,
+        "loginUrl": "https://m.fqxs123.com/login.html",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者@text",
+            "coverUrl": "[property$=image]@content",
+            "init": "",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "class.name@text",
+            "tocUrl": "{{$.}}list.html",
+            "wordCount": "text.字数@text##字数："
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##请收藏.*com|.*请关闭畅读或阅读模式.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "class.item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "kind": "0",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/s?q={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "星月文学",
+        "bookSourceUrl": "https://www.xingyueboke.com",
+        "enable": true,
+        "ruleBookAuthor": "class.book-describe@tag.p.0@text#作者：",
+        "ruleBookContent": "id.nr1@p@html",
+        "ruleBookLastChapter": "class.book-list clearfix@tag.li.-1@a@text",
+        "ruleChapterList": "class.book-list clearfix@li@a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.book-img@img@src",
+        "ruleFindUrl": "首页推荐::https://www.xingyueboke.com/\n中国名著::https://www.xingyueboke.com/zhongguomingzhu/\n世界名著::https://www.xingyueboke.com/shijiemingzhu/\n外国文学::https://www.xingyueboke.com/waiguowenxue/\n影视原著::https://www.xingyueboke.com/yingshiyuanzhu/",
+        "ruleIntroduce": "class.describe-html@p@textNodes",
+        "ruleSearchAuthor": "span@text#.*/",
+        "ruleSearchCoverUrl": "a@href@js:result.replace(/.*\\/(.*?).jpg/,'/wp-content/themes/xinjian/images/$1.jpg').replace(/.*\\/(.*?)\\//,'/wp-content/themes/xinjian/images/$1.jpg')",
+        "ruleSearchIntroduce": "",
+        "ruleSearchList": "class.search-list mb clearfix@li|ol@li",
+        "ruleSearchName": "pop-tit@text|a@text#《|》.*",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://www.xingyueboke.com/?s=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

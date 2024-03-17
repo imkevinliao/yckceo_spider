@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "破晓小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.pxtxt.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1625223766195,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property$=category]@content&&[property$=status]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "class.am-text-center@a@href",
+            "wordCount": "[property$=update_time]@content"
+        },
+        "ruleContent": {
+            "content": "class.am-article-bd@p@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.0@text",
+            "bookList": "class.user-bookcase@dl",
+            "bookUrl": "a@href",
+            "kind": "tag.a.0@text##\\[|\\].*",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text##.*]",
+            "wordCount": "tag.p.2@text##更新："
+        },
+        "ruleToc": {
+            "chapterList": "class.am-list am-list-striped@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://m.pxtxt.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

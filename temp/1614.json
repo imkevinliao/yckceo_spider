@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "测试",
+        "bookSourceName": "若初",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ruochuwx.com/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "全部分类::/finish/allsort/{{page}}.html\n玄幻奇幻::/finish/xuanhuan/{{page}}.html\n武侠仙侠::/finish/wuxia/{{page}}.html\n都市生活::/finish/dushi/{{page}}.html\n历史军事::/finish/lishi/{{page}}.html\n游戏竞技::/finish/youxi/{{page}}.html\n科幻未来::/finish/kehuan/{{page}}.html\n恐怖悬疑::/finish/xuanyi/{{page}}.html\n其他类型::/finish/qita/{{page}}.html\n古代言情::/finish/guyan/{{page}}.html\n现代言情::/finish/xianyan/{{page}}.html\n幻想奇缘::/finish/huanqing/{{page}}.html\n游戏情缘::/finish/zongcai/{{page}}.html\n浪漫青春::/finish/qingchun/{{page}}.html\n言情美文::/finish/wangluo/{{page}}.html\n科幻灵异::/finish/mmkehuan/{{page}}.html\n其他类型::/finish/mmqita/{{page}}.html",
+        "header": "{\n\t\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36\",\n\t\"Cookie\":\"waf_sc=1234567890\"\n\t}",
+        "lastUpdateTime": 1666352528723,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:update_time\"]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##喜欢.*更新速度.*"
+        },
+        "ruleExplore": {
+            "author": "class.data.0@a@text",
+            "bookList": "class.list@li",
+            "bookUrl": "https://www.ruochuwx.com{{@@class.bookname@a@href}}",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.data.0@span@text",
+            "lastChapter": "class.data.1@text",
+            "name": "img@alt"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.data.0@a@text",
+            "bookList": "class.list@li",
+            "bookUrl": "https://www.ruochuwx.com{{@@class.bookname@a@href}}",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.data.0@span@text",
+            "lastChapter": "class.data.1@text",
+            "name": "img@alt",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceUrl": "https://www.5ilrc.com",
+        "bookSourceType": "0",
+        "bookSourceName": "我爱小说网🌺少敏感字",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0\",\n    \"cookie\":\"Hm_lvt_8fd9f757ca72ab9804ca50c2f77d2f50\"\n}",
+        "searchUrl": "https://www.5ilrc.com/search.html,\n{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 999,
+        "customOrder": 0,
+        "lastUpdateTime": 1626175485686,
+        "ruleSearch": {
+            "bookList": "id.sitembox@dl",
+            "name": "tag.h3@text",
+            "author": "class.book_other.0@tag.span.0@text",
+            "kind": "class.book_other.0@tag.span.2@text",
+            "wordCount": "class.book_other.0@tag.span.3@text",
+            "lastChapter": "class.book_other.1@text##最.*节.| 更.*间.|..\\:.*",
+            "intro": "class.book_des@text",
+            "coverUrl": "tag.img@src",
+            "bookUrl": "tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "init": "id.info@dl",
+            "name": "id.info@tag.h1@text",
+            "author": "id.info@tag.p.0@text##作.*者.",
+            "lastChapter": "id.info@tag.p.2@tag.p.3@text",
+            "intro": "id.intro@tag.p.0@text",
+            "coverUrl": "id.fmimg@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##喜欢.*请大家.*更新速度最快。"
+        }
+    }
+]

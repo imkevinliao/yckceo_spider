@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceUrl": "https://www.yushubo.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "御书网",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "疯狂的蜗牛",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.yushubo.com/search.html?keyword={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1625925968594,
+        "ruleSearch": {
+            "bookList": "class.item clearfix",
+            "name": "class.col-r@tag.h3@text",
+            "author": "class.author@text##作者：",
+            "intro": "class.intro@text##作品简介：",
+            "coverUrl": "class.col-l@tag.img@src",
+            "bookUrl": "class.col-r@tag.h3@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.name@text",
+            "author": "class.booktitle@tag.p@tag.em.1@text##作者：",
+            "kind": "class.booktitle@tag.p@tag.a@text",
+            "wordCount": "class.booktitle@tag.p@tag.em.0@text",
+            "lastChapter": "id.newchapter.0@text",
+            "intro": "class.book-intro@text",
+            "coverUrl": "class.bigpic@tag.img@src",
+            "tocUrl": "class.catalogbtn@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.clearfix chapter-list@tag.li",
+            "chapterName": "@tag.span@tag.a@text",
+            "chapterUrl": "@tag.span@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "class.article-con@html",
+            "nextContentUrl": "class.articlebtn@text.下一页@href"
+        }
+    }
+]

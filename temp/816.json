@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceUrl": "http://m.ddxs.com",
+        "bookSourceType": "0",
+        "bookSourceName": "顶点小说网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36\"\n}",
+        "bookUrlPattern": "",
+        "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&json=1\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": -1,
+        "lastUpdateTime": 1640424041254,
+        "ruleSearch": {
+            "bookList": "$[*]",
+            "name": "$.articlename",
+            "author": "$.author",
+            "kind": "$.caption",
+            "wordCount": "$.size_c",
+            "lastChapter": "$.lastchapter",
+            "intro": "$.intro",
+            "bookUrl": "$.index"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "//*[@property=\"og:novel:book_name\"]/@content",
+            "author": "//*[@property=\"og:novel:author\"]/@content",
+            "kind": "//*[@property=\"og:novel:category\"]/@content",
+            "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@content",
+            "intro": "//*[@property=\"og:description\"]/@content",
+            "coverUrl": "//*[@property=\"og:image\"]/@content",
+            "tocUrl": "class.book_more@tag.a@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-striped@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "replaceRegex": "##+ 加入书签 +"
+        }
+    }
+]

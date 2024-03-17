@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "haxc",
+        "bookSourceGroup": "",
+        "bookSourceName": "黑粉小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.heifenxs.org",
+        "bookUrlPattern": "",
+        "customOrder": -117633,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "耽美小说::/sort/1_{{page}}/\n海棠耽美::/sort/2_{{page}}/\n言情小说::/sort/3_{{page}}/\n海棠言情::/sort/4_{{page}}/\n百合小说::/sort/5_{{page}}/\n情欲小说::/sort/6_{{page}}/\n长佩小说::/sort/7_{{page}}/\n连城小说::/sort/8_{{page}}/",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1617506648258,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.infotype@tag.a.0@text",
+            "coverUrl": "class.pic@img@src",
+            "init": "",
+            "intro": "class.intro@p@text##爱☆就☆收☆藏.*|禁忌书屋.*",
+            "kind": "class.infotype@tag.p.1@text##类型：",
+            "lastChapter": "class.infotype@tag.p.3@tag.a@text",
+            "name": "class.cataloginfo@tag.h3@text",
+            "tocUrl": "class.gochapter@a@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@html##上一章|下一章|下一页\\s*|加入书签|返回目录|\\s*本章尚未完结.*\\s*|\\s*努力加载中.*\\s*|本章已阅读完毕.*",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "class.p3@a@href",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.article",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.simple@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.h6@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": "class.searchresult@tag.p",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.a.0@href##/(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": "",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": ""
+        },
+        "searchUrl": "/s.html,{\n\"charset\":\"\",\n\"method\":\"POST\",\n\"body\":\"type=articlename&s={{key}}\"\n}",
+        "weight": 0
+    }
+]

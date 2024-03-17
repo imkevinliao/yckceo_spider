@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "256中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.256zw.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "现代耽美::https://www.256zw.com/xiandai/<,index_{{page}}.html>&&古代架空::https://www.256zw.com/jiakong/<,index_{{page}}.html>&&穿越重生::https://www.256zw.com/chuanyue/<,index_{{page}}.html>&&BL同人::https://www.256zw.com/bltongren/<,index_{{page}}.html>&&GL百合::https://www.256zw.com/glbaihe/<,index_{{page}}.html>&&玄幻科幻::https://www.256zw.com/xuanhuan/<,index_{{page}}.html>&&都市言情::https://www.256zw.com/yanqing/<,index_{{page}}.html>&&古代言情::https://www.256zw.com/gudaiyanqing/<,index_{{page}}.html>",
+        "lastUpdateTime": 1603626227838,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "p@html##本站内容来源互联网.*",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "a@text##.*?作者",
+            "bookList": ".list@li",
+            "bookUrl": "a@href",
+            "intro": "p@text",
+            "name": "a@text##作者.*"
+        },
+        "ruleToc": {
+            "chapterList": ".catalog@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.256zw.com:443/e/search/,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"tbname=article&tempid=1&show=title,\nwriter&keyboard={{key}}\",\n\"headers\": \"{referer:\\\"https://www.256zw.com/e/search/result/?searchid=141\\\"}\"}",
+        "weight": 0
+    }
+]

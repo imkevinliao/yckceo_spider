@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "中网文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zwwx.com",
+        "bookUrlPattern": "https://www.zwwx.com/book/\\d+/\\d+/",
+        "customOrder": 68,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻小说\",\n\t\"url\":\"/xuanhuan/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"修真小说\",\n\t\"url\":\"/xiuzhen/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"都市小说\",\n\t\"url\":\"/dushi/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"历史小说\",\n\t\"url\":\"/lishi/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"网游小说\",\n\t\"url\":\"/wangyou/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"科幻小说\",\n\t\"url\":\"/kehuan/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"言情小说\",\n\t\"url\":\"/yanqing/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/qita/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"全本小说\",\n\t\"url\":\"/quanben/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\n\t\"layout_flexGrow\":1\n\t}\n\t}\n]",
+        "lastUpdateTime": 1663168578386,
+        "loginUrl": "https://www.zwwx.com/user/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@p.0@text##作者.",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "",
+            "intro": "id.intro@p.0@text",
+            "kind": "id.info@p.1@ownText##状 态.|\\s|\\,",
+            "lastChapter": "id.info@p.-1@a@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##[Ww].*[Oo][Mm]|三月，初春。\\s*看最新章节([\\s\\S]*)为您提供.*最快更新\\s*|.*免费阅读.http.*|请下载小说app.*阅读最新内容|爱阅小说app阅读完整内容"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text||class.s5@text",
+            "bookList": "class.l@tag.li||class.novelslist2@tag.li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "class.s2@a@href##.*/(\\d+/\\d+)/##\thttps://www.zwwx.com/img/$1.jpg",
+            "kind": "class.s3@ownText||class.s5@text##\\(|\\)",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.div[-1]@p.0@span.1@text",
+            "bookList": "class.result-item",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.result-game-item-desc@text",
+            "kind": "tag.div[-1]@p.1:2@span.1@text",
+            "lastChapter": "tag.div[-1]@p.3@a@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.zwwx.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

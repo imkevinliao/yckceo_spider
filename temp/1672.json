@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "章节读取缓慢原因，手机版一页目录20章，两千章要打开一百页！电脑版一页目录全了",
+        "bookSourceName": "笔趣阁(看注释)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.aishu5.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "全本::http://www.aishu5.com/quanben_{{page}}.html\n全部::http://www.aishu5.com/xclass/0/{{page}}.html\n玄幻魔法::http://www.aishu5.com/xclass/1/{{page}}.html\n仙侠修真::http://www.aishu5.com/xclass/2/{{page}}.html\n都市言情::http://www.aishu5.com/xclass/3/{{page}}.html\n网游动漫::http://www.aishu5.com/xclass/4/{{page}}.html\n科幻小说::http://www.aishu5.com/xclass/5/{{page}}.html\n其他小说::http://www.aishu5.com/xclass/7/{{page}}.html\n排行榜单::http://www.aishu5.com/ph.html",
+        "lastUpdateTime": 1666418357721,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:update_time\"]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html##(?<=[”。？！])(?=[“\\w])##<br>",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##(?<=“.{1,50}？)\\n\\s*(?=.*[”！？])|本章未完.*",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "span.-1@text",
+            "bookList": "class.l@ul@li||ul!0@li!-1",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##.*_\n@js:\nresult=result.replace(/[^\\d]/g,'')\nstr1=parseInt((result-16)/17)\nstr2=parseInt(str1/1000)\nresult=\"http://www.aishu5.com/files/article/image/\"+str2+\"/\"+str1+\"/\"+str1+\"s.jpg\"",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.p.1@text##.*作者：",
+            "bookList": "class.hot_sale",
+            "bookUrl": "http://www.aishu5.com{{@@a@href}}",
+            "checkKeyWord": "",
+            "coverUrl": "a.0@href##.*_\n@js:\nresult=result.replace(/[^\\d]/g,'')\nstr1=parseInt((result-16)/17)\nstr2=parseInt(str1/1000)\nresult=\"http://www.aishu5.com/files/article/image/\"+str2+\"/\"+str1+\"/\"+str1+\"s.jpg\"",
+            "kind": "tag.p.1@text&&p.2@text##\\|.*",
+            "lastChapter": "tag.p.2@text##.*更新：",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "class.right@a@href",
+            "updateTime": "class.synopsisArea_detail@tag.p.2atext"
+        },
+        "searchUrl": "http://m.aishu5.com/s.php,{\n\t\"charset\":\"\",\n\t\"method\":\"POST\",\n\t\"body\":\"keyword={{key}}&t=1\"\n\t} ",
+        "weight": 0
+    }
+]

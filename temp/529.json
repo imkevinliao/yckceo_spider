@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⁉️ 自制",
+        "bookSourceName": "爱书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.2shu8.cc",
+        "customOrder": -6,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"༺ˇ»`ʚ排行ɞ´«ˇ༻\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},{\"title\":\"最近更新\",\"url\":\"/last{{page}}.htm\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"总排行榜\",\"url\":\"/tops/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"༺ˇ»`ʚ分类ɞ´«ˇ༻\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},{\"title\":\"奇幻\",\"url\":\"/qihuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"玄幻\",\"url\":\"/xuanhuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"言情\",\"url\":\"/yanqing/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"/dushi/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"游戏\",\"url\":\"/youxi/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"竞技\",\"url\":\"/jingji/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/wuxia/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"修真\",\"url\":\"/xiuzhen/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/lishi/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"军事\",\"url\":\"/junshi/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/kehuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"灵异\",\"url\":\"/lingyi/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"同人\",\"url\":\"/tongren/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"校园\",\"url\":\"/xiaoyuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"官场\",\"url\":\"/guanchang/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"商战\",\"url\":\"/shangzhan/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"职场\",\"url\":\"/zhichang/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"二次元\",\"url\":\"/erciyuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"其他\",\"url\":\"/qita/{{page}}/\",\"style\":{\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1646486025418,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": ".cover@src",
+            "intro": ".catalog@p@html"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "li.2@text",
+            "bookList": "ul.content",
+            "bookUrl": "a.0@href",
+            "coverUrl": "/favicon.ico{{}}",
+            "kind": "li.4:3@text",
+            "lastChapter": "{{@@li.1@text}}▪️{{@@li.3@text}}",
+            "name": "li.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".catalogs@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s_{{key}}/{{page}}/",
+        "weight": 0
+    }
+]

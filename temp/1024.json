@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "备用https://www1.owlook.com.cn/",
+        "bookSourceGroup": "搜索引擎,常用",
+        "bookSourceName": "owlook",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.owlook.com.cn",
+        "customOrder": 15,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "起点榜::https://www.owlook.com.cn/md/qidian\n玄幻::https://www.owlook.com.cn/md/qidian?type=玄幻\n奇幻::https://www.owlook.com.cn/md/qidian?type=奇幻\n武侠::https://www.owlook.com.cn/md/qidian?type=武侠\n仙侠::https://www.owlook.com.cn/md/qidian?type=仙侠\n二次元::https://www.owlook.com.cn/md/qidian?type=二次元\n都市::https://www.owlook.com.cn/md/qidian?type=都市\n职场::https://www.owlook.com.cn/md/qidian?type=职场\n军事::https://www.owlook.com.cn/md/qidian?type=军事\n历史::https://www.owlook.com.cn/md/qidian?type=历史\n纵横榜::https://www.owlook.com.cn/md/zongheng\n游戏::https://www.owlook.com.cn/md/qidian?type=游戏\n体育::https://www.owlook.com.cn/md/qidian?type=体育\n科幻::https://www.owlook.com.cn/md/qidian?type=科幻\n灵异::https://www.owlook.com.cn/md/qidian?type=灵异",
+        "header": "",
+        "lastUpdateTime": 1630625958569,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.container@tag.a.0@text##.*?作者(:|：)",
+            "coverUrl": "",
+            "init": "",
+            "intro": "<js>java.get('k')</js><js>result.replace(/\\/\\/(.*?\\..*?\\..*?)\\//g,'《$1》').replace(/》.*?《/g,'   ⇔   ').replace(/.*《/,'').replace(/》.*/,'')</js>",
+            "tocUrl": "<js>if (result.match(/href=\"(\\/chapter\\?.*?)\"/)){var murl = /href=\"(\\/chapter\\?.*?)\"/g;\nvar match;\nvar tourl;\nvar listurl = [];\nwhile ((match = murl.exec(result)) != null) {\nlisturl.push(String(match[1]).replace(/\\\\/g,''))};\njava.put('k',listurl);\nvar i=Math.floor(Math.random() * 10);\n\nwhile(i >= listurl.length){i = i-listurl.length};\n\nif(listurl.length==1){i=0};\ntourl='https://www.owlook.com.cn'+listurl[i]\njava.put('key',listurl[i]);\n}else{tourl = baseUrl}\ntourl</js>",
+            "wordCount": "<js>java.get('key')</js>\n##//([^/\"]+)##$1###"
+        },
+        "ruleContent": {
+            "content": "id.content@html||$.soup##chaptererror|.*?本章完.*",
+            "replaceRegex": "##(?<![。?”！，》：；…）］])\\n\\s*|\\[.*?((顶点|无限|铅笔)小说|笔趣阁|中文网|81zw|qbxs.me).*?\\]|.*(书友福利|书友大本营|关注[vVX微信×]{0,2}公众号).*|看最快更新无错小说，请记住.*|[https:HTTPS：/]+[wmap]{1,3}[0-9a-Z]+[CNETOMRGcnetomrg]+ @js:result.replace(/\\?/g,'，')"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "<js>result.replace(/<!/gi,'')</js>table tr:has(td)",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:'https://www.owlook.com.cn/static/novels/img/favicon.ico'",
+            "intro": "tag.td.0@text<js>if(result==10){'———————————————————————'}else{null}</js>",
+            "kind": "tag.td.2@text&&tag.td.0@text",
+            "name": "a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.0@text##.*?作者(:|：)",
+            "bookList": "@css:.container li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "@js:'https://www.owlook.com.cn/static/novels/img/favicon.ico'",
+            "name": "tag.a.0@text##(\\S+)\\s(.*?)\\s*?作者.*##$2【$1】",
+            "wordCount": "tag.i.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "@js:\nvar href='{{@@href}}';\nvar text='{{@@text}}';\nvar url=baseUrl.match(/url=(.*?)\\&/)[1];\n'https://www.owlook.com.cn/owllook_content?url='+url+String(href).match(/\\/(\\d+(?:\\.html)*)$/)[1]+'&chapter_url='+url+'&novels_name='+text+'&is_ajax=owl_cache'",
+            "isVip": "",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://www.owlook.com.cn/search?wd={{key}}",
+        "weight": 0
+    }
+]

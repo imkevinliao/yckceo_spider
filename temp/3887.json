@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "//搜索无效，仅发现\n//可复制链接，在首页书架添加网址",
+        "bookSourceGroup": "自制,发现,源仓库,网页源",
+        "bookSourceName": "棋子♟小说网02",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://mip.qizi02.com",
+        "bookUrlPattern": "https?://wap.qizi02.com/\\d+/\\d+/$",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻 ::/list/1-{{page}}.html\n仙侠 ::/list/2-{{page}}.html\n言情 ::/list/3-{{page}}.html\n历史 ::/list/4-{{page}}.html\n网游 ::/list/5-{{page}}.html\n科幻 ::/list/6-{{page}}.html\n恐怖 ::/list/7-{{page}}.html\n其他 ::/list/8-{{page}}.html",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"Referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1691898589868,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": ".content-body@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".media",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p@textNodes",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": ".list-charts li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "weight": 0
+    }
+]

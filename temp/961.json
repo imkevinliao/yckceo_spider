@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "18书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.18shuwu.cc",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部:://www.18shuwu.cc/category/0/\n耽美轻文:://www.18shuwu.cc/category/1/{{page}}.html\n耽美辣文:://www.18shuwu.cc/category/2/{{page}}.html\n言情轻文:://www.18shuwu.cc/category/3/{{page}}.html\n言情辣文:://www.18shuwu.cc/category/4/{{page}}.html\n女女百合:://www.18shuwu.cc/category/5/{{page}}.html\n超爽辣文:://www.18shuwu.cc/category/6/{{page}}.html\n男男辣文:://www.18shuwu.cc/category/7/{{page}}.html\n浓情辣文:://www.18shuwu.cc/category/8/{{page}}.html\n私密趣事:://www.18shuwu.cc/category/9/{{page}}.html\n评书品书:://www.18shuwu.cc/category/10/{{page}}.html",
+        "lastUpdateTime": 1632810076884,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.BGsectionOne-top-left@img@src",
+            "intro": "class.BGsectionTwo-bottom@textNodes",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "class.newestChapter@a@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.C0NTENT@p@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.b@text",
+            "bookList": "class.CGsectionTwo-right-content-unit",
+            "bookUrl": "class.title@href||tag.a.1@href",
+            "coverUrl": "",
+            "intro": "tag.p.2@text",
+            "lastChapter": "tag.p.3@text##最近更新",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##$,{\"webView\":true}",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.18shuwu.cc/search/{{key}}",
+        "weight": 0
+    }
+]

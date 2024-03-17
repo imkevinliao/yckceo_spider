@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "三优无错&小说合集",
+        "bookSourceType": 0,
+        "bookSourceUrl": "小说合集",
+        "bookUrlPattern": "",
+        "customOrder": 204709,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "三优无错::https://www.333uu.net/\n 云 中 歌 ::https://www.yunzhonggexiaoshuo.com/\n乡村小说::https://www.xiangcun2018.com/",
+        "lastUpdateTime": 1674027754758,
+        "loginUi": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".infos@span.0@textNodes||div.site@textNodes##作者：",
+            "coverUrl": ".t-sm@.tsh@src||.pic@img@src",
+            "intro": "[property$=description]@content||[name$=description]@content\n##(^|[。！？]+[”」）】]?)##$1<br>\n@js:\nif(baseUrl.match(/333uu|wcxs5/))\n\"<br>目录需要手动反转\"\nelse\nresult",
+            "lastChapter": ".info-title.0@a.1@text||.booklist@a.-1@text\n||.book_list@a.-1@text\n##^{{book.name}}\\s*",
+            "name": ".breadcrumb-item.1@text||h1@text"
+        },
+        "ruleContent": {
+            "content": "#post-main-content@html||#BookText@textNodes||.read_chapterDetail@p@html"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "@js:\njson=[]\n\nu=[\"333uu.net\",\"wcxs5.com\", \"yunzhonggexiaoshuo.com\"]\nfunction $(a,b,c){\n\t\treturn json.push({\n\t\t\t\tname: a,\n\t\t\t\tkind: u[b],\n\t\t\t\tbookUrl: c\n\t\t\t})\n\t}\n\n//三优无错\nif(baseUrl.match(/333uu/)){\n[[\"深空彼岸\",0,1],[\"深空彼岸\",1,1],[\"宇宙职业选手\",0,6],[\"灵境行者\",0,7],[\"不科学御兽\",0,177],[\"光阴之外\",0,178],[\"明克街13号\",0,213],[\"我的属性修行人生\",0,273],[\"神秘复苏\",0,315],[\"夜的命名术\",0,346],[\"仙者\",0,367],[\"万相之王\",1,4],[\"轮回乐园\",1,5],[\"弃宇宙\",1,6],[\"深海余烬\",1,149],[\"机武风暴\",1,150],[\"唐人的餐桌\",1,180],[\"诸界第一因\",1,247],[\"择日飞升\",1,248],[\"这游戏也太真实了\",1,302],[\"7号基地\",1,303],[\"我就是神\",1,304],[\"人道大圣\",1,305]].map(a=>$(a[0],a[1],'https://www.'+u[a[1]]+'/?cat='+a[2]));\n}\nelse{\nhtml=org.jsoup.Jsoup.parse(result)\n\n//云中歌\nif(baseUrl.match(/yunzhongge/)){\n$(java.getString('h1@text'),2,baseUrl);\nhtml.select(\".links-body a\").forEach(a=>$(a.text(),2,a.attr(\"href\")));\n}\n\n\n//乡村小说\nelse if(baseUrl.match(/xiangcun2018/)){\nhtml.select(\".bk\").forEach(h=>json.push({\n\t\t\tname: h.select(\"h3 a\").text(),\n\t\t\tnew: h.select(\".booknews a\").text(),\n\t\t\tkind: String(h.select(\"p\").text()).replace(/^\\s*简介.\\s*(《[^》]+》是?)?/,''),\n\t\t\timg: h.select(\"img\").attr(\"src\"),\n\t\t\tbookUrl: h.select(\"h3 a\").attr(\"href\")\n\t}));\n}\n}\njson",
+            "bookUrl": "bookUrl",
+            "coverUrl": "img",
+            "intro": "kind",
+            "kind": "",
+            "lastChapter": "new",
+            "name": "name"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "",
+            "bookUrl": "",
+            "checkKeyWord": "",
+            "name": ""
+        },
+        "ruleToc": {
+            "chapterList": "article||.booklist@span||.book_list@a\n@js:\nlist=[]\n$=result\nfunction $$($){\n\t\treturn list.push(JSON.stringify($))\n\t}\n\n\n//云中歌&&乡村小说\nif(baseUrl.match(/yunzhongge|xiangcun2018/)){for(i in $){\nif(/^\\s*$/.test(String(a=$[i].select('a'))))\n\t\t$$({text:$[i].text(),volume:true});\nelse\n\t\t$$({text:a.text(),href:a.attr('href')});\n\t}}\n\n\n//三优无错\nelse if(baseUrl.match(/333uu|wcxs5/)){\n\tfor(i in $){\n\t\ta=$[i].select('.a-link')\n\t\ttext=a.text()\n\t\thref=a.attr('href')\n\t\ta=$[i].select('.float-right span').text()\n\t\tb=$[i].select('p').text()\n\t\tinfo='⏱️ '+a+'　📑 '+b\n\t\t$$({text:text,href:href,info:info})\n\t\t}\n\t}\nlist",
+            "chapterName": "$.text##^{{book.name}}\\s*",
+            "chapterUrl": "$.href",
+            "isVolume": "$.volume",
+            "nextTocUrl": ".next-page@a@href",
+            "updateTime": "$.info"
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

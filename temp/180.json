@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceGroup": "",
+        "bookSourceName": "全本居",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.quanbenju.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/fenlei/1_{{page}}.html\n武侠修真::/fenlei/2_{{page}}.html\n都市言情::/fenlei/3_{{page}}.html\n历史军事::/fenlei/4_{{page}}.html\n网游竞技::/fenlei/5_{{page}}.html\n科幻未来::/fenlei/6_{{page}}.html\n女生频道::/fenlei/7_{{page}}.html\n其他类型::/fenlei/8_{{page}}.html",
+        "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux;Android 10;NOP-AN00 Build/HUAWEINOP-AN01P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1658836044531,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content\t",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#nr@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".newlist-zz a@text",
+            "bookList": ".newlist.0@li",
+            "bookUrl": ".newlist-title a@href",
+            "checkKeyWord": "偷香高手",
+            "kind": ".newlist-type a@text&&\n.newlist-zj@textNodes&&.newlist-time@text##\\(|\\)",
+            "lastChapter": ".newlist-zj a@text",
+            "name": ".newlist-title a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".newzjlist.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"body\": \"submit=%CB%D1%CB%F7&searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

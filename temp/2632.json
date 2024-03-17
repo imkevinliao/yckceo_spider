@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍅优选",
+        "bookSourceName": "🍅  新世纪小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.2100xs.com",
+        "customOrder": 10773,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1606663028234,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@tag.p@text",
+            "name": "id.info@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "class.showtxt@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookname.0@tag.a.0@href",
+            "coverUrl": "class.bookimg@tag.img@src",
+            "kind": "class.cat@text##.*分类：",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "class.bookname.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@tag.dd!0:1:2:3:4:5",
+            "chapterName": "tag.a.0@text",
+            "chapterUrl": "tag.a.0@href"
+        },
+        "searchUrl": "http://www.2100xs.com/s.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

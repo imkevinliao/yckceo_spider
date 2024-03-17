@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "乐文小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lewen0001.com",
+        "bookUrlPattern": "https?://www.lewen0001.com/read/\\d+/",
+        "customOrder": 6,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1/{{page}}/\n武侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n历史军事::/sort/4/{{page}}/\n科幻灵异::/sort/5/{{page}}/\n游戏竞技::/sort/6/{{page}}/\n女生耽美::/sort/7/{{page}}/\n其他类型::/sort/8/{{page}}/\n全本小说::/quanben/sort/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692252418898,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": ".bookintro@textNodes##.*乐文小说网.+",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=lastest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": ".booktag span.0@text"
+        },
+        "ruleContent": {
+            "content": ".readcontent@html",
+            "replaceRegex": "##↑返回顶部↑"
+        },
+        "ruleExplore": {
+            "author": ".author.0@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a@href\n@js:\nvar id=result.match(/\\d+/);\nvar iid=parseInt(id/1000);\n`/images/${iid}/${id}/${id}s.jpg`",
+            "intro": ".update@textNodes",
+            "kind": "0",
+            "lastChapter": "a.1@text",
+            "name": "h4@text",
+            "wordCount": ".author.1@text##字数："
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "快穿",
+            "coverUrl": "a@href\n@js:\nvar id=result.match(/\\d+/);\nvar iid=parseInt(id/1000);\n`/images/${iid}/${id}/${id}s.jpg`",
+            "intro": ".update@textNodes",
+            "kind": "0",
+            "lastChapter": "a.1@text",
+            "name": "h4@text",
+            "wordCount": "parseInt"
+        },
+        "ruleToc": {
+            "chapterList": "#list-chapterAll dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

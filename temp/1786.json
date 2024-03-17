@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "HINOTORI（qq）\n获取目录失败时，可以点登录试试（被判为机器人了，需要登录豆瓣账号，或者输入验证码），该书源登录超过一定时间需要重新登陆。\n\n详情页书名规则也可以是\nh1@text||class.hd.0@tag.span.0@text\n与\n.content-nav@text||tag.h2.0@textNodes##\\>\\s回?|&.*|\\s[\\s·]\n书名获取结果不一致，可按需更换\n\n可在发现页与添加网址处（不行请登录再试），自行添加豆瓣的单篇文章链接，将会获取发布者全部文章，并以目录形式呈现。\n\n与🌾豆瓣·日记的区别：\n🌾豆瓣·小站：添加单篇文章，获取该发布者的所有文章，以目录形式呈现。\n🌾豆瓣·日记：添加单篇文章，获取该单篇文章。",
+        "bookSourceGroup": "特殊,多章",
+        "bookSourceName": "🌾豆瓣·小站 需登录",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://site.douban.com/194593/widget/notes/11784332/",
+        "bookUrlPattern": "https://www.douban.com/.*||https://site.douban.com/.*",
+        "customOrder": -213740,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "科幻被网罗::https://site.douban.com/194593/widget/notes/11784332/\n外国短篇小说::https://site.douban.com/163373/widget/notes/8731208/\n经典篇章::https://site.douban.com/126141/widget/notes/4911494/note/220048943/\n龙伟平的短篇作品::https://site.douban.com/221758/widget/articles/14815398/\n浪味仙贝的日记::https://www.douban.com/note/730809028/",
+        "lastUpdateTime": 1622101441479,
+        "loginUrl": "https://accounts.douban.com/passport/login",
+        "ruleBookInfo": {
+            "author": ".sp-logo@text||.note-author@text",
+            "canReName": "true",
+            "coverUrl": ".logo@img@style||.note_author_avatar@src##background:url\\(|\\).*",
+            "intro": "",
+            "name": ".content-nav@text||tag.h2.0@textNodes##\\>\\s回?|&.*|\\s[\\s·]",
+            "tocUrl": ".pl@a@href",
+            "wordCount": ".pub-date@text##\\s.*"
+        },
+        "ruleContent": {
+            "content": ".note@html||id.link-report@html",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": ".sp-logo@text||.note-author@text",
+            "bookList": "body",
+            "bookUrl": "",
+            "coverUrl": "class.logo@img@style||.note_author_avatar@src##background:url\\(|\\).*",
+            "intro": "",
+            "name": "h1@text||class.hd.0@tag.span.0@text",
+            "wordCount": ".pub-date@text##\\s.*"
+        },
+        "ruleSearch": {
+            "author": "text",
+            "bookList": ".t@a",
+            "bookUrl": "href@js:try{java.put(\"url\",java.get(result,{})\n.header(\"Location\"))}catch(e){\njava.put(\"url\",result)}",
+            "name": "text"
+        },
+        "ruleToc": {
+            "chapterList": "h5@a||.note-item||.item-entry@.title@tag.a.-1||.note-container",
+            "chapterName": "h3@text||text",
+            "chapterUrl": "h3@a@href||href##https://www.douban.com/note/\\d+/\\n|javascript\\:void\\(0\\)\\;\\n",
+            "nextTocUrl": "class.next@a@href"
+        },
+        "searchUrl": "https://www.baidu.com/s?q1={{key}}&q2=&q3=&q4=&gpc=stf&ft=&q5=1&q6=site.douban.com&tn=baiduadv",
+        "weight": 0
+    }
+]

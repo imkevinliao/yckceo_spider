@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "new",
+        "bookSourceName": "肉文np",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.rouwennp.club/",
+        "customOrder": -292890,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\n\"url\":\"/xuanhuan/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}\n},\n{\"title\":\"仙侠修真\",\n\t\"url\":\"/xianxia/{{page}}.html\",\n\t\"style\":{\n\t\t\"layout_flexGrow\":1,\n\t\t\"layout_flexBasisPercent\":0.25\n\t\t}\n},\n{\"title\":\"穿越历史\",\n\"url\":\"/lishi/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}\n},\n{\"title\":\"都市言情\",\n\"url\":\"/dushi/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}\n},{\"title\":\"科幻网游\",\n\"url\":\"/kehuan/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}\n},\n{\"title\":\"精品其他\",\n\"url\":\"/jingpin/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}\n}]",
+        "lastUpdateTime": 1656420305741,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.g_col_8@p.0@span.0@text",
+            "coverUrl": "class.g_thumb.0@img@src",
+            "init": "",
+            "intro": "class.det-abt@p.0@text",
+            "kind": "class.g_col_8@p.0@span!0@text",
+            "lastChapter": "id.chapterList@li.-1@text",
+            "name": "class.g_col_8@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.TextContent@html"
+        },
+        "ruleExplore": {
+            "bookList": "class.lst-item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "class.g_thumb@img@_src",
+            "intro": "class.is-truncated@text",
+            "name": "h2@text"
+        },
+        "ruleSearch": {
+            "author": "class.vam mr10.1@text",
+            "bookList": "id.hism",
+            "bookUrl": "a.0@href",
+            "coverUrl": "class.g_thumb@img@_src",
+            "intro": "class.g_ells@text",
+            "kind": "class.vam mr10.0@text",
+            "lastChapter": "class.vam.-1@a@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterList@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

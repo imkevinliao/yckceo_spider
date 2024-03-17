@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "最新小说网",
+        "bookSourceUrl": "https://m.8pxs.com",
+        "enable": false,
+        "ruleBookContent": "class.content@html#.*雪日阅读.*|本章未完.*",
+        "ruleBookLastChapter": "class.block_txt2@tag.p.6@a@text",
+        "ruleChapterList": "-class.chapter@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "text.章节目录@href",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一章@href",
+        "ruleCoverUrl": "class.block_img2@img@src",
+        "ruleFindUrl": "最新更新::https://m.8pxs.com/sort-update/searchPage/\n最新入库::https://m.8pxs.com/sort-new/searchPage/\n最新全本::https://m.8pxs.com/over/searchPage/\n总点击榜::https://m.8pxs.com/sort-allvisit/searchPage/\n总收藏榜::https://m.8pxs.com/sort-mark/searchPage/\n总推荐榜::https://m.8pxs.com/sort-recommend/searchPage/\n玄幻魔法::https://m.8pxs.com/category-1/searchPage/\n武侠修真::https://m.8pxs.com/category-2/searchPage/\n都市言情::https://m.8pxs.com/category-3/searchPage/\n历史军事::https://m.8pxs.com/category-4/searchPage/\n侦探推理::https://m.8pxs.com/category-5/searchPage/\n网游动漫::https://m.8pxs.com/category-6/searchPage/\n科幻小说::https://m.8pxs.com/category-7/searchPage/\n恐怖灵异::https://m.8pxs.com/category-8/searchPage/\n同人小说::https://m.8pxs.com/category-9/searchPage/\n穿越小说::https://m.8pxs.com/category-10/searchPage/\n其他小说::https://m.8pxs.com/category-11/searchPage/",
+        "ruleIntroduce": "class.intro_info@tag.p.0@textNodes",
+        "ruleSearchAuthor": "class.author@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchLastChapter": "class.update@a@text",
+        "ruleSearchList": "class.bookbox",
+        "ruleSearchName": "class.bookname@a@text#.*全文.*",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://m.8pxs.com/search.html?q=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

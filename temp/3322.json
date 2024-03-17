@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉 精选 🎉",
+        "bookSourceName": "🎉TVB小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tvbts.net/",
+        "bookUrlPattern": "https://www.tvbts.net/\\d+_\\d+/",
+        "customOrder": -2085973138,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻小说::/1/{{page}}.html\n仙侠小说::/2/{{page}}.html\n言情小说::/3/{{page}}.html\n历史小说::/4/{{page}}.html\n网游小说::/5/{{page}}.html\n科幻小说::/6/{{page}}.html\n恐怖小说::/7/{{page}}.html\n其它小说::/8/{{page}}.html",
+        "lastUpdateTime": 1682701977680,
+        "loginUrl": "",
+        "respondTime": 3718,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@a@text",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "id.info@tag.p.2@text##最后更新：",
+            "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "id.bookdetail@id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##本小说.*无广告免费阅读。|：。：|一秒记住.*免费阅读！|.*第.*章.*|天才一秒记住本站地址：|[Ｈ/h].*://.*[Τ/Ｔ/t]/",
+            "replaceRegex": "##无尽的昏迷过后，时宇.*([\\s\\S]*)|TVB小说网"
+        },
+        "ruleExplore": {
+            "author": "class.s4@a@text",
+            "bookList": "class.l@ul@li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.tvbts.net/images/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "class.s1@text&&\nclass.s5@text##\\[|\\]",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4@a@text",
+            "bookList": "class.novelslist2@ul@li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.tvbts.net/images/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "class.s6@text",
+            "lastChapter": "class.s3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "class.s2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+        },
+        "ruleToc": {
+            "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.tvbts.net/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

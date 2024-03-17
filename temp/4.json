@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "🍉自制//水西安大佬🐮🍺",
+        "bookSourceGroup": "笔趣阁",
+        "bookSourceName": "笔趣e,biqugee6",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.biqugee6.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1665313064976,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "class.block_txt2@tag.p.3@a@text"
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes##m.*.com|b.*.com",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": ".bookimg@a@href",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@textNodes",
+            "kind": "",
+            "lastChapter": ".update@a@text",
+            "name": ".bookname@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.biqugee6.com/search.php?keyword={{key}},{\"charset\":\"utf-8\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 7.0; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 T7/10.3 SearchCraft/2.6.2 (baiduboxapp; P1 7.0)\",\"Referer\":\"https://m.biqugee6.com\"},\"webView\":true}",
+        "weight": 0
+    }
+]

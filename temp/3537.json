@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "品书小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.vodtw.com",
+        "bookUrlPattern": "https://m.vodtw.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "最近更新::/\n玄幻小说::/xuanhuan.html\n修真小说::/xiuzhen.html\n都市小说::/dushi.html\n历史小说::/lishi.html\n网游小说::/wangyou.html\n科幻小说::/kehuan.html\n言情小说::/yanqing.html\n其他小说::/qita.html",
+        "header": "",
+        "lastUpdateTime": 1686572540017,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "init": "",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "{{$.}}chapter/"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "imageStyle": "",
+            "replaceRegex": "##m.*m"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": "class.l bd@li",
+            "bookUrl": "https://m.vodtw.com{{@@a.0@href}}",
+            "kind": "span.-1@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".b1@text",
+            "bookList": "ul@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "intro": ".desc@text",
+            "kind": ".b3@text",
+            "name": ".h1@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href<js>\nvar id=baseUrl.match(/\\d+/);\nresult=\"https://www.vodtw.com/book/\"+id+\"/chapter/\"+result;\n</js>##$##,{'webView': true}",
+            "nextTocUrl": "option@value||class.right@a@href"
+        },
+        "searchUrl": "https://vodtwcom.allxiaoshuo.com/search_{{key}}.html,{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

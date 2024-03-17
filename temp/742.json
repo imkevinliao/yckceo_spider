@@ -1,0 +1,30 @@
+[
+    {
+        "bookSourceGroup": "saberyz修复",
+        "bookSourceName": "👍 落尘小说",
+        "bookSourceUrl": "https://m.xluochen.com",
+        "enable": true,
+        "httpUserAgent": "",
+        "ruleBookAuthor": "class.block_txt2@tag.p.2@tag.a.0@text",
+        "ruleBookContent": "id.nr@html",
+        "ruleBookName": "class.block_txt2@tag.h2@text",
+        "ruleChapterList": "class.chapter@tag.li",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrl": "text.完整目录.0@href",
+        "ruleChapterUrlNext": "text.下一页.0@href",
+        "ruleContentUrl": "tag.a@href",
+        "ruleContentUrlNext": "text.下一页.0@href",
+        "ruleCoverUrl": "class.block_img2@tag.img@src",
+        "ruleIntroduce": "class.intro_info@text",
+        "ruleSearchAuthor": "class.line@tag.a.2@text",
+        "ruleSearchCoverUrl": "",
+        "ruleSearchKind": "class.line@tag.a.0@text#\\[|\\]",
+        "ruleSearchLastChapter": "",
+        "ruleSearchList": "class.cover@children",
+        "ruleSearchName": "class.line@tag.a.1@text",
+        "ruleSearchNoteUrl": "class.line@tag.a.1@href",
+        "ruleSearchUrl": "https://m.xluochen.com/s.php@type=articlename&s=searchKey&submit=|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

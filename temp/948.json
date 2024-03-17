@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "majol",
+        "bookSourceName": "65TXT",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.665txt.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/txtsort/1/{{page}}.html\n武侠修真::/txtsort/2/{{page}}.html\n都市言情::/txtsort/3/{{page}}.html\n历史军事::/txtsort/4/{{page}}.html\n网游竞技::/txtsort/5/{{page}}.html\n科幻小说::/txtsort/6/{{page}}.html\n恐怖灵异::/txtsort/7/{{page}}.html\n其他类型::/txtsort/8/{{page}}.html",
+        "lastUpdateTime": 1633358022139,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "meta",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#content@html"
+        },
+        "ruleExplore": {
+            "author": ".s5@text",
+            "bookList": "div.l li",
+            "bookUrl": ".s2 a@href",
+            "coverUrl": ".s2 a@href##.+\\D((\\d+)\\d{3})\\D##http://www.665txt.com/files/article/image/$2/$1/$1s.jpg###",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "#nr",
+            "bookUrl": "a@href",
+            "coverUrl": "tag.a.0@href##/(\\d+)/(\\d+)##/files/article/image/$1/$2/$2s.jpg###",
+            "kind": "td[4:]@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": "tag.td.3@text##K@js:'约'+parseInt(result*0.0512)+'万'"
+        },
+        "ruleToc": {
+            "chapterList": "#list a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\"charset\":\"GBK\",\"method\":\"POST\",\"body\":\"searchkey={{key}}&searchtype=articlename&page={{page}}\"}",
+        "weight": 0
+    }
+]

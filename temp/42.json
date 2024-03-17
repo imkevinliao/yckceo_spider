@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "天籁小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.23sk.net/",
+        "customOrder": -7,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "书架::/user/bookcase<,{{page}}>.php\n全本::/quanben/<,{{page}}>\n玄幻小说::/xuanhuan/<,{{page}}>\n修真小说::/xiuzhen/<,{{page}}>\n都市小说::/dushi/<,{{page}}>\n历史小说::/lishi/<,{{page}}>\n网游小说::/wangyou/<,{{page}}>\n科幻小说::/kehuan/<,{{page}}>\n言情小说::/yanqing/<,{{page}}>\n其他小说::/qita/<,{{page}}>",
+        "lastUpdateTime": 1664144186992,
+        "loginUrl": "https://m.23sk.net/user/userinfo.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@p.2@text",
+            "coverUrl": "img@src",
+            "intro": ".intro_info@text",
+            "kind": "p.4@text##分类：",
+            "lastChapter": "p.7@text##最新：",
+            "name": "h2@text",
+            "wordCount": "p.5@text##状态："
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "#pt_next@href",
+            "replaceRegex": "##\\w\\w\\w\\.23sk\\.\\w\\w\\w|https://|[A-Za-z]\\.23[s,S][k,K]\\..*|23[s,S][k,K]\\..*|天籁小说网"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "intro": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@html##简介：",
+            "lastChapter": ".update@text##更新至：",
+            "name": ".iTit@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": ".right@a@href"
+        },
+        "searchUrl": "/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

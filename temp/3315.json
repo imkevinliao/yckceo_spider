@@ -1,0 +1,73 @@
+[
+    {
+        "bookSourceComment": "//网址可能会变动 du11du.com",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "⭐ 笔趣阁5200",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.biquge5200.com/",
+        "bookUrlPattern": "",
+        "customOrder": 28,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/xuanhuanxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"奇幻\",\"url\":\"/qihuanxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"修真\",\"url\":\"/xiuzhenxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"/dushixiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"言情\",\"url\":\"/yanqingxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/lishixiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"同人\",\"url\":\"/tongrenxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/wuxiaxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/kehuanxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"游戏\",\"url\":\"/youxixiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"军事\",\"url\":\"/junshixiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"竞技\",\"url\":\"/jingjixiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"灵异\",\"url\":\"/lingyixiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"商战\",\"url\":\"/shangzhanxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"校园\",\"url\":\"/xiaoyuanxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"官场\",\"url\":\"/guanchangxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"职场\",\"url\":\"/zhichangxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他\",\"url\":\"/qitaxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "header": "",
+        "lastUpdateTime": 1683196594291,
+        "loginUi": "",
+        "loginUrl": "http://www.biquge5200.com/",
+        "respondTime": 1356,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "class.list-group-item.1@tag.a@text&&class.list-group-item.2@text&&class.list-group-item.3@text##小说|写作进度.|更新时间.|\\s.*",
+            "lastChapter": "[property$=latest_chapter_name]@content##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加Kk].*?[】）\\)]",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "imageStyle": "",
+            "nextContentUrl": "",
+            "replaceRegex": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": ".s5@text",
+            "bookList": "#newscontent@ul li",
+            "bookUrl": "a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".odd.1@text",
+            "bookList": "tag.tr.!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ".odd.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "#list@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

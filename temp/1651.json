@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "笔下文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bixiawenku.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1667859596768,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book-describe@p.0@text##作者：",
+            "intro": "class.describe-html@text## |^##<br>",
+            "kind": "class.book-describe@p.1@text##类型：",
+            "lastChapter": "class.book-describe@p.4@text&&class.book-describe@p.3@text##最近更新：|最新章节：",
+            "name": "class.book-describe@h1@text",
+            "wordCount": "class.book-describe@p.2@text##状态："
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": "class=\"book-describe"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.search-list search-list-cat clearfix@tag.li",
+            "bookUrl": "li@a@href",
+            "checkKeyWord": "",
+            "lastChapter": "",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book-list clearfix@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.bixiawenku.com/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

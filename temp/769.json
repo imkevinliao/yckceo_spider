@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "关耳大佬的源，不知道别人怎么样反正我这里这个网站搜索用不了所以删了搜索，加上了发现，内容错乱刷新一下。",
+        "bookSourceGroup": "🔞",
+        "bookSourceName": "🎈牛站小说「PO文」",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.niuzhanxs.com",
+        "bookUrlPattern": "http://m.niuzhanxs.com/book/\\d+/",
+        "customOrder": 65,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "🖤                            分类                               🖤::\n精品小说::http://m.niuzhanxs.com/sort/1_{{page}}/\n海棠耽美::http://m.niuzhanxs.com/sort/2_{{page}}/\n耽美小说::http://m.niuzhanxs.com/sort/3_{{page}}/\n海棠言情::http://m.niuzhanxs.com/sort/4_{{page}}/\n言情小说::http://m.niuzhanxs.com/sort/5_{{page}}/\n高辣小说::http://m.niuzhanxs.com/sort/6_{{page}}/\npo18小说::http://m.niuzhanxs.com/sort/7_{{page}}/\n科幻灵异::http://m.niuzhanxs.com/sort/8_{{page}}/\n武侠仙侠::http://m.niuzhanxs.com/sort/9_{{page}}/\n百合小说::http://m.niuzhanxs.com/sort/10_{{page}}/\n玄幻奇幻::http://m.niuzhanxs.com/sort/11_{{page}}/\n其他类别::http://m.niuzhanxs.com/sort/12_{{page}}/\n💞                         排行                                  💞::\n日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n完本小说::http://m.niuzhanxs.com/full/{{page}}/                           ",
+        "lastUpdateTime": 1642138589189,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.infotype@tag.a.0@text",
+            "init": "",
+            "intro": "class.intro@text",
+            "kind": "##类型：([^<]+)<##$1###",
+            "lastChapter": "class.infotype@tag.a.-1@text",
+            "name": "h3@text||.t1@text##最新章节",
+            "tocUrl": "class.gochapter@a@href"
+        },
+        "ruleContent": {
+            "content": "@js:\ncontent = {  \n    star: 0,   \n    childNode: [],\n    childNodes: java.getElements(\"@@id.novelcontent@p\").toArray(),\n   UpWz: function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n      },\n    load: function() {\n    this.code=result.match(/code=(\\d+)/)[1];\n    var e = String(java.base64Decode(java.getString('//*[@name=\"client\"]/@content'))).split(/[A-Z]+%/);\n    var j = 0; \n    for (var i = 0; i < e.length; i++) {\n    var k = this.UpWz(e[i], i);\n    this.childNode[k] = this.childNodes[i]\n    };\n    }\n}\nif(baseUrl.match(/\\d+_2/)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");}else{result=java.getElements(\"@@id.novelcontent@p\")}",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章尚未完结[\\s\\S]+?下一页|本章已阅读完毕.*|上一章\\s*返回目录[\\s\\S]+|上一页[\\s\\S]+?下一章|本章尚未完结,请.*"
+        },
+        "ruleExplore": {
+            "author": ".author@text||.p3@text",
+            "bookList": ".article||.full_content",
+            "bookUrl": "tag.a.0@href",
+            "intro": ".simple@text",
+            "kind": ".p1@text##\\[|\\]",
+            "name": "tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": ".alink@href",
+            "checkKeyWord": "",
+            "name": ""
+        },
+        "ruleToc": {
+            "chapterList": ".ml_list@tag.ul@tag.li||class.chapters@tag.li",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "HINOTORI（qq）\n可在发现处添加豆瓣用户发布的单篇文章\neg.\n一日囚::https://www.douban.com/note/662056085/\n......\n与🌾豆瓣·小站的区别：\n🌾豆瓣·小站：添加单篇文章，获取该发布者的所有文章，以目录形式呈现。\n🌾豆瓣·日记：添加单篇文章，获取该单篇文章。",
+        "bookSourceGroup": "特殊,单章",
+        "bookSourceName": "🌾豆瓣·日记",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.douban.com/note/662056085/?type=rec",
+        "bookUrlPattern": "https://www.douban.com/note/.*||https://www.douban.com/group/topic/.*",
+        "customOrder": -213548,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "一日囚::https://www.douban.com/note/662056085/\n癌公主::https://www.douban.com/note/165214595/\n内奸::https://www.douban.com/group/topic/91778104/\n锻炼锻炼::https://www.douban.com/group/topic/37518867/",
+        "header": "",
+        "lastUpdateTime": 1622097576485,
+        "loginUrl": "https://accounts.douban.com/passport/login",
+        "ruleBookInfo": {
+            "author": ".note-author@text",
+            "coverUrl": ".note_author_avatar@src",
+            "intro": "",
+            "name": "h1@text",
+            "tocUrl": "",
+            "wordCount": ".pub-date@text##\\s.*"
+        },
+        "ruleContent": {
+            "content": "id.link-report@html"
+        },
+        "ruleExplore": {
+            "author": ".from@a@text||.note-author@text",
+            "bookList": "tag.html",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": ".note_author_avatar@src",
+            "kind": "",
+            "name": "h1@text",
+            "wordCount": ".pub-date@text##\\s.*"
+        },
+        "ruleSearch": {
+            "author": ".info@textNodes##\\d+\\s人.*",
+            "bookList": ".content",
+            "bookUrl": "h3@a@href",
+            "intro": "p@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.body",
+            "chapterName": "h1@text##（作者：.*）|\\（授权转载\\）\\[小说\\]",
+            "chapterUrl": ""
+        },
+        "searchUrl": "https://www.douban.com/search?cat=1015&q={{key}}",
+        "weight": 0
+    }
+]

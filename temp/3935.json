@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "//搜索无效，仅发现\n//可复制链接，在首页书架添加网址",
+        "bookSourceGroup": "自制,发现,源仓库,网页源",
+        "bookSourceName": "黑暗小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.longfuxs8.com",
+        "bookUrlPattern": "https?://www.longfuxs8.com/\\d+/\\d+/",
+        "customOrder": 3,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻 ::/list/1-{{page}}.html\n仙侠 ::/list/2-{{page}}.html\n言情 ::/list/3-{{page}}.html\n历史 ::/list/4-{{page}}.html\n网游 ::/list/5-{{page}}.html\n科幻 ::/list/6-{{page}}.html\n恐怖 ::/list/7-{{page}}.html\n其他 ::/list/8-{{page}}.html\n总排行榜::/book/allvisit-{{page}}.html\n本周排行榜::/book/weekvisit-{{page}}.html\n当月排行榜::/book/monthvisit-{{page}}.html\n总推荐榜::/book/allvote-{{page}}.html\n本周推荐榜::/book/weekvote-{{page}}.html\n当月推荐榜::/book/monthvote-{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692694083595,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": ".content-body@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".media",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p@textNodes",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": ".list-group li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "weight": 0
+    }
+]

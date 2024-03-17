@@ -1,0 +1,68 @@
+[
+    {
+        "bookSourceComment": "正文规则由酷安@天天gg大佬完成",
+        "bookSourceGroup": "",
+        "bookSourceName": "🥈新丝路小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xunsilu.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "总点击::/top/allvisit_{{page}}/\n月点::/top/monthvisit_{{page}}/\n\n总推荐::/top/allvote_{{page}}/\n月推::/top/monthvote_{{page}}/\n\n        收 藏 榜        ::/top/goodnum_{{page}}/\n        新 入 库        ::/top/postdate_{{page}}/\n\n历史穿越::/sort/4_{{page}}/\n都市言情::/sort/3_{{page}}/\n武侠重生::/sort/2_{{page}}/\n恐怖灵异::/sort/7_{{page}}/\n科幻推理::/sort/6_{{page}}/\n玄幻魔法::/sort/1_{{page}}/\n网游动漫::/sort/5_{{page}}/\n其他类型::/sort/8_{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1616074156975,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "",
+            "canReName": "true",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "@js:\nif(/_\\d\\.html/.test(baseUrl)){\n//第二页利用javascript解密\ntry{\njava.base64Decode(src.match(/var mytxt.*?['\"](.*?)['\"];/)[1])}\ncatch(e){\njava.log(e);\njava.log(baseUrl);\n\"第二页解密失败！链接\\n\"+baseUrl\n}\n}\n//第一页常规方式获取\nelse java.getString(\"id.content@textNodes\",false)",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*.*一秒记住.*址.*\\s*|\\s*.*本章未完.*\\s*|\\s*.*更换.*浏览器.*\\s*|\\s*.*新丝路文学.*\\s*|\\s*.*xunsilu.*\\s*|\\s*.*婷阅中文.*\\s*|推荐阅读：|看过《.*》的书友.*|.*玉米小说.*",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.topul@tag.li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.p@textNodes",
+            "kind": "class.fullflag@text&&class.other@text",
+            "lastChapter": "",
+            "name": "tag.h2@tag.a@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.cover@tag.p",
+            "bookUrl": "tag.a.1@href##^##https://www.xunsilu.com",
+            "coverUrl": "tag.a.1@href\n##^/(\\d+)(\\d{3}).*##https://tu.tyue.me/image/$1/$1$2/$1$2s.jpg",
+            "intro": "",
+            "kind": "tag.a.0@text##\\[\\]",
+            "lastChapter": "#\ntag.a.1@href\n<js>java.ajax('https://m.xunsilu.com'+result)</js>\nclass.block_txt2@tag.a.-1@text",
+            "name": "tag.a.1@text##（）",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "-class.chapter9@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href##^##https://m.xunsilu.com",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/s.php,{\n\"charset\":\"gbk\",\n\"method\":\"POST\",\n\"body\":\"type=articlename&s={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️落秋中文网☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.luoqiuzww.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::http://m.luoqiuzww.cc/category/1<,/{{page}}>.html\n修真::http://m.luoqiuzww.cc/category/2<,/{{page}}>.html\n都市::http://m.luoqiuzww.cc/category/3<,/{{page}}>.html\n历史::http://m.luoqiuzww.cc/category/4<,/{{page}}>.html\n网游::http://m.luoqiuzww.cc/category/5<,/{{page}}>.html\n科幻::http://m.luoqiuzww.cc/category/6\n<,/{{page}}>.html\n‧˚₊*̥(∗︎*⁰͈꒨⁰͈)‧˚₊*̥ 女频‧˚₊*̥(∗︎*⁰͈꒨⁰͈)‧˚₊*̥ ::http://m.luoqiuzww.cc/category/7<,/{{page}}>.html\n其它::http://m.luoqiuzww.cc/category/8<,/{{page}}>.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36 Edg/85.0.564.68\"\n}",
+        "lastUpdateTime": 1645505228748,
+        "ruleBookInfo": {
+            "author": "tag.a.16@title||tag.a.4@text||",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.compulsory-row-three pt-book-intro@html",
+            "kind": "",
+            "name": "tag.h1@text",
+            "tocUrl": "tag.a.0@href||text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.pt-pop@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.size12@tag.a@title",
+            "bookList": "class.flex-wrp pt-popular-item",
+            "bookUrl": "class.size14@tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.size12@html##人在追",
+            "lastChapter": "class.pt-popular-label@tag.a@title",
+            "name": "class.size14@tag.a@title"
+        },
+        "ruleSearch": {
+            "bookList": "class.result",
+            "bookUrl": "text.章节目录@href||.more@href",
+            "intro": "tag.div.1@text",
+            "name": "tag.div.0@text##_.*"
+        },
+        "ruleToc": {
+            "chapterList": "class.border-b@tag.a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&s=11938404479790837004&entry=1",
+        "weight": 0
+    }
+]

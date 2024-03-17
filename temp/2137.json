@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "#tag.dl\n#class.all\n#id.booktxt",
+        "bookSourceGroup": "普通",
+        "bookSourceName": "快眼~see023.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.see023.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全本::https://www.see023.com/quanben/class/{{page}}/\n历史::https://www.see023.com/class/lishi/{{page}}/\n轻小说::https://www.see023.com/class/lightnovel/{{page}}/\n科幻::https://www.see023.com/class/kehuan/{{page}}/\n耽美::https://www.see023.com/class/danmei/{{page}}/\n武侠::https://www.see023.com/class/wuxia/{{page}}/\n都市::https://www.see023.com/class/dushi/{{page}}/\n玄幻::https://www.see023.com/class/xuanhuan/{{page}}/\n言情::https://www.see023.com/class/yanqing/{{page}}/",
+        "lastUpdateTime": 1616843140216,
+        "ruleBookInfo": {
+            "lastChapter": "class.bookdes@tag.a.0@text"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "replaceRegex": "##^(.{0,15}[\\u4e00-\\u9fa5]\\n){1,2}|(?mi)http[^\\n\\u4e00-\\u9fa5]+(com|net|org)"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.dd.-1@tag.a@text",
+            "bookList": "@css:div.content>dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "tag.dd.0@text",
+            "kind": "tag.dd.-1@tag.span@text",
+            "name": "tag.dt.0@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "+class.all@tag.ul@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.see023.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

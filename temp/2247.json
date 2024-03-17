@@ -1,0 +1,28 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "我乐书城",
+        "bookSourceUrl": "http://www.koushuishu.me",
+        "enable": true,
+        "ruleBookContent": "id.Content@html",
+        "ruleBookLastChapter": "class.NovelNote@tag.li.1@tag.a.1@text",
+        "ruleChapterList": "class.Chapter.1@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "text.开始阅读@href",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.NovelNote@img@src",
+        "ruleFindList": "",
+        "ruleFindUrl": "异界修仙::http://www.koushuishu.me/XiuXian/Page{searchPage}/\n都市社会::http://www.koushuishu.me/HouGong/Page{searchPage}/\n言情浪漫::http://www.koushuishu.me/YanQing/Page{searchPage}/\n清纯校园::http://www.koushuishu.me/XiaoYuan/Page{searchPage}/\n穿越重生::http://www.koushuishu.me/ChuanYue/Page{searchPage}/\n惊悚科幻::http://www.koushuishu.me/KeHuan/Page{searchPage}/\n另类乡土::http://www.koushuishu.me/LingLei/Page{searchPage}/\n女生频道::http://www.koushuishu.me/NvSheng/Page{searchPage}/",
+        "ruleIntroduce": "class.NovelContent@textNodes",
+        "ruleSearchAuthor": "class.NovelInfo@tag.a.1@text|tag.a.1@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchKind": "tag.span.1@text|tag.a.2@text",
+        "ruleSearchLastChapter": "class.Novel_Chapter@text|tag.a.3@text#\\||\\]",
+        "ruleSearchList": "class.NovelClass@ul|class.SeaNav",
+        "ruleSearchName": "class.NovelInfo@tag.a.0@text|tag.a.0@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://www.koushuishu.me/NovelSearch.aspx?NovelKey=searchKey&NovelSelect=1&NovelSub=+",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

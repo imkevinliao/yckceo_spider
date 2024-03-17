@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "阅读评论区修复",
+        "bookSourceName": "御书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yushubo.net",
+        "customOrder": -413,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/lists/book_55_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"武侠修真\",\"url\":\"/lists/book_57_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市异能\",\"url\":\"/lists/book_59_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"历史军事\",\"url\":\"/lists/book_61_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"游戏竞技\",\"url\":\"/lists/book_63_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻灭世\",\"url\":\"/lists/book_65_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"灵异悬疑\",\"url\":\"/lists/book_66_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"轻小说\",\"url\":\"/lists/book_60_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"现代言情\",\"url\":\"/lists/book_67_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"古代言情\",\"url\":\"/lists/book_68_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"幻想言情\",\"url\":\"/lists/book_69_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"青春校园\",\"url\":\"/lists/book_70_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"同人作品\",\"url\":\"/lists/book_71_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"惊悚恐怖\",\"url\":\"/lists/book_72_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"次元专区\",\"url\":\"/lists/book_73_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
+        "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1665967874771,
+        "respondTime": 2327,
+        "ruleBookInfo": {
+            "author": ".authorname@a@text",
+            "coverUrl": ".bigpic@img@src",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property$=status]@content&&[property$=category]@content&&[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "a#newchapter.0@text",
+            "name": "h1@text",
+            "tocUrl": "a.catalogbtn@href",
+            "wordCount": ".booktitle@p@text##.*字数：|.作者：.*"
+        },
+        "ruleContent": {
+            "content": ".article-con@p@text",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##检测到你的最新阅读进度为.*|是否同步到最新？关闭同步"
+        },
+        "ruleExplore": {
+            "author": "p.author@text",
+            "bookList": "div.books-list@li",
+            "bookUrl": "a.pic@href",
+            "coverUrl": "img@src",
+            "intro": "span.intro@text",
+            "kind": "p.time@text##更新于",
+            "name": "span.text@text"
+        },
+        "ruleSearch": {
+            "author": "div.col-r@p.author.1@text",
+            "bookList": ".search-list@li",
+            "bookUrl": "h3@a@href",
+            "coverUrl": ".col-l@img@src",
+            "intro": "p.intro@text##作品简介：",
+            "kind": "div.col-r@p.author.0@text&&div.col-r@p.latest@text##状态：|最后更新：",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html?ss={{key}}",
+        "weight": 0
+    }
+]

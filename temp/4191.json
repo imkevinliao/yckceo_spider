@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "猫猫小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://novel.atcat.cn",
+        "bookUrlPattern": "http://novel.atcat.cn/novel/\\d+.html",
+        "customOrder": 3,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/all.html<,?page={{page}}>\n男生::/all/id/4.html<,?page={{page}}>\n女生::/all/id/8.html<,?page={{page}}>\n连载::/all/serialize/0.html<,?page={{page}}>\n完本::/all/serialize/1.html<,?page={{page}}>\n30万字以下::/all/size/0.html<,?page={{page}}>\n30-50万字::/all/size/1.html<,?page={{page}}>\n50-100万字::/all/size/2.html<,?page={{page}}>\n100-200万字::/all/size/3.html<,?page={{page}}>\n200万字以上::/all/size/4.html<,?page={{page}}>\n全部::/all.html<,?page={{page}}>\n三日内::/all/update/0.html<,?page={{page}}>\n七日内::/all/update/1.html<,?page={{page}}>\n半月内::/all/update/2.html<,?page={{page}}>\n一月内::/all/update/3.html<,?page={{page}}>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1696051576281,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者@a@text",
+            "coverUrl": "dt img@src",
+            "intro": ".content@text",
+            "kind": "text.分类@text##分类：",
+            "lastChapter": ".clearfix li.0@text",
+            "name": "dd h2@text",
+            "wordCount": "text.字数@text##字数："
+        },
+        "ruleContent": {
+            "content": ".read-section p@html"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": ".book-list li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.0@text",
+            "kind": "em@text",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@ownText",
+            "bookList": ".clearfix li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "p.intro@text",
+            "kind": "em@text",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".bookshelf-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

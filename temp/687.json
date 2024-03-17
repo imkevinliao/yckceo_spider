@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "书荒啦文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shuhuang.la",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1624953748260,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.imgbox@tag.img.0@src",
+            "intro": "class.m-desc xs-show@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.author@text##.*\\|",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@data-original",
+            "intro": "class.review@text##简介：",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list txt-list-row5@tag.li!0",
+            "bookUrl": "class.s2@tag.a.0@href",
+            "name": "class.s2@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix!0@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.shuhuang.la/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

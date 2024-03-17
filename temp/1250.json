@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "百书楼m",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bsl666.com/",
+        "customOrder": 555,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n玄幻::/list5.html\n武侠::/list3.html\n言情::/list1.html\n历史::/list7.html\n游戏::/list9.html\n科幻::/list11.html\n恐怖::/list12.html\n排行榜::/top/\n全本::/quanben/",
+        "lastUpdateTime": 1623638191570,
+        "loginUrl": "https://m.bsl666.com/user/login.php",
+        "ruleBookInfo": {
+            "author": "class.book_box@class.dd_box@tag.span.0@text##作者：| \\|.*",
+            "lastChapter": "class.book_box@tag.dd.3@tag.span@tag.a@text",
+            "name": "class.name@text",
+            "tocUrl": "class.readlink@class.r1@tag.a@href",
+            "wordCount": "class.book_box@tag.dd.1@tag.span.1@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.bookinfo@class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookinfo@class.bookname@tag.a@href",
+            "coverUrl": "class.bookimg@tag.a@tag.img@src",
+            "name": "class.bookinfo@class.bookname@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last.1@tag.dd",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.bsl666.com/s.php?g={{key}}",
+        "weight": 0
+    }
+]

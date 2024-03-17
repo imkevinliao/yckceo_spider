@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "帝书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.dishuge.com/",
+        "customOrder": -2085957781,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "首页::http://m.dishuge.com/\n玄幻奇幻::http://m.dishuge.com/xuanhuanqihuan/\n武侠仙侠::http://m.dishuge.com/wuxiaxianxia/\n都市社会::http://m.dishuge.com/dushishehui/\n历史军事::http://m.dishuge.com/lishijunshi/\n游戏竞技::http://m.dishuge.com/youxijingji/\n科幻灵异::http://m.dishuge.com/kehuanlingyi/\n女生言情::http://m.dishuge.com/nvsheng/\n二次元::http://m.dishuge.com/erciyuan/\n文学小说::http://m.dishuge.com/wenxue/",
+        "lastUpdateTime": 1664285658326,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".info@text## .*",
+            "coverUrl": "img@src",
+            "kind": ".info@text&&.status@text##[\\s\\S]+分类：(.*?) [\\s\\S]+##$1",
+            "lastChapter": ".info.0@text##[\\s\\S]+最新：(.*)##$1",
+            "name": "h1@text",
+            "wordCount": ".info.0@text##[\\s\\S]+更新：(\\d+.\\d+.\\d+)[\\s\\S]+##$1"
+        },
+        "ruleContent": {
+            "content": "#mycontent@p!0:-1@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".info@text## .*",
+            "bookList": ".bd",
+            "coverUrl": "img@src",
+            "intro": "",
+            "kind": ".info@text&&.status@text##[\\s\\S]+分类：(.*?) [\\s\\S]+##$1",
+            "lastChapter": ".info.0@text##[\\s\\S]+最新：(.*)##$1",
+            "name": "h1@text",
+            "wordCount": ".info.0@text##[\\s\\S]+更新：(\\d+.\\d+.\\d+)[\\s\\S]+##$1"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".info@text## .*",
+            "bookList": ".bd",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": "",
+            "kind": ".status@text&&a.2@text",
+            "lastChapter": ".info.0@text##[\\s\\S]+最新：(.*)##$1",
+            "name": "h1@text",
+            "wordCount": ".info.0@text##[\\s\\S]+更新：(\\d+.\\d+.\\d+)[\\s\\S]+##$1"
+        },
+        "ruleToc": {
+            "chapterList": ".bd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "preUpdateJs": "",
+            "updateTime": "span@text"
+        },
+        "searchUrl": "http://m.dishuge.com/search/,{\n\t\"method\":\"post\",\n\t\"body\":\"searchkey={{key}}\"}",
+        "weight": 0
+    }
+]

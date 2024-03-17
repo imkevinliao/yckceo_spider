@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "自制，搜索间隔需大于60秒，不可以搜索两个字的所以搜如我的、系统之类的搜索不出来",
+        "bookSourceGroup": "📖  小说,验",
+        "bookSourceName": "NBA小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.nbaxiaoshuo.com",
+        "customOrder": 118,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "🦋                            分类                               🦋::\n玄幻奇幻::http://www.nbaxiaoshuo.com/class/class_1_{{page}}.html\n武侠仙侠::http://www.nbaxiaoshuo.com/class/class_2_{{page}}.html\n都市爽文::http://www.nbaxiaoshuo.com/class/class_3_{{page}}.html\n历史军事::http://www.nbaxiaoshuo.com/class/class_4_{{page}}.html\n侦探推理::http://www.nbaxiaoshuo.com/class/class_5_{{page}}.html\n游戏竞技::http://www.nbaxiaoshuo.com/class/class_6_{{page}}.html\n科幻小说::http://www.nbaxiaoshuo.com/class/class_7_{{page}}.html\n恐怖灵异::http://www.nbaxiaoshuo.com/class/class_8_{{page}}.html\n经典著作::http://www.nbaxiaoshuo.com/class/class_9_{{page}}.html\n古代言情::http://www.nbaxiaoshuo.com/class/class_10_{{page}}.html\n现代言情::http://www.nbaxiaoshuo.com/class/class_11_{{page}}.html\n幻想言情::http://www.nbaxiaoshuo.com/class/class_12_{{page}}.html\n仙侠修真::http://www.nbaxiaoshuo.com/class/class_13_{{page}}.html\n青春校园::http://www.nbaxiaoshuo.com/class/class_14_{{page}}.html\n网游动漫::http://www.nbaxiaoshuo.com/class/class_15_{{page}}.html\n科幻小说::http://www.nbaxiaoshuo.com/class/class_16_{{page}}.html\n悬疑推理::http://www.nbaxiaoshuo.com/class/class_17_{{page}}.html\n霸道总裁::http://www.nbaxiaoshuo.com/class/class_18_{{page}}.html\n耽美小说::http://www.nbaxiaoshuo.com/class/class_19_{{page}}.html\n其他类型::http://www.nbaxiaoshuo.com/class/class_20_{{page}}.html\n🍁                          排行榜                             🍁::\n总推荐榜::http://www.nbaxiaoshuo.com/top/allvote_{{page}}.html\n月排行榜::http://www.nbaxiaoshuo.com/top/monthvisit_{{page}}.html\n月推荐榜::http://www.nbaxiaoshuo.com/top/monthvote_{{page}}.html\n周排行榜::http://www.nbaxiaoshuo.com/top/weekvisit_{{page}}.html\n周推荐榜::http://www.nbaxiaoshuo.com/top/weekvote_{{page}}.html\n最新入库::http://www.nbaxiaoshuo.com/top/postdate_{{page}}.html\n最近更新::http://www.nbaxiaoshuo.com/top/lastupdate_{{page}}.html\n总收藏榜::http://www.nbaxiaoshuo.com/top/goodnum_{{page}}.html\n🍀                           完本                             🍀::http://www.nbaxiaoshuo.com/full_{{page}}.html",
+        "lastUpdateTime": 1645352747843,
+        "respondTime": 2540,
+        "ruleBookInfo": {
+            "author": ".red.0@text",
+            "coverUrl": "class.bookcover hidden-xs@tag.img@src",
+            "intro": ".bookintro@text##搜小说免费提供.*经典小说.*最新章节全文阅读服务,本站更新及时,无弹窗广告,.*观看小说:|搜小说免费提供.*经典小说.*最新章节全文阅读服务,本站更新及时,无弹窗广告,",
+            "kind": ".blue.1@text&&.red.1@text",
+            "lastChapter": "class.bookchapter@text\n##最后更新：|更新(于|至)|.*卷.|正文.|.*目录.|.*章节|(更|最)新|时间|卷\\d.|\\d{2}:.*|求.*\\(.*\\)|…|（|）|(:|：)|\\(|.*Chapter|\\)|。|连载|\\n|T\n@js:result.replace(/、/,'.').replace(/正文\\s/,'').replace(/.*(第\\d{1,}章).*章(.*)/,'$1$2').replace(/.*(第.*章)(.*)/,'◆$1◆$2').replace(/(\\d{2,4}-\\d{2}.*)/,'⌚$1').replace(/(.*)，\\s*/,'$1').replace(/-\\s(\\d{2,4}-\\d{2}.*)/,'$1')",
+            "name": ".booktitle@text",
+            "wordCount": ".blue.0@text"
+        },
+        "ruleContent": {
+            "content": "class.aaa readcotent font-normal@html##您.*www.soxscc.org.*查找最新章节.*|第.*章.*|你是天才，一秒记住.*网址.*"
+        },
+        "ruleExplore": {
+            "author": ".author.0@text||class.book-author@text##作者：",
+            "bookList": "class.bookbox||class.book-box",
+            "bookUrl": ".bookname@tag.a@href||class.book-layout@href",
+            "coverUrl": "tag.img@src",
+            "intro": ".update@text||class.book-desc@text##搜小说免费提供.*经典小说.*最新章节全文阅读服务,本站更新及时,无弹窗广告,.*观看小说:|搜小说免费提供.*经典小说.*最新章节全文阅读服务,本站更新及时,无弹窗广告,",
+            "kind": "class.bookinfo@tag.div.-3@text&&class.num@text||class.book-number@text&&class.book-tags@tag.em.0@text",
+            "lastChapter": ".cat@text##更新到：",
+            "name": ".bookname@text||class.book-title@text",
+            "wordCount": "class.author.1@text||class.book-tags@tag.em.1@text##字数："
+        },
+        "ruleSearch": {
+            "author": ".author@text##作者：",
+            "bookList": ".bookbox",
+            "bookUrl": ".bookname@tag.a@href",
+            "checkKeyWord": "[穿书]",
+            "intro": ".update@text",
+            "lastChapter": ".cat@tag.a@text\n##最后更新：|更新(于|至)|.*卷.|正文.|.*目录.|.*章节|(更|最)新|时间|卷\\d.|\\d{2}:.*|求.*\\(.*\\)|…|（|）|(:|：)|\\(|.*Chapter|\\)|。|连载|\\n|T\n@js:result.replace(/、/,'.').replace(/正文\\s/,'').replace(/.*(第\\d{1,}章).*章(.*)/,'$1$2').replace(/-(\\d{2,4}.*)/,'$1').replace(/.*(第.*章)(.*)/,'◆$1◆$2').replace(/(\\d{2,4}-\\d{2}.*)/,'⌚$1').replace(/(.*)，\\s*/,'$1')",
+            "name": ".bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book chapterlist@tag.a",
+            "chapterName": "@text\n##最后更新：|更新(于|至)|.*卷.|正文.|.*目录.|.*章节|(更|最)新|时间|卷\\d.|\\d{2}:.*|求.*\\(.*\\)|…|（|）|(:|：)|\\(|.*Chapter|\\)|。|连载|\\n|T\n@js:result.replace(/、/,'.').replace(/正文\\s/,'').replace(/.*(第\\d{1,}章).*章(.*)/,'$1$2').replace(/.*(第.*章)(.*)/,'◆$1◆$2').replace(/(\\d{2,4}-\\d{2}.*)/,'⌚$1').replace(/(.*)，\\s*/,'$1').replace(/-\\s(\\d{2,4}-\\d{2}.*)/,'$1')",
+            "chapterUrl": "@href",
+            "updateTime": ".booktime@text##更新时间：(.*)##⌚$1"
+        },
+        "searchUrl": "http://www.nbaxiaoshuo.com/modules/article/search.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 'searchtype=articlename&searchkey={{key}}&action=login&submit=&page={{page}}'}",
+        "weight": 0
+    }
+]

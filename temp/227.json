@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "酷匠网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.kujiang.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "🍀                               🍀排行榜🍀                                🍀\n恶魔果实榜::/m/bang/devilnut\n人气周榜::/m/bang/rq/week\n人气总榜::/m/bang/rq/all\n飙升日榜::/m/bang/bs/day\n飙升周榜::/m/bang/bs/week\n追书周榜::/m/bang/zs/week\n追书总榜::/m/bang/zs/all\n推荐周榜::/m/bang/ll/week\n推荐总榜::/m/bang/ll/all\n评分榜::/m/bang/rate\n更新榜::/m/bang/gx\n字数榜::/m/bang/size",
+        "lastUpdateTime": 1656444043340,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@text",
+            "coverUrl": ".introduce-img@tag.img@src",
+            "init": "",
+            "intro": ".information-content-text@textNodes",
+            "kind": "class.introduce-title-species@text",
+            "lastChapter": ".new-chapter-color@text&&.information-update@text##更新",
+            "name": "class.introduce-title-book@text",
+            "tocUrl": ".to-catalog@href",
+            "wordCount": ".introduce-title-author@tag.em@text##\\|"
+        },
+        "ruleContent": {
+            "content": "id.readArticle@tag.p@textNodes",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": ".author@text",
+            "bookList": ".hot-list@tag.li",
+            "bookUrl": "tag.li@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": ".book-intro@textNodes##群号：.*",
+            "name": "class.book-name overhide@text",
+            "wordCount": "class.size@text"
+        },
+        "ruleSearch": {
+            "author": "class.kj_ph_box@tag.span.-2@text",
+            "bookList": "class.kj_ph_box",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "class.kj_ph_box@tag.img@src",
+            "kind": "class.kjtitle overhide@tag.em@text",
+            "lastChapter": "class.overhide.-1@text##更新：",
+            "name": "class.kjtitle overhide@text",
+            "wordCount": "class.kjwords@text"
+        },
+        "ruleToc": {
+            "chapterList": ".catalog@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.kujiang.com/m/search?keyword={{key}}",
+        "weight": 0
+    }
+]

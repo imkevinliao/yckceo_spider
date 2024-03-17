@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "自制,常用,源仓库,网页源",
+        "bookSourceName": "夜天连看/何以笙箫默",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.yetianlian.org/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/fenlei/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"仙侠\",\"url\":\"/fenlei/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"都市\",\"url\":\"/fenlei/3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"军史\",\"url\":\"/fenlei/4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"网游\",\"url\":\"/fenlei/5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"科幻\",\"url\":\"/fenlei/6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"恐怖\",\"url\":\"/fenlei/7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"其它\",\"url\":\"/fenlei/8/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1683794144215,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\n[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:title\"]@content"
+        },
+        "ruleContent": {
+            "content": "#nr1@html##.*\\(.*\\)|（本章未完.*继续阅读）|最新网址.*",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "text##.*\\/",
+            "bookList": "class.line",
+            "bookUrl": "a@href",
+            "kind": "text##\\[|\\].*",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.3@text",
+            "bookList": "class.block",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": "p.2@text##分类：",
+            "lastChapter": "a.-1@text",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://m.yetianlian.org/s.php?q={{key}}&submit=",
+        "weight": 0
+    }
+]

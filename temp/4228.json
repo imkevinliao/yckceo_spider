@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⌨自制",
+        "bookSourceName": "36书房",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.x36sfw1.com/",
+        "customOrder": -2,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1696698809971,
+        "respondTime": 180261,
+        "ruleBookInfo": {
+            "author": "class.author@text",
+            "coverUrl": "tag.img@src",
+            "intro": "class.review@text",
+            "kind": "class.sort@text",
+            "lastChapter": "class.directoryArea@a.0@text",
+            "name": "class.title@text",
+            "tocUrl": "class.recommend@h2.1@a@href "
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes",
+            "nextContentUrl": "class.Readpage_down@text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@a.1@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "我的",
+            "lastChapter": "class.author.1@a@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@p!0:-1",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.x36sfw1.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

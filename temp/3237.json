@@ -1,0 +1,36 @@
+[
+    {
+        "bookSourceName": "⭐格格党手机版",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.52ggdxs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻修真::/m_1_{{page}}/\n都市商战::/m_2_{{page}}/\n历史军事::/m_3_{{page}}/\n网游科幻::/m_4_{{page}}/\n恐怖推理::/m_5_{{page}}/\n穿越架空::/m_6_{{page}}/\n古典言情::/m_7_{{page}}/\n现代言情::/m_8_{{page}}/\n耽美同人::/m_9_{{page}}/\n综合其他::/m_10_{{page}}/",
+        "lastUpdateTime": 1682059178802,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": ".con@p@html",
+            "replaceRegex": "##\\s*.畅读更新加载慢.章节不完整.请退出畅读后阅读.."
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "##作者：([^<]+)##$1###",
+            "bookList": "class.round",
+            "bookUrl": "h3@a@href",
+            "intro": "class.des@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#g@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.52ggdxs.com/m/search/?wd={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

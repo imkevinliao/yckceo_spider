@@ -1,0 +1,28 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "六情小说",
+        "bookSourceUrl": "http://www.6qing6.com",
+        "enable": true,
+        "ruleBookContent": "class.m_txt_con@tag.p@text",
+        "ruleBookName": "tag.h1@text",
+        "ruleChapterList": "class.t_list6@tag.a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "class.bot1@class.a2@href",
+        "ruleChapterUrlNext": "class.page_pagination_mh@tag.a.-2@href",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.p_list10@tag.img@src",
+        "ruleIntroduce": "class.text1@text",
+        "ruleSearchAuthor": "class.pl_s2@tag.a.0@text",
+        "ruleSearchCoverUrl": "tag.a.0@tag.img@src",
+        "ruleSearchIntroduce": "class.pl_s4@text",
+        "ruleSearchKind": "class.pl_s1@tag.em@text",
+        "ruleSearchLastChapter": "class.pl_s2@tag.a.1@text",
+        "ruleSearchList": "class.p_list9_1 s_l9@tag.li",
+        "ruleSearchName": "class.pl_s1@tag.a@text",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleSearchUrl": "http://www.6qing6.com/search.php?k=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

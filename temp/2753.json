@@ -1,0 +1,23 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "BL文库手机版",
+        "bookSourceUrl": "http://m.520wenku.com",
+        "enable": false,
+        "loginUrl": "",
+        "ruleBookContent": "class.blcont@html",
+        "ruleChapterList": "h3",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleIntroduce": "[name=\"description\"]@content",
+        "ruleSearchAuthor": "a@text#.*作者：",
+        "ruleSearchLastChapter": "font@text",
+        "ruleSearchList": "class.p_newslist@li",
+        "ruleSearchName": "a@text#作者.*",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://m.520wenku.com/search.php?keyword=searchKey&searchtype=titlekeyword&channeltype=0&orderby=&kwtype=0&pagesize=10&typeid=0&TotalResult=3515&PageNo=searchPage|char=gbk",
+        "serialNumber": 1,
+        "weight": 0
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "酷安@匿名不然吓死你",
+        "bookSourceGroup": "一个",
+        "bookSourceName": "一个书源",
+        "bookSourceType": 0,
+        "bookSourceUrl": "一个书源",
+        "bookUrlPattern": "",
+        "customOrder": -3,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1627620081380,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "li:matches(作者)@text||\np:matches(作者)@text||\ndiv:not(:has(div)):matches(作者)@text\n##作者：|简介.*",
+            "init": "",
+            "intro": "li:matches(简介)@text||\np:matches(简介)@text||\ndiv:not(:has(div)):matches(简介)@text",
+            "lastChapter": "",
+            "name": "title@text##\\(.*|_.*|-.*|最新.*|无弹窗.*|完整.*|\\:.*|全集.*|全文.*|免费.*|章节.*|免费.*|小说.*|,.*|txt.*",
+            "tocUrl": "a:matches(目录|列表|查看|章节):not([href~=javascript|#])@href"
+        },
+        "ruleContent": {
+            "content": "*[id~=nr1|txt|content]@all||\n*:containsOwn(。):not(p)@all||\n*:has(>p:containsOwn(。))@all",
+            "imageStyle": "",
+            "nextContentUrl": "a:matches(下一页)@href||\na[href~=page=\\d{1,2}|\\d{4,}_\\d{1,2}\\.]:matches(下)@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "intro": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "name": ""
+        },
+        "ruleToc": {
+            "chapterList": "@css:*:has(>*:has(>a:matches(\\d、|\\d\\.|第|分节|番外))) a||\na[href~=\\d+/\\d+/\\d+\\.]||\na[href~=\\d+/\\d+\\.]||\na[href~=\\d{4,}]",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "a:matches(下一页)@href",
+            "updateTime": ""
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "Exigua,@🍉",
+        "bookSourceGroup": "@🍉",
+        "bookSourceName": "9k",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kkkkkkkkk.com",
+        "bookUrlPattern": "",
+        "customOrder": -2085958993,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"❀❀❀男生❀❀❀\",\"url\":\"\",\"style\": {\"layout_flexGrow\": 1,\n\"layout_flexBasisPercent\": 1\n}},\n{\"title\":\"奇幻玄幻\",\"url\":\"/lists/18.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"武侠仙侠\",\"url\":\"/lists/19.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"历史军事\",\"url\":\"/lists/20.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"都市娱乐\",\"url\":\"/lists/21.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"科幻末日\",\"url\":\"/lists/22.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"悬疑灵异\",\"url\":\"/lists/23.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"游戏竞技\",\"url\":\"/lists/34.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"其他\",\"url\":\"/lists/35.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"❀❀❀女生❀❀❀\",\"url\":\"\",\"style\":{\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 1\n}},\n{\"title\":\"古装言情\",\"url\":\"/lists/25.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市言情\",\"url\":\"/lists/26.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"浪漫青春\",\"url\":\"/lists/27.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"幻想言情\",\"url\":\"/lists/28.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"科幻空间\",\"url\":\"/lists/37.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"灵异悬疑\",\"url\":\"/lists/38.html\",\"style\":{\"layout_flexGrow\": 1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+        "lastUpdateTime": 1667891270436,
+        "loginUrl": "{\n  \"url\": \"\"\n}",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "class.name@text",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.read-content@tag.p!0@text",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dd@p.0@a.0@text",
+            "bookList": "class.listboxw@dl||class.rankdatacont@class.secd-rank-list",
+            "bookUrl": "dt@a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.big-book-info@text",
+            "kind": "dd@p.0@a.1@text",
+            "lastChapter": "",
+            "name": ".bigpic-book-name@text",
+            "wordCount": "dd@p.0@span@em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.cate-list@tag.li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search.html?keyword={{key}},{\"charset\":\"utf-8\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\",\"Referer\":\"https://www.kkkkkkkkk.com\"},\"webView\":true}",
+        "weight": 0
+    }
+]

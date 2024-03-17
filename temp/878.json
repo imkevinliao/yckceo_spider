@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "全民写小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qmxxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1636075950758,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "class.row.3@span@text##标签：",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.J_BookRead@p@textNodes"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.smaller@text##最近.*",
+            "bookList": "class.book-list@li",
+            "bookUrl": "class.text-default@href",
+            "coverUrl": "class.lazyload cover@data-original",
+            "intro": "class.summaries@text",
+            "lastChapter": "class.smaller@text##.*/",
+            "name": "class.text-default@text",
+            "wordCount": "class.smaller@text##.*\\：|\\/.*"
+        },
+        "ruleToc": {
+            "chapterList": "class.articles@span",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{\"webView\":true\"}",
+            "isVip": "class.lock@img@src"
+        },
+        "searchUrl": "http://www.qmxxs.com/index/get_search_book_list/{{key}}/{{page}}",
+        "weight": 0
+    }
+]

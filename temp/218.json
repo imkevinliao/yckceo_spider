@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceUrl": "https://www.zhonghuadiancang.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "中华典藏",
+        "bookSourceGroup": "",
+        "bookSourceComment": "墨妄20220703",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.zhonghuadiancang.com/e/search/index.php,{\n    \"method\": \"POST\",\n    \"body\": \"tbname=bookname&show=title%2Cwriter&tempid=1&keyboard=%E6%88%91%E7%9A%84\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1656829714744,
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "//table/tbody/tr",
+            "name": "///td[1]/a/text()",
+            "author": "///td[3]/a/text()",
+            "intro": "//td[2]/p/text()",
+            "bookUrl": "///td[1]/a/@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "//div[@class=\"panel-heading\"]/h1/text()",
+            "author": "//div[@class=\"panel-heading\"]/h1/small/a/text()",
+            "intro": "//p[@class=\"m-summary\"]/text()",
+            "coverUrl": "//div[@class=\"fmpic\"]/img/@src"
+        },
+        "ruleToc": {
+            "chapterList": "//li[@class=\"list-group-item col-md-4 vv-book\"]",
+            "chapterName": "//a/@title",
+            "chapterUrl": "//a/@href"
+        },
+        "ruleContent": {
+            "content": "//div[@id=\"content\"]/p/text()"
+        }
+    }
+]

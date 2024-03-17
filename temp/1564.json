@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceName": "芙蓉中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.furongzw.com/",
+        "customOrder": -240765,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1670762349270,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//meta[@property=\"og:novel:author\"]/@content",
+            "coverUrl": "//meta[@property=\"og:image\"]/@content",
+            "intro": "//meta[@property=\"og:description\"]/@content",
+            "kind": "//meta[@property=\"og:novel:category\"]/@content",
+            "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content&&//meta[@property=\"og:novel:update_time\"]/@content##\\n##•",
+            "name": "//meta[@property=\"og:title\"]/@content"
+        },
+        "ruleContent": {
+            "content": "class.content@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.col-md-2 col-sm-4 col-xs-4@text",
+            "bookList": "class.table table-striped table-hover@tr!0",
+            "bookUrl": "class.col-md-2 col-sm-6 col-xs-8@tag.a@href",
+            "checkKeyWord": "",
+            "lastChapter": "class.col-md-6 hidden-sm hidden-xs@text&&class.col-md-2 col-sm-2 hidden-xs@text",
+            "name": "class.col-md-2 col-sm-6 col-xs-8@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-group@class.list-group-item col-lg-3 col-md-3 col-sm-4 col-xs-6 book",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.furongzw.com/search.php?search={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

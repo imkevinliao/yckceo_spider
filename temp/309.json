@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "雪痕伤",
+        "bookSourceName": "笔趣阁2-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biqugeg.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/\n修真小说::/xiuzhenxiaoshuo/\n都市小说::/dushixiaoshuo/\n穿越小说::/chuanyuexiaoshuo/\n网游小说::/wangyouxiaoshuo/\n科幻小说::/kehuanxiaoshuo/\n其他小说::/qitaxiaoshuo/",
+        "lastUpdateTime": 1654101552369,
+        "respondTime": 185405,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "class.intro@text"
+        },
+        "ruleContent": {
+            "content": "class.txt@textNodes"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.search-list@li!0",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "tag.a.0@href<js>\nvar a = result.match(/(\\d+)\\/?$/)[1];\nvar b = parseInt(a/1000);\n'http://www.qu-la.com/files/'+b+'/'+a+'/'+a+'.jpg';\n</js>",
+            "name": "class.s2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.cf@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=qu-la.com&q={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceUrl": "https://www.biqupa.com/",
+        "lastUpdateTime": 1674193233352,
+        "ruleToc": {
+            "chapterList": ".listmain@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "bookSourceName": "趣读屋",
+        "searchUrl": "/sodushuge.php?ie=gbk&q={{key}}",
+        "ruleSearch": {
+            "bookList": ".bookbox",
+            "name": ".bookname@text",
+            "bookUrl": ".bookname@a@href",
+            "author": ".auther@text##作者：",
+            "kind": ".cat@text##分类：",
+            "lastChapter": ".update@a@text",
+            "intro": ".bookinfo@p@text",
+            "coverUrl": ".bookimg@img@src"
+        },
+        "ruleBookInfo": {
+            "name": "id.info@h1@text",
+            "author": "id.info@p.2@text##作者：",
+            "kind": "id.info@p.0@text##分类：",
+            "lastChapter": "id.info@p.4@a@text",
+            "intro": "id.intro@p.0@text",
+            "coverUrl": "id.fmimg@img@src"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "exploreUrl": "玄幻::https://www.biqupa.com/xuanhuan/\n修真::https://www.biqupa.com/xiuzhen/\n都市::https://www.biqupa.com/dushi/\n历史::https://www.biqupa.com/lishi/\n网游::https://www.biqupa.com/wangyou/\n科幻::https://www.biqupa.com/kehuan/\n言情::https://www.biqupa.com/yanqing/\n其他::https://www.biqupa.com/qita/\n全本::https://www.biqupa.com/quanben/",
+        "ruleExplore": {
+            "bookList": ".l.bd@ul@li",
+            "name": ".s2@text",
+            "author": ".s4@text",
+            "kind": ".s1@text",
+            "lastChapter": ".s3@text",
+            "bookUrl": ".s2@a@href"
+        }
+    }
+]

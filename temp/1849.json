@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "搜书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.soshuwu.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1620872447789,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "name": "",
+            "tocUrl": "id.read@href"
+        },
+        "ruleContent": {
+            "content": "class.content@html\n##喜欢.*最快。|因某些原因，今天突然出现大量.*|您可以在百度里搜索.*|.*最新章节地址：[\\s\\S]+",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.data.0@tag.a.0@text",
+            "bookList": "class.list@li",
+            "bookUrl": "a@href##^##https://www.soshuwu.com",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.data.0@tag.span.0@text",
+            "lastChapter": "class.data.-1@text",
+            "name": "class.bookname@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.novel_list.-1@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.soshuwu.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\",\n\"webView\":true\n}",
+        "weight": 0
+    }
+]

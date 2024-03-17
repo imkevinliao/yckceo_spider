@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "_:(´□`」 ∠):_\n二传请注明出处@abyssesml",
+        "bookSourceGroup": "abysses",
+        "bookSourceName": "📜博看小说[abyssesml]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kchao.net",
+        "customOrder": -2086019012,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"书库\",\"url\":\"/all/index.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"排行榜\",\"url\":\"/novel/recommend/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完本\",\"url\":\"/novel/end/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻奇幻\",\"url\":\"/novel-1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市重生\",\"url\":\"/novel-3/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"女生言情\",\"url\":\"/novel-4/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"二次元\",\"url\":\"/novel-5/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"仙侠武侠\",\"url\":\"/novel-6/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"灵异悬疑\",\"url\":\"/novel-7/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"游戏竞技\",\"url\":\"/novel-8/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻未来\",\"url\":\"/novel-9/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"历史军事\",\"url\":\"/novel-10/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{\"Upgrade-Insecure-Requests\": 1}",
+        "lastUpdateTime": 1683772617202,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "canReName": "true",
+            "coverUrl": "[property$=image]@content",
+            "init": "meta[property]",
+            "intro": "[property$=description]@content\n##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##\\s.*",
+            "lastChapter": "[property$=chapter_name]@content\n##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "<js>\nif (/内容正在载入/.test(src)) {\n    c2 = src.match(/c2=\"([^\"]+)/)[1];\n    url = src.match(/src=\"([^\"]+)/)[1];\n    j = java.ajax(source.getKey() + url);\n    reg = /function ajax[\\s\\S]+?\\}(?=Ajax)/;\n    eval(String(j.match(reg)[0]))\n    java.log(java.ajax(source.getKey() + ajax(c2)));\n    h = java.ajax(baseUrl);\n    java.setContent(h), h;\n} else result;\n</js>#content@html##$##🍑N🍑",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "a:contains(下一页)@href",
+            "replaceRegex": "##\\s*🍑N🍑\\s*|\\s*本章未完，请点击下一页继续阅读！\\s*|\\s*{{book.author}}提醒您：看完记得收藏【博看小说网】 www\\.kchao\\.net，下次我更新您才方便继续阅读哦，期待精彩继续！您也可以用手机版：m\\.kchao\\.net，随时随地都可以畅阅无阻\\.\\.\\.\\s*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span:contains(作者：)@text##^作者：",
+            "bookList": "<js>\nif (/内容正在载入/.test(src)) {\n    c2 = src.match(/c2=\"([^\"]+)/)[1];\n    url = src.match(/src=\"([^\"]+)/)[1];\n    j = java.ajax(source.getKey() + url);\n    reg = /function ajax[\\s\\S]+?\\}(?=Ajax)/;\n    eval(String(j.match(reg)[0]))\n    java.log(java.ajax(source.getKey() + ajax(c2)));\n    h = java.ajax(source.getKey() + \"/sscc/,\" + JSON.stringify({\n        \"method\": \"post\",\n        \"charset\": \"gbk\",\n        \"body\": `act=${\n \t\tjava.get('act')\n \t}&q=${\n \t\tjava.get('key')\n \t}&submit=搜索 `\n    }));\n} else result;\n</js>:contains(搜索结果) ~ .B||.m1",
+            "bookUrl": "dt > a@href",
+            "coverUrl": "img@src",
+            "intro": "dd:contains(简介：)@text##^简介：",
+            "kind": "{{@@span:contains(类别：)@text##^类别：}},{{String(src).match(/更新时间：([^<]+)/)[1].replace(/\\s.*/,'')}}",
+            "lastChapter": "dd:contains(最新章节：) > a@text",
+            "name": "dt > a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl > dt:nth-of-type(2) ~ dd > a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/sscc/,{\n\t\"method\":\"post\",\n\t\"charset\":\"gbk\",\n\t\"body\":\"act={{\nh = java.ajax(source.getKey()),\n    j = org.jsoup.Jsoup.parse(h),\n    f = j.select('#searchForm'),\n    v = f.select('[name=act]').attr('value');\n\nfunction ckStore(ck) {\n    this._value = ck;\n    this.keyPairs = {};\n    this.parse = () => {\n        this._value.split(';').forEach(v => {\n            kv = v.split('=').map(v => v.trim());\n            this.keyPairs[kv[0]] = kv[1];\n        });\n        return this;\n    }\n    this.set = (k, v) => {\n        this.keyPairs[k] = v;\n        return this;\n    };\n    this.value = () => {\n        res = void(0);\n        for (k in this.keyPairs) {\n            kv = `${k}=${this.keyPairs[k]};`;\n            res = res === void(0) ?\n                kv :\n                res + kv;\n        }\n        return res;\n    };\n}\nckval = cookie.getCookie(source.getKey());\nsqval = java.encodeURI(key, 'gbk');\nst = new ckStore(ckval).parse().set('ssqq', sqval);\ncookie.setCookie(source.getKey(), st.value());\njava.put('key', key);\njava.put('act', v);\n\t}}&q={{key}}&submit=搜索 \"\n}",
+        "weight": 0
+    }
+]

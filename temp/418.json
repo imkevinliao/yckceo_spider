@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceGroup": "置顶搜书",
+        "bookSourceName": "酷笔记m①(感谢3.0大佬的书源)",
+        "bookSourceUrl": "https://mm.kubiji.org",
+        "enable": true,
+        "loginUrl": "",
+        "ruleBookAuthor": "class.author@tag.a@text",
+        "ruleBookContent": "class.content@html##喜欢.*更新速度最快。|请大家记得我们的网站.*更新速度最快。",
+        "ruleBookInfoInit": "class.detail",
+        "ruleBookKind": "tag.p.2@tag.a@text&&\ntag.p.2@tag.span.0@text&&\ntag.p.4@text##最后更新：",
+        "ruleBookLastChapter": "class.new@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "ruleBookName": "class.name@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "ruleBookUrlPattern": "https://mm.kubiji.org/\\d+/",
+        "ruleChapterList": "class.read@tag.li",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrlNext": "option@value",
+        "ruleContentUrl": "tag.a@href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "img@src",
+        "ruleSearchAuthor": "class.data.0@tag.a@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchIntroduce": "class.intro@text",
+        "ruleSearchKind": "class.data@tag.span.0@text",
+        "ruleSearchLastChapter": "tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "ruleSearchList": "class.list@tag.li",
+        "ruleSearchName": "class.bookname@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "ruleSearchNoteUrl": "class.bookname@tag.a@href",
+        "ruleSearchUrl": "https://mm.kubiji.org/search.html@searchkey=searchKey@Header:{\"cookie\": \"Hm_lvt_2891e43d8c1a69f95a2bf26538b7c744=1629441221;Hm_lpvt_2891e43d8c1a69f95a2bf26538b7c744=1629841013\"}",
+        "serialNumber": 2,
+        "weight": 0
+    }
+]

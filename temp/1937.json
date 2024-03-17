@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "A级",
+        "bookSourceName": "龙坛书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.longtanshuwang.com",
+        "customOrder": 2,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1619710582799,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.2@text.作&&nbsp;&&nbsp;&&nbsp;&&nbsp;者：@text",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@text",
+            "kind": "id.info@tag.p.0@text##分类：",
+            "lastChapter": "id.info@tag.p.4@tag.a@text",
+            "name": "id.info@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookimg@tag.a@href",
+            "coverUrl": "class.bookimg@tag.img@src",
+            "intro": "tag.p@text",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "class.bookname@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@tag.dl@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.longtanshuwang.com/s666.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

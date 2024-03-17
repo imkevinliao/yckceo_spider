@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.slyqw.com#",
+        "customOrder": -240765,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1669897793374,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//meta[@property=\"og:novel:author\"]/@content",
+            "coverUrl": "//meta[@property=\"og:image\"]/@content",
+            "init": "",
+            "intro": "//meta[@property=\"og:description\"]/@content",
+            "kind": "//meta[@property=\"og:novel:category\"]/@content",
+            "lastChapter": "//meta[@property=\"og:novel:lastest_chapter_name\"]/@content&&//meta[@property=\"og:novel:update_time\"]/@content##\\n##•",
+            "name": "//meta[@property=\"og:title\"]/@content",
+            "tocUrl": "class.directoryArea@p@href"
+        },
+        "ruleContent": {
+            "content": "id.article@html",
+            "nextContentUrl": "#pt_next@href##$##,{'webView':true}",
+            "replaceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author.0@text",
+            "bookList": "class.read_book@class.bookbox",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "class.bookimg@img@src",
+            "intro": "class.fs12 gray.-1@text",
+            "kind": "class.author.1@text##类型：",
+            "lastChapter": "class.update@text##最后章节：",
+            "name": "h4@a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.directoryArea@p",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href##$##,{'webView':true}",
+            "nextTocUrl": "option@value",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "https://m.slyqw.com/search/,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceGroup": "自制源",
+        "bookSourceName": "零点看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ldks8.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻修真::/list/1/{{page}}.html\n重生穿越::/list/2/{{page}}.html\n都市小说::/list/3/{{page}}.html\n军史小说::/list/4/{{page}}.html\n网游小说::/list/5/{{page}}.html\n科幻小说::/list/6/{{page}}.html\n灵异小说::/list/7/{{page}}.html\n言情小说::/list/8/{{page}}.html\n其他小说::/list/9/{{page}}.html",
+        "lastUpdateTime": 1695069916022,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "img.0@src",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "#txt@html",
+            "nextContentUrl": "text.下章@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": "class.sort_list@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "一号龙将",
+            "coverUrl": ".s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'/qs_html/img/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": ".s1@text",
+            "lastChapter": ".s4@text",
+            "name": ".s2@text",
+            "wordCount": ".s5@text"
+        },
+        "ruleToc": {
+            "chapterList": "\n<js>\nlist=[]\nif(/查看更多章节/.test(result)){\n\tlist=java.getElements('class.chapter-list.1@tag.li')\n\t}else{\n\t\tlist=java.getElements('class.chapter-list@tag.li')\n\t\t}\nlist\n</js>a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.查看更多章节.1@href\n<js>\nif(result!=''){\nbase=source.getKey()\n\nre=java.ajax(base+result[0])\njava.setContent(re,'')\nlis=java.getElements('class.page_num@tag.option')\nlist=[]\nfor(var i=1;i<lis.length;i++){\n\tjava.setContent(lis[i],'')\n\tsurl=lis[i].attr('value')\n\tlist.push(surl)\n\t}\n\tlist\n\t}\n</js>"
+        },
+        "searchUrl": "https://m.ldks8.net/search.html,{\n  \"body\": \"s={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

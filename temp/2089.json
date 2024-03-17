@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔下文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bxwxorg.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618070457836,
+        "ruleBookInfo": {
+            "lastChapter": "class.detail@tag.a.-1@text&&class.detail@tag.p.-1@text##\\n最后更新：##•",
+            "tocUrl": "class.now@a@href",
+            "wordCount": "class.detail@tag.span.-1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@tag.p!0:-1@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.list@li",
+            "bookUrl": "tag.a.1@href\n<js>result.replace(/read/,\"book\").replace(/\\/$/,\".html\")</js>",
+            "coverUrl": "img@src",
+            "intro": "tag.p.-2@text",
+            "kind": "tag.span.0@text&&tag.span.1@text",
+            "lastChapter": "tag.a.-1@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.bxwxorg.com/search.html,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\",\n\"webView\":true\n}",
+        "weight": 0
+    }
+]

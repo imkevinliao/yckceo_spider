@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "小说馆",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xsgplus.com",
+        "customOrder": 22,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1674901399126,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h1@small@a@text",
+            "coverUrl": "#bookIntro@img@src",
+            "intro": "#bookIntro@html",
+            "kind": ".visible-xs.0@text&&.booktag@span.2@text##更新时间：",
+            "lastChapter": ".col-md-10@p.1@a@text",
+            "name": "h1@textNodes",
+            "wordCount": ".booktag@span.0@text"
+        },
+        "ruleContent": {
+            "content": "##&#x##&#x'\n<js>result</js>\n.panel-body@html##如发现文字缺失，关闭/转/码/或/畅/读/模/式/即可正常阅读",
+            "nextContentUrl": "text.下一章@href",
+            "replaceRegex": "<js>\nvar f1=[\"&#x'e001;\",\"&#x'e002;\",\"&#x'e003;\",\"&#x'e004;\",\"&#x'e005;\",\"&#x'e006;\",\"&#x'e007;\",\"&#x'e008;\",\"&#x'e009;\",\"&#x'e00a;\",\"&#x'e00b;\",\"&#x'e00c;\",\"&#x'e00d;\",\"&#x'e00e;\",\"&#x'e00f;\",\"&#x'e010;\",\"&#x'e011;\",\"&#x'e012;\",\"&#x'e013;\",\"&#x'e014;\",\"&#x'e015;\",\"&#x'e016;\",\"&#x'e017;\",\"&#x'e018;\",\"&#x'e019;\",\"&#x'e01a;\",\"&#x'e01b;\",\"&#x'e01c;\",\"&#x'e01d;\",\"&#x'e01e;\",\"&#x'e01f;\",\"&#x'e020;\",\"&#x'e021;\",\"&#x'e022;\",\"&#x'e023;\",\"&#x'e024;\",\"&#x'e025;\",\"&#x'e026;\",\"&#x'e027;\",\"&#x'e028;\",\"&#x'e029;\",\"&#x'e02a;\",\"&#x'e02b;\",\"&#x'e02c;\",\"&#x'e02d;\",\"&#x'e02e;\",\"&#x'e02f;\",\"&#x'e030;\",\"&#x'e031;\",\"&#x'e032;\",\"&#x'e033;\",\"&#x'e034;\",\"&#x'e035;\",\"&#x'e036;\",\"&#x'e037;\",\"&#x'e038;\",\"&#x'e039;\",\"&#x'e03a;\",\"&#x'e03b;\",\"&#x'e03c;\",\"&#x'e03d;\",\"&#x'e03e;\",\"&#x'e03f;\",\"&#x'e040;\",\"&#x'e041;\",\"&#x'e042;\",\"&#x'e043;\",\"&#x'e044;\",\"&#x'e045;\",\"&#x'e046;\",\"&#x'e047;\",\"&#x'e048;\",\"&#x'e049;\",\"&#x'e04a;\",\"&#x'e04b;\",\"&#x'e04c;\",\"&#x'e04d;\",\"&#x'e04e;\",\"&#x'e04f;\",\"&#x'e050;\",\"&#x'e051;\",\"&#x'e052;\",\"&#x'e053;\",\"&#x'e054;\",\"&#x'e055;\",\"&#x'e056;\",\"&#x'e057;\",\"&#x'e058;\",\"&#x'e059;\",\"&#x'e05a;\",\"&#x'e05b;\",\"&#x'e05c;\",\"&#x'e05d;\",\"&#x'e05e;\",\"&#x'e05f;\",\"&#x'e060;\",\"&#x'e061;\",\"&#x'e062;\",\"&#x'e063;\",\"&#x'e064;\",\"&#x'e065;\",\"&#x'e066;\",\"&#x'e067;\",\"&#x'e068;\",\"&#x'e069;\",\"&#x'e06a;\",\"&#x'e06b;\",\"&#x'e06c;\",\"&#x'e06d;\",\"&#x'e06e;\",\"&#x'e06f;\",\"&#x'e070;\",\"&#x'e071;\",\"&#x'e072;\",\"&#x'e073;\",\"&#x'e074;\",\"&#x'e075;\",\"&#x'e076;\",\"&#x'e077;\",\"&#x'e078;\",\"&#x'e079;\",\"&#x'e07a;\",\"&#x'e07b;\",\"&#x'e07c;\",\"&#x'e07d;\",\"&#x'e07e;\",\"&#x'e07f;\",\"&#x'e080;\",\"&#x'e081;\",\"&#x'e082;\",\"&#x'e083;\",\"&#x'e084;\",\"&#x'e085;\",\"&#x'e086;\",\"&#x'e087;\",\"&#x'e088;\",\"&#x'e089;\",\"&#x'e08a;\",\"&#x'e08b;\",\"&#x'e08c;\",\"&#x'e08d;\",\"&#x'e08e;\",\"&#x'e08f;\",\"&#x'e090;\",\"&#x'e091;\",\"&#x'e092;\",\"&#x'e093;\"];\n\n\nvar f2=\"出日入吹枪海南台独鸟喘品药绑咙喉情她脸后花心深滑摩进伸手坐狗爸妈母师婆公老男女处紧小顶牙喷短裙裤按国中涛锦胡民泽江平近习感性绕头吸吐吞婊最兴毒爽屁操淫腿动舒捅送欲屎黑摸奸龟勃扣唇奶水泄揉蛋亲穴尿大脱粗流软液伦乱要啊内嘴硬夹湿毛乳含肝舌阴逼鸡胸干搞骑体裸精射舔丝爱做交口吟呻潮高抽插党产共棒肉股给\";\n\n\nvar x=result.match(/&#x'[^;]+;/g);\n\n\nfor(i in x){\n\treg= new RegExp(x[i],'g');\n\tindex= f1.indexOf(x[i]);\n\tresult=result.replace(reg,f2[index])\n\t}\n\t\nresult.includes('章节内容转码失败！')?'请查看原网站是否出错=>'+result:result\n</js>"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "small@text",
+            "bookList": ".list-group a",
+            "bookUrl": "href",
+            "checkKeyWord": "三嫁咸鱼",
+            "name": "textNodes"
+        },
+        "ruleToc": {
+            "chapterList": ".panel-body.2@dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html?keyss={{key}}",
+        "weight": 0
+    }
+]

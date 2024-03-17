@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceName": "🌸 笔尖小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bjcan8.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "[{\"title\":\"༺ˇ»`ʚ男频ɞ´«ˇ༻\",\"url\":\"/all/id/4.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":1}},{\"title\":\"奇幻玄幻\",\"url\":\"/all/id/18.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"武侠仙侠\",\"url\":\"/all/id/19.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/all/id/20.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"都市娱乐\",\"url\":\"/all/id/21.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"科幻末日\",\"url\":\"/all/id/22.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"悬疑灵异\",\"url\":\"/all/id/23.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"游戏竞技\",\"url\":\"/all/id/34.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/all/id/35.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"༺ˇ»`ʚ女频ɞ´«ˇ༻\",\"url\":\"/all/id/8.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":1}},{\"title\":\"古装言情\",\"url\":\"/all/id/25.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/all/id/26.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"浪漫青春\",\"url\":\"/all/id/27.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"幻想言情\",\"url\":\"/all/id/28.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"科幻空间\",\"url\":\"/all/id/37.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"灵异悬疑\",\"url\":\"/all/id/38.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"同人衍生\",\"url\":\"/all/id/39.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"耽美百合\",\"url\":\"/all/id/40.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1674029214999,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": ".intro@textNodes##(^|[。！？]+[”」）】]?)(简介：)?##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##\\s\\d.*",
+            "lastChapter": "{{@@[property$=chapter_name]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]}} • {{@@[property$=update_time]@content##\\s.*}}",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": ".read-content@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": ".book-list@li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": "p.1@text##^\\s*简介.",
+            "kind": "span.1@text&&i@text##分类：",
+            "name": "h5@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".attentions.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.bjcan8.com/home/search/index.html?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

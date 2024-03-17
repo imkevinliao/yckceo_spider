@@ -1,0 +1,19 @@
+[
+    {
+        "bookSourceGroup": "81",
+        "bookSourceName": "版主003",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xdybz.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 0,
+        "ruleBookInfo": "{\n  \"coverUrl\": \"class.left@tag.img@src\",\n  \"kind\": \"\",\n  \"lastChapter\": \"class.words@tag.a.0@text\",\n  \"wordCount\": \"\"\n}",
+        "ruleContent": "{\n  \"content\": \"class.page-content font-large@html\"\n}",
+        "ruleExplore": "{}",
+        "ruleSearch": "{\n  \"author\": \"class.info@text.作者：@text\",\n  \"bookList\": \"class.column-2 \",\n  \"bookUrl\": \"class.name@href\",\n  \"intro\": \"\",\n  \"kind\": \"\",\n  \"lastChapter\": \"class.update@tag.a@text\",\n  \"name\": \"class.name@text\",\n  \"wordCount\": \"class.words@text.字数：@text\"\n}",
+        "ruleToc": "{\n  \"chapterList\": \"class.mod block update chapter-list@class.list@tag.li@tag.a\",\n  \"chapterName\": \"text\",\n  \"chapterUrl\": \"href\",\n  \"nextTocUrl\": \"class.nextPage@href\"\n}",
+        "searchUrl": "https://www.xdybz.com/wap.php?action=search&objectType=2&wd={{key}}",
+        "weight": 0
+    }
+]

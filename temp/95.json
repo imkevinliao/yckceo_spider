@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "正则表达式，搜索详情页链接目录，需要在数字前加xs/，",
+        "bookSourceGroup": "🍉自制",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biqugg.com🍉修复",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1663404489375,
+        "respondTime": 11543,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text",
+            "coverUrl": "img@src",
+            "intro": "id.intro@text",
+            "kind": "id.info@tag.p.2@text",
+            "lastChapter": "id.info@tag.p.3@text",
+            "name": "h1@text",
+            "tocUrl": "class.ulrow@tag.a.4@href"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.span.3@text",
+            "bookList": "class.novelslist2@li!0",
+            "bookUrl": "tag.a.0@href##(?=/[0-9]{1,6})##/xs",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd",
+            "chapterName": "dd@a@text",
+            "chapterUrl": "dd@a@href"
+        },
+        "searchUrl": "https://www.biqugg.com/modules/article/search.php?searchtype=keywords&searchkey={{key}}",
+        "weight": 0
+    }
+]

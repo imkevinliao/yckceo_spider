@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "蜡笔小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.labi123.com",
+        "bookUrlPattern": "https://www.labi123.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻小说\",\n\t\"url\":\"/xuanhuan/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠小说\",\n\t\"url\":\"/wuxia/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市小说\",\n\t\"url\":\"/dushi/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史小说\",\n\t\"url\":\"/lishi/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻小说\",\n\t\"url\":\"/kehuan/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游小说\",\n\t\"url\":\"/wangyou/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"女频小说\",\n\t\"url\":\"/nvpin/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/qita/<,list_{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1664011343687,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[class=\"intro\"]@html",
+            "kind": "[property=\"og:novel:update_time\"]@content&&\n[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": "[class=\"novel_info_title\"]@p.0@span.1@text##\\s"
+        },
+        "ruleContent": {
+            "content": "id.article@html"
+        },
+        "ruleExplore": {
+            "author": "class.fa@text",
+            "bookList": "class.flex@li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-src",
+            "intro": "class.indent@text",
+            "kind": "class.blue@text",
+            "name": "h2@text",
+            "wordCount": "class.orange@text##\\s"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.p.0@ownText",
+            "bookList": "class.searchresult",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-src",
+            "intro": "tag.p.1@text",
+            "kind": "tag.p.0@span@text##.*万字\\s",
+            "lastChapter": "tag.p.2@a@text",
+            "name": "h3@text",
+            "wordCount": "tag.p.0@span@text##\\s.*##万字"
+        },
+        "ruleToc": {
+            "chapterList": "id.ul_all_chapters@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.labi123.com/search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all&Submit=\",\n\t\"headers\": {'referer': 'https://www.labi123.com/'}\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉精",
+        "bookSourceName": "🎉 番茄（西红柿）小说（搜索为空，来个大佬）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.fqxsw.org",
+        "customOrder": -2085959857,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻::https://www.fqxsw.org/xiuzhen/",
+        "header": "",
+        "lastUpdateTime": 1675999620209,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "id.fimg@img@src",
+            "intro": "id.intro@text",
+            "lastChapter": "id.info@tag.p.2:3@text##全文阅读："
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##\\【.*换源App.*\\】"
+        },
+        "ruleExplore": {
+            "author": "class.s5@text",
+            "bookList": "class.l@ul@tag.li!0",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslist2@tag.ul@tag.li!0",
+            "bookUrl": "class.s2@a@href",
+            "kind": "class.s6@text",
+            "lastChapter": "class.s3@a@@text&&class.s6.0@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11:12:13:14@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.fqxsw.org/modules/article/search.php,{\n  \"body\": \"keyword={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\",\n  \"headers\": {\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36\"\n}",
+        "weight": 0
+    }
+]

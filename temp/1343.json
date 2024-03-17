@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceUrl": "http://612242.xyz",
+        "bookSourceType": "0",
+        "bookSourceName": "歪歪漫画",
+        "bookSourceGroup": "H漫",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "",
+        "exploreUrl": "总点击::/cb/1a.php?id=2&page={{page}}\n已完结::/cb/1a.php?id=1&page={{page}}\n连载中::/cb/1a.php?id=0&page={{page}}",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1679103274432,
+        "ruleSearch": [],
+        "ruleExplore": {
+            "bookList": ".list li",
+            "name": ".title@text",
+            "intro": ".des@text",
+            "coverUrl": ".left img@data-original@js:\"https://krv76.com\" + result",
+            "bookUrl": "a@href##&m.*"
+        },
+        "ruleBookInfo": [],
+        "ruleToc": {
+            "chapterList": ".list li",
+            "chapterName": ".content@text",
+            "chapterUrl": "a@href##&m.*",
+            "nextTocUrl": ".page@tag.a[!0,!-1,!-2]@href\n"
+        },
+        "ruleContent": {
+            "content": "<js>\nimglist = unescape(baseUrl).replace(/.*v=/g,\"\").split(',')\nurl='https://krv76.com';\nhtml='';\nfor(i in imglist){\nhtml +='<img src=\"'+url+imglist[i]+'\">\\n'\n}\nhtml\n</js>\n",
+            "imageStyle": "full"
+        }
+    }
+]

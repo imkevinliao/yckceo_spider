@@ -1,0 +1,17 @@
+[
+    {
+        "searchUrl": "https://weread.qq.com/web/search/search_suggest?keyword={{key}}&count=1000",
+        "lastUpdateTime": 1665328792677,
+        "ruleToc": [],
+        "ruleSearch": {
+            "checkKeyWord": "杜月笙",
+            "bookList": "$..records[*]",
+            "name": "$.word",
+            "author": "$.author",
+            "bookUrl": ""
+        },
+        "bookSourceUrl": "https://weread.qq.com",
+        "bookSourceType": 0,
+        "bookSourceName": "微信阅读"
+    }
+]

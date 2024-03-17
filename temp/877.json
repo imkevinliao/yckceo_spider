@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceUrl": "https://m.9kus.com",
+        "bookSourceType": "0",
+        "bookSourceName": "九库文学网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "꧁♚无聊的我♚꧂",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://m.9kus.com/Search/searchList?key={{key}}",
+        "exploreUrl": "[\n{'title':'🔥----------男-----频-----🚹-----专-----区----------🔥',\n'url':'',\n'style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n\n{'title':'最热榜',\n'url':'/Rank/rankList/order/hot_day/attr/1/book_status/1',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'完结榜',\n'url':'/Rank/rankList/order/hot_day/attr/1/book_status/2',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'潜力榜',\n'url':'/Rank/rankList/order/hot_week/attr/1',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'好评榜',\n'url':'/Rank/rankList/order/reommend_order/attr/1',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'VIP榜',\n'url':'/Rank/rankList/order/vip_month/attr/1',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'热搜榜',\n'url':'/Rank/rankList/order/collect_pv/attr/1',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'玄幻',\n'url':'/Rank/rankList/type_id/17',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'都市',\n'url':'/Rank/rankList/type_id/18',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'仙侠',\n'url':'/Rank/rankList/type_id/23',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'历史',\n'url':'/Rank/rankList/type_id/19',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'其他',\n'url':'/Rank/rankList/attr/1/type_id/22-24-25-60-62-64',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n\n\n{'title':'🌺----------女-----生-----🚺-----专-----区----------🌺',\n'url':'',\n'style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{'title':'最热榜',\n'url':'/Rank/rankList/order/hot_day/attr/2/book_status/1',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'完结榜',\n'url':'/Rank/rankList/order/hot_day/attr/2/book_status/2',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'潜力榜',\n'url':'/Rank/rankList/order/hot_week/attr/2',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'好评榜',\n'url':'/Rank/rankList/order/reommend_order/attr/2',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'VIP榜',\n'url':'/Rank/rankList/order/vip_month/attr/2',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'热搜榜',\n'url':'/Rank/rankList/order/collect_pv/attr/2',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'短言情',\n'url':'/Rank/rankList/attr/2/short_book/1',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'现代言情',\n'url':'/Rank/rankList/type_id/26-56',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'穿越架空',\n'url':'/Rank/rankList/type_id/37',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'古代言情',\n'url':'/Rank/rankList/type_id/28-57',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'鬼故事',\n'url':'/Rank/rankList/type_id/38',\n'style':{\"layout_flexBasisPercent\":0.29}}\n]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1636119927485,
+        "ruleSearch": {
+            "bookList": ".rowone.clearfix a",
+            "name": "h3@textNodes",
+            "author": "p.0@text",
+            "wordCount": ".fr@text",
+            "intro": ".twd@text",
+            "coverUrl": "img@src",
+            "bookUrl": "a.0@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "init": "@put:{\nn:\"h1@text\",\na:\"p.au@text\",\nk:\"meta[property~=category|status|update_time]@content\",\nw:\".info_right.fl  p.1@textNodes\",\nl:\"meta[property~=latest_chapter_name|lastest_chapter_name]@content\",\ni:\".intro .con_con@html\",\ni1:\".tags b@text\",\nc:\".myblur img@src\",\nu:\".catalog a@href\"\n}",
+            "name": "@get:{n}",
+            "author": "@get:{a}",
+            "kind": "@get:{k}##小说|中|已|...:.*|状态.|更新.",
+            "wordCount": "@get:{w}##(\\d+)##$1###",
+            "lastChapter": "@get:{l}##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+            "intro": "<br>🏷️：{{@get:{i1}##[\\r\\n]## }}<br>@get:{i}",
+            "coverUrl": "@get:{c}",
+            "tocUrl": "@get:{u}"
+        },
+        "ruleToc": {
+            "chapterList": ".container ul li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": ".con_tent.conts.content@html##"
+        }
+    }
+]

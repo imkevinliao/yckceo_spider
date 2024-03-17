@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "p18",
+        "bookSourceName": "飞言情小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.gofeiyanqing.com/",
+        "bookUrlPattern": "https?://www.gofeiyanqing.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/category/0/<,{{page}}.html>\n言情::/category/2/<,{{page}}.html>\n精品::/category/27/<,{{page}}.html>\n同人::/category/4/<,{{page}}.html>\n综合::/category/5/<,{{page}}.html>\n古代言情::/category/6/<,{{page}}.html>\n现代言情::/category/7/<,{{page}}.html>\n幻想言情::/category/8/<,{{page}}.html>\n古言::/category/9/<,{{page}}.html>\n现言::/category/10/<,{{page}}.html>\n辣文::/category/20/<,{{page}}.html>\n排行::/rank/<,{{page}}>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695997509467,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.章节目录@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}"
+        },
+        "ruleContent": {
+            "content": ".RBGsectionThree-content@html",
+            "nextContentUrl": "text.下ー@href##$##,{'webView': true}"
+        },
+        "ruleExplore": {
+            "author": "a.-1@text",
+            "bookList": ".CGsectionTwo-right-content-unit",
+            "bookUrl": "a.0@href",
+            "intro": "p.-2@text",
+            "kind": "p.-1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".SHsectionThree-middle p",
+            "bookUrl": "a.1@href",
+            "kind": "a.0@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ol li a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.gofeiyanqing.com/search/{{key}}",
+        "weight": 0
+    }
+]

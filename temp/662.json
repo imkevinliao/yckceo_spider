@@ -1,0 +1,36 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⚡️经典",
+        "bookSourceName": "90中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.90zhongwen.com/",
+        "customOrder": -292895,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::https://www.90zhongwen.com/sort/1/{{page}}/\n武侠修真::https://www.90zhongwen.com/sort/2/{{page}}/\n都市言情::https://www.90zhongwen.com/sort/3/{{page}}/\n历史军事::https://www.90zhongwen.com/sort/4/{{page}}/\n科幻灵异::https://www.90zhongwen.com/sort/5/{{page}}/\n游戏竞技::https://www.90zhongwen.com/sort/6/{{page}}/\n言情女生::https://www.90zhongwen.com/sort/7/{{page}}/\n同人小说::https://www.90zhongwen.com/sort/8/{{page}}/",
+        "lastUpdateTime": 1644458758262,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "class.read-content@text"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span.2@text",
+            "bookList": "#sitebox dl",
+            "bookUrl": "tag.a@href",
+            "intro": "class.book_des@text",
+            "kind": "tag.span.3@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chaw_c@tag.li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.90zhongwen.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceGroup": "🌠 漫画",
+        "bookSourceName": "🌠 漫神",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://m.mhkami.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/mangalists/9/全部/3/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"长条\",\"url\":\"/mangalists/9/长条/3/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"大女主\",\"url\":\"/mangalists/9/大女主/3/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"百合\",\"url\":\"/mangalists/9/百合/3/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"耽美\",\"url\":\"/mangalists/9/耽美/3/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"纯爱\",\"url\":\"/mangalists/9/纯爱/3/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"後宫\",\"url\":\"/mangalists/9/後宫/3/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36\",\n\t\"Referer\": \"https://m.mhkami.com/\"\n}",
+        "lastUpdateTime": 1699291007137,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "#detail > div > div.book-name > div > ul.types > li:nth-child(3) > a@text&&\n#detail > div > div.book-name > div > ul.types > li:nth-child(4) > a@text"
+        },
+        "ruleContent": {
+            "content": "#imgsec@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "#js_comicSortList > li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "name": "a > p@text"
+        },
+        "ruleToc": {
+            "chapterList": "#js_chapters > li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}\nhttps://m.mhkami.com/search?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "《精选书源》",
+        "bookSourceName": "石头阅读™备用",
+        "bookSourceUrl": "https://www.jiaodafu.net",
+        "enable": true,
+        "httpUserAgent": "{\n  \"User-Agent\": \"Chrome/73.0.3683.90 Mobile\"\n}",
+        "ruleBookAuthor": "@css:meta[name=description]@contect#.*由(作家)?(\\S+)创作.*#$2",
+        "ruleBookContent": "class.read@tag.p@text",
+        "ruleBookName": "tag.title@text##\\s\\[.*|-.*",
+        "ruleChapterList": "class.top_ul@tag.li@tag.a",
+        "ruleChapterName": "tag.a@text##\\[\\d*]",
+        "ruleChapterUrl": "class.tc@tag.a@href||class.tc@tag.mip-link@href",
+        "ruleChapterUrlNext": "class.list@href",
+        "ruleContentUrl": "tag.a@href",
+        "ruleIntroduce": "class.con_intro@tag.p.1@text||class.con_intro@tag.p.1@html",
+        "ruleSearchAuthor": "tag.i@text",
+        "ruleSearchCoverUrl": "tag.img@src",
+        "ruleSearchKind": "tag.span@text",
+        "ruleSearchList": "class.search_ul@tag.li",
+        "ruleSearchName": "tag.h4@text",
+        "ruleSearchNoteUrl": "tag.a@href##html##html?sourceid=195",
+        "ruleSearchUrl": "https://www.jiaodafu.net/index/search?kw=searchKey",
+        "serialNumber": 3,
+        "weight": 0
+    }
+]

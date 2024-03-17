@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "txt之梦",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.11dream.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "",
+        "lastUpdateTime": 1623205341542,
+        "loginUrl": "https://www.11dream.net",
+        "ruleBookInfo": {
+            "coverUrl": "class.J_attImg@img@src",
+            "intro": "id.read_tpc@textNodes",
+            "lastChapter": "",
+            "tocUrl": "{{//*[text()=\"在线试读\"]/../@href##(?<=\\s)yd.*?/}},{\n\"headers\": {\"cookie\": '6db03_winduser={{java.getCookie(\"https://www.11dream.net\",\"6db03_winduser\")!=\"\"?java.getCookie(\"https://www.11dream.net\",\"6db03_winduser\"):\"A1hRAlYGDDxYA1AFVVECBQMDAFlVBVsFCABaWwFVAFAAUAIGB1dWAWo\"}}'}\n}",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.Contents@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "##作者：(.*)##$1###\n<js>result.replace(/（.*/,'')</js>\ntext",
+            "bookList": "class.tr3 tac",
+            "bookUrl": "tag.a.0@href",
+            "intro": "class.smalltxt.-1@tag.a.0@text",
+            "kind": "class.y-style.2@text",
+            "lastChapter": "",
+            "name": "tag.a.0@text##《(.*?)》##$1###"
+        },
+        "ruleToc": {
+            "chapterList": "class.pages@a||table@a\n<js>\nccc=java.getCookie(\"https://www.11dream.net\",\"6db03_winduser\")!=\"\"?java.getCookie(\"https://www.11dream.net\",\"6db03_winduser\"):\"A1hRAlYGDDxYA1AFVVECBQMDAFlVBVsFCABaWwFVAFAAUAIGB1dWAWo\";\n\nfunction ddd(h){\ndd=[];\ntotal=String(h).match(/total=(\\d+)/)[1];\nid=String(h).match(/setCookie\\('pathid_(\\d+)/)[1];\nfor(j=1;j<=total;j++){\ndd.push(\" <a title='第\"+j+\"页'  href='https://www.11dream.net/yd\"+id+\"_\"+j+\"/'>\"+j+\"</a> \")\n}\nreturn dd\n}\n\nlen=java.getElements('//select[@name=\"pathid\"]/option');\nhtml=\"\";\nurl=[];\n\n\nif(len.length>1){\nfor(i in len){\ncookie='pathid_'+baseUrl.match(/yd.*?(\\d+)\\//)[1]+\"=\"+i+\";6db03_winduser=\"+ccc\n\nheader={\n'cookie':String(cookie)\n}\n\n\ntext=String(len[i]).match(/>([^<]+)</)[1];\ntext=\"<a href='\"+i+\"'>📖 \"+text+' 📖</a>';\n\nheaders={'headers':JSON.stringify(header)}\nh=java.ajax(baseUrl.replace(/,[\\s\\S]+/,'')+\"?pathid_\"+i+\",\"+JSON.stringify(headers));\njava.setContent(String(h));\nll=java.getElements(\"@@table@a\").toArray();\n\nif(!ll.join(\"\").match(/<a/)){\nll=ddd(String(h))\n}\n\nbb=ll.map(x=>String(x).replace(/_(\\d+)\\//,'_$1/?pathid='+i));\nhtml+=text+bb.join(\"\\n\")\n\n}\nresult=html\n\n}else{result=String(result);if(!result){result=ddd(src).join(\"\")}else{result=result}}\n\n\n</js>\na",
+            "chapterName": "text",
+            "chapterUrl": "href\n@js:\nccc=java.getCookie(\"https://www.11dream.net\",\"6db03_winduser\")!=\"\"?java.getCookie(\"https://www.11dream.net\",\"6db03_winduser\"):\"A1hRAlYGDDxYA1AFVVECBQMDAFlVBVsFCABaWwFVAFAAUAIGB1dWAWo\";\nif(result.match(/pathid/)){\ncookie='pathid_'+baseUrl.match(/yd.*?(\\d+)\\//)[1]+\"=\"+result.match(/pathid=(\\d+)/)[1]+\";6db03_winduser=\"+ccc\n}else{cookie=\"6db03_winduser=\"+ccc}\nheader={\n\"cookie\":String(cookie)\n}\nheaders={\"headers\":JSON.stringify(header)}\nresult=result+\",\"+JSON.stringify(headers)",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.11dream.net/searcher.php?step=2&keyword={{key}}&ifmysql=&type=thread,{\n\"charset\":\"gbk\",\n\"headers\": {\"cookie\": '6db03_winduser={{java.getCookie(\"https://www.11dream.net\",\"6db03_winduser\")!=\"\"?java.getCookie(\"https://www.11dream.net\",\"6db03_winduser\"):\"A1hRAlYGDDxYA1AFVVECBQMDAFlVBVsFCABaWwFVAFAAUAIGB1dWAWo\"}}'}\n}",
+        "weight": 0
+    }
+]

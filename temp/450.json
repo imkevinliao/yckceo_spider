@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceUrl": "https://www.twbook.cc",
+        "bookSourceType": "0",
+        "bookSourceName": "石頭小說/石头小说",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/search/{{key}}",
+        "exploreUrl": "分類：：全部小說::https://www.twbook.cc/bookstack/\n言情::https://www.twbook.cc/bookstack/?cid=1\n歷史::https://www.twbook.cc/bookstack/?cid=2\n其他::https://www.twbook.cc/bookstack/?cid=3\n都市::https://www.twbook.cc/bookstack/?cid=4\n玄幻::https://www.twbook.cc/bookstack/?cid=5\n體育::https://www.twbook.cc/bookstack/?cid=6\n武俠::https://www.twbook.cc/bookstack/?cid=7\n穿越::https://www.twbook.cc/bookstack/?cid=8\n網遊::https://www.twbook.cc/bookstack/?cid=9\n科幻::https://www.twbook.cc/bookstack/?cid=10\n仙俠::https://www.twbook.cc/bookstack/?cid=11\n劇情::https://www.twbook.cc/bookstack/?cid=12\n校園::https://www.twbook.cc/bookstack/?cid=13\n詩文::https://www.twbook.cc/bookstack/?cid=14\n靈異::https://www.twbook.cc/bookstack/?cid=15\n職場::https://www.twbook.cc/bookstack/?cid=16\n偵探::https://www.twbook.cc/bookstack/?cid=17\n軍事::https://www.twbook.cc/bookstack/?cid=18\n懸疑::https://www.twbook.cc/bookstack/?cid=19\n    ::https://www.twbook.cc/bookstack/?cid=20\n耽美::https://www.twbook.cc/bookstack/?cid=21\n名著::https://www.twbook.cc/bookstack/?cid=22\n    ::https://www.twbook.cc/bookstack/?cid=23\n輕小說::https://www.twbook.cc/bookstack/?cid=24\n遊戲::https://www.twbook.cc/bookstack/?cid=25\n奇幻::https://www.twbook.cc/bookstack/?cid=26\n現實::https://www.twbook.cc/bookstack/?cid=27\n短篇::https://www.twbook.cc/bookstack/?cid=28\n其他::https://www.twbook.cc/bookstack/?cid=29\n都市小說::https://www.twbook.cc/bookstack/?cid=30\n歷史小說::https://www.twbook.cc/bookstack/?cid=31\n玄幻小說::https://www.twbook.cc/bookstack/?cid=32\n科幻小說::https://www.twbook.cc/bookstack/?cid=33\n修真::https://www.twbook.cc/bookstack/?cid=34\n都市言情::https://www.twbook.cc/bookstack/?cid=35\n玄幻奇幻::https://www.twbook.cc/bookstack/?cid=36\n武俠仙俠::https://www.twbook.cc/bookstack/?cid=37\n歷史軍事::https://www.twbook.cc/bookstack/?cid=38\n科幻靈異::https://www.twbook.cc/bookstack/?cid=39\n網遊競技::https://www.twbook.cc/bookstack/?cid=40\n女頻頻道::https://www.twbook.cc/bookstack/?cid=41\n女頻::https://www.twbook.cc/bookstack/?cid=42\n同人::https://www.twbook.cc/bookstack/?cid=43\n鍘嗗::https://www.twbook.cc/bookstack/?cid=44\n   ::https://www.twbook.cc/bookstack/?cid=45\n   ::https://www.twbook.cc/bookstack/?cid=46\n娣囶::https://www.twbook.cc/bookstack/?cid=47\n淇灝::https://www.twbook.cc/bookstack/?cid=48\n淇鐪::https://www.twbook.cc/bookstack/?cid=49\n官場::https://www.twbook.cc/bookstack/?cid=50\n未分::https://www.twbook.cc/bookstack/?cid=51\n排行榜：：都市排行榜::https://www.twbook.cc/book/ranking.html?cid=4\n輕小說排行榜::https://www.twbook.cc/book/ranking.html?cid=24\n玄幻排行榜::https://www.twbook.cc/book/ranking.html?cid=5\n科幻排行榜::https://www.twbook.cc/book/ranking.html?cid=10\n歷史排行榜::https://www.twbook.cc/book/ranking.html?cid=2\n仙俠排行榜::https://www.twbook.cc/book/ranking.html?cid=11\n遊戲排行榜::https://www.twbook.cc/book/ranking.html?cid=25\n懸疑排行榜::https://www.twbook.cc/book/ranking.html?cid=19\n奇幻排行榜::https://www.twbook.cc/book/ranking.html?cid=26\n體育排行榜::https://www.twbook.cc/book/ranking.html?cid=6\n武俠排行榜::https://www.twbook.cc/book/ranking.html?cid=7\n現實排行榜::https://www.twbook.cc/book/ranking.html?cid=27",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1649599727271,
+        "ruleSearch": {
+            "bookList": "tag.ul@tag.li",
+            "name": "class.bookname@text",
+            "author": "tag.p.0@textNodes",
+            "kind": "tag.p.0@tag.a@text",
+            "lastChapter": "class.chapter@text",
+            "intro": "class.intro@text",
+            "coverUrl": "class.bookimg@tag.img@src",
+            "bookUrl": "class.bookname@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.library layui-row@tag.li||class.on",
+            "name": "tag.a.1@text",
+            "author": "tag.p.1@tag.a.0",
+            "kind": "tag.p.1@tag.a.1",
+            "lastChapter": "class.chapter@text",
+            "intro": "class.intro@text",
+            "coverUrl": "tag.a.0@tag.img@src",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleBookInfo": {
+            "name": "class.detail@tag.h1@text",
+            "author": "class.detail@tag.p.0@tag.a.0@text",
+            "kind": "class.detail@tag.p.0@tag.a.1@text",
+            "lastChapter": "class.list@tag.dd.0@text",
+            "intro": "class.intro@text",
+            "coverUrl": "class.bookimg@tag.img@src",
+            "tocUrl": "class.more@tag.a@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@tag.dl.1@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "id.text-content@html"
+        }
+    }
+]

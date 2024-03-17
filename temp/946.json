@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "水西安&🍉修复\n源by 十一",
+        "bookSourceGroup": "AA阅读",
+        "bookSourceName": "AA阅读aaread",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://aaread.space",
+        "customOrder": 1198,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1666009802105,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 2492,
+        "ruleBookInfo": {
+            "coverUrl": "class.imgbox@img@src",
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "id.next_url@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s1@text",
+            "bookList": "class.txt-list@li!0",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@text&&class.s4@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/search/,{\"charset\":\"UTF-8\",\"method\":\"post\",\"body\":\"searchkey={{key}}\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\",\"Referer\":\"https://aaread.space\"},\"webView\":true}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceUrl": "https://novelonlinefull.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "Novel Online Full",
+        "bookSourceGroup": "英文小说🧸",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "<js>\nif(key.indexOf(\" \")!=-1){key=key.split(\" \").join(\"_\")}\n\"\\/search_novels\\/\"+key+\"?page={{page}}\"</js>",
+        "exploreUrl": "All::https://novelonlinefull.com/novel_list?type=latest&category=1&state=all&page={{page}}\nAction::https://novelonlinefull.com/novel_list?type=latest&category=1&state=all&page={{page}}\nAdventure::https://novelonlinefull.com/novel_list?type=latest&category=2&state=all&page={{page}}\nAnimals::https://novelonlinefull.com/novel_list?type=latest&category=65&state=all&page={{page}}\nArts::https://novelonlinefull.com/novel_list?type=latest&category=40&state=all&page={{page}}\nBiographies::https://novelonlinefull.com/novel_list?type=latest&category=41&state=all&page={{page}}\nBusiness::https://novelonlinefull.com/novel_list?type=latest&category=42&state=all&page={{page}}\nChinese::https://novelonlinefull.com/novel_list?type=latest&category=3&state=all&page={{page}}\nComedy::https://novelonlinefull.com/novel_list?type=latest&category=4&state=all&page={{page}}\nComputers::https://novelonlinefull.com/novel_list?type=latest&category=43&state=all&page={{page}}\nCrafts, Hobbies::https://novelonlinefull.com/novel_list?type=latest&category=45&state=all&page={{page}}\nDrama::https://novelonlinefull.com/novel_list?type=latest&category=5&state=all&page={{page}}\nEducation::https://novelonlinefull.com/novel_list?type=latest&category=46&state=all&page={{page}}\nEnglish::https://novelonlinefull.com/novel_list?type=latest&category=6&state=all&page={{page}}\nEntertainment::https://novelonlinefull.com/novel_list?type=latest&category=47&state=all&page={{page}}\nFantasy::https://novelonlinefull.com/novel_list?type=latest&category=7&state=all&page={{page}}\nFiction::https://novelonlinefull.com/novel_list?type=latest&category=48&state=all&page={{page}}\nGender Bender::https://novelonlinefull.com/novel_list?type=latest&category=8&state=all&page={{page}}\nHarem::https://novelonlinefull.com/novel_list?type=latest&category=9&state=all&page={{page}}\nHistorical::https://novelonlinefull.com/novel_list?type=latest&category=10&state=all&page={{page}}\nHistory::https://novelonlinefull.com/novel_list?type=latest&category=49&state=all&page={{page}}\nHome::https://novelonlinefull.com/novel_list?type=latest&category=50&state=all&page={{page}}\nHorror:https://novelonlinefull.com/novel_list?type=latest&category=11&state=all&page={{page}}\nHumor::https://novelonlinefull.com/novel_list?type=latest&category=51&state=all&page={{page}}\nInvesting::https://novelonlinefull.com/novel_list?type=latest&category=52&state=all&page={{page}}\nJosei::https://novelonlinefull.com/novel_list?type=latest&category=12&state=all&page={{page}}\nKorean::https://novelonlinefull.com/novel_list?type=latest&category=13&state=all&page={{page}}\nLiterature::https://novelonlinefull.com/novel_list?type=latest&category=53&state=all&page={{page}}\nLolicon::https://novelonlinefull.com/novel_list?type=latest&category=14&state=all&page={{page}}\nMartial Arts::https://novelonlinefull.com/novel_list?type=latest&category=15&state=all&page={{page}}\nMature::https://novelonlinefull.com/novel_list?type=latest&category=16&state=all&page={{page}}\nMecha::https://novelonlinefull.com/novel_list?type=latest&category=17&state=all&page={{page}}\nMemoirs::https://novelonlinefull.com/novel_list?type=latest&category=54&state=all&page={{page}}\nMystery::https://novelonlinefull.com/novel_list?type=latest&category=18&state=all&page={{page}}\nOriginal::https://novelonlinefull.com/novel_list?type=latest&category=19&state=all&page={{page}}\nOther Books::https://novelonlinefull.com/novel_list?type=latest&category=66&state=all&page={{page}}\nPhilosophy::https://novelonlinefull.com/novel_list?type=latest&category=55&state=all&page={{page}}\nPhotography::https://novelonlinefull.com/novel_list?type=latest&category=56&state=all&page={{page}}\nPolitics::https://novelonlinefull.com/novel_list?type=latest&category=57&state=all&page={{page}}\nProfessional::https://novelonlinefull.com/novel_list?type=latest&category=58&state=all&page={{page}}\nPsychological::https://novelonlinefull.com/novel_list?type=latest&category=20&state=all&page={{page}}\nReference::https://novelonlinefull.com/novel_list?type=latest&category=59&state=all&page={{page}}\nReincarnation::https://novelonlinefull.com/novel_list?type=latest&category=21&state=all&page={{page}}\nReligion::https://novelonlinefull.com/novel_list?type=latest&category=60&state=all&page={{page}}\nRomance::https://novelonlinefull.com/novel_list?type=latest&category=22&state=all&page={{page}}\nSchool Life::https://novelonlinefull.com/novel_list?type=latest&category=23&state=all&page={{page}}\nSchool Stories::https://novelonlinefull.com/novel_list?type=latest&category=67&state=all&page={{page}}\nSci-Fi::https://novelonlinefull.com/novel_list?type=latest&category=24&state=all&page={{page}}\nSeinen::https://novelonlinefull.com/novel_list?type=latest&category=25&state=all&page={{page}}\nShort Stories::https://novelonlinefull.com/novel_list?type=latest&category=68&state=all&page={{page}}\nShotacon::https://novelonlinefull.com/novel_list?type=latest&category=26&state=all&page={{page}}\nShoujo::https://novelonlinefull.com/novel_list?type=latest&category=27&state=all&page={{page}}\nShoujo Ai::https://novelonlinefull.com/novel_list?type=latest&category=28&state=all&page={{page}}\nShounen::https://novelonlinefull.com/novel_list?type=latest&category=29&state=all&page={{page}}\nShounen Ai::https://novelonlinefull.com/novel_list?type=latest&category=30&state=all&page={{page}}\nSlice Of Life::https://novelonlinefull.com/novel_list?type=latest&category=31&state=all&page={{page}}\nSmut::https://novelonlinefull.com/novel_list?type=latest&category=32&state=all&page={{page}}\nSocial Science::https://novelonlinefull.com/novel_list?type=latest&category=61&state=all&page={{page}}\nSpirituality::https://novelonlinefull.com/novel_list?type=latest&category=62&state=all&page={{page}}\nSports::https://novelonlinefull.com/novel_list?type=latest&category=33&state=all&page={{page}}\nSupernatural::https://novelonlinefull.com/novel_list?type=latest&category=34&state=all&page={{page}}\nTeaser::https://novelonlinefull.com/novel_list?type=latest&category=69&state=all&page={{page}}\nTechnical::https://novelonlinefull.com/novel_list?type=latest&category=63&state=all&page={{page}}\nTechnology::https://novelonlinefull.com/novel_list?type=latest&category=64&state=all&page={{page}}\nTragedy::https://novelonlinefull.com/novel_list?type=latest&category=35&state=all&page={{page}}\nVirtual Reality::https://novelonlinefull.com/novel_list?type=latest&category=36&state=all&page={{page}}\nWuxia::https://novelonlinefull.com/novel_list?type=latest&category=37&state=all&page={{page}}\nXianxia::https://novelonlinefull.com/novel_list?type=latest&category=38&state=all&page={{page}}\nXuanhuan::https://novelonlinefull.com/novel_list?type=latest&category=39&state=all&page={{page}}",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1639490623526,
+        "ruleSearch": {
+            "bookList": "class.update_item list_category",
+            "name": "class.update_item_right@h3@a@text",
+            "author": "class.update_item_right@span.0@text##Author\\(s\\) : ",
+            "lastChapter": "class.update_item_right@a@text",
+            "coverUrl": "a@img@src",
+            "bookUrl": "class.update_item_right@h3@a@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.update_item list_category",
+            "name": "class.update_item_right@h3@a@text",
+            "author": "class.update_item_right@span.0@text##Author\\(s\\) : ",
+            "lastChapter": "class.update_item_right@a@text",
+            "coverUrl": "a@img@src",
+            "bookUrl": "class.update_item_right@h3@a@href"
+        },
+        "ruleBookInfo": {
+            "name": "class.truyen_if_wrap@ul.1@li.0@text",
+            "author": "class.truyen_if_wrap@ul.1@li.1@a@text",
+            "kind": "class.truyen_if_wrap@ul.1@li.2@a@text",
+            "coverUrl": "class.info_image@img@src"
+        },
+        "ruleToc": {
+            "chapterList": "-class.row@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "class.vung_doc@html"
+        }
+    }
+]

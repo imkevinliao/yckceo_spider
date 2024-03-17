@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️新51看图书☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.51nm.cc#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1643973917917,
+        "ruleBookInfo": {
+            "author": "class.book-meta a@tag.a.-1@text",
+            "coverUrl": "class.book-layout.0@tag.img@src",
+            "intro": "class.book-summary@text",
+            "kind": "class.book-meta a@tag.a.0@text",
+            "lastChapter": "",
+            "name": "class.book-title.0@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.bodybox@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.book-author@text",
+            "bookList": "class.book-li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.book-desc@html",
+            "kind": "class.tag-small-group origin-right@text",
+            "name": "tag.h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.novel-text-list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.51nm.cc/so/{{key}}.html",
+        "weight": 0
+    }
+]

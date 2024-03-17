@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "中间门小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.mesdoor.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/category/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"奇幻\",\"url\":\"/category/qihuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"武侠\",\"url\":\"/category/wuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"仙侠\",\"url\":\"/category/xianxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"都市\",\"url\":\"/category/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"历史\",\"url\":\"/category/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"军事\",\"url\":\"/category/junshi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"游戏\",\"url\":\"/category/youxi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"竞技\",\"url\":\"/category/jingji/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"科幻\",\"url\":\"/category/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"灵异\",\"url\":\"/category/lingyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"其它\",\"url\":\"/category/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "lastUpdateTime": 1682335124212,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".size12.1@a@text",
+            "coverUrl": ".pt-bookdetail@img@src",
+            "intro": ".pt-book-intro@text",
+            "kind": ".size12.2@a@text",
+            "lastChapter": ".pt-chapter@tag.a.0@text",
+            "name": "h1@text",
+            "tocUrl": ".pt-chapter@tag.a.3@href"
+        },
+        "ruleContent": {
+            "content": "id.pt-pop@p!0@html"
+        },
+        "ruleExplore": {
+            "author": ".size12@a@text",
+            "bookList": ".pt-popular-item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".mt10@text",
+            "kind": ".color4.1@text",
+            "name": ".size14@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".size12@a@title",
+            "bookList": ".pt-recomment-cont",
+            "bookUrl": ".size14.0@a@href",
+            "coverUrl": "img@src",
+            "intro": ".size12.1@text",
+            "kind": ".pt-recomment-label@text",
+            "name": ".size14.0@a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".pl30@a.0",
+            "chapterName": "text##0金币",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/result.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

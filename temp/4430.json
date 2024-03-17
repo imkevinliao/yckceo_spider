@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "同人2",
+        "bookSourceName": "全本同人小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://qbtr.me",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": -2085979150,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "同人小说::https://qbtr.me/tongren/<,index_{{page}}.html>\n常规小说::https://qbtr.me/changgui/<,index_{{page}}.html>",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+        "lastUpdateTime": 1699682932313,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 185065,
+        "ruleBookInfo": {
+            "author": ".date span@text##作者：",
+            "intro": "p@text",
+            "kind": "div.date@textNodes##日期：",
+            "name": "h1@text",
+            "tocUrl": ".clearfix@li@tag.a"
+        },
+        "ruleContent": {
+            "content": ".read_chapterDetail p@all"
+        },
+        "ruleExplore": {
+            "author": "class.booknews@textNodes",
+            "bookList": ".bk",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "class.date@text",
+            "lastChapter": "",
+            "name": "h3@textNodes",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "div.booknews@textNodes",
+            "bookList": "div.bk",
+            "bookUrl": "h3 a@href",
+            "intro": "p@all##简介：",
+            "kind": "label@text",
+            "name": "h3 a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".clearfix@li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+        "weight": 0
+    }
+]

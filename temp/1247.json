@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "musa自制",
+        "bookSourceName": "自制第一版主",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.banzhu1.org/",
+        "customOrder": -134344,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最近更新::/top/lastupdate_1/",
+        "lastUpdateTime": 1624258584795,
+        "ruleBookInfo": {
+            "author": "class.p1@text",
+            "coverUrl": "class.tu@tag.img@src",
+            "init": "class.info_chapters",
+            "intro": "class.p2@text",
+            "lastChapter": "class.p3@text",
+            "name": "tag.h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@html",
+            "nextContentUrl": "class.p4@href"
+        },
+        "ruleExplore": {
+            "author": "class.p3@text",
+            "bookList": "class.content_link",
+            "bookUrl": "class.p2@href",
+            "kind": "class.p1@text",
+            "name": "class.p2@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.search_box@tag.p@class.search_list",
+            "bookUrl": "tag.a.0@href",
+            "kind": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.p2@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.banzhu1.org/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

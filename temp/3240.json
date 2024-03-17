@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "原网址https://m.jhssd.com",
+        "bookSourceGroup": "⭐常用",
+        "bookSourceName": "⭐精华书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xbyuan.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/list/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真\",\"url\":\"/list/2_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/list/3_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越\",\"url\":\"/list/4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/list/5_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/list/6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异\",\"url\":\"/list/7_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生\",\"url\":\"/list/8_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/list/9_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完本\",\"url\":\"/wanben_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日点击榜\",\"url\":\"/Ranking_dayvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周点击榜\",\"url\":\"/Ranking_weekvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月点击榜\",\"url\":\"/Ranking_monthvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总点击榜\",\"url\":\"/Ranking_allvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周推荐榜\",\"url\":\"/Ranking_weekvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月推荐榜\",\"url\":\"/Ranking_monthvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总推荐榜\",\"url\":\"/Ranking_allvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"收藏推荐\",\"url\":\"/Ranking_goodnum/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"字数排行\",\"url\":\"/Ranking_size/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最新入库\",\"url\":\"/Ranking_postdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最新更新\",\"url\":\"/Ranking_lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"新书榜单\",\"url\":\"/Ranking_goodnew/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "",
+        "lastUpdateTime": 1681969261025,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=og:novel:author]@content",
+            "coverUrl": "[property=og:image]@content",
+            "intro": "[property=og:description]@content",
+            "kind": "[property~=(category|status|update_time)]@content",
+            "lastChapter": "[property=og:novel:latest_chapter_name]@content",
+            "name": "[property=og:title]@content",
+            "tocUrl": "@js:baseUrl.replace('m.','www.')"
+        },
+        "ruleContent": {
+            "content": "id.nr_content@html##.*xbyuan.*|\\(本章未完.*",
+            "imageStyle": "",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*为您提供大神.*最快更新.为了您下次.*\\s*|.*到新笔趣阁进行查看\\s*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "class.xsm.0@textNodes##\\(|\\)",
+            "bookList": "#list@ul||#full@ul||#Ranking@ul",
+            "bookUrl": "class.tjimg@a@href",
+            "coverUrl": "class.tjimg@img@src",
+            "intro": "tag.span.1@text",
+            "kind": "class.tjrs@text",
+            "lastChapter": "class.xsm.-1@a@text",
+            "name": "class.xsm.0@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.searchbook",
+            "bookUrl": "class.bookimg@tag.a@href",
+            "checkKeyWord": "马甲",
+            "coverUrl": "class.bookimg@tag.img@src",
+            "kind": "class.cat@text##.*：",
+            "lastChapter": "class.update@a@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl.1@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://m.xbyuan.com/search.html?ie=utf-8&word={{key}}",
+        "weight": 0
+    }
+]

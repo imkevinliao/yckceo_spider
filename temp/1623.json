@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "",
+        "bookSourceName": "沙滩小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.shatanxs.com/",
+        "customOrder": -2085957917,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1668099218302,
+        "respondTime": 2040,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@textNodes##各位书友.*|》还不错的话.*|.*敬请登陆：.|上传者书籍.*|.*简介：",
+            "kind": "class.con_top@tag.a.1@text",
+            "lastChapter": "class.book-intro@tag.a@text",
+            "name": "",
+            "tocUrl": "class.tgcj@href"
+        },
+        "ruleContent": {
+            "content": "class.content_read@id.content@html",
+            "nextContentUrl": "class.bottem2@tag.a.2@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "id.content@id.nr",
+            "bookUrl": "class.odd.0@tag.a@href",
+            "lastChapter": "class.even.0@tag.a@text",
+            "name": "class.odd.0@tag.a@text",
+            "wordCount": "class.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.shatanxs.com/modules/article/search.php, {\"charset\":\"gbk\",\n\"body\":\"s={{key}}&type=articlename\",\n\"method\":\"POST\"}",
+        "weight": 0
+    }
+]

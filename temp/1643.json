@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "",
+        "bookSourceName": "31小说网31xiaoshuo.org",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.31xiaoshuo.org",
+        "bookUrlPattern": "",
+        "customOrder": -2085958265,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::http://www.31xiaoshuo.org/list/1/\n奇幻::/list/10/\n修真::/list/2/\n武侠::/list/11/\n都市::/list/3/\n历史::/list/4/\n军事::/list/8/\n网游::/list/6/\n竞技::/list/12/\n科幻::/list/7/\n灵异::/list/9/\n职场::/list/5/",
+        "lastUpdateTime": 1668227392832,
+        "loginUrl": "",
+        "respondTime": 2022,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作 者：",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@text",
+            "kind": "",
+            "lastChapter": "id.info@tag.p.3@tag.a@text",
+            "name": "id.info@tag.h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p@html"
+        },
+        "ruleExplore": {
+            "author": "class.odd.1@text",
+            "bookList": "id.content@tag.tr!0",
+            "bookUrl": "class.odd.0@tag.a@href",
+            "coverUrl": "class.odd.0@tag.a@href##.*\\/(\\d+)\\/(\\d+)\\D*##https://img31xs.cdn.bcebos.com/img/$1/$2/$2s.jpg###",
+            "lastChapter": "class.even@text",
+            "name": "class.odd.0@text",
+            "wordCount": "class.center@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.3@text",
+            "bookList": "id.bookcase_list@tag.tr",
+            "bookUrl": "tag.td.1@tag.a@href",
+            "coverUrl": "tag.td.1@tag.a@href##.+\\/(\\d+)\\/(\\d+)\\D*##https://img31xs.cdn.bcebos.com/img/$1/$2/$2s.jpg###",
+            "intro": "",
+            "kind": "tag.td.0@text",
+            "lastChapter": "tag.td.2@tag.a@text",
+            "name": "tag.td.1@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.31xiaoshuo.org/search.php?keyword={{key}}&json=1",
+        "weight": 0
+    }
+]

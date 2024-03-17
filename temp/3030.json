@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌸  常用",
+        "bookSourceName": "🌸大河小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.dahexs.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1600694185266,
+        "ruleBookInfo": {
+            "author": "class.p1.0@text##作者：",
+            "intro": "",
+            "kind": "class.tab1@tag.p@text",
+            "lastChapter": "class.p3@a@text",
+            "name": "class.catalog1@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@html##,,大家记得收藏.*|催更更新最快，请记住收藏网址:.*",
+            "imageStyle": "0",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*.*?章有分页.*\\s*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.-1@text",
+            "bookList": "class.search_list.0&&class.search_list.1&&class.search_list.2&&class.search_list.3&&class.search_list.4",
+            "bookUrl": "tag.a.0@href",
+            "lastChapter": "tag.a.0@href<js>java.ajax('https://m.dahexs.net'+result)</js>class.p3@a@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "//*[contains(text(), \"全部章节\")]/following-sibling::ul/li/a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "class.middle@option!0@value"
+        },
+        "searchUrl": "/s.php,{\n\"method\":\"POST\",\n\"charset\":\"gbk\",\n\"body\":\"s={{key}}&type=articlename&submit=\"\n}",
+        "weight": 0
+    }
+]

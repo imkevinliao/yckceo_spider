@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "//第一次搜索为空\n//第二次搜索正常",
+        "bookSourceGroup": "⌨自制",
+        "bookSourceName": "⌨阿酷小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.owlook.top/##旅途",
+        "coverDecodeJs": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n\n{\"title\":\"🔖男生🍁全部🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部\",\"url\":\"/all/id/4.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"奇幻玄幻\",\"url\":\"/all/id/18.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/all/id/19.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/all/id/20.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市娱乐\",\"url\":\"/all/id/21.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻末日\",\"url\":\"/all/id/22.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/all/id/34.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/all/id/35.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖女生🍁全部🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部\",\"url\":\"/all/id/8.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"同人衍生\",\"url\":\"/all/id/39.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女频频道\",\"url\":\"/all/id/42.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖男生🍁完结🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部\",\"url\":\"/all/serialize/1/id/4.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"奇幻玄幻\",\"url\":\"/all/serialize/1/id/18.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/all/serialize/1/id/19.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/all/serialize/1/id/20.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市娱乐\",\"url\":\"/all/serialize/1/id/21.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻末日\",\"url\":\"/all/serialize/1/id/22.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/all/serialize/1/id/34.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/all/serialize/1/id/35.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖女生🍁完结🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部\",\"url\":\"/all/serialize/1/id/8.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"同人衍生\",\"url\":\"/all/serialize/1/id/39.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女频频道\",\"url\":\"/all/serialize/1/id/42.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n\n]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.019; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124\"}",
+        "lastUpdateTime": 1685528751400,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".x-detail__info--author@text",
+            "coverUrl": "img.0@src",
+            "intro": ".x-detail__intro--content@text",
+            "kind": ".x-detail__info--reads span@text&&.x-catalog__update@text##.*：",
+            "lastChapter": ".x-catalog__new@textNodes",
+            "name": ".x-detail__info--title@text",
+            "wordCount": ".x-detail__info--words@text##.*："
+        },
+        "ruleContent": {
+            "content": "section@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".x-book__info--author@textNodes",
+            "bookList": "<js>\nif(result.match(/Just a moment/)){\ncookie.removeCookie(source.bookSourceUrl)\nvar x=java.get(\"url\")\njava.startBrowserAwait(x,\"验证\")\n//java.webView(null,x,null);\nresult=java.ajax(x)\n\t}\n\tresult\n</js>.x-book",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": ".x-book__intro@text||.x-book__info--chapter@text",
+            "kind": ".book-status@text||.x-book__info--update@text##.*：",
+            "name": ".x-book__info--name@text",
+            "wordCount": ".book-wordcount@text||.x-book__info--author span@text"
+        },
+        "ruleToc": {
+            "chapterList": ".x-catalog__list a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\njava.put(\"url\",String(\"https://m.owlook.top/search.html?keyword=\"+key+\"&page=\"+page+\n\",\"+JSON.stringify(String(source.header))))",
+        "variableComment": "",
+        "weight": 0
+    }
+]

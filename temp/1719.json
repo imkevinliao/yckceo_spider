@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "//https://www.shukw.com/\n//http://zhujic.com/\n// 同类型网站有",
+        "bookSourceGroup": "test",
+        "bookSourceName": "书库网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shukw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "[{\"title\":\"总排行榜\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"月排行榜\",\"url\":\"/rank/monthvisit/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"周排行榜\",\"url\":\"/rank/weekvisit/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"收藏榜\",\"url\":\"/rank/goodnum/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"书库\",\"url\":\"/sort/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本\",\"url\":\"/quanben/sort/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/sort/1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/sort/2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/sort/3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/sort/4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/sort/5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏\",\"url\":\"/sort/6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生\",\"url\":\"/sort/7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/sort/8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1680796834680,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property~=author$]@content",
+            "intro": "",
+            "kind": "[property~=category|status|time]@content",
+            "lastChapter": "[property~=chapter_name]@content",
+            "name": "[property~=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html"
+        },
+        "ruleExplore": {
+            "author": "dl@class.btm@a@text",
+            "bookList": "id.main@class.hotcontent.-1@class.l rank@class.item",
+            "bookUrl": "dl@dt@a@href",
+            "coverUrl": "class.image@a@img@data-original",
+            "intro": "dl@dd@text",
+            "name": "dl@dt@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.-1@text",
+            "bookList": ".item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "name": "a.0@title",
+            "wordCount": "em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "//dt[2]/following-sibling::a",
+            "chapterName": "title",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

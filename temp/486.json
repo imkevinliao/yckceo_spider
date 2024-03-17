@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "趣小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.quxsw.com/##十一",
+        "customOrder": -88962672,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1648484192418,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@text",
+            "coverUrl": "class.book-img@img@src",
+            "init": "",
+            "kind": "class.blue@text",
+            "lastChapter": "class.update@text",
+            "name": "class.bookname@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.txt@html##[(第\\d*/\\d*页)]",
+            "nextContentUrl": "id.pt_next@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.read_book@class.bookcase-book",
+            "bookUrl": "class.book-info@tag.h4@tag.a@href",
+            "coverUrl": "class.book-img@img@src",
+            "kind": "class.classify@text",
+            "lastChapter": "class.read@text",
+            "name": "class.book-info@tag.h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-list.1@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.before@href"
+        },
+        "searchUrl": "https://m.quxsw.com/s.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

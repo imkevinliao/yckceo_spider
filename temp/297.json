@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "★精品",
+        "bookSourceName": "🎉 忽忽小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api.255zw.com",
+        "bookUrlPattern": "",
+        "customOrder": -118952,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1619096677026,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "book_author",
+            "coverUrl": "https://fengmiantu.cdn.bcebos.com{{$.book_img}}",
+            "init": "<js>java.aesBase64DecodeToString(JSON.parse(result).data,\"NOVELS2019031200\",\"AES/ECB/PKCS5Padding\",\"\")</js>$",
+            "intro": "book_desc",
+            "kind": "book_type",
+            "lastChapter": "{{$.new_chapter}} {{java.timeFormat(result.update_time*1000)}}",
+            "name": "book_title",
+            "tocUrl": "https://api.baicongjun.com/s/book_chapter_list2/{{String(result.book_id).slice(-3)}}/@get:{id}/@get:{id}.txt"
+        },
+        "ruleContent": {
+            "content": "<js>java.aesBase64DecodeToString(JSON.parse(result).data,\"NOVELS2019031200\",\"AES/ECB/PKCS5Padding\",\"\")</js>$"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "book_author",
+            "bookList": "<js>java.aesBase64DecodeToString(JSON.parse(result).data,\"NOVELS2019031200\",\"AES/ECB/PKCS5Padding\",\"\")</js>$\n",
+            "bookUrl": "/s/book_info2/{{String(result.book_id).slice(-3)}}/@get:{id}/@get:{id}.txt",
+            "coverUrl": "https://fengmiantu.cdn.bcebos.com{{$.book_img}}",
+            "intro": "book_desc",
+            "kind": "book_type",
+            "name": "book_title@put:{id:book_id}"
+        },
+        "ruleToc": {
+            "chapterList": "<js>java.aesBase64DecodeToString(JSON.parse(result).data,\"NOVELS2019031200\",\"AES/ECB/PKCS5Padding\",\"\")</js>$",
+            "chapterName": "chapter_name",
+            "chapterUrl": "https://api.baicongjun.com/s/book_chapter_info2/{{java.get('id').slice(-3)}}/@get:{id}/{{$.chapter_id}}.txt"
+        },
+        "searchUrl": "/api2/search_book/search?key={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

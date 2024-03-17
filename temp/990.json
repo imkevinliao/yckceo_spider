@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceUrl": "https://www.dubu123.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "独步小说网",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "疯狂的蜗牛",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.dubu123.com/plus/search.php?q={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1631439799131,
+        "ruleSearch": {
+            "bookList": "class.table table-condensed@tag.tbody@tag.tr",
+            "name": "class.orange@text",
+            "bookUrl": "class.orange@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.book-name@tag.a@text",
+            "author": "class.col-md-8 col-sm-6 dark.0@tag.a@text",
+            "lastChapter": "class.col-md-8 col-sm-6 dark.1@tag.a@text",
+            "intro": "class.book-detail@text",
+            "coverUrl": "class.book-img-middel@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.col-md-6 item",
+            "chapterName": "@tag.a@text",
+            "chapterUrl": "@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.cont-body@html  "
+        }
+    }
+]

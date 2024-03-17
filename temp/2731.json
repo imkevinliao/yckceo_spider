@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "醋溜儿文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.clewx.com",
+        "bookUrlPattern": "",
+        "customOrder": -852,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/class/cat/0/page/{{page}}.html\n言情::/class/cat/39/page/{{page}}.html\n仙武::/class/cat/37/page/{{page}}.html\n游戏::/class/cat/38/page/{{page}}.html\n玄幻::/class/cat/36/page/{{page}}.html\n二次元::/class/cat/50/page/{{page}}.html\n悬疑::/class/cat/49/page/{{page}}.html\n都市::/class/cat/41/page/{{page}}.html\n历史::/class/cat/46/page/{{page}}.html\n科幻::/class/cat/48/page/{{page}}.html\n青春::/class/cat/52/page/{{page}}.html\n其他::/class/cat/53/page/{{page}}.html",
+        "lastUpdateTime": 1605547140574,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=og:novel:author]@content",
+            "coverUrl": "[property=og:image]@content",
+            "intro": "[property=og:description]@content",
+            "kind": "[property=og:novel:category]@content&&[property=og:novel:update_time]@content",
+            "lastChapter": "[property=og:novel:latest_chapter_name]@content",
+            "name": "[property=og:novel:book_name]@content",
+            "tocUrl": "text.打开目录@href"
+        },
+        "ruleContent": {
+            "content": "class.content@html"
+        },
+        "ruleExplore": {
+            "author": ".author_intro@text##(.*?)\\|.*##$1",
+            "bookList": "#wrap .pictext",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": ".info_description@text",
+            "kind": ".author_intro@text##.*?\\|(.*?)\\|.*##$1",
+            "lastChapter": "",
+            "name": ".info_title@text",
+            "wordCount": ".author_intro@text##.*?(\\d*)字.*##$1"
+        },
+        "ruleSearch": {
+            "author": "##作者]：<span>([^<]*)##$1###",
+            "bookList": "class.partlist-info@tag.dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": ".pic@img@src",
+            "kind": "##类别]：<span>([^<]*)##$1###",
+            "lastChapter": ".info@a@text",
+            "name": "tag.dt@text##《|》",
+            "wordCount": "##字数]：<span>([^<]*)##$1###"
+        },
+        "ruleToc": {
+            "chapterList": "ul.list li",
+            "chapterName": "span@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.clewx.com/search/keyword/{{key}}/page/{{page}}.html",
+        "weight": 0
+    }
+]

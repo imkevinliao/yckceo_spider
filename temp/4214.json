@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "By_zhbyjm7783",
+        "bookSourceGroup": "自写&修复1001",
+        "bookSourceName": "爱奇小说[自写]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ark-stock.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n书库::/l/\n排行::/rank\n全本::/quanben/l/",
+        "lastUpdateTime": 1696346369856,
+        "respondTime": 6620,
+        "ruleBookInfo": {
+            "author": ".booktag@a.0@text",
+            "coverUrl": "",
+            "intro": "id.bookIntro@text",
+            "kind": ".booktag@a.1@text",
+            "lastChapter": ".col-md-10@p.1@a@text",
+            "name": ".bookTitle@text",
+            "tocUrl": "",
+            "wordCount": ".booktag@span.1@text"
+        },
+        "ruleContent": {
+            "content": ".read-content@p!-1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "small@text||a.1@text",
+            "bookList": ".book-coverlist||.table@tr!0",
+            "bookUrl": "h4@a@href||a.0@href",
+            "coverUrl": "",
+            "intro": ".hidden-sm@text",
+            "kind": "td.0@text",
+            "lastChapter": "a.1@text",
+            "name": "h4@a@text||a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.3@text",
+            "bookList": ".table@tbody@tr!0",
+            "bookUrl": "a.1@href",
+            "kind": "a.0@text",
+            "lastChapter": "a.2@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".panel-chapterlist.1@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.ark-stock.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

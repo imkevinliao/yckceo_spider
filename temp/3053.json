@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "字体:https://www.ygbqtl.com/template/reader/wap/font/font.ttf",
+        "bookSourceGroup": "",
+        "bookSourceName": "七猫配合七猫字体使用",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ygbqtl.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "奇幻::https://www.ygbqtl.com/yg/18.html?page={{page}}&&武侠::https://www.ygbqtl.com/yg/19.html?page={{page}}&&历史::https://www.ygbqtl.com/yg/20.html?page={{page}}&&都市::https://www.ygbqtl.com/yg/21.html?page={{page}}&&科幻::https://www.ygbqtl.com/yg/22.html?page={{page}}&&悬疑::https://www.ygbqtl.com/yg/23.html?page={{page}}&&游戏::https://www.ygbqtl.com/yg/34.html?page={{page}}&&其他::https://www.ygbqtl.com/yg/35.html?page={{page}}&&",
+        "lastUpdateTime": 1600501846525,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": ".txt@html##.*七猫读书网.*",
+            "nextContentUrl": "#pt_next@href"
+        },
+        "ruleExplore": {
+            "author": "tag.a.1@text",
+            "bookList": "@css:div.col-md-8 div.media",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "p@textNodes",
+            "name": "h4@text"
+        },
+        "ruleSearch": {
+            "bookList": "@css:table#bookcon",
+            "bookUrl": "tag.a.0@href",
+            "kind": "tag.p.-1@text",
+            "lastChapter": "id.booklast.0@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "@css:ul.list-charts a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.ygbqtl.com:443/search.html?keyword={{key}}",
+        "weight": 0
+    }
+]

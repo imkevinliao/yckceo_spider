@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "一纸倾城",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yizhiqc.com",
+        "bookUrlPattern": "",
+        "customOrder": 474,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1679407231446,
+        "loginUrl": "",
+        "respondTime": 3034,
+        "ruleBookInfo": {
+            "author": "writerName",
+            "coverUrl": "bookImage",
+            "init": "data.bookListInfo",
+            "intro": "bookIntroduction",
+            "kind": "classificationName",
+            "lastChapter": "{{$.lastUpdateChapterName}}·{{java.timeFormat(java.getString('$.lastUpdateTime'))}}",
+            "name": "bookName",
+            "tocUrl": "/api/books-volumeChapterList/{{$.bookId}}",
+            "wordCount": "bookWorldCount"
+        },
+        "ruleContent": {
+            "content": "<js>baseUrl</js>##https://www.baidu.com/",
+            "imageStyle": "TEXT",
+            "replaceRegex": "##[a-z0-9\\-]{6}"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "writerName",
+            "bookList": "data.list",
+            "bookUrl": "/api/book-bookInfo,{\"method\":\"POST\",\"body\":\"bookid={{$.bookId}}\"}",
+            "coverUrl": "bookImage",
+            "intro": "bookIntroduction",
+            "kind": "classificationName",
+            "lastChapter": "{{$.lastUpdateChapterName}}·{{java.timeFormat(java.getString('$.lastUpdateTime'))}}",
+            "name": "bookName",
+            "wordCount": "bookWorldCount"
+        },
+        "ruleToc": {
+            "chapterList": "data.chapterInfo[*].resultList[*]",
+            "chapterName": "chapterTitle",
+            "chapterUrl": "chapterContent@js:'https://www.baidu.com/'+result"
+        },
+        "searchUrl": "/api/stacks-search,{\"method\":\"POST\",\"body\":\"keyWord={{key}}&startPage={{page}}&isHotWorld=1\"}",
+        "weight": 0
+    }
+]

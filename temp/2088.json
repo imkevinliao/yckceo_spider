@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "优·追书库™",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zhuishuku.com",
+        "customOrder": -39082,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618148851809,
+        "ruleBookInfo": {
+            "author": "$4",
+            "coverUrl": "$2",
+            "init": "::description\"[^\"]*\"([^\"]*)[\\s\\S]*?content=\"([^\"]*)[\\s\\S]*?content=\"([^\"]*)[\\s\\S]*?content=\"([^\"]*)[\\s\\S]*?content=\"([^\"]*)[\\s\\S]*?status\"[^\"]*\"([^\"]*)[\\s\\S]*?content=\"([^\"]*)[\\s\\S]*?content=\"([^\"]*)",
+            "intro": "<br>$1",
+            "kind": "$3,$6,$7",
+            "lastChapter": "$8@js:result.replace(/[（［【\\{\\(].*?[更合求票赏鲜盟修推歉谢祝节年].*?[）］】\\}\\)]/,\"\")",
+            "name": "$5"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$5",
+            "bookList": ":bookimg\"[^\"]*\"([^\"]*)\"[^\"]*\"([^\"]*)[\\s\\S]*?href[^>]*>([^<]*)[\\s\\S]*?分类：([^<]*)[\\s\\S]*?作者：([^<]*)[\\s\\S]*?html\">([^<]*)[\\s\\S]*?<p>([^<]*)",
+            "bookUrl": "$1",
+            "coverUrl": "$2",
+            "intro": "$7",
+            "kind": "$4",
+            "lastChapter": "$6@js:result.replace(/[（［【\\{\\(].*?[更合求票赏鲜盟修推歉谢祝节年].*?[）］】\\}\\)]/,\"\")",
+            "name": "$3"
+        },
+        "ruleToc": {
+            "chapterList": ":》章节目录</dt>[\\s\\S]*?/dl&&href=\"([^\"]*)\">([^<]*)",
+            "chapterName": "$2@js:result.replace(/[（［【\\{\\(].*?[更合求票赏鲜盟修推歉谢祝节年].*?[）］】\\}\\)]/,\"\")",
+            "chapterUrl": "$1,{\"webView\":true}"
+        },
+        "searchUrl": "/search_{{key}}.html",
+        "weight": 0
+    }
+]

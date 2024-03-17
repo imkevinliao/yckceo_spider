@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "文学笔记/笔下文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.wxbj.org",
+        "bookUrlPattern": "https?://m.wxbj.org/[\\d_]+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/\n修真小说::/xiuzhenxiaoshuo/\n都市小说::/dushixiaoshuo/\n历史小说::/lishixiaoshuo/\n网游小说::/wangyouxiaoshuo/\n科幻小说::/kehuanxiaoshuo/\n言情小说::/yanqingxiaoshuo/\n其他小说::/qitaxiaoshuo/\n完结小说::/wanben/",
+        "header": "@js:\nJSON.stringify({\n\t\"referer\": source.getKey(),\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"})",
+        "lastUpdateTime": 1699097282222,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2 p.2@text",
+            "coverUrl": ".block_img2 img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2 p.3:4:5@text##.*：",
+            "lastChapter": ".block_txt2 a.-1@text",
+            "name": ".block_txt2 h2@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##(w+|m).*org"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@ownText",
+            "kind": "0",
+            "lastChapter": "a.-1@text",
+            "name": "h4.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://m.wxbj.org/search.php?keyword={{key}}&submit=,{\n  \"method\": \"GET\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

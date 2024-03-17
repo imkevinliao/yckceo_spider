@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "📓 小说,⌨ 自制",
+        "bookSourceName": "📓苏明小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.sumingxs.com##旅途",
+        "customOrder": 2198,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1693877465956,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者@text",
+            "coverUrl": ".item@img@src",
+            "intro": ".des@text",
+            "kind": ".itemtxt@span@text",
+            "lastChapter": ".itemtxt@li.0@a@text",
+            "name": "h1@a@text"
+        },
+        "ruleContent": {
+            "content": ".con@p@html",
+            "replaceRegex": "##\\s*必.*应.*(命|网|说).*\\s*|\\s*.*提醒您：看完记得收藏.*\\s*|.*手机版: wap.*\\s*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "我的模拟长生路",
+            "coverUrl": "img@src",
+            "kind": "span@text",
+            "lastChapter": "ul@li.0@a@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/ask/{{key}}/",
+        "weight": 0
+    }
+]

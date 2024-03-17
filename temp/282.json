@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🥇精选书源",
+        "bookSourceName": "快书库w",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kuaishuku.com/",
+        "customOrder": -292873,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻\",\"url\":\"/list/1-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"仙侠\",\"url\":\"/list/2-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"言情\",\"url\":\"/list/3-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"历史\",\"url\":\"/list/4-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"竞技\",\"url\":\"/list/5-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"科幻\",\"url\":\"/list/6-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"恐怖\",\"url\":\"/list/7-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"其他\",\"url\":\"/list/8-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "lastUpdateTime": 1655036395686,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "class.intro@text",
+            "lastChapter": "class.bookinfo-info@p.-2@a@text"
+        },
+        "ruleContent": {
+            "content": "class.book-content@html"
+        },
+        "ruleExplore": {
+            "author": "class.book_author@text",
+            "bookList": "class.media",
+            "bookUrl": "class.book-title@a@href",
+            "coverUrl": "class.img@img@src",
+            "intro": "class.book-intro-index@ownText",
+            "name": "class.book-title@text"
+        },
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "id.bookcon@tr!0",
+            "bookUrl": "td.1@a@href",
+            "checkKeyWord": "我的治愈系游戏",
+            "coverUrl": "td.1@a@href@js:\nid=result.match(/\\/(\\d+)\\//)[1];\niid=parseInt(id/1000);\n'files/article/image/'+iid+'/'+id+'/'+id+'s.jpg'",
+            "kind": "td.5@text",
+            "lastChapter": "id.booklast@text",
+            "name": "td.1@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.stylechapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

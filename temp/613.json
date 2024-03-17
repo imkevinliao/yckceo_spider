@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️福书网☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.fushucun.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1644134800602,
+        "ruleBookInfo": {
+            "intro": "#text div@html"
+        },
+        "ruleContent": {
+            "content": "@js:org.jsoup.Jsoup.parse(String(result).match(/<td id=\"text\">([\\s\\S]*?)<p align=\"center\"/)[1]).html()",
+            "imageStyle": "0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "class.article-list@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "lastChapter": "tag.span.-1@text",
+            "name": "tag.a.0@title##—.*|（.*"
+        },
+        "ruleToc": {
+            "chapterList": "//select[@name=\"titleselect\"]/option",
+            "chapterName": "text##.*\\((\\d+)\\)##第$1页",
+            "chapterUrl": "//@value"
+        },
+        "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=\"\n}",
+        "weight": 0
+    }
+]

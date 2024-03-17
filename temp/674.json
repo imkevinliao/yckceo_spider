@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "这个网站搜索不能用，用的是必应搜索引擎，搜索尽量用全名,看见目录显示不出来说明，必应搜索有这本书，但这个网站没有。",
+        "bookSourceGroup": "📖  小说,🎁常用,验",
+        "bookSourceName": "落叶小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lygyoule.com/",
+        "customOrder": 22,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/list/1_{{page}}/\n武侠::/list/2_{{page}}/\n都市::/list/3_{{page}}/\n历史::/list/4_{{page}}/\n网游::/list/5_{{page}}/\n科幻::/list/6_{{page}}/\n其他::/list/7_{{page}}/\n女生::/list/8_{{page}}/\n热门::/rank/allvisit/",
+        "lastUpdateTime": 1643800155599,
+        "respondTime": 2313,
+        "ruleBookInfo": {
+            "author": "#info@tag.p.0@tag.a@text",
+            "coverUrl": "#fmimg@tag.img@src",
+            "intro": "#intro@textNodes##《.*》是.*创作的.*",
+            "kind": ".con_top@tag.a.1@text&&class.visible-xs.0:2@text##状态：",
+            "lastChapter": "#list@tag.a.1@text",
+            "name": "#info@h1@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": ".visible-xs.1@text##.*："
+        },
+        "ruleContent": {
+            "content": "#booktxt@html##.*感谢投出.*的小天使.*|.*感谢.*营养液.*|感谢灌溉营养液的小天使：.*|感谢在\\d{4}-.*|.*期间为我投出霸王票或灌溉营养液的小天使.*|感谢.*小天使.*支持.*|.*扔了.*(手榴弹|地雷|火箭炮).*|.*感谢.*投.*(手榴弹|地雷|火箭炮).*|.*感谢.*的支持.*|.*更多精彩内容.*连城.*|.*(\\d)+；|.*扔了.*(手榴弹|营养液|地雷|浅水炸弹|深水炸弹|深水鱼雷|火箭炮|投雷).*时间:\\d{4}.*|投掷时间:\\d{4}.*|.*,灌溉营养液.*|　——本章完——",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": ".btm@tag.a@text",
+            "bookList": ".item",
+            "bookUrl": "tag.dl@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.dd@text##《.*》是.*创作的.*",
+            "kind": ".blue visible-xs@text",
+            "name": "tag.dl@tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "h2@text##.*最新章节\\((.*)\\).*##$1###",
+            "bookList": ".b_algo.1:2",
+            "bookUrl": "h2@tag.a@href##https://www.lygyoule.com/book/(.*).html##https://www.lygyoule.com/book/$1.html###",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "lastChapter": "h2@tag.a@href<js>java.ajax(result)</js>#list@tag.a.1@text##(最|更)新：<js>result.replace(/\\n(\\d+-\\d+-\\d+)/,'• $1').replace(/、/,'.').replace(/第\\d+章\\s(第.*)/,'$1')</js>",
+            "name": "h2@text##(.*?)最新章节.*##$1###",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "#content_1@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://cn.bing.com/search?q={{key}}site:https://www.lygyoule.com/book/",
+        "weight": 0
+    }
+]

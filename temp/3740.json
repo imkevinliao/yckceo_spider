@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "31小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.31xiaoshuo.com",
+        "bookUrlPattern": "https://m.31xiaoshuo.com/\\d+/\\d+/",
+        "customOrder": 24,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "奇魔玄幻::/list/1/\n仙侠修真::/list/2/\n都市现代::/list/3/\n军史穿越::/list/4/\n竞技网游::/list/5/\n恐怖科幻::/list/6/\n同人次元::/list/7/\n综合言情::/list/8/\n浪漫青春::/list/9/\n现代言情::/list/10/\n古代言情::/list/11/\n幻想言情::/list/12/\n排行榜单::/top/\n完本小说::/qb/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689233552323,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "{{$.}}index.htm"
+        },
+        "ruleContent": {
+            "content": ".am-article-bd@p@textNodes",
+            "replaceRegex": "##【.*app.+】",
+            "title": "h3@text"
+        },
+        "ruleExplore": {
+            "author": "p.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text",
+            "kind": "0",
+            "name": "p.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.0@text",
+            "bookList": "<js>\nif(result.match(/Just a moment/)){\ncookie.removeCookie(source.bookSourceUrl)\nvar x=java.get(\"url\")\nvar s=java.startBrowserAwait(x,\"验证\").body()\nresult=s;\n\t}else{\n\t\tresult=result;\n\t\t}\n\t\tresult;\n</js>\n.user-bookcase@dl",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text&&p.-1@text\n##\\[(.*)\\].+|更新：##$1",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text##\\](.+)##$1###"
+        },
+        "ruleToc": {
+            "chapterList": ".am-list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "@js:\nua={\"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 10; zh-cn; MI CC 11)  AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/18.1.8 swan-mibrowser\"};\nbody= \"keyword=\"+key;\noption={\"method\":\"POST\",\"headers\":ua,\"body\":String(body)};\njava.put(\"url\",String(source.bookSourceUrl+\"/search.php,\"+JSON.stringify(option)));",
+        "weight": 0
+    }
+]

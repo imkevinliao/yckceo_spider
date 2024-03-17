@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "自制源",
+        "bookSourceName": "红袖招",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://hongxiuzhao.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "都市激情::/category/1/{{page}}/2/0\n腐小说::/category/3/{{page}}/2/0\n武侠古典::/category/2/{{page}}/2/0\n家庭伦理::/category/5/{{page}}/2/0\n校园春色::/category/4/{{page}}/2/0\n言情小说::/category/6/{{page}}/2/0\n凌虐调教::/category/7/{{page}}/2/0\n肉文合集::/category/8/{{page}}/2/0\n玄幻其他::/category/9/{{page}}/2/0",
+        "lastUpdateTime": 1694165305460,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author",
+            "coverUrl": "img@src",
+            "intro": "class.summery@text",
+            "kind": "p.1@text",
+            "lastChapter": "class.clear-float@li.-1@text##.*地址",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "class.article-content@p@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*收藏永久网址.*|如果喜欢本站，记得向小伙伴分享哦！"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@tag.a@text",
+            "bookList": "class.yd-list",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": "class.summery@text",
+            "name": "a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.clear-float!0@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://hongxiuzhao.net/search.aspx?key={{key}}",
+        "weight": 0
+    }
+]

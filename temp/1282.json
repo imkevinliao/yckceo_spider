@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "内容为空，或乱码请刷新",
+        "bookSourceGroup": "🔰 普通",
+        "bookSourceName": "🔰 来读读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.laidudu.com",
+        "customOrder": 132,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1623222969995,
+        "ruleBookInfo": {
+            "author": "class.book_box@tag.span.0@text",
+            "coverUrl": "",
+            "intro": "class.book_about@tag.dd@text##\\展开>>|\\各位书友如果.*",
+            "kind": "class.book_box@tag.span.1@text##分类：",
+            "lastChapter": "class.book_last@tag.a.0@text",
+            "name": "class.name@text",
+            "wordCount": "class.book_box@tag.span.3@text##字数："
+        },
+        "ruleContent": {
+            "content": "[id*=content]@html##（本章未完，请点击下一页继续阅读）|手机版阅读网址：m.laidudu.com|.*?\\(第\\d+\\/\\d+页\\)",
+            "nextContentUrl": "#pb_next@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "class.update@a@text",
+            "name": "tag.h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last@dd!0:1:2:3:4@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.laidudu.com/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

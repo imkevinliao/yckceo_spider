@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceName": "无限小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.txt53.com",
+        "customOrder": -2086085997,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"热门\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"玄幻\",\"url\":\"/html/xuanhuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"修真\",\"url\":\"/html/xiuzhen/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"都市\",\"url\":\"/html/dushi/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"穿越\",\"url\":\"/html/chuanyue/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"网游\",\"url\":\"/html/wangyou/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"科幻\",\"url\":\"/html/kehuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"其他\",\"url\":\"/html/qita/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"全本\",\"url\":\"/quanben/html/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "lastUpdateTime": 1683971023849,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property~=(category|status|update_time)]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#booktxt@p@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完，点击下一页继续阅读。"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.-1@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "name": "a.1@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#content_1 a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

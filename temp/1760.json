@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "注：若目录加载失败，下滑刷新几次即可。\n同源网站：来也小说\nhttps://m.xs880.xyz/\nhttps://m.laiyexs.com/",
+        "bookSourceGroup": "📜",
+        "bookSourceName": "📜爱奇书屋🔸⚧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.a745.xyz/##@遇知",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"🔖分类🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部\",\"url\":\"/list/0_lastupdate_{{page}}_0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/list/0_lastupdate_{{page}}_1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"奇幻\",\"url\":\"/list/0_lastupdate_{{page}}_2\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/list/0_lastupdate_{{page}}_3\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠\",\"url\":\"/list/0_lastupdate_{{page}}_4\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/list/0_lastupdate_{{page}}_5\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"军事\",\"url\":\"/list/0_lastupdate_{{page}}_6\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/list/0_lastupdate_{{page}}_7\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏\",\"url\":\"/list/0_lastupdate_{{page}}_8\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"体育\",\"url\":\"/list/0_lastupdate_{{page}}_9\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/list/0_lastupdate_{{page}}_10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异\",\"url\":\"/list/0_lastupdate_{{page}}_11\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"现代言情\",\"url\":\"/list/0_lastupdate_{{page}}_12\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古代言情\",\"url\":\"/list/0_lastupdate_{{page}}_13\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越架空\",\"url\":\"/list/0_lastupdate_{{page}}_14\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总裁豪门\",\"url\":\"/list/0_lastupdate_{{page}}_15\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"青春校园\",\"url\":\"/list/0_lastupdate_{{page}}_16\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人小说\",\"url\":\"/list/0_lastupdate_{{page}}_17\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"幻想言情\",\"url\":\"/list/0_lastupdate_{{page}}_18\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖言情\",\"url\":\"/list/0_lastupdate_{{page}}_19\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/list/0_lastupdate_{{page}}_20\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖榜单🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最新\",\"url\":\"/list/0_lastupdate_{{page}}_1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"点击\",\"url\":\"/list/0_allvisit_{{page}}_1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"推荐\",\"url\":\"/list/0_allvote_{{page}}_1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"字数\",\"url\":\"/list/\n\t0_size_{{page}}_1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"收藏\",\"url\":\"/list/0_goodnum_{{page}}_1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n]",
+        "header": "",
+        "lastUpdateTime": 1681012724088,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "canReName": "",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "🔔 更新时间：{{@@[property=\"og:novel:update_time\"]@content}}\n🏷 {{@@.tags_tit@text}}{{@@.tags_wap a@text##\\s##、}}\n📂 内容简介：{{@@[property=\"og:description\"]@content}}##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "h1@text",
+            "tocUrl": ".readbtn04@a@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr@html",
+            "imageStyle": "",
+            "nextContentUrl": "text.下一页@href##$##,{'webView': true}",
+            "payAction": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": ".info@text##已完结.*",
+            "bookList": ".booklists a",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@textNodes",
+            "kind": "",
+            "name": ".bookname@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".info@text##\\关.*",
+            "bookList": "div[style]@a",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@textNodes",
+            "kind": ".info@text##.*字：|简.*",
+            "lastChapter": "",
+            "name": ".bookname@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".common@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}",
+            "isVolume": "",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"body\": \"searchtype=articlename&searchkey={{key}}&page={{page}}\", \n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

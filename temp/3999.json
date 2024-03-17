@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceName": "新笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xbiqugeo.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"最近更新\",\"url\":\"/\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"排行榜单\",\"url\":\"/rank/\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻小说\",\"url\":\"/fenlei/1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠小说\",\"url\":\"/fenlei/2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市小说\",\"url\":\"/fenlei/3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史小说\",\"url\":\"/fenlei/4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"/fenlei/5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏小说\",\"url\":\"/fenlei/6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生小说\",\"url\":\"/fenlei/7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他小说\",\"url\":\"/fenlei/8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"书库榜单\",\"url\":\"/fenlei/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本小说\",\"url\":\"/quanben/fenlei/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}\n]",
+        "lastUpdateTime": 1693750995884,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p:nth-of-type(1) a@text",
+            "coverUrl": "img@src",
+            "intro": "div.desc@text",
+            "kind": "@get:{t}@get:{l}",
+            "lastChapter": "div.section-box:nth-of-type(1) li:nth-of-type(1) a@text",
+            "name": ".top h1@text",
+            "wordCount": "p:nth-of-type(6)@text"
+        },
+        "ruleContent": {
+            "content": ".content p@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "span.s4@text||dt span@text",
+            "bookList": ".txt-list-row5 li||div.item",
+            "bookUrl": ".s2 a@href||dt a@href",
+            "coverUrl": "img@src",
+            "intro": "dd a@text",
+            "kind": "span.s1@text@put:{l:\"span.s1@text\"}",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text||dt a@text",
+            "wordCount": ".txt-list-row5 span.s5@text##^##更新时间:"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "li:nth-of-type(n+2) span.s4@text",
+            "bookList": ".txt-list li:nth-of-type(n+2)",
+            "bookUrl": ".s2 a@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "",
+            "kind": "li:nth-of-type(n+2) span.s1@text@put:{t:\"li:nth-of-type(n+2) span.s1@text\"}",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text",
+            "wordCount": "li:nth-of-type(n+2) span.s5@text##^##更新时间:"
+        },
+        "ruleToc": {
+            "chapterList": "div.section-box:nth-of-type(2) a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://www.xbiqugeo.com/search/,{\n\"method\":\"post\",\n\"charset\":\"UTF-8\",\n\"body\":\"searchkey={{key}}&Submit=搜索\"\n}",
+        "weight": 0
+    }
+]

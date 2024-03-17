@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "【秋：本书源有作者无法解决的问题，垃圾信息太多】",
+        "bookSourceGroup": "Li ™",
+        "bookSourceName": "【燃文小说】",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ranwena.net/",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 4,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1654004996157,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.synopsisArea_detail@tag.p.0@text",
+            "coverUrl": "tag.img@src",
+            "init": "",
+            "intro": "id.breview@text",
+            "kind": "tag.p.2@text##类别：",
+            "lastChapter": "tag.p.5@text&&tag.p.4@text##最新：|更新：",
+            "name": "class.title@text",
+            "tocUrl": "id.AllChapterList2@href",
+            "wordCount": "tag.p.3@text##状态："
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "",
+            "replaceRegex": "##.加入书签.*|[^\\s][a-zA-Z0-9].[a-zA-Z].*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "tag.p.1@text## \\|.*",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a@href",
+            "kind": "tag.p.1@text##.* \\| ",
+            "lastChapter": "tag.p.2@text",
+            "name": "tag.p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.a!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search.php,{\n  \"charset\": \"GBK\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

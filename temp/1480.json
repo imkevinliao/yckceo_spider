@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "测试",
+        "bookSourceName": "布拉--图片正文求修复",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bulasw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1674342599140,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "name": "section.title@text",
+            "tocUrl": "a.weui-btn_plain-primary@href"
+        },
+        "ruleContent": {
+            "content": "id.chapter-content@tag.p@html",
+            "nextContentUrl": ".nav-next-page@a.next@href",
+            "webJs": "",
+            "imageStyle": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.container search-card",
+            "bookUrl": "div:nth-of-type(4)@.sc-nav@a:nth-of-type(2)@href",
+            "checkKeyWord": "我的\n",
+            "name": "class.sc-title@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BGsectionThree-content chapter-list@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.bulasw.com/search/,{\n  \"body\": \"keyword={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "自制,一般,网页源",
+        "bookSourceName": "掌心文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.zhangxinwx.com",
+        "bookUrlPattern": "https?://www.zhangxinwx.com/book/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/category/1<,/{{page}}.html>\n武侠修真::/category/2<,/{{page}}.html>\n都市言情::/category/3<,/{{page}}.html>\n历史军事::/category/4<,/{{page}}.html>\n网游动漫::/category/6<,/{{page}}.html>\n科幻小说::/category/7<,/{{page}}.html>\n恐怖灵异::/category/8<,/{{page}}.html>\n其他类型::/category/10<,/{{page}}.html>",
+        "header": "{   \"connection\": \"keep-alive\",\n    \"cache-control\": \"max-age=0\",\n    \"upgrade-insecure-requests\": \"1\",\n    \"origin\": \"{{source.getKey()}}\",\n    \"content-type\": \"application/x-www-form-urlencoded\",\n    \"accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\",\n    \"x-requested-with\": \"XMLHttpRequest\",\n    \"sec-fetch-site\": \"same-origin\",\n    \"sec-fetch-mode\": \"navigate\",\n    \"sec-fetch-user\": \"?1\",\n    \"sec-fetch-dest\": \"document\",\n    \"referer\": \"{{source.getKey()}}/\",\n    \"accept-language\": \"zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7\"}",
+        "lastUpdateTime": 1694938998787,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\".bookintro@text##简介：\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h5@text",
+            "bookList": ".media",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original||img@src",
+            "intro": "p@text",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.list-group li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "{{url=source.getKey();\njava.ajax(url).match(/form.*action=\"(.+?)\"/)[1]}}?search={{key}}",
+        "weight": 0
+    }
+]

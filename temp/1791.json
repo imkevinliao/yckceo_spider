@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "haxc",
+        "bookSourceName": "笔趣阁bqww.net",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bqww.net",
+        "customOrder": -118178,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1/{{page}}/\n武侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n历史军事::/sort/4/{{page}}/\n科幻灵异::/sort/5/{{page}}/\n游戏竞技::/sort/6/{{page}}/\n女生耽美::/sort/7/{{page}}/\n其他类型::/sort/8/{{page}}/",
+        "lastUpdateTime": 1622036407161,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "intro": "class.intro@text",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "class.content@html##天才一秒.*",
+            "nextContentUrl": "id.next_url@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.fa@text||tag.p.0@ownText",
+            "bookList": "class.flex@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.searchresult_p@text||class.indent@text",
+            "kind": "tag.span.0@text",
+            "name": "h3@text||h2@text",
+            "wordCount": "class.s_gray@text||class.orange@text"
+        },
+        "ruleToc": {
+            "chapterList": "#ul_all_chapters@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.bqww.net/search/,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=all&Submit=\"\n}",
+        "weight": 0
+    }
+]

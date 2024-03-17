@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "谷点吧/零点看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.gudianba.com",
+        "bookUrlPattern": "http://m.gudianba.com/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort/1_{{page}}/\n修真小说::/sort/2_{{page}}/\n都市小说::/sort/3_{{page}}/\n穿越小说::/sort/4_{{page}}/\n网游小说::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n其他小说::/sort/7_{{page}}/\n小说排行::/top/allvisit_{{page}}/\n完本小说::/full/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692511739453,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".xx a.1@text",
+            "coverUrl": ".xsfm img@src",
+            "intro": ".jianjie@text",
+            "kind": ".xx a.0@text",
+            "lastChapter": ".xx a.-1@text",
+            "name": ".xx li.0@text",
+            "tocUrl": "text.更多章节@href"
+        },
+        "ruleContent": {
+            "content": "#nr@html"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".list ul",
+            "bookUrl": "a.1@href",
+            "coverUrl": "{{\"http://m.gudianba.com/css/noimg.jpg\"}}",
+            "intro": "span.-2@text",
+            "kind": "tag.i@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".fk li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "春山",
+            "coverUrl": "@js:\"http://m.gudianba.com/css/noimg.jpg\"",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".lb li!-1@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ".showpage a@href"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"type=articlename&s={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

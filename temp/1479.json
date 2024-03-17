@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceGroup": "1111",
+        "bookSourceName": "果冻小说网(秒加载)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.guodongxsw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄幻小说::{{baseUrl.replace(/m\\./,'www\\.')}}/fenlei/1_{{page}}/\n仙侠小说::{{baseUrl.replace(/m\\./,'www\\.')}}/fenlei/2_{{page}}/\n都市小说::{{baseUrl.replace(/m\\./,'www\\.')}}/fenlei/3_{{page}}/\n历史小说::{{baseUrl.replace(/m\\./,'www\\.')}}/fenlei/4_{{page}}/\n游戏小说::{{baseUrl.replace(/m\\./,'www\\.')}}/fenlei/5_{{page}}/\n科幻小说::{{baseUrl.replace(/m\\./,'www\\.')}}/fenlei/6_{{page}}/\n其他小说::{{baseUrl.replace(/m\\./,'www\\.')}}/fenlei/7_{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1674344790312,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#author@a@text",
+            "downloadUrls": "",
+            "init": "@js:\nif(baseUrl.match(/m\\./)){\n\tjava.ajax(baseUrl.replace(/m\\./,'www\\.'))\n\t}else{result}",
+            "intro": "#bookintro@text",
+            "kind": "#count@span[0,-1]@text&&text.最后更新：@text##最后更新：",
+            "lastChapter": "#newlist@li.0@a@text",
+            "name": "h1@text",
+            "tocUrl": "{{source.bookSourceUrl}}{{@@text.目录列表@href}}##m\\.##www\\.",
+            "wordCount": "#count@span[-2]@text"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "replaceRegex": "##请牢记收藏.*?免费阅读"
+        },
+        "ruleExplore": {
+            "author": "dd.1@a@text",
+            "bookList": "#sitebox@dl",
+            "bookUrl": "a.0@href",
+            "intro": ".book_des@text",
+            "kind": "span.-2@text",
+            "lastChapter": "a.-1@text",
+            "name": "img@alt",
+            "wordCount": "span.-1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "tr!0",
+            "bookUrl": "a.0@href##m\\.##www\\.",
+            "checkKeyWord": "",
+            "kind": "td[-1,-2]@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text",
+            "wordCount": "td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#readerlist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n\"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

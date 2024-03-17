@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔趣阁[cits0871]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.cits0871.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\": \"玄幻小说\",\"url\": \"http://www.cits0871.com/sort/xuanhuan/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"修真小说\",\"url\": \"http://www.cits0871.com/sort/xiuzhen/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"都市小说\",\"url\": \"http://www.cits0871.com/sort/dushi/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"穿越小说\",\"url\": \"http://www.cits0871.com/sort/lishi/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"网游小说\",\"url\": \"http://www.cits0871.com/sort/wangyou/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"科幻小说\",\"url\": \"http://www.cits0871.com/sort/kehuan/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"完本小说\",\"url\": \"http://www.cits0871.com/wanben/sort/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1651041003642,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "id.fmimg@img@src",
+            "init": "",
+            "intro": "id.intro@p.1@html"
+        },
+        "ruleContent": {
+            "content": "id.content@p@textNodes",
+            "nextContentUrl": "class.bottem2@a.3@href"
+        },
+        "ruleExplore": {
+            "author": "class.s5@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "id.nr",
+            "bookUrl": "class.odd.0@a@href",
+            "lastChapter": "class.even.0@text",
+            "name": "class.odd.0@text",
+            "wordCount": "class.odd.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list&&dd@a",
+            "chapterName": "textNodes",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.cits0871.com/modules/article/search.php,{\r\n    \"charset\": \"UTF-8\",\r\n    \"method\": \"POST\",\r\n    \"body\": \"searchkey={{key}}&searchtype=articlename\"}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceName": "笔趣sa",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.biqusa.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1697816024872,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "//*[@id=\"thumb\"]/img/@src",
+            "kind": "//li[contains(@class, \"sort\")]/text()",
+            "tocUrl": "//*[contains(text(), \"查看完整目录\")]/@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "/p[1]/a[2]/text()",
+            "bookList": "//div[contains(@class, \"slide-item\")]/div",
+            "bookUrl": "/a/@href",
+            "coverUrl": "",
+            "lastChapter": "/p[2]/a/text()",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist@p!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/SearchBook.php?keyword={{key}}",
+        "weight": 0
+    }
+]

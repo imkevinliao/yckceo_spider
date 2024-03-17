@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "换源的时候关闭校检作者，换源的时候才会出来\n（用ajax加载太慢了，这样快）\n\n网站的搜索好像用不了，所以用的搜狗搜索，可能搜索结果不准确（部分书籍搜索不出）",
+        "bookSourceName": "书荒啦•推书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.wencaijia.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "现言::/xianyan?page={{page}}&&古言::/guyan?page={{page}}&&都市::/doushi?page={{page}}&&穿越::/chuanyue?page={{page}}&&二次元::/erciyuan?page={{page}}&&玄幻::/xuanhuan?page={{page}}&&耽美::/danmei?page={{page}}&&轻松::/qingsong?page={{page}}&&重生::/zhongsheng?page={{page}}&&现代::/xiandai?page={{page}}&&同人::/tongren?page={{page}}&&热血::/rexue?page={{page}}&&幻言::/huanyan?page={{page}}&&古代::/gudai?page={{page}}&&仙侠::/xianxia?page={{page}}&&豪门世家::/haomenshijia?page={{page}}&&科幻::/kehuan?page={{page}}&&历史::/lishi?page={{page}}&&架空::/jiakong?page={{page}}&&都市生活::/doushishenghuo?page={{page}}&&动漫同人::/dongmantongren?page={{page}}&&衍生同人::/yanshengtongren?page={{page}}&&爽文::/shuangwen?page={{page}}&&东方玄幻::/dongfangxuanhuan?page={{page}}&&系统流::/xitongliu?page={{page}}&&腹黑::/fuhei?page={{page}}&&宠文::/chongwen?page={{page}}&&游戏::/youxi?page={{page}}&&正剧::/zhengju?page={{page}}&&灵异悬疑::/lingyixuanyi?page={{page}}",
+        "lastUpdateTime": 1620838168192,
+        "ruleBookInfo": {
+            "author": "class.title-msg@tag.span.0@text",
+            "intro": "",
+            "lastChapter": "h1@text",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "@css:h1,.title-msg span,.t-u.comment-author@html##.*?类似(《.*?》).*##$1",
+            "replaceRegex": "@js:\nresult.replace(/^(.*? - \\d+-\\d+-\\d+ \\d+:\\d+)$/gm,'————————————\\n$1')"
+        },
+        "ruleExplore": {
+            "author": "class.tops@text",
+            "bookList": "class.title-article",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "kind": "class.comic-new@text&&class.taga!-1@text",
+            "name": "h1@text##类似(.*?)的小说##类似《$1》的小说"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.vrResult!0",
+            "bookUrl": "h3@tag.a.0@href\n<js>a=result.match(/http.*/)[0];\ndecodeURIComponent(a).replace(/&.*/,'');</js>",
+            "lastChapter": "",
+            "name": "h3@text##《(.*)》##$1###"
+        },
+        "ruleToc": {
+            "chapterList": "-class.title-article",
+            "chapterName": "h2@text||h1@text",
+            "chapterUrl": "tag.a.0@href",
+            "updateTime": "class.comic-new@text&&class.taga!-1@text&&class.tops@text##\\n##•"
+        },
+        "searchUrl": "https://wap.sogou.com/web/sl?keyword=《{{key}}》 site:wencaijia.com",
+        "weight": 0
+    }
+]

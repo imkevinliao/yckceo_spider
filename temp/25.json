@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "玄幻文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.xhwenxue.com/",
+        "customOrder": -2085957776,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1664184414397,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@a.2@text",
+            "coverUrl": "img@src",
+            "intro": "class.intro_info.1@textNodes##最新章节[\\s\\S]*|简介：",
+            "kind": "class.block_txt2@a.3@text",
+            "lastChapter": "class.block_txt2@p.-1@text##最新：",
+            "name": "class.block_txt2@a.1@text",
+            "tocUrl": "",
+            "wordCount": "class.block_txt2@p.-2@text&&class.block_txt2@p.-3@text##更新：|状态："
+        },
+        "ruleContent": {
+            "content": "id.nr1@p@textNodes##您所看到的内容.*|本章未完.*",
+            "nextContentUrl": "@js:\nif (result.indexOf(\"next.png\") > -1) {\n  var code = result.match(/eval\\((.*)\\);/)[0]\n  eval(code)\n  __uData  \n}",
+            "replaceRegex": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s3@text",
+            "bookList": "class.lis@dl@li",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "",
+            "kind": "class.s1@text##\\[(.*)\\]##$1",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "http://m.xhwenxue.com/search,{\n\t\"method\":\"POST\",\n\t\"body\":\"kw={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

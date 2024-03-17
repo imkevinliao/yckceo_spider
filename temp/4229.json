@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceGroup": "自制",
+        "bookSourceName": "笔下文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.fyyhm.org/",
+        "customOrder": -3,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1696699010520,
+        "respondTime": 2231,
+        "ruleBookInfo": {
+            "author": "class.author@a@text",
+            "coverUrl": "tag.img@src",
+            "intro": "class.review@text",
+            "kind": "class.sort@span@text",
+            "lastChapter": "id.chapterlist@a.0@text",
+            "name": "class.title@text",
+            "tocUrl": "class.recommend@h2.1@a@href"
+        },
+        "ruleContent": {
+            "content": "class.Readarea ReadAjax_content@textNodes",
+            "nextContentUrl": "class.Readpage_down@text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author.0@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "我的",
+            "lastChapter": "a.3@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@p!0:-1",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://m.fyyhm.org/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "仅做参考，提供思路\n◎右上角三点，点击登录查看验证码（❗️不要点✓，不然验证码就变了，直接返回）\n◎点击设置源变量填上验证码，确认\n◎重新搜索书（或者刷新换源列表<注意：换源时取消校检作者才会出现该源，换源要求输入验证码，不一定是网站有这本书，一直要求输验证码，可能是没这书😂>",
+        "bookSourceGroup": "搜索验证码",
+        "bookSourceName": "咸鱼看书<搜索验证码>",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xianyukanshu.com/",
+        "bookUrlPattern": "https://www.xianyukanshu.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1647408675423,
+        "loginUrl": "https://www.xianyukanshu.com/captcha.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#info@tag.p.0@a@text",
+            "init": "",
+            "lastChapter": ".lastchapter@a@text",
+            "name": "#info@h1@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "#booktxt@p!0@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*本章完.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.btm@tag.a.0@text",
+            "bookList": "<js>\nif(result.match(/请输入验证码/)){\n'<li><a href=\"/\">'+java.get('key')+'</a><span>点击登录查看验证码</span><b>◎右上角三点，点击登录查看验证码（❗️不要点✓，不然验证码就变了，直接返回）<br>◎点击设置源变量填上验证码，确认<br>◎重新搜索书（或者刷新换源列表<注意：换源时取消校检作者才会出现该源，换源要求输入验证码，不一定是网站有这本书>）</b></li>'\n\t}else{\n\t\tresult=result\n\t\t}\n</js>\nclass.item||tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-original##.*nocover.*",
+            "intro": "dd@text||b@html",
+            "kind": "",
+            "lastChapter": "class.blue@text||tag.span@text",
+            "name": "tag.a.0@title||tag.a@text",
+            "wordCount": "class.orange@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@a\n<js>\nif(result!=\"\"){\n\tresult=result\n\t}else{\n\t\tresult=\"<a>输入验证码</a>\"\n\t\t}\n</js>\ntag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "select@option!0@value"
+        },
+        "searchUrl": "/search/?searchkey={{key;java.put('key',key)}}&captcha={{source.getVariable()}}",
+        "weight": 0
+    }
+]

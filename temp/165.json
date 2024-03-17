@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "关注星瞳_Official，送溜溜梅",
+        "bookSourceGroup": "星瞳",
+        "bookSourceName": "番茄小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.fqxsw.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "<js>\nimportClass(org.jsoup.Jsoup);\nfunction get(www,css)\n{\nlist=Jsoup.parse(java.ajax(www)).select(css).toArray().map(a=>a.text()+\"::\"+a.attr(\"href\")).join(\"&&\").replace(/1.html/,\"{{page}}.html\")+\"&&全本::https://m.fqxsw.cc/full/{{page}}.html\";\nreturn list;\n}\nresult=get(\"http://m.fqxsw.cc\",\".sort li a\")</js>",
+        "lastUpdateTime": 1659439309659,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "",
+            "tocUrl": "text.更多章节@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "",
+            "replaceRegex": "##&n... -->>|本章未完，点击下一页继续阅读|<img.*jpg\" >|请安装我们的客户端|更多好书.*|离线下载|无广告阅读|下载APP|终身免费阅读|饭圈小说网.*最快更新.*最新章节.*|/>|... -->>|本章未完，点击下一页继续阅读"
+        },
+        "ruleExplore": {
+            "coverUrl": ""
+        },
+        "ruleSearch": {
+            "author": ".mr15@text##作者:",
+            "bookList": ".list-item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": "a.2@text",
+            "kind": ".red@text\n<js>\n/完/.test(result)?\"完结\":\"连载\"\n</js>",
+            "lastChapter": "",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

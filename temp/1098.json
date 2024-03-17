@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "♥ Li ♥",
+        "bookSourceName": "【下书久久】",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xiashu99.com",
+        "bookUrlPattern": "",
+        "customOrder": -4,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/\n修真::/xiuzhen/\n都市::/dushi/\n历史::/lishi/\n科幻::/kehuan/\n女生::/nvsheng/\n其它::/qita/\n全本::/quanben/",
+        "header": "",
+        "lastUpdateTime": 1627376571129,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content##简介.",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content##最新.*|免费.*|起点.*|全文.*|笔趣阁|新列表|无弹窗.*",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "imageStyle": "0",
+            "replaceRegex": "##一秒记住.*|\\（本章完\\）"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".l li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.xiashu99.com/files/article/image/$2/$1/$1s.jpg###",
+            "kind": ".s1@text&&.s5@text##\\[|\\]|小说|\\s.*",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text##最新.*|免费.*|起点.*|全文.*|笔趣阁|新列表|无弹窗.*"
+        },
+        "ruleSearch": {
+            "author": ".author@text##.*：",
+            "bookList": ".bookbox",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": ".cat@text##小说|.*：",
+            "lastChapter": "tag.a.2@text",
+            "name": "tag.a.1@text##最新.*|免费.*|起点.*|全文.*|笔趣阁|新列表|无弹窗.*",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".listmain dd a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": ""
+        },
+        "searchUrl": "/s.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

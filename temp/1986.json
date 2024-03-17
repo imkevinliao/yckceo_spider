@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍺特优",
+        "bookSourceName": "🍺 八戒中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.biquka.com",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/bsort/1/{{page}}.html\n武侠仙侠::/bsort/2/{{page}}.html\n都市言情::/bsort/3/{{page}}.html\n历史军事::/bsort/4/{{page}}.html\n网游竞技::/bsort/6/{{page}}.html\n科幻灵异::/bsort/5/{{page}}.html\n女频频道::/bsort/7/{{page}}.html",
+        "lastUpdateTime": 1619306660938,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p.2@text##.*：",
+            "coverUrl": "class.block_img2@img@src",
+            "intro": "class.intro_info@text",
+            "kind": "class.block_txt2@tag.p.3@text##.*：",
+            "lastChapter": "class.block_txt2@tag.p.6@text##.*：",
+            "name": "h2@text"
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookimg@tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro_line@textNodes",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "class.bookname@text"
+        },
+        "ruleSearch": {
+            "author": "class.result-game-item-info@tag.p.0@tag.span.1@text",
+            "bookList": "class.result-item result-game-item",
+            "bookUrl": "h3@tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.result-game-item-desc@text",
+            "kind": "class.result-game-item-info@tag.p.1@tag.span.1@text",
+            "lastChapter": "class.result-game-item-info@tag.p.3@tag.a@text",
+            "name": "h3@span@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.biquka.com/search.php?q={{key}}",
+        "weight": 0
+    }
+]

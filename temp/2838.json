@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "A级",
+        "bookSourceName": "一品侠",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.yipinxia.net",
+        "bookUrlPattern": "",
+        "customOrder": -3547,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1603676997476,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.intr@text##.*作者：|分类：.*",
+            "coverUrl": "class.img@tag.img.0@src",
+            "intro": "class.con@text",
+            "name": "class.info@tag.h2.0@tag.a.0@text",
+            "tocUrl": "class.readnow@href"
+        },
+        "ruleContent": {
+            "content": "id.booktext@html##本文为.*尽在一品侠|\\[一品侠.*\\]",
+            "imageStyle": "full"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.td.2@text||class.intr@text##.*作者：|分类：.*",
+            "bookList": "class.grid@tag.tr!0||class.bookk",
+            "bookUrl": "tag.td.0@tag.a.0@href",
+            "coverUrl": "tag.a.0@href@js:\nvar id = result.match(/\\/(\\d+)\\//)[1];\nvar iid = parseInt(id/1000);\n'http://www.yipinxia.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';",
+            "lastChapter": "tag.td.1@tag.a.0@text||class.ks-clear@tag.li.0@tag.a.0@text",
+            "name": "tag.td.0@tag.a.0@text||class.info@tag.h2.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.yipinxia.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "HINOTORI（qq），感谢不明所以",
+        "bookSourceGroup": "有效",
+        "bookSourceName": "🎨1359漫画网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bdido.com",
+        "customOrder": -185594,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "热推::https://m.bdido.com/rec.html\n热血::https://m.bdido.com/sort/t1/\n机战::https://m.bdido.com/sort/t2\n运动::https://m.bdido.com/sort/t3\n推理::https://m.bdido.com/sort/t4/\n冒险::https://m.bdido.com/sort/t5\n耽美::https://m.bdido.com/sort/t6\n百合::https://m.bdido.com/sort/t7\n搞笑::https://m.bdido.com/sort/t8/\n战争::https://m.bdido.com/sort/t9\n神魔::https://m.bdido.com/sort/t10/\n忍者::https://m.bdido.com/sort/t11\n竞技::https://m.bdido.com/sort/t12\n悬疑::https://m.bdido.com/sort/t13\n社会::https://m.bdido.com/sort/t14\n恋爱::https://m.bdido.com/sort/t15\n宠物::https://m.bdido.com/sort/t16\n吸血::https://m.bdido.com/sort/t17\n萝莉::https://m.bdido.com/sort/t18\n后宫::https://m.bdido.com/sort/t19\n御姐::https://m.bdido.com/sort/t20\n霸总::https://m.bdido.com/sort/t21/\n玄幻::https://m.bdido.com/sort/t22\n古风::https://m.bdido.com/sort/t23/\n历史::https://m.bdido.com/sort/t24\n漫改::https://m.bdido.com/sort/t25\n游戏::https://m.bdido.com/sort/t26\n穿越::https://m.bdido.com/sort/t27/\n恐怖::https://m.bdido.com/sort/t28\n真人::https://m.bdido.com/sort/t29/\n科幻::https://m.bdido.com/sort/t30\n都市::https://m.bdido.com/sort/t31/\n武侠::https://m.bdido.com/sort/t32\n修真::https://m.bdido.com/sort/t33\n生活::https://m.bdido.com/sort/t34\n动作::https://m.bdido.com/sort/t35\n授权::https://m.bdido.com/sort/t36\n爆更::https://m.bdido.com/sort/t37\n新作::https://m.bdido.com/sort/t38\n精品::https://m.bdido.com/sort/t39\n独家::https://m.bdido.com/sort/t40\n自制::https://m.bdido.com/sort/t41\n试稿::https://m.bdido.com/sort/t42\n拳皇::https://m.bdido.com/sort/t43\n架空::https://m.bdido.com/sort/t44\n校园::https://m.bdido.com/sort/t45\n同人::https://m.bdido.com/sort/t46\n励志::https://m.bdido.com/sort/t47\n灵异::https://m.bdido.com/sort/t48\n其他::https://m.bdido.com/sort/t49\n连载::https://m.bdido.com/sort/s0\n完结::https://m.bdido.com/sort/s1\n少男::https://m.bdido.com/sort/g1\n少女::https://m.bdido.com/sort/g2\n青年::https://m.bdido.com/sort/g3\n知音::https://m.bdido.com/sort/28.html\n漫客::https://m.bdido.com/sort/51.html\n神漫::https://m.bdido.com/sort/29.html\n飒漫::https://m.bdido.com/sort/30.html\n飒乐::https://m.bdido.com/sort/52.html\n其他::https://m.bdido.com/sort/58.html",
+        "lastUpdateTime": 1621258470056,
+        "ruleBookInfo": {
+            "coverUrl": "class.comic-item.0@class.thumbnail@tag.img@data-src",
+            "kind": "class.tags.0@text&&class.tags.1@text&&class.tags.2@text&&class.tags.3@text&&class.tags.4@text",
+            "lastChapter": "class.ellipsis.0@text",
+            "name": "h1@text",
+            "tocUrl": "",
+            "wordCount": "class.time@text##\\s.*"
+        },
+        "ruleContent": {
+            "content": "class.comiclist@tag.script@html##[\\s\\S]{1,}chapter_list_all:\\[|https://1359.cy8r.com/index/login/imgurl\\?url=|\\]|\\}\\)\n<js>'<img src='+result+'>'</js>##,##>\n<img src=",
+            "imageStyle": "full",
+            "nextContentUrl": "",
+            "replaceRegex": "##\"\\s{2,}>##\" >"
+        },
+        "ruleExplore": {
+            "bookList": "class.comic-sort@class.item@tag.li",
+            "bookUrl": "class.thumbnail@a@href",
+            "coverUrl": "tag.img@data-src",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "bookList": "class.comic-sort@class.item@tag.li",
+            "bookUrl": "class.thumbnail@a@href",
+            "coverUrl": "tag.img@data-src",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "class.chapter@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "-class.chapterBtn",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "https://m.bdido.com/sort/?key={{key}}",
+        "weight": 0
+    }
+]

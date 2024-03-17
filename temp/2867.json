@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceUrl": "https://m.aikantxt.la",
+        "bookSourceType": "0",
+        "bookSourceName": "👍爱看小说网",
+        "bookSourceGroup": "👍优质",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+        "exploreUrl": "玄幻小说::/sort-1-{{page}}/\n仙侠小说::/sort-2-{{page}}/\n都市小说::/sort-3-{{page}}/\n历史小说::/sort-4-{{page}}/\n游戏小说::/sort-5-{{page}}/\n科幻小说::/sort-6-{{page}}/\n日点击榜::/top-dayvisit-{{page}}/\n周点击榜::/top-weekvisit-{{page}}/\n月点击榜::/top-monthvisit-{{page}}/\n总点击榜::/top-allvisit-{{page}}/\n总收藏榜::/top-goodnum-{{page}}/\n字数排行::/top-size-{{page}}/\n日推荐榜::/top-dayvote-{{page}}/\n周推荐榜::/top-weekvote-{{page}}/\n月推荐榜::/top-monthvote-{{page}}/\n总推荐榜::/top-allvote-{{page}}/\n最新入库::/top-postdate-{{page}}/\n最近更新::/top-lastupdate-{{page}}/",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 13,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": "class.cover.0@p",
+            "name": "tag.a.1@text",
+            "author": "tag.a.2@text",
+            "kind": "tag.a.0@text##\\[|]",
+            "coverUrl": "tag.a.1@href##.*/(\\d+)(\\d{3}).*##https://www.aikantxt.la/files/article/image/$1/$1$2/$1$2s.jpg",
+            "bookUrl": "tag.a.1@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.cover.0@p",
+            "name": "tag.a.1@text",
+            "author": "tag.a.2@text",
+            "kind": "tag.a.0@text##\\[|]",
+            "coverUrl": "tag.a.1@href##.*/(\\d+)(\\d{3}).*##https://www.aikantxt.la/files/article/image/$1/$1$2/$1$2s.jpg",
+            "bookUrl": "tag.a.1@href"
+        },
+        "ruleBookInfo": {
+            "lastChapter": "class.block_txt2@tag.p.6@tag.a@text",
+            "intro": "class.intro_info@text##.*全文简介：",
+            "coverUrl": "class.block_img2@img@src",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

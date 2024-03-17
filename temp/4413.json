@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "// 网页登录后的cookie放在请求头里",
+        "bookSourceName": "精英小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.jyyxs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36\",\n\t\"Cookie\": \"\"\n}",
+        "lastUpdateTime": 1699441955998,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "#txt@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.1@text",
+            "bookList": "body > div:nth-child(3) > ul > li[0:4]",
+            "bookUrl": "span.0@a@href",
+            "coverUrl": "<js>java.get('html')</js>\nbody > div:nth-child(4) > div > div.book-img > img@src",
+            "intro": "",
+            "kind": "span.0@a@href\n<js>\nif(typeof result==\"object\"){\n\tresult=result?result[0]:null\n\t}else{result=result}\nmatch = baseUrl.match(/^(https?:\\/\\/[^/]+)/);\nturl=match ? match[0] : null;\nurl=turl + result;\njava.log(url);\nhtml=java.ajax(url);\njava.put('html',html);\n</js>\nbody > div:nth-child(4) > div > div.book-info > p.tag > span.0@text&&\nbody > div:nth-child(4) > div > div.book-info > p.tag > span.1@text",
+            "lastChapter": "<js>java.get('html')</js>\nbody > div:nth-child(4) > div > div.book-info > p.update > a@text",
+            "name": "span.0@a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "body > div:nth-child(6) > ul > li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.章节目录@href||\ntext.下一页@href"
+        },
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}\nhttps://www.jyyxs.com/search.html,{\n  \"body\": \"s={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

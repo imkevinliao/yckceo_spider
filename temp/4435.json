@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "// Error: 搜索失效",
+        "bookSourceGroup": "源仓库",
+        "bookSourceName": "🌈格格党rdq",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.rdqsdy.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部书库::/sort/{{page}}/\n只看全本::/quanben/sort/{{page}}/\n玄幻魔法::/sort/1/{{page}}/\n武侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n历史军事::/sort/4/{{page}}/\n科幻灵异::/sort/5/{{page}}/\n游戏竞技::/sort/6/{{page}}/\n其他类型::/sort/7/{{page}}/",
+        "lastUpdateTime": 1697240423194,
+        "respondTime": 62587,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##\\s\\d.*",
+            "lastChapter": "{{@@[property$=chapter_name]@content}} • {{@@[property$=update_time]@content##\\s.*}}",
+            "name": "[property$=book_name]@content",
+            "wordCount": ".novel_info_title span.1@text"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "#next_url@href",
+            "replaceRegex": "##：，m..，."
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "i@text||p.0@textNodes",
+            "bookList": ".flex li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": ".indent@text||p.-2@text",
+            "kind": "span.0@text## +/? +##,",
+            "lastChapter": "p a.-1@text",
+            "name": "h3@text||h2@text",
+            "wordCount": "span.2@text||em@text##(.+)( |\\n)##$1,"
+        },
+        "ruleToc": {
+            "chapterList": "#ul_all_chapters li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/?searchkey={{key}}&searchtype=all",
+        "weight": 0
+    }
+]

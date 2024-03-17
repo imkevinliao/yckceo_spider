@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "番茄小说fqxs123",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.fqxs123.com",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1668321678343,
+        "respondTime": 1376,
+        "ruleBookInfo": {
+            "author": "class.small@tag.span.0@text",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.dd.0@textNodes",
+            "kind": "class.small@tag.span!0:3@text##状态[\\：:]|更新[\\：:]",
+            "lastChapter": "class.last@tag.a@text",
+            "name": "class.book@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "replaceRegex": "##\\s*第.*章*\\s*|\\s*请收.*机版[\\：:]\\s*|"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.uptime@text",
+            "name": "tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s?q={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "测试",
+        "bookSourceName": "宜小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.wtjcj.com/",
+        "customOrder": 5,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "排行::ph/<,{{page}}>",
+        "lastUpdateTime": 1696049473410,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.fix@p.0@text",
+            "coverUrl": "class.imgbox@img@src",
+            "intro": "class.desc@text",
+            "kind": "class.xs-show.0:1@text",
+            "lastChapter": "class.section-list.0@li.0@text",
+            "name": "class.top@h1@text",
+            "wordCount": "class.fix@p.4@text"
+        },
+        "ruleContent": {
+            "content": "class.content@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list@li!0",
+            "bookUrl": "li@class.s2@a@href",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://www.wtjcj.com/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

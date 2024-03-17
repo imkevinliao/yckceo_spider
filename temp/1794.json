@@ -1,0 +1,34 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "新笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xbiquge.la/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1621731699685,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "#content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span.-6@text",
+            "bookList": ".result-game-item",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@src",
+            "intro": ".result-game-item-desc@text",
+            "kind": "tag.span.-4@text",
+            "lastChapter": "tag.a.-1@text&&tag.span.-2@text##\\n##•",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dt:nth-of-type(2)~dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?type=articlename&keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

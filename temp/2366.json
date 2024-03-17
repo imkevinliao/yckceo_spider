@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "💰 正版,Json",
+        "bookSourceName": "💰 磨铁中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://app2.motie.com",
+        "bookUrlPattern": "",
+        "customOrder": 300,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "男生热销::/ranking?rankType=9&sex=1&pageNo={{page}}\n女生热销::/ranking?rankType=9&sex=2&pageNo={{page}}\n出版热销::/ranking?rankType=9&sex=3&pageNo={{page}}\n男生点击::/ranking?rankType=10&sex=1&pageNo={{page}}\n女生点击::/ranking?rankType=10&sex=2&pageNo={{page}}\n出版点击::/ranking?rankType=10&sex=3&pageNo={{page}}\n男生打赏::/ranking?rankType=11&sex=1&pageNo={{page}}\n女生打赏::/ranking?rankType=11&sex=2&pageNo={{page}}\n出版打赏::/ranking?rankType=11&sex=3&pageNo={{page}}\n男生推荐::/ranking?rankType=12&sex=1&pageNo={{page}}\n女生推荐::/ranking?rankType=12&sex=2&pageNo={{page}}\n出版推荐::/ranking?rankType=12&sex=3&pageNo={{page}}\n男生热读::/ranking?rankType=15&sex=1&pageNo={{page}}\n女生热读::/ranking?rankType=15&sex=2&pageNo={{page}}\n出版热读::/ranking?rankType=15&sex=3&pageNo={{page}}",
+        "lastUpdateTime": 1613717419860,
+        "loginUrl": "｡◕‿◕｡",
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "data.content"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "authorName",
+            "bookList": "data.bookList",
+            "bookUrl": "/pc/book/{$.id}/catalog",
+            "coverUrl": "icon",
+            "intro": "introduce",
+            "kind": "categoryVO.name",
+            "lastChapter": "lastChapterName",
+            "name": "name",
+            "wordCount": "words"
+        },
+        "ruleToc": {
+            "chapterList": "data.data[?(@.volume==false)]",
+            "chapterName": "name",
+            "chapterUrl": "/pc/chapter/{$.id}",
+            "isVip": "¥{{$.free}}##¥true",
+            "updateTime": "publishTime"
+        },
+        "searchUrl": "/search?word={{key}}&pageNo={{page}}&pageSize=10&objectType=2,{\n  \"headers\": \"{os:'pc'}\"\n}",
+        "weight": 0
+    }
+]

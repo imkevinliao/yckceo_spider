@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "修复3.3日",
+        "bookSourceName": "爱读小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.52dus.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1646255676086,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//*[@property=\"og:novel:author\"]/@content",
+            "coverUrl": "tag.mip-img@src",
+            "init": "",
+            "intro": "class.bookintromore@textNodes",
+            "kind": "//*[@property=\"og:novel:category\"]/@content",
+            "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@content",
+            "name": "//*[@property=\"og:title\"]/@content"
+        },
+        "ruleContent": {
+            "content": "<js>\nid=result.match(/article_id = \"(\\d+)\"/)[1];\ncid=result.match(/chapter_id = \"(\\d+)\"/)[1];\nhash=result.match(/hash = \"([\\d\\w]+)\"/)[1];\ntim=result.match(/\"appid\": \"(\\d+)\",/)[1];\nycid=result.match(/nextcid = \"(\\d+)\"/)[1];\ntmp='https://www.x52dus.com/home/index/ajaxchapter?time='+tim+',{\"charset\":\"utf-8\",\"method\":\"POST\",\"body\":\"id='+id+'&eKey='+hash+'&cid='+cid+'&basecid='+ycid+'\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\",\"Referer\":\"https://www.x52dus.com\"}}'\nresult=JSON.parse(java.ajax(tmp)).info.content\n</js>",
+            "imageStyle": "\ntmp=\"https://www.52dus.com/home/index/ajaxchapter@id=\"+id+\"&eKey=\"+hash+\"&cid=\"+cid+\"&basecid=\"+cid\";\n\n\n\nresult=JSON.parse(java.ajax(tmp)).info.content",
+            "nextContentUrl": "@css:.to_nextpage>a@href",
+            "replaceRegex": "",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author.0@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "tag.h4.0@a@href",
+            "coverUrl": "tag.mip-img@src",
+            "intro": "class.update@text##简介：",
+            "kind": "class.author.1@text##分类：",
+            "lastChapter": "class.cat@a@text",
+            "name": "tag.h4.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "+@css:.fulllistall a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.x52dus.com/home/search,{\"charset\":\"utf-8\",\"method\":\"POST\",\"body\":\"action=search&q={{key}}\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\",\"Referer\":\"https://www.x52dus.com\"}\n}",
+        "weight": 0
+    }
+]

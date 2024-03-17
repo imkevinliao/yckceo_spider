@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceGroup": "⭐常用",
+        "bookSourceName": "⭐爱去小说网",
+        "bookSourceType": 3,
+        "bookSourceUrl": "http://www.927txt.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"耽美小说\",\"url\":\"#\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"全部耽美\",\"url\":\"/txt-xx/15/list15_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"现代耽美\",\"url\":\"/txt-xx/dmxs/xddm/list117_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古代架空\",\"url\":\"/txt-xx/dmxs/gdjk/list118_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越重生\",\"url\":\"/txt-xx/dmxs/cycs/list119_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻科幻\",\"url\":\"/txt-xx/dmxs/xhkh/list120_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"BL同人\",\"url\":\"/txt-xx/dmxs/bltr/list121_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"GL百合\",\"url\":\"/txt-xx/dmxs/glbh/list122_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"\",\"url\":\"#\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"\",\"url\":\"#\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生小说\",\"url\":\"#\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"都市言情\",\"url\":\"/txt-xx/nsxs/dsyq/list110_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古代言情\",\"url\":\"/txt-xx/nsxs/gdyq/list111_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越重生\",\"url\":\"/txt-xx/nsxs/cycs/list112_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻仙侠\",\"url\":\"/txt-xx/nsxs/xhxx/list113_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"青春同人\",\"url\":\"/txt-xx/nsxs/qctr/list114_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游科幻\",\"url\":\"/txt-xx/nsxs/wykh/list115_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"男生小说\",\"url\":\"#\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻奇幻\",\"url\":\"/txt-xx/nsbook/xhqh/list124_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/txt-xx/nsbook/wxxx/list125_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市重生\",\"url\":\"/txt-xx/nsbook/dscs/list126_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/txt-xx/nsbook/lsjs/list127_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖推理\",\"url\":\"/txt-xx/nsbook/kbtl/list128_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻网游\",\"url\":\"/txt-xx/nsbook/khwy/list129_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"二次元\",\"url\":\"/txt-xx/nsbook/ecy/list130_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"\",\"url\":\"#\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"\",\"url\":\"#\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其它类型\",\"url\":\"#\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"军事小说\",\"url\":\"/txt-xx/25/list25_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史小说\",\"url\":\"/txt-xx/25/list25_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"名人传记\",\"url\":\"/txt-xx/22/list22_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"中外名著\",\"url\":\"/txt-xx/28/list28_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"社科历史\",\"url\":\"/txt-xx/25/list25_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"政治军事\",\"url\":\"/txt-xx/25/list25_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"当代文学\",\"url\":\"/txt-xx/27/list27_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"成功励志\",\"url\":\"/txt-xx/22/list22_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他小说\",\"url\":\"/txt-xx/30/list30_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1681998948278,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "downloadUrls": "text.第一下载地址(首选)@href"
+        },
+        "ruleContent": [],
+        "ruleExplore": {
+            "author": "",
+            "bookList": "class.mainSoftName",
+            "bookUrl": "a@href##.*-(\\d+).*##http://www.927txt.com/txt-xx/softdownfree.asp?softid=$1&ckm=mianfei###",
+            "intro": "",
+            "name": "a@text##《|》.*"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@href\n<js>java.ajax('http://www.927txt.com'+result)</js>\n##作者：([^<]+)##$1###",
+            "bookList": "[class=searchTopic]",
+            "bookUrl": "a@href##.*-(\\d+).*##http://www.927txt.com/txt-xx/softdownfree.asp?softid=$1&ckm=mianfei###",
+            "intro": "",
+            "kind": "",
+            "name": "a@text##《|》.*"
+        },
+        "ruleToc": [],
+        "searchUrl": "http://www.927txt.com/search.asp?page={{page}}&m=0&act=&classid=0&word={{key}},{\n  \"charset\": \"GB18030\"\n}",
+        "weight": 0
+    }
+]

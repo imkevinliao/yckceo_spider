@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "崽崽的小站",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zaizairead.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1641395286899,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "tocUrl": "text.目录@href"
+        },
+        "ruleContent": {
+            "content": ".entry-content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "article",
+            "bookUrl": "h2@a@href",
+            "coverUrl": "img@data-src",
+            "intro": ".entry-excerpt@text",
+            "kind": ".meta-category@text",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".ChapterItem-root-aNY7j",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.zaizairead.com/?s={{key}}",
+        "weight": 0
+    }
+]

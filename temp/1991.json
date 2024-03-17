@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceUrl": "http://www.biqule.net",
+        "bookSourceType": "0",
+        "bookSourceName": "笔趣阁biqule.net",
+        "bookSourceGroup": "",
+        "bookSourceComment": "随机扫了几百章只看到一个广告。\n1.总字数显示错误,所以没显示了\n2.发现页是按最新更新排行",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/modules/article/search.php,{\n  \"method\":\"POST\",\n  \"charset\": \"gbk\",\n  \"body\":\"searchkey={{key}}&page={{page}}\"\n}",
+        "exploreUrl": "玄幻小说::/fenlei/1_{{page}}/\n仙侠小说::/fenlei/2_{{page}}/\n都市小说::/fenlei/3_{{page}}/\n言情小说::/fenlei/4_{{page}}/\n历史小说::/fenlei/5_{{page}}/\n网游小说::/fenlei/6_{{page}}/\n科幻小说::/fenlei/7_{{page}}/\n恐怖小说::/fenlei/8_{{page}}/\n完本小说::/quanben/{{page}}\n热门小说::/top/monthvisit/{{page}}",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1619264747326,
+        "ruleSearch": {
+            "bookList": "class.grid@tag.tbody@tag.tr.!0",
+            "name": "tag.td.0@text",
+            "author": "tag.td.2@text",
+            "kind": "tag.td.-1@text&&tag.td.-2@text",
+            "lastChapter": "tag.td.1@text",
+            "bookUrl": "tag.td.0@a@href"
+        },
+        "ruleExplore": {
+            "bookList": "id.mm_14@tag.li.!0",
+            "name": "class.sp_2@text",
+            "author": "class.sp_4@text",
+            "kind": "class.sp_6@text",
+            "lastChapter": "class.sp_3@text",
+            "bookUrl": "class.sp_2@a@href"
+        },
+        "ruleBookInfo": {
+            "name": "id.info@h1@text",
+            "author": "text.作者：@a@text",
+            "kind": "class.weizhi@tag.a.-1@text",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@img@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.mulu_list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html",
+            "replaceRegex": "##一秒记住【笔趣阁 www\\.biqule\\.net】，精彩小说无弹窗免费阅读！"
+        }
+    }
+]

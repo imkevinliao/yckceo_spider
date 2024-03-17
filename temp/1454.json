@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "Gladtbam",
+        "bookSourceName": "看书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.kbiquge8.com/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1675219087523,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.pt-info.0@a@text",
+            "coverUrl": "class.baseinfo@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.pt-info.1@a@text",
+            "lastChapter": "",
+            "name": "class.pt-name@a@text",
+            "tocUrl": "class.ptm-card-footer@a@href",
+            "wordCount": "class.pt-info.3@a@text##更新:"
+        },
+        "ruleContent": {
+            "content": "class.chaptercontent@p@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##第.*章.*|.*本章未完.*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "name": "\ntag.span.1@tag.a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".pt-info@a.0@text",
+            "bookList": "class.ptm-content pt-infopage@ul@li",
+            "bookUrl": ".pt-name@a@href",
+            "coverUrl": ".pt-cover@a@img@src",
+            "kind": ".pt-info@a.1@text",
+            "lastChapter": "",
+            "name": ".pt-name@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.ptm-card-content pt-dir@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.kbiquge8.com/search.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

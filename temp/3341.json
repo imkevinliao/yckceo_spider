@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "//需要登录，会员内容不全",
+        "bookSourceGroup": "自制,源仓库,漫画源",
+        "bookSourceName": "言耽社",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://yandanshe.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"耽美·完結\",\"url\":\"https://yandanshe.com/blwj/<,page/{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"女性向·完結\",\"url\":\"https://yandanshe.com/bgwj/<,page/{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"耽美·連載\",\"url\":\"https://yandanshe.com/bllz/<,page/{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"女性向·連載\",\"url\":\"https://yandanshe.com/bglz/<,page/{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "lastUpdateTime": 1683621459833,
+        "loginUrl": "https://yandanshe.com/",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.item item-author@text",
+            "intro": "blockquote@text",
+            "kind": "class.article-meta@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "img@html",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.item",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "kind": "footer@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "@css:a[url*=\"htm\"]||head>title,.list a",
+            "chapterName": "text##_言耽社",
+            "chapterUrl": "url||href",
+            "isVip": "class.tit@text"
+        },
+        "searchUrl": "https://yandanshe.com/<,page/{{page}}>?s={{key}}",
+        "weight": 0
+    }
+]

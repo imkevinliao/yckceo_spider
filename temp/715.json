@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceUrl": "https://www.biqugeso.org/",
+        "bookSourceType": "0",
+        "bookSourceName": "笔趣阁",
+        "bookSourceGroup": "自建",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.biqugeso.org/searcha5.html?searchkey={{key}}",
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/category/xuanhuanxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/category/xiuzhenxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/category/dushixiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/category/chuanyuexiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/category/wangyouxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/category/kehuanxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/category/qitaxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"热门\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"全本\",\"url\":\"/quanben/category/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"记录\",\"url\":\"/history.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1643176174964,
+        "ruleSearch": {
+            "bookList": "class.item",
+            "name": "tag.dl@tag.dt@tag.a@text",
+            "author": "class.btm@tag.a@text",
+            "wordCount": "class.btm@tag.em.0@text",
+            "intro": "tag.dd@text",
+            "coverUrl": "img@data-original",
+            "bookUrl": "tag.dl@tag.dt@tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.l@tag.ul@tag.li||class.item",
+            "name": "class.s2@tag.a@text||tag.dl@tag.dt@tag.a@text",
+            "author": "class.s4@text||class.btm@tag.a@text",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@tag.a@text",
+            "intro": "tag.dd@text",
+            "coverUrl": "img@data-original",
+            "bookUrl": "class.s2@tag.a@href"
+        },
+        "ruleBookInfo": {
+            "name": "h1@text",
+            "author": "id.info@tag.p.0@a@text",
+            "wordCount": "class.visible-xs.1@text##字数：",
+            "lastChapter": "class.hidden-xs.1@tag.a@text",
+            "coverUrl": "img@data-original",
+            "tocUrl": "class.readbtn@tag.a.1@href"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@tag.p@html##本章未完，点击下一页继续阅读。",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

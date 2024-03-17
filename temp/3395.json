@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒，加载较慢",
+        "bookSourceGroup": "自制,一般,源仓库,网页源",
+        "bookSourceName": "88读书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.baba5.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/sort/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/sort/wuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/sort/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/sort/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/sort/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏\",\"url\":\"/sort/youxi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/sort/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
+        "lastUpdateTime": 1684751645370,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#author@text",
+            "coverUrl": "img@src",
+            "init": "id.bookinfo",
+            "intro": "#bookintro@p.1@text",
+            "kind": "ul@li.0:4@text##分 类：|状 态：",
+            "lastChapter": "class.new@text##最新章节：|更新时间：",
+            "name": "h1@text",
+            "wordCount": "ul@li.10@span@text"
+        },
+        "ruleContent": {
+            "content": ".pt-read-text@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".book_other@span.0@text",
+            "bookList": "#sitebox@dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "class.name@text",
+            "kind": "h3@span@text",
+            "lastChapter": ".book_other@span.1@text",
+            "name": "h3@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".mr30.0@text",
+            "bookList": "class.pt-rank-detail",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".desc@text",
+            "kind": ".color7@span.2@text##分类：",
+            "lastChapter": ".mr20@text",
+            "name": "a.0@title"
+        },
+        "ruleToc": {
+            "chapterList": "#readerlists@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "http://www.baba5.cc/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

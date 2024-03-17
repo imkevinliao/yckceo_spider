@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "// 10.29修复\nAPI，18\nhttp://www.qqmh.vip/",
+        "bookSourceGroup": "🌠 漫画",
+        "bookSourceName": "🌠 亲漫",
+        "bookSourceType": 2,
+        "bookSourceUrl": "http://api.acg.gd",
+        "bookUrlPattern": "",
+        "customOrder": -562,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"地区分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"大陆\",\"url\":\"/app/comic/index?sort=update&filter=dalu&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"日漫\",\"url\":\"/app/comic/index?sort=update&filter=riben&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"韩漫\",\"url\":\"/app/comic/index?sort=update&filter=hanguo&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\n  \"User-Agent\": \"QQMH Android Client/1.0 (qinqinmanhua@gmail.com)\"\n}",
+        "lastUpdateTime": 1698566245027,
+        "loginUrl": "",
+        "respondTime": 1140,
+        "ruleBookInfo": {
+            "author": "$.data.author",
+            "coverUrl": "",
+            "init": "",
+            "intro": "&nbsp;&nbsp;🔖更新时间：{{java.timeFormat(java.getString('$.data.posted_at')*1000)}}{{'\\n&lrm;\\n'}}{{$..description}}",
+            "kind": "$..subjects[*].name",
+            "lastChapter": "{{$.data.last_chapter_name}} • {{java.timeFormat(java.getString('$.data.posted_at')*1000)}}\n<js>result.replace(/\\s\\d+:\\d+/,'')</js>\n<js>result.replace(/\\//g,'-')</js>",
+            "name": "$.data.name",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "@js:\nheader={\"Referer\":\"http://6954acc.games.mhd100.com\"};\nheaders={\"headers\":JSON.stringify(header)};\n$=JSON.parse(result);\nimglist=$.data.imageArray;\npath=$.data.path;\nurl='http://ai.mi.iu-vvv1.today/';\nurl=url+path;\nhtml='';\nfor(i in imglist){\nhtml +='<img src=\"'+url+imglist[i]+'\">\\n'\n}\nhtml",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "coverUrl": "$.coverUrl@js:\nheader={\"Referer\":baseUrl}\nheaders={\"headers\":JSON.stringify(header)}\nresult=result+','+JSON.stringify(headers)"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.items.*",
+            "bookUrl": "http://api.acg.gd/app/comic/view?id={$.id}",
+            "checkKeyWord": "执着于我的西沃尔顿公爵",
+            "coverUrl": "$.coverUrl##$##,{\"headers\":{\"Referer\":\"https://www.acgqd.com\"}}",
+            "intro": "$.description",
+            "kind": "{{java.timeFormat(java.getString('$.posted_at')*1000)}}",
+            "lastChapter": "{{$.last_chapter_name}} • {{java.timeFormat(java.getString('$.posted_at')*1000)}}\n<js>result.replace(/\\s\\d+:\\d+/,'')</js>\n<js>result.replace(/\\//g,'-')</js>",
+            "name": "$.name",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "$..chapterGroup.1.*",
+            "chapterName": "$.name",
+            "chapterUrl": "http://api.acg.gd/app/chapter/view?id={$.id}",
+            "isVolume": "",
+            "updateTime": "{{java.timeFormat(java.getString('$.updated_at')*1000)}} • {{$.count}}P"
+        },
+        "searchUrl": "http://api.acg.gd/app/comic/search?keywords={{key}}&page={{page}}&sort=post",
+        "weight": 0
+    }
+]

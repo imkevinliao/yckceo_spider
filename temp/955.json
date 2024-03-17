@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "懒得找发现链接了，想要更多的自己加\n\n如果想要简介就把\na.0@href\n<js>java.ajax('https://readnovelfull.com'+result)</js>\n.desc-text@html\n放到[搜索-简介规则]那。\n\n注意！放了之后加载会很慢很慢。\n(加载 ≥ 1分钟)",
+        "bookSourceGroup": "⁉️ 自制",
+        "bookSourceName": "READ NOVEL FULL(英文)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://readnovelfull.com",
+        "customOrder": -167,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "Hot Novel::/hot-novel?page={{page}}\nLatest Release::/latest-release-novel?page={{page}}\nNovel Completed::/completed-novel?page={{page}}\nRomance::/genre/romance?page={{page}}",
+        "lastUpdateTime": 1632992502814,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".info-meta@li.1@a@text",
+            "coverUrl": ".book@img@src",
+            "intro": ".desc-text@html",
+            "kind": ".info-meta@li.2@a@text",
+            "name": "h3.0@text",
+            "tocUrl": ".nav-tabs@.active@href"
+        },
+        "ruleContent": {
+            "content": "#chr-content@p@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".col-xs-12@.row",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": "",
+            "lastChapter": ".chr-text@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list-chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://readnovelfull.com/search?keyword={{key}}",
+        "weight": 0
+    }
+]

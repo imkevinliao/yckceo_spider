@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "书迷村",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shumicun.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"/sort/1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠修真\",\"url\":\"/sort/2/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/sort/3/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/sort/4/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/sort/5/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/sort/6/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生耽美\",\"url\":\"/sort/7/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"/sort/8/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"书库\",\"url\":\"/sort/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1683284425867,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.p_author@text",
+            "coverUrl": "img.1@src",
+            "intro": "id.bookintro@p@text##.*小说阅读.*类型小说.*作家.*创作, |提供.*最新更新.*无弹窗",
+            "kind": "id.count@ul@li.0:2@span@text&&id.uptime@span@text",
+            "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+            "name": "h1.1@text",
+            "wordCount": "id.count@ul@li.1@span@text"
+        },
+        "ruleContent": {
+            "content": "#TextContent@html##章节报错\\(免登录\\)",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".tit@text",
+            "bookList": "dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": ".name@text||.book_des@text##.*小说阅读.*类型小说.*作家.*创作, |提供.*最新更新.*无弹窗",
+            "kind": ".uptime@text&&.book_other@span.0:1@text",
+            "lastChapter": ".book_other@a@text",
+            "name": "h3@a@text||h3@text",
+            "wordCount": ".book_other@span.2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book_other@span.0@text",
+            "bookList": "id.nr",
+            "bookUrl": "h3@a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "class.book_des@text##.*小说阅读.*类型小说.*作家.*创作, |提供.*最新更新.*无弹窗",
+            "kind": "class.uptime@text&&class.book_other@span.1@text",
+            "lastChapter": "class.book_other.1@text##最新章节：",
+            "name": "h3@a@text",
+            "wordCount": "class.book_other@span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterList@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "18",
+        "bookSourceName": "三啪文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://3pxs.xyz/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "现代奇幻::/lists/42.html?page={{page}}\n古典武侠::/lists/43.html?page={{page}}\n性爱技巧::/lists/44.html?page={{page}}\n另类禁忌::/lists/45.html?page={{page}}\n其他交流::/lists/46.html?page={{page}}",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"}",
+        "lastUpdateTime": 1648394809586,
+        "loginCheckJs": "",
+        "respondTime": 1733,
+        "ruleBookInfo": {
+            "init": "",
+            "lastChapter": "",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.tpc_content do_not_catch@html",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "bookList": "class.table@tr!0:1",
+            "bookUrl": "tag.a@href",
+            "lastChapter": "tag.a@text",
+            "name": "tag.a@text"
+        },
+        "ruleSearch": {
+            "bookList": "class.table@tr!0:1",
+            "bookUrl": "tag.a@href",
+            "name": "tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "@js:[{\"text\":\"正文\"}]",
+            "chapterName": "text"
+        },
+        "searchUrl": "https://3pxs.xyz/search.html?keyword={{key}}",
+        "weight": 0
+    }
+]

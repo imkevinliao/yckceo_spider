@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceUrl": "http://m.xinshuhaige.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "🌟书海阁🌟",
+        "bookSourceGroup": "🇨🇳Namo",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": "ul.list@li",
+            "name": "p.bookname@text",
+            "author": "//p[2]/a/text()",
+            "kind": "//p[2]/span[1]/text()&&//p[2]/span[2]/text()",
+            "lastChapter": "//p[4]/a/text()",
+            "intro": "p.intro@text",
+            "coverUrl": "img@src",
+            "bookUrl": "a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "p.name@text",
+            "author": "p.author@text##作者：",
+            "kind": "//*[@id=\"info\"]/div[2]/div[2]/p[3]/a/text()&&//*[@id=\"info\"]/div[2]/div[2]/p[3]/span[1]/text()",
+            "wordCount": "//*[@id=\"info\"]/div[2]/div[2]/p[3]/span[2]/text()",
+            "lastChapter": "p.new@text##最新章节：",
+            "intro": "div.intro@p[1]",
+            "tocUrl": "li.now@a@href"
+        },
+        "ruleToc": {
+            "chapterList": "ul.read@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "a:containsOwn(下一页)@href"
+        },
+        "ruleContent": {
+            "content": "div.content@html##喜欢.*m.xinshuhaige.com.*书海阁小说网更新速度最快。"
+        }
+    }
+]

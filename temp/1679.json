@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceName": "风华居",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.fenghuaju.com",
+        "customOrder": -2085957795,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "全部分类::https://wap.fenghuaju.com/xs/{{page}}\n玄幻魔法::https://wap.fenghuaju.com/xs/xuanhuan/{{page}}\n武侠修真::https://wap.fenghuaju.com/xs/wuxia/{{page}}\n都市言情::https://wap.fenghuaju.com/xs/dushixiaoshuo/{{page}}\n历史军事::https://wap.fenghuaju.com/xs/lishi/{{page}}\n科幻灵异::https://wap.fenghuaju.com/xs/kehuan/{{page}}\n游戏竞技::https://wap.fenghuaju.com/xs/youxi/{{page}}\n女生小说::https://wap.fenghuaju.com/xs/nvsheng/{{page}}\n其他类型::https://wap.fenghuaju.com/xs/qita/{{page}}",
+        "lastUpdateTime": 1666168943279,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author@text",
+            "coverUrl": ".synopsisArea_detail@img@src",
+            "intro": ".review@text",
+            "kind": ".synopsisArea_detail@p.0@text&&.synopsisArea_detail@p.1@text##类别：",
+            "lastChapter": ".lastchapter@text&&.synopsisArea_detail@p.-1@text##最新章节：(.*)\\n更新：(.*)##$1 $2"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@p@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "a@p.1@text",
+            "bookList": "#main@.hot_sale",
+            "bookUrl": "a@href",
+            "intro": "a@p.2@text",
+            "name": "a@p.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text",
+            "bookList": ".read_book@.bookbox",
+            "bookUrl": "a@href",
+            "coverUrl": ".bookimg@img@src",
+            "intro": "",
+            "kind": ".author.1@text##类型：",
+            "lastChapter": ".update@a@text",
+            "name": ".iTit@text"
+        },
+        "ruleToc": {
+            "chapterList": ".directoryArea.1@p@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://wap.fenghuaju.com/search,{\n  \"body\": \"searchkey={{key}}&submit=\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

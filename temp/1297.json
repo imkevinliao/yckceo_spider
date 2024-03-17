@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "//作者：旅途",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "⭐马虎小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.mahuxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "玄幻小说::/fenlei/1_{{page}}.html\n修真小说::/fenlei/2_{{page}}.html\n都市小说::/fenlei/3_{{page}}.html\n历史小说::/fenlei/4_{{page}}.html\n网游小说::/fenlei/5_{{page}}.html\n科幻小说::/fenlei/6_{{page}}.html\n言情小说::/fenlei/7_{{page}}.html\n其他小说::/fenlei/8_{{page}}.html",
+        "lastUpdateTime": 1680695320361,
+        "loginUrl": "http://www.mahuxs.com/",
+        "respondTime": 6875,
+        "ruleBookInfo": {
+            "coverUrl": "#bookimg@img@src",
+            "intro": "#showinfo@d2@text",
+            "kind": ".pd_r.0@text",
+            "name": "h1@text",
+            "tocUrl": "text.开始阅读@href"
+        },
+        "ruleContent": {
+            "content": "#content@html"
+        },
+        "ruleExplore": {
+            "author": ".book_other.0@a@text",
+            "bookList": "#sitebox@dl",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@src",
+            "intro": ".book_des@textNodes",
+            "name": "h3@a@text",
+            "wordCount": ".book_other.0@span.2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".odd.1@text",
+            "bookList": "#nr",
+            "bookUrl": ".odd.0@a@href",
+            "coverUrl": ".odd.0@a@href##\\/book\\/(\\d{1,3})(\\d{3})\\.html##/files/article/image/$1/$1$2/$1$2s.jpg",
+            "intro": "",
+            "kind": "",
+            "lastChapter": ".even.0@text",
+            "name": ".odd.0@text",
+            "wordCount": ".even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "#readerlist@tag.li.!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

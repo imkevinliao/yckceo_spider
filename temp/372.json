@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "漫画",
+        "bookSourceName": "韩漫塔",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://hanmanta.com/",
+        "customOrder": -185595,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1651226541106,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "lastChapter": "class.small@text",
+            "tocUrl": "class.bm-tabs@class.item.1@a@href"
+        },
+        "ruleContent": {
+            "content": "class.read-article@html",
+            "imageStyle": "full"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.books-res@class.item",
+            "bookUrl": "class.item@a@href",
+            "coverUrl": "class.cover@img@data-original",
+            "intro": "class.text@text",
+            "kind": "",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.html_box@class.item",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://hanmanta.com/tag/{{key}}",
+        "weight": 0
+    }
+]

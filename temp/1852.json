@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "AE言情",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.fmias.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1620820820515,
+        "ruleBookInfo": {
+            "kind": "class.book-meta.1@a@text",
+            "lastChapter": ".last@text##(.*)更新到：(.*)##$2•$1###",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html<js>result+\"下一页\"</js>",
+            "nextContentUrl": "text.下一页@href##$##,{\"webView\":true}",
+            "replaceRegex": "##\\s*下一页\\s*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": ".content dl",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": "tag.dd.0@text",
+            "kind": "",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.span@text"
+        },
+        "ruleToc": {
+            "chapterList": ".mt0 a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":true}",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/searchb758.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

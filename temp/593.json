@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️宝书网☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.baoshus.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1645489998810,
+        "ruleBookInfo": {
+            "author": "class.book-author.0@text",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.aui-book-intro@html",
+            "kind": "class.book-status.0@text",
+            "lastChapter": "class.last-chapter@text",
+            "name": "class.book-name.0@text",
+            "tocUrl": "class.aui-flex aui-book-chapter@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "class.chapter-content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.book-module@text",
+            "bookList": "class.aui-book-list@tag.a",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.book-intro@html",
+            "kind": "class.book-module@text",
+            "name": "class.aui-book-img@tag.img@alt"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-index-name@tag.a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://www.baoshus.com/search/{{key}}",
+        "weight": 0
+    }
+]

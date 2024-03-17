@@ -1,0 +1,31 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "76小说网",
+        "bookSourceUrl": "https://m.76xs.com",
+        "enable": true,
+        "httpUserAgent": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Mobile Safari/537.36\"\n}",
+        "ruleBookAuthor": "class.author@text##作者：",
+        "ruleBookContent": "id.chaptercontent@html##\\s*本章未完.*\\s*",
+        "ruleBookKind": "class.sort@text##类别：",
+        "ruleBookLastChapter": "id.zuixin@text",
+        "ruleBookName": "tag.title@text##最新.*",
+        "ruleChapterList": "id.chapterlist@p!0",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrl": "id.chakan@href",
+        "ruleContentUrl": "tag.a@href",
+        "ruleContentUrlNext": "id.pt_next@href",
+        "ruleCoverUrl": "tag.img@data-original",
+        "ruleIntroduce": "class.review@text",
+        "ruleSearchAuthor": "class.author.1@text##.*作者：",
+        "ruleSearchCoverUrl": "tag.a@href##/(\\d+)_(\\d+)/##https://image.76xs.com/$1/$2/$2s.jpg",
+        "ruleSearchKind": "class.author.1@text##作者.*|小说.*|\\|",
+        "ruleSearchLastChapter": "class.author.2@text##.*更新：",
+        "ruleSearchList": "class.recommend@class.hot_sale",
+        "ruleSearchName": "tag.p.0@text",
+        "ruleSearchNoteUrl": "tag.a@href",
+        "ruleSearchUrl": "https://m.76xs.com/s.php?keyword=searchKey",
+        "serialNumber": 1,
+        "weight": 0
+    }
+]

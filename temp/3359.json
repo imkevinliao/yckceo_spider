@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "⭐备用",
+        "bookSourceName": "⭐御龙小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ylcjw.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/class_data/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠修真\",\"url\":\"/class_data/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/class_data/3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/class_data/4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻异能\",\"url\":\"/class_data/5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/class_data/6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异悬疑\",\"url\":\"/class_data/7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生耽美\",\"url\":\"/class_data/8/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"轻小说\",\"url\":\"/class_data/9/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"/class_data/10/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1683623983509,
+        "respondTime": 5649,
+        "ruleBookInfo": {
+            "author": "[property=og:novel:author]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=og:description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property=og:novel:lastest_chapter_name]@content",
+            "name": "[property=og:novel:book_name]@content",
+            "tocUrl": "text.查看目录@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#BookText@p@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.1@textNodes||.author@a@textNodes",
+            "bookList": ".search-list .clearfix||.clearfix li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": ".intro@textNodes",
+            "kind": ".author.0@textNodes",
+            "lastChapter": ".latest@textNodes",
+            "name": "h3@text||.text@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

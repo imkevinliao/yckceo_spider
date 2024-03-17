@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "JSON",
+        "bookSourceName": "🔰 换源神器",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://api.chnsmoker.com/",
+        "bookUrlPattern": "",
+        "customOrder": -113213,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1615454642033,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "tocUrl": "##\"url\":\"([^\"]+/)##$1###<js>tmp=baseUrl;if (tmp.includes(\"ddxscc\")){\"https://www.23wx.cc\"+result}else if(tmp.includes(\"dhzwxs\")){\"https://www.dhzw8.com\"+result}else if(tmp.includes(\"uusmxs\")){\"https://www.uutxt.com\"+result}else if(tmp.includes(\"147xs\")){\"http://www.147xs.org\"+result}else if(tmp.includes(\"33yqxs\")){\"https://www.33yq.com\"+result}else if(tmp.includes(\"386xs\")){\"https://www.xs386.com\"+result}else if(tmp.includes(\"asxsw\")){\"https://www.aszw6.com\"+result}else if(tmp.includes(\"dmrxs\")){\"http://www.daomengren.com\"+result}else if(tmp.includes(\"hwmxs\")){\"https://www.hehuamei.com\"+result}else if(tmp.includes(\"sqsxs\")){\"https://www.sqsxs.com\"+result}else if(tmp.includes(\"31xs\")){\"http://www.31xs.com\"+result}else if(tmp.includes(\"bxwx\")){\"https://www.bxwxorg.com\"+result}else if(tmp.includes(\"ddxs\")){\"https://www.23us.com\"+result}else if(tmp.includes(\"dyxs\")){\"http://www.01xs.com\"+result}else if(tmp.includes(\"slsy\")){\"https://www.hkslg8.com\"+result}else if(tmp.includes(\"xbqg\")){\"https://www.xsbiquge.com\"+result}else if(tmp.includes(\"bqg\")){\"http://www.biquge.info\"+result}if(tmp.includes(\"mht\")){\"http://www.mhtwx.la\"+result}else if(tmp.includes(\"sqg\")){\"http://www.shuquge.com\"+result}</js>"
+        },
+        "ruleContent": {
+            "content": "<js>tmp=baseUrl;if (tmp.includes(\"mhtwx.la\")){java.getString(\"class.content@textNodes\")}else if (tmp.includes(\"sizhicn.com\")){java.getString(\"class.showtxt@textNodes\")}else if (tmp.includes(\"33yq.com\")){java.getString(\"id.content@tag.p@html\")}else if (tmp.includes(\"daomengren.com\")){java.getString(\"id.content@tag.p@html\")}else if (tmp.includes(\"biquge.info\")){java.getString(\"id.content@textNodes\")}else if (tmp.includes(\"23us.com\")){java.getString(\"id.contents@textNodes\")}else {java.getString(\"@css:#contents,#content,id.cp_content,#nr@html\")}</js>",
+            "nextContentUrl": "",
+            "replaceRegex": "##(?i)(?<=^|\\n)[^\\n]*(请各位书友)[^\\n]*(?:\\n|$)|(?<=^|\\n)\\h*(请记住本书首发|手机用户请到|喜欢{{book.name}}请大家收藏|https?://[^\\n\\u4e00-\\u9fa5]+)[^\\n]*(?:\\n|$)|^\\h*(一秒记住).+\\n|\\n[^\\n\\u4e00-\\u9fa5]+$|(?<=\\n)\\h*(※){6,}(\\n[^\\n]+){1,5}$"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "<js>java.get(\"author\")</js>",
+            "bookList": "<js>xx=result.match(/[^\"]+sources\\.htm/)[0];aa=result.match(/\"title\":\"([^\"]+)/)[1];bb=result.match(/\"author_name\":\"([^\"]+)/)[1];cc=result.match(/\"cover\":\"([^\"]+)/)[1];dd=result.match(/\"description\":\"([^\"]+)/)[1];ee=result.match(/\"book_status\":\"([^\"]+)/)[1];java.put(\"title\",aa);java.put(\"author\",bb);java.put(\"cover\",cc);java.put(\"desc\",dd);java.put(\"status\",ee);result=java.ajax(\"http://info.chnsmoker.com/\"+xx)</js>$.data[?(@.site_name!=\"2otea\")][?(@.site_name!=\"147xs\")][?(@.site_name!=\"slsy\")][?(@.site_name!=\"dhzwxs\")][?(@.site_name!=\"sqsxs\")][?(@.site_name!=\"asxsw\")]",
+            "bookUrl": "{{$.site_name}}.chnsmoker.com{{$.chapter_path}}<js>result=result.replace(/^(bqg|ddxs|xbqg|147xs)(?=\\.)/,\"http://01\").replace(/^(ddxscc|dmrxs|mht|slsy|sqg)(?=\\.)/,\"http://02\").replace(/^(asxsw|bxwx|dyxs|31xs|386xs)(?=\\.)/,\"http://03\").replace(/^(dhzwxs|sqsxs|33yqxs)(?=\\.)/,\"http://04\").replace(/^(uusmxs|hwmxs)(?=\\.)/,\"http://05\")</js>",
+            "coverUrl": "<js>\"http://info.chnsmoker.com:80\"+java.get(\"cover\")</js>",
+            "intro": "<js>String(java.get(\"desc\")).replace(/\\\\n/g,\"\")</js>",
+            "kind": "{{$.site_cname}}<js>result+\",\"+java.get(\"status\")</js>",
+            "lastChapter": "{{$.site_cname}}▪{{$.last_updated_at}}▪{{$.last_chapter_name}}##^([\\da-zA-Z]?.{2,4})(?<![小中]).*▪\\d{2}(\\S{8}) \\S{8}▪##$1▪$2▪",
+            "name": "<js>java.get(\"title\")</js>"
+        },
+        "ruleToc": {
+            "chapterList": "<js>tmp=baseUrl;if (tmp.includes(\"147xs.org\")){java.getElement(\"class.list-striped@tag.a\")}else if (tmp.includes(\"shuquge.com\")){java.getElement(\"class.listmain@tag.a\")}else if (tmp.includes(\"01xs.com\")){java.getElement(\"class.chapterlist@tag.a\")}else if (tmp.includes(\"mht\")){java.getElement(\"class.novel_list@tag.a\")}else if (tmp.includes(\"23us.com\")){java.getElement(\"id.at@tag.a\")}else {java.getElement(\"id.list@tag.a\")}</js>",
+            "chapterName": "text##^([↑↓]).+\\1$|^加入书架$|{{book.name}}列表|(?<=(\\d{1,5})章\\h)\\1[、：，]?|(?<!^|[章卷部集]\\h?|[\\u4e00-\\u9fa5]、)[（［【\\{\\[\\(](?!(?:[一二三四五六七八九十]{1,3}|\\d{1,3}|[上中下完终续])[）］】\\}\\]\\)])[^（［【\\{\\[\\(]+|^(?=请\\w{0,2}假|求\\w{0,3}票|[三四五六七八九十加爆补]更|解释|[\\u4e00-\\u9fa5][终末月](感言|总结)|上架|推[封荐]|新书)\\S{2,}$|\\h\\S*(?:第\\w更|加更|求\\w{1,2}票)$",
+            "chapterUrl": "href",
+            "isVip": "",
+            "updateTime": "href<js>baseUrl+result</js>"
+        },
+        "searchUrl": "http://api.chnsmoker.com:19527/search?page=&pagesize=15&keyword={{key}}",
+        "weight": 0
+    }
+]

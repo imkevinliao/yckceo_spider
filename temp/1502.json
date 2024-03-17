@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "其他大佬做的，带发现。",
+        "bookSourceGroup": "⚡ 优质",
+        "bookSourceName": "⚡ 兔九三",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.tu93.com",
+        "bookUrlPattern": "",
+        "customOrder": 32,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄幻奇幻::/xuanhuan?order=all&page={{page}}\n武侠仙侠::/xianxia?order=all&page={{page}}\n都市言情::/dushi?order=all&page={{page}}\n历史军事::/lishi?order=all&page={{page}}\n科幻传奇::/kehuan?order=all&page={{page}}\n恐怖灵异::/kongbu?order=all&page={{page}}\n其他类型::/qita?order=all&page={{page}}\n全本小说::/quanben?order=all&page={{page}}",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4080.0 Safari/537.36 Edg/82.0.453.0\"\n}",
+        "lastUpdateTime": 1673932692427,
+        "loginUrl": "",
+        "respondTime": 32945,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "init": "",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##..:.*|\\s",
+            "lastChapter": "[property$=latest_chapter_name]@content##[\\(（【].*?[求更票谢乐发订合补加].*?[】）\\)]",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#htmlContent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##第.*章.*|，最快更新最新章节！|.*完整章节\\)|[\\(（]本章完[\\)）].*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "td.2@text",
+            "bookList": "tbody tr!0",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##https://statics.tu93.com/$2/$1/$1s.jpg###",
+            "kind": "td.4:3@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".col-md-10",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##https://statics.tu93.com/$2/$1/$1s.jpg###",
+            "intro": "p.1@text",
+            "kind": "p.3@text##.*：",
+            "lastChapter": "a.2@text##[\\(（【].*?[求更票谢乐发订合补加].*?[】）\\)]",
+            "name": "a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".col-md-3 a",
+            "chapterName": "text##[\\(（【].*?[求更票谢乐发订合补加].*?[】）\\)]",
+            "chapterUrl": "href",
+            "updateTime": ""
+        },
+        "searchUrl": "/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

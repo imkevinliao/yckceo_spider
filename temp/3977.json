@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceName": "读乐星空",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://z.dlxk.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"全部\",\"url\":\"https://z.dlxk.com/category\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"全部-连载\",\"url\":\"https://z.dlxk.com/category/?status=s-lz\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"全部-完结\",\"url\":\"https://z.dlxk.com/category/?status=s-wj\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现言\",\"url\":\"https://z.dlxk.com/xy\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现言-连载\",\"url\":\"https://z.dlxk.com/xy/?status=s-lz\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现言-完结\",\"url\":\"https://z.dlxk.com/xy/?status=s-wj\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古言\",\"url\":\"https://z.dlxk.com/gy\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"古言-连载\",\"url\":\"https://z.dlxk.com/gy/?status=s-lz\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古言-完结\",\"url\":\"https://z.dlxk.com/gy/?status=s-wj\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"轻小说\",\"url\":\"https://z.dlxk.com/qxs\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"轻小说-连载\",\"url\":\"https://z.dlxk.com/qxs/?status=s-lz\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"轻小说-完结\",\"url\":\"https://z.dlxk.com/qxs/?status=s-wj\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]",
+        "lastUpdateTime": 0,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".book-info .author a@text",
+            "intro": "div.intro@html&&.tags a@text",
+            "kind": "a.category@text",
+            "lastChapter": ".directory a@text",
+            "name": "h1@text",
+            "tocUrl": ".directory a@href",
+            "wordCount": "p.status@text"
+        },
+        "ruleContent": {
+            "content": "p:nth-of-type(n+2)@text##章节评论(.*)|点击加载下一章"
+        },
+        "ruleExplore": {
+            "author": "a.book-author@text",
+            "bookList": "li",
+            "bookUrl": "a.ba@href",
+            "coverUrl": "img@src",
+            "intro": "p.list-intro@text",
+            "kind": "i.category@text",
+            "name": "a.ba@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.book-author@text",
+            "bookList": "li",
+            "bookUrl": "a.ba@href",
+            "checkKeyWord": "我",
+            "coverUrl": "img@src",
+            "intro": "p.list-intro@text",
+            "kind": ".list-tags i@text",
+            "name": "a.ba@text"
+        },
+        "ruleToc": {
+            "chapterList": ".border-t a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://z.dlxk.com/search?k={{key}}",
+        "weight": 0
+    }
+]

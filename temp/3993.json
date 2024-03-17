@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "码字阅读网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.maziyd.com",
+        "bookUrlPattern": "https?://m.maziyd.com/book/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/category/0_0_0_{{page}}_0_0_0.html\n言情小说::/category/0_0_0_{{page}}_2_0_0.html\n校园小说::/category/0_0_0_{{page}}_3_0_0.html\n历史小说::/category/0_0_0_{{page}}_4_0_0.html\n仙侠奇缘::/category/0_0_0_{{page}}_5_0_0.html\n推理小说::/category/0_0_0_{{page}}_6_0_0.html\n武侠小说::/category/0_0_0_{{page}}_7_0_0.html\n军事小说::/category/0_0_0_{{page}}_8_0_0.html\n玄幻小说::/category/0_0_0_{{page}}_9_0_0.html\n科幻小说::/category/0_0_0_{{page}}_{{page}}0_0_0.html\n全部::/category/0_0_0_{{page}}_5_0_0.html\n男频::/category/1_0_0_{{page}}_5_0_0.html\n女频::/category/2_0_0_{{page}}_5_0_0.html",
+        "header": "{\"referer\": \"{{source.getKey()}}\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693728316373,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.目录@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}"
+        },
+        "ruleContent": {
+            "content": "@js:\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者内容正在手打中，请稍后访问~\"}",
+            "nextContentUrl": "text.下一@href"
+        },
+        "ruleExplore": {
+            "author": "a.-1@text",
+            "bookList": ".CGsectionTwo-right-content-unit",
+            "bookUrl": "a.0@href",
+            "intro": "p.-2@text",
+            "kind": "p.-1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".search-card",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "intro": ".sc-content@text",
+            "kind": "span.-1@text",
+            "lastChapter": "span.-2@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "https://m.maziyd.com/search/,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

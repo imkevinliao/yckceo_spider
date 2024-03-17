@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "笔趣",
+        "bookSourceName": "笔趣阁②",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bswtan.com/",
+        "bookUrlPattern": "https://www.bswtan.com/\\d+/\\d+/",
+        "customOrder": -230280,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xiaoshuo1/index{{page}}.html\n修真小说::/xiaoshuo2/index{{page}}.html\n都市小说::/xiaoshuo3/index{{page}}.html\n穿越小说::/xiaoshuo4/index{{page}}.html\n网游小说::/xiaoshuo5/index{{page}}.html\n科幻小说::/xiaoshuo6/index{{page}}.html",
+        "lastUpdateTime": 1644153801848,
+        "loginUrl": "",
+        "respondTime": 80292,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作者：",
+            "coverUrl": "id.fmimg@tag.img.0@src",
+            "intro": "id.intro@tag.p.0@text",
+            "kind": "id.info@tag.p.2@text##更新时间：",
+            "lastChapter": "id.info@tag.p.3@a@text",
+            "name": "id.info@tag.h1.0@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "tag.dt@span@text",
+            "bookList": "class.item",
+            "bookUrl": "tag.dt@a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.dd@text",
+            "name": "tag.dt@a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "tag.td.0@tag.a.0@href",
+            "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.bswtan.com/d/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "lastChapter": "tag.td.1@tag.span.0@tag.a.0@text##正文",
+            "name": "tag.td.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.bswtan.com/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

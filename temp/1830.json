@@ -1,0 +1,29 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "耽美小说",
+        "bookSourceUrl": "http://www.guichew.com",
+        "enable": false,
+        "ruleBookContent": "class.content@p@textNodes",
+        "ruleBookLastChapter": "class.section-list fix.0@tag.li.0@a@text",
+        "ruleChapterList": "class.section-list fix.1@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrlNext": "option@value",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.imgbox@img@src",
+        "ruleFindUrl": "总排行榜::http://www.guichew.com/rank/\n全部小说::http://www.guichew.com/sorts/searchPage/\n完本小说::http://www.guichew.com/quanben/sorts/searchPage/\n玄幻魔法::http://www.guichew.com/sorts/1/searchPage/\n武侠修真::http://www.guichew.com/sorts/2/searchPage/\n都市言情::http://www.guichew.com/sorts/3/searchPage/\n历史军事::http://www.guichew.com/sorts/4/searchPage/\n科幻灵异::http://www.guichew.com/sorts/5/searchPage/\n游戏竞技::http://www.guichew.com/sorts/6/searchPage/",
+        "ruleIntroduce": "class.m-desc xs-show@textNodes",
+        "ruleSearchAuthor": "class.s4@text|dt@span@text",
+        "ruleSearchCoverUrl": "tag.a.0@href<js>'http://img.guichew.com'+String(result).replace(/.*?(\\d*?)(\\d{1,3})\\//,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+        "ruleSearchIntroduce": "dd@a@textNodes#\\(|\\)",
+        "ruleSearchKind": "class.s1@text#\\[|]",
+        "ruleSearchLastChapter": "class.s3@a@text",
+        "ruleSearchList": "class.txt-list.0@li!0|class.item",
+        "ruleSearchName": "class.s2@a@text|dt@a@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://www.guichew.com/search/@searchkey=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

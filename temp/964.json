@@ -1,0 +1,28 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "说书吧",
+        "bookSourceUrl": "https://m.shuoshu8.com",
+        "enable": true,
+        "ruleBookAuthor": "class.options@tag.span.0@text#作者：",
+        "ruleBookContent": "id.htmlContent@textNodes#小说阅读_",
+        "ruleBookKind": "class.title@tag.a.1@text",
+        "ruleBookLastChapter": "class.update@tag.a.0@text",
+        "ruleBookName": "id.info@tag.h1@text",
+        "ruleChapterList": "<js>\njava.getElements(\"class.book_list@tag.li\")\n.toArray()\n.sort()\n.map(x=>x)\n</js>",
+        "ruleChapterName": "tag.a@text",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "class.pic@tag.img@src",
+        "ruleIntroduce": "class.bookinfo_intro@textNodes#各位书友.*",
+        "ruleSearchAuthor": "class.author.0@text#.*作者：",
+        "ruleSearchCoverUrl": "tag.a.0@href#/(\\d+)_(\\d+)/#http://www.shuoshu8.com/files/article/image/$1/$2/$2s.jpg",
+        "ruleSearchKind": "class.author.0@text#\\|.*",
+        "ruleSearchLastChapter": "class.author.1@text#.*更新：",
+        "ruleSearchList": "class.hot_sale",
+        "ruleSearchName": "class.title@text",
+        "ruleSearchNoteUrl": "tag.a.0@href#/(\\d+)_(\\d+)/#http://www.shuoshu8.com/book/$1/$2/",
+        "ruleSearchUrl": "https://m.shuoshu8.com/s.php@keyword=searchKey&t=1&=搜索|char=utf-8",
+        "serialNumber": 11,
+        "weight": 0
+    }
+]

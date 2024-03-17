@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "⭐孤星小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.gxhjcn.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "玄幻魔法::/sort/1/{{page}}/\n武侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n历史军事::/sort/4/{{page}}/\n科幻灵异::/sort/5/{{page}}/\n游戏竞技::/sort/6/{{page}}/\n女生小说::/sort/7/{{page}}/\n其他类型::/sort/8/{{page}}/",
+        "header": "{\"referer\":\"http://www.gxhjcn.com\"}",
+        "lastUpdateTime": 1680695402769,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 5100,
+        "ruleBookInfo": {
+            "author": ".d_title@a@text",
+            "name": ".d_title@h1@text"
+        },
+        "ruleContent": {
+            "content": "#TextContent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": "#sitebox@dl",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@data-original",
+            "intro": ".book_des@text",
+            "kind": "span.0@text",
+            "lastChapter": ".book_other@a@text",
+            "name": "h3@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.2@text",
+            "bookList": "#nr",
+            "bookUrl": "h3@a@href",
+            "checkKeyWord": "重生",
+            "coverUrl": "img@data-original",
+            "intro": ".book_des@text",
+            "kind": "span.0@text",
+            "lastChapter": ".book_other@a@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterList@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

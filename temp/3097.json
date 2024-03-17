@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "★APP-5★",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://47.56.207.234",
+        "bookUrlPattern": "http://47.56.207.234/v3/novel/index@novelId=.*&userId=0",
+        "customOrder": 83,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 0,
+        "ruleBookInfo": {
+            "author": "$.data.n.author",
+            "coverUrl": "$.data.n.pic",
+            "intro": "$.data.n.desc",
+            "kind": "$.data.n.tags",
+            "lastChapter": "$.data.n.lcName",
+            "name": "$.data.n.name@put:{id:$.data.n.nId}",
+            "tocUrl": "http://47.56.207.234/v3/novel/chapter,{\n  \"charset\": \"utf8\",\n  \"method\": \"POST\",\n  \"body\": \"novelId={$.data.n.nId}&userId=0\"\n}"
+        },
+        "ruleContent": {
+            "content": "$.data.c.content##\\(未完待续。\\)",
+            "imageStyle": "0.0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$..ns[*]",
+            "bookUrl": "http://47.56.207.234/v3/novel/index,{\n  \"charset\": \"utf8\",\n  \"method\": \"POST\",\n  \"body\": \"novelId={$.nId}&userId=0\"\n}",
+            "coverUrl": "$.pic",
+            "intro": "$.desc",
+            "kind": "$.classify",
+            "name": "$.name",
+            "wordCount": "$.wordCnt"
+        },
+        "ruleToc": {
+            "chapterList": "$..cs[*]",
+            "chapterName": "$.name",
+            "chapterUrl": "http://47.56.207.234/v3/novel/read,{\n  \"charset\": \"utf8\",\n  \"method\": \"POST\",\n  \"body\": \"novelId=@get:{id}&userId=0&chapterId={{$.cid}}\"\n}"
+        },
+        "searchUrl": "http://47.56.207.234/v3/search/keyword,{\n  \"charset\": \"utf8\",\n  \"method\": \"POST\",\n  \"body\": \"userId=0&keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

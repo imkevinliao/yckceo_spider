@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉 精选 🎉",
+        "bookSourceName": "🎉奇快文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qikuaiwx.com/",
+        "bookUrlPattern": "https://www.qikuaiwx.com/wenxue/\\d+.html",
+        "customOrder": 921,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1646766583856,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@a@text",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
+            "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "id.bookdetail@id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##本小说.*无广告免费阅读。|：。：|一秒记住.*免费阅读！|.*第.*章.*",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.s4@a@text",
+            "bookList": "class.novelslist2@ul@li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "",
+            "kind": "class.s6@text",
+            "lastChapter": "class.s3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "class.s2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+        },
+        "ruleToc": {
+            "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.qikuaiwx.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

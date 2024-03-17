@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceUrl": "https://m.sobiquge.com",
+        "bookSourceType": "0",
+        "bookSourceName": "笔趣阁",
+        "bookSourceGroup": "gone",
+        "bookSourceComment": "gone",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/search.php?q={{key}}&p={{page}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": -88888927,
+        "lastUpdateTime": 1638696814551,
+        "ruleSearch": {
+            "bookList": ".result-item",
+            "name": ".result-game-item-title-link span@text",
+            "author": "p:nth-of-type(1) span:nth-of-type(2)@text",
+            "kind": "p:nth-of-type(2) span:nth-of-type(2)@text##小说|\\s.*",
+            "lastChapter": "tag.a.-1@text",
+            "intro": "p.3@text&&p.result-game-item-desc@textNodes",
+            "coverUrl": "img.0@src",
+            "bookUrl": "a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "h2 a@text",
+            "author": "p.2@text",
+            "lastChapter": "p.6 a@text",
+            "intro": "p.5@text&&div.intro_info@text##(^|[。！？]+[”」）】]?)##$1<br>",
+            "tocUrl": "h2 a@href##^##https://www.sobiquge.com"
+        },
+        "ruleToc": {
+            "chapterList": "#list a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "#content.-1@html##\\s.*https[\\s\\S]+"
+        }
+    }
+]

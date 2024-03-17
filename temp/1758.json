@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceGroup": "📜",
+        "bookSourceName": "📜鬼怪屋▪️🦇",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.guiguaiwu.com/##遇知",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"🦇鬼故事🦇\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"短篇\",\"url\":\"/list-1529-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"长篇\",\"url\":\"/list-1528-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"校园\",\"url\":\"/list-1527-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"医院\",\"url\":\"/list-1526-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"民间\",\"url\":\"/list-1525-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"家里\",\"url\":\"/list-1524-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"真实灵异\",\"url\":\"/list-1523-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🦇有声鬼故事🦇\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"张震讲鬼故事\",\"url\":\"/list-1557-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"深夜小茶馆\",\"url\":\"/list-1558-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"🦇经典系列🦇\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"鬼吹灯\",\"url\":\"/list-1533.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"盗墓笔记\",\"url\":\"/list-1532.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"茅山后裔\",\"url\":\"/list-1531.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"青囊尸衣\",\"url\":\"html/rmxs/qnsy_1559.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}\n]",
+        "lastUpdateTime": 1680956501144,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".bloginfo span.0@text",
+            "coverUrl": "id.MyContent@img@src",
+            "intro": ".con_info@text",
+            "kind": ".bloginfo span.2@text&&.bloginfo span.1@text##\\【|\\】",
+            "lastChapter": "",
+            "name": "h1@text",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<js>\n      txt=java.getElements(\"#MyContent\");\n      a=java.getElements(\"audio\").attr(\"src\");\n  if(a!=\"\")\n      java.startBrowser(a,title);\n   else \n       txt;\n</js>",
+            "imageDecode": "",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": ".bloginfo span.0@text",
+            "bookList": ".lbox ul li||.nav li",
+            "bookUrl": "a.0@href",
+            "coverUrl": ".imgscale img@src",
+            "intro": ".blogtext@text",
+            "kind": "i@text&&.bloginfo span.1@text",
+            "name": ".blogtitle@text||a@text",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".timebox2 ul li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "校北",
+            "intro": "span.0@text",
+            "name": "a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".content_box||.txt-list-row5@li@a",
+            "chapterName": ".con_tilte@text||text",
+            "chapterUrl": "href",
+            "isPay": "",
+            "isVolume": "",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.guiguaiwu.com/plus/search/?page={{page}}&key={{key}}&show=title&tempid=1&tbname=news&Submit=%E6%90%9C%E7%B4%A2",
+        "weight": 0
+    }
+]

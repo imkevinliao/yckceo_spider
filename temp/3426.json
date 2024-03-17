@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "//晋江小说很全，但是正文很多字母代表文字，影响阅读，一般",
+        "bookSourceGroup": "⌨自制",
+        "bookSourceName": "⌨第九中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.dijiuben.com##旅途",
+        "customOrder": -2086052294,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "[{\"title\":\"完本\",\"url\":\"/quanben/sort/<,{{page}}/>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/sort/1_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠\",\"url\":\"/sort/2_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/sort/3_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越\",\"url\":\"/sort/4_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/sort/5_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/sort/6_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"耽美\",\"url\":\"/sort/18_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"体育\",\"url\":\"/sort/20_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/sort/21_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"军事\",\"url\":\"/sort/22_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"现实\",\"url\":\"/sort/23_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/sort/7_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"精选\",\"url\":\"/sort/8_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"国学\",\"url\":\"/sort/9_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"名著\",\"url\":\"/sort/10_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"诗歌\",\"url\":\"/sort/11_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"传记\",\"url\":\"/sort/12_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"文学\",\"url\":\"/sort/13_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/sort/7_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"金庸\",\"url\":\"/sort/14_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古龙\",\"url\":\"/sort/15_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"梁羽生\",\"url\":\"/sort/16_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"温瑞安\",\"url\":\"/sort/17_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"轻小说\",\"url\":\"/sort/19_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\"referer\":\"https://m.dijiuben.com\",\n\t\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\",\n\"Cookie\":\"Hm_lvt_0e6afdc519cf20e6168e9657eb5692e3=1684375177; _pk_id.11.7413=6cba3d6ce98d9cfc.1684375177.; _pk_ses.11.7413=1; Qs_lvt_509500=1684375177; Hm_lpvt_0e6afdc519cf20e6168e9657eb5692e3=1684380584; Qs_pv_509500=3255600612752199700%2C1830767956967005200%2C599700248832171900%2C3633679383130351600%2C1308703629282974200\"}",
+        "lastUpdateTime": 1684752965486,
+        "loginCheckJs": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@text.作者：@text",
+            "coverUrl": ".block_img2@img@src",
+            "init": "",
+            "intro": "class.intro_info@p@text",
+            "kind": "{{@@.block_txt2 a.3@text}}",
+            "lastChapter": "{{@@.block_txt2 p.-1@a@text}}",
+            "name": "h2@text",
+            "tocUrl": "{{baseUrl}}##m\\.",
+            "wordCount": "p@text.更新：@text&&p@text.状态：@text##更新：|状态：|\\n"
+        },
+        "ruleContent": {
+            "content": "id.content@p@html##喜欢.*更新速度最快。",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": ".block_txt a.-2@text",
+            "bookList": ".cover .block",
+            "bookUrl": "a.0@href",
+            "coverUrl": ".block_img@img@src",
+            "intro": ".block_txt a.-1@text",
+            "name": "h2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.2@text",
+            "bookList": "div.SHsectionThree-middle@p",
+            "bookUrl": "span.1@a@href",
+            "checkKeyWord": "",
+            "coverUrl": "span.1@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://cover.dijiushu.net/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "span.0@text##\\[|\\]",
+            "name": "span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>result.replace(/\\n/g,'').replace(/.*?安卓版.*?dd>/,'').replace(/<dt.*/,'')</js>\ndd@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}&searchtype=all&submit=\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

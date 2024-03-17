@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "♥ Li ♥",
+        "bookSourceName": "【久久小说】",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.txt909.com",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "武侠仙侠::/txt/list1-{{page}}.html\n言情小说::/txt/list2-{{page}}.html\n玄幻小说::/txt/list3-{{page}}.html\n现代都市::/txt/list4-{{page}}.html\n穿越小说::/txt/list5-{{page}}.html\n科幻小说::/txt/list6-{{page}}.html\n网游竞技::/txt/list7-{{page}}.html\n美文同人::/txt/list8-{{page}}.html\n历史架空::/txt/list9-{{page}}.html\n惊悚悬疑::/txt/list10-{{page}}.html\n管理哲学::/txt/list11-{{page}}.html\n学习资料::/txt/list12-{{page}}.html\n耽美百合::/txt/list14-{{page}}.html\n完本小说::/full/{{page}}.html",
+        "lastUpdateTime": 1627376650816,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+            "lastChapter": "",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "class.downAddress_li.1@a@href",
+            "wordCount": ".downInfoRowL@tag.li.3@textNodes"
+        },
+        "ruleContent": {
+            "content": "#view_content_txt@textNodes",
+            "imageStyle": "0",
+            "replaceRegex": "##想.*免.*费.*看.*完.*整.*"
+        },
+        "ruleExplore": {
+            "author": ".mainGreen@text##.*作者.|文件.*",
+            "bookList": ".listbg",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href##.+\\D((\\d+)\\d{3})\\D##https://img.txt909.com/$2/$1/$1s.jpg###",
+            "intro": "tag.div.1@text##.*简介.|\\s",
+            "kind": "tag.span.1:2@text##\\[|\\]|小说|\\s.*",
+            "name": "a@text",
+            "wordCount": ".mainGreen@text##.*大小.|下载.*"
+        },
+        "ruleSearch": {
+            "author": "##作者：([^<]+)<##$1###",
+            "bookList": ".searchTopic",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href##.+\\D((\\d+)\\d{3})\\D##https://img.txt909.com/$2/$1/$1s.jpg###",
+            "intro": "",
+            "kind": "",
+            "name": "a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".read_list a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

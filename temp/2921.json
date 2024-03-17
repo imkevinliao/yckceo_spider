@@ -1,0 +1,25 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "涮书",
+        "bookSourceUrl": "https://m.shuanshu.com",
+        "enable": true,
+        "ruleBookContent": "id.htmlContent@html|id.nr1@html",
+        "ruleChapterList": "ol@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "@js:\nvar id = baseUrl.match(/(\\d+).htm/)[1];\nxid=Math.floor(id/1000);\n'http://images.shuanshu.com/'+xid+'/'+id+'/'+id+'s.jpg'\n'http://www.shuanshu.com/files/article/html/'+xid+'/'+id+'/index.html'",
+        "ruleChapterUrlNext": "",
+        "ruleContentUrl": "href",
+        "ruleFindUrl": "浪漫言情::/list/1-searchPage.htm&&古代言情::/list/2-searchPage.htm&&穿越架空::/list/3-searchPage.htm&&耽美同人::/list/4-searchPage.htm&&青春校园::/list/5-searchPage.htm&&奇幻魔法::/list/6-searchPage.htm&&职场总裁::/list/7-searchPage.htm&&军婚高干::/list/9-searchPage.htm&&港台小本::/list/10-searchPage.htm&&",
+        "ruleIntroduce": "class.intro_info@text",
+        "ruleSearchAuthor": "tag.a.2@text",
+        "ruleSearchCoverUrl": "tag.a.1@href@js:\nvar id = result.match(/(\\d+).htm/)[1];\nxid=Math.floor(id/1000);\n'http://images.shuanshu.com/'+xid+'/'+id+'/'+id+'s.jpg'",
+        "ruleSearchKind": "tag.a.0@text",
+        "ruleSearchList": "class.line",
+        "ruleSearchName": "tag.a.1@text",
+        "ruleSearchNoteUrl": "tag.a.1@href",
+        "ruleSearchUrl": "https://m.shuanshu.com/s.php@type=articlename&s=searchKey&submit=|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

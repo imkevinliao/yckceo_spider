@@ -1,0 +1,64 @@
+[
+    {
+        "bookSourceComment": "v = String(source.getVariable())\nv.indexOf(\"源站\") == -1\n  ? (java.toast(\"\\n❗未设置源变量❗\\n使用默认设置\"),\n    (v = \"设置源站[1-3]：1\"),\n    source.setVariable(v))\n  : \"\";\nvar v = v.match(/\\d$/)[0]\n  link = \"https://myaavideonet.neocities.org/aabook.html\",\n  J = org.jsoup.Jsoup.parse(java.ajax(link)),\n  host=\"https://fqbook.cyou.cc\"\n  mail1 = \"waimanhua@gmail.com\",\n  mail2 = \"momodaqqq@gmail.com\",\n  mail3 = \"bang985211@gmail.com\",\n  wiki = \"https://github.com/momodaqqq/qscxx/wiki\";\nhost =\n  1 == v\n    ? String(J).match(/url\\[0\\]=\"(.*)\"/)[1]\n    : 2 == v\n    ? String(J).match(/url\\[1\\]=\"(.*)\"/)[1]\n    : 3 == v\n    ? String(J).match(/url\\[2\\]=\"(.*)\"/)[1]\n    : host;",
+        "bookSourceGroup": "🏴 墨裳",
+        "bookSourceName": "🚬 疯情书库🚩",
+        "bookSourceType": 0,
+        "bookSourceUrl": "歪歪斜斜的字眼里，满篇都是吃人二字-----鲁迅",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 454,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "<js>\neval(String(source.bookSourceComment));\njava.log(host)\nlist=[{title:\"🔥-------------榜-------🔥-------单-------------🔥\",url:\"\",style:{layout_flexBasisPercent:1,layout_flexGrow:1}},{title:\"点击\",url:\"/ranking.php?t=click\",style:{layout_flexBasisPercent:0.25,layout_flexGrow:1}},{title:\"新书\",url:\"/ranking.php?t=newbook\",style:{layout_flexBasisPercent:0.25,layout_flexGrow:1}},{title:\"字数\",url:\"/ranking.php?t=totalword\",style:{layout_flexBasisPercent:0.25,layout_flexGrow:1}},{title:\"✣　　　　　  ✣  分　　类  ✣  　　　　　✣\",url:\"\",style:{layout_flexBasisPercent:1,layout_flexGrow:1}},{title:\"玄幻\",url:\"/category.php?t=xuanhuan&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"职场\",url:\"/category.php?t=zhichang&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"古典\",url:\"/category.php?t=gudian&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"惊悚\",url:\"/category.php?t=jingsong&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"网游\",url:\"/category.php?t=wangyou&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"乡土\",url:\"/category.php?t=xiangtu&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"历史\",url:\"/category.php?t=lishi&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"耽美\",url:\"/category.php?t=danmei&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"女尊\",url:\"/category.php?t=nvzun&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"穿越\",url:\"/category.php?t=chuanyue&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"同人\",url:\"/category.php?t=tongren&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"校园\",url:\"/category.php?t=xiaoyuan&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"言情\",url:\"/category.php?t=yanqing&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"官场\",url:\"/category.php?t=guanchang&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"异能\",url:\"/category.php?t=yineng&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"都市\",url:\"/category.php?t=dushi&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"武侠\",url:\"/category.php?t=wuxia&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"仙侠\",url:\"/category.php?t=xianxia&p={{page}}\",style:{layout_flexBasisPercent:0.2,layout_flexGrow:1}},{title:\"单篇\",url:\"/category.php?t=danpian&p={{page}}\",style:{layout_flexBasisPercent:0.29}}]\n\nlist.forEach(x=>{x.url!=\"\"?x.url=host+x.url:\"\"})\nJSON.stringify(list)\n</js>",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\"\n}",
+        "lastUpdateTime": 1672880942086,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 13353,
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "cover",
+            "init": "<js>\neval(String(source.bookSourceComment))\nvar J = org.jsoup.Jsoup.parse(result),\n  url = baseUrl.replace(/book-/, \"chapterList-\")\n  book = {\n    name: String(J.select(\".book_name a\").text())\n      .replace(/(全文|小说|免费阅读|最新章节).*|[\\(（].*[）\\)]/g, ''),\n    author: J.select(\".author\").text(),\n    kind: String(J.select(\".xinxi_content span\").text().split(\" \")[1])\n      .replace(/[中已]/g, \"\")\n      + \",\" +\n      J.select(\".xinxi_content span\").text().split(\" \")[0]\n      + \",\" +\n      J.select(\".dt_r\").text().split(\" \")[0],\n    word: String(J.select(\".xinxi_content span\").text().split(\" \")[2])\n      .replace(/字/, \"\"),\n    latest: String(J.select(\".new_zhangjie1 .dt_l a\").text())\n      .replace(/^(正文|VIP章节|最新章节)?(\\s+|_)/g, \"\")\n      .replace(/[\\(（【].*?[求更谢乐发订合贺补加推票章字修防kK].*/g, \"\")\n      + \"·\" +\n      String(J.select(\".new_zhangjie1 .dt_r\").text()).replace(/\\s.*/, \"\")\n      + \"·\\[\" +\n      String(org.jsoup.Jsoup.parse(java.ajax(url)).select(\".section_list li\"))\n        .split(\"\\n\").length\n      + \"\\]\",\n    intro: \"<br>\" + String(J.select(\".jianjieneirong\").html()).replace(/\\s/g,\"<br>\"),\n    cover: host + \"/\" + J.select(\".book_info_top_l img\").attr(\"src\"),\n    url: url\n  };\n//java.log(JSON.stringify(book))\nbook;\n</js>",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "latest",
+            "name": "name",
+            "tocUrl": "url",
+            "wordCount": "word"
+        },
+        "ruleContent": {
+            "content": "<js>\njava\n  .ajax(\n    baseUrl\n      .replace(\"read-\", \"_getcontent.php?id=\")\n      .replace(\".html\", \"&v=\" + result.match(/&v=(.*?)\"/)[1])\n  )\n  .replaceAll(\"<style.*style>\", \"\")\n  .replaceAll(\"<([^<]*?)class(.*?)</(.*?)>\", \"\");\n</js>",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "td.3@text",
+            "bookList": "tbody tr",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##book-(\\d+).*##img-$1.jpg###",
+            "kind": "td.1:5@text##\\[|\\]|\\s.*",
+            "name": "a.0@text",
+            "wordCount": "td.4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".zuozhe@text",
+            "bookList": ".sousuojieguo ul li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##book-(\\d+).*##img-$1.jpg",
+            "kind": "",
+            "name": ".biaoti@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\neval(String(source.bookSourceComment))\n1 == v || 2 == v || 3 == v\n  ? (java.put(\"host\",host), java.toast(\"\\n♥已设置源变量♥\\n源站：\" + host))\n  : java.toast(\"\\n❗未设置源变量❗\\n默认：\" + source.bookSourceUrl);\nchapterList = java.getElements(\".section_list li a\");\n</js>\n",
+            "chapterName": "text\n@js:\nresult\n  .replace(/^(正文|VIP章节|最新章节)?(\\s+|_)/g, \"\")\n  .replace(/[\\(（【].*?[求更谢乐发订合贺补加推票章字修防kK].*/g, \"\")",
+            "chapterUrl": "@get:{host}/{{@href}}"
+        },
+        "searchUrl": "<js>\neval(String(source.bookSourceComment));\nhost + \"/search.php?searchword={{key}}\";\n</js>",
+        "variableComment": "❗️邮箱📮：whatisurl@gmail.com❗️\n发送任何任何内容到邮箱获取最新站点",
+        "weight": 0
+    }
+]

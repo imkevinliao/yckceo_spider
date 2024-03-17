@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,优化,源仓库,网页源",
+        "bookSourceName": "懂我小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.dowonet.org/",
+        "bookUrlPattern": "https://m.dowonet.org/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort/1_{{page}}/\n修真小说::/sort/2_{{page}}/\n都市小说::/sort/3_{{page}}/\n历史小说::/sort/4_{{page}}/\n网游小说::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n竞技小说::/sort/7_{{page}}/\n言情小说::/sort/8_{{page}}/\n其他小说::/sort/9_{{page}}/\n小说排行::/top/allvisit_{{page}}/\n完本小说::/wanben/0_{{page}}.html\n新书入库::/top/postdate_{{page}}/",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1685333236247,
+        "loginUrl": "https://m.dowonet.org/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.tab@.p1@text",
+            "coverUrl": "img@src",
+            "intro": ".jj@.p2@text",
+            "kind": "class.tab1@p.0:1@text",
+            "lastChapter": "class.tab@.p3@a@text",
+            "name": "h1.1@text",
+            "wordCount": "class.tab1@p.2@text\n##万##字"
+        },
+        "ruleContent": {
+            "content": "#novelcontent@html",
+            "nextContentUrl": "text.下一@href"
+        },
+        "ruleExplore": {
+            "author": "p.3@text||\n.p3@text",
+            "bookList": ".listtext||\n.content_link",
+            "bookUrl": "a.1@href",
+            "coverUrl": "@js:\"/images/nocover.jpg\"",
+            "kind": "p.0@text\n##\\[|\\]",
+            "name": "p.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".search_list",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/images/nocover.jpg\"",
+            "kind": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

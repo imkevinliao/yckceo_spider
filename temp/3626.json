@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "零点看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.seobishop.com",
+        "bookUrlPattern": "http://www.seobishop.com/ldks/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "排行::/ph/\n收藏::/collect/\n完本::/wanbenxiaoshuo/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1687511833590,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": ".content@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ".txt-list@li",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:\"/images/nopic.gif\"",
+            "kind": "span.0:-1@text",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list@li!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/images/nopic.gif\"",
+            "kind": "span.0:4@text##\\[|\\]",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.seobishop.com/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

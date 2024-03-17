@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "言情阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.yanqinge.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/quanbu/index_{{page}}.html\n古代言情::/gudaiyanqing/index_{{page}}.html\n穿越小说::/chuanyue/index_{{page}}.html\n宫斗小说::/gongdou/index_{{page}}.html\n种田重生::/zhongtianchongsheng/index_{{page}}.html\n仙侠幻情::/xianxiahuanqing/index_{{page}}.html\n现代言情::/xiandaiyanqing/index_{{page}}.html\n总裁小说::/zongcai/index_{{page}}.html\n校园青春::/xiaoyuanqingchun/index_{{page}}.html\n职场励志::/zhichanglizhi/index_{{page}}.html\n高干小说::/gaogan/index_{{page}}.html\n完本小说::/quanbu/finish/index_{{page}}.html\n热门榜单::/quanbu/rank-onclick/index_{{page}}.html\n新书榜单::/quanbu/rank-id/index_{{page}}.html\n更新榜单::/quanbu/rank-newstime/index_{{page}}.html",
+        "lastUpdateTime": 1617346039655,
+        "ruleBookInfo": {
+            "author": "class.BGsectionOne-top-right@class.author@tag.a@text",
+            "coverUrl": "class.BGsectionOne-top-left@img@src",
+            "intro": "class.BGsectionTwo-bottom@text",
+            "kind": "class.BGsectionOne-top-right@class.category@tag.a.0@text&&class.BGsectionOne-top-right@class.time@tag.a.0@text",
+            "lastChapter": "class.BGsectionOne-top-right@class.newestChapter@tag.a.0@text",
+            "name": "class.BGsectionOne-top-right@class.title@text",
+            "tocUrl": "class.BGsectionOne-bottom@tag.a.1@href"
+        },
+        "ruleContent": {
+            "content": "id.C0NTENT@tag.p@text"
+        },
+        "ruleExplore": {
+            "author": "tag.p.1@tag.a.0@text",
+            "bookList": "class.CGsectionTwo-right-content-unit",
+            "bookUrl": "tag.a.0@href",
+            "intro": "tag.p.2@text",
+            "kind": "tag.p.3@text##最近更新 |",
+            "name": "tag.p.0@tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.span.0@tag.a@text",
+            "bookList": "class.SHsectionThree-middle@tag.p",
+            "bookUrl": "tag.a.1@href",
+            "kind": "tag.span.2@tag.a@text",
+            "name": "tag.span.1@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href##$##,{\"webView\":true}",
+            "nextTocUrl": "class.CGsectionTwo-right-bottom-btn@tag.a.1@href"
+        },
+        "searchUrl": "http://www.yanqinge.com/e/search/,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+        "weight": 0
+    }
+]

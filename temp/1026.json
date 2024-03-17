@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔰 普通",
+        "bookSourceName": "🔰 抓书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.zhuashu.net",
+        "customOrder": -292830,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "总榜::/allvisit_{{page}}/\n月榜::/monthvisit_{{page}}/\n周榜::/weekvisit_{{page}}/\n最新::/postdate_{{page}}/\n最近::/lastupdate_{{page}}/\n玄幻::/z1_{{page}}/\n修真::/z2_{{page}}/\n都市::/z3_{{page}}/\n言情::/z4_{{page}}/\n穿越::/z5_{{page}}/\n网游::/z6_{{page}}/\n历史::/z7_{{page}}/\n科幻::/z8_{{page}}/\n恐怖::/z9_{{page}}/\n其他::/z10_{{page}}/\n全本::/full_{{page}}/",
+        "lastUpdateTime": 1630417483950,
+        "ruleBookInfo": {
+            "author": ".block_txt2 p.2@text##.*：",
+            "coverUrl": "",
+            "intro": ".coverjj@html##简介.",
+            "kind": ".block_txt2 p.3:4:5@text##.*：|小说|\\s.*",
+            "lastChapter": ".chapter a.0@text",
+            "name": ".block_txt2 a.0@text",
+            "tocUrl": ".ablum_read a.1@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "#pb_next@href",
+            "replaceRegex": "##退出畅读.*继续阅读。|推荐阅读.*|返回目录|上一页.*下一页|上一页.*下一章"
+        },
+        "ruleExplore": {
+            "author": "a.1@text",
+            "bookList": ".xbk",
+            "bookUrl": "a.0@href",
+            "coverUrl": "",
+            "intro": "span.1@text##\\s",
+            "kind": ".xsm@text##.*\\(|\\)",
+            "lastChapter": "",
+            "name": "a.0@text"
+        },
+        "ruleSearch": {
+            "author": "textNodes##.*\\s",
+            "bookList": ".cover p",
+            "bookUrl": "a.1@href",
+            "coverUrl": "",
+            "kind": "a.0@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n  'charset': 'gbk',\n  'method': 'POST',\n  'body': 's={{key}}&submit='\n}",
+        "weight": 0
+    }
+]

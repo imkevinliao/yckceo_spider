@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "资源",
+        "bookSourceName": "卡夜阁kayege.info",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.kayege.info",
+        "bookUrlPattern": "",
+        "customOrder": -2085958415,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "月榜::https://m.kayege.info/ph/month_{{page}}.html\n总榜::/ph/all_{{page}}.html\n全部::/xclass/0/{{page}}.html\n玄幻::/xclass/1/{{page}}.html\n修真::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n穿越::/xclass/4/{{page}}.html\n网游::/xclass/5/{{page}}.html\n科幻::/xclass/6/{{page}}.html\n其他::/xclass/7/{{page}}.html",
+        "lastUpdateTime": 1631495395265,
+        "loginUrl": "",
+        "respondTime": 681,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "class.imgbox@tag.img@src",
+            "intro": "class.desc@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": "class.fix@tag.p.4@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list@tag.li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "class.s3@tag.a@text",
+            "name": "class.s2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-box.1@class.section-list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.kayege.info/search/,{\"charset\": \"UTF-8\",  \"method\": \"POST\",  \"body\": \"searchkey={{key}}&Submit=搜索\"}",
+        "weight": 0
+    }
+]

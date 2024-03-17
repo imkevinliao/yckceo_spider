@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "//无搜索，使用发现找书或添加网址添加书籍",
+        "bookSourceGroup": "⌨自制",
+        "bookSourceName": "⌨棉花糖小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.heyhuo.com",
+        "bookUrlPattern": "http://www.heyhuo.com/book/\\d+/",
+        "customOrder": -2086087032,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"🏅 排行 🏅\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"总排行榜\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.45}},{\"title\":\"月排行榜\",\"url\":\"/rank/monthvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.45}},{\"title\":\"周排行榜\",\"url\":\"/rank/weekvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.45}},{\"title\":\"收 藏 榜\",\"url\":\"/rank/goodnum/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.45}},{\"title\":\"🎖 分类 🎖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻\",\"url\":\"/sort/1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/sort/2/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/sort/3/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/sort/4/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/sort/5/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏\",\"url\":\"/sort/6/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生\",\"url\":\"/sort/7/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/sort/8/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本\",\"url\":\"/quanben/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1685762811227,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##.*小说阅读.*类型.*作家.*创作,|..小说提供.*|心潮澎湃.*少年不败热血！|《.*》.*",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=lastest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@p@html##。##。<br>",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##————————|;"
+        },
+        "ruleExplore": {
+            "author": ".btm@a@text",
+            "bookList": "id.main@class.hotcontent.-1@class.item",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text##.*小说阅读.*类型.*作家.*创作,|..小说提供.*|心潮澎湃.*少年不败热血！|《.*》.*",
+            "kind": "em.-1@text",
+            "name": "dt @text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "checkKeyWord": "http://www.heyhuo.com/book/4153/"
+        },
+        "ruleToc": {
+            "chapterList": "+#list@dl@a!0",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "备用地址\nhttps://www.haitangsoshu.com",
+        "bookSourceGroup": "🎈  普通",
+        "bookSourceName": "🎈海棠搜书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.haitangsoushu.com",
+        "customOrder": 77,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1624898983982,
+        "ruleBookInfo": {
+            "intro": "<js>\nlist=java.getElements(\"@@class.BGsectionThree-content@li\").toArray();\nintro=java.getElements('#intro').html();\nhref='';text='';\nfor(i in list){\nhref=href+list[i].select('a:eq(1)').attr('href')+'\\n';\ntext=text+'【'+i+'】'+list[i].html()+'\\n';\n}\njava.put('list',href);\nlaiyuan='来源【0】';\nresult='换源列表（编辑简介修改来源的序号，保存刷新，可更改对应的源）\\n'+text+'\\n'+laiyuan+'\\n--------------\\n'+intro\n</js>\n##更新 .*",
+            "tocUrl": "@js:\nlist=java.get('list').split('\\n');\nintro=String(book.customIntro?book.customIntro:book.intro);\ncustomIntro=intro.match(/来源【(\\d+)】/)[1];\nresult=list[customIntro]"
+        },
+        "ruleContent": {
+            "content": "@js:\nfunction d(a, b) {\n            b = java.md5Encode(b);\n            var d = b.substring(0, 16);\n            var e = b.substring(16);\n            return    java.aesBase64DecodeToString(a,e,\"AES/CBC/PKCS5Padding\",d)}\neval(result.match(/(d\\(\"[\\s\\S]+\"\\))\\)/)[1])",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": "@css:.SHsectionThree-middle p:not(.intro)",
+            "bookUrl": "tag.a.0@href",
+            "kind": "tag.a.-1@text",
+            "name": "tag.a.0@text##《|》"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top-chapter@a",
+            "chapterName": "text",
+            "chapterUrl": "href\n@js:\nurl=baseUrl.match(/https%3A%2F%2F(.*?)%2F/)?baseUrl.match(/https%3A%2F%2F(.*?)%2F/)[1]:'';\nresult='https://'+url+result;",
+            "nextTocUrl": "text.下一页@href||text.下一頁@href",
+            "updateTime": ""
+        },
+        "searchUrl": "/s/{{key}}/{{page}}/",
+        "weight": 0
+    }
+]

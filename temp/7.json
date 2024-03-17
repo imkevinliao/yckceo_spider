@@ -1,0 +1,64 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉 精选",
+        "bookSourceName": "🎉 何所忆",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.hsybook.com",
+        "bookUrlPattern": "https://www.hsybook.com/book/\\d+.html",
+        "customOrder": 6,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"/sort/xuanhuanmofa/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠修真\",\"url\":\"/sort/wuxiaxiuzhen/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/sort/dushiyanqing/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/sort/lishijunshi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"恐怖灵异\",\"url\":\"/sort/kongbulingyi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"侦探推理\",\"url\":\"/sort/zhentantuili/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"网游动漫\",\"url\":\"/sort/wangyoudongman/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻小说\",\"url\":\"/sort/kehuanxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"散文诗集\",\"url\":\"/sort/sanwenshici/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他类型\",\"url\":\"/sort/qita/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+        "lastUpdateTime": 1675186316511,
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 83050,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "init": "",
+            "intro": ".intro@html##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##小说|\\s.*",
+            "lastChapter": "[property$=latest_chapter_name]@content##[\\(（【].*?[求更票谢乐发订合补加K].*?[】）\\)]",
+            "name": "[property$=book_name]@content",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*第.*章.*"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "class.table table-striped table-hover@tbody@tr",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##.*?(\\d+)\\.html##$1\n@js:\nresult=String(result)\nresult=`/bookcover/${result.substring(result.length-6,result.length)}.jpg`",
+            "intro": "",
+            "kind": "td.3@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list-group.1@li@a",
+            "chapterName": "text##[\\(（【].*?[求更票谢乐发订合补加K].*?[】）\\)]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.hsybook.com/search.php?search={{key}},{\n\t\"headers\":{\n\t\"Host\":\"www.hsybook.com\",\n\t\"upgrade-insecure-requests\":\"1\",\n\t\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\",\n\t\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\",\n\t\"accept-language\":\"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"\n}}",
+        "weight": 0
+    }
+]

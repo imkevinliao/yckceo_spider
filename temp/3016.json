@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceUrl": "http://m.suyueg.com",
+        "bookSourceType": "0",
+        "bookSourceName": "速阅阁",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://m.suyueg.com/s.php,{\n\"charset\":\"gbk\",\n\"method\":\"POST\",\n\"body\":\"s={{key}}&type=articlename\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": "class.sone",
+            "name": "tag.a.0@text",
+            "author": "tag.a.1@text",
+            "lastChapter": "tag.a.0@href<js>java.ajax('http://m.suyueg.com'+result)</js>class.infotype@tag.a.1@text",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.cataloginfo@tag.h3@text",
+            "author": "class.infotype@tag.a.0@text",
+            "kind": "class.infotype@tag.p.1@text##类型.",
+            "wordCount": "class.infotype@tag.p.2@text##更新时间.",
+            "lastChapter": "class.infotype@tag.a.1@text",
+            "intro": "class.intro@text##本书简介.",
+            "coverUrl": "class.pic@tag.img@src",
+            "tocUrl": "class.infolink@tag.a.1@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@tag.p.0@text"
+        }
+    }
+]

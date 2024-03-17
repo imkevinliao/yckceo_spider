@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biquge.win/",
+        "customOrder": -168,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1631772712784,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#info@p.0@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "#content@html"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "p.1@text##作者：",
+            "bookList": ".result-item",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.0@text",
+            "kind": "p.2@text##类型：",
+            "lastChapter": "{{@p.4@text}}▪️{{@p.3@text##20(\\d\\d)-(\\d+)-(\\d+) (\\d+:\\d+):\\d+##$1.$2.$3 $4}}\n##最新章节：|更新时间：",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.biquge.win/search.php?q={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "W",
+        "bookSourceName": "天籁小说233txt",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.233txt.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1616081943131,
+        "ruleBookInfo": {
+            "wordCount": "id.info@tag.p.1@textNodes##(状 态：|,)"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "##作者：</[\\s\\S]+?<span>([^<]+)</##$1###",
+            "bookList": "class.result-game-item",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p.0@text",
+            "kind": "##类型：</[\\s\\S]+?>([^<]+)小说##$1###",
+            "lastChapter": "##更新时间：</span>[\\s\\S]+?>([^<]+)<[\\s\\S]+?最新章节：[\\S\\s]+?>([^<]+)</##$2•$1###",
+            "name": "h3@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.list@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": ""
+        },
+        "searchUrl": "/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

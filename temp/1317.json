@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自己",
+        "bookSourceName": " 笔下文学bxorg",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bixia.org##自己",
+        "bookUrlPattern": "",
+        "customOrder": 1179,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"榜单分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"周榜\",\"url\":\"/sort/7/week/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月榜\",\"url\":\"/sort/7/month/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总榜\",\"url\":\"/sort/7/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"书型分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/sort/1/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/sort/2/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/sort/3/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/sort/4/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/sort/5/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/sort/6/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生频道\",\"url\":\"/sort/7/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1679908856521,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.author@text",
+            "canReName": "##$##,{\"webView\":true}",
+            "coverUrl": "div.book-boxs img@src",
+            "init": "class.g-detail",
+            "intro": "div.book-dec@html##\\[|\\]|\\+展开",
+            "kind": "p.type@text",
+            "lastChapter": "div:nth-of-type(4) li:nth-of-type(1) a@text",
+            "name": "h2.name@text",
+            "wordCount": "P.time@text##最后更新："
+        },
+        "ruleContent": {
+            "content": "div.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "p.author@text",
+            "bookList": "ul.list-1 li",
+            "bookUrl": "a@href",
+            "coverUrl": "a img@src",
+            "intro": "div.desc@text",
+            "kind": "",
+            "name": "h3.name@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.author@text##\\/ ",
+            "bookList": "ul.list@li",
+            "bookUrl": "a.item@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "span.cate@text##\\[|\\]",
+            "lastChapter": "",
+            "name": "p.name@textNodes",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "ul.list li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://www.bixia.org/ar.php,{\"charset\":\"UTF-8\",\"method\":\"post\",\"body\":\"keyWord={{key}}\"}",
+        "weight": 0
+    }
+]

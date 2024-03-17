@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "new",
+        "bookSourceName": "小说馆",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.guanxs.com/",
+        "bookUrlPattern": "https?://www.guanxs.com/book/\\d+/",
+        "customOrder": -292877,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻小说\",\n\t\"url\":\"https://www.guanxs.com/lists/18\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"奇幻小说\",\n\t\"url\":\"https://www.guanxs.com/lists/19\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"武侠小说\",\n\t\"url\":\"https://www.guanxs.com/lists/20\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"仙侠小说\",\n\t\"url\":\"https://www.guanxs.com/lists/21\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"言情小说\",\n\t\"url\":\"https://www.guanxs.com/lists/22\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"历史小说\",\n\t\"url\":\"https://www.guanxs.com/lists/23\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"竞技小说\",\n\t\"url\":\"https://www.guanxs.com/lists/25\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"科幻小说\",\n\t\"url\":\"https://www.guanxs.com/lists/26\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"灵异小说\",\n\t\"url\":\"https://www.guanxs.com/lists/27\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"https://www.guanxs.com/lists/28\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"军事小说\",\n\t\"url\":\"https://www.guanxs.com/lists/34\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"游戏小说\",\n\t\"url\":\"https://www.guanxs.com/lists/35\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t}\n]",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\",\n\t\"Cookie\":\"BAIDUID=2DA57A84163A4A5F5E75084410D70ADA:FG=1; delPer=0; BDRCVFR[kAjskz-82g3]=mk3SLVN4HKm; BDRCVFR[5GQZCjFg8mf]=mk3SLVN4HKm; BDRCVFR[X_XKQks0S63]=mk3SLVN4HKm; BDRCVFR[dG2JNJb_ajR]=mk3SLVN4HKm; BDRCVFR[o25vrqg7BlD]=mk3SLVN4HKm; BDRCVFR[CLK3Lyfkr9D]=mk3SLVN4HKm; IMG_WH=393_735; rsv_i=7de61ErNGQLJAxVrzLXfoXX2BLjtiMjjDODg2Z1g9b7zn5c0IRKKbgDSD870YFuKf9TBv5474mSfpCiFIjfPMSD7PBNsow8; H_WISE_SIDS=110085_127969_179349_180636_189755_190617_194085_194529_196428_197471_197711_199574_203517_204903_206125_208721_208809_209202_209568_210303_210321_210443_210733_212296_212416_212532_212789_212912_213043_213360_214094_214205_214596_214642_214654_214693_214782_214798_215070_215126_215280_215328_215554_215634_215730_215856_215892_216049_216105_216253_216308_216334_216342_216354_216596_216631_216635_216854_216964_217183_217215_217228_217345_217402_217439_217451_217539_217651_217761_218031_218185_218276_218327_218390_218444_218457_218463_218539_218548_218592_218599_218619_218856_218951_218960; BA_HECTOR=2g8ga58ka5cl00a10k1hbed1715; BDORZ=AE84CDB3A529C0F8A2B9DCDD1D18B695; PSCBD=55%3A22_16%3A1; SE_LAUNCH=5%3A1656173605_55%3A27603459_16%3A27602902_14%3A27603440; PSTM=1656240289; BIDUPSID=A87237B699D1FE1FA5EBB27451412F11; BAIDULOC=12392089.196777_2709321.0742753_40_304_1656240325959; seClickID=5cde5b288ffd8d1b; PSINO=6\"\n\t}",
+        "lastUpdateTime": 1656341012629,
+        "loginCheckJs": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h1@small@a@text",
+            "coverUrl": "class.img-thumbnail@src\n<js>\nbook.origin+result\n</js>",
+            "init": "<js>\nif(result.match(/.*replace\\(.*\\/(\\d+)\\/.*\\\"\\);/)){\nresult=result.match(/.*replace\\(.*\\/(\\d+)\\/.*\\\"\\);/)[1];\nresult='http://www.guanxs.com/book/'+result\njava.ajax(result)\n }else{\n \tresult\n \t}\n</js>",
+            "intro": "id.bookIntro@text",
+            "kind": "class.blue[1,2]@text",
+            "lastChapter": "class.col-md-10@p.1@a@text",
+            "name": "class.bookTitle@ownText",
+            "tocUrl": "class.breadcrumb@a.-1@href\n<js>\nbook.origin+result\n</js>",
+            "wordCount": "class.blue.0@text"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html@js:result+'🚫'",
+            "nextContentUrl": "id.linkNext@href",
+            "replaceRegex": "<js>\n(function(){\n\tvar f1 = java.queryTTF(\"https://ghproxy.futils.com/https://github.com/likeliya/zikuwenjianchuang/blob/main/guanxs.com00.ttf\");\n\tvar f2 = java.queryTTF(\"https://ghproxy.futils.com/https://github.com/likeliya/zikuwenjianchuang/blob/main/guanxs.com01.ttf\");\n\treturn java.replaceFont(result, f1, f2);\n})()\n</js>\n##\\s*🚫\\s*|本站不支持.*无错阅读|如发现文字缺失.*正常阅读|.*本章完.*"
+        },
+        "ruleExplore": {
+            "author": "small@text##\\s.*",
+            "bookList": "class.col-md-4",
+            "bookUrl": "h4@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.hidden-xs@text",
+            "name": "h4@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.c-title@text##.*\\-(.*?)\\-.*##$1",
+            "bookList": "class.c-result-content\n<js>\nlist=[];\nfor(i in result){\n\tresult[i]=JSON.stringify(result[i]);\n\tif(!(result[i].match(/大家还在搜/))){\n\t\tlist.push(JSON.parse(result[i]))\n\t\t}\n\t};\n\tlist\n</js>",
+            "bookUrl": "article@rl-link-href",
+            "intro": "class.c-line-clamp2@text",
+            "kind": "class.c-title@text##.*\\-.*\\-(.*)##$1",
+            "lastChapter": "class.c-text-line-text.0@text",
+            "name": "class.c-title@text##(.*?)\\-.*\\-.*##$1"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@dl@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.baidu.com/s?si=guanxs.com&ms=1&word={{key}}&pn={{page-1==0?\"\":10*page}}",
+        "weight": 0
+    }
+]

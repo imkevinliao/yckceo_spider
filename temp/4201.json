@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceName": "胖子小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.pzshen.com/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "exploreUrl": "排行::/top/",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows; U; Windows NT 5.2;. en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 Quark/4.6.6.164\"\n}",
+        "lastUpdateTime": 1696182809069,
+        "loginCheckJs": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.dd_box.0@span.0@text",
+            "intro": "class.book_about@dd@text",
+            "kind": "class.dd_box.0@span.1@text##分类：",
+            "lastChapter": "class.book_last@dl@dd.0@text",
+            "name": "class.name@text",
+            "tocUrl": "text.查看更多章节>>@href",
+            "wordCount": "class.dd_box.1@span.1@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html||webView': true}",
+            "nextContentUrl": "class.Readpage pagedown@a.2@href",
+            "replaceRegex": "##请收藏：https://m.pzshen.com\n　　（温馨提示：请关闭畅读或阅读模式，否则内容无法正常显示）"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "ul@li",
+            "bookUrl": "a@href",
+            "kind": "span@text",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.item@span@text",
+            "bookList": "class.item",
+            "bookUrl": "class.item@a.1@href",
+            "coverUrl": "img@src",
+            "intro": "class.item@dd@text",
+            "name": "class.item@a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}\nhttps://m.pzshen.com/s?q={{key}},{'webView': true}",
+        "weight": 0
+    }
+]

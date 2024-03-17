@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "爱尚小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.23xsw.cc",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1626870017737,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text",
+            "coverUrl": "img@src",
+            "intro": "id.intro@tag.p.0@text##各位书友要是.*",
+            "lastChapter": "id.info@tag.p.3@a@text",
+            "name": "id.info@tag.h1.0@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##.*www.23xsww.com.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text||class.s4@text",
+            "bookList": "class.bookbox||class.l bd@li||class.search-list@li",
+            "bookUrl": "class.bookname@a@href||class.s2@a@href\n@js:\nid=result.match(/(\\d+)$/)[1];\nid1=parseInt(id/1000);\nresult=\"https://www.23xsww.com/book/\"+id1+\"/\"+id+\"/\"",
+            "coverUrl": "class.bookimg@img@src||tag.a.0@href##http://www.23xsw.cc/book/goto/id/(\\d+)(\\d{3})##http://www.23xsw.cc/files/article/image/$1/$1$2/$1$2s.jpg",
+            "kind": "class.cat@text||class.s3@a@text##分类:",
+            "lastChapter": "class.update@a@text",
+            "name": "class.bookname@a@text||class.s2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?s=17934470774457639775&siteid=23xsw.cc&ie=gbk&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

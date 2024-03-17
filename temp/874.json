@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceUrl": "https://www.80xs.la",
+        "bookSourceType": "0",
+        "bookSourceName": "八零电子书",
+        "bookSourceGroup": "",
+        "bookSourceComment": "꧁♚无聊的我♚꧂",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.80xs.la/modules/article/search.php,{\n\"method\":\"POST\",\n\"body\":\"searchkey={{key}}\"\n}",
+        "exploreUrl": "[\n{\"title\":\"奇幻修真\",\"url\":\"/sort3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"奇幻魔法\",\"url\":\"/sort13/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"异术超能\",\"url\":\"/sort1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"东方传奇\",\"url\":\"/sort12/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"王朝争霸\",\"url\":\"/sort14/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"江湖武侠\",\"url\":\"/sort15/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"未来幻想\",\"url\":\"/sort9/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"灵异鬼怪\",\"url\":\"/sort10/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"探险揭秘\",\"url\":\"/sort22/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"历史传记\",\"url\":\"/sort6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"特种军旅\",\"url\":\"/sort7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"网游小说\",\"url\":\"/sort16/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"竞技小说\",\"url\":\"/sort8/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"魔幻女强\",\"url\":\"/sort2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"都市婚姻\",\"url\":\"/sort4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"百合之恋\",\"url\":\"/sort5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"同人美文\",\"url\":\"/sort11/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"穿越架空\",\"url\":\"/sort17/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"王室贵族\",\"url\":\"/sort18/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"魔法校园\",\"url\":\"/sort19/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"乡土布衣\",\"url\":\"/sort20/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"官职商战\",\"url\":\"/sort21/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"间谍暗战\",\"url\":\"/sort23/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"唯美言情\",\"url\":\"/sort24/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"诗歌文集\",\"url\":\"/sort25/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}\n]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1636197154620,
+        "ruleSearch": {
+            "bookList": ".storelistbt5a[0:19]",
+            "name": ".bookname@text##《|》.*",
+            "author": "p a@text",
+            "kind": "p.0@textNodes&&.strong.blue@text##作者.|分类.|\\s|已|中",
+            "lastChapter": "p.2@textNodes##更新.(\\d+-\\d+-\\d+)\\s最新章节.(.*)##$2·$1###",
+            "intro": "p.1@text",
+            "coverUrl": "img@src",
+            "bookUrl": "a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": "id.list_art_2013",
+            "name": ".book_bg@text##\\sTXT下载",
+            "author": ".book_cont a.0@text",
+            "kind": ".book_rg span@text##中|已",
+            "wordCount": ".parag_2013@textNodes##(\\d+KB)##$1###\n<js>\nvar str = result;\nif(str.indexOf(\"KB\")!=-1){\n    str = str.replace(\"KB\", \"\");\n    str = parseInt(str*51.2)+'0'\n\t}\nelse{\n    str = str.replace(\"MB\", \"\");\n    str = parseInt(str*51.2*1024)+'0'\n\t}\n</js>",
+            "lastChapter": ".book_rg b@text",
+            "intro": ".book_jj@text",
+            "coverUrl": ".book_pic img@src",
+            "bookUrl": "a.0@href"
+        },
+        "ruleBookInfo": {
+            "init": "@put:{\nn:\"h1@text\",\na:\".soft_info_r li.0@a@text\",\nk:\".soft_info_r li.6@strong@text&&.soft_info_r li.7@textNodes\",\nw:\".soft_info_r li.1@textNodes\",\nl:\".soft_info_r li.9@textNodes\",\ni:\"id.mainSoftIntro@html\",\nc:\".soft_info_r img@src\",\nu:\"text.在线阅读@href\",\nd:\"text.txt下载列表@href\"\n}",
+            "name": "@get:{n}##TXT全集下载",
+            "author": "@get:{a}",
+            "kind": "@get:{k}##小说|中|已|...:.*|状态.|更新.",
+            "wordCount": "@get:{w}## |字数.\n<js>\nvar str = result;\nif(str.indexOf(\"K\")!=-1){\n    str = str.replace(\"K\", \"\");\n    str = parseInt(str*51.2)+'0'\n\t}\nelse{\n    str = str.replace(\"M\", \"\");\n    str = parseInt(str*51.2*1024)+'0'\n\t}\n</js>",
+            "lastChapter": "@get:{l}##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+            "intro": "@get:{d}##(\\d+)##<br>🔗：https://dt.80xs.la/$1/{{book.name}}.txt<br>@get:{i}###@js:result.replace(/八零电子.*你的朋友！/g,'').replace(/更多{{@book.name}}.*/g,'')\n",
+            "coverUrl": "@get:{c}",
+            "tocUrl": "@get:{u}"
+        },
+        "ruleToc": {
+            "chapterList": "id.yulan@li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": ".book_content@html##最新网址.*|txt下载地址.*|手机阅读.*|为了方便下次阅读.*"
+        }
+    }
+]

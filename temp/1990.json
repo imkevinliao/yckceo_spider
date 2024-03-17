@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceUrl": "https://www.baka.cc",
+        "bookSourceType": "0",
+        "bookSourceName": "88读书网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/search/?searchkey={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1619257143133,
+        "ruleSearch": {
+            "bookList": "@css:div.pt-floor1>div.relative.pt-rank>div.pt-rank-detail",
+            "name": "@css:span.mr60>a@text",
+            "author": "@css: span.color7>span.mr30@text",
+            "kind": "@css: span.color7>span:nth-child(2)@text##分类：",
+            "lastChapter": "@css: div.lh100>span:nth-child(1)>a>span@text",
+            "intro": "@css: div.desc@text",
+            "coverUrl": "@css:a>img@src",
+            "bookUrl": "@css:a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "init": "meta ",
+            "name": "[property=og:novel:book_name]@content",
+            "author": "[property=og:novel:author]@content",
+            "kind": "[property=og:novel:category]@content&&[property=og:novel:status]@content",
+            "lastChapter": "[property=og:novel:latest_chapter_name]@content",
+            "intro": "[property=og:description]@content",
+            "coverUrl": "[property=og:image]@content"
+        },
+        "ruleToc": {
+            "chapterList": "@css:#readerlists>ul>li>a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "@css:div.pt-content>div.pt-read-cont>div.pt-read-text@html",
+            "nextContentUrl": "text.下一页 >@href"
+        }
+    }
+]

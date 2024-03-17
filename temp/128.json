@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceUrl": "http://www.diyibanzhu666.xyz",
+        "bookSourceType": "0",
+        "bookSourceName": "第一版主（正文第二页规则未修复）",
+        "bookSourceGroup": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\":\"objectType=2&type=articlename&s={{key}}\"\n}",
+        "exploreUrl": "全部::/shuku/0-lastupdate-0-{{page}}.html\n热门::/shuku/0-monthvisit-0-{{page}}.html\n新书::/shuku/0-postdate-0-{{page}}.html\n1::/fenlei/1_{{page}}.html\n2::/fenlei/2_{{page}}.html\n3::/fenlei/3_{{page}}.html\n4::/fenlei/4_{{page}}.html\n5::/fenlei/5_{{page}}.html\n6::/fenlei/6_{{page}}.html\n7::/fenlei/7_{{page}}.html",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -88949197,
+        "lastUpdateTime": 1651358916132,
+        "ruleSearch": {
+            "bookList": ".column-2 ",
+            "name": ".right@.name@text",
+            "author": ".info@text",
+            "kind": "",
+            "wordCount": ".info@span@text##字数：",
+            "lastChapter": ".update@a@text",
+            "intro": "",
+            "coverUrl": "",
+            "bookUrl": ".right@.name@href"
+        },
+        "ruleExplore": {
+            "bookList": ".column-2",
+            "name": ".name@text",
+            "author": ".info@a@text",
+            "kind": "span.0@text",
+            "wordCount": ".info@span@text##字数：",
+            "lastChapter": ".update@a@text",
+            "intro": "p.info.1@text",
+            "coverUrl": "",
+            "bookUrl": ".name@href"
+        },
+        "ruleBookInfo": {
+            "init": "",
+            "name": "h1@text",
+            "author": "##作者：(.*)<br />##$1###",
+            "kind": "##类型：(.*)<br />##$1###",
+            "wordCount": "##字数：(.*)<br />##$1###",
+            "lastChapter": "ul.list.0@li.0@text",
+            "intro": ".bd.2@text",
+            "coverUrl": "",
+            "tocUrl": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.list.1@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": "",
+            "updateTime": "",
+            "nextTocUrl": "class.nextPage@tag.a@href"
+        },
+        "ruleContent": {
+            "content": ".neirong@html",
+            "nextContentUrl": ".chapterPages@a!0@href##$##,{\"webView\":true}",
+            "webJs": "",
+            "sourceRegex": ""
+        }
+    }
+]

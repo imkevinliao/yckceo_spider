@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceUrl": "https://h5.reader.qq.com",
+        "bookSourceType": "0",
+        "bookSourceName": "💰 QQ阅读",
+        "bookSourceGroup": "💰 正版",
+        "bookSourceComment": "免费读，慢3天",
+        "loginUrl": "{\n  \"url\": \"\"\n}",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://h5.reader.qq.com/9/search?key={{key}}&pageNo={{page}}",
+        "exploreUrl": "新书日榜::https://ubook.reader.qq.com/api/book/rank?columnId=535194&pageIndex={{page}}&pageSize=20\n\n新书周榜::https://ubook.reader.qq.com/api/book/rank?columnId=535195&pageIndex={{page}}&pageSize=20\n\n新书月榜::https://ubook.reader.qq.com/api/book/rank?columnId=535196&pageIndex={{page}}&pageSize=20\n\n免费榜::https://ubook.reader.qq.com/api/book/rank?columnId=535200&pageIndex={{page}}&pageSize=20\n\n完结周榜::https://ubook.reader.qq.com/api/book/rank?columnId=535197&pageIndex={{page}}&pageSize=20\n完结月榜::https://ubook.reader.qq.com/api/book/rank?columnId=535198&pageIndex={{page}}&pageSize=20\n\n完结总榜::https://ubook.reader.qq.com/api/book/rank?columnId=535199&pageIndex={{page}}&pageSize=20\n\n上架30天内::https://ubook.reader.qq.com/api/book/rank?columnId=535189&pageIndex={{page}}&pageSize=20\n\n上架120天内::https://ubook.reader.qq.com/api/book/rank?columnId=535190&pageIndex={{page}}&pageSize=20\n\n上架300天内::https://ubook.reader.qq.com/api/book/rank?columnId=535191&pageIndex={{page}}&pageSize=20\n\n上架300天以上::https://ubook.reader.qq.com/api/book/rank?columnId=535192&pageIndex={{page}}&pageSize=20\n\n热销总榜::https://ubook.reader.qq.com/api/book/rank?columnId=535193&pageIndex={{page}}&pageSize=20\n\n\n玄幻::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20001&sorted=1\n奇幻::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20005&sorted=1\n武侠::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20010&sorted=1\n仙侠::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20014&sorted=1\n都市::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20019&sorted=1\n现实::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20065&sorted=1\n历史::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20028&sorted=1\n军事::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20032&sorted=1\n游戏::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20050&sorted=1\n体育::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20054&sorted=1\n科幻::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20042&sorted=1\n悬疑::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20037&sorted=1\n轻小说::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20059&sorted=1\n短篇::https://ubook.reader.qq.com/api/book/categories/booklist?pageIndex={{page}}&pageSize=20&bookType=1&categoryid=20076&sorted=1",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -88917392,
+        "lastUpdateTime": 1653570429454,
+        "ruleSearch": {
+            "bookList": "$.booklist[*]",
+            "name": "$.title",
+            "author": "$.author",
+            "kind": "$.categoryInfoV4##\\d+:.*:",
+            "wordCount": "$.totalWords",
+            "lastChapter": "$.lastChapterName&&$.updateDate@js:result.replace(/\\s+(\\d+-\\d+-\\d+).*/,'（$1）')",
+            "intro": "$.id@js:var json=JSON.parse(java.ajax('http://ubook.3g.qq.com/9/intro?bid='+result)).book;\njava.put('imgUrl',json.cover);\njson.intro;",
+            "coverUrl": "@get:{imgUrl}",
+            "bookUrl": "$.id##(\\d+)##http://ubook.3g.qq.com/9/intro?bid=$1"
+        },
+        "ruleExplore": {
+            "bookList": "$.data.list[*]||$.booklist[*]||$.data.column.books[*]",
+            "name": "$.title",
+            "author": "$.author",
+            "wordCount": "$.totalWords",
+            "lastChapter": "$.lastChapterName&&$.updateDate@js:result.replace(/(\\d+-\\d+-\\d+).*/,'（$1）')",
+            "intro": "$.id@js:var json=JSON.parse(java.ajax('http://ubook.3g.qq.com/9/intro?bid='+result)).book;\njava.put('imgUrl',json.cover);\njson.intro;",
+            "coverUrl": "@get:{imgUrl}",
+            "bookUrl": "$.id##(\\d+)##http://ubook.3g.qq.com/9/intro?bid=$1"
+        },
+        "ruleBookInfo": {
+            "name": "$.book.title",
+            "author": "$.book.author",
+            "kind": "$.caname",
+            "wordCount": "$.book.totalWords@put:{free:$.book.maxfreechapter}",
+            "lastChapter": "$.book.lastChapterName&&$.book.updateDate@js:result.replace(/(\\d+-\\d+-\\d+).*/,'（$1）')",
+            "intro": "$.book.intro",
+            "coverUrl": "$.book.cover",
+            "tocUrl": "$.book.id##(\\d+)##https://ubook.reader.qq.com/api/book/chapter-list?bid=$1@put:{bid:$.book.id}"
+        },
+        "ruleToc": {
+            "chapterList": "$.data.chapters[*]",
+            "chapterName": "$.title",
+            "chapterUrl": "https://ubook.reader.qq.com/book-read/@get:{bid}/{{$.seq}},{'webView': true}",
+            "isVip": "##@js:{{$.free}}?false:true",
+            "updateTime": "$.publishTime"
+        },
+        "ruleContent": {
+            "content": "class.chapter-content@p@textNodes"
+        }
+    }
+]

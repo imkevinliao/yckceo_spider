@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "B级",
+        "bookSourceName": "笔趣轩biquxan.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.biquxan.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1619057683537,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "h3@a@text",
+            "intro": "class.book_info@p@textNodes",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "class.contentbox@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.so new",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "span!0@text##(状态|类别)：",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "+class.book_list@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.biquxan.com/plus/search.php?kwtype=0&searchtype=&q={{key}},{\n  \"charset\": \"gb2312\"\n}",
+        "weight": 0
+    }
+]

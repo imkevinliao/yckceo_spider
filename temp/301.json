@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "雪痕伤-H",
+        "bookSourceName": "第二书包网-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.dier8.com",
+        "customOrder": 10,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/sort1/{{page}}.html\n武侠::/sort4/{{page}}.html\n言情::/sort8/{{page}}.html\n穿越::/sort15/{{page}}.html\n耽美::/sort18/{{page}}.html\n恐怖::/sort26/{{page}}.html\n网络::/sort30/{{page}}.html\n短篇::/sort31/{{page}}.html",
+        "lastUpdateTime": 1654017978678,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "class.text@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.l2info@a@text",
+            "bookList": "class.l2box",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.l2intr@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.iindex@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/book/search?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

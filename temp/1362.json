@@ -1,0 +1,69 @@
+[
+    {
+        "bookSourceComment": "\n\n电脑ua\n{'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'}",
+        "bookSourceGroup": "🍁发现,自,📖小说",
+        "bookSourceName": "自制",
+        "bookSourceType": 0,
+        "bookSourceUrl": "自制",
+        "bookUrlPattern": "",
+        "customOrder": -453,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; M2011K2C Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.99 Mobile Safari/537.36 T7/12.16 SearchCraft/3.9.1 (Baidu; P1 11)\"}",
+        "lastUpdateTime": 1677801669495,
+        "loginUrl": "",
+        "respondTime": 100611,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content||class.block_txt2@tag.a.2@text||class.info@tag.span.0@text",
+            "coverUrl": "[property$=image]@content||class.block_img2@img@src||class.bookimg@img@src",
+            "init": "",
+            "intro": "[class^=intro]@text##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content||class.block_txt2@tag.p.3:4:5@text||class.info@tag.span.1:2:3:4@text##.*：|\\s.*",
+            "lastChapter": "[class^=update]@text||[property$=latest_chapter_name]@content&&[property$=update_time]@content||class.block_txt2@tag.p.-1:-2@text\n<js>result.replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##.*?[最后更新于至状态到正文时间:：连载中目录]{2,}|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[\\(（【】）\\) 「」]+|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/.*?[第]*(第.*?[页节章])[\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]*(.*?章)*(.*)/,'$1 $3')",
+            "name": "[property$=book_name]@content||class.block_txt2@h2@text||class.bookname@text",
+            "tocUrl": "text.查看目录@href||text.全部章节@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "[class^=nr]@p@text||[class^=nr]@html||class.read-section@p@text##{{book.name}}|{{title}}",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##你是天才，一秒记住.*|您可以在.*最新章节！|第[零一二两三四五六七八九十百千万\\d\\s ]+章.*|(紧急通知：)*\\n*为您提供.*请务必保存好书签.*|最快更新.*最新.*|『.*?章节.*?误[^』]+』|\\(本章未完.*下一页.*\\)|.*免费阅读：.*更新不易请收藏！|紧急通知：\\n*.*新(地址|域名).*",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text||a.2@text",
+            "bookList": ".cover@tag.p||class.list@tag.li||class.bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "全球",
+            "coverUrl": "tag.img@src",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "[class^=update]@text\n\n<js>result.replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##.*?[最后更新于至状态到正文时间:：连载中目录]{2,}|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[\\(（【】）\\) 「」]+|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/.*?[第]*(第.*?[页节章])[\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]*(.*?章)*(.*)/,'$1 $3')",
+            "name": "a.1@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一@href"
+        },
+        "searchUrl": ",{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

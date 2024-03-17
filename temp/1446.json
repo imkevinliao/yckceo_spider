@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "作者学渣，API接口",
+        "bookSourceGroup": "学渣,免翻",
+        "bookSourceName": "UAA",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.uaa.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "header": "",
+        "lastUpdateTime": 1675577242555,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".authors",
+            "coverUrl": ".coverUrl",
+            "init": "$.model",
+            "intro": ".brief",
+            "kind": ".categories",
+            "lastChapter": ".latestUpdate",
+            "name": ".title",
+            "tocUrl": "https://api.uaa.com/novel/app/novel/catalog/{{$..id}}",
+            "wordCount": ".lengthTypeDesc"
+        },
+        "ruleContent": {
+            "content": "$.model.lines[*]",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$..authors",
+            "bookList": "$.model.data",
+            "bookUrl": "https://api.uaa.com/novel/app/novel/intro?id={{$..id}}",
+            "checkKeyWord": "妹妹",
+            "coverUrl": "$..coverUrl",
+            "intro": "$..shortBrief",
+            "kind": "$..categories",
+            "lastChapter": "$..latestUpdate",
+            "name": "$..title",
+            "wordCount": "$..lengthTypeDesc"
+        },
+        "ruleToc": {
+            "chapterList": "$..children[*]||$..menus[*]",
+            "chapterName": "$..title",
+            "chapterUrl": "https://api.uaa.com/novel/app/novel/chapter?id={{$..id}}&offset=0&viewId={{$..volumeNum}}",
+            "isPay": "",
+            "isVip": "",
+            "isVolume": ""
+        },
+        "searchUrl": "https://api.uaa.com/novel/app/novel/search?keyword={{key}}&orderType=1&page={{page}}&size=10",
+        "weight": 0
+    }
+]

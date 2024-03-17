@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "998读书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.998ds.net/",
+        "customOrder": -2,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "总收藏::http://www.998ds.net/top11-15-{{page}}.html\n总字数::http://www.998ds.net/top12-15-{{page}}.html\n日排行::http://www.998ds.net/top0-15-{{page}}.html\n周排行::http://www.998ds.net/top1-15-{{page}}.html\n月排行::http://www.998ds.net/top2-15-{{page}}.html\n总排行::http://www.998ds.net/top3-15-{{page}}.html\n日推荐::http://www.998ds.net/top4-15-{{page}}.html\n周推荐::http://www.998ds.net/top5-15-{{page}}.html\n月推荐::http://www.998ds.net/top6-15-{{page}}.html\n总推荐::http://www.998ds.net/top7-15-{{page}}.html\n日收藏::http://www.998ds.net/top8-15-{{page}}.html\n周收藏::http://www.998ds.net/top9-15-{{page}}.html\n月收藏::http://www.998ds.net/top10-15-{{page}}.html\n更新排行::http://www.998ds.net/top13-15-{{page}}.html",
+        "header": "{\n\t\"Referer\":\"http://www.998ds.net/\"\n\t}",
+        "lastUpdateTime": 1679175602167,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info@a.4@text",
+            "coverUrl": "img.1@src",
+            "init": "",
+            "intro": "class.r_cons.0@text##.*简介：",
+            "kind": "",
+            "lastChapter": "class.list-item@a.-1@text",
+            "name": "class.info@a.0@text",
+            "tocUrl": "",
+            "wordCount": ".txt_nav@a.1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": "id.articlelist@ul!0",
+            "bookUrl": "a.1@href",
+            "kind": "span.0@text&&span.4@text##\\n",
+            "name": "span.1@text",
+            "wordCount": "span.6@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": ".list@table",
+            "bookUrl": "h3@a@href",
+            "checkKeyWord": "",
+            "coverUrl": ".cover@img@src",
+            "intro": ".intro@text",
+            "kind": ".intro@text&&.size@text##赞\\（.*|.*更新\\:",
+            "name": "h3@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "ol.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.998ds.net/search.php?keyword={{key}},{\n  \"charset\": \"GBK\",\n  \"method\": \"GET\"\n}",
+        "weight": 0
+    }
+]

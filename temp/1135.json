@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🤶🏻  淑女",
+        "bookSourceName": "🤶🏻 挺  好  的",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://tinghaode.org",
+        "customOrder": 63,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": " B L ::https://tinghaode.org/wapsort/1_{{page}}.html\n B G ::https://tinghaode.org/wapsort/2_{{page}}.html\n快穿::https://tinghaode.org/tag/kc/\n美攻::https://tinghaode.org/tag/mg/\n肉文::https://tinghaode.org/tag/rw/\n年下::https://tinghaode.org/tag/nx/\n年上::https://tinghaode.org/tag/ns/\n生子::https://tinghaode.org/tag/sz/\n人兽::https://tinghaode.org/tag/rs/\n强强::https://tinghaode.org/tag/qq/\n穿越::https://tinghaode.org/tag/cy/\n双性::https://tinghaode.org/tag/sx/\n强受::https://tinghaode.org/tag/qs/\nABO::https://tinghaode.org/tag/abo/\n重生::https://tinghaode.org/tag/cs/\n H P ::https://tinghaode.org/tag/hp/\n虐文::https://tinghaode.org/tag/nw/\n温馨::https://tinghaode.org/tag/wx/\n N P ::https://tinghaode.org/tag/np/\n父子::https://tinghaode.org/tag/fz/\n兄弟::https://tinghaode.org/tag/xd/\n萌文::https://tinghaode.org/tag/mw/\n B  E ::https://tinghaode.org/tag/be/\n末世::https://tinghaode.org/tag/ms/\n人鱼::https://tinghaode.org/tag/ry/\n师生::https://tinghaode.org/tag/ss/\n网游::https://tinghaode.org/tag/wy/\n高干::https://tinghaode.org/tag/gg/\n反攻::https://tinghaode.org/tag/fg/\n诱受::https://tinghaode.org/tag/ys/\n种田::https://tinghaode.org/tag/zt/\n SM ::https://tinghaode.org/tag/sm/\n娱乐圈::https://tinghaode.org/tag/ylq/\n金手指::https://tinghaode.org/tag/jsz/",
+        "lastUpdateTime": 1624854303246,
+        "ruleBookInfo": {
+            "author": "",
+            "init": "",
+            "intro": "pre@html",
+            "kind": "class.article_info_td.0@tag.a.0@text&&.tag span@text",
+            "lastChapter": "{{@@class.article_info_td.0@tag.a.1@text}} • {{@@class.article_info_td.0@tag.time@text}}",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": "id.size@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "strong@text||.list_author@text",
+            "bookList": ".common-bookele||#list_ul@li",
+            "bookUrl": "tag.a.1@href##$##,{\"webView\":true}",
+            "intro": ".abstract@text<js>result.replace(/\\s{2,}/g,'\\n').replace(/^\\s*/g,'')</js>",
+            "kind": ".lastupdate time@text||tag.a.0@text",
+            "name": "h3 a@text||tag.a.1@text"
+        },
+        "ruleSearch": {
+            "author": "strong@text",
+            "bookList": ".common-bookele",
+            "bookUrl": "tag.a.0@href##$##,{\"webView\":true}",
+            "coverUrl": "",
+            "intro": ".abstract@text",
+            "kind": ".lastupdate@text##栏目：",
+            "lastChapter": "tag.a.0@href<js>java.ajax('https://tinghaode.org'+result)</js>class.article_info_td.0@tag.a.1@text&&class.article_info_td.0@tag.time@text<js>result.replace(/(\\d+-\\d+-\\d+)/,'• $1')</js>",
+            "name": ".articlename@text"
+        },
+        "ruleToc": {
+            "chapterList": "@js:\n//获取开始章节的id\nstart=java.getString('@@class.chapterList@tag.li.0@a@href',false).match(/(\\d+)\\.html/)[1];\n\n//获取总章节数\npage=result.match(/共(\\d+)章节/)[1];\nlist=[];\n\n//利用总章节，拼接目录\nfor(i=0;i<page;i++){\nid=Number(start)+i;\nlist.push({text:String('第'+Number(i+1)+'卷'),href:baseUrl.replace(/\\.html/,'/'+id+\".html\")})\n}\nlist",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://tinghaode.org/search.html?key={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "kind": ".info span:nth-child(2)@text",
+            "bookUrl": "a:nth-child(1)@href",
+            "name": ".info span:nth-child(1)@text ##.*《|》.*",
+            "bookList": ".librarylist li",
+            "lastChapter": "a:nth-child(1)@text"
+        },
+        "weight": 63,
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "searchUrl": "/search.html?/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "ruleSearch": {
+            "author": ".info span:nth-child(2)@text",
+            "bookList": ".librarylist li ",
+            "wordCount": "",
+            "lastChapter": ".last@text",
+            "kind": ".info span:nth-child(3) a@text",
+            "bookUrl": "a:nth-child(1)@href",
+            "name": ".info span:nth-child(1)@text ##.*《|》.*"
+        },
+        "enabledExplore": true,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "lastChapter": "@get:{l}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "coverUrl": "@get:{c}",
+            "name": "@get:{n}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=lastest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}"
+        },
+        "ruleToc": {
+            "chapterUrl": "a@href",
+            "chapterList": ".dirlist@li",
+            "nextTocUrl": "option@value||text.下一页@href",
+            "chapterName": "a@text"
+        },
+        "bookSourceUrl": "http://www.shengxuxu.net",
+        "lastUpdateTime": 1690760403310,
+        "customOrder": 0,
+        "bookSourceType": 0,
+        "enabled": true,
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "bookSourceName": "圣墟小说网",
+        "bookSourceComment": "搜索间隔5秒",
+        "respondTime": 93,
+        "exploreUrl": "总点击:: /top/allvisit.html\n排行::/top/monthvisit.html\n",
+        "bookUrlPattern": "http.*shengxuxu.net/book_\\d+/"
+    }
+]

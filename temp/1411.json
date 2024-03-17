@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "番茄（西红柿）小说（搜索修正）",
+        "bookSourceName": "番茄小说fqxswceshi",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.fqxsw.org/",
+        "customOrder": 1,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1676042554586,
+        "respondTime": 2212,
+        "ruleBookInfo": {
+            "author": "#info p:nth-of-type(1)@text",
+            "coverUrl": "tag.img@src",
+            "intro": "#intro p:nth-of-type(1)@textNodes",
+            "kind": ".con_top a:nth-of-type(2)@text##状态[\\：:]|更新[\\：:]",
+            "lastChapter": "#info p:nth-of-type(4) a@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "div#content@html",
+            "replaceRegex": "##\\s*第.*章*\\s*|\\s*请收.*机版[\\：:]\\s*|『点此报错』|『加入书签』|https://m.fqxs123.com|PS:.*|【目前用下来.*换源App】"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "li:nth-of-type(n+2) span.s4@text",
+            "bookList": "@js:\npath = '.novelslist2@li!0';\nu = java.get('url');\nc = java.getElement(path);\ns = () => {\n    java.setContent(java.ajax(u));\n    c = java.getElement(path)\n};\n!c.length || s();\n!src.includes('no-js') || eval(\"cookie.removeCookie(source.getKey()); java.startBrowserAwait(u,'ver');s()\");\nc\n",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "",
+            "intro": "",
+            "name": "tag.a@text",
+            "checkKeyWord": "1980",
+            "lastChapter": ".s3 a@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\nurl = 'https://www.fqxsw.org/modules/article/search.php';\noption = {\n    \"charset\":\"UTF-8\",\n    \"body\": \"keyword=\" + key,\n    \"method\": \"POST\"\n};\noption.headers = {\n    \"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36\"\n};\njava.put('url', String(url + ',' + JSON.stringify(option)))",
+        "weight": 0
+    }
+]

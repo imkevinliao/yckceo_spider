@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "希望中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.5xw.net",
+        "bookUrlPattern": "https://m.5xw.net/5xw/\\d+/",
+        "customOrder": 56,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\n\t\"title\":\"小说书库\",\n\t\"url\":\"/all/index<,-{{page}}>.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"完本小说\",\n\t\"url\":\"/finish/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t}\n]",
+        "lastUpdateTime": 1663211695345,
+        "loginUrl": "https://m.5xw.net/member/login.html",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.B b0@dd.1@text##作者.",
+            "coverUrl": "class.B b0@img@src",
+            "init": "",
+            "intro": "class.nrjj@p.1@text",
+            "kind": "class.B b0@dd.2:3@span@text##类别.|状态.|更新时间.|\\s##,",
+            "lastChapter": "class.B b0@dd.4@a@text",
+            "name": "class.B b0@dt@text",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.TxtContent@html",
+            "nextContentUrl": "text.下—页@href",
+            "replaceRegex": "##\\\"\\s*|….\\s*|本章没完.*|\\s*\\.|\\s.*?提醒您.*继续阅读.*|"
+        },
+        "ruleExplore": {
+            "author": "dd.1@span.0@text##作者.",
+            "bookList": "class.B",
+            "bookUrl": "dt@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.d2@text##简介.",
+            "kind": "class.ml@text##更新时间.|\\s##,",
+            "lastChapter": "dd.-1@a@text",
+            "name": "dt@a@text"
+        },
+        "ruleSearch": {
+            "author": "dd.1@span.0@text##作者.",
+            "bookList": "class.B",
+            "bookUrl": "dt@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.d2@text##简介.",
+            "kind": "class.ml@text##更新时间.|\\s##,",
+            "lastChapter": "dd.-1@a@text",
+            "name": "dt@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.MLlist@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "@js:\nurl=\"https://m.5xw.net\";\nact=org.jsoup.Jsoup.parse(String(java.ajax(url))).select(\"input\")[0].attr(\"value\");\nbody=\"act=\"+act+\"&q={{key}}&submit=快速搜书\";\noption={\n\t\"charset\":\"gb2312\",\n\t\"method\":\"POST\",\n\t\"body\":String(body)\n\t};\nurl+\"/sscc/\"+\",\"+JSON.stringify(option)",
+        "weight": 0
+    }
+]

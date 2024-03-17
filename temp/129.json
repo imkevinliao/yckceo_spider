@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceComment": "//v0.6\n//修复初始化失败的问题？\n\n//v0.5\n//增加登录js\n\n//目录规则的适配不太好，链接错误导致的无法播放可以来酷安反馈\n//更改资源接口后，\"发现\"需要在列表长按刷新才能加载新的接口链接\n\n\n默认接口 = 3\n备用接口 = 2\n\n//解析接口\njx = {\n//是否启用？1启用,0禁用\n\t\t启用: 1 ,\n//依次遍历，获取第一个启用的接口\n\t\tlist: [\n[ 0 ,\n\"飞飞解析\",\"https://y.9dan.cc/?v=\"],//加载较慢？\n[ 0 ,\n\"人人迷解析\",\"https://jx.blbo.cc:4433/?url=\"],//广告，往剪切板塞东西\n[ 0 ,\n\"思古解析\",\"https://jsap.attakids.com/?url=\"],//往剪切板塞东西\n[ 1 ,\n\"OK解析\",\"https://okjx.cc/?url=\"],\n[ 0 ,\n\"奥特曼解析\",\"https://api.aoteman.tv/?url=\"],\n[ 0 ,\n\"维多解析\",\"http://jx.ivito.cn/?url=\"],\n\t\t\t]\n\t}\njxurl=\"\";jxname=\"\"\nif(jx.启用==true){for(i in jx.list){\n\tif(jx.list[i][0]==true){\n\t\tjxname='<p>📑 已启用解析接口(在源注释调整)</p><p>当前接口：'+jx.list[i][1]+'</p>'\n\t\tjxurl=jx.list[i][2]\n\t\tbreak\n\t}\n}}\n\n\n//资源接口\n$ = [\n[\" fox资源 \",\"https://api.foxzyapi.com\"],\n[\" u酷资源 \",\"https://api.ukuapi.com\"],\n[\"C K 资 源\",\"https://feifei67.com\"],\n[\"票场资源\",\"http://101.43.119.105\"],\n[\"瞬间资源\",\"http://app.7en7.com\"],\n[\"乐活资源\",\"https://lehootv.com\"],\n[\"星海资源\",\"https://xhzy01.com\"],\n[\"极客资源\",\"https://jkzy1.com\"],\n[\"多多资源\",\"https://ddzyz1.com\"],\n[\"飘零资源\",\"https://p2100.net\"],\n[\"波比资源\",\"https://xxhhsc.top\"],\n[\"闪电资源\",\"https://sdzyapi.com\"],\n[\"蓝天资源\",\"https://api.ltzyapi.com\"],\n[\"鱼乐资源\",\"https://api.ylzy1.com\"],\n[\"番茄资源\",\"https://api.fqzy.cc\"],\n[\"看看资源\",\"https://zy.hikan.xyz\"],\n[\"量子资源\",\"https://cj.lziapi.com\"],\n[\"快车资源\",\"https://caiji.kczyapi.com\"],\n[\"光速资源\",\"https://api.guangsuapi.com\"],\n[\"红牛资源\",\"https://hongniuzy2.com\"],\n[\"樱花资源\",\"https://m3u8.apiyhzy.com\"],\n[\"松鼠资源\",\"https://m3u8.songshuzy.com\"],\n[\"无尽资源(📵 移动)\",\"https://api.wujinapi.net\"]\n];user=source.getLoginInfoMap();隐藏=0\n使用隐藏接口=user['使用隐藏接口？']?String(user['使用隐藏接口？']):''\n调用备用接口=user['调用备用接口？']?String(user['调用备用接口？']):''\n\n使用隐藏接口==true?(eval(String(source.loginUrl)),隐藏=1,jxname+='<p>📑 正在使用隐藏接口</p>'):''\n默认接口=parseInt(默认接口)<$.length?默认接口:0\n备用接口=parseInt(备用接口)<$.length?备用接口:0\n\nv=String(source.getVariable())\nx=v.match(/^\\d+$/)?v:默认接口\nx=parseInt(x)<$.length?x:默认接口\nx=调用备用接口==true?(java.toast('正在调用备用接口，请及时关闭'),备用接口):x\n\nurl=$[x][1]+'/api.php/provide/vod/?ac='\nurl1=url+'list,{\"retry\": 9}'\nurl2=url+'detail&pg={{page}}'\nname=$[x][0]+(x==默认接口?'(默认)':'')\nS1='【'+(x>9?x:'0'+x)+'】'+name\nS2='当前接口：'+S1\np=jxname+'📑 设置源变量为对应数字时可以转换接口\\n'+S2\nfor(i in $){p+='<p>【'+(i>9?i:'0'+i)+'】'+$[i][0]+(隐藏?(i>15?'(📵 移动)':''):'')+'</p>'}",
+        "bookSourceGroup": "📺 视频",
+        "bookSourceName": "📺 资源采集",
+        "bookSourceType": 0,
+        "bookSourceUrl": "资源采集",
+        "customOrder": 270,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "@js:\neval(String(source.bookSourceComment))\nlist='[{\"title\":\"༺ˇ»`ʚ'+S1+'ɞ´«ˇ༻\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}}'\nlist1=[];list2=[]\n\njava.toast('正在获取分类链接\\n'+String(url1).replace(/,.*/,''))\n$=JSON.parse(java.ajax(url1)).class\nfor(i in $){\n\t\tlist1 += ',{\"title\":\"'+$[i].type_name+'\",\"url\":\"'+url2+\"&t=\"+$[i].type_id+'\",\"style\":{\"layout_flexGrow\":1}}\\n'\n\t\tlist2.push(url2+$[i].type_id+',{\"retry\": 9}')\n\t}\n\njava.toast('链接获取成功-校验中\\n'+S2)\njava.ajaxAll(list2).map((s,i)=>{\n\t\tI = String(list1).split(\"\\n\")\n\t\tlist += (JSON.parse(s.body()).list[0]?I[i]:\"\")\n\t})\nlist+']'",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; MI 5s Plus Build/OPR1.170623.032; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1661383636777,
+        "loginUi": "[\n\t{\n\t\t\"name\": \"使用隐藏接口？\",\n\t\t\"type\": \"text\"\n\t},{\n\t\t\"name\": \"调用备用接口？\",\n\t\t\"type\": \"text\"\n\t}\n]",
+        "loginUrl": "$ = [\n[\" 酷 伦 理 \",\"https://api.kudian70.com\"],\n[\"鲨鱼视频\",\"https://shayuapi.com\"],\n[\"乐播资源\",\"https://lbapi9.com\"],\n[\"皇冠资源\",\"https://hghhh.com\"],\n[\"狼友资源\",\"https://langyouzy.com\"],\n[\"滴滴资源\",\"https://api.ddapi.cc\"],\n[\"鸡霸资源\",\"https://api.jibaapi.cc\"],\n[\"影库资源\",\"https://api.ykapi.net\"],\n[\"秀色资源\",\"https://api.xiuseapi.com\"],\n[\"易看资源\",\"https://api.yikanapi.com\"],\n[\"酷豆资源①\",\"https://api.kdapi.info\"],\n[\"酷豆资源②\",\"https://kudouzy.com\"],\n[\"老鸭资源①\",\"https://api.apilyzy.com\"],\n[\"佳丽资源①\",\"https://xjzyapi.com\"],\n[\"佳丽资源②\",\"https://jializyz7.com\"],\n[\"色南国资源\",\"https://api.sexnguon.com\"],\n[\" A S M R \",\"https://asmr19.in\"],\n[\"K K 资 源\",\"https://kkzy.me\"],\n[\"麻豆视频\",\"https://91md.me\"],\n[\"三六资源\",\"https://3366zy.com\"],\n[\"九九资源\",\"https://99zy.pw\"],\n[\"番号资源\",\"http://fhapi9.com\"],\n[\"浪潮资源\",\"http://langchaozy11.com\"],\n[\"热巴资源\",\"http://reba.aishunxs.com\"],\n[\"色窝资源\",\"https://sewozyapi.com\"],\n[\"丝袜资源\",\"https://siwazyw.cc\"],\n[\"香蕉资源\",\"https://ea111.cc\"],\n[\"金莲资源\",\"https://111kkkkk.com\"],\n[\"芒果资源\",\"https://mgzyz1.com\"],\n[\"辣椒资源\",\"https://lajiaozy18.com\"],\n[\"探探资源\",\"https://apittzy.com\"],\n[\"国色资源\",\"https://api.guosezy.com\"],\n[\"爱播资源\",\"https://cj.apiabzy.com\"],\n[\"蜜桃资源①\",\"https://smt999.cc\"],\n[\"蜜桃资源②\",\"https://51smt4.xyz\"],\n[\"老鸭资源②\",\"https://laoyazy40.com\"],\n[\"佳丽资源③\",\"https://jializyzapi.com\"],\n[\"南国资源网\",\"https://api.nguonphim.tv\"]\n]",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "$.author",
+            "coverUrl": "$.coverUrl",
+            "init": "$.list[0]\n@js:\neval(String(source.bookSourceComment))\n$=result\nJSON.stringify({\n\t\tname: $.vod_name,\n\t\tauthor: name,\n\t\tkind: String($.vod_duration).replace(/\\[db\\:时长\\]/,'')+','+$.type_name+','+$.vod_remarks+','+String($.vod_class).replace(/\\s/g,',')+','+String($.vod_time).replace(/\\s.*/,''),\n\t\twordCount: $.vod_score+'分',\n\t\tintro: '<p>'+$.vod_content+'</p><p>'+p+'</p>',\n\t\tcoverUrl: $.vod_pic\n\t})",
+            "intro": "$.intro",
+            "kind": "$.kind",
+            "lastChapter": "",
+            "name": "$.name",
+            "wordCount": "$.wordCount##^分"
+        },
+        "ruleContent": {
+            "content": "@js:\neval(String(source.bookSourceComment))\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(jxurl+baseUrl,title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n\t}\n'<p>【刷新正文】播放<br>或者【点击章节链接】跳转到浏览器播放</p>'",
+            "imageStyle": ""
+        },
+        "ruleExplore": {
+            "author": "$.author",
+            "bookList": "$.list\n@js:json=[]\neval(String(source.bookSourceComment))\nfor(i in result){$=result[i]\n\t\tjson.push(JSON.stringify({\n\t\t\t\tname: $.vod_name,\n\t\t\t\tauthor: name,\n\t\t\t\tkind: $.type_name+','+$.vod_remarks+','+String($.vod_class).replace(/\\s/g,',')+','+String($.vod_time).replace(/\\s.*/,''),\n\t\t\t\twordCount: $.vod_score+'分',\n\t\t\t\tlastChapter: String($.vod_duration).replace(/\\[db\\:时长\\]/,''),\n\t\t\t\tintro: $.vod_content+p,\n\t\t\t\tcoverUrl: $.vod_pic,\n\t\t\t\tbookUrl: '/api.php/provide/vod/?ac=detail&ids='+$.vod_id\n\t\t\t}))\n\t}\njson",
+            "bookUrl": "$.bookUrl",
+            "coverUrl": "$.coverUrl",
+            "intro": "$.intro",
+            "kind": "$.kind",
+            "lastChapter": "$.lastChapter",
+            "name": "$.name",
+            "wordCount": "$.wordCount##^分"
+        },
+        "ruleSearch": {
+            "author": "@get:{name}",
+            "bookList": "$.list",
+            "bookUrl": "/api.php/provide/vod/?ac=detail&ids={{$.vod_id}}",
+            "checkKeyWord": "",
+            "coverUrl": "$.vod_pic",
+            "intro": "{{$.vod_content}}@get:{p}",
+            "kind": "{{$.type_name&&$.vod_remarks&&$.vod_class##\\s##,}}\n{{$.vod_time##\\s.*}}",
+            "lastChapter": "$.vod_duration##\\[db\\:时长\\]",
+            "name": "$.vod_name",
+            "wordCount": "{{$.vod_score}}分##^分"
+        },
+        "ruleToc": {
+            "chapterList": "$..vod_play_url\n@js:\njson=[]\nres=String(result[0])\nlist=(list=res.split('$$$'))?(String(list[1]).match(/\\.(mp4|m3u8)/)?list[1]:list[0]).split('#'):res.split('#')\nif(list){for(i in list){\n\t\tlist1=list[i].split('$')\n\t\tjson.push(JSON.stringify({\n\t\t\t\tname:list1[0]?'《'+book.name+'》 '+list1[0]:'',\n\t\t\t\turl:list1[1]?list1[1]:(list1[0].match(/http/)?list1[0]:'')\n\t\t\t}))\n\t}}\nelse{\n\t\tlist1=res.split('$')\n\t\tjson.push(JSON.stringify({\n\t\t\t\tname:list1[0]?book.name+list1[0]:'',\n\t\t\t\turl:list1[1]?list1[1]:(list1[0].match(/http/)?list1[0]:'')\n\t\t\t}))\n\t}\njson",
+            "chapterName": "$.name",
+            "chapterUrl": "$.url",
+            "isVolume": "",
+            "updateTime": "$.url"
+        },
+        "searchUrl": "@js:\neval(String(source.bookSourceComment))\njava.put('name',name);java.put('p',p)\nurl+\"detail&wd=\"+key+\"&pg=\"+page",
+        "weight": 0
+    }
+]

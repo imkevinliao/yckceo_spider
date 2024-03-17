@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉 精品",
+        "bookSourceName": "🎉 阅友小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.suixkan.com",
+        "customOrder": -10,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"男频\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"都市人生\",\"url\":\"/l/f/1100/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/l/f/1101/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/l/f/1102/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军事历史\",\"url\":\"/l/f/1103/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻末世\",\"url\":\"/l/f/1104/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏体育\",\"url\":\"/l/f/1105/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女频\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现代言情\",\"url\":\"/l/f/2100/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"/l/f/2101/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"幻想言情\",\"url\":\"/l/f/2102/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越时空\",\"url\":\"/l/f/2104/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"宫闱争斗\",\"url\":\"/l/f/2105/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"豪门总裁\",\"url\":\"/l/f/2106/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"婚恋爱情\",\"url\":\"/l/f/2107/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"经商种田\",\"url\":\"/l/f/2108/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"图书\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑灵异\",\"url\":\"/l/f/2100/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"出版读物\",\"url\":\"/l/f/2101/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"文学小说\",\"url\":\"/l/f/2102/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代典籍\",\"url\":\"/l/f/2103/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+        "lastUpdateTime": 1641549439735,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".face-info span.0@text##.*：",
+            "coverUrl": ".face-cover img@src",
+            "intro": "#intro@html",
+            "kind": ".face-info span.1:3@text##.*：",
+            "lastChapter": ".chapter-entrance@text",
+            "name": ".face-info-title@text",
+            "tocUrl": ".sumchapter a@href",
+            "wordCount": ".face-info span.2@text##.*："
+        },
+        "ruleContent": {
+            "content": ".con@p@html",
+            "replaceRegex": "##（本章未完，请翻页）|（本章完）"
+        },
+        "ruleExplore": {
+            "author": ".v-author@text##\\s",
+            "bookList": ".v-list-item",
+            "bookUrl": "@onclick@js:result.match(/\\('(.*?)'\\)/)[1]",
+            "coverUrl": "img@src",
+            "intro": ".v-intro@text",
+            "name": ".v-title@text",
+            "wordCount": ".v-words@text"
+        },
+        "ruleSearch": {
+            "author": ".v-author@text##\\s",
+            "bookList": ".v-list-item",
+            "bookUrl": "@onclick@js:result.match(/\\('(.*?)', '', ''\\)/)[1]",
+            "coverUrl": "img@src",
+            "intro": ".v-intro@text",
+            "kind": ".base-label@text",
+            "name": ".v-title@text",
+            "wordCount": ".v-words@text"
+        },
+        "ruleToc": {
+            "chapterList": ".catalog_ls li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s/1.html?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

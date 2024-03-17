@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "仅做参考，提供思路\n◎右上角三点，点击登录查看验证码（❗️不要点✓，不然验证码就变了，直接返回）\n◎点击设置源变量填上验证码，确认\n◎重新搜索书（或者刷新换源列表<注意：换源时取消校检作者才会出现该源，换源要求输入验证码，不一定是网站有这本书，一直要求输验证码，可能是没这书😂>",
+        "bookSourceGroup": "搜索验证码",
+        "bookSourceName": "丝路文学<搜索验证码>",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.rsilu.com",
+        "bookUrlPattern": "https://(?:book|www).rsilu.com/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1646754372997,
+        "loginUrl": "https://www.rsilu.com/styles/code.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.a.2@text||tag.dd.0@text",
+            "init": "",
+            "intro": "class.intro_info@text||class.introCon@text",
+            "lastChapter": "class.block_txt2@tag.a.-1@text||class.renew@a@text",
+            "name": "h2@text",
+            "tocUrl": "<js>\nbaseUrl.match(/book\\.rs/)?baseUrl.replace(/book/,'www'):baseUrl;\n</js>"
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes##$##🍵",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*🍵\\s*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.writer.0@text",
+            "bookList": "<js>\nif(result.match(/请输入验证码/)){\n'<li><a href=\"/\">'+java.get('key')+'</a><span>点击登录查看验证码</span><b>◎右上角三点，点击登录查看验证码（❗️不要点✓，不然验证码就变了，直接返回）<br>◎点击设置源变量填上验证码，确认<br>◎重新搜索书（或者刷新换源列表<注意：换源时取消校检作者才会出现该源，换源要求输入验证码，不一定是网站有这本书>）</b></li>'\n\t}else{\n\t\tresult=result\n\t\t}\n</js>\nclass.listRightBottom@li||tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src##.*nocover.*",
+            "intro": "class.bookDesc@text||tag.b@html",
+            "kind": "class.state.0@text",
+            "lastChapter": "class.newChapter@a@text||tag.span@text",
+            "name": "h2@text||tag.a.0@text",
+            "wordCount": "class.writer.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "-class.chapterCon@li@a\n<js>\nif(result!=\"\"){\n\tresult=result\n\t}else{\n\t\tresult=\"<a>输入验证码</a>\"\n\t\t}\n</js>\ntag.a",
+            "chapterName": "text",
+            "chapterUrl": "href##^##https://book.rsilu.com"
+        },
+        "searchUrl": "<js>\ncode=source.getVariable();\nurl=\"https://www.rsilu.com/modules/article/search.php\";\npost={\n\t\"charset\":\"gbk\",\n\t\"method\":\"POST\",\n\t\"body\":\"code=\"+code+\"&searchkey=\"+key,\n\t\"webView\":true\n\t}\n\tjava.put('key',key)\nresult=url+\",\"+JSON.stringify(post)\n</js>",
+        "weight": 0
+    }
+]

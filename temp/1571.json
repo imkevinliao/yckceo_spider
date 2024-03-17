@@ -1,0 +1,64 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "巴巴鱼",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.babayu.tv/",
+        "bookUrlPattern": "",
+        "customOrder": 451,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"全部小说\",\"url\":\"/all.html?page={{page}}\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"玄幻奇幻\",\"url\":\"/all/id/42.html?page={{page}}\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"武侠修真\",\"url\":\"/all/id/43.html?page={{page}}\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"都市异能\",\"url\":\"/all/id/44.html?page={{page}}\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"历史军事\",\"url\":\"/all/id/45.html?page={{page}}\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"网游竞技\",\"url\":\"/all/id/46.html?page={{page}}\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"科幻灭世\",\"url\":\"/all/id/47.html?page={{page}}\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"惊悚悬疑\",\"url\":\"/all/id/49.html?page={{page}}\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"轻小い说\",\"url\":\"/all/id/52.html?page={{page}}\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"女生频道\",\"url\":\"/all/id/48.html?page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_flexBasisPercent\":0.29}}]",
+        "lastUpdateTime": 1670411805205,
+        "loginUrl": "",
+        "respondTime": 7919,
+        "ruleBookInfo": {
+            "author": "class.info@span.1@text",
+            "coverUrl": "class.lazy.0@src",
+            "init": "",
+            "intro": "class.content@text",
+            "kind": "class.info@span.0@text",
+            "lastChapter": "class.clearfix.1@li.0@text",
+            "name": "dd@h2@text",
+            "tocUrl": "",
+            "wordCount": "class.info@span.2@text&&class.info@span.4@text"
+        },
+        "ruleContent": {
+            "content": "class.read-section@p@html",
+            "nextContentUrl": "class.btn-next@href",
+            "replaceRegex": "##本站启用新域名：m.babayu.tv"
+        },
+        "ruleExplore": {
+            "author": "class.author.1@textNodes",
+            "bookList": "class.search-list@li",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro@textNodes",
+            "kind": "class.latest@textNodes",
+            "lastChapter": "class.latest@a@text",
+            "name": "h3@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.info@span@text",
+            "bookList": "class.search-list@li",
+            "bookUrl": "class.tit@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.type@text",
+            "lastChapter": "class.finish@text",
+            "name": "class.tit@text",
+            "wordCount": "class.word@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.bookshelf-list@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://m.babayu.tv/soshu.html?ss={{key}},{'webView': true}",
+        "weight": 0
+    }
+]

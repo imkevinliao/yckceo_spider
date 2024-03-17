@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "网站不支持搜索，只能做发现",
+        "bookSourceName": "43看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.43kanshu.com/",
+        "customOrder": -88901363,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"周榜\",\"url\":\"/rank/weekvisit/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"月榜\",\"url\":\"/rank/monthvisit/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"总榜\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"收藏榜\",\"url\":\"/rank/goodnum/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"玄幻\",\"url\":\"/fenlei/1/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"奇幻\",\"url\":\"/fenlei/2/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/fenlei/3/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"仙侠\",\"url\":\"/fenlei/4/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"/fenlei/5/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"军事\",\"url\":\"/fenlei/6/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/fenlei/7/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"游戏\",\"url\":\"/fenlei/8/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"竞技\",\"url\":\"/fenlei/9/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/fenlei/10/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"悬疑\",\"url\":\"/fenlei/11/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"灵异\",\"url\":\"/fenlei/12/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"古代\",\"url\":\"/fenlei/14/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"现代\",\"url\":\"/fenlei/16/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"BL文\",\"url\":\"/fenlei/22/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"GL文\",\"url\":\"/fenlei/23/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"二次元\",\"url\":\"/fenlei/24/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"其他\",\"url\":\"/fenlei/13/1/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1650283144030,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.block_img2@img@src",
+            "init": "",
+            "intro": "class.intro_info@text##推荐地址.*",
+            "kind": "class.block_txt2@p.3@text",
+            "lastChapter": "class.block_txt2@p.-1@text"
+        },
+        "ruleContent": {
+            "content": "id.nr@html"
+        },
+        "ruleExplore": {
+            "author": "class.tjxs@span.1@text",
+            "bookList": "class.list fk@ul",
+            "bookUrl": "class.xsm@a@href",
+            "coverUrl": "class.tjimg@a@img@src",
+            "intro": "class.tjxs@span.2@text",
+            "name": "class.xsm@text"
+        },
+        "ruleSearch": {
+            "bookList": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.ul_all_chapters@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "weight": 0
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "bookSourceGroup": "音乐",
+        "bookSourceName": "音乐-qq",
+        "bookSourceType": 1,
+        "bookSourceUrl": "https://music.liuzhijin.cn-qq",
+        "customOrder": -3525,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "",
+        "lastUpdateTime": 0,
+        "ruleBookInfo": [],
+        "ruleContent": [],
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.data[*]",
+            "bookUrl": "$.url",
+            "coverUrl": "$.pic",
+            "intro": "$.lrc",
+            "name": "$.title@put:{title:$.title,url:$.url}"
+        },
+        "ruleToc": {
+            "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=qq&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+        "weight": 0
+    }
+]

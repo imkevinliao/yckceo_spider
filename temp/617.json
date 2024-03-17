@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️笔趣阁2☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bqg99.org#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::https://www.bqg99.org/sort/1/{{page}}/\n武侠::https://www.bqg99.org/sort/2/{{page}}/\n都市::https://www.bqg99.org/sort/3/{{page}}/\n历史::https://www.bqg99.org/sort/4/{{page}}\n科幻::https://www.bqg99.org/sort/5/{{page}}/\n游戏::https://www.bqg99.org/sort//6/{{page}}\n女生::https://www.bqg99.org/sort/7/{{page}}/\n其他::https://www.bqg99.org/sort/8/{{page}}/\n热门::https://www.bqg99.org/sort/9/{{page}}/\n记录::https://www.bqg99.org/sort/10/{{page}}/",
+        "lastUpdateTime": 1643973746303,
+        "ruleBookInfo": {
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.btm@text",
+            "bookList": "class.item",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.dd@text",
+            "name": "tag.a@title",
+            "wordCount": "class.orange visible-xs@text"
+        },
+        "ruleSearch": {
+            "author": "class.btm@text",
+            "bookList": "class.item",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.dd@text",
+            "lastChapter": "",
+            "name": "tag.a@title",
+            "wordCount": "class.orange visible-xs@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@tag.a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.bqg99.org/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "77小说网[77xs]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.77xs.org/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": " [{\"title\": \"玄幻小说\",\"url\": \"http://www.77xs.org/xuanhuan/\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"武侠小说\",\"url\": \"http://www.77xs.org/xiuzhen/\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n {\"title\": \"都市小说\",\"url\": \"http://www.77xs.org/dushi/\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n  {\"title\": \"历史小说\",\"url\": \"http://www.77xs.org/lishi/\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n {\"title\": \"网游小说\",\"url\": \"http://www.77xs.org/wangyou/\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n {\"title\": \"科幻小说\",\"url\": \"http://www.77xs.org/kehuan/\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n {\"title\": \"言情小说\",\"url\": \"http://www.77xs.org/yanqing/\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n {\"title\": \"其他小说\",\"url\": \"http://www.77xs.org/qita/\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n {\"title\": \"全本小说\",\"url\": \"http://www.77xs.org/quanben/\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}\r\n]",
+        "lastUpdateTime": 1649388018854,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "class.showtxt@textNodes",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.l bd@li",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "",
+            "name": "class.s2@text## 墨坛文学"
+        },
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookname@a@href",
+            "coverUrl": "class.bookimg@img@src",
+            "intro": "class.bookinfo@p@html",
+            "lastChapter": "class.update@a@text",
+            "name": "class.bookname@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.77xs.org/shaopu.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

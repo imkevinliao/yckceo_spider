@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "二五零书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.x5200.com",
+        "bookUrlPattern": "https://m.x5200.com/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690596033444,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@a.1@text",
+            "coverUrl": ".block_img2@img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2@p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2@a.-1@text",
+            "name": ".block_txt2@h2@text",
+            "tocUrl": "text.目录正序@href"
+        },
+        "ruleContent": {
+            "content": "#changedStyle@html",
+            "nextContentUrl": ".navigator@a.-1@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/waps.php,{\n  \"body\": \"searchtype=articlename&searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "by白泽",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔笔文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xbibiwx.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "header": "{\n \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "lastChapter": "class.upd@tag.a.0@text"
+        },
+        "ruleContent": {
+            "content": "class.contentbox@textNodes##本书籍.*|笔笔文学.*|支持:，请把本站分享给你们的好友！"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.infos@a@text",
+            "bookList": "class.so new",
+            "bookUrl": "tag.h2@tag.a@href",
+            "coverUrl": "class.pic@tag.img@src",
+            "intro": "p@text##.*简介：",
+            "kind": "tag.span.3@text##类别：",
+            "lastChapter": "",
+            "name": "h2@text",
+            "wordCount": "tag.span.1@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "class.book_list@tag.li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/plus/search1s.php?kwtype=0&searchtype=&q={{key}},{\n \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

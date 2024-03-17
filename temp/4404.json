@@ -1,0 +1,64 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🚬 刘备",
+        "bookSourceName": "🚬 爱他小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.hiaita.com",
+        "customOrder": 948,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"熊熊\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=17\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军警\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古典\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=19\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同志\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=20\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"校园\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=4\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"职场\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=5\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"中年\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=6\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"老年\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=7\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"重生\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=tag&tag=重生&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=tag&tag=穿越&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1699284249340,
+        "loginUrl": "",
+        "respondTime": 2595,
+        "ruleBookInfo": {
+            "author": "p.x-detail__info--author@text",
+            "coverUrl": "div.x-detail__book > div.x-book > div > div.x-book__coverbox > img@src",
+            "init": "",
+            "intro": "div.x-detail__intro--content@html",
+            "kind": "",
+            "lastChapter": "",
+            "name": "p.x-detail__info--title@text",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#chapterContent > section@html",
+            "imageStyle": "0",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "#app > div > div.x-page__content > div > div.x-library__books > div.van-list > span > div",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "我的熊",
+            "coverUrl": "div > div.x-book__coverbox > a > img@src",
+            "intro": "div > div.x-book__text--multi > a > div > p.x-book__intro@text",
+            "kind": "div > div.x-book__text--multi > a > div > div > span.book-status@text",
+            "name": "div > div.x-book__text--multi > a > div > p.x-book__info--name@text",
+            "wordCount": "div > div.x-book__text--multi > a > div > div > span.book-wordcount@text"
+        },
+        "ruleToc": {
+            "chapterList": "#wrapper > div > a",
+            "chapterName": "p@text",
+            "chapterUrl": "href##$##,{\"webView\": true}",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://www.hiaita.com/module/novel/search.php?type=1&key={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

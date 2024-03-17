@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️UU小说☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.uuxsw8.cc#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1644663487396,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p.0@text",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro_info@html##在非wifi.*|.*流量哦~",
+            "kind": "",
+            "lastChapter": "class.chapter@tag.li.0@text",
+            "name": "class.block_txt2@tag.h2.0@tag.a.0@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "id.txt@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.-1@text",
+            "bookList": "class.line",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "name": "class.blue@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.uuxsw8.cc/search?wd={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

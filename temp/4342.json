@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "// 可在线阅读，也可下载本地\n// 左上角书源类型即可切换",
+        "bookSourceGroup": "👍 优质,📔 文件",
+        "bookSourceName": "📔 爱下电子书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.aixdzs.com",
+        "bookUrlPattern": "",
+        "customOrder": 1278,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻·奇幻::/sort/1/index_0_0_0_{{page}}.html\n修真·仙侠::/sort/2/index_0_0_0_{{page}}.html\n都市·军事::/sort/3/index_0_0_0_{{page}}.html\n历史·军事::/sort/4/index_0_0_0_{{page}}.html\n网游·竞技::/sort/5/index_0_0_0_{{page}}.html\n科幻·灵异::/sort/6/index_0_0_0_{{page}}.html\n言情·穿越::/sort/7/index_0_0_0_{{page}}.html\n台言·古言::/sort/9/index_0_0_0_{{page}}.html\n耽美·同人::/sort/8/index_0_0_0_{{page}}.html\n其他类别::/sort/0/index_0_0_0_{{page}}.html\n当代现代::/sort/14/index_0_0_0_{{page}}.html\n侦探推理::/sort/12/index_0_0_0_{{page}}.html\n韩流青春::/sort/17/index_0_0_0_{{page}}.html\n武侠小说::/sort/10/index_0_0_0_{{page}}.html\n古典文学::/sort/11/index_0_0_0_{{page}}.html\n外国文学::/sort/13/index_0_0_0_{{page}}.html\n童话故事::/sort/15/index_0_0_0_{{page}}.html\n传记纪实::/sort/16/index_0_0_0_{{page}}.html\n影视文学::/sort/18/index_0_0_0_{{page}}.html\n热门排行::https://ixdzs8.com/hot/day/\n最近更新::https://ixdzs8.com/new/",
+        "header": "{\n\t\"User-Agents\": \"Mozilla/5.0 (Linux; Android 13; Z832 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.92 Mobile Safari/537.36\",\n \"Referer\": \"{{baseUrl}}\"\n}",
+        "lastUpdateTime": 1698481182609,
+        "loginUrl": "",
+        "respondTime": 1353,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "downloadUrls": "body > main > div:nth-child(1) > div.novel > div.n-btn > span.btn-normal > a@href\n<js>\nif(typeof result == \"object\"){\n\tresult = result?result[0]:null\n\t}else{result = result}\nmatch = baseUrl.match(/^(https?:\\/\\/[^/]+)/);\nturl = match?match[0]:null;\nurl = turl + result;\njava.ajax(url)\n</js>\nbody > main > div:nth-child(1) > div.novel > div.n-btn > span:nth-child(1) > a@href&&\nbody > main > div:nth-child(1) > div.novel > div.n-btn > span:nth-child(2) > a@href",
+            "intro": "",
+            "kind": "body > main > div:nth-child(1) > div.novel > div.n-text > p:nth-child(3) > a@text",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#page > article > section@html",
+            "nextContentUrl": "",
+            "title": "#page > article > h3@text"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "div.l-text > div > p.l-p1 > span.bauthor > a@text",
+            "bookList": "body > main > div.panel > ul > li",
+            "bookUrl": "div.l-text > div > h3 > a@href",
+            "coverUrl": "div.l-img > a > img@src",
+            "intro": "div.l-text > div > p.l-p2@textNodes",
+            "kind": "",
+            "lastChapter": "div.l-text > div > p.l-last > a > span@text",
+            "name": "div.l-text > div > h3 > a@text",
+            "wordCount": "div.l-text > div > p.l-p1 > span.size@text"
+        },
+        "ruleToc": {
+            "chapterList": "@js:\n//章节开始\nvar star=java.getString(\"text.阅读@href\")\nvar start=star.match(/(\\d+).html/)[1];\nstart=Number(start);\n//章节末尾|最新章节\nvar end=java.getString(\"text.最新@a@href\");\nvar ends=end.match(/(\\d+).html/)[1];\nends = Number(ends);\n//初始化章节列表\nvar list=[];\n//判断目录数量\nif(ends-start<10000){\nfor(i=1;start<=ends;i++,start++){\nname=`第${i}章`\nlink=String(star).replace(/\\d+.html/,`${start}.html`)\nlist.push({text:name,href:link})\n}\nlist;\n}else{\njava.toast(\"目录异常，章节列表获取失败！\")\nlist=[{text:\"正文\",href:star}];\n}\nlist;",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/bsearch?q={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "💫尘心",
+        "bookSourceName": "燃文小说网.ranwen-me",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.ranwen.me！",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
+        "lastUpdateTime": 1621836267388,
+        "ruleBookInfo": {
+            "author": "class.bookinfo@tag.a.0@text##作者:",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "class.intro@href",
+            "kind": "class.bookinfo@tag.a.1@text##类别:",
+            "lastChapter": "class.bookinfo@tag.a.2@text##最新:",
+            "name": "tag.h1@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.nr@html",
+            "nextContentUrl": "class.pb_next@href||text.下一页@href",
+            "replaceRegex": "## -->>|\\n　　本章未完，点击下一页继续阅读"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.mr15@text",
+            "bookList": "class.list-item",
+            "bookUrl": "class.article@tag.a@href",
+            "coverUrl": "class.list-item@@tag.tr@tag.td@tag.a@tag.img@src",
+            "intro": "class.fs12 gray.1@text",
+            "name": "class.article@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.lb_mulu@class.last9@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.ranwen.me/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n\"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

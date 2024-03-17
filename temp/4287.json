@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "本身无配图无封面，全日文站式。需🔮\n目录加载不出来可能是短篇作品没有目录列表，直接进入了正文。",
+        "bookSourceGroup": "轻小说",
+        "bookSourceName": "成为小说家吧【🇯🇵】",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://syosetu.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "总排行::https://yomou.syosetu.com/rank/list/type/total_total/\n日排行::https://yomou.syosetu.com/rank/list/type/daily_total/\n周排行::https://yomou.syosetu.com/rank/list/type/weekly_total/\n月排行::https://yomou.syosetu.com/rank/list/type/monthly_total/\n年排行::https://yomou.syosetu.com/rank/list/type/yearly_total/\n异世界::https://yomou.syosetu.com/rank/genrelist/type/daily_101/#\n现实世界::https://yomou.syosetu.com/rank/genrelist/type/daily_102/#\n高度幻想::https://yomou.syosetu.com/rank/genrelist/type/daily_201/#\n低度幻想::https://yomou.syosetu.com/rank/genrelist/type/daily_202/#\n纯文学::https://yomou.syosetu.com/rank/genrelist/type/daily_301/#\n人间戏剧::https://yomou.syosetu.com/rank/genrelist/type/daily_302/#\n历史::https://yomou.syosetu.com/rank/genrelist/type/daily_303/#\n推理::https://yomou.syosetu.com/rank/genrelist/type/daily_304/#\n恐怖::https://yomou.syosetu.com/rank/genrelist/type/daily_305/#\n动作::https://yomou.syosetu.com/rank/genrelist/type/daily_306/#\n喜剧::https://yomou.syosetu.com/rank/genrelist/type/daily_307/#\nVR【SF】::https://yomou.syosetu.com/rank/genrelist/type/daily_401/#\n宇宙【SF】::https://yomou.syosetu.com/rank/genrelist/type/daily_402/#\n空想科学【SF】::https://yomou.syosetu.com/rank/genrelist/type/daily_403/#\n恐慌【SF】::https://yomou.syosetu.com/rank/genrelist/type/daily_404/#\n童话::https://yomou.syosetu.com/rank/genrelist/type/daily_9901/#",
+        "lastUpdateTime": 1697605374918,
+        "loginUrl": "https://syosetu.com/login/logout/",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.novel_writername@text",
+            "kind": "",
+            "name": "class.novel_title@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.novel_honbun@text",
+            "nextContentUrl": "",
+            "title": "class.novel_subtitle@text"
+        },
+        "ruleExplore": {
+            "author": "class.rank_table@tr.0@a.1@text",
+            "bookList": "class.ranking_list",
+            "bookUrl": "class.rank_h@a@href",
+            "intro": "class.rank_table@tr.1@td.-1@text",
+            "kind": "class.rank_table@tr.3@a@text",
+            "name": "class.rank_h@a@text",
+            "wordCount": "class.rank_table@tr.4@span@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.searchkekka_box@a.1@text",
+            "bookList": "class.searchkekka_box",
+            "bookUrl": "class.novel_h@a@href",
+            "checkKeyWord": "異世界",
+            "intro": "class.ex@text",
+            "kind": "tag.table@tbody@tr@td@a@text",
+            "name": "class.novel_h@a@text",
+            "wordCount": "class.marginleft.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.index_box@tag.dl",
+            "chapterName": "class.subtitle@a@text",
+            "chapterUrl": "class.subtitle@a@href"
+        },
+        "searchUrl": "https://yomou.syosetu.com/search.php?&word={{key}}&search_type=novel&order_former=search&order=new&notnizi=1&p={{page}}",
+        "weight": 0
+    }
+]

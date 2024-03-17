@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "新笔趣中文_修复采集",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://wap.xbiquzw.com",
+        "bookUrlPattern": "http://wap.xbiquzw.com/[\\d_]+/",
+        "concurrentRate": "10",
+        "customOrder": -802,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/list/1_{{page}}.html\n修真小说::/list/2_{{page}}.html\n都市小说::/list/3_{{page}}.html\n穿越小说::/list/4_{{page}}.html\n网游小说::/list/5_{{page}}.html\n科幻小说::/list/6_{{page}}.html\n完本小说::/wanjiexiaoshuo/{{page}}",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698603624279,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}@text",
+            "coverUrl": "@get:{c}@src",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}@text",
+            "kind": "@get:{k}@text",
+            "lastChapter": "@get:{l}@text",
+            "name": "@get:{n}@text"
+        },
+        "ruleContent": {
+            "content": "#nr@html",
+            "nextContentUrl": "//a[contains(text(),'下一页') and @class='dise'][@href]//@href",
+            "replaceRegex": "##.本章未完.*|{{ try{chapter.title}catch(e){\"\"} }}|\\(第\\d+.*页\\)"
+        },
+        "ruleExplore": {
+            "author": "span.1@text",
+            "bookList": "ul.xbk",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "span.-2@text",
+            "kind": "tag.i@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": ".bookone",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"body\": \"type=articlename&q={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

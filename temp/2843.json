@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceGroup": "普通",
+        "bookSourceName": "凤舞文学",
+        "bookSourceUrl": "http://m.kknn.net",
+        "enable": false,
+        "httpUserAgent": "",
+        "ruleBookAuthor": "class.book-num@text",
+        "ruleBookContent": "id.nr@html|id.kw@html##.*(?<=(请多多包含))|.*凤舞文学.*|(?=(一秒记住.)).*|.*(找不到书请留言！).*",
+        "ruleBookContentReplace": "",
+        "ruleBookKind": "class.book-details@tag.p.0@tag.span@text",
+        "ruleBookLastChapter": "class.lastbox@tag.a.1@text",
+        "ruleBookName": "class.head-title@tag.h2@text",
+        "ruleChapterList": "class.chapter book-dir@tag.a",
+        "ruleChapterName": "tag.h4@text",
+        "ruleChapterUrl": "class.lastbox@tag.a@href",
+        "ruleChapterUrlNext": "class.page-next@tag.a.0@href",
+        "ruleContentUrl": "tag.a.0@href",
+        "ruleContentUrlNext": "class.nr_page.1@tag.a.2@href|class.kw_page.1@tag.a.2@href",
+        "ruleCoverUrl": "class.book-box@tag.mip-img@src",
+        "ruleIntroduce": "class.book_profiles@tag.p@text",
+        "ruleSearchAuthor": "",
+        "ruleSearchCoverUrl": "tag.img@src",
+        "ruleSearchIntroduce": "tag.p.1@text",
+        "ruleSearchList": "id.search_res@class.book-item",
+        "ruleSearchName": "tag.p.0@text",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleSearchUrl": "http://m.kknn.net/s.php?keyword=searchKey",
+        "serialNumber": 2,
+        "weight": 0
+    }
+]

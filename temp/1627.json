@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "特别,字数",
+        "bookSourceName": "热游文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.521g.net",
+        "bookUrlPattern": "",
+        "customOrder": -2085958317,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻·连载::/wap.php?action=shuku&tid=4&over=2&order=1&uid=&totalresult=3097&pageno={{page}}\n仙侠武侠·连载::/wap.php?action=shuku&tid=3&over=2&order=1&uid=&totalresult=1171&pageno={{page}}\n都市言情·连载::/wap.php?action=shuku&tid=2&over=2&order=1&uid=&totalresult=3316&pageno={{page}}\n穿越历史·连载::/wap.php?action=shuku&tid=1&over=2&order=1&uid=&totalresult=1262&pageno={{page}}\n科幻灵异·连载::/wap.php?action=shuku&tid=6&over=2&order=1&uid=&totalresult=840&pageno={{page}}\n同人网游·连载::/wap.php?action=shuku&tid=8&over=2&order=1&uid=&totalresult=571&pageno={{page}}\n玄幻奇幻·完本::/wap.php?action=shuku&tid=4&over=1&order=1&uid=&totalresult=9612&pageno={{page}}\n仙侠武侠·完本::/wap.php?action=shuku&tid=3&over=1&order=1&uid=&totalresult=5359&pageno={{page}}\n都市言情·完本::/wap.php?action=shuku&tid=2&over=1&order=1&uid=&totalresult=8541&pageno={{page}}\n穿越历史·完本::/wap.php?action=shuku&tid=1&over=1&order=1&uid=&totalresult=1232&pageno={{page}}\n科幻灵异·完本::/wap.php?action=shuku&tid=6&over=1&order=1&uid=&totalresult=304&pageno={{page}}\n同人网游·完本::/wap.php?action=shuku&tid=8&over=1&order=1&uid=&totalresult=1056&pageno={{page}}",
+        "lastUpdateTime": 1668221433399,
+        "loginUrl": "",
+        "respondTime": 33050,
+        "ruleBookInfo": {
+            "author": "class.bd column-2@class.right@class.info@tag.a.0@text",
+            "coverUrl": "class.left@tag.img.0@src",
+            "intro": "class.mod book-intro@class.bd@textNodes##.*简介：|最后更新.*",
+            "kind": "class.right@class.info.0@text##.*类型：|字数.*",
+            "lastChapter": "class.mod block rank-switch update chapter-list@class.bd@class.list@tag.li.0@tag.a@text",
+            "name": "class.bd column-2@class.right@tag.h1@text",
+            "wordCount": "class.right@class.info.0@text##.*字数：|人气.*"
+        },
+        "ruleContent": {
+            "content": "class.page-content@p@textNodes",
+            "nextContentUrl": "class.mod page-control@class.bd@tag.a.2@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.right@class.info.0@text##.*作者：|.字数.*",
+            "bookList": "class.book-all-list@class.column-2 !-1",
+            "bookUrl": "class.right@tag.a.0@href",
+            "kind": "class.right@class.info.1@tag.a@text&&class.right@class.info.0@text##类型：|作者.*",
+            "lastChapter": "class.right@class.update@tag.a@text",
+            "name": "class.right@tag.a.0@text",
+            "wordCount": "class.right@class.info.0@text##.*字数."
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "http://m.521g.net/wap.php?action=search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"wd={{key}}\"\n}",
+        "weight": 0
+    }
+]

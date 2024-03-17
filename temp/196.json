@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌐 网页,📚 出版",
+        "bookSourceName": "📚 拉米阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://read.lmeee.com",
+        "bookUrlPattern": "",
+        "customOrder": 217,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"༺ˇ»`ʚ新书榜ɞ´«ˇ༻\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},{\"title\":\"全部\",\"url\":\"/books/0-no-0/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"小说\",\"url\":\"/books/11-no-0/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"文学\",\"url\":\"/books/12-no-0/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"成功\",\"url\":\"/books/13-no-0/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"传记\",\"url\":\"/books/14-no-0/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"社科\",\"url\":\"/books/15-no-0/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"少儿\",\"url\":\"/books/16-no-0/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"生活\",\"url\":\"/books/17-no-0/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/books/18-no-0/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"༺ˇ»`ʚ收藏榜ɞ´«ˇ༻\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},{\"title\":\"全部\",\"url\":\"/books/0-no-1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"小说\",\"url\":\"/books/11-no-1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"文学\",\"url\":\"/books/12-no-1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"成功\",\"url\":\"/books/13-no-1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"传记\",\"url\":\"/books/14-no-1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"社科\",\"url\":\"/books/15-no-1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"少儿\",\"url\":\"/books/16-no-1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"生活\",\"url\":\"/books/17-no-1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/books/18-no-1/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"༺ˇ»`ʚ点击榜ɞ´«ˇ༻\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},{\"title\":\"全部\",\"url\":\"/books/0-no-2/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"小说\",\"url\":\"/books/11-no-2/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"文学\",\"url\":\"/books/12-no-2/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"成功\",\"url\":\"/books/13-no-2/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"传记\",\"url\":\"/books/14-no-2/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"社科\",\"url\":\"/books/15-no-2/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"少儿\",\"url\":\"/books/16-no-2/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"生活\",\"url\":\"/books/17-no-2/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/books/18-no-2/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"༺ˇ»`ʚ精彩书单ɞ´«ˇ༻\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},{\"title\":\"四大名著\",\"url\":\"/m/subject/p98urr\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"金庸全集\",\"url\":\"/m/subject/pf72ol\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"还珠楼主\",\"url\":\"/m/subject/p7kfhc\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"通俗演义\",\"url\":\"/m/subject/pbychd\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史演义\",\"url\":\"/m/subject/p7kicr\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"公案小说\",\"url\":\"/m/subject/p7kfax\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"楚留香\",\"url\":\"/m/subject/pdp0nw\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"陆小凤\",\"url\":\"/m/subject/pdp16n\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"张恨水\",\"url\":\"/m/subject/p98u4c\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"凡尔纳科幻作品集\",\"url\":\"/m/subject/p98tk3\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"短篇美文：轻小说\",\"url\":\"/m/subject/p7kf6d\",\"style\":{\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1658673416624,
+        "loginUi": "",
+        "loginUrl": "https://read.lmeee.com",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book-info@tag.li.0@tag.a.0@text",
+            "coverUrl": "class.book-img@tag.a.0@tag.img.0@src",
+            "init": "",
+            "intro": "class.describe-short@html&&class.describe@tag.p@html",
+            "kind": "class.book-info@tag.ul.0@tag.li.3@tag.a.0@text",
+            "name": "class.book-info@tag.h1.0@tag.a.0@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "class.num.0@text"
+        },
+        "ruleContent": {
+            "content": "class.r-section@html##\\d+.\\d+%"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@tag.a@text",
+            "bookList": "class.book-w",
+            "bookUrl": "class.title@tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@text",
+            "name": "class.title@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.ul@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search?t=1&key={{key}}&p={{page}}",
+        "variableComment": "",
+        "weight": 0
+    }
+]

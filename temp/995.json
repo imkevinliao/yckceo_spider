@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "纯发现源",
+        "bookSourceGroup": "",
+        "bookSourceName": "VISTA看天下(纯发现源)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://open3.vistastory.com",
+        "concurrentRate": "",
+        "customOrder": -213745,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "看天下::https://open3.vistastory.com/v3/api/magazine/all_mag_page?pageNo={{page-1}}&pageSize=18&magType=1\n号外::https://open3.vistastory.com/v3/api/magazine/all_mag_page?pageNo={{page-1}}&pageSize=18&magType=2\nVbook::https://open3.vistastory.com/v3/api/magazine/all_mag_page?pageNo={{page-1}}&pageSize=18&magType=3",
+        "lastUpdateTime": 1631320174217,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<img src=\"{{$.article.coverUrl}}\">\n{{$.article..content}}",
+            "imageStyle": "",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "<js>\"VISTA看天下\"</js>",
+            "bookList": "$.magList",
+            "bookUrl": "https://open3.vistastory.com/v3/api/magazine/mag_column_detail?magId={{$.id}}",
+            "coverUrl": "$.coverUrl",
+            "intro": "$.articleTitle",
+            "kind": "$.magStyle",
+            "lastChapter": "$.subtitle",
+            "name": "$.title",
+            "wordCount": "$.releaseDateFormat"
+        },
+        "ruleToc": {
+            "chapterList": "$..articles.*",
+            "chapterName": "$.title",
+            "chapterUrl": "https://open3.vistastory.com/v3/api/article/article_detail2?articleId={{$.id}}&isShowNext=0"
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

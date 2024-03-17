@@ -1,0 +1,68 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "斋书文苑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.zhaishuyuan.co",
+        "bookUrlPattern": "",
+        "customOrder": -44,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux) AppleWebKit Chrome UCBrowser Mobile Safari\"\n}",
+        "lastUpdateTime": 1668741000298,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.detail@tag.p.0@text",
+            "coverUrl": "tag.img@src",
+            "init": "",
+            "intro": "class.intro@text",
+            "kind": "class.detail@tag.p.1@text##类别：",
+            "lastChapter": "class.read@tag.a.-1@text&&class.detail@tag.p.-1@text##更新：",
+            "name": "class.caption@tag.p@text",
+            "tocUrl": "class.read@a@href",
+            "wordCount": "class.detail@tag.p.3@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "imageStyle": "0",
+            "nextContentUrl": "id.next_url@href",
+            "replaceRegex": "##感谢.*打赏.*|\\【看书福利.*|\\（未完待续\\）|无弹窗.*|\\【加入书签.*|重要通知.*请收藏"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a@text##.*/",
+            "bookList": "class.mod@tag.ul@tag.li",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "我的七个妖孽姐姐",
+            "coverUrl": "tag.a@href\n<js>java.ajax('https://m.zhaishuyuan.co'+result)</js>tag.img@src",
+            "intro": "tag.a@href\n<js>java.ajax('https://m.zhaishuyuan.co'+result)</js>class.intro@text",
+            "kind": "tag.a@text##\\[|\\].*",
+            "lastChapter": "tag.a@href\n<js>java.ajax('https://m.zhaishuyuan.co'+result)</js>class.read@tag.a.-1@text&&class.detail@tag.p.-1@text##更新：",
+            "name": "tag.b@text",
+            "wordCount": "tag.a@href\n<js>java.ajax('https://m.zhaishuyuan.co'+result)</js>class.detail@tag.p.3@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "id.readlist@tag.li",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "#indexselect option@value"
+        },
+        "searchUrl": "https://m.zhaishuyuan.co/search,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

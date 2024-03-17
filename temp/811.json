@@ -1,0 +1,30 @@
+[
+    {
+        "bookSourceGroup": "自己创建",
+        "bookSourceName": "笔趣趣_biququ",
+        "bookSourceUrl": "http://www.biququ.com/",
+        "checkUrl": "",
+        "enable": true,
+        "httpUserAgent": "",
+        "ruleBookAuthor": "id.info@tag.p.0@text",
+        "ruleBookContent": "id.contents@html",
+        "ruleBookName": "id.info@tag.h1.0@text",
+        "ruleChapterList": "id.listtag.dd",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrl": "",
+        "ruleChapterUrlNext": "",
+        "ruleContentUrl": "tag.a@href",
+        "ruleContentUrlNext": "",
+        "ruleCoverUrl": "id.fmimgtag.img@src",
+        "ruleFindUrl": "",
+        "ruleIntroduce": "id.intro@text",
+        "ruleSearchAuthor": "class.s4@text",
+        "ruleSearchCoverUrl": "",
+        "ruleSearchKind": "class.s1@text",
+        "ruleSearchLastChapter": "class.s3@text",
+        "ruleSearchList": "class.search-list@tag.li.!0",
+        "ruleSearchName": "class.s2@tag.a.0@text",
+        "ruleSearchNoteUrl": "class.s2@tag.a.0@href",
+        "ruleSearchUrl": "http://www.biququ.com/search.php@keyword=searchKey"
+    }
+]

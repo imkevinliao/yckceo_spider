@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "💯 精品 💯",
+        "bookSourceName": "💯溜达小说(正文字数+时间)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.txtshuku.org/",
+        "bookUrlPattern": "",
+        "customOrder": -88901370,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/mulu/1-{{page}}.html\n武侠仙侠::/mulu/2-{{page}}.html\n都市言情::/mulu/3-{{page}}.html\n历史军事::/mulu/4-{{page}}.html\n科幻灵异::/mulu/5-{{page}}.html\n网游竞技::/mulu/6-{{page}}.html\n女频频道::/mulu/7-{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1648600539308,
+        "loginUrl": "",
+        "respondTime": 81878,
+        "ruleBookInfo": {
+            "author": "id.author@a@text",
+            "coverUrl": "id.bookimg@img@src",
+            "init": "",
+            "intro": "id.bookintro@text",
+            "kind": ".new.0@.uptime@span@text&&\n.count@li.0@span@text&&\n.count@li.4@span@text##最后更新.*",
+            "lastChapter": "id.newlist@li.0@a@text",
+            "name": ".booktitle@h1@text",
+            "tocUrl": ".motion@a.2@href",
+            "wordCount": ".count@li.6@span@text"
+        },
+        "ruleContent": {
+            "content": ".title@span!0@html%%id.content@html"
+        },
+        "ruleExplore": {
+            "author": "dd.1@span.0@text",
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "dd.2@text",
+            "kind": "dd.1@span.1@text&&\ndd.1@span.2@text",
+            "lastChapter": "dd.3@a@text",
+            "name": "h3@a@text"
+        },
+        "ruleSearch": {
+            "author": ".book_other.0@span.0@text",
+            "bookList": "id.sitembox@dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "dd.2@text",
+            "kind": "dd.3@span.0@text",
+            "lastChapter": "dd.3@a@text",
+            "name": "img@alt",
+            "wordCount": ".book_other@span.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlist@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.txtshuku.org/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

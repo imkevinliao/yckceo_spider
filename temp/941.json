@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "锡海",
+        "bookSourceName": "锡海",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.otcwuxi.com",
+        "customOrder": -228562,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1633541569020,
+        "ruleBookInfo": {
+            "author": "#info@p.0@text",
+            "coverUrl": "#fmimg@img@src",
+            "intro": "#intro@text",
+            "kind": "",
+            "lastChapter": "#info@p.3@text",
+            "name": "#info@h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "kind": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.search-list@tag.ul@li!0",
+            "bookUrl": "tag.a@href",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.box_con@id.list@dl@dd",
+            "chapterName": "text",
+            "chapterUrl": "tag.dd@tag.a@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&q={{key}}&s=920895234054625192&t=m&siteid=jhmmw.com",
+        "weight": 0
+    }
+]

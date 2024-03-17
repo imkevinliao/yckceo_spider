@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "丹书铁卷",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.dstiejuan.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1650021590516,
+        "respondTime": 1926,
+        "ruleBookInfo": {
+            "init": "",
+            "tocUrl": "class.now@tag.a@href",
+            "wordCount": "class.layui-btn layui-btn-xs layui-bg-red@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.layui-btn layui-btn-xs layui-bg-cyan@text",
+            "bookList": "li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@text",
+            "kind": "class.layui-btn layui-btn-xs layui-btn-radius@text",
+            "lastChapter": "class.data.-1@text##最新：",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search.html,{\n'charset': 'UTF-8',\n'method': 'POST',\n'body': 'searchkey={{key}}',\n'headers': {\n    'User-Agent': ''\n    }\n}",
+        "weight": 0
+    }
+]

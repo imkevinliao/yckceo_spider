@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceGroup": "置顶搜书",
+        "bookSourceName": "悠悠书盟",
+        "bookSourceUrl": "https://m.uutxt.com",
+        "enable": true,
+        "loginUrl": "",
+        "ruleBookAuthor": "class.block_txt2@tag.p.2@text##作者：",
+        "ruleBookContent": "id.nr1@html##本书.*请勿转载!",
+        "ruleBookKind": "class.block_txt2@tag.p.3@text&&\nclass.block_txt2@tag.p.4@text&&\nclass.block_txt2@tag.p.5@text##分类：|状态：|更新：",
+        "ruleBookLastChapter": "class.block_txt2@tag.p.6@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "ruleBookName": "class.block_txt2@h2@text",
+        "ruleBookUrlPattern": "https://m.uutxt.com/book/\\d+/\\d+/",
+        "ruleChapterList": "class.chapter@li",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrl": "text.开始阅读@href",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "class.block_img2@img@src",
+        "ruleFindUrl": "玄幻小说::/fenlei1_searchPage.html\n修真小说::/fenlei2_searchPage.html\n都市小说::/fenlei3_searchPage.html\n历史小说::/fenlei4_searchPage.html\n网游小说::/fenlei5_searchPage.html\n科幻小说::/fenlei6_searchPage.html\n言情小说::/fenlei7_searchPage.html",
+        "ruleIntroduce": "class.intro_info@text",
+        "ruleSearchAuthor": "class.author@text##作者：",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchIntroduce": "class.intro_line@text##简介：",
+        "ruleSearchLastChapter": "class.update@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "ruleSearchList": "class.bookbox",
+        "ruleSearchName": "h4@a@text",
+        "ruleSearchNoteUrl": "h4@a@href",
+        "ruleSearchUrl": "https://m.uutxt.com/SearchBook.php?keyword=searchKey&page=searchPage",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

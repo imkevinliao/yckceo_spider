@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "仅发现",
+        "bookSourceName": "UUU小说网(搜索404仅发现)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://v.uuuab.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "————————小说分类—————————\n玄幻小说::https://v.uuuab.com/sort/1_{{page}}/\n修真小说::https://v.uuuab.com/sort/2_{{page}}/\n都市小说::https://v.uuuab.com/sort/3_{{page}}/\n历史军事::https://v.uuuab.com/sort/4_{{page}}/\n网络游戏::https://v.uuuab.com/sort/5_{{page}}/\n科幻未来::https://v.uuuab.com/sort/6_{{page}}/\n恐怖灵异::https://v.uuuab.com/sort/7_{{page}}/\n同人小说::https://v.uuuab.com/sort/8_{{page}}/\n侦探推理::https://v.uuuab.com/sort/9_{{page}}/\n————————点击排行—————————\n月点击::https://v.uuuab.com/top/monthvisit_{{page}}/\n周点击::https://v.uuuab.com/top/weekvisit_{{page}}/\n总点击::https://v.uuuab.com/top/allvisit_{{page}}/\n完本::https://v.uuuab.com/full/{{page}}/",
+        "lastUpdateTime": 1665846914159,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "tocUrl": "class.b bk@a@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "imageStyle": "null",
+            "nextContentUrl": "text.↓↓↓@href",
+            "replaceRegex": "##[\\(\\（].*本章未完.*|网站此章.*|(安卓|苹果)用户请在.*|.*zhh.*|本章完"
+        },
+        "ruleExplore": {
+            "author": "tag.li.1@tag.a.1@text",
+            "bookList": "class.list fk@ul",
+            "bookUrl": "tag.li.1@tag.a.0@href",
+            "coverUrl": "tag.li.0@img@src",
+            "name": "tag.li.1@tag.a.0@text",
+            "wordCount": "tag.li.1@tag.i@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.li.1@tag.a.1@text",
+            "bookList": "class.list fk@ul",
+            "bookUrl": "tag.li.1@tag.a.0@href",
+            "coverUrl": "tag.li.0@img@src",
+            "name": "tag.li.1@tag.a.0@text",
+            "wordCount": "tag.li.1@tag.i@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.lb fk@li!-1",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.showpage r3@tag.a@href"
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

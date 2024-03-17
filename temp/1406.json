@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "by：freelance",
+        "bookSourceName": "UAA目录分卷修复",
+        "bookSourceType": 0,
+        "bookSourceUrl": "UAA",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 1675613804397,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "authors",
+            "coverUrl": "coverUrl",
+            "init": "model",
+            "intro": "&nbsp;标签：{{$.categories&&orientationDesc##[,\\n]##&nbsp;}}\n&lrm;\n视角：{{$.personDesc}}\n篇幅：{{$.lengthTypeDesc}}\n上架：{{$.updateTimeFormat}}\n观看：{{$.viewCount}}\n&lrm;\n▍简介&nbsp;———————————————\n&lrm;\n{{$.brief}}",
+            "kind": "{$.wordCount}字&&pornRateDesc",
+            "lastChapter": "latestUpdate&&updateTimeFormat##\\n##·",
+            "name": "title",
+            "tocUrl": "/novel/app/novel/catalog/{{$.id}}",
+            "wordCount": "@js:{{$.finished}}=='0'?'连载':'完结';"
+        },
+        "ruleContent": {
+            "content": "@js:\njava.log(result);\na=java.getString('model.lines');\nb=java.getString('model.illustration.imageUrl');\n//b=b!=''?'<img src=\"'+b+'\">':'';\njava.log(b);\nc=b.search(/\\/img/);\njava.log(c);\nif(c!=-1){\n\tb='<img src=\"'+b+'\">';\n}else{b=\"\"};\nresult=b+a;",
+            "imageStyle": "DEFAULT"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "authors",
+            "bookList": "model.data",
+            "bookUrl": "/novel/app/novel/intro?id={{$.id}}",
+            "checkKeyWord": "",
+            "coverUrl": "coverUrl",
+            "intro": "brief",
+            "kind": "{$.wordCount}字&&pornRateDesc&&categories##.*\\(|\\)",
+            "lastChapter": "latestUpdate&&updateTimeFormat##\\n##·",
+            "name": "title",
+            "wordCount": "@js:{{$.finished}}=='0'?'连载':'完结';"
+        },
+        "ruleToc": {
+            "chapterList": ".menus[*]\n<js>\njava.log(\"type = \"+typeof result);\njava.log(\"result = \"+result);\nvar obj = result;\nvar number =obj.length;\nvar nb=0;\nvar liarr = [];\nvar li={};\nfor(var i=0;i<number;i++)\n{\n\ttitle=obj[i].title;\n\turl=\"/novel/app/novel/chapter?id=\"+obj[i].id+\"&viewId=16755023882598961\";\n\ttype=obj[i].type;\n\tjava.log(type);\n\tif(type==1){\n\t\tli.title=title;\n\t\tli.url=url;\n\t\tliarr[nb]=JSON.stringify(li);\n\t  nb++;    \n\t\t}\n\t\n\tif(obj[i].children.length>0){\n\t\t//java.log(obj[i].children.length);\n\t\tfor(var x =0;x<obj[i].children.length;x++){\n\t\t\t\tli.title=title+\"--\"+obj[i].children[x].title;\n\t     //java.log(li.title);\n\t     li.url=\"/novel/app/novel/chapter?id=\"+obj[i].children[x].id+\"&viewId=16755023882598961\";\n\t     liarr[nb]=JSON.stringify(li);\n\t     nb++;    \n\t\t\t}\n\t\t}\n\t}\n//java.log(liarr.toString());\nliarr;\n</js>",
+            "chapterName": "<js>\nresult=JSON.parse(result);\nresult=result.title\n</js>",
+            "chapterUrl": "<js>\nresult=JSON.parse(result);\nresult=result.url\n</js>",
+            "isVip": "",
+            "isVolume": "",
+            "preUpdateJs": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://api.uaa.com/novel/app/novel/search?keyword={{key}}&page={{page}}&size=10",
+        "weight": 0
+    }
+]

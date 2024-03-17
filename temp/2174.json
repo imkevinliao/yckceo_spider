@@ -1,0 +1,23 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "无限小说",
+        "bookSourceUrl": "http://m.xp7000.com",
+        "enable": false,
+        "ruleBookContent": "id.novelcontent@textNodes",
+        "ruleBookLastChapter": "class.p3.0@a@text",
+        "ruleChapterList": "class.p2.4@li@a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.tu@img@src",
+        "ruleIntroduce": "class.jj@textNodes#最新章节.*",
+        "ruleSearchAuthor": "tag.a.2@text",
+        "ruleSearchLastChapter": "tag.a.1@text",
+        "ruleSearchList": "class.search_box@p",
+        "ruleSearchName": "tag.a.0@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://m.xp7000.com/book/search.aspx@key=searchKey&type=articlename",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

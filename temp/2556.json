@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌸  常用",
+        "bookSourceName": "🌸19826",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.19826.net/",
+        "customOrder": 26,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1608119765248,
+        "ruleBookInfo": {
+            "author": "class.booktag@tag.a.0@text",
+            "coverUrl": "img@src##.*/nocover.jpg",
+            "intro": "id.bookIntro@text",
+            "kind": "class.booktag@tag.a!0@text",
+            "lastChapter": "tag.p.1@text##最新章节：",
+            "name": "class.bookTitle@text"
+        },
+        "ruleContent": {
+            "content": "class.panel-body.0@html",
+            "nextContentUrl": "##url = \"([^\"]+)\";##$1###",
+            "replaceRegex": "##\\s*.*?本章未完.*\\s*|出错了，请刷新重试|热门小说txt下载"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "table@tr!0",
+            "bookUrl": "tag.a.0@href",
+            "kind": "tag.td.-1@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.panel-chapterlist.-1@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.19826.net/?a=search&,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

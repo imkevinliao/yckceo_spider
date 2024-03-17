@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceUrl": "https://lewencn.net/",
+        "bookSourceType": "0",
+        "bookSourceName": "乐文小说网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "modules/article/search.php, {\"method\":\"POST\", \"body\":\"searchtype=all&act=search&searchkey={{key}}\"}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1649680295276,
+        "ruleSearch": {
+            "bookList": "class.search-wrap-first",
+            "name": "class.title@text",
+            "author": "class.book-author@text",
+            "intro": "tag.p@text",
+            "coverUrl": "class.cover-book@tag.img@src",
+            "bookUrl": "tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.detail-book-title@text",
+            "author": "class.detail-book-author@text",
+            "kind": "class.detail-book-classify-etc.0@tag.span.1@text",
+            "lastChapter": "class.cover-book-latest-chapter@class.cover-mate-text@text",
+            "intro": "class.cover-book-desc@text",
+            "coverUrl": "class.detail-header-img@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.next@href"
+        },
+        "ruleContent": {
+            "content": "id.text@html##本章未完.*",
+            "nextContentUrl": "<js>if(src.indexOf('本章未完')>0){src}else{\"\"}</js>id.next2@href"
+        }
+    }
+]

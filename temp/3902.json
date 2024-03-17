@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "爱趣小说/零点看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.aiquxs.la",
+        "bookUrlPattern": "http://m.aiquxs.la/\\d+/",
+        "coverDecodeJs": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n排行::/ph/\n收藏::/collect/\n完本::/wanbenxiaoshuo/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692085270435,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*本章未完.+继续阅读.*|{{chapter.title}}|\\(第.+页\\)"
+        },
+        "ruleExplore": {
+            "bookList": ".txt-list li",
+            "bookUrl": "a@href",
+            "coverUrl": "{{'/images/nopic.gif'}}",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list li!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:'/images/nopic.gif'",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "lastChapter": "a.1@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "http://m.aiquxs.la/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

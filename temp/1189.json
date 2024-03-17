@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌼晨光雨露🍒精品源💯",
+        "bookSourceName": "乐文小说>增加更新时间",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.lwtxt.net/",
+        "bookUrlPattern": "https://m.lwtxt.net/\\d+/",
+        "customOrder": -165972,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "书库全部::/shuku/<,0_0_0_{{page}}.html>\n奇幻玄幻::/xuanhuan/<,{{page}}.html>\n武侠仙侠::/wuxia/<,{{page}}.html>\n都市生活::/dushi/<,{{page}}.html>\n历史军事::/lishi/<,{{page}}.html>\n游戏竞技::/youxi/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n恐怖悬疑::/xuanyi/<,{{page}}.html>\n二次元::/erciyuan/{{page}}.html\n经典网文::/jingdian/<,{{page}}.html>\n古代言情::/guyan/<,{{page}}.html>\n现代言情::/xianyan/<,{{page}}.html>\n幻想奇缘::/huanqing/<,{{page}}.html>\n青春校园::/qingchun/<,{{page}}.html>\n网络情缘::/wangluo/<,{{page}}.html>\n科幻空间::/mmkehuan/<,{{page}}.html>\n鬼怪灵异::/lingyi/<,{{page}}.html>\nN次元::/Nciyuan/<,{{page}}.html>\n言情美文::/yanqing/<,{{page}}.html>\n总点击榜::/top/allvisit/<,{{page}}.html>\n总推荐榜::/top/allvote/<,{{page}}.html>\n总收藏榜::/top/goodnum/<,{{page}}.html>\n总字数榜::/top/size/<,{{page}}.html>\n全部全本::/quanben/all/{{page}}.html\n强推榜::/top/toptime/<,{{page}}.html>",
+        "lastUpdateTime": 1625651051882,
+        "ruleBookInfo": {
+            "author": "class.author@tag.a@text",
+            "coverUrl": "img@src",
+            "init": "class.detail",
+            "intro": "",
+            "kind": "tag.p.2@tag.a@text",
+            "lastChapter": "class.detail@tag.p.4@text&&class.new@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "class.name@text",
+            "tocUrl": "",
+            "wordCount": "tag.p.2@tag.span.1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html##喜欢.*更新速度最快。",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.data.0@tag.a@text",
+            "bookList": "class.list@tag.li",
+            "bookUrl": "class.bookname@tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.data@tag.span.0@text",
+            "lastChapter": "tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "class.bookname@tag.a@text",
+            "wordCount": "tag.p.1@tag.span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.lwtxt.net/search.html,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}",
+        "weight": 0
+    }
+]

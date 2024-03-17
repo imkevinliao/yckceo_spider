@@ -1,0 +1,24 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "农夫小说",
+        "bookSourceUrl": "https://m.nfxs.com",
+        "enable": false,
+        "ruleBookContent": "id.nr1@html#一秒记住.*",
+        "ruleBookLastChapter": "class.block_txt2@tag.p.4@a@text",
+        "ruleChapterList": "class.chapter.1@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrlNext": "option@value",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.block_img2@img@src",
+        "ruleIntroduce": "class.intro_info@textNodes",
+        "ruleSearchAuthor": "textNodes#.*\\]",
+        "ruleSearchKind": "text#\\[|\\].*",
+        "ruleSearchList": "class.cover@p",
+        "ruleSearchName": "a@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://m.nfxs.com/so/@searchkey=searchKey|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

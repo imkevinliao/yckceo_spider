@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "书库关联婷阅&丝路&新丝路\n\n有正则替换，加载慢\n\n把「搜索-最新章节规则」的\n【(\\d\\d)-(\\d+)-(\\d+) (\\d+:\\d+):\\d+】\n以及【$2.$3.$4 $5】删掉可能会快一点",
+        "bookSourceGroup": "💠 备用",
+        "bookSourceName": "玉米小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.yumitxt.com",
+        "customOrder": 28835,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"https://m.yumitxt.com/sort/1_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"武侠重生\",\"url\":\"https://m.yumitxt.com/sort/2_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"https://m.yumitxt.com/sort/3_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"历史穿越\",\"url\":\"https://m.yumitxt.com/sort/4_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"网游动漫\",\"url\":\"https://m.yumitxt.com/sort/5_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"科幻推理\",\"url\":\"https://m.yumitxt.com/sort/6_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"恐怖灵异\",\"url\":\"https://m.yumitxt.com/sort/7_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"其他类型\",\"url\":\"https://m.yumitxt.com/sort/8_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"完本小说\",\"url\":\"https://m.yumitxt.com/full/{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"总排行\",\"url\":\"https://m.yumitxt.com/top/allvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"月排行\",\"url\":\"https://m.yumitxt.com/top/monthvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"总推荐\",\"url\":\"https://m.yumitxt.com/top/allvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"月推荐\",\"url\":\"https://m.yumitxt.com/top/monthvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"总收藏\",\"url\":\"https://m.yumitxt.com/top/goodnum_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"字数榜\",\"url\":\"https://m.yumitxt.com/top/size_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"更新榜\",\"url\":\"https://m.yumitxt.com/top/lastupdate_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"新入库\",\"url\":\"https://m.yumitxt.com/top/postdate_{{page}}/\",\"style\":{\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1631795573986,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author@text",
+            "coverUrl": ".fm@src",
+            "intro": ".intro@text ##小说简介：",
+            "kind": ".markbtn@text",
+            "lastChapter": "{{@.lastchapter.1@text}}▪️{{@.lastchapter.0@text ##20}} ##最新：|更新：",
+            "name": "h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nif(result.match(/base64\\.decode\\(mytxt\\);/)){\nmytxt=result.match(/var mytxt = '([^']+)'/)[1];\nhtml=java.base64Decode(mytxt);\nresult=html+\"▼\";\n}else{\nresult=java.getString('#content@html',false)+\"▼\"\n}\n</js>",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*▼\\s*|为了尽量少触发广告，大家可以试着点击手机屏幕靠上的地方滑动。"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".topul@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "i@text",
+            "lastChapter": "a@href\n<js>java.ajax(result)</js>\n.lastchapter.1@text&&.lastchapter.0@text\n##最新：|更新：\n<js>result.replace(/(第.*章.*)\\s20(\\d\\d)-(\\d+)-(\\d+) (\\d+:\\d+):\\d+/,'$1▪️$2.$3.$4 $5')</js>",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.yumitxt.com/s.php,{\n'method': 'POST',\n'body': 'searchkey={{key}}'\n}",
+        "weight": 0
+    }
+]

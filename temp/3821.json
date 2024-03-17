@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "书苑小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.shuyuan6.com",
+        "bookUrlPattern": "https://m.shuyuan6.com/html/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/sort/0_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情小说\",\"url\":\"/sort/2_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"架空历史\",\"url\":\"/sort/3_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市生活\",\"url\":\"/sort/4_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏小说\",\"url\":\"/sort/5_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻空间\",\"url\":\"/sort/6_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/sort/7_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/sort/8_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠小说\",\"url\":\"/sort/9_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠修真\",\"url\":\"/sort/10_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"书库小说\",\"url\":\"/sort/0_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情小说\",\"url\":\"/sort/293_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"架空历史\",\"url\":\"/sort/405_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市生活\",\"url\":\"/sort/169_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏小说\",\"url\":\"/sort/153_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻空间\",\"url\":\"/sort/4203_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/sort/359_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/sort/1013_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠小说\",\"url\":\"/sort/413_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠修真\",\"url\":\"/sort/1203_0_0_0_0_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"书库小说\",\"url\":\"/sort/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"热门小说\",\"url\":\"/paihang.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本小说\",\"url\":\"/quanben.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"字数榜单\",\"url\":\"/chapters.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691060286635,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "canReName": "true",
+            "coverUrl": "[property$=image]@content",
+            "downloadUrls": ".BGsectionOne-bottom a.1@href",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.目录@href"
+        },
+        "ruleContent": {
+            "content": "<js>\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者容正在手打中，请【收藏本站】稍后访问或者联系管理员更新~\"}\n</js>"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".CGsectionTwo-right-content-unit",
+            "bookUrl": "a.0@href",
+            "intro": "p.-2@text",
+            "kind": "p.-1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".search-card",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "intro": ".search-bold@text",
+            "kind": "span.-1@text",
+            "lastChapter": "span.-2@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "https://m.shuyuan6.com/search/,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

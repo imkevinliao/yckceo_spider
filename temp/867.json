@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceUrl": "http://m.yushuge.me/",
+        "bookSourceType": "0",
+        "bookSourceName": "御书网",
+        "bookSourceGroup": "➕💓狸猫自写",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "http://m.yushuge.me/s.html,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n    }",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -293100,
+        "lastUpdateTime": 1636750728237,
+        "ruleSearch": {
+            "bookList": "class.sone",
+            "name": "@class.sone@tag.a.0@text",
+            "author": "@class.author@tag.a.0@text",
+            "bookUrl": "@class.sone@tag.a.0@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.cataloginfo@h3@text",
+            "author": "class.infotype@tag.a.0@text",
+            "intro": "class.intro@text",
+            "tocUrl": "class.infolink@tag.a.1@href"
+        },
+        "ruleToc": {
+            "chapterList": "tag.ul.chapters@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "webJs": "getDecode();$('#content').html();",
+            "content": "class.articlecontent@tag.p@html",
+            "nextContentUrl": "class.novelbutton@class.p1 p3@tag.a@href",
+            "imageStyle": "TEXT"
+        }
+    }
+]

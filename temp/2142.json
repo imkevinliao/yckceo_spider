@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "普通",
+        "bookSourceName": "奇书小说qibookw",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qibookw.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuan/{{page}}.html\n言情小说::/yanqing/{{page}}.html\n仙侠修真::/xianxia/{{page}}.html\n都市小说::/dushi/{{page}}.html\n历史小说::/lishi/{{page}}.html\n网游小说::/wangyou/{{page}}.html\n竞技小说::/jingji/{{page}}.html\n科幻小说::/kehuan/{{page}}.html\n全本小说::/quanben/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1616157272149,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "tag.p.0@text",
+            "coverUrl": "class.book_news_style_img1@img@src",
+            "intro": "class.msgarea@text##qq群.*群。",
+            "kind": "tag.p.3@text##所属：",
+            "lastChapter": "h3@tag.a@text##正文\\s",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "class.novel_content@html##百度搜索.*|<!--go-->|<!--over-->"
+        },
+        "ruleExplore": {
+            "author": "h2@text## 【.*",
+            "bookList": "class.book_news_style_form",
+            "bookUrl": "h1@a@href",
+            "coverUrl": "class.book_news_style_img@img@src",
+            "intro": "tag.h3.1@textNodes##.*最新：\\s+",
+            "lastChapter": "h3@a@text",
+            "name": "h1@text"
+        },
+        "ruleSearch": {
+            "author": "h2@text",
+            "bookList": "class.book_news_style_form",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "a@img@src",
+            "intro": "h3@textNodes##最新.*|qq.*群。|\\s",
+            "lastChapter": "h3@tag.a@text",
+            "name": "h1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.li",
+            "chapterName": "tag.a@text##[\\(（【].*?[求更谢乐发推].*?[】）\\)]",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n\"charset\": \"GBK\",\n\"method\": \"POST\",\n\"body\": \"searchtype=articlename&searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

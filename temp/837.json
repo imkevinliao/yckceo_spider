@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceUrl": "https://read.lmeee.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "拉米阅读",
+        "bookSourceGroup": "经典名著📚,英文小说🧸",
+        "bookSourceComment": "By Shinki",
+        "loginUrl": "https://read.lmeee.com/",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/search?t=1&key={{key}}&p={{page}}",
+        "exploreUrl": "全部::/books/0-no-0/{{page}}\n小说::/books/11-no-0/{{page}}\n文学::/books/12-no-0/{{page}}\n传记::books/14-no-0/{{page}}\n社科::/books/15-no-0/{{page}}\n少儿::/books/16-no-0/{{page}}\n生活::/books/17-no-0/{{page}}\n其他::/books/18-no-0/{{page}}\n汉语::/books/0-zh-0/{{page}}\n英语::/books/0-en-0/{{page}}\n法语::/books/0-fr-0/{{page}}\n德语::/books/0-de-0/{{page}}\n日语::/books/0-ja-0/{{page}}\n其他::/books/0-ot-0/{{page}}",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -88897990,
+        "lastUpdateTime": 1639366226969,
+        "ruleSearch": {
+            "bookList": "class.book-w",
+            "name": "class.title@tag.a.0@text",
+            "author": "class.author@tag.a@text",
+            "intro": "class.intro@text",
+            "coverUrl": "@tag.img@src",
+            "bookUrl": "class.title@tag.a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.book-w",
+            "name": "class.title@tag.a.0@text",
+            "author": "class.author@tag.a@text",
+            "intro": "class.intro@text",
+            "coverUrl": "@tag.img@src",
+            "bookUrl": "class.title@tag.a.0@href"
+        },
+        "ruleBookInfo": {
+            "name": "class.book-info@tag.h1.0@tag.a.0@text",
+            "author": "class.book-info@tag.ul.0@tag.li.0@tag.a.0@text",
+            "kind": "class.book-info@tag.ul.0@tag.li.3@tag.a.0@text",
+            "wordCount": "class.num@text",
+            "intro": "class.describe mg-t-6@tag.p@text",
+            "coverUrl": "class.book-img@tag.a.0@tag.img.0@src",
+            "tocUrl": "class.l@tag.a.1@href"
+        },
+        "ruleToc": {
+            "chapterList": "@css: ul>li",
+            "chapterName": "@tag.a.0@text",
+            "chapterUrl": "@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "class.r-section@html##\\d+.\\d+%"
+        }
+    }
+]

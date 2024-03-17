@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "【目录显示分卷】\n【正文阅读标题Fix，复制下面的js到正文规则】\n<js>tmp=result;chapter.title=java.getString(\"$.data.cname\");tmp</js>\n【正文净化】\n===============\n【马甲分身】\npigqq.com\njiaston.com\nanchengcn.com\nshenbabao.com",
+        "bookSourceGroup": "@烏雲,@烏雲_SSR",
+        "bookSourceName": "🔰笔趣阁.pysmei",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://infosxs.pysmei.com/",
+        "bookUrlPattern": "https://infosxs\\.pysmei\\.com/BookFiles/Html/\\d+/\\d+/index\\.html",
+        "customOrder": -2085958647,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "热门连载::https://scxs.pysmei.com/top/man/top/hot/week/{{page}}.html\n抖音热书::https://scxs.pysmei.com/top/man/top/collect/week/{{page}}.html\n高分神作::https://scxs.pysmei.com/top/man/top/vote/week/{{page}}.html\n微信热书::https://scxs.pysmei.com/top/man/top/commend/week/{{page}}.html\n豆瓣高分::https://scxs.pysmei.com/top/man/top/new/week/{{page}}.html\n完本精选::https://scxs.pysmei.com/top/man/top/over/week/{{page}}.html",
+        "header": "{\"User-Agent\": \"okhttp-okgo/jeasonlzy\"}",
+        "lastUpdateTime": 1664484065289,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "$.data.author",
+            "init": "",
+            "lastChapter": "##:\"([^\"]+)\",\"hasContent\":[^\\n\"]+$##$1###",
+            "name": "$.data.name",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "$.data.content##^[\\s\\S]{50,150}?(?:努力更新中\\W{1,3}请稍后刷新访问|\\n\\s*此章节正[^\\n]{1,12}在努力更新ing)[\\s\\S]*$|^(?:{{book.name}}(?:\\r?\\n|第\\w+\\r?\\n){1,2}|{{chapter.title}})",
+            "nextContentUrl": "",
+            "replaceRegex": "##^([\\s\\S]{1,250}$|\\W{0,9}(?:@font-face|此章节正在|字数填充)[\\s\\S]+$|\\h+第\\w+章\\h?\\w+\\n|\\h+[，、。：；！？…～~]+)|\\n\\h+为您提供大神(?:.+\\n){3}(?<=最新章节！\\n)\\h+|(?<=\\n)\\W+(?:[Pp][Ss][：:]|分割线\\b|题外话\\b|作者的话\\b).+(?:\\n.+){0,5}$|[\\n\\(，、·]\\W*$|(?mi)^\\h+(?:谷\\w$|7017K$|章节报错$|《\\b[\\w，：]{1,19}\\b》$|[A-Z\\d]{3,15}\\u002e[A-Z]{2,4}$|[^\\n]{3,27}免费阅读[：，！\\.]+$|『』|您可以在百度里|下载后请在24小时|有梯子的书友加电报|想和更多志同道合的人一起聊《|新书期间|\\w{0,6}[，！]?求(?:月票|推荐|收藏)|\\W?[想最网]\\w{0,5}最新[地章][址节]|点此章节报错|网页版章节|网为你提供|请记住本书首发|本书版权归|看书福利关注|交流好书关注|(?:天才)?一秒记住|最快更新|无弹窗|新笔趣阁|微信关注|纯文字在线|请退出转码|百度搜索\\w+@|中文域名|(?:首发|记住|当前|新阅读)[网網][址站]|注册本站|天才本站|手机[站版][全更]新|\\W{0,4}感谢书友|为您提供大神\\w+的《|看?《\\S{1,19}》(?:最快更新|章节将持续)|\\W?\\d+TXT)[^\\n]*(?:\\n|$)|(?<=[。；！？—…～][”）】]?)[1-9]\\d?$|(?:『→網|\\b新为你提供最快的\\w+更新|\\b最新网址：).*$|\\b\\n\\s+(?=[，、：；]|[！？]{1,6}\\b|\\w{0,9}[》）】])|(?<=[，、])\\s+|(?<=\\w：)\\s+(?=[“‘「『])|(?<=[！？])[！？]+(?=[！？])|(?<=[。：；！？…～~]|——)[，、。]+|[，、]+(?=[，、。：；！？…～~]|——)|(?<=[（【]|[\\n：]\\h{0,4}[“‘「『])(?:[。！？…～~]|\\u002e{3,}|·{3,})\\b|(?<=\\d)\\h+(?=[年月日期])|([，、。：；]|\\.{3}|·{3})(?=\\1)|([…—～~※])(?=\\2{2})|UU看书|try【\\S{22}【】",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.Author",
+            "bookList": "$.data[:10]||$.data.BookList",
+            "bookUrl": "$.Id@js:\nvar n=result.match(/(^\\d+)\\d{3,}/);\nn=(n)?n[1]:'0';\nresult=(Number(n)+1)+'/'+result;\n'https://infosxs.pysmei.com/BookFiles/Html/'+result+'/index.html';",
+            "checkKeyWord": "模拟",
+            "coverUrl": "$.Img##\\w+\\.\\w+$##https://imgapixs.pysmei.com/bookfiles/bookimages/$0###",
+            "intro": "$.Desc##(^|[^\\n]{14}(?:[。；！？—…～~][”）】]?|】(?=\\h*【)))\\h*(?=(?<=^\\h{0,4})\\S|[\\w“（【《][^\\n]{14})##$1<br>",
+            "kind": "$.CName&&$.BookStatus&&$.Score##\\d$##$0分",
+            "lastChapter": "{{$.UpdateTime##\\h\\S+##▪}}{{$.LastChapter}}",
+            "name": "$.Name",
+            "wordCount": "$.UpdateTime##\\h\\S+"
+        },
+        "ruleToc": {
+            "chapterList": ":((?<!\\d,\\h)\"name\":\"(?!正文卷?\")[^\\n\"]+\",\"list\":|\"id\":\\d+,\"name\":\"[^\\n\"]+\",\"hasContent\":1)",
+            "chapterName": "##\"name\":\"([^\\n\"]+)\"##$1###",
+            "chapterUrl": "##\"id\":(\\d+)##$1.html###",
+            "isVip": "",
+            "isVolume": "##\"list\":##$0###",
+            "preUpdateJs": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://souxs.leeyegy.com/search.aspx?key={{key}}&page=1&siteid=app2",
+        "weight": 0
+    }
+]

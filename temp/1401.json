@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自建站",
+        "bookSourceName": "笔趣阁自建站",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://201j7t2920.zicp.fun",
+        "bookUrlPattern": "",
+        "customOrder": -2085959000,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "飞卢::/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=9",
+        "header": "",
+        "lastUpdateTime": 1676264614920,
+        "loginUrl": "",
+        "respondTime": 80128,
+        "ruleBookInfo": {
+            "author": "id.author@tag.a@text",
+            "coverUrl": "id.bookimg@img@src",
+            "init": "",
+            "intro": "id.bookintro@text",
+            "kind": "class.count@tag.li.0@tag.span@text",
+            "lastChapter": "id.newlist@tag.li.0@tag.a@text",
+            "name": "class.booktitle@tag.h1@text",
+            "tocUrl": "class.tgcj.0@href",
+            "wordCount": "class.count@tag.li.3@tag.span@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##一秒记住.*免费阅读.|笔趣阁.*"
+        },
+        "ruleExplore": {
+            "author": "class.four@text",
+            "bookList": "class.shulist@tag.ul",
+            "bookUrl": "a.0@href",
+            "lastChapter": "class.gray@text",
+            "name": "class.three@tag.a.0@text",
+            "wordCount": "class.five@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book_other.0@tag.span.0@text",
+            "bookList": "tag.dl",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": "",
+            "kind": "class.book_other.0@tag.span.2@text",
+            "lastChapter": "class.book_other.1@tag.a@text",
+            "name": "tag.h3@tag.a@text",
+            "wordCount": "class.book_other.0@tag.span.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlists@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  'charset': 'utf-8'}",
+        "weight": 0
+    }
+]

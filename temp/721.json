@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceGroup": "置顶搜书",
+        "bookSourceName": "轮回小说",
+        "bookSourceUrl": "https://www.9xs.org",
+        "enable": true,
+        "loginUrl": "",
+        "ruleBookAuthor": ".zz@text##作者：",
+        "ruleBookContent": "id.txt@html",
+        "ruleBookContentReplace": "##阅读.*轮回.*",
+        "ruleBookLastChapter": "class.zj@text",
+        "ruleBookName": "h2@a@text",
+        "ruleBookUrlPattern": "",
+        "ruleChapterList": "<js>'<p>' + result.match(/\\<a\\s(href=\"\\d+\\.html\").+?a\\>/g).sort() + '</p>'</js>//a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "class.mulu@a@href",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.f1_L@img@src",
+        "ruleFindUrl": "",
+        "ruleIntroduce": "class.jj_con@text##阅读.*最新章节请关.*\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "ruleSearchAuthor": "class.tags@tag.span.0@text",
+        "ruleSearchCoverUrl": "img@data-original",
+        "ruleSearchKind": "class.tags@tag.span.1@text##分类：",
+        "ruleSearchLastChapter": "tag.p.1@a@text",
+        "ruleSearchList": "class.result@li",
+        "ruleSearchName": "h3@a@text",
+        "ruleSearchNoteUrl": "h3@a@href",
+        "ruleSearchUrl": "https://www.9xs.org/search.php?key=searchKey|char=utf-8",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

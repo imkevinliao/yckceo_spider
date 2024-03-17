@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "橙子书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.czshu.com",
+        "bookUrlPattern": "",
+        "customOrder": -113508,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+        "lastUpdateTime": 1625224679637,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.p_author@tag.a@text",
+            "coverUrl": "id.bookimg@img@src",
+            "intro": "id.bookintro@p@textNodes##各位书友.*",
+            "kind": "id.count@tag.span.0@text&&id.count@tag.span.2@text",
+            "lastChapter": "class.chaw@tag.a.0@text",
+            "name": "class.d_title@tag.h1.0@text",
+            "wordCount": "id.count@tag.span.1@text"
+        },
+        "ruleContent": {
+            "content": "id.TextContent@p@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span.2@text",
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "a@href##info##all",
+            "coverUrl": "img@data-original",
+            "intro": "class.book_des@text##各位书友.*",
+            "kind": "tag.span.3@text&&tag.span.1@text",
+            "lastChapter": "class.book_other.1@a@text",
+            "name": "h3@a@text",
+            "wordCount": "tag.span.4@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterList@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.czshu.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

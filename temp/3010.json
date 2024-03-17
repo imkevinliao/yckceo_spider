@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "小小书楼&优",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.xxshulou.com",
+        "bookUrlPattern": "",
+        "customOrder": -853,
+        "enabled": false,
+        "enabledExplore": false,
+        "exploreUrl": "🔹                      分类                      🔹::\n玄幻::/sort/1_{{page}}/\n修真::/sort/2_{{page}}/\n都市::/sort/3_{{page}}/\n穿越::/sort/4_{{page}}/\n网游::/sort/5_{{page}}/\n科幻::/sort/6_{{page}}/\n女生::/sort/7_{{page}}/\n其他::/sort/8_{{page}}/\n全本::full/{{page}}/\n🔹                      排行                      🔹::\n日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.block_img2@tag.img@src",
+            "intro": "class.intro_info@textNodes",
+            "kind": "class.block_txt2@tag.a.3@text",
+            "lastChapter": "class.block_txt2@tag.a.-1@text",
+            "tocUrl": "text.查看目录.0@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes##一秒记住.*",
+            "imageStyle": "0.0",
+            "replaceRegex": "##如内容未显示全，请浏览器中打开：m."
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.line",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "tag.a.0@text##\\[|\\]",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页.0@href"
+        },
+        "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉  备用",
+        "bookSourceName": "🎉路虎小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.luhubook.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1635666967473,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.BGsectionOne-top-left@tag.img.0@data-lazy",
+            "tocUrl": "text.进入目录@href##ml\\.##ml_1."
+        },
+        "ruleContent": {
+            "content": "<js>\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者容正在手打中，请【收藏本站】稍访问或者联系管理员更新~\"}\n</js>"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.sc-title@tag.a.1@text",
+            "bookList": "class.search-card",
+            "bookUrl": "text.作品详情@href",
+            "lastChapter": "class.sc-time@text",
+            "name": "class.sc-title@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BGsectionThree-content@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "https://m.luhubook.com/search/,{\n'method': 'POST',\n'body': 'keyword={{key}}'\n}",
+        "weight": 0
+    }
+]

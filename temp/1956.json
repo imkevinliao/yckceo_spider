@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "HINOTORI",
+        "bookSourceGroup": "书源制作",
+        "bookSourceName": "🎯西红柿小说 正则目录",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.fanqianxs.com",
+        "customOrder": 180,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1619412656555,
+        "ruleBookInfo": {
+            "coverUrl": "id.fmimg@img@src",
+            "intro": "id.intro@text##各位书友.*推荐哦！"
+        },
+        "ruleContent": {
+            "content": "id.content@p!0@text##www\\..*\\.com"
+        },
+        "ruleExplore": {
+            "coverUrl": "",
+            "intro": ""
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "id.main@li!0",
+            "bookUrl": "class.s2@a@href",
+            "kind": "class.s6@text",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ":全部章节[\\s\\S]*?/dl&&dd><a href=\"([^\"]*)\">([^<]*)",
+            "chapterName": "$2",
+            "chapterUrl": "$1"
+        },
+        "searchUrl": "/modules/article/search.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

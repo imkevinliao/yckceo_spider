@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceGroup": "自制源",
+        "bookSourceName": "256中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.256zw.info/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1694968092046,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "class.book_con fix@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##上一页|目录|下一页|尾页"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "text.作者@text##.*作者：",
+            "bookList": ".list@li",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "intro": "p@text",
+            "kind": "span@a@text",
+            "name": "h2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.catalog@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.256zw.info/sousuo/search.php?q={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍺特优,🥃破防",
+        "bookSourceName": "🍺 新笔下文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.newbixia.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n修真::/xiuzhen/{{page}}.html\n都市::/dushi/{{page}}.html\n历史::/lishi/{{page}}.html\n网游::/wangyou/{{page}}.html\n科幻::/kehuan/{{page}}.html\n言情::/yanqing/{{page}}.html\n其他::/qita/{{page}}.html",
+        "lastUpdateTime": 1619425611635,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##.*：",
+            "coverUrl": "id.fmimg@img@src",
+            "intro": "id.intro@text",
+            "kind": "class.con_top@tag.a.1@text",
+            "lastChapter": "id.info@tag.p.3@tag.a@text",
+            "name": "id.info@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "author": "class.s5@text",
+            "bookList": "class.l@ul@li",
+            "bookUrl": "class.s2@tag.a@href",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@text"
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslist2@tag.ul@li!0",
+            "bookUrl": "class.s2.1@tag.a@href",
+            "kind": "class.s2.0@text",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2.1@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.newbixia.com/web/search.php?q={{key}}",
+        "weight": 0
+    }
+]

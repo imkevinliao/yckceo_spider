@@ -1,0 +1,26 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "第六书包",
+        "bookSourceUrl": "http://m.e7007.net",
+        "enable": false,
+        "ruleBookContent": "id.rd-txt@p@html",
+        "ruleBookLastChapter": "class.book-meta.2@a@text",
+        "ruleChapterList": "class.novel-text-list@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "text.查看完整目录@href",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.book-layout@img@src",
+        "ruleFindUrl": "首页推荐::http://m.e7007.net/\n最近更新::http://m.e7007.net/top/lastupdate.html\n最新入库::http://m.e7007.net/top/postdate.html\n总点击榜::http://m.e7007.net/top/allvisit.html\n总收藏榜::http://m.e7007.net/top/marknum.html\n总推荐榜::http://m.e7007.net/top/votenum.html\n总下载榜::http://m.e7007.net/top/downnum.html\n玄幻小说::http://m.e7007.net/sort/xhxs_0_0_0_searchPage.html\n都市言情::http://m.e7007.net/sort/dsxs_0_0_0_searchPage.html\n历史小说::http://m.e7007.net/sort/lsxs_0_0_0_searchPage.html\n女生小说::http://m.e7007.net/sort/nsxs_0_0_0_searchPage.html\n乡村小说::http://m.e7007.net/sort/xcxs_0_0_0_searchPage.html\n辣文肉文::http://m.e7007.net/sort/lwrw_0_0_0_searchPage.html\n其他小说::http://m.e7007.net/sort/qtxs_0_0_0_searchPage.html\n全本小说::http://m.e7007.net/over/searchPage.html",
+        "ruleIntroduce": "class.cor-introduce@text",
+        "ruleSearchAuthor": "class.book-author@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchKind": "class.tag-small@text",
+        "ruleSearchList": "class.book-ol book-ol-normal@li",
+        "ruleSearchName": "h4@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://m.e7007.net/so/search.html@searchtype=name&searchkey=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

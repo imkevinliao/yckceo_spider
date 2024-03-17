@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "读一读免费小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.du1du.org",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "",
+        "lastUpdateTime": 1650024856001,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "dd@p.0@text",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "#all@text##\\[收起\\]",
+            "kind": "dd@p.1@text##分类：",
+            "lastChapter": "dd@p.3@text##最新章节：",
+            "name": ".space@text",
+            "tocUrl": "text.查看全部章节@href",
+            "wordCount": "dd@p.2@text"
+        },
+        "ruleContent": {
+            "content": "#cContent@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.book_textList2@li",
+            "bookUrl": "a@href",
+            "kind": ".tag-blue@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.0@text",
+            "wordCount": ".time@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_textList@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.du1du.org/search.htm?keyword={{key}}&pn={{page}}",
+        "weight": 0
+    }
+]

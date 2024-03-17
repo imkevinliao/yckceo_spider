@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "书山",
+        "bookSourceName": "笔趣阁119",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bqg119.com",
+        "bookUrlPattern": "https?://m.bqg119.com/book.*",
+        "customOrder": 2147483647,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 13; V2073A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.74 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1694512149776,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "https://m.bqg119.com/user/login.html",
+        "respondTime": 5599,
+        "ruleBookInfo": {
+            "author": "class.dd_box.0@span.0@text  ",
+            "init": "class.book_info&&class.book_about&&class.book_last&&class.book_more",
+            "intro": "class.book_about@dl@dd@text",
+            "kind": "{{@@class.dd_box.0@span.1@text##分类：}},{{@@class.dd_box.1@span.0@text##状态：}},{{@@class.dd_box.2@span@text##更新：|\\s+\\d.*}}",
+            "lastChapter": "class.book_last@dl@dd.0@a@text",
+            "name": "tag.dl@class.name@text",
+            "tocUrl": "class.book_more@a@href",
+            "wordCount": "class.dd_box.1@span.1@text##字数："
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes",
+            "nextContentUrl": "text.下一@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.span@text",
+            "bookList": "class.hot@class.item",
+            "bookUrl": "tag.dt@tag.a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": "tag.dd@text",
+            "kind": "0",
+            "name": "tag.dt@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last@dl@dd!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}https://m.bqg119.com/s?q={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

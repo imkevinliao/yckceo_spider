@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "18禁; Wave; 🔞",
+        "bookSourceName": "小说520(精)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xs520f.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "总排行榜::https://w.xs520f.com/ph/allvisit_{{page}}/\n总推荐榜::https://w.xs520f.com/ph/allvote_{{page}}/\n月排行榜::https://w.xs520f.com/ph/monthvisit_{{page}}/\n周排行榜::https://w.xs520f.com/ph/weekvisit_{{page}}/\n字数排行榜::https://w.xs520f.com/ph/size_{{page}}/",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "intro": "id.description2@text",
+            "lastChapter": "id.vip.0@tag.a.0@text",
+            "name": "class.other_novel@tag.h2.0@text##.*\\《(.*)\\》.*##$1",
+            "tocUrl": "class.button2 white.0@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.novel_content@textNodes",
+            "nextContentUrl": "text.第二页@href"
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text",
+            "bookList": "class.sort_list.0@class.sort_list_con",
+            "bookUrl": "tag.a.1@href##.*/book/(.*)##https://www.xs520f.com/book/$1",
+            "name": "tag.a.1@text"
+        },
+        "ruleSearch": {
+            "author": "class.odd.1@text||class.author@text##/.*",
+            "bookList": "class.grid@tag.tr.!0",
+            "bookUrl": "tag.a.0@href",
+            "name": "class.odd.0@tag.a.0@text||class.title.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.novel_volume@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.xs520f.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

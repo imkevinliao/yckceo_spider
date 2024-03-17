@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "言情库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.yqk.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1630207784450,
+        "ruleBookInfo": {
+            "author": "tag.a.2@text",
+            "coverUrl": "img@src",
+            "init": "class.base",
+            "intro": "tag.p.4@text&&tag.p.6@text",
+            "kind": "tag.a.3@text",
+            "lastChapter": "tag.p.5@a@text",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.em.0@text"
+        },
+        "ruleContent": {
+            "content": "class.content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.left@li!-1",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p.3@text&&tag.p.4@text",
+            "kind": "tag.a.3@text",
+            "lastChapter": "tag.p.5@a@text",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.em.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.yqk.net/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

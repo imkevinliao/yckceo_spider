@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "W",
+        "bookSourceName": "宝书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.baoshuxuan.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最近更新::/type/0_0_0_lastupdate_{{page}}.html\n最近入库::/type/0_0_0_postdate_{{page}}.html\n玄幻::/type/1_0_0_lastupdate_{{page}}.html\n仙侠::/type/2_0_0_lastupdate_{{page}}.html\n都市::/type/3_0_0_lastupdate_{{page}}.html\n职场::/type/4_0_0_lastupdate_{{page}}.html\n历史::/type/5_0_0_lastupdate_{{page}}.html\n军事::/type/6_0_0_lastupdate_{{page}}.html\n科幻::/type/7_0_0_lastupdate_{{page}}.html\n游戏::/type/8_0_0_lastupdate_{{page}}.html\n灵异::/type/9_0_0_lastupdate_{{page}}.html\n乡村::/type/10_0_0_lastupdate_{{page}}.html\n现言::/type/11_0_0_lastupdate_{{page}}.html\n古言::/type/12_0_0_lastupdate_{{page}}.html\n幻侠::/type/13_0_0_lastupdate_{{page}}.html\n穿越::/type/14_0_0_lastupdate_{{page}}.html\n总裁::/type/15_0_0_lastupdate_{{page}}.html\n浪漫::/type/16_0_0_lastupdate_{{page}}.html\n耽美::/type/17_0_0_lastupdate_{{page}}.html",
+        "lastUpdateTime": 1615735559941,
+        "ruleBookInfo": {
+            "intro": "id.aboutbook@textNodes",
+            "kind": "##作品类别：([^<]+)</##$1###",
+            "tocUrl": "id.lastchapter@tag.a.-1@href\n<js>\na=result.match(/book\\/([\\d]+)\\/[\\d]+/)[1];\nb=result.match(/book\\/[\\d]+\\/([\\d]+)/)[1];\n\"https://www.baoshuxuan.com/novelsearch/novel/getdlist/?id=\"+a+\"&num=\"+b+\"&order=asc\"\n</js>",
+            "wordCount": "class.infotitle@span@text"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.nickname@text## / 著",
+            "bookList": "id.waterfall@class.item",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.intro@text",
+            "lastChapter": "class.cont@tag.a@text&&class.uptime@text##\\n##•\n<js>result.replace(/\\[/,\"\").replace(/\\]/,\"\")</js>",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "updateTime": "class.time@text"
+        },
+        "searchUrl": "/search.html?searchkey={{key}}&searchtype=all",
+        "weight": 0
+    }
+]

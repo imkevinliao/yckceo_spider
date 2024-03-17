@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceUrl": "https://www.xgeda.com",
+        "bookSourceType": "0",
+        "bookSourceName": "小疙瘩小说",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/home/search,{\"method\":\"POST\",\"body\":\"action=search&q={{key}}\"}",
+        "exploreUrl": "玄幻::/xuanhuan/p{{page}}.html\n修真::/xiuzhen/p{{page}}.html\n都市::/dushi/p{{page}}.html\n历史::/lishi/p{{page}}.html\n网游::/wangyou/p{{page}}.html\n科幻::/kehuan/p{{page}}.html\n女生::/nvpin/p{{page}}.html\n恐怖悬疑::/kongbu/p{{page}}.html\n其他综合::/qita/p{{page}}.html",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1616497373451,
+        "ruleSearch": {
+            "bookList": "class.cf@dl",
+            "name": "h3@text",
+            "author": "span@text",
+            "intro": "p@text",
+            "coverUrl": "tag.a.0@href##/a((\\d+)\\d{3})/##https://cdn.xgeda.com/uploads/$2/$1.jpg",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": ".booklist@li!0",
+            "name": "tag.span.0@text",
+            "author": "tag.span.2@text",
+            "lastChapter": "tag.span.1@text",
+            "coverUrl": "tag.a.0@href##/a((\\d+)\\d{3})/##https://cdn.xgeda.com/uploads/$2/$1.jpg",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleBookInfo": {
+            "name": "meta[property=\"og:novel:book_name\"]@content",
+            "author": "meta[property=\"og:novel:author\"]@content",
+            "kind": "meta[property=\"og:novel:category\"]@content",
+            "lastChapter": "meta[property=\"og:novel:latest_chapter_name\"]@content",
+            "intro": ".intro@text",
+            "coverUrl": "meta[property=\"og:image\"]@content"
+        },
+        "ruleToc": {
+            "chapterList": "class.mulu.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*-->>\\s*|\\s*本章未完，点击下一页继续阅读\\s*|\\s*[\\[\\]]\\s*"
+        }
+    }
+]

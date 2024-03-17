@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "未知大佬制作，更新HINOTORI（qq）在源仓库发过的书源",
+        "bookSourceGroup": "💦 精品 💦,常用①",
+        "bookSourceName": "💦笔趣阁biquge99",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biquge99.cc/",
+        "bookUrlPattern": "https://www.biquge99.cc/book/\\d+/",
+        "customOrder": -158507,
+        "enabled": false,
+        "enabledExplore": true,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+        "lastUpdateTime": 1619858916568,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.info@class.small@tag.span.0@text##作者：",
+            "coverUrl": "class.cover@img@src",
+            "init": "",
+            "intro": "class.intro@text##简介：",
+            "kind": "class.info@class.small@tag.span.1@text&&\nclass.info@class.small@tag.span.2@text&&\nclass.info@class.small@tag.span.4@text##分类：|状态：|更新时间：",
+            "lastChapter": "class.info@class.small@tag.span.5@a@text##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+            "name": "class.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##请记住本书.*cc"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text##作者：|&lt;",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookname@tag.a@href",
+            "coverUrl": "class.bookimg@tag.img.0@src",
+            "intro": "class.bookinfo@p@text",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "class.update@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+            "name": "class.bookname@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.biquge99.cc/s.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "精品",
+        "bookSourceName": "妙笔阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.imiaobige.com/",
+        "bookUrlPattern": "https?://www\\.imiaobige\\.com(/html)?/novel/\\d+.html?",
+        "customOrder": -230770,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"都市生活\",\"url\":\"/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"历史军事\",\"url\":\"/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/youxi/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"科幻未来\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"幻想奇缘\",\"url\":\"/huanxiang/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"古代言情\",\"url\":\"/gudai/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"二次い元\",\"url\":\"/erciyuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"现代言情\",\"url\":\"/xiandai/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"浪漫青春\",\"url\":\"/qingchun/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"其他类型\",\"url\":\"/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}}]",
+        "header": "",
+        "lastUpdateTime": 1648226432235,
+        "loginUrl": "",
+        "respondTime": 82047,
+        "ruleBookInfo": {
+            "author": "##:author\"[^\"]+\"([^\"]*)##$1###",
+            "coverUrl": "##og:image\"[^\"]+\"([^\"]*)##$1###",
+            "init": "",
+            "intro": "id.bookintro@html",
+            "kind": "class.new@class.uptime@text&&\nclass.count@tag.li.0@span@text&&\nclass.count@tag.li.1@span@text&&\nclass.count@tag.li.2@span@text",
+            "lastChapter": "##_chapter_name\"[^\"]+\"([^\"]*)##$1###",
+            "name": "##:book_name\"[^\"]+\"([^\"]*)##$1#####\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+            "tocUrl": "##novel:read_url\"[^\"]+\"([^\"]*)##$1###",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "@css:#content>p:not(:first-child)@html",
+            "imageStyle": "0",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "tag.dd.1@tag.a@text",
+            "bookList": "id.sitebox@tag.dl",
+            "bookUrl": "tag.dd.0@tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.dd.2@text",
+            "kind": "tag.dd.0@tag.span@text",
+            "lastChapter": "tag.dd.3@tag.a@text",
+            "name": "tag.dd.0@tag.a@text",
+            "wordCount": "tag.dd.1@tag.span@text"
+        },
+        "ruleSearch": {
+            "author": "@css:.book_other:eq(2)>a:eq(1)@text",
+            "bookList": "@css:#sitembox>dl",
+            "bookUrl": "@css:dt>a@href",
+            "coverUrl": "@css:img@src",
+            "intro": "@css:.book_des@text@js:result.replace(/[\\s\\t]+/g, '');",
+            "kind": "",
+            "lastChapter": "tag.dd.3@a@text",
+            "name": "@css:h3>a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "@css:#readerlists a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.imiaobige.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

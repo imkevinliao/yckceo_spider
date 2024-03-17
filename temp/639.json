@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "必备",
+        "bookSourceName": "💰 塔读自用>增加更新时间",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tadu.com",
+        "bookUrlPattern": "",
+        "customOrder": -137251,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "10万字男生人气榜::/store/98-a-1-5-a-20-p-{{page}}-98\n30万字男生人气榜::/store/98-a-2-5-a-20-p-{{page}}-98\n50万字男生人气榜::/store/98-a-3-5-a-20-p-{{page}}-98\n100万字男生人气榜::/store/98-a-4-5-a-20-p-{{page}}-98\n【男生频道】::/store/98-a-0-5-a-20-p-{{page}}-98\n东方玄幻::/store/99-a-0-5-a-20-p-{{page}}-98\n现代都市::/store/103-a-0-5-a-20-p-{{page}}-98\n脑洞创意::/store/135-a-0-5-a-20-p-{{page}}-98\n历史架空::/store/108-a-0-5-a-20-p-{{page}}-98\n军事战争::/store/113-a-0-5-a-20-p-{{page}}-98\n游戏竞技::/store/112-a-0-5-a-20-p-{{page}}-98\n武侠仙侠::/store/109-a-0-5-a-20-p-{{page}}-98\n科幻末世::/store/111-a-0-5-a-20-p-{{page}}-98\n灵异悬疑::/store/128-a-0-5-a-20-p-{{page}}-98\n西方奇幻::/store/107-a-0-5-a-20-p-{{page}}-98\n短篇小说::/store/281-a-0-5-a-20-p-{{page}}-98\n【女生频道】::/store/122-a-0-5-a-20-p-{{page}}-122\n古代言情::/store/129-a-0-5-a-20-p-{{page}}-122\n幻想言情::/store/133-a-0-5-a-20-p-{{page}}-122\n现代言情::/store/104-a-0-5-a-20-p-{{page}}-122\n浪漫青春::/store/105-a-0-5-a-20-p-{{page}}-122\n悬疑小说::/store/288-a-0-5-a-20-p-{{page}}-122\n短篇小说::/store/291-a-0-5-a-20-p-{{page}}-122\n【出版书籍】::/store/79-a-0-5-a-20-p-{{page}}-79\n现代都市::/store/81-a-0-5-a-20-p-{{page}}-79\n青春文学::/store/83-a-0-5-a-20-p-{{page}}-79\n悬疑灵异::/store/85-a-0-5-a-20-p-{{page}}-79\n励志成功::/store/88-a-0-5-a-20-p-{{page}}-79\n官场沉浮::/store/115-a-0-5-a-20-p-{{page}}-79\n职场商战::/store/92-a-0-5-a-20-p-{{page}}-79\n铁血军事::/store/86-a-0-5-a-20-p-{{page}}-79\n历史风云::/store/84-a-0-5-a-20-p-{{page}}-79\n影视娱乐::/store/102-a-0-5-a-20-p-{{page}}-79\n经管理财::/store/32-a-0-5-a-20-p-{{page}}-79\n教育教辅::/store/121-a-0-5-a-20-p-{{page}}-79\n纪实传记::/store/82-a-0-5-a-20-p-{{page}}-79\n奇幻科幻::/store/4-a-0-5-a-20-p-{{page}}-79\n生活休闲::/store/87-a-0-5-a-20-p-{{page}}-79\n武侠仙侠::/store/10-a-0-5-a-20-p-{{page}}-79\n童话寓言::/store/89-a-0-5-a-20-p-{{page}}-79\n社科科普::/store/3-a-0-5-a-20-p-{{page}}-79\n外国名著::/store/90-a-0-5-a-20-p-{{page}}-79\n古典名著::/store/91-a-0-5-a-20-p-{{page}}-79\n当代文学::/store/93-a-0-5-a-20-p-{{page}}-79\n两性伦理::/store/138-a-0-5-a-20-p-{{page}}-79\n言情小说::/store/139-a-0-5-a-20-p-{{page}}-79\n【次元世界】::/store/270-a-0-5-a-20-p-{{page}}-270\n异能幻想::/store/271-a-0-5-a-20-p-{{page}}-270\n校园青春::/store/272-a-0-5-a-20-p-{{page}}-270\n动漫同人::/store/273-a-0-5-a-20-p-{{page}}-270\n日常变身::/store/274-a-0-5-a-20-p-{{page}}-270\n剑与魔法::/store/275-a-0-5-a-20-p-{{page}}-270",
+        "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36\"\n}",
+        "lastUpdateTime": 1625653762157,
+        "loginUrl": "https://www.tadu.com/v5/toLogin",
+        "ruleBookInfo": {
+            "author": "class.bookNm@tag.span.0@text##\\s.*",
+            "coverUrl": "class.bookImg@data-src",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "class.newUpdate@tag.a.0@text&&class.newUpdate@span@text",
+            "name": "class.bookNm@tag.a.0@text",
+            "tocUrl": "class.readBtn@tag.a.1@href",
+            "wordCount": "class.datum@tag.span.0@text"
+        },
+        "ruleContent": {
+            "content": "id.bookPartResourceUrl@value@js:\nresult = String(java.ajax(result)).replace(/(callback.+?:')|('\\}\\))/g,\"\")",
+            "imageStyle": "",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "tag.a.3@text",
+            "bookList": "class.bookList bookBgList@tag.li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@data-src",
+            "intro": "class.bookIntro@text",
+            "kind": "tag.a.4@text&&tag.a.6@text",
+            "lastChapter": "tag.a.5@text##最新更新.",
+            "name": "tag.a.1@text",
+            "wordCount": "class.condition@tag.span.1@text"
+        },
+        "ruleSearch": {
+            "author": "class.authorNm@text",
+            "bookList": "class.bookList@li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@tag.img@data-src",
+            "intro": "class.bookIntro@text",
+            "kind": "@js:\nlist=[]\nlist[0]=\"{{@@class.condition@tag.span.0@text}}\"\nlist[1]=\"{{@@class.condition@tag.span.2@text}}\"\nresult = list",
+            "lastChapter": "@js:\nvar doc = org.jsoup.Jsoup.parse(result)\nvar url = \"https://www.tadu.com\"+doc.select(\"a\").get(0).attr(\"href\")\nvar all = org.jsoup.Jsoup.parse(java.ajax(url))\nresult = all.select(\".newUpdate\").select(\"a\").text()",
+            "name": "class.bookNm@text",
+            "wordCount": "class.condition@tag.span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "+class.chapter@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": "tag.i@text",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/search?&pageSize=30&pageNum={{page}}&query={{key}}",
+        "weight": 0
+    }
+]

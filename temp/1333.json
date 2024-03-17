@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceName": "歪歪",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.7yydstxt178.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1676899401863,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".fix@p.0@a@text",
+            "coverUrl": ".imgbox@img@src",
+            "intro": ".m-desc@text",
+            "kind": ".layout-tit@a.1@text&&.fix@p.1@text",
+            "lastChapter": ".fix@p.4@a@text",
+            "name": ".top@h1@text",
+            "wordCount": ".fix@p.3@text##最后更新："
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s1@text",
+            "bookList": ".txt-list@li!0",
+            "bookUrl": ".s2@a@href",
+            "checkKeyWord": "人生",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text",
+            "wordCount": ".s4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li",
+            "chapterName": "text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://www.7yydstxt178.com//search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

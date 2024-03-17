@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "乐文阅读\nlwread.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lwread.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/category/0/{{page}}.html&&耽美::/category/1/{{page}}.html&&言情::/category/3/{{page}}.html&&精品::/category/27/{{page}}.html&&辣文::/category/9/{{page}}.html&&高辣::/category/2/{{page}}.html&&百合::/category/4/{{page}}.html&&种田::/category/6/{{page}}.html&&玄幻::/category/8/{{page}}.html&&都市::/category/16/{{page}}.html&&穿越::/category/26/{{page}}.html&&科幻::/category/20/{{page}}.html&&仙侠::/category/18/{{page}}.html&&历史::/category/23/{{page}}.html&&网游::/category/21/{{page}}.html&&悬疑::/category/19/{{page}}.html&&武侠::/category/22/{{page}}.html&&灵异::/category/17/{{page}}.html&&军事::/category/25/{{page}}.html&&竞技::/category/24/{{page}}.html&&修真::/category/13/{{page}}.html&&私密::/category/11/{{page}}.html&&腹黑::/category/7/{{page}}.html&&其他::/category/10/{{page}}.html&&情欲::/category/28/{{page}}.html&&其它::/category/5/{{page}}.html&&总排行→→→→→→全部::/rank/all/0/{{page}}.html&&耽美::/rank/all/1/{{page}}.html&&言情::/rank/all/3/{{page}}.html&&精品::/rank/all/27/{{page}}.html&&辣文::/rank/all/9/{{page}}.html&&高辣::/rank/all/2/{{page}}.html&&百合::/rank/all/4/{{page}}.html&&种田::/rank/all/6/{{page}}.html&&玄幻::/rank/all/8/{{page}}.html&&都市::/rank/all/16/{{page}}.html&&穿越::/rank/all/26/{{page}}.html&&科幻::/rank/all/20/{{page}}.html&&仙侠::/rank/all/18/{{page}}.html&&历史::/rank/all/23/{{page}}.html&&网游::/rank/all/21/{{page}}.html&&悬疑::/rank/all/19/{{page}}.html&&武侠::/rank/all/22/{{page}}.html&&灵异::/rank/all/17/{{page}}.html&&军事::/rank/all/25/{{page}}.html&&竞技::/rank/all/24/{{page}}.html&&修真::/rank/all/13/{{page}}.html&&私密::/rank/all/11/{{page}}.html&&腹黑::/rank/all/7/{{page}}.html&&其他::/rank/all/10/{{page}}.html&&情欲::/rank/all/28/{{page}}.html&&其它::https://www.lwread.com/rank/all/5/{{page}}.html&&",
+        "lastUpdateTime": 1623237041031,
+        "ruleBookInfo": {
+            "intro": "{{@css:#intro@text}}\n\n\n搜索书源刷新可随机更换站点 →{{java.get('nke')}}\n{{java.get('ke')}}\n",
+            "kind": "",
+            "tocUrl": "<js>\nif(baseUrl.match(/www.lwread.com/)){baseUrl+'catalog/'}else{var match;\nvar match1;\nvar listurl = [];\nvar listname = [];\n\n\nvar murl = /来自 <a href=\"([^\"]+)/g;\nwhile ((match = murl.exec(result)) != null) {\nlisturl.push(String(match[1]).replace(/%2F/g,'/').replace(/%3A/g,':').replace(/.*?u=/,''))};\n\nmu = /来自 <a href=[^>]+>([^<]+)/g;\nwhile ((match1 = mu.exec(result)) != null) {\nlistname.push(String(match1[1]))};\n\njava.put('ke',listurl);\njava.put('nke',listname);\n\nvar i=Math.floor(Math.random() *10 );\n\nwhile(i >=listurl.length){i = i-listurl.length};\n\nif(listurl.length==1){i=0};\nresult=String(listurl[i]);\njava.put('key',listurl[i])}</js>"
+        },
+        "ruleContent": {
+            "content": "#C0NTENT@html",
+            "nextContentUrl": "a:matches(下一(页|章))@href##$##,{\"webView\":true}"
+        },
+        "ruleExplore": {
+            "author": "tag.p.0@a@text",
+            "bookList": ".CGsectionTwo-right-content-unit",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "intro": "tag.p.2@text",
+            "kind": "tag.p.3@text",
+            "name": "tag.p.0@a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": "p:has(a)",
+            "bookUrl": "tag.a.0@href",
+            "intro": ".intro@text",
+            "kind": "tag.a.2@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".g",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "https://www.haitangso.com/s/{{key}}/{{page}}/",
+        "weight": 0
+    }
+]

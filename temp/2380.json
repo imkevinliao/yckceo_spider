@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "综合📘",
+        "bookSourceName": "📘宜春小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.yichun178.com",
+        "customOrder": 9,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "♦                        连载                       ♦::\n玄幻奇幻::/qihuan/Serial_{{page}}.html\n武侠修真::/wuxia/Serial_{{page}}.html\n都市生活::/dushi/Serial_{{page}}.html\n历史军事::/lishi/Serial_{{page}}.html\n游戏竞技::/youxi/Serial_{{page}}.html\n科幻推理::/kehuan/Serial_{{page}}.html\n女生言情::/nvsheng/Serial_{{page}}.html\n综合其他::/qitaxs/Serial_{{page}}.html\n轻の文库::/Light/Serial_{{page}}.html\n♦                        完本                       ♦::\n玄幻奇幻::/qihuan/full_{{page}}.html\n武侠修真::/wuxia/full_{{page}}.html\n都市生活::/dushi/full_{{page}}.html\n历史军事::/lishi/full_{{page}}.html\n游戏竞技::/youxi/full_{{page}}.html\n科幻推理::/kehuan/full_{{page}}.html\n女生言情::/nvsheng/full_{{page}}.html\n综合其他::/qitaxs/full_{{page}}.html\n轻の文库::/Light/full_{{page}}.html",
+        "lastUpdateTime": 1613462159126,
+        "ruleBookInfo": {
+            "author": "class.booktag@tag.a.0@text##著",
+            "canReName": "true",
+            "coverUrl": "class.bookintro@mip-img@src",
+            "intro": "class.bookintromore@html",
+            "kind": "class.breadcrumb@tag.li.1@text&&\nclass.booktag@span@text&&\nclass.booktime@text##更新时间：|(?<=.)全本|(?<=.)连载",
+            "lastChapter": "class.bookchapter@text",
+            "name": "class.bookinfo@h1@text"
+        },
+        "ruleContent": {
+            "content": "<js>\n//正文规则\nvar selector=\"id.content@html\";\n\n!(/google.cn/).test(baseUrl)?java.getString(selector,false)+\"宜春小说\":decodeURIComponent(baseUrl.replace(/^.*?text=/, ''))\n</js>",
+            "nextContentUrl": "text.下一页@href\n<js>\nvar isNew=/\\/(\\d+).html/.test(result);\nif(!isNew){\nvar content=java.getString(\"id.content@text\");\nif(content!=\"\"){\nvar page=baseUrl.match(/_(\\d+).html/);\n result=page?baseUrl.replace(/_(\\d+).html/,\"_\"+(parseInt(page[1])+1)+\".html\"):result;\n}}\n</js>",
+            "replaceRegex": "##为优化阅读体验.*共.*?页\n|\\s*宜春小说\\s*"
+        },
+        "ruleExplore": {
+            "author": "class.author.0@a@text",
+            "bookList": "id.fengtui.1@class.bookbox",
+            "bookUrl": "h4@a@href",
+            "coverUrl": "mip-img@src",
+            "intro": "class.update@html##简介：",
+            "kind": "class.author.1@text##分类：",
+            "lastChapter": "class.cat@a@text",
+            "name": "h4@text"
+        },
+        "ruleSearch": {
+            "author": "class.author.0@a@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@a@href",
+            "coverUrl": "mip-img@src",
+            "intro": "class.update@html##简介：",
+            "kind": "class.author.1@text##分类：",
+            "lastChapter": "class.cat@a@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "//div[@class=\"fulllistall\"]/mip-showmore/*<js>\n//按卷分隔\nsub=String(result).slice(1,-1).split(/, (?=<dt class=\"volume\")/);\nsm=java.getString(\"class.bookinfo@h1@text\",false);\nsm=String(sm).replace(/\\s/g,' ');\n//显示卷名\nvar opts = {\n  showVolName: false\n};\n\nif(sub.length>=1)for(var i=0;i<sub.length;i++){\n//捕获卷名\njm=sub[i].match(/\\s*([^<>\\n]+)\\s*<\\/dt/);\nif(!jm)continue;\nsub[i]=sub[i].replace(/\">(.*)<\\/a/g,(opts.showVolName ? '\">🍥['+jm[1]+']🍥$1<\\/a':'\">'+ ('').padStart(3, \"\\u2000\")+'$1<\\/a'));\n\n//按卷分块\nsub[i]='<dd><a href=\"https://translate.google.cn/#view=home&op=translate&sl=zh-CN&tl=en&text='+sm+'\\\\'+jm[1]+'\">♦['+jm[1]+']♦</a></dd>'+sub[i];\n\n}\n//合并结果\nsub.join(\"\")\n</js>a",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}}",
+        "weight": 0
+    }
+]

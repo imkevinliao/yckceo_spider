@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceUrl": "https://m.ddxs.com",
+        "bookSourceType": "0",
+        "bookSourceName": "顶点小说-修复",
+        "bookSourceGroup": "发现规则为空",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://m.ddxs.com/search.php,{\"charset\":\"UTF-8\",\"method\":\"post\",\"body\":\"keyword={{key}}\"}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": -88962022,
+        "lastUpdateTime": 1660549780908,
+        "ruleSearch": {
+            "bookList": "class.cover@p",
+            "name": "a@text",
+            "author": "textNodes##/ ",
+            "kind": "span@text##\\[|\\]",
+            "bookUrl": "a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.book_info@class.book_box@class.xx@dl@dt@text",
+            "author": "class.book_info@class.book_box@class.xx@dl@dd.0@text##作者：",
+            "intro": "class.book_info@class.book_box.1@text",
+            "coverUrl": "class.book_info@class.book_box@class.fm@img@src",
+            "tocUrl": "class.book_more@a@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-striped@dd",
+            "chapterName": "text",
+            "chapterUrl": "a@href"
+        },
+        "ruleContent": {
+            "content": "id.nr@html",
+            "replaceRegex": "##@@.*@@@|正在手打中.*更新！"
+        }
+    }
+]

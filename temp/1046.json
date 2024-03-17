@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔趣阁578",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xp578.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1_{{page}}/\n武侠修真::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n耽美同人::/sort/8_{{page}}/\n百合经典::/sort/9_{{page}}/\n女生最爱::/sort/10_{{page}}/\n综合精选::/sort/11_{{page}}/",
+        "lastUpdateTime": 1629806067057,
+        "ruleBookInfo": {
+            "author": ".info_t4@a@text",
+            "intro": ".info_intro@text",
+            "kind": ".info_t2@text##类别：",
+            "lastChapter": ".info_t6@a@text##\\(.*?\\)",
+            "name": ".info_t1@text##书名："
+        },
+        "ruleContent": {
+            "content": "#nr1@html"
+        },
+        "ruleExplore": {
+            "author": ".newbook_author@a@text",
+            "bookList": ".newbook_list",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".newbook_intor@text",
+            "kind": ".s1@text",
+            "name": ".newbook_title@text"
+        },
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".sone",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href##/book/(\\d+)(\\d{3})/##http://img.xp578.com/image/$1/$1$2/$1$2s.jpg",
+            "name": ".sone@a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.ul.-1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.xp578.com/s.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 'search_key={{key}}'\n}",
+        "weight": 0
+    }
+]

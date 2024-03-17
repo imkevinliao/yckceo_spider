@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceGroup": "源仓库,自制,网页源",
+        "bookSourceName": "盐神阁0",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ysg0.com",
+        "customOrder": -2086086151,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/all.html\n男生::/all/id/49.html\n女生::/all/id/4.html\n全部::/all.html\n连载::/all/serialize/0.html\n完本::/all/serialize/1.html\n总人气::/all/order/hits+desc.html\n日人气::/all/order/hits_day+desc.html\n周人气::/all/order/hits_week+desc.html\n月人气::/all/order/hits_month+desc.html\n全部::/all.html\n30万字以下::/all/size/0.html\n30-50万字::/all/size/1.html\n50-100万字::/all/size/2.html\n100-200万字::/all/size/3.html\n200万字以上::/all/size/4.html\n全部::/all.html\n三日内::/all/update/0.html\n七日内::/all/update/1.html\n半月内::/all/update/2.html\n一月内::/all/update/3.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691158187185,
+        "respondTime": 1391,
+        "ruleBookInfo": {
+            "author": ".x-detail__info--author@text",
+            "coverUrl": ".x-book__coverbox.0@img@src",
+            "intro": ".x-detail__intro--content@text",
+            "kind": ".x-detail__info--reads@span@text&&.x-detail__intro--tags@span.0@text",
+            "lastChapter": ".x-catalog__new@textNodes",
+            "name": ".x-detail__info--title@text",
+            "wordCount": ".x-detail__info--words@text##字数："
+        },
+        "ruleContent": {
+            "content": ".read-section@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".x-book",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text",
+            "kind": "span.0@text",
+            "name": "p.0@text",
+            "wordCount": "span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".van-list@a",
+            "chapterName": "p@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.ysg0.com/search.html?keyword={{key}}<,&page={{page}}>",
+        "weight": 0
+    }
+]

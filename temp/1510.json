@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "四七小说(需要登录)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.147xs.org/",
+        "bookUrlPattern": "https://www.147xs.org/book/\\d+/",
+        "customOrder": -2085978621,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"https://m.147xs.org/sort/1/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"修真小说\",\"url\":\"https://m.147xs.org/sort/2/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"都市小说\",\"url\":\"https://m.147xs.org/sort/3/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"穿越小说\",\"url\":\"https://m.147xs.org/sort/4/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"网游小说\",\"url\":\"https://m.147xs.org/sort/5/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"科幻小说\",\"url\":\"https://m.147xs.org/sort/6/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"次元小说\",\"url\":\"https://m.147xs.org/sort/7/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"综合言情\",\"url\":\"https://m.147xs.org/sort/8/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"浪漫青春\",\"url\":\"https://m.147xs.org/sort/9/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"现代言情\",\"url\":\"https://m.147xs.org/sort/10/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"古代言情\",\"url\":\"https://m.147xs.org/sort/11/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"幻想言情\",\"url\":\"https://m.147xs.org/sort/12/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"完本小说\",\"url\":\"https://m.147xs.org/wanben/\",\"style\":{\"layout_flexGrow\":0,\"layout_flexBasisPercent\":0.29}}]",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux) AppleWebKit Chrome UCBrowser Mobile Safari\"\n}",
+        "lastUpdateTime": 1673773202411,
+        "loginUrl": "https://www.147xs.org/search.php",
+        "respondTime": 23725,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作 者：",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
+            "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "id.info@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html##147小说.*最新章节！|插播一个完美.*com。|广个告.*卓苹果手机都支持！|\\\\咪.*|一秒记住.*免费阅读！|.*第.*章.*|.*咪.*咪.*阅.*读.*|www.*com|siluke.com",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a.0@href@js:'https://www.147xs.org'+result",
+            "coverUrl": "img@data-original",
+            "intro": "class.review@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "class.title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.td.3@text",
+            "bookList": "id.bookcase_list@tag.tr",
+            "bookUrl": "tag.td.1@tag.a@href",
+            "coverUrl": "tag.td.1@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\n'https://img147xscom.cdn.bcebos.com/'+id+'.jpg';\n</js>",
+            "kind": "tag.td.0@text&&\ntag.td.4@text&&\ntag.td.5@text",
+            "lastChapter": "tag.td.2@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "tag.td.1@tag.a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.147xs.org/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

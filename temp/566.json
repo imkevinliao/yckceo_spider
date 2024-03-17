@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️棉花糖小说☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.mhtxss.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1645613237756,
+        "ruleBookInfo": {
+            "author": "class.info@tag.a.0@text",
+            "coverUrl": "tag.img.1@src",
+            "intro": "class.bd.2@text",
+            "kind": "",
+            "name": "class.right@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "class.page-content@tag.p@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.info@text## 字数：.*",
+            "bookList": "tag.ul@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "kind": "tag.span@text",
+            "lastChapter": "class.update@text",
+            "name": "class.name@text",
+            "wordCount": "class.words@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "class.list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/wap.php?,{\n\"method\": \"POST\",\n\"body\": \"action=search&wd={{key}}\"\n}",
+        "weight": 0
+    }
+]

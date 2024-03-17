@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "S",
+        "bookSourceName": "雅文库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.yawenku.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1663912860369,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslist2@tag.ul@tag.li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "checkKeyWord": "神级",
+            "kind": "",
+            "lastChapter": "class.s3@tag.a@text",
+            "name": "class.s2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd!14",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.yawenku.com/search.php,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

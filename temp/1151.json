@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "栀子欢文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.zhizihuan.com",
+        "customOrder": -140593,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "穿越架空::http://m.zhizihuan.com/list1_0_0_0_0_2_{{page}}_ajax.html",
+        "lastUpdateTime": 1626344780714,
+        "loginUrl": "http://m.zhizihuan.com",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "intro": "#htmljieshao@html",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ".g_btn@a@href"
+        },
+        "ruleContent": {
+            "content": "#htmlContent@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.1@textNodes##作者：",
+            "bookList": "#htmlList@li||li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "",
+            "kind": ".status@text",
+            "lastChapter": "tag.p.2@textNodes",
+            "name": ".book_title@text",
+            "wordCount": "tag.p.-1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list_li@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}"
+        },
+        "searchUrl": "http://s.zhizihuan.com/m/?key={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "源仓库,整理检验,自制,网页源",
+        "bookSourceName": "格格党文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.ggdwx.net",
+        "bookUrlPattern": "https?://m.ggdwx.net/book/\\d+/",
+        "customOrder": 2,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::http://m.ggdwx.net/xuanhuan<,_{{page}}.html>\n武侠仙侠::http://m.ggdwx.net/xianxia<,_{{page}}.html>\n都市言情::http://m.ggdwx.net/dushi<,_{{page}}.html>\n历史军事::http://m.ggdwx.net/lishi<,_{{page}}.html>\n科幻传奇::http://m.ggdwx.net/kehuan<,_{{page}}.html>\n恐怖灵异::http://m.ggdwx.net/kongbu<,_{{page}}.html>\n其他类型::http://m.ggdwx.net/qita<,_{{page}}.html>\n全本小说::http://m.ggdwx.net/quanben<,_{{page}}.html>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1696221003504,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".info a.0@text",
+            "coverUrl": "img@src",
+            "init": ".book-info",
+            "intro": ".intro.0@text",
+            "kind": "dt i@text&&span.1:2:3@text\n##类 型：|章 节：|更新时间：",
+            "lastChapter": ".info a.-1@text",
+            "name": "h2@text",
+            "tocUrl": "text.章节列表@href"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "@js:\nvar next=/next1.png/.test(src);\nvar code=src.match(/eval(\\(function.*)/);\nurl=next?eval(code[1]):\"\";\nurl?eval(url.replace(/var/,\"\")):\"\";",
+            "replaceRegex": "##Ｘ更新最快|[!！]?\\s*「[如章节缺失请退出#阅读模式].*」\\s*|【[本章节首发爱有声．,请记住网址（）].*】"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@ownText##.*\\/",
+            "bookList": "ul.bd li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "{{\"http://img.ggdwx.net/2/2912/2912s.jpg\"}}",
+            "kind": "span@text##\\[|\\]|\\s+",
+            "name": "a@ownText##\\/.*"
+        },
+        "ruleToc": {
+            "chapterList": ".list li a",
+            "chapterName": "text##^{{ try{book.name}catch(e){\"\"} }}",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\nvar url=source.key;\nvar html=java.ajax(url);\ntoken=org.jsoup.Jsoup.parse(html).select('input[name=_token]').attr('value')\nvar so=\"/search,\";\nvar body=`_token=${token}&keyword=`+key;\nvar post={\"body\": String(body),\n\"method\": \"POST\"};\nurl+so+JSON.stringify(post);",
+        "weight": 0
+    }
+]

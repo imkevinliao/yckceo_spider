@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "轩辕书社",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://amp.xyshushe.com",
+        "bookUrlPattern": "http?://amp.xyshushe.com/B\\d+/",
+        "customOrder": 123,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻奇幻\",\n\t\"url\":\"/xhqh/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠仙侠\",\n\t\"url\":\"/wxxx/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市言情\",\n\t\"url\":\"/dsyq/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史军事\",\n\t\"url\":\"/lsjs/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻灵异\",\n\t\"url\":\"/khly/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游竞技\",\n\t\"url\":\"/wyjj/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"女频频道\",\n\t\"url\":\"/nppd/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/others/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1663169354386,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book-info@dd.0@a@text",
+            "coverUrl": "amp-img.1@src",
+            "init": "",
+            "intro": "class.desc@p@text",
+            "kind": "class.book-info@dd.3:1:2@text##状态.|更新.|类别.|小说<js></js>##\\s##,",
+            "lastChapter": "id.chapterList@li.-1@a@text",
+            "name": "class.bookname@b@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "replaceRegex": "##淘宝每日精选.*|.轩辕书社.免费看小说.*"
+        },
+        "ruleExplore": {
+            "author": "class.aut@text##著",
+            "bookList": "class.box",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "amp-img@src",
+            "intro": "class.txt@text",
+            "kind": "0",
+            "name": "class.name@text"
+        },
+        "ruleSearch": {
+            "author": "class.aut@text##著",
+            "bookList": "class.box",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "amp-img@src",
+            "intro": "class.txt@text",
+            "kind": "0",
+            "name": "class.name@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterList@li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://amp.xyshushe.com/search?button={{key}}&key={{key}}",
+        "weight": 0
+    }
+]

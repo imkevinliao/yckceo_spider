@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "小修小补\n#class.recommand\n#id.dir\n#id.content",
+        "bookSourceGroup": "📚 出版",
+        "bookSourceName": "📚 100本",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.100ben.net/",
+        "bookUrlPattern": "https://www.100ben.net/\\w+/",
+        "customOrder": -118151,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "世界名著::/shijiemingzhu/list_{{page}}.html\n现代文学::/xiandaiwenxue/list_{{page}}.html\n外国小说::/waiguoxiaoshuo/list_{{page}}.html\n古典小说::/gudianwenxue/list_{{page}}.html\n武侠小说::/wuxiaxiaoshuo/list_{{page}}.html\n言情小说::/yanqingxiaoshuo/list_{{page}}.html\n推理小说::/tuilixiaoshuo/list_{{page}}.html\n科幻小说::/kehuanxiaoshuo/list_{{page}}.html\n人物传记::/renwuzhuanji/list_{{page}}.html\n盗墓悬疑::/daomuxuanyi/list_{{page}}.html\n玄幻穿越::/xuanhuanchuanyue/list_{{page}}.html\n科普书籍::/kepushuji/list_{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1616463048577,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "@css:h2+div@text##作者：",
+            "coverUrl": "class.book_info@tag.img.0@src",
+            "init": "",
+            "intro": "class.intro@text",
+            "kind": "class.title@tag.a.1@text",
+            "lastChapter": "id.dir@tag.dd.-1@tag.a@text",
+            "name": "@css:h2@text##\\s",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p@text||id.content@textNodes",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text##作者.",
+            "bookList": "class.recommand@tag.li",
+            "bookUrl": "class.titles@tag.h3.0@tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "class.titles@tag.h3.0@tag.a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "+id.dir@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.100ben.net/plus/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

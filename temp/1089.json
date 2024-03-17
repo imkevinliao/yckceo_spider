@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "酷安@匿名不然吓死你",
+        "bookSourceGroup": "一个",
+        "bookSourceName": "必应搜书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "必应搜书",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "\n努努书坊::https://www.kanunu8.com/\n三九书屋::https://m.sanjiushuwu.com/\n奋斗小说网都言::https://m.ranwen.eu/class/1_1/\n读零零日排行::https://m.du00.com/top-dayvisit-1/\n精品小说网推荐::http://m.zjwyzyy.com/top/allvisit_{{page}}.html\n第九中文网热搜::https://m.dijiuzww.net/top/allvisit_{{page}}/\n言情中文网::https://m.bore.cc/sort/7_{{page}}/\n搜小说日点击::https://m.soxscc.com/top/dayvisit.html\n启迪小说网周排行::https://a.qiditoys.com/top/weekvisit.html\n格格党都市言情::https://m.62326.net/sort/3_{{page}}/\n365读书周排行::http://m.365dszw.com/ph/week7.html\n爱搜吧言情::http://www.aisou8.com/store/9_1.html\n撸客现言::https://m.lukeshuwu.com/xianyan/\n------------------------------------------------------------------------::\n长佩::https://m.gongzicp.com/\n晋江::https://m.jjwxc.net/\n晋江金榜::https://wap.jjwxc.net/ranks/vipgold/noyq\n晋江种田::https://m.jjwxc.net/assort?fw3=3&fbsj0=0&yc1=1&xx2=2&mainview0=0&sd0=0&lx0=0&fg0=0&bq=66&removebq=122&isfinish=2&collectiontypes=ors&searchkeywords=&page=0&sortType=3\n寒武纪年::https://wap.hanwujinian.com/home/10\n寒武纪年访问榜::http://wap.hanwujinian.net/modules/article/top_list.php?rgroup=1&type=f&title=%B7%C3%CE%CA%B0%F1\n书耽催更榜::https://m.shubl.com/index/rank_book/blade/month\n书耽推荐榜::https://m.shubl.com/index/rank_book/recommend/week\n起点经典::https://m.qidian.com/classic/female\n七猫::https://www.qimao.com/paihang/,{\"webView\":true}\n豆瓣图书top::https://m.douban.com/book/top250,{\"webView\":true}",
+        "lastUpdateTime": 1627609037722,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "li:matches(作者)@text||\np:matches(作者)@text||\ndiv:not(:has(div)):matches(作者)@text\n##作者：|简介.*",
+            "init": "",
+            "intro": "li:matches(简介)@text||\np:matches(简介)@text||\ndiv:not(:has(div)):matches(简介)@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "title@text##\\(.*|_.*|-.*|最新.*|无弹窗.*|完整.*|\\:.*|全集.*|全文.*|免费.*|章节.*|免费.*|小说.*|,.*|txt.*",
+            "tocUrl": "a:matches(目录|章节|列表):not(a[href~=javascript:;])@href||\na[href~=\\d+/\\d+\\.]"
+        },
+        "ruleContent": {
+            "content": "*[id~=nr1|txt|content]@all||\n*:containsOwn(。):not(p)@all||\n*:has(>p:containsOwn(。))@all",
+            "nextContentUrl": "a:matches(下一页)@href||\na[href~=page=\\d{1,2}|\\d{4,}_\\d{1,2}\\.]:matches(下)@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "a[href~=[0-9]{4,}]",
+            "bookUrl": "href",
+            "intro": "",
+            "name": "text"
+        },
+        "ruleSearch": {
+            "author": "a@href",
+            "bookList": "@css:a[href~=\\d{4,}]",
+            "bookUrl": "a[href~=\\d{4,}]@href",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "text##\\(.*|_.*|-.*|最新.*|无弹窗.*|完整.*|\\:.*|全集.*|全文.*|免费.*|章节.*|免费.*|小说.*|,.*|txt.*"
+        },
+        "ruleToc": {
+            "chapterList": "@css:*:has(>*:has(>a:matches(\\d、|\\d\\.|第|分节|番外|\\d{3,}))) a||\na[href~=\\d+/\\d+/\\d+\\.]||\na[href~=\\d+/\\d+\\.]||\na[href~=\\d{4,}]",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "a:matches(下一页)@href"
+        },
+        "searchUrl": "http://www.bing.com/search?q={{key}}",
+        "weight": 0
+    }
+]

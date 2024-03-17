@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣塔/炫书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ibiquta.info",
+        "bookUrlPattern": "https?://m.ibiquta.info/down/\\d+/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::https://m.ibiquta.info/soft1/<,index_{{page}}.html>\n仙侠修真::https://m.ibiquta.info/soft2/<,index_{{page}}.html>\n穿越言情::https://m.ibiquta.info/soft3/<,index_{{page}}.html>\n都市官场::https://m.ibiquta.info/soft4/<,index_{{page}}.html>\n历史架空::https://m.ibiquta.info/soft5/<,index_{{page}}.html>\n网游同人::https://m.ibiquta.info/soft6/<,index_{{page}}.html>\n科幻战争::https://m.ibiquta.info/soft7/<,index_{{page}}.html>\n名著其他::https://m.ibiquta.info/soft8/<,index_{{page}}.html>",
+        "header": "{\"referer\": \"{{source.getKey()}}\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693651983572,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".detail a.0@text",
+            "canReName": "true",
+            "coverUrl": ".cover img@src",
+            "downloadUrls": "#addmark.0@href",
+            "intro": ".intro@text",
+            "kind": ".detail p.1:2:-1@text\n##类别：|状态：|更新：",
+            "lastChapter": ".chapter li.0@text",
+            "name": ".caption p@text",
+            "tocUrl": "text.更多章节@href",
+            "wordCount": ".detail span.-1@text"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##（本章未完.*继续阅读）|{{chapter.title}}|\\(第.+页\\)",
+            "title": ""
+        },
+        "ruleExplore": {
+            "author": "a@ownText##.*\\s",
+            "bookList": ".mod li",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href\n@js:\nvar id=result.match(/(\\d+).html/)[1];\nvar iid=parseInt(id/1000);\n`https://img.ibiquta.info/Cover/${iid}/${id}.jpg`",
+            "kind": "a@ownText##\\[|\\].+",
+            "name": "b@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".waps_one",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "a.0@href\n@js:\nvar id=result.match(/(\\d+).html/)[1];\nvar iid=parseInt(id/1000);\n`https://img.ibiquta.info/Cover/${iid}/${id}.jpg`",
+            "intro": "",
+            "kind": ".fenlei@text&&span.0@text##分类：",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#readlist li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.ibiquta.info/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "//作者:学渣",
+        "bookSourceGroup": "学渣出品",
+        "bookSourceName": "☘️不可能文学☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wenxue.bkneng.com/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1675423645813,
+        "loginUrl": "https://m.8kana.com/passport/login",
+        "respondTime": 180709,
+        "ruleBookInfo": {
+            "author": "class.bookContain_l_conul1@li.0@text",
+            "coverUrl": "class.left bookContainImgBox@img@src",
+            "init": "",
+            "intro": "id.li_booknote@text",
+            "kind": "class.imformPopularity.0@text",
+            "lastChapter": "class.left bookWorksClass_Main@li.0@text",
+            "name": "tag.h2@text",
+            "wordCount": "class.imformPopularity.1@text"
+        },
+        "ruleContent": {
+            "content": "class.myContent@text",
+            "imageStyle": "0",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.clearfix results_details1",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "系统",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": "tag.a@span@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.informList@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "isPay": "",
+            "isVip": ""
+        },
+        "searchUrl": "https://wenxue.bkneng.com/www/search?keyword={{key}}&filter=0&page={{page}},{\n    \"charset\": \"UTF-8\",\n    \"headers\": {\"referer\":\"https://wenxue.bkneng.com/\",\n\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"},\n}",
+        "weight": 0
+    }
+]

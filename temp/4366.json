@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "//搜索有间隔，过快会搜不出来。",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "微风小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.wfxs.tw",
+        "bookUrlPattern": "https?://m.wfxs.tw/xs-\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xs/shuku-1<,/{{page}}>.html\n都市::/xs/shuku-2<,/{{page}}>.html\n奇幻::/xs/shuku-3<,/{{page}}>.html\n仙俠::/xs/shuku-4<,/{{page}}>.html\n架空::/xs/shuku-5<,/{{page}}>.html\n科幻::/xs/shuku-6<,/{{page}}>.html\n網遊::/xs/shuku-7<,/{{page}}>.html\n懸疑::/xs/shuku-8<,/{{page}}>.html\n言情::/xs/shuku-9<,/{{page}}>.html\n幻想::/xs/shuku-10<,/{{page}}>.html\n現言::/xs/shuku-11<,/{{page}}>.html\n總裁豪門::/xs/shuku-12<,/{{page}}>.html\n青春::/xs/shuku-13<,/{{page}}>.html\n耽美::/xs/shuku-14<,/{{page}}>.html\n文學::/xs/shuku-15<,/{{page}}>.html\n名著::/xs/shuku-16<,/{{page}}>.html\n勵誌::/xs/shuku-17<,/{{page}}>.html\n生活::/xs/shuku-18<,/{{page}}>.html\n婚姻::/xs/shuku-19<,/{{page}}>.html\n科普::/xs/shuku-20<,/{{page}}>.html\n紀實::/xs/shuku-21<,/{{page}}>.html\n親子::/xs/shuku-22<,/{{page}}>.html\n其它::/xs/shuku-23<,/{{page}}>.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698566191405,
+        "loginCheckJs": "var code=result.code(),\nkey=java.key;\n//状态码和搜索关键词\nif(code==404&&key){\n\tjava.toast(\"搜索过快，稍后再试！\")\n\tcookie.removeCookie(result.url())\n\t//清除当前cookie\n\t}\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "{{baseUrl.replace(/.html/,\"/\")}}"
+        },
+        "ruleContent": {
+            "content": "#content>p@textNodes",
+            "nextContentUrl": "text.下一頁@href||text.下一页@href",
+            "replaceRegex": "##本章.*$|(w+|biqiuge).*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "dl.hot dd",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.wfxs.tw/xs/s.html?s={{key}}&type=articlename",
+        "weight": 0
+    }
+]

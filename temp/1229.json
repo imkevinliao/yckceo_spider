@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "海阅小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.haiyue8.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1680072644175,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property$=category]@content&&[property$=status]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": "[property$=update_time]@content"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes##请收藏本站.*com"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p@text",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "class.update@a@text",
+            "name": "h4@a@text",
+            "wordCount": "class.uptime@text##更新时间："
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.haiyue8.com/s?q={{key}}",
+        "weight": 0
+    }
+]

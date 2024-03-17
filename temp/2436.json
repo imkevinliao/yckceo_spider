@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "(^･ｪ･^)",
+        "bookSourceGroup": "🌼 常用",
+        "bookSourceName": "🌼 笔下看书阁gzthby",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.gzthby.com",
+        "customOrder": 53,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1606190883266,
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "cover",
+            "init": "<js> \nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).text()) ;\nvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\nvar book = {\n\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\tauthor: og('novel:author'),\n\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n   wordCount: o('.blue:eq(1)').replace('字',''),\n\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|章节目录|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, '') + ' • ' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-'),\n\tintro: '　　最近更新:' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-') + '\\n' + og('description').replace(/.*(观看小说|简介)[:：]|分享书籍.*|各位书友.*/g, '').replace(/\\s+/g, '\\n'),\n\tcover: og('image'),\n\turl: og('novel:read_url'),\n};\nbook;\n</js>",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "latest",
+            "name": "name",
+            "tocUrl": "url",
+            "wordCount": "wordCount"
+        },
+        "ruleContent": {
+            "content": "<js>\nm=[];n=[];\nfunction x(a,b){m.push(a);n.push(b)};\nx(/#800#/g,\"的\");\nx(/#801#/g,\"一\");\nx(/#802#/g,\"是\");\nx(/#803#/g,\"了\");\nx(/#804#/g,\"我\");\nx(/#805#/g,\"不\");\nx(/#806#/g,\"人\");\nx(/#807#/g,\"在\");\nx(/#808#/g,\"他\");\nx(/#809#/g,\"有\");\nx(/#80a#/g,\"这\");\nx(/#80b#/g,\"个\");\nx(/#80c#/g,\"上\");\nx(/#80d#/g,\"们\");\nx(/#80e#/g,\"来\");\nx(/#80f#/g,\"到\");\nx(/#810#/g,\"时\");\nx(/#811#/g,\"大\");\nx(/#812#/g,\"地\");\nx(/#813#/g,\"为\");\nx(/#814#/g,\"子\");\nx(/#815#/g,\"中\");\nx(/#816#/g,\"你\");\nx(/#817#/g,\"说\");\nx(/#818#/g,\"生\");\nx(/#819#/g,\"国\");\nx(/#81a#/g,\"年\");\nx(/#81b#/g,\"着\");\nx(/#81c#/g,\"就\");\nx(/#81d#/g,\"那\");\nx(/#81e#/g,\"和\");\nx(/#81f#/g,\"要\");\nx(/#820#/g,\"她\");\nx(/#821#/g,\"出\");\nx(/#822#/g,\"也\");\nx(/#823#/g,\"得\");\nx(/#824#/g,\"里\");\nx(/#825#/g,\"后\");\nx(/#826#/g,\"自\");\nx(/#827#/g,\"以\");\nx(/#828#/g,\"会\");\nx(/#829#/g,\"家\");\nx(/#82a#/g,\"可\");\nx(/#82b#/g,\"下\");\nx(/#82c#/g,\"而\");\nx(/#82d#/g,\"过\");\nx(/#82e#/g,\"天\");\nx(/#82f#/g,\"去\");\nx(/#830#/g,\"能\");\nx(/#831#/g,\"对\");\nx(/#832#/g,\"小\");\nx(/#833#/g,\"多\");\nx(/#834#/g,\"然\");\nx(/#835#/g,\"于\");\nx(/#836#/g,\"心\");\nx(/#837#/g,\"学\");\nx(/#838#/g,\"么\");\nx(/#839#/g,\"之\");\nx(/#83a#/g,\"都\");\nx(/#83b#/g,\"好\");\nx(/#83c#/g,\"看\");\nx(/#83d#/g,\"起\");\nx(/#83e#/g,\"发\");\nx(/#83f#/g,\"当\");\nx(/#840#/g,\"没\");\nx(/#841#/g,\"成\");　　\nx(/#842#/g,\"只\");\nx(/#843#/g,\"如\");\nx(/#844#/g,\"事\");\nx(/#845#/g,\"把\");\nx(/#846#/g,\"还\");\nx(/#847#/g,\"用\");\nx(/#848#/g,\"第\");\nx(/#849#/g,\"样\");\nx(/#84a#/g,\"道\");\nx(/#84b#/g,\"想\");\nx(/#84c#/g,\"作\");\nx(/#84d#/g,\"种\");\nx(/#84e#/g,\"开\");\nx(/#84f#/g,\"美\");\nx(/#850#/g,\"总\");\nx(/#851#/g,\"从\");\nx(/#852#/g,\"无\");\nx(/#853#/g,\"情\");\nx(/#854#/g,\"己\");\nx(/#855#/g,\"面\");\nx(/#856#/g,\"最\");\nx(/#857#/g,\"女\");\nx(/#858#/g,\"但\");　　\nx(/#859#/g,\"现\");\nx(/#85a#/g,\"前\");\nx(/#85b#/g,\"些\");\nx(/#85c#/g,\"所\");\nx(/#85d#/g,\"同\");\nx(/#85e#/g,\"日\");\nx(/#85f#/g,\"手\");\nx(/#860#/g,\"又\");\nx(/#861#/g,\"行\");\nx(/#862#/g,\"意\");\nx(/#863#/g,\"动\");\nresult=result.replace(/<i>&.xe(\\w+);<\\/i>/g,\"#$1#\");\nfor(i in m){result=result.replace(m[i],n[i])}</js>\n.txt@html##天才一秒钟记住本网站《.*?》更新最快的小说网站!|<h1 [\\s\\S]+?\\/h1>",
+            "nextContentUrl": "##(\\?page=\\d+)\">下一章##$1###",
+            "replaceRegex": "##(?<=…)\\n\\s*(?=…)|(?<=[\\u4e00-\\u9fa5，、])\\n\\s*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "tr!0\n<js>\nresult.toArray().slice(0, 10).map(el => {\n\tvar url = String(el.select('a:eq(0)').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n\tvar J = org.jsoup.Jsoup.parse(java.ajax(url));\n\tvar o = selector => String(J.select(selector).text());\n\tvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\treturn {\n\t\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\t\tauthor: og('novel:author'),\n\t\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n    wordCount: o('.count ul li:eq(2) span'),\n\t\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, '') + ' • ' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-'),\n\t\tintro: og('description').replace(/.*(观看小说|简介)[:：]|各位书友.*/g, '').replace(/\\s+/g, ''),\n\t\tcover: og('image'),\n\t\turl: url,\n\t};\n}); \n</js>",
+            "bookUrl": "url",
+            "coverUrl": "cover",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "latest",
+            "name": "name",
+            "wordCount": "wordCount"
+        },
+        "ruleToc": {
+            "chapterList": ".list-charts!-1@li@a",
+            "chapterName": "text##[（【\\(](第?(\\d+|[一二三四五六七八九十]{1,3}|万)更|求(推荐|收藏|订阅|全订|自动订|月票)|捉虫|二合一).*?[\\)】）]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "龙空论坛(看最新书必备)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lkong.com",
+        "customOrder": -88901362,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "网文江湖::https://www.lkong.com/forum/15?page={{page}}\n原创评论::https://www.lkong.com/forum/8?page={{page}}\n推书试读::https://www.lkong.com/forum/60?page={{page}}\n女频小说::https://www.lkong.com/forum/10?page={{page}}\n业界招聘::https://www.lkong.com/forum/2?page={{page}}\n动漫游戏::https://www.lkong.com/forum/16?page={{page}}\n风花雪月::https://www.lkong.com/forum/48?page={{page}}\n影视评谈::https://www.lkong.com/forum/49?page={{page}}\n体育竞技::https://www.lkong.com/forum/19?page={{page}}\n数码科技::https://www.lkong.com/forum/33?page={{page}}\n羊毛福利::https://www.lkong.com/forum/29?page={{page}}\n财富经济::https://www.lkong.com/forum/9?page={{page}}\n黑市置换::https://www.lkong.com/forum/13?page={{page}}",
+        "header": " {\n\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36\",\"Cookie\":\"\"\n}",
+        "lastUpdateTime": 1645229948288,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "p@all##本帖需登录才可回复，没有帐号欢迎.*",
+            "nextContentUrl": ".ant-pagination.0@a!1@href"
+        },
+        "ruleExplore": {
+            "author": "class.author@a.0@text",
+            "bookList": "class.css-760i8n",
+            "bookUrl": "class.main-title@a@href",
+            "lastChapter": "class.bubble@text",
+            "name": "class.main-title@a@text",
+            "wordCount": "class.author@a.1@text"
+        },
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": ".thread-title",
+            "chapterName": "span@text",
+            "chapterUrl": ""
+        },
+        "weight": 0
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "燃文小说网com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ranwencom.com",
+        "bookUrlPattern": "https?://www.ranwencom.com/txt/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "排行::/rank/\n书库::/sort/\n完本::/quanben/sort/\n书架::/bookcase/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1699010503231,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "canReName": "1",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\".fix span.-1@text\",\nl:\"[property$=lastest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "wordCount": "@get:{w}字"
+        },
+        "ruleContent": {
+            "content": ".content>p@textNodes"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": "ul.txt-list li",
+            "bookUrl": "a.0@href",
+            "kind": "span.0:4@text##\\[|\\]",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list li!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "kind": ".s1@text&&.s5@text##\\[|\\]",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.section-list.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}/search/,{\n  \"body\": \"searchkey={{key}}&Submit=搜索\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

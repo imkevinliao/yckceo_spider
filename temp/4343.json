@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "猴子小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.hzxsw.com",
+        "bookUrlPattern": "http://m.hzxsw.com/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/\n修真::/xiuzhen/\n都市::/dushi/\n历史::/lishi/\n网游::/wangyou/\n科幻::/kehuan/\n言情::/yanqing/\n其他::/qita/\n全本::/quanben/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698382269016,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一@href\n@js:\n/_/.test(result)?result:\"\";",
+            "replaceRegex": "##{{try{chapter.title}catch(e){\"\"} }}|\\(第\\d+.*页\\)"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "kind": "0",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": ".cat@text##分类：",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl dd a",
+            "chapterName": "text##^\\d+.",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "@js:\nvar url=source.getKey(),\nweb=java.webView(null,url,null),\nj=org.jsoup.Jsoup.parse(web),\nf=j.select(\"form\"),\na=f.attr(\"action\"),\np=f.select(\"input\");\nvar list=[];\nfor(i in p){\n\tname=p[i].attr(\"name\")\n\tvalue=p[i].attr(\"value\")\n\tclas=p[i].attr(\"class\")\n\tif(value!=\"\"){\n\t\tadd=`${name}=${value}`\n\t\t}else if(clas==\"text\"){\n\t\t\tk=java.encodeURI(key,\"gbk\")\n\t\t\tadd=`${name}=${k}`\n\t\t\t}\n\t\t\tlist.push(add)\n\t}\n\tso=list.join(\"&\")\na+\"?\"+so",
+        "weight": 0
+    }
+]

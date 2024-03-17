@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "加载 ≥ 1分钟\n原因:\n搜索的基础信息太少，加了获取作者和简介的js",
+        "bookSourceGroup": "⁉️ 自制",
+        "bookSourceName": "All Novel(英文,慢)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://allnovel.net",
+        "customOrder": -166,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "Romance::/romance.html?page={{page}}\nAdventure::/adventure.html?page={{page}}\nThriller::/thriller.html?page={{page}}\nFantasy::/fantasy.html?page={{page}}\nYoungAdult::/young-adult.html?page={{page}}\nMystery::/mystery.html?page={{page}}\nHistorical::/historical.html?page={{page}}\nHorror::/horror.html?page={{page}}\nScienceFiction::/science-fiction.html?page={{page}}\nHumorous::/humorous.html?page={{page}}\nChristian::/christian.html?page={{page}}\nWestern::/western.html?page={{page}}",
+        "lastUpdateTime": 1632991381124,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".list-info.0@a@text",
+            "coverUrl": ".row@img@src",
+            "intro": ".des-novel@p@html",
+            "kind": ".list-info.1@a@text",
+            "lastChapter": ".list-info.4@span@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": ".des_novel@p@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "a@href\n<js>java.ajax('https://allnovel.net'+result)</js>\n.list-info.0@a@text",
+            "bookList": ".col-sm-6",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "a@href\n<js>java.ajax('https://allnovel.net'+result)</js>\n.des-novel@p@html",
+            "lastChapter": "",
+            "name": "a@div.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "tbody@tr",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

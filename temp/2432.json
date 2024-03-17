@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "JSON",
+        "bookSourceName": "💯 JIASTON",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://sou.jiaston.com/#🌱",
+        "bookUrlPattern": ".+/book/\\d+/$",
+        "customOrder": -113143,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "{\"User-Agent\": \"okhttp/3.5.0\"}",
+        "lastUpdateTime": 1612520216686,
+        "ruleBookInfo": {
+            "intro": "Desc",
+            "name": "data.name"
+        },
+        "ruleContent": {
+            "content": "data.content",
+            "replaceRegex": "##(?mi)^[^0-9a-zA-Z\\u4e00-\\u9fa5：\\n]+$"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "Author",
+            "bookList": "data",
+            "bookUrl": "https://kuaiapi.jiaston.com/book/{{$.Id}}/",
+            "coverUrl": "Img@put:{book:$.Id}",
+            "intro": "Desc",
+            "kind": "CName",
+            "lastChapter": "UpdateTime&&LastChapter##\\h\\d\\d.+\\n##▪",
+            "name": "Name",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ":\"id\":(\\d+),\"name\":\"([^\"]+)\",\"hasContent\":1",
+            "chapterName": "$2##[【（][^【】（）]*(感谢|快乐|[盟萌]主|打赏|\\d{4}字|\\d/\\d|[大本单]章|合一|[补加爆]\\w?更|[求月荐]票)[^【】（）]*[）】]|^(正文|VIP章节|最新章节)?\\h+|^(上架|推荐|\\w{0,2}说明|请\\w{0,2}假|[明今][天晚]|月末|\\w{0,4}通知|\\w{0,2}爆更|\\w{0,2}感言|解释)\\S*",
+            "chapterUrl": "https://kuaiapi.jiaston.com/book/@get:{book}/$1.html",
+            "isVip": ""
+        },
+        "searchUrl": "https://sou.jiaston.com/search.aspx?key={{key}}&page={{page}}&siteid=app2",
+        "weight": 0
+    }
+]

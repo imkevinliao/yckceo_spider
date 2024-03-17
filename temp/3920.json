@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "天籁小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tianlai01.com",
+        "bookUrlPattern": "https?://www.tianlai01.com/read/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/sort/{{page}}/\n玄幻魔法::/sort/1/{{page}}/\n武侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n历史军事::/sort/4/{{page}}/\n科幻灵异::/sort/5/{{page}}/\n游戏竞技::/sort/6/{{page}}/\n女生耽美::/sort/7/{{page}}/\n其他类型::/sort/8/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692350154287,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": ".novel_info_main img@src",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=lastest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": ".novel_info_title span.1@text"
+        },
+        "ruleContent": {
+            "content": ".content@html"
+        },
+        "ruleExplore": {
+            "author": "tag.i@text",
+            "bookList": ".flex li",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": "p.0@text",
+            "kind": "span.0@text&&em.-1@text##\\/##,",
+            "name": "h2@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.0@textNodes",
+            "bookList": ".flex li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@data-original",
+            "intro": "p.1@text",
+            "kind": "span.0@text##\\/##,",
+            "lastChapter": "a.-1@text",
+            "name": "h3@text",
+            "wordCount": "span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#ul_all_chapters li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.tianlai01.com/search/,{\n  \"body\": \"searchkey={{key}}&searchtype=all\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "HINOTORI修复",
+        "bookSourceGroup": "常用①,乃星,有效",
+        "bookSourceName": "🥉齐努力",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qinuli.net",
+        "bookUrlPattern": "https?://www.qinuli.net/\\d+_\\d+/",
+        "customOrder": -158425,
+        "enabled": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1619858785258,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作\\s*者：",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@textNodes##&&?amp;|&&?ldquo;|&&?rsquo;|&&?rdquo;|&&?lsquo;|各位书友.+全文阅读.|.{1,10}的.{1,5}小说作品.+最新章节已经更新，|笔趣阁.+欢迎提交指正！|.+最新章节.+|.+无弹窗.+|.+最新章节列表.+|.+全本txt下载|您要是觉得《|.*》小说还不错，请点击顶部分享按钮分享到你的朋友圈来支持.{1,10}吧！|关键词：\\s*\\n\\s*、\\s*\\n\\s*、\\s*\\n\\s*、",
+            "kind": "class.con_top@tag.a.1@text",
+            "name": "id.info@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html##亲，本章[未已]完.+",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "tag.ul@tag.li!0",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.qinuli.net/search?searchkey={{key}}&searchtype=articlename&page={{page}}",
+        "weight": 0
+    }
+]

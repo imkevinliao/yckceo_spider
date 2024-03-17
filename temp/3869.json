@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "QIUHONG",
+        "bookSourceName": "新我的书城",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xwdsc.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "header": "",
+        "lastUpdateTime": 1691658149471,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author@text",
+            "coverUrl": ".synopsisArea_detail@img@src",
+            "intro": ".review@text",
+            "kind": ".sort@text##类别：",
+            "lastChapter": ".lastchapter@a@text",
+            "name": ".title@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html##『加入书签，方便阅读』|第.*下一页继续阅读。",
+            "nextContentUrl": "#pt_next@href",
+            "title": ".title"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "",
+            "kind": ".author.1@text##类型：",
+            "lastChapter": "a.2@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".directoryArea.1@p",
+            "chapterName": "text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": ".index-container-btn.1@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

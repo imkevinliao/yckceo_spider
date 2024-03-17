@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "和图书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://hetushu.com",
+        "bookUrlPattern": "",
+        "customOrder": -302375,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1633698536180,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "tag.a.0@text",
+            "init": "class.book_info finish",
+            "intro": "class.intro@text",
+            "kind": "tag.div.2@text##类型：|小说",
+            "name": "tag.h2@text",
+            "wordCount": "tag.div.3@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span@text##\\/",
+            "bookList": "class.list@tag.dd",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@text",
+            "name": "tag.h4@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.dir@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "https://hetushu.com/book/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

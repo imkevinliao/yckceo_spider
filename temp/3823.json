@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "夜伴书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ybsww.com",
+        "bookUrlPattern": "https://www.ybsww.com/book/\\d+/",
+        "customOrder": 46,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"奇幻·玄幻\",\"url\":\"/list/qihuan<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻·游戏\",\"url\":\"/list/kehuan<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"武侠·仙侠\",\"url\":\"/list/wuxia<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"女生·言情\",\"url\":\"/list/yanqing<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市·娱乐\",\"url\":\"/list/dushi<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"历史·军事\",\"url\":\"/list/lishi<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"悬疑·灵异\",\"url\":\"/list/xuanyi<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"耽美·纯爱\",\"url\":\"/list/chunai<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"外国文学\",\"url\":\"/list/foreign<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"成长·励志\",\"url\":\"/list/lizhi<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"散文·随笔\",\"url\":\"/list/sanwen<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"现当代文学\",\"url\":\"/list/china<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"轻小说\",\"url\":\"/list/lightnovel<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"健康·生活\",\"url\":\"/list/health<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"文学名著\",\"url\":\"/list/mingzhu<,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691287856400,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#cont-body@html",
+            "nextContentUrl": ".pagination a@href"
+        },
+        "ruleExplore": {
+            "bookList": ".media",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".media-info@text",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.1@text",
+            "bookList": ".table tbody tr",
+            "bookUrl": "a.0@href",
+            "kind": "0",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#all-chapter a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.ybsww.com/plus/search.php?q={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceUrl": "https://www.3zm.la/",
+        "bookSourceType": "0",
+        "bookSourceName": "三掌门",
+        "bookSourceGroup": "无",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=3zm.la&s=17314176831241819653&q={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": ".search-list@tag.li!0",
+            "name": ".s2@text",
+            "author": ".s4@text",
+            "kind": ".s2@a@href",
+            "wordCount": "",
+            "lastChapter": "",
+            "intro": "",
+            "coverUrl": "",
+            "bookUrl": ".s2@a@href"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "name": "",
+            "author": "",
+            "kind": "",
+            "wordCount": "",
+            "lastChapter": "",
+            "intro": "",
+            "coverUrl": "",
+            "bookUrl": ""
+        },
+        "ruleBookInfo": {
+            "init": "",
+            "name": ".book@.info@h2@text",
+            "author": ".book@.info@.small@span.0##作者：",
+            "kind": ".book@.info@.small@span.1@text&&.book@.info@.small@span.2@text##分类：|状态：",
+            "wordCount": ".book@.info@.small@span.3@text",
+            "lastChapter": ".book@.info@.small@.last.1@tag.a@text",
+            "intro": ".book@.info@.intro@html",
+            "coverUrl": ".book@.info@.cover@img@src",
+            "tocUrl": ""
+        },
+        "ruleToc": {
+            "chapterList": ".listmain@dl@dd",
+            "chapterName": "@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": "false",
+            "updateTime": "",
+            "nextTocUrl": ""
+        },
+        "ruleContent": {
+            "content": "#content@textNodes##本书最新章节内容未完，更多精彩内容手机请扫描下方二维码下载app。小说更全更新更快。百万小说免费阅读。网上找不到的内涵小说这里都有哦！|请记住本书首发域名.*",
+            "nextContentUrl": "",
+            "webJs": "",
+            "sourceRegex": ""
+        }
+    }
+]

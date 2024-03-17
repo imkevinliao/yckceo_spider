@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceGroup": "爱猫小说书源合集",
+        "bookSourceName": "肉肉书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.rouroushu.com",
+        "customOrder": 266,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "耽美文::https://www.rouroushu.com/list/1/{{page}}.html\n百合文::https://www.rouroushu.com/list/2/{{page}}.html\n言情文::https://www.rouroushu.com/list/3/{{page}}.html\n高辣文::https://www.rouroushu.com/list/4/{{page}}.html\n腹黑文::https://www.rouroushu.com/list/5/{{page}}.html\n高干文::https://www.rouroushu.com/list/7/{{page}}.html\n玄幻小说::https://www.rouroushu.com/list/8/{{page}}.html\n田园乡村::https://www.rouroushu.com/list/6/{{page}}.html\n修真小说::https://www.rouroushu.com/list/9/{{page}}.html\n其他小说::https://www.rouroushu.com/list/10/{{page}}.html\nnull\n最新入库::https://www.rouroushu.com/top/postdate/{{page}}.html\n日点击榜::https://www.rouroushu.com/top/dayvisit/{{page}}.html\n周点击榜::https://www.rouroushu.com/top/weekvisit/{{page}}.html\n月点击榜::https://www.rouroushu.com/top/monthvisit/{{page}}.html\n总点击榜::https://www.rouroushu.com/top/allvisit/{{page}}.html\n日推荐榜::https://www.rouroushu.com/top/dayvote/{{page}}.html\n周推荐榜::https://www.rouroushu.com/top/weekvote/{{page}}.html\n月推荐榜::https://www.rouroushu.com/top/monthvote/{{page}}.html\n总推荐榜::https://www.rouroushu.com/top/allvote/{{page}}.html\n字数排行::https://www.rouroushu.com/top/size/{{page}}.html\n总收藏榜::https://www.rouroushu.com/top/goodnum/{{page}}.html\nnull",
+        "lastUpdateTime": 0,
+        "ruleBookInfo": {
+            "coverUrl": "class.img-thumbnail.0@src",
+            "intro": "id.bookIntro@text"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@textNodes##\\\\\\\\&&nbsp\\\\\\\\;nbsp\\\\\\\\;\\\\\\\\&&nbsp\\\\\\\\;nbsp\\\\\\\\;",
+            "imageStyle": "0.0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.li.2@text||tag.td.2@text",
+            "bookList": "class.mySearch@tag.ul!30||class.table@tag.tr!0",
+            "bookUrl": "tag.li.0@tag.a@href||tag.td.0@tag.a@href",
+            "kind": "tag.li.3@text||tag.td.3@text",
+            "lastChapter": "tag.li.1@tag.a@text||tag.td.1@tag.a@text",
+            "name": "tag.li.0@tag.a@text||tag.td.0@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.col-md-3",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.rouroushu.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

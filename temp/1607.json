@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wwwrar.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1668595297943,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "canReName": "1",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property~=status|category|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property$=update_time]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": ".Readarea@html"
+        },
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".box",
+            "bookUrl": "h4.bookname@a@href",
+            "coverUrl": "a@img@src",
+            "intro": ".uptime@text",
+            "name": "h4.bookname@a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".listmain@dd@a",
+            "chapterName": "text##[<]{2}[-]{3}展开全部章节[-]{3}[>]{2}",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s?q={{key}}",
+        "weight": 0
+    }
+]

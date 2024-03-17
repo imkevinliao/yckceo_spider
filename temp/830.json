@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "新书包网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.xsbbb.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/class/{{page}}/\n玄幻小说::http://m.xsbbb.com/class/1/{{page}}/\n修真小说::http://m.xsbbb.com/class/2/{{page}}/\n都市小说::http://m.xsbbb.com/class/3/{{page}}/\n历史小说::http://m.xsbbb.com/class/4/{{page}}/\n言情小说::http://m.xsbbb.com/class/5/{{page}}/\n网游小说::http://m.xsbbb.com/class/6/{{page}}/\n科幻小说::http://m.xsbbb.com/class/7/{{page}}/\n其他小说::http://m.xsbbb.com/class/8/{{page}}/",
+        "lastUpdateTime": 1639607168154,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "class.review@text"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html##.*最新章节!|.*加入书签.*",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "tag.a@p.1@text",
+            "bookList": "id.main@tag.div",
+            "bookUrl": "tag.a@href",
+            "intro": "tag.a@p.3@text",
+            "name": "tag.a@p.0@text"
+        },
+        "ruleSearch": {
+            "author": "class.author.0@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookimg@tag.a@href",
+            "coverUrl": "class.bookimg@tag.a@img@src",
+            "kind": "class.author.1@text",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.directoryArea.1@tag.p@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.xsbbb.com/search/,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

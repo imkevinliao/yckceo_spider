@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔞,🌍",
+        "bookSourceName": "小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://blog.xbookcn.net",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1602277005724,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "intro": ".post-body@text",
+            "name": ".post-title@text"
+        },
+        "ruleContent": {
+            "content": "class.entry-content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": ".date-outer",
+            "bookUrl": ".post-title@tag.a@href",
+            "kind": ".post-labels@tag.a@text",
+            "name": ".post-title@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".post-title",
+            "chapterName": ".post-title@text"
+        },
+        "searchUrl": "https://blog.xbookcn.net/search?q={{key}}",
+        "weight": 0
+    }
+]

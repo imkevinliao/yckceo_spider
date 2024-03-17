@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,一般,源仓库,网页源",
+        "bookSourceName": "看书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://s.ksxsw.net",
+        "bookUrlPattern": "https?://s.ksxsw.net/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "小说更新::https://s.ksxsw.net/list/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695104808784,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.章节目录@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}"
+        },
+        "ruleContent": {
+            "content": ".txt@html",
+            "nextContentUrl": "text.下章@href"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".sort_list li",
+            "bookUrl": "a@href",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "lastChapter": "a@title##最新章节：",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".sort_list li",
+            "bookUrl": "a.0@href",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "lastChapter": "a.-1@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}\n/search.html,{\n  \"body\": \"s={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

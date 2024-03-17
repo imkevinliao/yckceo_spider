@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "Woo小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.woo15.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"https://m.woo15.com/sort/1-{{page}}.html\",\"style\":{}},{\"title\":\"仙侠\",\"url\":\"https://m.woo15.com/sort/2-{{page}}.html\",\"style\":{}},{\"title\":\"都市\",\"url\":\"https://m.woo15.com/sort/3-{{page}}.html\",\"style\":{}},{\"title\":\"穿越\",\"url\":\"https://m.woo15.com/sort/4-{{page}}.html\",\"style\":{}},{\"title\":\"科幻\",\"url\":\"https://m.woo15.com/sort/5-{{page}}.html\",\"style\":{}},{\"title\":\"网游\",\"url\":\"https://m.woo15.com/sort/6-{{page}}.html\",\"style\":{}},{\"title\":\"精品\",\"url\":\"https://m.woo15.com/sort/7-{{page}}.html\",\"style\":{}}]",
+        "header": "{\n  \"User-Agent\": \"Mobile\"\n}",
+        "lastUpdateTime": 1646812204478,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "id.pb_next@href",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": "class.topul@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "i@text",
+            "lastChapter": "",
+            "name": "h2@text",
+            "wordCount": ".other@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters.-1@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": "",
+            "nextTocUrl": ".right@a@href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://m.woo15.com/s.php,{\n\"method\":\"POST\",\n\"body\":\"type=articlename&searchkey={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

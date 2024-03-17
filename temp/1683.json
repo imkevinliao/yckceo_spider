@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceComment": "@🍉\n旧https://www.axxsw.com",
+        "bookSourceGroup": "测试",
+        "bookSourceName": "傲轩小说(测试)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.axxsw.net/",
+        "bookUrlPattern": "",
+        "customOrder": -264,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "全部分类::/weekvisit_0_0_2_{{page}}.html\n玄幻小说::/weekvisit_1_0_2_{{page}}.html\n仙侠小说::/weekvisit_2_0_2_{{page}}.html\n都市小说::/weekvisit_3_0_2_{{page}}.html\n网游小说::/weekvisit_4_0_2_{{page}}.html\n科幻小说::/weekvisit_5_0_2_{{page}}.html\n恐怖小说::/weekvisit_6_0_2_{{page}}.html\n女生小说::/weekvisit_7_0_2_{{page}}.html\n言情小说::/weekvisit_8_0_2_{{page}}.html\n其他小说::/weekvisit_9_0_2_{{page}}.html",
+        "header": "{\n\t\"user-agent\":\"Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/80.0.3987.99 Mobile Safari/537.36\",\n\tReferer\":\"https://www.axxsw.net\"\n\t}",
+        "lastUpdateTime": 1666238928403,
+        "loginUrl": "",
+        "respondTime": 33164,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "canReName": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "meta[property$=category]@content&&meta[property$=time]@content",
+            "lastChapter": "meta[property$=r_name]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": "meta[property$=status]@content"
+        },
+        "ruleContent": {
+            "content": "id.txt@html||class.word_read@p@html",
+            "imageStyle": "",
+            "nextContentUrl": "{{@@text.下章@href}}\n@js:\nvar num=result.replace(/[^_]/g,'')\nif (num==\"_\")result=result",
+            "replaceRegex": "##一秒记住.*|笔趣阁♥.*(笔趣阁♥|阅读)"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.sort_list@li",
+            "bookUrl": "a@href##book##index",
+            "coverUrl": "a@href\n@js:\nresult=result.replace(/[^\\d]/g,'')\nstr1=parseInt(result/1000)\nresult=\"/qs_html/img/\"+str1+\"/\"+result+\"/\"+result+\"s.jpg\"",
+            "intro": "",
+            "kind": "傲轩小说:\n{{@@class.s1@text##\\[|\\]}}",
+            "lastChapter": "a@title",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".sort_list@li||class.txt-list@li",
+            "bookUrl": ".s2@a@href##book##index",
+            "coverUrl": "class.s2@a@href\n@js:\nresult=result.replace(/[^\\d]/g,'')\nstr1=parseInt(result/1000)\nresult=\"/qs_html/img/\"+str1+\"/\"+result+\"/\"+result+\"s.jpg\"",
+            "intro": "",
+            "kind": "傲轩小说:\n{{@@.s1@text##\\[|\\]}}",
+            "lastChapter": ".s4@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-list.-1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "{{@@text.下一页.0@href}}&&{{@@select.0@option.-1@value}}\n@js:\nvar str=result.replace(/[^\\d^&]/g,'')\nvar num1=str.replace(/&&.*/,'')\nvar num2=str.replace(/.*&&/,'')\nif(num2-num1>=0)result=result.replace(/&&.*/,'')",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "/search.html,{\n\t\"charset\":\"utf-8\",\n\"method\":\"post\",\n\"body\":\"s={{key}}\"\n}",
+        "weight": 0
+    }
+]

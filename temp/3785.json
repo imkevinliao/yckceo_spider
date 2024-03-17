@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "访问过快容易超时宕机",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "yy小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.yyyyab.com",
+        "bookUrlPattern": "http://www.yyyyab.com/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "东方玄幻::/sort/1_{{page}}/\n玄幻异界::/sort/2_{{page}}/\n仙侠修真::/sort/3_{{page}}/\n国术武侠::/sort/4_{{page}}/\n神话王朝::/sort/5_{{page}}/\n科幻未来::/sort/6_{{page}}/\n历史传奇::/sort/7_{{page}}/\n军事战争::/sort/8_{{page}}/\n网络游戏::/sort/9_{{page}}/\n体育竞技::/sort/10_{{page}}/\n恐怖惊悚::/sort/11_{{page}}/\n侦探推理::/sort/12_{{page}}/\n穿越重生::/sort/13_{{page}}/\n魔法幻情::/sort/14_{{page}}/\n浪漫言情::/sort/15_{{page}}/\n耽美言情::/sort/16_{{page}}/\n青春校园::/sort/17_{{page}}/\n乡村布衣::/sort/18_{{page}}/\n宫廷贵族::/sort/19_{{page}}/\n官场职场::/sort/20_{{page}}/\n都市生活::/sort/21_{{page}}/\n谍战特工::/sort/22_{{page}}/\n风雨同人::/sort/23_{{page}}/\n短篇综合::/sort/24_{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690594753106,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".xx@a.1@text",
+            "coverUrl": ".xsfm@img@src",
+            "intro": ".jianjie@text",
+            "kind": ".xx@li.1:3@text\n##小说分类：|更新时间：",
+            "lastChapter": ".xx@a.-1@text",
+            "name": ".xx@li.0@text",
+            "tocUrl": "text.查看更多章节@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "#pb_next@href\n@js:\nresult=result[0]\nresult=result.includes(\"_\") ? result : \"\";",
+            "replaceRegex": "##\\(第.*页\\)|本章未完.+继续阅读"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".list@ul",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "span.-2@text",
+            "kind": "tag.i@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".slist ul@li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "{{\"http://www.yyyyab.com/css/noimg.jpg\"}}",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".lb@li!-1",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": ".showpage@a@href"
+        },
+        "searchUrl": "http://www.yyyyab.com/s.php,{\n  \"body\": \"type=articlename&s={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

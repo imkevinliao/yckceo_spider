@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "搜索间隔10秒\n发现内容很少",
+        "bookSourceGroup": "自制,一般,源仓库,网页源",
+        "bookSourceName": "心情小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xinqingxsw.com",
+        "bookUrlPattern": "https://m.xinqingxsw.com/book.*",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻修真::/list/1/{{page}}.html\n重生穿越::/list/2/{{page}}.html\n都市小说::/list/3/{{page}}.html\n军史小说::/list/4/{{page}}.html\n网游小说::/list/5/{{page}}.html\n科幻小说::/list/6/{{page}}.html\n灵异小说::/list/7/{{page}}.html\n言情小说::/list/8/{{page}}.html\n其他小说::/list/9/{{page}}.html",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1685870250380,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "#txt@html",
+            "nextContentUrl": "id.pb_next@href",
+            "replaceRegex": "##一秒记住.*com"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".sort_list@li",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "lastChapter": "a.2@text||a@title##最新章节：",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://m.xinqingxsw.com/search.html,{\n  \"body\": \"s={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

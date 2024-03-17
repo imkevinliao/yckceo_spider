@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "全本小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.iqb8.cc",
+        "bookUrlPattern": "http://www.iqb8.cc/[\\d_]+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/class/xuanhuan/{{page}}/\n修真::/class/xiuzhen/{{page}}/\n都市::/class/dushi/{{page}}/\n穿越::/class/chuanyue/{{page}}/\n网游::/class/wangyou/{{page}}/\n科幻::/class/kehuan/{{page}}/\n其他::/class/qita/{{page}}/\n全本::/quanben/class/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693185278679,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=lastest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "#next_url@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": ".category-div",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": ".intro@text",
+            "kind": "0",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".info-chapters.1@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/searchf9.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

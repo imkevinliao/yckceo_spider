@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎧 有声",
+        "bookSourceName": "爱书音",
+        "bookSourceType": 1,
+        "bookSourceUrl": "https://m.ishuyin.com",
+        "bookUrlPattern": "",
+        "customOrder": -122393,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "连载::/search.php?intro=series\n完结::/search.php?intro=done\n玄幻小说::/list-2.html\n都市小说::/list-8.html\n文学小说::/list-38.html\n武侠小说::/list-7.html\n言情小说::/list-1.html\n穿越小说::/list-36.html\n推理小说::/list-39.html\n恐怖小说::/list-5.html\n职场小说::/list-41.html\n悬疑小说::/list-33.html\n军事小说::/list-40.html\n历史小说::/list-16.html\n耽美广播剧::/list-10.html\n爱情广播剧::/list-12.html\nBL广播剧::/list-14.html\n古风广播剧::/list-51.html\n校园广播剧::/list-52.html\n现代广播剧::/list-54.html\n娱乐::/list-35.html\n两性::/list-34.html\n百家讲坛::/list-31.html\n儿童::/list-37.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+        "lastUpdateTime": 1648139062954,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info-con@class.cn-els.0@tag.a@text",
+            "coverUrl": "class.info-img@img@src",
+            "init": "",
+            "intro": "class.rmmend.0@text",
+            "kind": "class.info-con@class.cn-els.1@text",
+            "name": "tag.h1@class.cn-els.0@text",
+            "tocUrl": "id.nowRead@href"
+        },
+        "ruleContent": {
+            "content": "<js>result</js>",
+            "sourceRegex": ".*(api\\.php|mp3).*",
+            "webJs": " "
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox@a",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "class.bookimg@img@src",
+            "intro": "class.intro_line@text##简介：",
+            "kind": "class.update@text##状态：\\s?",
+            "lastChapter": "",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.playlist@ul@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href@js:result+',{\"webView\":true}'"
+        },
+        "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keywords={{key}}\"\n}",
+        "weight": 0
+    }
+]

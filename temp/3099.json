@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "★APP-3★",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://shuapi.jiaston.com#2",
+        "bookUrlPattern": "https://shuapi.jiaston.com/book/[0-9]*/",
+        "customOrder": 81,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 0,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "$..content",
+            "imageStyle": "0.0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$.Author",
+            "bookList": "$..data[*]",
+            "bookUrl": "https://shuapi.jiaston.com/book/{$.Id}/",
+            "coverUrl": "$.Img",
+            "intro": "$.Desc",
+            "kind": "$.CName&&$.BookStatus",
+            "lastChapter": "$.LastChapter",
+            "name": "$.Name@put:{a:$.Id}"
+        },
+        "ruleToc": {
+            "chapterList": "$..list[*].list[*]",
+            "chapterName": "$.name",
+            "chapterUrl": "@get:{a}/{{$.id}}<js>\nvar a = result;\nvar b = a.indexOf('/');\nvar c = a.substr(0,b);\nvar d = c.substring(0,c.length-3);\nvar e = +d+1;\nbastPath = \"https://content.anchengcn.com/BookFiles/Html/\"+String(e)+\"/\"+a+\".html\";\n</js>"
+        },
+        "searchUrl": "https://shuapi.jiaston.com/search.aspx?key={{key}}",
+        "weight": 0
+    }
+]

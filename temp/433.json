@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "最言情小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zzzyq.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "言情小说:://www.zzzyq.net/novel_yanqing_{{page}}\n玄幻小说:://www.zzzyq.net/novel_xuanhuan_{{page}}\n修真小说:://www.zzzyq.net/novel_xiuzhen_{{page}}\n都市小说:://www.zzzyq.net/novel_dushi_{{page}}\n历史小说:://www.zzzyq.net/novel_lishi_{{page}}\n网游小说:://www.zzzyq.net/novel_wangyou_{{page}}\n科幻小说:://www.zzzyq.net/novel_kehuan_{{page}}\n其他小说:://www.zzzyq.net/novel_qita_{{page}}\n全本小说:://www.zzzyq.net/novel_quanben_{{page}}              ",
+        "lastUpdateTime": 1647623725974,
+        "respondTime": 8123,
+        "ruleBookInfo": {
+            "init": "",
+            "lastChapter": "class.col-md-6 col-sm-12 col-xs-12.1@text##最新章节：",
+            "wordCount": "class.col-md-6 col-sm-12 col-xs-12.0@text"
+        },
+        "ruleContent": {
+            "content": "tag.p!0@html"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "coverUrl": ""
+        },
+        "ruleSearch": {
+            "author": "class.author_name@text",
+            "bookList": "class.novel_detail col-md-4 col-sm-6 col-xs-12",
+            "bookUrl": "text.点击阅读@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.novel_desp@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "class.novel_name@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.col-md-4 col-sm-6 col-xs-6",
+            "chapterName": "class.col-md-4 col-sm-6 col-xs-6@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"keywords={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

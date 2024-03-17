@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔下文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bxtxt.cc",
+        "bookUrlPattern": "http://(w+.)?bxtxt.cc/go/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "最新完本::/list{{page}}.html\n玄幻小说::/list1/{{page}}.html\n修真小说::/list2/{{page}}.html\n都市小说::/list3/{{page}}.html\n历史小说::/list4/{{page}}.html\n网游小说::/list5/{{page}}.html\n科幻小说::/list6/{{page}}.html\n女生小说::/list7/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (linux; u; android 9; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/100.0.2987.108 quark/6.5.5.137 mobile safari/537.36\"}",
+        "lastUpdateTime": 1702727896887,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\".booknav2 > p.2@text\",\nl:\"[property$=lastest_chapter_name]@content\",\ni:\".navtxt@textNodes\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "{{baseUrl.replace(/go/,\"book\")}}",
+            "wordCount": "@get:{w}##\\|.*"
+        },
+        "ruleContent": {
+            "content": ".txtnav p@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".labelbox > label.0@text",
+            "bookList": ".newbox ul>li",
+            "bookUrl": "h3 a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "ol@text",
+            "kind": ".labelbox > label.1:2@text&&span.1@text",
+            "lastChapter": ".zxzj > p > a@text",
+            "name": "h3@text",
+            "wordCount": ".piaos@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterList > li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}/search/,{\n  \"body\": \"searchkey={{key}}&searchtype=all\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

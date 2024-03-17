@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "/*修复正文不全\n\t访问过快偶尔宕机，出错了会重试加载。\n以下代码勿动！可在js中通过eval(String(source.bookSourceComment))\n调用*/\n\t\nvar error=/503 Service Temporarily/;\nwhile(error.test(result)){\n\tjava.log(\"网站出错，重新加载\");\n\tcookie.removeCookie(baseUrl);\n\tresult=java.ajax(baseUrl);\n\t}\n\t\tresult;",
+        "bookSourceGroup": "自制,源仓库,网页源,修复优化",
+        "bookSourceName": "新笔趣中文/笔尖中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://wap.xbiquzw.com",
+        "bookUrlPattern": "http://wap.xbiquzw.com/[\\d_]+/",
+        "customOrder": 76,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/list/1_{{page}}.html\n修真小说::/list/2_{{page}}.html\n都市小说::/list/3_{{page}}.html\n穿越小说::/list/4_{{page}}.html\n网游小说::/list/5_{{page}}.html\n科幻小说::/list/6_{{page}}.html\n完本小说::/wanjiexiaoshuo/{{page}}",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698744067484,
+        "loginCheckJs": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "<js>\neval(String(source.bookSourceComment))\n</js>\n@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "<js>\neval(String(source.bookSourceComment))\n</js>#nr@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.本章未完.*|{{ try{chapter.title}catch(e){\"\"} }}|\\(第\\d+.*页\\)"
+        },
+        "ruleExplore": {
+            "author": "span.1@text",
+            "bookList": "<js>\neval(String(source.bookSourceComment))\n</js>ul.xbk",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "span.-2@text",
+            "kind": "tag.i@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "<js>\neval(String(source.bookSourceComment))\n</js>.bookone",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "0",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\neval(String(source.bookSourceComment))\n</js>ul.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"body\": \"type=articlename&q={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

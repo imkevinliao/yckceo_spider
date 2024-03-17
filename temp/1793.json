@@ -1,0 +1,36 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "耽美网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.danmei.cloud/s.php",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1621995487237,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "tocUrl": "https://m.danmei.cloud/novel/list/{{baseUrl.match(/(\\d+)/)[1]}}/1.html"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "imageStyle": "TEXT"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.0@strong@text",
+            "bookList": "class.common-bookele",
+            "bookUrl": "tag.a.0@href",
+            "intro": "class.abstract@text",
+            "kind": "class.lastupdate@text##栏目：",
+            "name": "class.articlename@text"
+        },
+        "ruleToc": {
+            "chapterList": "li!-1@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.danmei.cloud/s.php,{\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

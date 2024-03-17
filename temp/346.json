@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "搜索结果链接无效，这是网站问题，非本源的锅\n增加发现\n\nBy~江湖",
+        "bookSourceGroup": "",
+        "bookSourceName": "♠ 2008小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.syt2008.com/",
+        "bookUrlPattern": "https://m.syt2008.com/book/\\d+.html",
+        "customOrder": -18892,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/type/1/<,{{page-1}}.html>\n都市小说::/type/2/<,{{page-1}}.html>\n科幻小说::/type/3/<,{{page-1}}.html>\n武侠修真::/type/4/<,{{page-1}}.html>\n网游竞技::/type/5/<,{{page-1}}.html>\n恐怖灵异::/type/6/<,{{page-1}}.html>\n历史军事::/type/7/<,{{page-1}}.html>\n侦探推理::/type/8/<,{{page-1}}.html>\n其他小说::/type/0/<,{{page-1}}.html>",
+        "lastUpdateTime": 1652179765563,
+        "loginUrl": "",
+        "respondTime": 180748,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "head",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#content@html##http.*html|天才一秒记住.*com"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".txt-list-row5 li",
+            "bookUrl": ".s2 a@href",
+            "coverUrl": ".s2 a@href##/(\\d*(\\d{3}))/$##/images/$2/$1.jpeg###",
+            "intro": "",
+            "kind": ".s5@text",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text"
+        },
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": ".item",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": "a.-1@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "img@alt"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/sousuo?k={{key}}",
+        "weight": 0
+    }
+]

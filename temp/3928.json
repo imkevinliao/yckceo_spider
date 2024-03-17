@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔30秒\n//访问过快容易超时宕机",
+        "bookSourceGroup": "自制,特殊,源仓库,网页源",
+        "bookSourceName": "吉林小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://75jl.com",
+        "bookUrlPattern": "https?://75jl.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "排行::/rank/\n书库::/sort/\n玄幻::/sort/1/{{page}}/\n武侠::/sort/2/{{page}}/\n都市::/sort/3/{{page}}/\n历史::/sort/4/{{page}}/\n网游::/sort/5/{{page}}/\n科幻::/sort/6/{{page}}/\n耽美::/sort/7/{{page}}/\n其他::/sort/8/{{page}}/\n全本::/quanben/sort/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692601425354,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "downloadUrls": "@get:{d}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nd:\"text.TXT下载@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-original||img@src",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "name": "a.1@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dl>a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\nvar url=source.getKey();\njava.ajax(url);\nurl+\"/search/?searchkey=\"+key;",
+        "weight": 0
+    }
+]

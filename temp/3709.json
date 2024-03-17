@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "去除搜索间隔，目录转换加载优化",
+        "bookSourceGroup": "源仓库,整理检验,修复优化,自制,网页源",
+        "bookSourceName": "玫瑰🌹小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.meiguixs.net",
+        "bookUrlPattern": "http://m.meiguixs.net/book/\\d+.html",
+        "customOrder": 219,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort-1-{{page}}/\n仙侠小说::/sort-2-{{page}}/\n都市小说::/sort-3-{{page}}/\n历史小说::/sort-4-{{page}}/\n游戏小说::/sort-5-{{page}}/\n科幻小说::/sort-6-{{page}}/\n其他小说::/sort-7-{{page}}/\n全本小说::/full-{{page}}/",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1694586334351,
+        "respondTime": 16705,
+        "ruleBookInfo": {
+            "author": ".block_txt2@p.2@text",
+            "coverUrl": ".block_img2@img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2@p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2@a.-1@text",
+            "name": ".block_txt2@h2@text",
+            "tocUrl": "http://www.meiguixs.net{{@@text.查看目录@href}},{\"headers\": {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36\"} }"
+        },
+        "ruleContent": {
+            "content": "#nr1@html||#content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##玫瑰小说网已改网址.*"
+        },
+        "ruleExplore": {
+            "author": "a.-1@text",
+            "bookList": ".line",
+            "bookUrl": "a.1@href",
+            "coverUrl": "a.1@href##\\D+((\\d+)\\d{3})\\D*##http://image.meiguixs.net/$2/$1/$1s.jpg###",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "ownText##\\/",
+            "bookList": ".line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "a.1@href##\\D+((\\d+)\\d{3})\\D*##http://image.meiguixs.net/$2/$1/$1s.jpg###",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "#readerlist li a",
+            "chapterName": "text",
+            "chapterUrl": "{{@@href}},{\"headers\": {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36\"} }",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}\nhttp://m.meiguixs.net/modules/article/waps.php,{\n  \"body\": \"searchtype=articlename&searchkey={{key}}&submit=\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

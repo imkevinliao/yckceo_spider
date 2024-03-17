@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "关闭精确搜索使用",
+        "bookSourceName": "读书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://stxt.top",
+        "customOrder": -2,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1663813896519,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "div#info@p.0@a@text",
+            "coverUrl": "img@src",
+            "intro": "div#intro@html",
+            "kind": "p.hidden-xs.2@text##最后更新：",
+            "lastChapter": "#info@.hidden-xs@a@text",
+            "name": "h1@text",
+            "wordCount": "p.visible-xs.1@text##字数："
+        },
+        "ruleContent": {
+            "content": "#booktxt@p@text",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##[(][)]\\n\\s*1秒记住.*|app2[(][)];|read2[(][)];|chaptererror[(][)];|[(][)]"
+        },
+        "ruleSearch": {
+            "bookList": "div.item",
+            "bookUrl": "dt@a@href",
+            "coverUrl": "img.lazy@src",
+            "intro": "dd@textNodes",
+            "name": "dt@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "#newlist@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

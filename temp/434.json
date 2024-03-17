@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "言情小说笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m2.yqxs.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "",
+        "lastUpdateTime": 1649861558012,
+        "respondTime": 14684,
+        "ruleBookInfo": {
+            "author": "class.book-text@span.0@text",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": ".intro@html",
+            "kind": "class.blue@text",
+            "lastChapter": "class.red@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "class.txt@textNodes##第.*章.*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": "class.search-list@ul@li!0",
+            "bookUrl": "span@a@href",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book-chapter-list.-1@ul@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?ie=gbk&siteid=yqxs.cc&s=8961023418585865771&q={{key}},{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

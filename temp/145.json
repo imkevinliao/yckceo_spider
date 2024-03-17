@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "科学上网",
+        "bookSourceGroup": "现实debug",
+        "bookSourceName": "小h书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://xchina.co/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1660620635960,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": ".fiction-content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": ".list@class.fiction",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "你的",
+            "coverUrl": "tag.a@tag.img@src",
+            "intro": ".brief@text",
+            "kind": "tag.div.1@text",
+            "lastChapter": "",
+            "name": "tag.a@tag.img@alt"
+        },
+        "ruleToc": {
+            "chapterList": "@js:\nlist=java.getElements(\".chapters@div!0\")\nif(list.length==0){\n\tjava.put(\"s\",1)\njava.getElements(\"head\")\n}",
+            "chapterName": "@js:\ns=java.get(\"s\")\nif(s==1){\n\tjava.getString(\"title.0@text\")\n\t}else{\njava.getString(\"a@text\")\n}",
+            "chapterUrl": "a@href||baseUrl"
+        },
+        "searchUrl": "https://xchina.co/fictions/keyword-{{key}}/{{page}}.html",
+        "weight": 0
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "亲亲小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://mm.qinqinxiaoshuo.com",
+        "bookUrlPattern": "https://mm.qinqinxiaoshuo.com/\\d+_\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\n\t\"title\":\"全部小说\",\n\t\"url\":\"/xclass/0/{{page}}.html\",\n\t\"style\":{\"layout_flexBasisPercent\":1,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"玄幻魔法\",\n\t\"url\":\"/xclass/1/{{page}}.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠仙侠\",\n\t\"url\":\"/xclass/2/{{page}}.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市言情\",\n\t\"url\":\"/xclass/3/{{page}}.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史军事\",\n\t\"url\":\"/xclass/4/{{page}}.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游竞技\",\n\t\"url\":\"/xclass/5/{{page}}.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"恐怖灵异\",\n\t\"url\":\"/xclass/6/{{page}}.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻小说\",\n\t\"url\":\"/xclass/7/{{page}}.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他类型\",\n\t\"url\":\"/xclass/8/{{page}}.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1663221759613,
+        "loginUrl": "https://mm.qinqinxiaoshuo.com/login.php",
+        "respondTime": 53665,
+        "ruleBookInfo": {
+            "author": "class.zuozhe@text##.*：",
+            "coverUrl": "class.synopsisArea_detail@img@src",
+            "intro": "class.review@text",
+            "kind": "class.leibie@text&&class.zhangtai@text##.*：",
+            "lastChapter": "class.zuuixin@a@text",
+            "name": "class.title@text",
+            "tocUrl": "class.btn_toBookShelf@href"
+        },
+        "ruleContent": {
+            "content": "id.txt001@html<js>result+\"🚫\"</js>\n##&nbsp;&nbsp;&nbsp;&nbsp;##<br>",
+            "nextContentUrl": "text.下一页@href##$##,{\"webView\":true}",
+            "replaceRegex": "##\\s*🚫\\s*"
+        },
+        "ruleExplore": {
+            "author": "class.author@text##.*：",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.review@text##简介.",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "author": "class.author.0@text##.*：",
+            "bookList": "class.hot_sale[0:19]",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href\n<js>\nvar a = result.match(/(\\d+)_(\\d+)/);\nresult.replace(result,\"https://www.qinqinxiaoshuo.com/files/article/image/\"+a[1]+\"/\"+a[2]+\"/\"+a[2]+\"s.jpg\")\n</js>",
+            "kind": "class.author.0@text##\\s\\|.*",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.p",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href##$##,{\"webView\":true}",
+            "nextTocUrl": "option!0@value"
+        },
+        "searchUrl": "https://mm.qinqinxiaoshuo.com/s.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"s={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

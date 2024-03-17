@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "test",
+        "bookSourceName": "全本小说网qb5.io",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qb5.io",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "奇幻玄幻::/shuku-1-{{page}}.html,{\"webView\": true}\n武侠仙侠::/shuku-2-{{page}}.html,{\"webView\": true}\n都市官场::/shuku-3-{{page}}.html,{\"webView\": true}\n历史军事::/shuku-4-{{page}}.html,{\"webView\": true}\n游戏竞技::/shuku-7-{{page}}.html,{\"webView\": true}\n科幻同人::/shuku-9-{{page}}.html,{\"webView\": true}\n经典畅销::/shuku-10-{{page}}.html,{\"webView\": true}\n图书杂志::/shuku-11-{{page}}.html,{\"webView\": true}\n其他::/shuku-0-{{page}}.html,{\"webView\": true}",
+        "header": "",
+        "lastUpdateTime": 1662467955594,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "meta[property=\"og:novel:author\"]@content",
+            "coverUrl": "meta[property=\"og:image\"]@content",
+            "intro": "class.description w@text",
+            "kind": "meta[property=\"og:novel:category\"]@content",
+            "lastChapter": "meta[property=\"og:novel:status\"]@content",
+            "name": "meta[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "meta[property=\"og:novel:read_url\"]@content##$##,{\"webView\":true}"
+        },
+        "ruleContent": {
+            "content": "id.content@p@text"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "@css:p>span@text",
+            "bookList": "@css:.hot dd",
+            "bookUrl": "h4@a@href##$##,{\"webView\":true}",
+            "checkKeyWord": "",
+            "coverUrl": "@css:a>img@src",
+            "intro": "@css:p:nth-child(4)@text",
+            "name": "@css:h4>a@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@class.list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "http://www.qb5.io/?c=xs&a=sou&q={{key}}&page={{page}},{\n  \"headers\": {\n    \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\",\n    \"Keep-Alive\":\"0\"\n  }\n}",
+        "weight": 0
+    }
+]

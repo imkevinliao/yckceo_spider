@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "网站详情页无封面",
+        "bookSourceGroup": "",
+        "bookSourceName": "原创阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ycydu.com/",
+        "customOrder": 295,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "总排行榜::https://www.ycydu.com/top/allvisit/\n月排行榜::https://www.ycydu.com/top/monthvisit\n周排行榜::https://www.ycydu.com/top/weekvisit\n日排行榜::https://www.ycydu.com/top/dayvisit\n收藏榜::https://www.ycydu.com/top/goodnum\n字数榜::https://www.ycydu.com/top/size\n新书榜::https://www.ycydu.com/top/toptime/\n新书上架::https://www.ycydu.com/top/postdate\n更新榜::https://www.ycydu.com/top/lastupdate",
+        "lastUpdateTime": 1667312190924,
+        "respondTime": 180118,
+        "ruleBookInfo": {
+            "author": "class.red@a@text",
+            "coverUrl": "",
+            "init": "",
+            "intro": "id.bookIntro@textNodes",
+            "kind": "class.blue.0@text",
+            "lastChapter": "p.2@text",
+            "name": "class.col-sm-10@text",
+            "wordCount": "class.blue.1@text"
+        },
+        "ruleContent": {
+            "content": "class.panel-body@p@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.text-muted.1@text",
+            "bookList": "tr!0",
+            "bookUrl": "a@href",
+            "intro": "",
+            "kind": "class.hidden-xs.0@text",
+            "lastChapter": "class.text-muted.0@text",
+            "name": "td.1@a@text",
+            "wordCount": "class.hidden-xs.2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.fs-14@text",
+            "bookList": "class.book-coverlist",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "a@style##background-image:url\\(|\\)",
+            "intro": "p@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "class.fs-16@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.col-sm-4",
+            "chapterName": "text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.ycydu.com/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceName": "飞速中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.feiazw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 1670402679019,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@p.0@text",
+            "coverUrl": "class.block_img2@img@src",
+            "intro": "id.intr@text",
+            "kind": "class.block_txt2@p.1@text",
+            "lastChapter": "class.block_txt2@p.3@text",
+            "name": "class.block_txt2@h2@text",
+            "wordCount": "class.block_txt2@p.2@text"
+        },
+        "ruleContent": {
+            "content": "id.nr1@p!-1:-2@text"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@a@text",
+            "bookList": "class.nlist",
+            "bookUrl": "class.nbox@h3@a@href",
+            "coverUrl": "a@img@src",
+            "intro": "class.nintro@text",
+            "kind": "class.ncate@a@text",
+            "lastChapter": "class.state_r@text||class.nstate@text",
+            "name": "class.nbox@h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.feiazw.com/search.aspx?s={{key}}",
+        "weight": 0
+    }
+]

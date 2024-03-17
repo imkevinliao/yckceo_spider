@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "免费看",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.01shuku.com",
+        "bookUrlPattern": "",
+        "customOrder": 273,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xs/1/{{page}}.html\n修真小说::/xs/2/{{page}}.html\n都市小说::/xs/3/{{page}}.html\n穿越小说::/xs/4/{{page}}.html\n网游小说::/xs/5/{{page}}.html\n科幻小说::/xs/6/{{page}}.html\n其他小说::/xs/7/{{page}}.html",
+        "lastUpdateTime": 1627120970810,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.author@text",
+            "intro": "id.intro@text",
+            "lastChapter": "id.list@tag.dd.0@a@text",
+            "name": "class.right@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*本章未完.*》》\\s*"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.s3@class.author@text",
+            "bookList": "class.searchlists@li||class.lists@li",
+            "bookUrl": "class.s2@tag.a@href",
+            "coverUrl": "class.s1@tag.a@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.sortbtn@text&&class.fullbtn@text",
+            "lastChapter": "class.update.0@text##最新：",
+            "name": "class.s2@class.articlename@text",
+            "wordCount": "class.update.1@text##更新："
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters.1@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.01shuku.com/search.php?searchkey={{key}},{\n\"charset\":\"gbk\"}",
+        "weight": 0
+    }
+]

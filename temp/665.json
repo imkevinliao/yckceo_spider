@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "飞速中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.feixs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1644238294414,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "lastChapter": ""
+        },
+        "ruleContent": {
+            "content": "#content p:not([style]):not([class])@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "#CListTitle@ownText##\\[\\s*|\\| \\| .*",
+            "bookList": ".book",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "intro": "#CListText@text",
+            "kind": "tag.a.1@text",
+            "lastChapter": "tag.a.-1@text",
+            "name": "b@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapterlist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "updateTime": "title"
+        },
+        "searchUrl": "https://www.feixs.com/book/search.aspx?SearchKey={{key}}&SearchClass=1&SeaButton=,{\"charset\":\"gbk\"}",
+        "weight": 0
+    }
+]

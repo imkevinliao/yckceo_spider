@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "这个网站发现里的总收藏榜、长佩小说和连城小说目前无内容，可以删除。正文内容用的是关耳大佬牛站小说po文里的正文内容，内容错乱刷新一下。",
+        "bookSourceGroup": "验",
+        "bookSourceName": "御书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.yushuge123.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "☪️                         分类                                  ☪️::\n耽美小说::http://m.yushuge123.com//sort/1_{{page}}/\n海棠耽美::http://m.yushuge123.com//sort/2_{{page}}/\n言情小说::http://m.yushuge123.com//sort/3_{{page}}/\n海棠言情::http://m.yushuge123.com//sort/4_{{page}}/\n百合小说::http://m.yushuge123.com//sort/5_{{page}}/\n情欲小说::http://m.yushuge123.com//sort/6_{{page}}/\n长佩小说::http://m.yushuge123.com//sort/7_{{page}}/\n连城小说::http://m.yushuge123.com//sort/8_{{page}}/\n🍁                          排行                                 🍁::\n日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n完本小说::/full/{{page}}/",
+        "lastUpdateTime": 1642138306327,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".infotype@tag.a.0@text",
+            "intro": ".intro@tag.p@text",
+            "kind": "##类型：([^<]+)<##$1###",
+            "lastChapter": ".infotype@tag.p.3@tag.a@text",
+            "name": ".cataloginfo@h3@text",
+            "tocUrl": "text.查看全部章节@href"
+        },
+        "ruleContent": {
+            "content": "@js:\ncontent = {  \n    star: 0,   \n    childNode: [],\n    childNodes: java.getElements(\"@@id.novelcontent@p\").toArray(),\n   UpWz: function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n      },\n    load: function() {\n    this.code=result.match(/code=(\\d+)/)[1];\n    var e = String(java.base64Decode(java.getString('//*[@name=\"client\"]/@content'))).split(/[A-Z]+%/);\n    var j = 0; \n    for (var i = 0; i < e.length; i++) {\n    var k = this.UpWz(e[i], i);\n    this.childNode[k] = this.childNodes[i]\n    };\n    }\n}\nif(baseUrl.match(/\\d+_2/)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");}else{result=java.getElements(\"@@id.novelcontent@p\")}",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章尚未.*继续阅读.*|本章已阅读完毕.*继续阅读.*"
+        },
+        "ruleExplore": {
+            "author": ".p3@text||.author@text",
+            "bookList": ".article||.articlegeneral||.full_content",
+            "bookUrl": ".blue@href||tag.a@href",
+            "intro": ".simple@text",
+            "kind": ".p1@text##\\[|\\]",
+            "name": ".blue@text||tag.a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": ".sone",
+            "bookUrl": "tag.a.0@href",
+            "kind": "",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters@tag.li",
+            "chapterName": "@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": "##更新时间：([^<]+)<##$1###"
+        },
+        "searchUrl": "http://m.yushuge123.com/s.html,{\n'charset': '',\n'method': 'POST',\n'body': 's={{key}}&&type=articlename'\n}",
+        "weight": 0
+    }
+]

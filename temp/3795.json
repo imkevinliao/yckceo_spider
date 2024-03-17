@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "网站不稳定，宕机了等会儿，还不行挂梯",
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "蛋文库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://danwenku.com",
+        "bookUrlPattern": "https://danwenku.com/\\w+/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "同人::/e/search/result/index.php?page={{page}}&searchid=1605\n生子::/e/search/result/index.php?page={{page}}&searchid=127\n重生::/e/search/result/index.php?page={{page}}&searchid=4\n百合::/e/search/result/index.php?page={{page}}&searchid=8734\n现代::/e/search/result/index.php?page={{page}}&searchid=1677\n末世::/e/search/result/index.php?page={{page}}&searchid=20\n古代::/e/search/result/index.php?page={{page}}&searchid=512\n双性::/e/search/result/index.php?page={{page}}&searchid=178",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690700069269,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".single-cat@span@text",
+            "name": "h1@text##——.*"
+        },
+        "ruleContent": {
+            "content": ".single-content@html",
+            "replaceRegex": "##\\d+.*下一页.+尾页"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h2@text##.*——",
+            "bookList": ".post",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "快穿",
+            "intro": ".archive-content@text",
+            "kind": ".date@text&&a.-2@text",
+            "name": "h2@text##——.*"
+        },
+        "ruleToc": {
+            "chapterList": "@js:\nvar url=baseUrl.replace(/.html/,\"_1.html\")\nvar path=\"@@.pagination@a.-1@href\";\nvar data=java.getString(path);\nvar page=data.match(/_(\\d+)/)[1];\nvar list=[{text:\"第1页\",href:baseUrl}];\nif(data&&page){\n\t\tfor(var i=2;i<=page;i++){\n\t\tlist.push({text:`第${i}页`,href:url.replace(/_1/,\"_\"+i)})\n\t\t}\n\t\tlist;\n\t}else{\n\t\tjava.toast(\"目录获取失败，未获取到目录，可检查网络或稍后再试！\")\n\t\t}",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\n(()=>{\n  if(page==1){\n    let url=source.getKey()+'/e/search/index.php,'+JSON.stringify({\n    \"method\":\"POST\",\n    \"charset\": \"GB2312\",\n    \"body\":\"show=title,newstext&keyboard=\"+key\n    });\n    return java.put('surl',String(java.connect(url).raw().request().url()));\n  } else {\n    return java.get('surl').replace(/result.+searchid/,\"result/index.php?page=\"+page+\"&searchid\")\n  }\n})()",
+        "weight": 0
+    }
+]

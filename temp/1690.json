@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "皮皮小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ppxsw.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1667903514742,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property~=status|category|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property$=update_time]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "div.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleSearch": {
+            "author": "span.author@text##/\\s",
+            "bookList": "li",
+            "bookUrl": "a.item@href",
+            "name": "p.name@ownText"
+        },
+        "ruleToc": {
+            "chapterList": "#main@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "select@option@value"
+        },
+        "searchUrl": "/ar.php,{\"method\":\"POST\",\"body\":\"keyWord={{key}}\"}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "红叶书斋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.007zw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1674381969408,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##请收藏：.*|（温馨提示：请关闭畅读或阅读模式，否则内容无法正常显示）"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.line@text##.*/",
+            "bookList": "class.line",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "tag.a.0@text##\\[|\\]",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "@js:\nurl = 'https://m.007zw.com/s.php';\noption = {\n  \"body\": \"s={{key}}&type=articlename\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\",\n  \"webView\": true\n};\njava.put('url', String(url + ',' + JSON.stringify(option)))",
+        "weight": 0
+    }
+]

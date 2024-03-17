@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceComment": "//反扒机制，正文较难获取",
+        "bookSourceGroup": "R18",
+        "bookSourceName": "哟糖社，有反扒，求大佬完善正文",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://www.nicesss.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "最新资源::https://www.nicesss.com/page/{{page}}",
+        "header": "{“User-Agent”: “Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36”}",
+        "lastUpdateTime": 1675998990938,
+        "respondTime": 180000,
+        "ruleContent": {
+            "content": "p@tag.img@data-srcset\nhtml"
+        },
+        "ruleExplore": {
+            "bookList": "class.col-lg-3",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": "h1",
+            "chapterName": "@text"
+        },
+        "weight": 0
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "棉花糖小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.mhtxss.com",
+        "bookUrlPattern": "https://m.mhtxss.com/[a-z]+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻·奇幻::/xuanhuan/\n仙侠·武侠::/xianxia/\n都市·言情::/dushi/\n穿越·历史::/chuanyue/\n科幻·灵异::/kehuan/\n同人·网游::/tongren/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1687654072359,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".info@a.0@text",
+            "coverUrl": ".left@img@src",
+            "intro": ".book-intro@text",
+            "kind": "{{@@.info@text##类型：(.*)##$1###}}\n{{@@.right@span@text}}##字数：.*\\d+",
+            "lastChapter": ".list.0@li.0@a@text",
+            "name": "h1@text",
+            "wordCount": ".info@text##字数：(\\d+)##$1###"
+        },
+        "ruleContent": {
+            "content": ".page-content@p@html"
+        },
+        "ruleExplore": {
+            "author": ".info@a@text",
+            "bookList": "class.mod block book-all-list@li",
+            "bookUrl": ".name@href",
+            "kind": "span.0@text",
+            "lastChapter": ".update@a@text",
+            "name": ".name@text",
+            "wordCount": ".info@span@text##字数："
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.-1@textNodes",
+            "bookList": ".bd@ul@li",
+            "bookUrl": ".name@href",
+            "kind": "span.0@text",
+            "lastChapter": ".update@a@text",
+            "name": ".name@text",
+            "wordCount": "p.-1@span@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "class.mod block update chapter-list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下页@href"
+        },
+        "searchUrl": "/wap.php?action=search,{\n  \"body\": \"wd={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "搜索有验证码，可在浏览器复制书籍链接，再到阅读首页书架添加网址。\n//同库(我来读网)：https://m.wolaido.com\n//同库(博趣中文)：https://m.1bqg.net\n//同库(博看小说)：https://m.kchao.net\n//同库(希望中文)：https://m.5xw.net\n//同库(趣七书屋)：https://m.qu7.net\n//同库(洪都中文)：https://m.nchdzx.com",
+        "bookSourceGroup": "自制,备用,源仓库,网页源",
+        "bookSourceName": "希望中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.5xw.net",
+        "bookUrlPattern": "https://m.5xw.net/5xw.*",
+        "customOrder": 507,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"书库\",\"url\":\"/all/index.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"排行榜\",\"url\":\"/rank/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完本小说\",\"url\":\"/finish/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/5xw111/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻奇幻\",\"url\":\"/5xw112/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生言情\",\"url\":\"/5xw113/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"二次元\",\"url\":\"/5xw114/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠武侠\",\"url\":\"/5xw115/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/5xw116/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异悬疑\",\"url\":\"/5xw117/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻未来\",\"url\":\"/5xw118/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市重生\",\"url\":\"/5xw119/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1691321716744,
+        "loginUrl": "https://m.5xw.net/member/login.html",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=og:novel:category|og:novel:status|og:novel:update_time]@content##T.*",
+            "lastChapter": "[property$=latest_chapter_name]@content##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "<js>\nif (/内容正在载入/.test(src)) {\n    c2 = src.match(/c2=\"([^\"]+)/)[1];\n    url = src.match(/src=\"([^\"]+)/)[1];\n    j = java.ajax(source.getKey() + url);\n    reg = /function ajax[\\s\\S]+?\\}(?=Ajax)/;\n    eval(String(j.match(reg)[0]))\n    java.ajax(source.getKey() + ajax(c2))\n    h = java.ajax(baseUrl);\n    java.setContent(h), h;\n} else result;\n</js>div.TxtContent@html||div#content@html##\\\"|\\.",
+            "nextContentUrl": "div#PageSet@span+a@href",
+            "replaceRegex": "##本章没完.*|.*提醒您：看完记得.*|\\\"|\\s*[\\(（]本章完[\\)）].*\\s*|本章未完.*继续阅读！"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": "<js>su = source.getKey()\nif (/内容正在载入/.test(result)) {\n    c2 = result.match(/c2=\"([^\"]+)/)[1];\n    url = result.match(/src=\"([^\"]+)/)[1];\n    j = java.ajax(su + url);\n    reg = /function ajax[\\s\\S]+?\\}(?=Ajax)/;\n    eval(String(j.match(reg)[0]))\n    java.ajax(su + ajax(c2))\n    result = java.ajax(baseUrl)\n}\n\nwhile (/请输入验证码：/.test(result)) {\n\timg = `${su}/member/getcode.asp,{\"headers\":{\"Referer\":\"${baseUrl}\"}}`;\n\n\tcode=java.getVerificationCode(img)\n\taa=org.jsoup.Jsoup.parse(result)\n\taa.select(\"[placeholder=请输入验证码]\").attr(\"value\",code)\n\tbody=Array.from(aa.select(\"div.RegDiv form input\"),x=>x.attr(\"name\")+\"=\"+x.attr(\"value\")).join(\"&\")\n\tresult=java.ajax(`${baseUrl},{\n  \"body\": \"${body}\",\n  \"charset\": \"GBK\",\n  \"headers\": {\n\"Referer\": \"${baseUrl}\"\n  },\n  \"method\": \"POST\"\n}`)\n}\n\nresult\n</js>dl.B",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".d2@text##简介.",
+            "kind": ".ml@text##.*：|\\s.*",
+            "lastChapter": "a.2@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li||dl@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "@js:\nurl = source.getKey()\nhtml = java.ajax(url)\nact = org.jsoup.Jsoup.parse(html).select('input[name=act]').attr('value')\n\nsubmit = java.encodeURI(/www/.test(url) ? \"搜索 \" : \"快速搜书\", 'gbk')\nurl += \"/sscc/\"\nbody = `act=${act}&q=${java.encodeURI(key, 'gbk')}&submit=${submit}`\n\nurl = `${url},{\"body\": \"${body}\", \"method\": \"POST\"}`",
+        "weight": 0
+    }
+]

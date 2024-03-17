@@ -1,0 +1,36 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌸 常用",
+        "bookSourceName": "天赋🌸",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.tfuu.com",
+        "customOrder": 60199,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618208425692,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": ".main-text-wrap@p@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$4",
+            "bookList": ":<dt>(?:[^\"]*\")(.*?)\"(?:[^\"]*\"){7}(.*?)\"(?:[^>]*>){5}\\s*(.*?)\\s.*<(?:[^>]*>){3}(.*?)<(?:[^>]*>){2}(.*?)<(?:[^>]*>){3}(.*?)<(?:[^>]*>){8}\\s*([^<]*)<(?:[^>]*>){3}(.*?)<(?:[^>]*>){2}\\|(.*?)<",
+            "bookUrl": "$1",
+            "coverUrl": "$2",
+            "intro": "$7",
+            "kind": "$5",
+            "lastChapter": "$8,$9",
+            "name": "$3",
+            "wordCount": "$6"
+        },
+        "ruleToc": {
+            "chapterList": ":_blank\".*?\"(.*?)\"(?:[^>]*>){2}(.*?)</span>",
+            "chapterName": "$2",
+            "chapterUrl": "$1"
+        },
+        "searchUrl": "/search.html?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

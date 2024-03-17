@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "炫书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.ibiquta.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1620050332087,
+        "ruleBookInfo": {
+            "coverUrl": ".cover img@src",
+            "intro": ".intro@text",
+            "kind": "class.detail@tag.a.1@text&&class.detail@tag.span.0@text",
+            "lastChapter": "class.chapter@tag.a.1@text&&class.detail@tag.p.-1@text##\\n更新：##•",
+            "tocUrl": "text.查看更多章节@href",
+            "wordCount": "class.detail@tag.span.1@text"
+        },
+        "ruleContent": {
+            "content": "#content@html##{{chapter.title}}.*\\n",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*（本章未完.*阅读）\\s*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": "class.waps_one",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##/(([\\d]+?)[\\d]{3})\\.html##http://img.ibiquta.com/Cover/$2/$1.jpg###",
+            "kind": "##分类：([^<]+)<##$1###",
+            "name": "tag.a.0@text",
+            "wordCount": "class.sfull@text"
+        },
+        "ruleToc": {
+            "chapterList": "#readlist a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/search.html,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

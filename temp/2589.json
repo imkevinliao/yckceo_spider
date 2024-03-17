@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "366小说网",
+        "bookSourceUrl": "http://www.366xsw.xyz",
+        "enable": false,
+        "ruleBookContent": "id.nr1@textNodes",
+        "ruleBookLastChapter": "class.block_txt2@tag.p.6@a@text",
+        "ruleChapterList": "class.chapter@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "text.查看目录@href",
+        "ruleChapterUrlNext": "text.下一页@href",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.block_img2@img@src",
+        "ruleFindUrl": "最新入库::http://www.366xsw.xyz/top-postdate-searchPage/\n总点击榜::http://www.366xsw.xyz/top-allvisit-searchPage/\n总收藏榜::http://www.366xsw.xyz/top-goodnum-searchPage/\n总推荐榜::http://www.366xsw.xyz/top-allvote-searchPage/\n总字数榜::http://www.366xsw.xyz/top-size-searchPage/\n全本小说::http://www.366xsw.xyz/full-searchPage/\n玄幻武侠::http://www.366xsw.xyz/sort-1-searchPage/\n耽美言情::http://www.366xsw.xyz/sort-2-searchPage/\n恐怖灵异::http://www.366xsw.xyz/sort-3-searchPage/\n历史军事::http://www.366xsw.xyz/sort-4-searchPage/\n侦探推理::http://www.366xsw.xyz/sort-5-searchPage/\n科幻小说::http://www.366xsw.xyz/sort-6-searchPage/\n网游科幻::http://www.366xsw.xyz/sort-7-searchPage/\n辣文激情::http://www.366xsw.xyz/sort-8-searchPage/\n种田小说::http://www.366xsw.xyz/sort-9-searchPage/\n短篇合集::http://www.366xsw.xyz/sort-10-searchPage/",
+        "ruleIntroduce": "class.intro_info@textNodes",
+        "ruleSearchAuthor": "tag.a.2@text",
+        "ruleSearchCoverUrl": "class.blue@href<js>'/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3})\\//,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+        "ruleSearchKind": "tag.a.0@text#\\[|]",
+        "ruleSearchList": "class.cover@p",
+        "ruleSearchName": "class.blue@text",
+        "ruleSearchNoteUrl": "class.blue@href",
+        "ruleSearchUrl": "http://www.366xsw.xyz/modules/article/waps.php@searchtype=articlename&searchkey=searchKey|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

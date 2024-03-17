@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceGroup": "【0.自制｜含🎨】",
+        "bookSourceName": "经典长篇",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://xs666.vg/#",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n小说::/xs/list_3_{{page}}.html\n日韩漫画::/mh/list_1_{{page}}.html\n3D彩漫::/3d/list_213_{{page}}.html\n美女图片::/mv/list_67_{{page}}.html\n朋友圈::/qq/list_2_{{page}}.html\n私拍::/sptu/list_68_{{page}}.html\n私处::/yh/list_82_{{page}}.html\n街拍::/jp/list_1012_{{page}}.html\n杂志::/zz/list_1199_{{page}}.html\nAi::/ai/list_1418_{{page}}.html",
+        "lastUpdateTime": 1687941012170,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": ".pic img@src",
+            "init": "",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "id.contxt@html&&div@textNodes"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": ".bk",
+            "bookUrl": "h3 a@href",
+            "coverUrl": ".pic a img@src",
+            "kind": "span@text",
+            "lastChapter": ".bnew a@text",
+            "name": "h3 a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "ul.-1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "weight": 0
+    }
+]

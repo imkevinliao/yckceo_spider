@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceGroup": "jjj",
+        "bookSourceName": "新花生小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.hs313.info/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"全部\",\"url\":\"/classify/all/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/classify/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/classify/qihuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/classify/wuxia/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/classify/xianxia/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/classify/dushi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/classify/lishi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军事\",\"url\":\"/classify/junshi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/classify/youxi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"竞技\",\"url\":\"/classify/jingji/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/classify/kehuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/classify/lingyi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"/classify/tongren/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生\",\"url\":\"/classify/nvsheng/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/classify/qita/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}\n]",
+        "header": "Edge on Windows: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edge/86.0.622.41",
+        "lastUpdateTime": 1693157501330,
+        "loginCheckJs": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info@text##分类：.*阅读：.*",
+            "coverUrl": "dt img@src##^##https://www.hs313.info/",
+            "downloadUrls": ".read-down a@href",
+            "init": "",
+            "intro": "class.intro@text",
+            "kind": "class.info@text##.*分类：(.*)阅读：.*##$1",
+            "lastChapter": "div.attentions:nth-of-type(1) li:nth-of-type(1)@text",
+            "name": "h1@text",
+            "wordCount": "class.info@text##.*分类：.*阅读：(.*)##$1"
+        },
+        "ruleContent": {
+            "content": "div.content@html##笔趣阁原域名已被污染，请记住新域名sbqg789.co|亲，本章已完，|祝您阅读愉快！|\\^0\\^"
+        },
+        "ruleExplore": {
+            "author": "a span@text",
+            "bookList": ".book-list li",
+            "bookUrl": ".tit a@href",
+            "coverUrl": "img.lazy@src",
+            "intro": "p.intro@text",
+            "kind": ".info > span@text##分类：",
+            "lastChapter": ".update a[title]@text",
+            "name": ".tit a@text",
+            "wordCount": "i@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a span@text",
+            "bookList": ".book-list li",
+            "bookUrl": ".tit a@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "img.lazy@src",
+            "intro": "p.intro@text",
+            "kind": "span a@text",
+            "lastChapter": "p.update@text",
+            "name": ".tit a@title",
+            "wordCount": "i.serial@text"
+        },
+        "ruleToc": {
+            "chapterList": "div.attentions:nth-of-type(2) a",
+            "chapterName": "text",
+            "chapterUrl": "href##^##http://www.hs313.info"
+        },
+        "searchUrl": "https://www.hs313.info/search.html?searchtype=novelname&searchkey={{key}},{'webView': true}{'User-Agent':'Edge on Windows: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edge/86.0.622.41'\n}",
+        "weight": 0
+    }
+]

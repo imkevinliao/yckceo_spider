@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceUrl": "https://www.7shuwu.cc/",
+        "bookSourceType": "0",
+        "bookSourceName": "琦书网🔞🈲",
+        "bookSourceGroup": "18,🔞🈲",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.7shuwu.cc/mysearch.html?searchkey={{key}}&page=1",
+        "exploreUrl": "[{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.6,\"layout_flexGrow\":1}},{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"都市言情\",\"url\":\"/dushi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"历史军事\",\"url\":\"/lishi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"科幻灵异\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"网游竞技\",\"url\":\"/wangyou/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"女频频道\",\"url\":\"/nvpin/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"其他类别\",\"url\":\"/qita/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"完结小说\",\"url\":\"/full/1\",\"style\":{\"layout_flexBasisPercent\":0.4}},{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.6,\"layout_flexGrow\":1}},{\"title\":\"总点击榜\",\"url\":\"/paihang/allvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"月点击榜\",\"url\":\"/paihang/monthvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"周点击榜\",\"url\":\"/paihang/weekvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"总推荐榜\",\"url\":\"/paihang/allvote_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"月推荐榜\",\"url\":\"/paihang/monthvote_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"周推荐榜\",\"url\":\"/paihang/weekvote_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"总收藏榜\",\"url\":\"/paihang/goodnum_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"总字数榜\",\"url\":\"/paihang/size_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"最新入库\",\"url\":\"/paihang/postdate_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"最近更新\",\"url\":\"/paihang/lastupdate_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4}}]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1642241895102,
+        "ruleSearch": {
+            "checkKeyWord": "娇妻",
+            "bookList": "class.grid@tag.tr.!0",
+            "name": "class.odd.0@text",
+            "author": "class.odd.1@text",
+            "wordCount": "class.even.1@text",
+            "lastChapter": "class.even.0@text",
+            "bookUrl": "class.odd.0@tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.fl_right@class.tt||class.grid@tag.tr.!0",
+            "name": "h3@a@text||tag.td.0@tag.p@tag.a@text",
+            "author": "tag.td.2@text||class.p1@a@text##作者：",
+            "wordCount": "tag.td.3@tag.p@text",
+            "lastChapter": "tag.td.1@tag.p@tag.a@text",
+            "intro": "class.p2@text",
+            "coverUrl": "img@src",
+            "bookUrl": "h3@a@href||tag.td.0@tag.p@tag.a@href"
+        },
+        "ruleBookInfo": {
+            "name": "class.introduce@h1@text",
+            "author": "class.bq@span.1@a@text",
+            "lastChapter": "class.lastchapter@tag.a@text",
+            "intro": "class.jj@text",
+            "coverUrl": "img@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.ml_list@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "ruleContent": {
+            "content": "class.articlecontent@html"
+        }
+    }
+]

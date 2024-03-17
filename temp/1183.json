@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "船说CMS",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://ziyuan.jipingxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::https://ziyuan.jipingxs.com/sort/{{page}}/\n同人::https://ziyuan.jipingxs.com/sort/1/{{page}}/\n玄幻::https://ziyuan.jipingxs.com/sort/2/{{page}}/\n武侠::https://ziyuan.jipingxs.com/sort/3/{{page}}/\n都市::https://ziyuan.jipingxs.com/sort/4/{{page}}/\n军事::https://ziyuan.jipingxs.com/sort/5/{{page}}/\n科幻::https://ziyuan.jipingxs.com/sort/6/{{page}}/\n推理::https://ziyuan.jipingxs.com/sort/7/{{page}}/\n青春::https://ziyuan.jipingxs.com/sort/8/{{page}}/",
+        "lastUpdateTime": 1625709287027,
+        "ruleBookInfo": {
+            "author": "class.novel_info_title@tag.a.0@text",
+            "coverUrl": "class.novel_info_main@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.novel_info_title@tag.span@text",
+            "lastChapter": "class.flex to100@a@text",
+            "name": "class.novel_info_title@h1@text",
+            "wordCount": "class.s_gray@text"
+        },
+        "ruleContent": {
+            "content": "id.article@p@html"
+        },
+        "ruleExplore": {
+            "author": "tag.i.0@text",
+            "bookList": "class.flex@li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.indent@text",
+            "kind": "tag.span.0@text&&class.blue@text",
+            "name": "tag.a.1@text",
+            "wordCount": "class.orange@text"
+        },
+        "ruleSearch": {
+            "author": "tag.p.0@text##\\s.*",
+            "bookList": "class.searchresult",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": "tag.p.1@text",
+            "kind": "tag.span.0@text",
+            "lastChapter": "tag.a.2@text",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.p.0@text##.*\\s"
+        },
+        "ruleToc": {
+            "chapterList": "id.ul_all_chapters@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://ziyuan.jipingxs.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all&Submit=\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "520小说👿搜索3个字以上",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.txt520.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::http://www.txt520.com/xuanhuan/<,index_{{page}}.html>\n修真::http://www.txt520.com/xiuzhen/<,index_{{page}}.html>\n都市::http://www.txt520.com/ds/<,index_{{page}}.html>\n言情::http://www.txt520.com/yq/<,index_{{page}}.html>\n网游::http://www.txt520.com/wangyou/<,index_{{page}}.html>\n科幻::http://www.txt520.com/kehuan/<,index_{{page}}.html>\n穿越::http://www.txt520.com/chuanyue/<,index_{{page}}.html>\n武侠::http://www.txt520.com/wuxia/<,index_{{page}}.html>\n历史::http://www.txt520.com/lishi/<,index_{{page}}.html>\n军事::http://www.txt520.com/junshi/<,index_{{page}}.html>\n乡土::http://www.txt520.com/xt/<,index_{{page}}.html>\n官场::http://www.txt520.com/guanchang/<,index_{{page}}.html>\n奇幻::http://www.txt520.com/qihuan/<,index_{{page}}.html>\n鬼话::http://www.txt520.com/guihua/<,index_{{page}}.html>\n耽美::http://www.txt520.com/danmei/<,index_{{page}}.html>\n同人::http://www.txt520.com/erciyuan/<,index_{{page}}.html>\n精品::http://www.txt520.com/xiaoshuo/<,index_{{page}}.html>\n传记::http://www.txt520.com/zhuanji/<,index_{{page}}.html>\n名著::http://www.txt520.com/mingzhu/<,index_{{page}}.html>\n排行::http://www.txt520.com/ranking/<,index_{{page}}.html>",
+        "lastUpdateTime": 1648965177832,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ".nav_wapper",
+            "tocUrl": ".readnow@href",
+            "wordCount": ".nav_time.0@text##状态："
+        },
+        "ruleContent": {
+            "content": ".content@html"
+        },
+        "ruleExplore": {
+            "author": ".bookWriter@span.0@text",
+            "bookList": ".list@li",
+            "bookUrl": "a@href",
+            "intro": ".desc@text",
+            "kind": ".pubdate@text",
+            "name": "tag.b@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": ".bookWriter@span.0@text",
+            "bookList": ".list@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "末世之",
+            "intro": ".desc@html",
+            "kind": ".title@text##\\[|\\](.*)",
+            "lastChapter": ".pubdate@text",
+            "name": ".title@text##\\[(.*)\\]"
+        },
+        "ruleToc": {
+            "chapterList": ".list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.txt520.com/e/search/index.php,{\n  \"body\": \"keyboard={{key}}&show=title&classid=0\",\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

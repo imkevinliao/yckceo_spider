@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceUrl": "http://www.pfwx.com",
+        "bookSourceType": "0",
+        "bookSourceName": "平凡文学",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.pfwx.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": "class.tutui",
+            "name": "tag.a.1@text",
+            "author": "tag.h3.0@text",
+            "lastChapter": "tag.a.2@text",
+            "coverUrl": "tag.img@src",
+            "bookUrl": "tag.a.1@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.jieshaokaishi@tag.h1@text",
+            "author": "class.jieshaokaishi@tag.h2.0@text",
+            "wordCount": "class.jieshaokaishi@tag.h2.1@text##更新时间：",
+            "lastChapter": "class.zuixin@tag.a@text",
+            "intro": "class.jieshaokaishi@tag.h3@text##介 绍：|－－－.*",
+            "coverUrl": "class.jieshaoTu@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.zhangjiekaishi@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.booktext@html##<!--.*-->|★★.*朋友吧！"
+        }
+    }
+]

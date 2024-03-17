@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceUrl": "http://www.lurenshu8.net",
+        "bookSourceType": "0",
+        "bookSourceName": "路人书吧",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.lurenshu8.net/modules/article/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 206,
+        "lastUpdateTime": 1602415672579,
+        "ruleSearch": {
+            "bookList": "class.clearfix!0@li",
+            "name": "tag.a.1@text",
+            "lastChapter": "class.min-width@text##.*/：",
+            "bookUrl": "tag.a.1@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "tag.h1@text",
+            "author": "class.excerpt@tag.a.1@text##的小说",
+            "kind": "class.excerpt@tag.a.0@text",
+            "lastChapter": "tag.h2.1@tag.a.1@text",
+            "intro": "class.excerpt@tag.br@text",
+            "coverUrl": "class.excerpt@tag.img@src",
+            "tocUrl": "text.全文阅读@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

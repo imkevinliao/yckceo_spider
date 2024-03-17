@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "5200小说网[quanxiaoshuo]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://quanxiaoshuo.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1649763213602,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "class.desc@html",
+            "kind": "class.f_l t_r w3@text##类型： "
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.cc4@text",
+            "bookList": "class.list_content",
+            "bookUrl": "class.cc2@a@href",
+            "lastChapter": "class.cc3@text",
+            "name": "class.cc2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter",
+            "chapterName": "@a@text",
+            "chapterUrl": "@a@href"
+        },
+        "searchUrl": "https://quanxiaoshuo.com/s_{{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "采薇小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ybwzx.com",
+        "bookUrlPattern": "",
+        "customOrder": 1243,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "@css:[property=og:novel:author]@content",
+            "coverUrl": "@css:[property=og:image]@content",
+            "intro": "@css:[property=og:description]@content",
+            "kind": "@css:[property=og:novel:category]@content",
+            "lastChapter": "@css:[property=og:novel:latest_chapter_name]@content",
+            "name": "@css:[property=og:title]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@tag.a.0@text",
+            "bookList": "class.novelslist2@tag.li!0",
+            "bookUrl": "class.s2@tag.a.0@href",
+            "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+            "lastChapter": "class.s3@tag.a.0@text",
+            "name": "class.s2@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.ybwzx.com/index.php?s=/web/index/search,{\n  \"charset\": \"utf-8\",\n  \"body\": \"name={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceName": "西瓜小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xigua211.com/wap_index.html ",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "排行::https://www.xigua211.com/wap_pai_{{page}}.html\n言情::https://www.xigua211.com/wap_fenlei/1_{{page}}.html\n其他::https://www.xigua211.com/wap_fenlei/2_{{page}}.html\n仙侠::https://www.xigua211.com/wap_fenlei/3_{{page}}.html\n衍生::https://www.xigua211.com/wap_fenlei/4_{{page}}.html\n全本::https://www.xigua211.com/wap_all/1.html",
+        "lastUpdateTime": 1674285993661,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".x_right p.1@text",
+            "coverUrl": "img.0@src",
+            "intro": ".shu_desp.0@text",
+            "kind": ".x_right p.2@a@text",
+            "lastChapter": ".x_right p.5@a@text",
+            "name": ".tit@text",
+            "tocUrl": ".du@ul@a.1@href"
+        },
+        "ruleContent": {
+            "content": ".read_content@textNodes",
+            "nextContentUrl": ".shangxia@a.2@href",
+            "replaceRegex": "##br />|&r|dquo;"
+        },
+        "ruleExplore": {
+            "author": ".autor@text",
+            "bookList": ".txt1 li",
+            "bookUrl": "a.1@href",
+            "kind": ".time@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".txt1 li",
+            "bookUrl": "a@href",
+            "kind": "class.time@text",
+            "name": "a@class.tit@text"
+        },
+        "ruleToc": {
+            "chapterList": ".zhangjie@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "https://www.xigua211.com/index.php?do=wap_sea&so=yes&name={{key}}",
+        "weight": 0
+    }
+]

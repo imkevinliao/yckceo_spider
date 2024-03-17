@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "瓜子小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.gzbpi.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::https://m.gzbpi.com/sort/1_{{page}}/,{\"webView\":true}\n武侠修真::https://m.gzbpi.com/sort/2_{{page}}/,{\"webView\":true}\n都市言情::https://m.gzbpi.com/sort/3_{{page}}/,{\"webView\":true}\n历史军事::https://m.gzbpi.com/sort/4_{{page}}/,{\"webView\":true}\n侦探推理::https://m.gzbpi.com/sort/5_{{page}}/,{\"webView\":true}\n网游动漫::https://m.gzbpi.com/sort/6_{{page}}/,{\"webView\":true}\n科幻小说::https://m.gzbpi.com/sort/7_{{page}}/,{\"webView\":true}\n恐怖灵异::https://m.gzbpi.com/sort/8_{{page}}/,{\"webView\":true}\n耽美同人::https://m.gzbpi.com/sort/9_{{page}}/,{\"webView\":true}\n其他小说::https://m.gzbpi.com/sort/10_{{page}}/,{\"webView\":true}\n穿越重生::https://m.gzbpi.com/sort/11_{{page}}/,{\"webView\":true}\n女生小说::https://m.gzbpi.com/sort/12_{{page}}/,{\"webView\":true}\n日点击榜::https://m.gzbpi.com/top/dayvisit_{{page}}/,{\"webView\":true}\n周点击榜::https://m.gzbpi.com/top/weekvisit_{{page}}/,{\"webView\":true}\n月点击榜::https://m.gzbpi.com/top/monthvisit_{{page}}/,{\"webView\":true}\n总点击榜::https://m.gzbpi.com/top/allvisit_{{page}}/,{\"webView\":true}\n总收藏榜::https://m.gzbpi.com/top/goodnum_{{page}}/,{\"webView\":true}\n完本小说::https://m.gzbpi.com/top/size_{{page}}/,{\"webView\":true}\n日推荐榜::https://m.gzbpi.com/top/dayvote_1/,{\"webView\":true}\n周推荐榜::https://m.gzbpi.com/top/weekvote_{{page}}/,{\"webView\":true}\n月推荐榜::https://m.gzbpi.com/top/monthvote_{{page}}/,{\"webView\":true}\n总推荐榜::https://m.gzbpi.com/top/allvote_{{page}}/,{\"webView\":true}\n最新入库::https://m.gzbpi.com/top/postdate_{{page}}/,{\"webView\":true}\n最近更新::https://m.gzbpi.com/top/lastupdate_{{page}}/,{\"webView\":true}",
+        "lastUpdateTime": 1613535141289,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "$4",
+            "canReName": "true",
+            "coverUrl": "https:$1",
+            "init": ":xsfm\"(?:[^\"]*\")([^\"]*)(?:[^>]*>){5}([^<]*)(?:[^>]*>){2}分类：([^<]*)(?:[^>]*>){3}([^<]*)(?:[^>]*>){3}([^<]*)(?:[^>]*>){3}([^<]*)(?:[^=]*=){7}\"([^\"]*)(?:[^>]*>){6}([^<]*)",
+            "intro": "$8",
+            "kind": "$3,$5",
+            "lastChapter": "$6",
+            "name": "$2",
+            "tocUrl": "https://m.gzbpi.com$7,{\"webView\":true}"
+        },
+        "ruleContent": {
+            "content": "id.content-txt@html##一秒记住.*|阅读提示.*|本章未完，点击下一篇继续阅读！",
+            "nextContentUrl": "@js:\nvar list=[];\nfor(var i=2;i<=5;i++){list.push(baseUrl.replace(\".html\",\"\")+\"-\"+i+\".html\");}\nlist"
+        },
+        "ruleExplore": {
+            "author": "tag.span.1@tag.a@text",
+            "bookList": "class.list@tag.ul",
+            "bookUrl": "tag.li@tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.span.2@text",
+            "kind": "tag.span.3@text",
+            "name": "tag.span.0@tag.a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.span.2@tag.a@text",
+            "bookList": "tag.article",
+            "bookUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###<js>result.replace('/wapbook','/info').replace(/\\d+.html/,'').replace(/\\/$/,'').replace('www.','m.')</js>",
+            "coverUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###<js>result.replace('/wapbook','/info').replace(/\\d+.html/,'').replace(/\\/$/,'')</js>##.*\\D((\\d+)(\\d+){3})##https://img.gzbpi.com/$2/$1/$1s.jpg",
+            "kind": "tag.span.1@tag.a@text",
+            "lastChapter": "tag.span.3@tag.a@text",
+            "name": "h3@text<js>result.replace(/(全文阅读|最新章节).*/,'').replace(/\\s*/g,'').replace(/(正文|第[一二三四五六七八九十百千万零贰\\d]+|\\d+).*?-/,'')</js>"
+        },
+        "ruleToc": {
+            "chapterList": "class.lb fk@tag.li",
+            "chapterName": "tag.a@text##列表开始，点此返回信息页|本页章节列表结束！",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.xypa@tag.a@href##$##$,{\"webView\":true}"
+        },
+        "searchUrl": "https://m.baidu.com/from=1022560v/s?pn=<0,{{page*10}}>&word=intitle:{{key}} site:m.gzbpi.com",
+        "weight": 0
+    }
+]

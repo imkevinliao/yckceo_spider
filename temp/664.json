@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "笔趣阁\n",
+        "bookSourceName": "言情小说笔趣阁带发现",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m2.yqxs.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "青春::/yq/1/1.html\n穿越::/yq/2/1.html\n豪门::/yq/3/1.html\n都市::/yq/4/1.html\n港台::/yq/6/1.html\n玄幻::/yq/7/1.html\n武侠::/yq/9/1.html\n全本::/full/",
+        "lastUpdateTime": 1644238133778,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book-text@span.0@text",
+            "coverUrl": "class.book-img@a@img@src||class.book_info@class.cover@img@src",
+            "init": "id.list||class.books",
+            "intro": "class.intro@text||class.book_about@text",
+            "kind": "class.book-text@span.1@text",
+            "wordCount": "class.book-text@class.red@text"
+        },
+        "ruleContent": {
+            "content": "class.txt@html"
+        },
+        "ruleExplore": {
+            "author": "class.s3@text",
+            "bookList": "li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "class.s1@text",
+            "lastChapter": "",
+            "name": "class.s2@a@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "tag.li@a",
+            "bookUrl": "@href",
+            "checkKeyWord": "",
+            "name": "@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book-chapter-list@ul.-1@li@a||class.book_last.-1@tag.dl@tag.dd@tag.a",
+            "chapterName": "@text||dl@dd@a@text",
+            "chapterUrl": "@href||dl@dd@a@href",
+            "nextTocUrl": "class.listpage@class.right@a@href"
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=yqxs.cc&s=8961023418585865771&q={{key}}",
+        "weight": 0
+    }
+]

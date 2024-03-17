@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "大风小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ba1zw.com",
+        "bookUrlPattern": "https://m.ba1zw.com/yuedu/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/\n修真小说::/xiuzhenxiaoshuo/\n都市小说::/dushixiaoshuo/\n历史小说::/lishixiaoshuo/\n网游小说::/wangyouxiaoshuo/\n科幻小说::/kehuanxiaoshuo/\n言情小说::/yanqingxiaoshuo/\n其他小说::/qitaxiaoshuo/\n完结小说::/wanben/",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1689394447285,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@p.2@text",
+            "coverUrl": ".block_img2@img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2@p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2@a.-1@text",
+            "name": ".block_txt2@h2@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": "<js>\nif(result.match(/Verify Yourself/)){\ncookie.removeCookie(source.bookSourceUrl)\nvar x=java.get(\"url\")\njava.startBrowserAwait(x,\"验证\")\nresult=java.ajax(x);\n\t}else{\n\t\tresult;\n\t\t}\n\t\tresult;\n</js>\n.bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@textNodes",
+            "kind": "0",
+            "lastChapter": ".update@a@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "@js:var so=\"/search.php?keyword=\"+key+\"&submit=,\";\njava.put(\"url\",String(source.bookSourceUrl+so+JSON.stringify({\n\t\t\"headers\":{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 10; zh-cn; MI CC 11)  AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/18.1.8 swan-mibrowser\"\n}})))",
+        "weight": 0
+    }
+]

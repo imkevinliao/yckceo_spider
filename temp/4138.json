@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔下文学77",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bixia77.net",
+        "bookUrlPattern": "http://www.bixia77.net/\\d+/",
+        "customOrder": 4,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n玄幻::/html/list-{{page}}-{{page}}.html\n武侠::/html/list-2-{{page}}.html\n女频::/html/list-3-{{page}}.html\n现代::/html/list-4-{{page}}.html\n历史::/html/list-5-{{page}}.html\n游戏::/html/list-6-{{page}}.html\n科幻::/html/list-7-{{page}}.html\n热门::/rank/allvisit/\n全本::/quanben/html/list-\n书库::/html/list-\n记录::/history.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695288027255,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\"#info p.2@text##字数：\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.章节目录@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text||.btm@ownText",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "name": "a.1@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#content_1 a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url);\njava.ajax(url).match(/form.*action=\"(.+?)\"/)[1]}}?searchkey={{key}}",
+        "weight": 0
+    }
+]

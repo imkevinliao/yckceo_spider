@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉  备用",
+        "bookSourceName": "🎉新御书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xyushuwu.me",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1635664472623,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "intro": "class.jianjie@html",
+            "kind": "",
+            "lastChapter": "class.xx@tag.a.-1@text",
+            "name": "",
+            "tocUrl": "text.查看更多章节>@href"
+        },
+        "ruleContent": {
+            "content": "id.nr@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*.*章未完.*\\s*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.slist",
+            "bookUrl": "tag.a.1@href",
+            "kind": "tag.a.0@text##\\[|\\]",
+            "name": "tag.a.1@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.lb fk@li@a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.showpage.0@li@a@href"
+        },
+        "searchUrl": "/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

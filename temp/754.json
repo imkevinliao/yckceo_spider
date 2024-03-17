@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☁️可用,⛩🎐senhora",
+        "bookSourceName": "糯米小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biquge.dev",
+        "bookUrlPattern": "http://www.biquge.dev/\\d+_\\d+/",
+        "customOrder": -88939094,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::https://www.biquge.dev/sort/0_{{page}}/\n玄幻小说::https://www.biquge.dev/sort/1_{{page}}/\n修真小说::https://www.biquge.dev/sort/2_{{page}}/\n都市小说::https://www.biquge.dev/sort/3_{{page}}/\n历史小说::https://www.biquge.dev/sort/4_{{page}}/\n灵异小说::https://www.biquge.dev/sort/5_{{page}}/\n网游小说::https://www.biquge.dev/sort/6_{{page}}/\n科幻小说::https://www.biquge.dev/sort/7_{{page}}/\n言情小说::https://www.biquge.dev/sort/8_{{page}}/\n其他小说::https://www.biquge.dev/sort/9_{{page}}/",
+        "lastUpdateTime": 1642666587214,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.synopsisArea@tag.a@class.author@text##作者：",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "id.breview@text",
+            "kind": "class.synopsisArea@class.synopsisArea_detail@tag.p.1@text##| 作者：.*|类别：",
+            "lastChapter": "class.synopsisArea@class.synopsisArea_detail@tag.p.4@text##最新：",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html##天才一秒记住.*|.*第.*章.*|『章节错误,点此举报』",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##&nbsp|&"
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a.0@href@js:'https://www.biquge.dev'+result",
+            "coverUrl": "img@src",
+            "intro": "class.review@text",
+            "lastChapter": "",
+            "name": "class.title@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节.*|小说|笔趣阁|免费.*|起点|txt下载"
+        },
+        "ruleSearch": {
+            "author": "class.author.0@text##.*作者：",
+            "bookList": "class.hot_sale||class.hot_sale hot_saleEm",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "",
+            "kind": "class.author.0@text##| 作者：.*",
+            "lastChapter": "class.author.1@text##.* 更新：",
+            "name": "class.title@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节.*|小说|笔趣阁|免费.*|起点|txt下载"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist.1@p@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/wap/search.php?q={{key}}&t=wap",
+        "weight": 0
+    }
+]

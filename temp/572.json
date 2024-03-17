@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️笔趣阁5☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.sobiquge.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1645456104326,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p@text##分类：.*\n状态：.*\n更新：.*\n最新：.*",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro_info@html",
+            "lastChapter": "class.block_txt2@tag.p.-1@text",
+            "name": "tag.h2@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+            "bookList": "class.result-item result-game-item",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.result-game-item-desc@html",
+            "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
+            "lastChapter": "class.result-game-item-info-tag-item@text",
+            "name": "tag.h3@tag.span@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://wap.sobiquge.com/search.php?q={{key}}",
+        "weight": 0
+    }
+]

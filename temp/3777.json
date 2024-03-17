@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "云霄阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yunxiaoge.net",
+        "bookUrlPattern": "https://www.yunxiaoge.net/book/\\d+.html",
+        "customOrder": 3,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n穿越::/sort/chuanyue/{{page}}/\n言情::/sort/yanqing/{{page}}/\n现代::/sort/dushi/{{page}}/\n武侠::/sort/wuxia/{{page}}/\n玄幻::/sort/xuanhuan/{{page}}/\n科幻::/sort/kehuan/{{page}}/\n网游::/sort/wangyou/{{page}}/\n热门::/rank/allvisit/\n全本::/quanben/sort/\n书库::/sort/\n记录::/history.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690506022741,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "{{@@text.字数：@text##字数：}}"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完.+继续阅读。"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text||.btm@ownText",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "name": "a.1@text",
+            "wordCount": "en.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#content_1@a",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://www.yunxiaoge.net/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

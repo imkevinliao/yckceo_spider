@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceName": "文学吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wenxue88.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1691692382700,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.jj izz@a@text",
+            "coverUrl": "img.1@src",
+            "intro": "<js>\njava.ajax(baseUrl.replace(/index/,'js'))\n</js>\ntag.p!0:1@html",
+            "name": "h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nresult = java.getString(\"@@class.hycolor.-1@html\");\nif(result == \"\"){\n     html = java.ajax(baseUrl.replace(/index/,'js'));\n     java.setContent(html);\n     result = \"❗️刷新正文跳转添加书籍页面❗️\\n\"+java.getString(\"@@tag.p@html\"); java.startBrowser(\"https://www.coolapk.com/link?url=\"+java.encodeURI(\"legado://import/addToBookshelf?src=\"+baseUrl+\",{origin:'https://www.wenxue88.com/'}\"),\"添加书籍《\"+chapter.title+\"》\");\n\t}\nresult\n</js>"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.zw_txt\n<js>\nkey = java.get(\"key\");\nurl = \"https://www.wenxue88.com/zz/index.html\"\njava.setContent(String(java.ajax(url)).replace(/href=\"/g,'href=\"/zz/'));\nlis = java.getElements(\"@@class.zw_txt\").toArray();\nlist = result.toArray().concat(lis);\nre = new RegExp(key);\nhtml = \"\";\nfor(i in list){\n\tre.test(list[i])?html+=list[i]:\"\"\n\t}\nresult = String(html)\n</js>\na",
+            "bookUrl": "href",
+            "coverUrl": "",
+            "name": "text"
+        },
+        "ruleToc": {
+            "chapterList": "class.b_bor@children@tr!0:1:2:3@a||class.zw_txt@a",
+            "chapterName": "tag.strong@text||text",
+            "chapterUrl": "tag.strong@text||href",
+            "isVolume": "tag.strong@text",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.wenxue88.com#{{java.put(\"key\",key)}}",
+        "weight": 0
+    }
+]

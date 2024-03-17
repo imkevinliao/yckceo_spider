@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⌨自制",
+        "bookSourceName": "⌨海悦小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.haiyue8.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/wuxia/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"/dushi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/lishi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"网游\",\"url\":\"/wangyou/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"女生\",\"url\":\"/mm/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"完本\",\"url\":\"/finish/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+        "header": "",
+        "lastUpdateTime": 1685600840035,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{\nn:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\"##字数：([^<]+万字)##$1###\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"[property$=og:url]@content##//m##//www\"\n}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html##<a.*|第[\\d零一二三四五六七八九十百千万]+章.{0,20}\\n",
+            "replaceRegex": "##\\s*请收藏本站：.*\\s*"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": ".item",
+            "bookUrl": "dt@a@href",
+            "coverUrl": "img@src",
+            "intro": "dl@dd@text",
+            "kind": "",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "[*]",
+            "bookUrl": "url_list",
+            "coverUrl": "url_img",
+            "intro": "intro",
+            "name": "articlename"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/json_search?t=123&q={{java.encodeURI(key)}}",
+        "weight": 0
+    }
+]

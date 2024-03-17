@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "爱猫小说书源合集",
+        "bookSourceName": "叮当小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.guxs.net",
+        "bookUrlPattern": "",
+        "customOrder": 42,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/top/1_allvisit_0_0_0_{{page}}.html\n古典仙侠::/top/2_allvisit_0_0_0_{{page}}.html\n纯爱耽美::/top/3_allvisit_0_0_0_{{page}}.html\n历史穿越::/top/4_allvisit_0_0_0_{{page}}.html\n游戏同人::/top/5_allvisit_0_0_0_{{page}}.html\n穿梭时空::/top/6_allvisit_0_0_0_{{page}}.html\n灵异奇谈::/top/7_allvisit_0_0_0_{{page}}.html\n经典美文::/top/8_allvisit_0_0_0_{{page}}.html\n完结::/\n玄幻魔法::/top/1_monthvisit_0_2_0_{{page}}.html\n古典仙侠::/top/2_monthvisit_0_2_0_{{page}}.html\n纯爱耽美::/top/3_monthvisit_0_2_0_{{page}}.html\n历史穿越::/top/4_monthvisit_0_2_0_{{page}}.html\n游戏同人::/top/5_monthvisit_0_2_0_{{page}}.html\n穿梭时空::/top/6_monthvisit_0_2_0_{{page}}.html\n灵异奇谈::/top/7_monthvisit_0_2_0_{{page}}.html\n经典美文::/top/8_monthvisit_0_2_0_{{page}}.html\n月推荐::/\n玄幻魔法::/top/1_monthvote_0_0_0_{{page}}.html\n古典仙侠::/top/2_monthvote_0_0_0_{{page}}.html\n纯爱耽美::/top/3_monthvote_0_0_0_{{page}}.html\n历史穿越::/top/4_monthvote_0_0_0_{{page}}.html\n游戏同人::/top/5_monthvote_0_0_0_{{page}}.html\n穿梭时空::/top/6_monthvote_0_0_0_{{page}}.html\n灵异奇谈::/top/7_monthvote_0_0_0_{{page}}.html\n经典美文::/top/8_monthvote_0_0_0_{{page}}.html",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": ".s2!1@text##章节倒序",
+            "coverUrl": "tag.img.0@data-original",
+            "intro": ".brief!1@text##小说简介：",
+            "kind": ".s4@text&&.tips a@text##\\+",
+            "lastChapter": ".news a@text",
+            "name": "h1@text##全文免费阅读",
+            "tocUrl": "text.开始阅读@href"
+        },
+        "ruleContent": {
+            "content": "id.txt@p@textNodes##\\(本章完\\)|..*\\s.*阅读.*最新章节 请关注.*"
+        },
+        "ruleExplore": {
+            "author": ".font2@text## \\|.*",
+            "bookList": ".con li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": ".font3@text",
+            "kind": ".font2@text&&.s2@text##.*\\| |\\s[0-9].*",
+            "lastChapter": "a!0:1@text",
+            "name": "a!0:2@text##全文免费阅读"
+        },
+        "ruleSearch": {
+            "author": ".s2@text",
+            "bookList": ".leftBox@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": ".c@text##\\...$|内容介绍：",
+            "kind": ".tipsa@text##-",
+            "lastChapter": ".bottom a@text",
+            "name": "h1@text##全文免费阅读",
+            "wordCount": ".s4@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapter@a",
+            "chapterName": "title##(\\d+)\\．",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?key={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

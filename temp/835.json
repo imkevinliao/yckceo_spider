@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceUrl": "http://www.42zw.cc",
+        "bookSourceType": "0",
+        "bookSourceName": "42zwcc",
+        "bookSourceGroup": "",
+        "bookSourceComment": "42zwcc",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "http://www.42zw.cc/search?keyword={{key}}",
+        "exploreUrl": "[\n{\"title\":\"玄幻小说\",\n\"url\":\"/class/1/1\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"修真小说\",\n\"url\":\"/class/2/1\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"都市小说\",\n\"url\":\"/class/3/1\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"历史小说\",\n\"url\":\"/class/4/1\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"网游小说\",\n\"url\":\"/class/5/1\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"科幻小说\",\n\"url\":\"/class/6/1\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"其它小说\",\n\"url\":\"/class/7/1\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"完本小说\",\n\"url\":\"/quanben/0/1\",\n\"style\":{\"layout_flexGrow\":1}}\n]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1635761149649,
+        "ruleSearch": {
+            "bookList": ".novelslist2 ul li[1:20]",
+            "name": ".s2@text",
+            "author": ".s4@text",
+            "lastChapter": "{{@.s3@text##[（(].*票[）)]}}·{{@.s6@text##...:.*}}",
+            "coverUrl": "##href=\"/book/(\\d+)##http://www.42zw.cc/novel/$1.jpg###",
+            "bookUrl": "a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": ".update-list ul li",
+            "name": ".s2@text",
+            "author": ".s4@text",
+            "kind": ".s1@text&&.s5@text##\\[|\\]|小说",
+            "lastChapter": ".s3@text",
+            "coverUrl": "##href=\"/book/(\\d+)##http://www.42zw.cc/novel/$1.jpg###",
+            "bookUrl": "a.0@href"
+        },
+        "ruleBookInfo": {
+            "init": "@put:{\nn:\"meta[property~=book_name]@content\",\na:\"meta[property$=author]@content\",\nk:\"meta[property~=category|status]@content&&id.info@p.4@text&&meta[property~=update_time]@content\",\nw:\"meta[property~=word]@content\",\nl:\"meta[property~=latest_chapter_name|lastest_chapter_name]@content\",\ni:\"id.intro@html\",\nc:\"meta[property~=image]@content\",\nu:\"\",\nd:\"id.info@p.5@a@href\"\n}",
+            "name": "@get:{n}",
+            "author": "@get:{a}",
+            "kind": "@get:{k}##小说|中|已|...:.*|书籍状态..|更新.",
+            "wordCount": "@get:{w}## |字数.",
+            "lastChapter": "@get:{l}##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*|[（(].*票[）)]",
+            "intro": "<br>🔗：http://www.42zw.cc@get:{d}<br>@get:{i}##{{book.name}}最新章节.*",
+            "coverUrl": "@get:{c}",
+            "tocUrl": "@get:{u}"
+        },
+        "ruleToc": {
+            "chapterList": ".clearfix dl dd a[12:]",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": ".articlecontent@html||id.content@html##天才一秒.*|【作者题外话】(.|\\n)*|一秒记住.*ｍ?"
+        }
+    }
+]

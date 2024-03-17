@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "思思电子书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.44txt.com",
+        "customOrder": -88898544,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1644594704796,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.detail_info@class.small.5@tag.a@text||class.detail_info@class.small.0@tag.a@text",
+            "canReName": "",
+            "coverUrl": "class.detail_pic@tag.img@src",
+            "intro": "class.showInfo@text||class.xsjj@text",
+            "kind": "class.detail_info@class.small.1@tag.a@text",
+            "name": "class.detail@class.detail_info@tag.h1##《|》",
+            "tocUrl": "class.downButton.-1@href<js>java.ajax(\"http://www.44txt.cc\"+result)</js>text.点击进入目录@href"
+        },
+        "ruleContent": {
+            "content": "@css:.date :not(a)@html##上一章.*?下一章|思思电子书.*|.*?小说.*?[wWmM].*?[mM]|更新最快.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s@tag.a@text",
+            "bookList": "class.list@tag.ul@tag.li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.u@text",
+            "name": "tag.li@tag.a.1@text##全集|《|》"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_con_list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.44txt.cc/e/search/index.php?searchget=1&tempid=3&show=writer&classid=74&keyboard={{key}}",
+        "weight": 0
+    }
+]

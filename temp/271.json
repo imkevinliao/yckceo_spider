@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "优质",
+        "bookSourceName": "2K中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.2kzw.cc",
+        "customOrder": 86,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔幻::/sort/1_{{page}}/\n武侠仙侠::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n网游竞技::/sort/5_{{page}}/\n科幻灵异::/sort/6_{{page}}/\n女生频道::/sort/8_{{page}}/\n其它小说::/sort/7_{{page}}/",
+        "lastUpdateTime": 1629964200483,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": ".intro@html",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ".more a@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "#pb_next@href"
+        },
+        "ruleExplore": {
+            "author": "tag.span.0@text##.*:",
+            "bookList": ".list-item",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@src",
+            "intro": "tag.a.2@text",
+            "kind": "tag.span.1@text##.*:",
+            "name": "tag.a.1@text"
+        },
+        "ruleSearch": {
+            "author": "tag.span.0@text##.*:",
+            "bookList": ".list-item",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@src",
+            "intro": "tag.a.2@text",
+            "name": "tag.a.1@text",
+            "wordCount": "阅读：{{@@.count@text}}"
+        },
+        "ruleToc": {
+            "chapterList": ".last9 li a",
+            "chapterName": "text##返回.*简介",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/search/,{\n  'method': 'POST',\n  'body': 'searchkey={{key}}'\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "20230922新建",
+        "bookSourceGroup": "新",
+        "bookSourceName": "乐文小说（新）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.newpopo.com",
+        "bookUrlPattern": "",
+        "customOrder": 22,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "周排行榜::https://www.newpopo.com/rank/0/{{page}}.html\n月排行榜::https://www.newpopo.com/rank/month/0/{{page}}.html\n总排行榜::https://www.newpopo.com/rank/all/0/{{page}}.html\n全部小说::https://www.newpopo.com/category/0/{{page}}.html\n完本小说::https://www.newpopo.com/category/finish/0/{{page}}.html\npo18::https://www.newpopo.com/rank/all/168322154594373/{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+        "lastUpdateTime": 1695387478230,
+        "loginUrl": "{\n  \"url\": \"\"\n}",
+        "respondTime": 12839,
+        "ruleBookInfo": {
+            "author": "class.author@span@text",
+            "coverUrl": "class.BGsectionOne-top-left@img@src",
+            "intro": "class.BGsectionTwo-bottom@textNodes",
+            "kind": "class.category@span.0@text",
+            "lastChapter": "class.newestChapter@a@text",
+            "name": "class.BGsectionOne-top-right@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "@js:\nfunction d(a, b) {\n            b = java.md5Encode(b);\n            var d = b.substring(0, 16);\n            var e = b.substring(16);\n            return    java.aesBase64DecodeToString(a,e,\"AES/CBC/PKCS5Padding\",d)}\neval(result.match(/(d\\(\"[\\s\\S]+\"\\))\\)/)[1])"
+        },
+        "ruleExplore": {
+            "author": "class.CGsectionTwo-right-content-unit@tag.p.1@tag.a@text",
+            "bookList": "class.CGsectionTwo-right-content-unit",
+            "bookUrl": "class.CGsectionTwo-right-content-unit@tag.p.0@tag.a.0@href",
+            "coverUrl": "class.book_img_pic@tag.a@tag.img@src",
+            "intro": "class.CGsectionTwo-right-content-unit@tag.p.2@text",
+            "kind": "",
+            "lastChapter": "class.CGsectionTwo-right-content-unit@tag.p.3@text##最近更新 ",
+            "name": "class.CGsectionTwo-right-content-unit@tag.p.0@tag.a.0@text",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.b@text||tag.a.2@text",
+            "bookList": "class.SHsectionThree-middle@p||class.CGsectionTwo-right-content-unit",
+            "bookUrl": "class.title@href||tag.a.1@href",
+            "coverUrl": "class.title@href|tag.a.1@href<js>java.ajax('https://www.lwread.com'+result)</js>class.BGsectionOne-top-left@img@src",
+            "kind": "class.g.0@text",
+            "lastChapter": "tag.p.3@text##最近更新",
+            "name": "class.title@text|class.r@text||tag.a.1@text\n<js>\nresult.replace(/sao/gi,'骚')\n.replace(/diao/gi,'屌')\n.replace(/zhong/gi,'种')\n.replace(/nai/gi,'奶')\n.replace(/ai/gi,'爱')\n.replace(/shen/gi,'呻')\n.replace(/she(头)/gi,'舌$1')\n.replace(/she/gi,'射')\n.replace(/(呻)yin/gi,'$1吟')\n.replace(/yin(道|户|蒂)/gi,'阴$1')\n.replace(/yin/gi,'淫')\n.replace(/xing/gi,'性')\n.replace(/bi/gi,'逼')\n.replace(/cao/gi,'操')\n.replace(/lun/gi,'伦')\n.replace(/giang/gi,'肛')\n.replace(/gian/gi,'干')\n.replace(/luan/gi,'乱')\n.replace(/jian/gi,'奸')\n.replace(/ju/gi,'菊')\n.replace(/chao/gi,'潮')\n.replace(/dong/gi,'洞')\n.replace(/rou/gi,'肉')\n.replace(/ru/gi,'乳')\n.replace(/xue/gi,'穴')\n.replace(/bang/gi,'棒')\n.replace(/jing/gi,'精')\n.replace(/pi/gi,'屁')\n.replace(/tun/gi,'臀')\n</js>"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search/{{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceGroup": "《精选书源》",
+        "bookSourceName": "🎉 牧归小说",
+        "bookSourceUrl": "https://www.muguixs.com",
+        "enable": true,
+        "ruleBookAuthor": ".p_author@tag.a@text",
+        "ruleBookContent": "id.TextContent@html",
+        "ruleBookContentReplace": "##\\&lt;!--go--&gt;|\\&lt;!--over--&gt;",
+        "ruleBookInfoInit": "",
+        "ruleBookKind": "id.count@tag.span.0:2@text&&#uptime@tag.span@text",
+        "ruleBookLastChapter": ".chaw@tag.a.0@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "ruleBookName": ".d_title@tag.h1@text",
+        "ruleChapterList": "id.chapterList@tag.li@tag.a",
+        "ruleChapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "id.bookimg@tag.img@src",
+        "ruleIntroduce": "id.bookintro@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "ruleSearchAuthor": ".book_other@tag.span.0@text",
+        "ruleSearchCoverUrl": "tag.img@data-original",
+        "ruleSearchIntroduce": "tag.dd.2@text##\\s",
+        "ruleSearchKind": ".book_other@tag.span.1@text&&.uptime@text##小说",
+        "ruleSearchLastChapter": "tag.a.2@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "ruleSearchList": "id.sitebox@tag.dl",
+        "ruleSearchName": "tag.a.1@text",
+        "ruleSearchNoteUrl": "tag.a.1@href",
+        "ruleSearchUrl": "/search/@searchkey=searchKey",
+        "serialNumber": 16,
+        "weight": 0
+    }
+]

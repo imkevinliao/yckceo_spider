@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "搜索间隔10秒",
+        "bookSourceGroup": "自制,下载,源仓库,网页源",
+        "bookSourceName": "贼吧网zei8",
+        "bookSourceType": 3,
+        "bookSourceUrl": "https://m.zei8.vip",
+        "customOrder": 1,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "东方玄幻::/xuanhuan/<,index_{{page}}.html>\n传统武侠::/chuantongwuxia/<,index_{{page}}.html>\n恐怖惊悚::/kongbujing/<,index_{{page}}.html>\n现代都市::/xiandaidushi/<,index_{{page}}.html>\n人物传记::/renwuchuanji/<,index_{{page}}.html>\n网游动漫::/wangyoudongman/<,index_{{page}}.html>\n军事历史::/junshilishi/<,index_{{page}}.html>\n热点资源::/redianziyuan/<,index_{{page}}.html>\n西方奇幻::/xifangqihuan/<,index_{{page}}.html>\n仙侠修真::/xianxiaxiuzhen/<,index_{{page}}.html>\n侦探推理::/zhentantuili/<,index_{{page}}.html>\n经典科幻::/jingdiankehuan/<,index_{{page}}.html>\n名著杂志::/mingzhuzazhi/<,index_{{page}}.html>\n历史穿越::/lishichuanyue/<,index_{{page}}.html>\n传统言情::/chuantongyanqing/<,index_{{page}}.html>\n都市社会::/dushishehui/<,index_{{page}}.html>\n幻想现言::/huanxiangxianyan/<,index_{{page}}.html>\n耽美百合::/danmeibaihe/<,index_{{page}}.html>",
+        "lastUpdateTime": 1686895632299,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".xza@p.0@text",
+            "coverUrl": ".js@img@src",
+            "downloadUrls": ".down@a@href<js>java.ajax(result)\n</js>.downfile@a@href",
+            "intro": ".js@textNodes",
+            "kind": ".xza@li@text",
+            "name": ".wp3@a.-1@text"
+        },
+        "ruleContent": [],
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "ul@li",
+            "bookUrl": "a@href",
+            "coverUrl": "",
+            "kind": "span@text",
+            "name": "a@text"
+        },
+        "ruleToc": [],
+        "searchUrl": "/e/search/index.php,{\n  \"body\": \"keyboard={{key}}&show=title,softwriter&tbname=download&tempid=1\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

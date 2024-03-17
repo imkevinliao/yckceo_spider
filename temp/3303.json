@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceName": "妈妈小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.momxs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"重生\",\"url\":\"http://m.momxs.com/momclass.asp?id=12&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"http://m.momxs.com/momclass.asp?id=4&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越\",\"url\":\"http://m.momxs.com/momclass.asp?id=11&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"http://m.momxs.com/momclass.asp?id=1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异\",\"url\":\"http://m.momxs.com/momclass.asp?id=17&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"总裁\",\"url\":\"http://m.momxs.com/momclass.asp?id=25&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"竞技\",\"url\":\"http://m.momxs.com/momclass.asp?id=10&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"http://m.momxs.com/momclass.asp?id=16&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"官场\",\"url\":\"http://m.momxs.com/momclass.asp?id=13&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"乡村\",\"url\":\"http://m.momxs.com/momclass.asp?id=21&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"http://m.momxs.com/momclass.asp?id=9&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"架空\",\"url\":\"http://m.momxs.com/momclass.asp?id=14&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"短篇\",\"url\":\"http://m.momxs.com/momclass.asp?id=22&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"热门\",\"url\":\"http://m.momxs.com/momclass.asp?id=24&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"http://m.momxs.com/momclass.asp?id=2&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"名著\",\"url\":\"http://m.momxs.com/momclass.asp?id=20&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠\",\"url\":\"http://m.momxs.com/momclass.asp?id=3&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情\",\"url\":\"http://m.momxs.com/momclass.asp?id=5&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"军事\",\"url\":\"http://m.momxs.com/momclass.asp?id=8&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}},{\"title\":\"耽美\",\"url\":\"http://m.momxs.com/momclass.asp?id=15&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1682948661013,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "span.8@text",
+            "coverUrl": ".pic@img@src",
+            "intro": "div.novelinfo@text",
+            "kind": ".jie@a.0@text",
+            "name": "li.selected@a@text",
+            "wordCount": ".jie@span.1@text"
+        },
+        "ruleContent": {
+            "content": "div.novelinfvie@html",
+            "imageStyle": "TEXT"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.1@text##时间:\\d+/\\d+/\\d+",
+            "bookList": "div.booklist_a@li",
+            "bookUrl": "a@href",
+            "coverUrl": ".img@img@src",
+            "intro": ".intro@text",
+            "kind": "",
+            "name": ".main@a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".sso_a@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}"
+        },
+        "searchUrl": "http://m.momxs.com/search.asp?word={{key}}&page={{page}},{\n  \"charset\": \"gb2312\"}",
+        "weight": 0
+    }
+]

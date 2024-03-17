@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "需登录",
+        "bookSourceGroup": "",
+        "bookSourceName": "米国度",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.myrics.com/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部::https://api.myrics.com/v1/ranking/novels-by-view-count?page={{page}}&per_page=40&type=THIS_MONTH\nBL完结::https://api.myrics.com/v1/ranking/finished-novels?page={{page}}&per_page=40&section=BL&order=BY_VIEW_COUNT",
+        "header": "",
+        "lastUpdateTime": 1607925141978,
+        "loginUrl": "https://m.myrics.com/signin",
+        "ruleBookInfo": {
+            "intro": "class.section__content__text",
+            "tocUrl": "https://api.myrics.com/v1/novels/@get:{id}/chapters?page=1&per_page=2000"
+        },
+        "ruleContent": {
+            "content": "@css:div[class~=style_chapter__content]@html"
+        },
+        "ruleExplore": {
+            "author": "$..pen_name",
+            "bookList": "$..items[*]",
+            "bookUrl": "https://m.myrics.com/novels/@get:{id}",
+            "coverUrl": "$.cover_image",
+            "intro": "$.long_summary",
+            "kind": "$..name",
+            "name": "$.title@put:{id:$.id}"
+        },
+        "ruleSearch": {
+            "author": "$..pen_name",
+            "bookList": "$..items[*]",
+            "bookUrl": "https://m.myrics.com/novels/@get:{id}",
+            "coverUrl": "$.cover_image",
+            "kind": "$..name",
+            "name": "$.title@put:{id:$.id}"
+        },
+        "ruleToc": {
+            "chapterList": "-$..items[*]",
+            "chapterName": "{{$.order}}-{{$.title}}",
+            "chapterUrl": "https://m.myrics.com/novels/{{$.novel_id}}/chapters/{{$.id}}",
+            "isVip": "$.coin",
+            "updateTime": "{{$.published_at}}  💰{{$.coin}}"
+        },
+        "searchUrl": "https://api.myrics.com/v1/novels?q={{key}}&page={{page}}&per_page=20",
+        "weight": 0
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "app,精选",
+        "bookSourceName": "爱趣APP",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api.jspwjx.cn",
+        "customOrder": -213741,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "📖男生📖::\n\n都市::http://statics.rungean.com/static/book/category/16/12/hot/{{page}}.json&&武侠::http://statics.rungean.com/static/book/category/16/10/hot/{{page}}.json&&游戏::http://statics.rungean.com/static/book/category/16/11/hot/{{page}}.json&&玄幻::http://statics.rungean.com/static/book/category/16/13/hot/{{page}}.json&&玄幻好评::http://statics.rungean.com/static/book/category/16/13/praise/{{page}}.json&&玄幻新书::&&历史::http://statics.rungean.com/static/book/category/16/15/hot/{{page}}.json&&奇幻::http://statics.rungean.com/static/book/category/16/17/hot/{{page}}.json&&科幻::http://statics.rungean.com/static/book/category/16/21/hot/{{page}}.json&&灵异::http://statics.rungean.com/static/book/category/16/22/hot/{{page}}.json&&军事::http://statics.rungean.com/static/book/category/16/19/hot/{{page}}.json&&体育::http://statics.rungean.com/static/book/category/16/20/hot/{{page}}.json\n📖女生📖::\n\n悬疑灵异::http://statics.rungean.com/static/book/category/16/26/hot/{{page}}.json\n科幻空间::http://statics.rungean.com/static/book/category/16/25/hot/{{page}}.json\n游戏竞技::http://statics.rungean.com/static/book/category/16/24/hot/{{page}}.json\n浪漫青春::http://statics.rungean.com/static/book/category/16/6/hot/{{page}}.json\n仙侠奇缘::http://statics.rungean.com/static/book/category/16/23/hot/{{page}}.json\n玄幻言情::http://statics.rungean.com/static/book/category/16/7/hot/{{page}}.json\n现代言情::http://statics.rungean.com/static/book/category/16/9/hot/{{page}}.json\n古代言情::http://statics.rungean.com/static/book/category/16/8/hot/{{page}}.json",
+        "lastUpdateTime": 1627042334201,
+        "ruleBookInfo": {
+            "author": "$.name",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "$.categoryName&&$.score&&$.wordNum",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "<js>result</js>"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "$.categoryName&&$.score&&$.wordNum",
+            "lastChapter": "$.chapterName",
+            "name": "$.name",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.data.list",
+            "bookUrl": "<js>\nvar bid=parseInt(java.getString('$.bookId'));\n\nif(!bid>0){\nbid=parseInt(java.getString('$.id'));\n}\njava.put(\"bid\",bid);\nvar subpath=parseInt((1999+bid)/2000);\nvar url=\"http://statics.rungean.com/static/book/zip/\"+subpath+\"/\"+bid+\".zip\";\n//java.log(url)\nresult=url;</js>",
+            "coverUrl": "$.picture",
+            "intro": "$.intro",
+            "kind": "$.categoryName&&$.protagonist",
+            "lastChapter": "$.chapterName",
+            "name": "$.name",
+            "wordCount": "$.wordNum"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\n\n//java.log(\"SSSS\"+baseUrl)\nresult=java.getZipStringContent(baseUrl,\"chapter.json\")\n//java.log(result);\n\n</js>$.data[*]",
+            "chapterName": "$.name",
+            "chapterUrl": "$.content_url"
+        },
+        "searchUrl": "/api/v1/novelsearch?content={{key}}&pageIndex={{page}}&pageSize=20&type=2",
+        "weight": 0
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "31小说网",
+        "bookSourceUrl": "http://www.31xiaoshuo.com",
+        "enable": true,
+        "ruleBookAuthor": "id.info@tag.p.0@text##作.*者：",
+        "ruleBookContent": "id.content@tag.p@text",
+        "ruleBookContentReplace": "",
+        "ruleBookLastChapter": "id.info@tag.a.-1@text",
+        "ruleBookName": "id.info@tag.h1@text",
+        "ruleBookUrlPattern": "",
+        "ruleChapterList": "id.list@tag.a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "",
+        "ruleCoverUrl": "id.fmimg@tag.img@src",
+        "ruleFindUrl": "",
+        "ruleIntroduce": "id.intro@html",
+        "ruleSearchAuthor": "tag.td.3@text",
+        "ruleSearchCoverUrl": "",
+        "ruleSearchIntroduce": "",
+        "ruleSearchKind": "tag.td.0@text&&tag.td.5@text&&tag.td.4@text",
+        "ruleSearchLastChapter": "tag.a.1@text",
+        "ruleSearchList": "id.bookcase_list@tag.tr",
+        "ruleSearchName": "tag.a.0@text",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleSearchUrl": "http://www.31xiaoshuo.com/search.php?keyword=searchKey",
+        "serialNumber": 16,
+        "weight": 0
+    }
+]

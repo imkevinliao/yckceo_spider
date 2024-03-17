@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "有google的网址不清楚是否需要加速器",
+        "bookSourceGroup": "小說",
+        "bookSourceName": "半夏",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.banxia.co/",
+        "bookUrlPattern": "https://cse.google.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻言情::https://www.banxia.co/list/1_1.html\n仙俠言情::https://www.banxia.co/list/2_1.html\n現代情感::https://www.banxia.co/list/3_1.html\n古裝迷情::https://www.banxia.co/list/4_1.html\n穿越重生::https://www.banxia.co/list/5_1.html\n網游科幻::https://www.banxia.co/list/6_1.html\nBG同人::https://www.banxia.co/list/7_1.html\n台灣言情::https://www.banxia.co/list/8_1.html\n其他言情::https://www.banxia.co/list/9_1.html\n耽美同人::https://www.banxia.co/list/10_1.html\n恐怖推理::https://www.banxia.co/list/11_1.html\n文學名著::https://www.banxia.co/list/12_1.html\n男頻熱文::https://www.banxia.co/list/13_1.html",
+        "lastUpdateTime": 1665307790738,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "tag.p.0@id.a@text",
+            "coverUrl": "class.book-img@tag.img@src",
+            "init": "class.book-intro clearfix",
+            "intro": "class.describe-html@html",
+            "kind": "tag.p.1@text##類型︰##",
+            "lastChapter": "tag.p.4@id.a@text",
+            "name": "tag.h1.0"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html##<div class=\"google-auto-placed ap_container\".+</div>##"
+        },
+        "ruleExplore": {
+            "author": "tag.span@text",
+            "bookList": "class.pop-book2",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "name": "tag.a.0@title"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.gs-webResult gs-result",
+            "bookUrl": "class.gs-title@data-ctorig",
+            "coverUrl": "class.gs-image@src",
+            "intro": "class.gs-bidi-start-align gs-snippet@text",
+            "name": "class.gs-title.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book-list clearfix@tag.li",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://cse.google.com/cse?ie=utf8s&q={{key}}&cx=221ebbd82f26933f6&start={{(page-1)*10}},{\n    \"webView\" : true\n}",
+        "weight": 0
+    }
+]

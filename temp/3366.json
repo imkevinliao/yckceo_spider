@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "悠悠看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.uuks5.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/xuanhuan/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"武侠小说\",\"url\":\"/wuxia/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市小说\",\"url\":\"/dushi/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"历史小说\",\"url\":\"/lishi/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"游戏小说\",\"url\":\"/youxi/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻小说\",\"url\":\"/kehuan/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"恐怖小说\",\"url\":\"/kongbu/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他小说\",\"url\":\"/qita/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1684048231158,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.p_author@text",
+            "coverUrl": "id.bookimg@img@src",
+            "init": "",
+            "intro": "id.bookintro@text",
+            "kind": "id.count@text",
+            "name": "h1.1@text"
+        },
+        "ruleContent": {
+            "content": "#TextContent@html"
+        },
+        "ruleExplore": {
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-src",
+            "intro": "class.book_des@text",
+            "kind": "span@text",
+            "lastChapter": "class.book_other@tag.a@text",
+            "name": "h3@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "id.nr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-src",
+            "intro": "class.book_des@text",
+            "kind": "span@text",
+            "lastChapter": "class.book_other@tag.a@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.lazyrender",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.uuks5.com/s.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

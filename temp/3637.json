@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceGroup": "111",
+        "bookSourceName": "一二中文|三七中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.12zw.net",
+        "bookUrlPattern": "",
+        "customOrder": -2086087388,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1687569972627,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p.1@",
+            "coverUrl": "class.imgbox@tag.img@src##(.*)(.*)##https://www.777zw.cc$1$2###(.*)jpg(.*)####$1jpg",
+            "intro": "class.detail-box@tag.div.2@text##(.*)简介(.*)##$2",
+            "name": "tag.h2@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html##.*\\n.*精校小说.*\\n.*.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a.0@text##(.*)作者：(.*)##$2",
+            "bookList": "class.result_ul@tag.li&&class.result_ul@tag.li.1",
+            "bookUrl": "tag.a.0@href",
+            "intro": "tag.li@text##(.*)简介(.*)##$2",
+            "kind": "",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book-item",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.12zw.net/s/so.php?type=articlename&s={{key}}",
+        "weight": 0
+    }
+]

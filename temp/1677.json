@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceUrl": "http://www.wucuoxs.org/",
+        "bookSourceType": "0",
+        "bookSourceName": "大文学wucuoxs.org",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.wucuoxs.org/modules/article/search.php?keyword={{key}},{\n  \"charset\":\"utf-8\"\n}",
+        "exploreUrl": "玄幻::http://www.wucuoxs.org/fenlei2/\n奇幻::http://www.wucuoxs.org/fenlei3/\n武侠::http://www.wucuoxs.org/fenlei4/\n仙侠::http://www.wucuoxs.org/fenlei5/\n都市::http://www.wucuoxs.org/fenlei6/\n历史::http://www.wucuoxs.org/fenlei7/\n军事::http://www.wucuoxs.org/fenlei8/\n游戏::http://www.wucuoxs.org/fenlei9/\n科幻::http://www.wucuoxs.org/fenlei10/\n女生::http://www.wucuoxs.org/fenlei1/\n其他::http://www.wucuoxs.org/fenlei11/",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1633760821366,
+        "ruleSearch": {
+            "bookList": "class.novelslist2@tag.ul@tag.li!0",
+            "name": "class.s2@tag.a@text",
+            "author": "class.s4@text",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@tag.a@text",
+            "bookUrl": "class.s2@tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.l@tag.ul@tag.li",
+            "name": "class.s2@tag.a@text",
+            "author": "class.s5@text",
+            "lastChapter": "class.s3@text",
+            "bookUrl": "class.s2@tag.a@href"
+        },
+        "ruleBookInfo": {
+            "name": "id.info@tag.h1@text",
+            "author": "id.info@tag.p.0@text##作    者：##",
+            "intro": "id.intro@tag.p.0@text",
+            "coverUrl": "id.fmimg@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11:12:13:14",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        }
+    }
+]

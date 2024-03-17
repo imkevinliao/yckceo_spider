@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "酷友",
+        "bookSourceName": "学笔网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xuebiw.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuan/page_{{page}}.html\n修真小说::/xiuzhen/page_{{page}}.html\n都市小说::/dushi/page_{{page}}.html\n历史小说::/lishi/page_{{page}}.html\n网游小说::/wangyou/page_{{page}}.html\n科幻小说::/kehuan/page_{{page}}.html\n女频小说::/nvpin/page_{{page}}.html",
+        "lastUpdateTime": 1633752721838,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property$=category]@content&&[property$=status]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": "[property$=update_time]@content"
+        },
+        "ruleContent": {
+            "content": "id.BookText@textNodes",
+            "nextContentUrl": "text.下一页@href##$##,{'webView':true}"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "span.col3@a@text",
+            "bookList": "class.gengxin@li",
+            "bookUrl": "span.col1@a@href",
+            "lastChapter": "span.col2@a@text",
+            "name": "span.col1@a@text",
+            "wordCount": "span.col4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapterlist.1@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView':true}"
+        },
+        "searchUrl": "https://www.xuebiw.com/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+        "weight": 0
+    }
+]

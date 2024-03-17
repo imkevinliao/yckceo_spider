@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "中信小说123",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.zxxs123.com",
+        "bookUrlPattern": "https?://m.zxxs123.com/zx/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/\n修真小说::/xiuzhenxiaoshuo/\n都市小说::/dushixiaoshuo/\n历史小说::/lishixiaoshuo/\n网游小说::/wangyouxiaoshuo/\n科幻小说::/kehuanxiaoshuo/\n言情小说::/yanqingxiaoshuo/\n其他小说::/qitaxiaoshuo/\n完结小说::/wanben/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1697709323004,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者：@text##作者：",
+            "coverUrl": ".block_img2 img@src",
+            "intro": ".intro_info@text",
+            "kind": "{{@text.分类：@text}}\n{{@text.状态：@text}}\n{{@text.更新：@text}}\n##分类：|状态：|更新：",
+            "lastChapter": "text.最新@a@text",
+            "name": "h2@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一@href\n@js:\n/_/.test(result)?result:\"\"",
+            "replaceRegex": "##(w|m).*com"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@ownText",
+            "kind": "0",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://m.zxxs123.com/search.php?keyword={{key}}&submit=",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☁️可用,☁参照组,☣️精选senhora",
+        "bookSourceName": "📜 南山书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.szyangxiao.com",
+        "bookUrlPattern": "",
+        "customOrder": -88962031,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "       总           收           藏         榜           ::/top/goodnum/{{page}}.shtml\n     最新入库                    ::/top/postdate/{{page}}.shtml\n 点击榜 ::/top/monthvisit/{{page}}.shtml\n     最近更新                    ::/top/lastupdate/{{page}}.shtml\n 推荐榜 ::/top/monthvote/{{page}}.shtml\n玄幻::/list/1_{{page}}.shtml\n修真::/list/2_{{page}}.shtml\n都市::/list/3_{{page}}.shtml\n历史::/list/4_{{page}}.shtml\n游戏::/list/5_{{page}}.shtml\n科幻::/list/6_{{page}}.shtml\n言情::/list/7_{{page}}.shtml\n同人::/list/8_{{page}}.shtml\n灵异::/list/9_{{page}}.shtml\n奇幻::/list/10_{{page}}.shtml\n竞技::/list/11_{{page}}.shtml\n武侠::/list/12_{{page}}.shtml\n军事::/list/13_{{page}}.shtml\n校园::/list/14_{{page}}.shtml\n官场::/list/15_{{page}}.shtml\n商战::/list/16_{{page}}.shtml\n职场::/list/17_{{page}}.shtml\n二次元::/list/18_{{page}}.shtml\n其他::/list/0_{{page}}.shtml",
+        "lastUpdateTime": 1644663851265,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.wrapper@tag.p@tag.a.0@text",
+            "intro": "@js:'<br>'+java.get('intro')",
+            "name": "class.wrapper@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.-1@href@js:\nresult=java.ajax('https:'+result);\nvar author=result.match(/作者是([^，]*)/);\nvar tag=result.match(/类型是([^，]*)/);\nvar cover=result.match(/src=\"([^\"]*?jpg)/);\nvar intro=result.match(/<br>([^<]*)/);\njava.put('tag',(tag) ? tag[1]:'');\njava.put('cover',(cover) ? cover[1]:'');\njava.put('intro',(intro) ? intro[1]:'');\n(author) ? author[1]:'';",
+            "bookList": "[class=nav clearfix] span:lt(35)",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "天煞孤星",
+            "coverUrl": "@js:java.get('cover')",
+            "intro": "@js:java.get('intro')",
+            "kind": "tag.a.0@text@js:java.get('tag')",
+            "lastChapter": "##<\\/a>：([^<]+?)<\\/span>##$1###",
+            "name": "tag.a.-1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.nav clearfix@span!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "http://www.bixia66.org/xs/110/110156/",
+        "bookSourceName": "笔下文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bixia66.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1672988099043,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info2@h3@a@text",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.info2@tag.div.0@p@textNodes",
+            "kind": "class.info3@tag.p.0@text##(小说类别：|/ 写作状态：)##,",
+            "lastChapter": "class.info3@tag.a.-1@text&&id.lastupdate@text##\\n##•",
+            "name": "class.info2@h1@text"
+        },
+        "ruleContent": {
+            "content": "class.content-ext@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "//dd[2]/text()",
+            "bookList": "//tr",
+            "bookUrl": "//dt/a/@href",
+            "coverUrl": "//img/@src",
+            "kind": "//dd[2]/span/text()",
+            "lastChapter": "",
+            "name": "//h3/a/text()"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-charts.1@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

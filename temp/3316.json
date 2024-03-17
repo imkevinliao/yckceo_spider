@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "搜索间隔10秒，过快容易宕机",
+        "bookSourceGroup": "自制,笔趣,源仓库,网页源",
+        "bookSourceName": "笔趣阁5200",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.biquge5200.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/sort-1-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠小说\",\"url\":\"/sort-2-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/sort-3-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史小说\",\"url\":\"/sort-4-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏小说\",\"url\":\"/sort-5-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/sort-6-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情小说\",\"url\":\"/sort-7-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人小说\",\"url\":\"/sort-8-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异小说\",\"url\":\"/sort-9-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"奇幻小说\",\"url\":\"/sort-10-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"竞技小说\",\"url\":\"/sort-11-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠小说\",\"url\":\"/sort-12-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"军事小说\",\"url\":\"/sort-13-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"校园小说\",\"url\":\"/sort-14-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"官场小说\",\"url\":\"/sort-15-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1683203425757,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@p.2@text",
+            "coverUrl": "img@src",
+            "downloadUrls": "text.合集下载@href",
+            "intro": "class.intro_info@text",
+            "kind": ".block_txt2@p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2@p.6@text##最新：",
+            "name": "h2@text",
+            "tocUrl": "text.查看目录@href##(\\/)(?!.*\\1)##_1/"
+        },
+        "ruleContent": {
+            "content": "class.text@p@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##【在阅读模式.*后点击下一页阅读。】"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": "<js>page=result.match(/\\(第\\d+\\/(\\d+)页\\)当前\\d+条\\/页/)[1];\nlist=[];for(i=2;i<=page;i++){list.push(baseUrl.replace(/_1/,'_'+i))}\nlist</js>##$##,{'webView': true}"
+        },
+        "searchUrl": "/modules/article/waps.php?keyword={{key}}&pn={{page}}##$##,{'webView': true}",
+        "weight": 0
+    }
+]

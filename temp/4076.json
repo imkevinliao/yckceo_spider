@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "\nsource是线路\n15书源N\n14书源B\n16书源C\n6书源D\n5书源E\n1书源A",
+        "bookSourceGroup": "",
+        "bookSourceName": "聚小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.juxiaoshuo.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/page/category/xuan_huan\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"奇幻\",\"url\":\"/page/category/qi_huan\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"仙侠\",\"url\":\"/page/category/xian_xia\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/page/category/wu_xia\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/page/category/li_shi\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"/page/category/du_shi\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/page/category/ke_huan\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"悬疑\",\"url\":\"/page/category/xuan_yi\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"游戏\",\"url\":\"/page/category/you_xi\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"全本\",\"url\":\"/page/category/quan_ben\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1694800297270,
+        "loginUi": "",
+        "loginUrl": "https://www.juxiaoshuo.net/page/login",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "init": "",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##\\s\\d.*",
+            "lastChapter": "[property$=latest_chapter_name]@content##正文卷.|正文.|VIP章节.|免费章节.|VIP卷.|默认卷.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加].*?[】）\\)]",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "nextContentUrl": "text.下一@href"
+        },
+        "ruleExplore": {
+            "author": "dt@span@text",
+            "bookList": ".item",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "name": "dt@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text##.*：",
+            "bookList": ".bookbox",
+            "bookUrl": "a@href",
+            "coverUrl": ".bookimg@img@src",
+            "intro": "",
+            "kind": "0",
+            "lastChapter": ".uptime@text##.*：",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/page/search?query={{key}}&source=15",
+        "weight": 0
+    }
+]

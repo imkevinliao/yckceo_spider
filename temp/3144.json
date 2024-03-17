@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceGroup": "SSS",
+        "bookSourceName": "🐶元尊小说网②",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yuanzun888.com②   ",
+        "bookUrlPattern": "",
+        "customOrder": 262,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text!(?=.).*?(?=：)",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@tag.p.0@text",
+            "name": "id.info@tag.h1.0@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##天才一秒记住本站.*|http.*com.*html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.bookinfo@class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "class.bookimg@tag.a@tag.img@src",
+            "lastChapter": "class.bookinfo@class.update@tag.a.0@text",
+            "name": "class.bookinfo@tag.a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@tag.dl@tag.dd!0:1:2:3:4:5",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.yuanzun888.com/s.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

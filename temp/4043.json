@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "网站关闭了搜索，仅发现",
+        "bookSourceGroup": "💡 仅发现",
+        "bookSourceName": "逆天邪神[93x]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.93xscc.com/book",
+        "customOrder": -2085979065,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "逆天邪神::@js: page == 1 ? 'https://www.93xscc.com/book/': 'https://www.93xscc.com/book/index_{{page}}.html' ",
+        "header": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko\"\n}",
+        "lastUpdateTime": 1694366306571,
+        "respondTime": 180776,
+        "ruleBookInfo": {
+            "author": "class.m-infos@span.0@text",
+            "coverUrl": "class.doc-info-img@src",
+            "intro": ".m-book_info@tag.p@text",
+            "kind": "class.m-infos@span.1@text##状态：",
+            "lastChapter": "class.m-upd@href",
+            "name": "class.m-infos@h1@text",
+            "tocUrl": "class.line3@href",
+            "wordCount": "class.m-infos@span.2@text##日期："
+        },
+        "ruleContent": {
+            "content": "id.content@p@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##如果.*?阅读.*?阅读"
+        },
+        "ruleExplore": {
+            "author": "class.col-md-4@text",
+            "bookList": "tag.table@tag.tbody@tag.tr",
+            "bookUrl": "a@href",
+            "intro": ".col-md-3@text",
+            "name": "a@title"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.col-md-2 col-sm-4 col-xs-4@text",
+            "bookList": "tbody@tr",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "全球高考",
+            "kind": "class.col-md-2 hidden-sm hidden-xs@text",
+            "name": "class.col-md-4 col-sm-8 col-xs-8@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.line3",
+            "chapterName": "class.line3@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/e/search/index.php,{\"charset\":\"utf-8\",\"method\":\"post\",\"body\":\"tbname=bookname&show=title,writer&tempid=1&keyboard={{key}}\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\",\"Referer\":\"https://www.93xscc.com\"},\"webView\":true}",
+        "weight": 0
+    }
+]

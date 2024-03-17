@@ -1,0 +1,39 @@
+[
+    {
+        "searchUrl": "/s.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+        "lastUpdateTime": 1666875789991,
+        "ruleToc": {
+            "chapterList": "#chapterlist@p!0",
+            "chapterUrl": "a@href",
+            "chapterName": "a@text"
+        },
+        "bookSourceUrl": "https://m.biquxs.la",
+        "bookSourceType": 0,
+        "bookSourceName": "必读小说",
+        "ruleSearch": {
+            "bookList": ".hot_sale ",
+            "name": ".title@text",
+            "lastChapter": ".author.1@a@text",
+            "author": ".author.0@a@text",
+            "wordCount": ".author.1@text##\\s.*",
+            "bookUrl": ".title@a@href",
+            "kind": ".author.0@text##\\s.*",
+            "coverUrl": ".title@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/) [1];\nvar iid = parseInt(id/1000);\n'https://www.biquxs.la/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "checkKeyWord": ""
+        },
+        "ruleBookInfo": {
+            "name": ".title@text",
+            "author": ".author@a.1@text",
+            "kind": ".sort@text##类别：",
+            "wordCount": ".synopsisArea_detail@p.2@text##状态：",
+            "lastChapter": ".directoryArea@p.0@text",
+            "intro": ".review@text",
+            "coverUrl": ".synopsisArea_detail@img@src",
+            "tocUrl": ".recommend@h2@a@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "replaceRegex": "##.*加入书签.*|.*最新网址.*"
+        }
+    }
+]

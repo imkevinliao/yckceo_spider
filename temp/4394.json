@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "农夫小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.nfxs.com",
+        "bookUrlPattern": "https?://m.nfxs.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "穿越架空::/chuanyue/\n都市言情::/dushi/\n玄幻魔法::/xuanhuan/\n武侠修真::/wuxia/\n历史军事::/lishi/\n游戏动漫::/youxi/\n科幻灵异::/kehuan/\n综合其他::/zonghe/\n全本完本::/quanben/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698971551404,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#nr1@html"
+        },
+        "ruleExplore": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@ownText",
+            "kind": "0",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@ownText##.*\\/",
+            "bookList": "p.line",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": "p@ownText##\\[|\\].*",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/so/,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

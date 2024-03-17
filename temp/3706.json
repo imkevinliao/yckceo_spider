@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "欢欢中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.huanhuanzw.com",
+        "bookUrlPattern": "http.*huanhuanzw.com/book.+html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1<,/{{page}}.html>\n武侠修真::/sort/2<,/{{page}}.html>\n都市言情::/sort/3<,/{{page}}.html>\n历史军事::/sort/4<,/{{page}}.html>\n网游动漫::/sort/6<,/{{page}}.html>\n科幻小说::/sort/7<,/{{page}}.html>\n恐怖灵异::/sort/8<,/{{page}}.html>\n其他类型::/sort/10<,/{{page}}.html>",
+        "header": "{   \"connection\": \"keep-alive\",\n    \"cache-control\": \"max-age=0\",\n    \"upgrade-insecure-requests\": \"1\",\n    \"origin\": \"{{source.getKey()}}\",\n    \"content-type\": \"application/x-www-form-urlencoded\",\n    \"accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\",\n    \"x-requested-with\": \"XMLHttpRequest\",\n    \"sec-fetch-site\": \"same-origin\",\n    \"sec-fetch-mode\": \"navigate\",\n    \"sec-fetch-user\": \"?1\",\n    \"sec-fetch-dest\": \"document\",\n    \"referer\": \"{{source.getKey()}}/\",\n    \"accept-language\": \"zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7\"}",
+        "lastUpdateTime": 1688864179270,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h5@text",
+            "bookList": "class.media clearfix",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "p@text",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list-group@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.huanhuanzw.com/search.php?search={{key}}",
+        "weight": 0
+    }
+]

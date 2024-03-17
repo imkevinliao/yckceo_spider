@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceGroup": "爱猫小说书源合集",
+        "bookSourceName": "蚂蚁阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.imayitxt.com",
+        "bookUrlPattern": "",
+        "customOrder": 35,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/sort/1/1.html\n仙侠::/sort/2/1.html\n都市::/sort/3/1.html\n历史::/sort/4/1.html\n军事::/sort/5/1.html\n灵异::/sort/6/1.html\n科幻::/sort/7/1.html\n游戏::/sort/8/1.html\n现言::/sort/9/1.html\n古言::/sort/10/1.html\n穿越::/sort/11/1.html\n青春::/sort/12/1.html\n豪门总裁::/sort/14/1.html\n耽美同人::/sort/15/1.html\n其他类型::/sort/13/1.html",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.author.0@text",
+            "coverUrl": "class.book_left@tag.img@src",
+            "intro": "class.intro@text",
+            "name": "class.book_name@tag.h1@text",
+            "tocUrl": "class.button_list@tag.a.2@href"
+        },
+        "ruleContent": {
+            "content": "class.page-content@textNodes##免费小说，无弹窗小说网，txt下载，请记住蚂蚁阅读网www.mayitxt.com|\\*\\*\\*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text||tag.span@text",
+            "bookList": "class.bd@tag.tr!0||class.BOX@tag.tr!0",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.a.1@href\n<js>\nvar id = result.match(/\\/(\\d+).*/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "class.tag@text||tag.a.0@text##\\[(.*)\\]##$1",
+            "lastChapter": "class.chapter@text##正文(\\s+|_)|[\\(（【].*[求更谢乐发推].*[】）\\)]",
+            "name": "class.red@text||tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.float-list fill-block@tag.li",
+            "chapterName": "tag.a@text##正文(\\s+|_)|[\\(（【].*[求更谢乐发推].*[】）\\)]",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/modules/article/search.php?q={{key}}&searchtype=all,{\n  \"charset\": \"utf-8\"\n}",
+        "weight": 0
+    }
+]

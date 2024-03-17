@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "重生小说吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.86kl.com",
+        "bookUrlPattern": "",
+        "customOrder": -292886,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1636291726148,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[name=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[name=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "@css:[name=\"og:novel:book_name\"]@content",
+            "wordCount": "class.blue.0@text##字数："
+        },
+        "ruleContent": {
+            "content": "html",
+            "imageStyle": "",
+            "nextContentUrl": "",
+            "replaceRegex": "##记住我们的网址.*?com"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "tag.tbody@tag.tr!0",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.86kl.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "class.even.2@text",
+            "lastChapter": "class.even.0@tag.a.0@text",
+            "name": "class.odd.0@tag.a.0@text",
+            "wordCount": "class.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapterlist@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href##(\\d+).html##$1###\n@js:\nid=baseUrl.match(/book\\/(\\d+)/)[1];\ncid=baseUrl.match(/book\\/\\d+\\/(\\d+)/)[1];\nurl='https://www.86kl.com/t/t.php?id=/'+id+'&id='+cid+'&qid='+result+'&page=0'"
+        },
+        "searchUrl": "https://www.86kl.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

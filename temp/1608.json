@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceName": "115文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.115wx.cc/",
+        "customOrder": -2085958798,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄  幻::http://m.115wx.cc/xuanhuan/\n仙  侠::http://m.115wx.cc/xianxia/\n都  市::http://m.115wx.cc/dushi/\n历  史::http://m.115wx.cc/lishi/\n科  幻::http://m.115wx.cc/kehuan/\n恐  怖::http://m.115wx.cc/kongbu/\n其  他::http://m.115wx.cc/qita/\n全  本::http://m.115wx.cc/quanben/",
+        "lastUpdateTime": 1668644396659,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.qtxx@a@text",
+            "coverUrl": "img.0@src",
+            "intro": "class.book_desc@text",
+            "kind": "class.qtxx@p.1@text",
+            "lastChapter": "class.creat_time@text",
+            "name": "class.book_inf@h3@text",
+            "tocUrl": "text.更多章节@href",
+            "wordCount": "class.qtxx@p.2@text"
+        },
+        "ruleContent": {
+            "content": "id.rd-txt@p@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "intro": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book-meta-l@text",
+            "bookList": "class.book-li",
+            "bookUrl": "class.book-li@a@href",
+            "checkKeyWord": "唯一救世者",
+            "coverUrl": "div@img@src",
+            "intro": "class.book-intro@text",
+            "kind": "class.sk_b_span@textNodes",
+            "lastChapter": "class.blue@text",
+            "name": "class.book-cell@h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.mulu_uld@li",
+            "chapterName": "h3@text##>",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://m.115wx.cc/search?keyword={{key}},{\n  \"method\": \"POST\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

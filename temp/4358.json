@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceName": "何所忆中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.baokuzw.com",
+        "customOrder": -794,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1/{{page}}.html\n武侠修真::/sort/2/{{page}}.html\n都市言情::/sort/3/{{page}}.html\n历史军事::/sort/4/{{page}}.html\n网游动漫::/sort/6/{{page}}.html\n科幻小说::/sort/7/{{page}}.html\n恐怖灵异::/sort/8/{{page}}.html\n其他类型::/sort/10/{{page}}.html",
+        "lastUpdateTime": 1698530288300,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.mb-3.1@text",
+            "coverUrl": "img@src",
+            "intro": "class.bookintro@text",
+            "kind": "class.mb-3.0@text##分类：",
+            "name": "class.float-right pl-3 pt-1 col-8@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": "text.下一页@href",
+            "title": "id.content@tag.h1@text"
+        },
+        "ruleExplore": {
+            "author": "tag.h5@text",
+            "bookList": "class.col-12 col-sm-6",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "tag.p@text",
+            "kind": "",
+            "name": "tag.a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "class.list-group-item",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

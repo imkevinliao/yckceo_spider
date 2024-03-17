@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "乐安小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.leanclo.com",
+        "bookUrlPattern": "https://m.leanclo.com/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "都市::/fenlei/5619.html,{'webView': true}\n总裁::/fenlei/5620.html,{'webView': true}\n婚恋::/fenlei/5621.html,{'webView': true}\n异能::/fenlei/5622.html,{'webView': true}\n古言::/fenlei/5623.html,{'webView': true}\n穿越::/fenlei/5624.html,{'webView': true}\n玄幻::/fenlei/5625.html,{'webView': true}\n幻想::/fenlei/5626.html,{'webView': true}\n历史::/fenlei/5627.html,{'webView': true}\n仙侠::/fenlei/5628.html,{'webView': true}\n游戏::/fenlei/5629.html,{'webView': true}\n科幻::/fenlei/5630.html,{'webView': true}\n短篇::/fenlei/5631.html,{'webView': true}\n现言::/fenlei/5632.html,{'webView': true}\n校园::/fenlei/5633.html,{'webView': true}\n耽美::/fenlei/5634.html,{'webView': true}\n其它::/fenlei/5635.html,{'webView': true}",
+        "header": "{\n\t\"x-requested-with\": \"mark.via\",\"referer\": \"https://m.leanclo.com/\",\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"\n\t}",
+        "lastUpdateTime": 1688270726527,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.完整章节列表@href##$##,{'webView': true}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".booklist",
+            "bookUrl": "a@href##$##,{'webView': true}",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro@text##简介：",
+            "kind": "0",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist@p!0:-1",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}"
+        },
+        "searchUrl": "https://m.leanclo.com/search?keys={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

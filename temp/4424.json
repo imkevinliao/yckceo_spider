@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "//搜索有间隔20秒，搜不到重新登录即可",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "精英小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.jyyxs.com",
+        "bookUrlPattern": "https?://www.jyyxs.com/[\\d_]+/",
+        "customOrder": 5,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/list/lastupdate_0_0_0_{{page}}.html\n玄幻修真::/list/lastupdate_1_0_0_{{page}}.html\n重生穿越::/list/lastupdate_2_0_0_{{page}}.html\n都市小说::/list/lastupdate_3_0_0_{{page}}.html\n军史小说::/list/lastupdate_4_0_0_{{page}}.html\n网游小说::/list/lastupdate_5_0_0_{{page}}.html\n科幻小说::/list/lastupdate_6_0_0_{{page}}.html\n灵异小说::/list/lastupdate_7_0_0_{{page}}.html\n言情小说::/list/lastupdate_8_0_0_{{page}}.html\n其他小说::/list/lastupdate_9_0_0_{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1699540818724,
+        "loginUrl": "https://www.jyyxs.com/login.html",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.章节目录@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": ".txt@html",
+            "nextContentUrl": "text.下章@href\n@js:\n/_/.test(result)?result:\"\""
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".sort_list li",
+            "bookUrl": "a@href",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "lastChapter": "a@title##最新章节：",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s5@text",
+            "bookList": ".sort_list li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": "0",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search.html,{\n  \"body\": \"s={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "橘色书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ya49.com",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/xclass/0/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"玄幻\",\"url\":\"/xclass/1/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"仙侠\",\"url\":\"/xclass/2/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市\",\"url\":\"/xclass/3/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"穿越\",\"url\":\"/xclass/4/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻\",\"url\":\"/xclass/5/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"网游\",\"url\":\"/xclass/6/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"精品\",\"url\":\"/xclass/7/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
+        "lastUpdateTime": 1664021626252,
+        "respondTime": 4424,
+        "ruleBookInfo": {
+            "author": "p.author@text",
+            "coverUrl": ".synopsisArea_detail@img@src",
+            "intro": "p.review@html##尒説.*",
+            "kind": "p.sort@text&&.synopsisArea_detail@p:nth-of-type(2)@text&&.synopsisArea_detail@p:nth-of-type(4)@text##类别：|状态：|更新：",
+            "lastChapter": ".directoryArea@p.0@a@text",
+            "name": "span@text",
+            "tocUrl": "h2:nth-of-type(2)@a@href"
+        },
+        "ruleContent": {
+            "content": "div.Readarea@html",
+            "replaceRegex": "##\\s*『加入书签，方便阅读』"
+        },
+        "ruleExplore": {
+            "author": "p.author@text",
+            "bookList": "div.hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "a@img.lazy@data-original",
+            "intro": "p.review@html##简介：|尒説.*",
+            "name": "p.title@text"
+        },
+        "ruleSearch": {
+            "author": "p:nth-of-type(2)@text##.*作者：|/s",
+            "bookList": "div.hot_sale:nth-of-type(n+2)",
+            "bookUrl": "a@href",
+            "kind": "p:nth-of-type(2)@text&&p:nth-of-type(3)@text##作者.*|更新.*|[|]|\\s*",
+            "lastChapter": "p:nth-of-type(3)@text##.*更新：",
+            "name": "p.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "p:nth-of-type(n+2)@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s.php,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}&t=1\"\n}",
+        "weight": 0
+    }
+]

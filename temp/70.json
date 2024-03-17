@@ -1,0 +1,26 @@
+[
+    {
+        "bookSourceComment": "想用百度搜索给那些没有搜索或搜索不能使用的网站，但百度搜索试了半天，都不能在软件上搜到，我又去试了搜狗和360两个搜索引擎，搜狗的PC版几乎除了书名就没信息了，手机版信息多点，但没成功；360的成功了，但可能频繁测试，容易禁ip一段时间\nhttps://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=site:yuanzunxs.cc {{key}}&pn={{(page-1)*10}}&fenlei=256&rsv_pq=0xedd15f10000387e7&rsv_t=1e4d0x1LQ77Nu48W8q%2B1KrUi0ulldrYTDJ0YqKa6SMI9JxcjmpHWEK9d6sQB&rqlang=en&rsv_enter=1&rsv_dl=tb&rsv_sug3=20&rsv_sug1=12&rsv_sug7=101&rsv_sug2=0&rsv_btype=i&inputT=14443&rsv_sug4=15589",
+        "bookSourceGroup": "自建",
+        "bookSourceName": "有没有人帮忙写下百度搜索的书籍列表规则",
+        "bookSourceType": 0,
+        "bookSourceUrl": "百度搜索测试",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1663907681907,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": [],
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "class.c-result-content",
+            "checkKeyWord": "",
+            "name": "h3@text"
+        },
+        "ruleToc": [],
+        "searchUrl": "https://m.baidu.com/s?word=site:yuanzunxs.cc {{key}}&pn={{(page-1)*10}}&ts=0&t_kt=0&ie=utf-8&rsv_iqid=3600280218&rsv_t=19d7JFnNXk4b%252FPPJ3AvyFVpLyK5Ts%252FELVYirAZjyGRdA3l4wDqY6&sa=ib&rsv_pq=3600280218&rsv_sug4=1663906337252&tj=1&ss=111&inputT=1663906338852&sugid=201658312562515",
+        "weight": 0
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "瑟瑟",
+        "bookSourceName": "幻想小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yilagu.com/##十一",
+        "customOrder": -292857,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1648837254998,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "id.TextContent@html##[\"内容未完，下一页继续阅读\",\"【本章阅读完毕，更多请搜索幻想小说网;阅读更多精彩小说……】,\"https://www.yilagu.com/\",\"&nbsp\",\"(本章完)\"]",
+            "nextContentUrl": "class.mlfy_page@tag.a.2@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author.0@tag.a@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookname@tag.a@href",
+            "coverUrl": "class.num@tag.a@img@data-original",
+            "intro": "class.update@ownText",
+            "kind": "class.author.1@text",
+            "lastChapter": "class.cat@tag.a@text",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.fulllistall@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.yilagu.com/book/Search.aspx?key={{key}}&action=login&submit=",
+        "weight": 0
+    }
+]

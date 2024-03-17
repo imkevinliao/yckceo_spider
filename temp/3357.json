@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "//同库(一二三读)：https://m.123duw.com\n//同库(博趣中文)：https://m.1bqg.net\n//同库(希望中文)：https://m.5xw.net\n//同库(趣七书屋)：https://m.qu7.net\n//同库(洪都中文)：https://m.nchdzx.com\n//同库(我来读网)：https://m.wolaido.com\n//同库(偶看中文)：https://m.or7.net",
+        "bookSourceGroup": "",
+        "bookSourceName": "⭐同库(无搜索)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "源注释网址",
+        "bookUrlPattern": "https://m\\..*\\.(net|com).*",
+        "coverDecodeJs": "",
+        "customOrder": -2086014613,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "进入书源编辑::\n网址本身发现书籍太少::",
+        "header": " { \"User-Agent\": \"Mozilla/5.0 (Linux; Android 7.1.1) Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1683941124148,
+        "loginUrl": "",
+        "respondTime": 5461,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:title\"]@content"
+        },
+        "ruleContent": {
+            "content": "class.TxtContent@html##\\\"",
+            "nextContentUrl": "text.下—页@href",
+            "replaceRegex": "##\\s*本章没完.*继续阅读！如果被转码.*更换浏揽器即可。\\s*|\\s*.*提醒.*看完记得.*\\s*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dd.1@span.0@text",
+            "bookList": "class.B",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "https://m.nchdzx.com/hd/2598214001/",
+            "coverUrl": "img@src",
+            "intro": ".d2@text##简介：",
+            "kind": "dd.1@span.1@text##更新时间：",
+            "lastChapter": "dd.3@a@text",
+            "name": "dt.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".MLlist li",
+            "chapterName": "a@text",
+            "chapterUrl": "{{@@a@href}},{{String(source.header).replace(/\\}/,',\"webView\":true}')}}"
+        },
+        "searchUrl": "源注释网址，通过书架添加网址，添加书籍网址使用",
+        "weight": 0
+    }
+]

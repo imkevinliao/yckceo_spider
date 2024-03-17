@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "我乐小说",
+        "bookSourceUrl": "http://www.oole.info",
+        "enable": false,
+        "ruleBookContent": "id.content@p@textNodes",
+        "ruleBookLastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "ruleChapterList": "class.mulu_list@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "class.btnlink.0@a@href",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "[property=\"og:image\"]@content",
+        "ruleFindUrl": "最近更新::http://www.oole.info/lastupdate_searchPage.html\n最新入库::http://www.oole.info/postdate_searchPage.html\n总排行榜::http://www.oole.info/allvisit_searchPage.html\n总推荐榜::http://www.oole.info/allvote_searchPage.html\n全部小说::http://www.oole.info/sort_searchPage.html\n玄幻魔法::http://www.oole.info/sort1_searchPage.html\n武侠修真::http://www.oole.info/sort2_searchPage.html\n都市言情::http://www.oole.info/sort3_searchPage.html\n历史军事::http://www.oole.info/sort4_searchPage.html\n网游小说::http://www.oole.info/sort5_searchPage.html\n动漫同人::http://www.oole.info/sort6_searchPage.html\n恐怖小说::http://www.oole.info/sort7_searchPage.html\n科幻小说::http://www.oole.info/sort8_searchPage.html\n灵异小说::http://www.oole.info/sort9_searchPage.html\n其他小说::http://www.oole.info/sort10_searchPage.html",
+        "ruleIntroduce": "[property=\"og:description\"]@content",
+        "ruleSearchAuthor": "class.odd.1@text",
+        "ruleSearchCoverUrl": "a@href<js>'/images'+String(result).replace(/.*?(\\d*?)(\\d{1,3}).html/,'/$1/$1$2.jpg').replace('//','/0/')</js>",
+        "ruleSearchKind": "",
+        "ruleSearchLastChapter": "class.even@a@text",
+        "ruleSearchList": "class.grid@tr!0",
+        "ruleSearchName": "class.odd@a@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://www.oole.info/search/@searchkey=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

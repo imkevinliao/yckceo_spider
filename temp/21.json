@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "验",
+        "bookSourceName": "📝52格格党电脑版",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.52ggd.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1656693795469,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "tag.em.1@text",
+            "coverUrl": ".details@tag.img@src",
+            "init": "",
+            "intro": ".book-intro@text",
+            "kind": ".book-stats@textNodes",
+            "lastChapter": ".details.2@tag.ul@text\n\n<js>result.replace(/.*hapter/,'').replace(/(\\d+)(.*)/,'第$1章$2').replace(/(第)\\s*第(.*)(章)\\s*章/,'$1$2$3').replace(/\\s*(\\D{2,})-/,'$1')</js>##[最后更最新于至状态时间连载中:：已完结]{2,}|求.*(票|\\(.*\\))|.*[目录章节]{2,}[:：]*|[正文]*卷[\\d+]*|\\d{2}:.*|…|[\\(（【】）\\)，。．\\.\\?·\\|、T]+|晋江.*发@js:result.replace(/\\s*(\\D{2,})第(\\d+)章/,'$1$2').replace(/.*(第.*章).*章(.*)/,'$1 $2').replace(/(\\D{2,})(\\d{2,4}\\D\\d{2}(\\D\\d{2})?)/,'$1⌚$2').replace(/\\n/,'⌚').replace(/⌚\\s*(\\d+)*⌚/,'$1⌚').replace(/(第\\d+章\\s*)\\d*\\s*\\d*(.*)(.*)/,'$1$2')",
+            "name": ".details@h1@text",
+            "tocUrl": ".b-orange@href##https://www.52ggd.com/book/\\d+/(\\d+)/index.html##https://m.52ggd.com/xs/$1/###"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html##52格格党",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "tag.i.0@text",
+            "bookList": ".item-pic",
+            "bookUrl": "h3@tag.a@href",
+            "checkKeyWord": "",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.p.2@text",
+            "kind": "tag.i.1@text",
+            "lastChapter": "tag.p.1@text\n\n<js>result.replace(/.*hapter/,'').replace(/(\\d+)(.*)/,'第$1章$2').replace(/(第)\\s*第(.*)(章)\\s*章/,'$1$2$3').replace(/\\s*(\\D{2,})-/,'$1')</js>##[最后更最新于至状态时间连载中:：已完结]{2,}|求.*(票|\\(.*\\))|.*[目录章节]{2,}[:：]*|[正文]*卷[\\d+]*|\\d{2}:.*|…|[\\(（【】）\\)，。．\\.\\?·\\|、T]+|晋江.*发@js:result.replace(/\\s*(\\D{2,})第(\\d+)章/,'$1$2').replace(/.*(第.*章).*章(.*)/,'$1 $2').replace(/(\\D{2,})(\\d{2,4}\\D\\d{2}(\\D\\d{2})?)/,'$1⌚$2').replace(/\\n/,'⌚').replace(/⌚\\s*(\\d+)*⌚/,'$1⌚').replace(/(第\\d+章\\s*)\\d*\\s*\\d*(.*)(.*)/,'$1$2')",
+            "name": "h3@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.52ggd.com/modules/article/search.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 'searchkey={{key}}'\n}",
+        "weight": 0
+    }
+]

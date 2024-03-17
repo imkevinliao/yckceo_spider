@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "1114txt",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.1114txt.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1623774882440,
+        "ruleBookInfo": {
+            "coverUrl": "//meta[@property=\"og:image\"]/@content",
+            "intro": "//meta[@property=\"og:description\"]/@content",
+            "lastChapter": "//meta[@property=\"og:novel:lastest_chapter_name\"]/@content",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "class.RBGsectionThree-content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.-1@text",
+            "bookList": "class.SHsectionThree-middle@p",
+            "bookUrl": "tag.a.1@href",
+            "kind": "tag.a.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top-chapter@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "select@option@value"
+        },
+        "searchUrl": "http://www.xsxu.net/search/,{\n\"method\": \"POST\",\n\"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

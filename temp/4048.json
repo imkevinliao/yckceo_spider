@@ -1,0 +1,64 @@
+[
+    {
+        "bookSourceComment": "/*\nBy_zhbyjm7783\n20230909修复网址\n旧网址：http://www.95shubao.la/\n修改目录www为m网址（改善目录失效，正文失效）\neval(String(source.bookSourceComment))\n*/\n\t\nvar error=/503 Service Temporarily Unavailable/;\nwhile(error.test(result)){\n\tjava.log(\"网站重新加载\");\n\tcookie.removeCookie(baseUrl);\n\tresult=java.ajax(baseUrl);\n\t}\n\t\tresult;",
+        "bookSourceGroup": "破冰&一程0902",
+        "bookSourceName": "九五书包[修复][w转m]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.95shubao.cc/",
+        "concurrentRate": "",
+        "customOrder": 199,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"/mulu/1-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠修真\",\"url\":\"/mulu/2-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/mulu/3-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/mulu/4-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"侦探推理\",\"url\":\"/mulu/5-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"网游动漫\",\"url\":\"/mulu/6-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻小说\",\"url\":\"/mulu/7-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"恐怖灵异\",\"url\":\"/mulu/8-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"穿越小说\",\"url\":\"/mulu/9-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他类型\",\"url\":\"/mulu/10-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"完本小说\",\"url\":\"/modules/article/articlelist.php?fullflag=1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 EdgA/116.0.1938.64\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1694348838630,
+        "loginUrl": "",
+        "respondTime": 76953,
+        "ruleBookInfo": {
+            "author": ".author@a@text",
+            "coverUrl": ".con_limg@img@src",
+            "init": "",
+            "intro": ".r_cons@html",
+            "kind": ".txt_nav@a.1@text",
+            "lastChapter": ".lastrecord@a@text",
+            "name": ".info@h1@text",
+            "tocUrl": "{{baseUrl.replace(/www/,\"m\")+`,{\n\t\"headers\": {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36\"} }`}}"
+        },
+        "ruleContent": {
+            "content": "<js>\neval(String(source.bookSourceComment))\n</js>\nid.nr1@html##最新网址：m.95shubao.cc",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": "id.alistbox",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "a.1@text##《|》",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "tbody@tr!0",
+            "bookUrl": "a.0@href",
+            "coverUrl": "",
+            "kind": "td.5:4@text",
+            "lastChapter": "td.1@text",
+            "name": "td.0@text",
+            "wordCount": "td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\neval(String(source.bookSourceComment))\n</js>\nclass.chapter.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/modules/article/search.php?ie=gbk&searchkey={{key}}&ct=2097152",
+        "weight": 0
+    }
+]

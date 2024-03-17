@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "天域战歌18",
+        "bookSourceName": "霹雳书坊②",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.pilibook.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "男频小说::/sort/1_{{page}}/\n女频小说::/sort/2_{{page}}/\n中国文学::/sort/3_{{page}}/\n外国文学::/sort/4_{{page}}/\n轻小说::/sort/5_{{page}}/\n百合小说::/sort/6_{{page}}/\n耽美小说::/sort/7_{{page}}/\n其他作品::/sort/8_{{page}}/",
+        "lastUpdateTime": 1624007211896,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.pic@tag.img@src",
+            "intro": "class.intro@tag.p@text",
+            "kind": "class.infotype@tag.p.1@text##类型：",
+            "lastChapter": "class.list_xm@tag.li.0@tag.a@text",
+            "tocUrl": "class.gochapter@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@tag.p@textNodes"
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.article",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".simple@text",
+            "name": "h6@text"
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.searchresult@p",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##/wapbook/(\\d+)(\\d{3}).html##http://www.pilibook.com/files/article/image/$1/$1$2/$1$2s.jpg",
+            "intro": "",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.pilibook.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

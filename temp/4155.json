@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "起舞中文网com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.75zwcom.com",
+        "bookUrlPattern": "https?://m.75zwcom.com/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/allsort/<,{{page}}.html>\n玄幻奇幻::/xuanhuan/<,{{page}}.html>\n武侠仙侠::/wuxia/<,{{page}}.html>\n都市生活::/dushi/<,{{page}}.html>\n历史军事::/lishi/<,{{page}}.html>\n游戏竞技::/youxi/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n恐怖悬疑::/xuanyi/<,{{page}}.html>\n其他类型::/qita/<,{{page}}.html>\n古代言情::/guyan/<,{{page}}.html>\n现代言情::/xianyan/<,{{page}}.html>\n幻想奇缘::/huanqing/<,{{page}}.html>\n游戏情缘::/zongcai/<,{{page}}.html>\n浪漫青春::/qingchun/<,{{page}}.html>\n言情美文::/wangluo/<,{{page}}.html>\n科幻灵异::/mmkehuan/<,{{page}}.html>\n其他类型::/mmqita/<,{{page}}.html>",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1695442399242,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "canReName": "@get:{r}",
+            "coverUrl": "@get:{c}",
+            "downloadUrls": "@get:{d}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\".detail span.-1@text\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.章节列表@href\",r:true,\nd:\"text.TXT下载@href\"}",
+            "intro": "@get:{i}##.*观看小说:",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": ".content>p@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##(本小章|本章)?.*未完.*继续阅读.*|喜欢.*请大家收藏.*更新速度全网最快。"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".list li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "span@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".read li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "@js:\n  var head={\n    \"Host\": \"m.75zwcom.com\",\n     \"origin\": \"https://m.75zwcom.com\",\n    \"content-type\": \"application/x-www-form-urlencoded\",\n    \"user-agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n    \"accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\",\n    \"referer\": \"https://m.75zwcom.com/\",\n    \"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"\n};\nvar url=source.getKey();\nvar so=url+\"/search.html\";\nvar body=`searchkey=${key}`;\npost=java.post(so,body,head).header(\"Location\");\nString(post).replace(/\\d+.html/,`${page}.html`)",
+        "weight": 0
+    }
+]

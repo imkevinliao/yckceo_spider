@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "感觉基本是女频",
+        "bookSourceGroup": "",
+        "bookSourceName": "千读网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qiandu9.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618322280171,
+        "ruleBookInfo": {
+            "coverUrl": "class.imgbox@img@src",
+            "intro": "class.desc@text",
+            "kind": "class.fix@tag.p.1@text&&class.fix@tag.p.2@text##状 态：|类 别：",
+            "lastChapter": "class.section-list.0@tag.a.1@text&&class.fix@tag.p.4@text##\\n最后更新：##•",
+            "tocUrl": "<js>baseUrl.replace(/.html/,\"\")</js>",
+            "wordCount": "class.fix@tag.span.-1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@p@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list@li!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##((\\d+?)\\d{3})##/images/$2/$1.jpg###",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "tag.a.1@text&&class.s5@text##\\n##•",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://www.qiandu9.com/search/,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&Submit=搜索\"\n}",
+        "weight": 0
+    }
+]

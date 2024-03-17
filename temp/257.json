@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "优质",
+        "bookSourceName": "笔趣网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.biquw.com",
+        "bookUrlPattern": "",
+        "customOrder": 63,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "默认::/xs/quanbu-default-0-0-0-0-0-0-{{page}}.html\n总榜::/xs/quanbu-allvisit-0-0-0-0-0-0-{{page}}.html\n月榜::/xs/quanbu-monthvisit-0-0-0-0-0-0-{{page}}.html\n周榜::/xs/quanbu-weekvisit-0-0-0-0-0-0-{{page}}.html\n日榜::/xs/quanbu-dayvisit-0-0-0-0-0-0-{{page}}.html\n总推::/xs/quanbu-allvote-0-0-0-0-0-0-{{page}}.html\n月推::/xs/quanbu-monthvote-0-0-0-0-0-0-{{page}}.html\n周推::/xs/quanbu-weekvote-0-0-0-0-0-0-{{page}}.html\n日推::/xs/quanbu-dayvote-0-0-0-0-0-0-{{page}}.html\n收藏::/xs/quanbu-goodnum-0-0-0-0-0-0-{{page}}.html\n字数::/xs/quanbu-size-0-0-0-0-0-0-{{page}}.html\n最新::/xs/quanbu-postdate-0-0-0-0-0-0-{{page}}.html\n连载::\n玄幻::/xs/1-default-0-0-0-0-1-0-{{page}}.html\n仙侠::/xs/1-default-0-0-0-0-1-0-{{page}}.html\n都市::/xs/3-default-0-0-0-0-1-0-{{page}}.html\n军史::/xs/4-default-0-0-0-0-1-0-{{page}}.html\n网游::/xs/5-default-0-0-0-0-1-0-{{page}}.html\n科幻::/xs/6-default-0-0-0-0-1-0-{{page}}.html\n灵异::/xs/7-default-0-0-0-0-1-0-{{page}}.html\n言情::/xs/8-default-0-0-0-0-1-0-{{page}}.html\n其他::/xs/9-default-0-0-0-0-1-0-{{page}}.html\n完结::\n玄幻::/xs/1-default-0-0-0-0-2-0-{{page}}.html\n仙侠::/xs/2-default-0-0-0-0-2-0-{{page}}.html\n都市::/xs/3-default-0-0-0-0-2-0-{{page}}.html\n军史::/xs/4-default-0-0-0-0-2-0-{{page}}.html\n网游::/xs/5-default-0-0-0-0-2-0-{{page}}.html\n科幻::/xs/6-default-0-0-0-0-2-0-{{page}}.html\n灵异::/xs/7-default-0-0-0-0-2-0-{{page}}.html\n言情::/xs/8-default-0-0-0-0-2-0-{{page}}.html\n其他::/xs/9-default-0-0-0-0-2-0-{{page}}.html",
+        "lastUpdateTime": 1629998222673,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": ".bookinfo_intro@html##.*简介.|您要是觉得《|》还不错.*",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##正文.|正文卷.|VIP章节.|免费章节.|VIP卷.|默认卷.|章节目录.",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#htmlContent@html"
+        },
+        "ruleExplore": {
+            "author": "tag.span.1@text",
+            "bookList": ".sitebox dl",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@src",
+            "intro": "tag.dd.2@text",
+            "kind": "tag.span.0@text##\\s.*",
+            "lastChapter": "tag.a.2@text##正文卷.|正文.",
+            "name": "tag.a.1@text"
+        },
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".toplist li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href@js:var o=result.match(/\\/book\\/(\\d+)/); if(o!=null){'/files/article/image/'+parseInt(o[1]/1000)+'/'+o[1]+'/'+o[1]+'s.jpg';}",
+            "intro": "",
+            "kind": ".s5@text&&.s6@text",
+            "lastChapter": ".s2@text##正文卷.|正文.",
+            "name": ".s1@text",
+            "wordCount": ".s4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_list li",
+            "chapterName": "a@text##正文卷.|正文.",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"action=login&searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "常用,精选,API",
+        "bookSourceName": "阅民",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://app.maibaipai.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "❀                       全 部 分 类                      ❀::\n都市言情::/api2/systemoption/book_type/app_id/5/data_type/1/classify/1/page/{{page}}.op\n奇幻玄幻::/api2/systemoption/book_type/app_id/5/data_type/1/classify/2/page/{{page}}.op\n武侠仙侠::/api2/systemoption/book_type/app_id/5/data_type/1/classify/3/page/{{page}}.op\n网游竞技::/api2/systemoption/book_type/app_id/5/data_type/1/classify/4/page/{{page}}.op\n科幻灵异::/api2/systemoption/book_type/app_id/5/data_type/1/classify/5/page/{{page}}.op\n其他小说::/api2/systemoption/book_type/app_id/5/data_type/1/classify/6/page/{{page}}.op\n军事历史::/api2/systemoption/book_type/app_id/5/data_type/1/classify/8/page/{{page}}.op\n女生频道::/api2/systemoption/book_type/app_id/5/data_type/2/classify/7/page/{{page}}.op\n\n❀                       男 频 榜 单                      ❀::\n总榜最热::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/hot/type2/all_topped/page/{{page}}.op\n月榜最热::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/hot/type2/month_topped/page/{{page}}.op\n周榜最热::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/hot/type2/week_topped/page/{{page}}.op\n\n总榜完结::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/book_status/type2/all_topped/page/{{page}}.op\n月榜完结::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/book_status/type2/month_topped/page/{{page}}.op\n周榜完结::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/book_status/type2/week_topped/page/{{page}}.op\n\n总榜收藏::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/collections/type2/all_topped/page/{{page}}.op\n月榜收藏::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/collections/type2/month_topped/page/{{page}}.op\n周榜收藏::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/collections/type2/week_topped/page/{{page}}.op\n\n总榜推荐::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/recommend/type2/all_topped/page/{{page}}.op\n月榜推荐::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/recommend/type2/month_topped/page/{{page}}.op\n周榜推荐::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/recommend/type2/week_topped/page/{{page}}.op\n\n总榜新书::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/add_time/type2/all_topped/page/{{page}}.op\n月榜新书::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/add_time/type2/month_topped/page/{{page}}.op\n周榜新书::/api2/systemoption/topped/app_id/5/data_type_id/1/type1/add_time/type2/week_topped/page/{{page}}.op\n\n❀                       女 频 榜 单                      ❀::\n总榜最热::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/hot/type2/all_topped/page/{{page}}.op\n月榜最热::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/hot/type2/month_topped/page/{{page}}.op\n周榜最热::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/hot/type2/week_topped/page/{{page}}.op\n\n总榜完结::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/book_status/type2/all_topped/page/{{page}}.op\n月榜完结::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/book_status/type2/month_topped/page/{{page}}.op\n周榜完结::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/book_status/type2/week_topped/page/{{page}}.op\n\n总榜收藏::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/collections/type2/all_topped/page/{{page}}.op\n月榜收藏::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/collections/type2/month_topped/page/{{page}}.op\n周榜收藏::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/collections/type2/week_topped/page/{{page}}.op\n\n总榜推荐::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/recommend/type2/all_topped/page/{{page}}.op\n月榜推荐::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/recommend/type2/month_topped/page/{{page}}.op\n周榜推荐::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/recommend/type2/week_topped/page/{{page}}.op\n\n总榜新书::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/add_time/type2/all_topped/page/{{page}}.op\n月榜新书::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/add_time/type2/month_topped/page/{{page}}.op\n周榜新书::/api2/systemoption/topped/app_id/5/data_type_id/2/type1/add_time/type2/week_topped/page/{{page}}.op",
+        "header": "",
+        "lastUpdateTime": 1623738287535,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "book_author",
+            "coverUrl": "https://fengmiantu.cdn.bcebos.com{{$.book_img}}",
+            "init": "<js>java.aesBase64DecodeToString(JSON.parse(result).data,\"NOVELS2019031200\",\"AES/ECB/PKCS5Padding\",\"\")</js>$",
+            "intro": "book_desc",
+            "kind": "book_type",
+            "lastChapter": "{{$.new_chapter}}·{{java.timeFormat(result.update_time*1000)}}",
+            "name": "book_title",
+            "tocUrl": "/s/book_chapter_list2/{{parseInt(java.get('id')%1000)}}/{{$.book_id}}/{{$.book_id}}.txt"
+        },
+        "ruleContent": {
+            "content": "<js>java.aesBase64DecodeToString(JSON.parse(result).data,\"NOVELS2019031200\",\"AES/ECB/PKCS5Padding\",\"\")</js>$"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "book_author",
+            "bookList": "<js>java.aesBase64DecodeToString(JSON.parse(result).data,\"NOVELS2019031200\",\"AES/ECB/PKCS5Padding\",\"\")</js>$",
+            "bookUrl": "/s/book_info2/{{parseInt(java.get('id')%1000)}}/{{$.book_id}}/{{$.book_id}}.txt",
+            "coverUrl": "https://fengmiantu.cdn.bcebos.com{{$.book_img}}",
+            "intro": "book_desc",
+            "kind": "book_type",
+            "lastChapter": "@js:\nresp=JSON.parse(java.aesBase64DecodeToString(JSON.parse(java.ajax(book.origin+\"/s/book_info2/\"+String(result.book_id).slice(-3)+\"/\"+result.book_id+\"/\"+result.book_id+\".txt\")).data,\"NOVELS2019031200\",\"AES/ECB/PKCS5Padding\",\"\"))\nresp.new_chapter+\"·\"+java.timeFormat(resp.update_time*1000)",
+            "name": "book_title@put:{id:$.book_id}",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "<js>java.aesBase64DecodeToString(JSON.parse(result).data,\"NOVELS2019031200\",\"AES/ECB/PKCS5Padding\",\"\")</js>$",
+            "chapterName": "chapter_name",
+            "chapterUrl": "/s/book_chapter_info2/{{parseInt(java.get('id')%1000)}}/@get:{id}/{{$.chapter_id}}.txt"
+        },
+        "searchUrl": "/api2/search_book/search?key={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

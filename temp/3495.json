@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "同站一大堆",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣阁119",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bqg119.com",
+        "bookUrlPattern": "https://m.bqg119.com/book/\\d+/",
+        "customOrder": 2719,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/<,{{page}}.html>\n武侠::/wuxia/<,{{page}}.html>\n都市::/dushi/<,{{page}}.html>\n历史::/lishi/<,{{page}}.html>\n网游::/wangyou/<,{{page}}.html>\n科幻::/kehuan/<,{{page}}.html>\n女生::/mm/<,{{page}}.html>\n全本::/finish/<,{{page}}.html>",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690599518287,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content\n##最新章节地址：.*",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": "{{$.}}list.html",
+            "wordCount": "text.字数@text##字数："
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##请收藏.*com|（温馨提示.*正常显示）"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "class.item",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "dd@text##最新章节地址：.*",
+            "kind": "0",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/s?q={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

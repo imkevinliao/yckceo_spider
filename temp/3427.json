@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "⌨自制",
+        "bookSourceName": "⌨南屯小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.112378.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"热门\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"全本\",\"url\":\"/quanben/class/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情\",\"url\":\"/class/yanqing/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/class/xuanhuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/class/dushi/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/class/wuxia/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"耽美\",\"url\":\"/class/danmei/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/class/kehuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"轻小\",\"url\":\"/class/lightnovel/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/class/lishi/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1685274598847,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{\nn:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\"##字数：([^<]+)##$1###\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"#intro@text\",\nc:\"[property$=image]@content\",\nt:\"text.章节目录@href\"\n}",
+            "intro": "@get:{i}##《.*精心创作.*",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": "#booktxt@p@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*.*下一页继续阅读.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".btm@textNodes||a.-1@text",
+            "bookList": ".item",
+            "bookUrl": "a@href",
+            "checkKeyWord": "我的青春",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em.1@text",
+            "name": "dt@a@text",
+            "wordCount": "em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#content_1 a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/searchb1.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

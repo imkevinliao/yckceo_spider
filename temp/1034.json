@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "16/1/2023 根据上一手，小修多页加载问题",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "06AK-1",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.06ak.com",
+        "bookUrlPattern": "",
+        "customOrder": -2085959002,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻::/list/xuanhuan/1/&&武俠::/list/wuxia/1/&&都市::/list/dushi/1/&&歷史::/list/lishi/1/&&游戲::/list/youxi/1/&&科幻::/list/kehuan/1/&&其他::/list/qita/1/",
+        "header": "",
+        "lastUpdateTime": 1673857006909,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "i a@text",
+            "coverUrl": "img@src",
+            "intro": "class.intro p.1@text",
+            "kind": "p span.0@text",
+            "lastChapter": "class.flex to100@tag.a@text",
+            "name": "h1@text",
+            "wordCount": "p span.1@text"
+        },
+        "ruleContent": {
+            "content": "id.article@html",
+            "nextContentUrl": "id.next_url@href&&id.next_url@text##下一章"
+        },
+        "ruleExplore": {
+            "author": "i@text",
+            "bookList": "class.flex@li",
+            "bookUrl": "h2@href",
+            "coverUrl": "img@src",
+            "intro": "class.indent@text",
+            "name": "h2@text",
+            "wordCount": "class.orange@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.0@text##\\s+(\\d*\\s万字)\\s\\d+个月前#$1###",
+            "bookList": "class.searchresult",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.searchresult_p@text",
+            "lastChapter": "p.2@text",
+            "name": "h3@text",
+            "wordCount": "class.s_gray@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.ul_all_chapters@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.06ak.com/search/,{\n'charset': '',\n'method': 'POST',\n'body': 'searchkey={{key}}&searchtype=all&Submit='\n}",
+        "weight": 0
+    }
+]

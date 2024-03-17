@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "六六中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.66zw.cc/",
+        "bookUrlPattern": "https://www.66zw.cc/[a-z]+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "小说::/book/\n漫画::/manhua/\n火大小说::/huoxingyinli/",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1684829076834,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".m-infos@span.0@text",
+            "coverUrl": "img@src",
+            "init": "class.m-book_info",
+            "intro": "p@text",
+            "kind": ".m-infos@span.1:2@text##状态：|日期：",
+            "lastChapter": ".m-upd@a@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "#content@html||#manga@html",
+            "nextContentUrl": "text.下一页@href##$##,{'webView': true}",
+            "replaceRegex": "##上一章：.*|下一章：.*|如果被/浏/览/器/强/制进入它们的阅/读/模/式了,阅读体/验极/差请退出转/码阅读."
+        },
+        "ruleExplore": {
+            "author": "td.1@text",
+            "bookList": "tbody@tr",
+            "bookUrl": "a.0@href",
+            "kind": "td.2@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "tbody@tr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "td.3@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "@css:#play_0 ul li a,#play_0 h3",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}",
+            "isVolume": "h3@a@text"
+        },
+        "searchUrl": "/e/search/index.php<,?page={{page}}>,{\n  \"body\": \"keyboard={{key}}&show=title,writer&tempid=1&tbname=bookname&type=submit\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

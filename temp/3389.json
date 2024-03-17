@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "搜索间隔10秒，过快容易宕机",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "去读小说/红月吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.hongyue8.net/",
+        "bookUrlPattern": "https://m.hongyue8.net/\\d+/\\d+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/xclass/0/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"玄幻小说\",\"url\":\"/xclass/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"武侠小说\",\"url\":\"/xclass/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市小说\",\"url\":\"/xclass/3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"穿越小说\",\"url\":\"/xclass/4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"网游小说\",\"url\":\"/xclass/5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻小说\",\"url\":\"/xclass/6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其它小说\",\"url\":\"/xclass/7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1684469101364,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@a@text",
+            "coverUrl": "#thumb@img@src",
+            "intro": "class.review@text",
+            "kind": "class.sort@span@text&&#book_detail@li.2:3@text##状态：|更新：",
+            "lastChapter": "#chapterlist@p.0@a@text",
+            "name": "class.title@text",
+            "tocUrl": "{{$.}}all.html",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html##h.*\\/|H.*\\/",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*\\[.*\\]|『.*』"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@a.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "a@href##.+\\D((\\d+)\\d{3})\\D##https://m.hongyue8.net/img/$2/$1.jpg###",
+            "intro": ".review@text",
+            "kind": ".author@textNodes||.score@text\n##\\| 最近更新：",
+            "lastChapter": "p.2@a@text",
+            "name": "a@p@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist@p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.hongyue8.net/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

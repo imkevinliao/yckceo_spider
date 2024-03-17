@@ -1,0 +1,29 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "梦幻小说",
+        "bookSourceUrl": "http://www.pan5.net",
+        "enable": true,
+        "ruleBookContent": "$class.main_content@p@textNodes#天才壹秒記住.*|阅读.*最新.*|: : : :",
+        "ruleBookLastChapter": "class.chaptername fl@text",
+        "ruleChapterList": "<js>'<p>' + result.match(/\\<a\\s(href=\"\\d+\\.html\").+?a\\>/g).sort() + '</p>'</js>//a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "class.tab fl j-content-tab@tag.a.1@href",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "",
+        "ruleCoverUrl": "class.pic fl@img@src",
+        "ruleFindList": "",
+        "ruleFindUrl": "",
+        "ruleIntroduce": "class.brief_text@textNodes#阅读.*最新章节.*",
+        "ruleSearchAuthor": "tag.p.0@tag.a.0@text",
+        "ruleSearchCoverUrl": "img@data-original",
+        "ruleSearchKind": "tag.p.0@tag.a.1@text",
+        "ruleSearchLastChapter": "class.red@text#最近更新",
+        "ruleSearchList": "class.secd-rank-list",
+        "ruleSearchName": "class.bigpic-book-name@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://www.pan5.net/search.php@key=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

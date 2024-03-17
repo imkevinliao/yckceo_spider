@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "By_zhbyjm7783",
+        "bookSourceGroup": "自写&修复1001",
+        "bookSourceName": "趣书网[自写]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://qushu.org/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n好看榜::/rank.html\n全本::/over.html\n男/女生::/category.html\n热搜::/search/",
+        "lastUpdateTime": 1696372920234,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".right@h2@a.0@text",
+            "coverUrl": "img@src",
+            "intro": ".intro.0@text",
+            "kind": ".navigator@a.1@text",
+            "lastChapter": ".right@.status@a@text",
+            "name": ".right@h1@a@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": ".right@h2@span.1@text"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##第(\\d+)页 \\/ 共(\\d+)页|本章未完，请点击下一页继续阅读！"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".item",
+            "bookUrl": "dl@dt@a@href",
+            "coverUrl": "img@data-src",
+            "intro": ".intro@text",
+            "kind": ".cover@span@text",
+            "name": "dl@dt@a@text",
+            "wordCount": ".more@span.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".booklist@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://qushu.org/search/?searchkey={{key}}&submit=",
+        "weight": 0
+    }
+]

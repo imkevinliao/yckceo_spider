@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "https://m.x5200.com",
+        "bookSourceGroup": "☁️可用,⛎JJ城",
+        "bookSourceName": "☘️二五零书院☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.250sy.net",
+        "customOrder": -2086092221,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最新书库::https://www.x5200.com/fenlei/{{page}}/\n玄幻魔法::https://www.x5200.com/fenlei1/{{page}}/\n武侠仙侠::https://www.x5200.com/fenlei2/{{page}}/\n都市言情::https://www.x5200.com/fenlei3/{{page}}/\n历史军事::https://www.x5200.com/fenlei4/{{page}}/\n侦探推理::https://www.x5200.com/fenlei5/{{page}}/\n网游动漫::https://www.x5200.com/fenlei6/{{page}}/\n科幻散文::https://www.x5200.com/fenlei7/{{page}}/\n灵异恐怖::https://www.x5200.com/fenlei8/{{page}}/\n其他小说::https://www.x5200.com/fenlei10/{{page}}/",
+        "lastUpdateTime": 1697245767229,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=og:novel:author]@content",
+            "intro": "class.intro_info@text##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=og:novel:status]@content",
+            "lastChapter": "[property=og:novel:latest_chapter_name]@content",
+            "name": "tag.h1@text",
+            "tocUrl": "text.目录正序@href",
+            "wordCount": "[property=og:novel:update_time]@content"
+        },
+        "ruleContent": {
+            "content": "#changedStyle@textNodes@js:result+'下一页标识'",
+            "nextContentUrl": "class.navigator@tag.a.-1@href",
+            "replaceRegex": "##\\s*下一页标识\\s*"
+        },
+        "ruleExplore": {
+            "bookList": "class.mainarea@class.col3list_area",
+            "bookUrl": "class.col3list_title@a.0@href\n##https://www.x5200.com\n@js:'https://m.x5200.com'+result+'l'",
+            "coverUrl": "img@src",
+            "intro": "class.col3list_text@textNodes",
+            "name": "class.col3list_title@a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.-1@text",
+            "bookList": "class.line",
+            "bookUrl": "class.blue@tag.a@href",
+            "coverUrl": "tag.a!0@href<js>'https://m.250sy.net/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3}).html/,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+            "kind": "tag.a.0@text",
+            "name": "class.blue@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.li!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.x5200.com/modules/article/waps.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchtype=articlename&searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

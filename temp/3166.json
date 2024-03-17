@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "30书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.30sy.com",
+        "bookUrlPattern": "",
+        "customOrder": 1194,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "周榜::https://m.30sy.com/top/weekvisit/{{page}}.html\n月榜::https://m.30sy.com/top/monthvisit/{{page}}.html\n总榜::https://m.30sy.com/top/allvisit/{{page}}.html\n收藏::https://m.30sy.com/top/marknum/{{page}}.html\n推荐::https://m.30sy.com/top/votenum/{{page}}.html\n全本::https://m.30sy.com/over/{{page}}.html",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.baseinfo@img@src",
+            "intro": "class.intro@text",
+            "name": "class.pt-name.0@text",
+            "tocUrl": "@js:baseUrl.replace(/m/,\"www\")"
+        },
+        "ruleContent": {
+            "content": "id.articlecon@html##【.*秒记住本站.*】.*|本章已阅读完毕.*",
+            "imageStyle": "0",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.pt-info.0@a@text",
+            "bookList": "class.baseinfo&&class.pt-card pt-card-2@li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "class.pt-cover@img@src",
+            "intro": "class.pt-desc@text",
+            "kind": "class.pt-info.1@a@text",
+            "name": "class.pt-name@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.dirlist clearfix.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##(/book/.*/\\d+.html)##https://m.30sy.com$1"
+        },
+        "searchUrl": "https://m.30sy.com/search.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "592书库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.592shuku.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "完本::/shuku/0-lastupdate-2-{{page}}.html&&全部::/shuku/0-lastupdate-0-{{page}}.html&&精品小说::/shuku/1-lastupdate-0-{{page}}.html&&藏经阁::/shuku/2-lastupdate-0-{{page}}.html&&高辣文::/shuku/3-lastupdate-0-{{page}}.html&&耽美小说::/shuku/4-lastupdate-0-{{page}}.html&&海棠耽美::/shuku/5-lastupdate-0-{{page}}.html&&言情小说::/shuku/6-lastupdate-0-{{page}}.html&&海棠言情::/shuku/7-lastupdate-0-{{page}}.html&&百合小说::/shuku/8-lastupdate-0-{{page}}.html&&情欲小说::/shuku/9-lastupdate-0-{{page}}.html&&评书品书::/shuku/10-lastupdate-0-{{page}}.html&&私密趣事::/shuku/11-lastupdate-0-{{page}}.html&&最后更新::/shuku/0-lastupdate-0-{{page}}.html&&总人气::/shuku/0-allvisit-0-{{page}}.html&&月人气::/shuku/0-monthvisit-0-{{page}}.html&&字数::/shuku/0-size-0-{{page}}.html&&新书::/shuku/0-postdate-0-{{page}}.html&&全部::/shuku/0-lastupdate-0-{{page}}.html&&连载中::/shuku/0-lastupdate-1-{{page}}.html",
+        "lastUpdateTime": 1629516478645,
+        "ruleBookInfo": {
+            "author": ".info a@text",
+            "intro": ".book-intro@text",
+            "kind": "##类型：([^<]+)##$1###",
+            "lastChapter": "class.list.0@tag.li.0@a@text",
+            "name": "h1@text",
+            "wordCount": "##字数：(\\d+).*##$1###"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "imageStyle": "text",
+            "nextContentUrl": ".chapterPages a@href##$##,{\"webView\":true}"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "p.info a@text",
+            "bookList": "li.column-2",
+            "bookUrl": "a.name@href",
+            "lastChapter": "p.update a@text",
+            "name": "a.name@text",
+            "wordCount": ".words@text##字数[:：]"
+        },
+        "ruleToc": {
+            "chapterList": ".list a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":true}",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "@js:\naction=org.jsoup.Jsoup.parse(String(java.ajax(\"http://m.592shuku2.com\"))).select(\"form\").attr(\"action\")\n\nbody = \"objectType=2&wd={{key}}\"\noption={\"charset\": \"\",\"method\": \"POST\",\"body\": String(body)}\n\"http://m.592shuku2.com\"+String(action)+\",\"+JSON.stringify(option)",
+        "weight": 0
+    }
+]

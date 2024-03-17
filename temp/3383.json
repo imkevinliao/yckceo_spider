@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "修复搜索获取不到正文",
+        "bookSourceGroup": "自制,修复,源仓库,网页源",
+        "bookSourceName": "生活琐碎阅读之家",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ibusread.com/",
+        "customOrder": 40,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"情感生活\",\"url\":\"/rankingtop/104\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"僵尸鬼怪\",\"url\":\"/rankingtop/103\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"趣谈历史\",\"url\":\"/rankingtop/106\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史演说\",\"url\":\"/rankingtop/216\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"闲情杂谈\",\"url\":\"/rankingtop/101\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"舞文弄墨\",\"url\":\"/rankingtop/201\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑推理\",\"url\":\"/rankingtop/204\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"随笔杂谈\",\"url\":\"/rankingtop/102\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"BLGL\",\"url\":\"/rankingtop/105\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"青春都市\",\"url\":\"/rankingtop/208\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"战争军事\",\"url\":\"/rankingtop/96\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"商业经济\",\"url\":\"/rankingtop/110\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"Referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1687314732457,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.auth.0@text",
+            "intro": "class.intro@p@text",
+            "kind": "class.bookinfo@dd.1@text&&class.d1@span.0@text",
+            "name": "h1@text##_.*",
+            "tocUrl": "class.g-nav-control@a.0@href"
+        },
+        "ruleContent": {
+            "content": ".article@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.info@text",
+            "bookList": "ul@li",
+            "bookUrl": "a@href",
+            "kind": "class.tags@text",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true,\"headers\": {\"Referer\":\"{{baseUrl}}\"}}",
+            "nextTocUrl": "ul.0@li@a@href"
+        },
+        "searchUrl": "/search?name={{key}}&tags=&type=3,{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

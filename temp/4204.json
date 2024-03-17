@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "天涯在线书库（修复）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tianyabook.com/",
+        "customOrder": 35,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::https://www.tianyabook.com/list/{{page}}.html\n仙侠小说::/list/2.html\n都市小说::/list/3.html\n历史小说::/list/4.html\n科幻小说::/list/5.html\n网游小说::/list/6.html\n恐怖小说::/list/7.html\n其他小说::/list/8.html\n言情小说::/list/9.html\n武侠小说::/list/10.html",
+        "lastUpdateTime": 1696221077722,
+        "respondTime": 592,
+        "ruleBookInfo": {
+            "author": "class.booktag@a.0@text",
+            "coverUrl": "id.bookIntro@img@src",
+            "downloadUrls": "text.txt下载：@href",
+            "intro": "class.book@tag.div@tag.p@text",
+            "lastChapter": "text.最新章节：@text##最新章节：",
+            "name": "class.col-md-10@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html",
+            "nextContentUrl": "id.main@tag.table.1@tag.tbody@tag.tr@tag.td@tag.table.0@tag.tbody@tag.tr@tag.td.2@tag.strong@tag.a@href",
+            "replaceRegex": "##百度搜索|即可找到本书最新章节.|天涯在线书库|天涯 或"
+        },
+        "ruleExplore": {
+            "author": "small@text",
+            "bookList": "class.list-group-item",
+            "bookUrl": "a.0@href",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "li.2@text",
+            "bookList": "class.leftbox@tag.ul@tag.li||class.middlebox@tag.ul@tag.div@tag.li||class.listbox@tag.ul@tag.div@tag.li||class.mySearch",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "name": "tag.a@tag.b@text||tag.a.0@text",
+            "wordCount": "li.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}\nhttps://www.tianyabook.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

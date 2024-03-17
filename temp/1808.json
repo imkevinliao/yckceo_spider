@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "HINOTORI（qq）",
+        "bookSourceGroup": "🐌,一般,有效,可用书源",
+        "bookSourceName": "🎯书趣阁sizhicn",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.sizhicn.com",
+        "bookUrlPattern": "",
+        "customOrder": -213202,
+        "enabled": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6\"}",
+        "lastUpdateTime": 1621609100002,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "class.cover@tag.img@src",
+            "init": "",
+            "intro": "class.intro_info@text##最新章节推荐地址：.*",
+            "kind": "class.block_txt2@tag.p.3@text##分类：",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes##（本章未完，请点击下一页继续阅读）|.* \\(第.*页\\)",
+            "nextContentUrl": "tag.tr@class.next@id.pb_next@href",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.author.0@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookname@tag.a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "class.updatelast@tag.a@text",
+            "name": "class.bookname@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://m.shuquge.com/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

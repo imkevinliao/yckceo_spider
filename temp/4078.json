@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceGroup": "自制源",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.biquge.one/",
+        "bookUrlPattern": "https://m.biquge.one/\\d+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/xclass/0/{{page}}.html\n玄幻::/xclass/1/{{page}}.html\n仙侠::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n穿越::/xclass/4/{{page}}.html\n科幻::/xclass/5/{{page}}.html\n网游::/xclass/6/{{page}}.html\n精品::/xclass/7/{{page}}.html",
+        "header": "{\n 'User-Agent': 'Mozilla/5.0 (Linux; Android 11; Pixel 3 XL Build/RQ3A.211001.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.4988.0 Mobile Safari/537.36 SearchCraft/3.9.2 (Baidu; P1 11) '\n}",
+        "lastUpdateTime": 1694882113254,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.synopsisArea_detail@img@src",
+            "intro": "class.review@text",
+            "lastChapter": "class.directoryArea@p.0@text",
+            "name": "",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "replaceRegex": "##.*加入书签.*"
+        },
+        "ruleExplore": {
+            "coverUrl": "",
+            "intro": "",
+            "lastChapter": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text##精品 .*作者：",
+            "bookList": "class.hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://img.biquge.one/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "",
+            "lastChapter": ".author.1@text",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.biquge.one/s.php,{\n  \"body\": \"keyword={{key}}&submit=搜索\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

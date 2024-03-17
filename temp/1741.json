@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceName": "精品书城",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://jingpinshucheng.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1681229011192,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nfunction base64(_str){var staticchars=\"PXhw7UT1B0a9kQDKZsjIASmOezxYG4CHo5Jyfg2b8FLpEvRr3WtVnlqMidu6cN\";var encodechars=\"\";for(var i=0;i<_str.length;i++){var num0=staticchars.indexOf(_str[i]);if(num0==-1){var code=_str[i]}else{var code=staticchars[(num0+3)%62]}var num1=parseInt(Math.random()*62,10);var num2=parseInt(Math.random()*62,10);encodechars+=staticchars[num1]+code+staticchars[num2]}return encodechars}\nresult = java.get(baseUrl,{}).body();\ntry{\ncallback=result.match(/callback='(.*?)';\\s+/)[1];\nbook = result.match(/load_more\\('(\\d+)','(\\d+)'\\)/);\nurl = 'https://jingpinshucheng.com/index.php?c=book&a=content.jsonp&callback='+callback+'&book_id='+book[1]+'&id='+book[2]+'&b='+base64(callback);\nhtml = JSON.parse(String(java.get(url,{\"referer\":baseUrl}).body()).replace(/^.*?\\(|\\);$/g,'')).content;\n}catch(e){\n\thtml = \"\"\n\t}\njava.setContent(result);\n\n java.getString(\"@@id.content@p@html\")+html\n</js>\n"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.info@span@text",
+            "bookList": "<js>\nvar Base64={_keyStr:\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=\",encode:function(e){var t=\"\";var n,r,i,s,o,u,a;var f=0;e=Base64._utf8_encode(e);while(f<e.length){n=e.charCodeAt(f++);r=e.charCodeAt(f++);i=e.charCodeAt(f++);s=n>>2;o=(n&3)<<4|r>>4;u=(r&15)<<2|i>>6;a=i&63;if(isNaN(r)){u=a=64}else{if(isNaN(i)){a=64}}t=t+this._keyStr.charAt(s)+this._keyStr.charAt(o)+this._keyStr.charAt(u)+this._keyStr.charAt(a)}return t},_utf8_encode:function(e){e=e.replace(/rn/g,\"n\");var t=\"\";for(var n=0;n<e.length;n++){var r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r)}else{if(r>127&&r<2048){t+=String.fromCharCode(r>>6|192);t+=String.fromCharCode(r&63|128)}else{t+=String.fromCharCode(r>>12|224);t+=String.fromCharCode(r>>6&63|128);t+=String.fromCharCode(r&63|128)}}}return t}};function base32(_str){var staticchars=\"PXhw7UT1B0a9kQDKZsjIASmOezxYG4CHo5Jyfg2b8FLpEvRr3WtVnlqMidu6cN\";var encodechars=\"\";for(var i=0;i<_str.length;i++){var num0=staticchars.indexOf(_str[i]);if(num0==-1){var code=_str[i]}else{var code=staticchars[(num0+3)%62]}var num1=parseInt(Math.random()*62,10);var num2=parseInt(Math.random()*62,10);encodechars+=staticchars[num1]+code+staticchars[num2]}return encodechars}\nkey = java.get('key')\nurl = \"https://jingpinshucheng.com/index.php?c=book&a=sojsonp\";\ntime = Date.now();\nbase64 = String(Base64.encode(\"　\"+key));\nbase32 = base32(base64);\nkeyword = \"%E3%80%80\"+java.encodeURI(key);\nbody = `keywords=${keyword}&base64=${base64}&base32=${base32}&rndval=${time}`\njava.post(url,body,{}).body();\n\n</js>\nclass.pic_txt_list",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": "class.description@text",
+            "kind": "",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\nfunction base64(_str){var staticchars=\"PXhw7UT1B0a9kQDKZsjIASmOezxYG4CHo5Jyfg2b8FLpEvRr3WtVnlqMidu6cN\";var encodechars=\"\";for(var i=0;i<_str.length;i++){var num0=staticchars.indexOf(_str[i]);if(num0==-1){var code=_str[i]}else{var code=staticchars[(num0+3)%62]}var num1=parseInt(Math.random()*62,10);var num2=parseInt(Math.random()*62,10);encodechars+=staticchars[num1]+code+staticchars[num2]}return encodechars}\nresult = java.get(baseUrl,{}).body();\ncallback=result.match(/callback='(.*?)';\\s+/)[1];\n\nbook = result.match(/load_more\\('(.*?)'\\)/)[1];\nurl = 'https://jingpinshucheng.com/index.php?c=book&a=show.jsonp&callback='+callback+'&book_id='+book+'&b='+base64(callback);\n\nresult + JSON.parse(String(java.get(url,{\"referer\":baseUrl}).body()).replace(/^.*?\\(|\\);$/g,'')).content;\n\n\n</js>\nclass.list!0@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://jingpinshucheng.com{{java.put('key',key);\"\"}}",
+        "weight": 0
+    }
+]

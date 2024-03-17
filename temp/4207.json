@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "云中书库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.yunxs.cc",
+        "bookUrlPattern": "http://m.yunxs.cc/\\w+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n玄幻::/xuanhuan/\n仙侠::/xianxia/\n都市::/dushi/\n穿越::/chuanyue/\n科幻::/kehuan/\n同人::/tongren/\n全本::/over.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1696252290368,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".book_box span.0@text",
+            "coverUrl": ".cover img@src",
+            "intro": ".book_about dd@text\n##最新章节推荐地址.*",
+            "kind": ".book_box span.1:2:-2@text\n##分类：|状态：|更新：",
+            "lastChapter": ".book_box a.-1@text",
+            "name": ".name@text",
+            "wordCount": ".book_box span.3@text##字数："
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##（本章未完.*继续阅读）|云中书库阅读网址.*|{{ try{chapter.title}catch(e){\"\"} }}|\\(第\\d.+页\\)"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "kind": "0",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": ".cat@text##分类：",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".book_last.1@dl dd a",
+            "chapterName": "text##^\\d+、",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "@js:\nvar url=source.key;\nvar web=java.webView(null,url,null);\nvar html=web;\nvar j=org.jsoup.Jsoup.parse(html);\nvar f=j.select('form');\nvar p=f.select(\"input\")\nvar a=f.attr(\"action\")\nvar list=[];\nif(web&&html){\n\tlength=p.length>3?2:p.length;\n\tfor(i=0;i<length;i++){\n\tname=p[i].attr(\"name\")\n\tvalue=p[i].attr(\"value\")\n\tclas=p[i].attr(\"class\")\n\tif(value!=\"\"){\n\tadd=`${name}=${value}`\n\t}else if(clas==\"text\"){\n\t\tadd=`${name}=${key}`}\n\t//java.log(add)\n\tlist.push(add)}\n\tso=list.join(\"&\")\n\ta+\"?\"+so;\n\t}else{java.toast(\"搜索链接获取失败！\")}",
+        "weight": 0
+    }
+]

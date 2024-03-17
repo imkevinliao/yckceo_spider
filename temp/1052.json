@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "六酷小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.6co.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1629540196185,
+        "ruleBookInfo": {
+            "author": "class.fix@p.0@text",
+            "coverUrl": "class.imgbox@img@src",
+            "intro": "class.m-desc@text",
+            "kind": "class.fix@p.1:2@text##类别：|状态：",
+            "lastChapter": "class.fix@p.4@a@text",
+            "name": "class.top@h1@text",
+            "wordCount": "class.fix@p.5@text##最后更新："
+        },
+        "ruleContent": {
+            "content": "class.content@p@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list@li!0",
+            "bookUrl": "class.s2@a@href",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text",
+            "wordCount": "class.s5@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.6co.cc/search?keyWord={{key}}",
+        "weight": 0
+    }
+]

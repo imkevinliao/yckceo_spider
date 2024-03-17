@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "测试",
+        "bookSourceName": "新浪小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://book.sina.cn/",
+        "customOrder": -1,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618525446194,
+        "ruleBookInfo": {
+            "author": "@css:.s-listCon h3@text##｜.*",
+            "coverUrl": "@css:.listCover img@src",
+            "intro": "@css:.content-main p@text",
+            "kind": "@css:.s-listCon h3@text##.*｜",
+            "name": "@css:.s-listCon h2@text",
+            "tocUrl": "@css:.directory a@href<js>\nvar bid = \"\";\nvar mat = result.match(/bid=([^&\"]*)/i);\nif(mat){\nbid = mat[1];\n}\njava.put(\"bid\",bid);\nvar body = \"bid=\"+bid+\"&page_size=50&page=1\";\nvar option={\"charset\": \"utf-8\",\"method\": \"POST\",\"body\": String(body)};\n\"https://book.sina.cn/dpool/newbook/bookv1/ajax/get_catalog.php\"+\",\"+JSON.stringify(option);\n</js>",
+            "wordCount": "@css:.s-items p:nth-of-type(3) em@text"
+        },
+        "ruleContent": {
+            "content": "<js>\nvar text = \"\";\nvar mat = result.match(/var chapterContent = \"([^\"]*?)\";/);\nif(mat){\ntext = mat[1];\n}\nunescape(text.replace(/\\\\/g,'%'))\n</js>"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "@css:.listCon h4@text",
+            "bookList": "@css:.load-wrap ul li",
+            "bookUrl": "@css:.book@href",
+            "coverUrl": "@css:.listCover img@src",
+            "intro": "@css:.listCon h3@text",
+            "kind": "@css:.bookType li:nth-last-of-type(n+2)@text",
+            "lastChapter": "",
+            "name": "@css:.listCon h2@text",
+            "wordCount": "@css:.bookType li:eq(2)@text"
+        },
+        "ruleToc": {
+            "chapterList": ":\\{[^\\}]*\"chapter_name\":\"([^\"]*)\"[^\\}]*\"is_vip\":\"([^\"]*)\"[^\\}]*\"chapter_url\":\"([^\"]*)\"",
+            "chapterName": "$1<js>\nunescape(result.replace(/\\\\/g,'%'))\n</js>",
+            "chapterUrl": "$3<js>\n\"https://book.sina.cn\"+result.replace(/\\\\\\//g,'/')\n</js>",
+            "isVip": "$2##2",
+            "nextTocUrl": "<js>\nvar pageNum=1;\nvar mat=src.match(/\"total_page\":(\\d+)/);\nif(mat){\npageNum=mat[1];\n}\nvar list = [];\nvar bid = java.get(\"bid\");\nfor(var i=2;i<=pageNum;i++){\nvar body = \"bid=\"+bid+\"&page_size=50&page=\"+i;\nvar option={\"charset\": \"utf-8\",\"method\": \"POST\",\"body\": String(body)};\nvar url = \"https://book.sina.cn/dpool/newbook/bookv1/ajax/get_catalog.php\"+\",\"+JSON.stringify(option);\nlist.push(url);\n}\nlist\n</js>",
+            "updateTime": ""
+        },
+        "searchUrl": "https://book.sina.cn/dpool/newbook/bookv1/search.php?pos=10042&sk={{key}},{\"webView\":true}",
+        "weight": 0
+    }
+]

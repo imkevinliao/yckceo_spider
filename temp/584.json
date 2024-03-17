@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️海棠1☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.haitang123.co#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "言情::https://www.haitang123.co/category/2/{{page}}.html\n高‍‍​‍‍‍​‌‍‌​‌‌‌​‌辣::https://www.haitang123.co/category/1/{{page}}.html\n种田::https://www.haitang123.co/category/8/{{page}}.html           \n耽‍‍​‍‍‍​‌‍‌​‌‌‌​‌美::https://www.haitang123.co/category/11/{{page}}.html\n 都市::https://www.haitang123.co/category/14/{{page}}.html\n 穿越::https://www.haitang123.co/category/16/{{page}}.html\n 历史::https://www.haitang123.co/category/12/{{page}}.html            \n 青春::https://www.haitang123.co/category/13/{{page}}.html\n百合::https://www.haitang123.co/category/24/{{page}}.html\n经管::https://www.haitang123.co/category/18/{{page}}.html\n玄幻::https://www.haitang123.co/category/4/{{page}}.html            \n修真::https://www.haitang123.co/category/7/{{page}}.html\n耽美中文::https://www.haitang123.co/category/42/{{page}}.html\n高干::https://www.haitang123.co/category/5/{{page}}.html\n私密::https://www.haitang123.co/category/39/{{page}}.html\n腹黑::https://www.haitang123.co/category/6/{{page}}.html\n武侠::https://www.haitang123.co/category/17/{{page}}.html\n科幻::https://www.haitang123.co/category/22/{{page}}.html\n网游::https://www.haitang123.co/category/9/{{page}}.html\n悬疑::https://www.haitang123.co/category/15/{{page}}.html\n侦探::https://www.haitang123.co/category/40/{{page}}.html\n恐怖::https://www.haitang123.co/category/41/{{page}}.html\n现代::https://www.haitang123.co/category/20/{{page}}.html\n游戏::https://www.haitang123.co/category/28/{{page}}.html\n竞技::https://www.haitang123.co/category/33/{{page}}.html\n灵异::https://www.haitang123.co/category/29/{{page}}.html\n军事::https://www.haitang123.co/category/36/{{page}}.html\n古代::https://www.haitang123.co/category/31/{{page}}.html\n综合::https://www.haitang123.co/category/27/{{page}}.html\n其他::https://www.haitang123.co/category/19/{{page}}.html\n同人::https://www.haitang123.co/category/47/{{page}}.html\n仙武::https://www.haitang123.co/category/45/{{page}}.html\n二次::https://www.haitang123.co/category/46/{{page}}.html",
+        "lastUpdateTime": 1645459593719,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "intro": "class.BGsectionTwo-bottom@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.C0NTENT@html",
+            "nextContentUrl": "tag.a.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "tag.span.-1@tag.a.0@text",
+            "bookList": "class.CGsectionTwo-right-content-unit",
+            "bookUrl": "tag.span.1@tag.a.-1@href",
+            "intro": "",
+            "kind": "tag.span.0@tag.a.0@text",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "author": "tag.span.-1@tag.a.0@text",
+            "bookList": "class.SHsectionThree-middle@tag.p",
+            "bookUrl": "tag.span.1@tag.a.-1@href",
+            "kind": "tag.span.0@tag.a.0@text",
+            "name": "tag.span.1@tag.a.-1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.haitang123.co/search/{{key}}",
+        "weight": 0
+    }
+]

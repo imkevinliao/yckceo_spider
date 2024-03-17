@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "博仕书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.77z5.com/",
+        "bookUrlPattern": "https://m.77z5.com/boshi/\\d+_\\d+/",
+        "customOrder": 1870,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1683877070731,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author@text",
+            "init": "",
+            "intro": "class.review@text",
+            "kind": ".synopsisArea_detail p!0:-2@text##.*：",
+            "lastChapter": "class.directoryArea@p.0@text",
+            "name": ".title@text",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*.*畅读模式.*\\s*|\\s*.*本章未完.*\\s*|\\s*.*加入书签.*\\s*|.*博仕.*"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author.0@text##.* \\| 作者：",
+            "bookList": "class.hot_sale",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href@js:\nid=result.match(/\\/\\d+_(\\d+)\\//)[1];\niid=parseInt(id/1000);\n'https://www.boshisw.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg'",
+            "intro": "",
+            "kind": "class.author.0@text##\\| 作者：.*",
+            "lastChapter": "class.author.1@text##.*\\| 更新：",
+            "name": "class.title@text",
+            "wordCount": "class.author.1@text## \\| 更新：.*"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option!0@value"
+        },
+        "searchUrl": "/s.php,{\n\t\"method\":\"POST\",\n\t\"body\":\"keyword={{key}}&t=1\"\n\t}",
+        "weight": 0
+    }
+]

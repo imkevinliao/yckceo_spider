@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "天域小说网",
+        "bookSourceGroup": "okou",
+        "bookSourceName": "天域小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.tycqzw.net/##okou",
+        "bookUrlPattern": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "searchUrl": "/search.php,{\"method\": \"POST\",\"body\": \"searchkey={{key}}\"}",
+        "ruleSearch": {
+            "bookList": "class.list1@div",
+            "name": "tag.a.0@tag.p.0@text",
+            "author": "tag.a.0@tag.p.1@text",
+            "kind": "",
+            "lastChapter": "class.author.1@tag.a@text",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##http://m.tycqzw.net/files/article/image/$1/$2/$2s.jpg"
+        },
+        "exploreUrl": "@js:let prefix = [\r\n    {n:\"📚全本\", p:\"quanben\", s:\"_\"},\r\n    {n:\"🌞总榜\", p:\"ph/all\", s:\"_\"},\r\n    {n:\"🌙月榜\", p:\"ph/month\", s:\"_\"},\r\n    {n:\"⭐周榜\", p:\"ph/week\", s:\"_\"},\r\n    {n:\"⚡分类\", p:\"xclass/\", s:\"/\"},\r\n]\r\n\r\nlet types = [\r\n    {n:\"  全部  \", p:\"0\"},\r\n    {n:\"📔玄幻\", p:\"1\"},\r\n    {n:\"📕修真\", p:\"2\"},\r\n    {n:\"📗都市\", p:\"3\"},\r\n    {n:\"📘穿越\", p:\"4\"},\r\n    {n:\"📙网游\", p:\"5\"},\r\n    {n:\"📒科幻\", p:\"6\"},\r\n    {n:\"📔其他\", p:\"7\"},\r\n]\r\nlet titleStyle = {\r\n    layout_flexGrow: 0,\r\n    layout_flexShrink: 1,\r\n    layout_alignSelf: \"auto\",\r\n    layout_flexBasisPercent: 1,\r\n    layout_wrapBefore: false\r\n};\r\nlet defaultStyle = {\r\n    layout_flexBasisPercent: .28\r\n};\r\nlet result = [];\r\nfor (let pre of prefix) {\r\n    let title = `🔹 ${pre.n} 🔹`;\r\n    result.push({\r\n        title: title,\r\n        url: \"\",\r\n        style: titleStyle\r\n    });\r\n    for (let t of types) {\r\n        result.push({\r\n            title: t.n,\r\n            url: `/${pre.p}${t.p}${pre.s}{{page}}.html`,\r\n            style: defaultStyle\r\n        });\r\n    }\r\n}\r\n\r\nJSON.stringify(result);",
+        "ruleExplore": {
+            "bookList": "#main@class.hot_sale",
+            "name": "tag.a@tag.p.0@text",
+            "author": "tag.a@tag.p.1@text##作者：",
+            "intro": "class.review@text",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "class.lazy@img@data-original"
+        },
+        "ruleBookInfo": {
+            "name": "class.title@text",
+            "author": "class.synopsisArea_detail@tag.p.0@text##作者：",
+            "intro": "class.review@text",
+            "kind": "class.synopsisArea_detail@tag.p.1:4@text@js:let T = '类别：';\r\nlet U = '更新：';\r\nlet r = [];\r\nfor (let i = 0; i < result.length; i++) {\r\n    let item = result[i];\r\n    if (item.startsWith(T)) {\r\n        item = item.substring(T.length);\r\n    } else if (item.startsWith(U)) {\r\n        item = item.substring(U.length).replace('T', ' ');\r\n    }\r\n    r.push(item);\r\n}r",
+            "lastChapter": "class.directoryArea@tag.p.0@tag.a@text",
+            "coverUrl": "class.synopsisArea_detail@img@src",
+            "tocUrl": "class.recommend@tag.h2.1@a@href"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist@tag.p.!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href@js:'http://www.tycqzw.net'+result"
+        },
+        "ruleContent": {
+            "content": "#content@html##\\S+<a href=\"\\S+\"( \\S+)+<\\/a>"
+        }
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "网文📓",
+        "bookSourceName": "📓笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://souxs.pigqq.com",
+        "customOrder": 27,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "热门连载::https://scxs.pysmei.com/top/man/top/hot/week/{{page}}.html\n抖音热书::https://scxs.pysmei.com/top/man/top/collect/week/{{page}}.html\n高分神作::https://scxs.pysmei.com/top/man/top/vote/week/{{page}}.html\n微信热书::https://scxs.pysmei.com/top/man/top/commend/week/{{page}}.html\n完结精选::https://scxs.pysmei.com/top/man/top/over/week/{{page}}.html\n豆瓣高分::https://scxs.pysmei.com/top/man/top/new/week/{{page}}.html\n玄幻::https://scxs.pigqq.com/Categories/1/new/{{page}}.html\n武侠::https://scxs.pigqq.com/Categories/2/new/{{page}}.html\n都市::https://scxs.pigqq.com/Categories/3/new/{{page}}.html\n历史::https://scxs.pigqq.com/Categories/4/new/{{page}}.html\n科幻::https://scxs.pigqq.com/Categories/5/new/{{page}}.html\n网游::https://scxs.pigqq.com/Categories/6/new/{{page}}.html\n女生::https://scxs.pigqq.com/Categories/7/new/{{page}}.html\n同人::https://scxs.pigqq.com/Categories/66/new/{{page}}.html",
+        "lastUpdateTime": 1621006151413,
+        "ruleBookInfo": {
+            "author": "$.data.Author",
+            "canReName": "true",
+            "coverUrl": "https://imgapi.jiaston.com/BookFiles/Bookimages/{$.data.Img}",
+            "intro": "$.data.Desc<js>result=\"\\t\"+result</js>",
+            "kind": "$.data.CName&&$.data.BookStatus&&$.data.LastTime",
+            "lastChapter": "$.data.LastChapter",
+            "name": "$.data.Name@js:java.put('sm',result)",
+            "tocUrl": "$.data.Id<js>sid=parseInt(Number(result)/1000+1);\njava.put('sid',sid);\nbid=result;\njava.put('bid',bid);\nresult=\"https://infosxs.pigqq.com/BookFiles/Html/\"+sid+\"/\"+bid+\"/index.html\";\n</js>",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<js>\n!(/google.cn/).test(baseUrl)?\njava.getString(\"$..content\",false):\ndecodeURIComponent(baseUrl.replace(/^.*?text=/, ''))\n</js>",
+            "imageStyle": "FULL",
+            "replaceRegex": "##@@"
+        },
+        "ruleExplore": {
+            "author": "$.Author",
+            "bookList": "$..data.BookList[*]",
+            "bookUrl": "$.Id<js>sid=parseInt(Number(result)/1000+1);\nbid=result;\nresult=\"https://infosxs.pigqq.com/BookFiles/Html/\"+sid+\"/\"+bid+\"/info.html\";\n</js>",
+            "coverUrl": "https://imgapi.jiaston.com/BookFiles/Bookimages/{$.Img}",
+            "intro": "$.Desc",
+            "kind": "$.CName",
+            "name": "$.Name"
+        },
+        "ruleSearch": {
+            "author": "$.Author",
+            "bookList": "$.data",
+            "bookUrl": "$.Id<js>sid=parseInt(Number(result)/1000+1);\nbid=result;\nresult=\"https://infosxs.pigqq.com/BookFiles/Html/\"+sid+\"/\"+bid+\"/info.html\";\n</js>",
+            "coverUrl": "$.Img",
+            "intro": "$.Desc",
+            "kind": "$.BookStatus&&$.CName&&$.UpdateTime##00:00:00",
+            "lastChapter": "$.LastChapter",
+            "name": "$.Name",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "$.data.list\n<js>\n//二级目录，Json\nvar sid = java.get('sid');\nvar bid = java.get('bid');\nvar jdoc = JSON.parse(result);\nvar chUrl = 'https://contentxs.pigqq.com/BookFiles/Html/'+sid+'/'+bid+'/';\nvar volUrl = 'https://translate.google.cn/#view=home&op=translate&sl=zh-CN&tl=en&text=';\nvar list = [];\n//显示卷名\nvar opts = {\n  showVolName: false\n};\n\nsm=java.get('sm');\n\nfunction format(title){\n  return title.trim().replace(/^(\\d+)(?![\\s\\d卷部章节回.])/, '$1 ').replace(/\\s+/g, \"\\x20\\x20\");\n}\n\njdoc.forEach((vol,idx) => {\n  var chs = vol.list.map(ch => ({\n    text: !vol.name?format(ch.name):((opts.showVolName ? '🍈[' + format(vol.name) + ']🍈' : (ch.IsVip === '1' ? '💰' : '').padStart(3, \"\\u2000\")) + format(ch.name)),\n    href: chUrl+ch.id+'.html',\n    name: format(ch.name)\n  }));\nif(vol.name!=\"\"){\n  var volInfo = sm+'\\\\'+ format(vol.name);\n\n  list.push({\n    text: '♦️[' + format(vol.name) + ']♦️',\n    href: volUrl + encodeURIComponent(volInfo)\n});\n}\n  list = list.concat(chs);\n});\nresult = list;\n</js>",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://souxs.pigqq.com/search.aspx?key={{key}}&page={{page}}&siteid=app2",
+        "weight": 0
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "52笔趣",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.52biquge.com/",
+        "customOrder": -4712,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::https://m.52biquge.com/book0/{{page}}.html\n玄幻奇幻::/book1/{{page}}.html\n武侠仙侠::/book2/{{page}}.html\n都市言情::/book3/{{page}}.html\n历史军事::/book4/{{page}}.html\n科幻灵异::/book5/{{page}}.html\n网游竞技::/book6/{{page}}.html\n女生频道::/book7/{{page}}.html\n全部周榜::/top/week<,_{{page}}>.html\n玄幻周榜::/top/week1<,_{{page}}>.html\n武侠周榜::/top/week2<,_{{page}}>.html\n都市周榜::/top/week3<,_{{page}}>.html\n历史周榜::/top/week4<,_{{page}}>.html\n科幻周榜::/top/week5<,_{{page}}>.html\n网游周榜::/top/week6<,_{{page}}>.html\n女生周榜::/top/week7<,_{{page}}>.html\n全部月榜::/top/month<,_{{page}}>.html\n玄幻月榜::/top/month1<,_{{page}}>.html\n武侠月榜::/top/month2<,_{{page}}>.html\n都市月榜::/top/month3<,_{{page}}>.html\n历史月榜::/top/month4<,_{{page}}>.html\n科幻月榜::/top/month5<,_{{page}}>.html\n网游月榜::/top/month6<,_{{page}}>.html\n女生月榜::/top/month7<,_{{page}}>.html\n全部总榜::/top/all<,_{{page}}>.html\n玄幻总榜::/top/all1<,_{{page}}>.html\n武侠总榜::/top/all2<,_{{page}}>.html\n都市总榜::/top/all3<,_{{page}}>.html\n历史总榜::/top/all4<,_{{page}}>.html\n科幻总榜::/top/all5<,_{{page}}>.html\n网游总榜::/top/all6<,_{{page}}>.html\n女生总榜::/top/all7<,_{{page}}>.html\n",
+        "lastUpdateTime": 0,
+        "ruleBookInfo": {
+            "coverUrl": "tag.img.1@src",
+            "tocUrl": "id.AllChapterList2@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html##温馨提示：|还在用浏览器看.*书友都在用\"笔趣阁APP\"看.*百万小说免费看.*|.*关注微信公众号.*",
+            "imageStyle": "0",
+            "nextContentUrl": "id.pb_next@href"
+        },
+        "ruleExplore": {
+            "author": "tag.p.1@text",
+            "bookList": "@css:div#main>div",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "tag.p.2@text##简介：",
+            "name": "tag.p.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.p.1@text##.*作者：",
+            "bookList": "@css:div.recommend>div",
+            "bookUrl": "a@href",
+            "kind": "tag.p.1@text##\\|.*",
+            "lastChapter": "tag.p.2@text##.*\\|",
+            "name": "tag.p.0@text",
+            "wordCount": "tag.p.2@text##\\|.*"
+        },
+        "ruleToc": {
+            "chapterList": "@css:a[href*=/biquge/]",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://sou.xanbhx.com/search?siteid=52biqugecom&t=m&q={{key}}",
+        "weight": 0
+    }
+]

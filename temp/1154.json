@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "爱看书吧.cc",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.aikanshuba.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1626329397893,
+        "ruleBookInfo": {
+            "author": "h3.1@text",
+            "kind": "class.panel-body text-center info3@p.0@text## \\/ 写作状态：.+",
+            "lastChapter": "class.panel-body text-center info3@p.2@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "class.panel-body conten-body content-ext@html",
+            "imageStyle": "full",
+            "nextContentUrl": "text.下一页@a@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.td.2@a@text",
+            "bookList": "class.bookcon@tag.tr!0",
+            "bookUrl": "tag.td.1@a@href",
+            "name": "tag.td.1@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-group list-charts@tag.li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.aikanshuba.cc/modules/article/search.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 'searchkey={{key}}',\n'headers': {\n    'User-Agent': ''\n    }\n}",
+        "weight": 0
+    }
+]

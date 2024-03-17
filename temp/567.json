@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️啃书小说网☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kenshula.com##响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1645496541891,
+        "ruleBookInfo": {
+            "author": "tag.p@tag.a.0@text##第.*章 .*\n.*\n.*",
+            "coverUrl": "tag.img@src",
+            "intro": "id.intro@html",
+            "kind": "class.visible-xs!-1@text",
+            "lastChapter": "class.hidden-xs@tag.a.0@text##\n.*\n.*",
+            "name": "id.info@tag.h1@text",
+            "tocUrl": "class.chapterlist@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html##本章未完，点击下一页继续阅读。",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.btm@tag.a@title",
+            "bookList": "class.item",
+            "bookUrl": "tag.dl@tag.dt@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.dl@tag.dd@html",
+            "name": "class.image@tag.a@title",
+            "wordCount": "class.orange visible-xs@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.kenshula.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

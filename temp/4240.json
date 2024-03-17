@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceName": "365免费",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.e365xs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1696897797751,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=\"og:novel:author\"]@content",
+            "coverUrl": "[property$=\"og:image\"]@content",
+            "intro": "[property$=\"og:description\"]@content",
+            "kind": "[property$=\"og:novel:update_time\"]@content&&[property$=\"og:novel:category\"]@content",
+            "lastChapter": "[property$=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property$=\"og:novel:book_name\"]@content",
+            "tocUrl": "[property$=\"og:novel:read_url\"]@content##(.*)##$1dir.html####",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.pt-pop@tag.p@text",
+            "nextContentUrl": "class.pt-nextchapter@tag.a@href",
+            "sourceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.color5 size12@text",
+            "bookList": "class.pt-recomment-cont",
+            "bookUrl": "class.size14 color7@tag.a@href",
+            "coverUrl": "tag.a@img@src",
+            "intro": "class.size12 compulsory-row mb10 mt10 lh130 color4@text",
+            "kind": "class.pt-recomment-label@text",
+            "name": "class.size14 color7@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.border-b chapter-list",
+            "chapterName": "class.pl30@tag.a@text",
+            "chapterUrl": "class.pl30@tag.a@href"
+        },
+        "searchUrl": "/search/result.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "源仓库,自制,网页源,修复优化",
+        "bookSourceName": "无极小说网27",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wj27.com",
+        "bookUrlPattern": "https?://www.wj27.com/txt/\\d+/",
+        "customOrder": 559,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n排行::/rank/\n言情::/fenlei/yanqing/{{page}}/\n玄幻::/fenlei/xuanhuan/{{page}}/\n都市::/fenlei/dushi/{{page}}/\n武侠::/fenlei/wuxia/{{page}}/\n耽美::/fenlei/danmei/{{page}}/\n科幻::/fenlei/kehuan/{{page}}/\n轻小::/fenlei/lightnovel/{{page}}/\n历史::/fenlei/lishi/{{page}}/\n全本::/quanben/fenlei/\n记录::/history.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1699930227572,
+        "loginUrl": "",
+        "respondTime": 5393,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=lastest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text||.btm@ownText",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "name": "a.1@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dl>a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url);\njava.ajax(url).match(/search.*action=\"(.+?)\"/)[1]}}?searchkey={{key}}",
+        "weight": 0
+    }
+]

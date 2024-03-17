@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍜主耽美,☁zero,☣️senhora",
+        "bookSourceName": "元宝小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ybwzx9.com",
+        "customOrder": -2085973142,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/xuanhuanxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"修真\",\"url\":\"/xiuzhenxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"言情\",\"url\":\"/yanqingxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"穿越\",\"url\":\"/chuanyuexiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"女生\",\"url\":\"/nvshengxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/kehuanxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"其它\",\"url\":\"/qitaxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"完本\",\"url\":\"/wanbenxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1683263103236,
+        "respondTime": 5609,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "init": "",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|update_time]@content##小说|\\s.*",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "replaceRegex": "##元宝小说网.*|章节错误.*|无尽的昏迷过后，时宇.*([\\s\\S]*)|"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".l li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.ybwzx9.com/files/article/image/$2/$1/$1s.jpg###",
+            "kind": ".s1@text&&.s5@text##\\[|\\]|小说",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".novelslist2 li!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.ybwzx9.com/files/article/image/$2/$1/$1s.jpg###",
+            "kind": ".s6@text",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}"
+        },
+        "searchUrl": "/search.php?keyword={{key}},{\"charset\":\"utf_8\"}",
+        "weight": 0
+    }
+]

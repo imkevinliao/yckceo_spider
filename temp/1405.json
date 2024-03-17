@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "自制@XIAO233666",
+        "bookSourceGroup": "常用",
+        "bookSourceName": "🌸 笔趣阁9x",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://gfnormal05at.com/",
+        "customOrder": 10,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1676123781764,
+        "respondTime": 360140,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "{{@@.chapter-info@.name@text}} ⌚️{{@@.chapter-info@.update@span@text##最近更新：}}\n<js>result.replace(/(\\d{4}-\\d{2}-\\d{2}).*/,'$1')</js>\n<js>result.replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(\\{（｛【].*[求更谢乐发推票盟补加字Kk\\/].*[\\)\\}）｝】]/g,'')</js>\n<js>\nresult.replace(/^(\\d+)、第.+章/,'第$1章')\n.replace(/^(\\d+)、\\d+、/,'第$1章 ')\n.replace(/^(\\d+)、\\d+/,'第$1章')\n.replace(/^(第.+章)\\s?\\d+\\s/,'$1 ')\n.replace(/^(\\d+)(、|. ?)/,'第$1章 ')\n.replace(/^(第.+章)\\s?第.+章/,'$1')\n.replace(/第\\s(.+)\\s章/,'第$1章')\n.replace(/.*(chapter|Chapter)\\s?(\\d+)\\s?/,'$1 $2 ')\n.replace(/(章)([^\\s]+)(\\s·)*/,'$1 $2$3')\n.replace(/第([零一二三四五六七八九十百千]+)章/g,java.toNumChapter(result))\n.replace(/第0+/,'第')\n</js>",
+            "name": "",
+            "tocUrl": ".chapter@a@href",
+            "wordCount": ".tag@span.1@text"
+        },
+        "ruleContent": {
+            "content": "article@section@p!-1:-2:-3:-4:-5:-6@html",
+            "replaceRegex": "##<!--go-->|千千.*最新章节！|<!--over-->|zt0G|.*第.*章.*|\\~经\\^\\^小\\！说\\レ|首发\\]|永久网址.*请牢记！|本章完.*|看《.*》最新.*"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".type@span.0@text",
+            "bookList": "ul@li",
+            "bookUrl": "div.0@a@href",
+            "checkKeyWord": "",
+            "coverUrl": "div.0@a@img@src",
+            "intro": ".desc@span@text##\\[.*\\]",
+            "kind": ".type@span.1@text&&.score@text",
+            "lastChapter": "",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".child-title@li@a",
+            "chapterName": "span@text",
+            "chapterUrl": "href",
+            "isVolume": ""
+        },
+        "searchUrl": "https://gfnormal05at.com/h5/search?word={{key}}",
+        "weight": 0
+    }
+]

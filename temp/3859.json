@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceGroup": "星辰",
+        "bookSourceName": "小说之家",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://xszj.org/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1691542375647,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text",
+            "lastChapter": "class.lastchapter visible-xs@text",
+            "tocUrl": "class.readbtn@tag.a.1@href"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@tag.p@text"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.item",
+            "bookUrl": "class.image@tag.a@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "tag.img@data-original",
+            "intro": "class.item@tag.dl@tag.dd@text",
+            "name": "class.image@tag.a@title"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@tag.a",
+            "chapterName": "dd@text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://xszj.org/s/?keyword={{key}}",
+        "weight": 0
+    }
+]

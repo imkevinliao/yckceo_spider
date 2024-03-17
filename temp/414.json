@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceGroup": "置顶搜书",
+        "bookSourceName": "笔下文学(感谢3.0大佬的书源)",
+        "bookSourceUrl": "http://www.bxwx6.org",
+        "enable": true,
+        "loginUrl": "",
+        "ruleBookAuthor": "[property=\"og:novel:author\"]@content ",
+        "ruleBookContent": "id.chaptercontent@tag.p@text##\\.?中文域名.*|最快更新小说.*访问：",
+        "ruleBookInfoInit": "",
+        "ruleBookKind": "[property=\"og:novel:category\"]@content",
+        "ruleBookLastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "ruleBookName": "[property=\"og:novel:book_name\"]@content",
+        "ruleChapterList": "class.dirlist@tag.li@tag.a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "[property=\"og:image\"]@content",
+        "ruleIntroduce": "[property=\"og:description\"]@content",
+        "ruleSearchAuthor": "class.info@tag.span.1@text",
+        "ruleSearchCoverUrl": "tag.img@src",
+        "ruleSearchIntroduce": "class.intro@text",
+        "ruleSearchKind": "class.info@tag.span.2@text##分类：",
+        "ruleSearchLastChapter": "class.last@tag.a@text",
+        "ruleSearchList": "class.librarylist@tag.li",
+        "ruleSearchName": "tag.a.1@text",
+        "ruleSearchNoteUrl": "tag.a.1@href",
+        "ruleSearchUrl": "https://www.bxwx6.org/search/?searchkey=searchKey",
+        "serialNumber": 3,
+        "weight": 0
+    }
+]

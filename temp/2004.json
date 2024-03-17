@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣岛™",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.biqudao.me",
+        "customOrder": -39116,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1619052372136,
+        "ruleBookInfo": {
+            "author": "##:author\"[^\"]*\"([^\"]*)##$1###",
+            "coverUrl": "##:image\"[^\"]*\"([^\"]*)##$1###",
+            "intro": "#intro@text@js:result.replace(/^\\s*/, '<br>')",
+            "kind": "##:category\"[^\"]*\"([^\"]*)[\\s\\S]*?status\"[^\"]*\"([^\"]*)[\\s\\S]*?_time\"[^\"]*\"([^\"]*)##$1,$2,$3###",
+            "lastChapter": "##_chapter_name\"[^\"]*\"([^\"]*)##$1###",
+            "name": "##:book_name\"[^\"]*\"([^\"]*)##$1###"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".novelslist2 li!0",
+            "bookUrl": ".s2 a@href",
+            "coverUrl": "",
+            "kind": ".s1@text&&.s7@text&&.s6@text##\\[|]",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/SearchBook.aspx?keyword={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "搜书网17pao8",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.17pao8.com",
+        "bookUrlPattern": "http://m.17pao8.com/shu/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/sou/{{page}}/\n玄幻小说::/sou/1/{{page}}/\n武侠小说::/sou/2/{{page}}/\n都市小说::/sou/3/{{page}}/\n历史小说::/sou/4/{{page}}/\n网游小说::/sou/5/{{page}}/\n科幻小说::/sou/6/{{page}}/\n耽美小说::/sou/7/{{page}}/\n其他小说::/sou/8/{{page}}/\n全本小说::/quanben/sou/{{page}}/\n玄幻小说::/quanben/sou/1/{{page}}/\n武侠小说::/quanben/sou/2/{{page}}/\n都市小说::/quanben/sou/3/{{page}}/\n历史小说::/quanben/sou/4/{{page}}/\n网游小说::/quanben/sou/5/{{page}}/\n科幻小说::/quanben/sou/6/{{page}}/\n耽美小说::/quanben/sou/7/{{page}}/\n其他小说::/quanben/sou/8/{{page}}/",
+        "header": "{\"referer\": \"{{source.getKey()}}/\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698920970798,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\".book-cell p.-1@text\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.章节目录@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}",
+            "wordCount": "@get:{w}##.*\\|"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".content dl",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "dd.0@text",
+            "kind": "span.0@text",
+            "name": "a.1@text",
+            "wordCount": "span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

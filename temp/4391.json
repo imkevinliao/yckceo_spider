@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "新乐文小说网2",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xlewen2.com",
+        "bookUrlPattern": "https?://www.xlewen2.com/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n我的书架::/user/bookcase.php\n玄幻小说::/list/1-{{page}}.html\n仙侠小说::/list/2-{{page}}.html\n言情小说::/list/3-{{page}}.html\n历史小说::/list/4-{{page}}.html\n网游小说::/list/5-{{page}}.html\n科幻小说::/list/6-{{page}}.html\n恐怖小说::/list/7-{{page}}.html\n其它小说::/list/8-{{page}}.html\n阅读轨迹::/gj.html\n全本::/wanben/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36\"}",
+        "lastUpdateTime": 1698919725683,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "replaceRegex": "##.*app.*|章节错误.*"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": "#newscontent li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": ".s1@text&&span.4@text##\\[|\\]",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".novelslist2 ul li!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "span.-1@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?keyword={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

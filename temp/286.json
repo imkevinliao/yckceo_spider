@@ -1,0 +1,31 @@
+[
+    {
+        "bookSourceGroup": "saberyz抄来的",
+        "bookSourceName": "猫看书网",
+        "bookSourceUrl": "https://m.maokanshu.com",
+        "enable": true,
+        "ruleBookAuthor": "class.author@text",
+        "ruleBookContent": "class.content@html",
+        "ruleBookInfoInit": "",
+        "ruleBookKind": "tag.p.2@tag.a@text",
+        "ruleBookLastChapter": "class.update@text",
+        "ruleBookName": "class.name@text",
+        "ruleChapterList": "class.read@li",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrl": "class.title@tag.a@href",
+        "ruleChapterUrlNext": "text.下一页@href",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "class.detail@img@src",
+        "ruleIntroduce": "class.intro@text<js>result.replace(/(.*)/,' ๑ STORY ๑ :\\n$1')</js>##.*阅读地址.*",
+        "ruleSearchAuthor": "tag.a@tag.p.1@textNodes",
+        "ruleSearchCoverUrl": "tag.a@img@src",
+        "ruleSearchIntroduce": "tag.a@tag.p.2@textNodes",
+        "ruleSearchKind": "tag.a@tag.p.1@tag.span@text",
+        "ruleSearchList": "class.list@li",
+        "ruleSearchName": "tag.a@tag.p.0@text",
+        "ruleSearchNoteUrl": "tag.a@href",
+        "ruleSearchUrl": "https://m.maokanshu.com/search.html@s=articlename&searchkey=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

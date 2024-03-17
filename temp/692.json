@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "52书库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.52shuku.vip/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1668131553601,
+        "respondTime": 5570,
+        "ruleBookInfo": {
+            "author": "h1@text##.*_|【完结.*】",
+            "canReName": "1",
+            "intro": "p.1@text##(^|[\\s]+)##<br>",
+            "kind": "time@text",
+            "lastChapter": "li.mulu.-1@a@text&&time@text",
+            "name": "h1@text##\\[.*同人]|_.*"
+        },
+        "ruleContent": {
+            "content": "div#text.book_con.fix@html||p@html"
+        },
+        "ruleSearch": {
+            "author": "h2@a@text##.*_|【完结.*】",
+            "bookList": "article",
+            "bookUrl": "h2@a@href",
+            "intro": "span.note@text##\\s|【分类：.*】",
+            "name": "h2@a@text##\\[.*同人]|_.*"
+        },
+        "ruleToc": {
+            "chapterList": "li.mulu@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/e/search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"tbname=article&tempid=1&show=title,writer&keyboard={{key}}\"}",
+        "weight": 0
+    }
+]

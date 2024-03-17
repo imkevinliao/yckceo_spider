@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "小说路上",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xs631.com",
+        "bookUrlPattern": "",
+        "customOrder": -1,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "header": "",
+        "lastUpdateTime": 1663570016497,
+        "loginUrl": "",
+        "respondTime": 182428,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "kind": "",
+            "name": ""
+        },
+        "ruleToc": {
+            "chapterList": "",
+            "chapterName": "",
+            "chapterUrl": "",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

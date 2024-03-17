@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "搜索修复By~江湖",
+        "bookSourceGroup": "♠ 优选 ♠",
+        "bookSourceName": "♠ 燃文小说③",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ranwen.com/",
+        "bookUrlPattern": "https?://www\\.ranwen\\.com/html/\\d+/\\d+/",
+        "customOrder": -18911,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuan/\n修真小说::/xiuzhen/\n都市小说::/dushi/\n历史小说::/lishi/\n网游小说::/wangyou/\n科幻小说::/kehuan/\n恐怖小说::/lingyi/\n其他小说::/qita/",
+        "lastUpdateTime": 1648801392819,
+        "loginUrl": "",
+        "respondTime": 1933,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.2@text##作 者：",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "id.maininfo",
+            "intro": "id.intro@tag.p.0@text",
+            "kind": "id.info@tag.p.0@text&&\nid.info@tag.p.1@text&&\nid.info@tag.p.5@text##分类：|最后更新：|状 态：",
+            "lastChapter": "id.info@tag.p.4@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+            "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+        },
+        "ruleContent": {
+            "content": "id.content@html##.*第.*章.*"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ranwen.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "class.s5@text",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说|燃文小说网"
+        },
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.bookbox@class.p10",
+            "bookUrl": "class.bookname@tag.a@href",
+            "coverUrl": "class.bookimg@img@src",
+            "intro": "class.bookinfo@p@text",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "class.update@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+            "name": "class.bookname@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/ddfdw333.php?ie=gbk&q={{key}},{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

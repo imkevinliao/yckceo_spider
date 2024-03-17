@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "error:timeout\nerror:SSL handshake timed out\n",
+        "bookSourceGroup": "优质",
+        "bookSourceName": "梧州中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ztv.la",
+        "bookUrlPattern": "",
+        "customOrder": -5122,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+        "lastUpdateTime": 1614798243579,
+        "loginUrl": "https://www.ztv.la/login.htm",
+        "ruleBookInfo": {
+            "coverUrl": "class.img-thumbnail@src",
+            "intro": "id.shot@textNodes",
+            "tocUrl": "class.list-group-item tac.0@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.txtContent@html##欢迎广大书友.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.col-xs-2.0@text",
+            "bookList": "class.list-group-item clearfix!0",
+            "bookUrl": "class.col-xs-3@tag.a@href",
+            "kind": "class.col-xs-1.0@text",
+            "lastChapter": "class.col-xs-4@tag.a@text",
+            "name": "class.col-xs-3@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapters-list@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.ztv.la/search.htm?keyword={{key}}",
+        "weight": 0
+    }
+]

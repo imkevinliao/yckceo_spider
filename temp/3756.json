@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自添",
+        "bookSourceName": "疯情书库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://aastory.space",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/category.html?catId=xuanhuan\n职场::/category.html?catId=zhichang\n古典::/category.html?catId=gudian\n惊悚::/category.html?catId=jingsong\n网游::/category.html?catId=wangyou\n乡土::/category.html?catId=xiangtu\n历史::/category.html?catId=lishi\n耽美::/category.html?catId=danmei\n女尊::/category.html?catId=nvzun\n穿越::/category.html?catId=chuanyue\n同人::/category.html?catId=tongren\n校园::/category.html?catId=xiaoyuan\n言情::/category.html?catId=yanqing\n官场::/category.html?catId=guanchang\n异能::/category.html?catId=yineng\n都市::/category.html?catId=dushi\n武侠::/category.html?catId=wuxia\n仙侠::/category.html?catId=xianxia\n单篇::/category.html?catId=danpian\n点击榜::/ranking.php?t=click\n新书榜::/ranking.php?t=newbook\n总字数榜::/ranking.php?t=totalword",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.62\"\n}",
+        "lastUpdateTime": 1690201041294,
+        "loginUrl": "",
+        "respondTime": 14096,
+        "ruleBookInfo": {
+            "coverUrl": "class.book_info_top_l@tag.img.0@src",
+            "intro": "class.jianjieneirong@text",
+            "lastChapter": "class.new_zhangjie1@tag.a@text",
+            "tocUrl": "class.xiaoshuomulu@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "<js>java.ajax(baseUrl.replace('read-', '_getcontent.php?id=').replace('.html','&v=' + result.match(/&v=(.*?)\"/)[1])).replaceAll('<style.*style>','').replaceAll('<([^<]*?)class(.*?)</(.*?)>','')</js>"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a.1@text||class.author@text",
+            "bookList": "class.sousuojieguo@tag.ul.0@tag.li||class.yuepiaobang@tag.tbody@tag.tr",
+            "bookUrl": "tag.a.0@href||class.shuming@tag.a@href",
+            "kind": "textNodes||class.fenlei@text",
+            "name": "tag.a.0@text||class.shuming@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section_list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.aastory.space/search.html?searchword={{key}}",
+        "weight": 0
+    }
+]

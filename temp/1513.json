@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceName": "阿达小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ad2la.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1673761700284,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": "text.查看更多章节@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "nextContentUrl": "text.下一章@href",
+            "replaceRegex": "##请收藏：.*|（温馨提示：请关闭畅读或阅读模式，否则内容无法正常显示）"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": "class.item",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last@dd!0@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.ad2la.com/s?q={{key}}",
+        "weight": 0
+    }
+]

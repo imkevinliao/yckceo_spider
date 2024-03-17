@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "三优",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.333uu.net/",
+        "customOrder": 29,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1673855013956,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "intro": "class.info-meta d-none d-md-block c-sub@p@text",
+            "name": "class. mr-0 ml-0@h2.0@text"
+        },
+        "ruleContent": {
+            "content": "class.content-main puock-text@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class. mr-0 ml-0",
+            "checkKeyWord": "我的属性修行人生",
+            "coverUrl": "img@src",
+            "intro": "class.info-meta d-none d-md-block c-sub@p@text",
+            "name": "h2.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "-class. mr-0 ml-0@class.row",
+            "chapterName": "h2@tag.a.1@text##友情链接",
+            "chapterUrl": "h2@tag.a.1@href",
+            "nextTocUrl": "class.next-page@tag.a@href",
+            "updateTime": "class.float-right@span@text"
+        },
+        "searchUrl": "http://www.333uu.net/?s={{key}}",
+        "weight": 0
+    }
+]

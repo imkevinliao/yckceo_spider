@@ -1,0 +1,31 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "想看就来小说网",
+        "bookSourceUrl": "https://www.xk9l.com",
+        "enable": true,
+        "httpUserAgent": "",
+        "loginUrl": "",
+        "ruleBookAuthor": "id.info@tag.p.0@text##作 者：",
+        "ruleBookContent": "$id.content@html##【章节未完，当前页面不支持此浏览器，请更换其他浏览器打开本页面即可正常阅读】|章节错误,点此举报.*",
+        "ruleBookName": "id.info@tag.h1@text",
+        "ruleBookUrlPattern": "",
+        "ruleChapterList": "+@js:\nlist=org.jsoup.Jsoup.parse(result).select(\".list dd a\").toArray();\nif(result.indexOf('中间隐藏的')>-1){\nlist1=[];\nfor(i in list){\nlist1.push({text:list[i].text(),href:list[i].attr(\"href\")})}\nlist1\n\n\nbid=baseUrl.match(/(\\d+)\\/$/)[1];\n\nheader={\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"}\nheader=\"@Header:\"+JSON.stringify(header);\n\nurl=header+\"https://www.xk9l.com/action.php@action=clist&bookid=\"+bid;\n\nlist2=[];\nl=JSON.parse(java.ajax(url)).columnlist;\nfor(i in l){\nl2=l[i].chapterlist;\nfor(j in l2){\nlist2.push({\ntext:l2[j].chaptername,\nhref:parseInt(l2[j].chapterid)+parseInt(bid*11)+'.html'})\n}\n}\n\nlist=list1.concat(list2);\nlist.sort((a,b)=>a.href.match(/(\\d+)\\.html/)[1]-b.href.match(/(\\d+)\\.html/)[1]);list}else{\nlist.map(x=>x)\n}",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "",
+        "ruleCoverUrl": "id.fmimg@tag.img@src",
+        "ruleFindUrl": "null",
+        "ruleIntroduce": "id.intro@text",
+        "ruleSearchAuthor": "class.s4@text",
+        "ruleSearchKind": "class.s1@text##.*\\[|\\]",
+        "ruleSearchLastChapter": "class.s3@tag.a@text",
+        "ruleSearchList": "class.novelslist2@tag.li",
+        "ruleSearchName": "class.s2@tag.a@text",
+        "ruleSearchNoteUrl": "class.s2@tag.a@href",
+        "ruleSearchUrl": "https://www.xk9l.com/searchbook.php?keyword=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "飘然文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.pr46.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"排行\",\"url\":\"/rank/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"书库\",\"url\":\"/sort/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完本\",\"url\":\"/quanben/sort/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1682934696680,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".fix@p.0@a@text",
+            "coverUrl": "img@src",
+            "intro": ".m-desc@textNodes",
+            "kind": ".fix@p.1:2:4@text##类 别：|状 态：|最后更新：",
+            "lastChapter": ".fix.1@li.0@a@text",
+            "name": "h1.1@text",
+            "wordCount": ".fix@p.5@span@text"
+        },
+        "ruleContent": {
+            "content": "#content@p@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "dt@span@text||.s4@text",
+            "bookList": ".item||.txt-list@li!0",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "dd@a@text",
+            "kind": ".s1@text&&.s5@text##\\[|\\]",
+            "name": "dt@a@text||.s2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list@li!0",
+            "bookUrl": "a@href",
+            "checkKeyWord": "星门",
+            "kind": ".s1@text&&.s5@text##\\[|\\]",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

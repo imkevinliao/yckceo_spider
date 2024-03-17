@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "有BT标签说明有磁力链接\n简介为番号",
+        "bookSourceGroup": "发布页\naabb1801.com\na2a1a2.com\ncc5912.com",
+        "bookSourceName": "番号搜索🛫",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://zz2159.com/",
+        "customOrder": -185608,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\": \"分类\",\"url\": \"\",\"style\": {\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\": \"HEYZO\",\"url\": \"/serchinfo_uncensored/17/makersbt_1.htm\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"东京热\",\"url\": \"/serchinfo_uncensored/29/makersbt_1.htm\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"一本道\",\"url\": \"/serchinfo_uncensored/32/makersbt_1.htm\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"加勒比\",\"url\": \"/serchinfo_uncensored/30/makersbt_1.htm\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"天然素人\",\"url\": \"/serchinfo_uncensored/31/makersbt_1.htm\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"人妻熟女\",\"url\": \"/serchinfo_uncensored/36/makersbt_1.htm\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"有码随机\",\"url\": \"/serchinfo_censored/randomlist/randomlistbt_1.htm\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"无码随机\",\"url\": \"/serchinfo_uncensored/randomlist/randomlistbt_1.htm\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"有码热门\",\"url\": \"/serchinfo_censored/topicsbt/topicsbt_1.htm\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"无码热门\",\"url\": \"/serchinfo_uncensored/topicsbt/topicsbt_1.htm\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1650995581909,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": ".dht_dl_area@script@html\n<js>\nfunction reurl(a){var b='';var c=csplit(a,8).split('\\r\\n');for(var i=0;i<(c.length-1);i++){b=b+String.fromCharCode((parseInt(c[i],2)-10).toString(10))}return b}\n\nfunction csplit(a,b,c){b=parseInt(b,10)||76;c=c||'\\r\\n';if(b<1){return false}return a.match(new RegExp(\".{0,\"+b+\"}\",\"g\")).join(c)}\n\nr=result.match(/(reurl[^)]+\\))/)[1]\ns=eval('('+r+')')\nresult=\"magnet:?xt=urn:btih:\"+s\n</js>",
+            "imageStyle": "FULL",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "bookList": "class.Po_u_topic||class.Po_topic",
+            "bookUrl": "class.Po_u_topic_title@a@href||class.Po_topic_title@a@href",
+            "coverUrl": "class.Po_u_topicCG@img@src||class.Po_topicCG@img@src",
+            "intro": "class.Po_u_topic_Date_Serial@text||class.Po_topic_Date_Serial@text",
+            "kind": "class.BT_DL_icon@b@text",
+            "name": "class.Po_u_topic_title@text||class.Po_topic_title@a@text"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.Po_u_topic||class.Po_topic",
+            "bookUrl": "class.Po_u_topic_title@a@href||class.Po_topic_title@a@href",
+            "checkKeyWord": "人妻",
+            "coverUrl": "class.Po_u_topicCG@img@src||class.Po_topicCG@img@src",
+            "intro": "Po_u_topic_Date_Serial@text||class.Po_topic_Date_Serial@text",
+            "kind": "class.BT_DL_icon@b@text",
+            "lastChapter": "",
+            "name": "class.Po_u_topic_title@text||class.Po_topic_title@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.title",
+            "chapterName": "b@text"
+        },
+        "searchUrl": "/serch_censored.htm,{\n\t\"method\":\"POST\",\n\t\"body\":\"skey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

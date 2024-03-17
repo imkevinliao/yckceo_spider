@@ -1,0 +1,36 @@
+[
+    {
+        "ruleSearch": {
+            "checkKeyWord": "重生之",
+            "bookList": ".item",
+            "name": "class.item@tag.dl@tag.dt@tag.a@text",
+            "intro": "class.item@tag.dl@tag.dd@text",
+            "coverUrl": "class.item@class.image@tag.a@class.img@src",
+            "bookUrl": "class.item@tag.dl@tag.dt@tag.a@href"
+        },
+        "ruleBookInfo": {
+            "name": "id.info@tag.h1@text",
+            "author": "id.info@tag.p.0@text",
+            "kind": "class.link-instanted@text",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "tocUrl": "class.readbtn@tag.a.1@href"
+        },
+        "ruleToc": {
+            "chapterList": "id.c-list@tag.a",
+            "chapterName": "tag.a@tag.dd@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "id.c-list@tag.dl@tag.dt@tag.div@tag.a.1@href"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "nextContentUrl": "class.bottem1@tag.a.2@href"
+        },
+        "ruleReview": [],
+        "ruleExplore": [],
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://youyouxs.com/",
+        "bookSourceName": "友友小说-知乎",
+        "searchUrl": "/z/?keyword={{key}}"
+    }
+]

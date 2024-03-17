@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "漫画",
+        "bookSourceName": "开心看漫画",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.kxkmh.com/",
+        "customOrder": -185597,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1651226415759,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "class.anime__details__text@p.1@text"
+        },
+        "ruleContent": {
+            "content": "class.blog__details__content@html",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "bookList": "class.col-lg-2 col-md-3 col-sm-4 col-6",
+            "bookUrl": "h6@a@href",
+            "coverUrl": "class.product__item__pic set-bg@data-setbg",
+            "kind": "class.ep@text",
+            "name": "h6@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.anime__details__episodes@a[-1:0]",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.kxkmh.com/manga/search?keyword={{key}}",
+        "weight": 0
+    }
+]

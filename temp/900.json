@@ -1,0 +1,25 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "阅读2.0",
+        "bookSourceUrl": "阅读2.0",
+        "enable": true,
+        "ruleBookContent": "*[class~=content]@html||\n*[id~=nr1|txt|content]@html||\n*:containsOwn(。):not(p)@html||\n*:has(>p:containsOwn(。))@html",
+        "ruleBookName": "title@text##(\\(|_|-|:|,|txt|》|最新|无弹窗|完整|全集|全文|免费|章节|免费|小说).*|《",
+        "ruleBookUrlPattern": ".*",
+        "ruleChapterList": "@css:div:matches(一页|下页) ul:last-of-type a||\ndiv:matchesOwn(章节列表：):has(br)>a||\nul:matches(\\d、|\\d\\.|第|分节|番外|\\d{3,}|卷|\\(.*\\)) a||\ndl:matches(\\d、|\\d\\.|第|分节|番外|\\d{3,}|卷|\\(.*\\)) a||\n*:has(>*:has(>a:matches(\\d、|\\d\\.|第|分节|番外|\\d{3,}|卷|\\(.*\\)))):not(:has(div)) a||\na[href~=\\d+/\\d+/\\d+\\.]||\na[href~=\\d+/\\d+\\.]||\na[href~=\\d{4,}]",
+        "ruleChapterName": "text##上一页|下一页",
+        "ruleChapterUrl": "",
+        "ruleChapterUrlNext": "a:matches(下一页|下页)@href",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "a:matches(下一页|下一篇)@href||\na[href~=page=\\d{1,2}|\\d{4,}(_|-|/)\\d{1,2}]:matches(下)@href",
+        "ruleSearchAuthor": "",
+        "ruleSearchIntroduce": "",
+        "ruleSearchList": "",
+        "ruleSearchName": "",
+        "ruleSearchNoteUrl": "",
+        "ruleSearchUrl": "",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

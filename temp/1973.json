@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceUrl": "http://j.5yzw.com",
+        "bookSourceType": "0",
+        "bookSourceName": "万卷小说",
+        "bookSourceGroup": "常用,API",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/wap1/api.php?a=api&m=search&key={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1619328778914,
+        "ruleSearch": {
+            "bookList": "novel",
+            "name": "novel_name@put:{id:id}",
+            "author": "author",
+            "kind": "sort_name.sort_name",
+            "lastChapter": "last_chapter",
+            "intro": "description",
+            "coverUrl": "image_local",
+            "bookUrl": "/wap1/api.php?a=api&m=get_novels&ids={{$.id}}"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "init": "novel[0]",
+            "name": "novel_name",
+            "author": "author",
+            "kind": "sort_name.sort_name",
+            "lastChapter": "last_chapter",
+            "intro": "description",
+            "coverUrl": "image_local",
+            "tocUrl": "/wap1/api.php?a=api&m=info&id={{$.id}}"
+        },
+        "ruleToc": {
+            "chapterList": "chapters",
+            "chapterName": "chapter_name",
+            "chapterUrl": "/txt.php?m=txt2&nid=@get:{id}&cid={{$.cid}}"
+        },
+        "ruleContent": {
+            "content": "content"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "//搜索有盾，需验证过盾",
+        "bookSourceGroup": "自制,备用,源仓库,网页源",
+        "bookSourceName": "八一中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://so2.x218zw.com",
+        "bookUrlPattern": "https?://(m|so2).x218zw.com/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/xclass/0/{{page}}.html\n玄幻小说::/xclass/1/{{page}}.html\n武侠小说::/xclass/2/{{page}}.html\n都市小说::/xclass/3/{{page}}.html\n穿越小说::/xclass/4/{{page}}.html\n网游小说::/xclass/5/{{page}}.html\n科幻小说::/xclass/6/{{page}}.html\n其它小说::/xclass/7/{{page}}.html",
+        "header": "{'User-Agent': 'Mozilla/5.0 (linux; u; android 9; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/100.0.2987.108 quark/6.5.5.137 mobile safari/537.36'}",
+        "lastUpdateTime": 1694240666343,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#book_detail a.0@text",
+            "coverUrl": "#thumb img@src",
+            "intro": ".review@text",
+            "kind": "#book_detail li.1:2:3@text\n##类别：|状态：|更新：",
+            "lastChapter": "#chapterlist p.0@text",
+            "name": "span.title@text",
+            "tocUrl": "text.章节列表@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##[wm].+net"
+        },
+        "ruleExplore": {
+            "author": "p.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text",
+            "kind": ".score@text",
+            "name": "p.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": "<js>\nvar verify=/Just a moment/.test(src);\nif(verify){\n\tcookie.removeCookie(source.getKey());\n\tvar x=java.get(\"url\");\n\ts=java.startBrowserAwait(x,\"验证\").body();\n\tresult=s;\n\t}else{\n\t\tresult=result;\n\t\t}\n\t\tresult;\n</js>\n.hot_sale",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "p.-1@ownText##\\| 最近更新：##,",
+            "lastChapter": "a.-1@text",
+            "name": "p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\nso=`https://so2.x218zw.com/search.php?keyword=${key},`;\nvar head={\"headers\": source.header};\njava.put(\"url\",String(so+JSON.stringify(head)))",
+        "weight": 0
+    }
+]

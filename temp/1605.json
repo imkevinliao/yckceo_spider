@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🪐绅士",
+        "bookSourceName": "烈火中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.liehuozw.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄幻::/sort/1_{{page}}/\n仙侠::/sort/2_{{page}}/\n都市::/sort/3_{{page}}/\n军史::/sort/4_{{page}}/\n网游::/sort/5_{{page}}/\n科幻::/sort/6_{{page}}/\n耽美::/sort/7_{{page}}/\n辣文::/sort/8_{{page}}/\n完本::/full/{{page}}/\n日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/",
+        "lastUpdateTime": 1668598535394,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.infotype@p.0@a@text",
+            "intro": "class.intro@text",
+            "kind": "class.infotype@p.1@text##类型：",
+            "lastChapter": "class.infotype@p.3@a@text",
+            "name": "class.cataloginfo@h3@text",
+            "tocUrl": "class.infolink@li.1@a@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*本章未完，请点击下一页继续阅读 》》\\s*"
+        },
+        "ruleExplore": {
+            "author": "tag.a.1@text||class.author@text",
+            "bookList": "class.articlegeneral||class.article||class.full_content",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "class.simple@text",
+            "kind": "class.p1@text",
+            "name": "tag.a.0@text||h6@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@a@text",
+            "bookList": "class.sone",
+            "bookUrl": "a.0@href",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.liehuozw.com/s.php,{\n  \"body\": \"type=articlename&s={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

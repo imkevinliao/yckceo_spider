@@ -1,0 +1,30 @@
+[
+    {
+        "bookSourceGroup": "saberyz修复",
+        "bookSourceName": " 爱下电子书",
+        "bookSourceUrl": "\nhttps://m.aixdzs.com",
+        "enable": true,
+        "ruleBookAuthor": "class.ix-list-info.0@tag.a.0@text",
+        "ruleBookContent": "tag.section@tag.p@text",
+        "ruleBookKind": "class.ix-list-info.0@tag.a.1@text",
+        "ruleBookLastChapter": "class.ix-list-info.0@tag.a.2@text",
+        "ruleBookName": "class.ix-header@h1@text",
+        "ruleChapterList": "class.chapter@tag.li@tag.a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "",
+        "ruleChapterUrlNext": "",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.ix-list-img-square@img@src",
+        "ruleIntroduce": "id.intro@textNodes##内容简介.",
+        "ruleSearchAuthor": "tag.a.3@text",
+        "ruleSearchCoverUrl": "tag.img@src",
+        "ruleSearchKind": "tag.span.0@text&&tag.em.0@text",
+        "ruleSearchLastChapter": "tag.a.2@text",
+        "ruleSearchList": "class.ix-list@tag.li",
+        "ruleSearchName": "tag.a.1@text",
+        "ruleSearchNoteUrl": "tag.a.1@href",
+        "ruleSearchUrl": "https://m.aixdzs.com/search?k=searchKey&page=searchPage",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "小说之家",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://xszj.org",
+        "bookUrlPattern": "https://xszj.org/b/\\d+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n社会::/c/2\n豪门::/c/3\n现代::/c/4\n古代::/c/5\n穿越::/c/6\n玄幻::/c/7\n悬疑::/c/8\n武侠::/c/9\n女生::/c/17\n排行::/t/month\n记录::/h",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690610134400,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "{{@@text.最新章节：.0@a@text}}",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "{{@@text.字数：@text##字数：}}"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##（ 本书网址：.+）"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "#content_1 a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://xszj.org/s/?keyword={{key}}",
+        "weight": 0
+    }
+]

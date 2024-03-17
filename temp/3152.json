@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceGroup": "搜索,发现,A级,特殊,18",
+        "bookSourceName": "第一版主hdyp.net",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://hdyp.net",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部·总集::https://hdyp.net/shuku/0-lastupdate-0-{{page}}.html\n全部·完本::https://hdyp.net/shuku/0-lastupdate-2-{{page}}.html\n全部·连载::https://hdyp.net/shuku/0-lastupdate-1-{{page}}.html\n奇幻·玄幻::https://hdyp.net/shuku/1-lastupdate-0-{{page}}.html\n仙侠·武侠::https://hdyp.net/shuku/2-lastupdate-0-{{page}}.html\n都市·言情::https://hdyp.net/shuku/3-lastupdate-0-{{page}}.html\n穿越·历史::https://hdyp.net/shuku/4-lastupdate-0-{{page}}.html\n科幻·灵异::https://hdyp.net/shuku/5-lastupdate-0-{{page}}.html\n藏经阁::https://hdyp.net/shuku/6-lastupdate-0-{{page}}.html\n其他类型::https://hdyp.net/shuku/7-lastupdate-0-{{page}}.html\n总人气::https://hdyp.net/shuku/0-allvisit-0-{{page}}.html\n月人气::https://hdyp.net/shuku/0-monthvisit-0-{{page}}.html\n字数::https://hdyp.net/shuku/0-size-0-{{page}}.html\n新书::http://hdyp.net/shuku/0-postdate-0-{{page}}.html",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "intro": "class.book-intro@class.bd@text",
+            "name": "class.container@class.bd@class.right@tag.h1@text",
+            "tocUrl": "class.pagelistbox@class.indexPage@href"
+        },
+        "ruleContent": {
+            "content": "class.page-content@p@html\n<js>\nm=[];n=[];\nfunction x(a,b){m.push(a);n.push(b)}\n// 拼音还原\n// 逐条添加：x(/#正则#/gi,\"文本\");\nx(/#lfxssxg#/gi,\"露\");\nx(/#sxxxvvs#/gi,\"兽\");\nx(/#cbwffch#/gi,\"唇\");\nx(/#xiwacfg#/gi,\"胸\");\nx(/#yaghacd#/gi,\"硬\");\nx(/#saavvfh#/gi,\"死\");\nx(/#bbbavvs#/gi,\"逼\");\nx(/#yhavaac#/gi,\"淫\");\nx(/#zhjzwat#/gi,\"指\");\nx(/#djsdfzg#/gi,\"弹\");\nx(/#zedqwaw#/gi,\"足\");\nx(/#jfssssc#/gi,\"交\");\nx(/#rbdsszn#/gi,\"乳\");\nx(/#mbcswwe#/gi,\"马\");\nx(/#ghivdef#/gi,\"高\");\nx(/#mglssie#/gi,\"美\");\nx(/#bfgregr#/gi,\"暴\");\nx(/#nekdksk#/gi,\"内\");\nx(/#cddwfcr#/gi,\"处\");\nx(/#xkertxc#/gi,\"穴\");\nx(/#nfhzssj#/gi,\"奶\");\nx(/#xfxsvvc#/gi,\"吸\");\nx(/#zazusaa#/gi,\"中\");\nx(/#ygzaadv#/gi,\"阴\");\nx(/#yiuywaa#/gi,\"欲\");\nx(/#shccrwr#/gi,\"杀\");\nx(/#sgvvuei#/gi,\"色\");\nx(/#razisso#/gi,\"日\");\nx(/#wcedavw#/gi,\"未\");\nx(/#jbsdssf#/gi,\"精\");\nx(/#lcossdw#/gi,\"裸\");\nx(/#zcekwae#/gi,\"做\");\nx(/#qbzsssf#/gi,\"情\");\nx(/#sejkvvt#/gi,\"尸\");\nx(/#jcassyy#/gi,\"九\");\nx(/#ladddsr#/gi,\"凌\");\nx(/#skhussi#/gi,\"水\");\nx(/#aaaaaa2#/gi,\"爱\");\nx(/#hcjsjjs#/gi,\"含\");\nx(/#fckykir#/gi,\"妇\");\nx(/#xjxsccc#/gi,\"学\");\nx(/#tguqvvq#/gi,\"偷\");\nx(/#jmssadl#/gi,\"纪\");\nx(/#smobsvv#/gi,\"骚\");\nx(/#dgodldl#/gi,\"洞\");\nx(/#xlcvudd#/gi,\"血\");\nx(/#patsspp#/gi,\"屁\");\nx(/#sdxcvfv#/gi,\"熟\");\nx(/#ykcvadc#/gi,\"药\");\nx(/#tfxxdvv#/gi,\"腿\");\nx(/#xhawxsc#/gi,\"性\");\nx(/#bdagcgf#/gi,\"帮\");\nx(/#lbddssz#/gi,\"乱\");\nx(/#hajsssb#/gi,\"胡\");\nx(/#lewscsw#/gi,\"流\");\nx(/#yfasaas#/gi,\"吟\");\nx(/#fbevset#/gi,\"粉\");\nx(/#teztvva#/gi,\"舔\");\nx(/#ggrtyde#/gi,\"干\");\nx(/#yjayaar#/gi,\"摇\");\nx(/#gegdeeu#/gi,\"狗\");\nx(/#sbdwvvf#/gi,\"丝\");\nx(/#gcddbdq#/gi,\"宫\");\nx(/#sfhvvhy#/gi,\"湿\");\nx(/#massema#/gi,\"麻\");\nx(/#rdaseef#/gi,\"肉\");\nx(/#wbdvvff#/gi,\"温\");\nx(/#tcbvbtt#/gi,\"臀\");\nx(/#jdsserr#/gi,\"奸\");\nx(/#zbarzaz#/gi,\"主\");\nx(/#scytjvv#/gi,\"酸\");\nx(/#tdyvvft#/gi,\"吞\");\nx(/#qcqqdss#/gi,\"亲\");\nx(/#misjrmj#/gi,\"灭\");\nx(/#mcwssim#/gi,\"妈\");\nx(/#dkawwwh#/gi,\"蛋\");\nx(/#ccxsdss#/gi,\"插\");\nx(/#gissdfn#/gi,\"搞\");\nx(/#sitccis#/gi,\"舌\");\nx(/#tbvvttt#/gi,\"台\");\nx(/#nasseyn#/gi,\"尿\");\nx(/#mdqqssd#/gi,\"母\");\nx(/#jhtessh#/gi,\"菊\");\nx(/#jlessfa#/gi,\"鸡\");\nx(/#ydyueap#/gi,\"义\");\nx(/#gdjujff#/gi,\"棍\");\nx(/#qaqssng#/gi,\"枪\");\nx(/#dfddedo#/gi,\"丁\");\nx(/#gadcgcg#/gi,\"共\");\nx(/#diqerwy#/gi,\"荡\");\nx(/#ndgcxss#/gi,\"嫩\");\nx(/#fdvasbf#/gi,\"腐\");\nx(/#jknessn#/gi,\"挤\");\nx(/#kabikss#/gi,\"坑\");\nx(/#fabffvc#/gi,\"缝\");\nx(/#jjtttst#/gi,\"锦\");\nx(/#josdssf#/gi,\"介\");\nx(/#pbsswia#/gi,\"炮\");\nx(/#slysvvs#/gi,\"呻\");\nx(/#sjsjcsc#/gi,\"射\");\nx(/#ljesssd#/gi,\"轮\");\nx(/#pdsswwi#/gi,\"鹏\");\nx(/#jghssyh#/gi,\"具\");\nx(/#ldssdiu#/gi,\"漏\");\nx(/#beeasaz#/gi,\"婊\");\nx(/#cejyjbj#/gi,\"操\");\nx(/#gjvssdr#/gi,\"龟\");\nx(/#bcdwvag#/gi,\"棒\");\nx(/#bacfvvf#/gi,\"勃\");\nx(/#thdwfvv#/gi,\"童\");\nx(/#doeaaef#/gi,\"弟\");\nx(/#wawdvdr#/gi,\"亡\");\nx(/#jnnsset#/gi,\"妓\");\nx(/#dlyydyg#/gi,\"毒\");\nx(/#caaffcd#/gi,\"潮\");\nx(/#jesjhts#/gi,\"贱\");\nx(/#zgswdas#/gi,\"斩\");\nx(/#xedvvda#/gi,\"席\");\nx(/#mffxssf#/gi,\"蜜\");\nx(/#ncjdssy#/gi,\"虐\");\nx(/#gfggdej#/gi,\"国\");\nx(/#ziiswaa#/gi,\"宰\");\nx(/#pcsqeni#/gi,\"剖\");\nx(/#gbqeett#/gi,\"肛\");\nx(/#jagegss#/gi,\"茎\");\nx(/#jiheess#/gi,\"厥\");\nx(/#rcssfde#/gi,\"辱\");\nx(/#zdcmaws#/gi,\"泽\");\nx(/#zfzewaw#/gi,\"炸\");\nx(/#lhettss#/gi,\"颅\");\nx(/#liaesst#/gi,\"伦\");\nx(/#nbdsscw#/gi,\"奴\");\nx(/#ycaadau#/gi,\"幼\");\nx(/#mettess#/gi,\"咪\");\nx(/#lggqssr#/gi,\"撸\");\nx(/#hbchcss#/gi,\"秽\");\nx(/#dmxjxcc#/gi,\"杜\");\nx(/#dhhhswy#/gi,\"党\");\nx(/#xddwavf#/gi,\"锡\");\nx(/#xgdwxsw#/gi,\"…\");\nx(/#yedwyaa#/gi,\"漪\");\nx(/#mhsswzw#/gi,\"氓\");\nx(/#tadvvtt#/gi,\"涛\");\nx(/#dndaava#/gi,\"嫡\");\nx(/＊|（待续）|((记住)?(地t[址阯])?[发發沷][布怖][页頁])[^<\\n]+/gi,\"\");\nx(/(…樶)[^<\\n]+/gi,\"\");\nx(/(手机看片)[^<\\n]+/gi,\"\");\nresult=result.replace(/<img .+?toimg\\/data\\/([^\\.]+)[^>]+>/g,\"#$1#\");\nfor(i in n){result=result.replace(m[i],n[i])};\nresult=result.replace(\"<br>\",\"</p><p>\").replace(/([，、\\u4e00-\\u9fa5])(<br>\\s*){1,2}/g,\"$1\")\n</js>",
+            "nextContentUrl": "@css:.chapterPages > a.curr + a@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.container@class.book-all-list@class.bd@class.right",
+            "bookUrl": "class.name@href",
+            "lastChapter": "class.update@tag.a.0@text",
+            "name": "class.name@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-list.1@class.bd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "class.pagelistbox@class.nextPage@href"
+        },
+        "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"objectType=2&type=articlename&s={{key}}\"\n}",
+        "weight": 0
+    }
+]

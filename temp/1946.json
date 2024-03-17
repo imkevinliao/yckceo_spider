@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceUrl": "http://m.alewen.com",
+        "bookSourceType": "0",
+        "bookSourceName": "乐文小说网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/modules/article/waps.php,{\"charset\":\"GBK\",\"method\": \"POST\",\"body\": \"searchtype=articlename&searchkey={{key}}&submit=\"}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1619509609343,
+        "ruleSearch": {
+            "bookList": ".line",
+            "name": "tag.a.1@text",
+            "author": "tag.a.2@text",
+            "kind": "tag.a.0@text##\\[|]",
+            "bookUrl": "tag.a.1@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "h2@text",
+            "author": ".block_txt2@tag.p.2@a@text",
+            "lastChapter": ".block_txt2@tag.p.6@a@text",
+            "intro": ".intro_info@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html"
+        }
+    }
+]

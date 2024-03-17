@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "https://www.dongliuxiaoshuo.com",
+        "bookSourceGroup": "🌟",
+        "bookSourceName": "东流小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bifengzw.com",
+        "customOrder": -2086020011,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1684331952560,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "##:author(?:([^\"]*)\"){3}##$1###",
+            "coverUrl": "div.bookcover@img@src##.*nocover.*",
+            "intro": "div.intro@html",
+            "kind": "##:category(?:([^\"]*)\"){3}[\\s\\S]+?:status(?:([^\"]*)\"){3}##$1,$2###",
+            "lastChapter": "##:update_time(?:([^\"]*)\"){3}(?:([^\"]*)\"){4}##$2 $1###",
+            "name": "##:book_name(?:([^\"]*)\"){3}##$1###"
+        },
+        "ruleContent": {
+            "content": "div.content@html",
+            "nextContentUrl": "text.下一页.0@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "meta[property=\"og:novel:author\"]@content||li.2@text",
+            "bookList": "<js>doc = org.jsoup.Jsoup.parse(result)\n$ = (a) => doc.select(a)\nif (/function S2H/.test(result)) {\n\tjst = String(java.getString(\"script@all\")).replace(/<\\/?script.*?>/g,\"\").replace(/document.cookie/,\"cookie.getCookie(source.getKey())\").replace(/(\\$\\(.+?)(?=\\.replace)/,\"String($1)\")\n\teval(jst)\n}\ndoc</js>html:has(meta[property=\"og:type\"])||ul:has(li.col-md-4.col-sm-8.col-xs-8:has(a))",
+            "bookUrl": "meta[property=\"og:novel:read_url\"]@content||a.0@href",
+            "coverUrl": "meta[property=\"og:image\"]@content",
+            "intro": "meta[property=\"og:description\"]@content",
+            "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+            "lastChapter": "{{@@meta[property=\"og:novel:latest_chapter_name\"]@content||li.1@text}} {{@@meta[property=\"og:novel:update_time\"]@content||li.3@text}}",
+            "name": "meta[property=\"og:novel:book_name\"]@content||a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "+ul.list-group@li.book@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"search={{key}}\",\n  \"headers\": {\n    \"connection\": \"keep-alive\",\n    \"cache-control\": \"max-age=0\",\n    \"upgrade-insecure-requests\": \"1\",\n    \"origin\": \"{{source.getKey()}}\",\n    \"content-type\": \"application/x-www-form-urlencoded\",\n    \"accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\",\n    \"x-requested-with\": \"XMLHttpRequest\",\n    \"sec-fetch-site\": \"same-origin\",\n    \"sec-fetch-mode\": \"navigate\",\n    \"sec-fetch-user\": \"?1\",\n    \"sec-fetch-dest\": \"document\",\n    \"referer\": \"{{source.getKey()}}/\",\n    \"accept-language\": \"zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7\"\n  },\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

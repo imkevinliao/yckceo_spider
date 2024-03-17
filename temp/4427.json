@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "一起看小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.yqkxs.com",
+        "bookUrlPattern": "https?://m.yqkxs.com/book/\\w+/",
+        "coverDecodeJs": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::http://m.yqkxs.com/xuanhuan?page={{page}}\n武侠仙侠::http://m.yqkxs.com/xianxia?page={{page}}\n都市言情::http://m.yqkxs.com/dushi?page={{page}}\n历史军事::http://m.yqkxs.com/lishi?page={{page}}\n科幻传奇::http://m.yqkxs.com/kehuan?page={{page}}\n恐怖灵异::http://m.yqkxs.com/kongbu?page={{page}}\n其他类型::http://m.yqkxs.com/qita?page={{page}}\n全本小说::http://m.yqkxs.com/quanben?page={{page}}",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1699660930046,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.info a.0@text",
+            "coverUrl": "dl.base img@src",
+            "intro": ".intro.0@text",
+            "kind": "p.info span.1:2:3@text&&\ni.serial@text##.*：",
+            "lastChapter": "p.info a.-1@text",
+            "name": "h2@text",
+            "tocUrl": "text.章节列表@href"
+        },
+        "ruleContent": {
+            "content": "#txt@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##Ｘ更新最快"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@ownText##.*\\/",
+            "bookList": "ul.bd li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"http://www.yqkxs.com/theme6/home/images/default.jpg\"",
+            "kind": "span@text##\\[|\\]",
+            "name": "em@text||a@ownText##\\/.*"
+        },
+        "ruleToc": {
+            "chapterList": ".list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\nvar url=source.key,\nhtml=java.ajax(url);\ntoken=org.jsoup.Jsoup.parse(html)\n.select('input[name=_token]')\n.attr('value');\nbody=`_token=${token}<,&page=${page}>&keyword=`+key;\nvar so=url+\"/search,\"\nvar post={\n  \"body\": String(body),\n  \"method\": \"POST\"\n};\nso+JSON.stringify(post)",
+        "weight": 0
+    }
+]

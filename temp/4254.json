@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "// 登录按钮可以查看书籍列表",
+        "bookSourceGroup": "🧩 特殊",
+        "bookSourceName": "🧩 上古卷轴5",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wiki.biligame.com/skyrim",
+        "customOrder": 1110,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1698556106206,
+        "loginUrl": "https://wiki.biligame.com/skyrim/%E5%9B%BE%E4%B9%A6",
+        "respondTime": 991,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": ".mw-parser-output > h2:nth-of-type(1) ~ p:not(.mw-parser-output > h2:nth-of-type(2) ~ p)@textNodes",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".searchresults ul li",
+            "bookUrl": ".searchalttitle a@href",
+            "checkKeyWord": "火中舞",
+            "name": ".searchalttitle a@text##，##·"
+        },
+        "ruleToc": {
+            "chapterList": "@js:[{\"text\":\"正文\"}]",
+            "chapterName": "text"
+        },
+        "searchUrl": "https://searchwiki.biligame.com/skyrim/index.php?search={{key}}&title=%E7%89%B9%E6%AE%8A%3A%E6%90%9C%E7%B4%A2&profile=advanced&fulltext=1&ns0=1",
+        "weight": 0
+    }
+]

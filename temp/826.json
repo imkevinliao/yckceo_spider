@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "秋日蝉",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ztgauntong.com#md-ji",
+        "customOrder": -88897992,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"✾　　　　　　✾  榜    单  ✾　　　　　　✾\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"周点击\",\"url\":\"top/weekvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"月点击\",\"url\":\"top/monthvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"总点击\",\"url\":\"/top/allvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 最  新 \",\"url\":\"top/postdate_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"周推荐\",\"url\":\"top/weekvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"月推荐\",\"url\":\"top/monthvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"总推荐\",\"url\":\"/top/allvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 最  近 \",\"url\":\"top/lastupdate_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"✾　　　　　　✾  分    类  ✾　　　　　　✾\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 棠  耽 \",\"url\":\"/sort/1_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 耽  美 \",\"url\":\"/sort/2_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 男  男 \",\"url\":\"/sort/3_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 棠  言 \",\"url\":\"/sort/4_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 言  情 \",\"url\":\"/sort/5_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 百  合 \",\"url\":\"/sort/6_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 高  辣 \",\"url\":\"/sort/7_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 情  欲 \",\"url\":\"/sort/8_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 精  品 \",\"url\":\"/sort/9_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 评  书 \",\"url\":\"/sort/10_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 私  密 \",\"url\":\"/sort/11_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" 完  本 \",\"url\":\"/full/{{page}}/\",\"style\":{\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1639753523552,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//div[3]/p[1]/a/text()",
+            "intro": "//div[@class=\"intro\"]/p/text()",
+            "kind": "//div[3]/p[2]/text()##类型：",
+            "lastChapter": "//div[3]/p[4]/a/text()",
+            "name": "//h3/text()",
+            "tocUrl": "//p[@class=\"gochapter\"]/a/@href",
+            "wordCount": "//div[3]/p[3]/text()##更新时间："
+        },
+        "ruleContent": {
+            "content": "@js:\neval(function(p,a,c,k,e,r){e=function(c){return c.toString(36)};if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[3-9a-cfhjlnoqs-v]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\\\b'+e(c)+'\\\\b','g'),k[c]);return p}('4={8:[],6:f.getElements(\".articlecontent@p\").toArray(),h:j(m,i){7 k=l.n((i+1)%5.9);k=l.n(m-k);return k},o:j(){5.9=3.q(/9=(\\\\d+)/)[1];7 e=String(f.base64Decode(3.q(/name=\"client\" 4=\"(\\\\S+)\"/)[1])).split(/[A-Z]+%/);for(7 i=0;i<e.length;i++){7 k=5.h(e[i],i);5.8[k]=5.6[i]}}};s(a.t(\"_\")==-1){3=4.6.b(\"<c>\")}u s(Number(a[(a.t(\"_\")+1)])%2!=0){3=4.6.b(\"<c>\")}u{4.o();3=4.8.b(\"<c>\")}3=3.v(/本章尚未完结,请点击下一页继续阅读\\\\S+/g,\"\");3=3.v(/本章已阅读完毕\\\\(请点击下一章继续阅读\\\\!\\\\)/g,\"\");',[],32,'|||result|content|this|childNodes|var|childNode|code|baseUrl|join|br|||java||UpWz||function||Math||ceil|load||match||if|indexOf|else|replace'.split('|'),0,{}))",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*请点击下一页.*|本章已阅读完毕.*"
+        },
+        "ruleExplore": {
+            "author": ".author@text&&.p3@text",
+            "bookList": ".content||.articlegeneral||.full_content",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "@js:'http://tiebapic.baidu.com/forum/w%3D580/sign=efc9853537a446237ecaa56aa8237246/fc5dc9d8bc3eb135b11148f4b11ea8d3fc1f4407.jpg'",
+            "intro": ".simple@text",
+            "kind": ".p1@text##小说|\\[|\\]",
+            "name": "tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "//p/span/a/text()",
+            "bookList": "//div[5]/p",
+            "bookUrl": "//p/a/@href",
+            "name": "//p/a/text()"
+        },
+        "ruleToc": {
+            "chapterList": "//ul/li",
+            "chapterName": "//li/a/text()",
+            "chapterUrl": "//li/a/@href",
+            "nextTocUrl": "//a[contains(text(),'下一页')]/@href"
+        },
+        "searchUrl": "https://www.ztgauntong.com/s.html,{\n'charset': 'utf-8',\n'method': 'POST',\n'body': 's={{key}}&type=articlename'\n}",
+        "weight": 0
+    }
+]

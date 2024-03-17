@@ -1,0 +1,47 @@
+[
+    {
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "a.home-row-line",
+            "name": "text##\\[.*\\] (.*) / .*##$1",
+            "bookUrl": "href",
+            "author": "text##\\[(.*)\\] .* / .*##$1",
+            "kind": "text##\\[.*\\] .* / (.*)##$1"
+        },
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "name": "h1@text",
+            "author": ".info div:nth-of-type(1) span@text",
+            "kind": ".info div:nth-of-type(2) span@text",
+            "wordCount": "div:nth-of-type(4) span@text##^##更新时间：",
+            "intro": "div.book-intro@html",
+            "lastChapter": "section:nth-of-type(4) li:nth-of-type(1) a@text"
+        },
+        "ruleToc": {
+            "chapterList": "#main a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "div.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleReview": [],
+        "ruleExplore": {
+            "bookList": "section:nth-of-type(9) div:nth-of-type(n+2)",
+            "coverUrl": "",
+            "bookUrl": "a.name@href",
+            "name": "a.name@text",
+            "author": "",
+            "kind": "div:nth-of-type(n+2) span@text",
+            "lastChapter": "a.cname@text",
+            "wordCount": "div:nth-of-type(n+2) i@text##^##更新时间："
+        },
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.limkokwingchina.com/##jjj",
+        "bookSourceName": "笔趣阁1",
+        "searchUrl": "http://www.limkokwingchina.com/ar.php,{\n\"method\":\"post\",\n\"charset\":\"UTF-8\",\n\"body\":\"keyWord={{key}}\"\n}",
+        "exploreUrl": "[{\"title\":\"最近更新\",\"url\":\"/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},]"
+    }
+]

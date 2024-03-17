@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "同站：三七中文:https://www.777zw.net/\n同站：一二小说:https://www.12xs.com/",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "一二中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.12zw.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/book/sort/3_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"武侠仙侠\",\"url\":\"/book/sort/4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"历史\",\"url\":\"/book/sort/6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/book/sort/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女频\",\"url\":\"/book/sort/11_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1687564388174,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".fix@p.0@text",
+            "coverUrl": ".imgbox@img@src",
+            "intro": ".m-desc@textNodes",
+            "kind": ".fix@p.1:2:-2@text##类 别：|状 态：|更 新：",
+            "name": "h2.0@textNodes##\\>|（.*"
+        },
+        "ruleContent": {
+            "content": ".content@html"
+        },
+        "ruleExplore": {
+            "author": "ownText##\\/",
+            "bookList": ".cmd-bd@ul@li",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:\"/style/noimg.jpg\"",
+            "kind": "0",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".result_time@text",
+            "bookList": ".result_ul@li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "@js:\"/style/noimg.jpg\"",
+            "intro": ".result_asset@text",
+            "kind": "0",
+            "name": "a.0@text##（.*"
+        },
+        "ruleToc": {
+            "chapterList": ".book-item",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.12xs.top/book/{{key}}",
+        "weight": 0
+    }
+]

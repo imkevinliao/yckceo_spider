@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceUrl": "https://kakuyomu.jp/",
+        "bookSourceType": "0",
+        "bookSourceName": "Kakuyomu",
+        "bookSourceGroup": "輕小說",
+        "bookSourceComment": "輕小說",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/search?q={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1643552053028,
+        "ruleSearch": {
+            "bookList": "class.widget-work float-parent",
+            "name": "class.widget-workCard-title@tag.a.0@text",
+            "author": "class.widget-workCard-title@tag.a.1@text",
+            "kind": "class.widget-workCard-tags@tag.span@text",
+            "wordCount": "class.widget-workCard-characterCount@text",
+            "lastChapter": "class.widget-workCard-dateUpdated@text",
+            "intro": "class.widget-workCard-introduction@text",
+            "bookUrl": "\nclass.widget-workCard-title@tag.a.0@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "id.workTitle@text",
+            "author": "id.workAuthor-activityName@text",
+            "kind": "class.workMeta-tags@tag.a@text",
+            "wordCount": "class.widget-credit@dd.-3@text",
+            "lastChapter": "class.widget-toc-main@tag.li.-1@tag.span@text",
+            "intro": "id.introduction@text",
+            "coverUrl": "id.coverImage@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.widget-toc-main@tag.li@tag.a",
+            "chapterName": "tag.span@text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "id.contentMain-inner@text"
+        }
+    }
+]

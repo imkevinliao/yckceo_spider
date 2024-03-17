@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "七猫小说👿",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.zym888.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1648583881702,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".author",
+            "bookList": "$.data.search",
+            "bookUrl": ".book_list_url",
+            "coverUrl": ".cover",
+            "intro": ".intro",
+            "kind": "{{$.cate_name}},{{$.status_str}},{{$.uptime}}",
+            "lastChapter": ".latest_chapter_name",
+            "name": ".book_name"
+        },
+        "ruleToc": {
+            "chapterList": ".L",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.zym888.com/api/search?q={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "小说模板",
+        "bookSourceName": "二次元小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.2cyxsw.com",
+        "customOrder": -134704,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/list/1/{{page}}.html\n武侠修真::/list/2/{{page}}.html\n都市穿越::/list/3/{{page}}.html\n历史军事::/list/4/{{page}}.html\n现代古代::/list/5/{{page}}.html\n网游竞技::/list/6/{{page}}.html\n科幻空间::/list/7/{{page}}.html\n悬疑灵异::/list/8/{{page}}.html\n二次元::/list/9/{{page}}.html\n纯爱耽美::/list/10/{{page}}.html\n其他小说::/list/11/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1624805107997,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html##一秒记住.*阅读！|二次元小说.*|提示♂.*|{{book.name}}|喜欢.*收藏.*|最新章节|__.*",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "small@text##\\/.*",
+            "bookList": "class.book-coverlist",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@text",
+            "name": "h4@text",
+            "wordCount": "class.s5@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.2cyxsw.com/modules/article/search.php?searchkey={{key}},{\n'charset': 'gbk'\n}",
+        "weight": 0
+    }
+]

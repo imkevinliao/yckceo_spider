@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "酷友",
+        "bookSourceName": "358小说大全",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.35851.net",
+        "customOrder": 1247,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "百度热搜榜::/rank/baidu.html\n追书热度榜::/rank/zhuishu.html\n书旗热搜榜::/rank/shuqi.html\n掌阅热销榜::/rank/zhangyue.html\n起点月票榜::/rank/qidian.html\n17K鲜花榜::/rank/17k.html\n总点击::/rank/allvisit.html\n月点击::/rank/monthvisit.html\n周点击::/rank/weekvisit.html\n日点击::/rank/dayvisit.html\n推荐数::/rank/vote.html\n收藏数::/rank/mark.html\n下载数::/rank/down.html\n评论数::/rank/comment.html\n评分::/rank/star_score.html\n入库时间::/rank/postdate.html",
+        "header": "{\n   \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36\"\n}",
+        "lastUpdateTime": 1633386961095,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.mr30@a@text",
+            "coverUrl": "class.pt-bookdetail@img@src",
+            "intro": "class.compulsory-row-three@text",
+            "kind": "class.color5.4@text",
+            "lastChapter": "class.color2 mr20@text",
+            "name": "h1@a@text",
+            "wordCount": "class.size12 color0@text"
+        },
+        "ruleContent": {
+            "content": "class.pt-read-text@p@html",
+            "nextContentUrl": "class.pt-nextchapter@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.pt-rank-detail",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "class.desc@text",
+            "kind": "a.3@text",
+            "lastChapter": "a.4@text",
+            "name": "a.1@text",
+            "wordCount": "span.5@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.compulsory-row-one",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.35851.net/search/result.html?searchkey={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

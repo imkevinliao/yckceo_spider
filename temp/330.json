@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "雪痕伤",
+        "bookSourceName": "31小说-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.31xiaoshuo.com",
+        "customOrder": 9,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/list/1/\n修真::/list/2/\n都市::/list/3/\n穿越::/list/4/\n网游::/list/5/\n科幻::/list/6/\n次元::/list/7/\n言情::/list/8/\n青春::/list/9/\n现代::/list/10/\n古代::/list/11/\n幻想::/list/12/",
+        "lastUpdateTime": 1654149820826,
+        "respondTime": 2447,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "id.intro@text"
+        },
+        "ruleContent": {
+            "content": "id.content@p@textNodes"
+        },
+        "ruleExplore": {
+            "author": "tag.td.2@text",
+            "bookList": "tbody@tr",
+            "bookUrl": "tag.td.0@a@href",
+            "lastChapter": "tag.td.1@a@text",
+            "name": "tag.td.0@a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.3@text",
+            "bookList": "tbody@tr!0",
+            "bookUrl": "tag.td.1@a@href",
+            "kind": "tag.td.0@text",
+            "lastChapter": "tag.td.2@a@text",
+            "name": "tag.td.1@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.31xiaoshuo.com/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

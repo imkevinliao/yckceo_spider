@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "官术网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.tbxsw.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1645701555545,
+        "loginUrl": "",
+        "respondTime": 1307,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.result-game-item-info-tag.0@text",
+            "bookList": "class.result-item result-game-item",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.result-game-item-desc@text",
+            "kind": "class.result-game-item-info-tag-title.2@text",
+            "lastChapter": "class.result-game-item-info-tag-item@text",
+            "name": "class.result-game-item-title-link@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "tag.dd",
+            "chapterName": "dd@tag.a@text",
+            "chapterUrl": "dd@tag.a@href"
+        },
+        "searchUrl": "http://www.tbxsw.com/search.php?q={{key}}",
+        "weight": 0
+    }
+]

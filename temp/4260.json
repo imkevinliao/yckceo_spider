@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "电信ban",
+        "bookSourceGroup": "☣️精选senhora",
+        "bookSourceName": "燃文小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.778buy.cc/",
+        "bookUrlPattern": "",
+        "customOrder": -2086092165,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1697242797859,
+        "respondTime": 2508,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&div.body@tr.1@td.9@text",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "@css:[property=og:novel:read_url]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "class.odd.0@tag.a.0@href",
+            "coverUrl": "class.odd.0@tag.a.0@href<js>\nvar id = result.match(/info_(\\d{3,})/)[1];\nvar iid = parseInt(id/1000);\nsource.bookSourceUrl + 'files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "td.5@text",
+            "lastChapter": "class.even.0@tag.a.0@text",
+            "name": "class.odd.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.defaulthtml4@tag.td@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "modules/article/sf.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+        "weight": 0
+    }
+]

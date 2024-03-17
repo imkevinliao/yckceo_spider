@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "玫瑰🌹小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.meiguicom.com/",
+        "bookUrlPattern": "https://www.meiguicom.com/read/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"/sort/1/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"武侠修真\",\"url\":\"/sort/2/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市言情\",\"url\":\"/sort/3/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"历史军事\",\"url\":\"/sort/4/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻灵异\",\"url\":\"/sort/5/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"游戏竞技\",\"url\":\"/sort/6/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"女生耽美\",\"url\":\"/sort/7/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他类型\",\"url\":\"/sort/8/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "lastUpdateTime": 1684930254282,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "span.0@text",
+            "coverUrl": "img@data-original",
+            "init": "class.info-main",
+            "intro": "class.info-main-intro@text",
+            "kind": "class.w100 dispc@textNodes&&span.1@text\n##，|，|,",
+            "lastChapter": "class.dispc.1@tag.a@text\n##最新章节：",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": ".content@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "class.category-div",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.intro indent@text",
+            "kind": "0",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.info-chapters flex flex-wrap.1@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

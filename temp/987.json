@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biqugebang.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1631441031680,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property$=category]@content&&[property$=status]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": "[property$=update_time]@content"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": ".bookname a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": ".cat@text##分类：",
+            "lastChapter": ".update a@text",
+            "name": ".bookname a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".listmain dd a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView':true}"
+        },
+        "searchUrl": "https://www.biqugebang.com/search_{{key}}.html",
+        "weight": 0
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "白马楼小说（修复）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.baimakanshu.com/",
+        "customOrder": 14,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "header": "",
+        "lastUpdateTime": 1695447793298,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author",
+            "coverUrl": "class.BGsectionOne-top-left@img@src",
+            "init": "",
+            "intro": "class.BGsectionTwo-bottom@text",
+            "kind": "class.category",
+            "lastChapter": "class.newestChapter@text",
+            "name": "class.title",
+            "tocUrl": "class.BGsectionThree@class.sectionTwo-bottom@href"
+        },
+        "ruleContent": {
+            "content": "@js:\nfunction d(a, b) {\n            b = java.md5Encode(b);\n            var d = b.substring(0, 16);\n            var e = b.substring(16);\n            return    java.aesBase64DecodeToString(a,e,\"AES/CBC/PKCS5Padding\",d)}\neval(result.match(/(d\\(\"[\\s\\S]+\"\\))\\)/)[1])",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.span.2@tag.a@text",
+            "bookList": "class.SHsectionThree-middle@tag.p",
+            "bookUrl": "tag.span.1@tag.a@href",
+            "kind": "tag.span.0@tag.a@text",
+            "name": "tag.span.1@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top-chapter",
+            "chapterName": "class.BCsectionTwo-top-chapter@tag.a@text",
+            "chapterUrl": "class.BCsectionTwo-top-chapter@tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.baimalou123.com/search/{{key}}",
+        "weight": 0
+    }
+]

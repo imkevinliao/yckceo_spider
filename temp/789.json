@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "青灯：没有搜索  21/5/18",
+        "bookSourceGroup": "☀晨光雨露🍒精俢源💯",
+        "bookSourceName": "🕌 刺猬猫>简介增加更新时间",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ciweimao.com",
+        "bookUrlPattern": "",
+        "customOrder": -165966,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "                         榜  单  排  行                         ::https://www.ciweimao.com/book_list/0-0-month_recommend-0-0-0/quanbu/1/{{page}}\n收藏榜::https://www.ciweimao.com/book_list/0-0-total_favor-0-0-0/quanbu/1/{{page}}\n点击榜::https://www.ciweimao.com/book_list/0-0-mooth_no_vip_click-0-0-0/quanbu/1/{{page}}\n推荐榜::https://www.ciweimao.com/book_list/0-0-mooth_recommend-0-0-0/quanbu/1/{{page}}\n新书榜::https://www.ciweimao.com/book_list/0-0-month_recommend-0-1-0/quanbu/1{{page}}\n\n                         免  费  作  品                         ::https://www.ciweimao.com/book_list/0-0-month_recommend-0-0-2/quanbu/1/{{page}}\n都市青春:: https://www.ciweimao.com/book_list/1-27-month_recommend-0-0-2/quanbu/1/{{page}}\n玄幻奇幻:: https://www.ciweimao.com/book_list/1-8-month_recommend-0-0-2/quanbu/1/{{page}}\n灵异未知:: https://www.ciweimao.com/book_list/1-1-month_recommend-0-0-2/quanbu/1/{{page}}\n历史军事:: https://www.ciweimao.com/book_list/1-30-month_recommend-0-0-2/quanbu/1/{{page}}\n科幻无限:: https://www.ciweimao.com/book_list/1-6-month_recommend-0-0-2/quanbu/1/{{page}}\n游戏竞技:: https://www.ciweimao.com/book_list/1-3-month_recommend-0-0-2/quanbu/1/{{page}}\n仙侠武侠:: https://www.ciweimao.com/book_list/1-5-month_recommend-0-0-2/quanbu/1/{{page}}\n免费同人:: https://www.ciweimao.com/book_list/1-24-month_recommend-0-0-2/quanbu/1/{{page}}\n  女   频   :: https://www.ciweimao.com/book_list/2-11-month_recommend-0-0-2/quanbu/1/{{page}}\n\n                         完  本  作  品                         ::https://www.ciweimao.com/book_list/0-0-month_recommend-0-0-1/quanbu/1/{{page}}\n都市青春:: https://www.ciweimao.com/book_list/1-27-month_recommend-0-0-1/quanbu/1/{{page}}\n玄幻奇幻:: https://www.ciweimao.com/book_list/1-8-month_recommend-0-0-1/quanbu/1/{{page}}\n灵异未知:: https://www.ciweimao.com/book_list/1-1-month_recommend-0-0-1/quanbu/1/{{page}}\n历史军事:: https://www.ciweimao.com/book_list/1-30-month_recommend-0-0-1/quanbu/1/{{page}}\n科幻无限:: https://www.ciweimao.com/book_list/1-6-month_recommend-0-0-1/quanbu/1/{{page}}\n游戏竞技:: https://www.ciweimao.com/book_list/1-3-month_recommend-0-0-1/quanbu/1/{{page}}\n仙侠武侠:: https://www.ciweimao.com/book_list/1-5-month_recommend-0-0-1/quanbu/1/{{page}}\n免费同人:: https://www.ciweimao.com/book_list/1-24-month_recommend-0-0-1/quanbu/1/{{page}}\n  女   频   :: https://www.ciweimao.com/book_list/2-11-month_recommend-0-0-1/quanbu/1/{{page}}\n\n",
+        "header": "",
+        "lastUpdateTime": 1625647190639,
+        "loginUrl": "https://www.ciweimao.com/signup/login?redirect=https%3A%2F%2Fwww.ciweimao.com%2F",
+        "ruleBookInfo": {
+            "coverUrl": "class.cover ly-fl@tag.img@src",
+            "intro": "class.update-time@text&&class.book-desc.0@text",
+            "kind": "class.book-intro-cnt@tag.span.2:6:4:8@text",
+            "tocUrl": "class.btn btn-lg btn-danger@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "class.chapter@textNodes"
+        },
+        "ruleExplore": {
+            "author": "class.author@tag.a.0@text||p@tag.a.0@text",
+            "bookList": "class.rank-book-list@tag.li||class.book-list-table@tag.tr!0",
+            "bookUrl": "class.tit@tag.a.0@href||class.name@tag.a.0@href",
+            "coverUrl": "class.lazyload@data-original",
+            "intro": "class.desc@text",
+            "kind": "class.type@tag.p.0@text##\\[|\\]",
+            "lastChapter": "class.cnt@tag.p.1@text||class.chapter@tag.p.0@text##.*\\/",
+            "name": "class.tit@tag.a.0@text||class.name@tag.a.0@text",
+            "wordCount": "class.cnt@tag.p.1@text##最近更新：|\\/.*"
+        },
+        "ruleSearch": {
+            "author": "class.cnt.0@tag.p.1@tag.a.0@text||class.author@text",
+            "bookList": "class.rank-book-list@tag.li||class.book-list-table@tag.tr!0",
+            "bookUrl": "class.cnt.0@class.tit.0@tag.a.0@href||class.name@tag.a@href",
+            "coverUrl": "class.cover@tag.img@data-original||tag.img.0@src",
+            "intro": "class.desc@text",
+            "lastChapter": "@css:p:matches(最近更新)@text||.chapter@text@js:result.includes('最近更新') ? result.replace(/.*\\/\\s*/,'') : result;",
+            "name": "class.cnt.0@class.tit.0@tag.a.0@text||class.name@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book-chapter-list@tag.li@tag.a",
+            "chapterName": "@js:(result.outerHtml().includes('icon-lock') ? '🔒' : '') + result.text()",
+            "chapterUrl": "href@js:result+','+JSON.stringify({\"webView\": true})"
+        },
+        "searchUrl": "/get-search-book-list/0-0-0-0-0-0/全部/{{key}}/{{page}}",
+        "weight": 1
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceGroup": "1-📖 小说[常用],0-📖 文本",
+        "ruleExplore": {
+            "author": "",
+            "bookList": "$.data.groups[*].info[*].books[*]",
+            "lastChapter": "",
+            "wordCount": "",
+            "intro": "$.bookBaseInfo.summary",
+            "kind": "<js>\nh=java.getString(\"$.bookBaseInfo.category2\");\ns=/false/.test(String(result))?\"连载\":\"完结\";h+\",\"+s</js>",
+            "coverUrl": "$.bookBaseInfo.picURL",
+            "bookUrl": "https://bookshelf.html5.qq.com/qbread/api/novel/adbooks/bookinfo?bookid={{(java.getString(\"$.bookBaseInfo.id\"))}},{\"headers\":{\"Referer\":\"https://bookshelf.html5.qq.com/qbread/adread/catalog\"}}",
+            "name": "$.bookBaseInfo.name "
+        },
+        "weight": 76,
+        "ruleContent": {
+            "content": "$.data.content[*]"
+        },
+        "loginUrl": "",
+        "searchUrl": "/ajax/real/search_result?tabId=360&noTab=1&q={{key}}",
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.data.state[?(@.dataName == 'novel_search_list')].items[*]",
+            "lastChapter": "",
+            "coverUrl": "$.cover_url",
+            "wordCount": "",
+            "intro": "$.abstract",
+            "kind": "@js:\nh=java.getString(\"label_text\");\nj=java.getString(\"tag_views\");\nk=java.getString(\"is_finished\")== 1 ? \"完结\": \"连载\"\nh+\",\"+j+\",\"+k\n##\\s+##,",
+            "checkKeyWord": null,
+            "name": "$.title",
+            "bookUrl": "https://bookshelf.html5.qq.com/qbread/api/novel/adbooks/bookinfo?bookid={{(java.getString(\"docId\")).split(\"_\")[1]}},{\"headers\":{\"Referer\":\"https://bookshelf.html5.qq.com/kdread/adread/catalog\"}}"
+        },
+        "enabledExplore": true,
+        "ruleBookInfo": {
+            "author": "$.author",
+            "tocUrl": "@js:\nvar b=java.getString(\"$.resourceID\")\nvar c=java.getString(\"$.serialnum\")\njava.put(\"b\",b)\nd='https://bookshelf.html5.qq.com/qbread/api/book/list-chapter?resourceid='+b+'&start=1&count=100&serialnum='+c+'&sort=asc,{\"headers\":{\"Referer\":\"https://bookshelf.html5.qq.com/kdread/adread/catalog\"}}'",
+            "lastChapter": "{{$.lastSerialname}} •  {{java.timeFormat(java.getString(\"lastSerialUpdateTime\")*1000)}}\n<js>result.replace(///g,'-')</js>\n<js>result.replace(/\\s\\d+:\\d+/,'')</js>\n<js>result.replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(\\{（｛【].*[求更谢乐发推票盟补加字Kk/].*[\\)\\}）｝】]/g,'')</js>",
+            "wordCount": "$.contentsize",
+            "intro": "&nbsp;&nbsp;🔖更新时间：{{java.timeFormat(java.getString(\"lastSerialUpdateTime\")*1000)}}{{'\\n&lrm;\\n'}}&nbsp;&nbsp;🏷️标签：{{$.tag##\\|##,}}{{'\\n&lrm;\\n'}}{{$.summary}}",
+            "kind": "",
+            "coverUrl": "$.picurl",
+            "name": "$.resourceName",
+            "init": "$.data"
+        },
+        "ruleToc": {
+            "chapterUrl": "https://bookshelf.html5.qq.com/qbread/api/wenxue/buy/ad-chapter/v3?resourceid=@get:{b}&serialid={{java.getString(\"serialid\")}}&apn=1&readnum=1&duration=2&srcCh=,\n{\"headers\":{\n\t\"Referer\":\"https://bookshelf.html5.qq.com/kdread/adread/chapter\"\n\t}\n}",
+            "isVip": "//$.chargetype",
+            "chapterList": "<js> \nlet pageCount =\njava.getString('page_count')\njava.put('count',pageCount)\nresult\n</js>\n$.rows[*]",
+            "nextTocUrl": "<js>\nlet count = java.get('count')\nlet list = [];\nfor(let i = 2; i <= Number(count); i++) {\nlist.push(baseUrl.replace(/start=\\d+/, 'start=' + i));\n}\nlist;\n</js>",
+            "updateTime": "〖{{$.serialid}}〗 {{$.contentlen}}字",
+            "chapterName": "$.serialname<js>result.replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(\\{（｛【].*[求更谢乐发推票盟补加字Kk/].*[\\)\\}）｝】]/g,'')</js>"
+        },
+        "bookSourceUrl": "https://so.html5.qq.com##7day",
+        "lastUpdateTime": 1664593754642,
+        "customOrder": 47,
+        "bookSourceType": 0,
+        "enabled": true,
+        "header": "",
+        "bookSourceName": "🌾松鹤庭沐",
+        "bookSourceComment": "https://kdread.cn",
+        "respondTime": 314,
+        "exploreUrl": "@js:\nvar k='\\\\\"test\\\\\"';\nvar p='\\\\\"0\\\\\"';\nw=\"https://novel.html5.qq.com/feeds/page-api/classify?tag_type_id=1&tag_group_id=0&with_tag_type=0&with_tag_group=0&page_cursor=0&page_limit=100\"\nww=\"https://novel.html5.qq.com/be-api/gql,\";\nw3=\"https://novel.html5.qq.com/feeds/page-api/classify?tag_type_id=1&tag_group_id=2&with_tag_type=0&with_tag_group=0&page_cursor=0&page_limit=220\";\n\nw1=\"https://novel.html5.qq.com/feeds/page-api/classify?tag_type_id=2&tag_group_id=0&with_tag_type=0&with_tag_group=0&page_cursor=0&page_limit=100\";\n\nw2=\"https://novel.html5.qq.com/feeds/page-api/classify?tag_type_id=3&with_tag_type=0&with_tag_group=1&page_limit=40&tag_group_id=C2\";\n\nl=JSON.parse(java.ajax(w)).tagList;\n\nl4=JSON.parse(java.ajax(w3)).tagList;\n\nl2=JSON.parse(java.ajax(w1)).tagList;\n\nl3=JSON.parse(java.ajax(w2)).tagList;\n\nvb=l.concat(l4,l2,l3);\n\nc=[];\n\nfor(i=0;i<vb.length;i++){\n\tbody=\"\\{\\\"query\\\": \\\"query\\{groups(param:\\{cond: \\{id:\"+vb[i][\"jumpUrl\"].match(/\\d{3,}/)+\" \"+\"condName:\"+k +\"sortBy: GroupSortByUserScore pageQuery:\\{first:1000 after:\"+p+\"\\}\\}\\})\\{info\\{books\\{bookBaseInfo\\{id name picURL category2 summary isFinished,\\}\\}\\}\\}\\}\\\"\\}\";\n\t\n\t\n\t\n\t\n\toption = {\n        \"method\": \"POST\",\n        \"body\": String(body)\n    };\n\n\t   g=vb[i][\"name\"]+\"::\"+ww+JSON.stringify(option);\n\t   \n\t   c.push(g)\n\t\n\t};\n\tc[0]=\"❀            男      生     频      道            ❀::\";\n\tc[305]=\"❀            女      生      频     道        ❀::\";\n\tc[387]=\"❀            出      版      读     物            ❀::\";\nc.join(\"&&\")",
+        "bookUrlPattern": ""
+    }
+]

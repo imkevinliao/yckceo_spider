@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "🎓自制源",
+        "bookSourceName": "👑第九中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "m.dijiuben.net",
+        "customOrder": -2086014607,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::https://m.dijiuben.net/sort/1_{{page}}/\n仙侠小说::https://m.dijiuben.net/sort/2_{{page}}/\n都市小说::https://m.dijiuben.net/sort/3_{{page}}/\n穿越小说::https://m.dijiuben.net/sort/4_{{page}}/\n游戏小说::https://m.dijiuben.net/sort/5_{{page}}/\n科幻小说::https://m.dijiuben.net/sort/6_{{page}}/\n其他小说::https://m.dijiuben.net/sort/7_{{page}}/\n精选爽文::https://m.dijiuben.net/sort/8_{{page}}/\n国学经典::https://m.dijiuben.net/sort/9_{{page}}/\n中外名著::https://m.dijiuben.net/sort/10_{{page}}/\n诗歌散文::https://m.dijiuben.net/sort/11_{{page}}/\n名人传记::https://m.dijiuben.net/sort/12_{{page}}/\n文学作品::https://m.dijiuben.net/sort/13_{{page}}/\n金庸小说::https://m.dijiuben.net/sort/14_{{page}}/\n古龙小说::https://m.dijiuben.net/sort/15_{{page}}/\n梁羽生小说::https://m.dijiuben.net/sort/16_{{page}}/\n温瑞安小说::https://m.dijiuben.net/sort/17_{{page}}/\n耽美纯爱::https://m.dijiuben.net/sort/18_{{page}}/\n轻小说::https://m.dijiuben.net/sort/19_{{page}}/\n体育小说::https://m.dijiuben.net/sort/20_{{page}}/\n历史小说::https://m.dijiuben.net/sort/21_{{page}}/\n军事小说::https://m.dijiuben.net/sort/22_{{page}}/\n现实小说::https://m.dijiuben.net/sort/23_{{page}}/\n精品全本::https://m.dijiuben.net/quanben/sort/{{page}}/",
+        "lastUpdateTime": 1686459675945,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@p[2]@a@text",
+            "coverUrl": "class.block_img2@img@src",
+            "downloadUrls": "",
+            "intro": "class.intro_info@p@text",
+            "kind": "class.block_txt2@p[3]@a@text",
+            "lastChapter": "class.block_txt2@h2@a@text##.*##目录加载中...##",
+            "name": "class.block_txt2@h2@a@text",
+            "tocUrl": "class.chapter[0]@li[-1]@a@href"
+        },
+        "ruleContent": {
+            "content": "id.neirong@html##<p>第.*</p>"
+        },
+        "ruleExplore": {
+            "author": "class.block_txt@p[2]@a@text",
+            "bookList": "class.block",
+            "bookUrl": "class.block_txt@h2@a@href",
+            "coverUrl": "class.block_img@a@img@src",
+            "intro": "class.block_txt@class.intro_info_full@a@text",
+            "name": "class.block_txt@h2@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span[2]@a@text",
+            "bookList": "class.SHsectionThree-middle@p",
+            "bookUrl": "span[1]@a@href",
+            "checkKeyWord": "系统",
+            "kind": "span[0]@a@text",
+            "name": "span[1]@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "a@text\n<js>\nchapterName=result\nif(chapterName.match(/返回书籍封面介绍页.../)==null)\n{\n\tresult=chapterName\n\t}else{\n\t\tresult=\"\"\n\t\t}\n</js>",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "class.index-container-btn@text.下一页@href"
+        },
+        "searchUrl": "https://m.dijiuben.net/search/,{\n\"method\":\"POST\",\n\"body\":\"searchkey={{key}}&searchtype=all&submit\"\n}",
+        "weight": 0
+    }
+]

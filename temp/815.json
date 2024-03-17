@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "亲亲小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.qinqinxiaoshuo.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1640402855666,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.synopsisArea_detail@tag.img@src",
+            "intro": "class.review@textNodes",
+            "lastChapter": "class.zuuixin@text",
+            "tocUrl": "class.btn_toBookShelf@href"
+        },
+        "ruleContent": {
+            "content": "class.Readarea ReadAjax_content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##点击顶部或者底部阅读记录,看过的书都在哦!(浏览器清空缓存,阅读记录会清空哦!),畅读模式如果没有内容请退出畅读模式"
+        },
+        "ruleExplore": {
+            "author": ".author##作者：",
+            "bookList": ".hot_sale",
+            "bookUrl": "tag@a@href",
+            "coverUrl": "img@src",
+            "intro": ".review@text",
+            "name": ".title"
+        },
+        "ruleSearch": {
+            "author": "tag@a@p.1##作者：",
+            "bookList": "class.recommend mybook@class.hot_sale",
+            "bookUrl": "tag@a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": "tag@a@p.0@textNodes",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.directoryArea@tag.p",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.qinqinxiaoshuo.com/s.php,{\n\t'charset': 'utf-8',\n'method': 'POST',\n'body': 's={{key}}&type=articlename'\n}",
+        "weight": 0
+    }
+]

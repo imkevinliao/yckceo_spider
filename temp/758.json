@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceUrl": "https://www.biqugee.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "📖 笔趣阁",
+        "bookSourceGroup": "👍 老王专用",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.biqugee.com/search.php?q={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1642394943903,
+        "ruleSearch": {
+            "bookList": "div.result-item",
+            "name": ".result-game-item-title-link@span@text",
+            "author": "p:nth-of-type(1)@span:nth-of-type(2)@text",
+            "kind": "p:nth-of-type(2)@span:nth-of-type(2)@text",
+            "lastChapter": "a.result-game-item-info-tag-item@text",
+            "intro": "p.result-game-item-desc@text",
+            "coverUrl": "div:nth-of-type(1)@.result-game-item-pic@img@src",
+            "bookUrl": ".result-game-item-title-link@a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "h1@text",
+            "author": "#info@p:nth-of-type(1)@text",
+            "kind": ".con_top@a:nth-of-type(2)@text",
+            "lastChapter": "p@a[target]@text",
+            "intro": "div#intro@text",
+            "coverUrl": "#fmimg@img@src",
+            "tocUrl": "@href"
+        },
+        "ruleToc": {
+            "chapterList": "dd",
+            "chapterName": "dd@a@text",
+            "chapterUrl": "dd@a@href",
+            "nextTocUrl": "@href"
+        },
+        "ruleContent": {
+            "content": "div#content@html"
+        }
+    }
+]

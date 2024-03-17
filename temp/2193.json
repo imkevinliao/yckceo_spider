@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "下一页js",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://b.8bqg.net",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1_{{page}}/\n仙侠修真::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n网游动漫::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n女生小说::/sort/7_{{page}}/\n其他小说::/sort/8_{{page}}/",
+        "lastUpdateTime": 1615871339087,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "class.jj@class.p2@text",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "class.nr_function.0@tag.div.-3@textNodes",
+            "nextContentUrl": "##pageAll\\s=\\s\\'(\\d+)\\'##$1###\n@js:\n//var n=result.replace(/pageAll\\s=\\s\\'(\\d+)\\'/g,'$1');\nvar n=parseInt(result);\nvar list=[];\nfor(var i=2;i<=n;i++)\n{list.push(baseUrl.replace(/.html/,'')+\"_\"+i+\".html\");}\nlist",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "class.p4@text",
+            "bookList": "class.tt",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.p5@text",
+            "kind": "class.p2@text",
+            "lastChapter": "",
+            "name": "class.p1@text",
+            "wordCount": "class.p3@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.-1@text",
+            "bookList": "class.search_list",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##.*/(\\d+)_(\\d+)/##https://img.dahexs.net/image/$1/$2/$2s.jpg",
+            "kind": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.ul.1@li",
+            "chapterName": "tag.a.0@text",
+            "chapterUrl": "tag.a.0@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://b.8bqg.net/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceUrl": "http://m.boshisw.com/s.php",
+        "bookSourceType": "0",
+        "bookSourceName": "博仕书屋",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "http://m.boshisw.com/s.php,{\n'charset':'utf-8',\n'method':'POST',\n'body':'keyword={{key}}&t=1'\n}",
+        "exploreUrl": "[{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"全部\",\"url\":\"http://m.boshisw.com/boshi/xclass/0/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"http://m.boshisw.com/boshi/xclass/1/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"http://m.boshisw.com/boshi/xclass/2/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"http://m.boshisw.com/boshi/xclass/3/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"http://m.boshisw.com/boshi/xclass/4/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"http://m.boshisw.com/boshi/xclass/5/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"网游动漫\",\"url\":\"http://m.boshisw.com/boshi/xclass/6/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"周榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"全部\",\"url\":\"http://m.boshisw.com/boshi/ph/week_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"http://m.boshisw.com/boshi/ph/week1_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"http://m.boshisw.com/boshi/ph/week2_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"http://m.boshisw.com/boshi/ph/week3_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"http://m.boshisw.com/boshi/ph/week4_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"http://m.boshisw.com/boshi/ph/week5_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游动漫\",\"url\":\"http://m.boshisw.com/boshi/ph/week6_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"月榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"全部\",\"url\":\"http://m.boshisw.com/boshi/ph/month_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"http://m.boshisw.com/boshi/ph/month1_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"http://m.boshisw.com/boshi/ph/month2_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"http://m.boshisw.com/boshi/ph/month3_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"http://m.boshisw.com/boshi/ph/month4_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"http://m.boshisw.com/boshi/ph/month5_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游动漫\",\"url\":\"http://m.boshisw.com/boshi/ph/month6_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"总榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"全部\",\"url\":\"http://m.boshisw.com/boshi/ph/all_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"http://m.boshisw.com/boshi/ph/all1_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"http://m.boshisw.com/boshi/ph/all2_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"http://m.boshisw.com/boshi/ph/all3_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"http://m.boshisw.com/boshi/ph/all4_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"http://m.boshisw.com/boshi/ph/all5_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游动漫\",\"url\":\"http://m.boshisw.com/boshi/ph/all6_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1644309797426,
+        "ruleSearch": {
+            "bookList": "class.hot_sale",
+            "name": "class.title@text",
+            "author": "class.author.0@text##.*：",
+            "kind": "class.author.0@text##\\| .*",
+            "lastChapter": "class.author.1@text##.*\\| ",
+            "coverUrl": "img@src",
+            "bookUrl": "tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.title@text",
+            "author": "class.author@text",
+            "kind": "class.sort@text",
+            "intro": "class.review@text",
+            "coverUrl": "class.synopsisArea_detail@img@src",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.p!0@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes##博仕首发请记住本站 \\[m.boshisw.com\\]",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

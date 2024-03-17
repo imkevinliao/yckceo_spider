@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "s",
+        "bookSourceName": "苗疆",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.miaojiang8.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1662789730606,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p.2@text##作者：",
+            "coverUrl": "class.block_img2@img@src",
+            "init": "",
+            "intro": "class.intro_info@textNodes",
+            "kind": "class.block_txt2@tag.p.3@tag.a@text",
+            "lastChapter": "class.block_txt2@tag.p.6@tag.a@text",
+            "name": "class.block_txt2@tag.h2@text"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html##（本章未完，请点击下一页继续阅读）",
+            "nextContentUrl": "class.next@tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "textNodes##/",
+            "bookList": "class.cover@tag.p",
+            "bookUrl": "tag.a.1@href",
+            "checkKeyWord": "神级",
+            "kind": "tag.a.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterList@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.miaojiang8.net/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

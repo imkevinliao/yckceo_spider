@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "求小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qiuxiaoshuo.org",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuanxiaoshuo/{{page}}.htm\n奇幻::/qihuanxiaoshuo/{{page}}.htm\n修真::/xiuzhenxiaoshuo/{{page}}.htm\n都市::/doushixiaoshuo/{{page}}.htm\n言情::/yanqingxiaoshuo/{{page}}.htm\n历史::/lishixiaoshuo/{{page}}.htm\n耽美::/danmeixiaoshuo/{{page}}.htm\n武侠::/wuxiaxiaoshuo/{{page}}.htm\n科幻::/kehuanxiaoshuo/{{page}}.htm\n游戏::/youxixiaoshuo/{{page}}.htm\n军事::/junshixiaoshuo/{{page}}.htm\n竞技::/jingjixiaoshuo/{{page}}.htm\n灵异::/lingyixiaoshuo/{{page}}.htm\n商战::/shangzhanxiaoshuo/{{page}}.htm\n校园::/xiaoyuanxiaoshuo/{{page}}.htm\n官场::/guanchangxiaoshuo/{{page}}.htm\n职场::/zhichangxiaoshuo/{{page}}.htm\n其他::/qitaxiaoshuo/{{page}}.htm",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+        "lastUpdateTime": 1604644351739,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "@css:[property=og:novel:author]@content",
+            "coverUrl": "class.img-thumbnail.0@src",
+            "intro": "id.shot@text##\\[.*",
+            "name": "class.active.0@text",
+            "tocUrl": "class.list-group-item tac@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.txtContent@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.col-xs-2.0@text",
+            "bookList": "id.novel-list@tag.li!0",
+            "bookUrl": "class.col-xs-3.0@tag.a.0@href",
+            "kind": "class.col-xs-1.0@tag.i.0@text",
+            "lastChapter": "class.col-xs-4.0@tag.a.0@text",
+            "name": "class.col-xs-3.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.panel panel-default mt20.0@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.qiuxiaoshuo.org/search.htm?keyword={{key}}",
+        "weight": 0
+    }
+]

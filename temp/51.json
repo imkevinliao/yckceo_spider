@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "翻书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.didi6.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1664025154868,
+        "respondTime": 2299,
+        "ruleBookInfo": {
+            "author": ".info@span.1@a@text",
+            "coverUrl": "dt@img@src",
+            "intro": ".content@p@html",
+            "kind": "i@text&&.info@span.0@a@text&&.info@span.4@text##更新：",
+            "lastChapter": "ul.clearfix@li.0@a.newzhangjie@text",
+            "name": "h2@text",
+            "wordCount": ".info@span.2@text##字数："
+        },
+        "ruleContent": {
+            "content": ".read-section > p@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleSearch": {
+            "author": "p.info@span@text",
+            "bookList": "ul.clearfix@li",
+            "bookUrl": "a.tit@href",
+            "coverUrl": "img.pic.lazy@src",
+            "intro": "p.intro@text",
+            "kind": "em.finish@text&&em.type@text",
+            "name": "a.tit@text"
+        },
+        "ruleToc": {
+            "chapterList": ".bookshelf-list@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html?keyword={{key}}",
+        "weight": 0
+    }
+]

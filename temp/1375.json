@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceName": "http://www.shu05.com/",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.shu05.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1668770132757,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".bookTitle@a@ownText",
+            "intro": "#bookIntro@html",
+            "name": ".bookTitle@ownText"
+        },
+        "ruleContent": {
+            "content": "#htmlContent@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "##12\">(.*?) / 著##$1###",
+            "bookList": "class.book-coverlist",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": ".thumbnail@src",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.panel-chapterlist.-1@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.shu05.com/modules/article/search.php?searchkey={{key}},{\"charset\":\"gbk\"}",
+        "weight": 0
+    }
+]

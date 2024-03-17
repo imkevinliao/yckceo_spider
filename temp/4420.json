@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "🍊 女频",
+        "bookSourceName": "🍊 豆花文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.douhuawenxue.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "最新::https://m.douhuawenxue.com/category/最新?bl={{page}}\n长篇::https://m.douhuawenxue.com/category/长篇?bl={{page}}\n现代::https://m.douhuawenxue.com/category/现代?bl={{page}}\n古代::https://m.douhuawenxue.com/category/古代?bl={{page}}\n未来::https://m.douhuawenxue.com/category/未来?bl={{page}}\n穿越::https://m.douhuawenxue.com/category/穿越?bl={{page}}\n架空::https://m.douhuawenxue.com/category/架空?bl={{page}}\n重生::https://m.douhuawenxue.com/category/重生?bl={{page}}\n快穿::https://m.douhuawenxue.com/category/快穿?bl={{page}}\n仙侠::https://m.douhuawenxue.com/category/仙侠?bl={{page}}\n剧情::https://m.douhuawenxue.com/category/剧情?bl={{page}}\n无cp::https://m.douhuawenxue.com/category/无cp?bl={{page}}\n种田::https://m.douhuawenxue.com/category/种田?bl={{page}}",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1699524038991,
+        "loginUrl": "https://m.douhuawenxue.com/login",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "body > div.page.page-fullbuy > div.book-detail > div.book > div.book_mn > div > a@text",
+            "coverUrl": "body > div.page.page-fullbuy > div.book-detail > div.book > div.book_sd > img@src",
+            "intro": "body > div.page.page-fullbuy > div.book-summary > div.summary > div.summary_simple@textNodes",
+            "kind": "body > div.page.page-fullbuy > div.book-summary > div.book_tags@text",
+            "lastChapter": "body > div.page.page-fullbuy > div.book_catalogue.clearfix > a:nth-child(2) > span@text",
+            "name": "body > div.page.page-fullbuy > div.book-detail > div.book > div.book_mn > a > h1@text",
+            "tocUrl": "text.查看全部章节@href",
+            "wordCount": "body > div.page.page-fullbuy > div.book-detail > div.book > div.book_mn > div@textNodes"
+        },
+        "ruleContent": {
+            "content": "#J_read > div.chapter-wrap.text-idt.ln-2.skin-1 > div > div.chapter_ct@html",
+            "nextContentUrl": "text.下一页@href",
+            "payAction": "{{baseUrl}}",
+            "replaceRegex": "##下载豆腐阅读APP.支持正版阅读"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "div > a > div.book_author@text",
+            "bookList": "body > div.page > div.category-list > ul > li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "<js>java.get('html')</js>\nbody > div.page.page-fullbuy > div.book-detail > div.book > div.book_sd > img@src",
+            "intro": "div > a > div.book_ct@textNodes",
+            "kind": "div > div > div@text",
+            "lastChapter": "<js>java.get('html')</js>\nbody > div.page.page-fullbuy > div.book_catalogue.clearfix > a:nth-child(2) > span@text",
+            "name": "div > a > h4@text",
+            "wordCount": "a.0@href\n<js>  \nif (typeof result == \"object\") {  \n    result = result ? result[0] : null;  \n} else {  \n    result = result;  \n}  \nvar match = baseUrl.match(/^(https?:\\/\\/[^/]+)/);  \nvar turl = match ? match[0] : null;  \nvar url = result;  \njava.log(url);  \nvar html = java.ajax(url);  \njava.put('html', html);  \n</js>  \nbody > div.page.page-fullbuy > div.book-detail > div.book > div.book_mn > div@textNodes"
+        },
+        "ruleToc": {
+            "chapterList": "body > div.page > ul > li",
+            "chapterName": "a@text",
+            "chapterUrl": "##href=\"(https://m.douhuawenxue.com/chapter-\\d+?)\"##$1,{\"webView\": true}###",
+            "formatJs": "",
+            "isVip": "@js:\n/icon-lock/.test(result)?true:false;",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search?keyword={{key}}&type=1",
+        "weight": 0
+    }
+]

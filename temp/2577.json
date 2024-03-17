@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceUrl": "https://www.shcbylzx.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "笔趣阁",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.shcbylzx.com/ar.php?keyWord={{key}}",
+        "exploreUrl": "玄幻奇幻::https://www.shcbylzx.com/ksl/1/1.html\n武侠仙侠::https://www.shcbylzx.com/ksl/2/1.html\n都市言情::https://www.shcbylzx.com/ksl/3/1.html\n历史军事::https://www.shcbylzx.com/ksl/4/1.html\n科幻灵异::https://www.shcbylzx.com/ksl/5/1.html\n网游竞技::https://www.shcbylzx.com/ksl/6/1.html",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": "class.txt-list txt-list-row5@tag.li!0",
+            "name": "class.s2@tag.a@text",
+            "author": "class.s4@text",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@tag.a@text",
+            "bookUrl": "class.s2@tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.txt-list txt-list-row5@tag.li",
+            "name": "class.s2@tag.a@text",
+            "author": "class.s4@text",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@tag.a@text",
+            "bookUrl": "class.s2@tag.a@href"
+        },
+        "ruleBookInfo": {
+            "name": "class.top@tag.h1@text",
+            "author": "class.fix@tag.p.0@text",
+            "kind": "class.xs-show@text",
+            "lastChapter": "//div[1]/ul/li[1]/a/text()",
+            "intro": "class.m-desc xs-show@text",
+            "coverUrl": "class.imgbox@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix.1@tag.li@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href",
+            "nextTocUrl": "class.onclick@text.下一页.0@href"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "nextContentUrl": "class.section-opt m-bottom-opt@tag.a.2@href"
+        }
+    }
+]

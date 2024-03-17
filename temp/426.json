@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "百文斋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.baiwenzai.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::http://m.baiwenzai.com/channel/1/{{page}}.html\n仙侠修真::http://m.baiwenzai.com/channel/2/{{page}}.html\n都市言情::http://m.baiwenzai.com/channel/3/{{page}}.html\n历史军事::http://m.baiwenzai.com/channel/4/{{page}}.html\n网游竞技::http://m.baiwenzai.com/channel/5/{{page}}.html\n科幻小说::http://m.baiwenzai.com/channel/6/{{page}}.html\n恐怖灵异::http://m.baiwenzai.com/channel/7/{{page}}.html\n其他小说::http://m.baiwenzai.com/channel/8/{{page}}.html",
+        "lastUpdateTime": 1648129521517,
+        "respondTime": 13836,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "class.info_intro@text##简介：\\s+",
+            "kind": "class.info_t2@text##类别：",
+            "lastChapter": "class.info_t6@text##最新：",
+            "wordCount": "class.info_t5@text"
+        },
+        "ruleContent": {
+            "content": "tag.p@html##本网站为网友写作提供上传空间平台。请上传合法的版权的作品,如有发现本站有侵犯权利版权内容的请向本站投诉"
+        },
+        "ruleExplore": {
+            "author": "class.newbook_author@text##作者：",
+            "bookList": "class.newbook_list",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.newbook_intor@text",
+            "kind": "class.wanben_serial_novelsort@text",
+            "name": "img@alt"
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.sone[0:19]",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "",
+            "intro": "",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

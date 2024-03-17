@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "爱看小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ixs.la",
+        "customOrder": -118155,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "武侠仙侠::http://www.ixs.la/fl2<,_{{page}}>.html",
+        "lastUpdateTime": 1620269372006,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "intro": "[property=\"og:novel:book_name\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#content@html"
+        },
+        "ruleExplore": {
+            "bookList": "class.l@ul@li",
+            "bookUrl": "tag.a@href",
+            "name": ".s2@text"
+        },
+        "ruleSearch": {
+            "author": "dt@span@text",
+            "bookList": ".ll@.item",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "name": "dt@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dt:nth-of-type(2) ~ dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.ixs.la/search.php,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

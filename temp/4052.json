@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "20230830更新url,搜索By_zhbyjm7783\n20230829 修复-尐哖\n20230822 修复-尐哖\n备用域名：http://www.xaixs.info",
+        "bookSourceGroup": "自写修复0909",
+        "bookSourceName": "星空小说[修复]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xaixs.la",
+        "bookUrlPattern": "http://www.xaixs.la/book/\\d+.html",
+        "customOrder": 77,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "header": "@js:\nJSON.stringify({\n\t\"upgrade-insecure-requests\":\"1\",\n\t\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\",\n\t\"accept-language\":\"zh-CN,en-US;q=0.9\",\n\t\"User-Agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/71.0.3578.141 Safari/534.24 XiaoMi/MiuiBrowser/12.4.14\"\n});",
+        "lastUpdateTime": 1694193299410,
+        "loginUrl": "",
+        "respondTime": 31068,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "tag.p.0@text##阅读.*最新章节.*|内容简介：",
+            "kind": "[property~=category|status|update_time]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "class.tab fl j-content-tab@tag.a.1@href",
+            "wordCount": "class.hits@tag.span.0@text"
+        },
+        "ruleContent": {
+            "content": "<js>\ne=java.getElements('.main_content dd');\nsrc='';\nfor(i in e){\n\tsrc+=e.select('[data-id=\"'+i+'\"]');\n\tsrc+='\\n';\n}\nsrc\n</js>"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.secd-rank-list@tag.dl",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "tag.a.0@tag.img@data-original",
+            "intro": "",
+            "kind": "tag.a.3@text",
+            "lastChapter": "{{@@tag.a.4@text##.*更新.}} • {{@@dd span.-1@text##\\|\\s*|\\s.*}}",
+            "name": "tag.a.1@text",
+            "wordCount": ".clicknum em@text##\\s.*"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\ne=java.getElements('#listsss div');\nsrc='';\nfor(i in e){\n\tsrc+=e.select('[data-id=\"'+i+'\"] li');\n\tsrc+='\\n';\n}\nsrc\n</js>li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"key={{key}}\"\n}",
+        "weight": 0
+    }
+]

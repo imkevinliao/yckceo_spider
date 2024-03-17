@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "黑岩网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.xheiyan.info",
+        "bookUrlPattern": "http://m.xheiyan.info/\\w+/",
+        "customOrder": 12,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n玄幻::/xuanhuan/\n仙侠::/xianxia/\n言情::/yanqing/\n穿越::/chuanyue/\n科幻::/kehuan/\n武侠::/wuxia/\n军事::/junshi/\n排行榜::/paihang.php\n全本::/quanben.php",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695605848614,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##（本章未完.*继续阅读）|{{chapter.title}}|\\(第\\d.+页\\)"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "kind": "0",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": ".cat@text##分类：",
+            "lastChapter": "a.1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last.1@dl dd a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://m.xheiyan.info/search.php?q={{key}}",
+        "weight": 0
+    }
+]

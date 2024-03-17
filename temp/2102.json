@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceUrl": "http://www.fyxsw.cc",
+        "bookSourceType": "0",
+        "bookSourceName": "风云小说网",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.fyxsw.cc/modules/article/search.php,{ \"charset\": \"gbk\", \"method\": \"POST\", \"body\": \"searchkey={{key}}&type=articlename\" }",
+        "exploreUrl": "",
+        "enabled": false,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1617888730967,
+        "ruleSearch": {
+            "bookList": "id.sitembox@tag.dl",
+            "name": "@tag.dd.0@tag.h3@tag.a@text",
+            "author": "class.book_other@tag.span.0@text",
+            "wordCount": "class.book_other@tag.span.3@text",
+            "lastChapter": "class.book_other@tag.a@text",
+            "intro": "class.book_des@text",
+            "coverUrl": "@tag.dt.0@tag.a@tag.img@src",
+            "bookUrl": "@tag.dd.0@tag.h3@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "//*[@id=\"info\"]/h1/text()",
+            "author": "//*[@id=\"info\"]/div[1]/a[1]/text()",
+            "kind": "//*[@id=\"info\"]/div[2]/a/text()",
+            "lastChapter": "//*[@id=\"info\"]/div[2]/a/text()",
+            "intro": "class.bookinfo_intro@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_list mt10@dd",
+            "chapterName": "@a@text",
+            "chapterUrl": "@a@href"
+        },
+        "ruleContent": {
+            "content": "class.read-content@html##章节错误,点此举报(免注册)5分钟内会处理"
+        }
+    }
+]

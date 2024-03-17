@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "请看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.qingkanshu.net",
+        "bookUrlPattern": "http://m.qingkanshu.net/\\d+_\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/\n武侠::/wuxia/\n言情::/yanqing/\n历史::/lishi/\n网游::/wangyou/\n科幻::/kehuan/\n恐怖::/kongbu/\n全本::/quanben/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689661514224,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": "{{@@text.字数：@text##字数：}}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##\\(第.+页\\)|{{chapter.title}}"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "kind": "0",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": ".cat@text##分类：",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last.1@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://m.qingkanshu.net/dsgfusdgfuseg.php?ie=gbk&s=5256649918672294880&q={{key}},{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

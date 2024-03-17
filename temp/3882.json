@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "沧元图-笔趣阁小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://pck.tvguaa.com",
+        "bookUrlPattern": "https?://pck.tvguaa.com/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/gengxin/1.html\n修真小说::/gengxin/2.html\n都市小说::/gengxin/3.html\n穿越小说::/gengxin/4.html\n网游小说::/gengxin/5.html\n科幻小说::/gengxin/6.html\n其他类型::/gengxin/7.html\n纯爱::/gengxin/23.html\n衍生::/gengxin/24.html",
+        "header": "",
+        "lastUpdateTime": 1691818702457,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"#fmimg img@src\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##..未完.*继续阅读|【本章阅读完毕.+】"
+        },
+        "ruleExplore": {
+            "author": "span.-1@text",
+            "bookList": "#newscontent li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "{{\"/img/249912.jpg\"}}",
+            "kind": ".s1@text&&.s3@textNodes\n##\\(|\\)|\\[|\\]",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "#nr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/img/249912.jpg\"",
+            "kind": "td.-1:-2@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text",
+            "wordCount": "td.-3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://pck.tvguaa.com/book/Search.aspx?key={{key}}&searchtype=articlename",
+        "weight": 0
+    }
+]

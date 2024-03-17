@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "断秋风",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.duanqiufeng.com/",
+        "bookUrlPattern": "http://www.duanqiufeng.com/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/sort/0/{{page}}.html\n玄幻魔法::/sort/1/{{page}}.html\n武侠修真::/sort/2/{{page}}.html\n古代言情::/sort/3/{{page}}.html\n历史军事::/sort/4/{{page}}.html\n穿越架空::/sort/5/{{page}}.html\n游戏竞技::/sort/6/{{page}}.html\n科幻灵异::/sort/7/{{page}}.html\n同人动漫::/sort/8/{{page}}.html\n  二次元  ::/sort/9/{{page}}.html\n另类小说::/sort/10/{{page}}.html\n现代言情::/sort/11/{{page}}.html\n青春校园::/sort/12/{{page}}.html\n都市异能::/sort/13/{{page}}.html",
+        "lastUpdateTime": 1689565751902,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "a.0@text",
+            "coverUrl": "p@img@src",
+            "init": ".bookinfo",
+            "intro": "p.1@text",
+            "kind": ".red.1@text",
+            "lastChapter": "a.1@text",
+            "name": "h1@text",
+            "tocUrl": "{{baseUrl}}##,.*",
+            "wordCount": ".blue@textNodes"
+        },
+        "ruleContent": {
+            "content": ".readcontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##↑返回顶部↑"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.0@href##$##,{'webView': true}",
+            "checkKeyWord": "",
+            "coverUrl": "@js:\"http://www.duanqiufeng.com/modules/article/images/nocover.jpg\"",
+            "intro": ".update@text##简介：",
+            "kind": ".num@text",
+            "lastChapter": "a.1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list-chapterAll@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "@js:\nif(/\\/1$/.test(baseUrl)){\n\tvar url=baseUrl\n\t}else{\n\t\tvar url=baseUrl+\"1\"\n\t\t}\n\t\tvar surl=String(url)\ny=java.getString(\"@@#pagestats@text\")\nvar page=y.match(/\\d+\\/(\\d+)/)[1]\nlist=[];for(i=2;i<=page;i++){\n\tlist.push(surl.replace(/\\/1$/,\"/\"+i))\n\t}\n\tlist"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}&action=login&searchtype=all&submit=\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

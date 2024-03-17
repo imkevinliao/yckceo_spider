@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "✏搜笔趣",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qxzx8.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1673879612373,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@p.0@text",
+            "coverUrl": "id.fmimg@img@src",
+            "intro": "id.intro@p.0@text",
+            "kind": "@p.1@text",
+            "lastChapter": "@p.3@text",
+            "name": "id.info@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "@td.2@text",
+            "bookList": "class.grid@tag.td",
+            "bookUrl": "@td.0@a@href",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "@td.1@a@text",
+            "name": "@td.0@a@text",
+            "wordCount": "@td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd",
+            "chapterName": "@a@text",
+            "chapterUrl": "@a@href"
+        },
+        "searchUrl": "https://www.qxzx8.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

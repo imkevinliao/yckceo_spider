@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "此js使控制台的？字正常显示\neval(String(source.variableComment))\n\n此js将<h3>替换为<p>标签，如<h3>*****</h3>中的h3全换为p\nsrc.replace(/<(\\/?)h3>/g,\"<$1p>\")\n\n【不确定】：地址后添加如下能将其补充为完整地址，比如/luoli\n,{'webView': true}",
+        "bookSourceGroup": "【0.自制｜含🎨】",
+        "bookSourceName": "月亮小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://yueliang25.buzz/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/page/{{page}}\n激情::/category/jiqing/page/{{page}}\n乱伦::/category/luanlun/page/{{page}}\n学生::/category/xuesheng/page/{{page}}\n同人::/category/tongren/page/{{page}}\n萝莉::/category/luoli/page/{{page}}",
+        "lastUpdateTime": 1687942187963,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "$.thumbnail\n@js:\nresult||\"https://yueliang25.buzz/wp-content/uploads/2021/09/slt8.jpg\"",
+            "kind": "class.post-info-left@tag.a.1@text"
+        },
+        "ruleContent": {
+            "content": "<js>\nsrc.replace(/<(\\/?)h3>/g,\"<$1p>\")\n</js>\np@html\n@js:\neval(String(source.variableComment))"
+        },
+        "ruleExplore": {
+            "kind": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "li.post-item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "$.thumbnail\n@js:\nresult||\"https://yueliang25.buzz/wp-content/uploads/2021/09/slt8.jpg\"",
+            "intro": ".post-item-content@text\n@js:\neval(String(source.variableComment))",
+            "kind": ".post-item-tags@text",
+            "name": "img@alt"
+        },
+        "ruleToc": {
+            "chapterList": ".lwptoc_items||ul.-1@li a",
+            "chapterName": "text@js:\neval(String(source.variableComment))",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/?s={{key}}",
+        "variableComment": "a=\"򏌳,򏌲,򏌵,򏌰,򏌱,򏌴\".split(\",\");\nb=\"，。一“”：\".slice();\nfor(i in a){\n result=result.replace(new RegExp(a[i],\"g\"),b[i])\n\t}",
+        "weight": 0
+    }
+]

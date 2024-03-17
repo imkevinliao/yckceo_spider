@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "HINOTORI（qq）,感谢九天之狼的帮助",
+        "bookSourceGroup": "💠 普通",
+        "bookSourceName": "💠30书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.30syy.com",
+        "bookUrlPattern": "",
+        "customOrder": 195265,
+        "enabled": false,
+        "enabledExplore": false,
+        "exploreUrl": "周榜::https://www.30syy.com/top/weekvisit/{{page}}.html\n月榜::https://www.30syy.com/top/monthvisit/{{page}}.html\n总榜::https://www.30syy.com/top/allvisit/{{page}}.html\n收藏::https://www.30syy.com/top/marknum/{{page}}.html\n推荐::https://www.30syy.com/top/votenum/{{page}}.html\n全本::https://www.30syy.com/over/{{page}}.html",
+        "lastUpdateTime": 1621945931212,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": ".novelinfo-l@tag.li.0@text",
+            "coverUrl": ".novelinfo-r@a@img@src",
+            "intro": ".body novelintro @html",
+            "kind": ".novelinfo-l@tag.li.-1@text&&.novelinfo-l@tag.li.1@a@text&&.novelinfo-l@tag.li.-3@text##更新：|来源：",
+            "lastChapter": ".ptm-text-cut@text",
+            "name": "h1@text",
+            "tocUrl": "",
+            "wordCount": ".novelinfo-l@tag.li.2@text##状态："
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes##read_di\\(\\)\\;|本章已阅读完毕\\(请点击下一章继续阅读..",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text",
+            "bookList": ".librarylist@li",
+            "bookUrl": ".pt-ll-l@a@href",
+            "coverUrl": ".pt-ll-l@a@img@src",
+            "intro": "class.intro@html",
+            "kind": "tag.a.3@text",
+            "lastChapter": "tag.a.4@text",
+            "name": "tag.a.1@text",
+            "wordCount": "class.last@textNodes##最新章节：\\n|\\(|\\)"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": ".librarylist@li",
+            "bookUrl": ".pt-ll-l@a@href",
+            "coverUrl": ".pt-ll-l@a@img@src",
+            "intro": "class.intro@html",
+            "kind": "tag.a.3@text",
+            "lastChapter": "tag.a.4@text",
+            "name": "tag.a.1@text",
+            "wordCount": "class.last@textNodes##最新章节：\\n|\\(|\\)"
+        },
+        "ruleToc": {
+            "chapterList": "class.dirlist clearfix.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "https://www.30syy.com/search.html?sraechk0y={{key}}",
+        "weight": 0
+    }
+]

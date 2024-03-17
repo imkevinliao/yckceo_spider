@@ -1,0 +1,68 @@
+[
+    {
+        "bookSourceComment": "建议登录\n整理修改缝合：酷安 Wolken\n灰色章节修复目录部分By叶落岚起+关耳/乃星改2021.8.3\n补丁 : 神秘人\n修复搜索问题\n修复发现榜单没图的问题\n修复章节内图片问题\n新補丁: 神秘人\n fix weird preload regexes",
+        "bookSourceGroup": "轻小说",
+        "bookSourceName": "哔哩轻小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://w.linovelib.com",
+        "bookUrlPattern": "",
+        "coverDecodeJs": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{'title':'全部榜单','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'点击总榜','url':'/wenku/allvisit_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'点击月榜','url':'/wenku/monthvisit_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'点击周榜','url':'/wenku/weekvisit_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'推荐总榜','url':'/wenku/allvote_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'推荐月榜','url':'/wenku/monthvote_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'推荐周榜','url':'/wenku/weekvote_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结总点','url':'/wenku/allvisit_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结月点','url':'/wenku/monthvisit_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结周点','url':'/wenku/weekvisit_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结总推','url':'/wenku/allvote_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结月推','url':'/wenku/monthvote_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结周推','url':'/wenku/weekvote_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'收藏榜单','url':'/wenku/goodnum_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'字数榜单','url':'/wenku/words_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'新书榜单','url':'/wenku/postdate_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'更新榜单','url':'/wenku/lastupdate_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'编辑推荐','url':'/wenku/toptime_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'全部文库','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'电击文库','url':'/wenku/lastupdate_0_1_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'角川文库','url':'/wenku/lastupdate_0_3_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'少女文库','url':'/wenku/lastupdate_0_12_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'GA文库','url':'/wenku/lastupdate_0_6_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'HJ文库','url':'/wenku/lastupdate_0_7_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'MF文库J','url':'/wenku/lastupdate_0_4_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'富士见文库','url':'/wenku/lastupdate_0_2_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'Fami通文库','url':'/wenku/lastupdate_0_5_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'小学馆','url':'/wenku/lastupdate_0_10_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'集英社','url':'/wenku/lastupdate_0_9_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'讲谈社','url':'/wenku/lastupdate_0_11_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'一迅社','url':'/wenku/lastupdate_0_8_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'其他文库','url':'/wenku/lastupdate_0_13_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'轻改漫画','url':'/wenku/lastupdate_0_15_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'华文轻小说','url':'/wenku/lastupdate_0_14_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}}]",
+        "header": "{\"User-Agent\": \"Mobile\", \n\"Referer\":\"https://w.linovelib.com/\"\n}",
+        "lastUpdateTime": 1691213469013,
+        "loginCheckJs": "",
+        "loginUrl": "https://w.linovelib.com/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "id.bookSummary@tag.content@textNodes\n@js:\nresult=\"  \"+result;",
+            "kind": "class.book-cell@tag.p.1@ownText&&class.tag-small red@text\n##.*万字|·.*",
+            "lastChapter": "class.gray ell@text##(\\d+-\\d+-\\d+\\s\\d+:\\d+)·(.*)##$2 • $1",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "class.btn-normal red@href",
+            "wordCount": "class.book-cell@tag.p.1@ownText##连载|完结"
+        },
+        "ruleContent": {
+            "content": "\n<js>\n//x = java.webView(\"\", baseUrl, \"\")\n//java.setContent(x)\n!(/google.cn/).test(baseUrl)? h =java.getString(\"id.acontent@html\"):h=decodeURIComponent(baseUrl.replace(/^.*?text=/, ''))\nh = h.replace(\"“\",\"「\").replace(\"”\",\"」\").replace(\"‘\",\"『\").replace(\"’\",\"』\").replace(\"\",\"上\").replace(\"\",\"们\").replace(\"\",\"来\").replace(\"\",\"当\").replace(\"\",\"时\").replace(\"\",\"大\").replace(\"\",\"了\").replace(\"\",\"我\").replace(\"\",\"不\").replace(\"\",\"有\").replace(\"\",\"这\").replace(\"\",\"个\").replace(\"\",\"的\").replace(\"\",\"一\").replace(\"\",\"是\").replace(\"\",\"人\").replace(\"\",\"在\").replace(\"\",\"他\").replace(\"\",\"地\").replace(\"\",\"为\").replace(\"\",\"子\").replace(\"\",\"中\").replace(\"\",\"你\").replace(\"\",\"说\").replace(\"\",\"生\").replace(\"\",\"国\").replace(\"\",\"年\").replace(\"\",\"用\").replace(\"\",\"就\").replace(\"\",\"那\").replace(\"\",\"和\").replace(\"\",\"要\").replace(\"\",\"她\").replace(\"\",\"出\").replace(\"\",\"也\").replace(\"\",\"得\").replace(\"\",\"里\").replace(\"\",\"后\").replace(\"\",\"自\").replace(\"\",\"以\").replace(\"\",\"会\").replace(\"\",\"家\").replace(\"\",\"可\").replace(\"\",\"下\").replace(\"\",\"然\").replace(\"\",\"过\").replace(\"\",\"天\").replace(\"\",\"去\").replace(\"\",\"能\").replace(\"\",\"对\").replace(\"\",\"小\").replace(\"\",\"多\").replace(\"\",\"而\").replace(\"\",\"么\").replace(\"\",\"还\").replace(\"\",\"于\").replace(\"\",\"心\").replace(\"\",\"学\").replace(\"\",\"好\").replace(\"\",\"看\").replace(\"\",\"着\").replace(\"\",\"起\").replace(\"𫓴\",\"鉾\").replace(\"\",\"发\").replace(\"\",\"道\").replace(\"\",\"想\").replace(\"\",\"成\").replace(\"\",\"只\").replace(\"\",\"如\").replace(\"\",\"事\").replace(\"\",\"样\").replace(\"\",\"之\").replace(\"\",\"都\").replace(\"\",\"第\").replace(\"\",\"阴\").replace(\"\",\"到\").replace(\"\",\"没\").replace(\"\",\"液\").replace(\"\",\"茎\").replace(\"\",\"乳\").replace(\"\",\"美\").replace(\"\",\"肉\").replace(\"\",\"交\").replace(\"\",\"性\").replace(\"\",\"胸\").replace(\"\",\"私\").replace(\"\",\"呻\").replace(\"\",\"欲\").replace(\"\",\"把\").replace(\"\",\"作\").replace(\"\",\"种\").replace(\"\",\"开\").replace(\"\",\"射\").replace(\"\",\"脱\").replace(\"\",\"穴\").replace(\"\",\"淫\").replace(\"\",\"臀\").replace(\"\",\"舔\").replace(\"\",\"裸\").replace(\"\",\"骚\").replace(\"\",\"唇\");\nh\n</js>\n",
+            "imageDecode": "",
+            "imageStyle": "FULL",
+            "nextContentUrl": "##url_next:'([^']*)'##$1###\n@js:\nvar isNew=/\\/(\\d+).html/.test(result);\nvar out=isNew?'':result;\nout",
+            "replaceRegex": "##((?<=[\\u4e00-\\u9fa5“‘「（，])\\s+)?<!--\\s*\\（继续下一页\\）\\s*-->\\s*|((?<=[\\u4e00-\\u9fa5“‘「（，])\\s+)?\\（本章未完\\）\\s*|"
+        },
+        "ruleExplore": {
+            "author": "class.book-author@ownText",
+            "bookList": "class.book-ol book-ol-normal jsBooks@tag.li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-src",
+            "intro": "class.book-desc@text",
+            "kind": "class.tag-small-group origin-right@tag.em.0@text&&\nclass.tag-small-group origin-right@tag.em.1@text",
+            "name": "class.book-title@text",
+            "wordCount": "class.tag-small blue@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book-author@textNodes",
+            "bookList": "@js:\npath = 'class.book-ol book-ol-normal@tag.li';\nc=java.getElement(path);\nif( !c.length && result.includes('no-js')){\n  res = java.startBrowserAwait(baseUrl,'等待至跳转，然后重搜');\n  java.setContent(res.body());\n  c=java.getElement(path);\n}\nc",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "我的青春恋爱喜剧",
+            "coverUrl": "a@href@js:\nvar id = result.match(/\\/(\\d+)\\.html/)[1];\n'https://www.linovelib.com/files/article/image/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+            "intro": "class.book-desc@text",
+            "kind": "class.tag-small-group origin-right@tag.em@text",
+            "name": "class.book-title-x@class.book-title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.volumes @tag.li\n@js:\n    //现实debug(尝试修复正文链接问题，和目录不全)\n    //<<好友角色的我怎么可能大受欢迎>>第三卷12\n    //<<我的青春恋爱喜剧>>\n    //2022-8-19\n    //原来的代码在源注释\n    //2022-8-20修复https://w.linovelib.com/novel/2765.html目录加载失败\n    a = result\nlist = []\n\nfor (i = 0; i < a.length; i++) {\n    java.setContent(a[i])\n    b = java.getString(\"tag.a@href\")\n    if (b == \"javascript:cid(0)\") {\n        if (i == a.length - 1) {\n            java.setContent(a[i - 1])\n            c1 = java.getString(\"tag.a@href\")\n            if (c1 == \"\") {\n                java.setContent(a[i - 2])\n                c1 = java.getString(\"tag.a@href\")\n            }\n            d1 = java.ajax(\"https://w.linovelib.com\" + c1)\n            java.setContent(d1)\n            e1 = java.getElements(\"id.footlink\")\n\n            while (e1.indexOf(\"下一页\") != -1) {\n                f1 = d1.match(/<script type\\=\\\"text\\/javascript\\\">var ReadParams.*/)\n                g1 = String(f1).match(/url_next\\:'.*?html/)[0].replace(\"url_next:'\", \"\")\n                d1 = java.ajax(\"https://w.linovelib.com\" + g1)\n                java.setContent(d1)\n                e1 = java.getElements(\"id.footlink\")\n            }\n\n            f1 = d1.match(/<script type\\=\\\"text\\/javascript\\\">var ReadParams.*/)\n            g1 = String(f1).match(/url_next\\:'.*?html/)[0].replace(\"url_next:'\", \"\")\n            java.log(g1)\n            a[i] = String(a[i]).replace('javascript:cid(0)', g1)\n\n        } else {\n            java.setContent(a[i + 1])\n            c = java.getString(\"tag.a@href\")\n            if (c == \"\") {\n                java.setContent(a[i + 2])\n                c = java.getString(\"tag.a@href\")\n            }\n            d = java.ajax(\"https://w.linovelib.com\" + c)\n            e = d.match(/<script type\\=\\\"text\\/javascript\\\">var ReadParams.*/)\n            e = String(e).match(/url_previous\\:'.*?html/)[0].replace(\"url_previous:'\", \"\")\n            java.log(e)\n\n            a[i] = String(a[i]).replace('javascript:cid(0)', e)\n        }\n    }\n}\na",
+            "chapterName": "text",
+            "chapterUrl": "\n<js>\n/*\nif(result.indexOf(\"−\")!=-1){cid=parseInt(result.match(/\\d+(?=−)/)[0]);\nnex=cid+1;pre=cid-1;\nresult=result.replace(/(\\d+)−−/,pre).replace(/(\\d+)−/,nex)}\n*/\n\t/*\na=result\njava.log(a)\n*/\nb=java.getString(\"tag.a@href\") /*+ \",{'webView': true}\"*/\n</js>",
+            "isVolume": "@js:\na=java.getString(\"tag.a@href\")\nif(a==\"\"){\n\ttrue\n\t}else{\n\t\tfalse\n\t\t}",
+            "updateTime": "tag.a@href"
+        },
+        "searchUrl": "<js>\n\npage==1?\n'/search.html?searchkey={{key}}&searchtype=all'\n:\n\n'/search/{{key}}_{{page}}.html'\n</js>",
+        "weight": 0
+    }
+]

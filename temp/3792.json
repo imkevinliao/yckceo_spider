@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "搜索间隔60秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "果冻小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.guodongxsw.com/",
+        "bookUrlPattern": "https://m.guodongxsw.com/book/\\d+.html",
+        "customOrder": 3,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort-1-{{page}}/\n仙侠小说::/sort-2-{{page}}/\n都市小说::/sort-3-{{page}}/\n历史小说::/sort-4-{{page}}/\n游戏小说::/sort-5-{{page}}/\n科幻小说::/sort-6-{{page}}/\n其他小说::/sort-7-{{page}}/\n全本小说::/full-{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690611932459,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2 p.2@text",
+            "coverUrl": ".block_img2 img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2 p.3:4:5@text",
+            "lastChapter": ".block_txt2 a.-1@text",
+            "name": ".block_txt2 h2@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "replaceRegex": "##请牢记收藏：果冻小说网.+免费阅读"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@ownText##\\/",
+            "bookList": ".line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "<js>\nif(/_1.shtml/.test(baseUrl)){\n\tvar url=baseUrl;\n\t}else{\n\t\tvar id=baseUrl.match(/\\d+\\/(\\d+)/)[1]\n\t\tvar go=baseUrl.replace(/html.+html/,\"html/\")\n\t\tvar\turl=go+id+\"/\"+id+\"_1.shtml\"\n\t\tvar surl=String(url)\n\t\t}\npage=result.match(/\\(第\\d+\\/(\\d+)页\\)当前\\d+条\\/页/)[1];\nlist=[];for(i=2;i<=page;i++){list.push(surl.replace(/_1/,'_'+i))}\nlist</js>"
+        },
+        "searchUrl": "https://m.guodongxsw.com/modules/article/waps.php,{\n  \"body\": \"searchtype=articlename&searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

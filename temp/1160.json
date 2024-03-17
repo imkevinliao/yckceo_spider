@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceUrl": "https://www.biquges.com",
+        "bookSourceType": "0",
+        "bookSourceName": "0715🧜‍♀️biquges🍄少敏感字🍄笔趣阁",
+        "bookSourceGroup": "少敏感字*组合",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "https://www.biquges.com",
+        "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0\",\n    \"cookie\":\"Hm_lvt_8fd9f526ca72jb9418ca50c2g79d2f70=1597461516\"\n}",
+        "searchUrl": "https://www.biquges.com/modules/article/search.php?searchkey={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 80,
+        "customOrder": 20,
+        "lastUpdateTime": 1626280021224,
+        "ruleSearch": {
+            "bookList": "class.grid@tag.tr!0",
+            "name": "tag.td.0@tag.a@text",
+            "author": "tag.td.2@text",
+            "kind": "tag.td.4@text",
+            "wordCount": "tag.td.3@text",
+            "lastChapter": "tag.td.1@tag.a@text",
+            "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.biquges.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "bookUrl": "tag.td.0@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "init": "id.maininfo",
+            "name": "id.info@tag.h1.0@text",
+            "author": "id.info@tag.p.0@text##作    者：",
+            "kind": "id.info@tag.p.2@text##最后更新：",
+            "lastChapter": "id.info@tag.p.3@a@text",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@tag.img.0@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html##请记住本书首发域名：|.net。|顶点小说手机版阅读网址："
+        }
+    }
+]

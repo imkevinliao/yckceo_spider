@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "搜索有盾，需验证过盾。\n浏览器复制书籍链接后，可在阅读首页书架添加网址。",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "红妆文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.hongzhuangbook.com",
+        "bookUrlPattern": "http.*hongzhuangbook.com/hz.+html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/class/1/{{page}}.html\n武侠修真::/class/2/{{page}}.html\n都市言情::/class/3/{{page}}.html\n历史军事::/class/4/{{page}}.html\n网游动漫::/class/6/{{page}}.html\n科幻小说::/class/7/{{page}}.html\n恐怖灵异::/class/8/{{page}}.html\n其他类型::/class/10/{{page}}.html",
+        "header": "{   \"connection\": \"keep-alive\",\n    \"cache-control\": \"max-age=0\",\n    \"upgrade-insecure-requests\": \"1\",\n    \"origin\": \"{{source.getKey()}}\",\n    \"content-type\": \"application/x-www-form-urlencoded\",\n    \"accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\",\n    \"x-requested-with\": \"XMLHttpRequest\",\n    \"sec-fetch-site\": \"same-origin\",\n    \"sec-fetch-mode\": \"navigate\",\n    \"sec-fetch-user\": \"?1\",\n    \"sec-fetch-dest\": \"document\",\n    \"referer\": \"{{source.getKey()}}/\",\n    \"accept-language\": \"zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7\"}",
+        "lastUpdateTime": 1689852216139,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h5@text",
+            "bookList": "<js>\nif(result.match(/Just a moment/)){\ncookie.removeCookie(source.bookSourceUrl)\nvar x=java.get(\"url\")\nvar s=java.startBrowserAwait(x,\"验证\").body()\nresult=s;\n\t}else{\n\t\tresult=result;\n\t\t}\n\t\tresult;\n</js>\n.media",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original||img@src",
+            "intro": "p@text",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list-group-item",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "@js:\nvar so=`/search.php?search=${key},`\njava.put(\"url\",String(source.bookSourceUrl+so+JSON.stringify({\n\t\t\"headers\":{\n\t\t\"Accept-Language\":\"zh-CN,zh;q=0.9\",\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 10; zh-cn; MI CC 11)  AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/18.1.8 swan-mibrowser\"\n}})))",
+        "weight": 0
+    }
+]

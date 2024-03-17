@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "gone",
+        "bookSourceGroup": "gone",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biqugee.com",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": -88894672,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1642246844189,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.0@text",
+            "coverUrl": "img@src",
+            "intro": "#info p.2@text&&div#intro@text##(^|[…。!！?？.]+[”」）》】…]?)##$1<br>",
+            "lastChapter": ".target@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "div#content@html##\\s.*https[\\s\\S]+"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "p.1@span.-1@text",
+            "bookList": ".result-item",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.3@text&&p.0@text",
+            "kind": "p.2@span.-1@text",
+            "lastChapter": "p.4@a@text##章：|章；|章、##章&nbsp;",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "dd a",
+            "chapterName": "a@text##章：|章；|章、##章&nbsp;",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

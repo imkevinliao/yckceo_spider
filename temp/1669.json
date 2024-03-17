@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": " BB书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xbbshuwu.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/bbshu_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/bbshu_2/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/bbshu_3/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/bbshu_4/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/bbshu_5/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/bbshu_6/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女频频道\",\"url\":\"/bbshu_7/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},]",
+        "lastUpdateTime": 1666770518003,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#sb@text",
+            "coverUrl": "#fmimg@img@src",
+            "intro": "#intro@text",
+            "lastChapter": "#info@p.3@a@text",
+            "name": "#sw@text",
+            "wordCount": "#info@p.2@text##最后更新：|\\s.*"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "replaceRegex": "##.*最新域名.*|.*本站地址.*"
+        },
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".novelslist2@li!0",
+            "bookUrl": ".s2@tag.a@href",
+            "checkKeyWord": "",
+            "coverUrl": ".s2@tag.a@href##(\\d+)/##https://www.xbbshuwu.com/BookFiles/BookImages/$1.jpg###",
+            "intro": "",
+            "kind": ".s1@text",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text",
+            "wordCount": ".s7@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list@dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.xbbshuwu.com/searchbook.php?keyword={{key}}&page={{page}}",
+        "weight": 0,
+        "ruleExplore": {
+            "bookList": "#newscontent@li",
+            "name": ".s2@text",
+            "bookUrl": ".s2@tag.a@href",
+            "author": ".s4@text",
+            "lastChapter": ".s3@text",
+            "kind": ".s1@text",
+            "wordCount": ".s5@text",
+            "coverUrl": ".s2@tag.a@href##(\\d+)/##https://www.xbbshuwu.com/BookFiles/BookImages/$1.jpg###"
+        }
+    }
+]

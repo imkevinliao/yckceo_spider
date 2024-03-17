@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "76看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.76kanshu.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1640683526374,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "intro": ".intro@text",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": ".content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": ".container@tr!0",
+            "bookUrl": "a@href",
+            "lastChapter": "td.3@text",
+            "name": "td.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "#yuedu@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.76kanshu.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

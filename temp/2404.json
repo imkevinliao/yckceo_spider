@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "30书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.30sy.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1612976541698,
+        "ruleBookInfo": {
+            "intro": "@js:\nintro=java.get('intro');\nyuan=java.getElements(\"@@class.rightlist@a\").toArray();\nlist=[];\nyuli='';\nhref='';\nfor(i in  yuan){\nhref=href+yuan[i].attr('href')+'\\n';\nyuli=yuli+'【'+i+'】'+yuan[i].text()+'•';\n}\njava.put('list',href);\nlaiyuan='来源【0】';\nresult='换源列表（编辑简介修改来源的序号，保存刷新，可更改对应的源）\\n'+yuli+laiyuan+'\\n'+intro",
+            "tocUrl": "@js:\nlist=java.get('list').split('\\n');\nintro=String(book.customIntro?book.customIntro:book.intro);\ncustomIntro=intro.match(/来源【(\\d+)】/)[1];\nresult=list[customIntro]"
+        },
+        "ruleContent": {
+            "content": ".articlecon@html##30书院.*|.*章已阅读.*|喜欢.*请大家收藏.*",
+            "nextContentUrl": "##window.location.href = \"([^\"]+_\\d+_\\d+.html)\"##$1###"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".info@tag.span.1@a@text",
+            "bookList": ".librarylist@li",
+            "bookUrl": "a@href##book##dir",
+            "coverUrl": "img@src",
+            "intro": ".intro@text@js:java.put('intro',result)",
+            "kind": ".info@tag.a.-1@text",
+            "lastChapter": ".last@a@text",
+            "name": "tag.a.0@title"
+        },
+        "ruleToc": {
+            "chapterList": "class.dirlist clearfix@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##^##https://m.30sy.cc"
+        },
+        "searchUrl": "/search.html?saerchkey={{key}}",
+        "weight": 0
+    }
+]

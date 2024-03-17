@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceUrl": "https://www.sjks88.com",
+        "bookSourceType": "0",
+        "bookSourceName": "手机看书",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/e/search/index.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+        "exploreUrl": "🎯                          总 排 行                          🎯::/ranking/<,index_{{page}}.html>\n\n精品::/xiaoshuo/<,index_{{page}}.html>\n🎯排行::/sort_jpxs/<,index_{{page}}.html>\n\n\n传记::/zhuanji/<,index_{{page}}.html>\n🎯排行::/top/list_zhuanji_30/<,index_{{page}}.html>\n\n\n鬼话::/Direct1/<,index_{{page}}.html>\n🎯排行::/top/list_guihua_360/<,index_{{page}}.html>\n\n\n悬疑::/Suspense/<,index_{{page}}.html>\n🎯排行::/top/list_xuanyi_360/<,index_{{page}}.html>\n\n\n都市::/ds/<,index_{{page}}.html>\n🎯排行::/sort_dsxs/<,index_{{page}}.html>\n\n\n官场::/guanchang/<,index_{{page}}.html>\n🎯排行::/sort_gcxs/<,index_{{page}}.html>\n\n\n商道::/Direct4/<,index_{{page}}.html>\n🎯排行::/top/list_shangdao_360/<,index_{{page}}.html>\n\n\n情感::/Direct2/<,index_{{page}}.html>\n🎯排行::/top/list_qinggan_360/<,index_{{page}}.html>\n\n\n乡土::/xt/<,index_{{page}}.html>\n🎯排行::/sort_xtxs/<,index_{{page}}.html>\n\n\n纪实::/jishi/<,index_{{page}}.html>\n🎯排行::/top/list_jishi_360/<,index_{{page}}.html>\n\n\n军事::/Direct5/<,index_{{page}}.html>\n🎯排行::/top/list_junshi_360/<,index_{{page}}.html>\n\n\n历史::/Direct6/<,index_{{page}}.html>\n🎯排行::/top/list_lishi_360/<,index_{{page}}.html>\n\n\n穿越::/chuanyue/<,index_{{page}}.html>\n🎯排行::/sort_cyxs/<,index_{{page}}.html>\n\n\n武侠::/wuxia/<,index_{{page}}.html>\n🎯排行::/sort_wxxs/<,index_{{page}}.html>\n\n\n修真::/xiuzhen/<,index_{{page}}.html>\n🎯排行::/sort_xzxs/<,index_{{page}}.html>\n\n\n玄幻::/xuanhuan/<,index_{{page}}.html>\n🎯排行::/sort_xhxs/<,index_{{page}}.html>\n\n\n奇幻::/Direct3/<,index_{{page}}.html>\n🎯排行::/top/list_qihuan_360/<,index_{{page}}.html>\n\n\n科幻::/kehuan/<,index_{{page}}.html>\n🎯排行::/sort_khxs/<,index_{{page}}.html>\n\n\n网游::/wangyou/<,index_{{page}}.html>\n🎯排行::/sort_wyxs/<,index_{{page}}.html>\n\n\n同人::/erciyuan/<,index_{{page}}.html>\n🎯排行::/sort_trxs/<,index_{{page}}.html>",
+        "enabled": false,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -100000,
+        "lastUpdateTime": 1619009444802,
+        "ruleSearch": {
+            "bookList": "@css:.list_content ul li",
+            "name": "tag.a.0@text",
+            "kind": "class.info@tag.a@text&&class.info@text##.*日期：",
+            "intro": "class.intro@text",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": "@css:.list li",
+            "name": "class.title@text",
+            "author": "class.bookWriter@tag.span.0@text||class.info@tag.span.0@text",
+            "kind": "class.pubdate@text",
+            "intro": "class.desc@text||class.descript@text",
+            "coverUrl": "tag.img@src",
+            "bookUrl": "tag.a@href"
+        },
+        "ruleBookInfo": {
+            "name": "class.box-artic@tag.h1@text",
+            "author": "class.autor2.0@text",
+            "kind": "class.autor2.2@text&&class.autor2.1@text##更新时间：",
+            "intro": "class.desc@text"
+        },
+        "ruleToc": {
+            "chapterList": "@css:.list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": "text.下一页@href||text.下一节@href"
+        }
+    }
+]

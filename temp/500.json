@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "E小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.exiaoshuo.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1648189565140,
+        "respondTime": 5696,
+        "ruleBookInfo": {
+            "author": "class.dd_box@span.0@text",
+            "intro": "class.book_about@dd@text##\\+.*",
+            "kind": "span.3@text##分类\\：",
+            "lastChapter": "span.7@text##最新\\：",
+            "name": "class.name@text",
+            "wordCount": "span.5@text##字数\\："
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html##\\(.*",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@a@href",
+            "coverUrl": "img@src",
+            "kind": "class.cat@text##作者\\：",
+            "name": "h4@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last.1@dd",
+            "chapterName": "dd@a@text##\\d+|、",
+            "chapterUrl": "dd@a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.exiaoshuo.com/dssgdg222.php?ie=gbk&s=5256649918672294880&q={{key}}",
+        "weight": 0
+    }
+]

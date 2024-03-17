@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "搜索时请关闭精准搜索，不然搜不出来\n发布页\nhttps://cili.st/\n正文为磁力链接",
+        "bookSourceGroup": "new",
+        "bookSourceName": "🧲无极磁力(看源注释)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://cili.se/",
+        "customOrder": -2380,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1652250867519,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "init": "",
+            "intro": "class.torrent-info@dd.0@text@js:\nresult='magnet:?xt=urn:btih:'.concat(result)",
+            "lastChapter": "class.torrent-info@dd.2@text",
+            "name": "class.magnet-title@text"
+        },
+        "ruleContent": {
+            "content": "class.torrent-info@dd.0@text@js:\nresult='magnet:?xt=urn:btih:'.concat(result)"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "bookList": "tbody@tr",
+            "bookUrl": "a@href",
+            "checkKeyWord": "人妻",
+            "intro": "td@a@p@text",
+            "kind": "class.td-size@text",
+            "lastChapter": "",
+            "name": "td@a@ownText"
+        },
+        "ruleToc": {
+            "chapterList": "class.magnet-title",
+            "chapterName": "class.magnet-title@text"
+        },
+        "searchUrl": "https://cili.se/search?q={{key}}",
+        "weight": 0
+    }
+]

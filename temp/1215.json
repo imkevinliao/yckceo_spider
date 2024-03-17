@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceGroup": "小白",
+        "bookSourceName": "棉花糖小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.mht.tw",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "name": "//meta[@property=\"og:title\"]/@content"
+        },
+        "ruleContent": {
+            "content": "//*[@id=\"content\"]"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "class.odd.0@tag.a@href",
+            "name": "class.odd.0@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.230book.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

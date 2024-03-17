@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "需要魔法上网",
+        "bookSourceGroup": "R18",
+        "bookSourceName": "TS人生",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://halfts.com",
+        "customOrder": 470,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "SM小说::http://halfts.com/category/story/sm-story/page/{{page}}/\n人妻小说::http://halfts.com/category/story/wife-story/page/{{page}}/\n变性小说::http://halfts.com/category/story/ts-story/page/{{page}}/\n变装小说::http://halfts.com/category/story/cd-story/page/{{page}}/\n变装调教::http://halfts.com/category/skill/cd-skill/page/{{page}}/\n女同小说::http://halfts.com/category/story/les-story/page/{{page}}/\n强暴乱伦::http://halfts.com/category/story/rape-story/page/{{page}}/\n武侠小说::http://halfts.com/category/story/kf-story/page/{{page}}/\n艳遇小说::http://halfts.com/category/story/sex-story/page/{{page}}/\n触手小说::http://halfts.com/category/story/te-story/page/{{page}}/\n身体调教::http://halfts.com/category/skill/body-skill/page/{{page}}\n其他::http://halfts.com/category/other/page/{{page}}/\n技巧::http://halfts.com/category/skill/page/{{page}}/\n23年2月::http://halfts.com/2023/02/page/{{page}}/\n22年11月::http://halfts.com/2022/11/page/{{page}}/\n22年3月::http://halfts.com/2022/03/page/{{page}}/\n22年2月::http://halfts.com/2022/02/page/{{page}}/\n22年1月::http://halfts.com/2022/01/page/{{page}}/\n21年12月::http://halfts.com/2021/12/page/{{page}}/\n21年11月::http://halfts.com/2021/11/page/{{page}}/\n21年10月::http://halfts.com/2021/10/page/{{page}}/\n21年9月::http://halfts.com/2021/09/page/{{page}}/\n21年8月::http://halfts.com/2021/08/page/{{page}}/\n21年7月::http://halfts.com/2021/07/page/{{page}}/\n21年6月::http://halfts.com/2021/06/page/{{page}}/\n21年5月::http://halfts.com/2021/05/page/{{page}}/\n21年4月::http://halfts.com/2021/04/page/{{page}}/\n21年3月::http://halfts.com/2021/03/page/{{page}}/\n21年2月::http://halfts.com/2021/02/page/{{page}}/\n21年1月::http://halfts.com/2021/01/page/{{page}}/\n20年12月::http://halfts.com/2020/12/page/{{page}}/\n20年11月::http://halfts.com/2020/11/page/{{page}}/\n20年10月::http://halfts.com/2020/10/page/{{page}}/\n20年9月::http://halfts.com/2020/09/page/{{page}}/\n20年8月::http://halfts.com/2020/08/page/{{page}}/\n20年7月::http://halfts.com/2020/07/page/{{page}}/\n20年6月::http://halfts.com/2020/06/page/{{page}}/\n20年5月::http://halfts.com/2020/05/page/{{page}}/\n20年4月::http://halfts.com/2020/04/page/{{page}}/\n20年3月::http://halfts.com/2020/03/page/{{page}}/\n20年2月::http://halfts.com/2020/02/page/{{page}}/\n20年1月::http://halfts.com/2020/01/page/{{page}}/\n19年12月::http://halfts.com/2019/12/page/{{page}}/\n19年11月::http://halfts.com/2019/11/page/{{page}}/\n19年10月::http://halfts.com/2019/10/page/{{page}}/\n19年9月::http://halfts.com/2019/09/page/{{page}}/\n19年8月::http://halfts.com/2019/08/page/{{page}}/\n19年7月::http://halfts.com/2019/07/page/{{page}}/\n19年6月::http://halfts.com/2019/06/page/{{page}}/\n19年5月::http://halfts.com/2019/05/page/{{page}}/\n19年4月::http://halfts.com/2019/04/page/{{page}}/\n19年3月::http://halfts.com/2019/03/page/{{page}}/\n19年2月::http://halfts.com/2019/02/page/{{page}}/\n19年1月::http://halfts.com/2019/01/page/{{page}}/\n18年4月::http://halfts.com/2018/04/page/{{page}}/\n17年12月::http://halfts.com/2017/12/page/{{page}}/\n17年11月::http://halfts.com/2017/11/page/{{page}}/\n17年6月::http://halfts.com/2017/06/page/{{page}}/",
+        "lastUpdateTime": 1679414463567,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "name": ""
+        },
+        "ruleContent": {
+            "content": ".entry-content@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "tag.article",
+            "bookUrl": "class.entry-title@a@href",
+            "checkKeyWord": "美女",
+            "intro": "class.entry-content@text",
+            "kind": "class.cat-links@a@text",
+            "name": "class.entry-title@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.entry-content",
+            "chapterName": "p.1@text##.*##我是开头###",
+            "chapterUrl": ""
+        },
+        "searchUrl": "http://halfts.com/page/{{page}}?s={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "Hexagons124",
+        "bookSourceGroup": "婆婆",
+        "bookSourceName": "言情港",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yanqinggang.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄幻奇幻:: /list/1_{{page}}.html\n武侠仙侠:: /list/2_{{page}}.html\n都市言情:: /list/3_{{page}}.html\n历史穿越:: /list/4_{{page}}.html\n网游竞技:: /list/5_{{page}}.html\n科幻灵异:: /list/6_{{page}}.html\n恐怖惊悚:: /list/7_{{page}}.html\n其他类型:: /list/8_{{page}}.html",
+        "lastUpdateTime": 1670746774408,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "div.w100.dispc@span@a@text",
+            "coverUrl": "img.lazy@src",
+            "intro": "div.info-main-intro@p@text",
+            "kind": "div.info-title@a.1@text",
+            "lastChapter": "div.container.border3-2.mt8@div.info-chapters.flex.flex-wrap@a.0@text",
+            "name": "h1@text",
+            "tocUrl": "java.refreshBookUrl()"
+        },
+        "ruleContent": {
+            "content": "#article@textNodes",
+            "nextContentUrl": "#next_url@href"
+        },
+        "ruleExplore": {
+            "author": "span.gray@text",
+            "bookList": "div.border3-1@div||div.border3@div",
+            "bookUrl": "span.flex@em@a@href||span.0@a@href",
+            "coverUrl": "img.lazy@src",
+            "intro": ".intro.indent@text",
+            "kind": ".w80@em.0@text||span.0@text",
+            "lastChapter": "",
+            "name": "span.flex@em@a@text||span.0@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".flex.flex-between.commend-title@span@text",
+            "bookList": "class.border3.commend.flex.flex-between.category-commend@div",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img.lazy@src",
+            "intro": "div.intro.indent@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "div.container.border3-2.mt8.mb20@div.info-chapters.flex.flex-wrap@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isPay": "false",
+            "isVip": "true",
+            "isVolume": "",
+            "preUpdateJs": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.yanqinggang.com/modules/article/search.php,{\n\t \"body\": \"searchkey={{key}}\",\n\t \"charset\": \"gbk\",\n\t \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

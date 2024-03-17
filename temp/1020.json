@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "搜索大部分时间不能用\n两次搜索不能低于10秒",
+        "bookSourceGroup": "🔰 普通",
+        "bookSourceName": "🔰 衍墨轩",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.yanmoxuan.org",
+        "customOrder": -292831,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "总榜::/allvisit_{{page}}/\n月榜::/monthvisit_{{page}}/\n周榜::/weekvisit_{{page}}/\n字数::/size_{{page}}/\n最新::/postdate_{{page}}/\n最近::/lastupdate_{{page}}/\n玄幻::/sort1_{{page}}/\n武侠::/sort2_{{page}}/\n都市::/sort3_{{page}}/\n言情::/sort4_{{page}}/\n穿越::/sort5_{{page}}/\n网游::/sort6_{{page}}/\n官场::/sort7_{{page}}/\n校园::/sort8_{{page}}/\n历史::/sort9_{{page}}/\n推理::/sort10_{{page}}/\n科幻::/sort11_{{page}}/\n恐怖::/sort12_{{page}}/\n其他::/sort13_{{page}}/\n全本::/full_{{page}}.html",
+        "lastUpdateTime": 1630550042070,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2 p.2@text##.*：",
+            "coverUrl": "#block_img2 img@src",
+            "intro": ".coverjj!0@html##简介.",
+            "kind": ".block_txt2 p.3:4:5@text##.*：|小说|\\s.*",
+            "lastChapter": ".coverjj!1@a@text",
+            "name": ".block_txt2 a.0@text",
+            "tocUrl": ".ablum_read a.1@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "#pb_next@href",
+            "replaceRegex": "##退出畅读.*继续阅读。|返回目录|上一页.*下一页|上一页.*下一章"
+        },
+        "ruleExplore": {
+            "author": ".xsm@textNodes##\\/|\\(.*|\\s",
+            "bookList": ".tjxs",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href##.+\\D((\\d+)\\d{3})\\D##https://www.yanmoxuan.org/files/article/image/$2/$1/$1s.jpg###",
+            "intro": "span.1@text",
+            "kind": ".xsm@textNodes##.*\\(|\\)",
+            "lastChapter": "a.1@text",
+            "name": "a@text"
+        },
+        "ruleSearch": {
+            "author": "textNodes##.*\\s",
+            "bookList": "p",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href##.+\\D((\\d+)\\d{3})\\D##https://www.yanmoxuan.org/files/article/image/$2/$1/$1s.jpg###",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://so.yanmoxuan.org/s.php,{\n  'charset': 'gbk',\n  'method': 'POST',\n  'body': 's={{key}}&submit='\n}",
+        "weight": 0
+    }
+]

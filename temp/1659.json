@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceUrl": "https://aabook.cc",
+        "bookSourceType": "0",
+        "bookSourceName": "📙易下书库✈️",
+        "bookSourceGroup": "📙易书",
+        "bookSourceComment": "易下",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://aabook.cc/search.php?searchword={{key}}",
+        "exploreUrl": "[\n{\"title\":\"玄幻\",\n\"url\":\"category.php?t=xuanhuan&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"职场\",\n\"url\":\"category.php?t=zhichang&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"古典\",\n\"url\":\"category.php?t=gudian&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"惊悚\",\n\"url\":\"category.php?t=jingsong&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"网游\",\n\"url\":\"category.php?t=wangyou&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"乡土\",\n\"url\":\"category.php?t=xiangtu&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"历史\",\n\"url\":\"category.php?t=lishi&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"耽美\",\n\"url\":\"category.php?t=danmei&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"女尊\",\n\"url\":\"category.php?t=nvzun&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"穿越\",\n\"url\":\"category.php?t=chuanyue&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"同人\",\n\"url\":\"category.php?t=tongren&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"校园\",\n\"url\":\"category.php?t=xiaoyuan&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"言情\",\n\"url\":\"category.php?t=yanqing&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"官场\",\n\"url\":\"category.php?t=guanchang&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"异能\",\n\"url\":\"category.php?t=yineng&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"都市\",\n\"url\":\"category.php?t=dushi&p={{page}}\",\n\"style\":{\"layout_flexGrow\":1}},\n\n{\"title\":\"武侠\",\n\"url\":\"category.php?t=wuxia&p={{page}}\",\n\"style\":{\"layout_flexBasisPercent\":0.21}},\n\n{\"title\":\"仙侠\",\n\"url\":\"category.php?t=xianxia&p={{page}}\",\n\"style\":{\"layout_flexBasisPercent\":0.21}},\n\n{\"title\":\"单篇\",\n\"url\":\"category.php?t=danpian&p={{page}}\",\n\"style\":{\"layout_flexBasisPercent\":0.21}}\n]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -88888888,
+        "lastUpdateTime": 1636106235550,
+        "ruleSearch": {
+            "bookList": ".sousuojieguo ul li",
+            "name": ".biaoti@text",
+            "author": ".zuozhe@text",
+            "kind": "textNodes&&cite@text##\\[|\\]|小说",
+            "coverUrl": "a.0@href##(\\d+)##https://aabook.xyz/img-$1.jpg###",
+            "bookUrl": "a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": ".list_main tbody tr",
+            "name": ".shuming@text",
+            "author": ".author@text",
+            "kind": ".fenlei@text&&.update@text##\\[|\\]|...:.*",
+            "lastChapter": ".s3@text",
+            "coverUrl": "a.0@href##(\\d+)##https://aabook.xyz/img-$1.jpg###",
+            "bookUrl": "a.0@href"
+        },
+        "ruleBookInfo": {
+            "init": "@put:{\nn:\".book_name@text\",\na:\".author@text\",\nk:\".xinxi_content span.0:1@text&&.update_time@text\",\nw:\".xinxi_content span.2@text\",\nl:\".dt_l a.0@text\",\ni:\".jianjieneirong@html\",\nc:\".book_info_top_l img@src\",\nu:\".xiaoshuomulu a@href\"\n}",
+            "name": "@get:{n}",
+            "author": "@get:{a}",
+            "kind": "@get:{k}##创建时间\\s|...:.*|中|已",
+            "wordCount": "@get:{w}##字",
+            "lastChapter": "@get:{l}",
+            "intro": "<br>@get:{i}##\\s\\s##<br>",
+            "coverUrl": "@get:{c}",
+            "tocUrl": "@get:{u}"
+        },
+        "ruleToc": {
+            "chapterList": "ul.section_list li a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":\"true\"}",
+            "updateTime": "title"
+        },
+        "ruleContent": {
+            "content": ".chapter_con p@text##[feng|疯].*?库|book.*?net",
+            "replaceRegex": "##，\\s\\s\\s##，"
+        }
+    }
+]

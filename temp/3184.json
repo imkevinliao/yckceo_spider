@@ -1,0 +1,30 @@
+[
+    {
+        "bookSourceGroup": "优质",
+        "bookSourceName": "妙书斋",
+        "bookSourceUrl": "https://www.miaoshuzhai.com",
+        "enable": false,
+        "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0",
+        "ruleBookAuthor": "tag.p.0@a@text#免费(全文|小说)?(阅读|小说)(全文)?[/\\|]?|全本免费",
+        "ruleBookContent": "id.content@html##<p>[\\s\\S]+?</p>|<div align=\"center\"[\\s\\S]+?</div>",
+        "ruleBookKind": "##:cate.{15}([^\"]*)(?:[^\"]*\"){16}([^\\s]*)##$1,$2###",
+        "ruleBookLastChapter": "tag.p.3@a@text",
+        "ruleBookName": "h1@text#免费(全文|小说)?(阅读|小说)(全文)?|全文完整版|小说全文|最新章节|在线阅读|笔趣阁|全集小说",
+        "ruleBookUrlPattern": ".+/xs/\\d+.html",
+        "ruleChapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "##:image[^\\/]*([^\"]*)##$1###",
+        "ruleIntroduce": "id.intro@text",
+        "ruleSearchAuthor": ".s4@text#免费(全文|小说)?(阅读|小说)(全文)?[/\\|]?|全本免费",
+        "ruleSearchCoverUrl": "a!1@href<js>\nvar a=result.match(/.*xs\\/(\\d+).html/)[1];\nvar b=Math.floor(a/1000);\n\"https://www.miaoshuzhai.com/files/article/image/\"+b+\"/\"+a+\"/\"+a+\"s.jpg\"\n</js>",
+        "ruleSearchKind": ".s6@text",
+        "ruleSearchLastChapter": ".s3@text",
+        "ruleSearchList": "id.main@li!0:-1",
+        "ruleSearchName": ".s2@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "/index.php?s=/web/index/search&name=searchKey",
+        "serialNumber": 10020,
+        "weight": 0
+    }
+]

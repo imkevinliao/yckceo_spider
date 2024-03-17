@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceName": "笔趣阁(xinbiquge)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap2.xinbiquge.org##旅途",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1684064199940,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property=og:image]@content",
+            "init": "",
+            "intro": "[property=og:description]@content",
+            "kind": "[property~=(category|status|update_time)]@content",
+            "lastChapter": "[property=og:novel:latest_chapter_name]@content",
+            "name": "[property=og:novel:book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一章@href",
+            "replaceRegex": "##.*\\(\\d+ / \\d+\\).*\\n|新笔趣阁.*\\s*|\\s*.*下一页继续阅读.*|.本章阅读完毕.*\\s*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@span@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "我的青春",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last.-1@dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://wap2.xinbiquge.org/book/search.aspx?ie=utf-8&siteid=xinbiquge.org&s=000&key={{key}}",
+        "weight": 0
+    }
+]

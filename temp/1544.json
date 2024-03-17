@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "容易频繁宕机的网站，等一会就会恢复。",
+        "bookSourceGroup": "🍊女频",
+        "bookSourceName": "种田小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.zhongtianwen.cn",
+        "customOrder": -88903116,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "日榜::/paihangbang/dayvisit.html\n周榜::/paihangbang/weekvisit.html\n月榜::/paihangbang/monthvisit.html\n总榜::/paihangbang/allvisit.html\n推荐::/paihangbang/vote.html\n收藏::/paihangbang/mark.html\n下载::/paihangbang/down.html\n评论::/paihangbang/comment.html\n评分::/paihangbang/star_score.html\n入库::/paihangbang/postdate.html\n玄幻::/xiaoshuofenlei/xuanhuan/{{page}}.html\n修真::/xiaoshuofenlei/xiuzhen/{{page}}.html\n武侠::/xiaoshuofenlei/wuxia/{{page}}.html\n都市::/xiaoshuofenlei/dushi/{{page}}.html\n穿越::/xiaoshuofenlei/chuanyue/{{page}}.html\n战争::/xiaoshuofenlei/zhanzheng/{{page}}.html\n网游::/xiaoshuofenlei/wangyou/{{page}}.html\n科幻::/xiaoshuofenlei/kehuan/{{page}}.html\n恐怖::/xiaoshuofenlei/kongbu/{{page}}.html\n其他::/xiaoshuofenlei/qita/{{page}}.html\n女生::/xiaoshuofenlei/nvsheng/{{page}}.html",
+        "header": "{\n    'User-Agent': 'Mozilla/5.0 (Linux; Android 11; XQ-AT52 Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.85 Mobile Safari/537.36'\n}",
+        "lastUpdateTime": 1671534584060,
+        "respondTime": 4955,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "init": "",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": ".synopsisArea_detail p.1:2:3@text##.*：|\\s.*",
+            "lastChapter": "[property$=latest_chapter_name]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@p@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完.+"
+        },
+        "ruleExplore": {
+            "author": "p.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.2@text##简介.",
+            "name": "p.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "kind": "p.2@ownText##\\s.*",
+            "lastChapter": "a.1@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist p!0@a",
+            "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.zhongtianwen.cn/xiaoshuosousuo/jieguo.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

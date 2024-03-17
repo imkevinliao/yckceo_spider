@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "御书宝",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.yushubo.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "最近更新::https://m.yushubo.com/all/order/update_time+desc.html?page={{page}}\n最新入库::https://m.yushubo.com/all/order/id+desc.html?page={{page}}\n总人气榜::https://m.yushubo.com/all/order/update_time+desc.html?page={{page}}\n玄幻奇幻::https://m.yushubo.com/all/id/42.html?page={{page}}\n武侠修真::https://m.yushubo.com/all/id/43.html?page={{page}}\n都市异能::https://m.yushubo.com/all/id/44.html?page={{page}}\n历史军事::https://m.yushubo.com/all/id/45.html?page={{page}}\n网游竞技::https://m.yushubo.com/all/id/46.html?page={{page}}\n科幻灭世::https://m.yushubo.com/all/id/47.html?page={{page}}\n惊悚悬疑::https://m.yushubo.com/all/id/49.html?page={{page}}\n轻小说の::https://m.yushubo.com/all/id/52.html?page={{page}}\n女生频道::https://m.yushubo.com/all/id/48.html?page={{page}}",
+        "lastUpdateTime": 1627632807355,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.lazy.0@src",
+            "intro": "class.content@p@textNodes",
+            "kind": "class.info@tag.span.0@a@text",
+            "lastChapter": "class.clearfix.1@tag.li.0@a@textNodes"
+        },
+        "ruleContent": {
+            "content": "class.read-section jsChapterWrapper@p@textNodes##阅读.*最新章节.*",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "span@textNodes",
+            "bookList": "class.clearfix@li",
+            "bookUrl": "a@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.intro@textNodes",
+            "kind": "em@text",
+            "name": "class.tit@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.bookshelf-list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.yushubo.com/search.html?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

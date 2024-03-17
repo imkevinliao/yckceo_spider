@@ -1,0 +1,25 @@
+[
+    {
+        "bookSourceGroup": "优质源&#128077;",
+        "bookSourceName": "&#128077; TVB宝库",
+        "bookSourceUrl": "https://www.tvbts.com/",
+        "enable": true,
+        "httpUserAgent": "Mozilla/5.0 (Linux; Android 9; xxxx;wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.132 Mobile Safari/537.36",
+        "ruleBookContent": ".m-book-detail@html#-|☆|本文由看帮网网友分享，版权归原作者所有|请勿用于商业行为，一切后果自负|看帮网|精品电子书|https://www.tvbts.com/|",
+        "ruleChapterList": ".m-catalist-detail@li@a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleFindUrl": "",
+        "ruleSearchAuthor": "tag.p.0@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchIntroduce": ".abstract@text",
+        "ruleSearchKind": "tag.p.1@text",
+        "ruleSearchLastChapter": "href<js>result=result.replace(/.+=(\\d+)/,'https://www.tvbts.com//novel-$1.html');java.ajax(result)</js>.tagCol@tag.a.-1@text",
+        "ruleSearchList": ".search-bookele@a",
+        "ruleSearchName": "h3@text",
+        "ruleSearchNoteUrl": "href#.+id=(\\d+)#https://www.tvbts.com//novel-$1.html",
+        "ruleSearchUrl": "/index.php?action=search@keyword=searchKey",
+        "serialNumber": 254,
+        "weight": 0
+    }
+]

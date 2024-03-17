@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "未知大佬制作，更新HINOTORI（qq）在源仓库发过的书源",
+        "bookSourceGroup": "💦 精品 💦,常用①",
+        "bookSourceName": "💦笔趣阁uubiqu",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.uubiqu.com",
+        "bookUrlPattern": "https://www.uubiqu.com/read/\\d+/",
+        "customOrder": -158506,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1619858695934,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "id.info@tag.p.2@text##最后更新：",
+            "lastChapter": "id.info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "id.info@tag.h1@text",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html##燃文小说网.*最新章节！| 本章未完.*页继续阅读|\"爱书网\"网站访问地址为",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "tag.td.0@tag.a@href",
+            "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.uubiqu.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "tag.td.4@text&&\ntag.td.5@text",
+            "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "tag.td.0@tag.a@text",
+            "wordCount": "tag.td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.uubiqu.com/search.php,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+        "weight": 0
+    }
+]

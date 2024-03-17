@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☁️可用,⛩🎐senhora",
+        "bookSourceName": "w笔趣tv",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.biqutv.com/",
+        "customOrder": -88944752,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+        "lastUpdateTime": 1643184594706,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:status\"]@content&&[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "text.查看全部章节@href"
+        },
+        "ruleContent": {
+            "content": "id.article@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.flex flex-between commend-title@span@text",
+            "bookList": "class.category-div",
+            "bookUrl": "class.flex flex-between commend-title@a@href",
+            "coverUrl": "a@img@data-original",
+            "intro": "class.intro indent@text",
+            "lastChapter": "",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.info-chapters flex flex-wrap@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "http://www.biqutv.com/search/,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&Submit=\"\n}",
+        "weight": 0
+    }
+]

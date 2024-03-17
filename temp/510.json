@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "阁笔趣[gebiqu]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.gebiqu.com/",
+        "customOrder": -88962096,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\": \"玄幻魔法\",\"url\": \"http://www.gebiqu.com/xuanhuanmofa/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\": \"修真小说\",\"url\": \"http://www.gebiqu.com/xiuzhenxiaoshuo/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"都市小说\",\"url\": \"http://www.gebiqu.com/dushixiaoshuo/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"历史军事\",\"url\": \"http://www.gebiqu.com/lishijunshi/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"游戏小说\",\"url\": \"http://www.gebiqu.com/youxixiaoshuo/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"科幻灵异\",\"url\": \"http://www.gebiqu.com/kehuanlingyi/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"同人小说\",\"url\": \"http://www.gebiqu.com/tongrenxiaoshuo/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"女生言情\",\"url\": \"http://www.gebiqu.com/nvshengyanqing/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"综合小说\",\"url\": \"http://www.gebiqu.com/zonghexiaoshuo/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"全本小说\",\"url\": \"http://www.gebiqu.com/quanben/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1648800848015,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.hide@td@a@img@src",
+            "init": "",
+            "intro": "class.tabvalue.0@html",
+            "tocUrl": "class.ulrow@li.0@a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##www.|gebiqu.|com|    www.|欢迎广大书友光临阅读，|最新、|最快、|最火的连载作品尽在！|求收藏、|点击、|推荐票。|求收藏、|求推荐票。|",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "class.l&&class.s5.0@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.l&&class.s2@a@href",
+            "lastChapter": "class.l&&class.s3.0@a@text",
+            "name": "class.l&&class.s2.0@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "id.nr",
+            "bookUrl": "class.odd@a@href",
+            "lastChapter": "class.even@a@text",
+            "name": "class.odd@a@text",
+            "wordCount": "class.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.gebiqu.com/modules/article/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

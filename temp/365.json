@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "SSR漫画,🎨漫画",
+        "bookSourceName": "SSR涩漫网(修复)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.cartoon18.com/",
+        "customOrder": -185599,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1651435230454,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.my-2.0@span.1@text",
+            "init": "",
+            "intro": "class.my-2.1@span.1@text",
+            "lastChapter": "class.tab-pane fade show active@a.-1@text"
+        },
+        "ruleContent": {
+            "content": "class.fullwidth@img[:-2]@data-src@js:\nresult=result.replace(/\\?.*/g,\"\");\nresult=result.split(\"\\n\").map(x=>'<img src=\\\"'+x+'\\\">').join(\"\\n\");",
+            "imageStyle": "full"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "bookList": "class.card[4:-1]",
+            "bookUrl": "class.visited@href",
+            "checkKeyWord": "在遍地都是丧尸",
+            "coverUrl": "class.visited@img@data-src",
+            "kind": "class.lines-1@text",
+            "name": "class.lines lines-2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.tab-pane fade show active@a",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.cartoon18.com/?q={{key}}?page={{page}}",
+        "weight": 0
+    }
+]

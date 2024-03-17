@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "天籁小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api.tianlaixsapp.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1626613844267,
+        "ruleBookInfo": {
+            "init": "",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "all"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.data.list",
+            "bookUrl": "@js:\nurl=\"http://statics.rungean.com/static/book/zip\"+\"{{$.picture}}\".match(/cover(\\/\\d+\\/\\d+)/)[1]+\".zip\";",
+            "coverUrl": "$.picture",
+            "intro": "$.intro",
+            "kind": "$.categoryName",
+            "lastChapter": "{{$.chapterName}}·{{$.chapterUpdateTime}}##T|\\+08:00##-",
+            "name": "$.name",
+            "wordCount": "$.wordNum"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\njava.getZipStringContent(baseUrl, \"chapter.json\")\n</js>\n$.data[*]",
+            "chapterName": "$.name",
+            "chapterUrl": "$.content_url"
+        },
+        "searchUrl": "https://api.tianlaixsapp.com/api/v1/novelsearch?content={{key}}&pageIndex=1&pageSize=20&type=2",
+        "weight": 0
+    }
+]

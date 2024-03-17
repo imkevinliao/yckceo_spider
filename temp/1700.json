@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "耽美小说🥏",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.88danmei.net/",
+        "customOrder": -88903168,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "    最      新      入      库    ::https://m.dmwx.org/top/postdate_{{page}}.html\n玄幻修仙::https://m.88danmei.net/list1/{{page}}.html\n现代都市::https://m.88danmei.net/list2/{{page}}.html\n古代架空::https://m.88danmei.net/list3/{{page}}.html\n穿越重生::https://m.88danmei.net/list4/{{page}}.html\n网游动漫::https://m.88danmei.net/list5/{{page}}.html\n科幻未来::https://m.88danmei.net/list6/{{page}}.html\n恐怖灵异::https://m.88danmei.net/list7/{{page}}.html\nBG言情::https://m.88danmei.net/list8/{{page}}.html \n其他类型::https://m.88danmei.net/list9/{{page}}.html",
+        "lastUpdateTime": 1665599743914,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”）】]?)##$1<br>",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html@js:result+'下一页标识'",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##【更多热门好书尽在.*】|\\s*下一页标识\\s*|紧急通知.*页面需重复刷新！"
+        },
+        "ruleExplore": {
+            "author": "p.2@text##.*：",
+            "bookList": ".block",
+            "bookUrl": "a.2@href",
+            "coverUrl": "img@src",
+            "intro": "p.4@text##文案.|\\s",
+            "kind": "p.3@text##.*：",
+            "name": "a.2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@text",
+            "bookList": ".block",
+            "bookUrl": "h2@a@href",
+            "coverUrl": "img@src",
+            "kind": "a.4@text",
+            "lastChapter": "a.5@text",
+            "name": ".block_txt@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.88danmei.net/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"type=articlename&s={{key}}\"\n}",
+        "weight": 0
+    }
+]

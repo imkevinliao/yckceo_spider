@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "haxc",
+        "bookSourceGroup": "",
+        "bookSourceName": "81中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.81zw.me",
+        "customOrder": -88962549,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/fenlei/1/{{page}}.html\",\"style\":{}},{\"title\":\"武侠仙侠\",\"url\":\"/fenlei/2/{{page}}.html\",\"style\":{}},{\"title\":\"都市言情\",\"url\":\"/fenlei/3/{{page}}.html\",\"style\":{}},{\"title\":\"历史军事\",\"url\":\"/fenlei/4/{{page}}.html\",\"style\":{}},{\"title\":\"科幻灵异\",\"url\":\"/fenlei/5/{{page}}.html\",\"style\":{}},{\"title\":\"网游竞技\",\"url\":\"/fenlei/6/{{page}}.html\",\"style\":{}},{\"title\":\"女生频道\",\"url\":\"/fenlei/7/{{page}}.html\",\"style\":{}}]",
+        "lastUpdateTime": 1646659680722,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author@text##作者：",
+            "canReName": "true",
+            "coverUrl": "",
+            "init": "",
+            "intro": ".review@textNodes",
+            "kind": ".sort@text##类别：",
+            "lastChapter": "#chapterlist@a.0@text",
+            "name": ".title@text",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".author.0@text##.*?作者：",
+            "bookList": ".hot_sale",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@data-original@src",
+            "intro": ".review@text##简介：",
+            "kind": ".author.0@text##\\|.*",
+            "lastChapter": ".author.1@text##.*更新：",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist@p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.81zw.me/SearchBook.aspx,{\n'charset': '',\n'method': 'POST',\n'body': 'keyword={{key}}&t=1'\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceName": "来也小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.wogoupi.xyz/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1668180179604,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property~=status|category|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "div.gengduo@a@href"
+        },
+        "ruleContent": {
+            "content": "article@html@js:result+'🍑下一页'",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*🍑下一页\\s*|www.i75wu.com|教你记.*com[>]"
+        },
+        "ruleSearch": {
+            "author": "div.info@text##\\s关键字：.*",
+            "bookList": "body@div[style]@a",
+            "bookUrl": "a@href",
+            "checkKeyWord": "盗墓",
+            "coverUrl": ".bookimg@img@src",
+            "intro": "div.intro_line@text##简介：|\\s",
+            "name": "h4.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "div.fenye@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVolume": "a[style]@text",
+            "nextTocUrl": "select@option@value"
+        },
+        "searchUrl": "/modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchtype=articlename&searchkey={{key}}<,&page={{page}}>\",\n\t\"referer\":\"https://m.wogoupi.xyz/s.html\"\n\t}",
+        "weight": 0
+    }
+]

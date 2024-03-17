@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceUrl": "https://www.yqkbook.la",
+        "bookSourceType": "0",
+        "bookSourceName": "一起看书网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "꧁♚无聊的我♚꧂",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.yqkbook.la/modules/article/search.php,{\n\"method\":\"POST\",\n\"charset\":\"GBK\",\n\"body\":\"searchkey={{key}}&searchtype=articlename\"\n}",
+        "exploreUrl": "[\n{\"title\":\"玄幻小说\",\"url\":\"/xuanhuan/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"修真小说\",\"url\":\"/xiuzhen/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市小说\",\"url\":\"/dushi/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"穿越小说\",\"url\":\"/chuanyue/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"网游小说\",\"url\":\"/wangyou/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻小说\",\"url\":\"/kehuan/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"完本小说\",\"url\":\"/wanben/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -88888888,
+        "lastUpdateTime": 1635524868437,
+        "ruleSearch": {
+            "bookList": "id.nr",
+            "name": "td.0@text",
+            "author": "td.2@text",
+            "kind": "td.5@text##中|已",
+            "wordCount": "td.3@text##K\n@js:parseInt(result*51.2)+'0'",
+            "lastChapter": "{{@td.1@text}}·{{String(java.timeFormat(java.getString('td.4@text')*1000)).replace(/\\//g,'-')}}##...:..",
+            "coverUrl": "a.0@href##(\\d+)_(\\d+)##https://www.yqkbook.la/files/article/image/$1/$2/$2s.jpg###",
+            "bookUrl": "a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": ".l ul li",
+            "name": ".s2 a@text",
+            "author": ".s5@text",
+            "kind": ".s3@textNodes##\\(|\\)",
+            "lastChapter": ".s3 a@text",
+            "coverUrl": "a.0@href##(\\d+)_(\\d+)##https://www.yqkbook.la/files/article/image/$1/$2/$2s.jpg###",
+            "bookUrl": "a.0@href"
+        },
+        "ruleBookInfo": {
+            "init": "@put:{\nn:\"h1@text\",\na:\"id.info@p.0@text\",\nk:\"id.info@p.2@text\",\nw:\"\",\nl:\"ul li a.-1@text\",\ni:\"id.intro@html\",\nc:\"id.fmimg@img@src\",\nu:\"\"\n}",
+            "name": "@get:{n}",
+            "author": "@get:{a}",
+            "kind": "@get:{k}##小说|中|已|...:.*|状态.|最后更新：",
+            "wordCount": "@get:{w}## |字数.",
+            "lastChapter": "@get:{l}##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+            "intro": "<br>@get:{i}",
+            "coverUrl": "@get:{c}",
+            "tocUrl": "@get:{u}"
+        },
+        "ruleToc": {
+            "chapterList": ".box_con ul li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

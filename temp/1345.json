@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceGroup": "练习",
+        "bookSourceName": "豆腐文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.doufu.me/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "header": "",
+        "lastUpdateTime": 1678959193503,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book_author@text",
+            "wordCount": "class.text-md@text"
+        },
+        "ruleContent": {
+            "content": "class.chapter_text@tag.p@text",
+            "replaceRegex": "##下载豆腐阅读APP,支持正版阅读"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.book-base",
+            "bookUrl": "class.book_sd@tag.a@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "img@src",
+            "intro": "class.book_ct@text",
+            "kind": "class.book_subtt@text",
+            "name": "class.book_tt@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-inline-3@li",
+            "chapterName": "class.list_item@tag.a@text",
+            "chapterUrl": "class.list_item@tag.a@href##$##,{\n  \"webView\": true\n}"
+        },
+        "searchUrl": "search?kd={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

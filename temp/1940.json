@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceUrl": "https://www.shouda88.com",
+        "bookSourceType": "0",
+        "bookSourceName": "手打吧",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "{\"Cookie\": \"__cfduid; mc_user=\"}",
+        "searchUrl": "/search.html,{\"method\":\"POST\",\"body\": \"searchkey={{key}}\"}",
+        "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n二次元::/erciyuan/{{page}}.html\n经典短篇::/jingdian/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html\n浪漫青春::/qingchun/{{page}}.html\n网络情缘::/mmyouxi/{{page}}.html\n科幻空间::/mmkehuan/{{page}}.html\n鬼怪灵异::/lingyi/{{page}}.html\nN次元::/Nciyuan/{{page}}.html\n言情美文::/yanqing/{{page}}.html",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1619614927879,
+        "ruleSearch": {
+            "bookList": "#alistbox@js:\nresult\n    .toArray()\n    .slice(0, 5)\n    .map(function (el) {\n        let url = baseUrl.replace(/\\/search.html/,String(el.select('a').eq(0).attr('href')))\n        let doc = org.jsoup.Jsoup.parse(String(java.ajax(url)))\n        let og = selector => doc.select('[property=\"og:' + selector + '\"]').attr('content')\n        return {\n            name: og('novel:book_name'),\n            author: og('novel:author'),\n            kind: og('novel:category'),\n            latest: og('novel:latest_chapter_name')+' · '+String(doc.select('.top span:nth-child(4)').textNodes().get(0)),\n            cover: og('image'),\n            wordCount: String(doc.select('.top span:nth-child(2)').text()).replace(/全文字数：/,'').replace(/万字/,'000'),\n            intro: og('description'),\n            url: url\n        }\n    })",
+            "name": "name",
+            "author": "author",
+            "kind": "kind",
+            "wordCount": "wordCount",
+            "lastChapter": "latest",
+            "intro": "intro",
+            "coverUrl": "cover",
+            "bookUrl": "url"
+        },
+        "ruleExplore": {
+            "bookList": "#alistbox",
+            "name": "h2@a@text",
+            "author": ".title span a@text",
+            "lastChapter": ".sys li a@text",
+            "intro": ".intro@text",
+            "coverUrl": "img@src",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleBookInfo": {
+            "init": "@js:\n(function(){\n    let doc = org.jsoup.Jsoup.parse(result)\n    let og = (selector) => doc.select('[property=\"og:' + selector + '\"]').attr('content')\n    return {\n        name: og('novel:book_name'),\n        author: og('novel:author'),\n        kind: og('novel:category'),\n        latest: og('novel:latest_chapter_name')+' · '+String(doc.select('.top span:nth-child(4)').textNodes().get(0)),\n        cover: og('image'),\n        wordCount: String(doc.select('.top span:nth-child(2)').text()).replace(/全文字数：/,'').replace(/万字/,'000'),\n        intro: og('description'),\n        url:og('novel:read_url')\n    }\n})()",
+            "name": "name",
+            "author": "author",
+            "kind": "kind",
+            "wordCount": "wordCount",
+            "lastChapter": "latest",
+            "intro": "intro",
+            "coverUrl": "cover",
+            "tocUrl": "url"
+        },
+        "ruleToc": {
+            "chapterList": ".link_14 dl dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "#content@html##喜欢.*请大家收藏.*"
+        }
+    }
+]

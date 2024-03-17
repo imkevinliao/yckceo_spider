@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "搜索加载较慢",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "啃文书库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.kenwen.com",
+        "bookUrlPattern": "http.*www.kenwen.com/cview.+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n排行::/ph/\n收藏::/collect/\n完本::/wanbenxiaoshuo/",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1688639643028,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": ".content@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": ".txt-list@li",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:\"/images/nopic.gif\"",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "name": ".s2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list@li!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/images/nopic.gif\"",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "lastChapter": "a.1@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://www.kenwen.com/ar.php?keyWord={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

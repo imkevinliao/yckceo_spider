@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌌有声,☁修正,☁️可用",
+        "bookSourceName": "🎧有声听书",
+        "bookSourceType": 1,
+        "bookSourceUrl": "https://m.ysts8.net",
+        "customOrder": -88902255,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "  *              小     说     评     书                *  ::\n网络玄幻::/m_l/27_{{page}}.html\n都市言情::/m_l/28_{{page}}.html\n恐怖悬疑::/m_l/29_{{page}}.html\n百家讲坛::/m_l/30_{{page}}.html\n历史军事::/m_l/31_{{page}}.html\n刑侦推理::/m_l/32_{{page}}.html\n官场商战::/m_l/33_{{page}}.html\n武侠小说::/m_l/34_{{page}}.html\n人物纪实::/m_l/35_{{page}}.html\n童话寓言::/m_l/37_{{page}}.html\n英文读物::/m_l/38_{{page}}.html\n听广播剧::/m_l/58_{{page}}.html\n有声文学::/m_l/59_{{page}}.html\n粤语评书::/m_l/51_{{page}}.html\n其他评书::/m_l_hot/52_{{page}}.html\n  *              综     艺     节     目                *  ::\n今日头条::/m_l/62_{{page}}.html\n脱口秀秀::/m_l/63_{{page}}.html\n商业财经::/m_l/64_{{page}}.html\n地方戏曲::/m_l/53_{{page}}.html\n相声小品::/m_l/36_{{page}}.html\n健康养生::/m_l/56_{{page}}.html\n综艺娱乐::/m_l/57_{{page}}.html\n汽车音乐::/m_l/39_{{page}}.html",
+        "lastUpdateTime": 1641806775636,
+        "respondTime": 21128,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "iframe@src\n@js:html=java.ajax(result);\na=html.match(/var nexturl;([\\s\\S]+?)function next/)[1];\nb=html.match(/mp3:([\\s\\S]+?)\\}\\)/)[1];\neval(a);eval(b)",
+            "imageStyle": "0",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "tag.a@href",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.peo@text##／.*",
+            "bookList": "class.top_list@a",
+            "bookUrl": "href##(\\d+)\\.html##https://www.ysts8.net/Yshtml/Ys$1.html###",
+            "intro": "https://www.ysts8.net/Yshtml/Ys6901.html",
+            "kind": "class.peo@text##／.*",
+            "lastChapter": "class.peo@text##.*／",
+            "name": "ownText"
+        },
+        "ruleToc": {
+            "chapterList": "class.current@li@a",
+            "chapterName": "text##\\[|\\]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.ysts8.net/so.asp?keyword={{key}},{\n\"charset\":\"gbk\",\n'headers':{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}\n}",
+        "weight": 0
+    }
+]

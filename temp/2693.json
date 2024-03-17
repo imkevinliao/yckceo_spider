@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "E8中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.e8zw.com",
+        "customOrder": -34,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/msort/1/{{page}}.html\n武侠仙侠::/msort/2/{{page}}.html\n都市言情::/msort/3/{{page}}.html\n历史军事::/msort/4/{{page}}.html\n科幻灵异::/msort/5/{{page}}.html\n网游竞技::/msort/6/{{page}}.html\n女生频道::/msort/7/{{page}}.html",
+        "lastUpdateTime": 1606208378309,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@html##章节错误.*刷新页面。",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list@tag.li!0",
+            "bookUrl": "tag.a@href",
+            "kind": "class.s1@text##\\[(.*)\\]##$1##",
+            "lastChapter": "class.s3@tag.a@text",
+            "name": "class.s2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list.-1@li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://www.e8zw.com/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

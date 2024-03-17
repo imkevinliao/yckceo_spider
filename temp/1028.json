@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceUrl": "https://www.kmzjw.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "kmzjw.com",
+        "bookSourceGroup": "花生",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.kmzjw.com/search/,{\"method\":\"POST\",\"body\":\"searchkey={{key}}\"}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1628751173077,
+        "ruleSearch": {
+            "bookList": "class.category-div",
+            "name": "tag.h3@text",
+            "author": "span@text",
+            "intro": "class.intro indent@text",
+            "coverUrl": "img@src",
+            "bookUrl": "tag.a.1@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "lastChapter": "class.dispc.1@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.info-chapters.1@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "id.article@html",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

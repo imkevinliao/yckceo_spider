@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌼 晋江",
+        "bookSourceName": "读零零网",
+        "bookSourceType": 0,
+        "bookSourceUrl": " https://www.du00.com",
+        "bookUrlPattern": "",
+        "customOrder": 1471,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1642691958198,
+        "loginUrl": "",
+        "respondTime": 23484,
+        "ruleBookInfo": {
+            "author": "tag.h1@tag.em@text##作\\s*者:",
+            "coverUrl": "class.pic@tag.img@src",
+            "intro": "class.intro@text",
+            "name": "tag.h1@text##作者.*",
+            "tocUrl": "class.btopt@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "html\n##记住我们的网址.*",
+            "nextContentUrl": "",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "class.odd.0@tag.a@href",
+            "kind": "class.even.2@text",
+            "lastChapter": "class.even.0@text&&class.odd.2@text##\\n##▪",
+            "name": "class.odd.0@text",
+            "wordCount": "class.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href\n@js:\npage=result.match(/\\d+/)?result.match(/\\d+/)[0]:'';\nif(page){\nid=baseUrl.match(/\\/read\\/(\\d+)\\/(\\d+)\\/index.html/);\nresult='https://www.du00.com/t/t.php?id=/'+id[1]+'&did='+id[2]+'&qid='+page+'&page='+page}",
+            "isVip": ""
+        },
+        "searchUrl": "https://www.du00.com/modules/article/search.php?searchkey= {{key}},{\n \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

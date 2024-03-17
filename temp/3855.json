@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "//搜索有盾，需验证过盾\n//可复制链接，在首页书架添加网址",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "本趣阁/笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.beqege.com",
+        "bookUrlPattern": "https?://m.beqege.com/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/class1/\n仙侠小说::/class2/\n都市生活::/class3/\n穿越小说::/class4/\n游戏小说::/class5/\n科幻小说::/class6/\n次元同人::/class7/\n言情小说::/class8/\n全本小说::/wanben/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691488958504,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "{{$.}}index_all.html"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "replaceRegex": "##【.*app.+】|『添加到书签』"
+        },
+        "ruleExplore": {
+            "author": ".author@text",
+            "bookList": ".booklist||.hot_sale",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": ".intro@text||.review@text##简介：",
+            "kind": "0",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": "<js>\nif(result.match(/Just a moment/)){\ncookie.removeCookie(source.bookSourceUrl)\nvar x=java.get(\"url\");\nvar s=java.startBrowserAwait(x,\"验证\").body();\nresult=s;\n\t}else{\n\t\tresult=result;\n\t\t}\n\tresult;\n</js>\n.hot_sale",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "{{\"/js/nocover.jpeg?2e61a880503c98ceff6c01e4ccac9d02\"}}",
+            "kind": "0",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist p a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\nvar so=\"/search.php,\"\nvar ua={\"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 10; zh-cn; MI CC 11)  AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/18.1.8 swan-mibrowser\"};\nvar body=\"keyword=\"+key;\noption={\"method\":\"POST\",\"headers\":ua,\"body\":String(body)};\njava.put(\"url\",String(source.bookSourceUrl+so+JSON.stringify(option)));",
+        "weight": 0
+    }
+]

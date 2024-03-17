@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "Namo精选版",
+        "bookSourceName": "采墨阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.caimoge.com",
+        "bookUrlPattern": "",
+        "customOrder": 44,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1600359219081,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "tocUrl": "class.motion2@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p@textNodes",
+            "replaceRegex": "##一秒记住.*免费阅读！"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.four@tag.a.0@text||tag.dd.1@tag.span.0@text",
+            "bookList": "id.sitembox@tag.dl||class.shuku_list@tag.ul",
+            "bookUrl": "tag.dd.0@tag.h3.0@tag.a.0@href||class.three@tag.a.0@href",
+            "coverUrl": "tag.dt.0@tag.a.0@tag.img@src",
+            "intro": "class.book_des@text",
+            "kind": "tag.dd.1@tag.span.2@text||class.two@text",
+            "lastChapter": "tag.dd.3@tag.a.0@text||class.three@tag.a.1@text",
+            "name": "tag.dd.0@tag.h3.0@tag.a.0@text||class.three@tag.a.0@text##笔趣"
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlists@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.caimoge.com/search.html,{\n  \"charset\": \"utf-8\",\n  \"body\": \"searchkey={{key}}&submit=submit\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

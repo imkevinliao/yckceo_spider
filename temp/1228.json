@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "具体不知道是谁写的了本人只是分享给各位如有侵权请联系QQ320457241删除",
+        "bookSourceGroup": "🎉 精选 🎉,文学",
+        "bookSourceName": "🎉文学迷",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wenxuemi6.com/",
+        "customOrder": -1024,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1625043266205,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作者：",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "class.con_top@tag.a.1@text&&\nid.info@tag.p.2@text##最后更新：",
+            "lastChapter": "id.info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "id.info@tag.h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.result-game-item-info@tag.p.0@tag.span.1@text",
+            "bookList": "class.result-list@class.result-item result-game-item",
+            "bookUrl": "class.result-game-item-detail@tag.h3@tag.a@href",
+            "coverUrl": "class.result-game-item-pic@img@src",
+            "intro": "class.result-game-item-detail@tag.p.0@text",
+            "kind": "class.result-game-item-info@tag.p.1@tag.span.1@text&&\nclass.result-game-item-info@tag.p.2@tag.span.1@text",
+            "lastChapter": "class.result-game-item-info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "class.result-game-item-detail@tag.h3@tag.a@tag.span@text##\\（.*|\\(.*|免费阅读|全文.*阅读"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.wenxuemi6.com/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

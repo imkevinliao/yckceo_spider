@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "A级",
+        "bookSourceName": "笔下文学bxwx.io",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bxwx.io",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1617846640733,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.info@tag.p.1@tag.a.0@text",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@text",
+            "name": "class.info@tag.p.0@tag.strong@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslistss@tag.li",
+            "bookUrl": "class.s2@tag.a.0@href",
+            "lastChapter": "class.s3@tag.a.0@text",
+            "name": "class.s2@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd!:0:1:2:3:4:5:6:7:8:9:10:11",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.bxwx.io/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

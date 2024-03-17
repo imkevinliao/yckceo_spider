@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "间隔10s搜索；\n搜索有些小问题，发现入口完全没问题👌🏻；",
+        "bookSourceGroup": "☁参照组,☣️精选senhora,📚 出版,☣️发现大精选",
+        "bookSourceName": "🍂名著阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.mzhu8.com",
+        "customOrder": -88979547,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "【人物传记】::https://m.mzhu8.com/wapsort/19_{{page}}.html\n【推理悬疑】::https://m.mzhu8.com/wapsort/5_{{page}}.html\n【国外名著】::https://m.mzhu8.com/wapsort/6_{{page}}.html\n【现代文学】::https://m.mzhu8.com/wapsort/17_{{page}}.html\n【古典武侠】::https://m.mzhu8.com/wapsort/3_{{page}}.html\n【历史军事】::https://m.mzhu8.com/wapsort/4_{{page}}.html\n【杂类出版】::https://m.mzhu8.com/wapsort/7_{{page}}.html\n【短篇名著】::https://m.mzhu8.com/wapsort/8_{{page}}.html\n【先秦古籍】::https://m.mzhu8.com/wapsort/11_{{page}}.html\n【楚辞汉赋】::https://m.mzhu8.com/wapsort/12_{{page}}.html\n【魏晋文学】::https://m.mzhu8.com/wapsort/13_{{page}}.html\n【唐宋集典】::https://m.mzhu8.com/wapsort/14_{{page}}.html\n【元明杂记】::https://m.mzhu8.com/wapsort/15_{{page}}.html\n【明清故事】::https://m.mzhu8.com/wapsort/16_{{page}}.html\n【励志哲文】::https://m.mzhu8.com/wapsort/18_{{page}}.html\n【长篇纪实】::https://m.mzhu8.com/wapsort/20_{{page}}.html\n【古代名篇】::https://m.mzhu8.com/wapsort/21_{{page}}.html\n【中文出版】::https://m.mzhu8.com/wapsort/23_{{page}}.html\n【外国小说】::https://m.mzhu8.com/wapsort/24_{{page}}.html\n【野史秘史】::https://m.mzhu8.com/wapsort/25_{{page}}.html\n【古典小说】::https://m.mzhu8.com/wapsort/26_{{page}}.html",
+        "lastUpdateTime": 1657502777141,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "td@img@src",
+            "init": "",
+            "intro": "class.lb_jj@html##立即阅读|本书简介\\n|加入书架",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.nr1@html"
+        },
+        "ruleExplore": {
+            "author": "span.0@text##-",
+            "bookList": "tr!0",
+            "bookUrl": "a.1@href##$##,{'webView': true}",
+            "coverUrl": "img@src",
+            "intro": "span.2@text",
+            "kind": "span.1@text",
+            "name": "a.1@text"
+        },
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.isfull",
+            "bookUrl": "class.waps_name@a@href##$##,{'webView': true}",
+            "checkKeyWord": "人性",
+            "kind": "class.waps_sort@text",
+            "lastChapter": "class.genxin@text##更新至：",
+            "name": "class.waps_name@a@text",
+            "wordCount": "class.waps_full_1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.onechapter",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": "text.尾页@onclick\n@js:\nmat=String(result).match(/allchapter\\((\\d+),(\\d+)\\)/)\nu=mat[1]\np=mat[2]\n\nnurl=[]\nfor(i=2;i<=p;i++){\nnurl.push(\"/modules/article/wapallchapter.php?aid=\"+u+\"&page=\"+i)\n}\nnurl"
+        },
+        "searchUrl": "https://m.mzhu8.com/modules/article/wapsearch.php,{\"charset\":\"gbk\",\"method\":\"post\",\"body\":\"searchkey={{key}}&searchtype=articlename\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Android;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.50 Mobile Safari/537.36 vision_mode/1 bdapp/1.0 (baiduboxvision; baiduboxvision) baiduboxapp/10.0 (Baidu; P1 9) Quark/5.6.8.212 UCBrowser/114514 MQQBrowser/12.2 BingSapphire/22.1.400120302 WuZhui/8.1.1 360 Aphone Browser (114514) HeyTapBrowser/10.7.12.0.2beta\"}}",
+        "weight": 0
+    }
+]

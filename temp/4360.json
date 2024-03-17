@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceGroup": "🔰 普通",
+        "bookSourceName": "🔰 乐文柒柒",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lw77.cc",
+        "customOrder": 1290,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"首页\",\"url\":\"/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/list/1-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/list/2-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/list/3-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/list/4-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑\",\"url\":\"/list/5-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越\",\"url\":\"/list/6-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古言\",\"url\":\"/list/7-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"现言\",\"url\":\"/list/8-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"耽美\",\"url\":\"/list/9-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"综合\",\"url\":\"/list/10-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"阅读记录\",\"url\":\"/mylog/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\n\t\"User-Agents\": \"Mozilla/5.0 (Linux; Android 13; Z832 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.92 Mobile Safari/537.36\",\n \"Referer\": \"{{baseUrl}}\"\n}",
+        "lastUpdateTime": 1698554341816,
+        "respondTime": 21076,
+        "ruleBookInfo": {
+            "lastChapter": ""
+        },
+        "ruleContent": {
+            "content": "body > div.container.dzwap > div:nth-child(2) > div > div > div.panel-body.content-body.content-ext.chaptercon@html",
+            "replaceRegex": "##【畅读.*】|为您提供.*免费阅读|w+.*cc"
+        },
+        "ruleExplore": {
+            "author": "div.book_author@text||\ntd.author@text",
+            "bookList": "div.media-body||\n#content > div > div.col-md-12.dzwap > div > div.panel-body > div||\n#_17mb_ph > table.article > tbody > tr",
+            "bookUrl": "h4 > a@href||\ntd.articlename > a@href",
+            "name": "h4 > a@text||\ntd.articlename > a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.author@text",
+            "bookList": "#_17mb_ph > table.article > tbody > tr[0:5]",
+            "bookUrl": "td.articlename > a@href",
+            "lastChapter": "td.articlename > a@href\n<js>\nif(typeof result==\"object\"){\n\tresult=result?result[0]:null\n\t}else{result=result}\nmatch = baseUrl.match(/^(https?:\\/\\/[^/]+)/);\nturl=match ? match[0] : null;\nurl=turl + result;\njava.ajax(url)\n</js>\nbody > div.container.dzwap > div:nth-child(3) > div > div > div.panel-body > ul > li:nth-child(1) > a@text##^(\\d+). 第##第",
+            "name": "td.articlename > a@text"
+        },
+        "ruleToc": {
+            "chapterList": "body > div.container.dzwap > div:nth-child(4) > div > div > div.panel-body > ul > li",
+            "chapterName": "a@text##^(\\d+). 第##第",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.lw77.cc/search/?wd={{key}}",
+        "weight": 0
+    }
+]

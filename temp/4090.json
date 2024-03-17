@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "自制,网页源",
+        "bookSourceName": "全本小说网junth",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.junjh.com",
+        "bookUrlPattern": "https?://m.junjh.com/xiazai/\\d+/\\d+/",
+        "customOrder": 14,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全本玄幻小说::/book1/0/{{page}}/\n全本武侠小说::/book2/0/{{page}}/\n全本都市小说::/book3/0/{{page}}/\n全本言情小说::/book4/0/{{page}}/\n全本穿越小说::/book5/0/{{page}}/\n全本网游小说::/book6/0/{{page}}/\n全本恐怖小说::/book7/0/{{page}}/\n全本科幻小说::/book8/0/{{page}}/\n其他全本小说::/book9/0/{{page}}/",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1694832300656,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2 p.2@text",
+            "coverUrl": ".block_img2 img@src",
+            "downloadUrls": "text.下载@href",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2 p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2 a.-1@text",
+            "name": "h1@text",
+            "tocUrl": "text.目录@href"
+        },
+        "ruleContent": {
+            "content": ".txt@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@ownText##\\/",
+            "bookList": "p.line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.junjh.com/user/search.html?q={{key}},{\n  \"method\": \"GET\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceName": "搜猫",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://soumal.com",
+        "bookUrlPattern": "http://soumal.com/novel/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "奇幻玄幻::/lists/18.html?page={{page}}\n武侠仙侠::/lists/19.html?page={{page}}\n历史军事::/lists/20.html?page={{page}}\n都市娱乐::/lists/21.html?page={{page}}\n科幻末日::/lists/22.html?page={{page}}\n悬疑灵异::/lists/23.html?page={{page}}\n游戏竞技::/lists/34.html?page={{page}}\n其他::/lists/35.html?page={{page}}",
+        "lastUpdateTime": 1659227623594,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".title.clearfixer.0@a@text",
+            "coverUrl": ".pic.fl@img@src",
+            "init": "",
+            "intro": ".brief_text@html",
+            "kind": "",
+            "name": ".name.fl@text",
+            "wordCount": ".hits@span.0@text"
+        },
+        "ruleContent": {
+            "content": ".read-content.j_readContent@p!0@text"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "dd@p.0@a.0@text",
+            "bookList": ".secd-rank-list dl",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": ".big-book-info@html",
+            "kind": "dd@p.0@a.1@text&&\ndd@p.0@textNodes&&\ndd@p.-1@span@text##\\||\\s\\d+:.*|\\s",
+            "lastChapter": "dd@p.-1@a@text",
+            "name": "dd>a@text",
+            "wordCount": "dd@p.0@em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".cate-list li a",
+            "chapterName": ".chapter_name@text",
+            "chapterUrl": "href",
+            "updateTime": ".chapter_date@text"
+        },
+        "searchUrl": "/search.html,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自制,特殊,源仓库,网页源",
+        "bookSourceName": "易文台",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ewentai.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/shuku/{{page}}_0_0_0_0_0_0.html\n玄幻小说::/shuku/{{page}}_0_0_0_0_0_892.html\n军事小说::/shuku/{{page}}_0_0_0_0_0_8094.html\n言情小说::/shuku/{{page}}_0_0_0_0_0_724.html\n百合小说::/shuku/{{page}}_0_0_0_0_0_6294.html\n耽美小说::/shuku/{{page}}_0_0_0_0_0_7110.html\n竞技小说::/shuku/{{page}}_0_0_0_0_0_1930.html\n灵异小说::/shuku/{{page}}_0_0_0_0_0_4655.html\n免费小说::/shuku/{{page}}_0_0_0_0_0_6604.html\n更新小说::/shuku/\n排行小说::/paihang.html\n全本小说::/quanben.html",
+        "lastUpdateTime": 1685095726523,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": ".BGsectionOne-top-left@img@data-lazy",
+            "downloadUrls": ".BGsectionOne-bottom@ul@li.0@a@href",
+            "intro": "class.sectionTwo-content.0@p@text",
+            "kind": "[property~=category|status]@content&&\nclass.channel text-hide@span@text&&\nclass.time text-hide@span@text",
+            "lastChapter": ".BGsectionThree-content@li.0@a@text",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "<js>\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者容正在手打中，请【收藏本站】稍后访问或者联系管理员更新~\"}\n</js>",
+            "nextContentUrl": "text.下一@href"
+        },
+        "ruleExplore": {
+            "author": "p.1@a@text",
+            "bookList": "class.CGsectionTwo-right-content-unit",
+            "bookUrl": "class.title@href",
+            "intro": "p.2@text",
+            "kind": "p.3@text",
+            "name": "class.title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.sc-title@span.1@text",
+            "bookList": "class.container search-card",
+            "bookUrl": "class.sc-title@span.0@a@href",
+            "checkKeyWord": "剑来",
+            "intro": "class.search-bold sc-content@text",
+            "kind": "class.sc-time@span.1@text",
+            "lastChapter": "class.sc-time@span.0@text",
+            "name": "class.sc-title@span.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下页@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"keyword={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

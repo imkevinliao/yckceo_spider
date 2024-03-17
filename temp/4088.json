@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "自制,特殊,网页源",
+        "bookSourceName": "挺好的吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tinghao8.com",
+        "bookUrlPattern": "https?://www.tinghao8.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/category/0/<,{{page}}.html>\n言情::/category/32705809293382/<,{{page}}.html>\n耽美::/category/32705809215557/<,{{page}}.html>\n同人::/category/32705809346631/<,{{page}}.html>\n综合::/category/32705811198022/<,{{page}}.html>\n古代言情::/category/120486374334533/<,{{page}}.html>\n现代言情::/category/120486374375494/<,{{page}}.html>\n幻想言情::/category/120486374404170/<,{{page}}.html>\n古言::/category/32707214909509/<,{{page}}.html>\n现言::/category/32707214946374/<,{{page}}.html>\nPO18::/category/168424354263109/<,{{page}}.html>\n科幻::/category/32707215024198/<,{{page}}.html>\n青春::/category/32707214942278/<,{{page}}.html>\n幻情::/category/32707214925895/<,{{page}}.html>\n悬疑::/category/32707214983240/<,{{page}}.html>\n仙侠::/category/32707214917702/<,{{page}}.html>\n游戏::/category/32707214921799/<,{{page}}.html>\n现实::/category/32707216080968/<,{{page}}.html>\n轻小说::/category/32707214999624/<,{{page}}.html>\n纯爱::/category/32707236339782/<,{{page}}.html>\n短篇::/category/32707236253767/<,{{page}}.html>\n其他::/category/120486376120394/<,{{page}}.html>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1694943089257,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.章节目录@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}"
+        },
+        "ruleContent": {
+            "content": ".RBGsectionThree-content@html",
+            "nextContentUrl": "text.下ー@href##$##,{'webView': true}"
+        },
+        "ruleExplore": {
+            "author": "a.-1@text",
+            "bookList": ".CGsectionTwo-right-content-unit",
+            "bookUrl": "a.0@href",
+            "intro": "p.-2@text",
+            "kind": "p.-1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".SHsectionThree-middle p",
+            "bookUrl": "a.1@href",
+            "kind": "a.0@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ol li a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.tinghao8.com/search/{{key}}",
+        "weight": 0
+    }
+]

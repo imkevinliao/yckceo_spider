@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "//js优化，补全购买规则",
+        "bookSourceGroup": "🍊 女频,💰 正版,优化",
+        "bookSourceName": "🍊 读乐星空",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://z.dlxk.com",
+        "customOrder": 8,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::https://z.dlxk.com/category/?page={{page}}\n现言::https://z.dlxk.com/xy/?page={{page}}\n古言::https://z.dlxk.com/gy/?page={{page}}\n轻小说::https://z.dlxk.com/qxs/?page={{page}}",
+        "header": "{\n\t\"User-Agents\": \"Mozilla/5.0 (Linux; Android 13; Z832 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.92 Mobile Safari/537.36\",\n \"Referer\": \"{{baseUrl}}\"\n}",
+        "lastUpdateTime": 1698402066426,
+        "loginUrl": "https://z.dlxk.com/login/",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "body > section.panel.pintro.border-b > div.intro.showmore@html",
+            "tocUrl": "body > section.panel.directory.border-b > a@href",
+            "wordCount": "body > div.detail > div.book-info > p.status@textNodes##·"
+        },
+        "ruleContent": {
+            "content": "#page > article@html",
+            "payAction": "{{book.origin+baseUrl}}",
+            "replaceRegex": "##(\\d+)\\.(\\d+)"
+        },
+        "ruleExplore": {
+            "author": "div.list-info.burl > p.state > span.author > a@text",
+            "bookList": "body > div.blist.ajaxlist > ul > li",
+            "bookUrl": "div.list-info.burl > h3 > a@href",
+            "coverUrl": "div.img-square.burl > img@src",
+            "intro": "div.list-info.burl > p.list-intro@text",
+            "name": "div.list-info.burl > h3 > a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "div.list-info.burl > p.state > span.author > a@text",
+            "bookList": "body > div.blist > ul > li[0:4]",
+            "bookUrl": "div.list-info.burl > h3 > a@href",
+            "coverUrl": "div.img-square.burl > img@src",
+            "intro": "div.list-info.burl > p.list-intro@text",
+            "kind": "div.list-info.burl > p.state > span.list-tags > i.category@text",
+            "lastChapter": "div.list-info.burl > h3 > a@href\n<js>\nif(typeof result==\"object\"){\n\tresult=result?result[0]:null\n\t}else{result=result}\nurl=source.getKey() + result;\n//java.log(url)\njava.ajax(url)\n</js>\nbody > section.panel.directory.border-b > a > span.chaptername@text",
+            "name": "div.list-info.burl > h3 > a@text"
+        },
+        "ruleToc": {
+            "chapterList": "body > div.panel.border-t > ul > li",
+            "chapterName": "a > p.cname@text",
+            "chapterUrl": "a@href",
+            "isPay": "",
+            "isVip": "@js:\n/icon-plock/.test(result)?true:false;",
+            "updateTime": "a > p.ctime > span.ftime@text&&\na > p.ctime > span.words@text"
+        },
+        "searchUrl": "/search?k={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceComment": "HINOTORI\n\n无搜索，仅添加网址和发现有效\n\n①添加网址：\n必须是我爱故事网中类似\nhttps://www.5aigushi.com/youmo/\n规则的网址，\n\n②发现添加：\n规则类似\n自定义::https://www.5aigushi.com/自定义/<index,index_{{page}}>.html\n\nps：该网大部分分类网址目录页数100+，每页15章，章数1000+，因此添加书籍后目录会长时间在加载中，请耐心等待几分钟。",
+        "bookSourceGroup": "勿校验",
+        "bookSourceName": "🎯我爱故事网[源注释]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.5aigushi.com",
+        "customOrder": -145839,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "幽默::https://www.5aigushi.com/youmo/<index,index_{{page}}>.html\n童话::https://www.5aigushi.com/th/<index,index_{{page}}>.html\n爱情::https://www.5aigushi.com/aiqing/<index,index_{{page}}>.html\n亲情::https://www.5aigushi.com/qinqing/<index,index_{{page}}>.html\n鬼故事::https://www.5aigushi.com/guigushi/<index,index_{{page}}>.html\n小故事::https://www.5aigushi.com/xiaogushi/<index,index_{{page}}>.html\n民间::https://www.5aigushi.com/minjian/<index,index_{{page}}>.html\n侦探::https://www.5aigushi.com/zhentan/<index,index_{{page}}>.html",
+        "lastUpdateTime": 1619767529164,
+        "ruleBookInfo": {
+            "name": "tag.title@text##_.*"
+        },
+        "ruleContent": {
+            "content": "class.content@p@html##本文网址:.*|\\(手机阅读\\)|人赞过",
+            "nextContentUrl": "class.pagelist@tag.li.-1@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "",
+            "name": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.e2@tag.li@class.title",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "class.p_list@tag.li.-2@tag.a@href"
+        },
+        "weight": 0
+    }
+]

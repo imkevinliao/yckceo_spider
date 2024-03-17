@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceName": "精华书阁手机版",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.jhssd.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1663661896731,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.2@text",
+            "coverUrl": "class.block_img2@tag.img@src",
+            "intro": "class.intro_info@textNodes",
+            "lastChapter": "@li.0@text",
+            "name": "class.block_txt2@a.1@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##精华书阁.*|.*免费阅读.*https.*com.*|为您提供.*请务必保存好书签.|最新章节！|（本章未完，请点击下一页继续阅读）|@"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.searchbook",
+            "bookUrl": "class.bookimg@tag.a@href",
+            "checkKeyWord": "7号基地",
+            "coverUrl": "class.bookimg@tag.img@src",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "li!0:1:2:3:4@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option!0@value"
+        },
+        "searchUrl": "https://m.jhssd.com/search.html?ie=utf-8&word={{key}}",
+        "weight": 0
+    }
+]

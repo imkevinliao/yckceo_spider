@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceName": "看点",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kandzww.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1670799940259,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.con@span.0@text",
+            "coverUrl": "class.img@img@src",
+            "intro": "class.bd_text@class.word-break@text",
+            "kind": "class.con@span.1@text",
+            "lastChapter": "class.bd_text@h5@tag.a@text&&class.bd_text@h5@tag.span@text##>>##·",
+            "name": "class.con@h3@text##作者.*",
+            "tocUrl": "text.开始阅读@href"
+        },
+        "ruleContent": {
+            "content": "id.text@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@tag.a@text",
+            "bookList": "class.bd@li",
+            "bookUrl": "class.left@tag.a@href",
+            "checkKeyWord": "",
+            "coverUrl": "class.left@img@src",
+            "intro": "class.summary@text",
+            "lastChapter": "class.status isfinish@text",
+            "name": "class.right@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "tag.a@text##加入书架|联系我们",
+            "chapterUrl": "tag.a@href##$##,{'webView': true}",
+            "updateTime": "class.date@text"
+        },
+        "searchUrl": "https://www.kandzww.com/search,{\n  \"body\": \"searchkey={{key}}&submit=\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

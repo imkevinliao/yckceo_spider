@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceName": "5200小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ttwx.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1668501702537,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "canReName": "1",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property~=status|category|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property$=update_time]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": ".showtxt@html"
+        },
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".p10",
+            "bookUrl": "h4.bookname@a@href",
+            "coverUrl": "a@img@src",
+            "intro": ".bookinfo@p@text",
+            "kind": ".cat@text##分类：",
+            "name": "h4.bookname@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/sdgfuysdu.php?q={{key}}",
+        "weight": 0
+    }
+]

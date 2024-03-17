@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "new",
+        "bookSourceName": "双语小说(中英)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.shubang.net/book/",
+        "customOrder": -185616,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1651298292143,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "kind": "class.tags@a@text",
+            "lastChapter": "tr.-1@td@a@text"
+        },
+        "ruleContent": {
+            "content": ".line_en@text%%.line_cn@title",
+            "nextContentUrl": "class.pagebar@a.-1@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.cont@p@text",
+            "bookList": "class.mcon@a",
+            "bookUrl": "a@href",
+            "checkKeyWord": "哈利",
+            "coverUrl": "class.cover@img@src",
+            "intro": "class.cont@ownText",
+            "kind": "",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "tr@td",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.shubang.net/book/?q={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceGroup": "笔趣阁",
+        "bookSourceName": "笔趣阁qu-la",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qu-la.com",
+        "bookUrlPattern": "https://www.qu-la.com/booktxt/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"玄幻小说\",\"url\":\"/class1/p{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"修真小说\",\"url\":\"/class2/p{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市小说\",\"url\":\"/class3/p{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"穿越小说\",\"url\":\"/class4/p{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"网游小说\",\"url\":\"/class5/p{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻小说\",\"url\":\"/class6/p{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"其他小说\",\"url\":\"/class7/p{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"完本小说\",\"url\":\"/finish/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"排行\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"总排行\",\"url\":\"/allvisit/p{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"月排行\",\"url\":\"/monthvisit/p{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"周排行\",\"url\":\"/weekvisit/p{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"日排行\",\"url\":\"/dayvisit/p{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "header": "",
+        "lastUpdateTime": 1651410133691,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "##og:novel:author\" content=\"([^\"]+)\"##$1###",
+            "coverUrl": "##og:image\" content=\"([^\"]+)\"##$1###",
+            "intro": ".intro@html",
+            "kind": "##og:novel:category\" content=\"([^\"]+)\".*og:novel:status\" content=\"([^\"]+)\".*og:novel:update_time\" content=\"([^\"]+)\"##$1,$2,$3###",
+            "lastChapter": ".update-text a@text",
+            "name": "##og:novel:book_name\" content=\"([^\"]+)\"##$1###"
+        },
+        "ruleContent": {
+            "content": "#txt.txt@textNodes"
+        },
+        "ruleExplore": {
+            "author": ".author@text##\\|.*",
+            "bookList": ".book-view-box||.rank-view-box",
+            "bookUrl": "h4 a@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@html",
+            "kind": ".tag span@text||.author@text@js:\nfunction kind(){\n  var res = String(result).replace(/\\[|\\]/g,'')\n  if(res.match(/\\|/)){\n   \tvar re = res.split(\"|\")\n\t   re.shift()\n\t   return re\n   }\n  else if(res.match(/,/)){\n     return\tres.split(',')\t   \n \t}\n}\nkind()",
+            "lastChapter": ".update a@text",
+            "name": "h4 a@text"
+        },
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".search-list li!0",
+            "bookUrl": ".s2 a@href",
+            "name": ".s2 a@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.cf:last-of-type li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=qu-la.com&q={{key}}",
+        "weight": 0
+    }
+]

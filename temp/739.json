@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceGroup": "saberyz修复",
+        "bookSourceName": "新顶点网",
+        "bookSourceUrl": "https://www.xindingdianxsw.com",
+        "enable": true,
+        "loginUrl": "",
+        "ruleBookAuthor": "id.info@tag.p.0@a@text",
+        "ruleBookContent": "id.content@html##因某些原.*突然出现大量.*到回家的路！|喜欢.*更新速度最快。|您可以在百度.*查找最新章节！|.*最新章节地址.*|.*全文阅读地址.*|.*txt下载地址.*|.*手机阅读.*|为了方便下次阅.*下次打开书架即可看到！|喜欢.*请向你的朋友.*|本章未完.*后面更精彩！",
+        "ruleBookKind": "id.info@tag.p.2@text##最后更新：",
+        "ruleBookLastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "ruleBookName": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "ruleBookUrlPattern": "https://www.xindingdianxsw.com/\\d+/\\d+/index.html",
+        "ruleChapterList": "class.box_con@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+        "ruleChapterName": "tag.a@text",
+        "ruleContentUrl": "tag.a@href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "id.fmimg@tag.img@src",
+        "ruleIntroduce": "id.intro@tag.p.0@text",
+        "ruleSearchAuthor": "class.book_other.0@tag.span.0@text",
+        "ruleSearchCoverUrl": "tag.dt@tag.a@img@src",
+        "ruleSearchIntroduce": "class.book_des@text",
+        "ruleSearchKind": "class.book_other.0@tag.span.2@text",
+        "ruleSearchLastChapter": "class.book_other.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "ruleSearchList": "id.sitembox@tag.dl",
+        "ruleSearchName": "tag.dd@tag.h3@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "ruleSearchNoteUrl": "tag.dd@tag.h3@tag.a@href",
+        "ruleSearchUrl": "https://www.xindingdianxsw.com/search.html@searchkey=searchKey@Header:{ \"Cookie\":\"Hm_lvt_7fcb840f05292022d7891ede141cc33d=1625028707\" }",
+        "serialNumber": 615,
+        "weight": 0
+    }
+]

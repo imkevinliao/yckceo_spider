@@ -1,0 +1,53 @@
+[
+    {
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "dl",
+            "name": "h3 a@text",
+            "bookUrl": "h3 a@href",
+            "kind": "dt span@text",
+            "author": ".book_other span:nth-of-type(1)@text",
+            "wordCount": "span:nth-of-type(3)@text##$##字",
+            "lastChapter": ".book_other a@text",
+            "intro": "更新时间：\n{{@@span.uptime@text}}\n简介：\n{{@@dd.book_des@text}}",
+            "coverUrl": "img@data-original"
+        },
+        "ruleBookInfo": {
+            "coverUrl": "#bookimg img@src",
+            "name": ".d_title h1@text",
+            "author": ".p_author a@text",
+            "kind": "#count li:nth-of-type(1) span@text",
+            "wordCount": "#count li:nth-of-type(2) span@text",
+            "tocUrl": "",
+            "intro": "更新时间：\n{{@@#uptime span@text}}\n简介：\n{{@@div.hm-scroll@text}}",
+            "lastChapter": ".chaw li:nth-of-type(1) a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chaw_c a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": ".read-content p@text##系统流小说，|xitongliu.cn|如果您还没有登录请点击：【登录】，如果您还不是本站会员请点击：【注册】成为本站会员！|404 Not Found"
+        },
+        "ruleReview": [],
+        "ruleExplore": {
+            "bookList": "#sitebox dl",
+            "name": "dd h3 a@text",
+            "bookUrl": "dd h3 a@href",
+            "kind": "dt span@text",
+            "intro": "更新：\n{{@@span.uptime@text}}\n简介：\n{{@@dd.book_des@text}}",
+            "lastChapter": ".book_other a@text、",
+            "wordCount": "span:nth-of-type(3)@text##$##字",
+            "coverUrl": "img@data-original"
+        },
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xitongliu.cn/",
+        "bookSourceName": "系统流小说网",
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "searchUrl": "https://m.xitongliu.cn/search/,{\n\"method\":\"post\",\n\"charset\":\"UTF-8\",\n\"body\":\"searchkey={{key}}\"\n}",
+        "loginUi": "https://m.xitongliu.cn/login/",
+        "bookUrlPattern": "https:\\/\\/m.xitongliu.cn\\/\\d{2}_\\d{5}\\/",
+        "exploreUrl": "[\n{\"title\":\"玄幻魔法\",\"url\":\"/xclass/xuanhuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠修真\",\"url\":\"/xclass/wuxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/xclass/dushi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/xclass/lishi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"/xclass/kehuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游动漫\",\"url\":\"/xclass/youxi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生频道\",\"url\":\"/xclass/nvsheng/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他类型\",\"url\":\"/xclass/qita/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"书库\",\"url\":\"/xclass/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]"
+    }
+]

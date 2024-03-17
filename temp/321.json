@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "Error: org.mozilla.javascript.EcmaError: TypeError: Cannot read property \"0\" from undefined (<Unknown source>#5) in <Unknown source> at line number 5 \n\n值得阅读",
+        "bookSourceGroup": "🌾 男频,阅读网文书源,✉️  网络文学,失效",
+        "bookSourceName": "🌾兰舍阅读 刺猬猫可用",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://s.lansheweb.com",
+        "bookUrlPattern": "",
+        "customOrder": -160962,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1652430587142,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "https://c-res.lansheweb.com/{{$.image}}",
+            "init": "data",
+            "intro": "&nbsp;&nbsp;🔖更新时间：{{$.updated_at}}{{'\\n&lrm;\\n'}}{{String(java.getString('$.remark')).replace(/(。)(?!”)/g,'$1\\n')}}",
+            "kind": "ltype&&stype&&$.updated_at",
+            "lastChapter": "last_chapter_name\n<js>result.replace(/^(\\d+)、第.+章/,'第$1章').replace(/^(\\d+)、\\d+、/,'第$1章 ').replace(/^(\\d+)、\\d+/,'第$1章').replace(/^(第.+章)\\s?\\d+/,'$1').replace(/^(\\d+)、/,'第$1章 ').replace(/^(第.+章)\\s?第.+章/,'$1').replace(/第\\s(.+)\\s章/,'第$1章').replace(/.*(chapter|Chapter)\\s?(\\d+)\\s?/,'$1 $2 ')</js>",
+            "name": "name",
+            "tocUrl": "@js:\ntime=Math.round(new Date()/1000)\nsign=java.md5Encode(\"com.ruffianhankin.meritreader1\"+time+\"vhjJVz1St6tK7!8n#B0MqRIuE2Dh7!C#\")\nheaders={\"package\":\"com.ruffianhankin.meritreader\",\"pt\":\"1\",\"time\":String(time),\"sign\":String(sign)}\noption={\"headers\":headers}\npath=JSON.parse(java.ajax(\"https://book.lansheweb.com/source/\"+parseInt(java.getString('$.book_id')/1000)+\"/\"+java.getString('$.book_id')+\".html,\"+JSON.stringify(option))).data[0].site_path\n\"https://catalog.lansheweb.com/\"+path",
+            "wordCount": "words_number"
+        },
+        "ruleContent": {
+            "content": "data.content@js:java.aesBase64DecodeToString(result,\"Pxga!h*e4@T8xfOm\",\"AES/CBC/PKCS5Padding\",\"E&z!EHGLd$fli*8R\")"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "data",
+            "bookUrl": "@js:\ntime=Math.round(new Date()/1000)\nsign=java.md5Encode(\"com.ruffianhankin.meritreader1\"+time+\"vhjJVz1St6tK7!8n#B0MqRIuE2Dh7!C#\")\nheaders={\"package\":\"com.ruffianhankin.meritreader\",\"pt\":\"1\",\"time\":String(time),\"sign\":String(sign)}\noption={\"headers\":headers}\n\"https://book.lansheweb.com/details/{{parseInt(java.getString('$.book_id')/1000)}}/{{$.book_id}}.html,\"+JSON.stringify(option)",
+            "coverUrl": "https://c-res.lansheweb.com/{{$.image}}",
+            "intro": "remark",
+            "kind": "ltype&&stype",
+            "lastChapter": "<js>\ntime=Math.round(new Date()/1000)\nsign=java.md5Encode(\"com.ruffianhankin.meritreader1\"+time+\"vhjJVz1St6tK7!8n#B0MqRIuE2Dh7!C#\")\nheaders={\"package\":\"com.ruffianhankin.meritreader\",\"pt\":\"1\",\"time\":String(time),\"sign\":String(sign)}\noption={\"headers\":headers}\nresp=JSON.parse(java.ajax(\"https://book.lansheweb.com/details/\"+parseInt(java.getString('$.book_id')/1000)+\"/\"+java.getString('$.book_id')+\".html,\"+JSON.stringify(option))).data;\nresp.last_chapter_name+\" • \"+resp.updated_at\n</js>\n<js>result.replace(/\\s\\d+:\\d+:\\d+/,'')</js>\n<js>result.replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(\\{（｛【].*[求更谢乐发推票盟补加字Kk\\/].*[\\)\\}）｝】]/g,'')</js>\n<js>result.replace(/^(\\d+)、第.+章/,'第$1章').replace(/^(\\d+)、\\d+、/,'第$1章 ').replace(/^(\\d+)、\\d+/,'第$1章').replace(/^(第.+章)\\s?\\d+/,'$1').replace(/^(\\d+)、/,'第$1章 ').replace(/^(第.+章)\\s?第?.+章/,'$1').replace(/第\\s(.+)\\s章/,'第$1章').replace(/.*(chapter|Chapter)\\s?(\\d+)\\s?/,'$1 $2 ')</js>",
+            "name": "name",
+            "wordCount": "@js:\ntime=Math.round(new Date()/1000)\nsign=java.md5Encode(\"com.ruffianhankin.meritreader1\"+time+\"vhjJVz1St6tK7!8n#B0MqRIuE2Dh7!C#\")\nheaders={\"package\":\"com.ruffianhankin.meritreader\",\"pt\":\"1\",\"time\":String(time),\"sign\":String(sign)}\noption={\"headers\":headers}\nJSON.parse(java.ajax(\"https://book.lansheweb.com/details/\"+parseInt(java.getString('$.book_id')/1000)+\"/\"+java.getString('$.book_id')+\".html,\"+JSON.stringify(option))).data.words_number"
+        },
+        "ruleToc": {
+            "chapterList": "data",
+            "chapterName": "name\n<js>java.aesBase64DecodeToString(result,\"Pxga!h*e4@T8xfOm\",\"AES/CBC/PKCS5Padding\",\"E&z!EHGLd$fli*8R\")</js>##^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推票盟补加].*",
+            "chapterUrl": "https://chapter.lansheweb.com/{{$.path}}",
+            "updateTime": "<js>java.timeFormat(java.getString('$.updated_at')*1000)</js>\n<js>result.replace(/\\//g,'-')</js>"
+        },
+        "searchUrl": "@js:\ntime=Math.round(new Date()/1000)\nsign=java.md5Encode(\"com.ruffianhankin.meritreader1\"+time+\"vhjJVz1St6tK7!8n#B0MqRIuE2Dh7!C#\")\nheaders={\"package\":\"com.ruffianhankin.meritreader\",\"pt\":\"1\",\"time\":String(time),\"sign\":String(sign)}\noption={\"headers\":headers}\n\"https://s.lansheweb.com/v1/lists.api?keyword={{key}},\"+JSON.stringify(option)",
+        "weight": 0
+    }
+]

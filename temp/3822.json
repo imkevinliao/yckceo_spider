@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "妙笔文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.mbtxtt.com",
+        "bookUrlPattern": "https://www.mbtxtt.com/go/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/all<,-{{page}}>.html\n玄幻小说::/xuanhuan<,-{{page}}>.html\n仙侠小说::/xianxia<,-{{page}}>.html\n都市小说::/dushi<,-{{page}}>.html\n军史小说::/junshi<,-{{page}}>.html\n网游小说::/wangyou<,-{{page}}>.html\n科幻小说::/kehuan<,-{{page}}>.html\n灵异小说::/lingyi<,-{{page}}>.html\n言情小说::/yanqing<,-{{page}}>.html\n其他小说::/qita<,-{{page}}>.html\n全本小说::/wanben/<,{{page}}>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691063471657,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": ".booktag span.0@text"
+        },
+        "ruleContent": {
+            "content": ".readcontent@html##AD4",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text",
+            "bookList": ".bookbox",
+            "bookUrl": "h4 a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/modules/article/images/nocover.jpg\"",
+            "intro": ".update@textNodes",
+            "kind": "span.0@text",
+            "lastChapter": ".cat a@text",
+            "name": "h4@text",
+            "wordCount": ".author.1@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "#list-chapterAll dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.mbtxtt.com/modules/article/search1.php,{\n  \"body\": \"searchkey={{key}}&action=login&submit=\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

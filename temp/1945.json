@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "15文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.15wx.com",
+        "bookUrlPattern": "",
+        "customOrder": -118147,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1619521854800,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=og:novel:book_name]@content",
+            "wordCount": "class.blue.0@text##字数："
+        },
+        "ruleContent": {
+            "content": "#content@html##一秒记住.*",
+            "imageStyle": "",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "tag.tbody@tag.tr!0:1",
+            "bookUrl": "class.odd.0@tag.a.0@href",
+            "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.15wx.com/cover/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "class.even.2@text",
+            "lastChapter": "class.even.0@tag.a.0@text",
+            "name": "class.odd.0@tag.a.0@text",
+            "wordCount": "class.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dt:nth-of-type(2) ~ dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://m.15wx.com/modules/article/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

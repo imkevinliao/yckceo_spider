@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "\n                    http://m.xiaoqiangla.net/\nhttp://m.xiaoqiangla.cc/\"\"\"\"\"\"\"",
+        "bookSourceGroup": "🇨🇳R18+",
+        "bookSourceName": "小强小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.xiaoqiangla.cc/",
+        "bookUrlPattern": "",
+        "customOrder": 196166,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "凌辱::http://m.xiaoqiangla.cc/tag/0/37/{{page}}.html\nSM::http://m.xiaoqiangla.cc/tag/0/38/{{page}}.html\n调教::http://m.xiaoqiangla.cc/tag/0/39/{{page}}.html\n催眠::http://m.xiaoqiangla.cc/tag/0/40/{{page}}.html\n交换::http://m.xiaoqiangla.cc/tag/0/41/{{page}}.html\n校园::http://m.xiaoqiangla.cc/tag/0/42/{{page}}.html\n乡村::http://m.xiaoqiangla.cc/tag/0/43/{{page}}.html\n职场::http://m.xiaoqiangla.cc/tag/0/44/{{page}}.html\n真实::http://m.xiaoqiangla.cc/tag/0/45/{{page}}.html\n故事::http://m.xiaoqiangla.cc/tag/0/46/{{page}}.html\n武侠::http://m.xiaoqiangla.cc/tag/0/47/{{page}}.html\n少妇::http://m.xiaoqiangla.cc/tag/0/48/{{page}}.html\n娇妻::http://m.xiaoqiangla.cc/tag/0/49/{{page}}.html\n后宫::http://m.xiaoqiangla.cc/tag/0/50/{{page}}.html\n绿妻::http://m.xiaoqiangla.cc/tag/0/51/{{page}}.html\n绿帽::http://m.xiaoqiangla.cc/tag/0/52/{{page}}.html\n绿母::http://m.xiaoqiangla.cc/tag/0/53/{{page}}.html\n乱伦::http://m.xiaoqiangla.cc/tag/0/54/{{page}}.html\n同人::http://m.xiaoqiangla.cc/tag/0/55/{{page}}.html\n妖文::http://m.xiaoqiangla.cc/tag/0/56/{{page}}.html\n玄幻::http://m.xiaoqiangla.cc/tag/0/57/{{page}}.html\n男同::http://m.xiaoqiangla.cc/tag/0/58/{{page}}.html\n触手::http://m.xiaoqiangla.cc/tag/0/59/{{page}}.html\n穿越::http://m.xiaoqiangla.cc/tag/0/60/{{page}}.html\n丝足::http://m.xiaoqiangla.cc/tag/0/61/{{page}}.html\n古典::http://m.xiaoqiangla.cc/tag/0/62/{{page}}.html\n秀色::http://m.xiaoqiangla.cc/tag/0/63/{{page}}.html\n暴露::http://m.xiaoqiangla.cc/tag/0/64/{{page}}.html\n重生::http://m.xiaoqiangla.cc/tag/0/65/{{page}}.html\n冰恋::http://m.xiaoqiangla.cc/tag/0/66/{{page}}.html\n重口::http://m.xiaoqiangla.cc/tag/0/68/{{page}}.html\n百合::http://m.xiaoqiangla.cc/tag/0/69/{{page}}.html\n扶她::http://m.xiaoqiangla.cc/tag/0/70/{{page}}.html\n科幻::http://m.xiaoqiangla.cc/tag/0/71/{{page}}.html\n网游::http://m.xiaoqiangla.cc/tag/0/72/{{page}}.html\n都市::http://m.xiaoqiangla.cc/tag/0/73/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1629433680761,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.author@text",
+            "kind": "class.sort@text##类别：",
+            "name": "class.title@text",
+            "tocUrl": "class.recommend@tag.h2.1@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@text"
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "class.hot_sale@tag.a@href",
+            "intro": "class.review@text",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "bookList": "class.recommend mybook@tag.div!0",
+            "bookUrl": "tag.a@href",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.p!0",
+            "chapterName": "@tag.a@text",
+            "chapterUrl": "a@href##\\D*?(\\d+)\\D*?(\\d+)\\D*?(\\d+)\\D+##/$1_$2/$3.html",
+            "isVip": ""
+        },
+        "searchUrl": "http://m.xiaoqiangla.cc/s.html?keyword={{key}}",
+        "weight": 0
+    }
+]

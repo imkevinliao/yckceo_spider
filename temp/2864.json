@@ -1,0 +1,36 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "天阅小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tyuetxt.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 0,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": ".articleCon@html",
+            "imageStyle": "full",
+            "nextContentUrl": "id.pb_next@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span.0@text",
+            "bookList": "@css:div.listRightBottom ul li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p.1@textNodes",
+            "lastChapter": "tag.p.2@text",
+            "name": "h2@text",
+            "wordCount": "tag.span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "-@css:div.chapterCon ul li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.tyuetxt.com/modules/article/search.php?searchkey={{key}}&nsid=&click=1&s=14596914502597659810&submit=&page={{page}},{\"charset\": \"gbk\"}",
+        "weight": 0
+    }
+]

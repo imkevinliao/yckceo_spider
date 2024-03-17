@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "抖音小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.douyinxs.com",
+        "bookUrlPattern": "https://m.douyinxs.com/bqg/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/fenlei/<,{{page}}>\n玄奇::/fenlei/1/{{page}}/\n高武::/fenlei/2/{{page}}/\n修仙::/fenlei/3/{{page}}/\n都市::/fenlei/4/{{page}}/\n军事::/fenlei/5/{{page}}/\n历史::/fenlei/6/{{page}}/\n游体::/fenlei/7/{{page}}/\n科幻::/fenlei/8/{{page}}/\n恐怖::/fenlei/9/{{page}}/\n次元::/fenlei/10/{{page}}/\n女生::/fenlei/11/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1687861064415,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##『加入书签，方便阅读』"
+        },
+        "ruleExplore": {
+            "author": "p.1@text##([^（.*）]+)##$1###",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:\"https://m.douyinxs.com/static/ss_wap_bqg/nocover.jpg\"",
+            "intro": "p.2@text##简介：",
+            "kind": "p.1@text##（(.+)）##$1###",
+            "name": "p.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "",
+            "kind": ".author.1@text##类型：",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".directoryArea.1@p",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

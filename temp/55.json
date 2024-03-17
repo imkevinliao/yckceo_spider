@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "墙外网站挂梯子浏览，建议关闭精确搜索使用",
+        "bookSourceGroup": "",
+        "bookSourceName": "小说狂人",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://czbooks.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"//czbooks.net/c/xuanhuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"//czbooks.net/c/yanqing/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"武俠仙俠\",\"url\":\"//czbooks.net/c/xianxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"軍事歷史\",\"url\":\"//czbooks.net/c/lishi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"科幻未來\",\"url\":\"//czbooks.net/c/wangyou/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"靈異玄幻\",\"url\":\"//czbooks.net/c/lingyi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"女生同人\",\"url\":\"//czbooks.net/c/tongren/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"原創同人\",\"url\":\"//czbooks.net/c/erciyuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"耽美\",\"url\":\"//czbooks.net/c/danmei/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"百合\",\"url\":\"//czbooks.net/c/baihe/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"日系\",\"url\":\"//czbooks.net/c/japan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻冒險\",\"url\":\"//czbooks.net/c/fanatsy/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"情色工口\",\"url\":\"//czbooks.net/c/herotic/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"耽美工口\",\"url\":\"//czbooks.net/c/blerotic/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"經典文學\",\"url\":\"//czbooks.net/c/classicbook/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"推理\",\"url\":\"//czbooks.net/c/suspense/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"女性向\",\"url\":\"//czbooks.net/c/girl/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"短篇\",\"url\":\"//czbooks.net/c/short/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+        "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+        "lastUpdateTime": 1664021733568,
+        "respondTime": 1874,
+        "ruleBookInfo": {
+            "author": ".author@a@text",
+            "coverUrl": ".thumbnail@img@src",
+            "intro": "div.description@html",
+            "kind": "div.novel-detail@div.state@tbody@tr.0@td.1@text&&div.novel-detail@div.state@tbody@tr.3@td.1@text&&div.novel-detail@div.state@tbody@tr.4@td.1@a@text",
+            "lastChapter": ".chapter-list@li.-1@a@text",
+            "name": "span.title@text##《|》"
+        },
+        "ruleContent": {
+            "content": "div.content@html"
+        },
+        "ruleSearch": {
+            "author": ".novel-item-author@a@text",
+            "bookList": "div.novel-item",
+            "bookUrl": "div.novel-item-cover-wrapper@a@href",
+            "coverUrl": "img@src",
+            "lastChapter": ".novel-item-newest-chapter@a@text",
+            "name": "div.novel-item-title@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s/{{key}}/{{page}}",
+        "weight": 0
+    }
+]

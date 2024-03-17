@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceUrl": "https://www.bixiabook.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "笔下文学",
+        "bookSourceGroup": "疯狂的蜗牛🐌",
+        "bookSourceComment": "疯狂的蜗牛🐌",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.bixiabook.com/index.php?s=/web/index/search&name={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": "class.novelslist2@tag.ul@tag.li!0",
+            "name": "class.s2@text",
+            "author": "class.s4@text",
+            "lastChapter": "class.s3@text",
+            "bookUrl": "class.s2@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "id.info@tag.h1@text",
+            "author": "id.info@tag.p.0@tag.a@text",
+            "lastChapter": "id.info@tag.p.3@tag.a@text",
+            "coverUrl": "id.fmimg@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        }
+    }
+]

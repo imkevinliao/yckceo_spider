@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "APP抓包",
+        "bookSourceGroup": "学渣出品",
+        "bookSourceName": "妙阅小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "妙阅小说app抓包",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"https://api.chinajiayang998.com/sort_1_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"仙侠修真\",\"url\":\"https://api.chinajiayang998.com/sort_2_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"言情小说\",\"url\":\"https://api.chinajiayang998.com/sort_3_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"穿越架空\",\"url\":\"https://api.chinajiayang998.com/sort_4_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"网游动漫\",\"url\":\"https://api.chinajiayang998.com/sort_5_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"科幻未来\",\"url\":\"https://api.chinajiayang998.com/sort_6_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"恐怖灵异\",\"url\":\"https://api.chinajiayang998.com/sort_7_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":0,\"layout_flexBasisPercent\":0.29}},{\"title\":\"其他类型\",\"url\":\"https://api.chinajiayang998.com/sort_8_{{page}}_0.html\",\"style\":{\"layout_flexGrow\":0,\"layout_flexBasisPercent\":0.29}}]",
+        "lastUpdateTime": 1675578736124,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "$.book_author@put:{bid:book_id}",
+            "coverUrl": "$.book_img",
+            "init": "$.Data.book",
+            "intro": "$.book_intro",
+            "kind": "$.book_type_name",
+            "lastChapter": "$.last_chaptername",
+            "name": "$.book_name",
+            "tocUrl": "https://api.chinajiayang998.com/chapterlist_{{$.book_id}}.html",
+            "wordCount": "$.book_word_num"
+        },
+        "ruleContent": {
+            "content": "$..body##(https://www.yqtxt.cc/html)www.yqtxt.cc。m.yqtxt.cc"
+        },
+        "ruleExplore": {
+            "author": "$.author",
+            "bookList": "$.Data[*]",
+            "bookUrl": "https://api.chinajiayang998.com/book_{{$.articleid}}.html",
+            "coverUrl": "$.url_image",
+            "intro": "$.intro",
+            "kind": "{{$.lastupdate}}\n{{$.sort}}\n{{$.fullflag}}",
+            "lastChapter": "$.lastchapter",
+            "name": "$.articlename"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.book_author",
+            "bookList": "$.Data.DataList",
+            "bookUrl": "https://api.chinajiayang998.com/book_{{$.book_id}}.html",
+            "coverUrl": "$.book_img@js:decodeURIComponent(result);",
+            "intro": "$.book_intro",
+            "kind": "$.book_type_name",
+            "lastChapter": "$.lastchapter",
+            "name": "$.book_name",
+            "wordCount": "$.book_word_num"
+        },
+        "ruleToc": {
+            "chapterList": "$..chapters[*]",
+            "chapterName": "$.title",
+            "chapterUrl": "https://api.whhaxfjc.com/chapter2_@get:{bid}_{{$.link}}.html",
+            "nextTocUrl": "page"
+        },
+        "searchUrl": "https://api.chinajiayang998.com/037/search.php?page_size=15&page_index={{page}}&keyword={{key}}",
+        "weight": 0
+    }
+]

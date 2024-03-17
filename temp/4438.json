@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "恋上你",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.630shu.com",
+        "bookUrlPattern": "",
+        "customOrder": -163031,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻小说::/xuanhuan/?page={{page}}&&言情小说::/yanqing/?page={{page}}&&仙侠小说::/xianxia/?page={{page}}&&都市小说::/dushi/?page={{page}}&&历史小说::/lishi/?page={{page}}&&网游小说::/wangyou/?page={{page}}&&竞技小说::/jingji/?page={{page}}&&科幻小说::/kehuan/?page={{page}}&&完本小说::/wanben/?page={{page}}&&总排行榜::/top/allvisit/?page={{page}}&&周点击榜::/top/weekvisit/?page={{page}}&&月点击榜::/top/monthvisit/?page={{page}}&&总点击榜::/top/allvisit/?page={{page}}&&周推荐榜::/top/weekvote/?page={{page}}&&月推荐榜::/top/monthvote/?page={{page}}&&总推荐榜::/top/allvote/?page={{page}}&&总收藏榜::/top/goodnum/?page={{page}}&&总字数榜::/top/size/?page={{page}}&&本站推荐::/top/toptime/?page={{page}}&&最新入库::/top/postdate/?page={{page}}&&最近更新::/top/lastupdate/?page={{page}}&&",
+        "lastUpdateTime": 1622105439802,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"meta[property~=title]@content\n\",a:\"meta[property$=author]@content\n\",k:\"meta[property~=status|category|time]@content\n\",w:\"meta[property~=word]@content\n\",l:\"meta[property~=latest_chapter_name]@content\n\",c:\"meta[property~=image]@content\n\",i:\"meta[property~=description]@content\n\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": "id.content@html##恋上你看书.*|无广告.*|",
+            "imageStyle": "0",
+            "nextContentUrl": "#pb_next@href"
+        },
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".novelslistss li||#newscontent li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##.*\\D(\\d+)\\D$##$1@js:result = Number(result);\nif (result >=1000){'https://www.630shu.com/files/article/image/'+Math.floor(result/1000)+'/'+result+'/'+result+'s.jpg'}else{'https://www.630shu.com/files/article/image/0/'+result+'/'+result+'s.jpg'}",
+            "intro": "",
+            "kind": "更新时间:{{@@class.s5@text}}",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.630shu.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit=搜索,{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

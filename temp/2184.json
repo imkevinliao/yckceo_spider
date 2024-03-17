@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "顶点小说youle",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.dingdiann.net",
+        "bookUrlPattern": "",
+        "customOrder": -100000,
+        "enabled": true,
+        "enabledExplore": false,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "",
+            "intro": "[property=og:description]@content",
+            "kind": "",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "div#content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslist2@tag.li!0",
+            "bookUrl": "class.s2@tag.a.0@href",
+            "lastChapter": "class.s3@tag.a.0@text",
+            "name": "class.s2@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "div#list a",
+            "chapterName": "text",
+            "chapterUrl": "href##book/##shu"
+        },
+        "searchUrl": "/searchbook.php?keyword={{key}}",
+        "weight": 0
+    }
+]

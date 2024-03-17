@@ -1,0 +1,36 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "📚  出版",
+        "bookSourceName": "📚天天读书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ttd3.cn",
+        "customOrder": 172,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1605542537824,
+        "ruleBookInfo": {
+            "intro": "class.infoDetail@html",
+            "tocUrl": "text.开始阅读@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html##天天读书网.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "id.navList@li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "tag.em@textNodes",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.clearfix dirconone@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.ttd3.cn/e/search/index.php,{\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&tempid=1&show=title\"\n}",
+        "weight": 0
+    }
+]

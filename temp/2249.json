@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "自用改",
+        "bookSourceGroup": "",
+        "bookSourceName": "📚 稻草人书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.20dcr.com/",
+        "bookUrlPattern": ".*/[a-z0-9]+/",
+        "customOrder": -824,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan{{page}}.html\n奇幻::/qihuan{{page}}.html\n武侠::/wuxia{{page}}.html\n仙侠::/xianxia{{page}}.html\n都市::/dushi{{page}}.html\n轻改::/qing{{page}}.html\n历史::/lishi{{page6}}.html\n军事::/junshi{{page}}.html\n游戏::/youxi{{page}}.html\n科幻::/kehuan{{page}}.html\n灵异::/lingyi{{page}}.html\n言情::/yanqing{{page}}.html\n耽美::/danmei{{page}}.html\n当代::/dangdai{{page}}.html\n侦探::/zhentan{{page}}.html\n儿童::/ertong{{page}}.html\n名著::/mingzhu{{page}}.html\n励志::/lizhi{{page}}.html\n悬疑::/xuanyi{{page}}.html\n经管::/jingguan{{page}}.html\n同人::/tongren{{page}}.html\n传记::/zhuanji{{page}}.html\n散文::/sanwen{{page}}.html\n外国::/waiguo{{page}}.htmli\n畅销::/chuban{{page}}.html\n杂志::/zazhi{{page}}.html\n漫画::/manhua{{page}}.html\n纪实::/jishi{{page}}.html\n幽默::/youmo{{page}}.html\n健康::/health{{page}}.html\n诗集::/poetry{{page}}.html\n学习::/xuexi{{page}}.html\n心理::/xinli{{page}}.html\n宗教::/foxue{{page}}.html\n哲学::/zhexue{{page}}.html\n旅游::/travel{{page}}.html\n科普::/kepu{{page}}.html\n育儿::/yuer{{page}}.html\n女性::/woman{{page}}.html\n文化::/culture{{page}}.html\n官场::/guanchang{{page}}.html\n青春::/youth{{page}}.html\n网络::/net{{page}}.html\n国学::/guoxue{{page}}.html\n逻辑::/logic{{page}}.html\n创业::/cuangye{{page}}.html\n次元::/erciyuan{{page}}.html\n英文::/english{{page}}.html\n其他::/other{{page}}.html",
+        "header": "<js>\n(()=>{\n\tvar ua = \"Mozilla/5.0 (Linux; U; Android 10; zh-Hans-CN; PCT-AL10 Build/HUAWEIPCT-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 Quark/4.0.5.137 Mobile Safari/537.36\";\n\tvar heders = {\"User-Agent\": ua};\n\treturn JSON.stringify(heders);\n})()\n</js>",
+        "lastUpdateTime": 1615088577304,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "//meta[@property][6]/@content",
+            "coverUrl": "//meta[@property][4]/@content##.+",
+            "init": "",
+            "intro": "//meta[@property][3]/@content",
+            "kind": "//meta[@property][5]/@content&&//meta[@property][10]/@content",
+            "lastChapter": "//meta[@property][12]/@content&&//meta[@property][13]/@content##\\h.+?\\n\\W*##▪",
+            "name": "//meta[@property][7]/@content",
+            "wordCount": "//meta[@property][12]/@content##\\h.+"
+        },
+        "ruleContent": {
+            "content": "<js>result.replace(/blockquote(?=>)/g,\"p\")</js>id.cont-text@tag.p@html||id.cont-text@html||class.img-body@html##<([a-zA-Z0-9]+) class=.+?</\\1>",
+            "imageStyle": "FULL",
+            "nextContentUrl": "@css:div.page>ul>li.active~li>a@href",
+            "replaceRegex": "##(?mi)^\\h*(\\d+)[）]##$1、",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "class.media",
+            "bookUrl": "tag.td@tag.a.0@href||tag.h4@tag.a.0@href",
+            "coverUrl": "class.book-img-small@data-original",
+            "intro": "class.media-info@text",
+            "name": "class.media@tag.h4@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.1@text",
+            "bookList": "//a[@class=\"orange\"]/parent::td/parent::tr",
+            "bookUrl": "tag.a.0@href",
+            "lastChapter": "",
+            "name": "tag.a.0@title"
+        },
+        "ruleToc": {
+            "chapterList": "+id.all-chapter@class.row@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "updateTime": "href"
+        },
+        "searchUrl": "/plus/search.php?keyword={{key}}&PageNo={{page}}",
+        "weight": 0
+    }
+]

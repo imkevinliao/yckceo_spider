@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "阅读书源长期更新地址↓\nhttps://blog.itaj.xyz/2021/09/34.html",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "[阿玖·AJiu]读一读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.duyidu.net",
+        "customOrder": -3865,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "玄幻::/xuanhuanxiaoshuo/\n奇幻::/qihuanxiaoshuo/\n修真::/xiuzhenxiaoshuo/\n都市::/dushixiaoshuo/\n言情::/yanqingxiaoshuo/\n历史::/lishixiaoshuo/\n同人::/tongrenxiaoshuo/\n武侠::/wuxiaxiaoshuo/\n科幻::/kehuanxiaoshuo/\n游戏::/youxixiaoshuo/\n军事::/junshixiaoshuo/\n竞技::/jingjixiaoshuo/\n灵异::/lingyixiaoshuo/\n商战::/shangzhanxiaoshuo/\n校园::/xiaoyuanxiaoshuo/\n官场::/guanchangxiaoshuo/\n职场::/zhichangxiaoshuo/\n其他::/qitaxiaoshuo/",
+        "header": "",
+        "lastUpdateTime": 1622522105588,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".info@p.0@text##作者.",
+            "coverUrl": ".info@img@src",
+            "intro": "id.shot@textNodes",
+            "kind": ".info@a.0@text",
+            "lastChapter": ".info@a.1@text",
+            "name": ".space@text",
+            "tocUrl": ".ft@a@href",
+            "wordCount": ".info@p.2@text##状态."
+        },
+        "ruleContent": {
+            "content": "id.cContent@textNodes##【在.*",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "@text##(.*\\/)\\s{1,}(.*)\\s{1,}([0-9]*-[0-9]*.*)##$2",
+            "bookList": ".book_textList2@li",
+            "bookUrl": "tag.a.0@href",
+            "intro": "",
+            "kind": ".tag-blue@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": ".time@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_textList@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search.htm?keyword={{key}}",
+        "weight": 0
+    }
+]

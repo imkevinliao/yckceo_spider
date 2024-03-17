@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "需要点登录，点进去之后点右上角对勾就行。然后就可以搜索",
+        "bookSourceGroup": "",
+        "bookSourceName": "爱尚小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.asxs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "header": "{\n \"User-Agent\": \"Mozilla/5.0 (Linux) AppleWebKit Chrome UCBrowser Mobile Safari\"\n}",
+        "lastUpdateTime": 1675227228968,
+        "loginUrl": "https://m.asxs.com",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "name": ".xx@dl@dt.0@text",
+            "author": ".xx@dl@dt.1@text",
+            "kind": ".xx@dl@dt.2@text",
+            "intro": ".intro@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@p!0@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".cover@p",
+            "bookUrl": "a@href",
+            "checkKeyWord": "精灵",
+            "name": "a@text",
+            "kind": "span@text",
+            "author": "textNodes##/"
+        },
+        "ruleToc": {
+            "nextTocUrl": "text.>> 查看全部章节列表 <<@href",
+            "chapterList": ".book_last@dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"keyword={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

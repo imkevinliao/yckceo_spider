@@ -1,0 +1,38 @@
+[
+    {
+        "ruleExplore": [],
+        "bookSourceType": 2,
+        "ruleSearch": {
+            "author": "@css:p:nth-child(4)@text##分类：\n<js>\nresult.replace(\"地区：\",\" Ⅰ \").replace(\"年份：\",\" Ⅰ \")\n</js>\n",
+            "bookList": "@css:#searchList li",
+            "lastChapter": "@css:.pic-text@text",
+            "wordCount": "",
+            "coverUrl": "@css:.lazyload@data-original",
+            "kind": "@css:p:nth-child(3)@text##类型：",
+            "bookUrl": "@css:.lazyload@href",
+            "name": "@css:.title a@text"
+        },
+        "respondTime": 115,
+        "ruleContent": {
+            "content": "@css:.embed-responsive script:nth-child(1)@text\n<js>\nvar s=result.match(/(?<\"url\":\").*?(?=\")/i);\ns=\"https://danmu.yhdmjx.com/m3u8.php?url=\"+s;\ns;\n</js>"
+        },
+        "searchUrl": "http://www.857r.com/search/{{key}}----------{{page}}---.html",
+        "weight": 66,
+        "enabledExplore": false,
+        "ruleToc": {
+            "chapterName": "@css:a@text",
+            "chapterUrl": "@css:a@href",
+            "chapterList": "@css:.myui-content__list li"
+        },
+        "enabled": true,
+        "bookSourceUrl": "http://www.857r.com",
+        "lastUpdateTime": 0,
+        "bookSourceName": "🌸 樱花动漫（正文求修复）",
+        "bookSourceGroup": "🖥 视频",
+        "customOrder": 0,
+        "ruleBookInfo": {
+            "intro": "@css:.text-collapse .data@text",
+            "tocUrl": ""
+        }
+    }
+]

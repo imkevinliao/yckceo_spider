@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍备用",
+        "bookSourceName": "傲世",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.auzw.com",
+        "bookUrlPattern": "",
+        "customOrder": 83,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1632810828053,
+        "loginUrl": "",
+        "respondTime": 2117,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "[property=\"og:novel:read_url\"]@content"
+        },
+        "ruleContent": {
+            "content": ".chapter-content@p@text",
+            "imageStyle": "0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text||tag.dd.3@text",
+            "bookList": ".p-2||.p-3||.pt-2",
+            "bookUrl": "h2 a@href||dt@tag.a.0@href",
+            "coverUrl": "img@data-src",
+            "intro": "tag.a.3@text",
+            "kind": "tag.p.1@text&&tag.dd.1:2:4@text##更新.",
+            "lastChapter": "tag.span.0@text||dt@tag.a.1@text",
+            "name": "h2 a@text||strong@text##《|》"
+        },
+        "ruleToc": {
+            "chapterList": ".novel-list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ".page-item a@href"
+        },
+        "searchUrl": "/search.php?q={{key}}",
+        "weight": 0
+    }
+]

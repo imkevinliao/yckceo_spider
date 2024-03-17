@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "网站无封面",
+        "bookSourceName": "华丽家族BL文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.hljzc.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1667297383819,
+        "respondTime": 1549,
+        "ruleBookInfo": {
+            "author": "class.writer@text",
+            "intro": "class.summary@text",
+            "kind": "class.entry-meta@span.0@text",
+            "lastChapter": "class.news@text",
+            "name": "class.entry-header@text",
+            "wordCount": "class.entry-meta@span.1@text"
+        },
+        "ruleContent": {
+            "content": "id.acontent@p@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.list0",
+            "bookUrl": "a@href",
+            "intro": "class.intro@text",
+            "lastChapter": "class.blue@text",
+            "name": "class.title@text",
+            "wordCount": "class.orange@text"
+        },
+        "ruleToc": {
+            "chapterList": "li@a",
+            "chapterName": "title",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.hljzc.cc/search/?searchkey={{key}}&page={{page-1}}",
+        "weight": 0
+    }
+]

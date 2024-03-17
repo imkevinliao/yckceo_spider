@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceComment": "正文显示图片段落，但需要关闭替换净化。\n如字小看不见，是图片样式没生效，可在阅读界面中手动改为FULL即可。",
+        "bookSourceGroup": "自制,修复优化,源仓库,网页源",
+        "bookSourceName": "醋溜儿文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.clewxw.com",
+        "bookUrlPattern": "https?://m.clewxw.com/book/\\d+.html",
+        "customOrder": 524,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/class/cat/{{page}}/\n悬疑::/class/cat/5/page/{{page}}/\n言情::/class/cat/7/page/{{page}}/\n都市::/class/cat/3/page/{{page}}/\n仙武::/class/cat/2/page/{{page}}/\n历史::/class/cat/4/page/{{page}}/\n游戏::/class/cat/6/page/{{page}}/\n科幻::/class/cat/9/page/{{page}}/\n玄幻::/class/cat/1/page/{{page}}/\n其他::/class/cat/8/page/{{page}}/\n全本::/quanben/class/cat/{{page}}/\n悬疑::/quanben/class/cat/5/page/{{page}}/\n言情::/quanben/class/cat/7/page/{{page}}/\n都市::/quanben/class/cat/3/page/{{page}}/\n仙武::/quanben/class/cat/2/page/{{page}}/\n历史::/quanben/class/cat/4/page/{{page}}/\n游戏::/quanben/class/cat/6/page/{{page}}/\n科幻::/quanben/class/cat/9/page/{{page}}/\n玄幻::/quanben/class/cat/1/page/{{page}}/\n其他::/quanben/class/cat/8/page/{{page}}/",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1697502804413,
+        "respondTime": 18687,
+        "ruleBookInfo": {
+            "author": "class.info@span.0@text",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "class.intro@text\n##本站提示：.*|请记住作者.*",
+            "kind": "class.info@span.1:3@text",
+            "lastChapter": "class.newUpdate_v2@span@text",
+            "name": "img@alt",
+            "tocUrl": "text.打开目录@href",
+            "wordCount": "class.info@span.2@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "imageStyle": "FULL",
+            "nextContentUrl": "class.menu_f@ul@li@a@href\n##$##,{'webView': true}",
+            "replaceRegex": "##原版未篡改内容请移至[ 醋。溜'儿,文\\学#官!网。].*关闭广告拦截功能并且退出浏览器模式"
+        },
+        "ruleExplore": {
+            "author": "class.author_intro@text##\\|.*",
+            "bookList": "class.pictext",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.info_description@text",
+            "kind": "class.author_intro@text\n@js:\nvar regex = /([^|]+)/g;\nvar og = result[0];\nvar flo = og.match(regex)[1];\nvar fle = og.match(regex)[3];\nvar flx = flo+\",\"+fle;\nString(flx)",
+            "name": "class.info_title@text",
+            "wordCount": "class.author_intro@text\n@js:\nvar regex = /([^|]+)/g;\nvar go = result;\nvar zs = go.match(regex)[2];\nString(zs)"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": "div@dl",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": "span.1@text",
+            "lastChapter": "p@a.1@text",
+            "name": "dt@text##《|》",
+            "wordCount": "span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li",
+            "chapterName": "span@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

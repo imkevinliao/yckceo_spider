@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,特殊,源仓库,网页源",
+        "bookSourceName": "腐文小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.fuwenh.com",
+        "bookUrlPattern": "https?://m.fuwenh.com/book/\\d+/$",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::https://m.fuwenh.com/sort/1_{{page}}/\n武侠::https://m.fuwenh.com/sort/2_{{page}}/\n言情::https://m.fuwenh.com/sort/3_{{page}}/\n穿越::https://m.fuwenh.com/sort/4_{{page}}/\n都市::https://m.fuwenh.com/sort/5_{{page}}/\n科幻::https://m.fuwenh.com/sort/6_{{page}}/\n网游::https://m.fuwenh.com/sort/7_{{page}}/\n恐怖::https://m.fuwenh.com/sort/8_{{page}}/\n耽美::https://m.fuwenh.com/sort/9_{{page}}/\n校园::https://m.fuwenh.com/sort/10_{{page}}/\n高辣::https://m.fuwenh.com/sort/11_{{page}}/\n腹黑::https://m.fuwenh.com/sort/12_{{page}}/\n种田::https://m.fuwenh.com/sort/13_{{page}}/\n高干::https://m.fuwenh.com/sort/14_{{page}}/\n百合::https://m.fuwenh.com/sort/15_{{page}}/\n其他::https://m.fuwenh.com/sort/16_{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691843995588,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".infotype a.0@text",
+            "coverUrl": ".pic img@src",
+            "init": ".infohead",
+            "intro": ".intro p@text",
+            "kind": ".infotype p.1:2@text\n##类型：|更新时间：",
+            "lastChapter": ".infotype a.-1@text",
+            "name": "h3@text",
+            "tocUrl": "text.章节目录@href##/$##_1/"
+        },
+        "ruleContent": {
+            "content": "#novelcontent>p@html"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".article",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p.1@text",
+            "kind": "0",
+            "name": "h6@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".sone",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "gl",
+            "kind": "0",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "@js:\nvar regex=/第\\d+.(\\d+)页.当前\\d+条.页/;\nvar page=src.match(regex)[1];\nvar url=[];\nfor(var i=2;i<=page;i++){\n\turl.push(baseUrl.replace(/_1/,\"_\"+i))\n\t}\nurl;"
+        },
+        "searchUrl": "https://m.fuwenh.com/s.php,{\n  \"body\": \"s={{key}}&type=articlename\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "加载比较慢，修复。\n原https://m.jhssd.com",
+        "bookSourceGroup": "✯·常用,修复,优化",
+        "bookSourceName": "精华书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xbyuan.com/",
+        "bookUrlPattern": "https://m.xbyuan.com/\\\\d+/",
+        "customOrder": 10,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/list/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"修真小说\",\"url\":\"/list/2_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市小说\",\"url\":\"/list/3_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"穿越小说\",\"url\":\"/list/4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"网游小说\",\"url\":\"/list/5_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻小说\",\"url\":\"/list/6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"灵异小说\",\"url\":\"/list/7_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"女生小说\",\"url\":\"/list/8_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其它小说\",\"url\":\"/list/9_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"完本小说\",\"url\":\"/wanben_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; M2007J22C Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1682048389545,
+        "respondTime": 25249,
+        "ruleBookInfo": {
+            "author": "p.2@text",
+            "coverUrl": "class.block_img2@tag.img@src",
+            "intro": "class.intro_info@textNodes",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "@li.0@text",
+            "name": "class.block_txt2@a.1@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html||#content@html##温馨提示.*阅读模式。|若语句不通.*清除浏览器缓存即可！|域名更换为.*?请收藏！|『章节有误？登录后点此报错~』|阅读提示.*阅读模式。",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "text.下一页@href||\nid.pb_next@href##$##,{'webView': true}",
+            "replaceRegex": "##精华书阁.*|.*免费阅读.*https.*com.*|为您提供.*请务必保存好书签.|最新章节！|（本章未完，请点击下一页继续阅读）|@|具体最快.*|最快更新.*|看《.*》|精华.*?~~|(本章未完！)|(下一页更精彩！)|最快更.*浏览器.*|温馨提示：.*阅读模式可能出现内容文字不全.*你懂操作吧.*|百度搜索.*首发|(本章未完，点击下一页精彩继续)|.*?提醒您：看完记得收藏.*|【推荐下，|\\(本章未完，下一页精彩继续\\)|紧急通知："
+        },
+        "ruleExplore": {
+            "author": "class.xsm.0@textNodes||class.tjxs.0@span.1@text##\\(|\\)",
+            "bookList": "class.fk@class.xbk!0",
+            "bookUrl": "class.xsm.0@tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "span.1@text%%class.tjxs.0@span.2@text##简介：|作者：.*|最新：.*",
+            "kind": "class.tjrs@i@text",
+            "lastChapter": "class.xsm.1@a@text",
+            "name": "class.tjxs@class.xsm.0@tag.a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.searchbook",
+            "bookUrl": "class.bookimg@tag.a@href##$##,{'webView': true}",
+            "checkKeyWord": "青春",
+            "coverUrl": "class.bookimg@tag.img@src",
+            "kind": ".cat@text##分类：",
+            "lastChapter": ".update@a@text",
+            "name": "h4@text",
+            "wordCount": "class.p4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://m.xbyuan.com/search.html?ie=utf-8&word={{key}}##$##,{'webView': true}",
+        "weight": 0
+    }
+]

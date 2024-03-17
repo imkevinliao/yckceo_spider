@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "夜读小说/小说77",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://mfirst.yeduxiaoshuoo.com",
+        "bookUrlPattern": "https://mfirst.yeduxiaoshuoo.com/wapbook/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort-1-{{page}}/\n武侠修真::/sort-2-{{page}}/\n都市小说::/sort-3-{{page}}/\n历史军事::/sort-4-{{page}}/\n网游动漫::/sort-5-{{page}}/\n科幻灵异::/sort-6-{{page}}/\n女生小说::/sort-7-{{page}}/\n全本小说::/full/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692075280093,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2 a.1@text",
+            "coverUrl": ".block_img2 img@src",
+            "intro": ".intro_info@text##.*简介:",
+            "kind": "block_txt2 p.3:5:6@text",
+            "lastChapter": ".block_txt2 a.-1@text",
+            "name": ".block_txt2 h2@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": ".novelcontent@data-txt",
+            "nextContentUrl": "text.下一页@href##$##,{'webView': true}",
+            "replaceRegex": "##.*本章阅读完毕.+",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".line",
+            "bookUrl": "a.1@href",
+            "coverUrl": "a.1@href##(\\d+)/$##/img/$1.jpg###",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "a.0@href##(\\d+)/$##/img/$1.jpg###",
+            "kind": ".update@textNodes",
+            "lastChapter": "a.1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text##正文",
+            "chapterUrl": "href##$##,{'webView': true}"
+        },
+        "searchUrl": "https://mfirst.yeduxiaoshuoo.com/book/Search.aspx?key={{key}}",
+        "weight": 0
+    }
+]

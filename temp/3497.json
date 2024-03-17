@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "//直接跳转的书籍搜不了",
+        "bookSourceGroup": "💠 其他",
+        "bookSourceName": "🔞 蓝色中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lansezw.com",
+        "customOrder": -88902696,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"总榜\",\"url\":\"/paihang/allvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"月榜\",\"url\":\"/paihang/monthvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"周榜\",\"url\":\"/paihang/weekvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"推荐\",\"url\":\"/paihang/allvote_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"收藏\",\"url\":\"/paihang/goodnum_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"字数\",\"url\":\"/paihang/size_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"入库\",\"url\":\"/paihang/postdate_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"近更\",\"url\":\"/paihang/lastupdate_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/xianxia/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/dushi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军史\",\"url\":\"/junshi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/wangyou/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美\",\"url\":\"/danmei/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"辣文\",\"url\":\"/lawen/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完结\",\"url\":\"/full/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1662184338865,
+        "respondTime": 4224,
+        "ruleBookInfo": {
+            "author": ".bq a@text",
+            "coverUrl": ".pic img.0@src",
+            "intro": ".jj@html",
+            "kind": ".catalog1 font.1@text&&.bq span.2:0@text##.*：|小说|\\s.*",
+            "lastChapter": ".lastchapter a@text",
+            "name": ".introduce h1@text"
+        },
+        "ruleContent": {
+            "content": "#novelcontent@html||#articlecontent@html"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "td.2@text||.p1@text",
+            "bookList": "tbody tr!0||.tt",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##/files/article/image/$2/$1/$1s.jpg###",
+            "intro": ".p2@text",
+            "kind": "td.5:4@text",
+            "lastChapter": "td.1@text",
+            "name": "a.0@text",
+            "wordCount": "td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".ml_list@ul@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\"charset\":\"gbk\",\"method\":\"post\",\"body\":\"searchkey={{key}}&page={{page}}\",\"webView\":true}",
+        "weight": 0
+    }
+]

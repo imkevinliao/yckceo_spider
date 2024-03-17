@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "奇猫中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qimaozw.com",
+        "bookUrlPattern": "http.+www.qimaozw.com/book.+html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/xuanhuanmofa/{{page}}.html\n武侠修真::/sort/wuxiaxiuzhen/{{page}}.html\n都市言情::/sort/dushiyanqing/{{page}}.html\n历史军事::/sort/lishijunshi/{{page}}.html\n网游动漫::/sort/wangyoudongman/{{page}}.html\n科幻小说::/sort/kehuanxiaoshuo/{{page}}.html\n恐怖灵异::/sort/kongbulingyi/{{page}}.html\n其他类型::/sort/qita/{{page}}.html",
+        "header": "{\n\t\"Host\":\"www.qimaozw.com\",\n\t\"upgrade-insecure-requests\":\"1\",\n\t\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\",\n\t\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\",\n\t\"accept-language\":\"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"\n}",
+        "lastUpdateTime": 1687782497129,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.-2@text",
+            "bookList": ".table@tbody@tr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/qimao/images/grey.gif\"",
+            "kind": "td.-1@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list-group.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.qimaozw.com/search.php?search={{key}}",
+        "weight": 0
+    }
+]

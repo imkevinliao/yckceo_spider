@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": ".💠 榜单",
+        "bookSourceName": "推▪数据💠💜",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tuishujun.com/",
+        "customOrder": 60185,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "<js>\nFX=[\"重生\",\"都市\",\"仙侠\",\"武侠\",\"玄幻\",\"奇幻\",\"科幻\",\"游戏\",\"历史\",\"三国\",\"正剧\",\"爽文\",\"穿越\",\"热血\",\"位面\",\"网游\",\"异界\",\"星际\",\"脑洞\",\"搞笑\",\"同人\",\"火影\",\"海贼\",\"漫威\",\"腹黑\",\"后宫\",\"无CP\",\"单女主\",\"双女主\",\"无女主\",\"轻小说\",\"二次元\",\"系统流\",\"无限流\",\"无敌流\",\"洪荒流\",\"凡人流\",\"升级流\",\"末日流\",\"诸天流\",\"种田文\",\"娱乐圈\",\"幕后黑手流\"];\nURL=\"/v1/books?page={{page}}&with_top_comment=1&tags=\";\nresult=\"幼苗榜::/v1/rank/baby&&新书榜::/v1/rank/newest&&连载榜::/v1/rank/unfinished&&完结榜::/v1/rank/finished&&➖➖➖➖➖热 门 标 签➖➖➖➖➖::/v1/rank/newest/summary&&\"+FX.map(a=>a+\"::\"+URL+a+\"&&\"+\"⬧月结⬧::\"+URL+a+\"&book_status=完结&book_updated_at=30\").join(\"&&\");\n</js>",
+        "lastUpdateTime": 1618208130009,
+        "ruleBookInfo": {
+            "author": "book_author_name",
+            "coverUrl": "book_img_url",
+            "intro": "book_synopsis##^|(?<=[。！？”])(?=\\w)##<br>",
+            "kind": "book_author_source&&book_status",
+            "lastChapter": "book_updated_at&&book_latest_chapter_name##T[\\d\\.:]+\\n##▪",
+            "name": "book_name",
+            "tocUrl": "",
+            "wordCount": "book_words"
+        },
+        "ruleContent": {
+            "content": "<js>\r\nresult=JSON.parse(result).results.map(a=>\"《\"+a.book_name+\"》<br>作者：\"+a.book_author_name+\"<br>首发：\"+(a.top_comment==null?\"未知\":a.top_comment.book_list_source.replace(\"qidian\",\"起点\").replace(\"tsj\",\"书山\"))+\"<br>字数：\"+a.book_words.toString().replace(/(\\d)\\d{4}$/,\"$1万\")+\"字<br>状态：\"+a.book_status+\"<br>评语：\"+(a.top_comment==null?\"无\":a.top_comment.comment)+\"<br>标签：\"+a.tags.map(b=>\"#\"+b.name).join(\"、\")).join(\"<br>——————<br>\");\n</js>",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "book_author_name",
+            "bookList": "<js>result.replace(/(:\")qidian(\")/g,'$1起点中文$2').replace(/(:\")tsj(\")/g,'$1书山中文$2')</js>results",
+            "bookUrl": "/v1/books/{{$.id}}",
+            "coverUrl": "https://rmt.dogedoge.com/fetch/tuishujun/storage/cover/{{$.id}}?fmt=webp&w=150",
+            "intro": "top_comment.comment||tags[*].name##\\n##、",
+            "kind": "top_comment.book_list_source&&book_status&&book_category_name&&tags[:2].name",
+            "lastChapter": "book_star_number&&book_star##(.+)\\n(\\d(?:\\.\\d)?).*##$2分▪$1人评价###",
+            "name": "book_name##（全文）",
+            "wordCount": "book_words"
+        },
+        "ruleToc": {
+            "chapterList": "tags",
+            "chapterName": "【{$.name}】标签的类似小说",
+            "chapterUrl": "/v1/books?with_top_comment=1&tags={$.name}",
+            "isVip": "",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.tuishujun.com/v1/books?page={{page}}&q={{key}}",
+        "weight": 0
+    }
+]

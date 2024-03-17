@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "by lyhwlp16",
+        "bookSourceGroup": "new",
+        "bookSourceName": "飘雨轩",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.piaoyuxuan.com/",
+        "customOrder": -2405,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\"\n\t}",
+        "lastUpdateTime": 1652965535491,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "id.TextContent@html",
+            "nextContentUrl": "id.next_url@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.book_other.0@span.0@text",
+            "bookList": "id.nr",
+            "bookUrl": "dt@a@href",
+            "coverUrl": "class.lazy@img@data-original",
+            "intro": "class.book_des@text",
+            "kind": "class.book_other.0@span.1@text",
+            "lastChapter": "class.book_other.1@a@text",
+            "name": "dd@h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterList@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search/,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "//之前的地址不能用了改了bookSourceUrl和searchUrl后，有的时候好，有的时候出错，求优化。\n//频繁刷新会宕机，等一会就好。\n//巴巴鱼：https://m.babayu.tv",
+        "bookSourceGroup": "1.圣源",
+        "bookSourceName": "御书网(求优化）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.yushugu.cc/",
+        "customOrder": -2085957912,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"点击总榜\",\"url\":\"/histp/rank/order/hits.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击月榜\",\"url\":\"/histp/rank/order/hits_month.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击周榜\",\"url\":\"/histp/rank/order/hits_week.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击日榜\",\"url\":\"/histp/rank/order/hits_day.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书榜\",\"url\":\"/histp/rank/newbook/1.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完结榜\",\"url\":\"/histp/rank/over/1.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"男频\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/lists/book_55_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠修真\",\"url\":\"/lists/book_57_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市异能\",\"url\":\"/lists/book_59_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/lists/book_61_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/lists/book_63_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灭世\",\"url\":\"/lists/book_65_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异悬疑\",\"url\":\"/lists/book_66_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"轻小说\",\"url\":\"/lists/book_60_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"女频\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现代言情\",\"url\":\"/lists/book_67_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"/lists/book_68_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"幻想言情\",\"url\":\"/lists/book_69_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春校园\",\"url\":\"/lists/book_70_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同人作品\",\"url\":\"/lists/book_71_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"惊悚恐怖\",\"url\":\"/lists/book_72_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"次元专区\",\"url\":\"/lists/book_73_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; U; android 2.3.7; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"}",
+        "lastUpdateTime": 1671313452735,
+        "loginUrl": "",
+        "respondTime": 4769,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "",
+            "wordCount": "##字数.([^<]+)<##$1###"
+        },
+        "ruleContent": {
+            "content": ".read-section@p@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".x-info_author span.1@text||.info span@textNodes",
+            "bookList": ".x-book||.book-list li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".x-info_intro@text||.intro@text",
+            "kind": ".type@text&&.finish@text",
+            "lastChapter": "",
+            "name": ".x-info_name@text||.tit@text",
+            "wordCount": ".word@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@textNodes",
+            "bookList": "class.clearfix@tag.li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "灵境行者",
+            "coverUrl": "class.pic@src",
+            "intro": ".intro@text",
+            "kind": ".type@text",
+            "lastChapter": "",
+            "name": "class.pic@alt",
+            "wordCount": ".word@text"
+        },
+        "ruleToc": {
+            "chapterList": "#ul1 li a",
+            "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "chapterUrl": "href",
+            "isVolume": ""
+        },
+        "searchUrl": "https://m.yushugu.cc/search.html?ss={{key}},{\n  \"charset\": \"UTF-8\",\n  \"method\": \"GET\",\n  \"webView\": true\n}",
+        "variableComment": "",
+        "weight": 0
+    }
+]

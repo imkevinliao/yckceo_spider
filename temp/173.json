@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "ฅ՞•ﻌ•՞ฅ",
+        "bookSourceGroup": "🌼 空白模板",
+        "bookSourceName": "模板",
+        "bookSourceType": 0,
+        "bookSourceUrl": "模板",
+        "bookUrlPattern": "",
+        "customOrder": -83,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4080.0 Safari/537.36 Edg/82.0.453.0\"\n}",
+        "lastUpdateTime": 1654788738463,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content\n##\\n##▪",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "",
+            "chapterName": "text\n##第.*?章\\s?(第.*?章)(.*$)##$1 $2",
+            "chapterUrl": "href",
+            "updateTime": ""
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "笔趣",
+        "bookSourceName": "笔趣阁③",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biduoxs.com/",
+        "bookUrlPattern": "https://www.biduoxs.com/biquge/\\d+_\\d+/",
+        "customOrder": -230249,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::https://m.biduoxs.com/book_1_1/\n武侠修真::https://m.biduoxs.com/book_2_1/\n都市言情::https://m.biduoxs.com/book_3_1/\n历史军事::https://m.biduoxs.com/book_4_1/\n网游动漫::https://m.biduoxs.com/book_5_1/\n科幻小说::https://m.biduoxs.com/book_6_1/\n恐怖灵异::https://m.biduoxs.com/book_7_1/\n其他小说::https://m.biduoxs.com/book_8_1/\n全本小说::https://m.biduoxs.com/quanbu/",
+        "lastUpdateTime": 1641041351098,
+        "loginUrl": "",
+        "respondTime": 80314,
+        "ruleBookInfo": {
+            "author": "class.box_con.0@id.info@tag.p.0@text",
+            "coverUrl": "id.fmimg@tag.img.0@src",
+            "intro": "id.intro@text",
+            "kind": "id.info@tag.p.1@text&&\nid.info@tag.p.2@text##状 态：|加入.*|最后更新：",
+            "lastChapter": "id.info@tag.p.3@a@text",
+            "name": "class.box_con.0@id.info@tag.h1.0@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+        },
+        "ruleContent": {
+            "content": "id.content@html##\\[新.*?o\\]|一秒记住.*免费阅读！|.*第.*章.*",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@a@href@js:'https://www.biduoxs.com'+result",
+            "coverUrl": "img@src",
+            "intro": "class.intro_line@text",
+            "lastChapter": "class.update@a@text",
+            "name": "h4@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.result-game-item-info-tag.0@tag.span.1@text##<",
+            "bookList": "class.result-item result-game-item",
+            "bookUrl": "class.result-game-item-title-link@href@js:'https://www.biduoxs.com'+result",
+            "coverUrl": "tag.img.0@src",
+            "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
+            "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text",
+            "name": "class.result-game-item-title-link@tag.span@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.biduoxs.com/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

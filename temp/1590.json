@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceUrl": "https://www.ibiquge.la",
+        "bookSourceType": "0",
+        "bookSourceName": "笔趣阁ibiquge.la",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/modules/article/waps.php?searchkey={{key}}",
+        "exploreUrl": "玄幻::https://www.ibiquge.la/fenlei/1_{{page}}.html\n修真::https://www.ibiquge.la/fenlei/2_{{page}}.html\n都市::https://www.ibiquge.la/fenlei/3_{{page}}.html\n穿越::https://www.ibiquge.la/fenlei/4_{{page}}.html\n网游::https://www.ibiquge.la/fenlei/5_{{page}}.html\n科幻::https://www.ibiquge.la/fenlei/6_{{page}}.html",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1669364651436,
+        "ruleSearch": {
+            "bookList": "id.checkform@tag.tr!0",
+            "name": "class.even!1@tag.a@text",
+            "author": "class.even!0@text",
+            "lastChapter": "class.odd@tag.a@text",
+            "bookUrl": "class.even@tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.l@tag.ul@tag.li",
+            "name": "class.s2@tag.a@text",
+            "author": "class.s4@tag.a@text",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@tag.a@text",
+            "bookUrl": "class.s2@tag.a@href"
+        },
+        "ruleBookInfo": {
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "name": "tag.h1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        }
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceComment": "let getFileSize = (size)=> {\n        if (size <= 0) {\n            return \"\";\n        }\n        let unitForm = [\"Byte\", \"KB\", \"MB\", \"GB\", \"TB\"];\n        for (let i = 0, len = unitForm.length; i < len; i++) {\n            if (size > 1024) {\n                size /= 1024;\n                continue;\n            } else {\n                return size.toFixed(2).replace(/(\\.00)$/, \"\") + unitForm[i];\n            }\n        }\n        return \"ERROR:数值过大\";\n }",
+        "bookSourceName": "library",
+        "bookSourceType": 3,
+        "bookSourceUrl": "https://api.ylibrary.org",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 11; MI CC9 Pro Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689502866722,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "downloadUrls": "http://library.lol/main/{{$.md5}}\n@js:\nres=java.get(result ,{\"Accept-Encoding\":\"br,gzip\",\"charset\":\"UTF-8\"}).body()\njava.log(res)\norg.jsoup.Jsoup.parse(res).select(\"#download a\").attr(\"href\")"
+        },
+        "ruleContent": [],
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.data",
+            "bookUrl": "/api/detail/,{\n  \"body\": {{JSON.stringify({\n  \t             \"id\": java.getString(\"$.id\"),\n                \"source\": \"zlibrary\"})\n             }},\n  \"method\": \"POST\"\n}",
+            "checkKeyWord": "我的前半生",
+            "intro": "@js:\n{{eval(source.bookSourceComment)}}\n\n`\n出版社:{{$.publisher}}\nISBN:{{$.isbn}}\n出版时间:{{$.year}} \n文件格式:{{$.extension}} \n文件大小:${getFileSize({{$.filesize}})}\n`\n",
+            "name": "$.title"
+        },
+        "ruleToc": [],
+        "searchUrl": "/api/search/,{\n  \"body\": {{JSON.stringify({\n                \"keyword\": key,\n                \"page\": page,\n                \"sensitive\": false\n            })}},\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

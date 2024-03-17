@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "范围覆盖广，无正文污染。排版清晰",
+        "bookSourceGroup": "📔优质书源",
+        "bookSourceName": "有兔阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://app.youzibank.com",
+        "bookUrlPattern": "",
+        "customOrder": 397,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "🔵                          有兔阅读                         🔵::\n📖  人气榜单  📖::/popular/detail?pageNo={{page}}&type=1\n⭐  收藏榜单 ⭐::/popular/detail?pageNo={{page}}&type=5\n👨🏻  男频榜单  👨🏻::/popular/detail?pageNo={{page}}&type=3\n👩🏻  女频榜单  👩🏻::/popular/detail?pageNo={{page}}&type=2\n✔️  完本榜单  ✔️::/popular/detail?pageNo={{page}}&type=4\n☀️  日更作品  ☀️::/book/list?orderBy=last_serialize_date&fullFlag=1&pageNo={{page}}\n🔥                特    别    推    荐               🔥::/book/list?pageNo={{page}}&selectionModuleId=2\n🔥                火    爆    好    书               🔥::/book/list?pageNo={{page}}&selectionModuleId=4\n🔹 玄幻 🔹::/book/list?gender=-1&clsIdFirst=1&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=1&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=1&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 奇幻 🔹::/book/list?gender=-1&clsIdFirst=2&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=2&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=2&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 武侠 🔹::/book/list?gender=-1&clsIdFirst=3&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=3&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=3&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 仙侠 🔹::/book/list?gender=-1&clsIdFirst=4&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=4&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=4&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 都市 🔹::/book/list?gender=-1&clsIdFirst=5&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=5&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=5&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 校园 🔹::/book/list?gender=-1&clsIdFirst=6&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=6&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=6&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 历史 🔹::/book/list?gender=-1&clsIdFirst=7&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=7&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=7&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 军事 🔹::/book/list?gender=-1&clsIdFirst=8&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=8&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=8&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 游戏 🔹::/book/list?gender=-1&clsIdFirst=9&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=9&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 游戏 🔸::/book/list?gender=-1&clsIdFirst=9&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 竞技 🔹::/book/list?gender=-1&clsIdFirst=10&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=10&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=10&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 科幻 🔹::/book/list?gender=-1&clsIdFirst=11&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=11&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=11&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 耽美 🔹::/book/list?gender=-1&clsIdFirst=12&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=128&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=128&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n\n🔹 其他 🔹::/book/list?gender=-1&clsIdFirst=13&pageNo={{page}}\n🔸 热门 🔸::/book/list?gender=-1&clsIdFirst=116&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n🔸 日更 🔸::/book/list?gender=-1&clsIdFirst=116&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n推理悬疑*热门::/book/list?gender=-1&clsIdFirst=17&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n推理悬疑*日更::/book/list?gender=-1&clsIdFirst=17&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n恐怖惊悚*热门::/book/list?gender=-1&clsIdFirst=84&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n恐怖惊悚*日更::/book/list?gender=-1&clsIdFirst=84&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n有兔怪谈*热门::/book/list?gender=-1&clsIdFirst=112&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n有兔怪谈*日更::/book/list?gender=-1&clsIdFirst=112&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n现代言情*热门::/book/list?gender=-1&clsIdFirst=12&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n现代言情*日更::/book/list?gender=-1&clsIdFirst=12&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n古代言情*热门::/book/list?gender=-1&clsIdFirst=13&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n古代言情*日更::/book/list?gender=-1&clsIdFirst=13&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n幻想言情*热门::/book/list?gender=-1&clsIdFirst=14&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n幻想言情*日更::/book/list?gender=-1&clsIdFirst=14&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n青春校园*热门::/book/list?gender=-1&clsIdFirst=15&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n青春校园*日更::/book/list?gender=-1&clsIdFirst=15&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n同人作品*热门::/book/list?gender=-1&clsIdFirst=16&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n同人作品*日更::/book/list?gender=-1&clsIdFirst=16&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n次元专区*热门::/book/list?gender=-1&clsIdFirst=18&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n次元专区*日更::/book/list?gender=-1&clsIdFirst=18&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n边谈恋爱边破案*超赞::/book/list?pageNo={{page}}&selectionModuleId=36\n人气佳作*中毒不可自拔::/book/list?pageNo={{page}}&selectionModuleId=19",
+        "header": "{\"Seq\":\"11111111111111111111111111111111\"}",
+        "lastUpdateTime": 1617896099455,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "@js:result.replace(/\\W紧急通告.*?com\\W.*永不丢失./,\"\")",
+            "imageStyle": "0",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "@json:$.author",
+            "bookList": "@json:$.data",
+            "bookUrl": "@json:https://app.youzibank.com/book/chapter/listAll?bookId={$.id}",
+            "coverUrl": "@json:https://book.chengxinqinye.com/book{$.photoPath}",
+            "intro": "@json:$.intro",
+            "kind": "@json:$.clsName",
+            "lastChapter": "@json:https://app.youzibank.com/book/chapter/list?bookId={$.id}&pageNo={$.chapterCnt}&pageSize=1<js>JSON.parse(java.ajax(result))</js>@json:$.data[0].name",
+            "name": "@json:$.name<js>result.replace(/（.*/,\"\")</js>",
+            "wordCount": "@json:$.wordCnt"
+        },
+        "ruleToc": {
+            "chapterList": "@json:$.data",
+            "chapterName": "@json:$.name",
+            "chapterUrl": "@json:https://book.chengxinqinye.com/book{$.filePath}",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/es/search/book?q={{key}}&pageNo={{page}}&pageSize=10",
+        "weight": 0
+    }
+]

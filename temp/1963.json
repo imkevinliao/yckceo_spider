@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "优·书家文学™",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bookjia.com",
+        "customOrder": -39138,
+        "enabled": false,
+        "enabledExplore": false,
+        "header": "",
+        "lastUpdateTime": 1619357362125,
+        "ruleBookInfo": {
+            "author": "##:author\"[^\"]*\"([^\"]*)##$1###",
+            "coverUrl": "##:image\"[^\"]*\"([^\"]*)##$1###",
+            "intro": "##:description\"[^\"]*\"([^\"]*)##$1###@js:result.replace(/^\\s*/, '<br>')",
+            "kind": "##:category\"[^\"]*\"([^\"]*)[\\s\\S]*?status\"[^\"]*\"([^\"]*)[\\s\\S]*?_time\"[^\"]*\"([^\"]*)##$1,$2,$3###",
+            "lastChapter": "##_chapter_name\"[^\"]*\"([^\"]*)##$1###",
+            "name": "##:book_name\"[^\"]*\"([^\"]*)##$1###"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".novelslist2 li!0",
+            "bookUrl": ".s2 a@href",
+            "coverUrl": ".s2 a@href@js:\nvar id = result.match(/(\\d+)/)[1];\n'/files/article/image/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+            "kind": ".s2!1@text&&.s5@text",
+            "lastChapter": ".s3@text",
+            "name": ".s2!0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/web/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

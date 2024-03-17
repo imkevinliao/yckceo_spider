@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍊女频",
+        "bookSourceName": "先锋小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xfwxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1675676929262,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.red.0@text",
+            "coverUrl": "img@src",
+            "intro": "class.bookintro@text",
+            "kind": "class.red.1@text",
+            "lastChapter": "class.bookinfo@tag.p.2@text",
+            "name": "class.booktitle@text",
+            "tocUrl": "class.book chapterlist@href",
+            "wordCount": "class.blue@text"
+        },
+        "ruleContent": {
+            "content": "class.readcontent@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@tag.a@href",
+            "checkKeyWord": "",
+            "intro": "class.update@text",
+            "lastChapter": "class.cat@text",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@dd",
+            "chapterName": "dd@tag.a@text",
+            "chapterUrl": "dd@tag.a@href"
+        },
+        "searchUrl": "https://www.xfwxs.com/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}&action=login&submit\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

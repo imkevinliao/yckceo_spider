@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "顶点小说ddxs.cc",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ddxs.cc",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/sort/xuanhuan/<,{{page}}.html>\n仙侠::/sort/xiuzhen/<,{{page}}.html>\n都市::/sort/dushi/<,{{page}}.html>\n历史::/sort/lishi/<,{{page}}.html>\n网游::/sort/wangyou/<,{{page}}.html>\n科幻::/sort/kehuan/<,{{page}}.html>\n其他::/sort/qita/<,{{page}}.html>",
+        "header": "{\n  \"User-Agent\": \"Mobile\"\n}",
+        "lastUpdateTime": 1646491207813,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "",
+            "init": "",
+            "intro": ".review@text##小说简介:",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "",
+            "wordCount": ".synopsisArea_detail@p.-1@text"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@p!0:-1@text",
+            "nextContentUrl": "id.pt_next@href",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": ".author@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": ".review@text##简介：",
+            "kind": "",
+            "lastChapter": "",
+            "name": ".title@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": "class.lis@tag.li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "a@href##.*?(\\d{3})(\\d+).*##https://www.ddxs.cc/files/article/image/$1/$1$2/$1$2s.jpg",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".directoryArea@p@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "option@value",
+            "updateTime": ""
+        },
+        "searchUrl": "/s.php,{\n\"charset\":\"\",\n\"method\":\"POST\",\n\"body\":\"type=articlename&searchkey={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

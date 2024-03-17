@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "巴巴鱼",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.babayu.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部:全部::https://m.babayu.com/all.html?page={{page}}\n全部:连载::https://m.babayu.com/all/serialize/0.html?page={{page}}\n全部:完本::https://m.babayu.com/all/serialize/1.html?page={{page}}\n玄幻:全部::https://m.babayu.com/all/id/42.html?page={{page}}\n玄幻:连载::https://m.babayu.com/all/id/42/serialize/0.html?page={{page}}\n玄幻:完本::https://m.babayu.com/all/id/42/serialize/1.html?page={{page}}\n武侠:全部::https://m.babayu.com/all/id/43.html?page={{page}}\n武侠:连载::https://m.babayu.com/all/id/43/serialize/0.html?page={{page}}\n武侠:完本::https://m.babayu.com/all/id/43/serialize/1.html?page={{page}}\n都市:全部::https://m.babayu.com/all/id/44.html?page={{page}}\n都市:连载::https://m.babayu.com/all/id/44/serialize/0.html?page={{page}}\n都市:完本::https://m.babayu.com/all/id/44/serialize/1.html?page={{page}}\n历史:全部::https://m.babayu.com/all/id/45.html?page={{page}}\n历史:连载::https://m.babayu.com/all/id/45/serialize/0.html?page={{page}}\n历史:完本::https://m.babayu.com/all/id/45/serialize/1.html?page={{page}}\n科幻:全部::https://m.babayu.com/all/id/47.html?page={{page}}\n科幻:连载::https://m.babayu.com/all/id/47/serialize/0.html?page={{page}}\n科幻:完本::https://m.babayu.com/all/id/47/serialize/1.html?page={{page}}\n惊悚:全部::https://m.babayu.com/all/id/49.html?page={{page}}\n惊悚:连载::https://m.babayu.com/all/id/49/serialize/0.html?page={{page}}\n惊悚:全本::https://m.babayu.com/all/id/49/serialize/1.html?page={{page}}\n轻小:全部::https://m.babayu.com/all/id/52.html?page={{page}}\n轻小:连载::https://m.babayu.com/all/id/52/serialize/0.html?page={{page}}\n轻小:完本::https://m.babayu.com/all/id/52/serialize/1.html?page={{page}}\n女生:全部::https://m.babayu.com/all/id/48.html?page={{page}}\n女生:连载::https://m.babayu.com/all/id/48/serialize/0.html?page={{page}}\n女生:完本::https://m.babayu.com/all/id/48/serialize/1.html?page={{page}}",
+        "lastUpdateTime": 1649862039753,
+        "respondTime": 3765,
+        "ruleBookInfo": {
+            "author": "span.6@text",
+            "coverUrl": "img.1@src",
+            "init": "",
+            "intro": "class.content@html",
+            "kind": "span.5@text##分类：",
+            "lastChapter": "span.9@text",
+            "name": "h2@text",
+            "wordCount": "span.7@text##字数："
+        },
+        "ruleContent": {
+            "content": "class.read-section jsChapterWrapper@tag.p@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "ul@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro@html",
+            "kind": "class.type@text",
+            "lastChapter": "class.finish@text",
+            "name": "class.tit@text",
+            "wordCount": "class.word@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.bookshelf-list@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.babayu.com/soshu.html?ss={{key}}",
+        "weight": 0
+    }
+]

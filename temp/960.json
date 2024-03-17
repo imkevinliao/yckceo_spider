@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "haxc",
+        "bookSourceGroup": "",
+        "bookSourceName": "锦绣文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.580bk.com",
+        "customOrder": -225845,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuanpage_{{page}}.html\n修真小说::/xiuzhenpage_{{page}}.html\n都市小说::/dushipage_{{page}}.html\n历史小说::/lishipage_{{page}}.html\n网游小说::/wangyoupage_{{page}}.html\n科幻小说::/kehuanpage_{{page}}.html\n女频小说::/nvpinpage_{{page}}.html\n人气榜::/paihangbang.html",
+        "lastUpdateTime": 1634568329018,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "$..content##天才一秒.*?无广告！",
+            "nextContentUrl": "@js: \ntry{\r\nlet u='http://m.580bk.com/home/index/ajaxchapter,';\naid=result.match(/article_id = \"(\\d+)\"/)[1],\r\ncid=result.match(/chapter_id = \"(\\d+)\"/)[1],\nk=result.match(/var hash = \"(.*?)\"/)[1];\nb={\n\t\"charset\": \"\",\r\n\"method\": \"POST\",\r\n\"body\": 'id='+aid+'&eKey='+k+'&cid='+cid+'&basecid=1'\r\n}\nu+JSON.stringify(b)\n}catch(e){}",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "class.pt-author@a.0@text",
+            "bookList": "class.pt-card-7@li||class.pt-card-4@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.pt-desc@text",
+            "kind": "class.pt-author@a.1@text",
+            "name": "class.pt-name@text"
+        },
+        "ruleSearch": {
+            "bookList": "class.ptm-list-view.1@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "http://m.580bk.com/home/search,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"action=search&q={{key}}\"\n}",
+        "weight": 0
+    }
+]

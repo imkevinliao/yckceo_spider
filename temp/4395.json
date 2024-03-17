@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "格格党小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ggdxsw.cc",
+        "bookUrlPattern": "https?://www.ggdxsw.cc/m/novel/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻修真::/m_1_{{page}}/\n都市商战::/m_2_{{page}}/\n历史军事::/m_3_{{page}}/\n网游科幻::/m_4_{{page}}/\n恐怖推理::/m_5_{{page}}/\n穿越架空::/m_6_{{page}}/\n古典言情::/m_7_{{page}}/\n现代言情::/m_8_{{page}}/\n耽美同人::/m_9_{{page}}/\n综合其他::/m_10_{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1699008811456,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": ".con p!-1:-2@html",
+            "replaceRegex": "##【畅读更新慢.*退出畅读！】"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": ".round",
+            "bookUrl": "a@href",
+            "checkKeyWord": "快穿",
+            "intro": ".des@text",
+            "kind": "0",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl#g dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.ggdxsw.cc/m/search/?wd={{key}}",
+        "weight": 0
+    }
+]

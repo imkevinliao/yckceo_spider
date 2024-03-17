@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️耽美小说网☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.88danmei.net#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻修仙::https://m.88danmei.net/list1/{{page}}.html\n现代都市::https://m.88danmei.net/list2/{{page}}.html\n古代架空::https://m.88danmei.net/list3/{{page}}.html\n穿越重生::https://m.88danmei.net/list4/{{page}}.html\n网游动漫::https://m.88danmei.net/list5/{{page}}.html\n科幻未来::https://m.88danmei.net/list6/{{page}}.html\n恐怖灵异::https://m.88danmei.net/list7/{{page}}.html\nBG言情::https://m.88danmei.net/list8/{{page}}.html \n其他类型::https://m.88danmei.net/list9/{{page}}.html",
+        "lastUpdateTime": 1645612243399,
+        "ruleBookInfo": {
+            "coverUrl": "tag.img@sce",
+            "intro": "class.intro_info@text",
+            "lastChapter": "class.chapter@tag.li.0@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html"
+        },
+        "ruleExplore": {
+            "author": "tag.p@text",
+            "bookList": "class.block",
+            "bookUrl": "tag.h2@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro_info@text",
+            "name": "class.block_txt@text"
+        },
+        "ruleSearch": {
+            "author": "tag.p@text",
+            "bookList": "class.block",
+            "bookUrl": "tag.h2@tag.a@href",
+            "name": "class.block_txt@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.88danmei.net/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"type=articlename&s={{key}}\"\n}",
+        "weight": 0
+    }
+]

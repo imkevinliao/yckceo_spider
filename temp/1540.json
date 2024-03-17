@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceName": "天天看小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://cn.ttkan.co",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 1672152644208,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[name=\"og:novel:author\"]@content",
+            "coverUrl": "[name=\"og:image\"]@content",
+            "intro": ".description@html",
+            "kind": "[name~=status|category|update_time]@content##.\\d{3}Z",
+            "lastChapter": "[name=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[name=\"og:novel:book_name\"]@content",
+            "tocUrl": "<js>\nid = baseUrl.match(/[/]chapters[/](\\S+)/)[1];\njava.put(\"ID\",id);\nurl = book.origin+\"/api/nq/amp_novel_chapters?language=cn&novel_id=\"+id+\"&__amp_source_origin=\"+book.origin;\n</js>"
+        },
+        "ruleContent": {
+            "content": "p@html"
+        },
+        "ruleSearch": {
+            "author": "li.1@text",
+            "bookList": ".pure-u-1-1",
+            "bookUrl": "a.0@href",
+            "coverUrl": "amp-img@src",
+            "intro": "li.2@text##简介：",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "$.items",
+            "chapterName": "$.chapter_name",
+            "chapterUrl": "$.chapter_id\n<js>\nid = java.get(\"ID\");\n\"/novel/pagea/\"+id+\"_\"+result+\".html\"\n</js>"
+        },
+        "searchUrl": "/novel/search?q={{key}}",
+        "weight": 0
+    }
+]

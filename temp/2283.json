@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "酷安@匿名不然吓死你",
+        "bookSourceGroup": "一个",
+        "bookSourceName": "一个发现",
+        "bookSourceType": 0,
+        "bookSourceUrl": "一个发现",
+        "bookUrlPattern": "",
+        "customOrder": 2,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1614498987063,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "li:matches(作者)@text||\np:matches(作者)@text||\ndiv:not(:has(div)):matches(作者)@text\n##作者：|简介.*",
+            "init": "",
+            "intro": "li:matches(简介)@all||\np:matches(简介)@all||\ndiv:not(:has(div)):matches(简介)@all",
+            "lastChapter": "",
+            "name": "title@text##\\(.*|_.*|-.*|最新.*|无弹窗.*|完整.*|\\:.*|全集.*|全文.*|免费.*|章节.*|免费.*|小说.*|,.*|txt.*",
+            "tocUrl": "a:matches(目录|列表|章节)@href||\ndiv:containsOwn(目录)@a@href"
+        },
+        "ruleContent": {
+            "content": "*:containsOwn(。)@all||\n*:has(>p:containsOwn(。))@all",
+            "nextContentUrl": "a:matches(下一页)@href||\na:matches(下一章)@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "@css:*:has(>*:nth-of-type(6)):not(:matches(分类|排行|返回|日点击|访问榜|评论|密码|推荐))>*",
+            "bookUrl": "a:not(a[href~=#|author|sort])@href",
+            "intro": "text",
+            "kind": "",
+            "name": "a@text"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "name": ""
+        },
+        "ruleToc": {
+            "chapterList": "*[class~=cha|read|table|book|panel]@a||\n*[id~=cha]@a||\n*:has(>ul):matches(第|章|Chapter|直达页面底部)@ul@a||\ndiv:containsOwn(章)@a||\n*:not(:has(div)):has(>*:has(>a)):matches(第|章|Chapter|直达页面底部)@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "a:matches(下一页)@href"
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

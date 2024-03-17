@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "by~江湖",
+        "bookSourceName": "元网络小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://metanetnovel.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "社会都市::/cat/2\n豪门总裁::/cat/3\n现代言情::/cat/4\n古代言情::/cat/5\n穿越重生::/cat/6\n玄幻异能::/cat/7",
+        "lastUpdateTime": 1692675778665,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#content p@text"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".txt-list.txt-list-row5 li",
+            "bookUrl": ".s2 a@href",
+            "kind": ".s1@text&&.s5@text##\\[|\\]|\\+.*",
+            "name": ".s2 a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".item",
+            "bookUrl": "dl dt a@href",
+            "coverUrl": "img@src",
+            "intro": "dl dd@text",
+            "name": "dl dt a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s?keyword={{key}}",
+        "weight": 0
+    }
+]

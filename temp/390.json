@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "♥分享♥",
+        "bookSourceName": "xx笔趣读自用",
+        "bookSourceType": 0,
+        "bookSourceUrl": "m.xxbiqudu.com",
+        "customOrder": -88951525,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1651502504673,
+        "respondTime": 2825,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.a.2@text",
+            "coverUrl": "tag.img@src",
+            "init": "",
+            "intro": "class.intro_info@text",
+            "kind": "class.block_txt2@tag.a.1@text",
+            "lastChapter": "class.chapter@a.0@text",
+            "name": "class.block_txt2@tag.a.1@text",
+            "tocUrl": "class.ablum_read@tag.a.1@href"
+        },
+        "ruleContent": {
+            "content": "class.text.5@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.cover",
+            "bookUrl": "class.blue@tag.a@href",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "tag.a.0@text",
+            "lastChapter": "",
+            "name": "tag.a.1@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "-class.chapter@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.xxbiqudu.com/s.php?keyword={{key}}",
+        "weight": 0
+    }
+]

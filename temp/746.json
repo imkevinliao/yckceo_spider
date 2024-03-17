@@ -1,0 +1,25 @@
+[
+    {
+        "bookSourceGroup": "saberyz修复",
+        "bookSourceName": "棉花糖小说网",
+        "bookSourceUrl": "https://www.mhtxs.la",
+        "enable": true,
+        "ruleBookAuthor": "class.xiaoshuo@tag.h6.0@text##作者：",
+        "ruleBookContent": "$class.content@textNodes##最新网址.*",
+        "ruleBookLastChapter": "class.xiaoshuo@h5@a@text&&class.xiaoshuo@tag.h5.1@text",
+        "ruleBookName": "class.xiaoshuo@h1@text",
+        "ruleChapterList": "class.novel_list@tag.dd@tag.a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.book_cover@img@src",
+        "ruleIntroduce": "class.intro@text",
+        "ruleSearchAuthor": "tag.td.2@text",
+        "ruleSearchLastChapter": "tag.a.1@text&&tag.td.3@text",
+        "ruleSearchList": "class.grid@tag.tr!0",
+        "ruleSearchName": "tag.a.0@text",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleSearchUrl": "https://www.mhtxs.la/search.php@searchkey=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

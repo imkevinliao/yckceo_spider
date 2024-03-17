@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "test",
+        "bookSourceName": "顶点小说(test-修复跳转）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ddxs.com/",
+        "bookUrlPattern": "",
+        "customOrder": -88962022,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": " 玄幻小说:https://www.ddxs.com/xuanhuan/\n武侠小说:https://www.ddxs.com/wuxia/\n军事小说:https://www.ddxs.com/junshi/\n都市小说:https://www.ddxs.com/dushi/\n游戏小说:https://www.ddxs.com/youxi/\n科幻小说:https://www.ddxs.com/kehuan/\n言情小说:https://www.ddxs.com/yanqin/\n次元小说:https://www.ddxs.com/ciyuan/\n排行榜:https://www.ddxs.com/top/\n完本小说:https://www.ddxs.com/quanben/",
+        "lastUpdateTime": 1644596378062,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info@class.btitle.1@text",
+            "coverUrl": "class.info@class.pic@img@src",
+            "intro": "class.book-dec@class.book-intro@textNodes",
+            "kind": "class.info@class.btitle.3@text",
+            "lastChapter": "class.info@class.fl@tag.strong@text##最新章节：",
+            "name": "class.info@class.btitle.0@text"
+        },
+        "ruleContent": {
+            "content": "id.contents@textNodes",
+            "replaceRegex": "##@@.*@@@|正在手打中.*更新！"
+        },
+        "ruleExplore": {
+            "author": "text",
+            "bookList": "class.bdsub@dd",
+            "bookUrl": "tag.a@href",
+            "name": "tag.a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.3@text",
+            "bookList": "class.bdsub@tr!0",
+            "bookUrl": "tag.td.0@a@href",
+            "kind": "tag.td.0@text",
+            "lastChapter": "tag.td.2@text",
+            "name": "tag.td.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.bdsub@table.1@td@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.ddxs.com/search.php.{\"charset\":\"UTF-8\",\"method\":\"post\",\"body\":\"keyWord={{key}}\"}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "亲亲小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.qinqinxsw.com/",
+        "bookUrlPattern": "",
+        "customOrder": -3606,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1604323879228,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "coverUrl",
+            "init": "@js:\nvar o=(selector,b)=>{\nreturn String(java.getString(\"@@\"+selector,b));};\nvar book={name:o(\".title@text\",false),\nauthor:o(\".author@text\",false),\nkind:o(\".synopsisArea_detail@tag.p!0:3@text\",false).replace(/.*：/g,\"\"),\n//lastChapter:o(\".directoryArea@tag.p.0@text\",false),\nintro:o(\".review@text\",false),\ncoverUrl:o(\"div@img@src\",true),\ntocUrl:o(\"text.查看完整目录@href\",true)\n};\nbook;",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "lastChapter",
+            "name": "name",
+            "tocUrl": "tocUrl",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes",
+            "replaceRegex": "##&bp;&bp;"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author.0@text##.*作者：",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "kind": "class.author@text##\\|.*",
+            "lastChapter": "class.author.1##.*更新：",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist@tag.p!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{\"webView\":true}",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}&t=1\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "目录排序",
+        "bookSourceName": "永恒小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.4pan.net",
+        "customOrder": -88965640,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1652707830074,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "##:author\"[^\"]*\"([^\"]*)##$1###",
+            "coverUrl": "##:image\"[^\"]*\"([^\"]*)##$1###",
+            "init": "",
+            "intro": "#book_desc@text##阅读.+最新章节请关注.*",
+            "kind": "##:category\"[^\"]*\"([^\"]*)[\\s\\S]*?status\"[^\"]*\"([^\"]*)[\\s\\S]*?_time\"[^\"]*\"([^\"]*)##$1,$2,$3###",
+            "lastChapter": "##_chapter_name\"[^\"]*\"([^\"]*)##$1###",
+            "name": "##:book_name\"[^\"]*\"([^\"]*)##$1###",
+            "tocUrl": ".mulu@href",
+            "wordCount": "##([^<]*)##$1###"
+        },
+        "ruleContent": {
+            "content": "@js:java.getElements('dd!-1').toArray().sort((a,b)=>a.attr('data-id')-b.attr('data-id')).map(x=>x.html()).join('')"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "$4",
+            "bookList": ":data-original=\"([^\"]*)\"[\\s\\S]*?href=\"([^\"]*)\"[\\s\\S]*?_name\">([^<]*)[\\s\\S]*?title=\"([^\"]*)\"[\\s\\S]*?_blank\">([^<]*)[\\s\\S]*?状态：([^<]*)[\\s\\S]*?总字数：([^<]*)[\\s\\S]*?title=\"([^\"]*)\"[\\s\\S]*?更新时间：([^<]*)",
+            "bookUrl": "$2",
+            "coverUrl": "$1",
+            "kind": "$5,$6,$9",
+            "lastChapter": "$8",
+            "name": "$3",
+            "wordCount": "$7"
+        },
+        "ruleToc": {
+            "chapterList": "+@js:org.jsoup.Jsoup.parse(result).select('[data-id]>li>a').toArray().sort().map(x=>({n:x.text(),u:x.attr('href')}))",
+            "chapterName": "n",
+            "chapterUrl": "u"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"key={{key}}\",\n  \"charset\": \"\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

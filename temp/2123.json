@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceUrl": "https://www.wapmh.com",
+        "bookSourceType": "0",
+        "bookSourceName": "WAP漫画",
+        "bookSourceGroup": "🔞 漫画",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/search?keyword={{key}}",
+        "exploreUrl": "全部::/booklist?page={{page}}&tag=全部\n都市::/booklist?page={{page}}&tag=都市\n出版漫画::/booklist?page={{page}}&tag=出版漫画\n校园::/booklist?page={{page}}&tag=校园",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1617285251608,
+        "ruleSearch": {
+            "bookList": ".item",
+            "name": ".title@a@text",
+            "intro": ".desc@text",
+            "coverUrl": ".thumbnail@tag.img@data-src",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": ".comic-list .item",
+            "name": ".title@a@text",
+            "intro": ".desc@text",
+            "coverUrl": ".thumbnail@tag.img@data-src",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleBookInfo": {
+            "name": ".title-warper .title@text",
+            "author": ".title-warper .update-time@text",
+            "kind": "#randomColor@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list .item@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": ".comiclist@img@html",
+            "imageStyle": "FULL"
+        }
+    }
+]

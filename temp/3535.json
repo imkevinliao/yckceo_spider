@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "舞文小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.wushuzw.net",
+        "bookUrlPattern": "http://m.wushuzw.net/show/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部小说\",\"url\":\"/list/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完结小说\",\"url\":\"/quanben/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻小说\",\"url\":\"/list/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠小说\",\"url\":\"/list/2_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/list/3_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史小说\",\"url\":\"/list/4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏小说\",\"url\":\"/list/5_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/list/6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖小说\",\"url\":\"/list/7_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生小说\",\"url\":\"/list/8_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他小说\",\"url\":\"/list/8_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1686550138368,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content\n##\\{.*\\}|,舞文小说网.*",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.章节列表@href##$##,{'webView': true}"
+        },
+        "ruleContent": {
+            "content": ".content@dd!-1@html",
+            "nextContentUrl": "text.下一页@href##$##,{'webView': true}",
+            "replaceRegex": "##{{chapter.title}}|\\(第.*页\\)|（本章未完.*继续阅读）"
+        },
+        "ruleExplore": {
+            "author": "a@textNodes##:.*",
+            "bookList": ".bd@li",
+            "bookUrl": "a@href",
+            "kind": "span@text##\\[|\\]",
+            "name": "a@textNodes##【(.*)】##$1###"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@text##\\((.*)\\)##$1###",
+            "bookList": ".bd@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": "span@text##\\[|\\]",
+            "name": "a@textNodes##\\(.*\\)"
+        },
+        "ruleToc": {
+            "chapterList": "#chapter",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"s={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

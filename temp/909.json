@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "目录有点问题(可以用，就是校验时会刷屏)",
+        "bookSourceGroup": "⁉️ 自制",
+        "bookSourceName": "三尺小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.3cxs.com",
+        "customOrder": -292878,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/s1_{{page}}/\n武侠::/s2_{{page}}/\n都市::/s3_{{page}}/\n言情::/s4_{{page}}/\n穿越::/s5_{{page}}/\n网游::/s6_{{page}}/\n官场::/s7_{{page}}/\n校园::/s8_{{page}}/\n历史::/s9_{{page}}/\n推理::/s10_{{page}}/\n科幻::/s11_{{page}}/\n恐怖::/s12_{{page}}/\n其他::/s13_{{page}}/\n排行::/allvisit_{{page}}/\n更新::/lastupdate_{{page}}/\n完本::/full_{{page}}.html\n总排行榜::/allvisit_{{page}}/\n月排行榜::/monthvisit_{{page}}/\n周排行榜::/weekvisit_{{page}}/\n字数排行::/size_{{page}}/\n最新入库::/postdate_{{page}}/\n最近更新::/lastupdate_{{page}}/\n大神全部::/dashen_{{page}}/\n大神男生::/dashennan_{{page}}/\n大神女生::/dashennv_{{page}}/",
+        "lastUpdateTime": 1634903234370,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content##\\s20##▪️",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": "text.[正序]@href"
+        },
+        "ruleContent": {
+            "content": "@js:\ndata=result.match(/innerHTML = \"([\\s\\S]+?)\"\\;\\<\\/script/)[1];\njava.getString(\"#nr1@html\",false)+data\n//java.log(data)",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s.*退出畅读,看完整内容。本章未完,请点击【下一页】继续阅读。.*\\s.*返回目录.*|\\s.*上一页 小说目录 下一章.*\\s.*返回目录.*",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "span.0@textNodes##/ (.*) ?\\(.*\\)##$1",
+            "bookList": ".tjxs",
+            "bookUrl": "a@href",
+            "intro": "span.1@text",
+            "kind": "span.0@textNodes##.* ?\\((.*)\\)##$1",
+            "lastChapter": "",
+            "name": "a@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "textNodes##\\[\\s\\]\\s/ ",
+            "bookList": ".cover@.line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "intro": "",
+            "kind": "a.0@text",
+            "lastChapter": "",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@li",
+            "chapterName": "text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.3cxs.com/s.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 's={{key}}&submit=submit'\n}",
+        "weight": 0
+    }
+]

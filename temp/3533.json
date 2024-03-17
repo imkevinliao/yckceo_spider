@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "无错小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.wcxsw.com",
+        "bookUrlPattern": "https://m.wcxsw.com/book.*",
+        "customOrder": 91,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/list/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真\",\"url\":\"/list/2_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/list/3_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/list/4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/list/5_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/list/6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1686533089585,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者@a@text",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "{{@@text.类别@text}}\n{{@@text.状态@text}}\n{{@@text.更新：@text}}\n##类别：|状态：|更新：",
+            "lastChapter": "text.最新@a@text",
+            "name": "h1@text",
+            "tocUrl": "{{@@text.章节目录@href}}1"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".mr15@text",
+            "bookList": ".list-item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": ".gray.1@text",
+            "kind": "0",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "<js>page=result.match(/第\\d+页 \\/ 共(\\d+)页/)[1];\nlist=[];for(i=2;i<=page;i++){list.push(baseUrl.replace(/\\/1/,'/'+i))}\nlist</js>"
+        },
+        "searchUrl": "https://m.wcxsw.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

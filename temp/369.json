@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "人间无敌☣负",
+        "bookSourceName": "https://qscxx.top/备用站  js不会",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.grhxs.xyz/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1651282116592,
+        "respondTime": 1370,
+        "ruleBookInfo": {
+            "author": "p.2@text##作者：",
+            "coverUrl": "",
+            "init": "",
+            "intro": "p.3@text##小说",
+            "kind": "",
+            "lastChapter": "class.cell-title.-1@text",
+            "name": "h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.novel_content@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "font.0@text",
+            "bookList": "class.book-list-item",
+            "bookUrl": "@onclick##window.open('##<js>##')##</js>",
+            "checkKeyWord": "都市",
+            "coverUrl": "img@src",
+            "intro": "p.1@text",
+            "kind": "text.分类：@textNodes##分类：",
+            "lastChapter": "font.1@text##最新章节：",
+            "name": "span@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.list-item",
+            "chapterName": "class.cell-title@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.grhxs.xyz/?page.currentPage=1&queryFilm.orderType=3&queryFilm.subjectName=&filmName={{key}}",
+        "weight": 0
+    }
+]

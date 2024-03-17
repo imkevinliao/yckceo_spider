@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "//搜索会有验证码",
+        "bookSourceGroup": "自制源",
+        "bookSourceName": "微趣小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.weiquxs.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1696098699153,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.1@a@text",
+            "coverUrl": "img@data-original",
+            "intro": ".intro@text",
+            "lastChapter": "class.hidden-xs.1@a@text",
+            "name": "h1@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "text.字数：@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".btm@a@text",
+            "bookList": "<js>\nvar verify=/输入验证码/.test(src);\nif(verify){\n\tvar url=java.get(\"url\");\n\tvar img=java.get(\"img\");\n\tjava.longToast(\"验证码错误，重新输入\");\n\timg=java.getVerificationCode(img);\n\turl=String(url).replace(/captcha=.+$/,`captcha=${img}`);\n\t\tresult=java.ajax(url);\n\t}else{\n\t\tresult=result;\n\t\t}\n\tresult;\n</js>\nclass.item",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "lastChapter": ".blue visible-xs@text",
+            "name": "dt@text",
+            "wordCount": ".orange visible-xs@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "@js:\nvar url=source.getKey();\nvar img=url+\"/captcha.php\";\njava.put(\"img\",String(img));\nverify=java.getVerificationCode(img);\njava.put(\"url\",String(url+`/search/?searchkey=${key}&captcha=${verify}`));",
+        "weight": 0
+    }
+]

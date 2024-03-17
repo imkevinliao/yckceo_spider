@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceName": "零点看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.soudu.org/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1694888779549,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "name": ".top h1@text",
+            "author": ".fix p:nth-of-type(1)@text",
+            "intro": "div.desc@text",
+            "downloadUrls": "a.red@href",
+            "wordCount": "p:nth-of-type(5)@text",
+            "coverUrl": "img@src",
+            "lastChapter": "div.section-box:nth-of-type(1) li:nth-of-type(1) a@text"
+        },
+        "ruleContent": {
+            "content": "div.content@html##章节错误,|点此举报|\\(免注册\\)|,|举报后维护人员会在两分钟内校正章节内容,|请耐心等待,|并刷新页面。",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ".txt-list-row5 li",
+            "name": ".s2 a@text",
+            "lastChapter": ".s3 a@text",
+            "kind": "span.s1@text",
+            "author": "span.s4@text",
+            "wordCount": "span.s5@text",
+            "bookUrl": ".s2 a@href"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".txt-list li:nth-of-type(n+2)",
+            "checkKeyWord": "我的",
+            "name": ".s2 a@text",
+            "bookUrl": ".s2 a@href",
+            "lastChapter": ".s3 a@text",
+            "kind": "span.s1@text",
+            "author": "span.s4@text",
+            "wordCount": "span.s5@text"
+        },
+        "ruleToc": {
+            "chapterList": "div.section-box:nth-of-type(2) a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.soudu.org/ar.php?keyWord={{key}}",
+        "weight": 0,
+        "exploreUrl": "[\n{\"title\":\"玄幻奇幻\",\"url\":\"/class/{{page}}/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/class/2/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/class/3/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/class/4/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/class/5/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/class/6/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"女生频道\",\"url\":\"/class/7/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n]"
+    }
+]

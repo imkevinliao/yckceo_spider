@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "Sra.",
+        "bookSourceGroup": "☁️可用,⛩🎐senhora",
+        "bookSourceName": "品阅小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.pyxs.com",
+        "bookUrlPattern": "",
+        "customOrder": -88959752,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1648700387800,
+        "loginUrl": "",
+        "respondTime": 2470,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "intro": "[property$=description]@content",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html##(?:&nbsp;|　){2}##  🌕",
+            "replaceRegex": "@js:result.replace(/(^|\\n)[^🌕]*🌕/g,\"\\n\")",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslistss@li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##(\\d+)_(\\d+)/##files/article/image/$1/$2/$2s.jpg",
+            "intro": "",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd!0:1:2:3:4:5:6:7:8:9:10:11@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.pyxs.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

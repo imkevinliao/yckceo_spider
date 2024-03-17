@@ -1,0 +1,68 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "⭐久久下载网(ijjjxs)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.ijjjxs.net",
+        "bookUrlPattern": "https://m.ijjjxs.net/txt/\\d+.htm",
+        "concurrentRate": "",
+        "customOrder": -3662,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "穿越::/html/chuanyue/{{page}}.html\n言情::/html/yanqing/{{page}}.html\n现代::/html/dushi/{{page}}.html\n耽美::/html/baihe/{{page}}.html\n历史::/html/lishi/{{page}}.html\n美文::/html/tongren/{{page}}.html\n武侠::/html/wuxia/{{page}}.html\n玄幻::/html/xuanhuan/{{page}}.html\n惊悚::/html/jingsong/{{page}}.html\n科幻::/html/kehuan/{{page}}.html\n网游::/html/wangyou/{{page}}.html\n管理::/html/zhexue/{{page}}.html\n学习::/html/ziliao/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1680543056675,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "https://m.ijjjxs.net",
+        "respondTime": 31125,
+        "ruleBookInfo": {
+            "author": "class.jie@tag.span.2@text##.*作者：",
+            "coverUrl": "class.pic@img@src",
+            "intro": "class.novelinfo@text",
+            "kind": "class.jie@tag.span.1@text##.*类别：",
+            "lastChapter": "class.jie@tag.span.4@text##.*进度：",
+            "name": "class.pic@tag.img@alt##小说下载",
+            "tocUrl": "id.htmldianjiyuedu@href##$##,{\"webView\":true}",
+            "wordCount": "class.jie@tag.span.3@text##.*大小："
+        },
+        "ruleContent": {
+            "content": "id.Content@html",
+            "imageStyle": "0",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "span.0@text##作者：",
+            "bookList": "class.booklist_a@tag.ul@tag.li",
+            "bookUrl": "class.main@tag.a.0@href",
+            "coverUrl": "class.img@tag.img@src",
+            "intro": ".intro@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "class.main@tag.a.0@text",
+            "wordCount": "span.2@text##大小："
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.main@tag.span.0@text##.*作者：",
+            "bookList": "class.list_a",
+            "bookUrl": "class.main@tag.a.0@href",
+            "coverUrl": "class.img@tag.img@src",
+            "intro": "class.intro@text",
+            "kind": "",
+            "name": "class.main@tag.a.0@text",
+            "wordCount": "class.main@tag.span.2@text##.*大小："
+        },
+        "ruleToc": {
+            "chapterList": "class.sso_a.0@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.ijjjxs.net/search/,{\n  \"method\": \"POST\",\n  \"body\": \"show=writer%2Ctitle&searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

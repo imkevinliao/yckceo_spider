@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉 精品",
+        "bookSourceName": "宙斯🎉💜",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zhousixs.com",
+        "bookUrlPattern": "",
+        "customOrder": 60218,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "总榜::/allvisit/{{page}}.html\n月榜::/monthvisit/{{page}}.html\n周榜::/weekvisit/{{page}}.html\n推荐::/allvote/{{page}}.html\n收藏::/goodnum/{{page}}.html\n字数::/size/{{page}}.html\n最近::/lastupdate/{{page}}.html\n新书::/postdate/{{page}}.html\n玄幻::/xuanhuan/<,{{page}}.html>\n武侠::/wuxia/<,{{page}}.html>\n都市::/dushi/<,{{page}}.html>\n历史::/lishi/<,{{page}}.html>\n游戏::/youxi/<,{{page}}.html>\n科幻::/kehuan/<,{{page}}.html>\n恐怖::/xuanyi/<,{{page}}.html>\n二次::/erciyuan/<,{{page}}.html>\n经典::/jingdian/<,{{page}}.html>\n古代::/guyan/<,{{page}}.html>\n现代::/xianyan/<,{{page}}.html>\n幻想::/huanqing/<,{{page}}.html>\n青春::/qingchun/<,{{page}}.html>\n网络::/wangluo/<,{{page}}.html>\n科幻::/mmkehuan/<,{{page}}.html>\n鬼怪::/lingyi/<,{{page}}.html>\nＮ次::/Nciyuan/<,{{page}}.html>\n言情::/yanqing/<,{{page}}.html>",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+        "lastUpdateTime": 1618208657025,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "id.intro@tag.p.0@text",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "imageStyle": "0",
+            "replaceRegex": "##喜欢.*速度最快。"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".l li||.novelslist2@tag.li!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "kind": ".s1@text&&.s5@text&&.s6@text&&.s7@text##\\[|\\]|\\s.*",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleSearch": {
+            "author": "tag.span.0@text",
+            "bookList": "id.sitembox@tag.dl",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.dd.2@text",
+            "kind": "tag.span.1@text&&tag.span.2@text&&tag.span.-1@text##\\s.*",
+            "lastChapter": "tag.a.-1@text",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.span.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

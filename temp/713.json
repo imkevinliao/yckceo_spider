@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "error:正文内容为空\nerror:Timed out waiting for 180000 ms\nerror:Timed out waiting for 180000 ms\nerror:timeout\n",
+        "bookSourceGroup": "☀晨光雨露🍒精俢源💯",
+        "bookSourceName": "🌼玫瑰小说>增加更新时间",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.meiguixsw.com",
+        "bookUrlPattern": "https://m.meiguixsw.com/book/\\d+.html",
+        "customOrder": -165971,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/sort-1-{{page}}/\n武侠仙侠::/sort-2-{{page}}/\n都市小说::/sort-3-{{page}}/\n历史小说::/sort-4-{{page}}/\n军事小说::/sort-5-{{page}}/\n科幻小说::/sort-6-{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1625650561877,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p.2@text##作者：",
+            "coverUrl": "tag.img.0@src",
+            "intro": ".block_txt2@tag.p.5@text&&.intro_info@text",
+            "kind": "class.block_txt2@tag.p.2@a@text",
+            "lastChapter": "class.block_txt2@tag.p.2@a@text",
+            "name": "tag.h1@text",
+            "tocUrl": "text.查看目录@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.nr@html##玫瑰小说网.*",
+            "imageStyle": "",
+            "nextContentUrl": "id.pb_next@href"
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text",
+            "bookList": "",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "",
+            "intro": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.p@text##.*\\/",
+            "bookList": "class.cover@tag.p",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.a.1@href##.*/(\\d+)(\\d{3}).html##http://image.meiguixsw.com/$1/$1$2/$1$2s.jpg",
+            "kind": "tag.a.0@text##\\[|\\]",
+            "lastChapter": "class.block_txt2@tag.p.-1@a@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "isVip": "",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": ""
+        },
+        "searchUrl": "/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}&searchtype=articlename\"\n}",
+        "weight": 0
+    }
+]

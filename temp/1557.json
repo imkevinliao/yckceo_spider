@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "🌸花溪小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://w.huaxi.net",
+        "customOrder": 176,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "总热销榜::https://w.huaxi.net/novel_ranklist?1=1&type=1&interval=3,{\"body\": \"ajax=1&page={{page}}&format=json&g_gender=2&pagesize=10\",\"method\": \"POST\"}\n总人气榜::https://w.huaxi.net/novel_ranklist?1=1&type=2&interval=3,{\"body\": \"ajax=1&page={{page}}&format=json&g_gender=2&pagesize=10\",\"method\": \"POST\"}\n总评论榜::https://w.huaxi.net/novel_ranklist?1=1&type=3&interval=3,{\"body\": \"ajax=1&page={{page}}&format=json&g_gender=2&pagesize=10\",\"method\": \"POST\"}\n总更新榜::https://w.huaxi.net/novel_ranklist?1=1&type=4&interval=3,{\"body\": \"ajax=1&page={{page}}&format=json&g_gender=2&pagesize=10\",\"method\": \"POST\"}\n精选推荐::https://w.huaxi.net/novel_jingxuan?g_gender=2&format=json&page={{page}}\n包月专区::https://w.huaxi.net/novel_monthly?g_gender=2&format=json&page={{page}}",
+        "lastUpdateTime": 1670850806613,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author@a@text",
+            "coverUrl": "",
+            "init": "section.detail",
+            "intro": "<br>{{book.intro}}",
+            "kind": "",
+            "lastChapter": ".chapter@a@text",
+            "name": ".book_name@span.0@text",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "p[data-pid]@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "author_name",
+            "bookList": "$.lists",
+            "bookUrl": "https://www.huaxi.net/{{$.book_id}}",
+            "checkKeyWord": "替身穷",
+            "coverUrl": "book_image",
+            "intro": "book_intro",
+            "kind": "{{$..class_name}}\n{{java.getString('$.book_finish_flag')==1?'已完结':'连载中'}}",
+            "lastChapter": "last_update_chapter_title\n@js:result?result:`第{{$.book_chapter_total}}章`",
+            "name": "book_name",
+            "wordCount": "book_content_byte"
+        },
+        "ruleToc": {
+            "chapterList": "span.cp_name>a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://w.huaxi.net/search?format=json&key={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎈  普通",
+        "bookSourceName": "我的书窝",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.wodeshuwo1.com",
+        "customOrder": 212,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "海棠耽美::http://m.wodeshuwo1.com/wapsort/7_{{page}}.html\n海棠言情::http://m.wodeshuwo1.com/wapsort/8_{{page}}.html\n情欲小说::http://m.wodeshuwo1.com/wapsort/9_{{page}}.html\n耽美::http://m.wodeshuwo1.com/wapsort/1_{{page}}.html\n辣文::http://m.wodeshuwo1.com/wapsort/2_{{page}}.html\n言情::http://m.wodeshuwo1.com/wapsort/3_{{page}}.html\n百合::http://m.wodeshuwo1.com/wapsort/4_{{page}}.html\n其他::http://m.wodeshuwo1.com/wapsort/5_{{page}}.html\n私密::http://m.wodeshuwo1.com/wapsort/6_{{page}}.html",
+        "lastUpdateTime": 1624277286436,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "tocUrl": "@js:\naid=result.match(/javascript:goChapterList\\((\\d+)\\)/)[1];\nurl=\"http://m.wodeshuwo1.com/tool/getChapterList/,\";\nverify=String(book.customIntro).match(/^.{4}/)?String(book.customIntro).match(/^.{4}/)[0]:'';\noption={\n\"method\":\"POST\",\n\"body\":\"verify=\"+verify+\"&aid=\"+aid,\n\"webView\":true\n}\nresult=url+JSON.stringify(option)"
+        },
+        "ruleContent": {
+            "content": "<js>\ncontent={\n    childNode:[],\n    childNodes:java.getElements(\"#content@p\").toArray(),\n    UpWz:function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n    },\n    load:function(){\n  this.code=result.match(/codeurl=\"(\\d+)\"/)[1];\n        var e =String(java.base64Decode(java.getString('[name=client]@content',!1))).split(/[A-Z]+%/);\n\n        for (var i = 0; i < e.length; i++) {\n            var k = this.UpWz(e[i], i);\n            this.childNode[k]=this.childNodes[i]\n        }}\n}\nif(baseUrl.match(/getVerify/)){\nsrc=\"http://m.wodeshuwo1.com/tool/getVerify/?d=\"+Math.random();\noption={\n'webView':'true'\n}\nresult='<img src=\"'+java.get('href')+','+JSON.stringify(option)+'\"><br>'+\"长按上面的图片查看验证码，或者右上角三点将图片样式改成FULL刷新正文查看验证码（没有图片的话请关闭替换净化）<br>将书加入书架，右上角编辑详情页，在简介内容顶格的地方填验证码，只要顶格写就行，后面换不换行无所谓，保存<br>详情页右上角三点刷新<br>如果刷新以后还是要获取的验证码，说明验证码不对，刷新正文获取新的验证码，重复上面步骤\"\n}else{if(baseUrl.match(/\\d+_\\d+\\.html/)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");}else{\nresult=java.getElements(\"#content@p\")\n}}\nresult+\"❤️\"\n</js>",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "class.chapterPages@tag.a!0@href",
+            "replaceRegex": "##\\s*❤️\\s*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.0@strong@text",
+            "bookList": "class.common-bookele",
+            "bookUrl": "tag.a.0@href",
+            "intro": "class.abstract@text",
+            "kind": "class.lastupdate@text##栏目：",
+            "name": "class.articlename@text||h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapterList.0@li!-1@a||li@a\n<js>\nif(String(src).match(/验证码不对/)){\nhref=\"http://m.wodeshuwo1.com/tool/getVerify/?d=\"+Math.random();java.put('href',href);\nresult=[{\"text\":\"验证码\",\"href\":href+',{\"webView\":true}'}]\n}else{result=result}\n</js>",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://m.wodeshuwo1.com/search.html?key={{key}}",
+        "weight": 0
+    }
+]

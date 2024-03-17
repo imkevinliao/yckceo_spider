@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣阁wwwrar",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.wwwrar.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1668319122385,
+        "respondTime": 1740,
+        "ruleBookInfo": {
+            "author": "class.dd_box@tag.span.0@text##状态.*|更新.*",
+            "intro": "class.book_about@tag.dd@text",
+            "kind": "class.dd_box@tag.span@text##作者.*|状态[\\：:]|字数[\\：:]|分类[\\：:]|更新[\\：:]",
+            "name": "class.name@text",
+            "tocUrl": "class.book_more@text.查看更多章节@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "replaceRegex": "##\\s*请收藏.*\\s*|\\s*[\\(（]温馨提示.*正常显示[\\）)]\\s*|"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.span@text",
+            "bookList": "class.item",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.dd@text",
+            "name": "tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.dd!0@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/s?q={{key}}",
+        "weight": 0
+    }
+]

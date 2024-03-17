@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "趣又来",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.quyoulai.com",
+        "bookUrlPattern": "https?://m.quyoulai.com/books/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::https://m.quyoulai.com/xuanhuan.html<,?page={{page}}>\n仙侠::https://m.quyoulai.com/xianxia.html<,?page={{page}}>\n都市::https://m.quyoulai.com/dushi.html<,?page={{page}}>\n历史::https://m.quyoulai.com/lishi.html<,?page={{page}}>\n科幻::https://m.quyoulai.com/kehuan.html<,?page={{page}}>\n恐怖::https://m.quyoulai.com/kongbu.html<,?page={{page}}>\n其他::https://m.quyoulai.com/qita.html<,?page={{page}}>\n全本::https://m.quyoulai.com/quanben.html<,?page={{page}}>",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"Referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1691375509618,
+        "loginCheckJs": "url=source.getKey();\ncookie.removeCookie(url);\nresult;",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}##简介：\\s+",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "#pb_next@class\n@js:\nvar png=src.indexOf(\"next.png\") > -1;\nif(result&&png){\n\tvar code=src.match(/eval\\(function(.*)\\)\\);/)[0];\n\t//java.log(code)\n\tvar regex=/\\d+,'([+\\w_]+)/;\n\tvar next=code.match(regex)[1];\n\t//java.log(next)\n\tvar url=String(next+\".html\");\n\t//java.log(url)\n\tresult=url;\n\t}else{\n\t\tresult=\"\";\n\t\t}\nresult;",
+            "replaceRegex": "##「如章节缺失.*」|您所看到的内容.*缺失.+或者请使用其它.+|本章未完.*继续阅读.+|网页版.*最新内容|请退出转码页面.+最新章节。|为你提供最快.+免费阅读。！",
+            "sourceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".lis dl",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/quyoulai/home/images/default.jpg\"",
+            "kind": ".s1@text##\\[|\\]",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "@js:\n\nvar url = source.getKey();\n\nvar html = java.ajax(url);\n\ntoken = org.jsoup.Jsoup.parse(html).select('input[name=_token]').attr('value');\n\nurl+\"/search,\"+JSON.stringify({\n  \"body\": `_token=${token}&kw=${key}`,\n  \"method\": \"POST\"\n})",
+        "weight": 0
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "就爱文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.92wx.la/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"小说·分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻小说\",\"url\":\"https://www.92wx.la/sort/1-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"武侠小说\",\"url\":\"https://www.92wx.la/sort/2-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"都市小说\",\"url\":\"https://www.92wx.la/sort/3-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"历史小说\",\"url\":\"https://www.92wx.la/sort/4-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"推理小说\",\"url\":\"https://www.92wx.la/sort/5-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"游戏小说\",\"url\":\"https://www.92wx.la/sort/6-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"https://www.92wx.la/sort/7-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"恐怖小说\",\"url\":\"https://www.92wx.la/sort/8-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"言情小说\",\"url\":\"https://www.92wx.la/sort/10-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"其他小说\",\"url\":\"https://www.92wx.la/sort/9-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"小说·排行\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"总排行榜\",\"url\":\"https://www.92wx.la/allvisit-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"总推荐榜\",\"url\":\"https://www.92wx.la/allvote-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"月排行榜\",\"url\":\"https://www.92wx.la/monthvisit-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"月推荐榜\",\"url\":\"https://www.92wx.la/monthvote-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"周排行榜\",\"url\":\"https://www.92wx.la/weekvisit-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"周推荐榜\",\"url\":\"https://www.92wx.la/weekvote-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"最新入库\",\"url\":\"https://www.92wx.la/postdate-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"https://www.92wx.la/lastupdate-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"总收藏榜\",\"url\":\"https://www.92wx.la/goodnum-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"字数排行\",\"url\":\"https://www.92wx.la/size-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1677398473197,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".p_author@text",
+            "coverUrl": "id.bookimg@img@src",
+            "downloadUrls": "li@.li3@a@href",
+            "intro": "id.bookintro@p@text",
+            "kind": "id.keywords@text&&id.count@span.0:3@text##最后更新时间：",
+            "lastChapter": "id.newlist@ul@li.0@text",
+            "name": ".d_title@h1@text",
+            "tocUrl": "li@.li2@a@href",
+            "wordCount": "id.count@span.2@text"
+        },
+        "ruleContent": {
+            "content": ".ccontent@textNodes"
+        },
+        "ruleExplore": {
+            "author": ".rankpage_list7@text",
+            "bookList": "ul@.rankpage_list_box",
+            "bookUrl": ".rankpage_list3@a@href",
+            "coverUrl": ".rankpage_list3@a@href##.*/(\\d+)(\\d+)(\\d+)(\\d+).*##/files/article/image/$1/$1$2$3$4/$1$2$3$4s.jpg",
+            "kind": ".rankpage_list8@text&&.rankpage_list2@text&&.rankpage_list4@text##\\[|\\]",
+            "lastChapter": "",
+            "name": ".rankpage_list3@text",
+            "wordCount": ".rankpage_list5@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".odd.1@text",
+            "bookList": "id.author@tbody@tr!0",
+            "bookUrl": ".odd.0@a@href##.com/##.la/",
+            "checkKeyWord": "",
+            "coverUrl": ".odd.0@a@href##.*/(\\d+)(\\d+)(\\d+)(\\d+).*##/files/article/image/$1/$1$2$3$4/$1$2$3$4s.jpg",
+            "kind": ".odd.2@text&&.even.2@text",
+            "lastChapter": ".even.0@text",
+            "name": ".odd.0@text",
+            "wordCount": ".even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".ccss",
+            "chapterName": "text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.92wx.la/modules/article/search.php,{\n  \"body\": \"searchtype=articlename=author&searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

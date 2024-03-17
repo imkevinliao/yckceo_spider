@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "感谢关耳小姐姐修改",
+        "bookSourceGroup": "🎨漫画;JSON",
+        "bookSourceName": "动漫之家v3🅰",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://v3api.dmzj.com",
+        "bookUrlPattern": "",
+        "customOrder": -3599,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "更新·全部漫画::https://nnv3api.dmzj1.com/latest/100/{{page-1}}.json?channel=Android&version=2.7.019\n更新·原创漫画::https://nnv3api.dmzj1.com/latest/1/{{page-1}}.json?channel=Android&version=2.7.019\n更新·译制漫画::https://nnv3api.dmzj1.com/latest/0/{{page-1}}.json?channel=Android&version=2.7.019\n日·人气排行::https://nnv3api.dmzj1.com/rank/0/0/0/{{page-1}}.json?channel=Android&version=2.7.019\n日·吐槽排行::https://nnv3api.dmzj1.com/rank/0/0/1/{{page-1}}.json?channel=Android&version=2.7.019\n日·订阅排行::https://nnv3api.dmzj1.com/rank/0/0/2/{{page-1}}.json?channel=Android&version=2.7.019\n周·人气排行::https://nnv3api.dmzj1.com/rank/0/1/0/{{page-1}}.json?channel=Android&version=2.7.019\n周·吐槽排行::https://nnv3api.dmzj1.com/rank/0/1/1/{{page-1}}.json?channel=Android&version=2.7.019\n周·订阅排行::https://nnv3api.dmzj1.com/rank/0/1/2/{{page-1}}.json?channel=Android&version=2.7.019\n月·人气排行::https://nnv3api.dmzj1.com/rank/0/2/0/{{page-1}}.json?channel=Android&version=2.7.019\n月·吐槽排行::https://nnv3api.dmzj1.com/rank/0/2/1/{{page-1}}.json?channel=Android&version=2.7.019\n月·订阅排行::https://nnv3api.dmzj1.com/rank/0/2/2/{{page-1}}.json?channel=Android&version=2.7.019\n总·人气排行::https://nnv3api.dmzj1.com/rank/0/3/0/{{page-1}}.json?channel=Android&version=2.7.019\n总·吐槽排行::https://nnv3api.dmzj1.com/rank/0/3/1/{{page-1}}.json?channel=Android&version=2.7.019\n总·订阅排行::https://nnv3api.dmzj1.com/rank/0/3/2/{{page-1}}.json?channel=Android&version=2.7.019\n少年漫画::https://nnv3api.dmzj1.com/classify/3262/0/{{page-1}}.json?channel=Android&version=2.7.019\n少女漫画::https://nnv3api.dmzj1.com/classify/3263/0/{{page-1}}.json?channel=Android&version=2.7.019\n青年漫画::https://nnv3api.dmzj1.com/classify/3264/0/{{page-1}}.json?channel=Android&version=2.7.019\n女青漫画::https://nnv3api.dmzj1.com/classify/13626/0/{{page-1}}.json?channel=Android&version=2.7.019\n国漫::https://nnv3api.dmzj1.com/classify/2308/0/{{page-1}}.json?channel=Android&version=2.7.019\n日本::https://nnv3api.dmzj1.com/classify/2304/0/{{page-1}}.json?channel=Android&version=2.7.019\n韩国::https://nnv3api.dmzj1.com/classify/2305/0/{{page-1}}.json?channel=Android&version=2.7.019\n欧美::https://nnv3api.dmzj1.com/classify/2306/0/{{page-1}}.json?channel=Android&version=2.7.019\n连载::https://nnv3api.dmzj1.com/classify/2309/0/{{page-1}}.json?channel=Android&version=2.7.019\n完结::https://nnv3api.dmzj1.com/classify/2310/0/{{page-1}}.json?channel=Android&version=2.7.019\n冒险::https://nnv3api.dmzj1.com/classify/4/0/{{page-1}}.json?channel=Android&version=2.7.019\n欢乐::https://nnv3api.dmzj1.com/classify/5/0/{{page-1}}.json?channel=Android&version=2.7.019\n格斗::https://nnv3api.dmzj1.com/classify/6/0/{{page-1}}.json?channel=Android&version=2.7.019\n科幻::https://nnv3api.dmzj1.com/classify/7/0/{{page-1}}.json?channel=Android&version=2.7.019\n爱情::https://nnv3api.dmzj1.com/classify/8/0/{{page-1}}.json?channel=Android&version=2.7.019\n侦探::https://nnv3api.dmzj1.com/classify/9/0/{{page-1}}.json?channel=Android&version=2.7.019\n竞技::https://nnv3api.dmzj1.com/classify/10/0/{{page-1}}.json?channel=Android&version=2.7.019\n魔法::https://nnv3api.dmzj1.com/classify/11/0/{{page-1}}.json?channel=Android&version=2.7.019\n神鬼::https://nnv3api.dmzj1.com/classify/12/0/{{page-1}}.json?channel=Android&version=2.7.019\n校园::https://nnv3api.dmzj1.com/classify/13/0/{{page-1}}.json?channel=Android&version=2.7.019\n惊悚::https://nnv3api.dmzj1.com/classify/14/0/{{page-1}}.json?channel=Android&version=2.7.019\n其他::https://nnv3api.dmzj1.com/classify/16/0/{{page-1}}.json?channel=Android&version=2.7.019\n四格::https://nnv3api.dmzj1.com/classify/17/0/{{page-1}}.json?channel=Android&version=2.7.019\n美食::https://nnv3api.dmzj1.com/classify/3327/0/{{page-1}}.json?channel=Android&version=2.7.019\n职场::https://nnv3api.dmzj1.com/classify/3328/0/{{page-1}}.json?channel=Android&version=2.7.019\n百合::https://nnv3api.dmzj1.com/classify/3243/0/{{page-1}}.json?channel=Android&version=2.7.019\n伪娘::https://nnv3api.dmzj1.com/classify/3244/0/{{page-1}}.json?channel=Android&version=2.7.019\n悬疑::https://nnv3api.dmzj1.com/classify/3245/0/{{page-1}}.json?channel=Android&version=2.7.019\n耽美::https://nnv3api.dmzj1.com/classify/3246/0/{{page-1}}.json?channel=Android&version=2.7.019\n热血::https://nnv3api.dmzj1.com/classify/3248/0/{{page-1}}.json?channel=Android&version=2.7.019\n后宫::https://nnv3api.dmzj1.com/classify/3249/0/{{page-1}}.json?channel=Android&version=2.7.019\n萌系::https://nnv3api.dmzj1.com/classify/3252/0/{{page-1}}.json?channel=Android&version=2.7.019\n治愈::https://nnv3api.dmzj1.com/classify/3254/0/{{page-1}}.json?channel=Android&version=2.7.019\n励志::https://nnv3api.dmzj1.com/classify/3255/0/{{page-1}}.json?channel=Android&version=2.7.019\n性转::https://nnv3api.dmzj1.com/classify/4518/0/{{page-1}}.json?channel=Android&version=2.7.019\n东方::https://nnv3api.dmzj1.com/classify/5077/0/{{page-1}}.json?channel=Android&version=2.7.019\n魔幻::https://nnv3api.dmzj1.com/classify/5806/0/{{page-1}}.json?channel=Android&version=2.7.019\n奇幻::https://nnv3api.dmzj1.com/classify/5848/0/{{page-1}}.json?channel=Android&version=2.7.019\n轻改::https://nnv3api.dmzj1.com/classify/6316/0/{{page-1}}.json?channel=Android&version=2.7.019\n颜艺::https://nnv3api.dmzj1.com/classify/6437/0/{{page-1}}.json?channel=Android&version=2.7.019\n搞笑::https://nnv3api.dmzj1.com/classify/7568/0/{{page-1}}.json?channel=Android&version=2.7.019\n仙侠::https://nnv3api.dmzj1.com/classify/7900/0/{{page-1}}.json?channel=Android&version=2.7.019",
+        "lastUpdateTime": 1611286404369,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "$.authors..tag_name",
+            "coverUrl": "",
+            "intro": "$.description",
+            "kind": "$.types..tag_name&&$.status..tag_name",
+            "lastChapter": "$.last_update_chapter_name",
+            "name": "$.title@put:{bid:id}"
+        },
+        "ruleContent": {
+            "content": "$.page_url[*]\n@js:\nlist=result.split(\"\\n\");\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)}\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+','+JSON.stringify(headers)+'\">'\n}\nhtml",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$.authors",
+            "bookList": "$.*",
+            "bookUrl": "https://nnv3api.dmzj1.com/comic/{$.id}{$.comic_id}.json?channel=Android&version=2.7.038",
+            "coverUrl": "$.cover\n@js:header={\"Referer\":baseUrl}\nheaders={\"headers\":JSON.stringify(header)}\nresult=result+','+JSON.stringify(headers)",
+            "intro": "",
+            "kind": "$.types",
+            "lastChapter": "$.last_name",
+            "name": "$.title"
+        },
+        "ruleToc": {
+            "chapterList": "-<js>\nvar data = result.match(/\"data\":(\\[.*?\\])/)[1];\ndata\n</js>\n$.[*]",
+            "chapterName": "$.chapter_title",
+            "chapterUrl": "https://nnv3api.dmzj1.com/chapter/@get:{bid}/{{$.chapter_id}}.json?channel=Android&version=2.7.038"
+        },
+        "searchUrl": "https://nnv3api.dmzj1.com/search/show/0/{{key}}/{{page-1}}.json?channel=Android&version=2.7.038",
+        "weight": 0
+    }
+]

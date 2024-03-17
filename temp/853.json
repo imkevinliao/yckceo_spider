@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceUrl": "http://m.hbook.cc",
+        "bookSourceType": "0",
+        "bookSourceName": "好书网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "<js>\nvar option = {\"method\":\"POST\",\"body\":\"type=articlename&s=\"+String(java.encodeURI(key,\"gbk\"))};\n\"http://m.hbook.cc/s.php,\"+JSON.stringify(option)\n</js>",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1637341455925,
+        "ruleSearch": {
+            "bookList": "class.search_list",
+            "name": "tag.a.0@text",
+            "author": "tag.a.2@text",
+            "kind": "tag.a.1@text",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.catalog1@tag.h1@text",
+            "author": "class.p1.0@text",
+            "kind": "class.p4@text",
+            "wordCount": "class.p6@text",
+            "lastChapter": "class.p3.0@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.p2.2@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "class.right@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@html",
+            "nextContentUrl": "<js>if(!baseUrl.match(\"_2.html\")){baseUrl.replace(\".html\",\"_2.html\")}</js>"
+        }
+    }
+]

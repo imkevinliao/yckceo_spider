@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "和图书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.hetushu.com/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "header": "",
+        "lastUpdateTime": 1681229110344,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.binfo@img@src",
+            "intro": "class.content@html",
+            "tocUrl": "text.更多目录@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html\n<js>result</js>\ntag.div@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "tag.book",
+            "bookUrl": "https://m.hetushu.com/book/{{@@id}}/index.html",
+            "kind": "type",
+            "name": "name"
+        },
+        "ruleToc": {
+            "chapterList": "class.dir@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":\"true\"}",
+            "nextTocUrl": "option@value\n<js>\nlist = result.toArray();\nl=[];\nfor(i in list){\n\tl.push(baseUrl.replace(/catalog-\\d+/,'catalog-'+list[i]))\n\t}\n\tl\n</js>"
+        },
+        "searchUrl": "https://m.hetushu.com/book/search.list.php?keyword={{java.encodeURI(java.encodeURI(key))}}&stat=true&page=1,{\n\t\"headers\":{\"referer\":\"https://m.hetushu.com/book/search.php?keyword={{java.encodeURI(key)}}\",\n\t\"x-requested-with\":\"XMLHttpRequest\"\n\t}\n\t}",
+        "weight": 0
+    }
+]

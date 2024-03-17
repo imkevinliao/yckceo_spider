@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceUrl": "http://app.xiaoshuo123456789.com:8765",
+        "bookSourceType": "0",
+        "bookSourceName": "🎉 飞鸟小说",
+        "bookSourceGroup": "🎉 精选",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/search/?searchkey={{key}}",
+        "exploreUrl": "[\n{\"title\":\"小说排行\",\"url\":\"\",\"style\":{\"layout_flexGrow\": 0,\"layout_flexBasisPercent\":1}},\n{\"title\":\"总点击榜\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"周点击榜\",\"url\":\"/rank/weekvisit/\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"月点击榜\",\"url\":\"/rank/monthvisit/\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"收藏榜\",\"url\":\"/rank/goodnum/\",\"style\":{\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"小说分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\": 0,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部小说\",\"url\":\"/class/{{page}}\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"玄幻魔法\",\"url\":\"/class/1/{{page}}\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/class/2/{{page}}\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"都市言情\",\"url\":\"/class/3/{{page}}\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"历史军事\",\"url\":\"/class/4/{{page}}\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"网游竞技\",\"url\":\"/class/5/{{page}}\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"恐怖灵异\",\"url\":\"/class/6/{{page}}\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"科幻小说\",\"url\":\"/class/7/{{page}}\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"其他小说\",\"url\":\"/class/8/{{page}}\",\"style\":{\"layout_flexGrow\": 0.25,\"layout_flexBasisPercent\": -1}}\n]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 26,
+        "lastUpdateTime": 1653374593966,
+        "ruleSearch": {
+            "bookList": ".content@dl",
+            "name": "dt@a@text",
+            "author": "tag.dd.1@a@text",
+            "kind": "tag.dd.1@tag.span.0@text",
+            "wordCount": "tag.dd.1@tag.span.1@text",
+            "intro": "tag.dd.0@text",
+            "coverUrl": "img@data-original",
+            "bookUrl": "dt@a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "author": "[property=\"og:novel:author\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "{{@@[property=\"og:novel:latest_chapter_name\"]@content}} ▪️ {{@@[property=\"og:novel:update_time\"]@content}}",
+            "intro": "[property=\"og:description\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "tocUrl": "text.全部章节目录@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.bookchapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@p@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

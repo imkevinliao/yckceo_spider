@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "saberyz修复",
+        "bookSourceName": "品书网",
+        "bookSourceUrl": "https://www.pinshu.cc",
+        "enable": true,
+        "ruleBookAuthor": "id.info@tag.a.0@text",
+        "ruleBookContent": "id.content@html##品书网.*",
+        "ruleBookLastChapter": "id.info@tag.a.4@text##正文",
+        "ruleBookName": "id.info@h1@text",
+        "ruleChapterList": "id.list@tag.dd@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "id.fmimg@img@src",
+        "ruleIntroduce": "id.intro@text",
+        "ruleSearchAuthor": "class.s4@text",
+        "ruleSearchKind": "class.s1@text",
+        "ruleSearchLastChapter": "tag.a.1@text&&class.s5@text",
+        "ruleSearchList": "class.novelslistss@tag.li",
+        "ruleSearchName": "tag.a.0@text",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleSearchUrl": "https://www.pinshu.cc/modules/article/search.php?searchkey=searchKey&page=searchPage|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

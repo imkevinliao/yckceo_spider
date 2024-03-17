@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceGroup": "A级; 耽美",
+        "bookSourceName": "耽美小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.88danmei.com",
+        "bookUrlPattern": "",
+        "customOrder": -3541,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.block_txt@tag.a.2@text",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro_info@text",
+            "kind": "class.block_txt@tag.a.3@text",
+            "lastChapter": "class.block_txt@tag.a.-1@text",
+            "name": "tag.h1@text",
+            "tocUrl": "class.ablum_read.0@tag.a.1@href",
+            "wordCount": "class.block_txt@tag.p.5@text##更新："
+        },
+        "ruleContent": {
+            "content": "id.nr1@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.2@tag.a@text",
+            "bookList": "class.cover@class.block",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href@js:\nvar id = result.match(/\\/(\\d+)\\.?/)[1];\n'/files/article/image/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+            "intro": "",
+            "kind": "tag.p.3@tag.a@text",
+            "lastChapter": "tag.p.-1@text",
+            "name": "tag.h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.88danmei.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&submit=搜索&type=articlename\"\n}",
+        "weight": 0
+    }
+]

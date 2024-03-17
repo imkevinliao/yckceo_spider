@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "LIAN",
+        "bookSourceGroup": "",
+        "bookSourceName": "7017k小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.7017k.net",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": -88951461,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1651524896361,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info@tag.a.0@text",
+            "coverUrl": "class.pic@tag.img@src",
+            "init": "",
+            "intro": "class.words@tag.p@text##简介：",
+            "kind": "class.lb@tag.a.0@text",
+            "lastChapter": "class.words@tag.a@text",
+            "name": "class.j_box@class.title@tag.h1@text",
+            "wordCount": "class.info@tag.li.5@tag.font@text"
+        },
+        "ruleContent": {
+            "content": "class.box_box@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.state@tag.a.0@text",
+            "bookList": "class.ul_b_list@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "tag.img@src",
+            "intro": "class.words@tag.p.2@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list_box@tag.ul@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/plus/search.php?kwtype=0&searchtype=&q={{key}}",
+        "weight": 0
+    }
+]

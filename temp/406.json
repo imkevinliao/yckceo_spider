@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "new",
+        "bookSourceName": "梦远书城",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.mengyuanshucheng.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1650532860608,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "",
+            "tocUrl": "class.newrap@strong@a@href"
+        },
+        "ruleContent": {
+            "content": "class.pt-read-text@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.mr30.0@a@text",
+            "bookList": "class.pt-rank-detail",
+            "bookUrl": "a@href",
+            "coverUrl": "a@img@src",
+            "intro": "class.compulsory-row fl w100 color5 desc@text",
+            "kind": "class.fl color7@span.2@a@text",
+            "lastChapter": "class.color2 mr20@text",
+            "name": "class.size18 color2@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.mengyuanshucheng.com/search/result.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

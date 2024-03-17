@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "悟空追书[wkzs]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.wkzs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1649660592369,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.imgbox@img@src",
+            "init": "",
+            "intro": "class.desc xs-hidden@textNodes"
+        },
+        "ruleContent": {
+            "content": "class.content@p@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.s4.1@text",
+            "bookList": "class.txt-list txt-list-row5&&li",
+            "bookUrl": "class.s2.1@a@href",
+            "kind": "class.s1.1@text##\\[(.*)]##$1##",
+            "lastChapter": "class. s3.0@a@text",
+            "name": "class.s2.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-box.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search/,{\"method\":\"POST\",\"body\":\"searchkey={{key}}&searchtype=all&submit=\"}",
+        "weight": 0
+    }
+]

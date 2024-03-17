@@ -1,0 +1,29 @@
+[
+    {
+        "bookSourceGroup": "《精选书源》",
+        "bookSourceName": "♠ 思路客①",
+        "bookSourceUrl": "https://www.siluke.la",
+        "enable": true,
+        "ruleBookAuthor": "class.col-md-10@tag.p.0@tag.a.0@text",
+        "ruleBookContent": "class.panel-body@html||id.html-Content@html##求书请后台告知管理员.|本章.*下一页继续阅读|一秒记住.*免费阅读！",
+        "ruleBookKind": "class.col-md-10@tag.p.0@tag.a.1@text&&\nclass.col-md-10@tag.p.0@tag.span.2@text&&\nclass.col-md-10@tag.p.2@text##更新时间：",
+        "ruleBookLastChapter": "class.col-md-10@tag.p.1@tag.a@text",
+        "ruleBookName": "class.col-md-10@tag.h1@text",
+        "ruleChapterList": "class.panel-body panel-chapterlist.1@tag.dd",
+        "ruleChapterName": "tag.a@text",
+        "ruleContentUrl": "tag.a@href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.col-md-2 col-xs-4 hidden-xs@img@src",
+        "ruleIntroduce": "class.col-md-10@tag.p.3@text",
+        "ruleSearchAuthor": "tag.td.2@text",
+        "ruleSearchCoverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.siluke.la/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "ruleSearchKind": "tag.td.4@text&&\ntag.td.5@text",
+        "ruleSearchLastChapter": "tag.td.1@tag.a@text",
+        "ruleSearchList": "class.table@tag.tr",
+        "ruleSearchName": "tag.td.0@tag.a@text",
+        "ruleSearchNoteUrl": "tag.td.0@tag.a@href",
+        "ruleSearchUrl": "https://www.siluke.la/modules/article/search.php?searchkey=searchKey&page=searchPage|char=gbk",
+        "serialNumber": 771,
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceUrl": "https://www.ixs.cc",
+        "bookSourceType": "0",
+        "bookSourceName": "0718🧜‍♀️ixs🍄少敏感字🍄爱小说",
+        "bookSourceGroup": "0718*少敏感字*组合",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0\",\n    \"Cookie\": \"Hm_lpvt_covid197ca72ab9804ca50c2fcovid19:1234567890\"\n}",
+        "searchUrl": "https://www.ixs.cc/search.htm?keyword={{key}}&pn=<,{{page}}>",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 80,
+        "customOrder": 20,
+        "lastUpdateTime": 1626581307065,
+        "ruleSearch": {
+            "bookList": "class.lastest@tag.li!0",
+            "name": ".n2@text",
+            "author": ".a2@text",
+            "kind": ".nt@text&&\nclass.t@text",
+            "lastChapter": ".c2@text",
+            "bookUrl": ".n2@a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": ".line.0 @h1 @text",
+            "author": ".detail.0 @tag.i.0 @a @text",
+            "kind": "p.0 @i.1 @text",
+            "lastChapter": "p.2 @i @a @text",
+            "intro": ".desc @text##.*简介：",
+            "coverUrl": ".cover @img @src"
+        },
+        "ruleToc": {
+            "chapterList": ".mulu @li",
+            "chapterName": "a @text",
+            "chapterUrl": "a @href ##$##,{\n\"headers\": {\"Cookie\": \"covid19=; UM_distinctid=;\"}\n}"
+        },
+        "ruleContent": {
+            "webJs": "getDecode();$('#content').html();",
+            "content": ".content@textNodes"
+        }
+    }
+]

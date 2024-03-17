@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceGroup": "《精选书源》",
+        "bookSourceName": "👾长沙小说",
+        "bookSourceUrl": "http://m.csxsrc.com",
+        "enable": true,
+        "httpUserAgent": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+        "loginUrl": "",
+        "ruleBookAuthor": "class.author@tag.a@text",
+        "ruleBookContent": "class.content@tag.p!-1@text",
+        "ruleBookKind": "",
+        "ruleBookLastChapter": "class.new@tag.a@text",
+        "ruleBookName": "class.name@text",
+        "ruleBookUrlPattern": "",
+        "ruleChapterList": "class.read@tag.li",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrl": "class.now@tag.a@href",
+        "ruleChapterUrlNext": "text.下一页@href",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "class.detail@tag.img@src",
+        "ruleIntroduce": "class.intro.0@tag.p.0@textNodes",
+        "ruleSearchAuthor": "class.data.0@tag.a@text",
+        "ruleSearchCoverUrl": "tag.img@src",
+        "ruleSearchKind": "tag.span@text",
+        "ruleSearchLastChapter": "class.data.1@tag.a@text",
+        "ruleSearchList": "class.list@tag.li",
+        "ruleSearchName": "class.bookname@tag.a@text",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleSearchUrl": "/search.html@searchkey=searchKey",
+        "serialNumber": 224,
+        "weight": 0
+    }
+]

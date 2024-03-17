@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceUrl": "https://kdread.cn",
+        "bookSourceType": "0",
+        "bookSourceName": "必看悦读",
+        "bookSourceGroup": "🕸️ API",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "{\"type\"=\"app\"}",
+        "bookUrlPattern": "",
+        "searchUrl": "https://api.97yd.com/search,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}&page={{page-1}}\"\n}",
+        "exploreUrl": "[\n{\"title\": \"❀男生排行❀\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 1\n}},\n{\"title\": \"人气榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=1&type=0&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"好评榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=1&type=1&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"完结榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=1&type=2&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"新书榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=1&type=3&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"热搜榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=1&type=4&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"推荐榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=1&type=5&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"❀女生排行❀\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 1\n}},\n{\"title\": \"人气榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=2&type=0&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"好评榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=2&type=1&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"完结榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=2&type=2&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"新书榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=2&type=3&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"热搜榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=2&type=4&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"推荐榜\",\"url\": \"https://api.97yd.com/top,{'method':'POST','body':'bid=2&type=5&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"❀男生频道❀\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 1\n}},\n{\"title\": \"玄幻魔法\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=1&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"武侠修真\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=2&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"都市生活\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=3&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"历史军事\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=4&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"游戏竞技\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=5&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"科幻灵异\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=6&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"恐怖悬疑\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=7&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"穿越架空\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=8&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"短篇经典\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=9&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"女生频道\",\"url\": \"\",\n\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 1\n}},\n{\"title\": \"古代言情\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=10&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"现代言情\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=11&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"幻想奇缘\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=12&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"青春校园\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=13&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"网络情缘\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=14&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"N次い元\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=16&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"言情美文\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=17&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 0.29\n}},\n{\"title\": \"其他类型\",\"url\": \"https://api.97yd.com/sortlist,{'method':'POST','body':'sortid=18&page={{page-1}}'}\",\n\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 0.29\n}}\n]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -100003,
+        "lastUpdateTime": 1660369345992,
+        "ruleSearch": {
+            "bookList": "$.data[*]",
+            "name": "$.title##最新章节|全文(免费)?阅读|阅读全文",
+            "author": "$.author",
+            "kind": "$.sortname",
+            "wordCount": "{{$.words_w}}万字",
+            "intro": "$.desc",
+            "coverUrl": "$.img",
+            "bookUrl": "https://api.97yd.com/info,{\n\"method\": \"POST\",\n\"body\": \"bookid={{$.bookid}}&type=all\"\n}"
+        },
+        "ruleExplore": {
+            "bookList": "$.data[*]",
+            "name": "$.title##最新章节|全文(免费)?阅读|阅读全文",
+            "author": "$.author",
+            "kind": "{{$.sortname}}\n{{$.isfull}}\n{{$.bname}}",
+            "wordCount": "{{$.words}}万字",
+            "intro": "$.desc",
+            "coverUrl": "$.img",
+            "bookUrl": "https://api.97yd.com/info,{\n\"method\": \"POST\",\n\"body\": \"bookid={{$.bookid}}&type=all\"\n}"
+        },
+        "ruleBookInfo": {
+            "init": "$.data",
+            "name": "$.title##最新章节|全文(免费)?阅读|阅读全文",
+            "author": "$.author@put:{'bid':$.bookid}",
+            "kind": "{{$.lastupdate##更新}}\n{{$.sortname}}\n{{$.score}}分",
+            "wordCount": "{{$.words_w}}万字",
+            "lastChapter": "$.lastchapter",
+            "intro": "$.intro",
+            "coverUrl": "$.img",
+            "tocUrl": "https://api.97yd.com/menu,{\n\"method\": \"POST\",\n\"body\": \"bookid={{$.bookid}}&start=0\"\n}"
+        },
+        "ruleToc": {
+            "chapterList": "$.data[*]",
+            "chapterName": "$.chaptername",
+            "chapterUrl": "https://api.97yd.com/reader,{\n\"method\": \"POST\",\n\"body\": \"bookid=@get:{bid}&chapterid={{$.chapterid}}\"\n}"
+        },
+        "ruleContent": {
+            "content": "$.data##九桃小说.*最新域名.*org\\)"
+        }
+    }
+]

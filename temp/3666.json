@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "破冰的源教程建议不开CookieJar\n\n搜索地址还可https://www.ppxxs.com/index.php/art/search/page/{{page}}/wd/{{key}}.html\n\n书名规则还可\ntext##\\d{2}-\\d{2}\n\n正文规则还可\n.panel-body@p.1@html||.panel-body@p.0@html\n\n目录列表规则还可\n.text-center\n\n章节名称规则还可\ntext##『(.*)』##$1",
+        "bookSourceGroup": "【0.自制｜含🎨】",
+        "bookSourceName": "皮皮虾",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ppxxs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n人妻::/index.php/art/type/id/20/page/{{page}}.html\n都市::/index.php/art/type/id/21/page/{{page}}.html\n校园::/index.php/art/type/id/22/page/{{page}}.html\n真实::/index.php/art/type/id/23/page/{{page}}.html\n武侠::/index.php/art/type/id/24/page/{{page}}.html\n乱伦::/index.php/art/type/id/25/page/{{page}}.html\n职场::/index.php/art/type/id/26/page/{{page}}.html\n经验::/index.php/art/type/id/27/page/{{page}}.html\n暴力::/index.php/art/type/id/28/page/{{page}}.html\n幻想::/index.php/art/type/id/29/page/{{page}}.html\n明星::/index.php/art/type/id/30/page/{{page}}.html",
+        "lastUpdateTime": 1687942367326,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "h4~*@html"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": ".list-group a",
+            "bookUrl": "href",
+            "kind": "span@text",
+            "name": "textNodes"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": ".list-group a",
+            "bookUrl": "href",
+            "kind": "span@text",
+            "name": "textNodes"
+        },
+        "ruleToc": {
+            "chapterList": "h4",
+            "chapterName": "text",
+            "chapterUrl": ""
+        },
+        "searchUrl": "/index.php/art/search.html,{\n\"method\": \"post\",\n\"body\": \"wd={{key}}\"\n}",
+        "weight": 0
+    }
+]

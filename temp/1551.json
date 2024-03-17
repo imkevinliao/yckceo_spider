@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "S",
+        "bookSourceName": "小书亭",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xiaoshuting.la",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1671264345073,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.banner@tag.ul",
+            "bookUrl": "class.s2@tag.a@href",
+            "checkKeyWord": "我的",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@tag.a@text",
+            "name": "class.s2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapterlist.1@tag.ul@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.xiaoshuting.la/search.php,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\",\n\"headers\": {\"cookie\":\"cf_clearance=01KCsxKbarhPOh75FW01xxztt2uaovWgH3IDYBG2bCQ-1671261296-0-160; __cf_bm=_SZDfiXM34n02ercCC9ZXjAF1dI0K.OicUIURj53R9s-1671264062-0-AUTXjGy27cYCrdgm7p5tvfMxfKa+asvP5lajAsucuBHGcammMD7a0nMjkromyBULWjm+Weozbjy1vrfZ3HOAaAbOXz+Jcrhv9eFs7I3yYDSBsPRSxn5sA3fXLnmM6oY+VNIV1YW4oJ4i1XrQLKgb6iI=\",\"user-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54\",\"referer\":\" https://www.xiaoshuting.la/search.php\"}\n}",
+        "weight": 0
+    }
+]

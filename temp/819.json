@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "by：沉默_9527",
+        "bookSourceGroup": "",
+        "bookSourceName": "下书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xiashuyun.com/",
+        "customOrder": -293512,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1640295147624,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.pic@tag.img@src",
+            "intro": "class.bookintro mt20@class.con@textNodes",
+            "lastChapter": "class.cataloglist@tag.li.-1@text",
+            "tocUrl": "class.content@class.module mt10.0@class.bookbutton mt10@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "class.articlecon font-normal@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完，请点击下一页继续阅读！"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.mt5 gray@tag.a@text&&tag.li@tag.p.1@text##连载|完本|作者：",
+            "bookList": "class.module mt10.0&&class.module mt10.1@li",
+            "bookUrl": "class.pic@tag.a@href&&tag.li@tag.a@href",
+            "coverUrl": "tag.img@src&&tag.li@tag.img@src",
+            "intro": "class.intro@text",
+            "kind": "class.gray.1@text&&class.gray.4@text&&tag.li@tag.p.3@text##分类：|更新：",
+            "name": "class.title@text&&class.book_title@text",
+            "wordCount": "class.gray.3@text&&class.module mt10.1@tag.li@tag.p.1@text##进度：|作者：.*"
+        },
+        "ruleToc": {
+            "chapterList": "class.module mt10@class.cataloglist@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.xiashuyun.com/search.html,{\n\t'charset': 'utf-8',\n'method': 'POST',\n'body': 'searchkey={{key}}'\n}",
+        "weight": 0
+    }
+]

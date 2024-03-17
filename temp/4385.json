@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceName": "万相书城",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wxsc8.com/",
+        "customOrder": -2147483631,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 1698759595973,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.col-md-8 col-sm-6 dark.0@tag.a.0@text",
+            "intro": "class.col-sm-11 col-xs-10@text",
+            "lastChapter": "class.col-md-8 col-sm-6 dark.1@tag.a.0@text",
+            "name": "class.book-name@text",
+            "tocUrl": "class.panel-footer visible-xs visible-sm@href"
+        },
+        "ruleContent": {
+            "content": "id.cont-body@text",
+            "nextContentUrl": "class.col-md-6 text-center@tag.a.2@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.table table-condensed@tag.tr!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.col-md-6 item",
+            "chapterName": "class.col-md-6 item@tag.a@text",
+            "chapterUrl": "class.col-md-6 item@tag.a@href"
+        },
+        "searchUrl": "https://www.wxsc8.com/plus/search.php?q={{key}}",
+        "weight": 0
+    }
+]

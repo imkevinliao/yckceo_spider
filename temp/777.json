@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "海棠文，与tinghaode123同模板源",
+        "bookSourceGroup": "🔞 特殊,☁️可用,☣️精选senhora,☁️修正,📚 出版,🌹",
+        "bookSourceName": "📚什么看书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shenmekan.top",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": -88917345,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最近更新::/category/0/{{page}}.html\n科幻::/category/1/{{page}}.html\n玄幻::/category/3/{{page}}.html\n都市::/category/5/{{page}}.html\n修真::/category/6/{{page}}.html\n穿越::/category/29/{{page}}.html\n网游::/category/30/{{page}}.html\n言情::/category/4/{{page}}.html\n侦探::/category/40/{{page}}.html\n外国::/category/33/{{page}}.html\n惊悚::/category/44/{{page}}.html\n当代::/category/38/{{page}}.html\n网络::/category/31/{{page}}.html\n杂文::/category/34/{{page}}.html\n历史::/category/51/{{page}}.html\n武侠::/category/49/{{page}}.html\n青春::/category/50/{{page}}.html\n传记::/category/32/{{page}}.html\n中国::/category/42/{{page}}.html\n科普::/category/47/{{page}}.html\n寓言::/category/46/{{page}}.html\n诗歌::/category/35/{{page}}.html\n政治::/category/45/{{page}}.html\n社会::/category/43/{{page}}.html\n纪实::/category/39/{{page}}.html\n英文::/category/58/{{page}}.html\n古典::/category/57/{{page}}.html\n宗教::/category/41/{{page}}.html\n战争::/category/56/{{page}}.html\n官场::/category/54/{{page}}.html\n现代::/category/55/{{page}}.html\n作品::/category/48/{{page}}.html\n轻小说::/category/53/{{page}}.html\n文学::/category/36/{{page}}.html\n世界::/category/37/{{page}}.html\n国学::/category/52/{{page}}.html\n日语::/category/59/{{page}}.html\n其他::/category/11/{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+        "lastUpdateTime": 1642038978040,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author@tag.a@text",
+            "coverUrl": ".BGsectionOne-top-left@img@data",
+            "intro": ".BGsectionTwo-bottom@textNodes##本站提示：.*",
+            "kind": ".category@tag.a@text",
+            "lastChapter": ".newestChapter@tag.a@text",
+            "name": ".title@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.C0NTENT@html",
+            "nextContentUrl": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": ".b@text",
+            "bookList": ".CGsectionTwo-right-content-unit",
+            "bookUrl": ".title@href",
+            "intro": "tag.p.2@text",
+            "kind": "",
+            "lastChapter": "tag.p.3@text##最近更新 |",
+            "name": ".title@text"
+        },
+        "ruleSearch": {
+            "author": "tag.span.2@tag.a@text",
+            "bookList": ".SHsectionThree-middle@tag.p",
+            "bookUrl": "tag.span.1@tag.a@href",
+            "checkKeyWord": "",
+            "kind": "tag.span.0@tag.a@text",
+            "name": "tag.span.1@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".BCsectionTwo-top-chapter",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href##$##,{'webView': true}",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.shenmekan.top/search/{{key}}",
+        "weight": 0
+    }
+]

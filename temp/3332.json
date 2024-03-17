@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,修复,源仓库,网页源",
+        "bookSourceName": "爱下书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.aixiaxs.info/",
+        "customOrder": 2445,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort/1_{{page}}/\n武侠修真::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n网游竞技::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n其他小说::/sort/7_{{page}}/",
+        "lastUpdateTime": 1690360640956,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.tab@class.p1@text",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "class.jj@class.p2@text",
+            "kind": "class.tab1@p.0:1@text",
+            "lastChapter": "class.tab@class.p3@text##最新：",
+            "name": "h1.1@text",
+            "wordCount": "class.tab1@p.2@text"
+        },
+        "ruleContent": {
+            "content": "#novelcontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完.*继续阅读.*"
+        },
+        "ruleExplore": {
+            "author": "class.p4@a@text",
+            "bookList": "class.tt",
+            "bookUrl": "class.p1@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.p5@text",
+            "kind": "class.p2@text",
+            "name": "class.p1@a@text",
+            "wordCount": "class.p3@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.search_list",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.info_chapters@class.p2.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://wap.aixiashu.info/s.php,{\n  \"body\": \"s={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

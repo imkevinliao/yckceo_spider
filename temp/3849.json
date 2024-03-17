@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "思路客（新）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.siluke.com//",
+        "bookUrlPattern": "https://m.siluke.com/wapbook/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/xclass/0/{{page}}.html\n玄幻::/xclass/1/{{page}}.html\n武侠::/xclass/2/{{page}}.html\n穿越::/xclass/3/{{page}}.html\n都市::/xclass/4/{{page}}.html\n历史::/xclass/5/{{page}}.html\n科幻::/xclass/6/{{page}}.html\n网游::/xclass/7/{{page}}.html\n耽美::/xclass/8/{{page}}.html\n推理::/xclass/9/{{page}}.html\n恐怖::/xclass/10/{{page}}.html\n其它::/xclass/11/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691114659083,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#book_detail a.0@text",
+            "coverUrl": "#thumb img@src",
+            "intro": ".review@text",
+            "kind": "#book_detail li.1:2:3@text\n##类别：|状态：|更新：",
+            "lastChapter": "#chapterlist p.0@text",
+            "name": ".title@text",
+            "tocUrl": "text.章节列表@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.+\\[.*页\\]|『加入书签，方便阅读』|『章节错误，点此报送』"
+        },
+        "ruleExplore": {
+            "author": "a.-1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a.2@href",
+            "coverUrl": "img@src",
+            "intro": ".review@text##简介：",
+            "kind": ".score@text",
+            "name": "p.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/images/nocover.jpg\"",
+            "kind": "p.-1@textNodes##.*\\s",
+            "lastChapter": "a.-1@text",
+            "name": "p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.shulouba8.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

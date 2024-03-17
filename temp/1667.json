@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "爱优喵",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.iumew.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1667911351646,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.novel_info_title@i@a@text",
+            "coverUrl": "class.novel_info_main@img@src",
+            "intro": "class.sharediv.0@text",
+            "kind": "class.novel_info_title@p@text",
+            "lastChapter": "class.flex to100@text",
+            "name": "h1@text",
+            "tocUrl": "class.section chapter_list@p@a@href"
+        },
+        "ruleContent": {
+            "content": "id.bodybox@html"
+        },
+        "ruleSearch": {
+            "author": "class.li_bottom@a@text",
+            "bookList": "class.flex@li",
+            "bookUrl": "class.w100@a@href",
+            "coverUrl": "tag.img@crs",
+            "intro": "class.indent@text",
+            "kind": "class.img_span@a@span@text",
+            "lastChapter": "",
+            "name": "class.w100@a@h2@text",
+            "wordCount": "class.orange@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section chapter_list@li",
+            "chapterName": "li@a@text",
+            "chapterUrl": "@li@a@href"
+        },
+        "searchUrl": "http://www.iumew.com/so/{{key}}",
+        "weight": 0,
+        "exploreUrl": "奇幻玄幻::qihuan/11-{{page}}.html\n武侠仙侠::wuxia/22-{{page}}.html\n都市青春::dushi/33-{{page}}.html\n历史穿越::lishi/44-{{page}}.html\n游戏竞技::youxi/55-{{page}}.html\n科幻奇异::kehuan/66-{{page}}.html\n全本小说::quanben/{{page}}"
+    }
+]

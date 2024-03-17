@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "目录加载较慢，偶尔超时宕机",
+        "bookSourceGroup": "自制,特殊,源仓库,网页源",
+        "bookSourceName": "若读小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ruodu.cc",
+        "bookUrlPattern": "https://www.ruodu.cc/wen.*",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "爽文::/sort/14/{{page}}.html\n乡村::/sort/9/{{page}}.html\n校园::/sort/15/{{page}}.html\n玄幻::/sort/1/{{page}}.html\n都市::/sort/3/{{page}}.html\n仙侠::/sort/2/{{page}}.html\n历史::/sort/4/{{page}}.html\n科幻::/sort/7/{{page}}.html\n穿越::/sort/5/{{page}}.html\n同人::/sort/8/{{page}}.html",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1686096925938,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "{{baseUrl}}##.html$##/"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "#next_url@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "class.category-div",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": "class.intro indent@text",
+            "kind": "0",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".info-chapters@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ".page@span.1@a@href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

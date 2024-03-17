@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☁️可用,☁️修正",
+        "bookSourceName": "💰 中文书城",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.cread.com",
+        "customOrder": -88962048,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"综合排行\",\"url\":\"/bookstore/0/0/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"热读排行\",\"url\":\"/bookstore/0/0/1/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"更新榜单\",\"url\":\"/bookstore/0/0/2/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击榜单\",\"url\":\"/bookstore/0/0/3/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"订阅榜单\",\"url\":\"/bookstore/0/0/4/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书榜单\",\"url\":\"/topbook_bangdan.aspx?phid=10&page={{page}}/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"热搜榜单\",\"url\":\"/topbook_bangdan.aspx?phid=11&page={{page}}/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"畅销榜单\",\"url\":\"/topbook_bangdan.aspx?phid=12&page={{page}}/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"男生追书\",\"url\":\"/topbook_bangdan.aspx?phid=13&page={{page}}/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生人气\",\"url\":\"/topbook_bangdan.aspx?phid=14&page={{page}}/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"男生完结\",\"url\":\"/topbook_bangdan.aspx?phid=15&page={{page}}/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生完结\",\"url\":\"/topbook_bangdan.aspx?phid=16&page={{page}}/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"出版好评\",\"url\":\"/topbook_bangdan.aspx?phid=17&page={{page}}/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"男生\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"东方玄幻\",\"url\":\"/bookstore/1/1100/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市小说\",\"url\":\"/bookstore/1/1200/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"西方奇幻\",\"url\":\"/bookstore/1/1300/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/bookstore/1/1400/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"架空历史\",\"url\":\"/bookstore/1/1500/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻未来\",\"url\":\"/bookstore/1/1600/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/bookstore/1/1700/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"悬疑惊悚\",\"url\":\"/bookstore/1/1800/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"女生\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"/bookstore/2/2100/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"幻想言情\",\"url\":\"/bookstore/2/2200/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/bookstore/2/2300/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总裁豪门\",\"url\":\"/bookstore/2/2400/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春校园\",\"url\":\"/bookstore/2/2500/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"唯美同人\",\"url\":\"/bookstore/2/2600/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"出版\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"文学小说\",\"url\":\"/bookstore/3/3100/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"经典名著\",\"url\":\"/bookstore/3/3200/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"经管励志\",\"url\":\"/bookstore/3/3300/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"生活休闲\",\"url\":\"/bookstore/3/3400/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"婚姻家庭\",\"url\":\"/bookstore/3/3500/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科普教育\",\"url\":\"/bookstore/3/3600/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"纪实传记\",\"url\":\"/bookstore/3/3700/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"亲子育儿\",\"url\":\"/bookstore/3/3800/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"工具百科\",\"url\":\"/bookstore/3/3900/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "header": "",
+        "lastUpdateTime": 1645256475009,
+        "loginUrl": "http://m.cread.com/user/login.aspx",
+        "respondTime": 8690,
+        "ruleBookInfo": {
+            "author": ".ui_bookinfo_detail p.0@text##.*：",
+            "coverUrl": ".ui_bookinfo_cover img@src",
+            "intro": "🔖标签：{{@@.ui_bookinfo_tag@text}}\n{{@@.jianjie_intro@textNodes}}##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": ".ui_bookinfo_detail p.1@text##.*：|\\|##,",
+            "lastChapter": "class.zw_flex.1@text",
+            "name": ".ui_head_bookname@text",
+            "tocUrl": "class.ui_bookinfo_catalog zw_box@a.0@href##$##,{'webView': true}",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#uiContent@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".ui_authorname@text",
+            "bookList": "#uiUL li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "{{@@.lb_score@text}}分",
+            "lastChapter": "",
+            "name": ".bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.ul_catalog@li@a",
+            "chapterName": ".title@text",
+            "chapterUrl": "href##$##,{'webView': true}",
+            "isVip": "##VIP##🔒"
+        },
+        "searchUrl": "/searchbook.aspx?key={{key}}&type=1",
+        "weight": 0
+    }
+]

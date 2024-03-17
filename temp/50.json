@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "翻书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.didi6.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻月榜\",\"url\":\"/all/order/hits_month%2Bdesc/id/42.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"武侠修真月榜\",\"url\":\"/all/order/hits_month%2Bdesc/id/43.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"都市异能月榜\",\"url\":\"/all/order/hits_month%2Bdesc/id/44.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"历史军事月榜\",\"url\":\"/all/order/hits_month%2Bdesc/id/45.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"网游竞技月榜\",\"url\":\"/all/order/hits_month%2Bdesc/id/46.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"科幻灭世月榜\",\"url\":\"/all/order/hits_month%2Bdesc/id/47.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"惊悚悬疑月榜\",\"url\":\"/all/order/hits_month%2Bdesc/id/49.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"女生频道月榜\",\"url\":\"/all/order/hits_month%2Bdesc/id/48.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4}}]",
+        "lastUpdateTime": 1664025611734,
+        "respondTime": 3915,
+        "ruleBookInfo": {
+            "author": ".authorname@a@text",
+            "coverUrl": ".bigpic@img@src",
+            "intro": "div.book-intro@html##标签.*(\\s.*)*",
+            "kind": ".booktitle@a@text&&b:nth-of-type(2)@text##更新时间|[(]|[)]",
+            "lastChapter": "a#newchapter.0@text",
+            "name": "h1@text",
+            "tocUrl": "a.catalogbtn@href",
+            "wordCount": ".booktitle@p@text##.*字数：|.作者.*"
+        },
+        "ruleContent": {
+            "content": ".article-con@p@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "p.author@text",
+            "bookList": "li.item",
+            "bookUrl": "h3@a@href",
+            "coverUrl": ".col-l@img@src",
+            "intro": ".col-r@p.intro@text",
+            "kind": "span.text@text&&p.latest@textNodes##最后更新：|第.*章.*",
+            "lastChapter": ".latest@a@text",
+            "name": "h3@a@text"
+        },
+        "ruleSearch": {
+            "author": "p.author@text",
+            "bookList": "li.item",
+            "bookUrl": "h3@a@href",
+            "coverUrl": ".col-l@img@src",
+            "intro": "p.intro@text",
+            "kind": "span.text@text&&p.latest@text##最后更新：",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list@li",
+            "chapterName": "span@a@text",
+            "chapterUrl": "span@a@href"
+        },
+        "searchUrl": "/search.html?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

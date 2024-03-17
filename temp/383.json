@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "藏经阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.3e3m.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::https://www.3e3m.com/xuanhuanxiaoshuo/<,{{page}}.html>\n修真小说::https://www.3e3m.com/xiuzhenxiaoshuo/<,{{page}}.html>\n都市小说::https://www.3e3m.com/dushixiaoshuo/<,{{page}}.html>\n穿越小说::https://www.3e3m.com/chuanyuexiaoshuo/<,{{page}}.html>\n网游小说::https://www.3e3m.com/wangyouxiaoshuo/<,{{page}}.html>\n科幻小说::https://www.3e3m.com/kehuanxiaoshuo/<,{{page}}.html>\n排行榜单::https://www.3e3m.com/paihangbang/<,{{page}}.html>\n全部小说::https://www.3e3m.com/xiaoshuodaquan/<,{{page}}.html",
+        "lastUpdateTime": 1648643452870,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.up@span.0@text",
+            "init": "",
+            "intro": "p.0@text",
+            "lastChapter": "class.upd@a@text",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.text@textNodes",
+            "nextContentUrl": "class.mulu@a.2@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "intro": ""
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.tui_1_item",
+            "bookUrl": "class.tui_1_item@a@href",
+            "coverUrl": "class.tui_1_item@img@src",
+            "name": "class.tui_1_item@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list@li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.biquge7.top/search?keyword={{key}}",
+        "weight": 0
+    }
+]

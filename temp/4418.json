@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceGroup": "📔 文件",
+        "bookSourceName": "📔 安娜的档案[梯]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://zh.annas-archive.org",
+        "customOrder": 1183,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.92 Safari/537.36\",\n\t\"Accept-Language\": \"zh-CN,zh;q=0.9\"\n}",
+        "lastUpdateTime": 1699504468674,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "downloadUrls": ""
+        },
+        "ruleContent": {
+            "content": "@js:\"点击章节链接跳转浏览器下载\\n\" + baseUrl"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "div.-1@text",
+            "bookList": "<js>\nresult.replace(/<!--/g, '').replace(/-->/g, '')\n</js>\ndiv.justify-center",
+            "bookUrl": "a@href",
+            "checkKeyWord": "古龙",
+            "coverUrl": "img@src",
+            "kind": "div.text-gray-500@text",
+            "name": "##<h3 class=\"[^\"]+\">([^<]+?)<\\/h3>##$1###"
+        },
+        "ruleToc": {
+            "chapterList": "@js:[{\"text\":\"正文\"}]",
+            "chapterName": "text"
+        },
+        "searchUrl": "https://zh.annas-archive.org/search?index=&q={{key}}&sort=",
+        "weight": 0
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☀晨光雨露💫精俢源💯",
+        "bookSourceName": "天天中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ttzw.com",
+        "bookUrlPattern": "",
+        "customOrder": -281542,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1625951509287,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.fix@tag.p.0@text##看更多.*阅读",
+            "coverUrl": ".imgbox@img@src",
+            "intro": "//meta[@property=\"og:description\"]/@content",
+            "name": "class.top@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "imageStyle": "0",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list@li!0",
+            "bookUrl": ".s2@a@href",
+            "kind": ".s1@text##\\[|\\]",
+            "lastChapter": ".s3@text&&.s5@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-box!0@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.ttzw.tv/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

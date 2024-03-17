@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "下载源",
+        "bookSourceName": "请看小说网/下载源",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.qinkan.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1670211729227,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.xs-head-author-text s-hover.0@text",
+            "canReName": "1",
+            "coverUrl": "class.xs-image@img@href",
+            "downloadUrls": "",
+            "intro": "class.xs-sum-short@text",
+            "kind": "class.xs-head-author-text s-hover.1@text",
+            "lastChapter": "class.xs-attr ellipsis.1@text##更新时间:",
+            "name": "class.t-pagename ellipsis.0@text##《|》",
+            "wordCount": "class.xs-head-sourcename.0@text"
+        },
+        "ruleContent": {
+            "content": "@js:\"点击章节链接跳转浏览器下载\\n\"+baseUrl"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book_mybook_list_author@text##.*\\|",
+            "bookList": "tag.li",
+            "bookUrl": "class.book_mybook_alink@href",
+            "checkKeyWord": "斗破苍穹",
+            "coverUrl": "class.class.book_mybook_list_pic@img@href",
+            "intro": "class.class.book_mybook_list_recico@text",
+            "kind": "class.book_mybook_list_author@text##\\|.*",
+            "name": "class.book_mybook_list_title@text##《|》",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.downloadTxt.1",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.qinkan.net/ajax/search.php?keyboard={{key}}&start=0&limit=20&order=newstime,{\n\"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

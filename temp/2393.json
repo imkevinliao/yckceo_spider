@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "芙蓉小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.fryutong.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/sort/1_{{page}}.html&&仙侠武侠::/sort/2_{{page}}.html&&都市情缘::/sort/3_{{page}}.html&&穿越历史::/sort/4_{{page}}.html&&网游动漫::/sort/5_{{page}}.html&&科幻空间::/sort/6_{{page}}.html&&恐怖灵异::/sort/7_{{page}}.html&&美文名著::/sort/8_{{page}}.html&&完结小说::/full/{{page}}.html&&点击榜::/top/allvisit_{{page}}.html&&月排行::/top/monthvisit_{{page}}.html&&周排行::/top/weekvisit_{{page}}.html&&推荐榜::/top/allvote_{{page}}.html&&热门小说::/top/goodnum_{{page}}.html&&热门长篇::/top/size_{{page}}.html&&最新小说::/top/postdate_{{page}}.html&&最近更新::/top/lastupdate_{{page}}.html",
+        "lastUpdateTime": 1613365328501,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "@js:baseUrl.replace(/\\d+\\.html$/,'')",
+            "wordCount": "[property=\"og:novel:status\"]@content"
+        },
+        "ruleContent": {
+            "content": ".chapter_content@html##.*?fryutong.com.*",
+            "nextContentUrl": ".buttom_next@a@href",
+            "replaceRegex": "##本章还未完，点击下一页继续阅读>>>"
+        },
+        "ruleExplore": {
+            "author": ".novel_author a@text||.p3@text",
+            "bookList": ".novel_box||ul.list_ul li",
+            "bookUrl": ".novel_name a@href||.p1 a@href",
+            "coverUrl": ".novel_name a@href||.p1 a@href<js>String(result).replace(/.+\\D((\\d+)\\d{3})\\D/,\"http://www.fryutong.com/files/article/image/$2/$1/$1s.jpg\")</js>",
+            "intro": ".novel_intro@text",
+            "kind": ".p6@text",
+            "lastChapter": ".novel_newest a@text||.p2@text",
+            "name": ".novel_name@text||.p1@text",
+            "wordCount": ".p4@text"
+        },
+        "ruleSearch": {
+            "author": " .newbook_author@text",
+            "bookList": "div.sort_box_list",
+            "bookUrl": ".newbook_title@a@href@js:'http://www.fryutong.com'+result",
+            "coverUrl": "img@src",
+            "intro": ".newbook_intor@text",
+            "kind": ".wanben_serial_novelsort@text",
+            "name": ".newbook_title@text"
+        },
+        "ruleToc": {
+            "chapterList": ".listchapter ul li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.fryutong.com/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "div.item",
+            "name": "dt a@text",
+            "bookUrl": "dt a@href",
+            "intro": "dd@text",
+            "author": ".btm a@text",
+            "coverUrl": "img@data-original"
+        },
+        "ruleBookInfo": {
+            "init": "",
+            "name": "h1@text",
+            "author": "#info p:nth-of-type(1)@text",
+            "intro": "{{@@p:nth-of-type(7)@text}}\n{{@@p:nth-of-type(5)@text}}\n{{@@div#intro@text}}",
+            "lastChapter": "#info .hidden-xs a@text",
+            "kind": ".con_top a:nth-of-type(2)@text",
+            "tocUrl": "a.chapterlist@href",
+            "coverUrl": "img@data-original"
+        },
+        "ruleToc": {
+            "chapterList": "#content_1 a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "#booktxt p:nth-of-type(n+2)@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleReview": [],
+        "ruleExplore": {
+            "bookList": "div:nth-of-type(2) div.item||div.item",
+            "name": "dt a@text",
+            "bookUrl": "dt a@href",
+            "intro": "dd@text",
+            "author": ".btm a@text",
+            "coverUrl": "img@data-original"
+        },
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.oldtimescc.net/",
+        "bookSourceName": "旧时光文学",
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}\nhttps://www.oldtimescc.net/search/?searchkey={{key}}",
+        "exploreUrl": "[\n{\"title\":\"玄幻\",\"url\":\"/sort/1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/sort/2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/sort/3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军史\",\"url\":\"/sort/4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/sort/5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/sort/6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/sort/7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生\",\"url\":\"/sort/8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/sort/9/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"热门\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n]"
+    }
+]

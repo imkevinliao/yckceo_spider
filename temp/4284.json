@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "//修复目录最新不全",
+        "bookSourceGroup": "自制,修复优化,源仓库,漫画源",
+        "bookSourceName": "速漫库",
+        "bookSourceType": 2,
+        "bookSourceUrl": "http://m.sumanku.com",
+        "bookUrlPattern": "http://m.sumanku.com/\\w+/",
+        "customOrder": 13,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "冒险热血::/sort/1.html\n武侠格斗::/sort/2.html\n科幻魔幻::/sort/3.html\n侦探推理::/sort/4.html\n耽美爱情::/sort/5.html\n生活漫画::/sort/6.html",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1698055765059,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "span.author.0@text",
+            "coverUrl": ".thumbnail img@data-src",
+            "init": "",
+            "intro": "p.content@text",
+            "kind": "span.tags-txt@text&&.author.1@text\n##最后更新：",
+            "lastChapter": "text.最新章节@text\n##最新章节[:：]*",
+            "name": "h1.name@text",
+            "tocUrl": "{{\n\tjava.put(\"url\",baseUrl);\n\tli=java.getElements(\".chapterlist li a\");\n\tjava.put(\"li\",li);\n\tbaseUrl.replace('com/',\"com/chapterlist/\")\n\t}},{\n  \"headers\": {\n    \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n    \"X-Requested-With\": \"XMLHttpRequest\",\n    \"Referer\": \"{{baseUrl}}\"\n  },\n  \"method\": \"GET\"\n}"
+        },
+        "ruleContent": {
+            "content": ".main_img img@html",
+            "imageStyle": "full"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "ul.siw li.card",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@data-src",
+            "kind": "0",
+            "lastChapter": ".abs-bottom@text",
+            "name": ".card-text@text"
+        },
+        "ruleToc": {
+            "chapterList": "$.data.list\n@js:\n//反转目录\nvar r=result.toArray().reverse();\n//初始化列表\nvar list=[],\nurl=java.get(\"url\"),\nli=java.get(\"li\"),\nj=org.jsoup.Jsoup.parse(li),\na=j.select(\"a\");//获取最新\nfor(i in r){\n\tname=java.getString(\"$.name\",r[i])\n\tlink=url+java.getString(\"$.id\",r[i])\n\tlist.push({text:name,href:link+\".html\"})\n\t}\n\t//反转添加最新\nfor(i=a.length-1;i>=0;i--){\n\tname=a[i].text()\n\tlink=a[i].attr(\"href\")\n\tlist.push({text:name,href:link})\n\t}\nlist;",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}"
+        },
+        "searchUrl": "http://m.sumanku.com/search?keyword={{key}}",
+        "weight": 0
+    }
+]

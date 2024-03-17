@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "呦呦看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.youyoukanshu.com",
+        "bookUrlPattern": "https://www.youyoukanshu.com/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1658153887698,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//*[@property=\"og:novel:author\"]/@content",
+            "coverUrl": "//*[@property=\"og:image\"]/@content",
+            "init": "",
+            "intro": "class.intro@html##.*?[:：]",
+            "kind": "tr.0:1@td.0@text##.*?：",
+            "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@content",
+            "name": "//*[@property=\"og:title\"]/@content",
+            "wordCount": "tr.0@td.2@text##.*?："
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "tbody@tag.tr",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "",
+            "kind": "td.3@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.panel-booklist@class.list-group-item",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.youyoukanshu.com/search.php?search={{key}},{\n\t\"charset\": \"UTF-8\",\n\t\"headers\":{\n\t\t\"Upgrade-Insecure-Requests\":\"1\",\n\t\t\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\",\n\t\t\"Accept-Language\":\"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"\n\t\t}\n}",
+        "weight": 0
+    }
+]

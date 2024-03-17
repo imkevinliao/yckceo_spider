@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "阴阳",
+        "bookSourceName": "纳兰小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.nlxs.org/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::https://www.nlxs.org/list/1-{{page}}.html\n仙侠::https://www.nlxs.org/list/2-{{page}}.html\n言情::https://www.nlxs.org/list/3-{{page}}.html\n历史::https://www.nlxs.org/list/4-{{page}}.html\n网游::https://www.nlxs.org/list/5-{{page}}.html\n科幻::https://www.nlxs.org/list/6-{{page}}.html\n恐怖::https://www.nlxs.org/list/7-{{page}}.html",
+        "lastUpdateTime": 1636552701662,
+        "ruleBookInfo": {
+            "intro": "class.info2@tag.p@text",
+            "name": "class.info2@h1@text"
+        },
+        "ruleContent": {
+            "content": "class.panel-body content-body content-ext@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.book_author@a@text",
+            "bookList": "class.col-lg-6 col-sm-6  col-md-6 col-sm-index",
+            "bookUrl": "class.media-heading book-title@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.book-intro-index@text",
+            "name": "class.media-heading book-title@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-group list-charts@li@a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "【源网站搜索不可用】\n【发现可用】\n【阴阳制作】",
+        "weight": 0
+    }
+]

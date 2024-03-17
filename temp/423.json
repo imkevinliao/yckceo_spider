@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "Y笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ybiquge.com",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 34,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1650203352905,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作.*者.",
+            "coverUrl": "id.fmimg@tag.img.0@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "class.con_top@tag.a.1@text",
+            "lastChapter": "id.info@tag.a.-1@text&&id.info@tag.p.-2@text##最后更新.|..\\:.*",
+            "name": "id.info@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "tag.p.1@text##作者.",
+            "bookList": "class.result-item",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.p.0@text",
+            "kind": "tag.p.2@text##类型.",
+            "lastChapter": "tag.a.-1@text&&tag.p.-2@tag.span.1@text##..\\:.*",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.ybiquge.com/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔰 普通",
+        "bookSourceName": "🔰 02书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.02shu.cc",
+        "customOrder": -213755,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xclass/1/1.html\n修真::/xclass/2/1.html\n都市::/xclass/3/1.html\n穿越::/xclass/4/1.html\n网游::/xclass/5/1.html\n科幻::/xclass/6/1.html\n其他::/xclass/7/1.html\n全本::/quanben.html",
+        "lastUpdateTime": 1628246660039,
+        "ruleBookInfo": {
+            "author": ".book_box@tag.span.0@text##.*：",
+            "coverUrl": ".cover img@src",
+            "intro": ".book_about dd@html##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": ".book_box@tag.span.1:2:4@text##.*：|小说|\\s.*",
+            "lastChapter": ".book_box a@text",
+            "name": ".name@text",
+            "wordCount": ".book_box@tag.span.3@text##.*："
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "#pb_next@href",
+            "replaceRegex": "##.*\\(第.*?页\\)|速阅小说.*|一秒记住.*阅读！|www.*|\\</p>"
+        },
+        "ruleExplore": {
+            "author": ".s3@text",
+            "bookList": ".lis li",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href##.+\\D((\\d+)\\d{3})\\D##https://02www.cdn.bcebos.com/files/article/image/$2/$1/$1s.jpg###",
+            "name": ".ss@text"
+        },
+        "ruleSearch": {
+            "author": ".author@text##.*：",
+            "bookList": ".bookbox",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@src",
+            "kind": ".cat@text##.*：|小说",
+            "lastChapter": "tag.a.2@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last!0@dd a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/s123.php,{\n  'charset': 'gbk',\n  'method': 'POST',\n  'body': 'q={{key}}'\n}",
+        "weight": 0
+    }
+]

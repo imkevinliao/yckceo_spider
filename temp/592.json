@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️百合小说☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.baihexs.com#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::https://m.baihexs.com/sort-1-{{page}}/\n武侠仙侠::https://m.baihexs.com/sort-2-{{page}}/\n都市言情::https://m.baihexs.com/sort-3-{{page}}/\n历史军事::https://m.baihexs.com/sort-4-{{page}}/\n游戏竞技::https://m.baihexs.com/sort-5-{{page}}/\n科幻灵异::https://m.baihexs.com/sort-6-{{page}}/\n其他类型::https://m.baihexs.com/sort-7-{{page}}/\n全本小说::https://m.baihexs.com/full-{{page}}/",
+        "lastUpdateTime": 1643974153532,
+        "ruleBookInfo": {
+            "author": "class.block_txt2.0@tag.p.2@text##作\\s*者：",
+            "coverUrl": "class.block_img2@tag.img@src",
+            "intro": "class.intro_info@text",
+            "name": "class.block_txt2.0@tag.h2.0@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html"
+        },
+        "ruleExplore": {
+            "author": "tag.a.-1@text",
+            "bookList": "class.line",
+            "bookUrl": "class.blue@tag.a@href",
+            "kind": "tag.a.0@text",
+            "lastChapter": "tag.a.1@href<js>java.ajax('https://m.baihexs.com'+result)</js>class.block_txt2@tag.p.-1@a@text&&class.block_txt2@tag.p.-2@text##更新：(.*)## • $1",
+            "name": "class.blue@text"
+        },
+        "ruleSearch": {
+            "author": "tag.p@text",
+            "bookList": "class.block_txt2.0||class.line||class.cover@tag.p",
+            "bookUrl": "tag.a.-1@href",
+            "coverUrl": "",
+            "kind": "tag.a.0@text",
+            "lastChapter": "tag.a.1@href<js>java.ajax('https://m.baihexs.com'+result)</js>class.block_txt2@tag.p.-1@a@text&&class.block_txt2@tag.p.-2@text##更新：(.*)## • $1",
+            "name": "class.blue@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.baihexs.com/modules/article/waps.php?searchtype=articlename&searchkey={{key}}&submit=,{\n\"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

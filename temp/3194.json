@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceGroup": "📙 刘备",
+        "bookSourceName": "第一版主i12bz.net📙",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://i.12bz.net",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n玄幻小说::/sort/1_{{page}}/\n修真小说::/sort/2_{{page}}/\n都市小说::/sort/3_{{page}}/\n穿越小说::/sort/4_{{page}}/\n藏经阁::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n其他小说::/sort/7_{{page}}/",
+        "header": "{\n\"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/84.0.4147.135\"\n}",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p.2@tag.a@text",
+            "coverUrl": "class.block_img2@tag.img.0@src",
+            "init": "",
+            "intro": "class.intro_info@html",
+            "kind": "class.block_txt2@tag.p.3@tag.a@text&&.block_txt2@tag.p.4@text##状态：",
+            "lastChapter": "class.block_txt2@tag.p.6@tag.a@text",
+            "name": "class.block_txt2@tag.h2@text",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr1@html##\\-\\-.*",
+            "nextContentUrl": "#pb_next@href",
+            "sourceRegex": "#pb_next@href",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "class.line@tag.a.2@text",
+            "bookList": "class.line",
+            "bookUrl": "class.line@tag.a.1@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "class.line@tag.a.0@text##\\[|\\]",
+            "lastChapter": "",
+            "name": "class.line@tag.a.1@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.line@tag.a.2@text",
+            "bookList": "class.line",
+            "bookUrl": "class.line@tag.a.1@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "class.line@tag.a.0@text##\\[|\\]",
+            "lastChapter": "",
+            "name": "class.line@tag.a.1@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter.1@tag.li",
+            "chapterName": "@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": "false",
+            "nextTocUrl": ".right@tag.a@href",
+            "updateTime": ""
+        },
+        "searchUrl": "/s.php,{\n\"method\": \"POST\",\n\"body\":\"type=articlename&s={{key}}\",\n\"charset\":\"gbk\"\n}",
+        "weight": 0
+    }
+]

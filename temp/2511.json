@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceUrl": "http://www.99ku.cn",
+        "bookSourceType": "0",
+        "bookSourceName": "久久书库",
+        "bookSourceGroup": "🇨🇳Namo",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.99ku.cn/search/,{\n\"method\":\"POST\",\n\"charset\":\"UTF-8\",\n\"body\":\"searchkey={{key}}&searchtype=all&Submit=\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1610363482791,
+        "ruleSearch": {
+            "bookList": "class.searchresult",
+            "name": "tag.a.1@text",
+            "author": "tag.p.0@text##...万字.*",
+            "kind": "tag.span.0@text##\\/.*",
+            "wordCount": "class.s_gray@text",
+            "lastChapter": "tag.a.-1@text",
+            "intro": "class.searchresult_p@text",
+            "coverUrl": "tag.img@src",
+            "bookUrl": "tag.a.1@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.novel_info_title@tag.h1@text",
+            "author": "class.novel_info_title@tag.a.0@text",
+            "kind": "class.novel_info_title@tag.span.0@text",
+            "wordCount": "class.novel_info_title@tag.span.1@text",
+            "lastChapter": "class.flex to100@tag.a@text",
+            "intro": "class.intro@text",
+            "coverUrl": "class.novel_info_main@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.ul_all_chapters@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.article@html",
+            "nextContentUrl": "id.next_url@href"
+        }
+    }
+]

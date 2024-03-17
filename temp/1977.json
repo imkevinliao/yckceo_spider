@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍏普通",
+        "bookSourceName": "🍏 笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biqugema.com/",
+        "customOrder": 16,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1619232377478,
+        "ruleBookInfo": {
+            "author": "class.small@tag.span.0@text",
+            "coverUrl": "class.cover@img@src",
+            "intro": "class.intro@textNodes",
+            "lastChapter": "class.last@tag.a@text",
+            "name": "h1@text",
+            "wordCount": "class.small@tag.span.1@text##\\字数：|\\||\\状态.*|"
+        },
+        "ruleContent": {
+            "content": "id.content@html##请记住本书首发.*|.*最快网址.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@tag.a@href",
+            "coverUrl": "class.bookimg@tag.a@img@src",
+            "intro": "class.bookinfo@tag.p@text",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "h4@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.biqugema.com/s?q={{key}}",
+        "weight": 0
+    }
+]

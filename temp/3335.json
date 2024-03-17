@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "加载较慢，偶尔超时宕机。\n搜索间隔3秒，只能搜中文。",
+        "bookSourceGroup": "自制,一般,源仓库,网页源",
+        "bookSourceName": "88中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.babazw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"中国名著\",\"url\":\"https://www.babazw.com/zgmz/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"世界名著\",\"url\":\"https://www.babazw.com/sjmz/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"中国文学\",\"url\":\"https://www.babazw.com/zgwx/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"外国文学\",\"url\":\"https://www.babazw.com/wgwx/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "lastUpdateTime": 1683437238450,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.red.0@text",
+            "kind": "class.blue@text",
+            "lastChapter": "class.text-danger@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "color.red@text",
+            "bookList": ".book-coverlist@class.row",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "a@style##.*\\(|\\)",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".panel-chapterlist@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.babazw.com/plus/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "福书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.fushutxt.cc",
+        "bookUrlPattern": "http://m.fushutxt.cc/\\w+/\\d+.html",
+        "customOrder": 13,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "现代都市::xiandaidushi/index_{{page}}.html\n古代架空::gudaijiakong/index_{{page}}.html\n穿越重生::chuanyuechongsheng/index_{{page}}.html\n玄幻灵异::xuanhuanlingyi/index_{{page}}.html\n推理悬疑::tuilixuanyi/index_{{page}}.html\n网游竞技::wangyoujingji/index_{{page}}.html\nBL同人::BLtongren/index_{{page}}.html\nGL百合::GLbaihe/index_{{page}}.html\n本站推荐::bztuijian/index_{{page}}.html\n热门排行::bzremen/index_{{page}}.html\n周排行榜::bzremenweek/index_{{page}}.html\n月排行榜::bzremenmonth/index_{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692779962535,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者：.0@text##.*作者：",
+            "coverUrl": "img@data-original",
+            "kind": "text.状态：@text##时间：|状态：|作者.+",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "#text>p@textNodes"
+        },
+        "ruleExplore": {
+            "author": "p.0@text||span.0@text",
+            "bookList": ".book-li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "kind": "p.1:2@text||span.1:2@text##类型：|时间：",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.1@text",
+            "bookList": "h2",
+            "bookUrl": "a@href",
+            "checkKeyWord": "快穿",
+            "intro": "",
+            "kind": "0",
+            "lastChapter": "",
+            "name": "a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "@js:\nvar page=src.match(/<b>(\\d+)<.b>/)[1];\nvar url=baseUrl.replace(/.html/,\"_0.html\")\nvar list=[{text:\"第1页\",href:baseUrl}];\nif(page&&list){\n\tfor(i=1;i<page;i++){\n\t\tlist.push({text:`第${i+1}页`,href:url.replace(/_0/,\"_\"+i)})\n\t\t}\n\t\tlist;\n\t}else{\n\t\tjava.longToast(\"目录获取失败，检查网络或稍后再试！\")\n\t\t}",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\n(()=>{\n  if(page==1){\n    let url=source.getKey()+'/e/search/index.php,'+JSON.stringify({\n    \"method\":\"POST\",\n    \"body\":`keyboard=${key}&show=title&tempid=1&tbname=article`\n    });\n    return java.put('surl',String(java.connect(url).raw().request().url()));\n  } else {\n    return java.get('surl').replace(/result.+searchid/,`result/index.php?page=${page-1}&searchid`);\n  }\n})()",
+        "weight": 0
+    }
+]

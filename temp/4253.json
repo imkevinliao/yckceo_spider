@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceGroup": "🔶 轻小说,🌀 仅发现",
+        "bookSourceName": "🔶 卧龙小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.wolongxs.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"男生\",\"url\":\"/all/id/4.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"http://www.wolongxs.com/all/id/18.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"http://www.wolongxs.com/all/id/19.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"http://www.wolongxs.com/all/id/20.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"都市娱乐\",\"url\":\"http://www.wolongxs.com/all/id/21.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"科幻末日\",\"url\":\"http://www.wolongxs.com/all/id/22.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"悬疑灵异\",\"url\":\"http://www.wolongxs.com/all/id/23.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"http://www.wolongxs.com/all/id/34.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"其它作品\",\"url\":\"http://www.wolongxs.com/all/id/35.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"全部作品\",\"url\":\"http://www.wolongxs.com/all/id/4.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"女生\",\"url\":\"/all/id/8.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"古装言情\",\"url\":\"http://www.wolongxs.com/all/id/25.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"http://www.wolongxs.com/all/id/26.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"浪漫青春\",\"url\":\"http://www.wolongxs.com/all/id/27.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"幻想言情\",\"url\":\"http://www.wolongxs.com/all/id/28.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"科幻空间\",\"url\":\"http://www.wolongxs.com/all/id/37.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"灵异悬疑\",\"url\":\"http://www.wolongxs.com/all/id/38.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"同人衍生\",\"url\":\"http://www.wolongxs.com/all/id/39.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"耽美百合\",\"url\":\"http://www.wolongxs.com/all/id/40.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"全部作品\",\"url\":\"http://www.wolongxs.com/all/id/8.html?={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n]",
+        "lastUpdateTime": 1697185231758,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": "<js>\nresult = String(baseUrl).replace(/.*\\/novel\\//g, '');\ntocUrl = String('http://www.wolongxs.com/home/chapter/lists/id/' + result)</js>",
+            "wordCount": ".icon-file-alt@text"
+        },
+        "ruleContent": {
+            "content": "#contentsource p@textNodes"
+        },
+        "ruleExplore": {
+            "author": ".text-left p.0@text",
+            "bookList": ".booklist li",
+            "bookUrl": "h3 a@href",
+            "coverUrl": "img@src",
+            "kind": ".text-left p.1@text",
+            "name": "h3 a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "-.chapters p",
+            "chapterName": ".chapterTitle a@text",
+            "chapterUrl": ".chapterTitle a@href"
+        },
+        "weight": 0
+    }
+]

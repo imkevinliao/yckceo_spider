@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣岛",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.biqudao.cc",
+        "bookUrlPattern": "https?://m.biqudao.cc/book/[\\d_]+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/xclass/0/{{page}}.html\n玄幻小说::/xclass/1/{{page}}.html\n修真小说::/xclass/2/{{page}}.html\n都市小说::/xclass/3/{{page}}.html\n穿越小说::/xclass/4/{{page}}.html\n网游小说::/xclass/5/{{page}}.html\n科幻小说::/xclass/6/{{page}}.html\n其他小说::/xclass/7/{{page}}.html\n全本小说::/quanben_{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1701773629170,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.author@text",
+            "coverUrl": ".synopsisArea_detail img@src",
+            "intro": "p.review@text##简介：",
+            "kind": ".synopsisArea_detail p.1:2:3@text##.*：",
+            "lastChapter": ".synopsisArea_detail a.-1@text",
+            "name": "span.title@text"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*{{try{chapter.title}catch(e){\"\"} }}.*\\s*"
+        },
+        "ruleExplore": {
+            "author": "p.author@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "p.review@text##简介：",
+            "kind": "0",
+            "name": "p.title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.author.0@text##.*\\|",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"https://m.biqudao.cc/files/article/image/24/24458/24458s.jpg\"",
+            "kind": "p.author@text##\\|.*",
+            "lastChapter": "p.author.1@text##.*\\|\\s*更新：",
+            "name": "p.title@text"
+        },
+        "ruleToc": {
+            "chapterList": ".directoryArea.1@p a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"keyword={{key}}&t=1\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

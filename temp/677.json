@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceUrl": "https://www.shenmaxiaoshuo.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "神马小说w/需特殊上网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.shenmaxiaoshuo.com/modules/article/search.php?searchkey={{key}},{\"charset\":\"gbk\"}",
+        "exploreUrl": "[{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"周点击榜\",\"url\":\"/top/weekvisit/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月点击榜\",\"url\":\"/top/monthvisit/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总点击榜\",\"url\":\"/top/allvisit/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周推荐榜\",\"url\":\"/top/weekvote/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月推荐榜\",\"url\":\"/top/monthvote/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总推荐榜\",\"url\":\"/top/allvote/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总收藏榜\",\"url\":\"/top/goodnum/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总字数榜\",\"url\":\"/top/size/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"本站推荐\",\"url\":\"/top/toptime/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新入库\",\"url\":\"/top/postdate/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"/top/lastupdate/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1643781391104,
+        "ruleSearch": {
+            "bookList": "class.novelslistss@tag.li",
+            "name": "class.s2@tag.a@text",
+            "author": "class.s4@text",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@tag.a@text",
+            "bookUrl": "class.s2@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "id.info@tag.h1@text",
+            "author": "id.info@tag.p.0@tag.a@text",
+            "wordCount": "id.info@tag.p.2@text##.*[共(.*?)字] ##$1###",
+            "lastChapter": "id.info@tag.p.3@tag.a@text",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html##.*神马小说网.*"
+        }
+    }
+]

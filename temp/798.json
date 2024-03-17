@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "发现,☁️可用,🔞 特殊",
+        "bookSourceName": "小强H文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xiaoqiangxs.org",
+        "bookUrlPattern": "",
+        "customOrder": -88917320,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "   玄   幻   ::http://www.xiaoqiangxs.org/xuanhuanxiaoshuo/1_{{page}}.html\n   修   真   ::http://www.xiaoqiangxs.org/xiuzhenxiaoshuo/2_{{page}}.html\n   都   市   ::http://www.xiaoqiangxs.org/dushixiaoshuo/3_{{page}}.html\n\n   穿   越   ::http://www.xiaoqiangxs.org/chuanyuexiaoshuo/4_{{page}}.html\n\n   科   幻   ::http://www.xiaoqiangxs.org/kehuanxiaoshuo/6_{{page}}.html\n   完   本   ::http://www.xiaoqiangxs.org/wanben/1_{{page}}",
+        "lastUpdateTime": 1642011601599,
+        "loginUrl": "",
+        "respondTime": 2800,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@text",
+            "name": "id.info@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##，最快更新.*|"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.odd.1@text||class.s5@text",
+            "bookList": "class.grid@tag.tr!0||id.newscontent@class.l@tag.li",
+            "bookUrl": "class.odd.0@tag.a@href||class.s2@tag.a@href",
+            "kind": "",
+            "lastChapter": "class.even.2@text||tag.span.1@text##如果需要单独去除时间，用class.even.0@text||class.s3@tag.a@text【可放分类栏】",
+            "name": "class.odd.0@text||class.s2@text##《|》"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.xiaoqiangxs.org/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit=%26%23160%3B%CB%D1%26%23160%3B%26%23160%3B%CB%F7%26%23160%3B&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

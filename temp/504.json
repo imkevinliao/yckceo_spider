@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "第一版主网👿",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.diyibanzhu.buzz/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": false,
+        "exploreUrl": "玄幻小说::http://www.diyibanzhu.buzz//xuanhuan/1.html\n仙侠小说::http://www.diyibanzhu.buzz//xianxia/1.html\n都市小说::http://www.diyibanzhu.buzz//dushi/1.html\n军史小说::http://www.diyibanzhu.buzz//junshi/1.html\n网游小说::http://www.diyibanzhu.buzz//wangyou/1.html\n科幻小说::http://www.diyibanzhu.buzz//kehuan/1.html\n耽美小说::http://www.diyibanzhu.buzz//danmei/1.html\n辣文合集::http://www.diyibanzhu.buzz//lawen/1.html",
+        "lastUpdateTime": 1647885375776,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": ".pic@img@src",
+            "init": ".catalog1",
+            "intro": "{{@@class.jj@text}}     最后更新日期:{{@@class.bq@tag.span@text}}",
+            "kind": "",
+            "lastChapter": ""
+        },
+        "ruleContent": {
+            "content": ".articlecontent@html"
+        },
+        "ruleExplore": {
+            "author": ".p1@text##作者:",
+            "bookList": ".tt",
+            "bookUrl": "a.0@href",
+            "coverUrl": ".pic@a@img@src",
+            "intro": ".p2@text",
+            "name": "tag.h3@text"
+        },
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "tag.tr!0",
+            "bookUrl": "td.0@a@href",
+            "coverUrl": "",
+            "intro": "td.0@a@href\n<js>\n\n\nresult=result\n\n   var html= java.ajax(result);\nresult=html;\n    \n  </js>\n\n   class.jj@text\n",
+            "kind": "td.5@text",
+            "lastChapter": "td.1@text",
+            "name": "td.0@text",
+            "wordCount": "td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".ml_list@ul@li",
+            "chapterName": "text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "\n\n\nhttp://www.diyibanzhu.buzz/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}&page={{page}}\",\n  \"charset\": \"gbk\",\n  \"method\": \"Post\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceGroup": "",
+        "bookSourceName": "键盘小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.janpn.com/",
+        "customOrder": -229474,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/xuanhuanqihuan/list-1-{{page}}.html\n武侠修真::/wuxiaxiuzhen/list-2-{{page}}.html\n现代都市::/xiandaidushi/list-3-{{page}}.html\n历史军事::/lishijunshi/list-4-{{page}}.html\n游戏竞技::/youxijingji/list-5-{{page}}.html\n科幻灵异::/kehuanlingyi/list-6-{{page}}.html\n女生言情::/nvshengyanqing/list-7-{{page}}.html\n其他类型::/qitaleixing/list-8-{{page}}.html",
+        "lastUpdateTime": 1655555192495,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".col-md-12@p.0@text##by|著",
+            "init": "",
+            "intro": "p.bookIntro@text",
+            "kind": "h3@text&&.col-md-12 p.1@text@js:\nlet tag = []\nfor(let i in result){tag.push(String(result[i]))}\nif(!tag[0].startsWith(\"《\")){\n  tag[0] = tag[0].replace(/小说.*/,\"\")\n  tag[1] = tag[1].replace(/更新时间：/,\"\")\n  tag\n}else{\n\ttag[1].replace(/更新时间：/,\"\")\n\t}",
+            "lastChapter": "i.fa-refresh + a@text",
+            "name": "h3@text##.*《|》.*",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.shop-info.1@text##\\[著\\]",
+            "bookList": "class.list@a",
+            "bookUrl": "href@js:\nlet href = String(result)\ntry{\nif(!href.match(/www/)){\n\t  \"/book/\"+ href.match(/\\/\\/(.*)\\.janpn/)[1] + \".html\"\n\t}\n\t}\n\tcatch(e){href}\n",
+            "checkKeyWord": "偷香高手",
+            "lastChapter": "class.shop-info.2@span@text",
+            "name": "class.shop-info.0@b@text##《|》"
+        },
+        "ruleToc": {
+            "chapterList": "ul.panel-chapterlist a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?q={{key}}&s=15947871991047423724",
+        "weight": 0
+    }
+]

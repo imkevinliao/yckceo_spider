@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "趣书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://wap.qushuba.net/",
+        "bookUrlPattern": "http://wap.qushuba.net/shu.*",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/\n修真小说::/xiuzhenxiaoshuo/\n都市小说::/dushixiaoshuo/\n穿越小说::/chuanyuexiaoshuo/\n网游小说::/wangyouxiaoshuo/\n科幻小说::/kehuanxiaoshuo/",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1684733358198,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "#content@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.0@text",
+            "bookList": ".search>a||article>a",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "p.1@text##简介：",
+            "kind": "0",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/user/search.html?q={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

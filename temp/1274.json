@@ -1,0 +1,31 @@
+[
+    {
+        "bookSourceComment": "musa自制",
+        "bookSourceGroup": "自制",
+        "bookSourceName": "桃色小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.paa04.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "都市情感::https://www.paa04.com/home/textlist/31/1144-1.html\n人妻熟女::https://www.paa04.com/home/textlist/31/1145-1.html\n玄幻武侠::https://www.paa04.com/home/textlist/31/1146-1.html\n另类其他::https://www.paa04.com/home/textlist/31/1147-1.html\n明星校园::https://www.paa04.com/home/textlist/31/1148-1.html\n家庭乱伦::https://www.paa04.com/home/textlist/31/1148-1.html\n成人小说::https://www.paa04.com/home/textlist/31/1150-1.html\n暴力虐待::https://www.paa04.com/home/textlist/31/1151-1.html",
+        "lastUpdateTime": 1623472823007,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "class.zw@html"
+        },
+        "ruleExplore": {
+            "author": "tag.span@text",
+            "bookList": "class.col clearfix@tag.ul@tag.li@tag.a",
+            "bookUrl": "tag.a@href",
+            "name": "tag.h3@text"
+        },
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "tag.h3",
+            "chapterName": "tag.h3@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "weight": 0
+    }
+]

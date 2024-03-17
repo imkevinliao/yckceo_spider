@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "gone",
+        "bookSourceGroup": "gone",
+        "bookSourceName": "世书轩",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shishuxuan.com",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": -88917338,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"/sort/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"武俠修真\",\"url\":\"/sort/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市言情\",\"url\":\"/sort/3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"歷史軍事\",\"url\":\"/sort/4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻靈異\",\"url\":\"/sort/5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"遊戲競技\",\"url\":\"/sort/6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"其他類型\",\"url\":\"/sort/7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"女生小說\",\"url\":\"/sort/8/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"全部書庫\",\"url\":\"/sort/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "",
+        "lastUpdateTime": 1642312125345,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".p_author a@text",
+            "coverUrl": "#bookimg img@src",
+            "intro": ".hm-scroll p@text",
+            "kind": "#count@li.0@span@text&&#count@li.2@span@text",
+            "lastChapter": ".chaw@li.0@a@text",
+            "name": ".d_title h1@text",
+            "wordCount": "#count@li.1@span@text"
+        },
+        "ruleContent": {
+            "content": ".read-content p@textNodes",
+            "nextContentUrl": "a#next_url@href"
+        },
+        "ruleExplore": {
+            "bookList": "#sitebox dl",
+            "bookUrl": "dd h3 a@href",
+            "coverUrl": "img@data-original",
+            "intro": "dd.book_des@text",
+            "kind": ".book_other@span.0@text&&.book_other@span.1@text",
+            "lastChapter": ".book_other a@text",
+            "name": "dd h3 a@text",
+            "wordCount": ".book_other@span.2@text"
+        },
+        "ruleSearch": {
+            "author": ".book_other@span.0@text",
+            "bookList": "#nr",
+            "bookUrl": "h3 a@href",
+            "coverUrl": "img@src",
+            "intro": "dd.book_des@text",
+            "kind": ".book_other@span.1@text",
+            "lastChapter": ".book_other a@text",
+            "name": "h3 a@text",
+            "wordCount": ".book_other@span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chaw_c a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "search/,{\n'method': 'POST',\n'body': 'searchkey={{key}}'\n}",
+        "weight": 0
+    }
+]

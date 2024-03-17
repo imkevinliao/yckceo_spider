@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔30秒",
+        "bookSourceGroup": "自制,笔趣,源仓库,网页源",
+        "bookSourceName": "新笔趣阁o",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xbiqugeo.com",
+        "bookUrlPattern": "https?://m.xbiqugeo.com/bqg/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/fenlei/1/{{page}}/\n武侠::/fenlei/2/{{page}}/\n都市::/fenlei/3/{{page}}/\n历史::/fenlei/4/{{page}}/\n科幻::/fenlei/5/{{page}}/\n游戏::/fenlei/6/{{page}}/\n女生::/fenlei/7/{{page}}/\n全本::/quanben/fenlei/{{page}}/",
+        "header": "{\"referer\": \"{{source.getKey()}}\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693789740038,
+        "loginCheckJs": "url=source.getKey()\ncookie.removeCookie(url)\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".book_box span.0@text",
+            "coverUrl": ".cover img@src",
+            "intro": ".book_about dd@text",
+            "kind": ".book_box span.1:2:-1@text\n##分类：|状态：|更新时间：",
+            "lastChapter": ".book_last dd.0@text",
+            "name": ".name@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": ".book_box span.3@text##字数："
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##最新网址.*com"
+        },
+        "ruleExplore": {
+            "author": ".s3@text",
+            "bookList": ".lis li",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:\"/static/xwap/nocover.jpg\"",
+            "kind": ".s1@text##\\[|\\]",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": ".cat@text##分类：",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last dd a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "variableComment": "",
+        "weight": 0
+    }
+]

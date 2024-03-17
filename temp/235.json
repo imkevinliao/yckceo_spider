@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "new",
+        "bookSourceName": "格格党小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lwxs99.com/",
+        "customOrder": -292886,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1656050820770,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##.*lwxs99.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookname@a@href",
+            "checkKeyWord": "夜的命名术",
+            "coverUrl": "class.bookimg@img@src",
+            "intro": "p@text",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "class.update@a@text",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@dl@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "/s123.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

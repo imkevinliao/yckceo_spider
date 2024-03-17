@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceUrl": "https://www.ibiquge.net",
+        "bookSourceType": "0",
+        "bookSourceName": "笔趣阁ibiquge.net",
+        "bookSourceGroup": "S级",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.ibiquge.net/search.html?name={{key}},{\n  \"charset\": \"utf-8\"\n}",
+        "exploreUrl": "玄幻奇幻::https://www.ibiquge.net/xuanhuanxiaoshuo/1_{{page}}.html\n修真仙侠::https://www.ibiquge.net/xiuzhenxiaoshuo/2_{{page}}.html\n都市青春::https://www.ibiquge.net/dushixiaoshuo/3_{{page}}.html\n历史军事::https://www.ibiquge.net/lishixiaoshuo/4_{{page}}.html\n网游竞技::https://www.ibiquge.net/wangyouxiaoshuo/5_{{page}}.html\n科幻灵异::https://www.ibiquge.net/kehuanxiaoshuo/6_{{page}}.html\n其它小说::https://www.ibiquge.net/qitaxiaoshuo/7_{{page}}.html",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1633759343543,
+        "ruleSearch": {
+            "bookList": "class.novelslist2@tag.li!0",
+            "name": "class.s2 wid@tag.a@text",
+            "author": "class.s4 wid@tag.a@text",
+            "lastChapter": "class.s3 wid3@tag.a@text",
+            "bookUrl": "class.s2 wid@tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.l@tag.ul@tag.li",
+            "name": "class.s2@tag.a@text",
+            "author": "class.s4@tag.a@text",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@tag.a@text",
+            "bookUrl": "class.s2@tag.a@href"
+        },
+        "ruleBookInfo": {
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        }
+    }
+]

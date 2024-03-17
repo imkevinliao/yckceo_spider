@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceUrl": "http://m.3qdu.com",
+        "bookSourceType": "0",
+        "bookSourceName": "三趣读小说",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://m.3qdu.com/s.php,{\n\"charset\":\"gbk\",\n\"method\":\"POST\",\n\"body\":\"s={{key}}&type=articlename\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": "class.search_box@tag.p",
+            "name": "tag.a@text",
+            "bookUrl": "tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.tab@tag.p.0@text",
+            "author": "class.tab@tag.p.1@text",
+            "kind": "class.p4@text",
+            "wordCount": "class.p6@text",
+            "lastChapter": "class.tab@tag.a.0@text",
+            "intro": "class.p2.1@text",
+            "coverUrl": "class.tu@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.info_chapters@tag.li!0:1:2:3:4",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@html##本章已完 m.3qdu.com",
+            "nextContentUrl": "text.下一页@href",
+            "sourceRegex": "##本章未完 点击下一页继续阅读"
+        }
+    }
+]

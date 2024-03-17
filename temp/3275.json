@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "登录使用搜索\n小说专用",
+        "bookSourceName": "百合会",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yamibo.com/",
+        "bookUrlPattern": "\\S+www.yamibo.com.novel.\\d+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"作品分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\r\n{\"title\":\"原创小说\",\"url\":\"/novel/list?q=1<,&page={{page}}&per-page=50>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"二次元同人\",\"url\":\"/novel/list?q=2<,&page={{page}}&per-page=50>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"三次元同人\",\"url\":\"/novel/list?q=3<,&page={{page}}&per-page=50>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"全部作品\",\"url\":\"/novel/list<,?page={{page}}&per-page=50>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"完结\",\"url\":\"/novel/list?q=finish<,&page={{page}}&per-page=50>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"签约\",\"url\":\"/novel/list?q=signed<,&page={{page}}&per-page=50>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1684809974062,
+        "loginUrl": "https://www.yamibo.com/my",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".col-xs-4@h5@text",
+            "canReName": "1",
+            "coverUrl": ".panel-body@.col-md-3@img.img-responsive@src",
+            "intro": "<br>{{@@p.col-md-12.1@a.label@text##(^|[\\n]+)##🏷️}}\n{{'&lrm;'}}\n{{@@#w0-collapse1@html}}\n{{@@#w1-collapse1@html##^##<br>&lrm;<br>作者公告：}}",
+            "kind": "p.col-md-6@text&&p.col-md-12.0@a.label@text##作品.{2}：|发布时间：.*|更新时间：",
+            "lastChapter": "a.margin-r-5.-1@text&&text.更新时间：@text##更新时间：",
+            "name": "h3.col-md-12@text"
+        },
+        "ruleContent": {
+            "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\"h3,.col-md-3,.pull-left,.pull-right,.col-md-12.text-right,.col-md-8,.col-md-4,.list-view\").remove()\njsoup.select(\"section\").html()",
+            "replaceRegex": "##^\\s{2}正文内容\\s",
+            "title": ".col-md-9 > h3@text"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "tbody@tr",
+            "bookUrl": "td.1@a@href",
+            "kind": "td!0:1:2@text##\\[|]",
+            "name": "td.1@a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".panel.panel-warning@a.collapse-toggle, a.margin-r-5",
+            "chapterName": "text##作品简介|作者公告|\\s[(]共\\s\\d+\\s章[)]",
+            "chapterUrl": "a.margin-r-5@href",
+            "isVolume": "a.collapse-toggle@text"
+        },
+        "searchUrl": "search/novel?SearchForm%5Bkeyword%5D={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

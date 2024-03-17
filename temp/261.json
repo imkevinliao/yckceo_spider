@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌸 耽美",
+        "bookSourceName": "🌸饭饭论坛",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://bbs.fanfanc.com",
+        "bookUrlPattern": "",
+        "customOrder": 654,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "❀                            耽美闲情                             ❀::ff117-{{page}}\n❀   穿|架|重  ❀::https://bbs.fanfanc.com/thread.php?fid=117&type=50&page={{page}}\n❀  玄幻耽美  ❀::https://bbs.fanfanc.com/thread.php?fid=117&type=47&page={{page}}\n❀  现代耽美  ❀::https://bbs.fanfanc.com/thread.php?fid=117&type=48&page={{page}}\n❀  古代耽美  ❀::https://bbs.fanfanc.com/thread.php?fid=117&type=51&page={{page}}\n❀  校园耽美  ❀::https://bbs.fanfanc.com/thread.php?fid=117&type=53&page={{page}}\n❀  生子耽美  ❀::https://bbs.fanfanc.com/thread.php?fid=117&type=54&page={{page}}\n❀  军旅耽美  ❀::https://bbs.fanfanc.com/thread.php?fid=117&type=928&page={{page}}\n❀  网游耽美  ❀::https://bbs.fanfanc.com/thread.php?fid=117&type=52&page={{page}}\n❀  其他耽美  ❀::https://bbs.fanfanc.com/thread.php?fid=117&type=55&page={{page}}",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36\"\n}",
+        "lastUpdateTime": 1621693047697,
+        "loginUrl": "https://bbs.fanfanc.com/login.php",
+        "ruleBookInfo": {
+            "author": "tag.title@text##.*作者：(.*)【.*##$1",
+            "coverUrl": "class.lazy@data-original",
+            "intro": "id.read_tpc@textNodes&&id.read_tpc@tag.span@text##图片:.*|原文地址(.|\\n)*",
+            "kind": "",
+            "name": "tag.title@text##《(.*)》.*##$1",
+            "tocUrl": "text.在线阅读已开放@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.read-main-wrap@tag.p@html||class.tpc_content@html##作者更多新书.*|版权归作者.*|饭饭会员.*|感谢.*支持!",
+            "imageStyle": "0",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "class.subject_t f12@tag.a@text##.*作者.|\\【.*",
+            "bookList": "class.tr3",
+            "bookUrl": "tag.a@href",
+            "kind": "class.view s4 mr5 f14@tag.a@text&&class.mr5 s4 view f12@tag.a@text##\\[|\\]",
+            "name": "class.subject_t f12@tag.a@text##.*\\《|\\》.*"
+        },
+        "ruleSearch": {
+            "author": "tag.a.0@text##.*作者.|\\【.*",
+            "bookList": "class.tr3 tac",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "kind": "tag.a.1@text##口-",
+            "name": "tag.a.0@text##\\《|\\》.*"
+        },
+        "ruleToc": {
+            "chapterList": "ul@class.cf@tag.li@tag.a",
+            "chapterName": "text##.*☆、",
+            "chapterUrl": "href##^##/"
+        },
+        "searchUrl": "https://bbs.fanfanc.com/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"step=2&keyword={{key}}&seekfid=all&orderway=lastpost&method=AND&sch_time=all&page={{page}}\"\n}",
+        "weight": 0
+    }
+]

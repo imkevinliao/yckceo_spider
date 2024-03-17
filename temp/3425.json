@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "/*同库\n\nhttps://m.ylcjw.com\nhttps://m.dmxso.com\nhttps://m.bwfxs.com\n\n*/",
+        "bookSourceGroup": "⭐备用,⌨自制",
+        "bookSourceName": "⭐御龙小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.dmxso.com##旅途",
+        "customOrder": -2086052293,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"总排行榜\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"月排行榜\",\"url\":\"/rank/monthvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"周排行榜\",\"url\":\"/rank/weekvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"日排行榜\",\"url\":\"/rank/dayvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"玄幻奇幻\",\"url\":\"/class/1/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠修真\",\"url\":\"/class/2/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/class/3/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/class/4/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻异能\",\"url\":\"/class/5/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/class/6/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异悬疑\",\"url\":\"/class/7/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生耽美\",\"url\":\"/class/8/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"轻小说\",\"url\":\"/class/9/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"/class/10/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1685276387593,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=og:novel:author]@content",
+            "coverUrl": "[property=og:image]@content",
+            "intro": "[property=og:description]@content",
+            "kind": "[property~=(og:novel:category|og:novel:status|og:novel:update_time)]@content",
+            "lastChapter": "[property=og:novel:lastest_chapter_name]@content",
+            "name": "[property=og:novel:book_name]@content",
+            "tocUrl": "text.查看目录@href",
+            "wordCount": "##字数：([^<]+)##$1###"
+        },
+        "ruleContent": {
+            "content": "#chapterContent@p@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##<hr>|\\s*Tips：[\\s\\S]+"
+        },
+        "ruleExplore": {
+            "author": ".x-info_author@a.1@text||span@a@textNodes",
+            "bookList": ".x-rank_list .van-hairline-bottom||.clearfix li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": ".x-info_intro@text||.intro@text",
+            "kind": "span.1@text||em.1:2@text",
+            "name": ".x-info_name@text||a.0@text",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@textNodes",
+            "bookList": ".clearfix li",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "斗破",
+            "coverUrl": "img@data-original",
+            "intro": ".intro@text",
+            "kind": "em.1:2@text",
+            "name": "a.0@text",
+            "wordCount": "em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

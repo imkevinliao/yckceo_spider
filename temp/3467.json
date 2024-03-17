@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "//旅途",
+        "bookSourceGroup": "⌨自制",
+        "bookSourceName": "⌨笔趣阁(tvgua)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wapk.tvgua.com##旅途",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"🏅 榜单 🏅\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"日点击榜\",\"url\":\"/top/dayvisit_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"周点击榜\",\"url\":\"/top/weekvisit_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"月点击榜\",\"url\":\"/top/monthvisit_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"总点击榜\",\"url\":\"/top/allvisit_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"字数排行\",\"url\":\"/top/size_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"日推荐榜\",\"url\":\"/top/dayvote_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"月推荐榜\",\"url\":\"/top/goodnum_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"总推荐榜\",\"url\":\"/top/allvote_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\" 🎖分类 🎖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻小说\",\"url\":\"/sort/1_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"修真小说\",\"url\":\"/sort/2_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市小说\",\"url\":\"/sort/3_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"穿越小说\",\"url\":\"/sort/4_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"网游小说\",\"url\":\"/sort/5_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻小说\",\"url\":\"/sort/6_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他类型\",\"url\":\"/sort/7_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"纯爱耽美\",\"url\":\"/sort/23_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "lastUpdateTime": 1685761385062,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content##(完整版全文免费|在线|全文|免费全文|免费)阅读|免费小说|小说免费|全文免费|在线免费|(免费|全文)$|全文目录",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content##(完整版全文免费|在线|全文|免费全文|免费)阅读|免费小说|小说免费|全文免费|在线免费|(免费|全文)$|全文目录",
+            "wordCount": ".p6@text"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@textNodes##内容未完，下一页继续阅读 ",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*本章阅读完毕.*"
+        },
+        "ruleExplore": {
+            "author": ".p3@text##(完整版全文免费|在线|全文|免费全文|免费)阅读|免费小说|小说免费|全文免费|在线免费|(免费|全文)$|全文目录",
+            "bookList": ".content_link",
+            "bookUrl": ".p2@a@href",
+            "coverUrl": ".p2@a@href##/(\\d+)/$##/img/$1.jpg###",
+            "kind": ".p1@text##\\[|\\]",
+            "name": ".p2@text##(完整版全文免费|在线|全文|免费全文|免费)阅读|免费小说|小说免费|全文免费|在线免费|(免费|全文)$|全文目录"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.-1@text##(完整版全文免费|在线|全文|免费全文|免费)阅读|免费小说|小说免费|全文免费|在线免费|(免费|全文)$|全文目录",
+            "bookList": ".search_list",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##/(\\d+)/$##/img/$1.jpg###",
+            "lastChapter": "a.-2@text",
+            "name": "a.0@text##(完整版全文免费|在线|全文|免费全文|免费)阅读|免费小说|小说免费|全文免费|在线免费|(免费|全文)$|全文目录"
+        },
+        "ruleToc": {
+            "chapterList": ".info_chapters@class.p2.-1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://wapk.tvgua.com/book/search.aspx?key={{key}}&type=articlename",
+        "weight": 0
+    }
+]

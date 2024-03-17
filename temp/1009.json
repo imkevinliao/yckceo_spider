@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "                    \"error:搜索内容为空并且没有发现\n                                        \"error:搜索内容为空并且没有发现\n                                        \"error:搜索内容为空并且没有发现\n                                        \"error:搜索内容为空并且没有发现\n                                        \"error:搜索内容为空并且没有发现\n                                        \"error:搜索内容为空并且没有发现\n                                        \"error:搜索内容为空并且没有发现\n                                        \"error:搜索内容为空并且没有发现\n                    \"error:搜索内容为空并且没有发现\n\"\"\"\"\"\"\"\"\"",
+        "bookSourceGroup": "☣️精选senhora,☣️senhora起点,☣️senhora晋江",
+        "bookSourceName": "乐文小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xlwxsw.com",
+        "bookUrlPattern": "",
+        "customOrder": -214235,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1630918749459,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "intro": "id.intro@tag.p.0@text",
+            "lastChapter": "id.info@p!2:3@a@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##http.*|天才一秒.*|大家记得收藏网址.*|w ,请牢记:,.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.p10",
+            "bookUrl": "class.bookname@a@href",
+            "coverUrl": "",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@dd@a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.xlwxsw.com/s123.php?q={{key}}",
+        "weight": 0
+    }
+]

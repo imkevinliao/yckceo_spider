@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceUrl": "http://m.98kwang.com",
+        "bookSourceType": "0",
+        "bookSourceName": "98K",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/plus/search.php?q={{key}},{\"charset\": \"gbk\"}",
+        "exploreUrl": "现代都市::/xiandaidushi/\n古代言情::/gudaiyanqing/\n耽美同人::/danmeitongren/\n穿越重生::/chuanyuezhongsheng/\n玄幻武侠::/xuanhuanwuxia/\n网游竞技::/wangyoujingji/\n恐怖灵异::/kongbulingyi/\n推理悬疑::/tuilixuanyi/\n历史军事::/lishijunshi/",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": ".p_newslist@li",
+            "name": "a@text##\\s+作者：.*",
+            "author": "a@text##.*作者：",
+            "bookUrl": "a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": [],
+        "ruleToc": {
+            "chapterList": ".pagelist@li!0:1@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": ".blcont@html"
+        }
+    }
+]

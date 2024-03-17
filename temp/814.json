@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "笔趣阁",
+        "bookSourceUrl": "https://www.znlzd.com",
+        "enable": false,
+        "ruleBookContent": "class.content@textNodes",
+        "ruleBookKind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+        "ruleBookLastChapter": "class.section-list fix.0@tag.li.0@text",
+        "ruleChapterList": "class.section-list fix.1@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrlNext": "option@value",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.imgbox@img@src",
+        "ruleIntroduce": "class.xdesc@textNodes",
+        "ruleSearchAuthor": "class.s4@text",
+        "ruleSearchKind": "class.s1@text#\\[|\\]",
+        "ruleSearchLastChapter": "class.s3@a@text",
+        "ruleSearchList": "class.txt-list@li!0",
+        "ruleSearchName": "class.s2@a@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://www.znlzd.com/ar.php?keyWord=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

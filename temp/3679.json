@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "搜索无效，仅发现，可在首页书架添加网址",
+        "bookSourceGroup": "自制,发现,源仓库,网页源",
+        "bookSourceName": "97小说/无限小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.97xiaoshuo.net",
+        "bookUrlPattern": "http.+m.97xiaoshuo.net/\\d+_\\d+/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuan/{{page}}\n修真小说::/xiuzhen/{{page}}\n都市小说::/dushi/{{page}}\n历史小说::/lishi/{{page}}\n网游小说::/wangyou/{{page}}\n科幻小说::/kehuan/{{page}}\n其他小说::/qita/{{page}}\n全本小说::/quanben/{{page}}",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1688201765988,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "{{@@.block_txt2@p.2:3:4@text}}\n##分类：|状态：|更新：",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "{{$.}}all"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@textNodes",
+            "kind": "0",
+            "lastChapter": ".update@a@text",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": ".chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "weight": 0
+    }
+]

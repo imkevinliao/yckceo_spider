@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "                    \"error:List is empty.\n                    \"error:List is empty.\n\"\"",
+        "bookSourceGroup": "🇨🇳R18+",
+        "bookSourceName": "英雄小说网(精)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yxzmdf.com",
+        "bookUrlPattern": "https://wap.yxzmdf.com",
+        "customOrder": 196165,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "▄︻┻═┳一\n玄幻魔法::/sort/xuanhuan/{{page}}.html\n武侠修真::/sort/wuxia/{{page}}.html\n都市娱乐::/sort/dushi/{{page}}.html\n历史军事::/sort/lishi/{{page}}.html\n游戏竞技::/sort/youxi/{{page}}.html\n科幻未来::/sort/kehuan/{{page}}.html\n其他作品::/sort/qita/{{page}}.html\n恐怖灵异::/sort/kongbu/{{page}}.html\n男频其他::/sort/nanpinqita/{{page}}.html\n古代言情::/sort/gudai/{{page}}.html\n现代言情::/sort/xianyan/{{page}}.html\n幻想言情::/sort/huanyan/{{page}}.html\n青春校园::/sort/xiaoyuan/{{page}}.html\n同人作品::/sort/tognren/{{page}}.html\n女频其他::/sort/nvpinqita/{{page}}.html\n▄︻┻═┳一\n总排行榜::/top/.html\n总点击榜::/top/allvisit/{{page}}.html\n月点击榜::/top/monthvisit/{{page}}.html\n周点击榜::/top/weekvisit/{{page}}.html\n日点击榜::/top/dayvisit/{{page}}.html\n总推荐榜::/top/allvote/{{page}}.html\n月推荐榜::/top/monthvote/{{page}}.html\n周推荐榜::/top/weekvote/{{page}}.html\n日推荐榜::/top/dayvote/{{page}}.html\n最近更新::/top/lastupdate/{{page}}.html\n最新入库::/top/postdate/{{page}}.html\n收藏榜::/top/goodnum/{{page}}.html\n字数榜::/top/words/{{page}}.html\n编辑推荐::/top/toptime/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1629468654191,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": ".KN5707T2a@text##作者：|连载中",
+            "coverUrl": ".KN5707T27@tag.img.0@src",
+            "intro": ".bookintro@tag.p.1@text",
+            "kind": ".KN5707T23@tag.a.1@text",
+            "lastChapter": ".chapterlist@tag.a.0@text",
+            "name": ".KN5707T29@text",
+            "tocUrl": ".chapterlist@tag.a.-1@href"
+        },
+        "ruleContent": {
+            "content": "id.rtext@tag.p@html##↑返回顶部↑",
+            "nextContentUrl": ".text-center@text.下一页@onclick##.+\\(\\[\\\"\\\",\\\".+\\\",\\\"(\\d+)\\\",\\\"(\\d+)\\\",\\\"(\\d+\\_\\d+\\.html)\\\"\\]\\)##https://www.yxzmdf.com/yxzmd/$1/$2/$3",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": ".author.0@text##作者：",
+            "bookList": ".bookbox",
+            "bookUrl": ".bookname@tag.a@href",
+            "intro": ".update@text",
+            "kind": ".center@text##小说列表",
+            "lastChapter": ".cat@text",
+            "name": ".bookname@text",
+            "wordCount": ".author.1@text"
+        },
+        "ruleSearch": {
+            "author": ".BBASU2Q118@text",
+            "bookList": ".bookbox",
+            "bookUrl": "tag.a@href",
+            "intro": ".BBASU2Q11b@text",
+            "lastChapter": ".BBASU2Q11a.0@text",
+            "name": ".BBASU2Q117@text"
+        },
+        "ruleToc": {
+            "chapterList": ".214UJFQE14@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@onclick##.+\\(\\[\\\"\\\",\\\".+\\\",\\\"(\\d+)\\\",\\\"(\\d+)\\\",\\\"(\\d+\\.html)\\\"\\]\\)##https://www.yxzmdf.com/yxzmd/$1/$2/$3"
+        },
+        "searchUrl": "/search,{\"charset\": \"UTF-8\",\"method\": \"POST\",\"body\": \"searchkey={{key}}&searchtype=all&t_btnsearch={{key}}\"}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "千帆小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qianfanxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1630649202320,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.0@a@text",
+            "coverUrl": "id.fmimg@img@src",
+            "intro": "id.intro@text",
+            "kind": "p.1@a@text",
+            "lastChapter": "p.5@a@text",
+            "name": "h1@a@text",
+            "tocUrl": "class.btn-info@href",
+            "wordCount": "p.4@text##最后更新："
+        },
+        "ruleContent": {
+            "content": "#content p@html",
+            "replaceRegex": "##章节有问题？点击报错！"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".search-list li!0",
+            "bookUrl": ".s2 a@href",
+            "kind": ".s1@text&&.s7@text",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text",
+            "wordCount": ".s6@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.qianfanxs.com/so/?searchtype=novelname&searchkey={{key}}",
+        "weight": 0
+    }
+]

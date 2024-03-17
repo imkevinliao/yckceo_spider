@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍉自制,修复",
+        "bookSourceName": "文学度",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.wenxuedu.com",
+        "customOrder": 584,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "首页::/\n完本::/full/{{page}}/\n玄幻::/sort/11_{{page}}/\n武侠::/sort/12_{{page}}/\n言情::/sort/13_{{page}}/\n历史::/sort/14_{{page}}/\n游戏::/sort/15_{{page}}/\n竞技::/sort/16_{{page}}/\n科幻::/sort/17_{{page}}/\n灵异::/sort/18_{{page}}/\n日排行榜::/top/dayvisit_{{page}}/\n周排行榜::/top/weekvisit_{{page}}/\n月排行榜::/top/monthvisit_{{page}}/\n总排行榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/",
+        "lastUpdateTime": 1663804542835,
+        "loginUrl": "http://m.wenxuedu.com/login.php",
+        "respondTime": 192409,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "class.infohead@class.pic@tag.img@src",
+            "intro": "class.intro@tag.p@textNodes",
+            "kind": "class.infotype@tag.p.1@text##类型：",
+            "lastChapter": "class.infotype@tag.p.3@tag.a@text",
+            "name": "class.cataloginfo@tag.h3@text"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@tag.p@textNodes##\\(第.*页\\)",
+            "nextContentUrl": "class.novelbutton@tag.li.3@tag.a@href%%0"
+        },
+        "ruleExplore": {
+            "author": "class.s3@text||class.p3@tag.a@text||class.author@a@text",
+            "bookList": "class.list@tag.li||class.fullbox@class.full_content||class.article||class.articlegeneral",
+            "bookUrl": "class.s2@tag.a@href||class.p2@tag.a@href||tag.h6@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.simple@textNodes",
+            "kind": "class.s1@text||tag.p.0@text",
+            "name": "class.s2@text||class.p2@tag.a@text||tag.h6@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.sone@tag.a.1@text",
+            "bookList": "class.searchresult@class.sone",
+            "bookUrl": "a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "class.sone@a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list_xm.1@tag.ul@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.listpage@class.right@tag.a@href"
+        },
+        "searchUrl": "http://m.wenxuedu.com/modules/article/search.php?q={{key}}",
+        "weight": 0
+    }
+]

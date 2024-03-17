@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "By~缨.",
+        "bookSourceGroup": "By~缨.",
+        "bookSourceName": "笔趣9x",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.9x.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1647966481394,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "tocUrl": ".chapter a@href"
+        },
+        "ruleContent": {
+            "content": "section@p!-1@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".type@span.0@text",
+            "bookList": "ul li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".desc span@text",
+            "kind": ".type@span.1@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".child-title li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.9x.com/h5/search?word={{key}}",
+        "weight": 0
+    }
+]

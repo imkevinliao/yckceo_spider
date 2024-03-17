@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "📖小说,自",
+        "bookSourceName": "📝山药小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.freexswa.com",
+        "customOrder": 29,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "[{\"title\":\"全本\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"历史\",\"url\":\"https://www.freexswa.com/wap_all/4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"惊悚\",\"url\":\"https://www.freexswa.com/wap_all/5_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑\",\"url\":\"https://www.freexswa.com/wap_all/6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"剧情\",\"url\":\"https://www.freexswa.com/wap_all/7_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"https://www.freexswa.com/wap_all/8_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"传奇\",\"url\":\"https://www.freexswa.com/wap_all/9_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"东方衍生\",\"url\":\"https://www.freexswa.com/wap_all/10_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"轻小说\",\"url\":\"https://www.freexswa.com/wap_all/11_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1676009109887,
+        "respondTime": 6507,
+        "ruleBookInfo": {
+            "author": "class.x_right@tag.p.1@text##作者：",
+            "coverUrl": "class.x_left@tag.img@src",
+            "intro": "class.shu_desp@text",
+            "kind": "class.x_right@tag.p.2:3:4@text##分类：|更新时间：|章节数：",
+            "lastChapter": "class.x_right@tag.p.5:3@text##最新章节：|更新时间：\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "class.x_right@class.tit@text",
+            "tocUrl": "class.du@tag.a.1@href"
+        },
+        "ruleContent": {
+            "content": "class.read_content@html",
+            "nextContentUrl": "class.shangxia@tag.a.-1@href"
+        },
+        "ruleExplore": {
+            "author": "tag.span.2@text",
+            "bookList": "class.txt1@tag.li",
+            "bookUrl": "tag.a.1@href",
+            "name": "tag.a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.txt1@li",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "带错美强惨马甲后",
+            "kind": "class.time@text##\\[|\\]",
+            "lastChapter": "tag.a@href<js>java.ajax(result)\n</js>class.x_right@tag.p.5:3@text##最新章节：|更新时间：\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "class.tit@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.zhangjie@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "https://www.freexswa.com/index.php?do=wap_sea&so=yes&name={{key}}",
+        "weight": 0
+    }
+]

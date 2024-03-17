@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "下载,精校,📑已检",
+        "bookSourceName": "知轩藏书.zxcs",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.zxcs.me",
+        "bookUrlPattern": "",
+        "customOrder": -38947,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "都市::http://www.zxcs.me/sort/23<,/page/{{page}}>\n武侠::http://www.zxcs.me/sort/36<,/page/{{page}}>\n仙侠::http://www.zxcs.me/sort/37<,/page/{{page}}>\n奇幻::http://www.zxcs.me/sort/38<,/page/{{page}}>\n玄幻::http://www.zxcs.me/sort/39<,/page/{{page}}>\n科幻::http://www.zxcs.me/sort/40<,/page/{{page}}>\n灵异::http://www.zxcs.me/sort/41<,/page/{{page}}>\n历史::http://www.zxcs.me/sort/42<,/page/{{page}}>\n军事::http://www.zxcs.me/sort/43<,/page/{{page}}>\n竞技::http://www.zxcs.me/sort/44<,/page/{{page}}>\n游戏::http://www.zxcs.me/sort/45<,/page/{{page}}>\n次元::http://www.zxcs.me/sort/55<,/page/{{page}}>",
+        "header": "",
+        "lastUpdateTime": 1612261900085,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "img[title]@src",
+            "init": "",
+            "intro": "@js:\ntag=['仙', '粮', '干', '枯', '毒'];\nicon=['🌕', '🌖', '🌗', '🌘', '🌑'];\n\"　　\"+String(java.ajax(baseUrl.replace(/.+\\//,'http://www.zxcs.me/content/plugins/cgz_xinqing/cgz_xinqing_action.php?action=show&id='))).split(',').map((v, i)=>icon[i]+tag[i]+'：'+v).join(\" \")+java.get(\"i\")",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "@js:content=java.getString(\".plus_l li:not(:has(span))@html\",false)+'<br>━━━━━<br>'+java.getElements(\".downfile a\")\n.toArray()\n.map(a => '【' + a.text() + '】' + a.attr('href'))\n.join('\\n');",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "$4",
+            "bookList": ":<dt>[^\"]+\"([^\"]+)[^《]+《([^》]+)》（([^）]+)[^：]+：([^<]+)[^：]+：([^【]+)[^：]+：([^<]+)[^：]+[^>]+>([^<]+)[^\"]+[^>]+>([^<]+)(?:[^：]+：){2}([^<]+)",
+            "bookUrl": "$1",
+            "coverUrl": "",
+            "intro": "$6##优质订阅书源[\\S\\s]+\n@js:java.put(\"i\",result.replace(/(?:　|&nbsp;)+/,\"\\n\"))\n##\\s",
+            "kind": "$7\n$8",
+            "lastChapter": "$3｜$9",
+            "name": "$2",
+            "wordCount": "$5"
+        },
+        "ruleToc": {
+            "chapterList": "h1",
+            "chapterName": "##《([^》]+)##$1##",
+            "chapterUrl": "@js:baseUrl.replace(/post\\//,'download.php?id=')",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "http://www.zxcs.me?keyword={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "如搜索时需要封面复制详情页封面规则",
+        "bookSourceGroup": "猫客源🐱,检验组⚙️",
+        "bookSourceName": "小小追书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://book.zsngf.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "header": "<js>\n(()=>{\n\tvar time=Math.round(new Date()/1000);\n\tvar sign=java.md5Encode(\"com.xiaoxiaobook.zuiread1\"+time+\"vhjJVz1St6tK7!8n#B0MqRIuE2Dh7!C#\");\n\tvar package=\"com.xiaoxiaobook.zuiread\";\n\tvar pt=\"1\";\n\tvar headers={\n\t\t\"time\":String(time),\n\t\t\"sign\":String(sign),\n\t\t\"package\":package,\n\t\t\"pt\":pt\n\t\t};\nreturn JSON.stringify(headers);\n})()\n</js>",
+        "lastUpdateTime": 1658635880690,
+        "respondTime": 2637,
+        "ruleBookInfo": {
+            "coverUrl": "https://res.bcyyp.com/{{$.image}}",
+            "init": "data",
+            "intro": "remark##^##<br>",
+            "kind": "ltype&&stype&&updated_at##\\s.*",
+            "lastChapter": "last_chapter_name",
+            "tocUrl": "@js:\ntime=Math.round(new Date()/1000)\nsign=java.md5Encode(\"com.xiaoxiaobook.zuiread1\"+time+\"vhjJVz1St6tK7!8n#B0MqRIuE2Dh7!C#\")\nheaders={\n\t\"time\":String(time),\n\t\"sign\":String(sign),\n\t\"package\":\"com.xiaoxiaobook.zuiread\",\n\t\"pt\":\"1\"\n}\noption={\n\t\"headers\":headers\n}\nsource=JSON.parse(java.ajax(\"https://d.zsngf.com/source/\"+parseInt(java.getString('$.book_id')/1000)+\"/\"+java.getString('$.book_id')+\".html,\"+JSON.stringify(option))).data[0].site_path\n\"https://catalog.zsngf.com/\"+source",
+            "wordCount": "words_number"
+        },
+        "ruleContent": {
+            "content": "data.content\n@js:\njava.aesBase64DecodeToString(result,\"Pxga!h*e4@T8xfOm\",\"AES/CBC/PKCS5Padding\",\"E&z!EHGLd$fli*8R\")"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "$.data[:1]",
+            "bookUrl": "https://d.zsngf.com/details/{{parseInt(java.getString('$.book_id')/1000)}}/{{$.book_id}}.html",
+            "coverUrl": "##",
+            "intro": "remark",
+            "kind": "ltype&&stype",
+            "lastChapter": "@js:\ntime=Math.round(new Date()/1000)\nsign=java.md5Encode(\"com.xiaoxiaobook.zuiread1\"+time+\"vhjJVz1St6tK7!8n#B0MqRIuE2Dh7!C#\")\nheaders={\n\t\"package\":\"com.xiaoxiaobook.zuiread\",\n\t\"pt\":\"1\",\n\t\"time\":String(time),\n\t\"sign\":String(sign)\n\t}\noption={\n\t\"headers\":headers\n\t}\ndetails=JSON.parse(java.ajax(\"https://d.zsngf.com/details/\"+parseInt(java.getString('$.book_id')/1000)+\"/\"+java.getString('$.book_id')+\".html,\"+JSON.stringify(option))).data;\ndetails.last_chapter_name",
+            "name": "name"
+        },
+        "ruleToc": {
+            "chapterList": "data",
+            "chapterName": "name\n@js:\njava.aesBase64DecodeToString(result,\"Pxga!h*e4@T8xfOm\",\"AES/CBC/PKCS5Padding\",\"E&z!EHGLd$fli*8R\")",
+            "chapterUrl": "https://chapter.zsngf.com/{{$.path}}"
+        },
+        "searchUrl": "https://s.zsngf.com/v1/lists.api?keyword={{key}}",
+        "weight": 0
+    }
+]

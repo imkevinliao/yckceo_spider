@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "关注星瞳_Official，送溜溜梅",
+        "bookSourceGroup": "API",
+        "bookSourceName": "luoxx(完整发现)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://read.luoxx.top/index",
+        "bookUrlPattern": "https?://read.luoxx.top/detail?bookId=\\d+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "<js>\nk=JSON.parse(java.ajax(\"https://read.luoxx.top/api/common/getBookTypes\")).result;\ns=[];\nop=\"全部·人气\"+\"::https://read.luoxx.top/api/book/findBooks?page={{page}}&count=20&sortField=click&isDesc=true\";\noi=\"全部·评分\"+\"::https://read.luoxx.top/api/book/findBooks?page={{page}}&count=20&sortField=score&isDesc=true\";\nok=\"全部·最近\"+\"::https://read.luoxx.top/api/book/findBooks?page={{page}}&count=20&sortField=updateDate&isDesc=true\";\ns.push(op,oi,ok);\nfor(key in k){ \nop=k[key]+\"·人气\"+\"::https://read.luoxx.top/api/book/findBooks?page={{page}}&count=20&type=\"+key+\"&sortField=click&isDesc=true\";\noi=k[key]+\"·评分\"+\"::https://read.luoxx.top/api/book/findBooks?page={{page}}&count=20&type=\"+key+\"&sortField=score&isDesc=true\";\nok=k[key]+\"·最近\"+\"::https://read.luoxx.top/api/book/findBooks?page={{page}}&count=20&type=\"+key+\"&sortField=updateDate&isDesc=true\";\ns.push(op,oi,ok);\r\n};\ns.join(\"&&\")\n</js>",
+        "lastUpdateTime": 1659101159787,
+        "loginUrl": "https://read.luoxx.top/login",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "$..authorName",
+            "coverUrl": "$..coverPhoto",
+            "init": "",
+            "intro": "$..remark",
+            "kind": "$..status&&.type",
+            "lastChapter": "<js> \nh='{{$..articleNum}}';\nk='{{$..articleTitle}}';\nl=\"第\"+h+\"章\"+\"  \"+k;\nh?l:k\n</js>",
+            "name": "$..bookName",
+            "tocUrl": "https://read.luoxx.top/api/article/findMenu?bookId={$.result.id}&order=1",
+            "wordCount": "$..wordNumber"
+        },
+        "ruleContent": {
+            "content": "$..articleContent"
+        },
+        "ruleExplore": {
+            "author": ".authorName",
+            "bookList": ".result.list[*]",
+            "bookUrl": "https://read.luoxx.top/api/book/findOneBook?bookId={$.id}",
+            "coverUrl": ".coverPhoto",
+            "intro": ".remark",
+            "kind": "<js>parseInt('{{$.status}}')==1?\"连载\":\"完结\"</js>",
+            "name": ".bookName",
+            "wordCount": ".wordNumber"
+        },
+        "ruleSearch": {
+            "author": ".authorName",
+            "bookList": ".result.list[*]",
+            "bookUrl": "https://read.luoxx.top/api/book/findOneBook?bookId={$.id}",
+            "checkKeyWord": "我的属性修行人生",
+            "coverUrl": ".coverPhoto",
+            "intro": ".remark",
+            "kind": "",
+            "name": ".bookName"
+        },
+        "ruleToc": {
+            "chapterList": "$..articles[*]",
+            "chapterName": "<js> \nh='{{$..articleNum}}';\nk='{{$..articleTitle}}';\nl=\"第\"+h+\"章\"+\"  \"+k;\nh?l:k\n</js>##正文卷",
+            "chapterUrl": "https://read.luoxx.top/api/article/findOneArticle?articleId={$.id}"
+        },
+        "searchUrl": "https://read.luoxx.top/api/book/findBooks?page={{page}}&count=20&bookName={{key}}",
+        "weight": 0
+    }
+]

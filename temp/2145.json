@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "顶点小说ibooktxt",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ibooktxt.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/\n修真::/xiuzhen/\n都市::/dushi/\n历史::/lishi/\n网游::/wangyou/\n科幻::/kehuan/\n言情::/yanqing/\n其他::/qita/\n全本::/quanben/",
+        "header": "",
+        "lastUpdateTime": 1616386498208,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.block@class.block_txt2@tag.p.2@text##作者：",
+            "coverUrl": "class.block_img2@tag.img@src",
+            "init": "class.cover",
+            "intro": "class.intro_info@text",
+            "kind": "class.block@class.block_txt2@tag.p.3@text&&@tag.p.4@text&&@tag.p.5@text##分类：|状态：|更新：",
+            "lastChapter": "class.block@class.block_txt2@tag.p.6@text##作者：",
+            "name": "class.block@class.block_txt2@h2@text"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html||id.nr1@text",
+            "nextContentUrl": "text.下一页@href||text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "class.bookinfo@class.author@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "class.bookimg@tag.img@src",
+            "intro": "class.bookinfo@class.intro_line@text##简介：",
+            "kind": "",
+            "lastChapter": "class.bookinfo@class.update@text##更新至：",
+            "name": "class.bookinfo@h4@text"
+        },
+        "ruleSearch": {
+            "author": "class.result-game-item-info@tag.p.0@text##作者：",
+            "bookList": "class.result-list@class.result-item result-game-item",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "class.result-game-item-pic@tag.img@src",
+            "intro": "class.result-game-item-detail@tag.p.0@text",
+            "kind": "class.result-game-item-info@tag.p.1@text&&class.result-game-item-info@tag.p.2@text##类型：|更新时间：",
+            "lastChapter": "class.result-game-item-info@tag.p.3@text##最新章节：",
+            "name": "class.result-game-item-detail@tag.h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.cover@class.chapter.1@ul@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.listpage@class.right@tag.a@href"
+        },
+        "searchUrl": "https://m.ibooktxt.com/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

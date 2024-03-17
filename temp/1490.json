@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣阁o2000",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.o2000.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1674095779665,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.cover@tag.img@src",
+            "intro": "tag.dd@text",
+            "name": "tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "class.s2@tag.a@href",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.so_list bookcase@tag.div!0",
+            "bookUrl": "class.bookname@tag.a@href",
+            "lastChapter": "",
+            "name": "class.bookname@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/s?q={{key}}",
+        "weight": 0
+    }
+]

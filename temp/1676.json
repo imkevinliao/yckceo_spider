@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceUrl": "http://www.ruochuwx.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "若初(test)",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+        "searchUrl": "http://www.ruochuwx.com/search.html/,{\n  \"body\": \"searchtype=all&searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\",\n}",
+        "exploreUrl": "玄幻::http://www.ruochuwx.com/xuanhuan/\n武侠::http://www.ruochuwx.com/wuxia/\n历史::http://www.ruochuwx.com/lishi/\n都市::http://www.ruochuwx.com/dushi/\n游戏::http://www.ruochuwx.com/youxi/\n科幻::http://www.ruochuwx.com/kehuan/\n其他::http://www.ruochuwx.com/qita/",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1633760821366,
+        "ruleSearch": {
+            "author": "class.book_other@span.0@text",
+            "bookList": "id.sitembox@dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@_src",
+            "intro": "class.book_des@text",
+            "kind": "tag.span.2@text",
+            "lastChapter": "class.book_other.1@a@text",
+            "name": "h3@a@text",
+            "wordCount": "class.book_other.0@tag.span.3@text"
+        },
+        "ruleExplore": {
+            "author": ".l@tag.span.3@text",
+            "bookList": "class.l.li",
+            "bookUrl": ".l@tag.span.1@a.0@href",
+            "kind": "class.l@tag.span.0@text",
+            "lastChapter": "class.l@tag.span.2@text",
+            "name": "class.l@tag.span.1@text"
+        },
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@a@text",
+            "coverUrl": "id.fmimg@img@src",
+            "intro": "id.intro@p@textNodes",
+            "kind": "id.count@li!0:3@span@text",
+            "lastChapter": "id.info@tag.p.3@a@text",
+            "name": "id.info@h1.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11:12",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*本章未完，点击下一页继续阅读\\s*"
+        }
+    }
+]

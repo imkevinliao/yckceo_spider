@@ -1,0 +1,69 @@
+[
+    {
+        "bookSourceComment": "https://so.biqusoso.com",
+        "bookSourceGroup": "自,📖小说",
+        "bookSourceName": "📝江印小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.sinicprint.com",
+        "bookUrlPattern": "",
+        "customOrder": 39,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1675970863776,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "[property$=image]@content",
+            "init": "",
+            "intro": "[class^=intro]@text",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[class^=update]@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n\n",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.txt@html##{{book.name}}|{{title}}",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##你是天才，一秒记住.*|您可以在.*最新章节！|第[零一二两三四五六七八九十百千万\\d\\s ]+章.*|(紧急通知：)*\\n*为您提供.*请务必保存好书签.*|最快更新.*最新.*|『.*?章节.*?误[^』]+』|\\(本章未完.*下一页.*\\)|.*免费阅读：.*更新不易请收藏！|紧急通知：\\n*.*启用新地址.*",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".search-list@tag.li!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "会读心谁都了不起",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ".s2@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "ul.2@li",
+            "chapterName": "@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://so.biqusoso.com/s2.php?ie=utf-8&siteid=sinicprint.com&q={{key}}",
+        "weight": 0
+    }
+]

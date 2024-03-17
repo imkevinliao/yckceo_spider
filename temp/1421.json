@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "原网址https://m.jhssd.com",
+        "bookSourceGroup": "📖小说,自",
+        "bookSourceName": "📝 精华书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xbyuan.com",
+        "customOrder": 20,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻::/list/1_{{page}}.html\n修真::/list/2_{{page}}.html\n都市::/list/3_{{page}}.html\n穿越::/list/4_{{page}}.html\n网游::/list/5_{{page}}.html\n科幻::/list/6_{{page}}.html\n灵异::/list/7_{{page}}.html\n女生::/list/8_{{page}}.html\n其他::/list/9_{{page}}.html\n完本::/wanben_{{page}}.html\n日点击榜::/Ranking_dayvisit/{{page}}.html\n周点击榜::/Ranking_weekvisit/{{page}}.html\n月点击榜::/Ranking_monthvisit/{{page}}.html\n总点击榜::/Ranking_allvisit/{{page}}.html\n周推荐榜::/Ranking_weekvote/{{page}}.html\n月推荐榜::/Ranking_monthvote/{{page}}.html\n总推荐榜::/Ranking_allvote/{{page}}.html\n收藏推荐::/Ranking_goodnum/{{page}}.html\n字数排行::/Ranking_size/{{page}}.html\n最新入库::/Ranking_postdate/{{page}}.html\n最新更新::/Ranking_lastupdate/{{page}}.html\n新书榜单::/Ranking_goodnew/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; M2011K2C Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.99 Mobile Safari/537.36 T7/12.16 SearchCraft/3.9.1 (Baidu; P1 11)\"}",
+        "lastUpdateTime": 1675939234673,
+        "respondTime": 20540,
+        "ruleBookInfo": {
+            "author": "p.2@text",
+            "coverUrl": "class.block_img2@tag.img@src",
+            "intro": "class.intro_info@textNodes",
+            "kind": "class.block_txt2@tag.p.-3:-4@text##.*：",
+            "lastChapter": "class.block_txt2@tag.p.-1:-2@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "class.block_txt2@a.1@text"
+        },
+        "ruleContent": {
+            "content": "class.nr_nr@html##{{book.name}}|{{title}}",
+            "imageStyle": "",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##精华书阁.*|第[零一二两三四五六七八九十百千万\\d\\s ]+章.*|(紧急通知：)*\\n*为您提供.*请务必保存好书签.*|最快更新.*最新.*|『章节有误[^』]+』|\\(本章未完.*下一页.*\\)|.*免费阅读：.*更新不易请收藏！|紧急通知：\\n*精华书阁启用新地址.*|.*[mhtps:\\/HTPSmM]+.*[jhssdJHSSDxbyuanXBYUAN]{4,}.*[COMcom]+.*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "tag.span.1@text",
+            "bookList": "class.xbk",
+            "bookUrl": "class.tjimg@a@href",
+            "coverUrl": "class.tjimg@img@src",
+            "intro": "tag.span.2@text",
+            "kind": "class.tjrs@text",
+            "name": "class.xsm@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.searchbook",
+            "bookUrl": "class.bookimg@tag.a@href",
+            "checkKeyWord": "马甲",
+            "coverUrl": "class.bookimg@tag.img@src",
+            "kind": "class.cat@text##.*：",
+            "lastChapter": "class.bookimg@tag.a@href<js>java.ajax('https://m.xbyuan.com'+result)</js>class.block_txt2@tag.p.-1:-2@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter.1@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.xbyuan.com/search.html?ie=utf-8&word={{key}}",
+        "weight": 0
+    }
+]

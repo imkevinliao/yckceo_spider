@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "修复",
+        "bookSourceGroup": "特殊源",
+        "bookSourceName": "自选书源",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.diyibanzhu.store",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "更新::https%3A%5C%2F%5C%2Fm.diyibanzhu.store%5C%2Fwap.php%3Faction%3Dshuku%26uid%3D0%26totalresult%3D10000%26pageno={{page}}\n新书::https://m.diyibanzhu.store/wap.php?action=shuku&order=3&uid=0&totalresult=10000&pageno={{page}}",
+        "lastUpdateTime": 1629871396123,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.bd column-2@tag.img.0@src",
+            "intro": "class.mod book-intro@text"
+        },
+        "ruleContent": {
+            "content": "class.page-content@tag.p@textNodes",
+            "nextContentUrl": "//*[@class=\"curr\"]/following-sibling::a[1]/@href"
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.container@class.book-all-list@class.bd@class.right",
+            "bookUrl": "class.name@href",
+            "lastChapter": "class.update@tag.a.0@text",
+            "name": "class.name@text",
+            "wordCount": "class.words@text"
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.container@class.book-all-list@class.bd@class.right",
+            "bookUrl": "class.name@href",
+            "kind": "",
+            "lastChapter": "class.update@tag.a.0@text",
+            "name": "class.name@text",
+            "wordCount": "class.words@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-list.1@class.list@tag.li||class.chapter-list.0@class.list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.nextPage@href"
+        },
+        "searchUrl": "https://m.diyibanzhu.store/wap.php?action=search,{\n  \"body\": \"objectType=2&wd={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

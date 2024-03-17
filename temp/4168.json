@@ -1,0 +1,44 @@
+[
+    {
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "li",
+            "bookUrl": "a.item@href",
+            "kind": "span.cate@text##[\\[\\]]",
+            "name": "p.name@text##/.*",
+            "author": "p.name@text##.*/"
+        },
+        "ruleBookInfo": {
+            "name": "h2@text",
+            "author": "p.author@text",
+            "kind": "p.type@text",
+            "coverUrl": ".img img@src",
+            "intro": "p.time@text&&\ndiv.book-intro@text",
+            "lastChapter": "div:nth-of-type(4) li:nth-of-type(1) a@text"
+        },
+        "ruleToc": {
+            "chapterList": "#main li a",
+            "nextTocUrl": "text.下一页@href",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "div.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleReview": [],
+        "ruleExplore": {
+            "bookList": "li",
+            "name": "h3@text",
+            "bookUrl": "a.info@href",
+            "coverUrl": "img@data-src",
+            "author": "p.author@text",
+            "intro": "div.desc@text"
+        },
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bqg.lol/",
+        "bookSourceName": "爱看小说",
+        "searchUrl": "http://www.bqg.lol/ar.php,{\n\"method\":\"post\",\n\"charset\":\"UTF-8\";\n\"body\":\"keyWord={{key}}\"\n}",
+        "exploreUrl": "[\n{\"title\":\"周榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/sort/1/week/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/sort/2/week/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/sort/3/week/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/sort/4/week/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/sort/5/week/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/sort/6/week/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生频道\",\"url\":\"/sort/7/week/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/sort/1/month/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/sort/2/month/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/sort/3/month/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/sort/4/month/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/sort/5/month/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/sort/6/month/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生频道\",\"url\":\"/sort/7/month/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/sort/1/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/sort/2/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/sort/3/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/sort/4/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/sort/5/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/sort/6/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生频道\",\"url\":\"/sort/7/total/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]"
+    }
+]

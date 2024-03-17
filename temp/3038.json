@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "🐿️百度云",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.53zw.net",
+        "bookUrlPattern": "",
+        "customOrder": 25,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1_{{page}}/\n仙侠修真::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n网游动漫::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1600359132107,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=og:novel:author]@content",
+            "coverUrl": "[property=og:image]@content",
+            "intro": "id.intro@tag.p.0@html",
+            "kind": "[property=og:novel:category]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": "[property=\"og:novel:update_time\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##喜欢.*速度最快。"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.l@tag.li||class.novelslist2@tag.li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "kind": "class.s1@text&&class.s6@text&&class.s7@text##\\[|\\]",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@text",
+            "wordCount": "class.s5@text"
+        },
+        "ruleSearch": {
+            "author": "class.book_other.0@tag.span.0@text",
+            "bookList": "id.sitembox@dl",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.a.0@img@src",
+            "intro": "class.book_des@text",
+            "kind": "class.book_other.0@tag.span.1@text&&class.book_other.0@tag.span.2@text",
+            "lastChapter": "class.book_other.1@tag.a.0@text",
+            "name": "h3@tag.a.0@text",
+            "wordCount": "class.book_other.0@tag.span.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+        "weight": 0
+    }
+]

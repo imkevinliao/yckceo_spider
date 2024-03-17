@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️笔趣阁&☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.5izhenjiang.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1643973820130,
+        "ruleBookInfo": {
+            "kind": "",
+            "lastChapter": "class.last9@tag.li.0@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "id.pb_next@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.mr15@text",
+            "bookList": "class.list-item",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.fs12 gray@text",
+            "name": "class.article@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.last9@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.2kxs.cc/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n\"charset\": \"gbk\"}",
+        "weight": 0
+    }
+]

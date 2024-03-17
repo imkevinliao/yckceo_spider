@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "//搜索无用",
+        "bookSourceGroup": "",
+        "bookSourceName": "⌨盗墓小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.dmbj.cc##旅途",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "大全::/daomu/\n番外::/fanwai/\n续集::/xuji/\n南派三叔::/nanpaisanshu/",
+        "lastUpdateTime": 1684921774409,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{\nn:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\"\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"\"\n\t}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": ".m-post@p@html"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": ".pop-book",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@_src",
+            "name": "h2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": ".clearfix ul li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "weight": 0
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceGroup": "《精选书源》",
+        "bookSourceName": "💠 何以笙萧默",
+        "bookSourceUrl": "http://www.yetianlian.com",
+        "enable": true,
+        "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+        "loginUrl": "",
+        "ruleBookAuthor": "",
+        "ruleBookContent": "id.content@html",
+        "ruleBookInfoInit": "",
+        "ruleBookKind": "",
+        "ruleBookLastChapter": "",
+        "ruleBookName": "",
+        "ruleBookUrlPattern": "",
+        "ruleChapterList": ".listmain@tag.dl@tag.dd!0!1:2:3:4:5:6:7:8:9:10:11",
+        "ruleChapterName": "tag.a@text",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "",
+        "ruleIntroduce": ".intro@text#简介：",
+        "ruleSearchAuthor": ".author@text#作者：",
+        "ruleSearchCoverUrl": ".bookimg@tag.a@tag.img@src",
+        "ruleSearchIntroduce": "",
+        "ruleSearchKind": "",
+        "ruleSearchLastChapter": "",
+        "ruleSearchList": ".bookbox",
+        "ruleSearchName": ".bookinfo@tag.h4@tag.a@text",
+        "ruleSearchNoteUrl": ".bookimg@tag.a@href",
+        "ruleSearchUrl": "/s.php?ie=utf-8&q=searchKey",
+        "serialNumber": 1,
+        "weight": 0
+    }
+]

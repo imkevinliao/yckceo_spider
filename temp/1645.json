@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "特别",
+        "bookSourceName": "御宅屋yuzhaiwu.life",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://yuzhaiwu.life",
+        "customOrder": -140553,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "耽美::/sort1/{{page}}/\n高辣::/sort6/{{page}}/\n言情::/sort5/{{page}}/\n百合::/sort2/{{page}}/",
+        "lastUpdateTime": 1668222315884,
+        "loginUrl": "{\n  \"url\": \"null\"\n}",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "lastChapter": "##最新[^>]+>([^<]+)</[\\s\\S]+?更新时间：<time>([^<]+)</##$1•$2###",
+            "tocUrl": "#ls0 a@href",
+            "wordCount": "#size@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html##.*《.*》.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.strong@text",
+            "bookList": ".common-bookele",
+            "bookUrl": "tag.a.0@href",
+            "intro": "tag.a.-1@text",
+            "kind": "##栏目：([^<]+)<[\\s\\S]+?标签：([^<]+)<##$1,$2###",
+            "name": "tag.a.0@text||h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#jsList1 a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

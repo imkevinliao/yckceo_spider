@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "练习10，自写，完",
+        "bookSourceName": "中间门小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.mesdoor.com",
+        "customOrder": 9,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"        🌹分类🌹        \",\"url\":\"\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"玄幻\",\"url\":\"/category/xuanhuan/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"奇幻\",\"url\":\"/category/qihuan/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"武侠\",\"url\":\"/category/wuxia/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"仙侠\",\"url\":\"/category/xianxia/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市\",\"url\":\"/category/dushi/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"/category/lishi/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"军事\",\"url\":\"/category/junshi/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"游戏\",\"url\":\"/category/youxi/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"竞技\",\"url\":\"/category/jingji/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻\",\"url\":\"/category/kehuan/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"灵异\",\"url\":\"/category/lingyi/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"其他\",\"url\":\"/category/qita/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"        🌹排行🌹        \",\"url\":\"\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"总点击\",\"url\":\"/rank/allvisit/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"月点击\",\"url\":\"/rank/monthvisit/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"周点击\",\"url\":\"/rank/weekvisit/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"日点击\",\"url\":\"/rank/dayvisit/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"推荐数\",\"url\":\"/rank/vote/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"收藏数\",\"url\":\"/rank/mark/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"下载数\",\"url\":\"/rank/down/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"评论数\",\"url\":\"/rank/comment/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"评分\",\"url\":\"/rank/star_score/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"入库时间\",\"url\":\"/rank/postdate/{{page}}.html\",\n\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "lastUpdateTime": 1682332889706,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.mr30@a@text",
+            "coverUrl": "class.pt-bookdetail@a@img@src",
+            "intro": "class.compulsory-row-three pt-bookdetail-intro@text",
+            "kind": "class.color5.1@text",
+            "lastChapter": "class.color2 mr20@text",
+            "name": "class.color2 bold@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.size16 color5 pt-read-text@p@textNodes",
+            "replaceRegex": "##下载看最新内.*|网站内容更新.*"
+        },
+        "ruleExplore": {
+            "author": "class.color7 pt-sortdetail-title@span.3@text||class.mr30.0@a@text",
+            "bookList": "class.color7 pt-sortdetail-title||class.pt-rank-detail",
+            "bookUrl": "class.fl compulsory-row-one pt-sortdetail-item2@a@href||class.pt-rank-detail@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.compulsory-row fl w100 color5 desc@text",
+            "kind": "class.color7 pt-sortdetail-title@span.0@text||class.fl color7@a.-1@text",
+            "lastChapter": "class.color7 pt-sortdetail-title@span.2@text||class.color2 mr20@text",
+            "name": "class.color7 pt-sortdetail-title@span.1@text||class.size18 color2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.mr30.0@a@text",
+            "bookList": "class.pt-rank-detail",
+            "bookUrl": "class.pt-rank-detail@a.0@href",
+            "intro": "class.compulsory-row fl w100 color5 desc@text",
+            "kind": "class.fl color7@span@a.1@text",
+            "lastChapter": "class.color2 mr20@text",
+            "name": "class.fl mr60@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.pt-chapter-cont-detail full@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.mesdoor.com/search/result.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

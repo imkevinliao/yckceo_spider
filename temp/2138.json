@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "#纯发现\n#单篇",
+        "bookSourceGroup": "📚 杂志",
+        "bookSourceName": "📚大嘴狗杂志▪发现",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.dazuig.com/",
+        "customOrder": -118198,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "<js>\ntmp=\"环球::/huans/&&今古传奇武侠::/wenz/jgcqwx/&&今古传奇故事::/wenx/jgcqgs/&&新闻周刊::/shiz/zgxwzk/&&青年周刊::/shiz/bjqnzk/&&东方周刊::/shiz/lwdfzk/&&新民周刊::/shiz/xmzk/&&现代青年::/shiz/xdqnjy/&&世界知识::/shiz/sjzs/&&世界博览::/shiz/sjbl/&&南都周刊::/shiz/ndzk/&&南方人物::/shiz/ndrwzk/&&世界知识::/shiz/sjzs/&&民生周刊::/shiz/mszk/&&世纪人物::/shiz/sjrw/&&环球人物::/shiz/hqrw/&&华人时刊::/shiz/hrsk/&&人民周刊::/shiz/rmzk/&&民生周刊::/shiz/mszk/&&证券市场::/caij/zqsczk/&&投资与理财::/caij/tzylc/&&第一财经::/caij/dycjzk/&&经济周刊::/caij/zgjjzk/&&中国经贸::/caij/zgjm/&&中国商人::/caij/zgsr/&&商界评论::/caij/sjpl/&&对外贸易::/caij/zgdwmy/&&商业文化::/caij/sywh/&&中国名牌::/caij/zgmp/&&时代金融::/zhic/sdjr/&&上海文学::/wenx/shwx/&&小小说月刊::/wenx/xxsyk/&&长江文艺::/wenx/cjwy/&&小说界::/wenx/xsj/&&青年文学::/wenx/qnwxj/&&北京文学::/wenx/bjwx/&&南方文学::/wenx/nfwx/&&当代小说::/wenx/ddxs/&&福建文学::/wenx/fjwx/&&台港文学::/wenx/twwxxk/&&短篇小说::/wenx/dpxsycb/&&文史杂志::/wenx/wszz/&&铁路文艺::/wenx/zgtlwy/&&百姓生活::/jiat/bxsh/&&大众健康::/jiat/dzjk/&&现代养生::/jiat/xdyssby/&&家庭医药::/jiat/jtyy/&&妇女生活::/jiat/fnsh/&&现代妇女::/jiat/xdfn/&&幸福家庭::/jiat/xfjt/&&百科知识::/jiat/bkzs/&&妇女之友::/jiat/fnzy/&&意林::/wenz/yl/&&故事会::/wenz/gsh/&&读者::/wenz/dz/&&故事林::/wenz/gsl/&&海外文摘::/wenz/hwwz/&&故事大王::/wenz/gsdw/&&奇闻怪事::/wenz/qwgs/&&文史月刊::/wenz/wsyk/&&文化交流::/wenz/whjl/&&中学生博览::/xues/zxsbl/&&作文大王::/xues/zwdwxhdw/&&课堂内外::/xues/ktnwgzb/&&阅读与作文::/xues/ydyzwcz/&&语文世界::/xues/ywsjcz/&&阅读::/xues/ydznj/&&作文与考试::/xues/xwykscz/&&新作文::/xues/xzwgzb/&&科学24小时::/lvy/kx24xs/&&环球人文地理::/lvy/hqrwdl/&&户外探险::/lvy/hhtx/&&旅游::/lvy/ly/&&摄影世界::/lvy/sysj/&&大自然探索::/lvy/dzrts/&&飞碟探索::/lvy/fdts/&&世界博览::/lvy/sjbl/&&时尚北京::/zhic/ssbj/&&英才::/zhic/jlr/&&英才::/zhic/yc/&&商界::/zhic/sj/&&新媒体研究::/zhic/xmtyj/&&中外管理::/zhic/zwgl/&&凤凰生活::/yuel/fhsh/&&37°女人::/yuel/37nr/&&BOSS臻品::/yuel/bosszp/&&电视指南::/yuel/dszn/&&电影评介::/yuel/dypj/&&电影中国::/yuel/dyzg/&&兵器知识::/juns/bqzs/&&航空世界::/juns/hksj/&&军事文摘::/juns/jswz/&&轻兵器::/juns/qbq/&&汽车之友::/qiec/qczy/&&汽车杂志::/qiec/qczz/&&世界汽车::/qiec/qcsj/&&汽车导报::/qiec/qcdb/&&\";\ntmp.replace(/(?=&&)/g,\"index<,_{{page}}>.html\")\n</js>",
+        "lastUpdateTime": 1616651557207,
+        "ruleBookInfo": {
+            "author": "##<p>(\\w{1,4})</p>##$1###",
+            "canReName": "true",
+            "lastChapter": "tag.title@text## - ",
+            "name": "tag.title@text## - "
+        },
+        "ruleContent": {
+            "content": "div.entry-content>p:not(p.txt)@html##(src)=[^>]+ data-original##$1",
+            "imageStyle": "FULL",
+            "replaceRegex": "##^\\h*{{book.author}}\\n"
+        },
+        "ruleExplore": {
+            "author": "tag.p@text##^([\\u4e00-\\u9fa5·]{1,2}[\\u4e00-\\u9fa5·]{0,3}?)(?=上期|首先|[今明]天|最近|常常|如果|假如|\\w个|第\\w{1,7}章|[“/\\d\\hA-Z《你我他她从这第据说当直很最每在不虽摘])##$1###",
+            "bookList": "<js>tmp=result;\njava.put(\"mag\",java.getString(\"tag.h3.0@text\"));\nresult=tmp</js>\n@css:ul.content-list>li",
+            "bookUrl": "tag.a.0@href",
+            "intro": "tag.p@text",
+            "kind": "<js>java.get(\"mag\")</js>",
+            "name": "tag.a.0@text",
+            "wordCount": "class.time@text##时间："
+        },
+        "ruleSearch": {
+            "bookList": "",
+            "bookUrl": "",
+            "name": ""
+        },
+        "ruleToc": {
+            "chapterList": "tag.title",
+            "chapterName": "text## - "
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

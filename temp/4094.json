@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣阁q",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.biqugeq.org",
+        "bookUrlPattern": "https?://m.biqugeq.org/\\d+/\\d+.html",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/sort/1_{{page}}/\n修真::/sort/2_{{page}}/\n都市::/sort/3_{{page}}/\n穿越::/sort/4_{{page}}/\n网游::/sort/5_{{page}}/\n科幻::/sort/6_{{page}}/\n其他::/sort/7_{{page}}/\n全本::/full/{{page}}/",
+        "header": "{\"referer\": \"{{source.getKey()}}\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695018078816,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".book_box span.0@text",
+            "coverUrl": ".cover img@src",
+            "intro": ".book_about dd@text\n##最新章节推荐.*",
+            "kind": ".book_box span.1:2:3@text\n##分类：|状态：|更新：",
+            "lastChapter": ".book_box a.-1@text",
+            "name": "dt.name@text"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##笔趣Q阅读网址.*|第\\(\\d.+\\)页|{{chapter.title}}"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".lis li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": ".s1@text##\\[|\\]",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last.1@dd a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value##/\\{.+\\}/"
+        },
+        "searchUrl": "https://m.biqugeq.org/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

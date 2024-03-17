@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "📖,☁️可用,⛎JJ城,☣️精选senhora",
+        "bookSourceName": "石头阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.stoneread.com",
+        "customOrder": -88906008,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1641841166382,
+        "respondTime": 6340,
+        "ruleBookInfo": {
+            "author": "tag.p.1@text##作者：",
+            "coverUrl": ".de_img_tu img@src",
+            "intro": "",
+            "kind": "##分类：<span>(.*?)</span>[^：]+：([^<]*)##$1,$2###",
+            "lastChapter": "##最新章节：(?:\\[\\d*\\])?(.*?)</p>##$1###",
+            "name": "h2.name@text"
+        },
+        "ruleContent": {
+            "content": "data.content||.content p@text##看免费小说就到石头阅读|.*奇奇小説.*com.*首发、域名、.*|"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "p.author@text##作者",
+            "bookList": ".search_novel_list@li@a@js:result.toArray().filter(x=>String(x.select('.name,.author').text()).includes(java.get('key')))",
+            "bookUrl": "href",
+            "coverUrl": "img@src",
+            "intro": "p.intro@text",
+            "name": "p.name@text"
+        },
+        "ruleToc": {
+            "chapterList": "-+@js:java.setContent(baseUrl.match(/_2/)?JSON.parse(result).html:result,'');java.getElement('class.article_list_zj.0@li@a||.add_sj||li@a').toArray().map(x=>{a=x.select('span:first-child').text();b=x.attr('href').match(/-(\\d+)\\/(\\d+)\\.html/);return{n:String(a).replace(/\\[\\d+\\]/,''),u:!b?'':'https://app.stoneread.com/bookapi/getchapter?bid='+b[1]+'&id='+b[2]}})",
+            "chapterName": "n",
+            "chapterUrl": "u",
+            "nextTocUrl": "@js:if(result.match(/全部章节</)){a=result.match(/bookid = (\\d+)\\D+(\\d+)/);'/index/getchapterlist_2?bookid='+a[1]+'&sourceid='+a[2]}"
+        },
+        "searchUrl": "/index/search?type=novel&page={{page}}&kw={{java.put('key',key);key}}",
+        "weight": 0
+    }
+]

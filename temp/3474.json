@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "雅书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.yasuge.cc",
+        "bookUrlPattern": "https://m.yasuge.cc/\\d+.*",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "都市言情::/class/1_{{page}}/\n历史军事::/class/2_{{page}}/\n玄幻奇幻::/class/3_{{page}}/\n武侠修真::/class/4_{{page}}/\n女生纯爱::/class/11_{{page}}/\n科幻网游::/class/7_{{page}}/\n悬疑灵异::/class/9_{{page}}/",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1685851516855,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者@text",
+            "coverUrl": "img@src",
+            "intro": ".jianjie@text",
+            "kind": "text.分类@text&&text.更新：@text\n##分类：|更新：",
+            "lastChapter": "text.最新章节@a@text",
+            "name": ".zhong@text",
+            "tocUrl": "text.全部章节@href"
+        },
+        "ruleContent": {
+            "content": "#nr@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "ul@li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li!-1",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "@js:\nvar page = result.match(/<span>1\\/(\\d+)<\\/span>/) [1];\nvar list = [];\nfor (var i = 2; i <= page; i++) {\n  list.push(baseUrl.replace(/_1/, '_'+i ));\n}\nlist;"
+        },
+        "searchUrl": "https://m.yasuge.cc/Search/{{key}}",
+        "weight": 0
+    }
+]

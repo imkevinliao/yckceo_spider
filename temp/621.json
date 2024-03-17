@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⛩🎐senhora,☁️可用",
+        "bookSourceName": "天涯社区",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://bbs.tianya.cn/",
+        "bookUrlPattern": "http://bbs.tianya.cn/post-funinfo-/d+-/d+.shtml",
+        "customOrder": -88962053,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "娱乐八卦::http://bbs.tianya.cn/list-funinfo-{{page}}.shtml\n海外华人::http://bbs.tianya.cn/list-outseachina-{{page}}.shtml\n汽车时代::http://bbs.tianya.cn/list-cars-{{page}}.shtml\n我的大学::http://bbs.tianya.cn/list-university-1-{{page}}.shtml\n影视评论::http://bbs.tianya.cn/list-filmtv-{{page}}.shtml\n开心乐园::http://bbs.tianya.cn/list-14-{{page}}.shtml\n等等等等……待添加::",
+        "lastUpdateTime": 1645459696795,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[name=\"author\"]@content",
+            "intro": "class.bbs-content clearfix@text",
+            "name": "[itemprop=\"name\"]@content##_.*论坛_天涯社区"
+        },
+        "ruleContent": {
+            "content": "class.bbs-content clearfix@html||class.item-reply-view@class.ir-list@li@class.ir-content@textNodes",
+            "imageStyle": "full"
+        },
+        "ruleExplore": {
+            "author": "td.1@a@text",
+            "bookList": "class.mt5@tbody!0@tr",
+            "bookUrl": "class.td-title faceblue@a@href",
+            "lastChapter": "td.4@text",
+            "name": "class.td-title faceblue@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.source@a.1@text",
+            "bookList": "class.searchListOne@ul@li",
+            "bookUrl": "",
+            "checkKeyWord": "画像",
+            "intro": "p.0@text",
+            "kind": "class.source@a.0@text",
+            "lastChapter": "class.source@span.0@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.searchListOne@ul@li||class.atl-con-bd clearfix",
+            "chapterName": "h3@text||class.bbs-content@textNodes||class.bbs-content clearfix@html",
+            "chapterUrl": "h3@a@href||class.bbs-content@textNodes||class.bbs-content clearfix@textNodes||",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://search.tianya.cn/bbs?q={{key}}&pid=",
+        "weight": 0
+    }
+]

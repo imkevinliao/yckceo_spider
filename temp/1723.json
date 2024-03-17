@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "id也可以获取，包括下一页规则\n分页中间空白：\n（正文）@js:result+'🍑下一页'\n（替换）##\\s*🍑下一页\\s*\n\t\n下一页规则可以用黑字（.text.*@href）代替\n规则之间可以用空格代替.  开头要加#",
+        "bookSourceGroup": "自写，练习2，完成",
+        "bookSourceName": "七真书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.7zzw.com",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"/sort/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠修真\",\"url\":\"/sort/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/sort/3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/sort/4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/sort/5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/sort/6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生耽美\",\"url\":\"/sort/7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"/sort/8/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "",
+        "lastUpdateTime": 1680890157411,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".p_author@text",
+            "coverUrl": "class.bookleft@tag.img@src",
+            "intro": "class.hm-scroll@text",
+            "kind": "id.count@li.0@tag.span@text",
+            "lastChapter": "class.chaw@li.0@tag.a@text",
+            "name": ".d_title@text",
+            "wordCount": "id.count@li.1@tag.span@text"
+        },
+        "ruleContent": {
+            "content": "class.read-content@tag.p@text@js:result+'🍑下一页'",
+            "nextContentUrl": "#next_url@href",
+            "replaceRegex": "##\\s*🍑下一页\\s*"
+        },
+        "ruleExplore": {
+            "author": "class.tit@text",
+            "bookList": "dl",
+            "bookUrl": "dl@dt@tag.a@href",
+            "coverUrl": "#dl dt a@tag.img@src",
+            "intro": "class.name@text||class.book_des@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "dl@dd.0@tag.a@text",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book_other@tag.span.0@text",
+            "bookList": "id.nr",
+            "bookUrl": "id.nr@dd.0@tag.a@href",
+            "checkKeyWord": "遮天",
+            "coverUrl": "tag.img@src",
+            "intro": "class.book_des@text",
+            "kind": "class.book_other@tag.span.1@text",
+            "lastChapter": "class.book_other@tag.a@text",
+            "name": "id.nr@dd.0@tag.a@text",
+            "wordCount": "class.book_other@tag.span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.newlist@class.chaw_c@li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.7zzw.com/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

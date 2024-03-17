@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🐿️备份",
+        "bookSourceName": "R级小说屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xiaoshuowu.org",
+        "customOrder": -56,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::https://www.xiaoshuowu.org/xuanhuan/\r\n武侠仙侠::https://www.xiaoshuowu.org/wuxia/\r\n都市言情::https://www.xiaoshuowu.org/dushi/\r\n历史军事::https://www.xiaoshuowu.org/lishi/\r\n科幻灵异::https://www.xiaoshuowu.org/kehuan/\r\n网游竞技::https://www.xiaoshuowu.org/wangyou/\r\n女频频道::https://www.xiaoshuowu.org/nvsheng/\r\n其它类型::https://www.xiaoshuowu.org/qita/\r\nr级小说屋::https://www.xiaoshuowu.org/xiaoshuowu/\r\n排行::https://www.xiaoshuowu.org/paihangbang/\r\n小说大全::https://www.xiaoshuowu.org/xiaoshuodaquan/",
+        "lastUpdateTime": 1602342088729,
+        "ruleBookInfo": {
+            "author": "class.info@tag.p.0@text",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@text",
+            "name": "tag.h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "author": "tag.span.3@class.s4@text",
+            "bookList": "tag.ul.1@tag.li",
+            "bookUrl": "tag.span.1@class.s2@tag.a@href",
+            "lastChapter": "tag.span.2@class.s3@tag.a@text",
+            "name": "tag.span.1@class.s2@tag.a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.span.2@class.s4@text",
+            "bookList": "class.novelslist2.0@tag.ul@tag.li",
+            "bookUrl": "tag.span.1@class.s2@tag.a@href",
+            "intro": "",
+            "lastChapter": "tag.span.3@class.s3@tag.a@text",
+            "name": "tag.span.1@class.s2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.dl@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.xiaoshuowu.org/Search.html? name={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "雪痕伤",
+        "bookSourceName": "选书网-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xuanshu.com",
+        "customOrder": 2,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": " 玄幻魔法::/sort1/{{page}}.html\n 武侠修真::/sort2/{{page}}.html\n 都市言情::/sort3/{{page}}.html\n 历史军事::/sort4/{{page}}.html\n 网游动漫::/sort6/{{page}}.html\n 科幻小说::/sort7/{{page}}.html\n 恐怖灵异::/sort8/{{page}}.html\n 综合其他::/sort10/{{page}}.html",
+        "lastUpdateTime": 1653876860085,
+        "respondTime": 3379,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "class.intro@text"
+        },
+        "ruleContent": {
+            "content": "id.content1@html"
+        },
+        "ruleExplore": {
+            "author": "class.zuozhe@text",
+            "bookList": "class.zuixin@li",
+            "bookUrl": "class.xname@a@href",
+            "lastChapter": "class.xupl@a@text",
+            "name": "class.xname@a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "tbody@tr!0",
+            "bookUrl": "tag.td.0@a@href",
+            "lastChapter": "tag.td.1@a@text",
+            "name": "tag.td.0@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.pc_list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

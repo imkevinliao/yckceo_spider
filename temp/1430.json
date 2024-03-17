@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "和夜读书屋模板一样",
+        "bookSourceGroup": "🍊女频",
+        "bookSourceName": "逆天邪神网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.93xscc.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1675672556913,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.m-infos@span.0@text",
+            "coverUrl": "class.doc-info-img@src",
+            "intro": "tag.p@text",
+            "kind": "class.m-infos@span.1@text##状态：",
+            "lastChapter": "class.m-upd@href",
+            "name": "class.m-infos@h1@text",
+            "tocUrl": "class.line3@href",
+            "wordCount": "class.m-infos@span.2@text##日期："
+        },
+        "ruleContent": {
+            "content": "id.content@p@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##如果.*?阅读.*?阅读"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.col-md-2 col-sm-4 col-xs-4@text",
+            "bookList": "tbody@tr",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "全球高考",
+            "kind": "class.col-md-2 hidden-sm hidden-xs@text",
+            "name": "class.col-md-4 col-sm-8 col-xs-8@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.line3",
+            "chapterName": "class.line3@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/e/search/index.php,{\n  \"body\": \"tbname=bookname&show=title&tempid=1&keyboard={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

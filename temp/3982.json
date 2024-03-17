@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "百字小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.baizixs.com",
+        "bookUrlPattern": "https?://m.baizixs.com/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/shuku/0_0_0_0_0_{{page}}_0.html\n玄幻小说::/shuku/1_0_0_0_0_{{page}}_0.html\n魔法小说::/shuku/2_0_0_0_0_{{page}}_0.html\n二次元::/shuku/3_0_0_0_0_{{page}}_0.html\n悬疑小说::/shuku/4_0_0_0_0_{{page}}_0.html\n同人衍生::/shuku/5_0_0_0_0_{{page}}_0.html\n现代都市::/shuku/6_0_0_0_0_{{page}}_0.html\n穿越架空::/shuku/7_0_0_0_0_{{page}}_0.html\n现代言情::/shuku/8_0_0_0_0_{{page}}_0.html",
+        "header": "{\"referer\": \"{{source.getKey()}}\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693644042214,
+        "loginCheckJs": "",
+        "loginUrl": "",
+        "respondTime": 7644,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.目录@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者内容正在手打中，请稍后访问~\"}\n</js>",
+            "nextContentUrl": "text.下页@href"
+        },
+        "ruleExplore": {
+            "author": "a.1@text",
+            "bookList": ".CGsectionTwo-right-content-unit",
+            "bookUrl": "a.0@href",
+            "intro": "p.-2@text",
+            "kind": "p.-1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".search-card",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "",
+            "intro": ".sc-content@text",
+            "kind": "span.-1@text",
+            "lastChapter": "span.-2@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": " text.下页@href"
+        },
+        "searchUrl": "https://m.baizixs.com/search/,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

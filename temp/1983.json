@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔮发现",
+        "bookSourceName": "🔮 31小说手机版",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.31xs.org",
+        "customOrder": 6,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "奇魔玄幻::http://m.31xs.org/list/1/{{page}}.html\n竞技网游::http://m.31xs.org/list/5/{{page}}.html\n现代言情::http://m.31xs.org/list/10/{{page}}.html\n仙侠修真::http://m.31xs.org/list/2/{{page}}.html\n古代言情::http://m.31xs.org/list/11/{{page}}.html\n都市现代 ::http://m.31xs.org/list/3/{{page}}.html\n言情小说::http://m.31xs.org/list/14/{{page}}.html\n军史穿越::http://m.31xs.org/list/4/{{page}}.html\n综合言情::http://m.31xs.org/list/8/{{page}}.html\n恐怖科幻::http://m.31xs.org/list/6/{{page}}.html\n幻想言情::http://m.31xs.org/list/12/{{page}}.html\n同人次元::http://m.31xs.org/list/7/{{page}}.html\n浪漫青春::http://m.31xs.org/list/9/{{page}}.html",
+        "lastUpdateTime": 1619310423481,
+        "ruleBookInfo": {
+            "author": "class.am-article-meta@text##连载.*|已完成.*",
+            "intro": "class.am-article-lead@text##小说.*简介：",
+            "name": "class.am-article-title@text",
+            "tocUrl": "class.am-text-center@tag.a.0@href||class.am-list-news-bd@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "class.am-article-bd@tag.p@text"
+        },
+        "ruleExplore": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.longview@tag.span@text",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "author": "dd@tag.p.0@text##作者：",
+            "bookList": "dl",
+            "bookUrl": "dt@tag.a@href",
+            "coverUrl": "",
+            "intro": "dd@tag.p.1@tag.a@text",
+            "name": "dt@tag.a@text##\\[.*]"
+        },
+        "ruleToc": {
+            "chapterList": "class.am-list-news-bd@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://m.31xs.org/search.php,{\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"}",
+        "weight": 0
+    }
+]

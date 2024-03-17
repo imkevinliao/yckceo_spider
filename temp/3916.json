@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔30秒",
+        "bookSourceGroup": "自制,特殊,源仓库,网页源",
+        "bookSourceName": "跑车小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.pc7043.com",
+        "bookUrlPattern": "http://www.pc7043.com/index/\\d+/",
+        "customOrder": 7,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/sort/{{page}}/\n玄幻小说::/sort/1/{{page}}/\n武侠小说::/sort/1/{{page}}/\n都市小说::/sort/1/{{page}}/\n历史小说::/sort/1/{{page}}/\n网游小说::/sort/1/{{page}}/\n科幻小说::/sort/1/{{page}}/\n耽美小说::/sort/1/{{page}}/\n其他小说::/sort/1/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692336230481,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent p@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "p.1@text##（.*）",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href\n@js:\nvar id=result.match(/\\d+/);\nvar iid=parseInt(id/1000);\n`/images/${iid}/${id}/${id}s.jpg`",
+            "intro": "p.-1@text##简介：",
+            "kind": "p.1@text##（(.+)）##$1###",
+            "name": "p.0@ownText##（.*"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "kind": ".author.1@text##类型：",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".directoryArea.1@p a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://www.pc7043.com/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

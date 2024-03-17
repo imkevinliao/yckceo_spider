@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "网站不能搜索，只搞了发现页，如果你在发现页没找到这个网站你要看的书，你可以在网页上把你要看的书的连接复制到搜索地址上，随便搜一个字就是你复制的那本书",
+        "bookSourceGroup": "",
+        "bookSourceName": "四库书屋（可看一些飞卢仅发现）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.4ksw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻::http://www.4ksw.com/list/1-{{page}}1.html\n仙侠::http://www.4ksw.com/list/2-{{page}}1.html\n言情::http://www.4ksw.com/list/3-{{page}}1.html\n历史::http://www.4ksw.com/list/4-{{page}}1.html\n网游::http://www.4ksw.com/list/5-{{page}}1.html\n科幻::http://www.4ksw.com/list/6-{{page}}1.html\n恐怖::http://www.4ksw.com/list/7-{{page}}1.html\n其他::http://www.4ksw.com/list/8-{{page}}1.html\n总排行榜::http://www.4ksw.com/book/allvisit-{{page}}1.html\n本周排行榜::http://www.4ksw.com/book/weekvisit-{{page}}1.html\n当月排行榜::http://www.4ksw.com/book/monthvisit-{{page}}1.html\n最近更新::http://www.4ksw.com/book/lastupdate-{{page}}1.html",
+        "lastUpdateTime": 1667747289140,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.text-center.1@text",
+            "coverUrl": "img.0@src",
+            "intro": "class.info2@p@text",
+            "kind": "class.info3@p.0@text",
+            "lastChapter": "class.info3@p.2@text",
+            "name": "class.info2@text",
+            "wordCount": "class.info3@p.1@text"
+        },
+        "ruleContent": {
+            "content": "class.panel-body@textNodes"
+        },
+        "ruleExplore": {
+            "author": "class.book_author@text",
+            "bookList": "class.col-lg-6||class.article@li",
+            "bookUrl": "class.book-title@a@href||a@href",
+            "coverUrl": "img@src",
+            "intro": "class.book-intro-index@textNodes",
+            "kind": "",
+            "lastChapter": "class.lastchapter@text",
+            "name": "class.media-heading@text||class.articlename@text",
+            "wordCount": "class.lastupdate@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "class.list-group.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

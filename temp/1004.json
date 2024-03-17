@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "55读书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.changduzw.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1631084675852,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.status@tag.p.1@text",
+            "coverUrl": "class.imgbox@tag.img@src",
+            "intro": "class.con@tag.p@text",
+            "kind": "class.status@tag.a.0@text",
+            "lastChapter": "class.red@text",
+            "name": "class.status@tag.h1@text",
+            "tocUrl": "text.点击阅读@href",
+            "wordCount": "class.status@tag.p.-3@text##总字数."
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.grid@tag.td.2@text",
+            "bookList": "class.odd",
+            "bookUrl": "class.odd.0@tag.a.0@href",
+            "kind": "class.even@text",
+            "lastChapter": "",
+            "name": "class.odd@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.mulu_list@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.changduzw.com/modules/article/search.php,{\n'charset': 'utf-8',\n'method': 'POST',\n'body': 'searchkey={{key}}&type=submit'\n}",
+        "weight": 0
+    }
+]

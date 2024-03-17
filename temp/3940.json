@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "安奥中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.anaow.com",
+        "bookUrlPattern": "https?://m.anaow.com/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/all/0_0_3_0_0_0_{{page}}.html\n连载小说::/all/1_0_3_0_0_0_{{page}}.html\n完结小说::/all/2_0_3_0_0_0_{{page}}.html\n玄幻小说::/all/0_0_3_0_0_0_{{page}}.html\n衍生同人::/all/0_0_4_0_0_0_{{page}}.html\n游戏竞技::/all/0_0_5_0_0_0_{{page}}.html\n灵异悬疑::/all/0_0_6_0_0_0_{{page}}.html\n穿越小说::/all/0_0_7_0_0_0_{{page}}.html\n古代言情::/all/0_0_8_0_0_0_{{page}}.html\n都市小说::/all/0_0_9_0_0_0_{{page}}.html\n惊悚小说::/all/0_0_10_0_0_0_{{page}}.html\n都市言情::/all/0_0_11_0_0_0_{{page}}.html",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1692836225998,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.目录@href"
+        },
+        "ruleContent": {
+            "content": "<js>\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者内容正在手打中，请稍后访问~\"}\n</js>"
+        },
+        "ruleExplore": {
+            "author": "span.0@text##\\/",
+            "bookList": ".list-item",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-lazy",
+            "kind": "p.1@text&&span.1@text",
+            "lastChapter": "p.2@textNodes##\\/",
+            "name": "p.0@textNodes",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".search-card",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "intro": ".sc-content@text",
+            "kind": "span.-1@text",
+            "lastChapter": "span.-2@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "https://m.anaow.com/search/,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

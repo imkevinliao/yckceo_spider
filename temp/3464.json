@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣阁l",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.biqugl.com",
+        "bookUrlPattern": "https://m.biqugl.com/book/\\d+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"https://m.biqugl.com/sort/{{page}}/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"武侠修真\",\"url\":\"https://m.biqugl.com/sort/2/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市言情\",\"url\":\"https://m.biqugl.com/sort/3/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"历史军事\",\"url\":\"https://m.biqugl.com/sort/4/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻悬疑\",\"url\":\"https://m.biqugl.com/sort/5/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"游戏竞技\",\"url\":\"https://m.biqugl.com/sort/6/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"女生专区\",\"url\":\"https://m.biqugl.com/sort/7/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他小说\",\"url\":\"https://m.biqugl.com/sort/8/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1685708637242,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.全部章节@href",
+            "wordCount": "class.gray fss@span.0@text##字"
+        },
+        "ruleContent": {
+            "content": "#acontent@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@textNodes##\\|.*(\\s.*)*",
+            "bookList": "class.c_row",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "p@textNodes##.*\\|\\s",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "#pagestats@textNodes\n@js:var go = result[0];\nvar page = go.match(/(\\d+)/) [1];\nvar list = [];\nfor (var i = 2; i <= page; i++) {\n  list.push(baseUrl.replace(/1\\/asc/, i + '/asc'));\n}\nlist;",
+            "updateTime": "a@title##更新，共##,"
+        },
+        "searchUrl": "https://m.biqugl.com/s/all/{{key}}/{{page}}.html",
+        "weight": 0
+    }
+]

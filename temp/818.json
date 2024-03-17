@@ -1,0 +1,32 @@
+[
+    {
+        "bookSourceGroup": "④正版; 发现",
+        "bookSourceName": "猫九小说💯",
+        "bookSourceUrl": "http://www.maojiuxs.com",
+        "enable": true,
+        "loginUrl": "http://www.maojiuxs.com/member/login.html",
+        "ruleBookAuthor": "class.introtwo@span!1@text",
+        "ruleBookContent": "class.readBox@p@textNodes",
+        "ruleBookKind": "class.cation@span@text",
+        "ruleBookLastChapter": "class.update@span!1@text",
+        "ruleBookName": "class.title.0@text",
+        "ruleChapterList": "class.recommendeddirectory@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "class.tabs_header@tag.a.1@href",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.imgbox@img@src",
+        "ruleFindUrl": "更新热榜::http://www.maojiuxs.com/top/gengxin.html\n新书热榜::http://www.maojiuxs.com/top/xinshu.html\n总推荐榜::http://www.maojiuxs.com/top/tuijian.html\n总点击榜::http://www.maojiuxs.com/top/dianji.html\n总收藏榜::http://www.maojiuxs.com/top/shoucang.html\n总好评榜::http://www.maojiuxs.com/top/pinglun.html\n全部小说::http://www.maojiuxs.com/shuku/?offset={0,searchPage}&section_id=1&\n热门连载::http://www.maojiuxs.com/shuku/?offset={0,searchPage}&over=1&section_id=1&s=&\n最新完本::http://www.maojiuxs.com/shuku/?offset={0,searchPage}&over=2&section_id=1&s=&\n现代言情::http://www.maojiuxs.com/shuku/?offset={0,searchPage}&category=1&section_id=1&s=&\n古代言情::http://www.maojiuxs.com/shuku/?offset={0,searchPage}&category=2&section_id=1&s=&\n青春校园::http://www.maojiuxs.com/shuku/?offset=0&category=3&section_id=1&s=&\n玄幻奇幻::http://www.maojiuxs.com/shuku/?offset=0&category=4&section_id=1&s=&\n灵异惊悚::http://www.maojiuxs.com/shuku/?offset=0&category=5&section_id=1&s=&\n同人小说::http://www.maojiuxs.com/shuku/?offset=0&category=6&section_id=1&s=&\n游戏竞技::http://www.maojiuxs.com/shuku/?offset=0&category=7&section_id=1&s=&\n无cp小说::http://www.maojiuxs.com/shuku/?offset=0&category=135&section_id=1&s=&\n纯爱百合::http://www.maojiuxs.com/shuku/?offset=0&category=136&section_id=1&s=&",
+        "ruleIntroduce": "class.pane@tag.p.0@textNodes",
+        "ruleSearchAuthor": "class.author@text#.*：",
+        "ruleSearchCoverUrl": "tag.img.-1@src",
+        "ruleSearchIntroduce": "class.instro@text",
+        "ruleSearchKind": "class.statusbox@span@text",
+        "ruleSearchLastChapter": "class.update@span@text",
+        "ruleSearchList": "class.clearfix@li|class.recom_top@li",
+        "ruleSearchName": "class.name@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://www.maojiuxs.com/book/all.html?s=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

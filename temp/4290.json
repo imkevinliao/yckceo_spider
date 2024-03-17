@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceGroup": "🚬 刘备",
+        "bookSourceName": "中信小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.zxxs123.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "header": "{\n\t\"User-Agents\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.92 Safari/537.36\",\n \"Referer\": \"{{baseUrl}}\"\n}",
+        "lastUpdateTime": 1697707807225,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "//div[contains(@class, \"block_txt2\")]/p[4]/a/text()"
+        },
+        "ruleContent": {
+            "content": "#nr1@textNodes",
+            "replaceRegex": "##(www|m).*com"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "/div[@class=\"bookinfo\"]/div[@class=\"author\"]/text()",
+            "bookList": "//div[@class=\"bookbox\"]",
+            "bookUrl": "/div[@class=\"bookinfo\"]/h4[@class=\"bookname\"]/i[@class=\"iTit\"]/a/@href",
+            "coverUrl": "/div[@class=\"bookimg\"]/a/img/@src",
+            "intro": "/div[@class=\"bookinfo\"]/div[@class=\"intro_line\"]/text()",
+            "kind": "",
+            "lastChapter": "/div[@class=\"bookinfo\"]/div[@class=\"update\"]/a/text()",
+            "name": "/div[@class=\"bookinfo\"]/h4[@class=\"bookname\"]/i[@class=\"iTit\"]/a/text()"
+        },
+        "ruleToc": {
+            "chapterList": "//div[contains(@class, \"cover\")]/ul[2]/li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##^##https://m.zxxs123.com",
+            "nextTocUrl": "//*[contains(text(), \"下一页\")]/@href"
+        },
+        "searchUrl": "/search.php?keyword={{key}}&submit=,{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

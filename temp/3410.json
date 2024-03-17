@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "/*\n\t自动获取搜索地址\n\t\n\t需要使用源变量时，执行下面eval\n\teval(String(source.bookSourceComment));\n\t\n\t*/\n\t//获取源变量\n\t_getData = () => {\n\t\ttry {\n\t\t\tdata = JSON.parse(source.getVariable());\n\t\t} catch (err) {\n\t\t\tdata = {};\n\t\t}\n\t\treturn data\n \t}\n \t//保存源变量 _setData(data)\n _setData = (obj) => {\n \tif(typeof obj == \"object\"){\n \t\tsource.setVariable(JSON.stringify(obj));\n \t}\n }\n _getData();\n \n //获取搜索地址\n _getUrl = () => {\n \t//通过js文件获取所搜地址\n \tlet url = org.jsoup.Jsoup.parse(java.ajax(source.key+\"skin/common/sedeso.js\")).select(\"form\").attr(\"action\");\n \t//js文件获取失败时用webView加载获取所搜地址\n \tif(!String(url)){\n \t\turl = org.jsoup.Jsoup.parse(java.webView(null, source.key, null)).select(\"form\").attr(\"action\");\n \t}\n \treturn url\n }",
+        "bookSourceGroup": "",
+        "bookSourceName": "明月中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.56kog.com/",
+        "customOrder": -2086052334,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"🚫排行榜🚫\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"周点击榜\",\"url\":\"/top/weekvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总收藏榜\",\"url\":\"/top/goodnum_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新入库\",\"url\":\"/top/postdate_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本小说\",\"url\":\"/quanben/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"🚫分类🚫\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻魔法\",\"url\":\"/class/1_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠修真\",\"url\":\"/class/2_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/class/4_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"侦探推理\",\"url\":\"/class/5_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游动漫\",\"url\":\"/class/6_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖灵异\",\"url\":\"/class/8_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/class/3_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/class/7_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生小说\",\"url\":\"/class/9_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/class/10_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},]",
+        "header": "{\n\t\"User-Agent\" : \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Snapchat/10.77.5.59 (like Safari/604.1)\"\n}",
+        "lastUpdateTime": 1685031131080,
+        "loginCheckJs": "//java.key搜索关键词\nif ((result.code() == 404 || result.code() == 405) && java.key) {\n\t//java.log(result.body());\n\t\n\teval(String(source.bookSourceComment));\n\t\n\t_url = _getUrl();\n\tif (data.url !== _url) {\n\t\tdata.url = _url;\n\t\t_setData(data);\n\t\t\n\t\tjava.initUrl();\n\t\tresult = java.getStrResponse();\n\t}\n}\nresult",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".mohe-content@p.0@textNodes",
+            "coverUrl": ".mohe-content@.mohe-imgs@img@src",
+            "init": "",
+            "intro": "#mohetext@ownText",
+            "kind": ".mohe-content@p.1@a@text&&.mohe-content@p.2:3@ownText",
+            "lastChapter": ".mohe-content@p.4@a@text",
+            "name": ".header@h1@ownText",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": ".nr_all@div[class~=back_r.+]@html",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": ".cover@p",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "ownText##\\[|\\]|\\/",
+            "lastChapter": "",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".readchapter@li@el-tag",
+            "chapterName": "text",
+            "chapterUrl": "onclick##'(.*?)'##$1###\n@js:unescape(result.replace(/\\\\u/g,'%u'));",
+            "nextTocUrl": "select[name=pageselect]@option!0@value",
+            "updateTime": ""
+        },
+        "searchUrl": "@js:\neval(String(source.bookSourceComment));\nurl = data.url || source.key;\nurl + \",\" + JSON.stringify({\n\t\"charset\": \"GBK\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchtype=all&searchkey=\" + key\n})",
+        "variableComment": "",
+        "weight": 0
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "正版",
+        "bookSourceName": "菠萝包轻小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://book.sfacg.com",
+        "bookUrlPattern": "",
+        "customOrder": -1,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/List/default.aspx?tid=-1&PageIndex={{page}}\n连载::/List/?ud=-1&if=0&PageIndex={{page}}\n完结::/List/?ud=-1&if=1&PageIndex={{page}}\n魔幻::/List/default.aspx?tid=21&PageIndex={{page}}\n玄幻::/List/default.aspx?tid=22&PageIndex={{page}}\n古风::/List/default.aspx?tid=23&PageIndex={{page}}\n科幻::/List/default.aspx?tid=24&PageIndex={{page}}\n校园::/List/default.aspx?tid=25&PageIndex={{page}}\n都市::/List/default.aspx?tid=26&PageIndex={{page}}\n游戏::/List/default.aspx?tid=27&PageIndex={{page}}\n同人::/List/default.aspx?tid=28&PageIndex={{page}}\n悬疑::/List/default.aspx?tid=29&PageIndex={{page}}",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+        "lastUpdateTime": 1626678236213,
+        "loginUrl": "https://m.sfacg.com/Login",
+        "ruleBookInfo": {
+            "kind": "class.tag-list@class.text@text",
+            "lastChapter": "",
+            "tocUrl": "@js:baseUrl.replace(/.+Novel/, 'https://m.sfacg.com/i')"
+        },
+        "ruleContent": {
+            "content": "div[style=text-indent: 2em;]@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "tag.li.1@tag.a.1@text",
+            "bookList": "class.Comic_Pic_List",
+            "bookUrl": "tag.li.1@tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.li.1@text##^.+/\\s*\\d+字\\s*",
+            "kind": "tag.li.1@tag.a.2@text&&tag.li.1@tag.span.0@text",
+            "lastChapter": "tag.li.1@text##.+\\D(\\d+\\/\\d+\\/\\d+)\\D*(\\d+字)\\s*(.+)##$1 · $2",
+            "name": "tag.li.1@tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.li.1@text##.+综合信息：\\s*([^\\/]+).*##$1",
+            "bookList": "tag.form@tag.table.-2@tag.ul",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.li.1@text##.+\\d+:\\d+\\s*(.+).*##$1",
+            "kind": "",
+            "lastChapter": "tag.li.1@text##.+\\/(\\d+\\/\\d+\\/\\d+).*##$1",
+            "name": "tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "+<js>\nvar rules = {\n  volsName: '//*[@class=\"mulu\"]/text()',\n  volumes: 'class.mulu_list', \n  chapters: 'tag.a',\n  chName: 'text',\n  chLink: 'href',\n  vip: 'class.icon-lock2'\n};\nvar opts = {\n  showVolName: false\n};\n\nfunction chapterLevel(rules, opts){\n  var check = (rule) => rule !== undefined && rule !== '' ? rule : '@xpath:/x[@x=\"\" and @x!=\"\"]';\n  rules.volInfo = check(rules.volInfo);\n  rules.vip = check(rules.vip);\n  opts.showVolName = opts.showVolName === undefined ? true : !!opts.showVolName;\n\n  var NL = '<br/>', NP = \"<br/>\\uFEFF<br/>\";\n  var list = [];\n  var volsName = java.getStringList(rules.volsName).toArray();\n\n  java.getElements(rules.volumes).toArray().forEach((vol,idx) => {\n    java.setContent(vol);\n    var volInfo = '简介：' + NL + java.getStringList(rules.volInfo).toArray().join(NL);\n    var chs = java.getElements(rules.chapters).toArray().map(ch => {\n      java.setContent(ch);\n      var isVip = !java.getElements(rules.vip).isEmpty();\n      var chName = java.getString(rules.chName);\n      return {\n        text: (isVip ? ' ◆会员|  ' : '').padStart(4, \"\\u2000\")+(opts.showVolName ? volsName[idx]+\"\\x20\" : '')+chName,\n        href: java.getString(rules.chLink),\n        name: chName\n      };\n    });\n\n    volInfo += NP + '目录(' + chs.length + ')：' + NL;\n    volInfo += chs.slice(0,10).map(v => v.name).join(NL);\n    volInfo += chs.length > 10 ? NL + '……' : '';\n    volInfo = volInfo.replace(/(\\s)\\1+/g, '$1');\n    list.push({\n      text: '[ '+volsName[idx]+' ]',\n      href: 'https://translate.google.cn/#view=home&op=translate&sl=zh-CN&tl=en&text='+encodeURIComponent(volInfo)\n    });\n    list = list.concat(chs);\n  });\n\n  return list;\n}\n\nchapterLevel(rules, opts);\n</js>",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://s.sfacg.com/?Key={{key}}&S=1&SS=0",
+        "weight": 0
+    }
+]

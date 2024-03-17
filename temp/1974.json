@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍏普通",
+        "bookSourceName": "🍏 新丝路[原网站正文缺页]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xunsilu.com/",
+        "customOrder": 19,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1619302228253,
+        "ruleBookInfo": {
+            "author": "class.author@tag.span.1@text##.*：",
+            "coverUrl": "class.fengmian@img@src",
+            "intro": "class.intro@text##最新章节由网友提供，《.*》情节.*",
+            "kind": "class.author@tag.span.0@text##.*：",
+            "lastChapter": "class.lastchapter@tag.a@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "id.contents@textNodes##一秒记住.*|如果只看到一半内容的用户，请跳转至.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.searchpage@tag.ul@tag.li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p@text##最新章节由网友提供，《.*》情节.*",
+            "kind": "tag.i@text",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter9@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/s.php,{\n\"charset\": \"UTF-8\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

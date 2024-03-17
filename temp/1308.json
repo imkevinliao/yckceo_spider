@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "同类型网站，相同cms，通用，\nhttps://www.weifengxs.com/\r\nhttps://www.wfxs.com.tw/  （需要梯子）\r\n",
+        "bookSourceGroup": "",
+        "bookSourceName": "微风小说网微風小說網wfxs.com.tw（扶梯）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wfxs.com.tw",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "排行榜::/rank/\n全部小说::/sort/{{page}}.html\n全本完结::/quanben/sort/{{page}}.html",
+        "lastUpdateTime": 1680428905029,
+        "loginUrl": "https://www.wfxs.com.tw/login/",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.booktag@a@text",
+            "coverUrl": "class.bookintro@img@src",
+            "intro": "class.bookintro@text",
+            "lastChapter": "class.bookchapter@text",
+            "name": "bookinfo@class.booktitle@text",
+            "tocUrl": "class.book chapterlist@dd.-1@a@href"
+        },
+        "ruleContent": {
+            "content": "id.rtext@html##.*返回頂部.*",
+            "imageStyle": "full",
+            "nextContentUrl": "text.下一頁@href",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "class.author.0@text##作者：",
+            "bookList": "class.bookinfo",
+            "bookUrl": "class.bookname@a@href",
+            "intro": "class.update@text",
+            "lastChapter": "class.cat@a@text",
+            "name": "class.bookname@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author.0@text##作者：",
+            "bookList": "class.bookinfo",
+            "bookUrl": "class.bookname@a@href",
+            "intro": "class.update@text",
+            "kind": "",
+            "lastChapter": "class.cat@a@text",
+            "name": "class.bookname@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book chapterlist@div@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一頁@href"
+        },
+        "searchUrl": "/search/,{\r\n  \"charset\": \"utf-8\",\r\n  \"method\": \"POST\",\r\n  \"body\": \"searchkey={{key}}&submit=\"\r\n}\r\n",
+        "weight": 0
+    }
+]

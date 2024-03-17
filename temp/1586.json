@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "只能用文章链接搜索",
+        "bookSourceGroup": "知乎",
+        "bookSourceName": "免费盐选",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://mfyx.top/api/search",
+        "customOrder": -88903109,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1669702283739,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "name": ".title@text"
+        },
+        "ruleContent": {
+            "content": ".content@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "@XPath://body/text()",
+            "bookUrl": "https://mfyx.top/archives/{{book.kind}}",
+            "checkKeyWord": "https://www.zhihu.com/answer/2669212660",
+            "intro": "@js:\nintro = JSON.parse(result).description\nintro",
+            "kind": "@js:\nvar kind = JSON.parse(result).id.toString()\nkind",
+            "name": "@js:\nname = JSON.parse(result).title\nname"
+        },
+        "ruleToc": {
+            "chapterList": ".title",
+            "chapterName": "text"
+        },
+        "searchUrl": ",{\n    \"method\": \"POST\",\n    \"body\": \"{\\\"url\\\":[\\\"{{key}}\\\"]}\"\n}",
+        "weight": 0
+    }
+]

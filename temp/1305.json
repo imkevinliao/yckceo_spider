@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceName": "海棠书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.haitangshuwu.info",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻奇幻::/list1_{{page}}.html\n武侠仙侠::/list2_{{page}}.html\n都市言情::/list3_{{page}}.html\n历史穿越::/list4_{{page}}.html\n网游竞技::/list5_{{page}}.html\n科幻灵异::/list6_{{page}}.html\n恐怖惊悚::/list7_{{page}}.html\n其他类型::/list8_{{page}}.html",
+        "lastUpdateTime": 1680624375381,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "img src",
+            "name": ".title@h1@text",
+            "tocUrl": "text.点击阅读@href"
+        },
+        "ruleContent": {
+            "content": "#inner@html"
+        },
+        "ruleExplore": {
+            "author": "p.1@text##分类：.*",
+            "bookList": ".bd.0@li",
+            "bookUrl": ".name@a@href",
+            "intro": ".fr.0@text",
+            "kind": "span.1@textNodes",
+            "name": ".name@text",
+            "wordCount": "span.-2@textNodes"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".odd.1@text",
+            "bookList": "tr!0",
+            "bookUrl": ".odd.0@a@href",
+            "lastChapter": ".even.0@text",
+            "name": ".odd.0@a@text",
+            "wordCount": ".even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ol li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

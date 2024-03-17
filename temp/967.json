@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "PO18_御宅屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.po18xs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{}},{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/{{page}}.html\",\"style\":{}},{\"title\":\"都市言情\",\"url\":\"/yanqing/{{page}}.html\",\"style\":{}},{\"title\":\"科幻网游\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{}},{\"title\":\"惊悚悬疑\",\"url\":\"/kongbu/{{page}}.html\",\"style\":{}},{\"title\":\"耽美同人\",\"url\":\"/danmei/{{page}}.html\",\"style\":{}},{\"title\":\"穿越架空\",\"url\":\"/chuanyue/{{page}}.html\",\"style\":{}},{\"title\":\"高辣浓情\",\"url\":\"/gaola/{{page}}.html\",\"style\":{}},{\"title\":\"禁忌百合\",\"url\":\"/baihe/{{page}}.html\",\"style\":{}},{\"title\":\"精品文学\",\"url\":\"/jingpin/{{page}}.html\",\"style\":{}}]",
+        "lastUpdateTime": 1632612124547,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.bq@span.1@a@text",
+            "coverUrl": "div.pic@img@src",
+            "intro": "p.jj@text",
+            "kind": "p.bq@span.2@text##状态：",
+            "lastChapter": "p.lastchapter@a@text",
+            "name": "h1@text",
+            "wordCount": "p.bq@span.0@text##更新："
+        },
+        "ruleContent": {
+            "content": "p.articlecontent@textNodes"
+        },
+        "ruleExplore": {
+            "author": "p.p1@a@text",
+            "bookList": "div.tt",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "span.pic@img@src",
+            "intro": "p.p2@text",
+            "name": "h3@a@text"
+        },
+        "ruleSearch": {
+            "author": "td.odd.1@text",
+            "bookList": "class.grid@tr!0",
+            "bookUrl": "td.odd.0@a@href",
+            "kind": "td.odd.2@text&&td.even.2@text",
+            "lastChapter": "td.even.0@a@text",
+            "name": "td.odd.0@a@text",
+            "wordCount": "td.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "div.ml_list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.po18xs.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

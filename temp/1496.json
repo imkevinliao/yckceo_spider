@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "影书小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.yingsx.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1674038223633,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "name": ".xx@ul@li.0@text",
+            "author": ".xx@ul@li.2@a@text",
+            "kind": ".xx@ul@li.1@a@text",
+            "lastChapter": "li.3@a@text",
+            "intro": "class.jianjie bk@p@text",
+            "coverUrl": ".xsfm@img@src",
+            "tocUrl": "text.查看更多章节>@href"
+        },
+        "ruleContent": {
+            "nextContentUrl": "text.下一页@href",
+            "content": "id.nr@html##本章未完，点击下一页继续阅读》》"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".fk@li",
+            "name": ".blue.0@text",
+            "author": "._blank.1@text",
+            "kind": "@a.0@text",
+            "bookUrl": ".blue@href"
+        },
+        "ruleToc": {
+            "nextTocUrl": "text.下一页@href",
+            "chapterList": ".lb a.xbk",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"submit=&type=articlename&s={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}\n",
+        "weight": 0
+    }
+]

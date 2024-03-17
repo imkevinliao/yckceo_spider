@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "博奥书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.boaoshuwu.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/s/1/{{page}}/\n武侠修真::/s/2/{{page}}/\n都市言情::/s/3/{{page}}/\n历史军事::/s/4/{{page}}/\n侦探推理::/s/5/{{page}}/\n网游动漫::/s/6/{{page}}/\n科幻小说::/s/7/{{page}}/\n恐怖灵异::/s/8/{{page}}/\n散文诗词::/s/9/{{page}}/\n其他类型::/s/10/{{page}}/\n完本小说::/full/{{page}}/",
+        "lastUpdateTime": 1643017538296,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h1@a@text",
+            "coverUrl": "class.img-thumbnail@src",
+            "intro": "id.bookIntro@textNodes",
+            "kind": "class.booktag@span@text",
+            "lastChapter": "class.col-md-10@tag.p.1@a@text",
+            "name": "h1@textNodes"
+        },
+        "ruleContent": {
+            "content": "id.ad@p@html",
+            "nextContentUrl": "text.下一页@href##$##$,{\"webView\":true}"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "small@text## \\/.*",
+            "bookList": "class.col-md-4",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p@textNodes",
+            "name": "h4@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##$,{\"webView\":true}",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "http://www.boaoshuwu.com/s.php?keyword={{key}}",
+        "weight": 0
+    }
+]

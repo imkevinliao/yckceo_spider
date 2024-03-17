@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "爱猫小说书源合集",
+        "bookSourceName": "萌文库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://xs.kdays.net",
+        "bookUrlPattern": "",
+        "customOrder": 256,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::http://xs.kdays.net/list/all?page={{page}}\n热血::http://xs.kdays.net/list/all?type=1&page={{page}}\n冒险::http://xs.kdays.net/list/all?type=2&page={{page}}\n运动::http://xs.kdays.net/list/all?type=3&page={{page}}\n魔幻::http://xs.kdays.net/list/all?type=4&page={{page}}\n武侠::http://xs.kdays.net/list/all?type=5&page={{page}}\n校园::http://xs.kdays.net/list/all?type=6&page={{page}}\n治愈::http://xs.kdays.net/list/all?type=8&page={{page}}\n推理::http://xs.kdays.net/list/all?type=9&page={{page}}\n惊悚::http://xs.kdays.net/list/all?type=10&page={{page}}\n科幻::http://xs.kdays.net/list/all?type=11&page={{page}}\n社会::http://xs.kdays.net/list/all?type=12&page={{page}}\n动画化::http://xs.kdays.net/list/all?type=14&page={{page}}\n点击榜::http://xs.kdays.net/list/top\n收藏榜::http://xs.kdays.net/list/top?type=fav\n喜欢榜::http://xs.kdays.net/list/top?type=like\nGAL::http://xs.kdays.net/list/all?type=13&page={{page}}",
+        "lastUpdateTime": 0,
+        "loginUrl": "http://xs.kdays.net/auth/login",
+        "ruleBookInfo": {
+            "intro": "tag.blockquote@textNodes##^##<br/>",
+            "tocUrl": "text.点击阅读@href"
+        },
+        "ruleContent": {
+            "content": "tag.article@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "class.author@text##^作者:",
+            "bookList": "class.book-list@class.book",
+            "bookUrl": "class.detail@tag.h3@tag.a.0@href",
+            "coverUrl": "class.cover-side@tag.img.0@src",
+            "intro": "tag.blockquote@textNodes",
+            "kind": "class.text-muted@text##\\s*/\\s*##,",
+            "lastChapter": "class.new-vol@text##^最新[：:]\\s*",
+            "name": "class.detail@tag.h3@tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.p.1@text##^作者[：:]\\s*|\\s*/.*$",
+            "bookList": "class.book-list@class.book",
+            "bookUrl": "class.detail@tag.h3@tag.a.0@href",
+            "coverUrl": "class.cover-side@tag.img.0@src",
+            "kind": "class.text-muted@text##\\s*/\\s*##,",
+            "lastChapter": "class.new-vol@text##^最新[：:]\\s*",
+            "name": "class.detail@tag.h3@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.ul!0:1:-1:-2:-3@tag.li!-3@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/all?page={{page}}&w={{key}}",
+        "weight": 0
+    }
+]

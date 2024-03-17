@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "请问，115599大佬，我通过你147xs的书源做参考，有一些人机校验的书源能复活了，但有一些书源我不知道为什么弄不明白，用modules/article/search.php?searchkey=代替search.php?keyword=后，总是出错，但我又弄不明白哪里出错了",
+        "bookSourceGroup": "搜索失效",
+        "bookSourceName": "请教115599大佬",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.pyxs.com/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "intro": "",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "",
+            "replaceRegex": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "<js>\nif(result.match(/Just a moment/)){\ncookie.removeCookie(source.bookSourceUrl)\nvar x=java.get(\"url\")\njava.startBrowserAwait(x,\"验证\")\nresult=java.ajax(x)\n\t}\n\tresult\n</js>\nbody",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "html"
+        },
+        "ruleToc": {
+            "chapterList": "",
+            "chapterName": "",
+            "chapterUrl": ""
+        },
+        "searchUrl": "@js:\njava.put(\"url\",String(source.bookSourceUrl+\"modules/article/search.php?searchkey=\"+key+\",\"+JSON.stringify({\n\t\t\"headers\":{\n  \"User-Agent\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 MQQBrowser/9.6.0 Mobile/15E148 Safari/604.1 QBWebViewUA/2 QBWebViewType/1 WKType/1\"\n}})))",
+        "weight": 0
+    }
+]

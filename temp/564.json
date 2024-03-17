@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️爱下电子书☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.aixdzs.com##响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1645510044870,
+        "ruleBookInfo": {
+            "author": "class.ix-nowrap.0@tag.a@text",
+            "name": "class.ix-list-img-square.0@tag.img.0@alt##封面",
+            "wordCount": "class.ix-nowrap.2@text## .*| 热度.*|字数:"
+        },
+        "ruleContent": {
+            "content": "class.page-content@tag.section@tag.p@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.meta-l@text",
+            "bookList": "class.ix-list ix-border-t@tag.li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.nowrap.1@html",
+            "kind": "class.tag-small lightgreen@text&&class=tag-small smallblue@text&&class.lz@text",
+            "lastChapter": "class.nowrap.-1@text##最新:",
+            "name": "class.ix-list-img-square@tag.a@tag.img@alt##封面",
+            "wordCount": "class=tag-small smallblue@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.li!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.aixdzs.com/search?k={{key}}",
+        "weight": 0
+    }
+]

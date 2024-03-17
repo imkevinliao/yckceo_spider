@@ -1,0 +1,36 @@
+[
+    {
+        "bookSourceComment": "by滴滴答答",
+        "bookSourceGroup": "漫画8",
+        "bookSourceName": "酮体的秘密🌞",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://dongtidemi.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "cos::https://dongtidemi.com/category/tu/cos/page/{{page}}\n福利姬::https://dongtidemi.com/category/tu/%e7%a6%8f%e5%88%a9%e5%a7%ac/page/{{page}}\n写真::https://dongtidemi.com/category/tu/xiezhen/page/{{page}}",
+        "lastUpdateTime": 1657114973445,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "class.entry-content@tag.img@html"
+        },
+        "ruleExplore": {
+            "bookList": "class.item",
+            "bookUrl": "a@href",
+            "coverUrl": "class.item-thumb@tag.img@data-original",
+            "name": "h2@text"
+        },
+        "ruleSearch": {
+            "bookList": ""
+        },
+        "ruleToc": {
+            "chapterList": "tag.h1",
+            "chapterName": "text"
+        },
+        "weight": 0
+    }
+]

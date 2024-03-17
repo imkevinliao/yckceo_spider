@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "网站无封面",
+        "bookSourceGroup": "",
+        "bookSourceName": "爱尚书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://23shu8.com/",
+        "bookUrlPattern": "",
+        "customOrder": -93,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "最新更新::https://www.23shu8.com/last{{page}}.htm\n排行榜::/tops/{{page}}/\n玄幻::/xuanhuan/{{page}}/\n奇幻::/qihuan/{{page}}/\n都市::/dushi/{{page}}/\n言情::/yanqing/{{page}}/\n游戏::/youxi/{{page}}/\n竞技::/jingji/{{page}}/\n武侠::/wuxia/{{page}}/\n历史::/lishi/{{page}}/\n军事::/junshi/{{page}}/\n科幻::/kehuan/{{page}}/\n灵异::/lingyi/{{page}}/\n仙侠::/xianxia/{{page}}/\n女性::/nvxing/{{page}}/\n其他::/qita/{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1666871443138,
+        "loginUrl": "",
+        "respondTime": 184156,
+        "ruleBookInfo": {
+            "author": "class.n-an.0@text",
+            "coverUrl": "",
+            "intro": "id.pf@text",
+            "kind": "",
+            "lastChapter": "class.chapter.0@text",
+            "name": "class.n-title@text"
+        },
+        "ruleContent": {
+            "content": "id.content@p!0@html"
+        },
+        "ruleExplore": {
+            "author": "class.tag4@a@text",
+            "bookList": "class.content@ul",
+            "bookUrl": "class.tag2@a@href",
+            "coverUrl": "@js:\"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587731286741&di=74382b67f146651d3aea496573f18bb1&imgtype=0&src=http%3A%2F%2Fzfztrade.oss-cn-hangzhou.aliyuncs.com%2F61241e2646b946bd9a6864d16163089d.jpg\"",
+            "kind": "class.tag6@text&&class.tag5@text",
+            "lastChapter": "class.tag3@a@text",
+            "name": "class.tag2@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.div.1@text##\\（|）",
+            "bookList": "tag.li",
+            "bookUrl": "tag.div.0@tag.a@href",
+            "coverUrl": "",
+            "intro": "tag.div.-2@text",
+            "kind": "tag.div.1@text##\\（|）",
+            "lastChapter": "tag.div.3@text",
+            "name": "tag.a@tag.span@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter!0:1:2:3:4",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "https://m.23shu8.net/s_{{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "兰文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.lanwen.org",
+        "bookUrlPattern": "https://m.lanwen.org/wen/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/books/0_0_0_{{page}}_0_0_0.html\n女性小说::/books/1660_0_0_{{page}}_0_0_0.html\n奇幻小说::/books/7837_0_0_{{page}}_0_0_0.html\n男性小说::/books/8946_0_0_{{page}}_0_0_0.html\n游戏小说::/books/7929_0_0_{{page}}_0_0_0.html\n历史小说::/books/208_0_0_{{page}}_0_0_0.html\n文学小说::/books/2494_0_0_{{page}}_0_0_0.html\n免费小说::/books/3169_0_0_{{page}}_0_0_0.html",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"Referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1691642662520,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=status|time]@content",
+            "lastChapter": "[property$=chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.目录@href"
+        },
+        "ruleContent": {
+            "content": "<js>\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者内容正在手打中，请稍后访问~\"}\n</js>"
+        },
+        "ruleExplore": {
+            "author": "span.0@text##\\/",
+            "bookList": ".list-item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-lazy",
+            "kind": "p.1:2@text",
+            "name": "p.0@textNodes"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".search-card",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "intro": ".sc-content@text",
+            "kind": "span.-1@text",
+            "lastChapter": "span.-2@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "望书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://wap.wangshuge.info",
+        "bookUrlPattern": "http://wap.wangshuge.info/book-\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1-{{page}}.html\n武侠修真::/sort/2-{{page}}.html\n都市言情::/sort/3-{{page}}.html\n历史军事::/sort/4-{{page}}.html\n网游动漫::/sort/5-{{page}}.html\n科幻小说::/sort/6-{{page}}.html\n侦探推理::/sort/7-{{page}}.html\n恐怖灵异::/sort/8-{{page}}.html\n同人小说::/sort/9-{{page}}.html\n其他类型::/sort/10-{{page}}.html\n全本小说::/top/full-{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693623801972,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "p@ownText##.*\\/",
+            "bookList": ".line",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href\n@js:\nvar id=result.match(/\\d+/);\nvar iid=parseInt(id/1000);\n`http://www.wangshuge.info/files/article/image/${iid}/${id}/${id}s.jpg`",
+            "kind": "p@ownText##\\[|\\].+",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.-2@text",
+            "bookList": ".block",
+            "bookUrl": "h2 a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": "p.-3@text##分类：",
+            "lastChapter": "a.-1@text",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

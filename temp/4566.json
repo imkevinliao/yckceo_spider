@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "自制,轻小说,源仓库,网页源",
+        "bookSourceName": "8文库轻小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xbq03.com",
+        "bookUrlPattern": "https?://www.xbq03.com/[\\d_]+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort/1_{{page}}/\n修真小说::/sort/2_{{page}}/\n都市小说::/sort/3_{{page}}/\n历史小说::/sort/4_{{page}}/\n网游小说::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n竞技小说::/sort/7_{{page}}/\n言情小说::/sort/8_{{page}}/\n其他小说::/sort/9_{{page}}/",
+        "header": "{\"referer\": \"{{source.getKey()}}/\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1702725708458,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.info-xg a.0@text",
+            "coverUrl": ".detail-body-body-img img@src",
+            "intro": "p.text-indent@text",
+            "kind": "p.info-xg span.-1:0@text##.*：",
+            "lastChapter": "p.info-xg a.1@text",
+            "name": "h2@text"
+        },
+        "ruleContent": {
+            "content": "#nr@html",
+            "nextContentUrl": "text.下一@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": ".newlist li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "快穿",
+            "coverUrl": "a.1@href##(\\d+)_(\\d+)##/files/article/image/$1/$2/$2s.jpg###",
+            "kind": "a.0@text&&.newlist-time@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.dirlist.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"submit=搜索&searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

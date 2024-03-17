@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "酷安@马甲情，搜索页面的封面规则来源于酷安@暴风雪00001",
+        "bookSourceGroup": "💠 其他",
+        "bookSourceName": "酷书网xtxtrar(手机版)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.xtxtrar.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "日点击榜::/top-dayvisit-{{page}}/\n周点击榜::/top-weekvisit-{{page}}/\n月点击榜::/top-monthvisit-{{page}}/\n总点击榜::/top-allvisit-{{page}}/\n总收藏榜::/top-goodnum-{{page}}/\n字数榜::/top-size-{{page}}/\n日推荐榜::/top-dayvote-{{page}}/\n周推荐榜::/top-weekvote-{{page}}/\n月推荐榜::/top-monthvote-{{page}}/\n总推荐榜::/top-allvote-{{page}}/\n最近新书::/top-postdate-{{page}}/\n最近更新::/top-lastupdate-{{page}}/\n耽美同人::/sort-1-{{page}}/\n都市言情::/sort-2-{{page}}/\n玄幻奇幻::/sort-3-{{page}}/\n穿越重生::/sort-4-{{page}}/\n恐怖推理::/sort-5-{{page}}/\n网游科幻::/sort-6-{{page}}/\n武侠仙侠::/sort-7-{{page}}/",
+        "lastUpdateTime": 1605607107941,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p.1@a@text",
+            "coverUrl": "class.block_img2@img@src",
+            "intro": "class.intro_info@textNodes",
+            "kind": "class.block_txt2@tag.p.2@a@text",
+            "lastChapter": "class.block_txt2@tag.p.5@a@text",
+            "name": "class.block_txt2@h2@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "class.block_txt2@tag.p.4@text&&class.block_txt2@tag.p.3@a@text"
+        },
+        "ruleContent": {
+            "content": "class.nr_nr@html##请新老用户记住书包网最新网址：.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.line",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.a.1@href@js:var id = result.match(/(\\d+)\\/$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.xtxtrar.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';",
+            "kind": "tag.a.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.xtxtrar.com/modules/article/waps.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchtype=articlename&searchkey={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

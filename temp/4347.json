@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "常用",
+        "bookSourceName": "🐒猴子阅读🐵",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.hzxsw.com/",
+        "customOrder": 125,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/\n修真::/xiuzhen/\n都市::/dushi/\n历史::/lishi/\n网游::/wangyou/\n科幻::/kehuan/\n言情::/yanqing/\n其他::/qita/\n全本::/quanben/",
+        "lastUpdateTime": 1698564227950,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "+Q群691732458  🐵更新时间：{{@@[property$=update_time]@content##\\s##🔸}}\n\n🐒类容简介：{{@@[property$=description]@content}}##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##\\s.*",
+            "lastChapter": "[property$=chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#content@html"
+        },
+        "ruleExplore": {
+            "author": "span.s4@text",
+            "bookList": ".l ul li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href\n@js:var id = result.match(/(\\d+)\\/$/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';",
+            "intro": "",
+            "kind": "span.s1@text&&span.s5@text##\\[|\\]",
+            "lastChapter": "span.s3@text",
+            "name": "span.s2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": ".cat@text##.*：",
+            "lastChapter": ".update@a@text",
+            "name": "h4.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/dshugidi9.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

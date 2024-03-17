@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceName": "看书神",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kanshushen.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1674149943446,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "text.打开完整目录列表@href"
+        },
+        "ruleContent": {
+            "content": "class.size16 color5 pt-read-text@p@text",
+            "replaceRegex": "##www.*com"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "class.booklists@tbody@tr",
+            "bookUrl": "td.1@tag.a.1@href",
+            "checkKeyWord": "野蛮人降临美漫",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "td.1@tag.a.0@text",
+            "lastChapter": "td.1@span@text&&td.3@text",
+            "name": "td.1@tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.mulu@dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.kanshushen.com/search/result.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

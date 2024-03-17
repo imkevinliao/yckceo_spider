@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "初学者的作品1",
+        "bookSourceGroup": "★自制,★专搜耽美",
+        "bookSourceName": "A 笔趣阁②",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.myrrcar.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "{\"title\":\"游戏小说\",\"url\":\"/category/16/\",\"style\":{}},\n{\"title\":\"仙侠小说\",\"url\":\"/category/12/\",\"style\":{}},\n{\"title\":\"科幻小说\",\"url\":\"/category/11/\",\"style\":{}},\n{\"title\":\"穿越小说\",\"url\":\"/category/4/\",\"style\":{}},\n{\"title\":\"都市小说\",\"url\":\"/category/1/\",\"style\":{}},",
+        "lastUpdateTime": 1686760535892,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".catalog1@.tab@.p1@text",
+            "coverUrl": "img@src",
+            "intro": ".catalog@.jj@.p2@text",
+            "kind": ".catalog1@.tab1@.p4@text",
+            "lastChapter": ".catalog1@.tab@.p3@href",
+            "name": ".catalog1@h1@text",
+            "wordCount": ".catalog1@.tab1@.p6@text"
+        },
+        "ruleContent": {
+            "content": ".novelcontent #booktxt@text",
+            "title": "#chapterSet@h1@text"
+        },
+        "ruleExplore": {
+            "author": "@.p3@text",
+            "bookList": ".user_content@.user_content@#p",
+            "kind": "@.p1@text",
+            "name": "@.p2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "@a.1@text",
+            "bookList": ".search_box@.search_list",
+            "bookUrl": "@a.0@href",
+            "name": "@a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".p2@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "updateTime": ".info_chapters@.p1.0@text"
+        },
+        "searchUrl": "https://m.myrrcar.com/search?keywords={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "新笔趣阁new",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.newbiquge.org",
+        "bookUrlPattern": "https://m.newbiquge.org/shu.*",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1685589184655,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": "{{@@text.字数@text##字数：}}##W##万字"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##新笔趣阁.*org"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": "class.hot_sale hot_saleEm",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:\"/img/am.jpg\"",
+            "kind": "0",
+            "name": "p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last.1@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://m.newbiquge.org/book/search.aspx?ie=utf-8&siteid=xinbiquge.org&s=000&key={{key}}",
+        "weight": 0
+    }
+]

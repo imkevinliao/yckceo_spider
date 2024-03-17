@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "琵琶小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ppxs5.com",
+        "bookUrlPattern": "https://www.ppxs5.com/read/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻奇幻\",\n\t\"url\":\"/xuanhuan/<,{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠仙侠\",\n\t\"url\":\"/wuxia/<,{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市言情\",\n\t\"url\":\"/dushi/<,{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史军事\",\n\t\"url\":\"/lishi/<,{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻灵异\",\n\t\"url\":\"/kehuan/<,{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游竞技\",\n\t\"url\":\"/wangyou/<,{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"女频频道\",\n\t\"url\":\"/nvpin/<,{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/qita/<,{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1664012888085,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": "[property=\"og:novel:update_time\"]@content"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "replaceRegex": "##.*：http.*"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.l@ul@li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "@js:\"https://s1.328888.xyz/2022/09/24/Vu0lF.jpg\"",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text",
+            "wordCount": "class.s5@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslist2@ul@li!0",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "@js:\"https://s1.328888.xyz/2022/09/24/Vu0lF.jpg\"",
+            "kind": "class.s1@a@text&&class.s6@text",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text",
+            "wordCount": "class.s5@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.novel_list@dl@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.ppxs5.com/search/?wd={{key}},{\n\t\"headers\": {'referer': 'https://www.ppxs5.com/'}\n\t}",
+        "weight": 0
+    }
+]

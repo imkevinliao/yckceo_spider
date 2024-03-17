@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "天天看小说",
+        "bookSourceUrl": "https://www.ttkan.co",
+        "enable": true,
+        "ruleBookAuthor": "[name=\"og:novel:author\"]@content",
+        "ruleBookContent": "class.content@p@html",
+        "ruleBookLastChapter": "[name=\"og:novel:latest_chapter_name\"]@content",
+        "ruleBookName": "class.novel_info@h1@text",
+        "ruleChapterList": "$.items[*]",
+        "ruleChapterName": "$.chapter_name",
+        "ruleChapterUrl": "id.button_show_all_chatper@on\n@js:\nresult=result.match(/srcUrl: '([^']+)'/)[1];\njava.put('novelid',result.match(/novel_id=(.*)/)[1]);\nresult",
+        "ruleContentUrl": "$.chapter_id\n@js:\nid=result;\nnovelid=java.get('novelid');\n'https://www.ttkan.co/novel/user/page_direct?novel_id='+novelid+'&page='+id",
+        "ruleCoverUrl": "class.novel_info@amp-img@src",
+        "ruleIntroduce": "class.description@text",
+        "ruleSearchAuthor": "##作者：([^<]+)<##$1###",
+        "ruleSearchCoverUrl": "amp-img@src",
+        "ruleSearchIntroduce": "tag.li.-1@text",
+        "ruleSearchList": "class.pure-u-1-1",
+        "ruleSearchName": "h3@text",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleSearchUrl": "https://www.ttkan.co/novel/search?q=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

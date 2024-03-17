@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "作者：旅途",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "圈圈小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.qqxs7.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1679138725039,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": ""
+        },
+        "ruleContent": {
+            "content": "id.nr1@html##",
+            "nextContentUrl": "id.pt_next@tag.a@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.iTit@tag.a@href",
+            "checkKeyWord": "炮灰",
+            "coverUrl": "img@src",
+            "intro": "class.intro_line@text",
+            "kind": "",
+            "lastChapter": "class.update@text##更新至：",
+            "name": "class.iTit@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search.php?keyword={{key}}&submit=,{\n  \"charset\": \"UTF-8\"\n}",
+        "weight": 0
+    }
+]

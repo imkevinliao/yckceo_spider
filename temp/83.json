@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "网络不稳定会导致目录加载不全",
+        "bookSourceName": "果冻小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.guodongxs.com",
+        "customOrder": -5,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1663668236507,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.2@text",
+            "coverUrl": "img@src",
+            "init": "div.cover",
+            "intro": "div.intro_info@html",
+            "kind": "p.3@a@text&&p.4:5@text##状态：|更新：",
+            "lastChapter": "p.6@a@text",
+            "name": "h2@a@text",
+            "tocUrl": "div.ablum_read:nth-of-type(3)@span:nth-of-type(2)@a@href##$##,{\"webView\":true}"
+        },
+        "ruleContent": {
+            "content": "div#nr1@textNodes",
+            "replaceRegex": "##请牢记收藏.*|中文. 中文域名一键直达"
+        },
+        "ruleSearch": {
+            "author": "p@text##.*/",
+            "bookList": "p",
+            "bookUrl": "a.blue@href",
+            "name": "a.blue@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/modules/article/waps.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

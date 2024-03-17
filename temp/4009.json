@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceName": "错衡文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://cuoheng.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1693884799064,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "td[width]:nth-of-type(1)@text&&tr:nth-of-type(3) td@text&&.tabvalue div@html",
+            "name": ".divbox > div > div > span:nth-of-type(1)@text",
+            "author": "span a@text",
+            "tocUrl": "a.b_hot@href",
+            "coverUrl": ".divbox img@src",
+            "lastChapter": "h3 a@text",
+            "downloadUrls": "a.b_gray:nth-of-type(1)@href",
+            "kind": "td[width]:nth-of-type(1)@text",
+            "wordCount": "tr:nth-of-type(3) td:nth-of-type(1)@text"
+        },
+        "ruleContent": {
+            "content": "div.acontent@html"
+        },
+        "ruleExplore": {
+            "bookList": "div.c_row",
+            "name": ".c_subject a:nth-of-type(2)@text",
+            "bookUrl": ".c_subject a:nth-of-type(2)@href",
+            "coverUrl": ".fl a img@src",
+            "author": ".c_value a@text",
+            "kind": "div:nth-of-type(n+5) span:nth-of-type(n+7)@text",
+            "intro": "span:nth-of-type(n+5)@text&&div.c_description@html",
+            "wordCount": "span:nth-of-type(4)@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "div.c_row",
+            "name": ".c_subject a@href",
+            "bookUrl": ".c_subject a@href",
+            "author": "div.c_tag:nth-of-type(2) a@text",
+            "kind": "div.c_tag:nth-of-type(2) span:nth-of-type(4)@text",
+            "wordCount": "{{@@span:nth-of-type(5)@text}}{{@@span:nth-of-type(6)@text}}",
+            "intro": "div.c_tag:nth-of-type(4) span:nth-of-type(n+3)@text&&div.c_description@text",
+            "coverUrl": ".fl a img@src"
+        },
+        "ruleToc": {
+            "chapterList": "dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://cuoheng.com/modules/article/search.php,{\n\"method\":\"post\",\n\"charset\":\"gbk\",\n\"body\":\"searchkey={{key}}&searchtype=all\"\n}",
+        "weight": 0,
+        "exploreUrl": "[\n{\"title\":\"玄幻·魔法\",\"url\":\"/sort/1/{{page}}.html\",\"style\":{}},\n{\"title\":\"武侠·修真\",\"url\":\"/sort/2/{{page}}.html\",\"style\":{}},\n{\"title\":\"都市·言情\",\"url\":\"/sort/3/{{page}}.html\",\"style\":{}},\n{\"title\":\"历史·军事\",\"url\":\"/sort/4/{{page}}.html\",\"style\":{}},\n{\"title\":\"穿越·架空\",\"url\":\"/sort/5/{{page}}.html\",\"style\":{}},\n{\"title\":\"游戏·竞技\",\"url\":\"/sort/6/{{page}}.html\",\"style\":{}},\n{\"title\":\"科幻·灵异\",\"url\":\"/sort/7/{{page}}.html\",\"style\":{}},\n{\"title\":\"同人·动漫\",\"url\":\"/sort/8/{{page}}.html\",\"style\":{}},\n{\"title\":\"社会·文学\",\"url\":\"/sort/9/{{page}}.html\",\"style\":{}},\n{\"title\":\"综合·其他\",\"url\":\"/sort/{{page}}0/{{page}}.html\",\"style\":{}}\n]"
+    }
+]

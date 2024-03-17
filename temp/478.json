@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "BY 秋宏",
+        "bookSourceGroup": "QH - 防盗",
+        "bookSourceName": "笔趣阁789",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bqg789.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1648569494049,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "{{book.author}}",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "",
+            "kind": "div.con_top@a.2@text",
+            "lastChapter": "div#list@dl@dd.0@text",
+            "name": "{{book.name}}",
+            "tocUrl": "@get:{bookUrl}",
+            "wordCount": "{{book.wordCount}}"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "@td.odd.1@text",
+            "bookList": "#nr",
+            "bookUrl": "@td.odd.0@a@href",
+            "kind": "{{book.kind}}",
+            "lastChapter": "@td.even.0@text",
+            "name": "@td.odd.0@a@text",
+            "wordCount": "@td.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "div#list@dl@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://www.bqg789.com/s.php?searchkey={{key}},{\n'charset': 'UTF-8',\n'method': 'POST',\n'body': '',\n'headers': {\n    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/89.0.4389.116 Safari/534.24 XiaoMi/MiuiBrowser/15.3.16',\n    'referer': 'https://www.bqg789.com/'\n    }\n}",
+        "weight": 0
+    }
+]

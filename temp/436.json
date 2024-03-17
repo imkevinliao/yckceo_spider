@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "黑道小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.heidaoxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "黑道小说::http://www.heidaoxs.com/heidao/",
+        "lastUpdateTime": 1650030976678,
+        "respondTime": 7928,
+        "ruleBookInfo": {
+            "author": "p.0@text",
+            "coverUrl": "img.1@src",
+            "init": "",
+            "intro": "p.2@html##作品简介：",
+            "lastChapter": "p.1@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "class.m-post@p@html"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": "ol@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "name": "h2@text"
+        },
+        "ruleSearch": {
+            "author": "em.0@text##10000.*",
+            "bookList": "class.post",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "黑道",
+            "coverUrl": "",
+            "intro": "p@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.xsbox@ul@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/e/search/index.php,{\n  \"body\": \"tbname=bookname&show=title&tempid=1&keyboard={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "我的书源",
+        "bookSourceName": "红尘小说网，正文加密",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.hcxsw.com/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1675833112936,
+        "respondTime": 32247,
+        "ruleBookInfo": {
+            "author": "#info p:nth-of-type(1)@text",
+            "coverUrl": "img@src",
+            "intro": "div#intro@text",
+            "lastChapter": "p:nth-of-type(6)@text",
+            "name": "h1@text",
+            "tocUrl": "a.chapterlist@href",
+            "wordCount": "p:nth-of-type(5)@text"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent p:nth-of-type(n+2)@html",
+            "nextContentUrl": ""
+        },
+        "ruleSearch": {
+            "author": ".btm a@text",
+            "bookList": "div.item",
+            "bookUrl": "dt a@href",
+            "checkKeyWord": "1980",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "name": "dt a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl a",
+            "chapterName": "a dd@text",
+            "chapterUrl": "@href",
+            "nextTocUrl": "select@option@value"
+        },
+        "searchUrl": "http://www.hcxsw.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

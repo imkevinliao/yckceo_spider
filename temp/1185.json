@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☀晨光雨露🍒精俢源💯",
+        "bookSourceName": "换源神器>简介增加更新时间",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://api.chnsmoker.com",
+        "bookUrlPattern": "",
+        "customOrder": -165967,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::http://info.chnsmoker.com:80/list/category/book-hot-1-{{page}}.htm\n武侠仙侠::http://info.chnsmoker.com:80/list/category/book-hot-2-{{page}}.htm\n现代都市::http://info.chnsmoker.com:80/list/category/book-hot-3-{{page}}.htm\n历史军事::http://info.chnsmoker.com:80/list/category/book-hot-4-{{page}}.htm\n游戏竞技::http://info.chnsmoker.com:80/list/category/book-hot-5-{{page}}.htm\n科幻小说::http://info.chnsmoker.com:80/list/category/book-hot-6-{{page}}.htm\n古代言情::http://info.chnsmoker.com:80/list/category/book-hot-7-{{page}}.htm\n仙侠奇缘::http://info.chnsmoker.com:80/list/category/book-hot-8-{{page}}.htm\n现代言情::http://info.chnsmoker.com:80/list/category/book-hot-9-{{page}}.htm\n浪漫青春::http://info.chnsmoker.com:80/list/category/book-hot-10-{{page}}.htm\n玄幻言情::http://info.chnsmoker.com:80/list/category/book-hot-11-{{page}}.htm\n科幻空间::http://info.chnsmoker.com:80/list/category/book-hot-12-{{page}}.htm\n恐怖悬疑::http://info.chnsmoker.com:80/list/category/book-hot-14-{{page}}.htm\n二の次元::http://info.chnsmoker.com:80/list/category/book-hot-15-{{page}}.htm\n其他小说::http://info.chnsmoker.com:80/list/category/book-hot-17-{{page}}.htm\n女生频道::http://info.chnsmoker.com:80/list/category/book-hot-18-{{page}}.htm",
+        "lastUpdateTime": 1625647812015,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "",
+            "name": "",
+            "tocUrl": "@js:\nif(result.match(/site_name\":\"ddxs\"/)){var path=result.match(/\"ddxs\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://01.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'https://www.ydshu.com'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"147xs\"/)){var path=result.match(/\"147xs\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://01.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'http://m.147xs.org'+path1.replace(/\\d+.html/,'/all.html')}\n\nelse if(result.match(/site_name\":\"bqg\"/)){var path=result.match(/\"bqg\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://01.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'http://www.biquge.info'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"ddxscc\"/)){var path=result.match(/\"ddxscc\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://02.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'https://www.23wx.cc'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"xbqg\"/)){var path=result.match(/\"xbqg\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://01.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'https://www.xsbiquge.com'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"sqsxs\"/)){var path=result.match(/\"sqsxs\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://04.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'https://www.sqsxs.com'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"dhzwxs\"/)){var path=result.match(/\"dhzwxs\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://04.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'https://www.dhzw8.com'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"dmrxs\"/)){var path=result.match(/\"dmrxs\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://02.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'http://www.daomengren.com'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"sqg\"/)){var path=result.match(/\"sqg\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://02.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'http://www.shuquge.com'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"mht\"/)){var path=result.match(/\"mht\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://02.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'http://www.mianhuatang.cc'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"slsy\"/)){var path=result.match(/\"slsy\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://02.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'https:\\/\\/www.hkslg8.com'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"bxwx\"/)){var path=result.match(/\"bxwx\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://03.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'https://www.bxwxorg.com'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"dyxs\"/)){var path=result.match(/\"dyxs\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://03.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'http://www.01xs.org'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"asxsw\"/)){var path=result.match(/\"asxsw\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://03.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'https://www.aszw6.com'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"dhzwxs\"/)){var path=result.match(/\"dhzwxs\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://04.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'https://www.dhzw8.com'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"386xs\"/)){var path=result.match(/\"386xs\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://03.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'https://www.xs386.com'+path1.replace(/\\d+.html/,'')}\n\nelse if(result.match(/site_name\":\"bqg\"/)){var path=result.match(/\"bqg\",\"[^\"]+\":\"[^\"]+\",\"chapter_path\":\"([^\"]+)\"/)[1];\nvar url='http://01.chnsmoker.com'+path;\nvar path1=java.ajax(url).match(/\"data\"[^\"]+\"[^\"]+\":\"[^\"]+\",\"url\":\"([^\"]+)/)[1];\n'http:\\/\\/www.biquge.info'+path1.replace(/\\d+.html/,'')}"
+        },
+        "ruleContent": {
+            "content": "id.contents@textNodes||id.content@html||id.BookText@html||id.nr_nr@html||class.content@html||class.contents@textNodes||class.BookText@html||class.nr_nr@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$.author_name",
+            "bookList": "$..data.*",
+            "bookUrl": "$.cover@js:'http://info.chnsmoker.com'+result.replace(/cover.*/,'sources.htm')",
+            "coverUrl": "$.cover\n@js:'http://info.chnsmoker.com:80'+result",
+            "intro": "$.last_updated_at&&$.description",
+            "kind": "{$.book_status}",
+            "lastChapter": "$.last_chapter_name",
+            "name": "$.title"
+        },
+        "ruleToc": {
+            "chapterList": "td.L@a||div.novel_list@a||id.list@dd@a||dl.list-striped@a||div.dccss@a||div.listmain@a||div.chapterlist@li@a||div.xsyd_ml_2@li@a||ul.chapter@li@a||ul.read@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://api.chnsmoker.com:19527/search?page=1&pagesize=15&keyword={{key}}",
+        "weight": 0
+    }
+]

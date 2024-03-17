@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "Namo",
+        "bookSourceName": "31小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.31xs.com/",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": -88903102,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1668502865141,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "https://m.31xs.com/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "meta[property=\"og:description\"]@content",
+            "tocUrl": "@get:{h}##/(\\d+)/(\\d+)/##https://www.31xs.com/$1/$2/###"
+        },
+        "ruleContent": {
+            "content": "#content p:not(:matches(^[a-z\\s_-]+\\.[a-z\\s]+\\.[a-z\\s_-]+$))@text",
+            "replaceRegex": "##【31小说网\\s*31xs\\.com】|www\\.31xs\\.net\\s*|(^|\\s+)...[，,]【[^【\\n】]*咪.?咪.?阅.?读[^\\u4e00-\\u9fa5]*(?:\\.com|app)[^】a-z0-9A-Z\\u4e00-\\u9fa5]*】[^\\n]+|【.*】|aiyueshuxiang.com|baimengshu.com"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.dd@tag.p.0@text",
+            "bookList": "class.user-bookcase@dl",
+            "bookUrl": "tag.dt@a@href",
+            "checkKeyWord": "都市",
+            "coverUrl": "@get:{h}##(/\\d+)(/\\d+)##/img$1$2$2s.jpg###",
+            "kind": "tag.dd@tag.p.2@text",
+            "lastChapter": "{{@@tag.a.1@text}} {{@@tag.td.4@text}}",
+            "name": "tag.dt@text##\\[.*\\]##"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.31xs.com/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

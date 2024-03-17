@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "全本小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.qbxsw.com",
+        "bookUrlPattern": "https?://m.qbxsw.com/(shu|du)_\\d+.*",
+        "customOrder": 5,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/shuku/<,{{page}}.html>\n全部分类::/allsort/<,{{page}}.html>\n玄幻::/XuanHuan/<,{{page}}.html>\n奇幻::/QiHuan/<,{{page}}.html>\n武侠::/WuXia/<,{{page}}.html>\n都市::/DuShi/<,{{page}}.html>\n历史::/LiShi/<,{{page}}.html>\n军事::/JunShi/<,{{page}}.html>\n悬疑::/XuanYi/<,{{page}}.html>\n游戏::/YouXi/<,{{page}}.html>\n科幻::/KeHuan/<,{{page}}.html>\n体育::/TiYu/<,{{page}}.html>\n古言::/GuYan/<,{{page}}.html>\n现言::/XianYan/<,{{page}}.html>\n幻言::/HuanYan/<,{{page}}.html>\n仙侠::/XianXia/<,{{page}}.html>\n青春::/QinɡChun/<,{{page}}.html>\n穿越::/ChuanYue/<,{{page}}.html>\n女生::/NuShenɡ/<,{{page}}.html>\n其他::/QiTa/<,{{page}}.html>\n全部完结小说::/wanben/all/{{page}}.html\n玄幻全本::/wanben/XuanHuan/{{page}}.html\n奇幻全本::/wanben/QiHuan/{{page}}.html\n武侠全本::/wanben/WuXia/{{page}}.html\n都市全本::/wanben/DuShi/{{page}}.html\n历史全本::/wanben/LiShi/{{page}}.html\n军事全本::/wanben/JunShi/{{page}}.html\n悬疑全本::/wanben/XuanYi/{{page}}.html\n游戏全本::/wanben/YouXi/{{page}}.html\n科幻全本::/wanben/KeHuan/{{page}}.html\n体育全本::/wanben/TiYu/{{page}}.html\n古言全本::/wanben/GuYan/{{page}}.html\n现言全本::/wanben/XianYan/{{page}}.html\n幻言全本::/wanben/HuanYan/{{page}}.html\n仙侠全本::/wanben/XianXia/{{page}}.html\n青春全本::/wanben/QinɡChun/{{page}}.html\n穿越全本::/wanben/ChuanYue/{{page}}.html\n女生全本::/wanben/NuShenɡ/{{page}}.html\n其他全本::/wanben/QiTa/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695614868337,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\".now a@href\"}",
+            "intro": "@get:{i}##.*观看小说:",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*下一页继续阅读.*|喜欢.*请大家收藏.*更新速度全网最快。",
+            "title": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".list li",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "p.intro@text",
+            "kind": "span@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".read li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

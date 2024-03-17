@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔趣阁v7xs",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.v7xs.com",
+        "customOrder": -292900,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/xuanhuan/<,index_{{page}}.html>\n武侠仙侠::/wuxia/<,index_{{page}}.html>\n都市生活::/dushi/<,index_{{page}}.html>\n历史军事::/junshi/<,index_{{page}}.html>\n游戏竞技::/youxi/<,index_{{page}}.html>\n科幻灵异::/kehuan/<,index_{{page}}.html>\n古代言情::/guyan/<,index_{{page}}.html>\n现代言情::/xianyan/<,index_{{page}}.html>\n青春校园::/xiaoyuan/<,index_{{page}}.html>\n幻想奇缘::/huanxiang/<,index_{{page}}.html>\n耽美同人::/danmei/<,index_{{page}}.html>\n乡村爱情::/xiangcun/<,index_{{page}}.html>\n惊秫恐怖::/kongbu/<,index_{{page}}.html>\n穿越架空::/chuanyue/<,index_{{page}}.html>\n悬疑推理::/xuanyi/<,index_{{page}}.html>",
+        "lastUpdateTime": 1641219969188,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "intro": ".bookintro@text",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ".btn_book@a@href"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".book_other@textNodes",
+            "bookList": "#sitebox@dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".book_des@text",
+            "kind": ".uptime@text",
+            "name": "h3@a@text",
+            "wordCount": ".book_other@span@text"
+        },
+        "ruleToc": {
+            "chapterList": ".readlist li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ".pg-next@href"
+        },
+        "searchUrl": "http://m.v7xs.com/e/search/?keyboard={{key}}&classid=0&searchget=1&show=title,author",
+        "weight": 0
+    }
+]

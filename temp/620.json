@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "saberyz自制",
+        "bookSourceName": "♂书迷",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.nanshuni.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1645502536377,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".info_t4@a@text",
+            "coverUrl": ".info_novel_img@img@src",
+            "intro": ".info_intro@text",
+            "kind": ".info_t2@text##类别：",
+            "lastChapter": ".info_t6@a@text",
+            "name": ".info_t1@text##书名："
+        },
+        "ruleContent": {
+            "content": "#nr1@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": "tag.p",
+            "bookUrl": "a.0@href",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".info_newest.1@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.nanshuni.com/s.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 'search_key={{key}}'\n}",
+        "weight": 0
+    }
+]

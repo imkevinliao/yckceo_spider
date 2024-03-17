@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "源仓库,整理检验,自制,网页源",
+        "bookSourceName": "群小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qunxs.com",
+        "bookUrlPattern": "http://www.qunxs.com/xiaoshuo_\\d+.html",
+        "customOrder": 265,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n玄幻::/xuanhuan/{{page}}\n仙侠::/xianxia/{{page}}\n都市::/dushi/{{page}}\n历史::/lishi/{{page}}\n科幻::/kehuan/{{page}}\n恐怖::/kongbu/{{page}}\n其他::/qita/{{page}}\n热门::/rank/{{page}}\n推荐::/votelist/{{page}}\n全本::/quanben/{{page}}\n记录::/history.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1699065721598,
+        "respondTime": 42788,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "canReName": "true",
+            "coverUrl": "[property$=image]@content",
+            "downloadUrls": "text.TXT 下载@href",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "{{baseUrl.replace(\"xiaoshuo_\",'txt/')}}",
+            "wordCount": "{{@@text.字数：@text##字数：}}"
+        },
+        "ruleContent": {
+            "content": "#booktxt@p@html",
+            "nextContentUrl": "text.下—页@class||text.下一页@class\n@js:\nif(result[0]){\n\tvar next=src.match(/next_page = \"(.+)\"/)[1];\n\t//java.log(next)\n\tresult=next;\n\t}else{\n\t\tresult=\"\";\n\t\t}\nresult;"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "name": "a.1@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#content_1 a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "@js:\n\nvar html = java.ajax(source.getKey())\n\ntoken = org.jsoup.Jsoup.parse(html).select('input[name=_token]').attr('value')\n\n\"/search,\"+JSON.stringify({\n  \"body\": `_token=${token}&keyword=${key}`,\n  \"method\": \"POST\"\n})",
+        "weight": 0
+    }
+]

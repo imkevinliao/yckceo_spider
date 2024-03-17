@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "普通",
+        "bookSourceName": "八一中文8zwdu.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.8zwdu.com",
+        "customOrder": -2085957915,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "全部::/shuku/0-default-0-0-0-{{page}}.html\n玄幻::/shuku/1-default-0-0-0-{{page}}.html\n仙侠::/shuku/2-default-0-0-0-{{page}}.html\n都市::/shuku/3-default-0-0-0-{{page}}.html\n历史::/shuku/4-default-0-0-0-{{page}}.html\n悬疑::/shuku/5-default-0-0-0-{{page}}.html\n网游::/shuku/6-default-0-0-0-{{page}}.html\n科幻::/shuku/7-default-0-0-0-{{page}}.html\n惊悚::/shuku/8-default-0-0-0-{{page}}.html\n其他::/shuku/9-default-0-0-0-{{page}}.html\n总点击::/shuku/0-allvisit-0-0-0-{{page}}.html\n月点击::/shuku/0-monthvisit-0-0-0-{{page}}.html\n周点击::/shuku/0-weekvisit-0-0-0-{{page}}.html\n日点击::/shuku/0-dayvisit-0-0-0-{{page}}.html\n总推荐::/shuku/0-allvote-0-0-0-{{page}}.html\n月推荐::/shuku/0-monthvote-0-0-0-{{page}}.html\n周推荐::/shuku/0-weekvote-0-0-0-{{page}}.html\n日推荐::/shuku/0-dayvote-0-0-0-{{page}}.html\n总收藏::/shuku/0-goodnum-0-0-0-{{page}}.html\n入站时间::/shuku/0-postdate-0-0-0-{{page}}.html\n更新时间::/shuku/0-lastupdate-0-0-0-{{page}}.html\n30万以下::/shuku/0-default-0-1-0-{{page}}.html\n30万-50万::/shuku/0-default-0-2-0-{{page}}.html\n50万-100万::/shuku/0-default-0-3-0-{{page}}.html\n100万-200万::/shuku/0-default-0-4-0-{{page}}.html\n200万以上::/shuku/0-default-0-5-0-{{page}}.html\n连载::/shuku/0-default-0-0-1-{{page}}.html\n完本::/shuku/0-default-0-0-2-{{page}}.html",
+        "lastUpdateTime": 1668102445328,
+        "loginUrl": "{\n  \"url\": \"null\"\n}",
+        "respondTime": 1719,
+        "ruleBookInfo": {
+            "coverUrl": "[property=\"og:novel:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "imageStyle": "full",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "tag.a.1@text",
+            "bookList": "class.skcon@ul",
+            "bookUrl": "tag.a.0@href",
+            "lastChapter": "tag.span@text##最新：",
+            "name": "tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list txt-list-row5@tag.li!0",
+            "bookUrl": "tag.a.0@href",
+            "kind": "class.s1@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-box.1@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.8zwdu.com/s.php?q={{key}} ,{\n  \"charset\": \"UTF-8\"\n}",
+        "weight": 0
+    }
+]

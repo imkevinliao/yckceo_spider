@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "👍 新笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xsbiquge.com",
+        "customOrder": 28,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1600084573565,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##^[\\s\\S]*：",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@tag.p.0@text",
+            "lastChapter": "id.info@tag.p.3@tag.a@text",
+            "name": "id.info@tag.h1.0@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "tag.p.1@tag.span.1@text",
+            "bookList": "class.result-item",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.p.0@text",
+            "kind": "tag.p.2@tag.span.1@text",
+            "lastChapter": "tag.p@tag.a@text",
+            "name": "tag.h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.xsbiquge.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

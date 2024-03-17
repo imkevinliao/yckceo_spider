@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "精品小说网",
+        "bookSourceUrl": "http://m.zjwyzyy.com",
+        "enable": true,
+        "loginUrl": "",
+        "ruleBookAuthor": "",
+        "ruleBookContent": "class.chapter_content@html#您现在阅读的是.*\\s*.*\\s*.*\\s*.*\\s*.*|本章还未完.*",
+        "ruleBookKind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+        "ruleBookLastChapter": "class.catalog_newest@a@text",
+        "ruleBookName": "",
+        "ruleBookUrlPattern": "",
+        "ruleChapterList": "class.catalog_list.1@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrlNext": "option@value",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.catalog_pic_left@img@src",
+        "ruleFindUrl": "玄幻魔法::http://m.zjwyzyy.com/sort/1_searchPage.html\n仙侠修真::http://m.zjwyzyy.com/sort/2_searchPage.html\n都市言情::http://m.zjwyzyy.com/sort/3_searchPage.html\n历史军事::http://m.zjwyzyy.com/sort/4_searchPage.html\n网游竞技::http://m.zjwyzyy.com/sort/5_searchPage.html\n科幻小说::http://m.zjwyzyy.com/sort/6_searchPage.html\n恐怖灵异::http://m.zjwyzyy.com/sort/7_searchPage.html\n其他小说::http://m.zjwyzyy.com/sort/8_searchPage.html\n完本小说::http://m.zjwyzyy.com/full/searchPage.html",
+        "ruleIntroduce": "class.catalog_intor@text#本书简介：|全文免费.*",
+        "ruleSearchAuthor": "class.newbook_author@a@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchIntroduce": "class.newbook_intor@text",
+        "ruleSearchKind": "class.s1@text",
+        "ruleSearchList": "class.newbook_list",
+        "ruleSearchName": "class.newbook_title@a@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://m.zjwyzyy.com/search.php@searchkey=searchKey|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

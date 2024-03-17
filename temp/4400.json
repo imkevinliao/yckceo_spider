@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "博仕书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.boshishuwu.com",
+        "bookUrlPattern": "https?://m.boshishuwu.com/boshi/[\\d_]+/",
+        "customOrder": 15,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"https://m.boshishuwu.com/boshi/xclass/0/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻小说\",\"url\":\"https://m.boshishuwu.com/boshi/xclass/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"修真小说\",\"url\":\"https://m.boshishuwu.com/boshi/xclass/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市小说\",\"url\":\"https://m.boshishuwu.com/boshi/xclass/3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"穿越小说\",\"url\":\"https://m.boshishuwu.com/boshi/xclass/4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"网游小说\",\"url\":\"https://m.boshishuwu.com/boshi/xclass/5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻小说\",\"url\":\"https://m.boshishuwu.com/boshi/xclass/6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他小说\",\"url\":\"https://m.boshishuwu.com/boshi/xclass/7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"全本\",\"url\":\"/boshi/quanben{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻小说\",\"url\":\"/boshi/quanben1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"修真小说\",\"url\":\"/boshi/quanben2_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市小说\",\"url\":\"/boshi/quanben3_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"穿越小说\",\"url\":\"/boshi/quanben4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"网游小说\",\"url\":\"/boshi/quanben5_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻小说\",\"url\":\"/boshi/quanben6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他小说\",\"url\":\"/boshi/quanben7_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1699146777849,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.author@text",
+            "coverUrl": ".synopsisArea_detail img@src",
+            "init": "",
+            "intro": "p.review@text",
+            "kind": "text.类别：@text&&\ntext.状态：@text&&\ntext.更新：.0@text##.*：",
+            "lastChapter": ".directoryArea p.0@text",
+            "name": "span.title@text",
+            "tocUrl": "text.完整目录@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##阅读模式.*"
+        },
+        "ruleExplore": {
+            "author": "p.author@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "p.-1@ownText##简介：",
+            "kind": "0",
+            "name": "p.title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text##.*作者：",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": "p.1:2@text##\\|.*",
+            "lastChapter": "p.2@text##.*更新：",
+            "name": "p.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href\n@js:\nvar regex=/第\\d*.(\\d+)页.当前\\d*条.页/;\n//正则匹配页数\nvar page=src.match(regex);\npage=page?page[1]:\"\";\nvar next=result?result[0]:\"\";\nnext=String(next);\nvar url=[next];\nfor(i=2;i<=page;i++){\n\turl.push(next.replace(/p\\d+/,\"p\"+i))\n\t}\nurl;"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"keyword={{key}}&t=1\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

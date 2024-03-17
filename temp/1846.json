@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "渣男小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.zhananxs.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "最近更新::/top/lastupdate_{{page}}/\n最新入库::/top/postdate_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n总字数榜::/top/size_{{page}}/\n完本小说::/full/{{page}}/\n其他类别::/sort/1_{{page}}/\n评书品书::/sort/3_{{page}}/\n私密趣事::/sort/4_{{page}}/",
+        "lastUpdateTime": 1620911997778,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.pic@img@src",
+            "intro": "class.intro@p@textNodes",
+            "lastChapter": "class.infotype@tag.p.3@a@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.articlecontent@p@html##本章尚未.*",
+            "imageStyle": "TEXT"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text||class.p3@text",
+            "bookList": "class.searchresult@p||class.article||class.articlegeneral||class.full_content",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "kind": "class.p1@text##\\[|]",
+            "name": "h6@a@text||tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.zhananxs.com/s.html,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&submit=&type=articlename\"\n}",
+        "weight": 0
+    }
+]

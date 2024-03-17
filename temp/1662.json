@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceUrl": "https://mibiququ.info/",
+        "bookSourceType": "0",
+        "bookSourceName": "笔趣趣",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://mibiququ.info/search.php,{\n \"method\": \"POST\",\n \"body\": \"keyword={{key}}\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1661506996304,
+        "ruleSearch": {
+            "bookList": "class.search-list@tag.li.!0",
+            "name": "class.s2@tag.a.0@text",
+            "author": "class.s4@text",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@text",
+            "bookUrl": "class.s2@tag.a.0@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "id.info@tag.h1.0@text",
+            "author": "id.info@tag.p.0@text",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimgtag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@p@html"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "一品侠手机网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yipinxia.co",
+        "bookUrlPattern": "https?://www.yipinxia.co/book/\\d+/",
+        "customOrder": 6,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::https://www.yipinxia.co/sort/1_{{page}}/\n武侠修真::https://www.yipinxia.co/sort/2_{{page}}/\n都市言情::https://www.yipinxia.co/sort/3_{{page}}/\n历史军事::https://www.yipinxia.co/sort/4_{{page}}/\n侦探推理::https://www.yipinxia.co/sort/5_{{page}}/\n网游动漫::https://www.yipinxia.co/sort/6_{{page}}/\n科幻小说::https://www.yipinxia.co/sort/7_{{page}}/\n恐怖灵异::https://www.yipinxia.co/sort/8_{{page}}/\n散文诗词::https://www.yipinxia.co/sort/9_{{page}}/\n其他类型::https://www.yipinxia.co/sort/10_{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692243210753,
+        "loginCheckJs": "url=source.getKey();\ncookie.removeCookie(url);\nresult;",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".infotype a.0@text",
+            "coverUrl": ".pic img@src",
+            "intro": ".intro p@text",
+            "kind": ".infotype p.1:2@text##类型：|更新时间：",
+            "lastChapter": ".infotype a.-1@text",
+            "name": ".cataloginfo h3@text",
+            "tocUrl": "text.章节目录@href##/$##_1/"
+        },
+        "ruleContent": {
+            "content": "#novelcontent@html",
+            "replaceRegex": "##一品侠一秒记住.*精彩小说无弹窗免费阅读！|www.*一品侠.*|\\\"\\>|\\<"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".article",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text",
+            "kind": "0",
+            "name": "h6@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".sone",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"https://www.yipinxia.co/17mb/style/noimg.jpg\"",
+            "kind": "0",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "@js:\nvar regex=/第\\d+.(\\d+)页.当前\\d+条.页/\nvar page=src.match(regex)[1];\nvar url=[];\nfor(i=2;i<=page;i++){\n\turl.push(baseUrl.replace(/_1/,\"_\"+i))\n\t}\nurl;"
+        },
+        "searchUrl": "https://www.yipinxia.co/s.php,{\n  \"body\": \"s={{key}}&type=articlename\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

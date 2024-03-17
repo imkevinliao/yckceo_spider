@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "@银河中的咸鱼\n2022.9.10 中秋\n莫得搜索，网站不支持",
+        "bookSourceGroup": "💠 小说",
+        "bookSourceName": "金庸",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.jinyongbook.com##小说",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 59,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{'title':'修订版','url':'/xiudingban/index.htm','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'新修版','url':'/xinxiuban/index.htm','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'旧版','url':'/jiuban/index.htm','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'金庸其他作品','url':'/qita/index.htm','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'金庸研究书籍','url':'/jiedu/index.htm','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}}]",
+        "header": "",
+        "lastUpdateTime": 1680354657411,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 3363,
+        "ruleBookInfo": {
+            "author": "{{'金庸图书馆'}}",
+            "init": "",
+            "intro": "&nbsp;{{@@h1@center@text}}<br>&lrm;<br>{{@.lb@html}}##&nbsp;<br>&lrm;<br>",
+            "kind": "{{'金庸'}},{{@@font@text##【.*】}}",
+            "name": "h1@center@text",
+            "tocUrl": "@js:\nif(result.match(/window.location=\"(.*)\";/)){\n\tresult=result.match(/.*location=\"(.*)\";/)[1]\n}else{result=baseUrl}"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "imageStyle": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "{{'金庸图书馆'}}",
+            "bookList": ".shuming@li",
+            "bookUrl": "@get:{u}",
+            "coverUrl": "img@src",
+            "intro": "",
+            "kind": "",
+            "name": "a.1@text@put:{u:\"a.0@href\"}##.*钗"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "",
+            "checkKeyWord": ""
+        },
+        "ruleToc": {
+            "chapterList": ".mulu_con@li@a||#single@h1",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

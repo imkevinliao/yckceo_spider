@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "★APP-4★",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://novel.riji8.com",
+        "bookUrlPattern": "https://novel.riji8.com/mix-atoc/.*view=chapters",
+        "customOrder": 82,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 0,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "$.chapter.body",
+            "imageStyle": "0.0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$..books[*]",
+            "bookUrl": "https://novel.riji8.com/mix-atoc/{$._id}?view=chapters",
+            "coverUrl": "$.cover",
+            "intro": "$.shortIntro",
+            "kind": "$.majorCate&&$.cat",
+            "lastChapter": "$.lastChapter",
+            "name": "$.title",
+            "wordCount": "$.wordCount"
+        },
+        "ruleToc": {
+            "chapterList": "$..chapters[*]",
+            "chapterName": "$.title",
+            "chapterUrl": "$.link"
+        },
+        "searchUrl": "https://novel.riji8.com/book/search?query={{key}}",
+        "weight": 0
+    }
+]

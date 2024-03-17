@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "爱书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.aswxs.com/",
+        "bookUrlPattern": "http://m.aswxs.com/info-\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "耽美小说::/sort-1-{{page}}/&&言情小说::/sort-2-{{page}}/&&玄幻小说::/sort-3-{{page}}/&&穿越重生::/sort-4-{{page}}/&&恐怖推理::/sort-5-{{page}}/&&网游科幻::/sort-6-{{page}}/&&武侠修真::/sort-7-{{page}}/&&日点击榜::/top-dayvisit-{{page}}/&&周点击榜::/top-weekvisit-{{page}}/&&月点击榜::/top-monthvisit-{{page}}/&&总点击榜::/top-allvisit-{{page}}/&&总收藏榜::/top-goodnum-{{page}}/&&字数排行::/top-size-{{page}}/&&日推荐榜::/top-dayvote-{{page}}/&&周推荐榜::/top-weekvote-{{page}}/&&月推荐榜::/top-monthvote-{{page}}/&&总推荐榜::/top-allvote-{{page}}/&&最新入库::/top-postdate-{{page}}/&&最近更新::/top-lastupdate-{{page}}/&&完本::http://m.aswxs.com/full-{{page}}/&&",
+        "lastUpdateTime": 1623177426542,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"h2@text\",a:\"p:matches(作者) a@text\",k:\"p:matches(分类|状态|更新)@text\n\",w:\"p:matches(字数)@text\n\",l:\"p:matches(最新) a@text\",c:\".block_img2 img@src\",i:\".intro_info@text\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "<js>baseUrl.replace('info','wapbook')</js>",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "#pb_next@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "p.line",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.a.1@href##.*\\D(\\d+)\\D$##$1@js:result = Number(result);\nif (result >=1000){'http://www.aswxs.com/files/article/image/'+Math.floor(result/1000)+'/'+result+'/'+result+'s.jpg'}else{'http://www.aswxs.com/files/article/image/0/'+result+'/'+result+'s.jpg'}",
+            "kind": "tag.a.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "<js>var n= result.match(/第1\\/(\\d+)页/)[1];\nvar list=[];\nfor(var i=2;i<=n;i++){list.push(baseUrl.replace(/\\/$/,'')+'_'+i+'/')};\nlist</js>"
+        },
+        "searchUrl": "@js:\n\nvar url =\"http://m.aswxs.com/\";\n\nbody = \"searchtype=articlename&searchkey={{key}}\";\n\naction=org.jsoup.Jsoup.parse(String(java.ajax(url))).select(\"form\").attr(\"action\")\n\noption={\"charset\": \"gbk\",\"method\": \"POST\",\"body\": String(body)}\nurl.replace(/\\/$/,'')+String(action)+\",\"+JSON.stringify(option)",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "69书吧.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.69shu.com",
+        "bookUrlPattern": "https://www.69shu.com/txt/\\d+\\.html?",
+        "customOrder": -140599,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/ajax_top/0/{{page}}.htm\n玄幻魔法::/ajax_top/1/{{page}}.htm\n修真武侠::/ajax_top/2/{{page}}.htm\n言情小说::/ajax_top/3/{{page}}.htm\n历史军事::/ajax_top/4/{{page}}.htm\n游戏竞技::/ajax_top/5/{{page}}.htm\n科幻空间::/ajax_top/6/{{page}}.htm\n悬疑惊悚::/ajax_top/7/{{page}}.htm\n同人小说::/ajax_top/8/{{page}}.htm\n都市小说::/ajax_top/9/{{page}}.htm\n官场职场::/ajax_top/10/{{page}}.htm\n穿越时空::/ajax_top/11/{{page}}.htm\n青春校园::/ajax_top/12/{{page}}.htm\n已完本::/ajax_wanben/{{page}}",
+        "lastUpdateTime": 1626705765602,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "intro": "class.navtxt@text##小说关键词.*|(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "class.more-btn@href",
+            "wordCount": ".infolist@tag.li.0@text##数"
+        },
+        "ruleContent": {
+            "content": ".txtnav@html##{{chapter.title}}|\\d+.*作者：.*"
+        },
+        "ruleExplore": {
+            "bookUrl": ""
+        },
+        "ruleSearch": {
+            "author": "tag.label.0@text",
+            "bookList": ".newbox li||li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-src",
+            "intro": ".ellipsis_2@text",
+            "kind": "tag.label.1@text",
+            "lastChapter": ".zxzj p@text##最近章节",
+            "name": "h3@text",
+            "wordCount": "tag.label.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.catalog@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.69shu.com/modules/article/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+        "weight": 0
+    }
+]

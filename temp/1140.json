@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceUrl": "https://www.clewx.com",
+        "bookSourceType": "0",
+        "bookSourceName": "0718🧜‍♀️clewx🍄少敏感字🍄醋溜儿文学网",
+        "bookSourceGroup": "0718*少敏感字*组合",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0\",\n    \"Cookie\": \"Hm_lpvt_covid197ca72ab9804ca50c2fcovid19:1234567890\"\n}",
+        "searchUrl": "https://www.clewx.com/Home/Search/index.html?keyword={{key}}&page=<,{{page}}>",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 100,
+        "customOrder": 0,
+        "lastUpdateTime": 1626581364153,
+        "ruleSearch": {
+            "bookList": ".list @class.book_data",
+            "name": "h1 @text",
+            "author": "class.vd author @span.0 @text",
+            "kind": "class.vd author @span.1 @text",
+            "lastChapter": ".latest @a @text",
+            "intro": ".des @text",
+            "coverUrl": ".bkd_img @img @src",
+            "bookUrl": "h1 @a @href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "init": "class.main",
+            "name": "h1 @text",
+            "author": ".other_info @span.0 @text",
+            "kind": ".pos @a.1 @text&&\nclass.latest lz @dl.0 @dd @text",
+            "wordCount": ".other_info @span.1 @text ##字数：",
+            "lastChapter": ".latest lz @dl.1 @dd @text",
+            "intro": ".des @text",
+            "coverUrl": ".top_left @tag.img @src"
+        },
+        "ruleToc": {
+            "chapterList": ".con @dd",
+            "chapterName": "dd @a @text",
+            "chapterUrl": "dd @a @href ##$##,{\n\"headers\": {\"Cookie\": \"covid19=; UM_distinctid=;\"}\n}"
+        },
+        "ruleContent": {
+            "webJs": "getDecode();$('#content').html();",
+            "content": ".content @p @textNodes"
+        }
+    }
+]

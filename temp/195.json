@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceGroup": "",
+        "bookSourceName": "无限小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.txt97.com",
+        "customOrder": 1430,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "武侠::/html/wuxiaxianxia/list_{{page}}.html\n言情::/html/yanqing/list_{{page}}.html\n玄幻::/html/xuanhuan/list_{{page}}.html\n都市::/html/dushi/list_{{page}}.html\n穿越::/html/chuanyue/list_{{page}}.html\n科幻::/html/kehuanxiaoshuo/list_{{page}}.html\n网游::/html/wangyou/list_{{page}}.html\n同人::/html/tongren/list_{{page}}.html\n历史::/html/lishi/list_{{page}}.html\n惊悚::/html/jingsong/list_{{page}}.html\n重生::/html/chongsheng/list_{{page}}.html\n耽美::/html/danmei/list_{{page}}.html",
+        "lastUpdateTime": 1658139380015,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": ".novel_info_main>img@src",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#article@html",
+            "nextContentUrl": "#next_url@href"
+        },
+        "ruleExplore": {
+            "author": ".li_bottom a i@text",
+            "bookList": ".side_commend ul li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".indent@text",
+            "kind": ".img_span span@text&&.blue@text",
+            "name": "h2@text",
+            "wordCount": ".orange@text"
+        },
+        "ruleSearch": {
+            "author": "p.0@textNodes",
+            "bookList": ".searchresult",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".searchresult_p@text",
+            "kind": ".full@text&&.s_gray@text",
+            "lastChapter": "p.-1@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#ul_all_chapters li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}&searchtype=all\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

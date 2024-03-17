@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "思齐",
+        "bookSourceName": "书迷楼",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shumilou.co/",
+        "customOrder": -172752,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::list/xuanhuanmofa/{{page}}.html\n仙侠::list/xianxiaxiuzhen/{{page}}.html\n都市::list/dushuyanqing/{{page}}.html\n历史::list/lishijunshi/{{page}}.html\n网游::list/wangyoudongman/{{page}}.html\n科幻::list/kehuanxiaoshuo/{{page}}.html\n女生::list/nvshengxiaoshuo/{{page}}.html\n其他::list/qitaxiaoshuo/{{page}}.html\n热门::rank/allvisit/",
+        "lastUpdateTime": 1665907844150,
+        "respondTime": 3761,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@tag.a@text",
+            "coverUrl": "id.fmimg@tag.img@data-original",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "class.con_top@tag.a.1@text",
+            "lastChapter": "class.hidden-xs.1@tag.a@text",
+            "name": "id.info@tag.h1@text",
+            "tocUrl": "class.readbtn@tag.a.1@href",
+            "wordCount": "class.hidden-xs.0@text"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "nextContentUrl": "class.bottem2@tag.a.2@href",
+            "replaceRegex": "##本章未完，点击下一页继续阅读。"
+        },
+        "ruleExplore": {
+            "author": "class.btm@tag.a@text",
+            "bookList": "class.item",
+            "bookUrl": "tag.dl@tag.dt@tag.a@href",
+            "coverUrl": "class.image@tag.a@tag.img@data-original",
+            "intro": "tag.dl@tag.dd@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.dl@tag.dt@tag.a@text",
+            "wordCount": "class.orange visible-xs@text"
+        },
+        "ruleSearch": {
+            "author": "class.btm@tag.a@text",
+            "bookList": "class.item",
+            "bookUrl": "tag.dl@tag.dt@tag.a@href",
+            "coverUrl": "class.image@tag.a@tag.img@data-original",
+            "intro": "tag.dl@tag.dd@text",
+            "lastChapter": "",
+            "name": "tag.dl@tag.dt@tag.a@text",
+            "wordCount": "class.orange visible-xs@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@tag.a",
+            "chapterName": "tag.dd@text",
+            "chapterUrl": "href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.shumilou.co/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

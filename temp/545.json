@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceUrl": "https://m.888zjd.com",
+        "bookSourceType": "0",
+        "bookSourceName": "柚子小说",
+        "bookSourceGroup": "",
+        "bookSourceComment": "需要特殊上网方式",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "'Cookie':'PHPSESSID=ae8luv9321ggcl701gm%D303hnhi; jieqiVisitId=article_articleviews%3D1493; jieqiUserInfo=jieqiUserId%3D8540%2CjieqiUserUname%3D123456123456%2CjieqiUserName%3D123456123456%2CjieqiUserGroup%3D3%2CjieqiUserGroupName%3D%E6%99%AE%E9%80%9A%E4%BC%9A%E5%91%98%2CjieqiUserVip%3D0%2CjieqiUserHonorId%3D0%2CjieqiUserHonor%3D%2CjieqiUserToken%3D9e175e1ee0cde9787161b7660335527f%2CjieqiCodeLogin%3D0%2CjieqiCodePost%3D0%2CjieqiUserLogin%3D1646093717%2CjieqiUserPassword%3D4f0ecbf735f30334d2984266b50fb378; jieqiVisitInfo=jieqiUserLogin%3D1646093717%2CjieqiUserId%3D8540'",
+        "bookUrlPattern": "",
+        "searchUrl": "https://m.888zjd.com/modules/article/search.php?searchkey={{key}}&searchtype=all&page={{page}}",
+        "exploreUrl": "[{\"title\":\"收藏榜（🔞🈲）\",\"url\":\"https://m.888zjd.com/top/goodnum/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"奇幻玄幻\",\"url\":\"https://m.888zjd.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=1\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"https://m.888zjd.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=2\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"https://m.888zjd.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=3\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"https://m.888zjd.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=4\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"穿越女频\",\"url\":\"https://m.888zjd.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=5\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"https://m.888zjd.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=6\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"https://m.888zjd.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=7\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"综合其他\",\"url\":\"https://m.888zjd.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=8\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1646097352036,
+        "ruleSearch": {
+            "bookList": "class.c_row cf",
+            "name": "h4@text",
+            "author": "class.gray@text##\\|.*",
+            "intro": "class.gray@text##.*\\|",
+            "coverUrl": "img@src",
+            "bookUrl": "tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.grid@tag.tr!0",
+            "name": "class.db nw@textNodes",
+            "author": "class.db nw@class.gray fss@text##\\/",
+            "kind": "tag.td.0@text&&tag.td.3@text",
+            "wordCount": "tag.td.2@text",
+            "bookUrl": "class.db nw@href"
+        },
+        "ruleBookInfo": {
+            "name": "h4@textNodes",
+            "author": "class.gray fss.0@textNodes",
+            "kind": "h4@class.fr fss@text",
+            "wordCount": "class.gray fss@tag.span@text",
+            "lastChapter": "class.c_row nw@tag.a@text",
+            "intro": "class.blockcontent fss@text##\\&nb\\.\\.|\\[显示全部\\]|\\[收起内容\\]",
+            "coverUrl": "img@src",
+            "tocUrl": "class.more@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.index@tag.dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "id.acontent@html"
+        }
+    }
+]

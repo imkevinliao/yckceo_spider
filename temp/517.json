@@ -1,0 +1,28 @@
+[
+    {
+        "bookSourceGroup": "千山暮雪",
+        "bookSourceName": "艾佛逊小说",
+        "bookSourceUrl": "https://www.afxfs.com",
+        "enable": false,
+        "ruleBookAuthor": "class.fix@tag.p.0@text#.*：",
+        "ruleBookContent": "class.content@html",
+        "ruleBookInfoInit": "",
+        "ruleBookKind": "class.xs-show.0@text#.*：",
+        "ruleBookLastChapter": "class.fix@tag.p.5@a@text",
+        "ruleBookName": "class.top@h1@text",
+        "ruleChapterList": "class.section-list fix.1@li@a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.imgbox@img@src",
+        "ruleIntroduce": "class.desc@text",
+        "ruleSearchAuthor": "class.s4@text",
+        "ruleSearchKind": "class.s1@text",
+        "ruleSearchLastChapter": "class.s3@text",
+        "ruleSearchList": "class.txt-list@li!0",
+        "ruleSearchName": "class.s2@a@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://www.afxfs.com/home/search",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

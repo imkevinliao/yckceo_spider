@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "凯翼",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.kaiyiwenxue.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1626239559926,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "class.fmimg@img@src",
+            "intro": "id.intro@html##简介：|各位书友要是觉得.*",
+            "kind": "",
+            "lastChapter": "id.info@tag.a.-1@text",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "@js:\ncontent=result.match(/_ii_rr\\('([^\"]+)'\\)/)[1];\nfunction _ii_rr(content) {\n    content = java.base64Decode(content);\n    var arrays = new Array();\n    arrays = content.split(',');\n    var $chapter = String(java.getString(\"@@id.chapter@html\",false))\n    \n    $chapter = $chapter.replace(new RegExp(/\\[[\\s\\S]+?\\]/), '');\n    var datas = [];\n    datas = $chapter.split('<br><br>');\n    var $html = '';\n    var el = arrays[0];\n    var len = datas.length;\n    for (var i = 1; i <= len; i++) {\n        $html += datas[arrays[i] - el] + '<br/><br/>';\n    }\n    return $html;\n}\n_ii_rr(content)+\"◎◎\"",
+            "nextContentUrl": "text.下一页@href||text.下一章@href",
+            "replaceRegex": "##\\s*◎◎\\s*",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.searchpage@tag.ul@tag.li",
+            "bookUrl": "tag.a@href##m\\.##www.",
+            "coverUrl": "img@src",
+            "intro": "tag.p@text##简介：",
+            "kind": "",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/s.php,{\n\"charset\": \"UTF-8\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

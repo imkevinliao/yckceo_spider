@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceUrl": "http://qinxiaoshuo.com",
+        "bookSourceType": "0",
+        "bookSourceName": "亲小说APP",
+        "bookSourceGroup": "🔖 轻小说",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/api/book/search/{{key}}/{{page}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -118107,
+        "lastUpdateTime": 1618904972287,
+        "ruleSearch": {
+            "bookList": "Books",
+            "name": "Book_name",
+            "author": "Author_name",
+            "kind": "Tags&&Status",
+            "lastChapter": "Last_update_chapter_name",
+            "intro": "Book_intro",
+            "coverUrl": "http://static.qinxiaoshuo.com:4000/bookimg/{{$.Book_id}}.jpg",
+            "bookUrl": "/api/book/get/{{$.Book_name}}"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "init": "Book",
+            "name": "Book_name@put:{bid.Book_id}",
+            "author": "Author_name",
+            "kind": "Tags&&Status",
+            "lastChapter": "Last_update_chapter_name",
+            "intro": "Book_intro",
+            "coverUrl": "http://static.qinxiaoshuo.com:4000/bookimg/{{$.Book_id}}.jpg",
+            "tocUrl": "/api/user/book/get/{{$.Book_id}},{\"method\": \"POST\",\"headers\": {\"Authorization\":\"111111111111111111111111:1:1618901160:\"}}"
+        },
+        "ruleToc": {
+            "chapterList": "Volumes[*].Chapters[*]",
+            "chapterName": "Chapter_name",
+            "chapterUrl": "/api/book/chapter/get/@get:{bid}/{{$.Chapter_id}}"
+        },
+        "ruleContent": {
+            "content": "Chapter.Chapter_content",
+            "imageStyle": "FULL"
+        }
+    }
+]

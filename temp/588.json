@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️笔学网☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.shengcang888.com##响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::https://m.shengcang888.com/all/id/1.html?page={{page}}\n武侠修真::https://m.shengcang888.com/all/id/2.html?page={{page}                \n都市异能::https://m.shengcang888.com/all/id/3.html?page={{page}}\n历史军事::https://m.shengcang888.com/all/id/4.html?page={{page}}\n科幻灭世::https://m.shengcang888.com/all/id/5.html?page={{page}}\n游戏竞技::https://m.shengcang888.com/all/id/6.html?page={{page}}      \n灵异悬疑::https://m.shengcang888.com/all/id/7.html?page={{page}}  \n女频言情::https://m.shengcang888.com/all/id/8.html?page={{page}}",
+        "lastUpdateTime": 1644137905032,
+        "ruleBookInfo": {
+            "author": "class.info@tag.a.1@text",
+            "coverUrl": "class.base@tag.img@src",
+            "lastChapter": "class.attentions@tag.a.0@ownText##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "class.lazy.0@alt",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.read-section@p!-1@text",
+            "nextContentUrl": "#next@href##$##,{'webView': true}"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.info@tag.span.0@text",
+            "bookList": "class.clearfix@tag.li",
+            "bookUrl": "class.tit@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@text",
+            "kind": "class.type@text&&class.finish@text",
+            "name": "class.pic lazy@alt",
+            "wordCount": "class.word@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.bookshelf-list@tag.li@tag.a",
+            "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "chapterUrl": "href##$##,{'webView': true}"
+        },
+        "searchUrl": "/soshu.html?ss={{key}}",
+        "weight": 0
+    }
+]

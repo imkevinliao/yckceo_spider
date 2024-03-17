@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "清理过缓存后需要重新登录，否则无法搜索",
+        "bookSourceName": "360小说（需登录）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.360xs.com",
+        "customOrder": -88903106,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/012.002; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.0 Mobile Safari/533.4 3gpp-gba",
+        "lastUpdateTime": 1668667828452,
+        "loginUrl": "https://m.e360xs.com/index.php?m=user/login",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content=",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "[property=\"og:image\"]@content##/(\\d+)/(\\d+)/##https://www.e360xs.com/mulu/$1/$2.html###"
+        },
+        "ruleContent": {
+            "content": "id.read_info@html",
+            "nextContentUrl": "id.read_link@a.2@href",
+            "replaceRegex": "##\\*.*\\*|请用户.*责任.*|.*第.*页/共.*页.*##",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.h2@a.1@text",
+            "bookList": "class.sklist@class.list",
+            "bookUrl": "class.pic@a@href",
+            "coverUrl": "class.pic@img@src",
+            "intro": "tag.p.0@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.h2@a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.index@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://m.e360xs.com/search/{{key}}/,{\"webView\":true}",
+        "weight": 0
+    }
+]

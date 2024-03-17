@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "次元姬",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ciyuanji.com",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "阅读记录::/user/recent.html",
+        "header": "",
+        "lastUpdateTime": 1666953191002,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "https://www.ciyuanji.com/login.html",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book_detail_text__HlCNP.0@text",
+            "coverUrl": "class.book_detail_detail__F2tyN@class.mediabox Image__image__tF0jw book_detail_cover__rKpN6@img@data-src",
+            "intro": "id.article@title",
+            "kind": "class.book_detail_text__HlCNP.1@text",
+            "lastChapter": "class.Link_link__LjyZ2@strong@title",
+            "name": "class.MuiTypography-root MuiTypography-body1 book_detail_title__d9MAd css-9l3uo3@span@text"
+        },
+        "ruleContent": {
+            "content": "class.chapter_article__vWEkb@html"
+        },
+        "ruleExplore": {
+            "bookList": "class.recent_page__Nu9aE",
+            "coverUrl": "img@data-src",
+            "name": "text"
+        },
+        "ruleSearch": {
+            "author": "class.BookCard_name__E4MMZ BookCard_name1__Po00_@text",
+            "bookList": "class.search_book__ieDvY",
+            "bookUrl": "class.BookCard__book_card__YDLb4@tag.a.0@href",
+            "coverUrl": "img@data-src",
+            "intro": "MuiTypography-root MuiTypography-body1 BookCard_desc__oZWM6 css-9l3uo3@text",
+            "kind": "class.BookCard_name__E4MMZ.2@text##·##,",
+            "lastChapter": "class.BookCard_name__E4MMZ BookCard_name2__xJwnI@text##最新：",
+            "name": "class.Link_link__LjyZ2@tag.p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_detail_chapter__wsMUy@class.book_detail_content__SQOg8@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.ciyuanji.com/search/{{key}}_0_0_0_0_0_{{page}}.html",
+        "weight": 0
+    }
+]

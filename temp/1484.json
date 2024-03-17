@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceUrl": "https://www.qdmm.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "起点女生网",
+        "bookSourceGroup": "v1.0.3",
+        "bookSourceComment": "@author: 倒影年华",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "https://book.qidian.com/",
+        "searchUrl": "<js>\n    var ua = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36\";\n    var headers = {\"User-Agent\": ua};\n    var option = {\n        \"headers\": headers,\n    };\n    \"https://www.qidian.com/mm/soushu/\" + key + \".html,\" + JSON.stringify(option)\n</js>",
+        "exploreUrl": "🌷                      热门作品排行                    🌷\n月票榜::https://www.qidian.com/rank/mm/yuepiao/year{{String(new Date().getFullYear())}}-month{{let date = new Date().getMonth() + 1;result = (date < 10 ? (\"0\" + date) : String(date))}}-page{{page}}/\n新书热销榜::https://www.qidian.com/rank/mm/newsales/page{{page}}/\n阅读指数榜::https://www.qidian.com/rank/mm/readindex/page{{page}}/\n畅销榜::https://www.qidian.com/rank/mm/hotsales/page{{page}}/\n书友榜::https://www.qidian.com/rank/mm/newfans/page{{page}}/\n热门单订榜::https://www.qidian.com/rank/mm/subscr/page{{page}}/\n推荐榜::https://www.qidian.com/rank/mm/recom/page{{page}}/\n收藏榜::https://www.qidian.com/rank/mm/collect/page{{page}}/\nVIP单订总榜::https://www.qidian.com/rank/mm/vipsub/page{{page}}/\nVIP更新字数榜::https://www.qidian.com/rank/mm/vipup/page{{page}}/\n总字数榜::https://www.qidian.com/rank/mm/wordcount/page{{page}}/\n🍁                          新书排行                        🍁\n签约作者新书榜::https://www.qidian.com/rank/mm/signnewbook/page{{page}}/\n公众作者新书榜::https://www.qidian.com/rank/mm/pubnewbook/page{{page}}/\n新人签约新书榜::https://www.qidian.com/rank/mm/newsign/page{{page}}/\n新人作者新书榜::https://www.qidian.com/rank/mm/newauthor/page{{page}}/",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -88888927,
+        "lastUpdateTime": 1674267234982,
+        "ruleSearch": {
+            "bookList": "//div[@class=\"book-img-text\"]/ul/li",
+            "name": "//h2[@class=\"book-info-title\"]/a/@title##在线阅读",
+            "author": "//p[@class=\"author\"]/a[1]/text()",
+            "kind": "//p[@class=\"author\"]/a[2]/text()&&//p[@class=\"author\"]/span/text()",
+            "wordCount": "//div[@class=\"total\"]/p[1]/span/text()##万##万字",
+            "lastChapter": "{{//p[@class=\"update\"]/a/text()}} {{//p[@class=\"update\"]/span/text()}}##最新更新[ ]",
+            "intro": "//div[@class=\"book-mid-info\"]/p[@class=\"intro\"]",
+            "coverUrl": "https:{{//div[@class=\"book-img-box\"]/a/img/@src}}",
+            "bookUrl": "https:{{//div[@class=\"book-img-box\"]/a/@href}}##$##,{\"webView\":true}"
+        },
+        "ruleExplore": {
+            "bookList": "//div[@class=\"book-img-text\"]/ul/li",
+            "name": "//h2/a/text()",
+            "author": "//p[@class=\"author\"]/a[1]/text()",
+            "kind": "//p[@class=\"author\"]/a[2]/text()&&//p[@class=\"author\"]/a[3]/text()&&//p[@class=\"author\"]/span/text()&&//p[@class=\"update\"]/span/text()",
+            "lastChapter": "//p[@class=\"update\"]/a/text()##最新更新[ ]",
+            "intro": "//p[@class=\"intro\"]/text()",
+            "coverUrl": "https:{{//div[@class=\"book-img-box\"]/a/img/@src}}",
+            "bookUrl": "https:{{//a[@class=\"red-btn\"]/@href}}##$##,{\"webView\":true}"
+        },
+        "ruleBookInfo": {
+            "intro": "//div[@class=\"book-intro\"]/p/text()",
+            "tocUrl": "https:{{//li[@class=\"j_catalog_block\"]/a[@class=\"lang\"]/@href}}##$##,{\"webView\":true}"
+        },
+        "ruleToc": {
+            "chapterList": "//div[@class=\"volume\"]/ul/li",
+            "chapterName": "//h2[@class=\"book_name\"]/a/text()",
+            "chapterUrl": "https:{{//h2[@class=\"book_name\"]/a/@href}}##$##,{\"webView\":true}",
+            "isVip": "//em/text()<js>\nif (String(result) !== \"\") {\n   result = \"1\"\n}\n</js>",
+            "updateTime": "//h2[@class=\"book_name\"]/a/@title\n<js>\nvar time = /\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}/g.exec(String(result))\nvar count = /\\d{1,5}$/g.exec(String(result))\nresult = time + \"  \" + count + \" 字\"\n</js>\n"
+        },
+        "ruleContent": {
+            "content": "//div[@class=\"read-content j_readContent\"]/p/span[1]/text()"
+        }
+    }
+]

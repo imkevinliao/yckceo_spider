@@ -1,0 +1,26 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "米库小说",
+        "bookSourceUrl": "http://m.mikuwx.com",
+        "enable": false,
+        "ruleBookContent": "class.panel-body@html#.*米库文学.*一秒记住.*",
+        "ruleBookLastChapter": "class.text-danger.1@text",
+        "ruleChapterList": "dl@dd@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "text.全部章节列表@href",
+        "ruleChapterUrlNext": "class.btn-primary.2@href",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.img-thumbnail@src",
+        "ruleIntroduce": "id.bookIntro@text",
+        "ruleSearchAuthor": "tag.span.0@text",
+        "ruleSearchCoverUrl": "",
+        "ruleSearchList": "class.list-group list-top@li",
+        "ruleSearchName": "tag.a.0@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://m.mikuwx.com/s.php@s=searchKey&type=articlename|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

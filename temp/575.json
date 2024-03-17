@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️九桃小说网☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.9taoxs.com##响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1645431428202,
+        "ruleBookInfo": {
+            "author": "tag.p.1@text",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.intro.0@html",
+            "kind": "class.layui-btn layui-btn-xs layui-btn-radius@text&&class.layui-btn layui-btn-xs layui-btn-radius layui-btn-danger@text&&class.layui-btn layui-btn-xs layui-btn-radius layui-bg-cyan@text",
+            "lastChapter": "class.chapter@text",
+            "name": "class.booktitle@text",
+            "tocUrl": "text.查看目录@href",
+            "wordCount": "class.layui-btn layui-btn-xs layui-btn-radius layui-bg-cyan@text"
+        },
+        "ruleContent": {
+            "content": "class.content@tag.p!0@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.list@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@html",
+            "kind": "class.data@text",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search.html,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

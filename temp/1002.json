@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔰 普通",
+        "bookSourceName": "🔰 新书包网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xingshubao.net",
+        "customOrder": -292843,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/class/1/{{page}}.html\n修真::/class/2/{{page}}.html\n都市::/class/3/{{page}}.html\n历史::/class/4/{{page}}.html\n网游::/class/5/{{page}}.html\n科幻::/class/6/{{page}}.html\n其它::/class/7/{{page}}.html\n完本::/quanben/0/{{page}}.html",
+        "lastUpdateTime": 1631116760805,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#info a.0@text",
+            "coverUrl": "#fmimg img@src",
+            "intro": "#intro@html##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=\"og:novel:category\"]@content&&#info p.4:2@text##.*：\\s|小说|\\s.*",
+            "lastChapter": "#info a.3@text",
+            "name": "#info h1@text",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#content@p@html",
+            "replaceRegex": "##天才一秒记住.*|记住网址.*"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".update-list li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##/(\\d+)##https://www.xingshubao.net/novel/$1.jpg",
+            "kind": ".s1@text&&.s5@text##\\[|\\]|小说",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "a.0@text##.*\\(|\\).*",
+            "bookList": ".f",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "kind": "span@text##.*\\.|.*\\/|\\s",
+            "name": "a.0@text##\\(.*"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&p={{page-1}}&s=11236593603196317993&entry=1",
+        "weight": 0
+    }
+]

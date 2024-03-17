@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "爱猫小说书源合集",
+        "bookSourceName": "手机宝书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.baoshuu.com",
+        "bookUrlPattern": "",
+        "customOrder": 283,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "\n男生频道::https://www.baoshuu.com/TXT/list1_{{page}}.html\n女生频道::https://www.baoshuu.com/TXT/list2_{{page}}.html\n耽美频道::https://www.baoshuu.com/TXT/list26_{{page}}.html\n现代耽美::https://www.baoshuu.com/TXT/list27_{{page}}.html\n古代架空::https://www.baoshuu.com/TXT/list28_{{page}}.html\n穿越重生::https://www.baoshuu.com/TXT/list29_{{page}}.html\n玄幻科幻::https://www.baoshuu.com/TXT/list30_{{page}}.html\nBL同人::https://www.baoshuu.com/TXT/list31_{{page}}.html\nGL百合::https://www.baoshuu.com/TXT/list32_{{page}}.html",
+        "lastUpdateTime": 0,
+        "loginUrl": "https://www.baoshuu.com",
+        "ruleBookInfo": {
+            "author": "id.xxlist@tag.li.4@text##小说作者：",
+            "coverUrl": "class.con_text@tag.a.0@img@src",
+            "intro": "class.con_text@html",
+            "kind": "id.xxlist@tag.li.1@text##小说类型：",
+            "name": ".pml1@tag.h1@text##TXT.*|《|》|完结.*|\\[.*\\]",
+            "tocUrl": "{{@@text.在线试读.0@href}},{charset:\"gbk\"}"
+        },
+        "ruleContent": {
+            "content": ".ddd@textNodes##本书总字数为:\\d+个",
+            "imageStyle": "0.0"
+        },
+        "ruleExplore": {
+            "bookList": "class.listl2@tag.ul@tag.li",
+            "bookUrl": "tag.a.0@href##$##,{charset:\"gbk\"}",
+            "coverUrl": "tag.a.1@tag.img@src",
+            "intro": "tag.p@text",
+            "lastChapter": "class.newDate@text",
+            "name": "tag.h2@tag.a@text##完结.*|完结|\\[金推\\]|金推|\\[.*\\]"
+        },
+        "ruleSearch": {
+            "bookList": "//*[@class=\"searchTopic\"]/a",
+            "bookUrl": "href",
+            "name": "text##完结.*|\\[.*\\]|\\+番外"
+        },
+        "ruleToc": {
+            "chapterList": "@js:list=[];\nif(baseUrl.match(/id/)){\n    p=result.match(/=(\\d+)\">最后1页/)[1];\n        for(i=0;i<=p;i++){\n             list.push({n:'第'+[i+1]+'页',\nu:baseUrl.replace(/,.*$/,'&yeshu='+i+',{charset:\"gbk\"}')})}}else list.push({n:'空',u:''});\nlist",
+            "chapterName": "n",
+            "chapterUrl": "u"
+        },
+        "searchUrl": "https://www.baoshuu.com/search.asp?word={{key}}&m=2&searchbtn2=%BF%AA%CA%BC%CB%D1%CB%F7,{\"charset\":\"gbk\"}",
+        "weight": 0
+    }
+]

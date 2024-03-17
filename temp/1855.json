@@ -1,0 +1,22 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "鲤鱼乡",
+        "bookSourceUrl": "http://m.bimo123.com",
+        "enable": false,
+        "ruleBookContent": "class.blcont@div@textNodes",
+        "ruleBookLastChapter": "class.pagelist@li.-2@a@text",
+        "ruleChapterList": "class.pagelist@li!0:1:-1@a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleFindUrl": "都市言情::http://m.bimo123.com/dsyq/list_1_searchPage.html\n古代言情::http://m.bimo123.com/gdyq/list_2_searchPage.html\n穿越重生::http://m.bimo123.com/cycs/list_3_searchPage.html\n武侠玄幻::http://m.bimo123.com/wxxh/list_4_searchPage.html\n网游竞技::http://m.bimo123.com/wyjj/list_5_searchPage.html\n恐怖灵异::http://m.bimo123.com/kbly/list_6_searchPage.html\n仙侠修真::http://m.bimo123.com/xxxz/list_7_searchPage.html\n军事历史::http://m.bimo123.com/jsls/list_8_searchPage.html",
+        "ruleSearchAuthor": "a@text#.*作者：|（.*",
+        "ruleSearchLastChapter": "tag.font.-1@text",
+        "ruleSearchList": "class.p_newslist@li",
+        "ruleSearchName": "a@text#作者.*",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://m.bimo123.com/search.php?keyword=searchKey&searchtype=titlekeyword&channeltype=0&orderby=&kwtype=0&pagesize=10&typeid=0&TotalResult=3262&PageNo=searchPage|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

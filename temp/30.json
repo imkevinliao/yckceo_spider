@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceUrl": "https://zjsw.org/",
+        "bookSourceType": "0",
+        "bookSourceName": "爪机书屋",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.zjsw.org/search.html,{\n\"method\": \"POST\",\n\"charset\":\"UTF-8\",\n\"body\":\"searchkey={{key}}\"\n}",
+        "exploreUrl": "新书榜::https://www.zjsw.org/goodnew/\n最新入库::https://www.zjsw.org/postdate/\n最近更新::https://www.zjsw.org/lastupdate/\n总点击榜::https://www.zjsw.org/allvisit/\n月点击榜::https://www.zjsw.org/monthvisit/\n周点击榜::https://www.zjsw.org/weekvisit/\n日点击榜::https://www.zjsw.org/dayvisit/\n总推荐榜::https://www.zjsw.org/allvote/\n月推荐榜::https://www.zjsw.org/monthvote/\n周推荐榜::https://www.zjsw.org/weekvote/\n日推荐榜::https://www.zjsw.org/dayvote/\n总字数榜::https://www.zjsw.org/size/",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1664164855361,
+        "ruleSearch": {
+            "bookList": "#alistbox",
+            "name": "class.title@tag.a@text",
+            "author": "class.title@tag.span@text",
+            "lastChapter": "class.sys@tag.li.a@text##最新更新：",
+            "intro": "class.intro@text",
+            "coverUrl": "tag.img@src",
+            "bookUrl": "tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": "id.alist@id.alistbox",
+            "name": "class.title@tag.h2@tag.a@text",
+            "author": "class.title@tag.span@text",
+            "lastChapter": "class.sys@tag.li@tag.a@text",
+            "intro": "class.intro@text",
+            "coverUrl": "class.pic@tag.a@tag.img@src",
+            "bookUrl": "class.yuedu@tag.a@href"
+        },
+        "ruleBookInfo": {
+            "name": "class.f20h@text##作者：.*",
+            "author": "class.f20h@tag.em@text##作者：",
+            "lastChapter": "class.last@tag.a@text##最新章节：",
+            "coverUrl": "class.pic@tag.img@src",
+            "tocUrl": "class.btopt@tag.a@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.link_14@tag.dl@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        }
+    }
+]

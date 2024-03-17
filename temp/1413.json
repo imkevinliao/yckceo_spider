@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "📖小说,自",
+        "bookSourceName": "📝腐书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.fushuwang.co",
+        "customOrder": 28,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/class/xuanhuanqihuan/1/\"},{\"title\":\"武侠修真\",\"url\":\"/class/wuxiaxiuzhen/1/\"},{\"title\":\"都市重生\",\"url\":\"/class/dushichongsheng/1/\"},{\"title\":\"历史军事\",\"url\":\"/class/lishijunshi/1/\"},{\"title\":\"网游竞技\",\"url\":\"/class/wangyoujingji/1/\"},{\"title\":\"科幻次元\",\"url\":\"/class/kehuanchiyuan/1/\"},{\"title\":\"灵异恐怖\",\"url\":\"/class/lingyikongbu/1/\"},{\"title\":\"女生言情\",\"url\":\"/class/nvshengyanqing/1/\"}]",
+        "header": "",
+        "lastUpdateTime": 1675951152409,
+        "loginCheckJs": "",
+        "respondTime": 6730,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "intro": "class.intro@text",
+            "lastChapter": "class.read@tag.ul.0@tag.a@text&&class.detail@tag.p.-1@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "tocUrl": "text.阅读目录@href"
+        },
+        "ruleContent": {
+            "content": "#content p@textNodes##(紧急通知：)*\\n*为您提供.*请务必保存好书签.*|最快更新.*最新.*|『章节有误.*』|\\(本章未完.*下一页.*\\)|.*免费阅读：ht.*更新不易请收藏！|紧急通知.*启用新地址.*com|{{book.name}}|{{title}}|第[零一二两三四五六七八九十百千万\\d+ ]+章.*",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@text##[^\\/]+/(.*)##$1",
+            "bookList": ".mod@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "马甲全员be后我被迫吊唁自己",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "a@text##\\[([^\\]]+)\\].*##$1",
+            "lastChapter": "a@href<js>java.ajax('http://m.fushuwang.co'+result)</js>class.read@tag.ul.0@tag.a@text&&class.detail@tag.p.-1@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "a@text##\\[[^\\]]+\\](.*)/.*##$1",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "#readlist a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search/,{'method':'POST','body':'searchkey={{key}}'}",
+        "weight": 0
+    }
+]

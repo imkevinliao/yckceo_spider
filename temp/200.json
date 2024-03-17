@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "new",
+        "bookSourceName": "🥇2K小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.2kxs.la/",
+        "customOrder": -292906,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n\t{\"title\":\"玄幻\",\n\"url\":\"/sort1/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n{\"title\":\"武侠\",\n\"url\":\"/sort2/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"都市\",\n\"url\":\"/sort3/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"游戏\",\n\"url\":\"/sort4/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"校园\",\n\"url\":\"/sort5/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"体育\",\n\"url\":\"/sort6/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"科幻\",\n\"url\":\"/sort7/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"恐怖\",\n\"url\":\"/sort8/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"军事\",\n\"url\":\"/sort9/\",\n\"style\":{\n\t\"layout_flexGrow\":0,\n\t\"layout_flexBasisPercent\":0.21\n\t}},\n\t{\"title\":\"其他\",\n\"url\":\"/sort10/\",\n\"style\":{\n\t\"layout_flexGrow\":0,\n\t\"layout_flexBasisPercent\":0.21\n\t}}]",
+        "lastUpdateTime": 1657940293262,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content"
+        },
+        "ruleContent": {
+            "content": "class.Text@p@html"
+        },
+        "ruleExplore": {
+            "author": "class.text@p@text##作者：|更新时间.*",
+            "bookList": "class.eachitem",
+            "bookUrl": "class.xstl@a@href",
+            "coverUrl": "img@src",
+            "kind": "",
+            "lastChapter": "class.text@p@a@text",
+            "name": "class.xstl@text",
+            "wordCount": "class.text@p@text##.*\\[|\\].*"
+        },
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "id.bookcase_list@tr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "我的治愈系",
+            "coverUrl": "a.0@href@js:\nid=result.match(/\\/\\d+\\/(\\d+)/)[1];\niid=parseInt(id/1000);\n'files/article/image/'+iid+'/'+id+'/'+id+'s.jpg'",
+            "kind": "",
+            "lastChapter": "td.1@text",
+            "name": "td.0@text",
+            "wordCount": "td.-1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book@dd[15:]@a",
+            "chapterName": "text##\\（.*\\）",
+            "chapterUrl": "href",
+            "updateTime": ""
+        },
+        "searchUrl": "/search.php,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchtype=keyword&keyword={{key}}&submit=\"\n\t}",
+        "weight": 0
+    }
+]

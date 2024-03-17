@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "爱因贝小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.aiyinbei.com/",
+        "bookUrlPattern": "http://www.aiyinbei.com/book/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::http://www.aiyinbei.com\n玄幻奇幻::http://www.aiyinbei.com/xuanhuan/<,?page={{page}}>\n武侠仙侠::http://www.aiyinbei.com/xianxia/<,?page={{page}}>\n都市言情::http://www.aiyinbei.com/dushi/<,?page={{page}}>\n历史军事::http://www.aiyinbei.com/lishi/<,?page={{page}}>\n科幻传奇::http://www.aiyinbei.com/kehuan/<,?page={{page}}>\n恐怖灵异::http://www.aiyinbei.com/kongbu/<,?page={{page}}>\n其他类型::http://www.aiyinbei.com/qita/<,?page={{page}}>\n全本小说::http://www.aiyinbei.com/quanben<,?page={{page}}>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1699619256685,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者@span@text",
+            "coverUrl": ".left mip-img@src",
+            "intro": "p.hidden-xs@text",
+            "kind": "text.分类@span@text&&\ntext.更新@span@text##.*：",
+            "lastChapter": "text.最新章节.0@a@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": ".book-detail-content>p@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##Ｘ更新最快"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.-1@text",
+            "bookList": ".mipui-xs-item-list",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "mip-img@src",
+            "intro": ".description@ownText##最新章节：",
+            "kind": "span.-1@text##\\s+##,",
+            "lastChapter": "a.2@text",
+            "name": "h4 a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".bookAll-item-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\nvar url=source.key,\nhtml=java.ajax(url);\ntoken=org.jsoup.Jsoup.parse(html)\n.select('input[name=_token]')\n.attr('value');\nbody=`_token=${token}&keyword=`+key;\nvar so=url+\"search,\"\nvar post={\n  \"body\": String(body),\n  \"method\": \"POST\"\n};\nso+JSON.stringify(post)",
+        "weight": 0
+    }
+]

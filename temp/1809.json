@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉 精品",
+        "bookSourceName": "🎉 天籁小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.23txt.com",
+        "customOrder": -118190,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/\n修真::/xiuzhen/\n都市::/dushi/\n历史::/lishi/\n网游::/wangyou/\n科幻::/kehuan/\n言情::/yanqing/\n其他::/qita/\n全本::/quanben/",
+        "lastUpdateTime": 1621575820282,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "id.intro@html",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "author": ".s4@text||.s5@text",
+            "bookList": ".l li||.novelslist2@li!0",
+            "bookUrl": ".s2 a@href",
+            "coverUrl": ".s2 a@href##.+\\D((\\d+)\\d{3})\\D##https://www.23txt.com/files/article/image/$2/$1/$1s.jpg###",
+            "kind": ".s3@textNodes&&.s1 a@text&&.s6@text&&.s5@text##小说|\\(|\\)|\\s.*",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.span.2@text",
+            "bookList": ".result-item",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.p.0@text",
+            "kind": "tag.span.4@text&&tag.span.6@text##小说|\\s.*",
+            "lastChapter": "tag.a.-1@text",
+            "name": "tag.span.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

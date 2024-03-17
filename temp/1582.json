@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "18+",
+        "bookSourceName": "异族小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ezuxs.com/",
+        "customOrder": 92,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "header": "",
+        "lastUpdateTime": 1669728015238,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": ".content@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".souyou@a.0@text",
+            "bookList": ".m9",
+            "bookUrl": ".m66@a.0@href",
+            "checkKeyWord": "都市",
+            "coverUrl": ".tp@img@src",
+            "intro": ".soujj@text",
+            "kind": ".souyou@a.1@text",
+            "lastChapter": ".m66@a.1@text",
+            "name": ".m66@a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "tbody.4@div",
+            "chapterName": "text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "@js:\nkey = java.encodeURI(key,\"gbk\");\n\"http://www.ezuxs.com/search.asp?key=\"+key",
+        "weight": 0
+    }
+]

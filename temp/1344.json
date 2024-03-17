@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "看读书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://kandushu.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"男生\",\"url\":\"\",\"style\":{\"layout_flexGrow\":0,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻魔法\",\"url\":\"/xs/1/{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/xs/2/{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"都市言情\",\"url\":\"/xs/3/{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"历史军事\",\"url\":\"/xs/4/{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/xs/5/{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/xs/6/{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"女生频道\",\"url\":\"/xs/7/{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"其它类型\",\"url\":\"/xs/8/{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}}]",
+        "header": "{\n\t\"Referer\": \"https://kandushu.com/\"\n}",
+        "lastUpdateTime": 1679064160352,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.booktag@a@text",
+            "coverUrl": ".bookintro@img@src",
+            "init": "",
+            "intro": ".bookintro@text",
+            "kind": "class.booktag@span@text",
+            "lastChapter": ".bookchapter@text",
+            "name": "h1@text",
+            "wordCount": ".booktime@text##更新时间："
+        },
+        "ruleContent": {
+            "content": ".readcontent@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author.0@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@a@href",
+            "intro": "class.update@text",
+            "lastChapter": "class.cat@a@text",
+            "name": "h4@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list-chapterAll@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search/,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"action=login&searchkey={{key}}\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

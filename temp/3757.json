@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "自填",
+        "bookSourceName": "新暖才文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xncwxw.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/xclass/0/{{page}}.html\n玄幻::/xclass/1/{{page}}.html\n修真::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n穿越::/xclass/4/{{page}}.html\n网游::/xclass/5/{{page}}.html\n科幻::/xclass/6/{{page}}.html\n其他::/xclass/7/{{page}}.html",
+        "lastUpdateTime": 1690254803962,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".p1@text",
+            "coverUrl": "img@src",
+            "intro": "",
+            "kind": "p.2@text##\\s.*",
+            "lastChapter": ".p3@a@text",
+            "name": "h1@text",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "intro": ".review@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://m.xncwxw.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "lastChapter": "p.-1@text",
+            "name": "p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"keyword={{key}}&value=.*&submit=\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceUrl": "https://m.87xh.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "八七玄幻手机版",
+        "bookSourceGroup": "🍭",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": ".+/book/.+",
+        "header": "",
+        "searchUrl": "/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"search_key={{key}}\"\n}",
+        "exploreUrl": "　　　            ༺排 行༻   　　　　　  ::\n日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n　　　            ༺分 类༻   　　　　　  ::\n玄幻魔法::/sort/1_{{page}}/\n仙侠修真::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n网游竞技::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n恐怖灵异::/sort/7_{{page}}/\n其他小说::/sort/8_{{page}}/",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1609230061804,
+        "ruleSearch": {
+            "bookList": "p.sone",
+            "name": "a[href^=/book/]@text",
+            "author": "a[href^=/author/]@text",
+            "bookUrl": "a[href^=/book/]@href"
+        },
+        "ruleExplore": {
+            "bookList": "@css:div.articlegeneral || div.newbook_list",
+            "name": "@css:p.p2 a@text || div.newbook_title@text",
+            "author": "@css:p.p3 a@text || div.newbook_author a@text",
+            "kind": "@css:p.p1@text",
+            "intro": "@css:div.newbook_intor@text",
+            "coverUrl": "@css:div.newbook_pic img@src",
+            "bookUrl": "@css:a[href^=/book/]@href"
+        },
+        "ruleBookInfo": {
+            "name": "[property=og:novel:book_name]@content",
+            "author": "[property=og:novel:author]@content",
+            "kind": "[property=og:novel:categroy]@content",
+            "lastChapter": "{{@css:[property=og:novel:latest_chapter_name]@content}}-{{@css:[property=og:novel:update_time]@content}}",
+            "intro": "[property=og:description]@content",
+            "coverUrl": "[property=og:image]@content",
+            "tocUrl": "[property=og:novel:read_url]@content"
+        },
+        "ruleToc": {
+            "chapterList": "tag.ul.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*本章未完.*?继续阅读》》\\s*",
+            "imageStyle": "full"
+        }
+    }
+]

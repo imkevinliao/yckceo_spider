@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "1111",
+        "bookSourceName": "74文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.74wx.vip/",
+        "customOrder": 21,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻魔法::/xuanhuanxiaoshuo/1_{{page}}.html\n仙侠修真::/xiuzhenxiaoshuo/2_{{page}}.html\n都市言情::/dushixiaoshuo/3_{{page}}.html\n穿越小说::/chuanyuexiaoshuo/4_{{page}}.html\n网游竞技::/wangyouxiaoshuo/5_{{page}}.html\n科幻灵异::/kehuanxiaoshuo/6_{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1669555359212,
+        "respondTime": 27676,
+        "ruleBookInfo": {
+            "author": "[property~=author]@content",
+            "coverUrl": "",
+            "init": "",
+            "intro": "[property~=description]@content",
+            "kind": "[property~=category|time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html\n@js:result.replace(/.*?a>.*?br>/,'').replace(/<p.*?p>.*/,'')",
+            "nextContentUrl": "",
+            "replaceRegex": "##一秒记住.*"
+        },
+        "ruleExplore": {
+            "author": ".s5@text",
+            "bookList": "class.l@ul@li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##.*?(\\d+)_(\\d+).*##/files/article/image/$1/$2/$2s.jpg",
+            "intro": "",
+            "lastChapter": ".s3@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "id.nr",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##.*?(\\d+)_(\\d+).*##/files/article/image/$1/$2/$2s.jpg",
+            "intro": "",
+            "kind": "74文学:\n{{@@td.5@text}}",
+            "lastChapter": "td.1@text&&td.4@text",
+            "name": "td.0@text",
+            "wordCount": "td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>result.replace(/[\\r\\n]/g,'').replace(/<dt>.*?正文<\\/dt>/,'')</js>\nid.list@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "/modules/article/soso.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍩精品",
+        "bookSourceName": "🍩 笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.fyxfcw.com/",
+        "customOrder": 10,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1619234963633,
+        "ruleBookInfo": {
+            "author": "class.info@class.fix@tag.p.0@text##.*：",
+            "coverUrl": "img@src",
+            "intro": "class.desc xs-hidden@text",
+            "kind": "class.info@class.fix@tag.p.1@text##.*：",
+            "name": "class.top@h1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list txt-list-row5@tag.li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.fyxfcw.com/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "三一小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.31xs.com",
+        "bookUrlPattern": "https://m.31xs.com/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\n\t\"title\":\"奇魔玄幻\",\n\t\"url\":\"/list/1/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"仙侠修真\",\n\t\"url\":\"/list/2/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"都市现代\",\n\t\"url\":\"/list/3/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"军史穿越\",\n\t\"url\":\"/list/4/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"竞技网游\",\n\t\"url\":\"/list/5/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"恐怖科幻\",\n\t\"url\":\"/list/6/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"同人次元\",\n\t\"url\":\"/list/7/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"综合言情\",\n\t\"url\":\"/list/8/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"浪漫青春\",\n\t\"url\":\"/list/9/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"现代言情\",\n\t\"url\":\"/list/10/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"古代言情\",\n\t\"url\":\"/list/11/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t},\n{\n\t\"title\":\"幻想言情\",\n\t\"url\":\"/list/12/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n\t}\n\t}\n]",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\"\n}",
+        "lastUpdateTime": 1663662524050,
+        "loginUrl": "https://m.31xs.com/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "{{baseUrl}}index.htm",
+            "wordCount": "[property=\"og:novel:update_time\"]@content##\\s##,"
+        },
+        "ruleContent": {
+            "content": "class.am-article-bd@p@html",
+            "replaceRegex": "##xiaoshuting\\.cc|xiaoshuting\\.info"
+        },
+        "ruleExplore": {
+            "author": ".author@text##.*：",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".review@textNodes",
+            "name": ".title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dd@p.0@text##作者.",
+            "bookList": "class.user-bookcase@dl",
+            "bookUrl": "dt@a@href",
+            "coverUrl": "dt@a@href##.*/(\\d+)/(\\d+)/##https://style.31xs.net/img/$1/$2/$2s.jpg",
+            "kind": "dd@p.2@text##更新.",
+            "lastChapter": "dd@p.1@a@text",
+            "name": "dt@a@text##\\[连载\\]|\\[完结\\]",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.am-list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.31xs.com/search.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

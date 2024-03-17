@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎗 优选",
+        "bookSourceName": "🎗 爱阅小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api.dgjiayuan.cn",
+        "bookUrlPattern": "",
+        "customOrder": -58,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "{\"User-Agent\": \"okhttp/5.0.0-alpha.3\",\"authorization\": \"Bearer none\"}",
+        "lastUpdateTime": 1658983264938,
+        "loginUrl": "",
+        "respondTime": 4653,
+        "ruleBookInfo": {
+            "author": "$.author",
+            "coverUrl": "https://txtstore-1306798419.file.myqcloud.com/images//{{$.cover}}",
+            "init": "<js>\n k = 'Shuew237HSFH242s';\nvar iv=String(result).substring(0, 16);\nvar data=String(result).substring(16);\naes=java.aesBase64DecodeToByteArray(data,k ,\"AES/CBC/PKCS5Padding\", iv);\nresize=Packages.cn.hutool.core.util.ArrayUtil.resize(aes,aes.length+1);\nIoUtil=Packages.cn.hutool.core.io.IoUtil\na=Packages.java.util.zip.InflaterInputStream(IoUtil.toStream(resize));\nIoUtil.read(a).toString();\n</js>\n$.data",
+            "intro": "$.intro\n<js>String(result).replace(/(&.{3}br.{3,4};)+|[\\n\\s]+/g,\"\\n\").replace(/\\n\\s*\\n/g,\"\\n\").replace(/^\\s*\\n/g,\"\").replace(/\\n\\s*/g,\"\\n\\u3000\\u3000\").replace(/^\\s*/g,\"\\u3000\\u3000\")</js>",
+            "kind": "{{$.category}}\n{{$.state}}\n{{$.score}}分\n{{$.updated_at}}",
+            "lastChapter": "$.last_chap",
+            "name": "$.title",
+            "tocUrl": "/v1/chapters/{{$.id}}/{{$.v}}.txt",
+            "wordCount": "$.words"
+        },
+        "ruleContent": {
+            "content": "<js>\n k = 'Shuew237HSFH242s';\nvar iv=String(result).substring(0, 16);\nvar data=String(result).substring(16);\naes=java.aesBase64DecodeToByteArray(data,k ,\"AES/CBC/PKCS5Padding\", iv);\nresize=Packages.cn.hutool.core.util.ArrayUtil.resize(aes,aes.length+1);\nIoUtil=Packages.cn.hutool.core.io.IoUtil\na=Packages.java.util.zip.InflaterInputStream(IoUtil.toStream(resize));\nIoUtil.read(a).toString();\n</js>\n$.data",
+            "replaceRegex": "##温馨提示.*|大家记得收藏.*"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "<js>\nk = 'Shuew237HSFH242s';\nvar iv=String(result).substring(0, 16);\nvar data=String(result).substring(16);\naes=java.aesBase64DecodeToByteArray(data,k ,\"AES/CBC/PKCS5Padding\", iv);\nresize=Packages.cn.hutool.core.util.ArrayUtil.resize(aes,aes.length+1);\nIoUtil=Packages.cn.hutool.core.io.IoUtil\na=Packages.java.util.zip.InflaterInputStream(IoUtil.toStream(resize));\nIoUtil.read(a).toString();\n</js>\n$.data[*]",
+            "bookUrl": "/v1/books/{{$.id}}/{{$.v}}.txt",
+            "coverUrl": "https://txtstore-1306798419.file.myqcloud.com/images//{{$.cover}}",
+            "intro": "$.intro",
+            "kind": "{{$.category}}\n{{$.state}}\n{{$.score}}分\n{{$.updated_at}}",
+            "lastChapter": "$.last_chap",
+            "name": "$.title",
+            "wordCount": "$.words"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\n k = 'Shuew237HSFH242s';\nvar iv=String(result).substring(0, 16);\nvar data=String(result).substring(16);\naes=java.aesBase64DecodeToByteArray(data,k ,\"AES/CBC/PKCS5Padding\", iv);\nresize=Packages.cn.hutool.core.util.ArrayUtil.resize(aes,aes.length+1);\nIoUtil=Packages.cn.hutool.core.io.IoUtil\na=Packages.java.util.zip.InflaterInputStream(IoUtil.toStream(resize));\nIoUtil.read(a).toString();\n</js>\n$.data[*]",
+            "chapterName": "$.title",
+            "chapterUrl": "/v1/contents/{{$.id}}/{{$.v}}.txt",
+            "preUpdateJs": "java.reGetBook()",
+            "updateTime": ""
+        },
+        "searchUrl": "/v1/search/result?app_id=5&channel_id=default&platform_id=1&version=1.0.10&page={{page}}&keyword={{key}}",
+        "weight": 0
+    }
+]

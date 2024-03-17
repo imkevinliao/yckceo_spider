@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "20小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.20xs.org/",
+        "bookUrlPattern": "",
+        "customOrder": 10,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1695388885898,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text||class.author@tag.a@text",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "$.info@tag.p.2@href||class.new@tag.a@text",
+            "name": "id.info@tag.h1@text||class.name@tag.strong@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@p@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".data.0@tag.a@text||.book_other@tag.span.0@text",
+            "bookList": "id.sitembox@tag.dl||tag.ul@li||",
+            "bookUrl": "tag.dt@tag.a@href",
+            "checkKeyWord": "末日",
+            "coverUrl": "tag.dt@tag.a@tag.img@src",
+            "intro": ".intro@text||.book_des@text",
+            "kind": ".book_other@tag.span.2@text",
+            "lastChapter": ".data.0@tag.a@href||.book_other@tag.a@text",
+            "name": ".bookname@tag.a@text||tag.dd@tag.h3@text",
+            "wordCount": ".book_other@tag.span.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd||class.read@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.20xs.org/search.html,{\n\"method\": \"post\",\n\"body\": \"searchkey={{key}}\"}",
+        "weight": 0
+    }
+]

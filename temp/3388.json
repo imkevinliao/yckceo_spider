@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "有锁🔒为付费章节，需登录后订阅购买",
+        "bookSourceGroup": "自制,正版,源仓库,网页源",
+        "bookSourceName": "九怀中文网/九怀文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.jiuhuaiwenxue.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"全部\",\"url\":\"/allbook?isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠 \",\"url\":\"/allbook?categoryid=1&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史 \",\"url\":\"/allbook?categoryid=2&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻 \",\"url\":\"/allbook?categoryid=3&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠 \",\"url\":\"/allbook?categoryid=4&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市 \",\"url\":\"/allbook?categoryid=5&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻 \",\"url\":\"/allbook?categoryid=6&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑 \",\"url\":\"/allbook?categoryid=7&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异 \",\"url\":\"/allbook?categoryid=8&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏 \",\"url\":\"/allbook?categoryid=9&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"纯爱 \",\"url\":\"/allbook?categoryid=10&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情 \",\"url\":\"/allbook?categoryid=11&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"二次元 \",\"url\":\"/allbook?categoryid=12&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"出版 \",\"url\":\"/allbook?categoryid=13&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人 \",\"url\":\"/allbook?categoryid=14&isfinish=all&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"字数\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"全部\",\"url\":\"/allbook?categoryid=all&isfinish=all&updatetime=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"30万字以下\",\"url\":\"/allbook?categoryid=all&isfinish=all&updatetime=all&characters=1&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"30-50万字\",\"url\":\"/allbook?categoryid=all&isfinish=all&updatetime=all&characters=2&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"50-100万字\",\"url\":\"/allbook?categoryid=all&isfinish=all&updatetime=all&characters=3&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"100-200万字\",\"url\":\"/allbook?categoryid=all&isfinish=all&updatetime=all&characters=4&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"200万字以上\",\"url\":\"/allbook?categoryid=all&isfinish=all&updatetime=all&characters=5&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"状态\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"全部\",\"url\":\"/allbook?categoryid=all&updatetime=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完本\",\"url\":\"/allbook?categoryid=all&isfinish=1&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"连载\",\"url\":\"/allbook?categoryid=all&isfinish=0&updatetime=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"更新时间\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"全部\",\"url\":\"/allbook?categoryid=all&isfinish=all&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"三日内\",\"url\":\"/allbook?categoryid=all&isfinish=all&updatetime=1&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"七日内\",\"url\":\"/allbook?categoryid=all&isfinish=all&updatetime=2&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"半月内\",\"url\":\"/allbook?categoryid=all&isfinish=all&updatetime=3&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"一月内\",\"url\":\"/allbook?categoryid=all&isfinish=all&updatetime=4&characters=all&pageNum={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "lastUpdateTime": 1684828903014,
+        "loginUrl": "https://www.jiuhuaiwenxue.com/login",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.left.1@text",
+            "coverUrl": "class.zuopin-img@img@src",
+            "intro": "id.bookIntro@text",
+            "kind": "class.tag-box@tag.a@text&&class.other-shuzi@span.2@text",
+            "lastChapter": "class.he@span.1@text",
+            "name": "h1@text",
+            "wordCount": "class.other-shuzi@span.0@text"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html||.z-dingyue@html",
+            "payAction": "{{baseUrl}}"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.font2@span.0@text",
+            "bookList": "class.allbook-item",
+            "bookUrl": "a.1@href##$##,{'webView': true}",
+            "checkKeyWord": "珍珠",
+            "coverUrl": "img@src",
+            "intro": "class.font3@text",
+            "kind": "class.font2@span.1:2@text&&class.font4@span.1@text",
+            "name": "a.1@text",
+            "wordCount": "class.font4@span.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "@css:#mulun>.juan,#mulun table tbody tr td",
+            "chapterName": "a@text||.juan@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "isVip": "span@tag.i@class",
+            "isVolume": ".juan@text"
+        },
+        "searchUrl": "/search?content={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🥇精选书源",
+        "bookSourceName": "雅文小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.yawenba.net/",
+        "customOrder": 25,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1655015501864,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "tocUrl": "class.ablum_read.-1@a@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "",
+            "replaceRegex": "##.*(.com|.net|.org|.cc)|.*本章完.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookname@a@href",
+            "checkKeyWord": "不科学",
+            "coverUrl": "class.bookimg@img@src",
+            "intro": "class.intro_line@text",
+            "kind": "class.bookname@text##\\[|\\].*",
+            "lastChapter": "class.update@a@text",
+            "name": "class.bookname@text##\\[.*\\]"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n\t\"charset\":\"gbk\",\n\t\"method\":\"POST\",\n\t\"body\":\"keyword={{key}}&submit=%CB%D1%CB%F7\"\n\t}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "//图片太多加载需等很久",
+        "bookSourceName": "绅士漫画",
+        "bookSourceType": 2,
+        "bookSourceUrl": "http://www.hentaicomic.ru/",
+        "customOrder": 6439,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"૧(●´৺`●)૭同人志૧(●´৺`●)૭\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"全部\",\"url\":\"/albums-index-page-{{page}}-cate-5.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"漢化\",\"url\":\"/albums-index-page-{{page}}cate-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"日語\",\"url\":\"/albums-index-page-{{page}}-cate-12.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"English\",\"url\":\"/albums-index-page-{{page}}-cate-16.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"CG畫集\",\"url\":\"/albums-index-page-{{page}}-cate-2.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"Cosplay\",\"url\":\"/albums-index-page-{{page}}-cate-3.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"૧(●´৺`●)૭單行本૧(●´৺`●)૭\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"全部\",\"url\":\"/albums-index-page-{{page}}-cate-6.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"漢化\",\"url\":\"/albums-index-page-{{page}}-cate-9.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"日語\",\"url\":\"/albums-index-page-{{page}}cate-13.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"English\",\"url\":\"/albums-index-page-{{page}}-cate-17.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"૧(●´৺`●)૭雜誌૧(●´৺`●)૭\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"全部\",\"url\":\"/albums-index-page-{{page}}-cate-7.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"漢化\",\"url\":\"/albums-index-{{page}}cate-10.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"日語\",\"url\":\"/albums-index-page-{{page}}-cate-14.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"English\",\"url\":\"/albums-index-page-{{page}}-cate-18.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"૧(●´৺`●)૭韓漫૧(●´৺`●)૭\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"全部\",\"url\":\"/albums-index-page-{{page}}-cate-19.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"漢化\",\"url\":\"/albums-index-page-{{page}}-cate-20.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"生肉\",\"url\":\"/albums-index-page-{{page}}-cate-21.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; PCLM10 Build/RKQ1.200928.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.120 Mobile Safari/537.36\"\t\n\t}",
+        "lastUpdateTime": 1676979849927,
+        "loginUi": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".sub_r@p.0@text",
+            "coverUrl": ".pic@img@src",
+            "downloadUrls": "id.Subscribe@href",
+            "intro": "p@text",
+            "kind": ".sub_r@p.1@text",
+            "name": ".BarTit@text",
+            "tocUrl": "id.continusRead@href##$##,{'webView': true}",
+            "wordCount": ".sub_r@p.2@text"
+        },
+        "ruleContent": {
+            "content": "id.charpet_undefined@img@html||head@script@html##\\{ url\\: fast_img_host\\+\\\"//mz4.(.*?).w1180.jpg\\\"##\\<img src\\=\\\"//mz4.$1.w1180.jpg\\\">",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "ul@.col_2@li",
+            "bookUrl": "a@.ImgA@href",
+            "coverUrl": ".ImgA@img@src",
+            "kind": "span@.info@text",
+            "name": ".txtA@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.html",
+            "chapterName": "tag.title@text",
+            "chapterUrl": ""
+        },
+        "searchUrl": "http://www.hentaicomic.ru/q/?q={{key}}&m=&f=_all&s=create_time_DESC&p=1",
+        "weight": 0
+    }
+]

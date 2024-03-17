@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "https://www.txt909.org",
+        "bookSourceGroup": "☣️精选senhora",
+        "bookSourceName": "笔下文学[分页]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bixia99.co",
+        "bookUrlPattern": "https://www\\.txt909\\.cc/txt/\\d+\\.html",
+        "customOrder": -31,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::http://www.bixia99.co/class/xuanhuan/{{page}}/",
+        "lastUpdateTime": 1691341557885,
+        "loginUrl": "",
+        "respondTime": 181409,
+        "ruleBookInfo": {
+            "author": "class.info2@class.text-center@a@text",
+            "coverUrl": "class.pannel-body info@img@src",
+            "init": "class.container",
+            "intro": ".info2@p@text",
+            "kind": "class.panel-body text-center info3@p.0@text##小说类别：|写作状态：",
+            "lastChapter": "class.panel-body text-center info3@p.2@text##最新章节：",
+            "name": "class.pannel-body info@img@alt##《|》",
+            "tocUrl": "",
+            "wordCount": "class.panel-body text-center info3@p.1@font@text"
+        },
+        "ruleContent": {
+            "content": "class.panel-body content-body content-ext@html",
+            "imageStyle": "0",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完.*|最近转码严重.*"
+        },
+        "ruleExplore": {
+            "author": "class.media-body@class.book_author@a@text",
+            "bookList": "class.media",
+            "bookUrl": "class.media-heading book-title@a@href",
+            "coverUrl": "class.media-left media-heading@img@src",
+            "intro": "class.media-body@class.book-intro-index@text##\\[点击阅读\\]",
+            "name": "class.media-body@class.media-heading book-title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "id.booklast@texy##书籍作者：</small>([^<]+)\\s*<##$1###",
+            "bookList": "id.content@tr!0",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "高维",
+            "coverUrl": "",
+            "kind": "",
+            "lastChapter": "p.2@text",
+            "name": "p.0@text",
+            "wordCount": "p.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-group list-charts.1@li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.bixia99.co/search/,{\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\",\"webView\":true}",
+        "weight": 0
+    }
+]

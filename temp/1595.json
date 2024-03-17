@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceUrl": "https://www.ijjjxs.com",
+        "bookSourceType": "0",
+        "bookSourceName": "🎈久久小说",
+        "bookSourceGroup": "🎈  普通,📡  发现",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "https://www.ijjjxs.com/txt/\\d+.htm",
+        "searchUrl": "https://www.ijjjxs.com/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"show=title&keyboard={{key}}\"\n}",
+        "exploreUrl": "女生::/e/action/toplist.php?page={{page-1}}&class=1\n男生::/e/action/toplist.php?page={{page-1}}&class=2\n耽美::/e/action/toplist.php?page={{page-1}}&class=3\n穿越小说::https://www.ijjjxs.com/txt/Chuanyue/index_{{page}}.html\n重生小说::https://www.ijjjxs.com/txt/chongshengxiaoshuo/index_{{page}}.html\n历史架空::https://www.ijjjxs.com/txt/Lsjs/index_{{page}}.html\n总裁豪门::https://www.ijjjxs.com/txt/Qinggan/index_{{page}}.html\n现代言情::https://www.ijjjxs.com/txt/Young/index_{{page}}.html\n仙侠幻想::https://www.ijjjxs.com/txt/Wuxia/index_{{page}}.html\n同人小说::https://www.ijjjxs.com/txt/tongrenxiaoshuo/index_{{page}}.html\n耽美小说::https://www.ijjjxs.com/txt/dmtr/index_{{page}}.html\n玄幻小说::https://www.ijjjxs.com/txt/Xuanhuan/index_{{page}}.html\n都市异能::https://www.ijjjxs.com/txt/dushi/index_{{page}}.html\n铁血军旅::https://www.ijjjxs.com/txt/tiexue/index_{{page}}.html\n惊悚悬疑::https://www.ijjjxs.com/txt/Kongbu/index_{{page}}.html",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -3662,
+        "lastUpdateTime": 1669129262567,
+        "ruleSearch": {
+            "bookList": "class.searchTopic",
+            "name": "tag.a@text",
+            "author": "tag.a@text##.*作者：",
+            "bookUrl": "tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": "id.catalog@children",
+            "name": "class.title@a@text",
+            "author": ".mainGreen@text||.main@tag.span.-4@text##.*?作者：| .*",
+            "kind": ".mainGreen@text&&.newDate@text&&.oldDate@text&&.main@tag.span.-2@text&&.classname@text##.*?写作进度：|(?:文件|书籍)?(?:大小|类别)：|\\[|发布于|\\]| \\d+:.*",
+            "intro": "tag.div.0@text",
+            "coverUrl": "tag.a.0@img@src",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleBookInfo": {
+            "name": "id.downInfoArea@tag.h1.0@text##《|》",
+            "author": "class.zuozhe@tag.a.0@text",
+            "intro": "id.mainSoftIntro@textNodes##\\s{2}?\\W?文案",
+            "coverUrl": "class.img@tag.img.0@src##\\?.*",
+            "tocUrl": "class.yuedu.0@tag.a.0@href##1\\.html|(?<=read)/\\d+"
+        },
+        "ruleToc": {
+            "chapterList": "class.view_content@class.view_content_list@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "id.view_content_txt@tag.p@html",
+            "imageStyle": "0"
+        }
+    }
+]

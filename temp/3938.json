@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "摘书楼/摘书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.zhaishulou.net",
+        "bookUrlPattern": "http://www.zhaishulou.net/\\d+/",
+        "customOrder": 2,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n排行::/rank/\n书库::/html/\n玄幻::/html/xuanhuanmofa/{{page}}/\n仙侠::/html/xianxiaxiuzhen/{{page}}/\n都市::/html/dushiyanqing/{{page}}/\n历史::/html/lishijunshi/{{page}}/\n网游::/html/wangyoudongman/{{page}}/\n科幻::/html/kehuanxiaoshuo/{{page}}/\n女生::/html/nvshengxiaoshuo/{{page}}/\n其他::/html/qitaxiaoshuo/{{page}}/\n全本::/quanben/html/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692750420275,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=lastest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original||img@src",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "name": "a.1@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dl>a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.zhaishulou.net/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

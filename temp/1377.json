@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceUrl": "https://www.dubuxiaoshuo.com/",
+        "lastUpdateTime": 1676905506366,
+        "ruleToc": {
+            "chapterList": "id.all-chapter.0@class.panel-body.0@class.item",
+            "chapterName": "tag.a.0@text",
+            "chapterUrl": "tag.a.0@href"
+        },
+        "bookSourceType": 0,
+        "bookSourceName": "独步小说网",
+        "searchUrl": "/plus/search.php?q={{key}}",
+        "ruleSearch": {
+            "bookList": "tbody@tr",
+            "name": "tag.td.0@tag.a.0@title",
+            "author": "tag.td.1@text",
+            "bookUrl": "tag.td.0@tag.a.0@href"
+        },
+        "ruleBookInfo": {
+            "kind": "class.book-info.0@class.col-sm-6.1@text##状态：##",
+            "lastChapter": "class.book-info.0@class.col-sm-6.2@tag.a.0@text",
+            "intro": "class.book-info.0@class.col-sm-11 col-xs-10@text",
+            "coverUrl": "class.book-info.0@class.media-left.0@tag.img.0@src",
+            "name": "tag.h1.0@class.book-name.0@text",
+            "author": "class.book-info.0@class.col-sm-6.0@tag.a.0@text"
+        },
+        "exploreUrl": "玄幻·奇幻::/nav/xh-qh.html\n科幻·游戏::/nav/kh-yx.html\n仙侠·武侠::/nav/xx-wx.html\n女生·言情::/nav/ns-yq.html\n都市·娱乐::/nav/ds-yl.html\n历史·军事::/nav/ls-js.html\n悬疑·灵异::/nav/xy-ly.html\n耽美·纯爱::/nav/dm-ca.html\n成长·励志::/nav/cz-lz.html\n散文·随笔::/nav/sw-sb.html\n轻小说::/nav/qxs.html\n国外文学::/nav/gwwx.html\n文学名著::/nav/wxmz.html\n现当代文学::/nav/xddwx.html",
+        "ruleExplore": {
+            "bookList": "class.col-md-12",
+            "name": "tag.h4.0@text",
+            "coverUrl": "class.media-left.0@tag.img.0@src",
+            "bookUrl": "tag.h4.0@tag.a.0@href",
+            "intro": "class.media-info.0@text"
+        },
+        "ruleContent": {
+            "content": "id.content.0@id.cont-body.0@tag.p@textNodes",
+            "nextContentUrl": "id.content.0@class.row.0@class.text-center.0@tag.a.2@href"
+        }
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "小说旗",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xs7.com",
+        "bookUrlPattern": "https://m.xs7.com/shu/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/quanben/all/{{page}}.html\n玄幻魔法::/quanben/XuɑnHuɑn/{{page}}.html\n武侠修真::/quanben/WuXiɑ/{{page}}.html\n都市言情::/quanben/DuShi/{{page}}.html\n历史军事::/quanben/LiShi/{{page}}.html\n侦探推理::/quanben/XuɑnYi/{{page}}.html\n网游动漫::/quanben/YouXi/{{page}}.html\n科幻小说::/quanben/KeHuɑn/{{page}}.html\n恐怖灵异::/quanben/XuɑnYi/{{page}}.html\n散文诗词::/quanben/GuYɑn/{{page}}.html\n其他类型::/quanben/NCiYuɑn/{{page}}.html",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1689514801180,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author.0@text",
+            "coverUrl": "img@src",
+            "init": ".detail",
+            "kind": "p.2@a@text&&span.0@text",
+            "lastChapter": "a.-1@text",
+            "name": ".name@text",
+            "wordCount": "span.-1@text"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "replaceRegex": "##喜欢.*收藏.+更新速度最快。"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".list@li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "span@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".read@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

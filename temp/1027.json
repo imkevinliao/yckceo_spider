@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "👍 沙漠小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.shamoxs.com",
+        "customOrder": -292830,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/sort/1_{{page}}.html\n武侠::/sort/2_{{page}}.html\n都市::/sort/3_{{page}}.html\n历史::/sort/4_{{page}}.html\n网游::/sort/5_{{page}}.html\n科幻::/sort/6_{{page}}.html\n言情::/sort/7_{{page}}.html\n其他::/sort/8_{{page}}.html",
+        "lastUpdateTime": 1630382636609,
+        "ruleBookInfo": {
+            "author": "#info p.0@text##.*：",
+            "coverUrl": "#fmimg img@src",
+            "intro": "#intro@html",
+            "kind": ".con_top a.1@text&&#info p.2:1@text##.*：|小说|\\s.*",
+            "lastChapter": "#info a@text",
+            "name": "#info h1@text",
+            "tocUrl": ".motion a@href"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".l li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##http://pic.shamoxs.com/image/$2/$1/$1s.jpg###",
+            "kind": ".s5@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "#nr",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##http://pic.shamoxs.com/image/$2/$1/$1s.jpg###",
+            "kind": "td.4@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  'charset': 'gbk',\n  'method': 'POST',\n  'body': 'type=articlename&s={{key}}&submit='\n}",
+        "weight": 0
+    }
+]

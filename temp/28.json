@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "sjks88",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.sjks88.com/",
+        "customOrder": -2085957778,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "鬼话::https://www.sjks88.com/Direct1/<,index_{{page}}.html>\n情感::https://www.sjks88.com/Direct2/<,index_{{page}}.html>\n玄幻::https://www.sjks88.com/xuanhuan/<,index_{{page}}.html>\n奇幻::https://www.sjks88.com/Direct3/<,index_{{page}}.html>\n商道::https://www.sjks88.com/Direct4/<,index_{{page}}.html>\n军事::https://www.sjks88.com/Direct5/<,index_{{page}}.html>\n历史::https://www.sjks88.com/Direct6/<,index_{{page}}.html>\n传记::https://www.sjks88.com/zhuanji/<,index_{{page}}.html>\n言情::https://www.sjks88.com/Direct7/<,index_{{page}}.html>\n都市::https://www.sjks88.com/ds/<,index_{{page}}.html>\n耽美::https://www.sjks88.com/danmei/<,index_{{page}}.html>\n同人::https://www.sjks88.com/erciyuan/<,index_{{page}}.html>\n武侠::https://www.sjks88.com/wuxia/<,index_{{page}}.html>\n修真::https://www.sjks88.com/xiuzhen/<,index_{{page}}.html>\n官场::https://www.sjks88.com/guanchang/<,index_{{page}}.html>\n网游::https://www.sjks88.com/wangyou/<,index_{{page}}.html>\n科幻::https://www.sjks88.com/kehuan/<,index_{{page}}.html>\n穿越::https://www.sjks88.com/chuanyue/<,index_{{page}}.html>\n悬疑::https://www.sjks88.com/Suspense/<,index_{{page}}.html>\n纪实::https://www.sjks88.com/jishi/<,index_{{page}}.html>\n精品::https://www.sjks88.com/xiaoshuo/<,index_{{page}}.html>\n乡土::https://www.sjks88.com/xt/<,index_{{page}}.html>\n排行::https://www.sjks88.com/ranking/<,index_{{page}}.html>",
+        "lastUpdateTime": 1664184329912,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".autor2.0@text",
+            "intro": "class.desc@text",
+            "kind": ".autor2.2@text",
+            "lastChapter": ".autor2.1@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": ".content@html"
+        },
+        "ruleExplore": {
+            "author": ".bookWriter@text",
+            "bookList": ".list@li",
+            "bookUrl": "a@href",
+            "intro": ".desc@text",
+            "lastChapter": ".pubdate@text",
+            "name": ".title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "tr@td@ul@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "intro": ".intro@text",
+            "kind": "a.1@text",
+            "lastChapter": ".info@textNodes",
+            "name": "a.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.sjks88.com/e/search/index.php,{\n\t\"charset\":\"gb2312\",\n\t\"method\":\"post\",\n\t\"body\":\"keyboard={{key}}&show=title\"\n}",
+        "weight": 0
+    }
+]

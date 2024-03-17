@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,特殊,源仓库,网页源",
+        "bookSourceName": "po18脸红心跳",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.po18yun.com",
+        "bookUrlPattern": "http.*m.po18yun.com/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/sort/1_{{page}}/\n仙侠武侠::/sort/2_{{page}}/\n都市青春::/sort/3_{{page}}/\n穿越历史::/sort/4_{{page}}/\n科幻灵异::/sort/5_{{page}}/\n游戏竞技::/sort/6_{{page}}/\n耽美纯情::/sort/7_{{page}}/\n百合爱恋::/sort/8_{{page}}/\n综合精选::/sort/9_{{page}}/\n小说排行::/top/allvisit_{{page}}/\n完本小说::/full/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689855181734,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#xinxi@.xx@a.1@text",
+            "coverUrl": ".xsfm@img@src",
+            "init": "",
+            "intro": ".jianjie@text",
+            "kind": "#xinxi@.xx@a.0@text",
+            "lastChapter": "#xinxi@.xx@a.-1@text",
+            "name": "#xinxi@.xx@li.0@text",
+            "tocUrl": "text.查看更多章节@href"
+        },
+        "ruleContent": {
+            "content": "#nr@html"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".list@ul",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "span.-2@text",
+            "kind": "tag.i@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".slist@li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "gl",
+            "coverUrl": "@js:\"https://m.po18yun.com/css/noimg.jpg\"",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".lb@li!-1",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": ".showpage@a@href"
+        },
+        "searchUrl": "https://m.po18yun.com/s.php,{\n  \"body\": \"type=articlename&s={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceType": 0,
+        "ruleSearch": {
+            "author": ".author@a.0@text",
+            "bookList": ".book-img-text@li",
+            "lastChapter": ".update@a@text",
+            "intro": ".intro@text",
+            "kind": ".author@a.1@text",
+            "coverUrl": ".book-img-box@img@src",
+            "bookUrl": ".book-img-box@a@href",
+            "name": ".book-mid-info@h4@text"
+        },
+        "ruleContent": {
+            "content": ".read-content@html"
+        },
+        "searchUrl": "https://aaread.space/search?kw={{key}}",
+        "weight": 0,
+        "enabledExplore": true,
+        "ruleToc": {
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView':true}",
+            "chapterList": "id.j-catalogWrap@class.volume@li"
+        },
+        "enabled": true,
+        "bookSourceUrl": "https://aaread.space/",
+        "lastUpdateTime": 0,
+        "bookSourceName": "AA阅读(需科学上网)",
+        "bookSourceGroup": "ceshi",
+        "ruleBookInfo": {
+            "tocUrl": "#Catalog"
+        },
+        "customOrder": 0
+    }
+]

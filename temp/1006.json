@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "18x",
+        "bookSourceName": "lurenshu",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lurenshuwx.com ",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1631000800438,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.excerpt.0@tag.a.2@text##的小说",
+            "coverUrl": "class.excerpt@tag.img@src",
+            "intro": "class.excerpt.0@tag.div.0@text",
+            "tocUrl": "class.clearfix tag.0@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "class.mmmlink.1@tag.a.2@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.clearfix!0@class.min-width",
+            "bookUrl": "class.min-width@tag.a@href",
+            "name": "class.min-width.0@tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.lurenshuwx.com/book/Search.aspx?key={{key}}",
+        "weight": 0
+    }
+]

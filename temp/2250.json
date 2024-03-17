@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "细节完善",
+        "bookSourceGroup": "",
+        "bookSourceName": "衍墨轩~ymxxs",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ymxxs.com/",
+        "bookUrlPattern": ".+/text_\\d+\\.html",
+        "customOrder": -826,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "玄幻::/xuanhuan/{{page}}.htm\n奇幻::/qihuan/{{page}}.htm\n修真::/xiuzhen/{{page}}.htm\n都市::/dushi/{{page}}.htm\n言情::/yanqing/{{page}}.htm\n历史::/lishi/{{page}}.htm\n同人::/tongren/{{page}}.htm\n武侠::/wuxia/{{page}}.htm\n科幻::/kehuan/{{page}}.htm\n游戏::/youxi/{{page}}.htm\n军事::/junshi/{{page}}.htm\n竞技::/jingji/{{page}}.htm\n灵异::/lingyi/{{page}}.htm\n其他::/qita/{{page}}.htm",
+        "header": "",
+        "lastUpdateTime": 1615088277494,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "meta",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "[property=\"og:novel:read_url\"]@content",
+            "wordCount": "[property=\"og:novel:update_time\"]@content##\\h.+"
+        },
+        "ruleContent": {
+            "content": "class.content@textNodes\n<js>\na=String(java.get(\"tt\")).replace(/\\s|[（【][一二三四五六七八九十上中下终续]{1,2}[】）]/g,\"\");\nresult.substring(0,90).includes(a)?result=result.split(a,2)[1]:result;\nresult.toUpperCase()\n</js>",
+            "replaceRegex": "##(?mi)^\\h*(您可以在百度|请记住本书首发|喜欢\\S{2,18}请大家收藏|广个告，).+\\n?|[巘戅厺厽攫欝].+[巘戅厺厽攫欝]\\W?|(?<=\\w：)\\s+(?=“\\w)|(?<=[，、‘《（【［「『])\\s+|\\s+(?=[\\n，、’：；》）】］」』])|"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.a2@tag.a@text",
+            "bookList": "class.lastest@tag.li!0",
+            "bookUrl": "class.n2@tag.a@href",
+            "kind": "class.nt@text",
+            "lastChapter": "class.t@text&&class.c2@tag.a@text##\\h[\\d:\\n]{5}\\n##▪",
+            "name": "class.n2@tag.a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "+//ul[@class=\"mulu\"]/li[@class=\"col1 volumn\"][2]/following-sibling::li/a",
+            "chapterName": "text##(?<=(\\d{1,5})章\\h)\\1[、：，]?|(?<!^|[章卷部集]\\h?|[\\u4e00-\\u9fa5]、)[（［【\\{\\[\\(](?!(?:[一二三四五六七八九十]{1,3}|\\d{1,3}|[上中下完终续])[）］】\\}\\]\\)])[^（［【\\{\\[\\(]+|^(?=请\\w{0,2}假|求\\w{0,3}票|[三四五六七八九十加爆补]更|解释|[\\u4e00-\\u9fa5][终末月](感言|总结)|上架|推[封荐]|新书)\\S{2,}$|\\h\\S*(?:第\\w更|加更|求\\w{1,2}票)$",
+            "chapterUrl": "href",
+            "updateTime": "text@js:java.put(\"tt\",result);result=null"
+        },
+        "searchUrl": "/search.htm?keyword={{key}}",
+        "weight": 0
+    }
+]

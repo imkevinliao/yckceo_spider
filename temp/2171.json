@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☆lingran",
+        "bookSourceName": "天文阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.tianwenge.net/",
+        "customOrder": -100032,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1616310419857,
+        "ruleBookInfo": {
+            "author": "class.pt-info.0@text",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.intro@text",
+            "kind": "class.pt-info.1@text##分类:",
+            "lastChapter": "class.ptm-list-view_new@tag.li.0@text",
+            "name": "class.pt-name.0@text"
+        },
+        "ruleContent": {
+            "content": "id.BookText@html##正在为您转码……##请刷新本章节",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.ptm-list-view-cell ptm-img ptm-col-xs-4",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.pt-dir@id.chapterlist@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href##$##,{\"webView\":true}",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://m.tianwenge.net/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+        "weight": 0
+    }
+]

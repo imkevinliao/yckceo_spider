@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "Mixed Novel",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://mixednovel.net",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1662274916108,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author-content@tag.a@text",
+            "coverUrl": "class.img-responsive.lazyloaded.2@tag.img@src",
+            "intro": "class.summary__content show-more@html",
+            "kind": "class.genres-content@text",
+            "lastChapter": "class.wp-manga-chapter    .0@tag.a@text",
+            "name": "class.post-title@text",
+            "tocUrl": "{{baseUrl}}ajax/chapters,{\"method\": \"POST\"}"
+        },
+        "ruleContent": {
+            "content": ".text-left@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.summary-content.0@text",
+            "bookList": "div.row.c-tabs-item__content",
+            "bookUrl": "class.post-title@tag.a@href",
+            "checkKeyWord": "one piece",
+            "coverUrl": "class.img-responsive.lazyloaded.1@tag.img@src",
+            "kind": "class.summary-content.1@text",
+            "lastChapter": "class.font-meta.chapter@tag.a@text",
+            "name": "class.post-title@text"
+        },
+        "ruleToc": {
+            "chapterList": "-li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "updateTime": "span@i@text"
+        },
+        "searchUrl": "https://mixednovel.net/?s={{key}}&post_type=wp-manga",
+        "weight": 0
+    }
+]

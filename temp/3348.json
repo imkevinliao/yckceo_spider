@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "搜索间隔60秒",
+        "bookSourceGroup": "自制,笔趣,源仓库,网页源",
+        "bookSourceName": "笔趣阁03",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shmd03.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/bok/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"修真\",\"url\":\"/bok/2_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"都市\",\"url\":\"/bok/3_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"历史\",\"url\":\"/bok/4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"科幻\",\"url\":\"/bok/6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"网游\",\"url\":\"/bok/5_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"言情\",\"url\":\"/bok/8_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"其它\",\"url\":\"/bok/7_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "lastUpdateTime": 1683789650065,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@tag.a@text",
+            "coverUrl": "class.BGsectionOne-top-left@img@src",
+            "init": "",
+            "intro": "class.BGsectionTwo-bottom@tag.p@text",
+            "kind": "class.category@span@text&&class.time@span@text",
+            "lastChapter": "class.newestChapter@tag.a@text",
+            "name": "class.title@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": "class.CGsectionTwo-right-content-unit",
+            "bookUrl": "a.0@href",
+            "coverUrl": "",
+            "intro": "p.-2@text",
+            "kind": "p.-1@text",
+            "lastChapter": "",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.SHsectionThree-middle@p",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ol@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

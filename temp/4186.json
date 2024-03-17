@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "手打吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xylyc.com",
+        "bookUrlPattern": "http://www.xylyc.com/sd/\\d+/",
+        "customOrder": 4,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::http://www.xylyc.com\n玄幻::http://www.xylyc.com/sdb/1/{{page}}/\n武侠::http://www.xylyc.com/sdb/2/{{page}}/\n都市::http://www.xylyc.com/sdb/3/{{page}}/\n历史::http://www.xylyc.com/sdb/4/{{page}}/\n网游::http://www.xylyc.com/sdb/5/{{page}}/\n科幻::http://www.xylyc.com/sdb/6/{{page}}/\n耽美::http://www.xylyc.com/sdb/7/{{page}}/\n其他::http://www.xylyc.com/sdb/8/{{page}}/\n排行榜::http://www.xylyc.com/rank/allvisit/\n记录::http://www.xylyc.com/record.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695959245869,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",w:\"#info p.2@text\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.章节目录@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}",
+            "wordCount": "@get:{w}##字数："
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text||.btm@ownText",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "name": "a.1@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dl>a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}http://www.xylyc.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️同人小说网☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.trxs.cc##响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "同人小说::http://www.trxs.cc/tongren/index<,_{{page}}>.html \n\n全本同人::http://www.trxs.cc/tags-150-{{page}}.html\n\n连载同人::http://www.trxs.cc/tags-151\n-{{page}}.html\n\n排行榜单::http://www.trxs.cc/hot/index<,_{{page}}>.html",
+        "lastUpdateTime": 1645445160851,
+        "ruleBookInfo": {
+            "author": "class.date@tag.span.0@text",
+            "coverUrl": "tag.img.0@src",
+            "intro": "tag.p@html",
+            "lastChapter": "class.clearfix@tag.li.-1@text",
+            "name": "\ntag.h1@text"
+        },
+        "ruleContent": {
+            "content": "class.read_chapterDetail.-1@tag.p!0@html"
+        },
+        "ruleExplore": {
+            "author": "class.booknews@text",
+            "bookList": "class.bk",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "tag.p@html",
+            "name": "tag.h3@text"
+        },
+        "ruleSearch": {
+            "author": "class.booknews.0@text",
+            "bookList": "class.bk",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.a!0@href<js>'http://www.trxs.cc/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3}).html/,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+            "intro": "tag.p.-1@html##简介：",
+            "lastChapter": "class.date@text",
+            "name": "tag.h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.clearfix@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/e/search/indexsearch.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 'keyboard={{key}}&show=title&classid=0',\n'headers': {\n    'User-Agent': ''\n    }\n}",
+        "weight": 0
+    }
+]

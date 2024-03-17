@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "阅书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yshuge.com/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuan/{{page}}.html\n修真小说::/xiuzhen/{{page}}.html\n都市小说::/dushi/{{page}}.html\n穿越小说::/chuanyue/{{page}}.html\n网游小说::/wangyou/{{page}}.html\n科幻小说::/kehuan/{{page}}.html",
+        "lastUpdateTime": 1627742408169,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作 者：|\\!!",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "id.info@tag.p.2@text##最后更新：",
+            "lastChapter": "id.info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁|免费.*",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html##一秒记住.*最新章节！|阅书阁.*您提供精彩小說閱讀|优质免费的小说.*|手机用户请.*阅读体验|天才壹秒記住引言|"
+        },
+        "ruleExplore": {
+            "author": "class.s5@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@a@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.slist@li",
+            "bookUrl": "tag.a.1@href@js:\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.yshuge.com/'+iid+'_'+id+'/'",
+            "coverUrl": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.a.1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁|免费.*",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://mip.yshuge.com/s.php,{\n\"method\": \"POST\",\n\"body\": \"type=articlename&searchkey={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

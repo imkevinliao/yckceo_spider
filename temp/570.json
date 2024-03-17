@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️耽美1☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.fxshu.org#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "腐小书::http://www.fxshu.org/gudai/list_{{page}}.html\n现代耽美::http://www.fxshu.org/xiandai/list_{{page}}.html\n古代耽美::http://www.fxshu.org/gudai/list_{{page}}.html\n穿越重生::http://www.fxshu.org/chuanyue/list_{{page}}.html\n玄幻灵异::http://www.fxshu.org/qihuan/list_{{page}}.html\n网游竞技::http://www.fxshu.org/wangyou/list_{{page}}.html\n同人耽美::http://www.fxshu.org/tongren/list_{{page}}.html\nG L 百合::http://www.fxshu.org/baihe/list_{{page}}.html\n总排行::http://www.fxshu.org/paihang/{{page}}",
+        "lastUpdateTime": 1645457065179,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "class.nt_bxz@html"
+        },
+        "ruleExplore": {
+            "author": "tag.h2@tag.a.-1@text",
+            "bookList": "class.list_article@tag.li",
+            "bookUrl": "tag.h2@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.desc@text",
+            "name": "tag.h2@text"
+        },
+        "ruleSearch": {
+            "author": "class.click@text",
+            "bookList": "class.list_article@tag.li",
+            "bookUrl": "tag.h2@tag.a@href",
+            "coverUrl": "",
+            "intro": "class.desc@text",
+            "name": "tag.h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.ampag@tag.li!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://www.fxshu.org/plus/hsearch.php?q={{key}}",
+        "weight": 0
+    }
+]

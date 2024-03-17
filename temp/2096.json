@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceUrl": "http://www.xidongfang.com",
+        "bookSourceType": "0",
+        "bookSourceName": "东方文学",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.xidongfang.com/search/?searchkey={{key}}&page={{page}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1617893227830,
+        "ruleSearch": {
+            "bookList": "class.am-u-sm-12 am-u-md-6 am-u-lg-4 book-list-1",
+            "name": "class.book-list-1-info@h4@a@text",
+            "author": "class.book-list-1-author@text",
+            "kind": "class.am-badge am-badge-warning am-radius@text",
+            "wordCount": "class.am-badge am-badge-primary am-radius@text",
+            "intro": "class.book-list-1-intro@text",
+            "coverUrl": "class.am-thumbnail lazy@src",
+            "bookUrl": "class.book-list-1-info@h4@a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.am-text-lg@a@text",
+            "author": "class.am-badge am-badge-primary am-radius@text",
+            "kind": "class.am-badge am-badge-warning am-radius@text",
+            "wordCount": "class.am-badge am-badge-secondary am-radius@text",
+            "lastChapter": "class.book-info-last@a@text",
+            "intro": "class.am-text-sm am-text-justify@text",
+            "coverUrl": "class.am-thumbnail@src",
+            "tocUrl": "class.am-btn am-btn-default am-radius@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.am-avg-sm-1 am-avg-md-2 am-avg-lg-4 am-list@li",
+            "chapterName": "class.am-text-truncate@text",
+            "chapterUrl": "class.am-text-truncate@href",
+            "nextTocUrl": "class.onclick@text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@textNodes",
+            "nextContentUrl": "class.am-btn am-btn-default am-radius@text.下一页@href"
+        }
+    }
+]

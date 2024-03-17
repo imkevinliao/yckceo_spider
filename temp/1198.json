@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔搜阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bisoge.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/sort/1_{{page}}/&&修真::/sort/2_{{page}}/&&都市::/sort/3_{{page}}/&&穿越::/sort/4_{{page}}/&&网游::/sort/5_{{page}}/&&科幻::/sort/6_{{page}}/&&其他小说::/sort/7_{{page}}/&&完本::/full/{{page}}/",
+        "lastUpdateTime": 1625455040138,
+        "ruleBookInfo": {
+            "author": "p:mathes(作者)@text##作者[:：]",
+            "coverUrl": ".block_img2 img@src",
+            "intro": ".intro@text",
+            "kind": "p:mathes(分类|状态|更新)@text##(分类|状态|更新)[:：]",
+            "lastChapter": "p:mathes(最新)@text",
+            "name": "h2@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html||#content@html##.*(BISOGE.COM|bisoge.com).*",
+            "nextContentUrl": "text.下一页@href||text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "p.line",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.a.1@href##.*\\D((\\d+)\\d{3})\\/$##https://image.bisoge.com/$2/$1/$1s.jpg",
+            "intro": "50/50470/50470s.jpg",
+            "kind": "tag.a.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.bisoge.com/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"type=articlename&s={{key}}&submit=\",\n\"headers\": \"{referer:\\\"https://m.bisoge.com/s.php\\\"}\"\n}",
+        "weight": 0
+    }
+]

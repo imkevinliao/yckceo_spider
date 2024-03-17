@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceName": "九桃小说网",
+        "bookSourceGroup": "九桃",
+        "bookSourceUrl": "https://m.9taoxs.com/",
+        "loginUrl": "",
+        "checkUrl": "",
+        "httpUserAgent": "",
+        "ruleFindUrl": "玄幻奇幻::sort/xuanhuan/{{page}}.html\n武侠修真::sort/wuxia/{{page}}.html\n都市生活::sort/dushi/{{page}}.html\n历史军事::sort/lishi/{{page}}.html\n游戏竞技::sort/youxi/{{page}}.html\n科幻未来::sort/kehuan/{{page}}.html\n悬疑灵异::sort/xuanyi/{{page}}.html\n二次元::sort/erciyuan/{{page}}.html\n经典短篇::sort/jingdian/{{page}}.html\n古代言情::sort/gudai/{{page}}.html\n现代言情::sort/xiandai/{{page}}.html\n幻想奇缘::sort/huanxiang/{{page}}.html\n浪漫青春::sort/qingchun/{{page}}.html\n网络情缘::sort/wangluo/{{page}}.html\n科幻空间::sort/kongjian/{{page}}.html\n恐怖灵异::sort/lingyi/{{page}}.html\nN次元::sort/tongren/{{page}}.html\n言情美文::sort/yanqing/{{page}}.html\n其他类型::sort/qita/{{page}}.html",
+        "ruleSearchUrl": "https://m.9taoxs.com/search.html,{ 'charset': 'UTF-8', 'method': 'POST', 'body': 'searchkey={{key}}' }",
+        "ruleSearchList": "class.list@tag.li",
+        "ruleSearchName": "class.bookname@text",
+        "ruleSearchAuthor": "class.author@ownText",
+        "ruleSearchCoverUrl": "tag.img@src",
+        "ruleSearchKind": "class.data@text",
+        "ruleSearchLastChapter": "",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleBookUrlPattern": "",
+        "ruleBookName": "class.booktitle@text",
+        "ruleBookAuthor": "p.1@text",
+        "ruleCoverUrl": "",
+        "ruleBookKind": "",
+        "ruleBookLastChapter": "class.vlist@tag.li.-1@text",
+        "ruleChapterUrl": "text.查看目录@href",
+        "ruleChapterUrlNext": "text.下一页@href",
+        "ruleIntroduce": "",
+        "ruleChapterList": "class.read@tag.li",
+        "ruleChapterName": "tag.a@text",
+        "ruleContentUrl": "tag.a@href",
+        "ruleContentUrlNext": "",
+        "ruleBookContent": "class.content@tag.p!-1@textNodes"
+    }
+]

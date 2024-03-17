@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "69书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.69shu.org/",
+        "bookUrlPattern": "",
+        "customOrder": 30,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/fenlei/1_{{page}}/\n仙侠小说::/fenlei/2_{{page}}/\n都市小说::/fenlei/3_{{page}}/\n穿越小说::/fenlei/4_{{page}}/\n军史小说::/fenlei/5_{{page}}/\n网游小说::/fenlei/6_{{page}}/\n科幻小说::/fenlei/7_{{page}}/\n悬疑小说::/fenlei/8_{{page}}/\n完本小说::/quanben/{{page}}",
+        "header": "",
+        "lastUpdateTime": 1650754564987,
+        "loginUrl": "",
+        "respondTime": 10000774,
+        "ruleBookInfo": {
+            "author": ".info@p.0@a@text",
+            "coverUrl": "td.0@img@src",
+            "init": "",
+            "intro": ".intro@text",
+            "kind": "p.1@a@text",
+            "lastChapter": "p.4@a@text",
+            "name": "h1@text",
+            "tocUrl": ".book-op@td.1@a@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "tag.span.3@text",
+            "bookList": ".section-cols ul li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##/((\\d+)\\d{3})/##/files/article/image/$2/$1/$1s.jpg###",
+            "kind": "tag.span.0@text",
+            "lastChapter": "tag.span.2@text",
+            "name": "tag.span.1@text"
+        },
+        "ruleSearch": {
+            "author": ".mr15@text",
+            "bookList": ".list-item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "td@a@img@src",
+            "intro": "a.-1@text",
+            "lastChapter": "",
+            "name": ".article@a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".even@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,\n{\n  \"charset\": \"GBK\",\n  \"method\": \"GET\"\n}",
+        "weight": 0
+    }
+]

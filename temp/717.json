@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "书籍较少",
+        "bookSourceGroup": "☁️可用,☁修正",
+        "bookSourceName": "☁笔趣阁⑬⑨",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.chjhjx.com/",
+        "bookUrlPattern": "http://www.chjhjx.com/ddk\\d+/",
+        "customOrder": -88944749,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "🍂          最   新   入   库         🍂::http://www.chjhjx.com/lastpost/{{page}}.html\n玄幻小说::http://www.chjhjx.com/list1/{{page}}.html\n修真小说::http://www.chjhjx.com/list2/{{page}}.html\n都市小说::http://www.chjhjx.com/list3/{{page}}.html\n历史小说::http://www.chjhjx.com/list4/{{page}}.html\n网游小说::http://www.chjhjx.com/list5/{{page}}.html\n科幻小说::http://www.chjhjx.com/list6/{{page}}.html\n言情小说::http://www.chjhjx.com/list7/{{page}}.html\n其他小说::http://www.chjhjx.com/list8/{{page}}.html",
+        "lastUpdateTime": 1643179073010,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "id.fmimg@img@src",
+            "intro": "id.intro@text",
+            "kind": "[property=\"og:novel:category\"]@content##小说",
+            "lastChapter": "id.info@tag.p.3@a@text",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "class.font_max@html##天才一秒记住.*|.*第.*章.*",
+            "replaceRegex": "##&nbsp"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "dl@dd.1@text##作者：",
+            "bookList": "class.container@class.col-12 col-md-6",
+            "bookUrl": "dl@dd.0@a@href",
+            "checkKeyWord": "诡秘",
+            "coverUrl": "dl@dt@img@src",
+            "intro": "dl@dd.2@text",
+            "kind": "dl@dd.0@a@text##].*",
+            "lastChapter": "dl@dd.3@a@text",
+            "name": "dl@dd.0@a@text##.*]",
+            "wordCount": "dl@dd.0@class.uptime@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_list book_list2@ul@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "class.pages@ul@li!0@a@href"
+        },
+        "searchUrl": "http://www.chjhjx.com/search.php?q={{key}}&amp;p={{page}}",
+        "weight": 0
+    }
+]

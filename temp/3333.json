@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "灯笔小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.dengbi8.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"首页\",\"url\":\"/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/xuanhuan/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/wuxia/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/dushi/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/lishi/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/wangyou/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/kehuan/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/qita/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本\",\"url\":\"/quanben.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1683430969034,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.dd_box.0@span.0@text",
+            "coverUrl": "img@src",
+            "intro": "class.book_about@dd@textNodes\n##最新章节推荐地址.*",
+            "kind": "class.dd_box.0@span.1@text&&\nclass.dd_box.1@span.0@text&&\nclass.book_box@dd.2@span@text\n##分类：|状态：|更新：",
+            "lastChapter": "class.book_box@dd.3@span@text\n##最新：",
+            "name": "class.name@text"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##第.*章.*|第\\(.*\\)页|灯笔小说网.*|\nhttp.*cc|de.*cc"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".lis@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": ".s1@text##\\[|\\]",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last.1@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://wap.dengbi8.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

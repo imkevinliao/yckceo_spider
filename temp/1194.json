@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "自制，仅发现功能，无搜索功能(太菜了。)，需要vpn",
+        "bookSourceGroup": "R18,🔞",
+        "bookSourceName": "风月文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.h528.com/",
+        "bookUrlPattern": "http://www.h528.com/post/\\d*.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "人妻熟女::/post/category/人妻熟女/page/{{page}}&&家庭乱伦::/post/category/家庭亂倫/page/{{page}}&&强暴虐待::/post/category/強暴虐待/page/{{page}}&&学生校园::/post/category/校園師生/page/{{page}}&&武侠科幻::/post/category/武俠科幻/page/{{page}}&&动漫改编::/post/category/動漫改編/page/{{page}}&&名人明星::/post/category/名人明星/page/{{page}}&&都市生活::/post/category/都市生活/page/{{page}}&&变身系列::/post/category/變身系列/page/{{page}}&&经验故事::/post/category/經驗故事/page/{{page}}&&另类其它::/post/category/另類其它/page/{{page}}&&性知识::/post/category/性知識/page/{{page}}",
+        "lastUpdateTime": 1625475345337,
+        "ruleBookInfo": {
+            "name": "h2"
+        },
+        "ruleContent": {
+            "content": "class.entry@tag.p@html"
+        },
+        "ruleExplore": {
+            "bookList": "class.post",
+            "bookUrl": "tag.h3@tag.a@href",
+            "kind": "tag.small@tag.a@text",
+            "name": "tag.h3@tag.a@text"
+        },
+        "ruleSearch": {
+            "bookList": "class.post",
+            "bookUrl": "tag.h3@tag.a@href",
+            "kind": "tag.small@tag.a@text",
+            "name": "tag.h3@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.post@tag.h2",
+            "chapterName": "text"
+        },
+        "searchUrl": "http://www.h528.com/{{page-1==0?\"\":page}}?s={{key}}",
+        "weight": 0
+    }
+]

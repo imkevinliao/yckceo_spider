@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "一读小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.121du.cc",
+        "bookUrlPattern": "https://www.121du.cc/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻奇幻\",\n\t\"url\":\"/xuanhuan/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠仙侠\",\n\t\"url\":\"/wuxia/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市言情\",\n\t\"url\":\"/dushi/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史军事\",\n\t\"url\":\"/lishi/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻灵异\",\n\t\"url\":\"/kehuan/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游竞技\",\n\t\"url\":\"/wangyou/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"女频频道\",\n\t\"url\":\"/nvpin/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/qita/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1663907968551,
+        "respondTime": 1454,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[class=\"book-intro\"]@textNodes",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": "[property=\"og:novel:update_time\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.BookText@html"
+        },
+        "ruleExplore": {
+            "author": "dd.1@span.0@text",
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "dt@a@href",
+            "coverUrl": "img@data-src",
+            "intro": "dd.2@ownText",
+            "kind": "dd.1@span.1:2@text",
+            "lastChapter": "dd.3@a@text",
+            "name": "h3@a@text",
+            "wordCount": "h3@span@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dd.1@span.0@text",
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "dt@a@href",
+            "coverUrl": "img@data-src",
+            "intro": "dd.2@ownText",
+            "kind": "dd.1@span.1:2@text",
+            "lastChapter": "dd.3@a@text",
+            "name": "h3@a@text",
+            "wordCount": "h3@span@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapterlist!0@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.121du.cc/search/?wd={{key}},{\"headers\":{'referer': 'https://www.121du.cc/'}}",
+        "weight": 0
+    }
+]

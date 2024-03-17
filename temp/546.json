@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "Sra.ᚿᚫ⸙",
+        "bookSourceGroup": "⛎JJ城,🌹,🎊 优质,☣️精选senhora,☣️。,☣️senhora起点",
+        "bookSourceName": "🎊 笔趣阁⑮",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biqugexx.com",
+        "bookUrlPattern": "",
+        "customOrder": -88962087,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1646272963534,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@text##.*简介：",
+            "lastChapter": "id.info@tag.p.3@a@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html##天才.*]|http.*广告！|章节错误.*|插一句.*【.*】.*！|广个告.*【.*】.*！|推荐下.*【.*】.*！|求助下，【.*】.*。|真心不错，值得装个.*！",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslist2@tag.li!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.biqugexx.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

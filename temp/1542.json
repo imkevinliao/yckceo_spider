@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "比奇屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.biqiwu.net/",
+        "customOrder": -88903115,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 1671909629436,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.infotype@p.0@text",
+            "coverUrl": "class.pic@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.infotype@p.1@text",
+            "lastChapter": "class.infotype@p.3@text##最新章节：",
+            "name": "class.cataloginfo@h3@text",
+            "tocUrl": "class.infolink@li.0@a@href",
+            "wordCount": "class.infotype@p.2@text"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@p@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.sone",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.biqiwu.net/s.php,{\n  \"body\": \"s={{key}}&type=articlename\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

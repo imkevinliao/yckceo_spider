@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceUrl": "https://www.mudou.cc/",
+        "bookSourceType": "0",
+        "bookSourceName": "木豆小说-0912",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.mudou.cc/search/?keyword={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1631490976475,
+        "ruleSearch": {
+            "bookList": "id.sitebox@tag.dl",
+            "name": "tag.h3@tag.a@text",
+            "author": "class.book_other@tag.span.0@text",
+            "kind": "class.book_other@tag.span.1@text",
+            "wordCount": "class.book_other@tag.span.2@text",
+            "intro": "class.book_des@text",
+            "bookUrl": "tag.h3@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.d_title@text",
+            "author": "class.p_author@text",
+            "tocUrl": "class.list_cps@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.chaw_c@tag.li",
+            "chapterName": "tag.a.0@text",
+            "chapterUrl": "tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "class.read-content@text"
+        }
+    }
+]

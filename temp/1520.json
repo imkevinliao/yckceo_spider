@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceName": "笔趣看网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.qibuge.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/{{page}}.html\n修真小说::/xiuzhenxiaoshuo/{{page}}.html\n都市小说::/dushixiaoshuo/{{page}}.html\n历史小说::/lishixiaoshuo/{{page}}.html\n网游小说::/wangyouxiaoshuo/{{page}}.html\n科幻小说::/kehuanxiaoshuo/{{page}}.html\n其他小说::/qitaxiaoshuo/{{page}}.html",
+        "lastUpdateTime": 1671110157630,
+        "respondTime": 1894,
+        "ruleBookInfo": {
+            "author": "class.tab@h2@text",
+            "coverUrl": "class.tu@img@src",
+            "intro": "p.1@class.p2@text",
+            "kind": "class.tab@h5@text",
+            "lastChapter": "class.tab@h4@text##最新章节：",
+            "name": "class.tu@img@alt",
+            "wordCount": "class.tab@h6@text&&class.tab@p@text"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##（本章未完，请翻页）|如果觉得好看，请把本站网址推荐给您的朋友吧！|阅读完整内容，无广告无弹窗。"
+        },
+        "ruleExplore": {
+            "author": "class.p4@text",
+            "bookList": "class.tt",
+            "bookUrl": "class.p1@a@href",
+            "coverUrl": "class.left@img@src",
+            "intro": "class.p5@text",
+            "kind": "class.label@p.1@text",
+            "lastChapter": "",
+            "name": "class.p1@text",
+            "wordCount": "class.label@p.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": "class.search_list",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.2@class.p2@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://m.biqikan.com/so,{\n  \"body\": \"s={{key}}&type=articlename\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

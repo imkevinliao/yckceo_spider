@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceUrl": "https://www.bookben.net",
+        "bookSourceType": "0",
+        "bookSourceName": "✈ 书本网 bookben",
+        "bookSourceGroup": "精品书源",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.bookben.net/search/?searchkey={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 3,
+        "lastUpdateTime": 1652084904810,
+        "ruleSearch": {
+            "bookList": "class.hotcontent@class.item",
+            "name": "tag.dt@text",
+            "author": "class.btm@tag.a@text",
+            "lastChapter": "tag.a.1@href<js>java.ajax('https://www.bookben.net'+result)</js>id.info@tag.p.-1@text&&id.info@tag.a.-1@text##[\\d:]{8}\\n|最后更新：",
+            "intro": "tag.dd@text",
+            "coverUrl": "class.image@tag.img@src",
+            "bookUrl": "class.image@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "id.info@text",
+            "author": "id.info@tag.a@text",
+            "lastChapter": "id.list@tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.a!0:1:2:3:4:5:6:7:8:9:10",
+            "chapterName": "tag.dd@text",
+            "chapterUrl": "@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "nextContentUrl": "class.bottem2@id.next_url@href"
+        }
+    }
+]

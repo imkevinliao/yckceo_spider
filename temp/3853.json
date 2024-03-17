@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "//搜索过快会搜不出来",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "橘子小说/文学迷",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.juzixs.vip",
+        "bookUrlPattern": "https?://m.juzixs.vip/files/article/html/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/xuanhuan/\n武侠修真::/xiuzhen/\n都市言情::/dushi/\n历史军事::/lishi/\n网游动漫::/wangyou/\n科幻小说::/kehuan/\n恐怖灵异::/lingyi/\n其它小说::/qita/\n完结小说::/quanben/",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"Referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1691480079988,
+        "loginCheckJs": "url=source.getKey();\ncookie.removeCookie(url);\nresult;",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2 p.2@text",
+            "coverUrl": ".block_img2 img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2 p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2 a.-1@text",
+            "name": ".block_txt2 h2@text",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@text##简介：",
+            "kind": "0",
+            "lastChapter": "a.2@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://m.juzixs.vip/search.php?keyword={{key}}&submit=,{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

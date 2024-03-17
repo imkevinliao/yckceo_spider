@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "👍 老幺小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.laoyao.org",
+        "customOrder": -3585,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "总点击榜::/library/allvisit_{{page}}.html\n总收藏榜::/library/goodnum_{{page}}.html\n字数排行::/library/size_{{page}}.html\n总推荐榜::/library/allvote_{{page}}.html\n最新入库::/library/postdate_{{page}}.html\n最近更新::/library/lastupdate_{{page}}.html\n玄幻异界::/library/1_{{page}}.html\n奇幻修真::/library/2_{{page}}.html\n纯爱耽美::/library/3_{{page}}.html\n历史架空::/library/4_{{page}}.html\n动漫同人::/library/5_{{page}}.html\n科幻未来::/library/6_{{page}}.html\n恐怖悬疑::/library/7_{{page}}.html\n名著经典::/library/8_{{page}}.html\n全部完结::/quanben/{{page}}.html",
+        "lastUpdateTime": 1608725427428,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "[property=\"og:novel:read_url\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.txt@tag.p@text",
+            "replaceRegex": "##阅读.*最新章节.*|阅读提示.*"
+        },
+        "ruleExplore": {
+            "author": "tag.span@text##.*：",
+            "bookList": "class.clearfix.1@tag.li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@data-original",
+            "intro": "tag.p.0@text",
+            "kind": "tag.em@text",
+            "name": "tag.a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.span@text##.*：",
+            "bookList": "class.clearfix@tag.li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@data-original",
+            "intro": "tag.p.0@text",
+            "kind": "tag.em@text",
+            "name": "tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.listsss@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "/s.php?s={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

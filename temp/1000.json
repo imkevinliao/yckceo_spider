@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "酷友",
+        "bookSourceName": "泼墨文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.pomowxw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1631156425254,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info@p.1@a@text",
+            "coverUrl": "class.bookinfo@img@src",
+            "intro": "class.content_detail@text",
+            "kind": "class.info@p.2:3@text##类别：|状态：",
+            "lastChapter": "class.info@p.5@a@text",
+            "name": "class.info@p.0@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "class.info@p.4@text##更新："
+        },
+        "ruleContent": {
+            "content": "id.nr1@p@html##天才壹秒.*閱讀|手机.*体验|最新最快.*本站！♂|!--.*--",
+            "nextContentUrl": "id.pb_next@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": "class.list-item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "span.2@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.last9@li!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.pomowxw.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all&t_btnsearch=\"\n}",
+        "weight": 0
+    }
+]

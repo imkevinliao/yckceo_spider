@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "天天的鸟蛋蛋",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣兔(天天)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.biquto.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1693673059153,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author.0@text",
+            "coverUrl": "",
+            "init": "",
+            "intro": ".review@text##.*：",
+            "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
+            "lastChapter": ".newchapters@p.0@text",
+            "tocUrl": ".recommend@h2.1@a@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".pt-author@textNodes##分类：",
+            "bookList": ".ptm-card-content@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "重回校园的休闲日常",
+            "coverUrl": "img@src",
+            "intro": "class.pt-desc ptm-text-cut@text##.*：",
+            "kind": ".pt-author@a@text",
+            "name": ".pt-name@text"
+        },
+        "ruleToc": {
+            "chapterList": ".directoryArea@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": ".pagination@a@href"
+        },
+        "searchUrl": "http://m.biquto.com/book.php?action=search&searchtype=novelname&searchkey={{key}}&input,{\n  \"charset\": \"gbk\"}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔趣阁[biquge7]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biquge7.top/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::https://www.biquge7.top/xh?page={{page}}&&\n修真::https://www.biquge7.top/xz?page={{page}}&&\n都市::https://www.biquge7.top/ds?page={{page}}&&\n穿越::https://www.biquge7.top/cy?page={{page}}&&\n网游::https://www.biquge7.top/wy?page={{page}}&&\n科幻::https://www.biquge7.top/kh?page={{page}}",
+        "lastUpdateTime": 1648643452870,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.up@span.0@text",
+            "init": "",
+            "intro": "p.0@text",
+            "lastChapter": "class.upd@a@text",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.text@textNodes",
+            "nextContentUrl": "class.mulu@a.2@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "intro": ""
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.tui_1_item",
+            "bookUrl": "class.tui_1_item@a@href",
+            "coverUrl": "class.tui_1_item@img@src",
+            "name": "class.tui_1_item@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list@li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.biquge7.top/search?keyword={{key}}",
+        "weight": 0
+    }
+]

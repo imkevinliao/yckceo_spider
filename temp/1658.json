@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "原先dijiubook的源，改了\n源url\n目录url规则\n目录列表规则\n网站自身没图。。。。",
+        "bookSourceGroup": "",
+        "bookSourceName": "第九中文网(dijiuben)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.dijiuben.com/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1667226259232,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@text.作者：@tag.a@text",
+            "coverUrl": "class.block_img2@tag.img@src",
+            "intro": "class.intro_info@text##.*简要介绍：\\s",
+            "kind": "class.block_txt2@text.分类：@tag.a@text",
+            "lastChapter": "class.block_txt2@text.最新：@tag.a@text",
+            "name": "class.block_txt2@tag.h2@text",
+            "tocUrl": "{{baseUrl}}##m\\.",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@p@html##喜欢.*更新速度最快。",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.span.2@text",
+            "bookList": ".SHsectionThree-middle p",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.span.1@a@href##(\\d+)_(\\d+)##https://dijiushu.com/files/article/image/$1/$2/$2s.jpg###",
+            "kind": "tag.span.0@a@text",
+            "name": "tag.span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>result.replace(/\\n/g,'').replace(/.*?安卓版.*?dd>/,'').replace(/<dt.*/,'')</js>\ndd@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/search/,{\"method\":\"POST\",\"body\":\"searchkey={{key}}&searchtype=all&submit=\"}",
+        "weight": 0
+    }
+]

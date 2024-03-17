@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "coolapk@芜恙",
+        "bookSourceGroup": "🌸 耽美,💦 普通",
+        "bookSourceName": "🌸 CP文库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.cpwenku.com#bookbox",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1600224884244,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": ".readcontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*本章未完.*\\s*",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.author.0@text",
+            "bookList": ".bookbox",
+            "bookUrl": "h4 a@href",
+            "coverUrl": "h4 a@href@js:var id = result.match(/\\/(\\d+)\\/?$/)[1];\n'https://fm.cpwenku.com/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+            "intro": ".update@textNodes",
+            "kind": "",
+            "lastChapter": ".cat a@text",
+            "name": "h4 a@text",
+            "wordCount": "class.author.1@text##.*：|字@js:parseInt(result/10000) + '万'"
+        },
+        "ruleToc": {
+            "chapterList": "#list-chapterAll dd a",
+            "chapterName": "text##^(正文|Vip章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

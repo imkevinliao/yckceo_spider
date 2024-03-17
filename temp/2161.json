@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "数据",
+        "bookSourceName": "橙瓜网▪数据",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://api.chenggua.com/",
+        "bookUrlPattern": ".+/detail\\?.+",
+        "customOrder": 6,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "<js>\nu1=\"::http://api.chenggua.com/rendering/taoshu/qidian/rank/rec/list?type=\";\nu2=\"&sub_type=\";\nlist=[[\"新书潜力榜\",101,0],[\"三江推荐榜\",101,1],[\"创世潜力榜\",101,1],[\"起点VIP潜力榜\",102,0],[\"创世VIP潜力榜\",102,1],[\"起点🔸精品榜\",309,0],[\"玄幻榜\",309,1],[\"奇幻榜\",309,2],[\"武侠榜\",309,3],[\"仙侠榜\",309,4],[\"都市榜\",309,5],[\"现实榜\",309,6],[\"历史榜\",309,7],[\"军事榜\",309,8],[\"游戏榜\",309,9],[\"体育榜\",309,10],[\"科幻榜\",309,11],[\"悬疑榜\",309,12],[\"轻小说\",309,13],[\"起点🔸好评榜\",104,0],[\"玄幻榜\",104,1],[\"奇幻榜\",104,2],[\"武侠榜\",104,3],[\"仙侠榜\",104,4],[\"都市榜\",104,5],[\"现实榜\",104,6],[\"历史榜\",104,7],[\"军事榜\",104,8],[\"游戏榜\",104,9],[\"体育榜\",104,10],[\"科幻榜\",104,11],[\"悬疑榜\",104,12],[\"轻小说\",104,13],[\"起点🔸收藏增榜\",108,0],[\"玄幻榜\",108,1],[\"奇幻榜\",108,2],[\"武侠榜\",108,3],[\"仙侠榜\",108,4],[\"都市榜\",108,5],[\"现实榜\",108,6],[\"历史榜\",108,7],[\"军事榜\",108,8],[\"游戏榜\",108,9],[\"体育榜\",108,10],[\"科幻榜\",108,11],[\"悬疑榜\",108,12],[\"轻小说\",108,13],[\"创世🔸收藏增榜\",109,0],[\"玄幻榜\",109,1],[\"奇幻榜\",109,2],[\"武侠榜\",109,3],[\"仙侠榜\",109,4],[\"都市榜\",109,5],[\"现实榜\",109,6],[\"历史榜\",109,7],[\"军事榜\",109,8],[\"游戏榜\",109,9],[\"体育榜\",109,10],[\"科幻榜\",109,11],[\"悬疑榜\",109,12],[\"轻小说\",109,13]];\nlist.map(a=>a[0]+u1+a[1]+u2+a[2]).join(\"&&\")\n</js>",
+        "lastUpdateTime": 1616465412272,
+        "ruleBookInfo": {
+            "author": "author_name",
+            "coverUrl": "book_avatar##/180$##/300",
+            "init": "result.book_detail",
+            "intro": "brief_intro",
+            "kind": "from_website&&category&&label",
+            "name": "book_name",
+            "wordCount": "{{$.words}}万"
+        },
+        "ruleContent": {
+            "content": "<js>java.get(\"nr\")</js>"
+        },
+        "ruleExplore": {
+            "author": "value[3]",
+            "bookList": "result.right.form_values[*]",
+            "bookUrl": "http://api.chenggua.com/datamodule/taoshu/book/pc/detail?book_unique=rank&token=null&uid=0&buid={{$.book_unique}},{\n\"headers\":{\"origin\":\"http://www.chenggua.com\"}\n}",
+            "intro": "",
+            "kind": "value[1,5]",
+            "name": "value[2]",
+            "wordCount": "value[6]"
+        },
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "$.result.data[*]",
+            "bookUrl": "http://api.chenggua.com/datamodule/taoshu/book/pc/detail?book_unique=rank&token=null&uid=0&buid={{$.id}},{\n\"headers\":{\"origin\":\"http://www.chenggua.com\"}\n}",
+            "coverUrl": "img",
+            "intro": "intro",
+            "kind": "star&&type&&label##(^\\d{1,3})\\b##$1分",
+            "lastChapter": "",
+            "name": "name",
+            "wordCount": "words##\\.\\d+##万"
+        },
+        "ruleToc": {
+            "chapterList": "result.topics[*]&&result.comments.datas[*]",
+            "chapterName": "title||nickname",
+            "chapterUrl": "#{{$.uid}}",
+            "isVip": "content&&comment<js>java.put(\"nr\",result);result=null</js>",
+            "updateTime": "create_time<js>java.timeFormat(result)</js>"
+        },
+        "searchUrl": "http://api.chenggua.com/search/book?keyword={{key}}&page={{page}},{\n\"headers\":{\"origin\":\"http://www.chenggua.com\"}\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "趣书网/qubook",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://qubook.org",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"纯爱\",\"url\":\"/bookbl/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"现耽\",\"url\":\"/BookList/blxd/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古耽\",\"url\":\"/BookList/blgd/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越\",\"url\":\"/BookList/blcy/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/BookList/blxh/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"ＢＬ\",\"url\":\"/BookList/bltr/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"ＧＬ\",\"url\":\"/BookList/blbh/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生\",\"url\":\"/booknv/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"现言\",\"url\":\"/BookList/nvds/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古言\",\"url\":\"/BookList/nvgd/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"重生\",\"url\":\"/BookList/nvcy/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/BookList/nvxh/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人\",\"url\":\"/BookList/nvqc/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/BookList/nvwy/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"男生\",\"url\":\"/bookna/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻\",\"url\":\"/BookList/naxh/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/BookList/nawx/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/BookList/nads/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/BookList/najs/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑\",\"url\":\"/BookList/nakb/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/BookList/nakh/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1686883940618,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".mlist@li.1@text",
+            "intro": "[name=\"description\"]@content",
+            "kind": ".mlist@li.0:2@textNodes&&.listcd@ownText##全文免费阅读|>",
+            "name": "h1@text##\\(.*\\)"
+        },
+        "ruleContent": {
+            "content": ".conten@html"
+        },
+        "ruleExplore": {
+            "author": "a.0@text##.*\\(|\\)",
+            "bookList": ".man_first@li",
+            "bookUrl": "a.0@href",
+            "intro": "p@text",
+            "kind": "h3@text&&h4@text##\\[|\\]|\\/文",
+            "name": "h1@text##\\(.*\\)"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text##.*\\(|\\)",
+            "bookList": ".morelist@li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "寒山",
+            "kind": "a.0@text",
+            "name": "a.1@text##\\(.*\\)"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\npage=java.getElement(\"@@class.pagination@a.0@b.1\");\nvar ys = String(page).match(/\\d+/);\nvar list = [{text:'第1页',href:baseUrl}];\nif(ys>=2){\nfor(var i=2;i<=ys;i++){\nvar url = baseUrl.replace(/.html/,'')\nvar html = url+'_'+i+'.html';\nlist.push({text:'第'+i+'页',href:html});\n}}\nlist;\n</js>",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:(()=>{\n  if(page==1){\n    let url=source.getKey()+'/e/search/index.php,'+JSON.stringify({\n    \"method\":\"POST\",\n    \"body\":\"show=title&btzz=b&keyboard=\"+key\n    });\n    return java.put('surl',String(java.connect(url).raw().request().url()));\n  } else {\n  \tjava.log('surl')\n    return java.get('surl')+'&page='+(page-1)\n  }\n})()",
+        "weight": 0
+    }
+]

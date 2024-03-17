@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "精华书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.jhssd.com",
+        "bookUrlPattern": "https://www.jhssd.com/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻小说\",\n\t\"url\":\"/list/1<,_{{page}}>.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"修真小说\",\n\t\"url\":\"/list/2<,_{{page}}>.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市小说\",\n\t\"url\":\"/list/3<,_{{page}}>.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"穿越小说\",\n\t\"url\":\"/list/4<,_{{page}}>.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游小说\",\n\t\"url\":\"/list/5<,_{{page}}>.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻小说\",\n\t\"url\":\"/list/6<,_{{page}}>.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"灵异小说\",\n\t\"url\":\"/list/7<,_{{page}}>.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"女生小说\",\n\t\"url\":\"/list/8<,_{{page}}>.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/list/9<,_{{page}}>.html\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"————\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1663662923736,
+        "loginUrl": "https://www.jhssd.com/login.html",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.nr_content@p@html",
+            "imageStyle": "TEXT",
+            "replaceRegex": "##精华书阁.*|.*免费阅读\\.http.*com|为您提供.*请务必保存好书签."
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.l@ul@tag.li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "class.s2@a@href\n<js>\nvar a = result.match(/\\d+/);\nvar b = parseInt(a/1000);\nresult.replace(result,\"https://www.jhssd.com/files/article/image/\"+b+\"/\"+a+\"/\"+a+\"s.jpg\")\n</js>",
+            "kind": "class.s1@text&&class.s5@text##\\[|\\]",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.p3@text",
+            "bookList": "class.list_ul@tag.li",
+            "bookUrl": "class.p1@a@href",
+            "coverUrl": "class.p1@a@href\n<js>\nvar a = result.match(/\\d+/);\nvar b = parseInt(a/1000);\nresult.replace(result,\"https://www.jhssd.com/files/article/image/\"+b+\"/\"+a+\"/\"+a+\"s.jpg\")\n</js>",
+            "kind": "class.p6@text&&class.p5@text##\\s##,",
+            "lastChapter": "class.p2@a@text",
+            "name": "class.p1@a@text",
+            "wordCount": "class.p4@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dl.1@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.jhssd.com/search.html?ie=utf-8&word={{key}}",
+        "weight": 0
+    }
+]

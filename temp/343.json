@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "林书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.linshuwu.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "科幻::http://www.linshuwu.com/sort/6/{{page}}/\n玄幻::http://www.linshuwu.com/sort/1/{{page}}/\n都市::http://www.linshuwu.com/sort/3/{{page}}/\n武侠::http://www.linshuwu.com/sort/2/{{page}}/\n历史::http://www.linshuwu.com/sort/4/{{page}}/\n恐怖::http://www.linshuwu.com/sort/7/{{page}}/\n同人::http://www.linshuwu.com/sort/8/{{page}}/\n游戏::http://www.linshuwu.com/sort/5/{{page}}/\n女生::http://www.linshuwu.com/sort/9/{{page}}/\n其他::http://www.linshuwu.com/sort/10/{{page}}/",
+        "lastUpdateTime": 1652005444481,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.red.0@text",
+            "coverUrl": "class.img-thumbnail@src",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "class.text-danger@text",
+            "name": "class.bookTitle@text",
+            "tocUrl": "class.btn btn-info@href",
+            "wordCount": "class.blue.0@text"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "nextContentUrl": "class.readPager@tag.a@href"
+        },
+        "ruleExplore": {
+            "author": "tag.td.3@text",
+            "bookList": "class.table@tag.tr.!0",
+            "bookUrl": "tag.td.1@tag.a@href",
+            "kind": "tag.td.0@text",
+            "lastChapter": "tag.td.2@text",
+            "name": "tag.td.1@text",
+            "wordCount": "tag.td.4@text"
+        },
+        "ruleSearch": {
+            "author": "class.fs-14 text-muted@text",
+            "bookList": "class.col-xs-4 book-coverlist",
+            "bookUrl": "class.col-sm-5@tag.a@href",
+            "coverUrl": "class.col-sm-5@tag.a@style@tag.url",
+            "intro": "class.fs-12 text-justify hidden-xs@text",
+            "name": "class.fs-16 text-muted@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.col-sm-3",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "tag.option@value"
+        },
+        "searchUrl": "http://www.linshuwu.com/search?searchkey={{key}}",
+        "weight": 0
+    }
+]

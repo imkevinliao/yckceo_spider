@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "haxc",
+        "bookSourceGroup": "",
+        "bookSourceName": "精武小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.jingwuhotel.com",
+        "customOrder": -118169,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/fenlei/1/{{page}}\n奇幻::/fenlei/2/{{page}}\n武侠::/fenlei/3/{{page}}\n仙侠::/fenlei/4/{{page}}\n都市::/fenlei/5/{{page}}\n军事::/fenlei/6/{{page}}\n历史::/fenlei/7/{{page}}\n游戏::/fenlei/8/{{page}}\n竞技::/fenlei/9/{{page}}\n科幻::/fenlei/10/{{page}}\n悬疑::/fenlei/11/{{page}}\n灵异::/fenlei/12/{{page}}\n其他::/fenlei/13/{{page}}\n古代::/fenlei/14/{{page}}\n仙侠::/fenlei/15/{{page}}\n现代::/fenlei/16/{{page}}\n浪漫::/fenlei/17/{{page}}\n玄幻::/fenlei/18/{{page}}\n悬疑::/fenlei/19/{{page}}\n科幻::/fenlei/20/{{page}}\n游戏::/fenlei/21/{{page}}\nBL::/fenlei/22/{{page}}\nGL::/fenlei/23/{{page}}\n二次::/fenlei/24/{{page}}\n热门::/rank/allvisit/\n",
+        "header": "{\"User-Agent\": \"Mobile\"\n}",
+        "lastUpdateTime": 1620723165975,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "",
+            "intro": "#intro@text",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "@js:baseUrl.replace(/book/,\"xiaoshuo\")",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p!0@html##搜索.*免费阅读！|本章未完，点击下一页继续阅读。",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.btm@a@text",
+            "bookList": "class.item",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@data-original",
+            "intro": "tag.dd@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.dt@a@text",
+            "wordCount": "tag.em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#content_1 a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://www.jingwuhotel.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

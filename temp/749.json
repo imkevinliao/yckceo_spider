@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔趣阁\nwww.kb4.cc",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.kb4.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort/1/{{page}}/&&武侠小说::/sort/2/{{page}}/&&都市小说::/sort/3/{{page}}/&&历史小说::/sort/4/{{page}}/&&科幻小说::/sort/5/{{page}}/&&游戏小说::/sort/6/{{page}}/&&女生小说::/sort/7/{{page}}/&&其他小说::/sort/8/{{page}}/&&书库榜单::/sort/{{page}}/&&完本小说::/quanben/sort/{{page}}/",
+        "lastUpdateTime": 1628762594604,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"meta[property~=title]@content\n\",a:\"meta[property$=author]@content\n\",k:\"meta[property~=status|category|time]@content\n\",w:\"meta[property~=word]@content\n\",l:\"meta[property~=latest_chapter_name]@content\n\",c:\"meta[property~=image]@content\n\",i:\"meta[property~=description]@content\n\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": "#content p@html",
+            "nextContentUrl": "#next_url@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list li:has(a)",
+            "bookUrl": ".s2 a@href",
+            "coverUrl": ".s2 a@href<js>'http://img.kb4.cc'+String(result).replace(/.*?(\\d*?)(\\d{1,3})\\/$/,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+            "kind": ".s1@text&&.s5@text",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "http://www.kb4.cc/search/,{\n'charset': '',\n'method': 'POST',\n'body': 'searchkey={{key}}&Submit=搜索',\n'headers': {\n    'User-Agent': ''\n    }\n}",
+        "weight": 0
+    }
+]

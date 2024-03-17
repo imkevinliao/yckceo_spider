@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceName": "笔仙阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.bixiange.me",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "都市言情::/dsyq/index<,_{{page}}>.html\n武侠修真::/wxxz/index<,_{{page}}>.html\n玄幻奇幻::/xhqh/index<,_{{page}}>.html\n穿越架空::/cyjk/index<,_{{page}}>.html\n科幻竞技::/khjj/index<,_{{page}}>.html\n鬼话悬疑::/ghxy/index<,_{{page}}>.html\n军事历史::/jsls/index<,_{{page}}>.html\n官场商战::/guanchang/index<,_{{page}}>.html\n乡土风情::/xtfq/index<,_{{page}}>.html\n耽美小说::/dmtr/index<,_{{page}}>.html\n同人小说::/trxs/index<,_{{page}}>.html\n精品小说::/jqxs/index<,_{{page}}>.html\n排行榜::/sort/index<,_{{page}}>.html",
+        "header": "{\n\t\"cookie\":\"eltphlastsearchtime=1658574421\"\n\t}",
+        "lastUpdateTime": 1659183946970,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "##作者：([^<]+)<##$1###",
+            "intro": "class.descInfo@text",
+            "kind": "##分类：([^<]+)<##$1###",
+            "lastChapter": "class.catalog@li.-1@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "#mycontent@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "##作者：([^<]+)<##$1###",
+            "bookList": "class.clearfix@li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "class.descript@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "class.title@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.catalog@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://m.bixiange.me/e/search/indexpage.php,{\n  \"body\": \"keyboard={{key}}&show=title&classid=0\",\n  \"method\": \"POST\",\n  \"charset\":\"gbk\"\n}",
+        "weight": 0
+    }
+]

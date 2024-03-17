@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "xpath;coolapk@芜恙\n说明:搜索地址数字在1-7之间变化，与星期同步。",
+        "bookSourceGroup": "酷友",
+        "bookSourceName": "迷了吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.mile8.cc#content dl",
+        "bookUrlPattern": "https://www.mile8.cc/\\d+/\\d+/",
+        "customOrder": 64,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1603430355183,
+        "ruleBookInfo": {
+            "author": "//*[@property=\"og:novel:author\"]/@content",
+            "coverUrl": "//*[@property=\"og:image\"]/@content",
+            "intro": "//*[@class=\"bookintro\"]/p[1]##.*小说简介：\n@js:result.replace(/([。！？]+[”」）】]?)/g,'$1<br>')",
+            "kind": "//*[@property=\"og:novel:category\"]/@content&&\n//*[@property=\"og:novel:status\"]/@content##中|已",
+            "lastChapter": "//*[@class=\"bookdes\"]/p[3]/a/text()&&\n//*[@property=\"og:novel:update_time\"]/@content\n<js>\nvar n = result.replace(/\\n.*/, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>",
+            "name": "//*[@property=\"og:novel:book_name\"]/@content",
+            "wordCount": "//*[@class=\"bookdes\"]/p[1]/text()##.*\\|\\s"
+        },
+        "ruleContent": {
+            "content": "<js>\nvar doc = result.match(/str_code\\(\\\"(\\S+?)\\\"/)[1];\njava.base64Decode(doc)\n</js>",
+            "nextContentUrl": "//a[text()=\"下一页\"]/@href",
+            "replaceRegex": "##\\(未完待续。\\)",
+            "sourceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "//dd/a/text()",
+            "bookList": "//*[@class=\"content\"]/dl[position()<4]",
+            "bookUrl": "//dt/a/@href",
+            "coverUrl": "//a/img/@src",
+            "intro": "//dd[1]/text()",
+            "kind": "//dd[2]/span[1]/text()",
+            "lastChapter": "//dt/a/@href\n<js>\njava.ajax(result.replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]))\n</js>\n//*[@class=\"bookdes\"]/p[3]/a/text()&&\n//*[@class=\"bookdes\"]/p[4]/text()\n<js>\nvar n = result.replace(/\\n.*/, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>",
+            "name": "//dt/a/text()",
+            "wordCount": "//dd[2]/span[2]/text()"
+        },
+        "ruleToc": {
+            "chapterList": "//*[@class=\"all\"]/ul/li/a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search5?searchkey={{key}}",
+        "weight": 0
+    }
+]

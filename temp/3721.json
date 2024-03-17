@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "得奇小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.deqixs.com",
+        "bookUrlPattern": "https://www.deqixs.com/xiaoshuo/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "仙者::/xiaoshuo/1/\n光阴之外::/xiaoshuo/11/\n灵境行者::/xiaoshuo/53/\n苟在妖武乱世修仙::/xiaoshuo/4/\n神印王座2皓月当空::/xiaoshuo/69/\n渊天尊::/xiaoshuo/6/\n乱世书::/xiaoshuo/50/\n更多…全部::/xiaoshuo/<,1-{{page}}.html>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689227408801,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".itemtxt@p.1@text",
+            "coverUrl": ".item@img@src",
+            "intro": ".des.0@text",
+            "kind": ".itemtxt@span@text",
+            "lastChapter": ".itemtxt@li.0@text",
+            "name": "h1@a@text",
+            "wordCount": "h1@i@text"
+        },
+        "ruleContent": {
+            "content": ".con@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "仙者",
+            "coverUrl": "img@src",
+            "kind": "span@text",
+            "lastChapter": "ul@li.0@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.deqixs.com/tag/?key={{key}}",
+        "weight": 0
+    }
+]

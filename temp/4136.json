@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceName": "东山岁晚",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.dongshansuiwan.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/xuanhuanmofa\\{{page}}.html\n武侠修真::/sort/wuxiaxiuzhen\\{{page}}.html\n都市言情::/sort/dushiyanqing\\{{page}}.html\n历史军事::/sort/lishijunshi\\{{page}}.html\n网游动漫::/sort/wangyoudongman\\{{page}}.html\n科幻小说::/sort/kehuanxiaoshuo\\{{page}}.html\n恐怖灵异::/sort/kongbulingyi\\{{page}}.html\n其他类型::/sort/qita\\{{page}}.html",
+        "lastUpdateTime": 1658032988699,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "div.content@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "tbody tr",
+            "bookUrl": "td.0@a@href",
+            "coverUrl": "",
+            "kind": "td.-1@text",
+            "lastChapter": "td.1@a@text",
+            "name": "td.0@a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".booklist .list-group li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"search={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

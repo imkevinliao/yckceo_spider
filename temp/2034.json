@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceUrl": "http://m.23hh.com",
+        "bookSourceType": "0",
+        "bookSourceName": "爱尚小说移动版",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/SearchBook.php?keyword={{key}}&submit=&page={{page}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1618549065283,
+        "ruleSearch": {
+            "bookList": ".bookbox",
+            "name": ".iTit@a@text",
+            "author": ".author@text",
+            "lastChapter": ".update@a@text",
+            "intro": ".intro_line@textNodes",
+            "coverUrl": ".iTit@a@href##/\\d+/(\\d+)/##$1###@js:'https://www.23hh.com/files/article/image/'+Math.ceil(result/1000)+'/'+result+'/'+result+'.jpg'",
+            "bookUrl": ".iTit@a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "h2@text",
+            "author": ".block_txt2@tag.p.2@text",
+            "kind": ".block_txt2@tag.p.3@text##分类：",
+            "lastChapter": ".block_txt2@tag.p.6@a@text&&.block_txt2@tag.p.5@text##\\s更新：##·",
+            "intro": ".intro_info@text",
+            "coverUrl": ".block_img2@img@src",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "#nr1@textNodes@js:result+'下页标识'",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*下页标识\\s*"
+        }
+    }
+]

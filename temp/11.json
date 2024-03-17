@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "🍉自制,修复",
+        "bookSourceGroup": "10月校验",
+        "bookSourceName": "星空小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.aixs.la/",
+        "bookUrlPattern": "http://www.aixswx.com/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1665044698460,
+        "loginUrl": "{\n  \"url\": \"\"\n}",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "tag.p.0@text##阅读.*最新章节.*",
+            "kind": "class.updatetime@text##更新时间 :",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "class.tab fl j-content-tab@tag.a.1@href##$##,{\"webView\":true}",
+            "wordCount": "class.hits@tag.span.0@text"
+        },
+        "ruleContent": {
+            "content": "class.main_content@tag.p.!-1@text"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.secd-rank-list@tag.dl",
+            "bookUrl": "tag.a.0@href##$##,{\"webView\":true}",
+            "coverUrl": "tag.a.0@tag.img@data-original",
+            "kind": "tag.a.3@text",
+            "lastChapter": "tag.a.4@text##.*更新.",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.span@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.listsss@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "https://www.aixs.la/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"key={{key}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "五一读书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.51dxs.org",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1674901102311,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者：@text",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "text.作品分类：@text##作品分类：",
+            "lastChapter": ".divbox@h3@text&&text.最后更新：@text##最后更新：",
+            "name": ".linkleft@a.-1@text##TXT下载",
+            "tocUrl": "text.点击阅读@href"
+        },
+        "ruleContent": {
+            "content": "#acontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##请收藏：.*|（温馨提示：请关闭畅读或阅读模式，否则内容无法正常显示）|本章未完，请点击下一页.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": "class.fk@li",
+            "bookUrl": "tag.a.0@href##/info/(\\d+).html##https://www.51dxs.org/info/$1.html",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "intro": "",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".index@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"body\": \"searchtype=all&searchkey={{key}}&t_btnsearch=\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

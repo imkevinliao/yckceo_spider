@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "tjsyjjzs",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.tjsyjjzs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "header": "",
+        "lastUpdateTime": 1654774435268,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "init": "",
+            "intro": "class.review@html",
+            "tocUrl": "text.查看完整目录@href\n@js:\nindex = java.getElements(\"@@class.directoryArea@p!0\").length>6\n\nif(index){\nid=result.match(/javascript:.*?\\((\\d+),(\\d+)\\)/);\nurl=book.origin+\"/\"+id[1]+'_'+id[2]+'/all.html,';\nverify=java.getVerificationCode(book.origin+\"/mytool/getVerify/?d=\"+Math.random());\noption={\n\"method\":\"POST\",\n\"body\":\"verify=\"+verify+\"&aid=\"+id[2]\n}\nresult=url+JSON.stringify(option)\n}else{result = baseUrl}"
+        },
+        "ruleContent": {
+            "content": "<js>\ncontent={\n    childNode:[],\n    childNodes:\nresult.match(/nrid=\"([^\"]+)\";/)?java.getElements(\"#\"+result.match(/nrid=\"([^\"]+)\";/)[1]+\"@p\").toArray():\"\",\n    UpWz:function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n    },\n    load:function(){\n  this.code=String(result).match(/codeurl=\"(\\d+)\"/)[1];\n        var e =String(java.base64Decode(java.getString('[name=client]@content'))).split(/[A-Z]+%/);\n\n        for (var i = 0; i < e.length; i++) {\n            var k = this.UpWz(e[i], i);\n            this.childNode[k]=this.childNodes[i]\n        }}\n}\nif(baseUrl.match(/verify/)){\nresult=\"如果没获取到目录，说明验证码不对，详情页刷新重新获取验证码\"\n}else{if(baseUrl.match(/\\d+_2\\.html/)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");}else{\nresult=java.getElements(\"#chaptercontent@p\")\n}\n}\n\n</js>",
+            "nextContentUrl": "text.下一页@href##javascript:.*?\\('(\\d+)','(\\d+)','(\\d+_\\d+)'\\);##/$1_$2/$3.html",
+            "replaceRegex": "##\\s*本章尚未完结,请点击下一页继续阅读---->>>\\s*|本章已阅读完毕.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "tag.p.1@text##.*作者：",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "intro": "",
+            "lastChapter": "tag.p.2@text##.*更新：",
+            "name": "tag.p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.p!0||class.directoryArea@p!0@a\n<js>\nif(String(src).match(/验证码不对/)){\nresult=[{\"text\":\"右上角三点刷新重新获取验证码\"}]\n}else if(src.match(/请输入验证码/)){\tjava.setContent(result.toArray().reverse().join(\"\"))\n\tresult = java.getElement(\"a\")\n\t}\nelse{result=result}\n</js>",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href##javascript:.*?\\('(\\d+)','(\\d+)','(\\d+)'\\);##/$1_$2/$3.html"
+        },
+        "searchUrl": "/s.html,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"}",
+        "weight": 0
+    }
+]

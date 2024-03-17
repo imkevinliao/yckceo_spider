@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "fix by h11128\"",
+        "bookSourceGroup": "字数,出版",
+        "bookSourceName": "必读beduu",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.beduu.com",
+        "bookUrlPattern": "",
+        "customOrder": -2085958315,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "文学小说::http://www.beduu.com/wenxue/list-{{page}}.html\n励志心理::http://www.beduu.com/lizhi/list-{{page}}.html\n哲学宗教::http://www.beduu.com/zhexue/list-{{page}}.html\n历史地理::http://www.beduu.com/lishi/list-{{page}}.html\n人物传记::http://www.beduu.com/renwu/list-{{page}}.html",
+        "lastUpdateTime": 1631507676759,
+        "loginUrl": "",
+        "respondTime": 2187,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "class.d_t fl@img@src",
+            "intro": "class.d_a@textNodes",
+            "lastChapter": "class.d_read@tag.a.-1@text",
+            "name": "class.d_t fl@tag.h1.0@text",
+            "wordCount": "class.d_t fl@text##.*大小：|评价.*"
+        },
+        "ruleContent": {
+            "content": "id.view_content_txt@textNodes##.*http://www.beduu.com.*",
+            "imageStyle": "0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.adds@text||class.fr@text##.*作者：|发布时间：.*|大小：.*|（.*）",
+            "bookList": "ul.wrap@li||id.list@dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "class.wrap@tag.p.0@text",
+            "kind": "class.adds@text##栏目：|作者.*",
+            "lastChapter": "",
+            "name": "h5@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.d_read@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.beduu.com/index.php?m=search&c=index&a=init&typeid=2&siteid=1&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

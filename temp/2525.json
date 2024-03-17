@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "手机版📱",
+        "bookSourceName": "91格格党📱",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.91ggd.com",
+        "customOrder": 1274,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1610196212410,
+        "ruleBookInfo": {
+            "author": "//*[@property=\"og:novel:author\"]/@content",
+            "coverUrl": "class.block_img2@tag.img@src",
+            "init": "",
+            "intro": "class.intro_info@text",
+            "kind": "//*[@property=\"og:novel:status\"]/@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "name": "//*[@property=\"og:novel:book_name\"]/@content",
+            "tocUrl": "class.margin_right@tag.a.0@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes",
+            "nextContentUrl": "id.pb_next@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.waps_one",
+            "bookUrl": "class.isfull@tag.a.0@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "class.waps_sort@text##\\(|\\)",
+            "lastChapter": "class.genxin@tag.a@text",
+            "name": "class.isfull@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.91ggd.com/modules/article/waps.php?searchkey={{key}},{\n \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

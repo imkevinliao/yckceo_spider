@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "旅途",
+        "bookSourceGroup": "⌨自制",
+        "bookSourceName": "⌨笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bqg42.cc",
+        "customOrder": 4,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/wuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/wangyou/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生\",\"url\":\"/mm/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本\",\"url\":\"/finish/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "",
+        "lastUpdateTime": 1685285736185,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book_info@dl@dd.0@span.0@text##.*：",
+            "coverUrl": "img@src",
+            "intro": "class.book_about@text##5.*展开全部.*",
+            "kind": "class.book_info@dl@dd.0@span.1@text##.*：",
+            "lastChapter": "class.book_last@dl@dd.0@text",
+            "name": "class.book_box@dl@dt@text",
+            "tocUrl": "class.book_more@a@href",
+            "wordCount": "class.book_info@dl@dd.1@span.1@text##.*："
+        },
+        "ruleContent": {
+            "content": "class.Readarea ReadAjax_content@textNodes##请收藏：ht.*\n@js:result+'🍑下一页'",
+            "nextContentUrl": "text.下一章@href",
+            "replaceRegex": "##\\s*🍑下一页\\s*"
+        },
+        "ruleExplore": {
+            "author": "span.-1@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "a.0@img@src",
+            "intro": "dd@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@a@href##^##https://m.bqg42.cc",
+            "checkKeyWord": "",
+            "coverUrl": ".bookimg@img@src",
+            "intro": ".uptime@text",
+            "name": "h4@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last@dd!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.bqg42.cc/s?q={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

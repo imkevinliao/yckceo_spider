@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "优·天域小说网™",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.tycqxs.com",
+        "customOrder": -39133,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1619261229599,
+        "ruleBookInfo": {
+            "author": "##:author\"[^\"]*\"([^\"]*)##$1###",
+            "coverUrl": "##:image\"[^\"]*\"([^\"]*)##$1###",
+            "intro": "##:description\"[^\"]*\"([^\"]*)##$1###@js:result.replace(/您要是觉得《.*/g, '').replace(/.+精心创作.+并不代表.+书友的观点./, '').replace(/^\\s*/, '<br>')",
+            "kind": "##:category\"[^\"]*\"([^\"]*)[\\s\\S]*?_time\"[^\"]*\"([^\"]*)##$1,$2###",
+            "lastChapter": "##_chapter_name\"[^\"]*\"([^\"]*)##$1###",
+            "name": "##:book_name\"[^\"]*\"([^\"]*)##$1###"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes##推荐.+新书:|手机用户请浏览.+阅读体验."
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".even!0@text",
+            "bookList": "tr!0",
+            "bookUrl": "a!1@href",
+            "coverUrl": "a!1@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+            "kind": ".odd!0@text",
+            "lastChapter": "a!0@text",
+            "name": "a!1@text"
+        },
+        "ruleToc": {
+            "chapterList": "+@css:#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

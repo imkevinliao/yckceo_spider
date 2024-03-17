@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceUrl": "https://www.xxdingdian.com",
+        "bookSourceType": "0",
+        "bookSourceName": "顶点小说",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "疯狂的蜗牛",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.xxdingdian.com/s.php,{\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1625238905501,
+        "ruleSearch": {
+            "bookList": "id.history@tag.li!0",
+            "name": "class.t2@text",
+            "author": "class.t3@text",
+            "lastChapter": "class.t4@text",
+            "bookUrl": "class.t2@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "id.info@h1@text",
+            "author": "//*[@id=\"info\"]/p[1]/a/text()",
+            "intro": "id.intro@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd",
+            "chapterName": "@tag.a@text",
+            "chapterUrl": "@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        }
+    }
+]

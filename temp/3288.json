@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "吴",
+        "bookSourceName": "快读中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kdzw.net/",
+        "bookUrlPattern": "https://www.kdzw.net/\\d+/",
+        "customOrder": -2086018930,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻小说\",\n\t\"url\":\"/xuanhuan/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠小说\",\n\t\"url\":\"/wuxia/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市小说\",\n\t\"url\":\"/dushi/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史小说\",\n\t\"url\":\"/lishi/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻小说\",\n\t\"url\":\"/kehuan/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游小说\",\n\t\"url\":\"/wangyou/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"女频小说\",\n\t\"url\":\"/nvpin/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/qita/<,{{page}}/>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "header": "",
+        "lastUpdateTime": 1680945366649,
+        "respondTime": 7120,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": "[property=\"og:novel:update_time\"]@content"
+        },
+        "ruleContent": {
+            "content": "class.content@html"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list.0@li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "@js:\"https://s1.328888.xyz/2022/09/24/Vu0lF.jpg\"",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text",
+            "wordCount": "class.s5@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dt@span@text",
+            "bookList": "class.item",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-src",
+            "intro": "dd@text",
+            "kind": "0",
+            "name": "dt@a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.kdzw.net/search/?wd={{key}},{\"charset\":\"utf-8\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 7.0; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 T7/10.3 SearchCraft/2.6.2 (baiduboxapp; P1 7.0)\",\"Referer\":\"https://www.kdzw.net/\"},\"webView\":true}",
+        "weight": 0
+    }
+]

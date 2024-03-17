@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "by h11128",
+        "bookSourceGroup": "字数",
+        "bookSourceName": "笔趣阁xbiquge.cc",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xbiquge.cc",
+        "bookUrlPattern": "",
+        "customOrder": -2085958267,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+        "lastUpdateTime": 1631506704063,
+        "loginUrl": "",
+        "respondTime": 2292,
+        "ruleBookInfo": {
+            "author": "tag.p.0@tag.a@text",
+            "coverUrl": "id.fmimg@tag.img.0@src",
+            "intro": "id.intro@textNodes",
+            "kind": "class.con_top@tag,text##.*笔趣阁 > | 说>.*",
+            "lastChapter": "tag.p.3@tag.a@text",
+            "name": "tag.h1@text",
+            "wordCount": "id.info@tag.p.2@text##.*共|\\]"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##笔趣阁.*最新章节！"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslistss@tag.li",
+            "bookUrl": "class.s2@tag.a.0@href",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "class.s3@tag.a.0@text",
+            "name": "class.s2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a.0@text",
+            "chapterUrl": "tag.a.0@href"
+        },
+        "searchUrl": "https://www.xbiquge.cc/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

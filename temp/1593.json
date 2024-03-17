@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "版主",
+        "bookSourceName": "小版主",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.xiaobanzhu.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄幻小说::/sort/1_{{page}}/\n修真小说::/sort/2_{{page}}/\n都市小说::/sort/3_{{page}}/\n穿越小说::/sort/4_{{page}}/\n  藏金阁  ::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 7.1.1; Mi Note 3 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36\"\n}​",
+        "lastUpdateTime": 1669016743762,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@p.2@a@text",
+            "coverUrl": ".block_img2@img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2@p.3@a@text",
+            "lastChapter": ".block_txt2@p.5@a@text",
+            "name": ".block_txt2@h2@a@text",
+            "tocUrl": "text.查看目录@href",
+            "wordCount": ".block_txt2@p.4@text&&.block_txt2@p.4@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\n.*本章未完.*\\n.."
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".line",
+            "bookUrl": "a.1@href",
+            "coverUrl": "",
+            "kind": "a.0@text",
+            "name": "a.1@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"type=articlename&s={{key}}&submit=\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

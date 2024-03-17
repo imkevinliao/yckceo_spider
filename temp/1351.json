@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "_:(´□`」 ∠):_\n二传请注明出处 by ♡abysses♡",
+        "bookSourceGroup": "漫画",
+        "bookSourceName": "🎀图文韩漫[abyssesml]",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://tuwenhanman.com/",
+        "customOrder": 20008967,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "@js:catlist=[]\nJ=org.jsoup.Jsoup.parse(java.ajax(source.getKey()))\ntags=J.select('div:has(div:has(div:has(h2)))>div')\nfor(index=2;index<tags.size();index++){\n\t  clist=tags.get(index).select('ul>li')\n\t  typename=tags.get(index).select('div>h2').text()\n\t  catlist.push({\n\t      \"title\": '◆◇'+String(typename)+'◇◆',\n\t      \"style\": {\n          \"layout_flexGrow\": 1,\n\t         \"layout_flexBasisPercent\": 1\n       }\n\t  })\n\t  for(next=1;next<clist.size();next++){\n\t  \t  info=clist.get(next).select('a').get(0)\n\t  \t  span=info.select('span')\n\t  \t  title=String(span.get(span.size()-1).text())\n\t     catlist.push({\n\t  \t      \"title\": title.replace(/\\s*-.*$/,''),\n\t  \t      \"url\": String(info.attr('href')),\n\t  \t      \"style\": {\n             \"layout_flexGrow\": 1,\n\t            \"layout_flexBasisPercent\": 0.4\n          }\n\t     })\n\t  }\n}\nJSON.stringify(catlist)",
+        "header": "{\"Referer\":\"https://tuwenhanman.com\"}",
+        "lastUpdateTime": 1678475762569,
+        "respondTime": 5130,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "canReName": "true",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=type|status|update_time]@content##\\s.*",
+            "lastChapter": "[property$=chapter_name]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]|^章节目录\\s*",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "div:has(div:has(ul:has(li>a:contains(目录))))>div[0]@img@html",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "li:has(span:contains(作者))@textNodes",
+            "bookList": "div:has(h2:contains(搜索结果))~dl",
+            "bookUrl": "dt:contains(18+)>a@href",
+            "coverUrl": "dt:contains(18+)>a@data-original",
+            "intro": "div:has(span:contains(简介))>p@textNodes",
+            "kind": "li:has(span:contains(分类))@textNodes&&\nli:has(span:contains(时间))@textNodes",
+            "lastChapter": "dd>h1>a[href]@text",
+            "name": "dt:contains(18+)>a>span:not(:contains(18+))@text"
+        },
+        "ruleToc": {
+            "chapterList": "div:has(ul:has(li:contains(目录)))>ul:not(:has(li:contains(目录)))>li>a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "{{org.jsoup.Jsoup.parse(java.ajax(source.getKey())).select('form[name=formsearch]').attr('action')}}?keyword={{key}}&searchtype=titlekeyword&channeltype=0&orderby=&kwtype=0&pagesize=30&typeid=0&TotalResult=500&PageNo={{page}}",
+        "weight": 0
+    }
+]

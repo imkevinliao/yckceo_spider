@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "ฅ՞•ﻌ•՞ฅ",
+        "bookSourceGroup": "👏🏻 特殊",
+        "bookSourceName": "花呗小说📱",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.lianxinw.com",
+        "customOrder": 1505,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1641092601391,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:status\"]@content&&[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content##\\n##·",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "text.目录@href",
+            "wordCount": ".xq_bookne@text##.*字数：|点击.*"
+        },
+        "ruleContent": {
+            "content": "id.center@p@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "dd.1@text##连载",
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "class.lazyload@tag.img@src",
+            "intro": ".book_des@text",
+            "kind": "class.book_other@span.0@text",
+            "lastChapter": "",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://m.lianxinw.com/modules/article/search.php,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "166看书小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.16kbook.co",
+        "bookUrlPattern": "http://www.16kbook.co/[\\d_]+/",
+        "customOrder": 3,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n排行::/rank/\n书库::/class/{{page}}/\n玄幻::/class/xuanhuan/{{page}}/\n武侠::/class/wuxia/{{page}}/\n都市::/class/dushi/{{page}}/\n历史::/class/lishi/{{page}}/\n科幻::/class/kehuan/{{page}}/\n游戏::/class/youxi/{{page}}/\n女生::/class/nvsheng/{{page}}/\n其他::/class/qita/{{page}}/\n全本::/quanben/class/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698461816432,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=lastest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##最近转码严重.*退出阅读模式.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text||.btm@ownText",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "lastChapter": "",
+            "name": "a.1@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dl>a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "formatJs": ""
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

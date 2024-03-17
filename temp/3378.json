@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "零点看书[soruncg]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.soruncg.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1649393721238,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.imgbox@img@src",
+            "init": "",
+            "intro": "class.desc xs-hidden@html"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.txt-list txt-list-row5&&class.s4.1@text",
+            "bookList": "class.txt-list txt-list-row5&&li",
+            "bookUrl": "class.txt-list txt-list-row5&&class.s2.1@a@href",
+            "lastChapter": "class.txt-list txt-list-row5&&class.s3.1@a@text",
+            "name": "class.txt-list txt-list-row5&&class.s2.1@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.listpage&&class.right@tag.a@href"
+        },
+        "searchUrl": "http://www.soruncg.com/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

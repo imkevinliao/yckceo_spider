@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "搜索地址经常换，觉得搜索不能用了就用这源到浏览器搜索一下，把搜索出来的网址替换到搜索页面上最上面的网址比如\n搜索出来网址https://g58xsf.56bok.com/modules/article/csykI1VmraB0Lex.php\n原搜索地址https://g58xsf.56bok.com/modules/article/KcdrS0bX13orSr.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}\n替换后\nhttps://g58xsf.56bok.com/modules/article/csykI1VmraB0Lex.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+        "bookSourceGroup": "📖小说,自",
+        "bookSourceName": "📝明月中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.56bok.com",
+        "customOrder": -79,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; M2011K2C Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.99 Mobile Safari/537.36 T7/12.16 SearchCraft/3.9.1 (Baidu; P1 11)\"}",
+        "lastUpdateTime": 1675396919870,
+        "respondTime": 48263,
+        "ruleBookInfo": {
+            "author": "p:matches(作者：)@text##作者：",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "#mohetext@text##简介\\(点击展开\\/隐藏\\)：",
+            "kind": "class.mohe-content@tag.p.1:2:3@text##.*：|\\d{2}:.*\\d{2}:.*",
+            "lastChapter": "p:matches(最新的：) a@text&&p:matches(更新)@text##简介(.|\\n)*<js>result.replace(/\\n/,'⌚').replace(/\\s*(\\D{2,})-/,'$1')</js>##\\d{2,}:.*|[最后更新于至状态时间连载中:：已完结到]{2,}|.*(?=[分节目录章节]{2,})[:：]*|[\\(（【】）\\)，。\\?·、T\\[\\]…]+|.*hapter|{{book.name}}@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/第(\\d+)章(\\D\\d{2})/,'$1$2').replace(/.*(第.*章).*章(.*)/,'$1 $2')",
+            "name": "h1@textNodes",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "div[class^=back_r0]@html||div[class^=back_r]@html##：，，，|.*html.*\\n.*。小说网手机版阅读网址：.*|最近转码严重，让我们更有动力，更新更快，麻烦你动动小手退出模式。谢谢|{{book.name}}|{{title}}|第[零一二两三四五六七八九十百千万\\d+ ]+章.*",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": ".line",
+            "bookUrl": "a@href",
+            "checkKeyWord": "柯学",
+            "coverUrl": "a@href<js>'https://img.56bok.com/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3}).html/,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+            "intro": "",
+            "kind": "##.*\\[(.*)\\].*##$1###",
+            "lastChapter": "a@href<js>java.ajax(result)\n</js>p:matches(最新的：) a@text&&p:matches(更新)@text##简介(.|\\n)*\n<js>result.replace(/\\n/,'⌚').replace(/\\s*(\\D{2,})-/,'$1')</js>##\\d{2,}:.*|[最后更新于至状态时间连载中:：已完结到]{2,}|.*(?=[分节目录章节]{2,})[:：]*|[\\(（【】）\\)，。\\?·、T\\[\\]…]+|.*hapter|{{book.name}}@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/第(\\d+)章(\\D\\d{2})/,'$1$2').replace(/.*(第.*章).*章(.*)/,'$1 $2')",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".readlist a",
+            "chapterName": "text",
+            "chapterUrl": "onclick##.*?'([^']+.html).*##$1",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://g58xsf.56bok.com/modules/article/P7T2adk_TiyHaJw8FoP_3VLLpwc_2FVkdJC.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+        "weight": 0
+    }
+]

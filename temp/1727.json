@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "搜索间隔：30s\n如果不可以搜索请点击上方的三个“· ”，然后点击“清除Cookie”，再尝试一下",
+        "bookSourceGroup": "📜",
+        "bookSourceName": "📜格格党🔹♀",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.rdqsdy.net/##@遇知",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\"title\":\"玄幻\",\"url\":\"/sort/1/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/sort/2/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/sort/3/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/sort/4/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/sort/5/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏\",\"url\":\"/sort/6/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/sort/7/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n]",
+        "header": "",
+        "lastUpdateTime": 1680956168692,
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "🔔 更新时间：{{@@[property=\"og:novel:update_time\"]@content}}\n📂 内容简介：{{@@.intro@text}}##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": ".novel_info_title span.1@text"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "i@text",
+            "bookList": "ul li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": ".indent@text",
+            "kind": "{{@@.img_span@text## /.*}}\n{{@@.img_span@text##.*/}}\n{{@@em.1@text}}",
+            "name": "h2@text",
+            "wordCount": "em.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.0@textNodes",
+            "bookList": ".searchresult",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": ".searchresult_p@text",
+            "kind": "{{@@.img_span@text## /.*}}\n{{@@.img_span@text##.*/}}\n{{@@.s_gray@text##.*字|\\>}}",
+            "lastChapter": "p.-1@text",
+            "name": "h3@text",
+            "wordCount": ".s_gray@text##字.*##字"
+        },
+        "ruleToc": {
+            "chapterList": "id.ul_all_chapters@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/,\n{\n  \"body\": \"searchkey={{key}}&searchtype=all\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⁉️ 自制",
+        "bookSourceName": "伍九文学(易崩溃)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.59wt.com",
+        "customOrder": 28850,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "　耽美　::/wapsort/9_{{page}}.html\n　高辣　::/wapsort/11_{{page}}.html\n　言情　::/wapsort/3_{{page}}.html\n　百合　::/wapsort/17_{{page}}.html\n　种田　::/wapsort/14_{{page}}.html\n　修真　::/wapsort/2_{{page}}.html\n　玄幻　::/wapsort/1_{{page}}.html\n　高干　::/wapsort/15_{{page}}.html",
+        "lastUpdateTime": 1633172349641,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h2.1@text",
+            "intro": "pre@text",
+            "lastChapter": ".article_info_td.0@div.-2@a@text&&.article_info_td.0@div.-1@text##\n更新时间：20##▪️",
+            "name": ".h_nav_items@li.-1@text",
+            "tocUrl": "text.开始阅读@href\n@js:\nresult.replace(/\\/novel\\/(\\d+)\\/.*html/,'https://wap.59wt.com/novel/list/$1/1.html')",
+            "wordCount": ".article_info_td.1@div.0@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "intro": "",
+            "lastChapter": ""
+        },
+        "ruleSearch": {
+            "author": "strong@text",
+            "bookList": ".common-bookele",
+            "bookUrl": "a.0@href",
+            "intro": ".abstract@text",
+            "kind": "p.1@text##栏目：",
+            "lastChapter": "time@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://wap.59wt.com/s.php,{\n'method': 'POST',\n'body': 'type=articlename&s={{key}}'\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "//同站：阅读之家：https://ibusread.com/",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "酷客村",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://kukecun.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "轻小说::/novel/list/229\n官场小说::/novel/list/228\n现代小说::/novel/list/227\n古典文学::/novel/list/226\n政治经济::/novel/list/225\n战争军事::/novel/list/224\n国学古籍::/novel/list/223\n作品集::/novel/list/222\n日语读物::/novel/list/221\n文学理论::/novel/list/220\n宗教哲学::/novel/list/219\n诗歌戏曲::/novel/list/218\n科普学习::/novel/list/217\n中国历史::/novel/list/216\n世界历史::/novel/list/215\n纪实报告::/novel/list/214\n武侠小说::/novel/list/213\n当代小说::/novel/list/212\n科幻小说::/novel/list/211\n外国小说::/novel/list/210\n社会心理::/novel/list/209\n青春都市::/novel/list/208\n寓言童话::/novel/list/207\n网络玄幻::/novel/list/206\n惊悚悬疑::/novel/list/205\n侦探推理::/novel/list/204\n历史小说::/novel/list/203\n言情小说::/novel/list/202\n随笔杂谈::/novel/list/201\n传记回忆::/novel/list/200\n玄门::/novel/list/97\n商业经济::/novel/list/110\n道听途说::/novel/list/101\n舞文弄墨::/novel/list/102\nBLGL::/novel/list/105\n僵尸鬼话::/novel/list/103\n战争军事::/novel/list/96\n历史演说::/novel/list/106\n情感生活::/novel/list/104",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1699684751696,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "span.auth@text",
+            "canReName": "1",
+            "init": "",
+            "intro": ".intro p@text",
+            "kind": ".bookinfo dd.1@text&&\nspan.tag@text&&dd.d1@text",
+            "name": "h1@text",
+            "tocUrl": "nav.g-nav-control a.0@href"
+        },
+        "ruleContent": {
+            "content": ".article@html||.content_zanzhu@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".info>span@text",
+            "bookList": "ul.g-list li",
+            "bookUrl": "a@href",
+            "kind": "span.tag@text",
+            "name": "h2.name@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list li a",
+            "chapterName": "text",
+            "chapterUrl": "href\n@js:\nvar data=result.split(\"target=\")[1],\nurl=decodeURIComponent(data);\nurl+\",{'webView': true}\";",
+            "nextTocUrl": ".section li a@href"
+        },
+        "searchUrl": "https://kukecun.com/search?name={{key}}&tags=&type=3",
+        "variableComment": "",
+        "weight": 0
+    }
+]

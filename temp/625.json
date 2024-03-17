@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "这个是手机版的，电脑版网址http://www.3qdu.com搜索页的作者和最新章节规则用的是详情页的，会增加搜索时间，不用可以删除。",
+        "bookSourceGroup": "📖  小说,验",
+        "bookSourceName": "3Q读书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://sk.3qdu.com",
+        "customOrder": 188,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "🍁                        标签                                   🍁::\n玄幻小说::/xuanhuan/{{page}}\n仙侠小说::/wuxia/{{page}}\n都市小说::/dushi/{{page}}\n历史小说::/junshi/{{page}}\n游戏小说::/wangyou/{{page}}\n科幻小说::/kehuan/{{page}}\n女生小说::/mm/{{page}}\n其他小说::/qita/{{page}}\n   完  本   ::/full/{{page}}/\n☘️                        排行榜                               ☘️::\n日点击榜::/dayvisit/{{page}}/\n周点击榜::/weekvisit/{{page}}/\n月点击榜::/monthvisit/{{page}}/\n总点击榜::/allvisit/{{page}}/\n总收藏榜::/goodnum/{{page}}/\n字数排行::/size/{{page}}/\n日推荐榜::/dayvote/{{page}}/\n周推荐榜::/weekvote/{{page}}/\n月推荐榜::/monthvote/{{page}}/\n总推荐榜::/allvote/{{page}}/\n最新入库::/postdate/{{page}}/\n最近更新::/lastupdate/{{page}}/",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n}",
+        "lastUpdateTime": 1645447688827,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".tab@class.p1.1@text##.*：",
+            "coverUrl": ".tu@img@src",
+            "intro": "class.jj@class.p2@text##小提示：TXT下载不需要.*可以直接点击下载.*",
+            "kind": ".tab1@tag.p.0:1@text",
+            "lastChapter": ".info_chapters@class.p2.0@tag.a.0@text&&[property=\"og:novel:update_time\"]@content\n##最后更新：|更新(于|至)|.*卷.|正文.|.*目录.|.*章节|(更|最)新|时间|卷\\d.|\\d{2}:.*|求.*\\(.*\\)|…|（|）|(:|：)|\\(|.*Chapter|\\)|。|连载|\\n|T\n@js:result.replace(/、/,'.').replace(/正文\\s/,'').replace(/.*(第\\d{1,}章).*章(.*)/,'$1$2').replace(/.*(第.*章)(.*)/,'◆$1◆$2').replace(/(\\d{2,4}-\\d{2}.*)/,'⌚$1').replace(/(.*)，\\s*/,'$1').replace(/-\\s(\\d{2,4}-\\d{2}.*)/,'$1')",
+            "name": ".tab@class.p1.0@text",
+            "tocUrl": "",
+            "wordCount": ".tab1@tag.p.2@text"
+        },
+        "ruleContent": {
+            "content": ".novelcontent@html##本章已完 .*|本章未完.*",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##一秒记住.*|.*首发最新."
+        },
+        "ruleExplore": {
+            "author": ".right@class.p4@text||tag.a.2@text",
+            "bookList": ".tt||.content_link",
+            "bookUrl": ".right@class.p1@tag.a@href||tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "intro": ".right@class.p5@text",
+            "kind": ".right@class.p2@text||tag.a.0@text##\\[|\\]",
+            "lastChapter": "",
+            "name": ".right@class.p1@text||tag.a.1@text",
+            "wordCount": ".right@class.p3@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a@href##(.*)##http://sk.3qdu.com$1###<js>java.ajax(result)\n</js>.tab@class.p1.1@text##.*：",
+            "bookList": ".search_list",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "我的马甲",
+            "coverUrl": "tag.a@href##.+\\D((\\d+)\\d{3})\\D##http://www.3qdu.com/files/article/image/$2/$1/$1s.jpg###",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "tag.a@href##(.*)##http://sk.3qdu.com$1###<js>java.ajax(result)\n</js>.info_chapters@class.p2.0@tag.a.0@text&&[property=\"og:novel:update_time\"]@content\n##最后更新：|更新(于|至)|.*卷.|正文.|.*目录.|.*章节|(更|最)新|时间|卷\\d.|\\d{2}:.*|求.*\\(.*\\)|…|（|）|(:|：)|\\(|.*Chapter|\\)|。|连载|\\n|T\n@js:result.replace(/、/,'.').replace(/正文\\s/,'').replace(/.*(第\\d{1,}章).*章(.*)/,'$1$2').replace(/.*(第.*章)(.*)/,'◆$1◆$2').replace(/(\\d{2,4}-\\d{2}.*)/,'⌚$1').replace(/(.*)，\\s*/,'$1').replace(/-\\s(\\d{2,4}-\\d{2}.*)/,'$1')",
+            "name": "@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".info_chapters@class.p2.1@tag.a",
+            "chapterName": "text\n##最后更新：|更新(于|至)|.*卷.|正文.|.*目录.|.*章节|(更|最)新|时间|卷\\d.|\\d{2}:.*|求.*\\(.*\\)|…|（|）|(:|：)|\\(|.*Chapter|\\)|。|连载|\\n|T\n@js:result.replace(/、/,'.').replace(/正文\\s/,'').replace(/.*(第\\d{1,}章).*章(.*)/,'$1$2').replace(/.*(第.*章)(.*)/,'◆$1◆$2').replace(/(\\d{2,4}-\\d{2}.*)/,'⌚$1').replace(/(.*)，\\s*/,'$1').replace(/-\\s(\\d{2,4}-\\d{2}.*)/,'$1')",
+            "chapterUrl": "href",
+            "nextTocUrl": ".right.0@href"
+        },
+        "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

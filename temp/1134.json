@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "W",
+        "bookSourceName": "天天书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ttshu8.org",
+        "customOrder": 8,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1626700297931,
+        "ruleBookInfo": {
+            "author": "h1@a@text",
+            "canReName": "",
+            "coverUrl": ".box_intro@img@src",
+            "intro": ".intro@textNodes##关于.*\\n",
+            "kind": ".infotop@tag.td.0@textNodes",
+            "lastChapter": "#qvod-pl-list@tag.li.0@text",
+            "name": "h1@textNodes",
+            "tocUrl": ".btopt a@href",
+            "wordCount": ".infotop@tag.td.1@textNodes"
+        },
+        "ruleContent": {
+            "content": "#content p@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": ".title@span@text",
+            "bookList": "#alistbox",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "",
+            "lastChapter": ".sys@a@text",
+            "name": "h2@a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n'method': 'POST',\n'body': 's=articlename&searchkey={{key}}&Sumbit='\n}",
+        "weight": 0
+    }
+]

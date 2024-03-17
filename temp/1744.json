@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "言情,🎉️精选",
+        "bookSourceName": "🎉怜见小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.lianjianxsw.com/",
+        "bookUrlPattern": "",
+        "customOrder": -240800,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"全部小说\",\"url\":\"http://www.lianjianxsw.com/rankList?type=%E5%85%A8%E9%83%A8&page={{page}}&state=0\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"都市小说\",\"url\":\"http://www.lianjianxsw.com/rankList?type=%E9%83%BD%E5%B8%82&page={{page}}&state=0\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"科幻小说\",\"url\":\"http://www.lianjianxsw.com/rankList?type=%E7%A7%91%E5%B9%BB&page={{page}}&state=0\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"女频小说\",\"url\":\"http://www.lianjianxsw.com/rankList?type=%E5%A5%B3%E9%A2%91&page={{page}}&state=0\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"历史小说\",\"url\":\"http://www.lianjianxsw.com/rankList?type=%E5%8E%86%E5%8F%B2&page={{page}}&state=0\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"网游小说\",\"url\":\"http://www.lianjianxsw.com/rankList?type=%E7%BD%91%E6%B8%B8&page={{page}}&state=0\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"玄幻小说\",\"url\":\"http://www.lianjianxsw.com/rankList?type=%E7%8E%84%E5%B9%BB&page={{page}}&state=0\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"其他小说\",\"url\":\"http://www.lianjianxsw.com/rankList?type=%E5%85%B6%E4%BB%96&page={{page}}&state=0\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"修真小说\",\"url\":\"http://www.lianjianxsw.com/rankList?type=%E4%BF%AE%E7%9C%9F&page={{page}}&state=0\",\"style\":{\"layout_flexGrow\":0.25}}]",
+        "header": "",
+        "lastUpdateTime": 1680954701352,
+        "loginUrl": "",
+        "respondTime": 360025,
+        "ruleBookInfo": {
+            "author": "$.author",
+            "coverUrl": "http://www.lianjianxsw.com/pic/{{$._id}}.jpg",
+            "init": "$.data.book",
+            "intro": "$.intro",
+            "kind": "$.type&&$.update_state&&$.updatetime",
+            "lastChapter": "$.last_chapter_name",
+            "name": "$.name",
+            "tocUrl": "http://www.lianjianxsw.com/getCataLogs?bookid={{$._id}}&page=1&limit={{$.total_num}}"
+        },
+        "ruleContent": {
+            "content": "data.chapterInfo.content<js>java.aesBase64DecodeToString(result,\"6CE93717FBEA3E4F\",\"AES/CBC/NoPadding\",\"6CE93717FBEA3E4F\")</js>##\\#\\#\\#\\$\\$\\$##<br>",
+            "replaceRegex": "##.*第.*章.*|最新章节.*|公众号.*|送红包.*"
+        },
+        "ruleExplore": {
+            "author": "$.author",
+            "bookList": "$.data",
+            "bookUrl": "http://www.lianjianxsw.com/bookInfo?bookid={{$._id}}",
+            "coverUrl": "http://www.lianjianxsw.com/pic/{{$._id}}.jpg",
+            "intro": "$.intro",
+            "name": "$.name@put:{bid:_id}"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.data",
+            "bookUrl": "http://www.lianjianxsw.com/bookInfo?bookid={{$._id}}",
+            "checkKeyWord": "",
+            "coverUrl": "http://www.lianjianxsw.com/pic/{{$._id}}.jpg",
+            "intro": "$.intro",
+            "kind": "0",
+            "lastChapter": "{{baseUrl.match(/(^.*?com)/)[1]}}/bookInfo?bookid={{$._id}}\n@js:\n$=JSON.parse(java.ajax(result)).data.book\n$.last_chapter_name+\" • \"+String($.updatetime).replace(/\\s.*/,'')",
+            "name": "$.name@put:{bid:_id}"
+        },
+        "ruleToc": {
+            "chapterList": "$.data.list[*]",
+            "chapterName": "$.name",
+            "chapterUrl": "http://www.lianjianxsw.com/getContent?bookid=@get:{bid}&chapterid={{$._id}}"
+        },
+        "searchUrl": "@js:\noption={\"method\":\"POST\",\"body\":{\"version\":\"2.0\"}}\nurl=\"http://\"+JSON.parse(java.ajax(\"http://www.zmtt.net/checkUpdate,\"+JSON.stringify(option))).data.url\n//java.put(\"url\",url)\noption={\"method\":\"POST\",\"body\":{\"keyword\":key}}\nurl+\"search,\"+JSON.stringify(option)",
+        "weight": 0
+    }
+]

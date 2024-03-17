@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "正文需要二次刷新，因为网站正文动态加载",
+        "bookSourceGroup": "☁️可用,失效,☁️修正",
+        "bookSourceName": "☁小疙瘩[动态加载]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xgedaa.com",
+        "customOrder": -88961090,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/p{{page}}.html\n修真::/wuxia/p{{page}}.html\n都市::/dushi/p{{page}}.html\n历史::/lishi/p{{page}}.html\n网游::/wangyou/p{{page}}.html\n科幻::/kehuan/p{{page}}.html\n女生::/nvpin/p{{page}}.html\n恐怖悬疑::/kongbu/p{{page}}.html\n其他综合::/qita/p{{page}}.html\n二次元::/yuan/p{{page}}.html\n校园::/xiaoyuan/p{{page}}.html\n搞笑::/gaoxiao/p{{page}}.html\n同人::/tongren/p{{page}}.html\n全本::/quanben/p{{page}}.html",
+        "lastUpdateTime": 1646227452928,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@p!-1:-2:-3@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text",
+            "bookList": "class.booklist@tag.ul.0@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.a.0@href##/a(\\d+)(\\d{3})/##https://cdn.xgeda.com/uploads/$1/$1$2.jpg",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.span@text",
+            "bookList": "class.cf@dl",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.p@text",
+            "lastChapter": "",
+            "name": "tag.h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.mulu.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href||href##$##,{'webView': true}"
+        },
+        "searchUrl": "https://www.xgedaa.com/home/search,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"action=search&q={{key}}\"\n}",
+        "weight": 0
+    }
+]

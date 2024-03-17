@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "合集,111",
+        "bookSourceName": "12xs  线路2",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.12xs.com/##线路2",
+        "bookUrlPattern": "",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1696889428786,
+        "loginUrl": "",
+        "respondTime": 2596,
+        "ruleBookInfo": {
+            "author": "class.imgbox@tag.img@alt##(.*)作者：(.*)##$2",
+            "coverUrl": "class.imgbox@tag.img@src##(.*)(.*)##https://www.777zw.cc$1$2###(.*)jpg(.*)####$1jpg",
+            "intro": "class.detail-box@tag.div.2@text##(.*)简介(.*)##$2",
+            "kind": "class.xs-show@class.xs-show@html##(.*)nbsp;态：(.*)</p>(.*)##$2$3##$2##(.*)nbsp;(.*)&##$2",
+            "name": "tag.h2@text##(.*)作者：(.*)##$1"
+        },
+        "ruleContent": {
+            "content": "id.content@html##.*\\n.*精校小说.*\\n.*.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.result_time@text",
+            "bookList": "class.result_u1@tag.li",
+            "bookUrl": "@tag.li.2@tag.a@href",
+            "intro": "class.result_asset@text",
+            "kind": "",
+            "name": "tag.a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.book-item",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.12xs.top/book/{{key}}/{{page}}",
+        "weight": 0
+    }
+]

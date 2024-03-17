@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍩精品",
+        "bookSourceName": "🍩 笔下文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bixiawenxue.org/",
+        "customOrder": 13,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::https://www.bixiawenxue.org/fenlei/1_{{page}}/\n仙侠小说::https://www.bixiawenxue.org/fenlei/2_{{page}}/\n都市小说::https://www.bixiawenxue.org/fenlei/3_{{page}}\n历史小说::https://www.bixiawenxue.org/fenlei/4_{{page}}/\n网游小说::https://www.bixiawenxue.org/fenlei/5_{{page}}/\n科幻小说::https://www.bixiawenxue.org/fenlei/6_{{page}}/\n恐怖小说::https://www.bixiawenxue.org/fenlei/7_{{page}}/\n其他小说::https://www.bixiawenxue.org/fenlei/8_{{page}}/\n完本小说::https://www.bixiawenxue.org/quanben/{{page}}",
+        "lastUpdateTime": 1619223023732,
+        "ruleBookInfo": {
+            "author": "small@text##\\/|",
+            "coverUrl": "class.img_in@img@src",
+            "intro": "id.intro@text",
+            "kind": "class.blue.1@text",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "h1@text##/.*"
+        },
+        "ruleContent": {
+            "content": "id.content@html##笔下文学网.*|最快更新.*|最新章节.*"
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.titlelist@li",
+            "bookUrl": "class.zp@tag.a@href",
+            "lastChapter": "class.zz@text",
+            "name": "class.zp@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "tag.td.0@tag.a@href",
+            "lastChapter": "tag.td.1@tag.a@text",
+            "name": "tag.td.0@tag.a@text",
+            "wordCount": "tag.td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.zjlist@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.bixiawenxue.org/modules/article/search.php?searchkey={{key}}&submit={{key}},{\"charset\": \"gbk\"}",
+        "weight": 0
+    }
+]

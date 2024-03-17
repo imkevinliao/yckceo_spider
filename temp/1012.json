@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "梦想者",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.mxz.cc/qb/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1630829820806,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".p_author@a@text",
+            "coverUrl": "#bookimg@img@src",
+            "intro": "#bookintro@p@text",
+            "kind": "#count@span.0:2:3@text",
+            "lastChapter": ".chaw@li.0@a@text",
+            "name": ".d_title@h1@text",
+            "wordCount": "#count@span.1@text"
+        },
+        "ruleContent": {
+            "content": "#TextContent p@html##如果.*朋友吧！",
+            "nextContentUrl": "#next_url@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "span.2@text",
+            "bookList": "#nr",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@data-original",
+            "intro": "dd.2@text",
+            "kind": "span.1:3@text",
+            "lastChapter": "dd.3@a@text",
+            "name": "h3@a@text",
+            "wordCount": "span.4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chaw_c li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.mxz.cc/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

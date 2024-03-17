@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "W",
+        "bookSourceName": "五五中文网x55zw",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.x55zw.org",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1617584957170,
+        "ruleBookInfo": {
+            "author": "##作者：([^<]+)<##$1###",
+            "coverUrl": "img@src",
+            "intro": "class.lb_jj@tag.div.-1@textNodes",
+            "kind": "##分类：([^<]+)<##$1###",
+            "lastChapter": "class.chapter9@tag.a.1@text",
+            "name": "class.lb_fm@tag.div.0@text",
+            "tocUrl": "<js>\nbaseUrl.replace(/book\\//,\"book-\").replace(/.html/,\"\\/\")\n</js>",
+            "wordCount": "##类别：([^<]+)<##$1###"
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes",
+            "imageStyle": "full"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.waps_one",
+            "bookUrl": "class.waps_name@a@href",
+            "kind": "class.waps_sort@text&&class.waps_full_0@text##\\(|\\)",
+            "lastChapter": "tag.a.-1@text",
+            "name": "class.waps_name@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "##\\(第1\\/([\\d]+?)页\\)当##$1###\n@js:\nn=parseInt(result);\nid=baseUrl.match(/book-([\\d]+)/)[1];\nlist=[];\nfor(i=2;i<=n;i++)\n{list.push(\"https://m.x55zw.org/wapbook-\"+id+\"_\"+i+\"/\");}\nlist"
+        },
+        "searchUrl": "/modules/article/waps.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchtype=articlename&searchkey={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

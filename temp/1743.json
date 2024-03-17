@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "和笔趣阁同库，发现没笔趣阁好。",
+        "bookSourceName": "琅琊小说(笔趣阁)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://langyaxiaoshuo.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "@js:\nsort=[];\npush=(title,url,type)=> sort.push(JSON.stringify({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: 1,\n\t\t\t\tlayout_flexBasisPercent: type\n\t\t\t}\n\t}));\n$$=(uri,body)=>`http://langyaxiaoshuo.com/cruisereader/api/book/${uri},{\"body\":'{${body},\"page\":{{page}\\}}',\"method\":\"POST\"}`;\npush('༺ˇ»`ʚ排行ɞ´«ˇ༻','',1);\n[\"热门连载\",\"抖音热书\",\"高分神作\",\"微信热书\",\"完结精选\",\"豆瓣高分\"].map((title,id)=>{\n\t\tpush(title, $$(\"ranking/detail\", '\"rankingType\":'+id), 0.4);\n\t});\npush('༺ˇ»`ʚ分类ɞ´«ˇ༻','',1);\n[\"玄幻\", \"武侠\", \"都市\", \"历史\", \"科幻\", \"网游\", \"女生\", \"同人\"].map((title,id)=>{\n\t\tid++;if(id==8)id=66;\n\t\tpush(title, $$(\"bookListByCategory\", '\"id\":'+id), 0.4);\n\t});\n\"[\"+sort.toString()+\"]\";",
+        "header": "{\n\t\"user-agent\": \"Dart/2.19 (dart:io)\",\n\t\"content-type\": \"application/json; charset=utf-8\"\n}",
+        "lastUpdateTime": 1681393419430,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "<br>{{book.intro}}",
+            "lastChapter": "data[-1].name"
+        },
+        "ruleContent": {
+            "content": "data.content"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "data.books||data||$",
+            "bookUrl": "http://langyaxiaoshuo.com/cruisereader/api/book/all/chapters,{\n  \"body\": {\"bookId\":\"{{$.bookId}}\"},\n  \"method\": \"POST\"\n}",
+            "coverUrl": "coverUrl",
+            "intro": "bookDesc",
+            "name": "bookName"
+        },
+        "ruleToc": {
+            "chapterList": "data",
+            "chapterName": "name",
+            "chapterUrl": "http://langyaxiaoshuo.com/cruisereader/api/content/chapterContent/detail,{\n  \"body\": {\"bookId\":\"{{$.bookId}}\",\"chapterId\":\"{{$.chapterId}}\"},\n  \"method\": \"POST\"\n}"
+        },
+        "searchUrl": "http://langyaxiaoshuo.com/cruisereader/api/home/search,{\n  \"body\": {\"keyword\":\"{{key}}\"},\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

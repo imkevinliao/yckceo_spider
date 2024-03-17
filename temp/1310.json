@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceGroup": "new",
+        "bookSourceName": "99有声",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://mmm.092game.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\"\n}",
+        "lastUpdateTime": 1680255833328,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "//meta[@property=\"og:image\"]/@content",
+            "intro": "//meta[@property=\"og:description\"]/@content",
+            "kind": "//meta[@property=\"og:novel:category\"]/@content",
+            "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+            "name": "",
+            "tocUrl": ".ablum_read@tag.span.1@a@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": ".searchresult@p",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/modules/article/wap_search.php,{\n  \"method\": \"POST\",\n  \"charset\": \"gbk\",\n  \"body\": \"type=articlename&searchkey={{key}}&submit=\"\n}\n",
+        "weight": 0
+    }
+]

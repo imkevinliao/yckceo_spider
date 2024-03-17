@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "gcopy",
+        "bookSourceGroup": "精选",
+        "bookSourceName": "青豆小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xinqingdou.cc",
+        "bookUrlPattern": "http://www.xinqingdou.cc/\\d+/",
+        "customOrder": -19867,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "@js:\nlet 类别='全部分类 玄幻奇幻 武侠仙侠 都市生活 历史军事 游戏竞技 科幻未来 恐怖悬疑 二次元 经典短篇 古代言情 现代言情 幻想奇缘 浪漫青春 网络情缘 科幻空间 鬼怪灵异 N次元 言情美文'.split(' ')\nlet 榜单='默认 总点击 月点击 周点击 日点击 总推荐 月推荐 周推荐 日推荐 总收藏 字数 入库'.split(' ')\nlet bdField='0,allvisit,monthvisit,weekvisit,dayvisit,allvote,monthvote,weekvote,dayvote,goodnum,size,postdate'.split(',')\nlet 全部榜单=[`{\"title\":\"↓状态：全部↓\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}`]\nlet 连载榜单=[`{\"title\":\"↓连载↓\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}`]\nlet 完本榜单=[`{\"title\":\"↓完本↓\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}`]\nfor(let i=0;i<类别.length;i++){\n  全部榜单.push(`{\"title\":\"`+类别[i]+`\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}`)\n  for(let j=0;j<bdField.length;j++){\n    全部榜单.push(`{\"title\":\"`+榜单[j]+`\",\"url\":\"/shuku/`+bdField[j]+'_'+i+`_0_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}`)\n  }\n}\nfor(let i=0;i<类别.length;i++){\n  连载榜单.push(`{\"title\":\"`+类别[i]+`\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}`)\n  for(let j=0;j<bdField.length;j++){\n    连载榜单.push(`{\"title\":\"`+榜单[j]+`\",\"url\":\"/shuku/`+bdField[j]+'_'+i+`_1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}`)\n  }\n}\nfor(let i=0;i<类别.length;i++){\n  完本榜单.push(`{\"title\":\"`+类别[i]+`\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}`)\n  for(let j=0;j<bdField.length;j++){\n    完本榜单.push(`{\"title\":\"`+榜单[j]+`\",\"url\":\"/shuku/`+bdField[j]+'_'+i+`_2_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}`)\n  }\n}\n  let list=全部榜单.concat(完本榜单,连载榜单)\n   '['+ list.join(',') +']'\n",
+        "lastUpdateTime": 1652177660886,
+        "respondTime": 1896,
+        "ruleBookInfo": {
+            "coverUrl": "class.pic@img@src",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": ".btopt@a@text",
+            "wordCount": ".top@span.1@ownText"
+        },
+        "ruleContent": {
+            "content": "#content>p@text##喜欢.*青豆小说网更新速度最快。",
+            "imageStyle": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".title span a@text",
+            "bookList": "#alistbox",
+            "bookUrl": "h2 a@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "lastChapter": ".sys a@text",
+            "name": "h2 a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".link_14 dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\r\n  \"method\": \"POST\",\r\n  \"body\": \"searchkey={{key}}\",\n  \"headers\":{\n\"Cookie\":\"Hm_lvt_45a480524e18a52ba8e23a7c664d8628=1648569216; Hm_lpvt_45a480524e18a52ba8e23a7c664d8628=1648605538\"}\r\n}",
+        "weight": 0
+    }
+]

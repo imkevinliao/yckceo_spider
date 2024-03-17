@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "IOS阅读APP源阅读交流:103120951\n\nbt--692",
+        "bookSourceName": "23xo",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.23xo.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::http://m.23xo.com/sort_xuanhuan_{{page}}/\n修真小说::http://m.23xo.com/sort_xiuzhen_{{page}}/\n都市小说::http://m.23xo.com/sort_dushi_{{page}}/\n历史小说::http://m.23xo.com/sort_lishi_{{page}}/\n科幻小说::http://m.23xo.com/sort_kehuan_{{page}}/\n竞技小说::http://m.23xo.com/sort_jingji_{{page}}/\n更多小说::http://m.23xo.com/sort_qita_{{page}}/",
+        "lastUpdateTime": 1639751985257,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "class.info@tag.div.2@span@text",
+            "lastChapter": "class.newlist.0@tag.ul@li.0@a@text"
+        },
+        "ruleContent": {
+            "content": "id.WuXian@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "class.book-img@tag.img@data-src",
+            "intro": "class.intro_line@text",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.23xo.com/search/,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

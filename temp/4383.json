@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "青紫蝉/格格党",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qingzichan.net",
+        "bookUrlPattern": "http://www.qingzichan.net/ggd/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔幻::/sort/xhtxt/{{page}}.html\n武侠仙侠::/sort/wxtxt/{{page}}.html\n都市言情::/sort/dstxt/{{page}}.html\n历史军事::/sort/lstxt/{{page}}.html\n网游竞技::/sort/wytxt/{{page}}.html\n科幻灵异::/sort/khtxt/{{page}}.html\n其它类型::/sort/qttxt/{{page}}.html\n女生频道::/sort/nstxt/{{page}}.html\n完本小说::/full/all/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698744284081,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".infotype a.0@text",
+            "coverUrl": ".infohead img@src",
+            "intro": ".intro p@text",
+            "kind": ".infotype p.1:2@text##.*：",
+            "lastChapter": ".infotype a.-1@text",
+            "name": ".cataloginfo h3@text",
+            "tocUrl": ".gochapter a@href"
+        },
+        "ruleContent": {
+            "content": ".articlecontent>p@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".article",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text",
+            "kind": "0",
+            "name": "h6@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}/search,{\n  \"body\": \"searchkey={{key}}&type=articlename\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

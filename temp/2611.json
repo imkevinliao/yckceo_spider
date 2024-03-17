@@ -1,0 +1,29 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "笔下乐",
+        "bookSourceUrl": "https://m.bixiale.com",
+        "enable": false,
+        "ruleBookContent": "id.content@textNodes",
+        "ruleBookLastChapter": "class.article@tag.li.2@a@text",
+        "ruleChapterList": "id.listchapter@dd@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "text.目录列表@href",
+        "ruleChapterUrlNext": "text.下一页@href",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href#.*/(\\d+)/(\\d+)_(\\d+).html.*#/$1/$2_$3.html",
+        "ruleCoverUrl": "class.infoimg@img@src",
+        "ruleFindUrl": "最近更新::https://m.bixiale.com/wenxue/top_lastupdate_searchPage.html\n最新入库::https://m.bixiale.com/wenxue/top_postdate_searchPage.html\n总点击榜::https://m.bixiale.com/wenxue/top_allvisit_searchPage.html\n总收藏榜::https://m.bixiale.com/wenxue/top_goodnum_searchPage.html\n总推荐榜::https://m.bixiale.com/wenxue/top_allvote_searchPage.html\n总字数榜::https://m.bixiale.com/wenxue/top_size_searchPage.html\n全部小说::https://m.bixiale.com/wenxue/allbook_searchPage.html\n全本小说::https://m.bixiale.com/wenxue/full_searchPage.html\n玄幻魔法::https://m.bixiale.com/wenxue/sort_1_searchPage.html\n仙侠修真::https://m.bixiale.com/wenxue/sort_2_searchPage.html\n都市言情::https://m.bixiale.com/wenxue/sort_3_searchPage.html\n历史军事::https://m.bixiale.com/wenxue/sort_4_searchPage.html\n网游竞技::https://m.bixiale.com/wenxue/sort_5_searchPage.html\n科幻小说::https://m.bixiale.com/wenxue/sort_6_searchPage.html\n恐怖灵异::https://m.bixiale.com/wenxue/sort_7_searchPage.html\n其他小说::https://m.bixiale.com/wenxue/sort_8_searchPage.html",
+        "ruleIntroduce": "class.jianjie@textNodes#.*好看小说：",
+        "ruleSearchAuthor": "tag.li.1@a@text|tag.a.1@text",
+        "ruleSearchCoverUrl": "a@href#.*/(\\d+)/.*#/$1/<js>java.ajax('https://m.bixiale.com'+result)</js>class.infoimg@img@src",
+        "ruleSearchKind": "class.lastupdate@span@text",
+        "ruleSearchLastChapter": "class.lastupdate@textNodes|textNodes",
+        "ruleSearchList": "class.searchcon@ul|class.ph_list@li",
+        "ruleSearchName": "h3@a@text|class.articlelink@strong@text",
+        "ruleSearchNoteUrl": "a@href#.*/(\\d+)/.*#/$1/",
+        "ruleSearchUrl": "https://m.bixiale.com/com/so.php@searchkey=searchKey&type=articlename",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

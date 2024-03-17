@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "大笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.dbiqu.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "完本小说::/quanben/sort/{{page}}/\n书库榜单::/sort/{{page}}/\n排行榜单::/rank/\n玄幻小说::/sort/1/{{page}}/\n修真小说::/sort/2/{{page}}/\n都市小说::/sort/3/{{page}}/\n历史小说::/sort/4/{{page}}/\n女生小说::/sort/5/{{page}}/\n游戏小说::/sort/6/{{page}}/\n科幻小说::/sort/7/{{page}}/\n其他小说::/sort/8/{{page}}/",
+        "lastUpdateTime": 1656493215203,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.fix.0@tag.a.0@text",
+            "coverUrl": "class.imgbox@tag.img@src",
+            "init": "",
+            "intro": "class.m-xs-show@text##简介:",
+            "kind": "class.xs-show.0@text##类 别：",
+            "lastChapter": "class.section-box.0@tag.li.0@text",
+            "name": ".top@text",
+            "tocUrl": "",
+            "wordCount": "class.xs-show.1@text&&class.fix@tag.span.-1@text##状 态："
+        },
+        "ruleContent": {
+            "content": "class.content@tag.p@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text||class.item@tag.span.0@text",
+            "bookList": "class.txt-list txt-list-row5@tag.li||class.item",
+            "bookUrl": "class.s2@tag.a@href||class.image@tag.a@href",
+            "coverUrl": "class.image@tag.img@src",
+            "intro": "class.item@tag.a.-1@textNode",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "class.s3@text&&class.s5@text##\\n|\\[mobi\\]",
+            "name": "class.s2@text||class.item@tag.dt@tag.a@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list txt-list-row5@tag.li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "coverUrl": "class.item@tag.a.-1@textNode",
+            "intro": "tag.a@href<js>result.replace(/(\\d+)\\/,\"https://m.dbiqu.com/book/$1/\")</js>",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "class.s3@text&&class.s5@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-box!0@tag.li@tag.a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.dbiqu.com/search/{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

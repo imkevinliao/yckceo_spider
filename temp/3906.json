@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "三九阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.39yd.com",
+        "bookUrlPattern": "http://www.39yd.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/sort/{{page}}/\n玄幻::/sort/1/{{page}}/\n武侠::/sort/2/{{page}}/\n都市::/sort/3/{{page}}/\n历史::/sort/4/{{page}}/\n科幻::/sort/5/{{page}}/\n游戏::/sort/6/{{page}}/\n女生::/sort/7/{{page}}/\n知乎::/sort/8/{{page}}/\n其他::/sort/9/{{page}}/\n全本::/quanben/sort/{{page}}/\n玄幻::/quanben/sort/1/{{page}}/\n武侠::/quanben/sort/2/{{page}}/\n都市::/quanben/sort/3/{{page}}/\n历史::/quanben/sort/4/{{page}}/\n科幻::/quanben/sort/5/{{page}}/\n游戏::/quanben/sort/6/{{page}}/\n女生::/quanben/sort/7/{{page}}/\n知乎::/quanben/sort/8/{{page}}/\n其他::/quanben/sort/9/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692196221864,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": ".book-info-cover img@src",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "h2 span.0@text"
+        },
+        "ruleContent": {
+            "content": ".book-read-content p@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完.*|.*转载请注明来源.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.0@text##\\/.+文",
+            "bookList": ".book-list-1",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-src",
+            "intro": "p.1@text",
+            "kind": "span.1:3@text",
+            "name": "h4@text",
+            "wordCount": "span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".am-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://www.39yd.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceFromType": "3",
+        "bookSourceGroup": "爱的奇迹口袋",
+        "bookSourceMainId": "9b7699653952f1f67ce363e91992bd3f",
+        "bookSourceName": "笔趣阁-www.paoshu8.com",
+        "bookSourceUrl": "http://www.paoshu8.com/",
+        "bookUrlPattern": "http://www.paoshu8.com/\\d+_\\d+/",
+        "concurrentRate": "",
+        "createTime": 1676688274,
+        "customOrder": 5,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/\n修真小说::/xiuzhenxiaoshuo/\n都市小说::/dushixiaoshuo/\n穿越小说::/chuanyuexiaoshuo/\n网游小说::/wangyouxiaoshuo/\n科幻小说::/kehuanxiaoshuo/",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows; U; Windows NT 5.2;. en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 Quark/4.6.6.164\"\n}",
+        "helpUpdate": "1",
+        "helpUpdatePasswd": "http://www.yeguoyuedu.com",
+        "indexSourceType": "0",
+        "lastUpdateTime": 1676688274,
+        "loginCheckJs": "",
+        "loginUrl": "{\n  \"url\": \"\"\n}",
+        "miBookSourceUrl": "http://www.paoshu8.com/",
+        "miUrl": "",
+        "id": "21",
+        "openRecommendToOfficial": false,
+        "recommendToOfficialState": 0,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作\\s*者：",
+            "coverUrl": "tag.td.0@tag.a@href##(http://www.paoshu8.com)/(\\d+)_(\\d+)/##$1/files/article/image/$2/$3/$3s.jpg",
+            "intro": "id.intro@text",
+            "kind": "id.info@tag.p.2@text##最后更新：",
+            "lastChapter": "id.info@tag.p.3@a@text",
+            "name": "id.info@tag.h1.0@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html##请记住本书首发域名：|.net。|顶点小说手机版阅读网址："
+        },
+        "ruleExplore": {
+            "author": "class.s5@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "tag.td.0@tag.a@href",
+            "lastChapter": "tag.td.1@tag.a@text",
+            "name": "tag.td.0@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleUpdateDate": "2022-10-28 16:54:46",
+        "searchUrl": "http://www.paoshu8.com/modules/article/search.php?searchkey={{key}}",
+        "useNum": "130927"
+    }
+]

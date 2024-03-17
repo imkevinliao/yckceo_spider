@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "2021.9.5",
+        "bookSourceGroup": "💫  特殊",
+        "bookSourceName": "💫 当  书  网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://downbook.cc",
+        "bookUrlPattern": "https://downbook.cc/TXT/down_\\d+.html",
+        "customOrder": 48,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "[{'title':'男频分类','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'玄幻奇幻','url':'/TXT/list4_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'武侠仙侠','url':'/TXT/list5_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'都市重生','url':'/TXT/list6_1{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'历史军事','url':'/TXT/list7_1{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'恐怖推理','url':'/TXT/list8_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'科幻网游','url':'/TXT/list9_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':' 二  次  元 ','url':'/TXT/list25_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'这是空的','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'这是空的','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'女频分类','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'都市言情','url':'/TXT/list10_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'古代言情','url':'/TXT/list11_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'穿越重生','url':'/TXT/list12_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'玄幻仙侠','url':'/TXT/list13_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'青春同人','url':'/TXT/list14_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'网游科幻','url':'/TXT/list15_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'耽美分类','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'现代耽美','url':'/TXT/list27_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'古代架空','url':'/TXT/list28_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'穿越重生','url':'/TXT/list29_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'玄幻科幻','url':'/TXT/list30_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'BL同人','url':'/TXT/list31_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'GL百合','url':'/TXT/list32_{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}}]",
+        "header": "",
+        "lastUpdateTime": 1630836563684,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "cover",
+            "init": "<js>\nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).text());\nvar book = {\n     name: o('h1').replace(/\\s.*/,''),\n     author: o('.cl1 ul').match(/作者：(.*)\\s大小/)[1],\n     kind: o('.cl1 ul').match(/类别：(.*)\\s作者/)[1],\n     wordCount: o('.cl1 ul').match(/大小：(.*)\\s状态/)[1], \n     latest: o('.cl1 ul').match(/入库时间：(.*)\\s在线/)[1],\n     intro: '<br>' + J.select('.jj').html(),\n     cover: J.select('.cl1 img').attr('src'),\n     url: J.select('.down a').eq(0).attr('href')+',{charset:\"gbk\"}',\n};\nbook;\n</js>",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "latest",
+            "name": "name",
+            "tocUrl": "url",
+            "wordCount": "wordCount"
+        },
+        "ruleContent": {
+            "content": ".main@textNodes",
+            "imageStyle": "",
+            "replaceRegex": "##本书总字数为:\\d+个|好书尽在【书包CC】 https://www.bookbaow.com"
+        },
+        "ruleExplore": {
+            "author": "h1@textNodes##\\s.*",
+            "bookList": ".listl li",
+            "bookUrl": "h1 a@href",
+            "coverUrl": "img@src",
+            "intro": "p@textNodes",
+            "kind": "",
+            "lastChapter": "",
+            "name": "h1 a@text##\\s.*",
+            "wordCount": "h1@textNodes##.*："
+        },
+        "ruleSearch": {
+            "author": "author",
+            "bookList": ".sear li\n<js>\nresult.toArray().slice(0,3).map(o=>{\n    var url = baseUrl.match(/(.+\\/\\/.+?\\/)/)[1] + o.select('a').attr('href');\n    var J = org.jsoup.Jsoup.parse(java.ajax(url));\n    var o = selector =>String(J.select(selector).text());\n    return {\n        name: o('h1').replace(/\\s.*/,''),\n        author: o('.cl1 ul').match(/作者：(.*)\\s大小/)[1],\n        kind: o('.cl1 ul').match(/类别：(.*)\\s作者/)[1],\n        wordCount: o('.cl1 ul').match(/大小：(.*)\\s状态/)[1],\n        latest: o('.cl1 ul').match(/入库时间：(.*)\\s在线/)[1],\n        intro: o('.jj'),\n        cover: J.select('.cl1 img').attr('src'),\n        url: url,\n    }\n});\n</js>",
+            "bookUrl": "url",
+            "coverUrl": "cover",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "latest",
+            "name": "name",
+            "wordCount": "wordCount"
+        },
+        "ruleToc": {
+            "chapterList": "@js:list = [];\nif (baseUrl.match(/id/)) {\n    p = result.match(/=(\\d+)\">最后1页/)[1];\n    for (i = 0; i <= p; i++) {\n        list.push({\n            n: '第' + [i + 1] + '页',\n            u: baseUrl.replace(/$/, '&yeshu=' + i )\n        })\n    }\n} else list.push({\n    n: '空',\n    u: ''\n});\nlist",
+            "chapterName": "n",
+            "chapterUrl": "u"
+        },
+        "searchUrl": "/search.asp,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"m=0&s=0&word={{key}}&sf=index\"\n}",
+        "weight": 0
+    }
+]

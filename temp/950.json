@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "免费看",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.wxmfk.com",
+        "customOrder": -302373,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1633271598495,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@text##作者：",
+            "coverUrl": "img@src",
+            "intro": "class.intros@text##小说简介：",
+            "kind": "class.sort@a@text",
+            "lastChapter": "class.lastchapter@a@text",
+            "name": "class.right@h1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html##本章未完.*",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.s2",
+            "bookUrl": "class.articlename@href",
+            "coverUrl": "",
+            "intro": "class.intro@text",
+            "kind": "class.sortbtn@text",
+            "lastChapter": "class.update@text##最新：",
+            "name": "class.articlename@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.wxmfk.com/search.php?searchkey={{key}},{\n\"charset\": \"gbk\"}",
+        "weight": 0
+    }
+]

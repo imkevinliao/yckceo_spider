@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "摩比小說網",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.mobidushu.com/",
+        "customOrder": 18,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "exploreUrl": "周排行榜::https://www.mobidushu.com/rank/0/{{page}}.html\n月排行榜::https://www.mobidushu.com/rank/month/0/{{page}}.html\n总排行榜::https://www.mobidushu.com/rank/all/0/{{page}}.html\n全部小说::https://www.mobidushu.com/category/0/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1695920708153,
+        "respondTime": 7507,
+        "ruleBookInfo": {
+            "author": "class.author",
+            "coverUrl": "class.BGsectionOne-top-left@img@src",
+            "init": "",
+            "intro": "class.BGsectionTwo-bottom@text",
+            "kind": "class.category",
+            "lastChapter": "class.newestChapter@text",
+            "name": "class.title",
+            "tocUrl": "class.BGsectionThree@class.sectionTwo-bottom@href"
+        },
+        "ruleContent": {
+            "content": "@js:\nfunction d(a, b) {\n            b = java.md5Encode(b);\n            var d = b.substring(0, 16);\n            var e = b.substring(16);\n            return    java.aesBase64DecodeToString(a,e,\"AES/CBC/PKCS5Padding\",d)}\neval(result.match(/(d\\(\"[\\s\\S]+\"\\))\\)/)[1])",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "bookList": "class.CGsectionTwo-right-content-unit",
+            "bookUrl": "class.CGsectionTwo-right-content-unit@tag.p.0@tag.a.0@href",
+            "coverUrl": "class.book_img_pic@tag.a@tag.img@src",
+            "intro": "class.CGsectionTwo-right-content-unit@tag.p.2@text",
+            "lastChapter": "class.CGsectionTwo-right-content-unit@tag.p.3@text##最近更新 ",
+            "name": "class.CGsectionTwo-right-content-unit@tag.p.0@tag.a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.span.2@tag.a@text",
+            "bookList": "class.SHsectionThree-middle@tag.p",
+            "bookUrl": "tag.span.1@tag.a@href",
+            "kind": "tag.span.0@tag.a@text",
+            "name": "tag.span.1@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top-chapter",
+            "chapterName": "class.BCsectionTwo-top-chapter@tag.a@text",
+            "chapterUrl": "class.BCsectionTwo-top-chapter@tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.mobidushu.com/search/{{key}}",
+        "weight": 0
+    }
+]

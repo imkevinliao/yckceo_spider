@@ -1,0 +1,18 @@
+[
+    {
+        "bookSourceName": "猫耳FM",
+        "bookSourceType": 1,
+        "bookSourceUrl": "http://m.ixinmo.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 0,
+        "ruleBookInfo": "{}",
+        "ruleContent": "{\n  \"content\": \"<js>result</js>\",\n  \"sourceRegex\": \".*\\\\.(mp3|mp4)\",\n  \"webJs\": \"\"\n}",
+        "ruleExplore": "{}",
+        "ruleSearch": "{\n  \"author\": \"author\",\n  \"bookList\": \"$.info.Datas\",\n  \"bookUrl\": \"http://m.ixinmo.com/mdrama/drama/{{$.id}},{\\\"webView\\\":true}\",\n  \"coverUrl\": \"cover \",\n  \"intro\": \"abstract\",\n  \"kind\": \"{{$.type_name}},{{$.catalog_name}}\",\n  \"lastChapter\": \"newest \",\n  \"name\": \"name\",\n  \"wordCount\": \"catalog_name \"\n}",
+        "ruleToc": "{\n  \"chapterList\": \"@css:.scroll-list.btn-groups>a\",\n  \"chapterName\": \"text\",\n  \"chapterUrl\": \"href##$##,{\\\"webView\\\":true}\"\n}",
+        "searchUrl": "http://m.ixinmo.comdramaapi/search?s={{key}}&page=1",
+        "weight": 0
+    }
+]

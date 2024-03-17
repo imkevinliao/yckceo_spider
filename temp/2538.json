@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "如文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.ruwen5.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::http://m.ruwen5.com/xiaoshuodaquan/page_{{page}}.html\n玄幻小说::http://m.ruwen5.com/xuanhuan/page_{{page}}.html\n修真小说::http://m.ruwen5.com/xiuzhen/page_{{page}}.html\n都市小说::http://m.ruwen5.com/dushi/page_{{page}}.html\n历史小说::http://m.ruwen5.com/lishi/page_{{page}}.html\n网游小说::http://m.ruwen5.com/wangyou/page_{{page}}.html\n科幻小说::http://m.ruwen5.com/kehuan/page_{{page}}.html\n女频小说::http://m.ruwen5.com/nvpin/page_{{page}}.html",
+        "lastUpdateTime": 1609493875926,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.pt-info.0@text",
+            "coverUrl": "class.baseinfo@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.pt-info.1@text##分类：",
+            "lastChapter": "id.newchaperlist@tag.li.0@a@text",
+            "name": "class.pt-name.0@text"
+        },
+        "ruleContent": {
+            "content": "id.BookText@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.pt-author@tag.a.0@text",
+            "bookList": "class.ptm-card-content.1@li",
+            "bookUrl": "class.pt-cover@a@href",
+            "coverUrl": "class.pt-cover@img@src",
+            "intro": "class.pt-desc@text##简介[：:]?",
+            "kind": "class.pt-author@tag.a.1@text",
+            "name": "class.pt-name@a@text"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.ptm-card.1@li@class.ptm-block pt-name ptm-text-cut",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.pt-desc ptm-text-cut@text##简介：",
+            "kind": "",
+            "name": "@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.ruwen5.com/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+        "weight": 0
+    }
+]

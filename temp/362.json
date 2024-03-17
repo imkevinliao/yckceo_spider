@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "LIAN",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣阁6",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.quge66.com",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": -88951462,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1651525296775,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "lastChapter": "id.info@tag.a.3@text",
+            "name": "id.info@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@text"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslist2@tag.ul@tag.li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "checkKeyWord": "我的",
+            "kind": "class.s7@text&&class.s1@text##\\[|\\]",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/searchbook.php?keyword={{key}}",
+        "weight": 0
+    }
+]

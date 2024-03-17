@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biqueg.com",
+        "bookUrlPattern": "https?://www.biqueg.com/books/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/sort/{{page}}/\n玄幻魔法::/sort/1/{{page}}/\n武侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n历史军事::/sort/4/{{page}}/\n科幻灵异::/sort/5/{{page}}/\n游戏竞技::/sort/6/{{page}}/\n女生耽美::/sort/7/{{page}}/\n其他类型::/sort/8/{{page}}/\n全部完本::/quanben/sort/{{page}}/\n玄幻魔法::/quanben/sort/1/{{page}}/\n武侠修真::/quanben/sort/2/{{page}}/\n都市言情::/quanben/sort/3/{{page}}/\n历史军事::/quanben/sort/4/{{page}}/\n科幻灵异::/quanben/sort/5/{{page}}/\n游戏竞技::/quanben/sort/6/{{page}}/\n女生耽美::/quanben/sort/7/{{page}}/\n其他类型::/quanben/sort/8/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693457451614,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=lastest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\".novel_info_main img@src\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "#next_url@href\n@js:\nif(result){\n\tresult=result[0].includes(\"_\")?result:\"\";\n\t}",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "a.-1@text",
+            "bookList": ".flex li",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": "p@text",
+            "kind": "span.0@text&&em.-1@text##\\/##,",
+            "name": "h2@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.0@textNodes",
+            "bookList": ".flex li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "p.1@text",
+            "kind": "span.0@text##\\/##,",
+            "lastChapter": "a.-1@text",
+            "name": "h3@text",
+            "wordCount": "span.2@text##字##字,"
+        },
+        "ruleToc": {
+            "chapterList": "#ul_all_chapters li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.biqueg.com/search/,{\n  \"body\": \"searchkey={{key}}&searchtype=all\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

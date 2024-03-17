@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️13小说网☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.13xs.com#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1643973924568,
+        "ruleBookInfo": {
+            "author": "class.red.0@text",
+            "coverUrl": "tag.img@src",
+            "intro": "id.bookIntro@html",
+            "kind": "class.breadcrumb hidden-xs@tag.a.-1@text",
+            "name": "class.bookTitle@text",
+            "tocUrl": "text.全部章节@href"
+        },
+        "ruleContent": {
+            "content": "class.panel-body@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.fs-14 text-muted@text",
+            "bookList": "class.col-xs-4 book-coverlist",
+            "bookUrl": "tag.a@href",
+            "intro": "class.fs-12 text-justify hidden-xs@html",
+            "name": "class.fs-16 text-muted@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.panel-body panel-chapterlist@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.13xs.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

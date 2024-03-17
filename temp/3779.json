@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "百书阁小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://baitxt.com",
+        "bookUrlPattern": "http://baitxt.com/s/\\d+/.html",
+        "customOrder": 2,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/sort/{{page}}/.html\n玄幻魔法::/sort/1/{{page}}/.html\n武侠修真::/sort/2/{{page}}/.html\n都市言情::/sort/3/{{page}}/.html\n历史军事::/sort/4/{{page}}/.html\n游戏竞技::/sort/5/{{page}}/.html\n科幻灵异::/sort/6/{{page}}/.html\n女生耽美::/sort/7/{{page}}/.html\n其他类型::/sort/8/{{page}}/.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690505229359,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content\n##http.*http##http",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": ".booktag@span.0@text"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "#linkNext@href\n@js:\nresult=result[0]\nresult=result.includes(\"_\") ? result : \"\";",
+            "replaceRegex": "##请关闭浏览器的阅读.+避免出现内容无法显示或者段落错乱。"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".book-coverlist",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "a.0@style##\\((.+)\\)##$1###",
+            "intro": "p.-1@text",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "#newlist@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://baitxt.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

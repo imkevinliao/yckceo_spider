@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "haxc，不能频繁访问，会屏蔽",
+        "bookSourceName": "小说MM阅读网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xiaoshuomm.com",
+        "customOrder": -118168,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::http://www.xiaoshuomm.com/sort1/{{page}}.html\n仙侠::http://www.xiaoshuomm.com/sort2/{{page}}.html\n都市::http://www.xiaoshuomm.com/sort3/{{page}}.html\n历史::http://www.xiaoshuomm.com/sort4/{{page}}.html\n网游::http://www.xiaoshuomm.com/sort5/{{page}}.html\n科幻::http://www.xiaoshuomm.com/sort6/{{page}}.html\n灵异::http://www.xiaoshuomm.com/sort7/{{page}}.html\n言情::http://www.xiaoshuomm.com/sort8/{{page}}.html\n其他::http://www.xiaoshuomm.com/sort9/{{page}}.html",
+        "lastUpdateTime": 1620705548194,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "intro": "",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "@js:baseUrl+'1'"
+        },
+        "ruleContent": {
+            "content": "@js:\nvar sourceChars=[\"%uE800\",\"%uE801\",\"%uE802\",\"%uE803\",\"%uE804\",\"%uE805\",\"%uE806\",\"%uE807\",\"%uE808\",\"%uE809\",\"%uE80A\",\"%uE80B\",\"%uE80C\",\"%uE80D\",\"%uE80E\",\"%uE80F\",\"%uE810\",\"%uE811\",\"%uE812\",\"%uE813\",\"%uE814\",\"%uE815\",\"%uE816\",\"%uE817\",\"%uE818\",\"%uE819\",\"%uE81A\",\"%uE81B\",\"%uE81C\",\"%uE81D\",\"%uE81E\",\"%uE81F\",\"%uE820\",\"%uE821\",\"%uE822\",\"%uE823\",\"%uE824\",\"%uE825\",\"%uE826\",\"%uE827\",\"%uE828\",\"%uE829\",\"%uE82A\",\"%uE82B\",\"%uE82C\",\"%uE82D\",\"%uE82E\",\"%uE82F\",\"%uE830\",\"%uE831\",\"%uE832\",\"%uE833\",\"%uE834\",\"%uE835\",\"%uE836\",\"%uE837\",\"%uE838\",\"%uE839\",\"%uE83A\",\"%uE83B\",\"%uE83C\",\"%uE83D\",\"%uE83E\",\"%uE83F\",\"%uE840\",\"%uE841\",\"%uE842\",\"%uE843\",\"%uE844\",\"%uE845\",\"%uE846\",\"%uE847\",\"%uE848\",\"%uE849\",\"%uE84A\",\"%uE84B\",\"%uE84C\",\"%uE84D\",\"%uE84E\",\"%uE84F\",\"%uE850\",\"%uE851\",\"%uE852\",\"%uE853\",\"%uE854\",\"%uE855\",\"%uE856\",\"%uE857\",\"%uE858\",\"%uE859\",\"%uE85A\",\"%uE85B\",\"%uE85C\",\"%uE85D\",\"%uE85E\",\"%uE85F\",\"%uE860\",\"%uE861\",\"%uE862\",\"%uE863\"]\n\nvar displayChars=\"的一是了我不人在他有这个上们来到时大地为子中你说生国年着就那和要她出也得里后自以会家可下而过天去能对小多然于心学么之都好看起发当没成只如事把还用第样道想作种开美总从无情己面最女但现前些所同日手又行意动\";\n\nvar slect=\"i\";\n\nfunction convertChar(str) {\nlet index = sourceChars.indexOf(str)\nif(index != -1) return displayChars[index]\n}\n\nvar doc = org.jsoup.Jsoup.parse(result);\ndoc.select(slect).toArray().forEach(ele=>{\nlet str = escape(ele.text());\nele.text(convertChar(str))\n})\n\ndoc.html()",
+            "nextContentUrl": "@js:\nvar n=parseInt(4);\n//java.log(result);\nvar list=[];\nfor(var i=2;i<=n;i++)\n{list.push(baseUrl.replace(/.html\\?ajax=1/,'')+\"_\"+i+\".html?ajax=1\");}\nlist",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "tag.td.3@text",
+            "bookList": ".table@tag.tr!0",
+            "bookUrl": "tag.a@href",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "small@text",
+            "bookList": "class.book-coverlist",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href##/books/(\\d+)/(\\d+)/##http://www.xiaoshuomm.com/files/article/image/$1/$2/$2s.jpg",
+            "intro": "p@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".panel-chapterlist@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href@js:result+'?ajax=1'",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "http://www.xiaoshuomm.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

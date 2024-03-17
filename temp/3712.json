@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,特殊,源仓库,网页源",
+        "bookSourceName": "新ak小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://xakxsw.com",
+        "bookUrlPattern": "http.+xakxsw.com/index/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort/1/{{page}}/\n武侠小说::/sort/2/{{page}}/\n都市小说::/sort/3/{{page}}/\n历史小说::/sort/4/{{page}}/\n网游小说::/sort/5/{{page}}/\n科幻小说::/sort/6/{{page}}/\n耽美小说::/sort/7/{{page}}/\n其他小说::/sort/8/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689034495075,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "p@ownText##\\|.*",
+            "bookList": ".list-1@li",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": ".desc@text",
+            "kind": "0",
+            "name": "h3@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@span@text##\\/\\s",
+            "bookList": ".list@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": "span.1@text&&tag.i@text##\\[|\\]",
+            "name": "p@textNodes"
+        },
+        "ruleToc": {
+            "chapterList": ".list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://xakxsw.com/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

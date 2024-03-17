@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceGroup": "🎧 有声",
+        "bookSourceName": "听书宝",
+        "bookSourceType": 1,
+        "bookSourceUrl": "https://m.tingshubao.com",
+        "bookUrlPattern": "",
+        "customOrder": 83,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻武侠::/list/27_{{page+1}}.html \n玄幻排行::/list/27-27<,{{page}}>.html\n都市小说::/list/28_{{page+1}}.html\n都市排行::/list/28-28<,{{page}}>.html \n言情小说::/list/29_{{page+1}}.html \n言情排行::/list/29-29<,{{page}}>.html\n惊悚悬疑::/list/31_{{page+1}}.html \n悬疑排行::/list/31-31<,{{page}}>.html\n历史军事::/list/32_{{page+1}}.html \n历史排行::/list/32-32<,{{page}}>.html\n网游科幻::/list/33_{{page+1}}.html \n网游排行::/list/33-33<,{{page}}>.html\n有声评书::/list/2_{{page+1}}.html\n评书排行::/list/2-2<,{{page}}>.html",
+        "lastUpdateTime": 0,
+        "loginUrl": "｡◕‿◕｡",
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "id.jp_audio_0@src"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.book-author.0@text##作者：|未知",
+            "bookList": "class.list-works@tag.li",
+            "bookUrl": "class.list-book-dt.0@tag.a@href",
+            "coverUrl": "tag.a@tag.img@data-original@js:result||'http://1t.click/HNK'",
+            "intro": "tag.li.0@tag.dd.0@text",
+            "kind": "class.book-author.1@text##演播：##播音：",
+            "lastChapter": "class.book-author.2@text&&class.book-zt@text##更新情况：<js>String(result).replace(/\\s+(.+)/, '（$1）');</js>",
+            "name": "class.list-book-dt.0@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.playlist@tag.ul@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href@js:result+',{webView:“true”}'"
+        },
+        "searchUrl": "/search.asp?searchword={{key}},{\n  \"charset\": \"gb2312\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☁️可用,☁️修正",
+        "bookSourceName": "顶点小说⑪/笔趣泡",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.20xs.la/",
+        "bookUrlPattern": "https://m.20xs.cc/dingdian/\\d+_\\d+/",
+        "customOrder": -88949163,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/book_1_{{page}}/\n武侠仙侠::/book_2_{{page}}/\n都市言情::/book_3_{{page}}/\n历史军事::/book_4_{{page}}/\n网游竞技::/book_5_{{page}}/\n科幻灵异::/book_6_{{page}}/",
+        "lastUpdateTime": 1643654705392,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.maininfo@p.0@text##.*者：",
+            "coverUrl": "class.synopsisArea_detail@tag.img@src",
+            "intro": "class.review@p@text",
+            "kind": "class.synopsisArea_detail@tag.p.4@text##更新：",
+            "lastChapter": "class.synopsisArea_detail@tag.p.3@a@text",
+            "name": "id.maininfo@h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html##您可以在百度里.*查找最新章节！|\\(本章未完.*继续阅读\\)|『加入.*便阅读』|第.*点击下一章继续阅读。",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "class.s5@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href##http.*cc",
+            "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.20xs.cc/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "intro": "",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.name@tag.span.1@text##作者：",
+            "bookList": "class.nr@li",
+            "bookUrl": "class.nrrk@class.name@tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p@text",
+            "kind": "tag.dt@em@text",
+            "lastChapter": "tag.dt@a@text",
+            "name": "class.name@tag.a@text##\\（.*|\\(.*|"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.20xs.la/searchbook.php?search_key={{key}},{\"webView\":true}",
+        "weight": 0
+    }
+]

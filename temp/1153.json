@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "爱爱中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.aiazw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
+        "lastUpdateTime": 1674385072167,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.bookcover@p.1@text",
+            "coverUrl": "class.pic.0@img@src",
+            "init": "",
+            "intro": "id.introl@text",
+            "kind": "class.bookcover@p.0@text",
+            "lastChapter": "class.bookcover@p.2@text",
+            "name": "class.bookcover@h1@text",
+            "tocUrl": "text.查看更多章节@href",
+            "wordCount": "class.bookcover@p.3@text"
+        },
+        "ruleContent": {
+            "content": "class.articlecon font-large@p@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完.*|继续阅读.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.p.1@text",
+            "bookList": "id.jieqi_page_contents@li",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "searchtype=all&",
+            "coverUrl": "img@src",
+            "intro": "tag.p.2@text",
+            "kind": "",
+            "name": "tag.p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.cataloglist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": "span@text"
+        },
+        "searchUrl": "https://www.aiaiwx.net/modules/article/search.php,{\n  \"body\": \"searchtype=all&searchkey={{key}}&submit=\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

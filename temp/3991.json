@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "33言情",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.33yq.net",
+        "bookUrlPattern": "https?://m.33yq.net/read/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/sort/1_{{page}}/\n奇幻::/sort/2_{{page}}/\n武侠::/sort/3_{{page}}/\n都市::/sort/4_{{page}}/\n历史::/sort/5_{{page}}/\n军事::/sort/6_{{page}}/\n悬疑::/sort/7_{{page}}/\n游戏::/sort/8_{{page}}/\n科幻::/sort/9_{{page}}/\n体育::/sort/10_{{page}}/\n官场::/sort/11_{{page}}/\n古言::/sort/12_{{page}}/\n现言::/sort/13_{{page}}/\n幻言::/sort/14_{{page}}/\n仙侠::/sort/15_{{page}}/\n青春::/sort/16_{{page}}/\n穿越::/sort/17_{{page}}/\n女生::/sort/18_{{page}}/\nN次元::/sort/19_{{page}}/\n排行::/top/allvisit_{{page}}/",
+        "header": "{\"referer\": \"{{source.getKey()}}\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693700695719,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status]@content&&.xx@li.-1@text##更新时间：\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#nr@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".fk ul",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "span.-2@text",
+            "kind": "span.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".fk li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".zxjz.2@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"type=articlename&s={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "variableComment": "",
+        "weight": 0
+    }
+]

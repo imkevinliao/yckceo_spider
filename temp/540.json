@@ -1,0 +1,21 @@
+[
+    {
+        "bookSourceGroup": "❄️",
+        "bookSourceName": "二书包网杂牌",
+        "bookSourceUrl": "https://www.shubaoju.cc",
+        "enable": false,
+        "ruleBookContent": "id.content@html",
+        "ruleChapterList": "dl@dd",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "a@href",
+        "ruleIntroduce": "id.intro@text",
+        "ruleSearchAuthor": "tag.td.2@text|id.info@tag.p.0@text",
+        "ruleSearchLastChapter": "tag.td.1@text",
+        "ruleSearchList": "id.nr|class.box_con",
+        "ruleSearchName": "tag.td.0@text|h1@text",
+        "ruleSearchNoteUrl": "tag.td.0@a@href",
+        "ruleSearchUrl": "https://www.shubaoju.cc/modules/article/search.php?searchkey=searchKey&page=searchPage|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

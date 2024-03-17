@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自,📖小说",
+        "bookSourceName": "📝mjj小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://mjjxs.net",
+        "customOrder": 8325,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 1677545183582,
+        "respondTime": 7146,
+        "ruleBookInfo": {
+            "author": "p.0@text##作者：",
+            "intro": ".intro@text&&.info@text",
+            "lastChapter": "p.1@a@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": ".content@p@text",
+            "replaceRegex": "##.*你正在阅读章节.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s_list@a@text##：.*",
+            "bookList": ".s_list",
+            "bookUrl": ".s_list@a@href",
+            "checkKeyWord": "柯学捡尸人",
+            "lastChapter": ".s_list@a@href<js>java.ajax('https://mjjxs.net'+result)</js>p.1@a@text<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##.*?[最后更新于至状态到正文时间:：连载中目录]{2,}|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/.*?[第]*(第.*?[页节章])[\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]*(.*?章)*(.*)/,'$1 $3')",
+            "name": ".s_list@a@text##.*?：《(.*)》##$1"
+        },
+        "ruleToc": {
+            "chapterList": ".last9 li",
+            "chapterName": ".even@a@text",
+            "chapterUrl": ".even@a@href"
+        },
+        "searchUrl": "https://mjjxs.net/search?keyword={{key}}",
+        "weight": 0
+    }
+]

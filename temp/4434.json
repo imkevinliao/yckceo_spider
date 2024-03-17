@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "//不能并发解析目录，否则500\n//如果出错按弹窗提示操作即可",
+        "bookSourceGroup": "自制,一般,源仓库,网页源",
+        "bookSourceName": "八一中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bayizww.com",
+        "bookUrlPattern": "https?://m.bayizww.com/yd/[\\d_]+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::https://m.bayizww.com/yd/xclass/0/{{page}}.html\n玄幻小说::https://m.bayizww.com/yd/xclass/1/{{page}}.html\n修真小说::https://m.bayizww.com/yd/xclass/2/{{page}}.html\n都市小说::https://m.bayizww.com/yd/xclass/3/{{page}}.html\n穿越小说::https://m.bayizww.com/yd/xclass/4/{{page}}.html\n网游小说::https://m.bayizww.com/yd/xclass/5/{{page}}.html\n科幻小说::https://m.bayizww.com/yd/xclass/6/{{page}}.html\n其他小说::https://m.bayizww.com/yd/xclass/7/{{page}}.html",
+        "header": "@js:\nJSON.stringify({\n\t\"referer\": baseUrl,\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"})",
+        "lastUpdateTime": 1699836753894,
+        "loginCheckJs": "var go=result,\ncode=go.code();\nif(code==404){\n\tjava.toast(\"本书内容未更新，稍后再试！\")\n\t}else if(code==500){\n\t\tjava.toast(\"ip已禁止，需切换流量ip！\")\n\t\t}\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.author@text",
+            "coverUrl": ".synopsisArea_detail img@src",
+            "intro": "p.review@text",
+            "kind": ".synopsisArea_detail p.1:2:-1@text##.*：",
+            "lastChapter": ".directoryArea p.0@text",
+            "name": "span.title@text",
+            "tocUrl": "text.完整目录@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "p.author@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "p.review@text##简介：",
+            "kind": "0",
+            "name": "p.title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text##.*作者：",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "a@href##(\\d+)_(\\d+)##http://img.bayizww.com/$1/$2/$2s.jpg###",
+            "intro": "",
+            "kind": ".author.0:1@text##\\|.*",
+            "lastChapter": ".author.1@text##.*更新：",
+            "name": "p.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"keyword={{key}}&t=1\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

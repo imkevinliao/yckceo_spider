@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "69书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://69shu.net/",
+        "bookUrlPattern": "https?://69shu.net/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n排行::/top/<,lastupdate/{{page}}/>\n周点击榜::/top/weekvisit/<,{{page}}/>\n月点击榜::/top/monthvisit/<,{{page}}/>\n总点击榜::/top/allvisit/<,{{page}}/>\n推荐榜::/top/allvote/<,{{page}}/>\nnew::/rank/lastupdate<,/{{page}}/>\n24h::/rank/dayvisit<,/{{page}}/>\n必看榜::/hot/\n完本::/quanben/<,{{page}}/>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1696323482447,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\"p.word-count@text\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "wordCount": "@get:{w}##已写|\\.+$"
+        },
+        "ruleContent": {
+            "content": "#novelcontent@html"
+        },
+        "ruleExplore": {
+            "author": "span.0@text",
+            "bookList": "ul.xbk",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-src",
+            "intro": "span.intro@text",
+            "kind": "span.1@text",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "em@text",
+            "bookList": "ol li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://69shu.net/s.php,{\n  \"body\": \"s={{key}}&type=articlename\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

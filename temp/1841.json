@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "笔下文学",
+        "bookSourceUrl": "http://www.bxwenku.com",
+        "enable": false,
+        "ruleBookContent": "id.content@textNodes#笔下文学.*",
+        "ruleBookLastChapter": "h1@span@a@text",
+        "ruleChapterList": "class.ccss@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "text.点击阅读@href",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.articleInfoPic@src",
+        "ruleFindUrl": "最近更新::http://www.bxwenku.com/bxwxtoplist/lastupdate-searchPage.html\n最新入库::http://www.bxwenku.com/bxwxtoplist/postdate-searchPage.html\n原创更新::http://www.bxwenku.com/bxwxtoplist/authorupdate-searchPage.html\n总排行榜::http://www.bxwenku.com/bxwxtoplist/allvisit-searchPage.html\n总推荐榜::http://www.bxwenku.com/bxwxtoplist/allvote-searchPage.html\n总收藏榜::http://www.bxwenku.com/bxwxtoplist/goodnum-searchPage.html\n总字数榜::http://www.bxwenku.com/bxwxtoplist/size-searchPage.html\n全本小说::http://www.bxwenku.com/modules/article/index.php?fullflag=1&page=searchPage\n玄幻小说::http://www.bxwenku.com/bxwxcatalog/1-searchPage.html\n武侠小说::http://www.bxwenku.com/bxwxcatalog/2-searchPage.html\n都市小说::http://www.bxwenku.com/bxwxcatalog/3-searchPage.html\n历史小说::http://www.bxwenku.com/bxwxcatalog/4-searchPage.html\n网游小说::http://www.bxwenku.com/bxwxcatalog/5-searchPage.html\n科幻小说::http://www.bxwenku.com/bxwxcatalog/6-searchPage.html\n灵异小说::http://www.bxwenku.com/bxwxcatalog/7-searchPage.html\n其他小说::http://www.bxwenku.com/bxwxcatalog/8-searchPage.html",
+        "ruleIntroduce": "id.wrap@textNodes#.*笔下文学.*",
+        "ruleSearchAuthor": "tag.li.1@tag.font.0@text|tag.td.3@a@text",
+        "ruleSearchCoverUrl": "img@src|tag.a.0@href#/bixiawenxue/(\\d+)(\\d{3}).html#/files/article/image/$1/$1$2/$1$2s.jpg",
+        "ruleSearchKind": "tag.li.1@font!0:-1@text|tag.td.0@text#【|】",
+        "ruleSearchLastChapter": "h2@tag.a.1@text|tag.td.2@a@text",
+        "ruleSearchList": "class.info|class.listIndexUpdata@tr!0",
+        "ruleSearchName": "h2@tag.a.0@text|tag.td.1@a@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://www.bxwenku.com/modules/article/search.php@searchtype=articlename&searchkey=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

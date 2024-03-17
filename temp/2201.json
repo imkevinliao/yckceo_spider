@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "如果碰到目录加载失败<排除网络原因>\n\n◆请拷贝详情页URL\n(书籍详情页->点右上角三点->拷贝URL)\n◆粘贴到登录URL（源注释下面那条）\n◆编辑书源页->点右上三点->登录\n◆（有警示）点“进入”，加载完成后\n◆点右上角的✔️，保存书源\n◆刷新书籍详情页\n\n<可请其他大佬补充一下自动获取这种书的Cookie>",
+        "bookSourceGroup": "📖  PO,📖  论坛",
+        "bookSourceName": "📖POPO✈️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.popo.tw",
+        "customOrder": 151,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "                                        🔖标签                                        ::\n爽文::https://www.popo.tw/tags?id=1&page={{page}}\n虐心::https://www.popo.tw/tags?id=2&page={{page}}\n甜文::https://www.popo.tw/tags?id=3&page={{page}}\n悲劇::https://www.popo.tw/tags?id=4&page={{page}}\n喜劇::https://www.popo.tw/tags?id=5&page={{page}}\n輕鬆::https://www.popo.tw/tags?id=6&page={{page}}\n暗黑::https://www.popo.tw/tags?id=7&page={{page}}\n清水::https://www.popo.tw/tags?id=8&page={{page}}\n穿越::https://www.popo.tw/tags?id=9&page={{page}}\n重生::https://www.popo.tw/tags?id=10&page={{page}}\n靈異神怪::https://www.popo.tw/tags?id=11&page={{page}}\n異國::https://www.popo.tw/tags?id=12&page={{page}}\n冒險::https://www.popo.tw/tags?id=13&page={{page}}\n女性向::https://www.popo.tw/tags?id=14&page={{page}}\n男性向::https://www.popo.tw/tags?id=15&page={{page}}\n輕小說::https://www.popo.tw/tags?id=21&page={{page}}\n耽美::https://www.popo.tw/tags?id=22&page={{page}}\n百合::https://www.popo.tw/tags?id=23&page={{page}}\n二創::https://www.popo.tw/tags?id=24&page={{page}}\n心情抒發::https://www.popo.tw/tags?id=25&page={{page}}\n不限::https://www.popo.tw/tags?id=26&page={{page}}\n療癒::https://www.popo.tw/tags?id=27&page={{page}}\n快穿::https://www.popo.tw/tags?id=28&page={{page}}\n青梅竹馬::https://www.popo.tw/tags?id=29&page={{page}}\n戰鬥::https://www.popo.tw/tags?id=30&page={{page}}\n異界::https://www.popo.tw/tags?id=31&page={{page}}\n戀愛::https://www.popo.tw/tags?id=32&page={{page}}\n日常::https://www.popo.tw/tags?id=33&page={{page}}\n校園::https://www.popo.tw/tags?id=34&page={{page}}\n搞笑::https://www.popo.tw/tags?id=35&page={{page}}\n後宮::https://www.popo.tw/tags?id=36&page={{page}}\n異能::https://www.popo.tw/tags?id=37&page={{page}}\n妖怪::https://www.popo.tw/tags?id=38&page={{page}}\n妹控::https://www.popo.tw/tags?id=39&page={{page}}\n節操::https://www.popo.tw/tags?id=40&page={{page}}\n恐怖::https://www.popo.tw/tags?id=41&page={{page}}\n\n\n\n                                        🌸完结                                        ::\n🌸濃情館::/cates/1/subs?page={{page}}&type=finished\n校園愛情::/cates/1/subs/1?page={{page}}&type=finished\n都會愛情::/cates/1/subs/2?page={{page}}&type=finished\n古代愛情::/cates/1/subs/3?page={{page}}&type=finished\n羅曼史::/cates/1/subs/4?page={{page}}&type=finished\n耽美::/cates/1/subs/6?page={{page}}&type=finished\n百合::/cates/1/subs/7?page={{page}}&type=finished\n同人::/cates/1/subs/8?page={{page}}&type=finished\n         ::\n🌸異想館::/cates/2/subs?page={{page}}&type=finished\n歷史::/cates/2/subs/6?page={{page}}&type=finished\n都市::/cates/2/subs/7?page={{page}}&type=finished\n玄幻/奇幻::/cates/2/subs/1?page={{page}}&type=finished\n科幻/網遊::/cates/2/subs/2?page={{page}}&type=finished\n恐怖靈異::/cates/2/subs/3?page={{page}}&type=finished\n驚悚推理::/cates/2/subs/4?page={{page}}&type=finished\n武俠仙俠::/cates/2/subs/5?page={{page}}&type=finished\n                                                            ::\n🌸綜合館::/cates/3/subs?page={{page}}&type=finished\n商業理財::/cates/3/subs/1?page={{page}}&type=finished\n生活風格::/cates/3/subs/2?page={{page}}&type=finished\n心靈養生::/cates/3/subs/3?page={{page}}&type=finished\n藝術設計::/cates/3/subs/4?page={{page}}&type=finished\n人文科普::/cates/3/subs/5?page={{page}}&type=finished\n影視::/cates/3/subs/6?page={{page}}&type=finished\n漫畫::/cates/3/subs/7?page={{page}}&type=finished\n其它::/cates/3/subs/8?page={{page}}&type=finished\n                                                            ::\n🌸轻之文库::https://www.popo.tw/linovel/subs?page=2&type=finished\n\n\n                                        📝连载                                        ::\n📝濃情館::/cates/1/subs?page={{page}}&type=latest\n校園愛情::/cates/1/subs/1?page={{page}}&type=latest\n都會愛情::/cates/1/subs/2?page={{page}}&type=latest\n古代愛情::/cates/1/subs/3?page={{page}}&type=latest\n羅曼史::/cates/1/subs/4?page={{page}}&type=latest\n耽美::/cates/1/subs/6?page={{page}}&type=latest\n百合::/cates/1/subs/7?page={{page}}&type=latest\n同人::/cates/1/subs/8?page={{page}}&type=latest\n         ::\n📝異想館::/cates/2/subs?type=latest&page={{page}}\n玄幻/奇幻::/cates/2/subs/1?type=latest&page={{page}}\n科幻/網遊::/cates/2/subs/2?type=latest&page={{page}}\n恐怖靈異::/cates/2/subs/3?type=latest&page={{page}}\n驚悚推理::/cates/2/subs/4?type=latest&page={{page}}\n武俠仙俠::/cates/2/subs/5?type=latest&page={{page}}\n歷史::/cates/2/subs/6?type=latest&page={{page}}\n都市::/cates/2/subs/7?type=latest&page={{page}}\n                                                            ::\n📝綜合館::/cates/3/subs?type=latest&page={{page}}\n商業理財::/cates/3/subs/1?type=latest&page={{page}}\n生活風格::/cates/3/subs/2?type=latest&page={{page}}\n心靈養生::/cates/3/subs/3?type=latest&page={{page}}\n藝術設計::/cates/3/subs/4?type=latest&page={{page}}\n人文科普::/cates/3/subs/5?type=latest&page={{page}}\n影視::/cates/3/subs/6?type=latest&page={{page}}\n漫畫::/cates/3/subs/7?type=latest&page={{page}}\n其它::/cates/3/subs/8?type=latest&page={{page}}\n                                                            ::\n📝轻之文库::https://www.popo.tw/linovel/subs?page=2&type=latest",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1615781500283,
+        "loginUrl": "https://www.popo.tw/books/699675",
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "class.book_intro@html##<!-- 標籤 -->.*",
+            "kind": "💰{{@@class.b_price@text}},{{@@class.b_cate@text},}{{@@class.b_statu@ownText}}{{@@class.book_intro@class.tags@a@text}}##\\ | ##,",
+            "name": "",
+            "tocUrl": "text.章回列表@href",
+            "wordCount": "class.book_data.0@tag.tr.-1@td@text"
+        },
+        "ruleContent": {
+            "content": "@css:.read-txt img,.read-txt p@html",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "id.BOOK@class.box||class.list-view@class.box",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.desc@text",
+            "kind": "class.tag-area@a@text",
+            "lastChapter": "{{@@tag.dd.0@a@text||class.detail.0@a@text}}•{{@@tag.dd.1@text||class.detail.1@ownText}}",
+            "name": "class.bname@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.clist",
+            "chapterName": "class.c2@text||class.c1@text",
+            "chapterUrl": "tag.a.-1@href",
+            "isVip": "class.money@text",
+            "updateTime": "{{@@class.date@text}}•💰{{@@class.money@text}}##公開 |•💰$"
+        },
+        "searchUrl": "@js:\nurl='https://www.popo.tw/search,';\nvalue=java.ajax('https://www.popo.tw/index').match(/name=\"_poporf-tk001\" value=\"([^\"]+)\"/)[1];\nbody='searchtype=all&name='+key+'&_poporf-tk001='+value;\npost={\n\"method\": \"POST\",\n\"body\": String(body)\n}\nurl+JSON.stringify(post)",
+        "weight": 0
+    }
+]

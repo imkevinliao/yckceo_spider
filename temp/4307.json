@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "自制,优质,源仓库,网页源",
+        "bookSourceName": "69书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.69shuba.com",
+        "bookUrlPattern": "https?://.*69shuba.*/book.+",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/novels/class/0.htm\n言情小说::/novels/class/3.htm\n玄幻魔法::/novels/class/1.htm\n修真武侠::/novels/class/2.htm\n穿越时空::/novels/class/11.htm\n都市小说::/novels/class/9.htm\n历史军事::/novels/class/4.htm\n游戏竞技::/novels/class/5.htm\n科幻空间::/novels/class/6.htm\n悬疑惊悚::/novels/class/7.htm\n同人小说::/novels/class/8.htm\n官场职场::/novels/class/10.htm\n青春校园::/novels/class/12.htm\n完本小说::/novels/full",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693704127454,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": ".navtxt>p.0@text",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.完整目录@href",
+            "wordCount": ".infolist li.0@textNodes"
+        },
+        "ruleContent": {
+            "content": ".txtnav@textNodes##第([零一二三四五六七八九十百千]+)章.*",
+            "title": ".txtnav@h1@text"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "label.0@text",
+            "bookList": ".newbox li",
+            "bookUrl": "a.3@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-src",
+            "intro": "ol@text",
+            "kind": "label.1:2@text",
+            "lastChapter": "p.-1@textNodes",
+            "name": "h3@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".catalog ul li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www_69shuba_com.lnkr.co/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}&submit=Search\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

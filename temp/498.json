@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "瑟瑟",
+        "bookSourceName": "白马楼小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.baimalou123.com/",
+        "customOrder": -292870,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "",
+        "lastUpdateTime": 1648196479980,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author",
+            "coverUrl": "class.BGsectionOne-top-left@img@src",
+            "init": "",
+            "intro": "class.BGsectionTwo-bottom@text",
+            "kind": "class.category",
+            "lastChapter": "class.newestChapter@text",
+            "name": "class.title",
+            "tocUrl": "class.BGsectionThree@class.sectionTwo-bottom@href"
+        },
+        "ruleContent": {
+            "content": "id.C0NTENT@text"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "tag.span.2@tag.a@text",
+            "bookList": "class.SHsectionThree-middle@tag.p",
+            "bookUrl": "tag.span.1@tag.a@href",
+            "kind": "tag.span.0@tag.a@text",
+            "name": "tag.span.1@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top-chapter",
+            "chapterName": "class.BCsectionTwo-top-chapter@tag.a@text",
+            "chapterUrl": "class.BCsectionTwo-top-chapter@tag.a@href",
+            "nextTocUrl": "class.CGsectionTwo-right-bottom-btn@tag.a.1@href"
+        },
+        "searchUrl": "https://www.baimalou123.com/search/{{key}}",
+        "weight": 0
+    }
+]

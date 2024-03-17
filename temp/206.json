@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceGroup": "new",
+        "bookSourceName": "🔞新御书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xinyushuwu.com/",
+        "customOrder": -292891,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"玄幻\",\n\"url\":\"/sort/1_{{page}}/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n{\"title\":\"仙侠\",\n\"url\":\"/sort/2_{{page}}/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"都市\",\n\"url\":\"/sort/3_{{page}}/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"军史\",\n\"url\":\"/sort/4_{{page}}/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"网游\",\n\"url\":\"/sort/5_{{page}}/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"科幻\",\n\"url\":\"/sort/6_{{page}}/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"耽美\",\n\"url\":\"/sort/7_{{page}}/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"辣文\",\n\"url\":\"/sort/8_{{page}}/\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}}]",
+        "lastUpdateTime": 1657512286840,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "class.intro@p@text",
+            "kind": "class.infotype@p.1@text##类型：",
+            "lastChapter": "class.infotype@p.-1@a@text",
+            "tocUrl": "class.gochapter@a@href"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*本章.*下一页.*\\s*|\\s*(上|下)一(页|章)\\s*|\\s*返回目录\\s*|\\s*加入书签\\s*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.article",
+            "bookUrl": "h6@a@href",
+            "coverUrl": "h6@a@href\n@js:\nid=result.match(/\\/\\d+\\/(\\d+)\\//)[1];\niid=parseInt(id/1000);\n'https://www.xinyushuwu.com/'+'files/article/image/'+iid+'/'+id+'/'+id+'s.jpg'",
+            "intro": "class.simple@text",
+            "name": "h6@text"
+        },
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": "class.sone",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href\n@js:\nid=result.match(/\\/\\d+\\/(\\d+)\\//)[1];\niid=parseInt(id/1000);\n'https://www.xinyushuwu.com/'+'files/article/image/'+iid+'/'+id+'/'+id+'s.jpg'",
+            "intro": "",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n\t\"charset\":\"gbk\",\n\t\"method\":\"POST\",\n\t\"body\":\"type=articlename&s={{key}}&submit=点击搜索\"\n\t}",
+        "weight": 0
+    }
+]

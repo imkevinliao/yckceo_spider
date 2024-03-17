@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "读一读网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://du1du.org",
+        "bookUrlPattern": "http?://du1du.org/txt-\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻小说\",\n\t\"url\":\"/xuanhuanxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"奇幻小说\",\n\t\"url\":\"/qihuanxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"修真小说\",\n\t\"url\":\"/xiuzhenxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市小说\",\n\t\"url\":\"/dushixiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"言情小说\",\n\t\"url\":\"/yanqingxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史小说\",\n\t\"url\":\"/lishixiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"同人小说\",\n\t\"url\":\"/tongrenxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠小说\",\n\t\"url\":\"/wuxiaxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻小说\",\n\t\"url\":\"/kehuanxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"游戏小说\",\n\t\"url\":\"/youxixiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"军事小说\",\n\t\"url\":\"/junshixiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"竞技小说\",\n\t\"url\":\"/jingjixiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"灵异小说\",\n\t\"url\":\"/lingyixiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"商战小说\",\n\t\"url\":\"/shangzhanxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"校园小说\",\n\t\"url\":\"/xiaoyuanxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"官场小说\",\n\t\"url\":\"/guanchangxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"职场小说\",\n\t\"url\":\"/zhichangxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/qitaxiaoshuo/<,{{page}}.htm>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1663683250667,
+        "loginUrl": "http://du1du.org/login.htm",
+        "respondTime": 1351,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[class^=col-xs-4][1]@text##.*：",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "[class$=tac]@a@href",
+            "wordCount": "[class^=col-xs-4][2]@text##.*：|\\s.*"
+        },
+        "ruleContent": {
+            "content": "id.txtContent@html"
+        },
+        "ruleExplore": {
+            "author": "class.col-xs-2.0@text",
+            "bookList": "class.clearfix!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "##^##http://r.m.du1du.org/cover/###",
+            "kind": "class.tag-blue@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": "class.time@text##\\s.*"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.col-xs-2.0@text",
+            "bookList": "class.clearfix!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "##^##http://r.m.du1du.org/cover/###",
+            "kind": "class.tag-blue@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": "class.time@text##\\s.*"
+        },
+        "ruleToc": {
+            "chapterList": "#chapters-list li:not([style])",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://du1du.org/search.htm?keyword={{key}}",
+        "weight": 0
+    }
+]

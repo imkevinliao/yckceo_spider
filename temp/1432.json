@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "刘备",
+        "bookSourceName": "UAA小说（弄了半天，还是打不开，分享不了了，哪些大佬帮忙修改好重新发一遍）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.uaa.com",
+        "customOrder": 64,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "都市激情::/app/novel/search/search?page={{page}}&size=21&categoryId=0\n校园春色::/app/novel/search/search?page={{page}}&size=21&categoryId=1\n家庭乱伦::app/novel/search/search?page={{page}}&size=21&categoryId=34\n系统加持::/app/novel/search/search?page={{page}}&size=21&categoryId=43\n穿越重生::/app/novel/search/search?page={{page}}&size=21&categoryId=39\n调教虐待::/app/novel/search/search?page={{page}}&size=21&categoryId=42\n群体换伴::/app/novel/search/search?page={{page}}&size=21&categoryId=44\n强奸轮奸::/app/novel/search/search?page={{page}}&size=21&categoryId=45\n动漫游戏::/app/novel/search/search?page={{page}}&size=21&categoryId=36\n科学幻想::/app/novel/search/search?page={{page}}&size=21&categoryId=33\n乡村爱情::/app/novel/search/search?page={{page}}&size=21&categoryId=38\n仙修魔幻::/app/novel/search/search?page={{page}}&size=21&categoryId=32\n古典武侠::/app/novel/search/search?page={{page}}&size=21&categoryId=12\n网红明星::/app/novel/search/search?page={{page}}&size=21&categoryId=19\n历史演绎::/app/novel/search/search?page={{page}}&size=21&categoryId=41\n\n最新更新::/app/novel/search/search?page={{page}}&size=21&orderType=1\n最多观看::/app/novel/search/search?page={{page}}&size=21&orderType=0\n最多收藏::/app/novel/search/search?page={{page}}&size=21&orderType=2\n最受好评::/app/novel/search/search?page={{page}}&size=21&orderType=3",
+        "header": "",
+        "lastUpdateTime": 1670122996303,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "originalAuthorName",
+            "coverUrl": "coverUrl",
+            "init": "data",
+            "intro": "description##^##<br>",
+            "kind": "{{$.rouduDesc##[（\\(](.*?)[\\)）]##$1###}}\n{{java.getString('$.isFinish')=='true'?'已完结':'连载中'}}\n{{$..name}}",
+            "lastChapter": "第{{$.chapterCount}}章",
+            "name": "bookName",
+            "tocUrl": "https://m.uaa.com/app/novel/chapterTitleList?bookId={{$.bookId}}&page=1&size=10000",
+            "wordCount": "wordCount"
+        },
+        "ruleContent": {
+            "content": "data.content"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "originalAuthorName",
+            "bookList": "data.list",
+            "bookUrl": "https://m.uaa.com/app/novel/book?bookId={{$.id}}",
+            "checkKeyWord": "",
+            "coverUrl": "coverUrl",
+            "intro": "description",
+            "kind": "{{$.rouduDesc##[（\\(](.*?)[\\)）]##$1###}}\n{{java.getString('$.isFinish')=='true'?'已完结':'连载中'}}\n{{$.categoryList[*].name}}",
+            "lastChapter": "上架: {{$.onlineTimeStr}}",
+            "name": "name",
+            "wordCount": "wordCount"
+        },
+        "ruleToc": {
+            "chapterList": "$.data\n@js:\nfunction $($){return {\n\t\ttitle: $.title,\n\t\thref: 'https://m.uaa.com/app/novel/chapter?bookId='+$.bookId+'&chapterId='+$.id+'&illustrationType=3&illustrationCount=2'\n\t}}\n\nlist=[]\nJSON.parse(result).forEach(vol=>{\n\t\tchs = vol.children!='' ? (list.push({title:'📖['+vol.title+']📖',VolName:true}), vol.children.map(ch=>$(ch))) : [$(vol)]\n\t\tlist = list.concat(chs)\n\t})\nlist",
+            "chapterName": "title",
+            "chapterUrl": "href",
+            "isVip": "",
+            "isVolume": "VolName"
+        },
+        "searchUrl": "https://m.uaa.com/app/novel/search/search?page={{page}}&size=21&keyword={{key}}",
+        "weight": 0
+    }
+]

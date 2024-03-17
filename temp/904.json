@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceUrl": "https://www.wurexs.com",
+        "bookSourceType": "0",
+        "bookSourceName": "💠4020电子书📥",
+        "bookSourceGroup": "💠精选",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "https://www.wurexs.com/read/\\d+/",
+        "searchUrl": "https://www.wurexs.com/so.html?q={{key}}",
+        "exploreUrl": "[\n{'title':'✨             网        站        推        荐             ✨',\n'url':'/tuijian/index_{{page}}.html',\n'style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n\n{'title':'总排行榜',\n'url':'/paihangbang/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'月排行榜',\n'url':'/mpaihangbang/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'周排行榜',\n'url':'/wpaihangbang/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'日排行榜',\n'url':'/dpaihangbang/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'封推小说',\n'url':'/fengtui/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'金牌推荐',\n'url':'/jinpaituijian/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'最新书籍',\n'url':'/new/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'武侠仙侠',\n'url':'/wuxia/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'都市言情',\n'url':'/yanqing/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'耽美小说',\n'url':'/danmei/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'玄幻小说',\n'url':'/xuanhuan/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'青春校园',\n'url':'/xiaoyuan/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'网游竞技',\n'url':'/wangyou/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'灵异推理',\n'url':'/kongbu/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'纪实小说',\n'url':'/jishi/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'军事历史',\n'url':'/lishi/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'科幻小说',\n'url':'/kehuan/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'管理哲学',\n'url':'/zhexue/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'学习资料',\n'url':'/xuexi/index_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}}\n]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 2500,
+        "lastUpdateTime": 1635241321696,
+        "ruleSearch": {
+            "bookList": "tbody tr[1:20]",
+            "name": "td.1@text",
+            "author": "td.3@text",
+            "lastChapter": "td.2:4@text##\\n##·",
+            "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.wurexs.com/headimgs/'+iid+'/'+id+'/s'+id+'.jpg';\n</js>",
+            "bookUrl": "a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": ".listBox@ul@li",
+            "name": "tag.a.0@text##txt.*",
+            "author": "##作者：([^<]+)<##$1###",
+            "kind": "##更新：([^<]+)<##$1###",
+            "wordCount": "##大小：([^<]+)<##$1###",
+            "lastChapter": "tag.a.1@text",
+            "intro": "class.u@textNodes",
+            "coverUrl": ".even.1@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://img.qidushu.com/image/'+iid+'/'+id+'/s'+id+'.jpg';\n</js>",
+            "bookUrl": ".even.1@href"
+        },
+        "ruleBookInfo": {
+            "init": "@put:{\nn:\".detail_right h1@text\",\na:\".small.0@text\",\nk:\".small.2@text\",\nw:\"\",\nl:\".small.3@text\",\ni:\".small.4@html\",\nc:\".detail_right img@src\",\nu:\"\",\nd:\"text.txt下载@href\"\n}",
+            "name": "@get:{n}",
+            "author": "@get:{a}",
+            "kind": "@get:{k}##更新日期.|...:.*",
+            "wordCount": "@get:{w}",
+            "lastChapter": "@get:{l}##最新章节.",
+            "intro": "@get:{d}\n<js>\nvar id = result.match(/(\\d+)/)[0];\nvar iid = parseInt(id/1000);\nvar url = '<br>🔗：https://down.wurexs.com/down/'+iid+'/'+id+'/{{book.name}}.txt<br>';\nurl+'@get:{i}'\n</js>##简介.|作者：(.|\\n)*",
+            "coverUrl": "@get:{c}",
+            "tocUrl": "++@get:{u}"
+        },
+        "ruleToc": {
+            "chapterList": ".showInfo.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "id.content@html##请记住本书.*|最新网址.*|书快书快.*|书快电子书.*|-",
+            "nextContentUrl": "text.下一章@href",
+            "replaceRegex": "##本文由4020电子书.*http://www.4020.cn/",
+            "imageStyle": "0"
+        }
+    }
+]

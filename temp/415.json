@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "小小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xiaoxs.com/",
+        "customOrder": -1,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\": \"点击榜\",\"url\": \"\",\"style\": {\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\": \"日榜\",\"url\": \"/dayvisit/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"周榜\",\"url\": \"/weekvisit/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"月榜\",\"url\": \"/monthvisit/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"总榜\",\"url\": \"/allvisit/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"推荐榜\",\"url\": \"\",\"style\": {\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\": \"日榜\",\"url\": \"/dayvote/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"周榜\",\"url\": \"/weekvote/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"月榜\",\"url\": \"/monthvote/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"总榜\",\"url\": \"/allvote/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"收藏榜\",\"url\": \"/goodnum/1/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"字数榜\",\"url\": \"/size/1/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"强推榜\",\"url\": \"/toptime/1/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"新书榜\",\"url\": \"/goodnew/1/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"分类\",\"url\": \"\",\"style\": {\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\": \"玄幻\",\"url\": \"/sort/1/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"奇幻\",\"url\": \"/sort/2/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"武侠\",\"url\": \"/sort/3/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"都市\",\"url\": \"/sort/4/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"历史\",\"url\": \"/sort/5/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"军事\",\"url\": \"/sort/6/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"悬疑\",\"url\": \"/sort/7/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"游戏\",\"url\": \"/sort/8/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"科幻\",\"url\": \"/sort/9/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"体育\",\"url\": \"/sort/10/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"官场\",\"url\": \"/sort/11/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"古言\",\"url\": \"/sort/12/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"先言\",\"url\": \"/sort/13/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"幻言\",\"url\": \"/sort/14/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"仙侠\",\"url\": \"/sort/15/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"青春\",\"url\": \"/sort/16/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"穿越\",\"url\": \"/sort/17/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"女生\",\"url\": \"/sort/18/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\": \"N次元\",\"url\": \"/sort/19/1/\",\"style\": {\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1650434019790,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "kind": "class.detail@p.2@text",
+            "lastChapter": "class.update@p.0@text",
+            "tocUrl": "class.action@li.0@a@href"
+        },
+        "ruleContent": {
+            "content": "class.content@html"
+        },
+        "ruleExplore": {
+            "author": "class.data.0@a@text",
+            "bookList": "",
+            "kind": "class.data.0@span.0@text",
+            "lastChapter": "class.data.1@a@text##第.*章{1}"
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.list@li",
+            "bookUrl": "a@href",
+            "coverUrl": "a@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.data@text",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "class.pagelist@a@href"
+        },
+        "searchUrl": "/search.html,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

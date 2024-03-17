@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "造化图小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.zaohuatu.com/##十一",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\": \"榜单\",\"url\": \"\",\"style\": {\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\": \"点击榜\",\"url\": \"/rank/allvisit/\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"收藏榜\",\"url\": \"/rank/weekvisit/\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"推荐榜\",\"url\": \"/rank/goodnum/\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"分类\",\"url\": \"\",\"style\": {\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\": \"玄幻奇幻\",\"url\": \"/sort/1/{{page}}/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"都市青春\",\"url\": \"/sort/2/{{page}}/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"武侠仙侠\",\"url\": \"/sort/3/{{page}}/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"历史军事\",\"url\": \"/sort/4/{{page}}/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"女生言情\",\"url\": \"/sort/5/{{page}}/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"网游竞技\",\"url\": \"/sort/6/{{page}}/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"科幻灵异\",\"url\": \"/sort/7/{{page}}/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\": \"综合其他\",\"url\": \"/sort/8/{{page}}/\",\"style\": {\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1650510520778,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "id.TextContent@html"
+        },
+        "ruleExplore": {
+            "author": "class.mb5 ell _tags pt2@strong.0@span@text",
+            "bookList": "class.lst-item",
+            "coverUrl": "i@img@_src",
+            "intro": "class.fs16 lh1d5 c_strong oh _p is-truncated@text",
+            "kind": "class.mb5 ell _tags pt2@strong.1@span@text",
+            "name": "h2@text"
+        },
+        "ruleSearch": {
+            "author": "class.vam mr10.1@text",
+            "bookList": "class.ser-ret lh1d5@li",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "class.g_thumb pa l0 oh@img@src",
+            "intro": "class.fs16 mb10 c_strong g_ells@text",
+            "kind": "class.vam mr10.0@text",
+            "lastChapter": "class.vam.3@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.w33p",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://m.zaohuatu.com/search/,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "韩漫库",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://se8.us/",
+        "customOrder": -2085984643,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "精品::https://se8.us/index.php/category/quality/39/page/{{page}}\n热门::https://se8.us/index.php/category/quality/40/page/{{page}}\n签约::https://se8.us/index.php/category/quality/333/page/{{page}}",
+        "lastUpdateTime": 1686047248124,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".name@tag.a@text",
+            "coverUrl": ".de-info__cover@.lazy@src",
+            "intro": ".intro@text",
+            "kind": ".comic-status@span.1@text",
+            "lastChapter": ".update-time@text",
+            "name": ".comic-title@text"
+        },
+        "ruleContent": {
+            "content": "class.rd-article-wr@img@data-original@js:\nlist=result.split(\"\\n\");\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+'\">';\n}\nhtml",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": {
+            "bookList": ".common-comic-item",
+            "bookUrl": ".cover@href",
+            "coverUrl": "class.cover@img@data-original",
+            "intro": "",
+            "lastChapter": ".h1@text",
+            "name": ".comic__title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".common-comic-item",
+            "bookUrl": ".cover@href",
+            "coverUrl": ".cover@img@data-original",
+            "lastChapter": ".h1@text",
+            "name": ".comic-feature@text"
+        },
+        "ruleToc": {
+            "chapterList": ".j-chapter-link",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/index.php/search?key={{key}}",
+        "weight": 0
+    }
+]

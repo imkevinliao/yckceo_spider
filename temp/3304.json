@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceName": "📀平板小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://wap.qiuyelou.com##旅途",
+        "customOrder": -2086012580,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n,{\"title\":\"修真小说\",\"url\":\"/xiuzhen/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n,{\"title\":\"武侠小说\",\"url\":\"/wuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n,{\"title\":\"历史小说\",\"url\":\"/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n,{\"title\":\"都市小说\",\"url\":\"/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n,{\"title\":\"网游小说\",\"url\":\"/game/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n,{\"title\":\"科幻小说\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n,{\"title\":\"恐怖小说\",\"url\":\"/kongbu/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n,{\"title\":\"穿越小说\",\"url\":\"/chuanyue/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n,{\"title\":\"言情小说\",\"url\":\"/yanqing/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n,{\"title\":\"校园小说\",\"url\":\"/xiaoyuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1683040734258,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "##作者：([^<]+)##$1###",
+            "coverUrl": "img@src",
+            "intro": "[name=\"description\"]@content",
+            "kind": "p.3:4:5@text##状态：|分类：|更新新：",
+            "lastChapter": "##最新：([^<]+)##$1###",
+            "name": "h2@text",
+            "tocUrl": "text.查看更多章节@href\n@js:baseUrl.replace(\"wap\",\"www\")"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*.本章未完，请点击下一页继续阅读.\\s*"
+        },
+        "ruleExplore": {
+            "author": "##>/([^<]+)##$1###",
+            "bookList": ".line",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.qiuyelou.com/book/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "##\\[([^\\]]+)##$1###",
+            "lastChapter": "",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.-2@text##作者：",
+            "bookList": ".block",
+            "bookUrl": "h2@a@href",
+            "checkKeyWord": "青春",
+            "kind": "p.-3@text##分类：",
+            "lastChapter": "p.-1@a@text",
+            "name": "h2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "@js:baseUrl.replace(\"www\",\"wap\")+\"{{@@a@href}}\"",
+            "nextTocUrl": "",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "http://wap.qiuyelou.com/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️小说网1☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.530p.com#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "点击榜::http://m.530p.com/top/{{page}}/\n奇幻::http://m.530p.com/qihuan/{{page}}/\n玄幻::http://m.530p.com/xuanhuan/{{page}}/\n言情::http://m.530p.com/yanqing/{{page}}/\n都市::http://m.530p.com/dushi/{{page}}/\n游戏::http://m.530p.com/youxi/{{page}}/\n竞技::http://m.530p.com/jingji/{{page}}/\n武侠::http://m.530p.com/wuxia/{{page}}/\n历史::http://m.530p.com/lishi/{{page}}/\n军事::http://m.530p.com/junshi/{{page}}/\n科幻::http://m.530p.com/kehuan/{{page}}/",
+        "lastUpdateTime": 1643973813097,
+        "ruleBookInfo": {
+            "intro": "class.n-chapter.0@text"
+        },
+        "ruleContent": {
+            "content": "class.n-chapter@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.-1@text",
+            "bookList": "tag.ul@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "name": "tag.a.0@tag.span@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://m.530p.com/s/{{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔞,漫画",
+        "bookSourceName": "漫画联合国(升级阅读App到最新)",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://www.comicun.com",
+        "customOrder": -2085978723,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "剧情:: /index-html-typeid-5?page={{page}}\n魔法:: /index-html-typeid-8?page={{page}}\n神鬼:: /index-html-typeid-9?page={{page}}\n校园:: /index-html-typeid-10?page={{page}}\n惊栗:: /index-html-typeid-11?page={{page}}\n图片:: /index-html-typeid-14?page={{page}}\n冒险:: /index-html-typeid-15?page={{page}}\n小说:: /index-html-typeid-16?page={{page}}\n港漫:: /index-html-typeid-17?page={{page}}\n经典:: /index-html-typeid-19?page={{page}}\n欧美:: /index-html-typeid-20?page={{page}}\n日本:: /index-html-typeid-21?page={{page}}\n亲情:: /index-html-typeid-22?page={{page}}\n修真:: /index-html-typeid-25?page={{page}}\n韩漫:: /index-html-typeid-27?page={{page}}\n真人:: /index-html-typeid-28?page={{page}}\n英文:: /index-html-typeid-30?page={{page}}\n萌系:: /index-html-typeid-1?page={{page}}\n搞笑:: /index-html-typeid-2?page={{page}}\n格斗:: /index-html-typeid-3?page={{page}}\n科幻:: /index-html-typeid-4?page={{page}}\n侦探:: /index-html-typeid-6?page={{page}}\n竞技:: /index-html-typeid-7?page={{page}}\n厨艺:: /index-html-typeid-12?page={{page}}",
+        "lastUpdateTime": 1684572960224,
+        "respondTime": 3840,
+        "ruleBookInfo": {
+            "author": "a[itemprop=\"author\"]@text",
+            "lastChapter": "id.play_1@li[0]@text"
+        },
+        "ruleContent": {
+            "content": "@js:\nvar image = String(java.getElements('#ComicPic')); \nvar url= image.match(/src=\\\"([^\"]+)\\\"/)[1];\nvar start = parseInt( url.substring(url.lastIndexOf('/') + 1).split('.')[0] );\nvar total = start + parseInt(String(java.getElements('#total')).match(/value=\\\"([^\"]+)\\\"/)[1]);\nvar html = image;\nfor(let i=start;i<total;i++){\n\tvar img = image.replace(new RegExp(start+'',\"g\"),''+i);\n\thtml += img;\n}\nresult = html;",
+            "imageStyle": "FULL",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "id.dmList@li",
+            "bookUrl": "@tag.dt.0@tag.a@href",
+            "checkKeyWord": "",
+            "coverUrl": "@tag.img@src",
+            "intro": "🔘 {{source.getSource().bookSourceName}}\n{{java.t2s(java.getString(\"class.intro@text##簡　介：\"))}}",
+            "kind": "@tag.dd@tag.p[2]@a@text",
+            "lastChapter": "@tag.dd@tag.p[1]@span@text",
+            "name": "@tag.dt.0@text@js:java.t2s(result)"
+        },
+        "ruleToc": {
+            "chapterList": "id.play_1@li[-1:0]",
+            "chapterName": "@text@js:java.t2s(result)",
+            "chapterUrl": "@tag.a@href"
+        },
+        "searchUrl": "/search-index?q={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "",
+        "bookSourceName": "三Z小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.3zxsw.com",
+        "bookUrlPattern": "",
+        "customOrder": -2085958077,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"/lastupdate_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新更新\",\"url\":\"/postdate_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总点击榜\",\"url\":\"/allvote_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"字数排行\",\"url\":\"/size_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"总收藏榜\",\"url\":\"/goodnum_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻魔法\",\"url\":\"/1_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠修真\",\"url\":\"/2_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/3_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美同人\",\"url\":\"/5_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/7_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖灵异\",\"url\":\"/8_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游科幻\",\"url\":\"/9_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他类型\",\"url\":\"/10_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"全本小说\",\"url\":\"/modules/article/articlelist.php?fullflag=1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1668102986698,
+        "loginUrl": "",
+        "respondTime": 2918,
+        "ruleBookInfo": {
+            "intro": "",
+            "lastChapter": "class.dccss.-1@text##正文\\s",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "#content@p@textNodes",
+            "imageStyle": "0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "span.0@text##.*：",
+            "bookList": "#alistbox",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": ".title@textNodes##/",
+            "lastChapter": "a.2@text##正文\\s",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".dccss",
+            "chapterName": "a@text##正文\\s",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+        "weight": 0
+    }
+]

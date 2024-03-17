@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceName": "若初文学m",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ruochuwx.com",
+        "customOrder": -2085959348,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "全部分类::/shuku/{{page}}.html\n全部分类::/allsort/{{page}}.html\n玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n其他类型::/qita/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html\n游戏情缘::/zongcai/{{page}}.html\n浪漫青春::/qingchun/{{page}}.html\n言情美文::/wangluo/{{page}}.html\n科幻灵异::/mmkehuan/{{page}}.html\n其他类型::/mmqita/{{page}}.html",
+        "header": "{\n//\t\"cookie\":\"waf_sc=5889647726\",\n\t\"referer\":\"https://m.ruochuwx.com/\",\n\t\"x-requested-with\":\"com.mmbox.xbrowser\",\n\t\"sec-fetch-site\":\"same-origin\",\n\t\"sec-fetch-mode\":\"navigate\",\n\"sec-fetch-user\":\" ?1\",\n\"sec-fetch-dest\":\"document\",\n\"accept-language\":\" zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"\n\t}",
+        "lastUpdateTime": 1666350654572,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ".title@a@href"
+        },
+        "ruleContent": {
+            "content": ".content@html##喜欢{{book.name}}.*?若初文学网更新速度最快。",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".data.0@a.0@text",
+            "bookList": ".list@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": ".data.0@span@text",
+            "lastChapter": ".data.1@a.0@text",
+            "name": ".bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": ".read@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ".pagelist@option@value"
+        },
+        "searchUrl": "/search.html,{\n  \"charset\": \"\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "Sra.ᚿᚫ⸙",
+        "bookSourceGroup": "💦 精品 💦,🌹,☣️精选senhora,☣️。,☣️senhora起点",
+        "bookSourceName": "💦爱看书（禁止搜索）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.aaaks.com/",
+        "bookUrlPattern": "https://www.aaaks.com/akshtml\\d+.html",
+        "customOrder": 222609,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::https://www.aaaks.cc/aksort1/index_{{page}}.html\n仙侠小说::/xianxia/{{page}}.html\n都市小说::/dushi/{{page}}.html\n军史小说::/junshi/{{page}}.html\n网游小说::/wangyou/{{page}}.html\n科幻小说::/kehuan/{{page}}.html\n恐怖小说::/kongbu/{{page}}.html\n其他小说::/qita/{{page}}.html",
+        "lastUpdateTime": 1646276307153,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.bq@tag.span.1@a@text",
+            "coverUrl": "class.catalog1@tag.img.0@src",
+            "init": "",
+            "intro": "class.introduce@class.jj@text",
+            "kind": "class.bq@tag.span.0@text&&\nclass.bq@tag.span.2@text##更新：|状态：",
+            "lastChapter": "class.last9@ul@tag.li.0@tag.a@text##百度搜索.*",
+            "name": "class.introduce@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.articlecontent@html##天才一秒记住.*更新最快！|PS：如果您觉得本站.*谢谢！|-->>|（本章未完，请点击下一页继续阅读）|本站域名.*爱看书|举报本章错误.*|【爱看书 - www.aaaks.com】|一秒记住.*！|.*www..*",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.p1@a@text##作者：",
+            "bookList": "class.tt",
+            "bookUrl": "h3@tag.a@href",
+            "coverUrl": "class.pic@img@src",
+            "intro": "class.p2@text",
+            "name": "h3@tag.a@text"
+        },
+        "ruleSearch": {
+            "author": "h6@tag.a.1@text",
+            "bookList": "class.article",
+            "bookUrl": "h6@tag.a.0@href@js:'https://www.aaaks.com'+result",
+            "coverUrl": "img@src",
+            "intro": "class.simple@text",
+            "kind": "",
+            "lastChapter": "class.author@tag.a@text##百度搜索.*",
+            "name": "h6@tag.a.0@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.ml_list@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://m.aaaks.com/search/,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}",
+        "weight": 0
+    }
+]

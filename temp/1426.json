@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "普通搜索说明：\n直接输入关键词可以进行普通搜索\n（关键词两个字节以上，一个中文占两字节，多关键词用|分隔）\n\n\n高级搜索使用方法如下：\n\n①基本格式（括号表示可选）：\n功能1（功能2功能3…） 关键词\nps：注意功能与关键词之间要有一个空格！要不然无法识别！各种功能的实现只需要包含功能关键词即可实现\n\n②高级搜索功能关键词\n1.局     进行部分匹配（默认搜索为完全匹配）\n2.精     只显示精华帖\n3.正     正序显示搜索结果（默认为倒序显示）\n4.回复|时间|人气     按回复次数或发帖时间或帖子人气顺序显示搜索结果（默认为按最后回复时间早晚显示搜索结果，一次搜索仅使用其中一个！）\n示例：局部精华人气 穿越\n         正精 穿越",
+        "bookSourceGroup": "饭饭",
+        "bookSourceName": "饭饭txt",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://bbs.fanfanx.com/",
+        "customOrder": -2085979136,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\"title\":\"青春言情\",\"url\":\"https://bbs.fanfanx.com/ff10-{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美闲情\",\"url\":\"https://bbs.fanfanx.com/ff117-{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"轻松同人\",\"url\":\"https://bbs.fanfanx.com/ff191-{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"魔幻网游\",\"url\":\"https://bbs.fanfanx.com/ff118-{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\" 科幻悬推\",\"url\":\"https://bbs.fanfanx.com/ff62-{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"文学之殿\",\"url\":\"https://bbs.fanfanx.com/ff60-{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"精品推荐\",\"url\":\"https://bbs.fanfanx.com/ff216-{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}\n]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76\"\n}",
+        "lastUpdateTime": 1675175404195,
+        "loginCheckJs": "",
+        "loginUrl": "https://bbs.fanfanx.com/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "a.writer@text",
+            "coverUrl": "img@src",
+            "init": "<js>\njava.put(\"re\",result)\n//替换详细页网址\nvar pattern=/(<!--.*?<a href=\")(.*?)(\".*?在线阅读.*?-->)/g\npattern.test(result)\nvar list=book.origin+\"/\"+RegExp.$2\njava.put(\"list\",list)\njava.log(list)\nresult=java.connect(list).body()\n</js>",
+            "intro": "<js>\nresult=String(java.get(\"re\"))\nresult.replace(/<a.*?>|<\\/a>|<b>|<b .*?>|<\\/b>/g,\"\")\n</js>\tdiv#read_tpc@textNodes||div#read_tpc@font@html##http(s)?.*|<img.*|图片.*\n<js>\n//强迫症犯了，给爷全缩进\nresult=String(result)\nresult.replace(/(?!^\\s)/,\"\\t\")\n</js>",
+            "kind": "span.blue@text&&a.red.1@text##口-",
+            "name": "h1@em@text",
+            "tocUrl": "<js>\njava.get(\"list\")\n</js>",
+            "wordCount": "p@em:nth-of-type(1)@text&&p@cite:nth-of-type(1)@text##\\s*"
+        },
+        "ruleContent": {
+            "content": "div.read-content@html"
+        },
+        "ruleExplore": {
+            "author": "a.subject_t@text##.*作者：([\\u4e00-\\u9fa5\\w]*).*##$1",
+            "bookList": "tr:nth-of-type(n+8) td.subject",
+            "bookUrl": "a.subject_t@href",
+            "kind": "a.mr5.s4@text##\\[(.*?)\\]##$1",
+            "name": "a.subject_t@text##《(.*?)》.*##$1",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.0@text##.*作者：([\\u4e00-\\u9fa5\\w]*).*##$1",
+            "bookList": "tr.tr3.tac",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "我的",
+            "kind": "a.1@text##(.*?-)(.*?)\\[?##$2",
+            "name": "a.0@text##《(.*?)》.*##$1"
+        },
+        "ruleToc": {
+            "chapterList": "ul.cf@a",
+            "chapterName": "text",
+            "chapterUrl": "href##^##{{book.origin}}",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "<js>\nvar pa1= /( )(.*)/;\nvar pa2 =/.*?(?= )/;\nvar body = \"step=2\";\nif (key.indexOf(\" \")!=-1){\nvar str1=String(pa2.exec(key));\npa1.test(key);\nvar str2=RegExp.$2;\nstr2=java.encodeURI(str2,\"gbk\");\n    body+=\"&keyword=\"+str2;\n    body+=(str1.indexOf(\"局\")!=-1)?\"&pwuser=&method=OR\":\"\";\n    body+=(str1.indexOf(\"精\")!=-1)?\"&digest=1\":\"\";\n    body+=(str1.indexOf(\"回复\")!=-1)?\"&orderway=replies\":\"\";\n    body+=(str1.indexOf(\"时间\")!=-1)?\"&orderway=postdate\":\"\";\n    body+=(str1.indexOf(\"人气\")!=-1)?\"&orderway=hits\":\"\";\n    body+=(str1.indexOf(\"正\")!=-1)?\"&asc=ASC\":\"\";\n   java.log(body);\n}\nelse{\n\tkey=java.encodeURI(key,\"gbk\");\n    body+=\"&keyword=\"+key;\n\t}\nbody+=\"&page=\"+page;\n    a=\"https://bbs.fanfanx.com/search.php?\" + String(body);\n   //java.log(java.connect(a).body());\n</js>\n",
+        "weight": 0
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️畅阅小说网☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://c.c-ccccc.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::http://c.c-ccccc.cc/xuanhuan/<,page_{{page}}.html>\n修真小说::http://c.c-ccccc.cc/xiuzhen/<,page_{{page}}.html>\n都市小说::http://c.c-ccccc.cc/dushi/<,page_{{page}}.html>\n历史小说::http://c.c-ccccc.cc/lishi/<,page_{{page}}.html>\n网游小说::http://c.c-ccccc.cc/wangyou/<,page_{{page}}.html>\n科幻小说::http://c.c-ccccc.cc/kehuan/<,page_{{page}}.html>",
+        "lastUpdateTime": 1644928391998,
+        "ruleBookInfo": {
+            "author": "class.pt-info.0@text",
+            "intro": "class.intro@html",
+            "kind": "class.pt-info@tag.a.-1@text",
+            "lastChapter": "class.ptm-list-view@tag.li.0@text##黑月光拿稳BE剧本 藤萝为枝",
+            "name": "class.pt-name.0@text"
+        },
+        "ruleContent": {
+            "content": "class.chaptercontent@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "bookList": "class.ptm-list-view-cell ptm-img ptm-col-xs-4",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.ptm-list-view@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/home/search,{\n\"method\": \"POST\",\n\"body\": \"action=search&q={{key}}\"\n}",
+        "weight": 0
+    }
+]

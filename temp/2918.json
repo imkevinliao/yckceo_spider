@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "优先",
+        "bookSourceName": "笔粒文学社✔",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.biliwx.com",
+        "customOrder": -2270,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::http://www.biliwx.com/class/1_{{page}}.html\n武侠::/class/2_{{page}}.html\n都市::/class/3_{{page}}.html\n历史::/class/4_{{page}}.html\n架空::/class/5_{{page}}.html\n游戏::/class/6_{{page}}.html\n科幻::/class/7_{{page}}.html\n日轻::/class/8_{{page}}.html\n总点击榜::/filter/allvisit_0_0_0_0_0_{{page}}.html\n月点击榜::/filter/monthvisit_0_0_0_0_0_{{page}}.html",
+        "lastUpdateTime": 0,
+        "ruleBookInfo": {
+            "author": "class.z-author@tag.a@text",
+            "coverUrl": "class.u-bookDetail-cover f-fl@tag.img@src",
+            "intro": "class.u-synopsis-text f-fs12@tag.p@text",
+            "kind": "class.z-category@class.f-text-overflow@tag.i@tag.a@text",
+            "lastChapter": "class.cf@tag.li.0@tag.a@text",
+            "name": "class.f-fs22@text",
+            "tocUrl": "class.u-bookDetail-more@href"
+        },
+        "ruleContent": {
+            "content": "class.acontent@html"
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text##作者：",
+            "bookList": "@css:ul#list li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@src",
+            "intro": "class.u-result-synopsis@text",
+            "kind": "tag.span.1@text##分类:",
+            "lastChapter": "tag.a.3@text",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.span.2@text"
+        },
+        "ruleSearch": {
+            "author": "class.c_tag.0@class.c_value.0@text",
+            "bookList": "class.c_row",
+            "bookUrl": "class.fl@tag.a@href",
+            "coverUrl": "class.fl@tag.a@tag.img@src",
+            "intro": "class.c_description@text",
+            "kind": "class.c_tag.0@class.c_value.4@text",
+            "lastChapter": "class.c_tag.1@class.c_value.0@tag.a@text",
+            "name": "class.c_subject@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.index@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.biliwx.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

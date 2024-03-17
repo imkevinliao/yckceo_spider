@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "A级",
+        "bookSourceName": "齐努力小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://i.qinuli.net",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.author@tag.p@text##作者：",
+            "coverUrl": "class.synopsisArea_detail@tag.img@src",
+            "intro": "class.review@text",
+            "lastChapter": "class.directoryArea@tag.p.0@a@text",
+            "name": "class.title@tag.span.0@text",
+            "tocUrl": "text.开始阅读@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html##.*章未完.*|.*把本站分享.*",
+            "imageStyle": "0.0",
+            "nextContentUrl": "class.next@a@text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author.0@text##.*\\||作者：",
+            "bookList": "class.recommend mybook@class.hot_sale",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##/book/(\\d+)(\\d{3})/##https://image.qinuli.net/$1/$1$2/$1$2s.jpg",
+            "kind": "class.author.0@text##\\|.*",
+            "lastChapter": "class.author.1@text##.*\\||更新：",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@p",
+            "chapterName": "tag.a@text##.*直达页面.*",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://i.qinuli.net/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+        "weight": 0
+    }
+]

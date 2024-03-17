@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "W",
+        "bookSourceName": "新暖才",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xncwxw3.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "",
+        "lastUpdateTime": 1616300663682,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "intro": "class.jj@class.p2@text",
+            "kind": "class.tab@class.p4@text&&class.tab@class.p5@text",
+            "lastChapter": "class.tab@tag.a.0@text&&class.tab@class.p2.1@text##\\n更新：##•",
+            "wordCount": "class.tab@class.p6@text"
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes##.*(xncwxw|本章未完).*",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author.0@text##作者：([^<]+)##$1###",
+            "bookList": "class.hot_sale",
+            "bookUrl": " tag.a.0@href",
+            "coverUrl": "tag.a.0@href##_(([\\d]+)[\\d]{3})/##http://www.xncwxw3.com/files/article/image/$2/$1/$1s.jpg###",
+            "kind": "class.author@text##([^|]+)|##$1###",
+            "lastChapter": "##更新：([^<]+)</##$1###",
+            "name": "class.title@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.info_chapters@class.p2.1@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.xncwxw3.com/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}&t=1&submit=搜索\"\n}",
+        "weight": 0
+    }
+]

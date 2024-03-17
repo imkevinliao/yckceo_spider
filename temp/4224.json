@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "by~江湖",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "丫丫电子书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.shuyy8.cc",
+        "bookUrlPattern": "http://www.shuyy8.cc/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/xuanhuan/list_update_{{page}}.html\n武侠修真::/wuxia/list_update_{{page}}.html\n现代都市::/dushi/list_update_{{page}}.html\n言情小说::/yanqing/list_update_{{page}}.html\n历史军事::/junshi/list_update_{{page}}.html\n游戏竞技::/jingji/list_update_{{page}}.html\n科幻灵异::/kehuan/list_update_{{page}}.html\n耽美小说::/shenmei/list_update_{{page}}.html\n同人小说::/tongren/list_update_{{page}}.html\n其他小说::/qita/list_update_{{page}}.html\n全本小说::/quanben/list_update_{{page}}.html\n全部小说::/all/list_update_{{page}}.html",
+        "lastUpdateTime": 1696672163169,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".con_lwrap .author .black a@text",
+            "coverUrl": ".con_lwrap img@src",
+            "intro": ".r_cons@html",
+            "kind": ".con_lwrap@p@span.1@text",
+            "lastChapter": ".lastrecord a@text",
+            "name": ".con_lwrap h1@text",
+            "tocUrl": "@js:baseUrl.replace(\"book\",\"read\")",
+            "wordCount": ".con_lwrap@p@span.2@text"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes"
+        },
+        "ruleExplore": {
+            "author": "//span[last()]/a/text()",
+            "bookList": ".listconl ul li",
+            "bookUrl": ".width369 .green@href",
+            "coverUrl": "",
+            "kind": ".width369@textNodes&&\nclass.width85@text##\\[|\\]",
+            "lastChapter": ".gray@text",
+            "name": ".width369 .green@text",
+            "wordCount": "class.width84@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "//span[last()]/a/text()",
+            "bookList": ".listconl ul li",
+            "bookUrl": ".width369 .green@href",
+            "checkKeyWord": "都市",
+            "kind": ".width369@textNodes&&\nclass.width85@text##\\[|\\]",
+            "lastChapter": ".gray@text",
+            "name": ".width369 .green@text",
+            "wordCount": "class.width84@text"
+        },
+        "ruleToc": {
+            "chapterList": ".dirconone ul li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search?wd={{key}}",
+        "weight": 0
+    }
+]

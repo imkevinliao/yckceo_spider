@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceName": "思路客",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.silukex.com",
+        "customOrder": -2147483625,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "header": "{\"Keep-Alive\":\"\"}",
+        "lastUpdateTime": 1687529366485,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content\n##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##小说|\\s\\d.*",
+            "lastChapter": "{{@@[property$=chapter_name]@content}} • {{@@[property$=update_time]@content##\\s.*}}",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#content@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.1@text",
+            "bookList": ".result-item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "我的治愈系游戏",
+            "coverUrl": "img@src",
+            "intro": "p.0@text",
+            "kind": "span.3:5@text",
+            "lastChapter": "{{@a.2@text}} • {{@span.5@text}}",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.silukex.com/search.php?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

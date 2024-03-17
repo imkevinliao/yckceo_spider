@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "酷安",
+        "bookSourceGroup": "☀晨光雨露💫精俢源💯",
+        "bookSourceName": "御书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.9biquge.com",
+        "customOrder": -281471,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1655369662461,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "intro": "div.book-intro@ownText##{{book.name}},{{book.author}}.*",
+            "kind": "[property=og:novel:category],[property=og:novel:status],[property=og:novel:update_time]@content##\\s.*",
+            "lastChapter": "[property=og:novel:latest_chapter_name]@content",
+            "tocUrl": "{{book.bookUrl}}##book##list_other",
+            "wordCount": "div.booktitle p@ownText##字数：(.*)作者##$1###"
+        },
+        "ruleContent": {
+            "content": "#BookText@html",
+            "nextContentUrl": "text.下一页@href##$##,{\"webView\":true}"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "p.author@ownText",
+            "bookList": "ul.search-list li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.intro@ownText",
+            "kind": "span.text@text&&p.latest@ownText##\\s.*",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.chapter-list a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

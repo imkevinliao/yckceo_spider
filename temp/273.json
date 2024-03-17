@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "笔趣阁",
+        "bookSourceName": "笔趣库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.9biquge.com/",
+        "bookUrlPattern": "https://www.biqiku.net/\\d+/\\d+/",
+        "customOrder": -279925,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/{{page}}.html\n修真小说::/xiuzhenxiaoshuo/{{page}}.html\n都市小说::/dushixiaoshuo/{{page}}.html\n穿越小说::/chuanyuexiaoshuo/{{page}}.html\n网游小说::/wangyouxiaoshuo/{{page}}.html\n科幻小说::/kehuanxiaoshuo/{{page}}.html\n其它小说::/qitaxiaoshuo/{{page}}.html",
+        "lastUpdateTime": 1655370823025,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@a@text",
+            "coverUrl": "id.fmimg@img@src",
+            "intro": "id.intro@text",
+            "kind": "id.info@tag.p.2@text##最后更新：",
+            "lastChapter": "id.info@tag.p.3@a@text",
+            "name": "id.bookdetail@id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "ruleExplore": {
+            "author": "class.s4@a@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.biqiku.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "class.s5@text",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+        },
+        "ruleSearch": {
+            "author": "class.s4@a@text",
+            "bookList": "class.novelslist2@ul@li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.biqiku.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "class.s6@text",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+        },
+        "ruleToc": {
+            "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.biqiku.net/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "//原https://m.jhssd.com\n//备用https://m.xbyuan.com/",
+        "bookSourceGroup": "自制,优质,源仓库,网页源",
+        "bookSourceName": "精华书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.richvv.com",
+        "bookUrlPattern": "https?://m.richvv.com/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/list/1<,_{{page}}>.html\n修真小说::/list/2<,_{{page}}>.html\n都市小说::/list/3<,_{{page}}>.html\n穿越小说::/list/4<,_{{page}}>.html\n网游小说::/list/5<,_{{page}}>.html\n科幻小说::/list/6<,_{{page}}>.html\n灵异小说::/list/7<,_{{page}}>.html\n女生小说::/list/8<,_{{page}}>.html\n其它小说::/list/9<,_{{page}}>.html\n完本小说::/wanben<,_{{page}}>.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1693025997215,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#nr1@html||#content@html##温馨提示.*阅读模式。|若语句不通.*清除浏览器缓存即可！|域名更换为.*?请收藏！|『章节有误？登录后点此报错~』|阅读提示.*阅读模式。",
+            "nextContentUrl": "text.下一页@href||#pb_next@href\n##$##,{'webView': true}",
+            "replaceRegex": "##精华书阁.*|.*免费阅读.*https.*com.*|为您提供.*请务必保存好书签.|最新章节！|（本章未完，请点击下一页继续阅读）|@|具体最快.*|最快更新.*|看《.*》|精华.*?~~|(本章未完！)|(下一页更精彩！)|最快更.*浏览器.*|温馨提示：.*阅读模式可能出现内容文字不全.*你懂操作吧.*|百度搜索.*首发|(本章未完，点击下一页精彩继续)|.*?提醒您：看完记得收藏.*|【推荐下，|\\(本章未完，下一页精彩继续\\)|紧急通知：|本章未完.*",
+            "title": ".nr_title@text##\\(\\d.+\\)"
+        },
+        "ruleExplore": {
+            "author": "span.0@ownText##\\(|\\)",
+            "bookList": ".fk ul",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "span.1@text##简介：",
+            "kind": "tag.i@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".searchbook",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": ".cat@text##分类：",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://m.richvv.com/search.html?ie=utf-8&word={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

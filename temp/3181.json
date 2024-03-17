@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceGroup": "💧随源",
+        "bookSourceName": "书单",
+        "bookSourceType": 0,
+        "bookSourceUrl": "❀.yousuu.booklist",
+        "bookUrlPattern": "",
+        "customOrder": -2886,
+        "enabled": false,
+        "enabledExplore": false,
+        "exploreUrl": "  最 新  ⇨ ::https://www.yousuu.com/api/booklists?type=woman&screen=latest&page={{page}}&t={{Date.now()}}\n 女 频 ♀ ::https://www.yousuu.com/api/booklists?type=woman&screen=comprehensive&page={{page}}&t={{Date.now()}}\n ⇦  精 品 ::https://www.yousuu.com/api/booklists?type=woman&screen=essence&page={{page}}&t={{Date.now()}}",
+        "header": "",
+        "lastUpdateTime": 0,
+        "loginUrl": "随源 v20.4.1",
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "<js>\nvar o = JSON.parse(String(result));\njava.put('id', o.data._id);\njava.put('name', o.data.title);\no.data.content;\n</js><js>var 颜=['$1\\x0a','replace'];(function(青,云){var 叶=function(泉){while(--泉){青['push'](青['shift']());}};叶(++云);}(颜,0x17c));var 青=function(辰,蓝){辰=辰-0x0;var 云=颜[辰];return 云;};String(result)[青('0x1')](/<\\/?p>/g,'\\x0a')['replace'](/(？|[…]+)/g,青('0x0'))[青('0x1')](/[\\t\\n]+/g,'\\x0a')[青('0x1')](/^/,'\\x0a');</js>",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<js>eval(function(d,e,a,c,b,f){b=function(a){return(a<e?\"\":b(parseInt(a/e)))+(35<(a%=e)?String.fromCharCode(a+29):a.toString(36))};if(!\"\".replace(/^/,String)){for(;a--;)f[b(a)]=c[a]||b(a);c=[function(a){return f[a]}];b=function(){return\"\\\\w+\"};a=1}for(;a--;)c[a]&&(d=d.replace(new RegExp(\"\\\\b\"+b(a)+\"\\\\b\",\"g\"),c[a]));return d}(\"2 o=b.k(l).j;2 i=t.5(/\\\\/z/,'');2 9=b.k(m.q(i)).j.9;2 g='u'+o.w;2 6=['\\\\n\\u521b\\u5efa\\u8005\\uff1a'+o.B.C+'\\\\n\\u521b\\u5efa\\u4e8e '+o.J.5(/8.+/,'')+'\\\\n\\u66f4\\u65b0\\u4e8e '+o.a.5(/8.+/,'')+'\\\\n'+o.p+'\\u672c\\u4e66\\uff0c'+o.L+'\\u6d4f\\u89c8\\uff0c'+o.r+'\\u6536\\u85cf\\\\n'+o.s.e(f(c){h'#'+c.x+' ('+c.y+')'}).7('\\uff0c '),'\\u3010\\u4e66\\u5355\\u7b80\\u4ecb\\u3011\\\\n'+o.6,'\\u3010\\u4e66\\u5355A\\u3011\\\\n'+g,9.e(f(v){h('\\u4e66\\u540d\\uff1a\\u300a'+v.3.D+'\\u300b\\\\n\\u4f5c\\u8005\\uff1a'+v.3.E+'\\\\n\\u8bc4\\u5206\\uff1a'+'\\u2b50'.F(v.G)+'\\\\n\\u5b57\\u6570\\uff1a'+(H(v.3.I).5(/(\\\\d+)\\\\d{4}$/,'$1\\u4e07')+'\\u5b57')+'\\\\n\\u72b6\\u6001\\uff1a'+(v.3.K===0?'\\u8fde\\u8f7d':'\\u5b8c\\u7ed3')+'\\uff08 '+v.3.a.5(/8.+/,'')+' \\uff09'+'\\\\n\\u3010\\u4e66\\u5355\\u8bc4\\u8bed\\u3011\\\\n'+v.6+'\\\\n')}).7('\\\\n\\u2506\\\\n')].7('\\\\n\\u2506\\\\n');6;\",\n48,48,\"  var bookId  replace content join T books updateAt JSON   map function booklistId return url data parse result java   bookTotal ajax collectNum classes baseUrl yousuu_  _id className count info ID createrId userName title author repeat score String countWord createdAt status clicks\".split(\" \"),0,{}));</js><js>var 乔=['trim','replace','split','join'];(function(康,天){var 风=function(零){while(--零){康['push'](康['shift']());}};风(++天);}(乔,0x17f));var 康=function(天,风){天=天-0x0;var 泽=乔[天];return 泽;};String(result)[康('0x2')](/本章未完.*/,'')[康('0x3')](/[\\n\\s]*\\n+[\\n\\s]*|\\s*<br>\\s*/)['map'](function(天,风){return 天=天[康('0x1')]()[康('0x2')](/^ps\\d*[:：]/gi,''),风===0x0&&(天=天[康('0x2')](/^第\\S{1,7}[章|卷]\\s*[^\\{\\(（［【]{1,32}$/,'')),天;})[康('0x0')]('\\x0a');</js>",
+            "imageStyle": "0",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "author<js>var 石=['trim'];(function(柏,巧){var 斯=function(蝉){while(--蝉){柏['push'](柏['shift']());}};斯(++巧);}(石,0x1ce));var 柏=function(望,信){望=望-0x0;var 巧=石[望];return 巧;};String(result)['replace'](/\\S+[:：]/,'')[柏('0x0')]();</js>",
+            "bookList": "<js>eval(function(d,e,a,c,b,f){b=function(a){return(a<e?\"\":b(parseInt(a/e)))+(35<(a%=e)?String.fromCharCode(a+29):a.toString(36))};if(!\"\".replace(/^/,String)){for(;a--;)f[b(a)]=c[a]||b(a);c=[function(a){return f[a]}];b=function(){return\"\\\\w+\"};a=1}for(;a--;)c[a]&&(d=d.replace(new RegExp(\"\\\\b\"+b(a)+\"\\\\b\",\"g\"),c[a]));return d}(\"4 B=i.Q('Y=6')&&i.V(/F=(\\\\d+)/)[1]=='1';4 8=[];4 r=i.Q('19');11(B){q.t(E.D(i.7('6','h'))).8.U.12(0,1).K(5=>{4 e='W://14.15.1a/G/5/'+5.H+'/6?F=1';4 6=q.t(E.D(e)).8;4 c=5.c;4 m=[(c>10?c/10:c)+'\\u5206\\uff08'+5.S+'\\u4eba\\uff09',5.O.7(/T.+/,'')].9(',');4 k=6.C+'\\u4e2a\\u4e66\\u5355\\u6536\\u5f55';4 f=6.f;4 j=f.s(v=>'\\u300a'+v.h+'\\u300b').9(' | ');4 l='<A>'+6.C+'\\u4e2a\\u4e66\\u5355\\u6536\\u5f55\\u4e86\\u8be5\\u4e66\\u3002\\\\n\\u2506\\\\n'+f.s(p(v){I('\\u300a'+v.h+'\\u300b'+v.u+' \\u672c\\u4e66\\\\n@'+v.J.x+'\\\\n')}).9('\\\\n\\u2506\\\\n');8.L({M:5.H,N:(r?'\\u4e66\\u5355 \\u203a ':'')+5.h,y:5.y,z:5.z,m:m,X:P(5.Z).7(/\\\\..+/,'').7(/(\\\\d+)(\\\\d)(\\\\d{3})$/,'$1.$2\\u4e07').7('.0',''),k:k,j:j,l:l,e:e})})}q.t(13).8.f.K(p(o){4 a=o.16.s(p(v){I v.17+'\\uff08'+v.18+'\\uff09'}).9(' ');4 b='<A>\\u6536\\u5f55\\u4e86'+o.u+'\\u672c\\u4e66\\u3002\\\\n\\u2506\\\\n'+a;8.L({M:o.R,N:(r?'\\u4e66\\u5355 \\u203a ':'')+o.h.7(/<\\\\/?\\\\w+>/g,''),y:o.x||o.J.x,z:o.1b[0],m:[o.u+'\\u672c\\u4e66',P(o.1c).7(/(\\\\d+)(\\\\d)\\\\d{3}$/,'$1.$2\\u4e07')+'\\u6d4f\\u89c8',o.1d+'\\u6536\\u85cf'].9(','),k:o.O.7(/1e.+|T.+/,''),j:a,l:b,e:'/G/6/'+o.R+'/1f'})});8;\",\n62,78,\"    var book booklist replace data join   score  url booklists  title baseUrl intro last Intro kind   function JSON isSearch map parse bookTotal   userName author cover br isFirstPage total ajax java page api _id return createrId forEach push id name updateAt String includes booklistId scorerCount  books match https wordCount type countWord  if slice result www yousuu classes className count search com covers clicks collectNum 1970 info\".split(\" \"),0,{}));</js>",
+            "bookUrl": "url",
+            "coverUrl": "cover<js>var 木=['replace'];(function(成,川){var 夏=function(雨){while(--雨){成['push'](成['shift']());}};夏(++川);}(木,0x8f));var 成=function(蝉,紫){蝉=蝉-0x0;var 川=木[蝉];return 川;};String(result)[成('0x0')](/.*nocover.*/,'');</js>",
+            "intro": "intro<js>var 安=['replace'];(function(琼,石){var 苁=function(莲){while(--莲){琼['push'](琼['shift']());}};苁(++石);}(安,0x101));var 琼=function(藤,零){藤=藤-0x0;var 石=安[藤];return 石;};String(result)[琼('0x0')](/[\\s\\t\\n]+|<\\/?p>/g,'');</js>",
+            "kind": "kind<js>var 泽=['filter','$1000','join','split','replace','trim'];(function(飞,石){var 节=function(辰){while(--辰){飞['push'](飞['shift']());}};节(++石);}(泽,0x93));var 飞=function(石,节){石=石-0x0;var 南=泽[石];return 南;};var res=String(String(result))[飞('0x1')](/[\\[\\]]/g,'')['replace'](/[\\n\\s\\t]+/g,'\\x20')['replace'](/[^,]*[:：]/g,'')[飞('0x1')](/(\\d)[k千]/gi,飞('0x4'))[飞('0x1')](/(\\.\\d)\\d+/g,'$1')[飞('0x1')](/(\\d+)(\\d)\\d{7}/g,'$1.$2亿')['replace'](/(\\d+)(\\d)\\d{3}/g,'$1.$2万')[飞('0x1')](/\\.0([万亿])/g,'$1')['replace'](/已?(连载|完结|完本|完成)中?/,'$1')[飞('0x1')](/完[本成]/,'完结')[飞('0x1')](/^,|,$/g,'')[飞('0x1')](/,{2,}/g,',')[飞('0x2')]();var arr=res[飞('0x0')](/\\s*,\\s*/);arr[飞('0x3')](function(石,节){return arr['indexOf'](石)==节;})[飞('0x5')](',');</js>",
+            "lastChapter": "last<js>var 川=['$1$2','slice','\\x20·\\x20$1','getFullYear','(·s*)?([^\\x5cd-])(\\x5cd{2})?','trim','$1\\x20','$1\\x20$2','replace','\\x20·\\x20','$1\\x20·\\x20$2'];(function(仙,云){var 信=function(燕){while(--燕){仙['push'](仙['shift']());}};信(++云);}(川,0x199));var 仙=function(景,琼){景=景-0x0;var 云=川[景];return 云;};String(result)[仙('0x6')](/[\\n\\s\\t]+/g,'\\x20')[仙('0x6')](/[更最]新\\S{0,2}[：:\\s]\\s*/g,'')[仙('0x6')](/\\s*最新章节[:：]?/,'')[仙('0x6')](/(.*\\S.*)[\\(（\\[［{｛<〈〈〔【〖].*?[〗】〕〉〉>｝}］\\]）\\)](.*)/g,仙('0x5'))[仙('0x6')](/(.*)[\\(（\\[［{｛<〈〈〔【〖].*?[〗】〕〉〉>｝}］\\]）\\)](.*\\S.*)/g,仙('0x5'))[仙('0x6')](/[\\(（\\[［{｛<〈〈〔【〖〗】〕〉〉>｝}］\\]）\\)]/g,'')[仙('0x6')](/第\\S+卷\\s*[^第]*(第[^章]+章)/,'$1')[仙('0x6')](/(第[^章]+章)\\s*/,仙('0x4'))[仙('0x6')](/\\s*(\\d+-\\d+(-\\d+)).*/,仙('0x0'))[仙('0x6')](/([^\\d-])(\\d+-\\d+)[^-]*$/,仙('0x8'))[仙('0x6')](new RegExp(仙('0x2')+String(new Date()[仙('0x1')]())[仙('0xa')](-0x2)+'-'),仙('0x9'))[仙('0x6')](/\\s*-\\s*·/,'\\x20·\\x20')[仙('0x6')](/\\s*·[\\s·]+/g,仙('0x7'))['replace'](/^\\s*·\\s*/,'')[仙('0x6')](/\\s+/g,'\\x20')[仙('0x3')]();</js>",
+            "name": "name<js>var 离=['replace','trim'];(function(秋,苁){var 草=function(扬){while(--扬){秋['push'](秋['shift']());}};草(++苁);}(离,0x1a2));var 秋=function(莲,苏){莲=莲-0x0;var 苁=离[莲];return 苁;};String(result)[秋('0x0')](/^\\s*《|》\\s*$|TXT下载.*/gi,'')[秋('0x1')]();</js>",
+            "wordCount": "wordCount<js>var 巧=['replace','$1.$2万','$1000','$1字'];(function(华,康){var 博=function(栀){while(--栀){华['push'](华['shift']());}};博(++康);}(巧,0x114));var 华=function(石,节){石=石-0x0;var 康=巧[石];return 康;};String(result)['replace'](/[^,]*[:：]/,'')['replace'](/(\\d)k/i,华('0x2'))[华('0x0')](/(\\d+)(\\d)\\d{7}/g,'$1.$2亿')[华('0x0')](/(\\d+)(\\d)\\d{3}/g,华('0x1'))[华('0x0')](/\\.0([万亿])/g,'$1')['trim']()['replace'](/([\\d万亿])字?$/,华('0x3'));</js>"
+        },
+        "ruleToc": {
+            "chapterList": "<js>eval(function(d,e,a,c,b,f){b=function(a){return(a<e?\"\":b(parseInt(a/e)))+(35<(a%=e)?String.fromCharCode(a+29):a.toString(36))};if(!\"\".replace(/^/,String)){for(;a--;)f[b(a)]=c[a]||b(a);c=[function(a){return f[a]}];b=function(){return\"\\\\w+\"};a=1}for(;a--;)c[a]&&(d=d.replace(new RegExp(\"\\\\b\"+b(a)+\"\\\\b\",\"g\"),c[a]));return d}(\"1 4=[];F 5(a){1 b=E.C(a).z.y;b.m(3=>{4.e({r:3.g,7:3.p,8:'/x/3/'+3.g+'/l'})});n b.9}o(j.q('l')){4.e({7:f.s('7')})}t{5(u(v));1 8=j.w(/c=\\\\d+/,'c=');1 i=2;1 6=A;B(6){1 k=5(f.D(8+i++));6=k!=0&&4.9<h}}4.G(0,h);\",\n43,43,\" var  booklist list appendToList isDo name url length   page  push java _id 100  baseUrl booklistsLength info forEach return if title includes id get else String result replace api booklists data true while parse ajax JSON function slice\".split(\" \"),0,{}));</js>",
+            "chapterName": "name<js>var 仁=['\\x20·\\x20$1','$1\\x20','trim','$1\\x20·\\x20$2','$1\\x20$2','replace'];(function(曲,云){var 莲=function(华){while(--华){曲['push'](曲['shift']());}};莲(++云);}(仁,0x100));var 曲=function(竹,蓝){竹=竹-0x0;var 云=仁[竹];return 云;};String(result)['replace'](/[更最]新\\S{0,2}[：:\\s]\\s*/g,'')[曲('0x1')](/\\s*最新章节[:：]?/,'')[曲('0x1')](/(.*\\S.*)[\\(（\\[［{｛<〈〈〔【〖].*?[〗】〕〉〉>｝}］\\]）\\)](.*)/g,曲('0x0'))['replace'](/(.*)[\\(（\\[［{｛<〈〈〔【〖].*?[〗】〕〉〉>｝}］\\]）\\)](.*\\S.*)/g,'$1\\x20$2')[曲('0x1')](/[\\(（\\[［{｛<〈〈〔【〖〗】〕〉〉>｝}］\\]）\\)]/g,'')[曲('0x1')](/第\\S+卷\\s*[^第]*(第[^章]+章)/,'$1')['replace'](/(第[^章]+章)\\s*/,曲('0x3'))['replace'](/\\s*(\\d+-\\d+(-\\d+)).*/,曲('0x2'))[曲('0x1')](/([^\\d-])(\\d+-\\d+)[^-]*$/,曲('0x5'))['replace'](/ {2,}/g,'\\x20')[曲('0x4')]();</js>",
+            "chapterUrl": "url",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.yousuu.com/api/search?type=booklist&value={{key}}&page={{page}}&t={{Date.now()}}",
+        "weight": 0
+    }
+]

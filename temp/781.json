@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "内容优良，可惜科学\nhttps://www.256zww.com/",
+        "bookSourceGroup": "📓 分页,☣️senhora晋江,☣️精选senhora,☣️。,✈️ 飞机,🌹,☁修正",
+        "bookSourceName": "256中文✈️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.256shuku.com",
+        "bookUrlPattern": "",
+        "customOrder": -88917271,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "🍂                今日   最       新                 🍂::\n现代耽美::/xiandai/\n古代架空::/jiakong/\n穿越重生::/chuanyue/\n\tB L 同人::/bltongren/\n G L 百合::/glbaihe/\n玄幻科幻::/xuanhuan/\n都市言情::/yanqing/\n古代言情::/gudaiyanqing/\n🍂                历史   入       库                 🍂::\t\n现代耽美::/xiandai/index_{{page}}.html\n古代架空::/jiakong/index_{{page}}.html\n穿越重生::/chuanyue/index_{{page}}.html\n\tB L 同人::/bltongren/index_{{page}}.html\n G L 百合::/glbaihe/index_{{page}}.html\n玄幻科幻::/xuanhuan/index_{{page}}.html\n都市言情::/yanqing/index_{{page}}.html\n古代言情::/gudaiyanqing/index_{{page}}.html\n🍂           全 站                   T O P          🍂::\n现代耽美::/tuijian/xiandai_top100.html\n古代架空::/tuijian/jiakong_top100.html\n穿越重生::/tuijian/chuanyue_top100.html\n\tB L 同人::/tuijian/bltongren_top100.html\n G L 百合::/tuijian/glbaihe_top100.html\n玄幻科幻::/tuijian/xuanhuan_top100.html\n都市言情::/tuijian/yanqing_top100.html\n古代言情::/tuijian/gudaiyanqing_top100.html",
+        "lastUpdateTime": 1642000596402,
+        "loginUrl": "https://www.256zww.com/Readrecords.html",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "p!-1@text@js:result.replace(/\\s+/g,'\\n')##小说简介：",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.book_con fix@p@html##【256中文将.*】",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "tag.a@text##.* 作者：",
+            "bookList": "class.list@li||class.hot_article@li",
+            "bookUrl": "tag.a@href",
+            "intro": "tag.p.0@text",
+            "kind": "",
+            "lastChapter": "tag.small@text",
+            "name": "h2@a@text||a@text##作者：.*"
+        },
+        "ruleSearch": {
+            "author": "tag.a@text##.*作者：",
+            "bookList": "class.list@li||class.hot_article@li",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "强制感谢",
+            "intro": "tag.p.0@text##小说简介：",
+            "lastChapter": "tag.small@text",
+            "name": "h2@a@text||a@text##作者：.*|\\+番外|\\s"
+        },
+        "ruleToc": {
+            "chapterList": "class.catalog@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.256zww.com/e/search/,{\n\t\"charset\":\"UTF-8\",\n\t\"method\":\"post\",\n\t\"body\":\"tbname=article&tempid=1&show=title,writer&keyboard={{key}}\",\n\t\"webView\":true\n\t}",
+        "weight": 0
+    }
+]

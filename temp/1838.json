@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "读书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.dushuw.net",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1621001041115,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "#content@p!-1@text"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.book_other.0@tag.span.0@text",
+            "bookList": "#sitembox dl",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@src",
+            "intro": ".book_des@text",
+            "kind": "class.book_other.0@tag.span.1@text&&class.book_other.0@tag.span.2@text",
+            "lastChapter": "class.book_other.1@a@text&&class.book_other.1@span@text##\\n##•",
+            "name": "h3@text",
+            "wordCount": "class.book_other.0@tag.span.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dt:nth-of-type(2)~dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n\"method\": \"POST\",\n\"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

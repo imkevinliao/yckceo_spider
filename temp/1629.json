@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "字数",
+        "bookSourceName": "龙腾斋书ltxstxt.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ltxstxt.com/",
+        "customOrder": -2085958216,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "奇幻玄幻::/xuanhuan/<,{{page}}/>\n武侠仙侠::/xianxia/<,{{page}}/>\n都市言情::/yaqing/<,{{page}}/>\n历史军事::/lishi/<,{{page}}/>\n游戏竞技::/wangyou/<,{{page}}/>\n科幻灵异::/kehuan/<,{{page}}/>\n其他类型::/qita/<,{{page}}/>",
+        "header": "<js>\r\n(()=>{\r\n\tvar ua = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\";\r\n\tvar heders = {\"User-Agent\": ua};\r\n\treturn JSON.stringify(heders);\r\n})()\r\n</js>",
+        "lastUpdateTime": 1631490803622,
+        "respondTime": 1225,
+        "ruleBookInfo": {
+            "author": "class.bookright@class.p_author@tag.a@text",
+            "coverUrl": "class.bookright@class.bookleft@id.bookimg@img@src",
+            "intro": "class.bookright@id.showinfo@class.d2@text",
+            "kind": "class.bookright@id.count@class.pd_r.0@text",
+            "lastChapter": "id.newlist@tag.li.0@tag.a@text",
+            "name": "class.bookright@class.d_title@tag.h1@text",
+            "tocUrl": "id.newlist@class.newrap@tag.strong@tag.a@href",
+            "wordCount": "class.bookright@id.count@class.pd_r.4@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "author": "tag.dd.1@tag.span.0@tag.a@text",
+            "bookList": "class.list_center@id.sitebox@tag.dl",
+            "bookUrl": "tag.dd.0@tag.h3@tag.a@href",
+            "coverUrl": "tag.dt@img@src",
+            "intro": "class.book_des@text##[章节目录]",
+            "kind": "tag.dd.1@tag.span.1@text",
+            "lastChapter": "tag.dd.3@tag.a@text",
+            "name": "tag.dd.0@tag.h3@tag.a@text",
+            "wordCount": "tag.dd.1@tag.span.2@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "id.nr",
+            "bookUrl": "tag.td.0@tag.a@href",
+            "kind": "",
+            "lastChapter": "tag.td.1@tag.a@text",
+            "name": "tag.td.0@tag.a@text",
+            "wordCount": "tag.td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlist@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.ltxstxt.com/modules/article/searchx.php?searchkey={{key}}&searchtype=articlename<,&page={{page}}>,{\"charset\":\"gbk\"}",
+        "weight": 0
+    }
+]

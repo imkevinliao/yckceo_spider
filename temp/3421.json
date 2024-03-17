@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "⌨自制",
+        "bookSourceName": "⌨平凡小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.pksge.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"武侠仙侠\",\"url\":\"/pf1/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"玄幻魔法\",\"url\":\"/pf2/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/pf3/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/pf4/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"科幻灵异\",\"url\":\"/pf5/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"网游竞技\",\"url\":\"/pf6/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/pf7/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"全本小说\",\"url\":\"/quanben/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1685179211006,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h2.0@text##作者：",
+            "coverUrl": ".jieshaoTu@img@src",
+            "intro": "h3@text",
+            "kind": ".weizhi@textNodes&&h2.1@text##您的位置：|>|更新时间：|\\n",
+            "lastChapter": ".zuixin span@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "#booktext@html",
+            "replaceRegex": "##\\s*.*请把本站网址推荐给您的朋友.*\\s*|\\s*.*最快更新.*\\s*|\\s*.*免费阅读.*\\s*|『|』"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h3.0@text||td.3@text##作者：",
+            "bookList": ".tutui||.odd",
+            "bookUrl": "a@href",
+            "checkKeyWord": "--http://www.pksge.com/woshidaoyanwobubilan/45847623.html",
+            "coverUrl": "img@src",
+            "intro": "h3.1@textNodes",
+            "kind": "td.0:4:6@text##\\[|\\]",
+            "lastChapter": "h3@a@text||td.2@text",
+            "name": "h2@a@text||td.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".zhangjiekaishi ul li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}&searchtype=articlename\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

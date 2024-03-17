@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "御书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.yushubo.net",
+        "customOrder": -142,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1664027721794,
+        "loginUrl": "",
+        "respondTime": 2841,
+        "ruleBookInfo": {
+            "author": "p.info@span.1@a@text",
+            "coverUrl": "dt@img@src",
+            "intro": ".content@p@html",
+            "kind": "i@text&&p.info@span.0@a@text&&p.info@span.4@text##更新：",
+            "lastChapter": "ul.clearfix@li.0@a.newzhangjie@text",
+            "name": "h2@text",
+            "wordCount": "p.info@span.2@text##字数："
+        },
+        "ruleContent": {
+            "content": ".read-section@p@text",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##检测到你的最新阅读进度为.*|是否同步到最新？关闭同步|\\s*不得已原因,本站启用新域名：.*"
+        },
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "ul.clearfix@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img.pic.lazy.0@src",
+            "intro": "p.intro@text",
+            "kind": "em.type@text&&em.finish@text",
+            "name": "a.tit@text",
+            "wordCount": "em.word@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapter@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html?ss={{key}}",
+        "weight": 0
+    }
+]

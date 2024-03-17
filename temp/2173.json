@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "有时间再优化下正文规则",
+        "bookSourceGroup": "JSON",
+        "bookSourceName": "🔰 微微免费小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://api.fankan.wang/",
+        "bookUrlPattern": "",
+        "customOrder": -118129,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "<js>\nu1=\"::/tags?tag=\";\nu2=\"&status=&sort=&start={{page-1}}&count=20\";\nlist=[\"玄幻奇幻\",\"都市异能\",\"历史风云\",\"官场职业\",\"军事战争\",\"无限流派\",\"时空穿梭\",\"武侠仙侠\",\"科幻奇幻\",\"游戏竞技\",\"转世重生\",\"同人小说\",\"古典仙侠\",\"乡村生活\",\"现代言情\",\"古代言情\",\"穿越架空\",\"悬疑灵异\",\"种田经商\",\"宫斗宅斗\",\"青春校园\",\"玄幻言情\",\"耽美百合\",\"古风古言\",\"网游动漫\",\"女生同人\",\"短篇小说\",\"人文社科\",\"出版小说\",\"文学小说\",\"经典名著\",\"名家经典\",\"散文诗歌\",\"青春文学\",\"社会百态\",\"传记纪实\",\"经管理财\",\"历史百科\",\"美食旅行\",\"轻小说\",\"二次元\",\"温馨清水\",\"体育竞技\",\"娱乐明星\",\"风水异术\"];\nlist.map(a=>a+u1+a+u2).join(\"&&\")\n</js>",
+        "header": "",
+        "lastUpdateTime": 1616247463865,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "cover",
+            "init": "data",
+            "intro": "intro",
+            "kind": "sitename&&classify&&tags",
+            "lastChapter": "lastchaptertitle",
+            "name": "name",
+            "tocUrl": "/chapters?bid={{$.bid}}&sid={{$.reserve1sid}}"
+        },
+        "ruleContent": {
+            "content": "id.view_content_txt@textNodes||id.content1@textNodes||id.ChapterContents@html||id.TextContent@html||id.htmlContent@html||id.articlecontent@html||id.cp_content@html||id.nr1@html||id.nr@html||id.book_text@html||id.text_c@html||id.article@html||class.yd_text2@html||class.page-content@textNodes||id.contents@html||||id.content@html||class.content@html||class.contents@html##<(center|span|strong|em|a)\\b[^>]*>[\\s\\S]+?</\\1>",
+            "replaceRegex": "##(?mi)(?:天才一秒记住|一秒记住【|看最快章节就|请记住本书|手机站全新改版|章节错误,点此报送)[^\\n]*$|^[^\\n]+(?:章节内容,请耐心等待。|最新章节！|\\d\\.html)$"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "data",
+            "bookUrl": "/bookintro?bid={{$.bid}}",
+            "coverUrl": "cover",
+            "intro": "intro",
+            "kind": "classify",
+            "lastChapter": "lastchaptertitle",
+            "name": "name",
+            "wordCount": "lastupdatetime\n<js>date = new Date(parseInt(result));\ndate.getFullYear()+\"-\"+(date.getMonth()+1)+\"-\"+date.getDate()</js>"
+        },
+        "ruleToc": {
+            "chapterList": "chapters",
+            "chapterName": "title",
+            "chapterUrl": "curl"
+        },
+        "searchUrl": "/search?a=name&kw={{key}}&start={{page-1}}&count=10",
+        "weight": 0
+    }
+]

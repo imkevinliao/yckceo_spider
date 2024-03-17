@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "搜索间隔60秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣阁zfangchan",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.zfangchan.com",
+        "bookUrlPattern": "http.*www.zfangchan.com/xs_\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/xss/{{page}}.html\n玄幻::/xss/1_{{page}}.html\n修真::/xss/2_{{page}}.html\n都市::/xss/3_{{page}}.html\n历史::/xss/4_{{page}}.html\n科幻::/xss/6_{{page}}.html\n网游::/xss/5_{{page}}.html\n言情::/xss/8_{{page}}.html\n其它::/xss/7_{{page}}.html\n完本::/quanben/xss/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690339024978,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=lastest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "a.-1@text",
+            "bookList": ".CGsectionTwo-right-content-unit",
+            "bookUrl": "a.0@href",
+            "coverUrl": "@js:\"https://www.zfangchan.com/static/ss_wap2/nocover.jpg\"",
+            "intro": "p.-2@text",
+            "kind": "p.-1@text##最近更新",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".SHsectionThree-middle@p",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"https://www.zfangchan.com/static/ss_wap2/nocover.jpg\"",
+            "kind": "a.0@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ol@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://www.zfangchan.com/search/,{\n  \"body\": \"searchkey={{key}}&searchtype=all\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

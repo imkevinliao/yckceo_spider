@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质,☁️可用",
+        "bookSourceName": "👍 笔下文学③",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.juedao.net",
+        "customOrder": -88960464,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"百度\",\"url\":\"/rank/baidu.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"追书\",\"url\":\"/rank/zhuishu.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"书旗\",\"url\":\"/rank/shuqi.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"掌阅\",\"url\":\"/rank/zhangyue.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"起点\",\"url\":\"/rank/qidian.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"17Ｋ\",\"url\":\"/rank/17k.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"总榜\",\"url\":\"/rank/allvisit/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"月榜\",\"url\":\"/rank/monthvisit/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"周榜\",\"url\":\"/rank/weekvisit/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"日榜\",\"url\":\"/rank/dayvisit/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"推荐\",\"url\":\"/rank/vote/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"收藏\",\"url\":\"/rank/mark/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"下载\",\"url\":\"/rank/down/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"评论\",\"url\":\"/rank/comment/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"评分\",\"url\":\"/rank/star_score/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"时间\",\"url\":\"/rank/postdate/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/category/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/category//qihuan{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/category/wuxia/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/category/xianxia/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/category/dushi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/category/lishi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军事\",\"url\":\"/category/junshi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/category/youxi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"竞技\",\"url\":\"/category/jingji/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/category/kehuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/category/lingyi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/category/qita/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1644809349264,
+        "loginUrl": "",
+        "respondTime": 17662,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ".pt-chapter a.-1@href"
+        },
+        "ruleContent": {
+            "content": "#pt-pop@p!0@html",
+            "nextContentUrl": "id.next_bottom@href##$##,{'webView': true}",
+            "replaceRegex": "##浏一览一器一阅一读一模一式一章一节一显一示一不一全一请一退一出一浏一览一器一阅一读一模一式一后一看一全一文。|本章未完.*页"
+        },
+        "ruleExplore": {
+            "author": "a.2@text##\\[|\\]|\\s",
+            "bookList": ".pt-popular-item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "div.5@text",
+            "kind": "a.3@text",
+            "name": "a.1@text"
+        },
+        "ruleSearch": {
+            "author": "a.2@text##\\[|\\]|\\s",
+            "bookList": ".pt-recomment-cont",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "卧底养成",
+            "coverUrl": "img@src",
+            "intro": "div.6@text##【展开】【收起】",
+            "kind": "a.3@text",
+            "lastChapter": "",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list",
+            "chapterName": "span.0@text##正文\\s",
+            "chapterUrl": "a@href##$##,{'webView': true}"
+        },
+        "searchUrl": "/search/result.html?searchkey={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

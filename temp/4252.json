@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "// 无法模糊搜索，只能精准搜索",
+        "bookSourceGroup": "",
+        "bookSourceName": "起点笔下文学[待优化]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qdbxwx.com",
+        "bookUrlPattern": "http:\\/\\/www\\.qdbxwx\\.com",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/fenlei/1_1/\n修真::/fenlei/2_1/\n都市::/fenlei/3_1/\n历史::/fenlei/4_1/\n网游::/fenlei/5_1/\n科幻::/fenlei/6_1/\n完本::/quanben/\n热门::/top/monthvisit/",
+        "header": "{\n\t\"User-Agents\": \"Mozilla/5.0 (Linux; Android 13; Z832 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.92 Mobile Safari/537.36\",\n \"Referer\": \"{{baseUrl}}\"\n}",
+        "lastUpdateTime": 1697170218702,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": ".more@a@href"
+        },
+        "ruleContent": {
+            "content": "#htmlContent@text",
+            "replaceRegex": "##起点笔下文学.+最新章节！|无尽的昏迷过后，时宇猛地从床上起身.+"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".news ul li",
+            "bookUrl": ".s2 a@href",
+            "kind": ".s1@text",
+            "lastChapter": ".s3@text&&.s5@text",
+            "name": ".s2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "h1@text##.*\\/|\\s",
+            "bookList": "body",
+            "bookUrl": "",
+            "checkKeyWord": "我欲封天",
+            "kind": "table.0 tbody tr td.1 p.1@text##类别：",
+            "lastChapter": ".update@text##最新章节：正文",
+            "name": "h1@text##\\/.*|\\s",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".book_list@ul.1@li!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}\n/modules/article/search.php?searchkey={{key}}&submit=%CB%D1%CB%F7,{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

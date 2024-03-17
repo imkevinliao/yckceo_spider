@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "JS下一页,haxc、mr_roxe修改,搜索",
+        "bookSourceGroup": "💠 普通",
+        "bookSourceName": "30书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.30syy.com",
+        "bookUrlPattern": "",
+        "customOrder": -134674,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "周榜::https://m.30sy.cc/top/weekvisit/{{page}}.html\n月榜::https://m.30sy.cc/top/monthvisit/{{page}}.html\n总榜::https://m.30sy.cc/top/allvisit/{{page}}.html\n收藏::https://m.30sy.cc/top/marknum/{{page}}.html\n推荐::https://m.30sy.cc/top/votenum/{{page}}.html\n全本::https://m.30sy.cc/over/{{page}}.html\n全部小说::https://m.30sy.cc/sort/all/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1633450094000,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.pt-info.0@a@text##（点击去专栏）",
+            "coverUrl": "",
+            "intro": "class.intro@text",
+            "kind": "class.pt-info.1@a@text",
+            "lastChapter": "class.pt-name.1@tag.a@text",
+            "name": "tag.h1@text",
+            "tocUrl": "text.查看目录@href||text.全部目录@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": ".content div:nth-of-type(3)@html##\\/30书院.*提醒您.*|本章已阅读完毕.*|最快更新.*|手机请访问.*",
+            "nextContentUrl": "##\\((\\d+)\\/(\\d+)\\)##$2###\n@js:\nvar n=parseInt(result);\nvar list=[];\nfor(var i=2;i<=n;i++)\n{list.push(baseUrl.replace(/.html/,'')+\"_\"+i+\".html\");}\nlist"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "kind": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.pt-info@tag.a.0@text",
+            "bookList": "ul@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.pt-desc@text",
+            "kind": "class.pt-info@tag.a.1@text",
+            "lastChapter": "",
+            "name": "class.pt-name@a@text",
+            "wordCount": "class.pt-info@tag.a.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\nvar data = result.match(/document.write\\(\\'(.*?)\\'\\)\\;/)[1];\ndata\n//java.log(data)\n</js>\ntag.li!0:1@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "class.pt-dir-sel@ul@li@a@href"
+        },
+        "searchUrl": "@js:\naction=org.jsoup.Jsoup.parse(String(java.ajax(\"https://m.30sy.cc/search/\"))).select(\"input\").attr(\"name\")\n\nbody = action+\"={{key}}\"\noption={\"charset\": \"\",\"method\": \"POST\",\"body\": String(body)}\n\"https://m.30sy.cc/search.html\"+\",\"+JSON.stringify(option)",
+        "weight": 0
+    }
+]

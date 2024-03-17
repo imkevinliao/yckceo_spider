@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "知乎",
+        "bookSourceName": "知乎搬运工",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zhbyg.top/search/",
+        "customOrder": -2085959001,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1670680867626,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": ".my-article-content@html",
+            "replaceRegex": "##备案号:\\w+|<!--.*-->##"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".my-link.1",
+            "bookUrl": "href",
+            "checkKeyWord": "婴怨",
+            "name": "text"
+        },
+        "ruleToc": {
+            "chapterList": ".my-article-title",
+            "chapterName": "text"
+        },
+        "searchUrl": "https://www.zhbyg.top/search/,\n{\n\"method\":\"POST\",\n\"body\":\"wd={{key}}&__token__={{java.ajax(baseUrl).toString().match(/value=\"(\\w{32})\"/)[1]}}\"\n}",
+        "weight": 0
+    }
+]

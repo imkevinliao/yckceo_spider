@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "普通",
+        "bookSourceName": "君子堂",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.junzitang.cc",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618065583297,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p.2@tag.a.0@text",
+            "coverUrl": "class.block_img2@tag.img@src",
+            "intro": "class.intro_info@text",
+            "kind": "class.block_txt2@tag.p.3@tag.a.0@text",
+            "lastChapter": "class.block_txt2@tag.p.6@text",
+            "name": "class.block_txt2@tag.h2@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "nextContentUrl": "class.am-btn am-btn-default am-radius.7@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.book-list-1-author@text##/.*",
+            "bookList": "class.am-u-sm-12 am-u-md-6 am-u-lg-4 book-list-1",
+            "bookUrl": "class.book-list-1-info@tag.h4@tag.a.0@href",
+            "coverUrl": "class.am-thumbnail lazy@src",
+            "intro": "class.book-list-1-intro@text",
+            "name": "class.book-list-1-info@tag.h4@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.am-avg-sm-1 am-avg-md-2 am-avg-lg-4 am-list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.right@tag.a.0@href"
+        },
+        "searchUrl": "http://www.junzitang.cc/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

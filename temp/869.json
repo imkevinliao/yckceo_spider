@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☜置顶搜书",
+        "bookSourceName": "风筝",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.56fz.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xusnhuan/",
+        "lastUpdateTime": 1636440608486,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".pt-novel@tag.div.2@text",
+            "coverUrl": "img.1@src",
+            "init": "",
+            "intro": ".intro@text",
+            "kind": ".pt-novel@tag.div.3@a@text",
+            "lastChapter": "#newchaperlist@tag.li.0@a@text&&.pt-novel@tag.div.4@text",
+            "name": "img.0@alt"
+        },
+        "ruleContent": {
+            "content": "#BookText@textNodes##风筝小.*|www.*|＞＞"
+        },
+        "ruleExplore": {
+            "author": ".s712@text",
+            "bookList": ".pt-card.1@tag.li",
+            "bookUrl": "a.0@href",
+            "intro": ".ptm-text-cut@text",
+            "name": ".pt-name@a@text"
+        },
+        "ruleSearch": {
+            "bookList": ".ptm-list-view.1@tag.li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "name": "a.0@title"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist@tag.li@a",
+            "chapterName": "text",
+            "chapterUrl": "{{@@href}},{'webView': true}",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://m.56fz.com/home/search ,{\n\t\"charset\":\"utf-8\",\n\t\"method\":\"post\",\n\t\"body\":\"action=search&q={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

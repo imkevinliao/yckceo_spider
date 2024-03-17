@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "2021.11.4\n需登录才能加载目录",
+        "bookSourceGroup": "🤶🏻  淑女",
+        "bookSourceName": "🤶🏻 挺  好  的",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://fegdad.com",
+        "customOrder": -295130,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": " B L ::/wapsort/1_{{page}}.html\n B G ::/wapsort/2_{{page}}.html\n快穿::/tag/kc/\n美攻::/tag/mg/\n肉文::/tag/rw/\n年下::/tag/nx/\n年上::/tag/ns/\n生子::/tag/sz/\n人兽::/tag/rs/\n强强::/tag/qq/\n穿越::/tag/cy/\n双性::/tag/sx/\n强受::/tag/qs/\nABO::/tag/abo/\n重生::/tag/cs/\n H P ::/tag/hp/\n虐文::/tag/nw/\n温馨::/tag/wx/\n N P ::/tag/np/\n父子::/tag/fz/\n兄弟::/tag/xd/\n萌文::/tag/mw/\n B  E ::/tag/be/\n末世::/tag/ms/\n人鱼::/tag/ry/\n师生::/tag/ss/\n网游::/tag/wy/\n高干::/tag/gg/\n反攻::/tag/fg/\n诱受::/tag/ys/\n种田::/tag/zt/\n SM ::/tag/sm/\n娱乐圈::/tag/ylq/\n金手指::/tag/jsz/",
+        "lastUpdateTime": 1636001790814,
+        "loginUrl": "https://fegdad.com/member/login/",
+        "ruleBookInfo": {
+            "author": "",
+            "init": "",
+            "intro": "&nbsp;&nbsp;更新时间：{{@@class.article_info_td.0@tag.time@text}}{{'\\n&lrm;\\n'}}{{@@pre@html##更\\d+}}",
+            "kind": "class.article_info_td.0@tag.a.0@text&&.tag span@text",
+            "lastChapter": "class.article_info_td.0@tag.a.1@text",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": "id.size@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "strong@text||.list_author@text",
+            "bookList": ".common-bookele||#list_ul@li",
+            "bookUrl": "tag.a.1@href##$##,{\"webView\":true}",
+            "intro": ".abstract@text<js>result.replace(/\\s{2,}/g,'\\n').replace(/^\\s*/g,'')</js>",
+            "kind": ".lastupdate time@text||tag.a.0@text",
+            "name": "h3 a@text||tag.a.1@text"
+        },
+        "ruleSearch": {
+            "author": "strong@text",
+            "bookList": ".common-bookele",
+            "bookUrl": "tag.a.0@href##$##,{\"webView\":true}",
+            "coverUrl": "",
+            "intro": ".abstract@text",
+            "kind": ".lastupdate@text##栏目：",
+            "lastChapter": "tag.a.0@href<js>java.ajax('https://fegdad.com'+result)</js>class.article_info_td.0@tag.a.1@text&&class.article_info_td.0@tag.time@text<js>result.replace(/\\n/,' • ')</js>",
+            "name": ".articlename@text"
+        },
+        "ruleToc": {
+            "chapterList": "@js:\n//获取开始章节的id\nstart=java.getString('@@class.chapterList@tag.li.0@a@href').match(/(\\d+)\\.html/)[1];\n\n//获取总章节数\npage=result.match(/共(\\d+)章节/)[1];\nlist=[];\n\n//利用总章节，拼接目录\nfor(i=0;i<page;i++){\nid=Number(start)+i;\nlist.push({text:String('第'+Number(i+1)+'卷'),href:baseUrl.replace(/\\.html/,'/'+id+\".html\")})\n}\nlist",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/search.html?key={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

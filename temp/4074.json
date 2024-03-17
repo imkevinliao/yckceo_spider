@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "自制源",
+        "bookSourceName": "苏明小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.sumingxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "更多···全部::/xiaoshuo/<,1-{{page}}.html>",
+        "lastUpdateTime": 1694722664504,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者@text",
+            "coverUrl": ".item@img@src",
+            "intro": "class.des bb@text",
+            "kind": ".itemtxt@span@text",
+            "lastChapter": ".itemtxt@ul@li.0@a@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "id.c@html",
+            "replaceRegex": "##.*搜 :/苏~明.*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": "class.item",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "kind": "p.0@span.1@text",
+            "lastChapter": "ul@li.0@a@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.3@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.sumingxs.com/aks11/{{key}}/",
+        "weight": 0
+    }
+]

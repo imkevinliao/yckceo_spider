@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "乐文小说网77",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.lw77.cc",
+        "bookUrlPattern": "http://www.lw77.cc/xiaoshuo/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n玄幻::/list/1-{{page}}.html\n都市::/list/2-{{page}}.html\n历史::/list/3-{{page}}.html\n网游::/list/4-{{page}}.html\n悬疑::/list/5-{{page}}.html\n穿越::/list/6-{{page}}.html\n古言::/list/7-{{page}}.html\n现言::/list/8-{{page}}.html\n耽美::/list/9-{{page}}.html\n综合::/list/10-{{page}}.html\n阅读记录::/mylog/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698550240713,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h3@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": ".content-body@html",
+            "replaceRegex": "##【畅读.*】|为您提供.*免费阅读|w+.*cc"
+        },
+        "ruleExplore": {
+            "author": ".book_author@text||.author@text",
+            "bookList": ".media||tbody tr",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "0",
+            "name": "h4@text||a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.author@text",
+            "bookList": ".article tbody tr",
+            "bookUrl": "a@href",
+            "kind": "0",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.panel-body.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/?<,p={{page}}&>wd={{key}}",
+        "weight": 0
+    }
+]

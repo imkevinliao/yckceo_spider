@@ -1,0 +1,22 @@
+[
+    {
+        "bookSourceGroup": "CSS; 正则",
+        "bookSourceName": "🔥橘子小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.cxinbz.com/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": "{\n  \"author\": \"##:author\\\"[^\\\"]+\\\"([^\\\"]*)##$1###\",\n  \"coverUrl\": \"##og:image\\\"[^\\\"]+\\\"([^\\\"]*)##$1###\",\n  \"intro\": \"##:description\\\"[^\\\"]+\\\"([\\\\w\\\\W]*?)\\\"/##$1###\",\n  \"kind\": \"##:category\\\"[^\\\"]+\\\"([^\\\"]*)##$1###\",\n  \"lastChapter\": \"##_chapter_name\\\"[^\\\"]+\\\"([^\\\"]*)##$1###\",\n  \"name\": \"##:book_name\\\"[^\\\"]+\\\"([^\\\"]*)##$1###\",\n  \"tocUrl\": \"\"\n}",
+        "ruleContent": "{\n  \"content\": \"@css:.articleDiv p@textNodes##搜索.*手机访问|一秒记住.*|.*阅读下载|<!\\\\[CDATA\\\\[|\\\\]\\\\]>\",\n  \"nextContentUrl\": \"\"\n}",
+        "ruleExplore": "{}",
+        "ruleSearch": "{\n  \"author\": \"@css:p:eq(2)>a@text\",\n  \"bookList\": \"@css:li.clearfix\",\n  \"bookUrl\": \"@css:.name>a@href\",\n  \"coverUrl\": \"@css:img@src\",\n  \"intro\": \"@css:.note.clearfix p@text\",\n  \"kind\": \"@css:.note_text,p:eq(4)@text\",\n  \"lastChapter\": \"@css:p:eq(3)@text\",\n  \"name\": \"@css:.name@text\"\n}",
+        "ruleToc": "{\n  \"chapterList\": \"-:<li><a[^\\\"]+\\\"([^\\\"]*)\\\">([^<]*)\",\n  \"chapterName\": \"$2\",\n  \"chapterUrl\": \"$1\",\n  \"nextTocUrl\": \"\"\n}",
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}&submit=&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

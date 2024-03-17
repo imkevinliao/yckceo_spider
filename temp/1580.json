@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceName": "小原小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.min-yuan.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1669900283953,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//meta[@property=\"og:novel:author\"]/@content",
+            "coverUrl": "//meta[@property=\"og:image\"]/@content",
+            "intro": "//meta[@property=\"og:description\"]/@content",
+            "kind": "//meta[@property=\"og:novel:category\"]/@content",
+            "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content&&//meta[@property=\"og:novel:update_time\"]/@content##\\n##•",
+            "name": "//meta[@property=\"og:title\"]/@content",
+            "tocUrl": "class.list@href"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text##/",
+            "bookList": "class.list search-list@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.a@href\n<js>java.ajax('http://www.min-yuan.com/'+result)</js>\n//meta[@property=\"og:image\"]/@content",
+            "intro": "tag.a@href\n<js>java.ajax('http://www.min-yuan.com'+result)</js>\n//meta[@property=\"og:description\"]/@content",
+            "kind": "class.cate@text##\\[|\\]",
+            "lastChapter": "tag.a@href\n<js>java.ajax('http://www.min-yuan.com'+result)</js>\n//meta[@property=\"og:novel:latest_chapter_name\"]/@content&&//meta[@property=\"og:novel:update_time\"]/@content##\\n##•",
+            "name": "class.name@text##/.*"
+        },
+        "ruleToc": {
+            "chapterList": "class.list@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "http://www.min-yuan.com/ar.php,{\n  \"body\": \"keyWord={{key}}\",\n  \"method\": \"POST\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

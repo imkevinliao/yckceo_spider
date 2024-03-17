@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "搜索有盾，需验证过盾",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "思路客x",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.silukex.com",
+        "bookUrlPattern": "https://m.silukex.com/ny\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/ny_1/\n修真小说::/ny_2/\n都市小说::/ny_3/\n历史小说::/ny_4/\n网游小说::/ny_5/\n科幻小说::/ny_6/\n女生小说::/ny_7/\n其他小说::/ny_8/\n完结小说::/nyjd.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1687326016729,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@p.2@text",
+            "coverUrl": ".block_img2@img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2@p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2@p.-1@a@text",
+            "name": "h2@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##w.*m|s.*m"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": "<js>\nif(result.match(/Just a moment/)){\ncookie.removeCookie(source.bookSourceUrl)\nvar x=java.get(\"url\")\njava.startBrowserAwait(x,\"验证\")\nresult=java.ajax(x)\n\t}else{\n\t\tresult=result;\n\t\t}\n\tresult;\n</js>\n.bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@text##简介：",
+            "kind": "0",
+            "lastChapter": ".update@a@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "@js:\njava.put(\"url\",String(source.bookSourceUrl+\"/search.php?keyword=\"+key+\"&submit=\"+\",\"+JSON.stringify({\n\t\t\"headers\":{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 10; zh-cn; MI CC 11)  AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/18.1.8 swan-mibrowser\"\n}})))",
+        "weight": 0
+    }
+]

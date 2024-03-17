@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "打不开挂梯",
+        "bookSourceGroup": "自制,优化,源仓库,网页源",
+        "bookSourceName": "提莫書屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.timotxt.com",
+        "bookUrlPattern": "https://www.timotxt.com/\\d+/",
+        "customOrder": 2346,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/bookstack/\n言情::/bookstack/?cid=1\n歷史::/bookstack/?cid=2\n其他::/bookstack/?cid=3\n都市::/bookstack/?cid=4\n玄幻::/bookstack/?cid=5\n體育::/bookstack/?cid=6\n穿越::/bookstack/?cid=8\n科幻::/bookstack/?cid=10\n校園::/bookstack/?cid=13\n軍事::/bookstack/?cid=18\n懸疑::/bookstack/?cid=19\n遊戲::/bookstack/?cid=25\n女頻::/bookstack/?cid=42\n同人::/bookstack/?cid=43",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692153488791,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[name$=author]@content",
+            "coverUrl": "[name$=image]@content",
+            "init": "",
+            "intro": "[name$=description]@content",
+            "kind": "[name~=category|status|update_time]@content",
+            "lastChapter": "[name$=latest_chapter_name]@content",
+            "name": "[name$=book_name]@content",
+            "tocUrl": "{{$.}}dir"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": ".foot-nav@a.-1@href\n@js:\nif(result){\nresult=result[0].indexOf(\"_\")>-1?result:\"\";\n}",
+            "replaceRegex": "##chaptererror.*|請記住本書首發域名：.*",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": ".list@li",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "0",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.2@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.timotxt.com/search/{{key}}",
+        "weight": 0
+    }
+]

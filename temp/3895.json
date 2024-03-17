@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔30秒",
+        "bookSourceGroup": "自制,特殊,源仓库,网页源",
+        "bookSourceName": "翠微居",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.cwj18.org",
+        "bookUrlPattern": "http://www.cwj18.org/book/\\d+/",
+        "customOrder": 71,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/list/xuanhuanxiaoshuo_{{page}}.html\n修真小说::/list/xiuzhenxiaoshuo_{{page}}.html\n都市小说::/list/dushixiaoshuo_{{page}}.html\n穿越小说::/list/chuanyuexiaoshuo_{{page}}.html\n网游小说::/list/wangyouxiaoshuo_{{page}}.html\n历史小说::/list/lishixiaoshuo_{{page}}.html\n其他小说::/list/qitaxiaoshuo_{{page}}.html\n人气排行::/top.html",
+        "header": "{\n\t\"Host\": \"www.cwj18.org\",\n\t\"Origin\": \"{{source.getKey()}}\",\n\t\"X-Requested-With\": \"mark.via\",\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\t\"Referer\": \"{{source.getKey()}}/\"\n\t}",
+        "lastUpdateTime": 1692590031152,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".info a.0@text",
+            "coverUrl": ".bookimg img@src",
+            "intro": ".book-intro p@text##【展开】|【收起】",
+            "kind": ".info span.1:2@text",
+            "lastChapter": ".newlist li.0@text",
+            "name": ".bookname@text",
+            "wordCount": ".info span.3@text"
+        },
+        "ruleContent": {
+            "content": "@js:\nvar id=baseUrl.match(/(\\d+)\\/(\\d+)/);\nvar pid=baseUrl.includes(\"_\")?baseUrl.match(/_(\\d+)/)[1]:\"1\";\n//java.log(pid)\nvar url=book.origin+\"/api/reader_js.php,\";\nvar data=`articleid=${id[1]}&chapterid=${id[2]}&pid=${pid}`;\nvar post=JSON.stringify({\n  \"body\": String(data),\n  \"method\": \"POST\"\n});\nvar html=java.ajax(url+post);\njava.getString(\"@@html\",html);",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.3@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "雪中",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@textNodes\n##【展开】|【收起】",
+            "kind": "0",
+            "lastChapter": ".update@textNodes",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isPay": "",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "{{url=source.getKey();\n\tcookie.removeCookie(url)}}\nhttp://www.cwj18.org/search/,{\n  \"body\": \"searchkey={{key}}&submit=\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

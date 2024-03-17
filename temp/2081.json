@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceUrl": "http://m.shencou.com",
+        "bookSourceType": "0",
+        "bookSourceName": "神凑轻小说文库",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "疯狂的蜗牛",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://m.shencou.com/wapse.php,{ \"charset\": \"gbk\", \"method\": \"POST\", \"body\": \"searchkey={{key}}&type=articlename\" }",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1618152507736,
+        "ruleSearch": {
+            "bookList": "class.cover@p",
+            "name": "class.blue@text",
+            "author": "@a.2@text",
+            "kind": "@a.0@text",
+            "bookUrl": "class.blue@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.block_txt2@h2@a@text",
+            "author": "class.block_txt2@p.2@tag.a@text",
+            "kind": "class.block_txt2@p.3@a@text",
+            "lastChapter": "class.block_txt2@p.6@a@text",
+            "tocUrl": "class.margin_right@a@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "@a@text",
+            "chapterUrl": "@a@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html"
+        }
+    }
+]

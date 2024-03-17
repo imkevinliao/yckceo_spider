@@ -1,0 +1,34 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "0,建筑",
+        "bookSourceName": "消防网lzq",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://gf.1190119.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "消防规范::https://gf.1190119.com/?&page={{page}}\n部局文件::https://gf.1190119.com/topic-1184.htm?aid=-1&page={{page}}\n地方文件::https://gf.1190119.com/topic-1277.htm?aid=-1&page={{page}}\n答疑汇编::https://gf.1190119.com/topic-1276.htm\n3D演示::https://v.1190119.com/xfsystem/list_54_{{page}}.html",
+        "lastUpdateTime": 1685444589237,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": ".b_con@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".zjtj_list li",
+            "bookUrl": "a@href",
+            "name": "li@a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".zjtj_list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://gf.1190119.com/search.htm?typeid=0&keywords={{key}}",
+        "weight": 0
+    }
+]

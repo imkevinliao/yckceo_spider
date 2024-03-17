@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "👍 175看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.175book.com",
+        "customOrder": 81,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/xuanhuanxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/xiuzhenxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/dushixiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/lishixiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/wangyouxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/kehuanxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/yanqingxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/qitaxiaoshuo/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完结\",\"url\":\"/wanben/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1645348430643,
+        "respondTime": 2133,
+        "ruleBookInfo": {
+            "author": ".block_txt2 p.2@text",
+            "coverUrl": ".block_img2 img@src",
+            "init": "",
+            "intro": ".intro_info@html##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": ".block_txt2 a.2@text&&.block_txt2 p.4:5@text##.*：|小说|\\s.*",
+            "lastChapter": ".block_txt2 a.3@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": ".block_txt2 a.1@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一章@href",
+            "replaceRegex": "##h.*com|M.*com|175.*com|175看书"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@textNodes",
+            "lastChapter": "a.2@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text##第.*?章\\s?(第.*?章)(.*$)##$1 $2",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

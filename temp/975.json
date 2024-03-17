@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "👍 学笔网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xuebiw.com",
+        "customOrder": -296425,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/xiaoshuodaquan/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/xuanhuan/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/xiuzhen/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/dushi/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/lishi/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/wangyou/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/kehuan/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"女频\",\"url\":\"/nvpin/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1633803632595,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".pt-novel a.1@text",
+            "coverUrl": ".baseinfo img@src",
+            "intro": ".intro@html",
+            "kind": ".pt-novel a.2@text&&.pt-novel div.2@text##小说|.*：|\\s.*",
+            "lastChapter": "#newchaperlist a.0@text",
+            "name": ".pt-novel a.0@text"
+        },
+        "ruleContent": {
+            "content": "#BookText@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完.*"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".pt-card-7 li",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".pt-desc@text##简介.",
+            "kind": "a.3@text&&.pt-num@text##小说",
+            "name": "a.1@text"
+        },
+        "ruleSearch": {
+            "bookList": ".ptm-col-xs-4",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/home/search,{\n  'method': 'POST',\n  'body': 'action=search&q={{key}}'\n}",
+        "weight": 0
+    }
+]

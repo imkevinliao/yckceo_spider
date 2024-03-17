@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "小说侠",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://w.xiaoshuoxiaapp.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "header": "{\n\t\"User-Agent\":\"okhttp/4.9.0\"\n\t}",
+        "lastUpdateTime": 1663649622771,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "$.Author",
+            "coverUrl": "$.BookImage",
+            "init": "$.obj",
+            "intro": "$.Description",
+            "kind": "$.UpdateTime&&$.BookStatusStr&&$.CategoryName",
+            "lastChapter": "$.LastUpdateChapter",
+            "name": "$.BookName",
+            "tocUrl": "https://w.xiaoshuoxiaapp.cc/book/GetBookAllChapters?bookId={{$.BookId}}@put:{bid:$.BookId}"
+        },
+        "ruleContent": {
+            "content": "p[0:-4]@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.Author",
+            "bookList": "$.obj",
+            "bookUrl": "https://w.xiaoshuoxiaapp.cc//book/getbook?userId=no&bookId={{$.BookId}}",
+            "coverUrl": "$.BookImage",
+            "intro": "$.Description",
+            "kind": "$.BookStatusStr&&$.CategoryName",
+            "name": "$.BookName"
+        },
+        "ruleToc": {
+            "chapterList": "$.obj",
+            "chapterName": "$.chaptername",
+            "chapterUrl": "https://w.xiaoshuoxiaapp.cc/book/NewH5Detail?bookId=@get:{bid}&chapterId={{$.chapterid}}&userId=no&deviceId={{java.randomUUID()}}"
+        },
+        "searchUrl": "https://w.xiaoshuoxiaapp.cc/Book/GetBookByKey?key={{key}}&pageIndex={{page}}",
+        "weight": 0
+    }
+]

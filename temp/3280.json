@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "修复：正文不全，获取正文显示用火狐浏览器，或者退出阅读模式",
+        "bookSourceGroup": "",
+        "bookSourceName": "灵梦小说（修复：正文不全）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lengmen.org",
+        "customOrder": -2086012633,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
+        "lastUpdateTime": 1682446867447,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "tocUrl": "text.查看全部章节@href"
+        },
+        "ruleContent": {
+            "content": "id.C0NTENT@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.span.2@text",
+            "bookList": "class.SHsectionThree-middle@tag.p",
+            "bookUrl": "tag.span.1@tag.a@href",
+            "kind": "tag.span.0@text",
+            "name": "tag.span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top-chapter@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href##$##,{\"webView\": true}",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.lengmen.org/search/{{key}}",
+        "weight": 0
+    }
+]

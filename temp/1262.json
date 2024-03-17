@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "乃星",
+        "bookSourceGroup": "",
+        "bookSourceName": "无极小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://wujixiaoshuo.com",
+        "customOrder": -118212,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::https://ajnnan.com/xuanhuanxiaoshuo/1_1.html\n修真小说::https://ajnnan.com/xiuzhenxiaoshuo/2_1.html\n都市小说::https://ajnnan.com/dushixiaoshuo/3_1.html\n穿越小说::https://ajnnan.com/chuanyuexiaoshuo/4_1.html\n网游小说::https://ajnnan.com/wangyouxiaoshuo/5_1.html\n科幻小说::https://ajnnan.com/kehuanxiaoshuo/6_1.html\n其他小说::https://ajnnan.com/qitaxiaoshuo/7_1.html\n完本小说::https://ajnnan.com/wanben/1_1/",
+        "lastUpdateTime": 1623946915880,
+        "ruleBookInfo": {
+            "intro": "id.intro@html",
+            "lastChapter": "id.info@tag.p.-1@text##最新章节："
+        },
+        "ruleContent": {
+            "content": "#content@textNodes",
+            "replaceRegex": "##欢迎广大书友光临阅读.*"
+        },
+        "ruleExplore": {
+            "author": "##<a href=\"/author/\\d+/\">(.*?)</a>##$1###<js>result.replace(/<span>/g,'').replace(/<.*span>/g,'')</js>",
+            "bookList": ".ll dl,.r ul li,.l ul li",
+            "bookUrl": "##<a href=\"(/\\d+_\\d+/)\"##https://ajnnan.com$1###",
+            "intro": "dd@text",
+            "kind": ".s1@text##\\[|\\]",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text||tag.a.1@text",
+            "wordCount": "##<span class=\"s5\">(\\d+-\\d+)</span>##$1###"
+        },
+        "ruleSearch": {
+            "author": ".s4.wid@text",
+            "bookList": "class.novelslist2@ul@li!0",
+            "bookUrl": ".s2.wid a@href",
+            "lastChapter": "{{@@class.s3 wid3@text}} • {{@@class.s6 wid6@text}}",
+            "name": ".s2.wid@text"
+        },
+        "ruleToc": {
+            "chapterList": "dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://ajnnan.com/search.html?name={{key}}",
+        "weight": 0
+    }
+]

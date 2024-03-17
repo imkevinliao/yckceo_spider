@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣阁52c",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.52c.net",
+        "bookUrlPattern": "https?://www.52c.net/list/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n排行::/rank/\n书库::/sorts/{{page}}/\n完本::/quanben/sorts/{{page}}/",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1692847148271,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=lastest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": ".fix span.-1@text"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一@href\n@js:\nif(result[0]){\n\tresult=result[0];\n\tresult=result.indexOf(\"_\")?result:\"\";\n\tresult;\n\t}",
+            "replaceRegex": "##章节错误.*刷新页面。"
+        },
+        "ruleExplore": {
+            "author": ".s4@text||span.0@text",
+            "bookList": ".txt-list li||.item",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text||a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list@li!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "a.0@href\n@js:\nvar id=result.match(/\\d+/);\nvar iid=parseInt(id/1000);\n`https://cdn.yinghuazy.xyz/files/article/image/${iid}/${id}/${id}s.jpg`",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}&Submit=搜索\",\n  \"method\": \"POST\"\n}",
+        "variableComment": "",
+        "weight": 0
+    }
+]

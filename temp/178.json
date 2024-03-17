@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "耽美漫画",
+        "bookSourceName": "一耽女孩漫画",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://ydan.vip/",
+        "customOrder": -298407,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"短漫\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=1\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n{\"title\":\"甜漫\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=2\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"强强\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=3\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"年下攻\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=4\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"诱受\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=5\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"骨科\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=6\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"调教\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=7\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"健气受\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=8\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"ABO\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=9\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"财阀\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=11\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"校园\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=12\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"女王受\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=13\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"高H\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=16\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"架空\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=17\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"娱乐圈\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=18\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"办公室\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=19\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"NP/SM\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=14\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.3\n\t}},\n\t{\"title\":\"重生/重逢\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=10\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.3\n\t}},\n\t{\"title\":\"青梅竹马\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=20\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.3\n\t}},\n\t{\"title\":\"韩国榜单\",\n\"url\":\"/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=18&cateid=15\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.3\n\t}}\n]",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\"\n\t}",
+        "lastUpdateTime": 1658907179248,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "$.data.pics@js:result.split(\",\").map(x=>'<img src=\\\"'+x+'\\\">').join(\"\\n\")",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": {
+            "author": "$.author",
+            "bookList": "$.data.list",
+            "bookUrl": "/prod-api/app-api/vv/mh-episodes/list?mhid={{$.id}}",
+            "coverUrl": "$.coverPic",
+            "intro": "$.summary",
+            "lastChapter": "$.episodes",
+            "name": "$.title"
+        },
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.data.list",
+            "bookUrl": "/prod-api/app-api/vv/mh-episodes/list?mhid={{$.id}}",
+            "checkKeyWord": "",
+            "coverUrl": "$.coverPic",
+            "intro": "$.summary",
+            "lastChapter": "$.episodes",
+            "name": "$.title"
+        },
+        "ruleToc": {
+            "chapterList": "$.data\n<js>\nvar ascResult=[];\n for(j=result.length-1;j>=0;j--){\n\t ascResult.push(result[j]);\n };\n ascResult\n</js>",
+            "chapterName": "$.title",
+            "chapterUrl": "/prod-api/app-api/vv/mh-episodes/get?jiNo={{$.jiNo}}&mhid={{$.mhid}}"
+        },
+        "searchUrl": "/prod-api/app-api/vv/mh-list/page?pageNo={{page}}&pageSize=100&word={{key}}",
+        "weight": 0
+    }
+]

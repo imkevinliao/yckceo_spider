@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☀晨光雨露💫精俢源💯",
+        "bookSourceName": "🎉天天中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ttzw.tv/",
+        "bookUrlPattern": "http://www.ttzw.tv/book/\\d+/",
+        "customOrder": -281918,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1621639433726,
+        "ruleBookInfo": {
+            "author": "class.fix@tag.p.0@text##作者：",
+            "coverUrl": "class.imgbox@tag.img@src",
+            "intro": "class.m-desc@text",
+            "kind": "class.fix@tag.p.1@text&&\nclass.fix@tag.p.2@text&&\nclass.fix@tag.p.4@text##类 别：|状 态：|最后更新：",
+            "lastChapter": "class.section-box.0@tag.li.0@a@text",
+            "name": "class.top@tag.h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html##章节错误.*并刷新页面。",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.layout layout2 layout-co18@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "kind": "class.s1@text&&\nclass.s5@text##\\[|\\]",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-box.1@li",
+            "chapterName": "tag.a.0@text",
+            "chapterUrl": "tag.a.0@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://www.ttzw.tv/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

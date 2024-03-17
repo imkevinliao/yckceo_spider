@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "圣瞳小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://books.hblmjs.com",
+        "bookUrlPattern": "http.*books.hblmjs.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/sort/{{page}}.html\n玄幻小说::/sort/1_{{page}}.html\n武侠小说::/sort/2_{{page}}.html\n言情小说::/sort/3_{{page}}.html\n历史小说::/sort/4_{{page}}.html\n网游小说::/sort/5_{{page}}.html\n科幻小说::/sort/6_{{page}}.html\n恐怖小说::/sort/7_{{page}}.html\n女生小说::/sort/8_{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689209560346,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".infotype@a.0@text",
+            "coverUrl": "img@src",
+            "init": ".texthead",
+            "intro": ".intro@p.0@text",
+            "kind": ".infotype@p.1:2@text\n##类型：|更新时间：",
+            "lastChapter": ".infotype@a.-1@text",
+            "name": "h3@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": ".articlecontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*本章未完.+继续阅读）"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.-2@text",
+            "bookList": ".article",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text",
+            "kind": "0",
+            "name": "h6@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

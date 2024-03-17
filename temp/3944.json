@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "独步小说123",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.dbxs123.com",
+        "bookUrlPattern": "https?://www.dbxs123.com/book/\\w+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻·奇幻::/nav/xh-qh<,-{{page}}>.html\n科幻·游戏::/nav/kh-yx<,-{{page}}>.html\n仙侠·武侠::/nav/xx-wx<,-{{page}}>.html\n女生·言情::/nav/ns-yq<,-{{page}}>.html\n都市·娱乐::/nav/ds-yl<,-{{page}}>.html\n历史·军事::/nav/ls-js<,-{{page}}>.html\n悬疑·灵异::/nav/xy-ly<,-{{page}}>.html\n耽美·纯爱::/nav/dm-ca<,-{{page}}>.html\n成长·励志::/nav/cz-lz<,-{{page}}>.html\n散文·随笔::/nav/sw-sb<,-{{page}}>.html\n轻小说::/nav/qxs<,-{{page}}>.html\n国外文学::/nav/gwwx<,-{{page}}>.html\n文学名著::/nav/wxmz<,-{{page}}>.html\n现当代文学::/nav/xddwx<,-{{page}}>.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692870978421,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "downloadUrls": ".reader-bar a.1@href\n<js>\nvar url=book.origin+result[0];\njava.ajax(url);\n</js>\n.text-center a.0@href",
+            "init": "",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#cont-body@html",
+            "nextContentUrl": ".text-center a.-1@href"
+        },
+        "ruleExplore": {
+            "author": "0",
+            "bookList": ".media",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".media-info@text",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.1@text",
+            "bookList": "tbody tr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "a.0@href\n##(\\d+)##/uploads/cover/$1s.jpg###",
+            "kind": "0",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#all-chapter a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.dbxs123.com/plus/search.php?q={{key}}",
+        "weight": 0
+    }
+]

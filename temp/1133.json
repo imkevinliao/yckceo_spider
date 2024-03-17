@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceUrl": "https://www.taiuu.com",
+        "bookSourceType": "0",
+        "bookSourceName": "全本",
+        "bookSourceGroup": "CSS",
+        "bookSourceComment": "NBC",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+        "exploreUrl": "周点击榜::/top/weekvisit/{{page}}.html\n月点击榜::/top/monthvisit/{{page}}.html\n总点击榜::/top/allvisit/{{page}}.html\n周推荐榜::/top/weekvote/{{page}}.html\n月推荐榜::/top/monthvote/{{page}}.html\n总推荐榜::/top/allvote/{{page}}.html\n总收藏榜::/top/goodnum/{{page}}.html\n总字数榜::/top/size/{{page}}.html\n本站推荐::/top/toptime/{{page}}.html\n最新入库::/top/postdate/{{page}}.html\n最近更新::/top/lastupdate/{{page}}.html\n全本小说::/wanben/\n玄幻小说::/xuanhuanxiaoshuo/\n修真小说::/xiuzhenxiaoshuo/\n都市小说::/dushixiaoshuo/\n穿越小说::/chuanyuexiaoshuo/\n网游小说::/wangyouxiaoshuo/\n科幻小说::/kehuanxiaoshuo/",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 8,
+        "lastUpdateTime": 1622856323348,
+        "ruleSearch": {
+            "bookList": "@css:#main > div.novelslistss > li",
+            "name": "@css:span.s2 > a @text",
+            "author": "@css:span.s4 @text",
+            "kind": "@css:span.s1 @text ##小说",
+            "wordCount": "@css:span.s5 @text",
+            "lastChapter": "@css:span.s3 > a @text",
+            "coverUrl": "@css:span.s2 > a @href##.+\\D((\\d+)\\d{3})\\D##https://www.xbiquge.so/files/article/image/$2/$1/$1s.jpg###",
+            "bookUrl": "@css:span.s2 > a @href"
+        },
+        "ruleExplore": {
+            "bookList": "@css:#main > div.novelslistss > li && #newscontent > div.l > ul > li",
+            "name": "@css:span.s2 > a @text",
+            "author": "@css:span.s4 @text",
+            "kind": "@css:span.s1 @text ##\\[|小说|\\]",
+            "wordCount": "@css:span.s5 @text ##\\s.*",
+            "lastChapter": "@css:span.s3 > a @text",
+            "coverUrl": "@css:span.s2 > a @href##.+\\D((\\d+)\\d{3})\\D##https://www.xbiquge.so/files/article/image/$2/$1/$1s.jpg###",
+            "bookUrl": "@css:span.s2 > a @href"
+        },
+        "ruleBookInfo": {
+            "name": "@css:#info > h1 @text",
+            "author": "@css:#info > p:nth-child(2) > a @text",
+            "kind": "@css:div.con_top @text ##.*阁\\s>\\s|小说.*",
+            "wordCount": "@css:#info > p:nth-child(4) @text ##共|.*\\[|].*",
+            "lastChapter": "@css:#info > p:nth-child(5) > a @text ##.*\\s(?=第)",
+            "intro": "@css:#intro @html",
+            "coverUrl": "@css:#fmimg > img @src"
+        },
+        "ruleToc": {
+            "chapterList": "@css:#list > dl > dd:not(:nth-child(2)):not(:nth-child(3)):not(:nth-child(4)):not(:nth-child(5)):not(:nth-child(6)):not(:nth-child(7)):not(:nth-child(8)):not(:nth-child(9)):not(:nth-child(10)):not(:nth-child(11)):not(:nth-child(12)):not(:nth-child(13)) > a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "@css:#content @html",
+            "replaceRegex": "##.*笔趣阁.*\\n"
+        }
+    }
+]

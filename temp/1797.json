@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "正文有缺失",
+        "bookSourceGroup": "C",
+        "bookSourceName": "天天看书网www.tititxt",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.tititxt.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1621921917999,
+        "ruleBookInfo": {
+            "author": "class.msg@tag.em.0@text",
+            "coverUrl": "class.jieshao@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.jieshao@tag.div.-4@text&&class.msg@tag.em.1@text&&class.place@tag.a.1@text##(标签：|状态：)",
+            "lastChapter": "class.msg@tag.em.-1@a@text&&class.msg@tag.em.-2@text##\\n更新.*：##•",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html##全.*本.*小.*说.*网|本章未完.*",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "class.fengtui_top@dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": "p@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.mulu.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "/home/search,{\n\"method\": \"POST\",\n\"body\": \"action=search&q={{key}}\"\n}",
+        "weight": 0
+    }
+]

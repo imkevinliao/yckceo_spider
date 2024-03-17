@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "52书库po5",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.po5.net",
+        "bookUrlPattern": "https?://www.po5.net/\\w+/b/\\w+.html",
+        "customOrder": 6,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "现代耽美::https://www.po5.net/xiandaidushi/<,index_{{page}}.html>\n穿越耽美::https://www.po5.net/chongsheng/<,index_{{page}}.html>\n古架耽美::https://www.po5.net/jiakong/<,index_{{page}}.html>\nGL百合::https://www.po5.net/gl/<,index_{{page}}.html>\n综漫同人::https://www.po5.net/bl/<,index_{{page}}.html>\n言情小说::https://www.po5.net/yanqing/<,index_{{page}}.html>\n男频小说::https://www.po5.net/nan/<,index_{{page}}.html>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1697275552985,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": ".article-content p.1@text",
+            "kind": "time.muted@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "",
+            "replaceRegex": "##目录.*尾页|Tips：.*|传送门：.*|Top"
+        },
+        "ruleExplore": {
+            "bookList": ".content article!0",
+            "bookUrl": "a.0@href",
+            "intro": ".note@text",
+            "kind": "span.-1@text",
+            "name": "h2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".excerpt",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "快穿",
+            "intro": ".note@text",
+            "kind": "a.1@text",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/so/search.php?q={{key}}<,&m=&f=_all&s=&p={{page}}>",
+        "weight": 0
+    }
+]

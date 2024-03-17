@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "//书籍列表无翻页，最好搜全名",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "⭐言情文库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yqwenku.com",
+        "customOrder": -2085977926,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "穿越重生::/chuanyuechongsheng/index<,_{{page}}>.html\n玄幻网游::/xuanhuanwangyou/index<,_{{page}}>.html\n现代都市 ::/xiandaidushi/index<,_{{page}}>.html\n古代架空::/gudaijiakong/index<,_{{page}}>.html\n台湾小言::/taiwanxiaoyan/index<,_{{page}}>.html\nBG同人::/tongrenxiaoshuo/index<,_{{page}}>.html",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1680692947619,
+        "loginUrl": "https://www.yqwenku.com/",
+        "respondTime": 17505,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "#text@div@textNodes"
+        },
+        "ruleExplore": {
+            "author": "li@tag.a@text##.*——",
+            "bookList": "class.box.0@ul li",
+            "bookUrl": "a@href##^##https://www.yqwenku.com",
+            "kind": "",
+            "lastChapter": "",
+            "name": "li@tag.a@text##——.*"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@text##.*——",
+            "bookList": "class.r",
+            "bookUrl": "a@href##^##https://www.yqwenku.com",
+            "checkKeyWord": "",
+            "name": "a@text##——.*"
+        },
+        "ruleToc": {
+            "chapterList": "#text@class.pageLink@tag.select@tag.option",
+            "chapterName": "text##.*——.*\\((\\d+)\\)|.*——.*##第$1页",
+            "chapterUrl": "tag.option@value",
+            "isVolume": ""
+        },
+        "searchUrl": "https://wap.yqwenku.com/search/,{\n  \"body\": \"keyboard={{key}}&show=title&tbname=article&tempid=1\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "求书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.booksos.net",
+        "bookUrlPattern": "http.*booksos.net/bqg/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "排行::/ph/\n收藏::/collect/\n完本::/wanbenxiaoshuo/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689429998817,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##{{chapter.title}}|（本章未完.+继续阅读）|\\(第.*页\\)"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".txt-list@li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "@js:\"http://www.booksos.net/files/article/image/86/86138/86138s.jpg\"",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "lastChapter": "a.1@text",
+            "name": ".s2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list@li!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"http://www.booksos.net/files/article/image/86/86138/86138s.jpg\"",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "lastChapter": "a.1@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://www.booksos.net/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

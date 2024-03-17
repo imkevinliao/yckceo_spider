@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "搜索无效，仅发现\n可复制链接，在阅读首页书架添加网址",
+        "bookSourceGroup": "自制,发现,源仓库,网页源",
+        "bookSourceName": "智能小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.znehuo.cc",
+        "bookUrlPattern": "https://m.znehuo.cc/zn_xs/\\d+.html",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"https://m.znehuo.cc/lists/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠修真\",\"url\":\"https://m.znehuo.cc/lists/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"https://m.znehuo.cc/lists/3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"https://m.znehuo.cc/lists/4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻异能\",\"url\":\"https://m.znehuo.cc/lists/5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"https://m.znehuo.cc/lists/6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异悬疑\",\"url\":\"https://m.znehuo.cc/lists/7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生耽美\",\"url\":\"https://m.znehuo.cc/lists/8/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"https://m.znehuo.cc/lists/10/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本小说\",\"url\":\"/znqb/lists/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"小说书库\",\"url\":\"/lists/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691058268369,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=lastest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.查看目录@href",
+            "wordCount": "text.字数：@text##字数："
+        },
+        "ruleContent": {
+            "content": ".read-section p@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##Tips：.*记得收藏网址.+|传送门：.*\\| .+"
+        },
+        "ruleExplore": {
+            "author": "span a@text",
+            "bookList": ".clearfix li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": ".intro@text",
+            "kind": "em.1:2@text",
+            "name": "a.0@text",
+            "wordCount": "em.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "#chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVolume": ""
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "haxc",
+        "bookSourceName": "翻书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.fansg.com",
+        "customOrder": -292895,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/lists/book_42.html?page={{page}}\n武侠修真::/lists/book_43.html?page={{page}}\n都市异能::/lists/book_44.html?page={{page}}\n历史军事::/lists/book_45.html?page={{page}}\n网游竞技::/lists/book_46.html?page={{page}}\n科幻灭世::/lists/book_47.html?page={{page}}\n惊悚悬疑::/lists/book_49.html?page={{page}}",
+        "lastUpdateTime": 1639810460123,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "intro": ".book-intro@textNodes",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "#newchapter.0@text",
+            "name": "h1@text",
+            "tocUrl": ".catalogbtn@href"
+        },
+        "ruleContent": {
+            "content": "#BookText@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".author@textNodes",
+            "bookList": ".books-list@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@textNodes",
+            "name": ".text@text"
+        },
+        "ruleSearch": {
+            "author": ".author@textNodes",
+            "bookList": ".search-list@li",
+            "bookUrl": "a@href",
+            "intro": ".intro@textNodes",
+            "lastChapter": ".latest@textNodes",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\nsearch=org.jsoup.Jsoup.parse(String(java.ajax(\"http://www.fansg.com\"))).select(\"form\").attr(\"action\")\naction=org.jsoup.Jsoup.parse(String(java.ajax(\"http://www.fansg.com\"))).select(\"input\").attr(\"name\")\nbody = action+\"={{key}}\"\noption={\"charset\": \"\",\"method\": \"POST\",\"body\": String(body)}\n\"http://www.fansg.com\"+search+\"?\"+body",
+        "weight": 0
+    }
+]

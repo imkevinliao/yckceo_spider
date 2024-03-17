@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "优质",
+        "bookSourceName": "HWJN",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.hanwujinian.com/riku",
+        "bookUrlPattern": "https://www.hanwujinian.com/riku/minibook/articleinfo.php?network=wifi&bookid=.*&uid=3007628",
+        "customOrder": -4553,
+        "enabled": false,
+        "enabledExplore": false,
+        "exploreUrl": "最新完结::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=643\n精选佳作::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=66\n经典完结::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=179\n生子萌娃::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=39\n虐恋情深::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=2\n重生穿越::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=4\n甜宠糖饼::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=88\n快穿系统::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=44\n网游电竞::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=46\n灵异探险::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=174\n脑洞大开::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=1341\n霸道总裁::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=42\n古代架空::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=86\n双向暗恋::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=50\n竹马养成::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=67\n冷门宝藏::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=43\nABO::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=49\n校园文::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=11\n娱乐圈::https://m.hanwujinian.com/api.php/api/Home_app/homePageMoreList?uid=0&type=1&limit=0&offset=50&id=78",
+        "lastUpdateTime": 0,
+        "ruleBookInfo": {
+            "author": "$.author",
+            "coverUrl": "$.image",
+            "intro": "$.intro",
+            "kind": "$..label[*]",
+            "lastChapter": "$.lastchapter",
+            "name": "$.articlename",
+            "tocUrl": "https://www.hanwujinian.com/riku/minibook/bookmenupage.php?network=wifi&aid=@get:{a}&order=1&offset=0&limit=1000&uid=3007628&app=&system=Android&showOpen=1"
+        },
+        "ruleContent": {
+            "content": "$..content",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "bookList": "$..data[*]",
+            "bookUrl": "https://www.hanwujinian.com/riku/minibook/articleinfo.php?network=wifi&bookid={$.id}&uid=3007628",
+            "coverUrl": "image",
+            "intro": "content",
+            "kind": "intro",
+            "name": "title@put:{a:$.id}"
+        },
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$..data[*]",
+            "bookUrl": "https://www.hanwujinian.com/riku/minibook/articleinfo.php?network=wifi&bookid={$.aid}&uid=3007628",
+            "coverUrl": "$.image",
+            "intro": "$.intro",
+            "kind": "$.nature1&&$.nature2&&$.nature3&&$.nature4@put:{a:$.aid}",
+            "lastChapter": "$.lastchapter",
+            "name": "$.articlename",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "$.data",
+            "chapterName": "$.chaptername",
+            "chapterUrl": "$.chapterid@js:\"https://www.hanwujinian.com/riku/minibook/read.php?network=wifi&aid=@get:{a}&cid=\"+result+\"&uid=3007628&token=d990d45f1cf17b468cc165da9762db4c&app=&system=Android&showOpen=1\"",
+            "isVip": "$.isvip",
+            "updateTime": "$.time"
+        },
+        "searchUrl": "https://www.hanwujinian.com/riku/minibook/search.php?uid=3007628&network=wifi&act=normal&searchs={{key}}&offset=0&limit=20",
+        "weight": 0
+    }
+]

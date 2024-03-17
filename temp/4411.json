@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceGroup": "自建",
+        "bookSourceName": "江南小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.medabc.com.cn/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36\"}",
+        "lastUpdateTime": 1699405025103,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//p[@class=\"c02\"]/span[1]/text()",
+            "coverUrl": "//div[@class=\"f1_L\"]/a/img/@src",
+            "intro": "//p[@id=\"book_desc\"]/text()",
+            "kind": "//div[@class=\"inf02\"]/p[1]/a/text()",
+            "lastChapter": "//ul[@id=\"listsss\"]/li[last()]/a/text()",
+            "name": "//body/div[2]/div[1]/div[1]/div[3]/div[1]/h1/a/text()",
+            "tocUrl": "//div[@class=\"c01\"]/h1/a/@href",
+            "wordCount": "//div[@class=\"inf02\"]/p[2]/text()"
+        },
+        "ruleContent": {
+            "content": "//div[@id=\"txt\"]/p/text()",
+            "nextContentUrl": "//span[@class=\"xyz\"]/a[@type=\"next\"]/@href",
+            "title": "//div[@class=\"article\"]/h2/text()"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "//div[1]/p/span[1]/a/@title",
+            "bookList": "//body/div[2]/div[3]/ul/li",
+            "bookUrl": "//div[1]/h3/a/@href",
+            "checkKeyWord": "完美世界",
+            "coverUrl": "//a[1]/img/@src",
+            "intro": "//div[1]/p[3]/text()",
+            "kind": "//div[1]/p/span[2]/a/text()",
+            "lastChapter": "//div[1]/p[2]/a/@title",
+            "name": "//div[1]/h3/a/font/text()",
+            "wordCount": "//div[1]/p/span[4]/text()"
+        },
+        "ruleToc": {
+            "chapterList": "//ul[@id=\"listsss\"]/li/a",
+            "chapterName": "//text()",
+            "chapterUrl": "//@href"
+        },
+        "searchUrl": "https://www.medabc.com.cn/search.php?key={{key}}",
+        "weight": 0
+    }
+]

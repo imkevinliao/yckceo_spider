@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "//网站经常变动\n//同站：舞文小说http://m.wushuzw.org/",
+        "bookSourceGroup": "源仓库,整理检验,自制,网页源",
+        "bookSourceName": "星空小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://wap.aixswx.net",
+        "bookUrlPattern": "http://wap.aixswx.net/book/\\d+.html",
+        "customOrder": 199,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "@js:\nvar v=source.getVariable();\nvar su=source.getKey();\nvar url=(v==null||v==\"\")?su:v;\nvar ml=url+\"/mulu/\";\nvar html=java.ajax(ml);\nvar h=org.jsoup.Jsoup.parse(html)\nvar a=h.select('ul[class=clearfix] li a');\nvar list=[];\nfor(i in a){\n\tvar text=a[i].text();\n\tvar href=a[i].attr(\"href\");\nhref=String(href).replace(\"1.html\",'{{page}}.html');\n\tvar add=text+\"::\"+url+href;\n\tlist.push(add);\n\t}\nlist.join(\"&&\")",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698115006729,
+        "respondTime": 29849,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "canReName": "",
+            "coverUrl": "[property$=image]@content",
+            "intro": ".intro.0@text##阅读.*最新章节请关注.+|【展开】|【收起】",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.目录列表@href"
+        },
+        "ruleContent": {
+            "content": "@js:\nd=java.getElements(\".content dd\");\nvar a=\"\";\nfor(i in d){\n\ta+=d.select(`[data-id=${i}]`);\n\ta+=\"\\n\";\n\t}\na;",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##{{chapter.title}}| \\(第.*页\\)|（本章未完.+继续阅读）|阅读.*最新章节.*请关注.+"
+        },
+        "ruleExplore": {
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@ownText##.*[(]|[):]|[【】].+",
+            "bookList": "<js>\nvar sk=java.get(\"sk\");\nvar su=source.getKey();\nvar v=source.getVariable();\nvar so=/s.php/.test(baseUrl);\nif(so){\n\tvar bu=baseUrl.match(/^(.+)\\/s.php/)[1];\nif(bu!=su&&bu!=v){\n\tsource.setVariable(bu);\n\tjava.toast(\"地址变动，重新搜索加载！\")\n\tresult=java.ajax(baseUrl+`,{\n\t\t\"body\": \"s=${String(sk)}\",\n\t\t\"method\": \"POST\"}`);\n\t\t}\n\t}else{result=result}\n\tresult;\n</js>\n.bd li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "a@href##\\D+((\\d+)\\d{3})\\D*##/files/article/image/$2/$1/$1s.jpg###",
+            "kind": "span@text##\\[|\\]",
+            "name": "a@ownText##[()].+|.*[:【]|】"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\nd=java.getElements(\"#listsss div\");\nvar li=\"\";\nfor(i in d){\n\tli+=d.select(`[data-id=${i}] li`);\n\tli+=\"\\n\";\n\t}\n\tli;\n</js>\nli a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "{{source.getVariable()?source.getVariable():source.getKey()\n}}/s.php,{\n  \"body\": \"s={{java.put('sk',key)}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

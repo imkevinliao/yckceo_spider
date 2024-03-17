@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "new",
+        "bookSourceName": "锦绣文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://http://www.qb5.co//",
+        "customOrder": -292900,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "exploreUrl": "[\n{\"title\":\"总排行榜\",\n\"url\":\"/ph/all_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"耽美小说\",\n\"url\":\"/ph/all1_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"耽美肉文\",\n\"url\":\"/ph/all2_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"言情小说\",\n\"url\":\"/ph/all3_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"言情肉文\",\n\"url\":\"/ph/all4_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"百合小说\",\n\"url\":\"/ph/all5_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"超爽肉文\",\n\"url\":\"/ph/all6_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"男男肉文\",\n\"url\":\"/ph/all7_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"浓情肉文\",\n\"url\":\"/ph/all8_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"私密趣事\",\n\"url\":\"/ph/all9_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"评书品书\",\n\"url\":\"/ph/all10_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"高辣完结\",\n\"url\":\"/ph/all11_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}}]",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\"\n\t}",
+        "lastUpdateTime": 1657265965531,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "lastChapter": "class.directoryArea.0@p.1@text",
+            "name": "",
+            "tocUrl": "<js>\n\tid=baseUrl.match(/\\d+_(\\d+)/)[1];\n\turl=baseUrl+\"all.html,\";\nverify=java.getVerificationCode(book.origin+\"/mytool/getVerify/?d=\"+Math.random());\noption={\n \"method\":\"POST\",\n\"body\":\"verify=\"+verify+\"&aid=\"+id+\"&sbt=提交\"\n};\nresult=url+JSON.stringify(option);\n</js>"
+        },
+        "ruleContent": {
+            "content": "<js>\ncontent={\n    childNode:[],\n    childNodes:\nresult.match(/nrid=\"([^\"]+)\";/)?java.getElements(\"#\"+result.match(/nrid=\"([^\"]+)\";/)[1]+\"@p\").toArray():\"\",\n    UpWz:function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n    },\n    load:function(){\n  this.code=String(result).match(/codeurl=\"(\\d+)\"/)[1];\n        var e =String(java.base64Decode(java.getString('[name=client]@content'))).split(/[A-Z]+%/);\n\n        for (var i = 0; i < e.length; i++) {\n            var k = this.UpWz(e[i], i);\n            this.childNode[k]=this.childNodes[i]\n        }}\n}\nif(baseUrl.match(/verify/)){\nresult=\"如果没获取到目录，说明验证码不对，详情页刷新重新获取验证码\"\n}else{if(baseUrl.match(/\\d+_2\\.html/)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");}else{\nresult=java.getElements(\"#chaptercontent@p\")\n}\n}\n\n</js>",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "text.下一页@href##.*\\('(\\d+)','(\\d+)','(\\d+)_(\\d+)'\\);##/$1_$2/$3_$4.html",
+            "replaceRegex": "##\\s*本章尚未完结,请点击下一页继续阅读---->>>\\s*|本章已阅读完毕.*"
+        },
+        "ruleExplore": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.hot_sale",
+            "bookUrl": "a@href",
+            "intro": "class.review@text",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "author": "class.author.0@text##.*\\| 作者：",
+            "bookList": "class.hot_sale[:99]",
+            "bookUrl": "a@href",
+            "kind": "class.author@text##\\| .*",
+            "lastChapter": "class.author.1@text##.* \\| 更新：",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href##.*\\('(\\d+)','(\\d+)','(\\d+)'\\);##/$1_$2/$3.html"
+        },
+        "searchUrl": "/s.html,{\n\t\"method\":\"POST\",\n\t\"body\":\"keyword={{key}}&t=1\"\n\t}",
+        "weight": 0
+    }
+]

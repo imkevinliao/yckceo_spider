@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceGroup": "📖 ",
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "weight": 76,
+        "ruleContent": {
+            "content": "class.txtnav@textNodes"
+        },
+        "loginUrl": "",
+        "searchUrl": "https://www.69shu.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+        "ruleSearch": {
+            "author": "tag.label.0@text",
+            "bookList": "class.newbox@li",
+            "lastChapter": "{{@@class.zxzj@p@textNodes}} • {{@@class.zxzj@tag.span.1@textNodes}}\n<js>result.replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(\\{（｛【].*[求更谢乐发推票盟补加字Kk/].*[\\)\\}）｝】]/g,'')</js>\n<js>result.replace(/^(\\d+)[、．]第.+章/,'第$1章').replace(/^(\\d+)、\\d+、/,'第$1章 ').replace(/^(\\d+)、\\d+/,'第$1章').replace(/^(第.+章)\\s?\\d+/,'$1').replace(/^(\\d+)、/,'第$1章 ').replace(/^(第.+章)\\s?第.+章/,'$1').replace(/第\\s(.+)\\s章/,'第$1章').replace(/.*(chapter|Chapter)\\s?(\\d+)\\s?/,'$1 $2 ').replace(/\\(.+\\)/,'').replace(/\\[|。/,'')</js>\n<js>result.replace(/第([零一二三四五六七八九十百千]+)章/g,java.toNumChapter(result))</js>\n##(章)([^\\s]+)(\\s·)##$1 $2$3",
+            "coverUrl": "img@data-src",
+            "intro": "class.ellipsis_2@text",
+            "kind": "tag.label.1@text&&tag.label.2@text",
+            "checkKeyWord": null,
+            "name": "h3@a@text",
+            "bookUrl": "a@href"
+        },
+        "enabledExplore": true,
+        "ruleBookInfo": {
+            "author": "class.booknav2@tag.p.0@a@text",
+            "tocUrl": "text.完整目录@href",
+            "lastChapter": "{{@@class.qustime@tag.li.0@span@text}} • {{@@class.booknav2@tag.p.3@text##更新：}}\n<js>result.replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(\\{（｛【].*[求更谢乐发推票盟补加字Kk/].*[\\)\\}）｝】]/g,'')</js>\n<js>result.replace(/^(\\d+)[、．]第.+章/,'第$1章').replace(/^(\\d+)、\\d+、/,'第$1章 ').replace(/^(\\d+)、\\d+/,'第$1章').replace(/^(第.+章)\\s?\\d+/,'$1').replace(/^(\\d+)、/,'第$1章 ').replace(/^(第.+章)\\s?第.+章/,'$1').replace(/第\\s(.+)\\s章/,'第$1章').replace(/.*(chapter|Chapter)\\s?(\\d+)\\s?/,'$1 $2 ').replace(/\\(.+\\)/,'').replace(/\\[|。/,'')</js>\n<js>result.replace(/第([零一二三四五六七八九十百千]+)章/g,java.toNumChapter(result))</js>\n##(章)([^\\s]+)(\\s·)##$1 $2$3",
+            "wordCount": "class.booknav2@tag.p.2@text##字.*",
+            "intro": "class.navtxt@tag.p.0@text",
+            "kind": "class.booknav2@tag.p.1@a@text&&\nclass.booknav2@tag.p.3@text##更新：",
+            "coverUrl": "class.bookimg2@img@src",
+            "name": "class.booknav2@h1@a@text",
+            "init": ""
+        },
+        "ruleToc": {
+            "chapterName": "text##我要报错！\n<js>result.replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(\\{（｛【].*[求更谢乐发推票盟补加字Kk/].*[\\)\\}）｝】]/g,'')</js>",
+            "chapterUrl": "href",
+            "chapterList": "class.catalog@li@a"
+        },
+        "bookSourceUrl": "https://www.69shu.com/",
+        "lastUpdateTime": 1667229687087,
+        "customOrder": -241991,
+        "bookSourceType": 0,
+        "enabled": true,
+        "header": "",
+        "bookSourceName": "69书吧① 🪜",
+        "bookSourceComment": "需要挂梯",
+        "respondTime": 510,
+        "exploreUrl": "[{\"title\":\"排行榜单\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最近更新\",\"url\":\"/newhot_0_2_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"新书热榜\",\"url\":\"/newhot_0_1_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"完本小说\",\"url\":\"/weekvisit_0_1_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"总人气榜\",\"url\":\"/weekvisit_0_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"总推荐榜\",\"url\":\"/allvote_0_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"————\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"玄幻魔法\",\"url\":\"/weekvisit_1_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"修真武侠\",\"url\":\"/weekvisit_2_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"言情小说\",\"url\":\"/weekvisit_3_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史军事\",\"url\":\"/weekvisit_4_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"游戏竞技\",\"url\":\"/weekvisit_5_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻空间\",\"url\":\"/weekvisit_6_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"悬疑惊悚\",\"url\":\"/weekvisit_7_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"同人小说\",\"url\":\"/weekvisit_8_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市小说\",\"url\":\"/weekvisit_9_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"官场职场\",\"url\":\"/weekvisit_10_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"穿越时空\",\"url\":\"/weekvisit_11_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"青春校园\",\"url\":\"/weekvisit_12_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "bookUrlPattern": "https://www.69shu.com/txt/\\d+.htm"
+    }
+]

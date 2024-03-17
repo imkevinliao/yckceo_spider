@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceUrl": "https://m.imbg.cc/",
+        "bookSourceType": "0",
+        "bookSourceName": "妙笔阁",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "疯狂的蜗牛",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://m.imbg.cc/search.html,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1626876082352,
+        "ruleSearch": {
+            "bookList": "id.sitebox@tag.dl",
+            "name": "@tag.dd@tag.h3@tag.a@text",
+            "author": "class.book_other@text",
+            "kind": "class.uptime@text",
+            "intro": "class.book_des@text",
+            "coverUrl": "@tag.dt@tag.a@tag.img@src",
+            "bookUrl": "@tag.dd@tag.h3@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.one@text",
+            "author": "class.xq_bookne@tag.div.1@tag.a@text",
+            "tocUrl": "class.ksaa_btn zp_act@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.readlist@li!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##【本站新推出繁体版，点击阅读】"
+        }
+    }
+]

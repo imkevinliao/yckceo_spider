@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "完本小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.wanbenh.com/",
+        "customOrder": -88965769,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1660575889866,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.article_info_td@tag.h2@text",
+            "intro": "class.lb_jj@tag.h3@text",
+            "kind": "class.article_info_td@tag.a.1@text",
+            "lastChapter": "class.article_info_td@tag.a.2@text",
+            "tocUrl": "<js>\n\tid=baseUrl.match(/(\\d+)/)[1];\nurl=book.origin+\"mytool/getChapterList/,\";\nverify=java.getVerificationCode(book.origin+\"/mytool/getVerify/?d=\"+Math.random());\noption={\n \"method\":\"POST\",\n\"body\":\"verify=\"+verify+\"&aid=\"+id+\"&sbt=提交\"\n};\nresult=url+JSON.stringify(option);\n</js>"
+        },
+        "ruleContent": {
+            "content": "class.container@html",
+            "nextContentUrl": "class.chapterPages@a!0@href",
+            "replaceRegex": "##下载app进行无广告阅读！"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "class.common-bookele",
+            "bookUrl": "class.articlename@href",
+            "checkKeyWord": "",
+            "intro": "class.abstract@textNodes",
+            "kind": "",
+            "name": "class.articlename@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li!-1@a",
+            "chapterName": "text",
+            "chapterUrl": "href\n@js:\na=result\nif(a.indexOf(\"javascript\")==-1){\n\ta=a\n\t}else{\n\t\ta=a.replace(\"javascript:goChapter(\",\"\")\n\t\ta=a.replace(\");\",\"\")\n\t\ta=book.bookUrl+\"/\"+a\n\t\ta=String(a).replace(\".html\",\"\")\n\t\ta=a+\".html\"\n\t\t}",
+            "isVolume": ""
+        },
+        "searchUrl": "http://www.wanbenh.com/search.html,{\n  \"body\": \"key={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

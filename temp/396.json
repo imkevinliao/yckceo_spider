@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceName": "读读书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.dudu0.com/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"玄幻\",\"url\":\"/l1_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"武侠\",\"url\":\"/l2_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"都市\",\"url\":\"/l3_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"言情\",\"url\":\"/l4_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"穿越\",\"url\":\"/l5_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"网游\",\"url\":\"/l6_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"官场\",\"url\":\"/l7_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"校园\",\"url\":\"/l8_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"历史\",\"url\":\"/l9_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"推理\",\"url\":\"/l10_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"科幻\",\"url\":\"/l11_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"恐怖\",\"url\":\"/l12_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"其他\",\"url\":\"/l13_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"完本\",\"url\":\"/full.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"排行\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"总榜\",\"url\":\"/allvisit_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"月榜\",\"url\":\"/monthvisit_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"周榜\",\"url\":\"/weekvisit_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"更新\",\"url\":\"/lastupdate_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"新书\",\"url\":\"/postdate_1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}}]",
+        "header": "",
+        "lastUpdateTime": 1651239976787,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "[property=\"og:novel:read_url\"]@content",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nresult =  java.getString(\"@css:#nr1@textNodes&&#nr+script@html\");\nif(baseUrl.match(/_\\d+_\\d+\\.html/)){\n\tresult= result \n\t}else{\tresult=java.getString(\"@@class.nr_title.1@html\")+result\n\t\t}\n</js>\n##document.*?innerHTML = \"|\";|请?关闭.{1,30}阅读。",
+            "nextContentUrl": "text.下一页@href||text.下一章@href",
+            "payAction": "",
+            "replaceRegex": "##\\(第1页\\)",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "span.0@textNodes##/|\\(.*",
+            "bookList": ".tjxs",
+            "bookUrl": "a@href",
+            "intro": ".tjintro@html",
+            "kind": "span.0@textNodes##\\((.*)\\)##$1###",
+            "name": "a@text"
+        },
+        "ruleSearch": {
+            "author": "textNodes##/",
+            "bookList": "p.line",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>result.replace(/<\\/li>\\s*<li>(?!<)|\\(链接已隐藏\\)/g,'')</js>\n.chapter li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "isVolume": "",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": "ownText"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"s={{key}}&&submit=\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

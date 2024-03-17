@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "有声",
+        "bookSourceName": "九酷音乐🎧",
+        "bookSourceType": 1,
+        "bookSourceUrl": "http://m.9ku.com",
+        "bookUrlPattern": "",
+        "customOrder": -134332,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "榜单排行::/music/\n网络歌曲::/wangluo/\n儿童歌曲::/erge/\n经典老歌::/laoge/\n抖音歌曲::/douyin/\n英文歌曲::/yingwen/\n九酷分类::https://m.9ku.com/zhuanji/taste.htm\n全部歌手::/geshou/all-all-all.htm&&内地男::/geshou/dalunan-all-all.htm&&内地女::/geshou/dalunv-all-all.htm&&内地组合::/geshou/daluzuhe-all-all.htm&&港台男::/geshou/gangtainan-all-all.htm&&港台女::/geshou/gangtainv-all-all.htm&&港台组合::/geshou/gangtaizuhe-all-all.htm&&欧美男::/geshou/oumeinan-all-all.htm&&欧美女::/geshou/oumeinv-all-all.htm&&欧美组合::/geshou/oumeizuhe-all-all.htm&&日韩男::/geshou/rhnan-all-all.htm&&日韩女::/geshou/rhnv-all-all.htm&&日韩组合::/geshou/rhzuhe-all-all.htm&&流行歌手::/geshou/gangtainan-all-liuxing.htm&&发烧音乐::/geshou/gangtainan-all-fashaoyinle.htm&&网络::/geshou/gangtainan-all-wangluo.htm&&非主流::/geshou/gangtainan-all-feizhuliu.htm&&儿童::/geshou/gangtainan-all-ertong.htm&&基督教::/geshou/gangtainan-all-jidujiao.htm&&纯音乐::/geshou/gangtainan-all-chunyinle.htm&&其它::/geshou/gangtainan-all-qita.htm&&A::/geshou/gangtainan-a-all.htm&&B::/geshou/gangtainan-b-all.htm&&C::/geshou/gangtainan-c-all.htm&&D::/geshou/gangtainan-d-all.htm&&E::/geshou/gangtainan-e-all.htm&&F::/geshou/gangtainan-f-all.htm&&G::/geshou/gangtainan-g-all.htm&&H::/geshou/gangtainan-h-all.htm&&I::/geshou/gangtainan-i-all.htm&&J::/geshou/gangtainan-j-all.htm&&K::/geshou/gangtainan-k-all.htm&&L::/geshou/gangtainan-l-all.htm&&M::/geshou/gangtainan-m-all.htm&&N::/geshou/gangtainan-n-all.htm&&O::/geshou/gangtainan-o-all.htm&&P::/geshou/gangtainan-p-all.htm&&Q::/geshou/gangtainan-q-all.htm&&R::/geshou/gangtainan-r-all.htm&&S::/geshou/gangtainan-s-all.htm&&T::/geshou/gangtainan-t-all.htm&&U::/geshou/gangtainan-u-all.htm&&V::/geshou/gangtainan-v-all.htm&&W::/geshou/gangtainan-w-all.htm&&X::/geshou/gangtainan-x-all.htm&&Y::/geshou/gangtainan-y-all.htm&&Z::/geshou/gangtainan-z-all.htm&&other::/geshou/gangtainan-other-all.htm&&",
+        "lastUpdateTime": 1624099230928,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "intro": "",
+            "kind": "",
+            "lastChapter": "class.t-t@tag.p@text"
+        },
+        "ruleContent": {
+            "content": "##mp3:\\\"([^\"]+)\\\"\\}##$1###"
+        },
+        "ruleExplore": {
+            "bookList": "ul.singerList li a||.banglist@tag.li||.bangCate@tag.li||a[href$=htm]",
+            "bookUrl": "a:not([href*=all])@href",
+            "coverUrl": "tag.img@src",
+            "intro": "",
+            "name": "tag.a@title||tag.a@text##收起|更多|歌手|分类|最新歌曲"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.musicList@tag.li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".musicList li",
+            "chapterName": ".t-t-a@text",
+            "chapterUrl": "tag.a.0@href"
+        },
+        "searchUrl": "/search/?key={{key}}",
+        "weight": 0
+    }
+]

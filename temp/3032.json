@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "普通",
+        "bookSourceName": "乐文文学网(可看图)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lwwxw.com",
+        "bookUrlPattern": "",
+        "customOrder": 261,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1600673113016,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": ".imgbox@tag.img@src",
+            "init": "",
+            "intro": ".desc xs-hidden@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "imageStyle": "full",
+            "nextContentUrl": "text.下一页@href",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": "class.txt-list txt-list-row5@li!0",
+            "bookUrl": ".s2@a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": ".s1@text",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix!0@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": "",
+            "nextTocUrl": "id.indexselect@option@value",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.lwwxw.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&Submit=%E6%90%9C%E7%B4%A2\"\n}",
+        "weight": 0
+    }
+]

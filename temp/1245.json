@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "musa自制。",
+        "bookSourceGroup": "自制",
+        "bookSourceName": "自制疯情书库vpn",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.kavbook.com",
+        "customOrder": -134330,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "男生::/nansheng/&&女生::/nvsheng/&&丝袜::/e/search/?keyboard=丝袜&classid=0&searchget=1&show=title,writer",
+        "lastUpdateTime": 1624248657387,
+        "ruleBookInfo": {
+            "author": "tag.span.1@text##作者:",
+            "coverUrl": "tag.img@src",
+            "init": "id.soft-info",
+            "intro": "class.cont@text",
+            "name": "tag.h1@text",
+            "tocUrl": "class.c2 on@href"
+        },
+        "ruleContent": {
+            "content": "tag.p@text",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span@text##作者:",
+            "bookList": "id.datalist@tag.li",
+            "bookUrl": "class.btn@href",
+            "intro": "tag.p@text",
+            "name": "tag.b@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.li!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "text.小说全文免费阅读@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.kavbook.com/e/search/?keyboard={{key}}&classid=0&searchget=1&show=title,writer",
+        "weight": 0
+    }
+]

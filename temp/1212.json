@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "下书看",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xiashukan.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1625212707698,
+        "ruleBookInfo": {
+            "author": "class.small@tag.span.0@text",
+            "coverUrl": "class.cover@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.small@tag.span.1@text&&class.small@tag.span.2@text&&class.small@tag.span.4@text##分类：|状态：|更新时间：",
+            "lastChapter": "class.last@a@text",
+            "name": "h2@text",
+            "wordCount": "class.small@tag.span.3@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p@text",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "class.update@a@text",
+            "name": "h4@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.xiashukan.com/s.php?keyword={{key}}",
+        "weight": 0
+    }
+]

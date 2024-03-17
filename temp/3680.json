@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "读书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.dushuge.com",
+        "bookUrlPattern": "http://m.dushuge.com/html/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/\n武侠::/wuxia/\n言情::/yanqing/\n历史::/lishi/\n网游::/wangyou/\n科幻::/kehuan/\n恐怖::/kongbu/\n全本::/quanben/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1688214329557,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\"text.字数@text##字数：\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一@href\n@js:result = result[0];\nresult = result.includes(\"_\") ? result : \"\";",
+            "replaceRegex": "##{{chapter.title}}|\\(第.+页\\)"
+        },
+        "ruleExplore": {
+            "author": "span.1@text",
+            "bookList": ".lis@li",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:\"/images/nocover.jpg\"",
+            "intro": "",
+            "kind": "0",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": ".cat@text##分类：",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last.1@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://m.dushuge.com/dsgfusdgfuseg.php?ie=gbk&s=5256649918672294880&q={{key}},{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

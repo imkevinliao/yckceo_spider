@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "必去书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.biqusk.com",
+        "customOrder": -2085978622,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1673631767141,
+        "respondTime": 8893,
+        "ruleBookInfo": {
+            "author": "class.tab.0@class.p1@text",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "class.jj@class.p2@text",
+            "kind": "class.tab1@class.p4@text",
+            "lastChapter": "class.tab.0@class.p3@text&&class.info_chapters@class.p1.0@text##最新.*更新：|T.*|最新：\n<js>result.replace(/(.*)\\s/,'$1 • ')</js>",
+            "name": "class.tab.0@h2@text",
+            "tocUrl": "{{baseUrl.replace(/wap/,'www')}}",
+            "wordCount": "class.tab1@class.p6@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.search_list",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "我的属性",
+            "coverUrl": "tag.a.0@href\n<js>java.ajax('https://wap.biqusk.com'+result)</js>img@src",
+            "intro": "tag.a.0@href\n<js>java.ajax('https://wap.biqusk.com'+result)</js>class.jj@class.p2@text",
+            "kind": "tag.a.1@text",
+            "lastChapter": "tag.a.0@href\n<js>java.ajax('https://wap.biqusk.com'+result)</js>class.tab.0@class.p3@text&&class.info_chapters@class.p1.0@text##最新.*更新：|T.*|最新：\n<js>result.replace(/(.*)\\s/,'$1 • ')</js>",
+            "name": "tag.a.0@text",
+            "wordCount": "tag.a.0@href\n<js>java.ajax('https://wap.biqusk.com'+result)</js>class.tab1@class.p6@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://wap.biqusk.com/s.php,{\n\"method\": \"POST\",\n\"body\": \"articlename=type&s={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

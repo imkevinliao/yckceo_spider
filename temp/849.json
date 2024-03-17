@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "红人小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://hongrenxs.net/",
+        "customOrder": 2,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "   排行榜  ::http://www.hongrenxs.net/paihang/allvisit_{{page}}.html\n精品小说 ::http://www.hongrenxs.net/jingpinxiaoshuo/{{page}}.html\n海棠耽美 ::http://www.hongrenxs.net/haitangdanmei/{{page}}.html\n耽美小说 ::http://www.hongrenxs.net/danmeixiaoshuo/{{page}}.html\n海棠言情 ::http://www.hongrenxs.net/haitangyanqing/{{page}}.html\n言情小说 ::http://www.hongrenxs.net/yanqingxiaoshuo/{{page}}.html\n高辣小说 ::http://www.hongrenxs.net/gaolaxiaoshuo/{{page}}.html\npo18小说::http://www.hongrenxs.net/popoxiaoshuo/{{page}}.html\n科幻灵异 ::http://www.hongrenxs.net/kehuanlingyi/{{page}}.html\n完结小说 ::http://www.hongrenxs.net/full/{{page}}",
+        "lastUpdateTime": 1638447630115,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "span.1@a@text",
+            "coverUrl": "div.pic@img@src",
+            "intro": "class.jj@text",
+            "kind": "class.bq@span.1@text&&span.2@text&&span.3@text",
+            "lastChapter": "class.lastchapter@a@text",
+            "name": "class.introduce@h1@text"
+        },
+        "ruleContent": {
+            "content": "class.articlecontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章尚未完结,请点击下一页继续阅读---->>>"
+        },
+        "ruleExplore": {
+            "author": "class.p1@a@text||td.2@text",
+            "bookList": "class.tt||class.grid@tr!0",
+            "bookUrl": "h3@a@href||td.0@a@href",
+            "coverUrl": "span.pic@img@src",
+            "intro": "class.p2@text",
+            "kind": "",
+            "lastChapter": "td.1@a@text",
+            "name": "h3@a@text||td.0@a@text",
+            "wordCount": "td.3@text"
+        },
+        "ruleSearch": {
+            "author": "class.odd.1@a@text",
+            "bookList": "class.grid@tr!0",
+            "bookUrl": "class.odd.0@a@href",
+            "coverUrl": "",
+            "kind": "class.odd.2@text&&class.even.2@text",
+            "lastChapter": "class.even.0@a@text",
+            "name": "class.odd.0@a@text",
+            "wordCount": "class.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.ml_list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.hongrenxs.net/mysearch.html,{\n'method': 'POST',\n'body': 'searchkey={{key}}&type=articlename'}",
+        "weight": 0
+    }
+]

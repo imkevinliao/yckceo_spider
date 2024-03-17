@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceGroup": "p18",
+        "bookSourceName": "盗文阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.daowenge.com",
+        "customOrder": 26,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1695956206317,
+        "respondTime": 1868,
+        "ruleBookInfo": {
+            "author": "class.mr15 ttl@text",
+            "coverUrl": "img.1@src",
+            "intro": "class.h112 mb15 det-abt lh1d8 c_strong fs16 hm-scroll@text",
+            "kind": "class.mr15 ttc@text",
+            "lastChapter": "class.fs16 c_strong@a.0@text",
+            "name": "class.mb15 lh1d2 oh@text"
+        },
+        "ruleContent": {
+            "content": "id.TextContent@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.1@text",
+            "bookList": "class.pr pb20 mb20",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@_src",
+            "intro": "p.0@text",
+            "kind": "span.0@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ol@li",
+            "chapterName": "a.0@text",
+            "chapterUrl": "a.0@href"
+        },
+        "searchUrl": "https://www.daowenge.com/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

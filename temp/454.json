@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "第一版主网麦子🌸",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.maizixueyuan.com/s.php",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "                       🌹小说大全🌹                      ::\n全部小说::http://www.maizixueyuan.com/shuku/0-allvisit-0-{{page}}.html,{\"headers\":{\"User-Agent\":\"https://www.kankezw.com\"}}\n玄幻奇幻::http://www.maizixueyuan.com/shuku/1-allvisit-0-{{page}}.html,{\"headers\":{\"User-Agent\":\"https://www.kankezw.com\"}} \n仙侠武侠::http://www.maizixueyuan.com/shuku/2-allvisit-0-{{page}}.html,{\"headers\":{\"User-Agent\":\"https://www.kankezw.com\"}} \n都市言情::http://www.maizixueyuan.com/shuku/3-allvisit-0-{{page}}.html,{\"headers\":{\"User-Agent\":\"https://www.kankezw.com\"}} \n穿越历史::http://www.maizixueyuan.com/shuku/4-allvisit-0-{{page}}.html,{\"headers\":{\"User-Agent\":\"https://www.kankezw.com\"}} \n科幻灵异::http://www.maizixueyuan.com/shuku/5-allvisit-0-{{page}}.html,{\"headers\":{\"User-Agent\":\"https://www.kankezw.com\"}} \n  藏经阁  ::http://www.maizixueyuan.com/shuku/6-allvisit-0-{{page}}.html,{\"headers\":{\"User-Agent\":\"https://www.kankezw.com\"}} \n其他类别::http://www.maizixueyuan.com/shuku/7-allvisit-0-{{page}}.html,{\"headers\":{\"User-Agent\":\"https://www.kankezw.com\"}}",
+        "lastUpdateTime": 1649070680232,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": ".bd.2@text",
+            "kind": "{{@@.is-serialize@text##\\.\\.}},{{@@.info@text##作者：(.*)类型：|字数：(.*)人}}##气##,人气",
+            "name": "",
+            "wordCount": "{{@@.info@text##作者：(.*)类型：(.*)字数：|人气：(.*)}}"
+        },
+        "ruleContent": {
+            "content": ".neirong@html##（苹果手机使用.*谷歌浏览器）|1k2k3k4k.c〇㎡|1k2k3k4k.com|1m2m3m4m.com|1q2q3q4q.com",
+            "imageStyle": "TEXT",
+            "nextContentUrl": ".chapterPages@a!0@href##$##,{\"headers\":{\"User-Agent\":\"www.maizixueyuan.com\"}}",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".info@text##字数：(.*)|更新：(.*)",
+            "bookList": ".bd@ul@li",
+            "bookUrl": ".name@href##$##,{\"headers\":{\"User-Agent\":\"www.maizixueyuan.com\"}}",
+            "checkKeyWord": "超级房东",
+            "kind": "{{@@.right@span.0@text}},{{@@.info.1@text##：##:}}",
+            "lastChapter": ".update@a@text",
+            "name": ".right@.name@text",
+            "wordCount": ".words@textNodes##字数："
+        },
+        "ruleToc": {
+            "chapterList": ".list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{\"headers\":{\"User-Agent\":\"www.maizixueyuan.com\"}}",
+            "nextTocUrl": "text.下页@href##$##,{\"headers\":{\"User-Agent\":\"www.maizixueyuan.com\"}}"
+        },
+        "searchUrl": "http://www.maizixueyuan.com/s.php,{\"headers\":{\"User-Agent\":\"www.maizixueyuan.com\"},\"charset\": \"gbk\",\n  \"method\": \"post\",\n  \"body\": \"objectType=2&type=articlename&s={{key}}&page={{page}}\"\n}",
+        "weight": 0
+    }
+]

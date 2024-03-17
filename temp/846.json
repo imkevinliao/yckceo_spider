@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceUrl": "https://api.51xiaoshuoapp.com",
+        "bookSourceType": "0",
+        "bookSourceName": "51小说",
+        "bookSourceGroup": "gone",
+        "bookSourceComment": "换皮站，笔趣阁系列。。。",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/api/v1/novelsearch?content={{key}}&pageIndex={{page}}&pageSize=20&type=2",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": -88888926,
+        "lastUpdateTime": 1639194170956,
+        "ruleSearch": {
+            "bookList": "data.list",
+            "name": "name",
+            "author": "author",
+            "kind": "categoryName&&bookStatus&&chapterUpdateTime##T.*",
+            "wordCount": "wordNum",
+            "lastChapter": "chapterName",
+            "intro": "intro",
+            "coverUrl": "picture",
+            "bookUrl": "@js:\nlet bid=parseInt(java.getString('$.bookId'))\nif(!bid)bid=parseInt(java.getString('$.id'))\nlet subPath=Math.ceil(bid/2000)\n\"http://statics.rungean.com/static/book/zip/\"+subPath+\"/\"+bid+\".zip\""
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "init": "<js>java.getZipStringContent(baseUrl,'detail.json')</js>$.data",
+            "name": "name",
+            "author": "author",
+            "kind": "categoryName&&bookStatus&&chapterUpdateTime##T.*",
+            "wordCount": "wordNum",
+            "lastChapter": "chapterName",
+            "intro": "chapterUpdateTime&&intro##(^|[…。!！?？.]+[”」）《》】…]?)##$1<br>",
+            "coverUrl": "picture"
+        },
+        "ruleToc": {
+            "chapterList": "<js>java.getZipStringContent(baseUrl,'chapter.json')</js>$.data",
+            "chapterName": "$.name",
+            "chapterUrl": "$.content_url"
+        },
+        "ruleContent": {
+            "content": "all"
+        }
+    }
+]

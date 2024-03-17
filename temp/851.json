@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceUrl": "https://www.wuxiaworld.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "武侠世界",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "api/novels/search?query={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1637594666678,
+        "ruleSearch": {
+            "checkKeyWord": "m",
+            "bookList": "$.items",
+            "name": "$.name",
+            "lastChapter": "$.chapterCount",
+            "coverUrl": "$.coverUrl",
+            "bookUrl": "https://www.wuxiaworld.com/novel/{{$.slug}}"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.novel-body@tag.h2@text",
+            "author": "class.novel-body@tag.div.2@tag.div.0@tag.dd@text",
+            "kind": "class.genres@text",
+            "intro": "class.fr-view@text",
+            "coverUrl": "class.media-object@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-item",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.chapter-content@tag.p@html"
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌼晨光雨露🍒精品源💯",
+        "bookSourceName": "亲之文库>增加更新时间",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.linovel.net",
+        "customOrder": -165975,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "重推周榜::/hub/getTopBooks?unit=zt&time=week&page={{page}}\n佳作周榜::/hub/getTopBooks?unit=jz&time=week&page={{page}}\n月票周榜::/hub/getTopBooks?unit=ticket&time=week&page={{page}}\n轻币周榜::/hub/getTopBooks?unit=coin&time=week&page={{page}}\n墨水周榜::/hub/getTopBooks?unit=ink&time=week&page={{page}}\n应援周榜::/hub/getTopBooks?unit=supp&time=week&page={{page}}\n重推月榜::/hub/getTopBooks?unit=zt&time=month&page={{page}}\n佳作月榜::/hub/getTopBooks?unit=jz&time=month&page={{page}}\n月票月榜::/hub/getTopBooks?unit=ticket&time=month&page={{page}}\n轻币月榜::/hub/getTopBooks?unit=coin&time=month&page={{page}}\n墨水月榜::/hub/getTopBooks?unit=ink&time=month&page={{page}}\n应援月榜::/hub/getTopBooks?unit=supp&time=month&page={{page}}\n重推新人榜::/hub/getTopBooks?unit=zt&time=new&page={{page}}\n佳作新人榜::/hub/getTopBooks?unit=jz&time=new&page={{page}}\n轻币新人榜::/hub/getTopBooks?unit=coin&time=new&page={{page}}\n墨水新人榜::/hub/getTopBooks?unit=ink&time=new&page={{page}}\n应援新人榜::/hub/getTopBooks?unit=supp&time=new&page={{page}}\n月票新人榜::/hub/getTopBooks?unit=ticket&time=new&page={{page}}",
+        "lastUpdateTime": 1625652333246,
+        "ruleBookInfo": {
+            "intro": "class.book-last-update@text&&class.about-text@html##(^|[。！？]++”?+)##$1<br>",
+            "lastChapter": "class.chapter-list clearfix@class.new@tag.a.0@text"
+        },
+        "ruleContent": {
+            "content": "class.l@html",
+            "imageStyle": "Full"
+        },
+        "ruleExplore": {
+            "author": "author||class.author@text##\\s",
+            "bookList": "data.books[*]||class.thumbnail",
+            "bookUrl": "https://www.linovel.net/book/{$.id}.html||tag.a@href",
+            "coverUrl": "coverUrl||tag.img@src",
+            "intro": "about||class.intro@text##简\\s介.",
+            "kind": "cat||class.words@text##\\d+=|\\{|\\}",
+            "name": "name||class.title@text"
+        },
+        "ruleSearch": {
+            "author": "class.book-extra@text##丨.*",
+            "bookList": "class.rank-book-list@tag.a||class.thumbnail",
+            "bookUrl": "tag.a@href||href",
+            "coverUrl": "tag.img@src||class.cover@src",
+            "intro": "class.book-intro@textNodes",
+            "kind": "class.book-tags@text",
+            "name": "class.book-name@text||class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search?kw={{key}}",
+        "weight": 0
+    }
+]

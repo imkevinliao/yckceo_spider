@@ -1,0 +1,29 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "精品小说阅读",
+        "bookSourceUrl": "http://m.bokcms.com",
+        "enable": false,
+        "ruleBookContent": "id.content@p@textNodes#read2\\(\\)\\;",
+        "ruleBookLastChapter": "class.readlist@tag.li.0@a@text#-.*",
+        "ruleChapterList": "class.readlist@li@a",
+        "ruleChapterName": "text#最近更新.*",
+        "ruleChapterUrl": "text.阅读@href",
+        "ruleChapterUrlNext": "text.下一页@href",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.bookimg@img@src",
+        "ruleFindName": "",
+        "ruleFindUrl": "最近更新::http://m.bokcms.com/shuku/0_0_1_0_searchPage.html\n最新入库::http://m.bokcms.com/shuku/0_11_0_0_searchPage.html\n完本小说::http://m.bokcms.com/rank/full/index_searchPage.html\n编辑强推::http://m.bokcms.com/rank/isgood/{,index_searchPage.html}\n新书潜力::http://m.bokcms.com/rank/newstime/{,index_searchPage.html}\n总点击榜::http://m.bokcms.com/rank/onclick/{,index_searchPage.html}\n总推荐榜::http://m.bokcms.com/rank/allrec/{,index_searchPage.html}\n总收藏榜::http://m.bokcms.com/rank/allcoll/{,index_searchPage.html}\n总字数榜::http://m.bokcms.com/rank/words/{,index_searchPage.html}\n玄幻奇幻::http://m.bokcms.com/xuanhuan/{,index_searchPage.html}\n武侠仙侠::http://m.bokcms.com/wuxia/{,index_searchPage.html}\n都市生活::http://m.bokcms.com/dushi/{,index_searchPage.html}\n历史军事::http://m.bokcms.com/junshi/{,index_searchPage.html}\n游戏竞技::http://m.bokcms.com/youxi/{,index_searchPage.html}\n科幻灵异::http://m.bokcms.com/kehuan/{,index_searchPage.html}\n现代言情::http://m.bokcms.com/xianyan/{,index_searchPage.html}\n青春校园::http://m.bokcms.com/xiaoyuan/{,index_searchPage.html}\n乡村爱情::http://m.bokcms.com/xiangcun/{,index_searchPage.html}\n耽美同人::http://m.bokcms.com/danmei/{,index_searchPage.html}\n古代言情::http://m.bokcms.com/guyan/{,index_searchPage.html}\n穿越架空::http://m.bokcms.com/chuanyue/{,index_searchPage.html}\n惊秫恐怖::http://m.bokcms.com/kongbu/{,index_searchPage.html}\n悬疑推理::http://m.bokcms.com/xuanyi/{,index_searchPage.html}\n综合其他::http://m.bokcms.com/qita/{,index_searchPage.html}",
+        "ruleIntroduce": "class.bookintro@textNodes",
+        "ruleSearchAuthor": "class.book_other@textNodes",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchKind": "class.uptime@text&class.book_other@span@text",
+        "ruleSearchList": "id.sitebox@dl",
+        "ruleSearchName": "h3@a@text#免费阅读.*",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "http://m.bokcms.com/search/@searchkey=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

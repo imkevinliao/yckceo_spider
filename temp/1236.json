@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "看书君",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kanshujun.cc",
+        "customOrder": 5,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "不限::/all/0_lastupdate_0_0_0_0_0_0_{{page}}.html",
+        "lastUpdateTime": 1624885974789,
+        "ruleBookInfo": {
+            "author": ".articleTitle@span@text##著",
+            "coverUrl": ".bookImg@src",
+            "intro": ".articleTop@p@text",
+            "kind": "",
+            "lastChapter": ".listCon@tag.a.-1@text",
+            "name": ".articleTitle@h2@text",
+            "tocUrl": "",
+            "wordCount": ".words@tag.span.0@text&&.tags@text"
+        },
+        "ruleContent": {
+            "content": ".readCon@html||.readCon@textNodes##一秒♂记住.*.com|.\\^首.*.\\^发.*.留言】|www.*.看书助手.*.阅读|〔\\?♂.*.cc♂〕",
+            "nextContentUrl": "text.下一章@href||text.下一页@href",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "li@h4@text",
+            "bookList": "ul@a",
+            "bookUrl": "href",
+            "coverUrl": "img@src",
+            "intro": "li@p@text",
+            "name": "li@h3@text"
+        },
+        "ruleSearch": {
+            "author": "span@text## · 连载中| · 已完结",
+            "bookList": ".rankList@li",
+            "bookUrl": "h4@a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "lastChapter": "",
+            "name": "h4@text",
+            "wordCount": " "
+        },
+        "ruleToc": {
+            "chapterList": ".listCon@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "http://www.kanshujun.cc/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n\"charset\": \"gbk\"\n}\n",
+        "weight": 0
+    }
+]

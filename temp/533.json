@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "（搜索大于六个字节[三个汉字]，Sra.ᚿᚫ⸙）",
+        "bookSourceGroup": "☣️精选senhora,🌹,失效",
+        "bookSourceName": "大雪天",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.daxuetian.com",
+        "bookUrlPattern": "",
+        "customOrder": -88962083,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1646276138329,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".panel-heading h1 small@text##作者：",
+            "coverUrl": ".img-thumbnail@src@js:result && !result.includes('nocover') ? result : 'http://uee.me/bNkEy'",
+            "intro": "class.intro col-xs-8 col-sm-9 col-md-10 col-lg-10@text",
+            "kind": "@css:.info > button@text",
+            "lastChapter": "class.list-group-item.-1@a@text",
+            "name": ".panel-heading h1@textNodes"
+        },
+        "ruleContent": {
+            "content": "id.content@html##.*转载请注明出处.*|求书，找书，请发站内短信给管理员.*|!--|--&amp;gt;|你是天才.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": ".top-sort@tag.tr.1&&.top-sort@tag.tr.2&&.top-sort@tag.tr.3",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "诡秘之主",
+            "coverUrl": "tag.a.0@href@js:\nvar id = result.match(/\\/(\\d+)/)[1];\n'http://image.daxuetian.com/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+            "kind": "tag.td.-3@text&&tag.td.-2@text&&tag.td.-1@text##K##000",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-group.0@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

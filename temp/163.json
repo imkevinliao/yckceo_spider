@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "new",
+        "bookSourceName": "免费小说网无删减",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.2030txt.com/wapbook-6755/",
+        "bookUrlPattern": "https://www.2030txt.com/wapbook-6755/",
+        "customOrder": 5,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1659592308326,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author.0@text##作者：",
+            "coverUrl": "class.l@img@src",
+            "intro": "class.p3@text",
+            "kind": "class.p2@p.0@text##类型：",
+            "lastChapter": "class.p4@a@text",
+            "name": "class.p1@h1@text"
+        },
+        "ruleContent": {
+            "content": "@js:\nlist=java.getElements(\"@@id.content@p||id.content\").toArray().sort((a,b)=>a.attr(\"data-id\")-b.attr(\"data-id\"));\nlist.join(\"\\n\");",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*href=.*|[a-zA-Z]*\\:.*[a-zA-Z]*\\.+[a-zA-Z0-9]*\\.+[a-zA-Z]*|[a-zA-Z0-9]*\\.+[a-zA-Z]*|[a-zA-Z]*.*net.*爱*好*中*文*网|温馨提示.*阅读模式。|百.*度.*搜.*爱.*好.*中.*文.*网|爱.*好.*中.*文.*网|咚咚小说(网|”)?",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@a@text",
+            "bookList": "class.searchresult@li",
+            "bookUrl": "class.articlename@href",
+            "checkKeyWord": "兵王",
+            "coverUrl": "class.articlename@href##.*\\/(\\d+)\\/(\\d+)\\/##/files/article/image/$1/$2/$2s.jpg",
+            "kind": "class.sortname@text##\\[|\\]",
+            "lastChapter": "class.lastchapter@a@text",
+            "name": "class.articlename@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapterlist.-1@ul@li@a\n<js>\nList=[];\nsectionPage=result;\naid=baseUrl.match(/\\/\\d+\\/(\\d+)\\//)[1];\noption={\n\t\"method\":\"POST\",\n\t\"body\":\"more=\"+1+\"&aid=\"+aid\n\t};\nurl='https://www.ah123z.com/modules/article/reader.php,'+JSON.stringify(option)\nresult=java.ajax(url);\nresult=result.split(\"\\</li\\>\").map(x=>x+\"</li>\");\nfor(i=0;i<=sectionPage.length-1;i++){\n\t\tif(i!==30){\n\t\t\tList.push({\n\t\t    \"name\":sectionPage[i].text(),\n\t\t    \"link\":sectionPage[i].attr('href')\n\t\t  })\n\t\t}else{\n\t\t\t\tfor(j=0;j<=result.length-1;j++){\n\t\t\t \t List.push({\n\t\t   \"name\":result[j].match(/(href=.*\\>(.*?)\\<\\/a\\>)/)[2],\n\t\t     \"link\":result[j].match(/href=\"(.*)\"/)[1]\n\t\t    })\n\t\t\t \t}\n\t\t\t}\n\t}\n\tList\n</js>",
+            "chapterName": "name",
+            "chapterUrl": "link",
+            "isVolume": ""
+        },
+        "searchUrl": "/modules/article/search.php,{\n\t\"charset\":\"gbk\",\n\t\"method\":\"POST\",\n\t\"body\":\"t_btnsearch=&searchkey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

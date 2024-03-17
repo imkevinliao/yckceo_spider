@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍊洛娅橙",
+        "bookSourceName": "渣渣小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zztxt.net/",
+        "customOrder": -2086012576,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n    {\n        \"title\": \"排行榜\",\n        \"url\": \"https://www.zztxt.net/paihangbang\",\n        \"style\": {\"layout_flexGrow\": 1}\n    },\n    {\n        \"title\": \"完本\",\n        \"url\": \"https://www.zztxt.net/quanben\",\n        \"style\": {\"layout_flexGrow\": 1}\n    },\n    {\n        \"title\": \"玄幻\",\n        \"url\": \"https://www.zztxt.net/xuanhuan\",\n        \"style\": {\"layout_flexGrow\": 1,\"layout_wrapBefore\":true}\n    },\n    {\n        \"title\": \"修真\",\n        \"url\": \"https://www.zztxt.net/xiuzhen\",\n        \"style\": {\"layout_flexGrow\": 1}\n    },\n    {\n        \"title\": \"都市\",\n        \"url\": \"https://www.zztxt.net/dushi\",\n        \"style\": {\"layout_flexGrow\": 1}\n    },\n    {\n        \"title\": \"历史\",\n        \"url\": \"https://www.zztxt.net/lishi\",\n        \"style\": {\"layout_flexGrow\": 1,\"layout_wrapBefore\":true}\n    },\n    {\n        \"title\": \"网游\",\n        \"url\": \"https://www.zztxt.net/wangyou\",\n        \"style\": {\"layout_flexGrow\": 1}\n    },\n    {\n        \"title\": \"科幻\",\n        \"url\": \"https://www.zztxt.net/kehuan\",\n        \"style\": {\"layout_flexGrow\": 1}\n    },\n    {\n        \"title\": \"女频\",\n        \"url\": \"https://www.zztxt.net/nvpin\",\n        \"style\": {\"layout_flexGrow\": 1}\n    }\n]",
+        "lastUpdateTime": 1682851838841,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.msg@em.0@a@text",
+            "coverUrl": "class.lf@img@src",
+            "intro": "class.rt@class.intro.-1@p@text",
+            "kind": "class.msg@em.1@text&&class.msg@em.2@text##状态：|更新时间：",
+            "lastChapter": "class.msg@em.3@a@text",
+            "name": "class.rt@h1@text",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html##https\\:\\/\\/www\\.5[\\s\\S]{1,99}$"
+        },
+        "ruleExplore": {
+            "author": "dd@span@text",
+            "bookList": "class.fengtui fengtui_top cf@dl||class.fengtui@dl",
+            "bookUrl": "dd@h3@a@href",
+            "coverUrl": "dt@a@img@src",
+            "intro": "dd@p@text",
+            "name": "dd@h3@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dd@span@text",
+            "bookList": "class.fengtui fengtui_top cf@dl",
+            "bookUrl": "dt@a@href",
+            "checkKeyWord": "从龙族开始的技能抽取",
+            "coverUrl": "dt@a@img@src",
+            "intro": "dd@p@text",
+            "name": "dt@a@img@alt"
+        },
+        "ruleToc": {
+            "chapterList": "class.mulu.1@ul@li@a\n@js:\nt=String(result).split(\"\\n\");\nn=t.length;\nif(t[8].slice(-19)==t[n-9].slice(-19)){\n\tt=t.slice(9,);\n\t}\nt;",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "isVolume": ""
+        },
+        "searchUrl": "home/search,{\n  \"method\": \"POST\",\n  \"body\": \"q={{key}}&action=search\"\n}",
+        "weight": 0
+    }
+]

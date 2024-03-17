@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "天天的鸟蛋蛋",
+        "bookSourceGroup": "天天",
+        "bookSourceName": "悠悠书盟",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.u33.me",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1693668612747,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content"
+        },
+        "ruleContent": {
+            "content": ".content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": "class.layout layout-col2 layout-col3@.item",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "name": "a.2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-box@class.section-list fix@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "isVolume": "layout-tit"
+        },
+        "searchUrl": "/search/?keyWord={{key}}",
+        "weight": 0
+    }
+]

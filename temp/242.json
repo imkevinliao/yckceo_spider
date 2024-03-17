@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "Error: 搜索内容为空并且没有发现 \n\n",
+        "bookSourceGroup": "xg自用",
+        "bookSourceName": "笔趣阁biz",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biquge.biz",
+        "bookUrlPattern": "",
+        "customOrder": 4,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1655940457598,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "id.intro@tag.p.0@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.result-game-item-info@tag.p.0@tag.span.1@text",
+            "bookList": "class.result-item result-game-item",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.result-game-item-desc@text",
+            "kind": "class.result-game-item-info@tag.p.1@tag.span.1@text",
+            "lastChapter": "tag.a.2@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

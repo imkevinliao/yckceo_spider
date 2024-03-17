@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceName": "不可能世界",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wenxue.bkneng.com/wap",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1674829449029,
+        "loginUrl": "https://wenxue.bkneng.com/wap/passport/login",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.clearfix bookContain_Cover@ul@li.0@text",
+            "coverUrl": "class.left bookContainImgBox@img@src",
+            "intro": "id.li_booknote@text",
+            "kind": "class.clearfix bookContain_Cover@ul@li.1@div.0@text",
+            "lastChapter": "class.clearfix bookContain_Title_In@class.right@text",
+            "name": "class.clearfix bookContain_Title_In@h2@text",
+            "wordCount": "class.clearfix bookContain_Cover@ul@li.1@div.1@text"
+        },
+        "ruleContent": {
+            "content": "class.myContent@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.left indexBookList_InRight@class.indexBookList_AuthorName@text",
+            "bookList": "class.clearfix indexBookList_In",
+            "bookUrl": "tag.a.0@href##\\/wap##/www",
+            "coverUrl": "img@src",
+            "intro": "class.indexBookList_synopsis@text",
+            "kind": "class.indexBookList_Class@class.indexBookList_ClassIn.0@text",
+            "name": "class.left indexBookList_InRight@class.indexBookList_Name@text",
+            "wordCount": "class.indexBookList_Class@class.indexBookList_ClassIn.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.lookingHot nolooking@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://wenxue.bkneng.com/wap/index/search?keyword={{key}}",
+        "weight": 0
+    }
+]

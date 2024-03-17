@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "快书小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kuaishu5.com",
+        "bookUrlPattern": "https://www.kuaishu5.com/b\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻小说\",\n\t\"url\":\"/xuanhuan/<,p{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠小说\",\n\t\"url\":\"/wuxia/<,p{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市小说\",\n\t\"url\":\"/dushi/<,p{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史小说\",\n\t\"url\":\"/lishi/<,p{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻小说\",\n\t\"url\":\"/kehuan/<,p{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游小说\",\n\t\"url\":\"/wangyou/<,p{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"女频小说\",\n\t\"url\":\"/nvpin/<,p{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/qita/<,p{{page}}.html>\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1664009901004,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[id=\"intro\"]@html",
+            "kind": "[property=\"og:novel:update_time\"]@content&&\n[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": "[class=\"hidden-xs\"][0]@text##.*\\|.|\\s"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.l@ul@li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "@js:\"https://s1.328888.xyz/2022/09/24/Vu0lF.jpg\"",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text",
+            "wordCount": "class.s5@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.btm@a@text",
+            "bookList": "class.item",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-src",
+            "intro": "dd@text",
+            "kind": "class.blue visible-xs@text",
+            "name": "dt@a@text",
+            "wordCount": "class.orange visible-xs@text##\\s"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://www.kuaishu5.com/search/?searchkey={{key}},{\n\t\"headers\": {'referer': 'https://www.kuaishu5.com/'}\n\t}",
+        "weight": 0
+    }
+]

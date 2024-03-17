@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "雪痕伤",
+        "bookSourceName": "ABC小说-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yb3.cc",
+        "customOrder": 7,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": " 玄幻魔法::/fenlei/112/\n武侠修真::/fenlei/113/\n都市言情::/fenlei/114/\n历史军事::/fenlei/115/\n网游动漫::/fenlei/117/\n科幻灵异::/fenlei/118/\n其它小说::/fenlei/121/",
+        "lastUpdateTime": 1653876929460,
+        "respondTime": 1997,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "id.intro@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "author": "class.s5@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslist2@li",
+            "bookUrl": "class.s2@a@href",
+            "kind": "class.s2.0@text",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/web/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

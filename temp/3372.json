@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "正文显示图片段落，但需要关闭替换净化。\n如字小看不见，是图片样式没生效，可在阅读界面中手动改为FULL即可。",
+        "bookSourceGroup": "自制,优化,源仓库,网页源",
+        "bookSourceName": "醋溜儿文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.clwx666.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/class/cat/0/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"悬疑\",\"url\":\"/class/cat/49/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情\",\"url\":\"/class/cat/39/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/class/cat/41/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙武\",\"url\":\"/class/cat/37/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/class/cat/46/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏\",\"url\":\"/class/cat/38/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/class/cat/48/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/class/cat/36/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"青春\",\"url\":\"/class/cat/52/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"二次元\",\"url\":\"/class/cat/50/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他\",\"url\":\"/class/cat/53/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1685258398145,
+        "respondTime": 18687,
+        "ruleBookInfo": {
+            "author": "class.info@span.0@text",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "class.intro@text\n##本站提示：.*|请记住作者.*",
+            "kind": "class.info@span.1:3@text",
+            "lastChapter": "class.newUpdate_v2@span@text",
+            "name": "img@alt",
+            "tocUrl": "text.打开目录@href",
+            "wordCount": "class.info@span.2@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "imageStyle": "FULL",
+            "nextContentUrl": "class.menu_f@ul@li@a@href\n##$##,{'webView': true}"
+        },
+        "ruleExplore": {
+            "author": "class.author_intro@text##\\|.*",
+            "bookList": "class.pictext",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.info_description@text",
+            "kind": "class.author_intro@text\n<js>var regex = /([^|]+)/g;\nvar og = result[0];\nvar flo = og.match(regex)[1];\nvar fle = og.match(regex)[3];\nvar flx = flo+fle;\nflx;</js>text",
+            "name": "class.info_title@text",
+            "wordCount": "class.author_intro@text\n<js>var regex = /([^|]+)/g;\nvar go = result;\nvar zs = go.match(regex)[2];\nzs;</js>text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": "div@dl",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": "span.1@text",
+            "lastChapter": "p@a.1@text",
+            "name": "dt@text##《|》",
+            "wordCount": "span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li",
+            "chapterName": "span@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": "option@value##$##.html"
+        },
+        "searchUrl": "https://m.clwx666.com/search/keyword/{{key}}",
+        "weight": 0
+    }
+]

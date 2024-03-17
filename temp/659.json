@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "️⚡️经典",
+        "bookSourceName": "丝路小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.rsilu.com/",
+        "customOrder": -292894,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::https://www.rsilu.com/all/1_allvisit_0_0_0_0_0_0_{{page}}.html\n都市职场::https://www.rsilu.com/all/2_allvisit_0_0_0_0_0_0_{{page}}.html\n武侠仙侠::https://www.rsilu.com/all/3_allvisit_0_0_0_0_0_0_{{page}}.html\n军事历史::https://www.rsilu.com/all/4_allvisit_0_0_0_0_0_0_{{page}}.html\n网游竞技::https://www.rsilu.com/all/5_allvisit_0_0_0_0_0_0_{{page}}.html\n穿越科幻::https://www.rsilu.com/all/6_allvisit_0_0_0_0_0_0_{{page}}.html\n二次元::https://www.rsilu.com/all/7_allvisit_0_0_0_0_0_0_{{page}}.html\n同人::https://www.rsilu.com/all/8_allvisit_0_0_0_0_0_0_{{page}}.html\n悬疑推理::https://www.rsilu.com/all/9_allvisit_0_0_0_0_0_0_{{page}}.html\n散文诗集::https://www.rsilu.com/all/10_allvisit_0_0_0_0_0_0_{{page}}.html\n其他::https://www.rsilu.com/all/11_allvisit_0_0_0_0_0_0_{{page}}.html\n言情::https://www.rsilu.com/all/12_allvisit_0_0_0_0_0_0_{{page}}.html\n现代修真::https://www.rsilu.com/all/13_allvisit_0_0_0_0_0_0_{{page}}.html\n仙侠奇缘::https://www.rsilu.com/all/14_allvisit_0_0_0_0_0_0_{{page}}.html\n玄幻言情::https://www.rsilu.com/all/15_allvisit_0_0_0_0_0_0_{{page}}.html\n青春校园::https://www.rsilu.com/all/16_allvisit_0_0_0_0_0_0_{{page}}.html\n恐怖灵异::https://www.rsilu.com/all/17_allvisit_0_0_0_0_0_0_{{page}}.html\n科幻空间::https://www.rsilu.com/all/18_allvisit_0_0_0_0_0_0_{{page}}.html\n耽美::https://www.rsilu.com/all/19_allvisit_0_0_0_0_0_0_{{page}}.html",
+        "lastUpdateTime": 1644384491227,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "#bookphr",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.articlecon@text",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "class.writer@text",
+            "bookList": "class.listRightBottom@li",
+            "bookUrl": "h2 a@href",
+            "coverUrl": "",
+            "intro": "class.bookdesc@text",
+            "lastChapter": "",
+            "name": "h2 a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.cover@class.line",
+            "bookUrl": "tag.a.1@href",
+            "kind": "tag.a.0@text##\\[|\\]",
+            "name": "tag.a.1@text##\\（|\\）"
+        },
+        "ruleToc": {
+            "chapterList": "class.chaptercon@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.rsilu.com/s.php,{\n \"charset\":\"gbk\",\n \"method\":\"POST\",\n \"body\":\"type=articlename&s={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

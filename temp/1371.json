@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "112378",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.112378.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1645561814093,
+        "respondTime": 3000,
+        "ruleBookInfo": {
+            "author": ".bookinfo .author a",
+            "coverUrl": ".bookcover img@data-src",
+            "intro": "#intro_content@text",
+            "kind": ".bookinfo .tag a",
+            "lastChapter": ".bookinfo .update span:eq(1) a",
+            "name": ".bookinfo h1",
+            "tocUrl": ".bookinfo .update span:eq(1) a@href",
+            "wordCount": ".bookinfo .update span:eq(2)"
+        },
+        "ruleContent": {
+            "content": "#chapter_content@html",
+            "nextContentUrl": ".page a:contains(下一页)@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".result-game-item-info p:eq(0)",
+            "bookList": ".result-item",
+            "bookUrl": ".result-game-item-title a@href",
+            "coverUrl": ".result-game-item-pic img@src",
+            "kind": ".result-game-item-info p:eq(1)",
+            "lastChapter": ".result-game-item-info p:eq(2)",
+            "name": ".result-game-item-title",
+            "wordCount": ".result-game-item-info p:eq(3)"
+        },
+        "ruleToc": {
+            "chapterList": "#chapter_list li a",
+            "chapterName": "",
+            "chapterUrl": "#chapter_list li a@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://www.112378.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

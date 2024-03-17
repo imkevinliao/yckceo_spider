@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "new",
+        "bookSourceName": "长乐歌",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.mcmssc.com/",
+        "customOrder": -2398,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1652735346939,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "id.thumb@img@src",
+            "init": "",
+            "tocUrl": "class.btn@a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "nextContentUrl": "id.pb_next@href",
+            "replaceRegex": "##.*章节错误.*|.*笔趣阁.*|.*第\\d/\\d页.*|.*本章未完.*|.*加入书签.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author.0@a.1@text",
+            "bookList": "class.slide-item@div",
+            "bookUrl": "a@href",
+            "kind": "",
+            "lastChapter": "class.author.1@a@text",
+            "name": "class.title.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@p!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/SearchBook.php?keyword={{key}}",
+        "weight": 0
+    }
+]

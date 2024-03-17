@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自,📖小说",
+        "bookSourceName": "📝笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qu-la.com",
+        "customOrder": 45,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻小说::/class1/p{{page}}\n修真小说::/class2/p{{page}}\n都市小说::/class3/p{{page}}\n穿越小说::/class4/p{{page}}\n网游小说::/class5/p{{page}}\n科幻小说::/class6/p{{page}}\n其他小说::/class7/p{{page}}\n完本小说::/finish/?page= {{page}}",
+        "header": "",
+        "lastUpdateTime": 1675939548628,
+        "respondTime": 200536,
+        "ruleBookInfo": {
+            "author": ".book-text@span.0@text##作者：",
+            "coverUrl": "tag.img@src",
+            "intro": ".intro@text",
+            "kind": ".tag@tag.span.0@text&&.tag@tag.span.1@text##状态：",
+            "lastChapter": ".update-text@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": ".book-text@h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": ".txt@html##(紧急通知：)*\\n*为您提供.*请务必保存好书签.*|最快更新.*最新.*|『章节有误.*』|\\(本章未完.*下一.*\\)|.*免费阅读：ht.*更新不易请收藏！|紧急通知.*启用新地址.*com|{{book.name}}|{{title}}|第[零一二两三四五六七八九十百千万\\d+ ]+章.*",
+            "nextContentUrl": "text.下一章@href||text.下章@href"
+        },
+        "ruleExplore": {
+            "author": ".author@text",
+            "bookList": ".book-view-box",
+            "bookUrl": "h4@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": ".intro@text",
+            "kind": ".tag@tag.span.0@text&&.tag@tag.span.1@text##状态：",
+            "lastChapter": "",
+            "name": ".book-info@tag.a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": "ul@tag.li!0",
+            "bookUrl": ".s2@tag.a@href",
+            "coverUrl": ".s2@tag.a@href<js>java.ajax(result)\n</js>tag.img@src",
+            "intro": "",
+            "kind": "",
+            "lastChapter": ".s2@tag.a@href<js>java.ajax(result)\n</js>.update-text@text\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book-chapter-list@class.cf.1@li||.chapter-list.1@li",
+            "chapterName": "@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=qu-la.com&q={{key}}",
+        "weight": 0
+    }
+]

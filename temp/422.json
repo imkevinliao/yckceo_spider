@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "我的",
+        "bookSourceName": "幻想姬小说👿",
+        "bookSourceType": 0,
+        "bookSourceUrl": "www.huanxiangji.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1650255095960,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": ".imgbox@img@src",
+            "init": "",
+            "intro": ".xdesc@html",
+            "wordCount": ".xs-show.1@text##状态："
+        },
+        "ruleContent": {
+            "content": "#content@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list-row5@li!0",
+            "bookUrl": "a@href",
+            "kind": ".s1@text##\\[|\\]",
+            "lastChapter": "{{@@.s3@text}} {{@@.s5@text}}",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix.2@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.huanxiangji.com/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"gbk\",\n  \"method\": \"Post\"\n}",
+        "weight": 0
+    }
+]

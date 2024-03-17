@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "顶点小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http:/m.pb98.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1666785578486,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".book-meta.0@a@text",
+            "coverUrl": ".book-layout@img@src",
+            "intro": ".bookintro@p.0@text",
+            "kind": ".book-meta.1@a@text",
+            "lastChapter": ".last@a@text",
+            "name": ".book-cell@text",
+            "tocUrl": ".book-info-btn@li.1@a@href",
+            "wordCount": ".book-meta.3@text##(\\d+)##$1万###"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href##$##,{\"webView\":true}",
+            "replaceRegex": "##.*原网页地址.*|.*关闭浏览器.*|.*顶点小说.*|.*vx公众号.*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "dd@a@text",
+            "bookList": "dl",
+            "bookUrl": "dt@a@href",
+            "coverUrl": "a.0@img@data-original",
+            "intro": "dd.0@text",
+            "kind": "dd.1@span.0@text",
+            "lastChapter": "",
+            "name": "dt@text",
+            "wordCount": "dd.1@span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "http://m.pb98.com/searchba9b.html?searchkey={{key}}&searchtype=all",
+        "weight": 0
+    }
+]

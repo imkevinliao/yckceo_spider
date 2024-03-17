@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceName": "暑期小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.shuqixs.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1674128062690,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##（本章未完，请点击下一页继续阅读）|.*第.*页.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list txt-list-row5@li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@text&&class.s5@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix@li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "http://www.shuqixs.cc/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

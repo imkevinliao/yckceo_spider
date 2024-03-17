@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "20230423\n清空源变量可以初始化。\n\n\n\nstyle可选字符：【abcde】 / 【01234】\n\n数字和字母可以混用，尽量不要重复填写。\n\nabc abd abe acd ace ade bcd bce cde\nacb adb aeb adc aec aed bdc bec ced\nbca bda bea cda cea dea cdb ceb dec\nbac bad bae cad cae dae cbd cbe dce\ncab dab eab dac eac ead dbc ebc ecd\ncba dba eba dca eca eda dcb ecb edc",
+        "bookSourceGroup": "",
+        "bookSourceName": "爱阅读[登录更改发现样式]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://84ui.top",
+        "customOrder": -2086011855,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "@js:\neval(String(source.loginUrl));\n\n\n\nsort=[];\npush=(title,url,type)=> sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: 1,\n\t\t\t\tlayout_flexBasisPercent: type\n\t\t\t}\n\t});\n$$=(a,b,c)=> `https://84ui.top/all${a+b+c}.html<,?page={{page}\\}>`;\n\n\n\n\n// 移除已关闭选项\nfor(i=0;i<5;i++){\n\t\teval('$.list'+i+'.map(ii=>list'+i+'[ii][0]=null)');\n\t\teval('list'+i+'=list'+i+'.filter(e=>e[0]!=null)');\n\t}\n\n\n\n$ = $.style.split('»')[0]\n.replace(/a/g,'0')\n.replace(/b/g,'1')\n.replace(/c/g,'2')\n.replace(/d/g,'3')\n.replace(/e/g,'4')\n.split('');\neval('lista=list'+$[0]+';listb=list'+$[1]+';listc=list'+$[2]);\n\n\n\n\n\t\tlista.map([title,ura]=>{\n\t\t\t\tpush('༺ˇ»`ʚ'+title+'ɞ´«ˇ༻',null,1);\n\t\t\t\tlistb.map([title,urb]=>{\n\t\t\t\t\t\tlistc[0][0] = \"[\"+title+\"]\";\n\t\t\t\t\t\tlistc.map(([title,urc],i)=>{\nif(  (listc.length===4)||(listc.length===5&&i>2)||(listc.length===14&&i>11)  ){\n\t\ttype = 0.4\n\t}\nelse{\n\t\ttype = 0.25\n\t}\n\t\t\t\t\t\t\t\tpush(title, $$(ura,urb,urc), type);\n\t\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t});\nJSON.stringify(sort);",
+        "lastUpdateTime": 1682287959899,
+        "loginUi": "[\n{name:\"　　　　　༺ˇ»`ʚ 样式选择 ɞ´«ˇ༻　　　　　\",type:\"button\"},\n{name:\"style\",type:\"text\"},\n{name:\"① 推荐 ♳\",type:\"button\",action:\"$$$('cab')\"},\n{name:\"② 推荐 ♴\",type:\"button\",action:\"$$$('dab')\"},\n{name:\"③ 推荐 ♵\",type:\"button\",action:\"$$$('acb')\"},\n{name:\"④ 推荐 ♶\",type:\"button\",action:\"$$$('adb')\"},\n{name:\" 使用填写 \",type:\"button\",action:\"$$$(0)\"},\n{name:\" 确定更改 \",type:\"button\",action:\"$$$(1)\"},\n\n\n\n\n\n{name:\"　　　　　༺ˇ»`ʚ 显示设置 ɞ´«ˇ༻　　　　　\",type:\"button\"},\n{name:\"　　　　　　　　༺ 分类 ༻　　　　　　　　\",type:\"button\"},\n{\"name\":\"[综合全部]\",\"type\":\"button\",\"action\":\"$$(0,0)\"},\n{\"name\":\"[男频全部]\",\"type\":\"button\",\"action\":\"$$(0,1)\"},\n{\"name\":\"[女频全部]\",\"type\":\"button\",\"action\":\"$$(0,10)\"},\n{\"name\":\" 奇幻玄幻 \",\"type\":\"button\",\"action\":\"$$(0,2)\"},\n{\"name\":\" 武侠仙侠 \",\"type\":\"button\",\"action\":\"$$(0,3)\"},\n{\"name\":\" 浪漫青春 \",\"type\":\"button\",\"action\":\"$$(0,11)\"},\n{\"name\":\" 科幻末日 \",\"type\":\"button\",\"action\":\"$$(0,6)\"},\n{\"name\":\" 悬疑灵异 \",\"type\":\"button\",\"action\":\"$$(0,7)\"},\n{\"name\":\" 幻想言情 \",\"type\":\"button\",\"action\":\"$$(0,12)\"},\n{\"name\":\" 都市娱乐 \",\"type\":\"button\",\"action\":\"$$(0,5)\"},\n{\"name\":\" 游戏竞技 \",\"type\":\"button\",\"action\":\"$$(0,8)\"},\n{\"name\":\" 同人衍生 \",\"type\":\"button\",\"action\":\"$$(0,13)\"},\n{\"name\":\" 历史军事 \",\"type\":\"button\",\"action\":\"$$(0,4)\"},\n{\"name\":\" 其他小说 \",\"type\":\"button\",\"action\":\"$$(0,9)\"},\n{\"name\":\" 　　　　 \",\"type\":\"button\"},\n\n\n{name:\"　　　　　　　　༺ 状态 ༻　　　　　　　　\",type:\"button\"},\n{\"name\":\"　 全部 　\",\"type\":\"button\",\"action\":\"$$(1,0)\"},\n{\"name\":\"　 连载 　\",\"type\":\"button\",\"action\":\"$$(1,1)\"},\n{\"name\":\"　 完本 　\",\"type\":\"button\",\"action\":\"$$(1,2)\"},\n\n\n{name:\"　　　　　　　　༺ 排序 ༻　　　　　　　　\",type:\"button\"},\n{\"name\":\"   总排序   \",\"type\":\"button\",\"action\":\"$$(2,0)\"},\n{\"name\":\"   月排序   \",\"type\":\"button\",\"action\":\"$$(2,1)\"},\n{\"name\":\"   周排序   \",\"type\":\"button\",\"action\":\"$$(2,2)\"},\n{\"name\":\"   日排序   \",\"type\":\"button\",\"action\":\"$$(2,3)\"},\n{\"name\":\" 　　　　 \",\"type\":\"button\"},\n{\"name\":\" 　　　　 \",\"type\":\"button\"},\n\n\n{name:\"　　　　　　　　༺ 字数 ༻　　　　　　　　\",type:\"button\"},\n{\"name\":\"　　 全部字数 　　\",\"type\":\"button\",\"action\":\"$$(3,0)\"},\n{\"name\":\"　   小于30万字   　\",\"type\":\"button\",\"action\":\"$$(3,1)\"},\n{\"name\":\"　    30-50万字    　\",\"type\":\"button\",\"action\":\"$$(3,2)\"},\n{\"name\":\"　    50-100万字   　\",\"type\":\"button\",\"action\":\"$$(3,3)\"},\n{\"name\":\"　  100-200万字  　\",\"type\":\"button\",\"action\":\"$$(3,4)\"},\n{\"name\":\"　  200万字以上  　\",\"type\":\"button\",\"action\":\"$$(3,5)\"},\n\n\n{name:\"　　　　　　　　༺ 更新 ༻　　　　　　　　\",type:\"button\"},\n{\"name\":\"   总更新   \",\"type\":\"button\",\"action\":\"$$(4,0)\"},\n{\"name\":\"   三日内   \",\"type\":\"button\",\"action\":\"$$(4,1)\"},\n{\"name\":\"   七日内   \",\"type\":\"button\",\"action\":\"$$(4,2)\"},\n{\"name\":\"   半月内   \",\"type\":\"button\",\"action\":\"$$(4,3)\"},\n{\"name\":\"   一月内   \",\"type\":\"button\",\"action\":\"$$(4,4)\"},\n{\"name\":\" 　　　　 \",\"type\":\"button\"}\n]",
+        "loginUrl": "list0 = [\n[\"综合全部\",\"\"],\n[\"男频全部\",\"/id/4\"],\n[\"奇幻玄幻\",\"/id/18\"],[\"武侠仙侠\",\"/id/19\"],[\"历史军事\",\"/id/20\"],\n[\"都市娱乐\",\"/id/21\"],[\"科幻末日\",\"/id/22\"],[\"悬疑灵异\",\"/id/23\"],\n[\"游戏竞技\",\"/id/34\"],[\"其他小说\",\"/id/35\"],\n[\"女频全部\",\"/id/8\"],\n[\"浪漫青春\",\"/id/27\"],[\"幻想言情\",\"/id/28\"],[\"同人衍生\",\"/id/39\"]\n];\nlist1 = [\n\t[\"全部\",\"\"],\n\t[\"连载\",\"/serialize/0\"],\n\t[\"完结\",\"/serialize/1\"]\n];\nlist2 = [\n\t[\"总人气\",\"/order/hits+desc\"],\n\t[\"月人气\",\"/order/hits_month+desc\"],\n\t[\"周人气\",\"/order/hits_week+desc\"],\n\t[\"日人气\",\"/order/hits_day+desc\"]\n];\nlist3 = [\n\t[\"总字数\",\"\"],\n\t[\"0-30万字\",\"/size/0\"],\n\t[\"30-50万字\",\"/size/1\"],\n\t[\"50-100万字\",\"/size/2\"],\n\t[\"100-200万字\",\"/size/3\"],\n\t[\"200万字以上\",\"/size/4\"]\n];\nlist4 = [\n\t[\"总更新\",\"\"],\n\t[\"三日内\",\"/update/0\"],\n\t[\"七日内\",\"/update/1\"],\n\t[\"半月内\",\"/update/2\"],\n\t[\"一月内\",\"/update/3\"]\n];\n\n\n\nfunction login(t){\n\t\tif(t==undefined)return true;\n\t\tjava.toast(t);\n\t\tjava.log(t);\n\t}\ngetv=()=>{\n\ttry{\n\t\t$=JSON.parse(source.getVariable());\n\t}catch(err){$=null}\n\treturn $\n}\nsetv=(json)=>source.setVariable(JSON.stringify(json));\n\n\n\n\n\n$$=(a,b)=>{\n\t\ti=0\n\t\teval('$.list'+a+'.map(a=>{if(a==b)i=1;});');\n\t\tif(i){\n\t\t\t\ti = '=$.list'+a+'.filter(a=>a!=b)'\n\t\t\t\tt = \"启用\"\n\t\t\t}\n\t\telse{\n\t\t\t\ti = '.push(b)'\n\t\t\t\tt = \"禁用\"\n\t\t\t}\n\t\teval('$.list'+a+i);\n\t\tlogin('【'+eval('list'+a+'[b][0]')+'】 '+t)\n\t\treturn setv($);\n\t}\n\n\n$$$=(a)=>{\n\t\tif(a===1){\n\t\t\t\tstyle=$.style.split('»')[1];\nif(style){\n\t\t$.style = style;\n\t\tt = \"转换样式成功，请刷新分类\"\n\t}\nelse{\n\t\tt = \"没有选中样式\"\n\t}\n\t\t\t}\n\t\telse{\n\t\t\t\t$.style = $.style.split('»')[0]+\"»\"+(a||result.style);\n\t\t\t\tt = \"确定转换样式为\"+(a||result.style)+\"吗？\"\n\t\t\t}\n\t\tlogin(t);\n\t\treturn setv($);\n\t}\n\n\n\n\n\ngetv();\nif(/^\\s*$/.test($)||$==null){\nlogin('初始化');\n$ = {\n\t\tstyle: \"a21\",\n\t\tlist0: [0,1,10],\n\t\tlist1: [],\n\t\tlist2: [],\n\t\tlist3: [2,3,4],\n\t\tlist4: [1,3]\n\t};\nsetv($);\n\t}",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author.0@text",
+            "coverUrl": ".pic@img@src",
+            "intro": ".summary@html",
+            "kind": ".tags@a@text&&.updatetime@text##更新时间 :\\s*",
+            "lastChapter": "{{@.chaptername@text}} • {{@.updatetime@text}}\n##(最新章节|更新时间) :\\s*",
+            "name": ".name@text",
+            "wordCount": ".hits@span.0@text##\\s"
+        },
+        "ruleContent": {
+            "content": ".read-content@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".search@dl||.listboxw@dl",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "https://84ui.top/novel/3625.html",
+            "coverUrl": "img@data-original",
+            "intro": "p.1@text",
+            "kind": "a.3@text&&p.0@textNodes&&span.-1@text\n##\\s*\\|\\s*| .*",
+            "lastChapter": "p.-1@text##最近更新 (.* )\\|##$1•\n<js>##.*字 \\|\\s*</js>",
+            "name": "a.1@text",
+            "wordCount": "em.0@text||span.-2@text##\\s+\\|?"
+        },
+        "ruleToc": {
+            "chapterList": ".cate-list@a",
+            "chapterName": "span.0@text",
+            "chapterUrl": "href",
+            "updateTime": "更新时间：{{@@span.1@text}}"
+        },
+        "searchUrl": "https://84ui.top/search.html?keyword={{key}}<,&page={{page}}>",
+        "weight": 0
+    }
+]

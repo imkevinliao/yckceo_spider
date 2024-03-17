@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "去读读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qududu.org",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1623234192559,
+        "ruleBookInfo": {
+            "author": "//meta[@property=\"og:novel:author\"]/@content",
+            "coverUrl": "//meta[@property=\"og:image\"]/@content",
+            "init": "",
+            "intro": "//meta[@property=\"og:description\"]/@content",
+            "lastChapter": "//meta[@property=\"og:novel:lastest_chapter_name\"]/@content",
+            "name": "//meta[@property=\"og:novel:book_name\"]/@content"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "id.next_url@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list@li!0",
+            "bookUrl": "class.s2@tag.a.0@href",
+            "intro": "class.s5@text",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "select@option@value"
+        },
+        "searchUrl": "https://www.qududu.org/search/,{\"charset\":\"UTF-8\",\"method\":\"POST\",\"body\":\"searchkey={{key}}\"}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "夕阳文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xiyangwx.com",
+        "bookUrlPattern": "http.*xiyangwx.com/novel.+html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "返回首页::http://www.xiyangwx.com\n玄幻魔法::/category/xuanhuanmofa<,/{{page}}.html>\n武侠修真::/category/wuxiaxiuzhen<,/{{page}}.html>\n都市言情::/category/dushiyanqing<,/{{page}}.html>\n历史军事::/category/lishijunshi<,/{{page}}.html>\n网游动漫::/category/wangyoudongman<,/{{page}}.html>\n科幻小说::/category/kehuanxiaoshuo<,/{{page}}.html>\n恐怖灵异::/category/kongbulingyi<,/{{page}}.html>\n其他类型::/category/qita<,/{{page}}.html>",
+        "header": "{   \"connection\": \"keep-alive\",\n    \"cache-control\": \"max-age=0\",\n    \"upgrade-insecure-requests\": \"1\",\n    \"origin\": \"{{source.getKey()}}\",\n    \"content-type\": \"application/x-www-form-urlencoded\",\n    \"accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\",\n    \"x-requested-with\": \"XMLHttpRequest\",\n    \"sec-fetch-site\": \"same-origin\",\n    \"sec-fetch-mode\": \"navigate\",\n    \"sec-fetch-user\": \"?1\",\n    \"sec-fetch-dest\": \"document\",\n    \"referer\": \"{{source.getKey()}}/\",\n    \"accept-language\": \"zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7\"}",
+        "lastUpdateTime": 1688956073759,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.-2@text",
+            "bookList": "tbody@tr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/bookcover/nocover.jpg\"",
+            "kind": "td.-1@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list-group.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.xiyangwx.com/search.php?search={{key}}",
+        "weight": 0
+    }
+]

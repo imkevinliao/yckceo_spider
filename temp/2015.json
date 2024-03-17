@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "fr.源仓库",
+        "bookSourceGroup": "出版",
+        "bookSourceName": "📖网易云阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.yuedu.163.com",
+        "bookUrlPattern": "",
+        "customOrder": 164,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "                                                  免费                                               ::\n小说作品::http://yuedu.163.com/book/category/category/2000/1_0_1/p{{page}}/s20\n人物社科::http://yuedu.163.com/book/category/category/2300/1_0_1/p{{page}}/s20\n品质生活::http://yuedu.163.com/book/category/category/2800/1_0_1/p{{page}}/s20\n两性情感::http://yuedu.163.com/book/category/category/2500/1_0_1/p{{page}}/s20\n成功励志::http://yuedu.163.com/book/category/category/2600/1_0_1/p{{page}}/s20\n经济管理::http://yuedu.163.com/book/category/category/2400/1_0_1/p{{page}}/s20\n文学作品::http://yuedu.163.com/book/category/category/2100/1_0_1/p{{page}}/s20\n文化艺术::http://yuedu.163.com/book/category/category/2200/1_0_1/p{{page}}/s20\n自然科学::http://yuedu.163.com/book/category/category/2900/1_0_1/p{{page}}/s20\n亲子少儿::http://yuedu.163.com/book/category/category/2700/1_0_1/p{{page}}/s20\n计算机::http://yuedu.163.com/book/category/category/3000/1_0_1/p{{page}}/s20\n培训考试::http://yuedu.163.com/book/category/category/3100/1_0_1/p{{page}}/s20\n杂志期刊::http://yuedu.163.com/book/category/category/12000/1_0_1/p{{page}}/s20\n外文外版::http://yuedu.163.com/book/category/category/3200/1_0_1/p{{page}}/s20",
+        "header": "",
+        "lastUpdateTime": 1618985398936,
+        "loginUrl": "https://m.yuedu.163.com/login.do",
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "data.content@js:\nresult ? String(java.base64Decode(result)).replace(/<h1>.+?<\\/h1>/, '') : ' 付费章节，换源阅读！';",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "tag.dd@text",
+            "bookList": "class.yd-book-content@class.yd-book-item",
+            "bookUrl": "tag.a.0@href##.*source/##http://m.yuedu.163.com/reader/book/info.json?catalog_only=true&source_uuid=",
+            "coverUrl": "img@src",
+            "intro": "class.summery@p@text",
+            "kind": "class.price@tag.b@text",
+            "lastChapter": "",
+            "name": "tag.h2.0@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "data.books[*]\n@js:JSON.parse(result).map(o=> {\n    var J = org.jsoup.Jsoup.parse(java.ajax(baseUrl.match(/(.+?\\/\\/.+?\\/)/)[1] + 'source/' + o.sourceUuid));\n    return {\n        name: o.title,\n        author: o.author,\n        tags: o.keyName,\n        num:o.showTotalCount+'字',\n        latest: String(J.select('.m-book-recent a').text()).replace(/[\\(（【].*[求更谢乐发推].*[】）\\)]/,'') +String(J.select('.m-book-recent p').text()).replace(/\\s*(\\d+-\\d+-\\d+).+/, '（$1）').replace(/\\s*(\\d+)月(\\d+)日.+/, '（$1-$2）'),\n        intro: o.description.replace(/<\\/?\\w+>/g, '').trim(),\n        cover: o.coverImage,\n        catalogUrl: '/reader/book/info.json?catalog_only=true&source_uuid=' + o.sourceUuid\n    }\n});",
+            "bookUrl": "catalogUrl",
+            "coverUrl": "cover",
+            "intro": "intro",
+            "kind": "tags",
+            "lastChapter": "latest",
+            "name": "name",
+            "wordCount": "num"
+        },
+        "ruleToc": {
+            "chapterList": "data.catalog[?(@.title)]",
+            "chapterName": "$.title##[\\(（【].*[求更谢乐发推].*[】）\\)]",
+            "chapterUrl": "uuid@js:\nvar s_uuid = baseUrl.replace(/.*source_uuid=/,'')\n'/reader/book/content.json?source_uuid='+s_uuid+'&content_uuid='+result;",
+            "isVip": "$.needPay",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/search/book/data.json?key={{key}}",
+        "weight": 0
+    }
+]

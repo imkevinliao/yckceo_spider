@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "糖塔",
+        "bookSourceGroup": "",
+        "bookSourceName": "文心阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.wenxinge.org/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1663419688386,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.book_detail@li.0@text",
+            "kind": ".sort@text##类别：",
+            "lastChapter": ".directoryArea@p.0@a@text",
+            "name": ".title@text",
+            "tocUrl": ".recommend@h2@a@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a.0@href",
+            "lastChapter": ".author.1@a@text",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": ".directoryArea@p!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://wap.wenxinge.org/Search.html,{\n  \"body\": \"keyword={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

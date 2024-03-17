@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "秋雨阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qiuyuge.com/",
+        "customOrder": -88962939,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1662650455565,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "init": "meta",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "",
+            "lastChapter": "[property$=chapter_name]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".odd.1@text",
+            "bookList": "tr!0",
+            "bookUrl": "@get:{u}",
+            "coverUrl": "@get:{u}##/book/(\\d+)/(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+            "kind": "",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text@put:{u:\"a.0@href\"}",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "+@css:#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchtype=all&searchkey={{key}}&page={{page}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "new",
+        "bookSourceName": "顶点小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.qklady.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\": \"分类\",\"url\": \"\",\"style\": {\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\": \"都市言情\",\"url\": \"/dushi.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"玄幻魔法\",\"url\": \"/xuanhuan.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"武侠修真\",\"url\": \"/wuxia.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"游戏竞技\",\"url\": \"/youxi.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"历史军事\",\"url\": \"/lishi.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"科幻灵异\",\"url\": \"/kehuan.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"穿越架空\",\"url\": \"/chuanyue.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"悬疑推理\",\"url\": \"/xuanyi.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"乡村爱情\",\"url\": \"/xiangcun.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"女生言情\",\"url\": \"/xianyan.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"其他小说\",\"url\": \"/qita.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"耽美同人\",\"url\": \"/danmei.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\": \"精选爽文\",\"url\": \"/lawen.html\",\"style\": {\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1650519042639,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "kind": "class.block_txt2@p.3@text##分类：",
+            "tocUrl": "class.margin_right@a@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "id.pb_next@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.bookname@a@href",
+            "coverUrl": "class.bookimg@a@img@src",
+            "intro": "class.intro_line@text",
+            "lastChapter": "class.update@text##更新至：",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@p",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "class.right@class.onclick@href"
+        },
+        "searchUrl": "/search/,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

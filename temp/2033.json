@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "by庭燎；仅支持完整书名或作者搜索",
+        "bookSourceGroup": "学习",
+        "bookSourceName": "100本·文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.100ben.net",
+        "bookUrlPattern": "",
+        "customOrder": -100009,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "世界名著::/sjmz/<,list_{{page}}.html>\n侦探推理::/zttl/<,list_{{page}}.html>\n古典文学::/gdwx/<,list_{{page}}.html>\n网络全本::/wlqb/<,list_{{page}}.html>\n现代文学::/xdwx/<,list_{{page}}.html>\n其他文学::/qtwx/<,list_{{page}}.html>\n",
+        "header": "",
+        "lastUpdateTime": 1618550760173,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.author@text##作者：",
+            "coverUrl": "class.main@tag.img@src",
+            "name": "class.main@tag.h2@text"
+        },
+        "ruleContent": {
+            "content": "id.TextContent@html"
+        },
+        "ruleExplore": {
+            "author": "class.f_l@tag.span@text##作者：",
+            "bookList": "class.main@tag.li",
+            "bookUrl": "class.thumbnail.1@href",
+            "coverUrl": "class.thumbnail.0@tag.img.0@src",
+            "name": "tag.a.1@tag.h2@text"
+        },
+        "ruleSearch": {
+            "author": "class.f_l@tag.span@text##作者：",
+            "bookList": "class.main2@tag.li",
+            "bookUrl": "class.thumbnail.1@href",
+            "coverUrl": "class.thumbnail.0@tag.img.0@src",
+            "name": "class.thumbnail.1@tag.h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.booklist@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.100ben.net/plus/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

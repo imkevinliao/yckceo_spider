@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔搜阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.bisoge.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1613956672284,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text",
+            "coverUrl": "#fmimg img@src",
+            "intro": ".intro@text",
+            "name": "h1@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html||#content@html##.*(BISOGE.COM|bisoge.com).*",
+            "nextContentUrl": "text.下一页@href||text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": ".s5@text",
+            "bookList": ".l ul li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##.*\\D((\\d+)\\d{3})\\/$##http://www.bisoge.com/files/article/image/$2/$1/$1s.jpg",
+            "lastChapter": ".s3@text",
+            "name": ".s2 a@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "p.line",
+            "bookUrl": "tag.a.1@href##.*\\/((\\d+)\\d{3})\\/$##http://www.bisoge.com/$2_$1/",
+            "coverUrl": "tag.a.1@href##.*\\D((\\d+)\\d{3})\\/$##http://m.bisoge.com/files/article/image/$2/$1/$1s.jpg",
+            "kind": "tag.a.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.bisoge.com/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"type=articlename&s={{key}}\",\n\"headers\": {\"User-Agent\": \"\"}\n}",
+        "weight": 0
+    }
+]

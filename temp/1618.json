@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "测试",
+        "bookSourceName": "笔趣阁bqg99.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.bqg99.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1668281982592,
+        "loginUrl": "",
+        "respondTime": 1066,
+        "ruleBookInfo": {
+            "coverUrl": "class.cover@tag.img@src",
+            "intro": "class.intro@text##简介："
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes##请记.*com|由于.*迷路|网页.*章节[\\。.]|新为.*阅读[\\。.]|请收藏.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "class.bookimg@tag.img@src",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "tag.a.2@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s?q={{key}}",
+        "weight": 0
+    }
+]

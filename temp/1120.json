@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "出版,VPN",
+        "bookSourceName": "中国古典文学(仅发现)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zggdwx.com/",
+        "customOrder": -118214,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"经部\",\"url\":\"/?category=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"十三经\",\"url\":\"/?category=7&page={{page}}\"},{\"title\":\"十三经注疏\",\"url\":\"/?category=8&page={{page}}\"},{\"title\":\"其他\",\"url\":\"/?category=9&page={{page}}\"},{\"title\":\"史部\",\"url\":\"/?category=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"正史\",\"url\":\"/?category=10&page={{page}}\"},{\"title\":\"地理\",\"url\":\"/?category=11&page={{page}}\"},{\"title\":\"别杂史等\",\"url\":\"/?category=12&page={{page}}\"},{\"title\":\"目录\",\"url\":\"/?category=13&page={{page}}\"},{\"title\":\"子部\",\"url\":\"/?category=3&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"诸子\",\"url\":\"/?category=14&page={{page}}\"},{\"title\":\"道家\",\"url\":\"/?category=15&page={{page}}\"},{\"title\":\"术数\",\"url\":\"/?category=16&page={{page}}\"},{\"title\":\"兵家\",\"url\":\"/?category=17&page={{page}}\"},{\"title\":\"医学\",\"url\":\"/?category=18&page={{page}}\"},{\"title\":\"科技\",\"url\":\"/?category=19&page={{page}}\"},{\"title\":\"书法绘画\",\"url\":\"/?category=20&page={{page}}\"},{\"title\":\"艺术\",\"url\":\"/?category=21&page={{page}}\"},{\"title\":\"类书\",\"url\":\"/?category=22&page={{page}}\"},{\"title\":\"儒家\",\"url\":\"/?category=23&page={{page}}\"},{\"title\":\"杂家\",\"url\":\"/?category=24&page={{page}}\"},{\"title\":\"蒙学\",\"url\":\"/?category=25&page={{page}}\"},{\"title\":\"释家\",\"url\":\"/?category=26&page={{page}}\"},{\"title\":\"隋以前笔记\",\"url\":\"/?category=27&page={{page}}\"},{\"title\":\"隋唐笔记\",\"url\":\"/?category=28&page={{page}}\"},{\"title\":\"宋元笔记\",\"url\":\"/?category=29&page={{page}}\"},{\"title\":\"明代笔记\",\"url\":\"/?category=30&page={{page}}\"},{\"title\":\"清代笔记\",\"url\":\"/?category=31&page={{page}}\"},{\"title\":\"集部\",\"url\":\"/?category=4&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"总集\",\"url\":\"/?category=32&page={{page}}\"},{\"title\":\"别集\",\"url\":\"/?category=33&page={{page}}\"},{\"title\":\"戏曲\",\"url\":\"/?category=34&page={{page}}\"},{\"title\":\"文论\",\"url\":\"/?category=35&page={{page}}\"},{\"title\":\"小说\",\"url\":\"/?category=5&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"明清通俗小说\",\"url\":\"/?category=36&page={{page}}\"},{\"title\":\"文言小说\",\"url\":\"/?category=37&page={{page}}\"},{\"title\":\"诗词\",\"url\":\"/?category=6&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"诗\",\"url\":\"/?category=38&page={{page}}\"},{\"title\":\"词\",\"url\":\"/?category=39&page={{page}}\"},{\"title\":\"曲\",\"url\":\"/?category=40&page={{page}}\"}]",
+        "lastUpdateTime": 1627029369735,
+        "ruleBookInfo": {
+            "author": "class.author@text",
+            "coverUrl": "<js>\n//从豆瓣获取封面\nvar pic=\"\";\nlet j=JSON.parse(java.ajax(\"https://book.douban.com/j/subject_suggest?q=\"+book.name));\nj.map(o=>{\nif(o.title==book.name){pic=o.pic}\n});\nif(pic.length<3&&j.length>0){\npic=j[0].pic;\n}\nresult=pic\n//java.log(result)\n</js>",
+            "intro": "id.introduction@html",
+            "name": "tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.page-book-content@html||id.page-shici-content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "class.mc-item[!0,-1]",
+            "bookUrl": "class.title@href",
+            "coverUrl": "",
+            "intro": "class.description@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\nresult=[]\nja=java.getElements(\"class.mdui-list-item\").toArray().map(o=>{\nlet a={\"title\":o.text(),\"link\":o.attr(\"href\")}\nresult.push(a)\n})\n//适配单页诗\nif(result.length<1){\nresult.push({\"title\":book.name,\"link\":baseUrl})\n}\n\nresult\n</js>",
+            "chapterName": "title",
+            "chapterUrl": "link"
+        },
+        "searchUrl": "https://www.zggdwx.com/?page={{page}}",
+        "weight": 0
+    }
+]

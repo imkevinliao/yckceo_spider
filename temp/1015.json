@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "新笔趣阁手机版",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https:://m.xquge.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "人气总榜::https://m.xquge.com/book/top/all/{{page}}.html\n阅读人数::https://m.xquge.com/book/top/readnum/{{page}}.html\n最新更新::https://m.xquge.com/book/top/update/{{page}}.html\n日点击榜::https://m.xquge.com/book/top/day/{{page}}.html\n周点击榜::https://m.xquge.com/book/top/week/{{page}}.html\n月点击榜::https://m.xquge.com/book/top/month/{{page}}.html\n收藏榜::https://m.xquge.com/book/top/bookcard/{{page}}.html\n最新入库::https://m.xquge.com/book/top/newinsert/{{page}}.html\n完结榜::https://m.xquge.com/book/top/overs/{{page}}.html\n男生榜::https://m.xquge.com/book/top/cate1/{{page}}.html\n女生榜::https://m.xquge.com/book/top/cate2/{{page}}.html",
+        "lastUpdateTime": 1630654557772,
+        "ruleBookInfo": {
+            "author": ".info li.1@text##.*：",
+            "coverUrl": "class.bg@img@src",
+            "intro": ".body@html##作品简介.",
+            "kind": ".block_txt2 p.3:4:5@text##.*：|小说|\\s.*",
+            "lastChapter": ".newChapter a.0@text",
+            "name": ".title@text",
+            "tocUrl": ".pull-right a@href"
+        },
+        "ruleContent": {
+            "content": "class.read-section jsChapterWrapper@p@textNodes",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": ".col.0@text",
+            "bookList": ".item",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".text@text",
+            "kind": "label@text",
+            "name": ".title span@text"
+        },
+        "ruleToc": {
+            "chapterList": ".catalog_ls@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.xquge.com/Book/search.html?key={{key}}&p_reload=1",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "古古小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.gugu5.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1648188980413,
+        "respondTime": 6125,
+        "ruleBookInfo": {
+            "author": "class.p_author@text",
+            "coverUrl": "img@src",
+            "intro": "id.bookintro@text",
+            "kind": "li.11@text",
+            "lastChapter": "ul@li.28@text",
+            "name": "h1.1@text",
+            "tocUrl": "",
+            "wordCount": "li.12@text"
+        },
+        "ruleContent": {
+            "content": "id.TextContent@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.book_other.0@text##子类.*",
+            "bookList": "id.nr",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.book_des@text",
+            "kind": "span.0@text##",
+            "lastChapter": "class.book_other.1@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chaw_c@li",
+            "chapterName": "li@a@text",
+            "chapterUrl": "li@a@href"
+        },
+        "searchUrl": "http://www.gugu5.cc/search/,{\n'charset': 'UTF-8',\n'method': 'POST',\n'body': 'searchkey={{key}}'}",
+        "weight": 0
+    }
+]

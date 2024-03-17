@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "正版",
+        "bookSourceName": "笔尚小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bsxiaoshuo.com",
+        "customOrder": -134679,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "现代言情::https://www.bsxiaoshuo.com/xianyan_{{page}}\n古代言情::/guyan_{{page}}\n幻想言情::/huanyan_{{page}}\n悬疑言情::/lingyan_{{page}}\n都市青春::/doushi_{{page}}\n男频悬疑::/nangui_{{page}}\n历史军事::/lishi_{{page}}\n玄幻仙侠::/xuanhuan_{{page}}\n科幻奇幻::/kehuan_{{page}}\n网游竞技::/wangyou_{{page}}\n二次元::/erciyuan_{{page}}",
+        "lastUpdateTime": 1623594708286,
+        "loginUrl": "https://www.bsxiaoshuo.com/user/",
+        "ruleBookInfo": {
+            "author": "[name=\"author\"]@content",
+            "coverUrl": ".pic@img@src",
+            "intro": ".summary@text",
+            "lastChapter": "h4@a@text&&alt##vip|>>##🔒",
+            "name": "h2@text",
+            "tocUrl": ".index@href",
+            "wordCount": ".words@text"
+        },
+        "ruleContent": {
+            "content": "class.page-content@html##name"
+        },
+        "ruleExplore": {
+            "author": "class.author.0@text",
+            "bookList": "id.resultDiv@tr",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href##/(\\d+)##https://imgc.bsxiaoshuo.com/$1.jpg###",
+            "kind": ".time@text",
+            "lastChapter": ".chapter@text",
+            "name": ".title@text",
+            "wordCount": "class.words@text"
+        },
+        "ruleSearch": {
+            "author": "tag.p.1@textNodes",
+            "bookList": "#j@li",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href##/(\\d+)##https://imgc.bsxiaoshuo.com/$1.jpg",
+            "intro": "tag.p.0@text",
+            "kind": "s@text",
+            "name": "b@text"
+        },
+        "ruleToc": {
+            "chapterList": ".bd@ul@a",
+            "chapterName": "text&&class##name|isvip",
+            "chapterUrl": "href",
+            "isVip": "##name isvip##🔒###",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.bsxiaoshuo.com/s.php?sid=3&k={{key}}",
+        "weight": 0
+    }
+]

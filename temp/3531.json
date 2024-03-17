@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "着笔中文网8",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.zbzw8.com",
+        "bookUrlPattern": "https://m.zbzw8.com/book.*",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/\n奇幻::/qihuan/\n武侠::/wuxia/\n仙侠::/xianxia/\n都市::/dushi/\n历史::/lishi/\n网游::/wangyou/\n全本::/quanben/",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1686467060918,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者@text",
+            "coverUrl": "img@src",
+            "init": ".books",
+            "intro": ".book_about@dd@text##最新章节.*",
+            "kind": ".book_box@span.1:2:3@text\n##分类：|状态：|更新：",
+            "lastChapter": "text.最新@a@text",
+            "name": ".name@text"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html##第\\(\\d+/\\d+\\)页",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##{{chapter.title}}|着笔中文.*com"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s2@text",
+            "bookList": ".lis@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "kind": ".s1@text##\\[|\\]",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last.1@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

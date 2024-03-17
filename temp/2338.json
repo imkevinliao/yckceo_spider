@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceGroup": "爱猫小说书源合集",
+        "bookSourceName": "一百本网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.100ben.net",
+        "bookUrlPattern": "",
+        "customOrder": 291,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "一百本书::https://www.100ben.net/\n世界名著::https://www.100ben.net/shijiemingzhu/list_{{page}}.html\n现代文学::https://www.100ben.net/xiandaiwenxue/list_{{page}}.html\n外国小说::https://www.100ben.net/waiguoxiaoshuo/list_{{page}}.html\n励志书籍::https://www.100ben.net/lizhishuji/list_{{page}}.html\n古典文学::https://www.100ben.net/gudianwenxue/list_{{page}}.html\n武侠小说::https://www.100ben.net/wuxiaxiaoshuo/list_{{page}}.html\n言情小说::https://www.100ben.net/yanqingxiaoshuo/list_{{page}}.html\n推理小说::https://www.100ben.net/tuilixiaoshuo/list_{{page}}.html\n科幻小说::https://www.100ben.net/kehuanxiaoshuo/list_{{page}}.html\n人物传记::https://www.100ben.net/renwuzhuanji/list_{{page}}.html\n盗墓悬疑::https://www.100ben.net/daomuxuanyi/list_{{page}}.html\n玄幻穿越::https://www.100ben.net/xuanhuanchuanyue/list_{{page}}.html\n科普书籍::https://www.100ben.net/kepushuji/list_{{page}}.html\n全部小说::https://www.100ben.net/all/list_{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "class.title@tag.a.1@text",
+            "lastChapter": "class.body@tag.a.4@text",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "imageStyle": "0",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.a@title",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/plus/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

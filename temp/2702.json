@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉精品",
+        "bookSourceName": "🎉 笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "❀.biquge",
+        "bookUrlPattern": "",
+        "customOrder": -16880,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 0,
+        "loginUrl": "随源 v20.4.8",
+        "ruleBookInfo": {
+            "author": "author<js>var 斯=['trim','replace'];(function(文,参){var 夏=function(希){while(--希){文['push'](文['shift']());}};夏(++参);}(斯,0x12e));var 文=function(艾,藤){艾=艾-0x0;var 参=斯[艾];return 参;};String(result)[文('0x1')](/\\S+[:：]/,'')[文('0x0')]();</js>",
+            "coverUrl": "cover<js>var 天=['replace'];(function(松,颜){var 歌=function(年){while(--年){松['push'](松['shift']());}};歌(++颜);}(天,0x1ad));var 松=function(川,夏){川=川-0x0;var 颜=天[川];return 颜;};String(result)[松('0x0')](/.*nocover.*/,'');</js>",
+            "init": "<js>\nvar J = org.jsoup.Jsoup.parse(result);\nvar og = (selector) =>\n  J.select('[property=\"og:' + selector + '\"]').attr('content');\n\nvar book = {\n  name: og('novel:book_name'),\n  author: og('novel:author'),\n  kind: og('novel:category') + ',' + og('novel:status'),\n  latest: og('novel:latest_chapter_name') + ' ' + String(og('novel:update_time')).replace(/(\\d+-\\d+-\\d+).*/, '$1').replace(new RegExp('(·s*)?([^\\\\d-])?(\\\\d{2})?'+String(new Date().getFullYear()).slice(-2)+'-'),'$1$2'),\n  cover: og('image'),\n  intro: J.select('#intro p').eq(0).html(),\n};\n\nbook;\n</js>",
+            "intro": "intro<js>var 安=['replace','$1\\x0a'];(function(蝉,参){var 南=function(景){while(--景){蝉['push'](蝉['shift']());}};南(++参);}(安,0x1aa));var 蝉=function(竹,蓝){竹=竹-0x0;var 参=安[竹];return 参;};String(result)[蝉('0x0')](/<\\/?p>/g,'\\x0a')['replace'](/(？|[…]+)/g,蝉('0x1'))[蝉('0x0')](/[\\t\\n]+/g,'\\x0a')[蝉('0x0')](/^/,'\\x0a');</js>",
+            "kind": "kind<js>var 泉=['$1.$2万','replace','trim','$1000','join','indexOf','$1.$2亿','filter','split'];(function(文,陆){var 天=function(木){while(--木){文['push'](文['shift']());}};天(++陆);}(泉,0xa5));var 文=function(陆,天){陆=陆-0x0;var 翼=泉[陆];return 翼;};var res=(String(result)+'')['replace'](/[\\[\\]]/g,'')[文('0x7')](/[\\n\\s\\t]+/g,'\\x20')[文('0x7')](/[^,]*[:：]/g,'')[文('0x7')](/(\\d)[k千]/gi,文('0x0'))[文('0x7')](/(\\.\\d)\\d+/g,'$1')[文('0x7')](/(\\d+)(\\d)\\d{7}/g,文('0x3'))[文('0x7')](/(\\d+)(\\d)\\d{3}/g,文('0x6'))[文('0x7')](/\\.0([万亿])/g,'$1')[文('0x7')](/已?(连载|完结|完本|完成)中?/,'$1')[文('0x7')](/完[本成]/,'完结')[文('0x7')](/^,|,$/g,'')[文('0x7')](/([^轻])小说/g,'$1')[文('0x7')](/,{2,}/g,',')[文('0x8')](),arr=res[文('0x5')](/\\s*,\\s*/);arr[文('0x4')](function(陆,天){return arr[文('0x2')](陆)==天;})[文('0x1')](',');</js>",
+            "lastChapter": "latest<js>var 松=['(·s*)?([^\\x5cd-])(\\x5cd{2})?','-$1','\\x20·\\x20$1','replace','getFullYear','$1$2','trim'];(function(博,雨){var 安=function(芙){while(--芙){博['push'](博['shift']());}};安(++雨);}(松,0x1c3));var 博=function(仙,木){仙=仙-0x0;var 雨=松[仙];return 雨;};String(result)[博('0x0')](/\\s*[更最]新\\S{0,2}[：:\\s]\\s*|[\\(（].*?[求更谢乐发推].*?[）\\)]/g,'')[博('0x0')](/第\\S+[卷部]\\s*[^第]*(第)/g,'$1')[博('0x0')](/[\\/-](\\d+)/g,博('0x5'))[博('0x0')](/[\\s·]*[\\d-]*?\\D(\\d+-\\d+).*/,博('0x6'))[博('0x0')](new RegExp(博('0x4')+(new Date()[博('0x1')]()+'')['slice'](-0x2)+'-'),博('0x2'))[博('0x3')]()[博('0x0')](/\\s{2,}/g,'\\x20');</js>",
+            "name": "name<js>var 蓉=['replace','trim'];(function(藤,望){var 雨=function(华){while(--华){藤['push'](藤['shift']());}};雨(++望);}(蓉,0xea));var 藤=function(草,露){草=草-0x0;var 望=蓉[草];return 望;};String(result)[藤('0x0')](/(免费)?阅读全文|TXT下载.*|^\\s*《|》\\s*$/gi,'')[藤('0x1')]();</js>",
+            "tocUrl": "",
+            "wordCount": "wordCount<js>var 安=['$1000','replace','trim','$1.$2亿'];(function(叶,灵){var 仙=function(蓉){while(--蓉){叶['push'](叶['shift']());}};仙(++灵);}(安,0x164));var 叶=function(心,雅){心=心-0x0;var 灵=安[心];return 灵;};String(result)[叶('0x1')](/[^,]*[:：]/,'')[叶('0x1')](/(\\d)k/i,叶('0x0'))[叶('0x1')](/(\\d+)(\\d)\\d{7}/g,叶('0x3'))['replace'](/(\\d+)(\\d)\\d{3}/g,'$1.$2万')['replace'](/\\.0([万亿])/g,'$1')[叶('0x2')]()[叶('0x1')](/([\\d万亿])字?$/,'$1字');</js>"
+        },
+        "ruleContent": {
+            "content": "#content p@text||#content@textNodes<js>var 青=['split','trim','replace'];(function(遥,灵){var 盐=function(石){while(--石){遥['push'](遥['shift']());}};盐(++灵);}(青,0x9b));var 遥=function(灵,盐){灵=灵-0x0;var 夏=青[灵];return 夏;};String(result)[遥('0x0')](/本章未完.*/,'')[遥('0x1')](/[\\n\\s]*\\n+[\\n\\s]*|\\s*<br>\\s*/)['map'](function(灵,盐){return 灵=灵[遥('0x2')]()['replace'](/^ps\\d*[:：]/gi,''),0x0===盐&&(灵=灵[遥('0x0')](/^第\\S{1,7}[章|卷]\\s*[^\\{\\(（［【]{1,32}$/,'')),灵;})['join']('\\x0a');</js>",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "author<js>var 斯=['trim','replace'];(function(文,参){var 夏=function(希){while(--希){文['push'](文['shift']());}};夏(++参);}(斯,0x12e));var 文=function(艾,藤){艾=艾-0x0;var 参=斯[艾];return 参;};String(result)[文('0x1')](/\\S+[:：]/,'')[文('0x0')]();</js>",
+            "bookList": ".grid tr@tag.a.0<js>\nresult\n  .toArray()\n  .slice(0, 3)\n  .map(function (a) {\n    var url = String(a.attr('href')).replace(\n      /^\\/([^\\/])/,\n      baseUrl.match(/(.+\\/\\/.+?\\/)/)[1] + '$1'\n    );\n    var J = org.jsoup.Jsoup.parse(String(java.ajax(url)));\n    var og = (selector) =>\n      J.select('[property=\"og:' + selector + '\"]').attr('content');\n\n    return {\n      name: og('novel:book_name'),\n      author: og('novel:author'),\n      kind: og('novel:category') + ',' + og('novel:status'),\n      latest: og('novel:latest_chapter_name') + ' ' + String(og('novel:update_time')).replace(/(\\d+-\\d+-\\d+).*/, '$1').replace(new RegExp('(·s*)?([^\\\\d-])?(\\\\d{2})?'+String(new Date().getFullYear()).slice(-2)+'-'),'$1$2'),\n      cover: og('image'),\n      intro: J.select('#intro p').eq(0).text(),\n      url: url,\n    };\n  });\n</js>",
+            "bookUrl": "url",
+            "coverUrl": "cover<js>var 天=['replace'];(function(松,颜){var 歌=function(年){while(--年){松['push'](松['shift']());}};歌(++颜);}(天,0x1ad));var 松=function(川,夏){川=川-0x0;var 颜=天[川];return 颜;};String(result)[松('0x0')](/.*nocover.*/,'');</js>",
+            "intro": "intro<js>var 辰=['replace'];(function(巧,哲){var 南=function(仁){while(--仁){巧['push'](巧['shift']());}};南(++哲);}(辰,0x194));var 巧=function(成,维){成=成-0x0;var 哲=辰[成];return 哲;};String(result)[巧('0x0')](/[\\s\\t\\n]+|<\\/?p>/g,'');</js>",
+            "kind": "kind<js>var 泉=['$1.$2万','replace','trim','$1000','join','indexOf','$1.$2亿','filter','split'];(function(文,陆){var 天=function(木){while(--木){文['push'](文['shift']());}};天(++陆);}(泉,0xa5));var 文=function(陆,天){陆=陆-0x0;var 翼=泉[陆];return 翼;};var res=(String(result)+'')['replace'](/[\\[\\]]/g,'')[文('0x7')](/[\\n\\s\\t]+/g,'\\x20')[文('0x7')](/[^,]*[:：]/g,'')[文('0x7')](/(\\d)[k千]/gi,文('0x0'))[文('0x7')](/(\\.\\d)\\d+/g,'$1')[文('0x7')](/(\\d+)(\\d)\\d{7}/g,文('0x3'))[文('0x7')](/(\\d+)(\\d)\\d{3}/g,文('0x6'))[文('0x7')](/\\.0([万亿])/g,'$1')[文('0x7')](/已?(连载|完结|完本|完成)中?/,'$1')[文('0x7')](/完[本成]/,'完结')[文('0x7')](/^,|,$/g,'')[文('0x7')](/([^轻])小说/g,'$1')[文('0x7')](/,{2,}/g,',')[文('0x8')](),arr=res[文('0x5')](/\\s*,\\s*/);arr[文('0x4')](function(陆,天){return arr[文('0x2')](陆)==天;})[文('0x1')](',');</js>",
+            "lastChapter": "latest<js>var 松=['(·s*)?([^\\x5cd-])(\\x5cd{2})?','-$1','\\x20·\\x20$1','replace','getFullYear','$1$2','trim'];(function(博,雨){var 安=function(芙){while(--芙){博['push'](博['shift']());}};安(++雨);}(松,0x1c3));var 博=function(仙,木){仙=仙-0x0;var 雨=松[仙];return 雨;};String(result)[博('0x0')](/\\s*[更最]新\\S{0,2}[：:\\s]\\s*|[\\(（].*?[求更谢乐发推].*?[）\\)]/g,'')[博('0x0')](/第\\S+[卷部]\\s*[^第]*(第)/g,'$1')[博('0x0')](/[\\/-](\\d+)/g,博('0x5'))[博('0x0')](/[\\s·]*[\\d-]*?\\D(\\d+-\\d+).*/,博('0x6'))[博('0x0')](new RegExp(博('0x4')+(new Date()[博('0x1')]()+'')['slice'](-0x2)+'-'),博('0x2'))[博('0x3')]()[博('0x0')](/\\s{2,}/g,'\\x20');</js>",
+            "name": "name<js>var 蓉=['replace','trim'];(function(藤,望){var 雨=function(华){while(--华){藤['push'](藤['shift']());}};雨(++望);}(蓉,0xea));var 藤=function(草,露){草=草-0x0;var 望=蓉[草];return 望;};String(result)[藤('0x0')](/(免费)?阅读全文|TXT下载.*|^\\s*《|》\\s*$/gi,'')[藤('0x1')]();</js>",
+            "wordCount": "wordCount<js>var 安=['$1000','replace','trim','$1.$2亿'];(function(叶,灵){var 仙=function(蓉){while(--蓉){叶['push'](叶['shift']());}};仙(++灵);}(安,0x164));var 叶=function(心,雅){心=心-0x0;var 灵=安[心];return 灵;};String(result)[叶('0x1')](/[^,]*[:：]/,'')[叶('0x1')](/(\\d)k/i,叶('0x0'))[叶('0x1')](/(\\d+)(\\d)\\d{7}/g,叶('0x3'))['replace'](/(\\d+)(\\d)\\d{3}/g,'$1.$2万')['replace'](/\\.0([万亿])/g,'$1')[叶('0x2')]()[叶('0x1')](/([\\d万亿])字?$/,'$1字');</js>"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd + dt ~ dd a||#list dd a",
+            "chapterName": "text<js>var 蓉=['trim'];(function(歌,雅){var 成=function(采){while(--采){歌['push'](歌['shift']());}};成(++雅);}(蓉,0x14c));var 歌=function(藤,葵){藤=藤-0x0;var 雅=蓉[藤];return 雅;};String(result)['replace'](/^\\s*[更最]新\\S{0,2}[：:\\s]\\s*|[\\(（].*?[求更谢乐发推].*?[）\\)]/g,'')['replace'](/第\\S+[卷部]\\s*[^第]*(第)/g,'$1')[歌('0x0')]();</js>",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.biquge.info/modules/article/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

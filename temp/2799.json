@@ -1,0 +1,68 @@
+[
+    {
+        "bookSourceComment": "haxc",
+        "bookSourceGroup": "🎊 飞卢",
+        "bookSourceName": "🍒 爱看书吧m",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.aikanshu8.com",
+        "bookUrlPattern": "",
+        "customOrder": -3620,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/list/1/{{page}}.html\n仙侠小说::/list/2/{{page}}.html\n都市小说::/list/3/{{page}}.html\n历史小说::/list/4/{{page}}.html\n科幻小说::/list/5/{{page}}.html\n网游小说::/list/6/{{page}}.html\n点击总榜::/top/allvisit/{{page}}.html\n推荐总榜::/top/allvote/{{page}}.html\n点击月榜::/top/monthvisit/{{page}}.html\n推荐月榜::/top/monthvote/{{page}}.html\n周排行榜::/top/weekvisit/{{page}}.html\n周推荐榜::/top/weekvote/{{page}}.html\n总收藏榜::/top/goodnum/{{page}}.html\n本站推荐::/top/toptime/{{page}}.html\n字数排行::/top/size/{{page}}.html\n最近更新::/top/lastupdate/{{page}}.html\n最新入库::/top/postdate/{{page}}.html\n完本小说::/wanben/{{page}}",
+        "header": "",
+        "lastUpdateTime": 1604045649192,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "",
+            "wordCount": "class.blue.0@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.content@tag.div!0:1:-1:-2@html",
+            "imageStyle": "full",
+            "nextContentUrl": "",
+            "replaceRegex": "##温馨提示.*畅读.*|\\s+记住收藏保存.*阅读.\\s+|加QQ.*谢谢配合|有问题，催更可以加客服QQ",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "tag.td.2@text",
+            "bookList": "tag.table@tag.tr!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/\\/(\\d+)\\./)[1];\nvar iid = parseInt(id/1000);\n'https://m.aikanshu8.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "intro": "",
+            "kind": "tag.td.4@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": "tag.td.3@text"
+        },
+        "ruleSearch": {
+            "author": "tag.li.2@text##作者：",
+            "bookList": "class.mySearch@tag.ul",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.a.1@href##.*/(\\d+)/(\\d+)/.*##/files/article/image/$1/$2/$2s.jpg",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": "tag.li.3@text##大小："
+        },
+        "ruleToc": {
+            "chapterList": "#list-chapterAll dd a",
+            "chapterName": "text##[\\(（【].*[求更订谢乐发推].*",
+            "chapterUrl": "href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

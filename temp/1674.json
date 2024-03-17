@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "测试",
+        "bookSourceName": "天籁小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.tianlaixsw.com/",
+        "bookUrlPattern": "",
+        "customOrder": -88962920,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "============全本小说============\n全部完结::/quanben/0/{{page}}.html\n玄幻奇幻::/quanben/1/{{page}}.html\n武侠仙侠::/quanben/2/{{page}}.html\n都市生活::/quanben/3/{{page}}.html\n历史军事::/quanben/4/{{page}}.html\n游戏竞技::/quanben/5/{{page}}.html\n科幻未来::/quanben/6/{{page}}.html\n恐怖悬疑::/quanben/7/{{page}}.html\n其他类型::/quanben/8/{{page}}.html\n玄幻奇幻::/quanben/9/{{page}}.html\n古代言情::/quanben/10/{{page}}.html\n幻想奇缘::/quanben/11/{{page}}.html\n游戏情缘::/quanben/12/{{page}}.html\n浪漫青春::/quanben/13/{{page}}.html\n言情美文::/quanben/14/{{page}}.html\n科幻灵异::/quanben/15/{{page}}.html\n其他类型::/quanben/16/{{page}}.html\n============连载小说============\n玄幻奇幻::/xuanhuan_{{page}}/\n武侠仙侠::/wuxia_{{page}}/\n都市生活::/dushi_{{page}}/\n历史军事::/lishi_{{page}}/\n游戏竞技::/youxi_{{page}}/\n科幻未来::/kehuan_{{page}}/\n恐怖悬疑::/xuanyi_{{page}}/\n其他类型::/qita_{{page}}/\n玄幻奇幻::/xuanhuan_{{page}}/\n古代言情::/guyan_{{page}}/\n幻想奇缘::/huanqing_{{page}}/\n游戏情缘::/zongcai_{{page}}/\n浪漫青春::/qingchun_{{page}}/\n言情美文::/wangluo_{{page}}/\n科幻灵异::/mmkehuan_{{page}}/\n其他类型::/mmqita_{{page}}/",
+        "header": "{\n\t\"referer\":\"https://m.tianlaixsw.com/\",\n\t\"cookie\":\"waf_sc=1;sex=boy\"\n\t}",
+        "lastUpdateTime": 1666355118537,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@p@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章.*下一页.*|喜欢.*全网最快."
+        },
+        "ruleExplore": {
+            "author": "class.data.0@a@href##/author/|.html",
+            "bookList": "class.list@li",
+            "bookUrl": "https://www.tianlaixsw.com{{@@a.0@href}}index.html",
+            "coverUrl": "a.0@img@src",
+            "intro": "class.intro@text",
+            "kind": "天籁小说:\n{{@@span@text}}##完结",
+            "lastChapter": "class.data.1@a@text",
+            "name": "a.0@title"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.list@li",
+            "bookUrl": "https://www.tianlaixsw.com{{@@a.0@href}}index.html",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "天籁小说:\n{{@@span@text}}",
+            "lastChapter": "a.-1@text",
+            "name": "img@alt",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

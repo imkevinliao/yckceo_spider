@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "//搜索无效，仅发现\n//可复制链接，在首页书架添加网址",
+        "bookSourceGroup": "自制,发现,源仓库,网页源",
+        "bookSourceName": "千千小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qqxs99.com",
+        "bookUrlPattern": "https?://www.qqxs99.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1/{{page}}/\n武侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n历史军事::/sort/4/{{page}}/\n科幻灵异::/sort/5/{{page}}/\n游戏竞技::/sort/6/{{page}}/\n女生耽美::/sort/7/{{page}}/\n其他类型::/sort/8/{{page}}/\n小说书库::/sort/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692604724319,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".d_title a@text",
+            "coverUrl": "#bookimg img@src",
+            "intro": "#bookintro@text",
+            "kind": "#count span.0:-2:-1@text",
+            "lastChapter": ".chaw li.0@text",
+            "name": "h1.1@text",
+            "wordCount": "{{@@#count span.1@text}}字"
+        },
+        "ruleContent": {
+            "content": "#TextContent@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": "#sitebox dl",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": ".book_des@text",
+            "kind": "span.2:3:1@text",
+            "lastChapter": "a.-1@text",
+            "name": "h3 a@text",
+            "wordCount": "span.-1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "#chapterList li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "weight": 0
+    }
+]

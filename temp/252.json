@@ -1,0 +1,70 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "常用",
+        "bookSourceName": "红甘泉",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.hgq26.com",
+        "bookUrlPattern": "",
+        "customOrder": 21,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n}",
+        "lastUpdateTime": 1646663043321,
+        "loginUrl": "",
+        "respondTime": 2952,
+        "ruleBookInfo": {
+            "author": "id.author@text",
+            "canReName": "11",
+            "coverUrl": "id.bookimg@tag.img@src",
+            "init": "",
+            "intro": "id.bookintro@text",
+            "kind": "class.pd_r.0@text",
+            "lastChapter": "id.newlist@tag.li.0@tag.a@text",
+            "name": "class.bookright@tag.h1@text",
+            "tocUrl": "id.reader@tag.a@href",
+            "wordCount": "class.pd_r.4@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html##你是天才.*",
+            "imageStyle": "FULL",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.text-layout@class.ellipsis.0@text\n@js:/作者/.test(result)?result.replace(/作者：(.*)/,'$1'):String(java.getString('@class.clamp3@text')).replace(/.*是(.*?)书写.*/,'$1')",
+            "bookList": "class.vrResult!0",
+            "bookUrl": "h3@tag.a.0@href\n<js>a=result.match(/http.*/)[0];\ndecodeURIComponent(a).replace(/\\/&vrid.*/,'');</js>\n##-(\\d+)##http://www.hgq26.com/book/$1.html###",
+            "coverUrl": "class.img-flex@img@src##url=(http.*?)&##$1###\n@js:decodeURIComponent(result)",
+            "intro": "class.clamp3@text",
+            "kind": "class.text-layout@class.ellipsis.-1@text##状态：(.*)##$1###",
+            "lastChapter": "class.chapter-title@tag.p@text",
+            "name": "h3@text##(.*?)最新章节.*##$1###",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlist@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://wap.sogou.com/web/sl?keyword={{key}} site:hgq26.com",
+        "weight": 0
+    }
+]

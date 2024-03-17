@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "🎉 精选",
+        "bookSourceName": "🎉 精品小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://jpxs123.cc",
+        "customOrder": -2086012577,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"最新小说\",\"url\":\"/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"精品小说\",\"url\":\"/book/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市小说\",\"url\":\"/dsxs/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"玄幻修真\",\"url\":\"/xuanhuan/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/lishi/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻竞技\",\"url\":\"/khjj/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"穿越架空\",\"url\":\"/cyjk/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"鬼话悬疑\",\"url\":\"/guihua/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"同人小说\",\"url\":\"/tongren/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1682864702470,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".date a@text",
+            "coverUrl": ".pic img@src",
+            "intro": ".infos p@html",
+            "kind": ".menNav a.1@text",
+            "name": ".infos h1@text##\\(.*",
+            "wordCount": "##日期.([^<]+)##$1###"
+        },
+        "ruleContent": {
+            "content": ".read_chapterDetail@html"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "##作者.([^<]+)##$1###",
+            "bookList": ".bk",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": "p@text##简介.",
+            "kind": ".date@text",
+            "lastChapter": "",
+            "name": "h3@text##\\(.*",
+            "wordCount": ".size@text"
+        },
+        "ruleToc": {
+            "chapterList": ".clearfix li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/e/search/indexsearch.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"post\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+        "weight": 0
+    }
+]

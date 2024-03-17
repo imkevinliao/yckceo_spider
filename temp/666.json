@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "ฅ՞•ﻌ•՞ฅ",
+        "bookSourceGroup": "🌼 常用",
+        "bookSourceName": "🌼 旧时光",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lanrenyuhai.com",
+        "bookUrlPattern": "",
+        "customOrder": 82,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"ʚ                      排      行                     ɞ\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"总点击榜\",\"url\":\"/allvisit-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月点击榜\",\"url\":\"/monthvisit-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周点击榜\",\"url\":\"/weekvisit-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总推荐榜\",\"url\":\"/allvote-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月推荐榜\",\"url\":\"/monthvote-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"收藏排行\",\"url\":\"/goodnum-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最近更新\",\"url\":\"/lastupdate-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"新书上架\",\"url\":\"/postdate-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"字数排行\",\"url\":\"/size-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"ʚ                      分      类                     ɞ\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻小说\",\"url\":\"/xuanhuan-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠小说\",\"url\":\"/xianxia-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/dushi-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"军史小说\",\"url\":\"/junshi-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游小说\",\"url\":\"/wangyou-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/kehuan-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异小说\",\"url\":\"/lingyi-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情小说\",\"url\":\"/yanqing-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他小说\",\"url\":\"/qita-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "",
+        "lastUpdateTime": 1644141525911,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "cover",
+            "init": "<js> \nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).text()) ;\nvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\nvar book = {\n\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\tauthor: og('novel:author'),\n\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n   wordCount: o('.blue:eq(1)').replace('字',''),\n\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|章节目录|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, '') + ' • ' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-'),\n\tintro: '　　最近更新:' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-') + '\\n' + o('.bookintro').replace(/.*(观看小说|简介)[:：]|各位书友.*/g, '').replace(/\\s+/g, '\\n'),\n\tcover: og('image'),\n\turl: og('novel:read_url'),\n};\nbook;\n</js>",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "latest",
+            "name": "name",
+            "tocUrl": "url",
+            "wordCount": "wordCount"
+        },
+        "ruleContent": {
+            "content": "class.readcontent@textNodes\n##本站.*最新章节！|：，，|\\?本书作者.*?提醒您最新最全.*",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*-->>\\s*",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "author",
+            "bookList": ".bookbox\n<js>\nresult.toArray().slice(0, 10).map(el => {\n\tvar url = String(el.select('a:eq(0)').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n\tvar J = org.jsoup.Jsoup.parse(java.ajax(url));\n\tvar o = selector => String(J.select(selector).text());\n\tvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\treturn {\n\t\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\t\tauthor: og('novel:author'),\n\t\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n     wordCount: o('.blue:eq(1)').replace('字',''),\n\t\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|章节目录|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, '') + ' • ' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-'),\n\t\tintro: og('description').replace(/.*(观看小说|简介)[:：]|各位书友.*/g, '').replace(/\\s+/g, ''),\n\t\tcover: og('image'),\n\t\turl: url,\n\t};\n}); \n</js>",
+            "bookUrl": "url",
+            "coverUrl": "cover",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "latest",
+            "name": "name",
+            "wordCount": "wordCount"
+        },
+        "ruleToc": {
+            "chapterList": "#list-chapterAll dd a",
+            "chapterName": "text\n##第.*?章\\s?(第.*?章)(.*$)##$1 $2",
+            "chapterUrl": "href",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.lanrenyuhai.com/modules/article/search.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body':'sousokey={{key}}&action=login&submit='\n}",
+        "weight": 0
+    }
+]

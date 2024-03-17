@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "酷友",
+        "bookSourceName": "免费看",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.qshuk.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::http://m.qshuk.com/xs/1/{{page}}.html\n修真::http://m.qshuk.com/xs/2/{{page}}.html\n都市::http://m.qshuk.com/xs/3/{{page}}.html\n穿越::http://m.qshuk.com/xs/4/{{page}}.html\n网游::http://m.qshuk.com/xs/5/{{page}}.html\n科幻::http://m.qshuk.com/xs/6/{{page}}.html\n其他::http://m.qshuk.com/xs/7/{{page}}.html",
+        "lastUpdateTime": 1631014461602,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.0@text",
+            "coverUrl": "id.fmimg@img@src",
+            "intro": "id.intro@text",
+            "lastChapter": "id.list@dd.0@a@text",
+            "name": "h1@text",
+            "wordCount": "p.2@text##最后更新："
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "ruleExplore": {
+            "author": "span.0@text",
+            "bookList": "class.lists@li",
+            "bookUrl": "a.1@href##^##http://www.qshuk.com/",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "span.1:2@text",
+            "name": "a.1@text"
+        },
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": "class.searchlists@li",
+            "bookUrl": "a@href##^##http://www.qshuk.com/",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "span.1@text",
+            "lastChapter": "class.update.0@a@text",
+            "name": "a.1@text",
+            "wordCount": "class.update.1@text##更新："
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://m.qshuk.com/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

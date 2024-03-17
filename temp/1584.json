@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "书趣阁小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.suquge.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄幻::/sort/1/{{page}}1.html\n武侠::/sort/2/{{page}}1.html\n都市::/sort/3/{{page}}1.html\n历史::/sort/4/{{page}}1.html\n科幻::/sort/5/{{page}}1.html\n网游::/sort/6/{{page}}1.html\n悬疑::/sort/7/{{page}}1.html\n其他::/sort/8/{{page}}1.html",
+        "lastUpdateTime": 1669721864089,
+        "respondTime": 1930,
+        "ruleBookInfo": {
+            "author": "class.author@span@text",
+            "coverUrl": "class.BGsectionOne-top-left@img@src",
+            "intro": "class.BGsectionTwo-bottom@p@text",
+            "kind": "class.category@text",
+            "lastChapter": "class.newestChapter@span@text",
+            "name": "class.title@text",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "class.time@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "p@span@a@text",
+            "bookList": "class.CGsectionTwo-right-content-unit",
+            "bookUrl": "class.title@href",
+            "intro": "p.2@text",
+            "lastChapter": "p.3@text",
+            "name": "class.title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@span.2@text",
+            "bookList": "class.SHsectionThree-middle@p",
+            "bookUrl": "p@span.1@a@href",
+            "kind": "p@span.0@text##\\[|\\]",
+            "name": "p@span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top-chapter",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.suquge.com/search3876.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

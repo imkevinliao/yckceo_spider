@@ -1,0 +1,26 @@
+[
+    {
+        "bookSourceName": "COSPLAY,请帮忙完善一下发现页加载更多",
+        "lastUpdateTime": 1676536499641,
+        "ruleToc": {
+            "chapterList": "h1",
+            "chapterName": "text"
+        },
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://www.coszip.com/",
+        "bookSourceGroup": "R18",
+        "bookSourceComment": "爬梯子速度快",
+        "exploreUrl": "COS::https://www.coszip.com/cosplay\nPhotoBook::https://www.coszip.com/photobook\nErotica::https://www.coszip.com/erotica-nude",
+        "ruleExplore": {
+            "bookList": "class.format-standard",
+            "name": "h3@text",
+            "author": "class.fa fa-clock-o@text",
+            "coverUrl": "img@src",
+            "bookUrl": "a@href"
+        },
+        "ruleContent": {
+            "content": "p@tag.img@src\n@js:result.includes(\".webp\")?\nresult.split(\"\\n\").map(src=>`<img src=\"${src}\">`).join(\"\\n\"):result",
+            "nextContentUrl": "class.page_number@href"
+        }
+    }
+]

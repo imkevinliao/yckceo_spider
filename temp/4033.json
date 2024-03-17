@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "水幽临渊\n20230904修复正文，添加发现By_zhbyjm7783\n原https://wap.yingsx.com发现目录失效，正文失效\n更改为www网址",
+        "bookSourceGroup": "自写修复0909",
+        "bookSourceName": "影书小说[修复]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yingsx.com",
+        "customOrder": 951,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"首页\",\"url\":\"https://www.yingsx.com/\",\"style\":{\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻奇幻 \",\"url\":\"https://www.yingsx.com/xuanhuan/\",\"style\":{\"layout_flexBasisPercent\":0.46}},{\"title\":\"修真仙侠 \",\"url\":\"https://www.yingsx.com/xianxia/\",\"style\":{\"layout_flexBasisPercent\":0.46}},{\"title\":\"青春都市 \",\"url\":\"https://www.yingsx.com/qingchun/\",\"style\":{\"layout_flexBasisPercent\":0.46}},{\"title\":\"历史穿越 \",\"url\":\"https://www.yingsx.com/chuanyue/\",\"style\":{\"layout_flexBasisPercent\":0.46}},{\"title\":\"网游竞技 \",\"url\":\"https://www.yingsx.com/jingji/\",\"style\":{\"layout_flexBasisPercent\":0.46}},{\"title\":\"科幻悬疑 \",\"url\":\"https://www.yingsx.com/xuanyi/\",\"style\":{\"layout_flexBasisPercent\":0.46}}]",
+        "lastUpdateTime": 1694193421810,
+        "respondTime": 8493,
+        "ruleBookInfo": {
+            "author": "id.info@p.0@text",
+            "coverUrl": "id.fmimg@img@src",
+            "intro": "id.intro@p@text",
+            "kind": "class.con_top@a.1@text",
+            "lastChapter": "id.list@a.0@text&&id.info@p.-2@text##最后更新：|..:.*",
+            "name": "id.info@h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": ".s5@text",
+            "bookList": ".l@ul@li",
+            "bookUrl": "a@href",
+            "coverUrl": "",
+            "intro": "",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".novelslist2@li!0",
+            "bookUrl": "a@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "",
+            "intro": "",
+            "kind": ".s1@text",
+            "lastChapter": ".s3@text",
+            "name": "a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd!0:1:2:3:4:5:6:7:8",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.yingsx.com/cse/search?q={{key}}&s=",
+        "weight": 0
+    }
+]

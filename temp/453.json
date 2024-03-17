@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "天天中文网[ttzw]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ttzw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\": \"玄幻奇幻\",\"url\": \"https://www.ttzw.com/class/1/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"武侠仙侠\",\"url\": \"https://www.ttzw.com/class/2/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"都市言情\",\"url\": \"https://www.ttzw.com/class/3/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"历史军事\",\"url\": \"https://www.ttzw.com/class/4/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"科幻灵异\",\"url\": \"https://www.ttzw.com/class/5/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"网游竞技\",\"url\": \"https://www.ttzw.com/class/6/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\r\n{\"title\": \"女生频道\",\"url\": \"https://www.ttzw.com/class/7/{{page}}.html\",\"style\": {\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}\r\n\n]",
+        "lastUpdateTime": 1649398419701,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.imgbox@img@src",
+            "init": "",
+            "intro": "class.desc xs-hidden@html",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.content@textNodes",
+            "nextContentUrl": "class.section-opt m-bottom-opt@a.2@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.s4.1@text",
+            "bookList": "class.txt-list txt-list-row5&&li",
+            "bookUrl": "class.s2.1@a@href",
+            "kind": "class.s1.1@text##\\[(.*)]##$1##",
+            "lastChapter": "class.s3.1@text",
+            "name": "class.s2.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "class.listpage&&class.right@a@href"
+        },
+        "searchUrl": "https://www.ttzw.com/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

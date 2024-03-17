@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "有转码，出不来刷新一下",
+        "bookSourceGroup": "☁️可用,⛩🎐senhora",
+        "bookSourceName": "☁七茶书苑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.7chajiu.com",
+        "customOrder": -88944746,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "🍂书                                          库🍂::http://m.7chajiu.com/shuku/{{page}}/\n女频::http://m.7chajiu.com/nvpin/{{page}}/",
+        "lastUpdateTime": 1643173510156,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.baseinfo@class.pt-info.0@text##更新：",
+            "coverUrl": "class.baseinfo@img@src",
+            "init": "",
+            "intro": "class.intro@textNodes##更新：",
+            "kind": "",
+            "lastChapter": "id.newchaperlist@li.0@a@text&&class.baseinfo@class.pt-info.2@text##更新：",
+            "name": "class.baseinfo@img@alt",
+            "tocUrl": "{{baseUrl}}##info##index"
+        },
+        "ruleContent": {
+            "content": "id.BookText@textNodes",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "class.pt-author@a.0@text",
+            "bookList": "class.ptm-card-content.1@ul@li",
+            "bookUrl": "class.pt-cover@a@href",
+            "coverUrl": "class.pt-cover@a@img@src",
+            "intro": "class.pt-desc ptm-text-cut@text##简介：",
+            "kind": "class.pt-author@a.1@text",
+            "name": "class.pt-name@a@text",
+            "wordCount": "class.pt-novel@class.pt-num ptm-pull-right@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.-1@text",
+            "bookList": "class.details@ul@li",
+            "bookUrl": "tag.a.0@href##http.*com@js:'http://m.7chajiu.com'+result",
+            "coverUrl": "tag.a.1@href##(\\d+)/##$1###@js:var xid=Math.floor(result/1000);'http://www.7chajiu.com/images/'+xid+'/'+result+'/'+result+'s.jpg'",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://www.7chajiu.com/home/search,{\"charset\":\"UTF-8\",\"method\":\"post\",\"body\":\"action=search&q={{key}}\",\"webView\":true}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⁉️ 自制",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.biquge.win",
+        "customOrder": -166,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/sort/1_1/\n武侠仙侠::/sort/2_1/\n都市职场::/sort/3_1/\n历史军事::/sort/4_1/\n游戏体育::/sort/5_1/\n科幻灵异::/sort/6_1/\n女生频道::/sort/7_1/\n同人小说::/sort/8_1/\n其他小说::/sort/10_1/\n全本小说::/quanben/",
+        "lastUpdateTime": 1632970134173,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@p.2@text",
+            "kind": ".block_txt2@p.3:4@text##分类：|状态：",
+            "name": "h2@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*.*(第\\d+/\\d+页).*\\s*"
+        },
+        "ruleExplore": {
+            "author": ".author@text##作者：",
+            "bookList": ".bookbox",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@textNodes",
+            "lastChapter": ".update@a@text",
+            "name": "h4@text"
+        },
+        "ruleSearch": {
+            "author": "span.-6@text",
+            "bookList": ".result-item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": "p.0@text",
+            "kind": "span.-4@text",
+            "lastChapter": "a.-1@text&&span.-3:-2@text\n##\n更新时间：\n20##▪️",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search.php?q={{key}}",
+        "weight": 0
+    }
+]

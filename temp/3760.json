@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "大白小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.dabaipc.com",
+        "bookUrlPattern": "https://www.dabaipc.com/book/\\d+/",
+        "customOrder": 12,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n玄幻::/list/xuanhuan/{{page}}/\n武侠::/list/wuxia/{{page}}/\n言情::/list/yanqing/{{page}}/\n科幻::/list/kehuan/{{page}}/\n网游::/list/wangyou/{{page}}/\n都市::/list/dushi/{{page}}/\n历史::/list/lishi/{{page}}/\n古典::/list/gudian/{{page}}/\n全本::/quanben/list/\n热门::/rank/allvisit/\n记录::/history.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691284544522,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "{{@@text.字数：@text##字数：}}"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text||.btm@ownText",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "name": "a.1@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#content_1@a",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "@js:\n\nvar url=source.getKey();\n\nvar html = java.ajax(url);\n\nso = org.jsoup.Jsoup.parse(html).select('form[name=search]').attr('action');\n\nurl+so+\",\"+JSON.stringify({\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"post\"\n})",
+        "weight": 0
+    }
+]

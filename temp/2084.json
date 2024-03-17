@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎨漫画",
+        "bookSourceName": "古风漫画",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.gufengmh8.com",
+        "customOrder": -3551,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "排行榜::https://m.gufengmh8.com/rank/\n今日更新::https://m.gufengmh8.com/update/{{page}}/\n日本漫画::https://m.gufengmh8.com/list/ribenmanhua/{{page}}/\n国产漫画::https://m.gufengmh8.com/list/guochanmanhua/{{page}}/\n港台漫画::https://m.gufengmh8.com/list/gangtaimanhua/{{page}}/\n欧美漫画::https://m.gufengmh8.com/list/oumeimanhua/{{page}}/\n韩国漫画::https://m.gufengmh8.com/list/hanguomanhua/{{page}}/\n少年漫画::https://m.gufengmh8.com/list/shaonian/{{page}}/\n少女漫画::https://m.gufengmh8.com/list/shaonv/{{page}}/\n青年漫画::https://m.gufengmh8.com/list/qingnian/{{page}}/\n真人漫画::https://m.gufengmh8.com/list/zhenrenmanhua/{{page}}/",
+        "lastUpdateTime": 1618184857219,
+        "ruleBookInfo": {
+            "author": "class.pic@tag.dl.1@tag.dd@text",
+            "intro": "class.txtDesc@text",
+            "kind": "class.pic@tag.dl.2@tag.dd@text",
+            "lastChapter": "class.pic@tag.dl.0@tag.dd@text",
+            "name": "tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "@js:\nvar options={\"headers\":{\"Referer\":baseUrl}};\n(function getImgList() {\neval(result.match(/chapterImages\\s*=\\s*[^;]*/)[0])\neval(result.match(/chapterPath\\s*=\\s*[^;]*/)[0])\nreturn chapterImages;\r\n}()).map(uri=>\n'<img src=\"'+'https://res.xiaoqinre.com/'+chapterPath+uri+'\"/>').join(\"\\n\")",
+            "imageStyle": "FULL",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".itemTxt@tag.p.0@text",
+            "bookList": ".itemBox||id.w0@li",
+            "bookUrl": ".itemImg a@href||class.txtA@tag.a@href",
+            "coverUrl": ".itemImg mip-img@src||tag.mip-img@src",
+            "intro": "class.txtDesc@text",
+            "kind": ".itemTxt@tag.p.1@text",
+            "lastChapter": "class.coll@text||class.info@tag.a@text||id.chapter-list-1@tag.li.-1@text",
+            "name": ".itemTxt a@text||class.txtA@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapter-list-1 li a",
+            "chapterName": "span@text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.gufengmh8.com/search/?keywords={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "小说",
+        "bookSourceName": "全本窝",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.quanbenwo.com/",
+        "customOrder": -2085959356,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"☾    分类    ☽\",\"url\":\"\",\"style\":{layout_flexGrow: 1,layout_flexBasisPercent:1}},\n{\"title\":\"全部\",\"url\":\"https://m.quanbenwo.com/shuku/0/0/0/0/0/0/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻奇幻\",\"url\":\"https://m.quanbenwo.com/shuku/0/1/0/0/0/0/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠修真\",\"url\":\"https://m.quanbenwo.com/shuku/0/2/0/0/0/0/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"https://m.quanbenwo.com/shuku/0/3/0/0/0/0/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"https://m.quanbenwo.com/shuku/0/4/0/0/0/0/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游竞技\",\"url\":\"https://m.quanbenwo.com/shuku/0/5/0/0/0/0/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"https://m.quanbenwo.com/shuku/0/6/0/0/0/0/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖惊悚\",\"url\":\"https://m.quanbenwo.com/shuku/0/7/0/0/0/0/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"https://m.quanbenwo.com/shuku/0/8/0/0/0/0/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"更新时间\",\"url\":\"https://m.quanbenwo.com/shuku/0/0/0/0/0/0/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"入库时间\",\"url\":\"https://m.quanbenwo.com/shuku/0/0/0/0/0/0/postdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"编辑推荐\",\"url\":\"https://m.quanbenwo.com/shuku/0/0/0/0/0/0/toptime/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"☾    排行榜    ☽\",\"url\":\"\",\"style\":{layout_flexGrow: 1,layout_flexBasisPercent:1}},\n{\"title\":\"男点击\",\"url\":\"/top/rank.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"收藏榜\",\"url\":\"/top/collect.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"推荐榜\",\"url\":\"/top/vote.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"女点击\",\"url\":\"/top/nrank.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "lastUpdateTime": 1667874277265,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.xq_bookne@tag.div.2@text##作者：",
+            "init": "",
+            "intro": "class.bookintro@textNodes##  |文案：##<br>",
+            "kind": "class.xq_bookne@tag.div.3@text&&class.xq_bookne@tag.div.4@text##类别：|状态：",
+            "lastChapter": "id.newlist@tag.li.0@text##-\\W?0*(\\d+)-\\W?0*(\\d+)##•$1-$1",
+            "name": "tag.em@text",
+            "tocUrl": "class.btn_book@tag.a.-1@href",
+            "wordCount": "class.xq_bookne@tag.div.5@text##字数："
+        },
+        "ruleContent": {
+            "content": "id.YiJianZhan@textNodes",
+            "nextContentUrl": "text.下一章@href",
+            "replaceRegex": "##本书.*发行\\s*\\s*版权所有|\\s*·\\s*|第.*章.*\\s*|侵权必究\\s*|"
+        },
+        "ruleExplore": {
+            "author": "class.book_other@text##连载|完结",
+            "bookList": "id.sitebox@tag.dl",
+            "bookUrl": "tag.a.0@href",
+            "intro": "class.book_des@text",
+            "name": "tag.h3@tag.a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book_other@text##连载|完结",
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "intro": "class.book_des@text##关于.*：|.*追.*更.*ω.*p\\)|★精华简介★",
+            "kind": "class.book_other@tag.span@text",
+            "lastChapter": "",
+            "name": "h3@a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlist@tag.li",
+            "chapterName": "tag.a@text##-.*",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": "a@text##.*-\\s"
+        },
+        "searchUrl": "https://m.quanbenwo.com/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

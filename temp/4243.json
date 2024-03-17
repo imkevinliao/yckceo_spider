@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "多多书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.txtduo.net",
+        "bookUrlPattern": "https?://m.txtduo.net/(info|html)/\\d+(\\/|.html)",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1/{{page}}.html\n武侠修真::/sort/2/{{page}}.html\n都市言情::/sort/3/{{page}}.html\n历史军事::/sort/4/{{page}}.html\n侦探推理::/sort/5/{{page}}.html\n网游动漫::/sort/6/{{page}}.html\n科幻小说::/sort/7/{{page}}.html\n恐怖灵异::/sort/8/{{page}}.html\n散文诗词::/sort/9/{{page}}.html\n其他类型::/sort/10/{{page}}.html\n全部完结::/quanben/all/{{page}}.html\n玄幻魔法::/quanben/XuɑnHuɑn/{{page}}.html\n武侠修真::/quanben/WuXiɑ/{{page}}.html\n都市言情::/quanben/DuShi/{{page}}.html\n历史军事::/quanben/LiShi/{{page}}.html\n侦探推理::/quanben/XuɑnYi/{{page}}.html\n网游动漫::/quanben/YouXi/{{page}}.html\n科幻小说::/quanben/KeHuɑn/{{page}}.html\n恐怖灵异::/quanben/XuɑnYi/{{page}}.html\n散文诗词::/quanben/GuYɑn/{{page}}.html\n其他类型::/quanben/NCiYuɑn/{{page}}.html",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1696916054814,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.author@text",
+            "coverUrl": ".detail img@src",
+            "intro": ".intro p.0@text",
+            "kind": ".detail a.1@text&&\n.detail span.0@text&&\n.detail p.-1@text\n##最后更新：",
+            "lastChapter": ".detail a.-1@text",
+            "name": "p.name@text",
+            "tocUrl": ".now a@href",
+            "wordCount": ".detail span.-1@text"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "replaceRegex": "##\\s*.*本章(未|完)?.*\\s*|喜欢.*请大家收藏.*。"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".list li",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "span@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.read li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "@js:\nvar head=JSON.parse(source.header);\nvar url=source.getKey();\nvar so=url+\"/search.html\";\nvar body=`searchkey=${key}`;\npost=java.post(so,body,head).header(\"Location\");\nString(post).replace(/\\d+.html/,`${page}.html`)",
+        "weight": 0
+    }
+]

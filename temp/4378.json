@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣阁lzyjy",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lzyjy.com",
+        "bookUrlPattern": "https?://www.lzyjy.com/xiaoshuo/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/sort/{{page}}/\n玄幻小说::/sort/1/{{page}}/\n修真小说::/sort/2/{{page}}/\n都市小说::/sort/3/{{page}}/\n穿越小说::/sort/4/{{page}}/\n网游小说::/sort/5/{{page}}/\n科幻小说::/sort/6/{{page}}/\n其他小说::/sort/7/{{page}}/\n现代言情::/sort/8/{{page}}/\n古代言情::/sort/9/{{page}}/\n短故事::/sort/10/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698667429623,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#article@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "bookUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": ".category-div",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": ".intro@text",
+            "kind": "0",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".info-chapters.1@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}\n/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

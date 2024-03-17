@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "www.iswsk.com\nhttps://www.yeban360.com",
+        "bookSourceGroup": "☣️精选senhora",
+        "bookSourceName": "圣武书库[阅读]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.iswsk.com#阅读",
+        "customOrder": -30,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "<js>\n(()=>{\n\tvar ua = \"navigator.userAgent.toLowerCase(); \t\t\treturn { \t\t\t\t'mobile': !!(ua.match(/applewebkit.*mobile.*/) || ua.match(/iemobile/) || ua.match(/windows phone/) || ua.match(/android/) || ua.match(/iphone/) || ua.match(/ipad/)), \t\t\t\t'weixin': ua.indexOf('micromessenger') > -1 \t\t\t};\";\n\tvar heders = {\"User-Agent\": ua};\n\treturn JSON.stringify(heders);\n})()\n</js>",
+        "lastUpdateTime": 1691339147188,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.col-md-8 col-sm-6 dark.0@text",
+            "canReName": "true",
+            "coverUrl": "class.media-left.0@a@tag.img@src@js:'https://www.iswsk.com'+result",
+            "init": "",
+            "intro": ".book-detail@html",
+            "kind": "class.col-md-4 col-sm-6 dark.0@text##状态：",
+            "lastChapter": "class.col-md-8 col-sm-6 dark.1@text##最新章节：",
+            "name": ".book-name@text",
+            "tocUrl": "",
+            "wordCount": "class.col-md-4 col-sm-6 dark hidden-sm hidden-xs@text"
+        },
+        "ruleContent": {
+            "content": ".cont-body@html",
+            "nextContentUrl": ".content@a.2@href"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.td.1@text",
+            "bookList": "@css:.panel-body tbody tr",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "莎士比亚",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "{{'点击地址栏下载 • 密码：210831'}}",
+            "name": "tag.a.0@text##《|》"
+        },
+        "ruleToc": {
+            "chapterList": "id.all-chapter@class.col-md-6 item",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/plus/search.php?q={{key}}",
+        "weight": 0
+    }
+]

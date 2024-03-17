@@ -1,0 +1,78 @@
+[
+    {
+        "bookSourceUrl": "http://m.qdbxwx.com",
+        "bookSourceName": "起点笔下文学",
+        "bookSourceGroup": "",
+        "bookSourceType": 0,
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "enabledCookieJar": false,
+        "concurrentRate": "",
+        "header": "",
+        "loginUrl": "",
+        "loginCheckJs": "",
+        "bookSourceComment": "",
+        "lastUpdateTime": 1697125221675,
+        "respondTime": 180000,
+        "weight": 0,
+        "exploreUrl": "",
+        "ruleExplore": [],
+        "searchUrl": "modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n    \"charset\": \"gb2312\"\n}",
+        "ruleSearch": {
+            "bookList": ".article",
+            "name": "a.0@text",
+            "bookUrl": "a.0@href"
+        },
+        "ruleBookInfo": {
+            "name": "[property$=book_name]@content",
+            "author": "[property$=author]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property$=category]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "coverUrl": "[property$=image]@content",
+            "tocUrl": ".more a@href"
+        },
+        "ruleToc": {
+            "chapterList": ".last9 a",
+            "chapterName": "a.0@text",
+            "chapterUrl": "a.0@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##起点笔下文学.+最新章节！|无尽的昏迷过后，时宇猛地从床上起身[\\s\\S]*|【1】【6】【6】【小】【说】|本章未完，点击下一页继续阅读|&nbs|... -->>|sp;"
+        },
+        "searchRule": {
+            "bookList": ".article",
+            "name": "a.0@text",
+            "bookUrl": "a.0@href"
+        },
+        "exploreRule": [],
+        "tag": "起点笔下文学",
+        "tocRule": {
+            "chapterList": ".last9 a",
+            "chapterName": "a.0@text",
+            "chapterUrl": "a.0@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "loginJs": "",
+        "bookInfoRule": {
+            "name": "[property$=book_name]@content",
+            "author": "[property$=author]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property$=category]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "coverUrl": "[property$=image]@content",
+            "tocUrl": ".more a@href"
+        },
+        "contentRule": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##起点笔下文学.+最新章节！|无尽的昏迷过后，时宇猛地从床上起身[\\s\\S]*|【1】【6】【6】【小】【说】|本章未完，点击下一页继续阅读|&nbs|... -->>|sp;"
+        },
+        "key": "http://m.qdbxwx.com"
+    }
+]

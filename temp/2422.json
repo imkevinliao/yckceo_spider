@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "目录净化",
+        "bookSourceName": "💯 九桃小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.9txs.com/",
+        "bookUrlPattern": ".+/book/.+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最新::/top/postdate/{{page}}.html\n最近::/top/lastupdate/{{page}}.html\n点击::/top/allvisit/{{page}}.html\n推荐::/top/allvote/{{page}}.html\n收藏::/top/goodnum/{{page}}.html\n字数::/top/size/{{page}}.html\n强推::/top/toptime/{{page}}.html\n新书::/top/goodnew/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1612665872891,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.detail@tag.a.1@text",
+            "coverUrl": "",
+            "intro": "class.intro.0@textNodes##^|(?<=[。！？”])(?=\\w)##<br>",
+            "kind": "class.detail@tag.a.2@text",
+            "lastChapter": "class.detail@tag.a.-5@text",
+            "name": "class.detail@tag.h1@text",
+            "tocUrl": "class.action@tag.a.0@href",
+            "wordCount": "##</a>字数：([^<]+)</p>##$1###"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "imageStyle": "0",
+            "replaceRegex": "##(?mi)^[^0-9a-zA-Z\\u4e00-\\u9fa5：\\n]+$|您可以在百度里搜索.+(\\n|$)"
+        },
+        "ruleExplore": {
+            "author": "//a[@href^=\"/author/\"]//text()",
+            "bookList": "class.list@class.on",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.intro@text",
+            "kind": "//a[@href^=\"/sort/\"]//text()",
+            "lastChapter": "class.chapter@text##最新章节：(.+)\\u007c(.+)\\h\\d{2}:\\d{2}.+##$2▪$1",
+            "name": "tag.a.1@text##免费阅读全文|最新章节|全文免费阅读",
+            "wordCount": "##</a><em>\\|</em>字数：([^<]+)</p>##$1###"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.library@tag.li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "",
+            "intro": "class.intro@text",
+            "kind": "//a[@href^=\"/sort/\"]//text()",
+            "lastChapter": "tag.a.-1@text##最新章节：",
+            "name": "tag.a.1@text##免费阅读全文|最新章节|全文免费",
+            "wordCount": "tag.p.0@text##.+\\|"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@tag.dl!0@tag.dd@tag.a",
+            "chapterName": "text##(?<!^|[章卷部集]\\h?)[（［【\\{\\[\\(](?![一二三四五六七八九十]{1,3}\\W$|\\d{1,3}\\D$|[上中下完终续]\\W)[^（［【\\{\\[\\(]+|^(?!序|楔子|[前引]言|后记|尾声|终章|完本|大结局|正文|番外|外传|同人|[Cc]hapter|\\d{1,4}($|\\W)|第(\\d{1,5}|[一二三四五六七八九十百千]{1,7})[章节部卷]|[卷章][一二三四五六七八九十百千])\\S{2,}$",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://so.9txs.com/www/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

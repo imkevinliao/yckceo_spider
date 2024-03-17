@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "公众号开源阅读,A级,发现",
+        "bookSourceName": "凤凰小说网fhxsz.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.fhxsz.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "穿越::/sort/1/{{page}}/\n架空::/sort/2/{{page}}/\n玄幻::/sort/3/{{page}}/\n魔幻::/sort/4/{{page}}/\n仙侠::/sort/5/{{page}}/\n古言::/sort/6/{{page}}/\n现言::/sort/7/{{page}}/\n爱情::/sort/8/{{page}}/\n历史::/sort/9/{{page}}/\n都市::/sort/10/{{page}}/\n其他::/sort/18/{{page}}/",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "tag.p.0@text##作 者.",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.p.7@text##本书简介.",
+            "lastChapter": "tag.p.5@text##最新连载.",
+            "name": "tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "class.zhangjieTXT@html"
+        },
+        "ruleExplore": {
+            "author": "class.title@tag.span.0@text",
+            "bookList": "id.alistbox",
+            "bookUrl": "class.title@tag.h2@tag.a.0@href",
+            "coverUrl": "class.pic@tag.img@src",
+            "intro": "class.intro@text",
+            "name": "class.title@tag.h2@tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "tag.tr!0",
+            "bookUrl": "tag.a.0@href",
+            "lastChapter": "tag.td.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "+<js>\nvar chapters = [];\nvar regex = /<dd>[^<]*<a href=\"([^\"]*)[^>]*>([^<]*)/g;\nvar match;\nwhile ((match = regex.exec(result)) != null) {\n    chapters.push({url: match[1], title: match[2]});\n}\nchapters.sort((x,y)=>x.url>y.url?1:-1);\n</js>",
+            "chapterName": "title",
+            "chapterUrl": "url"
+        },
+        "searchUrl": "https://www.fhxsz.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

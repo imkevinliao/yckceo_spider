@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "手打书吧--修复",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.shoudashu.com/",
+        "bookUrlPattern": "",
+        "customOrder": 361,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻魔法::/xclass/1/{{page}}.html\n仙侠修真::/xclass/2/{{page}}.html\n都市言情::/xclass/3/{{page}}.html\n历史军事::/xclass/4/{{page}}.html\n网游小说::/xclass/5/{{page}}.html\n科幻小说::/xclass/6/{{page}}.html\n灵异小说::/xclass/7/{{page}}.html\n耽美小说::/xclass/8/{{page}}.html",
+        "header": "Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Mobile Safari/537.36 Edg/86.0.622.38",
+        "lastUpdateTime": 1673032455981,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@text##(作 者 ：)(.*)##$2",
+            "coverUrl": "class.synopsisArea_detail@img@src",
+            "intro": "class.review@textNodes",
+            "kind": "class.sort@text",
+            "lastChapter": "class.directoryArea@tag.a.0@text",
+            "name": "class.title@text",
+            "tocUrl": "@css:div.recommend > h2:nth-child(3) > a@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes",
+            "nextContentUrl": "class.Readpage@class.p4@href"
+        },
+        "ruleExplore": {
+            "author": "class.author@text##(作 者 ：)(.*)##$2",
+            "bookList": "id.main@class.hot_sale",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@data-original",
+            "intro": "class.review@textNodes",
+            "name": "class.title@text",
+            "kind": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "@class.author@text##(.*\\| 作者：)(.*)##$2",
+            "bookList": "class.recommend.mybook@class.hot_sale",
+            "bookUrl": "tag.a.0@href",
+            "kind": "",
+            "name": "@class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.p",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.right@tag.a@href"
+        },
+        "searchUrl": "https://m.shoudashu.com/s.php,{\n\"method\": \"post\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "文学城",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.wxc.cc",
+        "bookUrlPattern": "https?://m.wxc.cc/xiaoshuo/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/xuanhuan/{{page}}.html\n武侠修真::/wuxia/{{page}}.html\n都市言情::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n网游动漫::/wangyou/{{page}}.html\n科幻小说::/kehuan/{{page}}.html\n恐怖灵异::/lingyi/{{page}}.html\n其他类型::/qita/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691467526386,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##>>章节报错<<"
+        },
+        "ruleExplore": {
+            "author": "span.-2@text",
+            "bookList": ".lists li",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "a.-1@text&&span.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.-2@text",
+            "bookList": ".searchlists li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "a.-1@text&&span.-1@text&&.update.1@text\n##更新：",
+            "lastChapter": "a.-2@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://m.wxc.cc/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

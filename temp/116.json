@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceName": "性感美女网",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://www.jpxgyw.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "♛秀人网♛::https://www.jpxgyw.cc/Xiuren/\n美媛馆::https://www.jpxgyw.cc/MyGirl/\n爱蜜社::https://www.jpxgyw.cc/IMiss/\n嗲囡囡::https://www.jpxgyw.cc/FeiLin/\n模范学院::https://www.jpxgyw.cc/MFStar/\n尤蜜荟::https://www.jpxgyw.cc/YouMi/\n花漾::https://www.jpxgyw.cc/HuaYang/\n星研社::https://www.jpxgyw.cc/XingYan/\n画语界::https://www.jpxgyw.cc/XiaoYu/\n爱尤物::https://www.jpxgyw.cc/Aiyouwu/\nDJAWA::https://www.jpxgyw.cc/DJAWA/\n性感尤物::https://www.jpxgyw.cc/Xgyw/",
+        "lastUpdateTime": 1662472495829,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "name": "class.article-title@text"
+        },
+        "ruleContent": {
+            "content": "class.article-content@tag.p@tag.img@html",
+            "nextContentUrl": "class.pagination@tag.a.-1@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.related_box",
+            "bookUrl": "class.related_box@tag.a@href",
+            "coverUrl": "class.related_box@tag.img@src",
+            "name": "class.related_box@tag.span@text"
+        },
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "tag.h1",
+            "chapterName": "text"
+        },
+        "weight": 0
+    }
+]

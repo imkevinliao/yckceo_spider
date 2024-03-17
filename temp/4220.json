@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "//有锁🔒为vip章节，只能在app上看",
+        "bookSourceGroup": "自制,正版,网页源",
+        "bookSourceName": "奇妙小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://miao.qimao.com",
+        "bookUrlPattern": "https?://miao.qimao.com/shuku/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/shuku/a-a-a-a-a-a-a-click-{{page}}/\n女生原创::/shuku/1-a-a-a-a-a-a-click-{{page}}/\n男生原创::/shuku/0-a-a-a-a-a-a-click-{{page}}/\n全部::/shuku/a-a-a-a-a-a-a-click-{{page}}/\n都市::/shuku/a-151-a-a-a-a-a-click-{{page}}/\n幻想::/shuku/a-152-a-a-a-a-a-click-{{page}}/\n轻小说::/shuku/a-153-a-a-a-a-a-click-{{page}}/\n历史::/shuku/a-154-a-a-a-a-a-click-{{page}}/\n科幻::/shuku/a-155-a-a-a-a-a-click-{{page}}/\n悬疑::/shuku/a-156-a-a-a-a-a-click-{{page}}/\n青春::/shuku/a-157-a-a-a-a-a-click-{{page}}/\n游戏::/shuku/a-158-a-a-a-a-a-click-{{page}}/\n体育::/shuku/a-159-a-a-a-a-a-click-{{page}}/\n古代言情::/shuku/a-213-a-a-a-a-a-click-{{page}}/\n现代言情::/shuku/a-219-a-a-a-a-a-click-{{page}}/\n幻想言情::/shuku/a-226-a-a-a-a-a-click-{{page}}/\n古代悬疑::/shuku/a-231-a-a-a-a-a-click-{{page}}/\n现代悬疑::/shuku/a-235-a-a-a-a-a-click-{{page}}/\n衍生言情::/shuku/a-239-a-a-a-a-a-click-{{page}}/\n全部::/shuku/a-a-a-a-a-a-a-click-{{page}}/\n20万以下::/shuku/a-a-a-1-a-a-a-click-{{page}}/\n20万-50万::/shuku/a-a-a-2-a-a-a-click-{{page}}/\n50万-80万::/shuku/a-a-a-3-a-a-a-click-{{page}}/\n80万-100万::/shuku/a-a-a-4-a-a-a-click-{{page}}/\n100万以上::/shuku/a-a-a-5-a-a-a-click-{{page}}/\n全部::/shuku/a-a-a-a-a-a-a-click-{{page}}/\n3天内::/shuku/a-a-a-a-1-a-a-click-{{page}}/\n7天内::/shuku/a-a-a-a-2-a-a-click-{{page}}/\n30天内::/shuku/a-a-a-a-3-a-a-click-{{page}}/\n全部::/shuku/a-a-a-a-a-a-a-click-{{page}}/\n已完结::/shuku/a-a-a-a-a-a-1-click-{{page}}/\n连载中::/shuku/a-a-a-a-a-a-0-click-{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1696479478288,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者@a@text",
+            "coverUrl": ".wrap-pic img.0@src",
+            "intro": "p.intro@text",
+            "kind": ".tags-wrap@text##\\s##,",
+            "lastChapter": ".update-info a@text",
+            "name": "span.txt.0@text",
+            "tocUrl": "https://miao.qimao.com/api/book/chapter-list?book_id={{baseUrl.match(/\\d+(_\\d*)?/)[0]}},{\n  \"headers\": {\n    \"Host\": \"miao.qimao.com\",\n    \"accept\": \"application/json, text/plain, */*\",\n    \"authorization\": \"\",\n    \"sec-fetch-site\": \"same-origin\",\n    \"sec-fetch-mode\": \"cors\",\n    \"sec-fetch-dest\": \"empty\",\n    \"referer\": \"{{baseUrl}}\",\n    \"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"\n  },\n  \"method\": \"GET\"\n}",
+            "wordCount": ".statistics-wrap@span.0@text"
+        },
+        "ruleContent": {
+            "content": ".article@html",
+            "payAction": "{{baseUrl}}"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.3@text||.s-name@text##\\s+.*",
+            "bookList": ".qm-pic-txt li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "一剑",
+            "coverUrl": "img@src",
+            "intro": "span.s-des@text",
+            "kind": "span.1@text##\\s##,",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "$.data.chapters[*]",
+            "chapterName": "$.title",
+            "chapterUrl": "https://miao.qimao.com/shuku/{{baseUrl.match(/\\d+(_\\d*)?/)[0]}}-{{$.id}}/",
+            "isVip": "$.is_vip"
+        },
+        "searchUrl": "https://miao.qimao.com/search/index/?keyword={{key}}",
+        "weight": 0
+    }
+]

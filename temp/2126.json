@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "W,名著",
+        "bookSourceName": "33书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.33shuwu.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "著名小说::/type63/{{page-1}}.html&&现代小说::/type64/{{page-1}}.html&&古典小说::/type65/{{page-1}}.html&&历史军事::/type66/{{page-1}}.html&&恐怖鬼故事::/type70/{{page-1}}.html&&武侠名著::/type17/{{page-1}}.html&&四大名著::/type18/{{page-1}}.html&&三国系列::/type19/{{page-1}}.html&&西游系列::/type20/{{page-1}}.html&&水浒系列::/type21/{{page-1}}.html&&红楼系列::/type22/{{page-1}}.html&&诗词•典籍::/type23/{{page-1}}.html&&典籍文献::/type24/{{page-1}}.html&&诗词歌赋::/type25/{{page-1}}.html&&佛教书籍::/type26/{{page-1}}.html&&道教典籍::/type27/{{page-1}}.html&&中医书籍::/type28/{{page-1}}.html&&十三经注疏::/type29/{{page-1}}.html&&文学名著::/type30/{{page-1}}.html&&世界名著::/type31/{{page-1}}.html&&古典文学::/type32/{{page-1}}.html&&现代文学::/type33/{{page-1}}.html&&散文随笔::/type34/{{page-1}}.html&&儿童文学::/type35/{{page-1}}.html&&人文历史::/type36/{{page-1}}.html&&经管营销::/type37/{{page-1}}.html&&人文社科::/type38/{{page-1}}.html&&励志教育::/type39/{{page-1}}.html&&生活百科::/type40/{{page-1}}.html&&人物传记::/type41/{{page-1}}.html",
+        "lastUpdateTime": 1617248399017,
+        "ruleBookInfo": {
+            "author": "class.iteo@span@text",
+            "kind": "class.iteo@a@text",
+            "lastChapter": "class.lb@tag.a.-1@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "class.nr_con@textNodes##.txshuku.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "class.shuming@li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "name": "tag.a.-1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.lb@a",
+            "chapterName": "text##正文",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/e/search/index.php,{\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&tbname=book&show=title&tempid=1&submit=搜索\"\n}",
+        "weight": 0
+    }
+]

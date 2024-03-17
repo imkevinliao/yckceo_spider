@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☣️精选senhora",
+        "bookSourceName": "69斗罗大陆网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.69zw.cc",
+        "bookUrlPattern": "",
+        "customOrder": -302719,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "本周人气榜::/rank/weekvisit/\n本月点击榜::/rank/monthvisit/\n书友收藏榜::/rank/goodnum/\n最近更新榜::/sort/{{page}}/\n\n❀                       分 类 频 道                      ❀::\n全部小说::/sort/{{page}}/\n玄幻魔法::/sort/1/{{page}}/\n仙侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n历史军事::/sort/4/{{page}}/\n网游竞技::/sort/5/{{page}}/\n科幻小说::/sort/6/{{page}}/\n灵异恐怖::/sort/7/{{page}}/\n其他小说::/sort/8/{{page}}/",
+        "lastUpdateTime": 1633838471070,
+        "loginUrl": "",
+        "respondTime": 10629,
+        "ruleBookInfo": {
+            "author": "class.book-cell@tag.p.0@text##作者：",
+            "coverUrl": "class.img@img@data-original",
+            "init": "class.fixed",
+            "intro": "class.bookintro@text##简介|.*字",
+            "kind": "class.book-cell@tag.p.1@text##分类：",
+            "lastChapter": "class.last@text##更新到",
+            "name": "class.book-title@text",
+            "tocUrl": "class.book-info-btn@tag.a.1@href",
+            "wordCount": "class.book-cell@tag.p.3@text##"
+        },
+        "ruleContent": {
+            "content": "class.readcontent@id.booktxt@html##手机请访问|m.shu69.com"
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text",
+            "bookList": "class.rank@class.content@dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@data-original",
+            "intro": "tag.dd@text",
+            "kind": "tag.span.0@text",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.span.1@text"
+        },
+        "ruleSearch": {
+            "author": "tag.dd@tag.a@text",
+            "bookList": "class.content@dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@data-original",
+            "intro": "tag.dd.0@text",
+            "kind": "tag.dd@tag.span.0@text##\\[|\\]",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.dd@tag.span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.bookchapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "http://m.69zw.cc/search1799?searchkey={{key}}",
+        "weight": 0
+    }
+]

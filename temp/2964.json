@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔎  百度",
+        "bookSourceName": "🔎百度图片",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://image.baidu.com",
+        "customOrder": 182,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1602052629991,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "@get:{id2}@js:\nimgurl=result;\nimg2=java.get('id');\nhtml='<img src=\"'+imgurl+'\">\\n图片地址1：'+imgurl+'\\n'+'<img src=\"'+img2+'\">\\n图片地址2：'+img2",
+            "imageStyle": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "@js:list=[{title:decodeURIComponent(baseUrl.match(/word=(.*)/)[1]),url:baseUrl,img:\"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1105349167,1082680177&fm=11&gp=0.jpg\"}]",
+            "bookUrl": "url",
+            "coverUrl": "img",
+            "name": "title"
+        },
+        "ruleToc": {
+            "chapterList": "<js>result.match(/flip.setData\\('imgData',( [\\s\\S]+?,\\{\\}\\]\\})\\)\\;/)[1];\n</js>$.data[*]",
+            "chapterName": "$.fromPageTitle@put:{id:$.objURL,id2:$.thumbURL}##</*strong>",
+            "chapterUrl": "https://www.baidu.com/s?wd={{$.fromPageTitle}}",
+            "nextTocUrl": "id.page@tag.a!-1@href"
+        },
+        "searchUrl": "https://image.baidu.com/search/flip?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fm=result&fr=&sf=1&fmq=1582615702295_R&pv=&ic=0&nc=1&z=&hd=&latest=&copyright=&se=1&showtab=0&fb=0&width=0&height=0&face=0&istype=2&ie=utf-8&ctd=1582615702296%5E00_1665X948&sid=&word={{key}}",
+        "weight": 0
+    }
+]

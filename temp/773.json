@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "2022.01.19",
+        "bookSourceGroup": "☁️可用,📚出版",
+        "bookSourceName": "📚五六文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.56wen.com",
+        "bookUrlPattern": "",
+        "customOrder": -88941043,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "现代名著::http://www.56wen.com/wenxue/<,index_{{page}}.html>\n古典名著::http://www.56wen.com/gudian/<,index_{{page}}.html>\n世界名著::http://www.56wen.com/waiguo/<,index_{{page}}.html>\n当代小说::http://www.56wen.com/dangdai/<,index_{{page}}.html>\n文学评论::http://www.56wen.com/pinglun/<,index_{{page}}.html>\n散文随笔::http://www.56wen.com/sanwen/<,index_{{page}}.html>\n儿童文学::http://www.56wen.com/ertong/<,index_{{page}}.html>\n青春校园::http://www.56wen.com/qingchun/<,index_{{page}}.html>\n古代言情::http://www.56wen.com/guyan/<,index_{{page}}.html>\n现代言情::http://www.56wen.com/dushi/<,index_{{page}}.html>\n耽美小说::http://www.56wen.com/danmei/<,index_{{page}}.html>\n玄幻仙侠::http://www.56wen.com/xianxia/<,index_{{page}}.html>\n武侠小说::http://www.56wen.com/wuxia/<,index_{{page}}.html>\n穿越小说::http://www.56wen.com/chuanyue/<,index_{{page}}.html>\n科幻小说::http://www.56wen.com/kehuan/<,index_{{page}}.html>\n军事小说::http://www.56wen.com/junshi/<,index_{{page}}.html>\n网游小说::http://www.56wen.com/youxi/<,index_{{page}}.html>\n侦探小说::http://www.56wen.com/zhentan/<,index_{{page}}.html>\n恐怖小说::http://www.56wen.com/kongbu/<,index_{{page}}.html>\n探险小说::http://www.56wen.com/tanxian/<,index_{{page}}.html>\n人文社科::http://www.56wen.com/renwen/<,index_{{page}}.html>\n人物传记::http://www.56wen.com/zhuanji/<,index_{{page}}.html>\n历史小说::http://www.56wen.com/lishi/<,index_{{page}}.html>\n励志书籍::http://www.56wen.com/lizhi/<,index_{{page}}.html>\n生活科普::http://www.56wen.com/shenghuo/<,index_{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+        "lastUpdateTime": 1642609652414,
+        "loginUrl": "",
+        "respondTime": 1279,
+        "ruleBookInfo": {
+            "author": "class.info@dd.0@text",
+            "coverUrl": "class.titlepic@img@src",
+            "intro": "id.full-intro@textNodes",
+            "kind": "class.info@dd.1@text||\n[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "class.bd clearfix.0@a@text",
+            "name": "h1@text",
+            "tocUrl": "text.查看目录@href##https://www.*com@js:'http://m.56wen.com'+result"
+        },
+        "ruleContent": {
+            "content": "id.J_article_con@html||class.chapter_content pd12@html",
+            "replaceRegex": "##五六文学.*最完整|.*最新更新以及相关书籍.*|(?i)www.*|.*(?i)com.*|(?i).cＯm.*|(?i)wwＷ、.*|-"
+        },
+        "ruleExplore": {
+            "author": "class.info@class.xm@tag.b.1@text||class.info@class.xm@tag.a@text##小说作者：",
+            "bookList": "class.slist",
+            "bookUrl": "class.pic@a@href",
+            "coverUrl": "class.pic@img@src",
+            "intro": "tag.p.1@text##小说简介：|(?i).*6.*com",
+            "kind": "",
+            "name": "class.info@tag.a.0@text##txt.*|《|》.*|五六文学.*"
+        },
+        "ruleSearch": {
+            "author": "h3@a@text||class.xm@tag.b.1@text##.*阅读-|-五六.*|小说作者：",
+            "bookList": "class.result f s0||class.slist",
+            "bookUrl": "h3@a@href",
+            "checkKeyWord": "易卜生",
+            "coverUrl": "img@src",
+            "kind": "class.xm@a@text",
+            "name": "h3@a@text||\nh4@a@text##txt.*|《|》.*|五六文学.*"
+        },
+        "ruleToc": {
+            "chapterList": "class.catalog_list clearfix@li@a||class.lists@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVip": ""
+        },
+        "searchUrl": "http://s.56wen.com/cse/search?s=10062529087620215852&entry=1&q={{key}}",
+        "weight": 0
+    }
+]

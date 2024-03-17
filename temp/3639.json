@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "爱看书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.akshu8.com",
+        "bookUrlPattern": "https://m.akshu8.com/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::https://m.akshu8.com\n排行::/paihangbang.html\n完本::/wanben/1_{{page}}",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1687595286533,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": ".content@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##顶点小说.*us"
+        },
+        "ruleExplore": {
+            "bookList": ".txt-list@li",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:\"/themes/qu/nocover.jpg\"",
+            "kind": "span.0:-1@text##\\[|\\]",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "#nr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/themes/qu/nocover.jpg\"",
+            "kind": "td.-1:-2@text##\\[|\\]",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text",
+            "wordCount": "td.-3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".cplist",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "@js:var page=result.match(/当前第\\d+页，共(\\d+)页，每页显示\\d+章/)[1];\nif(baseUrl.match(/1\\/$/)){\n\tvar url=baseUrl;\n\t}else{\n\t\tvar go=baseUrl.replace(/.html/,\"\");\n\t\tvar url=String(go+\"/1/\");\n}\nvar list=[];\nfor(var i=2;i<=page;i++){\n\tlist.push(url.replace(/1\\/$/,i+\"/\"));\n}\nlist;"
+        },
+        "searchUrl": "/modules/article/sousuo.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

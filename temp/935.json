@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☣️精选senhora,🎉 精选 🎉,☣️senhora晋江",
+        "bookSourceName": "千千小说（优）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xqianqian.com/",
+        "bookUrlPattern": "https://www.xqianqian.com/\\d+/\\d+/",
+        "customOrder": -302392,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/list/1-1.html\n仙侠修真::/list/2-1.html\n都市言情::/list/3-1.html\n历史军事::/list/4-1.html\n网游动漫::/list/5-1.html\n科幻小说::/list/6-1.html\n恐怖灵异::/list/7-1.html\n其他类型::/list/8-1.html",
+        "lastUpdateTime": 1633835425605,
+        "loginUrl": "",
+        "respondTime": 5127,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作 者：",
+            "canReName": "True",
+            "coverUrl": "id.fmimg@img@data-original",
+            "init": "id.maininfo",
+            "intro": "id.intro@text",
+            "kind": "id.info@tag.p.1@text&&\nid.info@tag.p.3@text##最后更新：|状态：",
+            "lastChapter": "id.info@tag.p.3@text##最新章节：|免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html##http.*html|天才一秒记住.*com",
+            "nextContentUrl": "class.bottem2@tag.a.2@href"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.r@li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.xqianqian.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "class.s5@text",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@text"
+        },
+        "ruleSearch": {
+            "author": "class.btm@text##作者：",
+            "bookList": "class.item",
+            "bookUrl": "class.item@tag.a@href",
+            "coverUrl": "class.image@img@data-original",
+            "intro": "class.item@tag.dd@text",
+            "kind": "class.blue visible-xs@text##分类：",
+            "lastChapter": "class.blue visible-xs@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "class.item@tag.a@title##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+        },
+        "ruleToc": {
+            "chapterList": "class.box_con@id.list@tag.a!-1:-2:-3",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value&&class.box_con@id.list@tag.a.41@tag.a@href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.xqianqian.com/s?searchkey={{key}}",
+        "weight": 0
+    }
+]

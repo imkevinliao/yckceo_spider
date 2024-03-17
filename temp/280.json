@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "优质",
+        "bookSourceName": "溜达小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.txtshuku.org",
+        "customOrder": 109,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/mulu/1-{{page}}.html\n武侠仙侠::/mulu/2-{{page}}.html\n都市言情::/mulu/3-{{page}}.html\n历史军事::/mulu/4-{{page}}.html\n科幻灵异::/mulu/5-{{page}}.html\n网游竞技::/mulu/6-{{page}}.html\n女频频道::/mulu/7-{{page}}.html",
+        "lastUpdateTime": 1629998158432,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": ".booktitle a@text",
+            "coverUrl": "#bookimg img@src",
+            "init": "",
+            "intro": "#bookintro p@html",
+            "kind": ".count@tag.span.0:4@text&&.uptime@tag.span.1@text##\\s.*",
+            "lastChapter": "#newlist@tag.li.0@a@text",
+            "name": ".booktitle h1@text",
+            "tocUrl": ".motion@tag.a.-1@href",
+            "wordCount": ".count@tag.span.6@text"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text",
+            "bookList": "#sitebox dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": "tag.dd.2@text",
+            "kind": "tag.span.2:3:0@text",
+            "lastChapter": "tag.a.3@text",
+            "name": "tag.a.1@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.span.1@text",
+            "bookList": "#sitembox dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "kind": "tag.span.2:3:5@text##\\s.*",
+            "lastChapter": "tag.a.2@text",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.span.4@text"
+        },
+        "ruleToc": {
+            "chapterList": "#readerlist li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

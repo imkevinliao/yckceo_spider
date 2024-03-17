@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "最大二次元小说网站",
+        "bookSourceGroup": "学渣出品",
+        "bookSourceName": "老8站",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.8kana.com/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "header": "{\n'referer':'https://official.bkneng.com/'\n}",
+        "lastUpdateTime": 1675439213845,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.authorName manColor@text",
+            "coverUrl": "class.left bookContainImgBox@img@src",
+            "init": "",
+            "intro": "id.li_booknote@text",
+            "kind": "class.left bookWorksClass_Main@a@text",
+            "lastChapter": "class.left bookContain_l_conh2@a.0@text&&class.left bookContain_l_conh2@span.1@text",
+            "name": "tag.h2@text",
+            "wordCount": "class.imformPopularity.0@text"
+        },
+        "ruleContent": {
+            "content": "class.myContent@p@text"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.clearfix results_details1",
+            "bookUrl": "class.left results_del_R_book@a@href",
+            "name": "class.left results_del_R_book@a@span@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapter_con@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.8kana.com/www/search&tagid=0?keyword={{key}}&type=1&page={{page}},{\n    \"charset\": \"utf-8\",\n    \"headers\": {\n\n\"referer\":\"https://www.8kana.com/www/search\",\n\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"},\n    \"webView\": true\n}",
+        "weight": 0
+    }
+]

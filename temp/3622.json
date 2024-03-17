@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "xin笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.xinbqg.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xclass/1/{{page}}.html\n修真::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n穿越::/xclass/4/{{page}}.html\n网游::/xclass/5/{{page}}.html\n科幻::/xclass/6/{{page}}.html\n其他::/xclass/7/{{page}}.html\n全本::/quanben.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1687331127434,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "{{$.}}all.html",
+            "wordCount": "{{@@text.字数@text##字数：}}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "#pb_next@href",
+            "replaceRegex": "##（本章未完.*继续阅读）|记住.*网址.*com|『加入书签，方便阅读』|{{chapter.title}}|\\(第.*页\\)"
+        },
+        "ruleExplore": {
+            "author": ".s3@text",
+            "bookList": ".lis@li",
+            "bookUrl": "a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": ".s1@text##\\[|\\]",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "kind": ".cat@text##分类：",
+            "lastChapter": "a.-1@text",
+            "name": "h4@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/s.php?q={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

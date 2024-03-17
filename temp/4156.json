@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "就爱文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.92wx.la",
+        "bookUrlPattern": "https?://m.92wx.la/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/sort/{{page}}.html\n玄幻小说::https://m.92wx.la/sort/1-{{page}}.html\n武侠小说::https://m.92wx.la/sort/2-{{page}}.html\n都市小说::https://m.92wx.la/sort/3-{{page}}.html\n历史小说::https://m.92wx.la/sort/4-{{page}}.html\n推理小说::https://m.92wx.la/sort/5-{{page}}.html\n游戏小说::https://m.92wx.la/sort/6-{{page}}.html\n科幻小说::https://m.92wx.la/sort/7-{{page}}.html\n恐怖小说::https://m.92wx.la/sort/8-{{page}}.html\n其他小说::https://m.92wx.la/sort/9-{{page}}.html\n言情小说::https://m.92wx.la/sort/10-{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695465803143,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".info span.2@text",
+            "coverUrl": ".base img@src",
+            "intro": ".content@text",
+            "kind": ".info span.1:3:0@text\n##分类：|状态：|时间：",
+            "lastChapter": ".info a@text",
+            "name": "dd h2@text",
+            "tocUrl": "p.p2 a@href"
+        },
+        "ruleContent": {
+            "content": ".chapter_content@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*（本章未完.*继续阅读）\\s*|\\s*{{chapter.title}}|\\(第\\d.+页\\)\\s*"
+        },
+        "ruleExplore": {
+            "author": "span@ownText",
+            "bookList": ".book-list li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.intro@text",
+            "kind": "em@text",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text##\\/",
+            "bookList": ".result li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters li!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"submit=搜索&type=articlename&s={{key}}\"\n}",
+        "weight": 0
+    }
+]

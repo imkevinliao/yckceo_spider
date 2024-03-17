@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "漫画",
+        "bookSourceName": "韩漫大全",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.hanmandq.com/",
+        "customOrder": -185598,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1651226244142,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "lastChapter": "class.col-7 descColor autoSmallFontSize padding10   m-auto text-right@text",
+            "tocUrl": "class.container@a.1@href"
+        },
+        "ruleContent": {
+            "content": "id.cartoon-content@img@data-src@js:result.split(\"\\n\").map(x=>'<img src=\\\"'+x+'\\\">').join(\"\\n\")",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.col-5 text-left paddingLR txtOverFlow@text##作者:",
+            "bookList": "id.datalist@a",
+            "bookUrl": "a@href",
+            "coverUrl": "class.mhCover@div.0@img@data-src",
+            "intro": "class.list-group-item autoSmallFontSize descColor.0@text",
+            "kind": "class.servi serviGreen@text",
+            "name": "class.mhTitle@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.row padding2",
+            "chapterName": "class.col-6 text-left@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.hanmandq.com/search-{{key}}/",
+        "weight": 0
+    }
+]

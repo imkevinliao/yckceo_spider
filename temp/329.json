@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自用",
+        "bookSourceName": "第三中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.3zw.cc/",
+        "customOrder": -3,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1652703295512,
+        "loginCheckJs": "//cookie限制搜索，新版可删除此项\ncookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "[property=og:image]@content",
+            "init": "meta",
+            "intro": "[property=og:description]@content",
+            "kind": "[property=og:novel:category],[property=og:novel:status],[property=og:novel:update_time]@content##小说|\\s.*",
+            "lastChapter": "[property=og:novel:latest_chapter_name]@content"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@tag.p!-1:-2@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".author@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": ".bookimg@a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": ".cat@text##分类：",
+            "lastChapter": ".update@text##最新章节：",
+            "name": ".bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last@dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.3zw.cc/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

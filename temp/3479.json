@@ -1,0 +1,76 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": null,
+        "bookSourceName": "奇书小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.epaocai.com",
+        "bookUrlPattern": null,
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": null,
+        "header": null,
+        "lastUpdateTime": 1645592804196,
+        "loginUrl": null,
+        "ruleBookInfo": {
+            "author": "#info>p:nth-child(3)>a@ownText",
+            "canReName": null,
+            "coverUrl": "#fmimg>img@src",
+            "init": null,
+            "intro": "#intro@ownText",
+            "kind": null,
+            "lastChapter": "#info>p:last-child>a@ownText",
+            "name": "#info>h1@ownText",
+            "tocUrl": null,
+            "updateTime": null,
+            "wordCount": null
+        },
+        "ruleContent": {
+            "content": "#content@ownText",
+            "imageStyle": null,
+            "nextContentUrl": null,
+            "replaceRegex": null,
+            "sourceRegex": null,
+            "webJs": null
+        },
+        "ruleExplore": {
+            "author": null,
+            "bookList": null,
+            "bookUrl": null,
+            "coverUrl": null,
+            "intro": null,
+            "kind": null,
+            "lastChapter": null,
+            "name": null,
+            "updateTime": null,
+            "wordCount": null
+        },
+        "ruleSearch": {
+            "author": "span.s4@ownText",
+            "bookList": "#newscontent ul>li",
+            "bookUrl": "span.s2>a@href",
+            "coverUrl": null,
+            "intro": null,
+            "kind": "span.s1@ownText",
+            "lastChapter": "span.s3>a@ownText",
+            "name": "span.s2>a@ownText",
+            "updateTime": null,
+            "wordCount": null,
+            "checkKeyWord": "三国"
+        },
+        "ruleToc": {
+            "chapterList": "#list>dl>dd>a",
+            "chapterName": "@ownText",
+            "chapterUrl": "@href",
+            "isVip": null,
+            "nextTocUrl": null,
+            "updateTime": null
+        },
+        "searchUrl": "http://www.epaocai.com/Search/{{key}}",
+        "sort": 10000,
+        "star": 3,
+        "type": 1,
+        "weight": 0
+    }
+]

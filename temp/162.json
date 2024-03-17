@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "随梦小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.suimeng.cc",
+        "bookUrlPattern": "http?://www.suimeng.cc/[a-zA-z]+/",
+        "customOrder": 98,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻小说\",\n\t\"url\":\"/sort/1/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"仙侠小说\",\n\t\"url\":\"/sort/2/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市小说\",\n\t\"url\":\"/sort/3/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史小说\",\n\t\"url\":\"/sort/4/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游小说\",\n\t\"url\":\"/sort/5/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻小说\",\n\t\"url\":\"/sort/6/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"恐怖小说\",\n\t\"url\":\"/sort/7/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他小说\",\n\t\"url\":\"/sort/8/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1663169118937,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.booktitle@h2@text",
+            "coverUrl": "class.book@img@src",
+            "init": "",
+            "intro": "class.bookintro@p.0@ownText##小说简介.",
+            "kind": "class.breadcrumb@a.1@text&&class.bookdes@p.0@text##.*状态.|\\s\\|.*",
+            "lastChapter": "class.bookdes@p.2@a@text",
+            "name": "class.booktitle@h1@text",
+            "wordCount": "class.bookdes@p.0@text##.*\\|\\s"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "span.1@a@text",
+            "bookList": "class.left@ul@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "kind": "span.0:2@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "dd.1@a@text",
+            "bookList": "class.content@tag.dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "dd.0@text",
+            "kind": "dd.1@span.0@text",
+            "name": "dt@a@text",
+            "wordCount": "dd.1@span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.all@ul@li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\nurl=\"http://www.suimeng.cc\";\naid=org.jsoup.Jsoup.parse(String(java.ajax(url))).select(\"form\").attr(\"action\");\nresult=url+aid+\"?searchkey={{key}}\"",
+        "weight": 0
+    }
+]

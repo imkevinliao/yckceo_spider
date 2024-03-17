@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "零点小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lingdxsw.com",
+        "bookUrlPattern": "https://www.lingdxsw.com/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/list/1/{{page}}.html\n仙侠小说::/list/2/{{page}}.html\n都市小说::/list/3/{{page}}.html\n历史小说::/list/4/{{page}}.html\n科幻小说::/list/5/{{page}}.html\n网游小说::/list/6/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689910417983,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": "{{@@text.字数：@text##字数：}}"
+        },
+        "ruleContent": {
+            "content": "#htmlContent@html",
+            "nextContentUrl": "#linkNext@href"
+        },
+        "ruleExplore": {
+            "author": "small@text##\\/\\s",
+            "bookList": ".list-group@li",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:\"https://www.lingdxsw.com/modules/article/images/nocover.jpg\"",
+            "kind": "tag.i@text&&span@text",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "li.2@text",
+            "bookList": ".mySearch div+ul",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "kind": "li.-1:-2:-3@text\n##状态：|更新时间：|大小：",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list-chapterAll@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.lingdxsw.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

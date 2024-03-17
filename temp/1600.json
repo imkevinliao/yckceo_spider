@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceName": "http://m.4gxs.cc/s.php",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.4gxs.cc/s.php",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1668769800083,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": ".tu@img@src",
+            "lastChapter": "##最新：<a.*?>([^<]+)</##$1###",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "<js>\nif(!/chapter_ajax/.test(baseUrl)){\na=result.match(/(var thisaid[\\s\\S]+?)<\\/script/)[1];\neval(String(a))\nurl = `http://m.4gxs.cc/chapter_ajax.php?aid=${thisaid}&cid=${thiscid}&page=${thispage}`;\njava.base64Decode(JSON.parse(java.ajax(url)).data);}else{\n\tjava.base64Decode(JSON.parse(result).data);\n\t}\n</js>",
+            "nextContentUrl": "<js>\nif(!/chapter_ajax/.test(baseUrl)){\na=result.match(/(var thisaid[\\s\\S]+?)<\\/script/)[1];\neval(String(a));\nlist = [];\nfor(i=2;i<=fypageAll;i++){\tlist.push(`http://m.4gxs.cc/chapter_ajax.php?aid=${thisaid}&cid=${thiscid}&page=${i}`)\n\t}\nlist}\n</js>",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": ".search_list",
+            "bookUrl": "tag.a.0@href",
+            "kind": "tag.a.13text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".p2@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://m.4gxs.cc/s.php,{\n  \"body\": \"s={{key}}&type=articlename\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

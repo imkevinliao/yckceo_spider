@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "musa自制",
+        "bookSourceGroup": "自制",
+        "bookSourceName": "抗人小说vpn",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.krxs.xyz",
+        "customOrder": -134329,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n激情都市::/archives/category/doushi/",
+        "lastUpdateTime": 1624248665102,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "tag.p.1@html"
+        },
+        "ruleExplore": {
+            "author": "class.entry-author@text",
+            "bookList": "",
+            "bookUrl": "class.read-more@href",
+            "intro": "class.entry-summary@tag.p@text",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.entry-author@text",
+            "bookList": "class.entry-overview",
+            "bookUrl": "class.read-more@href",
+            "intro": "class.entry-summary@tag.p@text",
+            "kind": "",
+            "name": "tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.entry-overview",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "class.read-more@href"
+        },
+        "weight": 0
+    }
+]

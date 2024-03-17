@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "tag.a.0@text&&text##【作者】.*\n\nclass.poem-detail-content@class.poem-detail-body@id.body_p@text",
+        "bookSourceGroup": "现实debug",
+        "bookSourceName": "百度汉语",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://hanyu.baidu.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1615646288491,
+        "ruleBookInfo": {
+            "author": "class.poem-detail-header-info@class.poem-detail-header-author.0@text",
+            "init": "class.poem-detail-item",
+            "intro": "class.poem-detail-item-content.0@id.body_p@html||class.poem-detail-item-content.0@class.poem-detail-main-text@html",
+            "kind": "class.poem-detail-header-info@class.poem-detail-header-author.1@text",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "class.poem-detail-item-content.0@id.body_p@html||class.poem-detail-item-content.0@class.poem-detail-main-text@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.poem-list-item-info@class.poem-list-item-author.0@text||class.poem-detail-header-info@class.poem-detail-header-author.0@text",
+            "bookList": "class.poem-list-container@class.poem-list-item||class.poem-detail-item.0@tag.h1",
+            "bookUrl": "tag.a.0@href",
+            "intro": "class.poem-list-item-body@text",
+            "kind": "class.poem-list-item-info@class.poem-list-item-author.1@text||class.poem-detail-header-author.1@text",
+            "name": "text##\\[作者\\].*"
+        },
+        "ruleToc": {
+            "chapterList": "class.poem-detail-item.0",
+            "chapterName": "tag.h1@text"
+        },
+        "searchUrl": "https://hanyu.baidu.com/s?wd={{key}}&from=poem",
+        "weight": 0
+    }
+]

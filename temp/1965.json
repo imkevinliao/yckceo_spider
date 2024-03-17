@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "优·奇书网④™",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qishus.com",
+        "customOrder": -39136,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/xuanhuan/list1_{{page}}.html\n都市言情::/yanqing/list2_{{page}}.html\n武侠仙侠::/wuxia/list3_{{page}}.html\n耽美同人::/danmei/list4_{{page}}.html\n青春校园::/xiaoyuan/list5_{{page}}.html\n科幻灵异::/kehuan/list6_{{page}}.html\n穿越架空::/chuanyeu/list7_{{page}}.html\n网游竞技::/wangyou/list8_{{page}}.html\n历史军事::/lishi/list9_{{page}}.html\n女频言情::/yanqing/list10_{{page}}.html\n现代文学::/wenxue/list11_{{page}}.html",
+        "lastUpdateTime": 1619354310427,
+        "ruleBookInfo": {
+            "author": "##小说作者：[^>]*>([^<]*)##$1###",
+            "intro": "#mainSoftIntro p!0:-1@text",
+            "kind": "##小说类型：[^>]*>([^<]*)[\\s\\S]*?更新时间：[^>]*>([^<]*)##$1,$2###",
+            "name": "#downInfoTitle@text##TXT全集下载",
+            "tocUrl": "@css:a:contains(全文在线阅读)@href",
+            "wordCount": "##小说大小：[^>]*>([^<]*)##$1###"
+        },
+        "ruleContent": {
+            "content": ".articlecon@html##声明:本书由新奇书网.+请支持正版."
+        },
+        "ruleExplore": {
+            "bookList": ":mainListIntro[^>]*>([^<]*)[\\s\\S]*?href=\"([^\"]*)\"[^\"]*\"([\\s\\S]*?) TXT全集下载[\\s\\S]*?oldDate\">([^<]*)",
+            "bookUrl": "$2",
+            "intro": "$1",
+            "kind": "$4",
+            "name": "$3"
+        },
+        "ruleSearch": {
+            "bookList": ":searchTopic\"[^\"]*\"([^\"]*)\">([^<]*)[^>]*>([^<]*)[^>]*>([^<]*)[\\s\\S]*?\">([^<]*)[\\s\\S]*?类别：[^>]*>([^<]*)[\\s\\S]*?日期：[^>]*>([^<]*)",
+            "bookUrl": "$1",
+            "intro": "$5",
+            "kind": "$6,$7",
+            "name": "$2$3$4"
+        },
+        "ruleToc": {
+            "chapterList": "+@css:.cataloglist a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.asp,{\n\"charset\": \"gb2312\",\n\"method\": \"POST\",\n\"body\": \"word={{key}}&m=2&ChannelID=0&page={{page}}\"\n}",
+        "weight": 0
+    }
+]

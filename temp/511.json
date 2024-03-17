@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "看书室小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.kanshushi.com/",
+        "customOrder": -88949173,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::https://wap.kanshushi.com/sort-1-{{page}}/\n仙侠小说::https://wap.kanshushi.com/sort-2-{{page}}/\n都市小说::https://wap.kanshushi.com/sort-3-{{page}}/\n历史小说::https://wap.kanshushi.com/sort-4-{{page}}/\n游戏小说::https://wap.kanshushi.com/sort-5-{{page}}/\n科幻小说::https://wap.kanshushi.com/sort-6-{{page}}/\n恐怖小说::https://wap.kanshushi.com/sort-7-{{page}}/\n女生小说::https://wap.kanshushi.com/sort-8-{{page}}/\n其他小说::https://wap.kanshushi.com/sort-9-{{page}}/",
+        "lastUpdateTime": 1647451126968,
+        "respondTime": 185322,
+        "ruleBookInfo": {
+            "author": "class.author@tag.a@text",
+            "coverUrl": "id.bookdetail@tag.img@src",
+            "init": "",
+            "intro": "class.review@text",
+            "kind": "class.sort@text",
+            "lastChapter": "id.chapterlist@tag.a.0@text",
+            "name": "class.title@text",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.author.0@tag.a@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.review@text##简介：",
+            "kind": "",
+            "lastChapter": "class.author.1@tag.a@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.a!0",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://wap.kanshushi.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "手机趣书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.qubook.cc",
+        "bookUrlPattern": "",
+        "customOrder": -2,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"男生\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/TXT/list4_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/TXT/list5_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市重生\",\"url\":\"/TXT/list6_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/TXT/list7_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖推理\",\"url\":\"/TXT/list8_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻网游\",\"url\":\"/TXT/list9_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"二の次元\",\"url\":\"/TXT/list25_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"最新推荐\",\"url\":\"/book/qutj.asp?cid=1&Page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"女生\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/TXT/list10_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"/TXT/list11_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越重生\",\"url\":\"/TXT/list12_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻仙侠\",\"url\":\"/TXT/list13_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春同人\",\"url\":\"/TXT/list14_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游科幻\",\"url\":\"/TXT/list15_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新推荐\",\"url\":\"/book/qutj.asp?cid=2&Page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"耽美\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现代耽美\",\"url\":\"/TXT/list27_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代架空\",\"url\":\"/TXT/list28_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越重生\",\"url\":\"/TXT/list29_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻科幻\",\"url\":\"/TXT/list30_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"ＢＬ同人\",\"url\":\"/TXT/list31_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"ＧＬ百合\",\"url\":\"/TXT/list32_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新推荐\",\"url\":\"/book/qutj.asp?cid=26&Page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+        "lastUpdateTime": 1634573418755,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".mlist a.1@text",
+            "coverUrl": ".mlist img@src",
+            "intro": ".conten@html",
+            "kind": ".listcd a.-2:-1@text##小说",
+            "lastChapter": ".mlist h3@text##.*\\（|\\）",
+            "name": ".mlist h1@text##\\s.*",
+            "tocUrl": "text.在线阅读@href@js:result+',{\"charset\"= \"gb2312\"}'",
+            "wordCount": ".mlist li.2@textNodes"
+        },
+        "ruleContent": {
+            "content": "#Content@textNodes",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "h3@text##\\/.*",
+            "bookList": ".man_first li||.tj li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "",
+            "intro": "p@text##简介.",
+            "kind": "textNodes##\\[|\\]",
+            "lastChapter": "",
+            "name": "a.0@text##\\s.*|完结.*",
+            "wordCount": "h4@text##大小."
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": ".sslist li",
+            "bookUrl": "a.1@href",
+            "coverUrl": "",
+            "intro": "p@text##简介.",
+            "kind": "a.0@text",
+            "name": "a.1@text##\\s.*",
+            "wordCount": "h4@text##大小."
+        },
+        "ruleToc": {
+            "chapterList": "<js>\nvar n=result.match(/\\d*\\/(\\d+)页\\</)[1];\nvar list=[{k:'第1页',v:baseUrl}];\nfor(var i=2;i<=n;i++){\nlist.push({k:'第'+i+'页',v:baseUrl.replace(/\\.txt/,'.txt&yeshu='+i)});\n}\nlist\n</js>",
+            "chapterName": "k",
+            "chapterUrl": "v",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/search.asp,{\n  'charset': 'GB2312',\n  'method': 'POST',\n  'body': 'word={{key}}&m=2&ChannelID=0&page={{page}}'\n}",
+        "weight": 0
+    }
+]

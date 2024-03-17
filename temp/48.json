@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "知轩藏书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://zxcs.me",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1664077564333,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h1@text##.*作者：",
+            "coverUrl": "#content@img[alt]@src",
+            "init": "div#content",
+            "intro": "p:nth-of-type(3)@html",
+            "kind": ".date@a.1:2@text",
+            "name": "h1@text##《|》.*",
+            "tocUrl": "div.pagefujian@.filetit@a@href"
+        },
+        "ruleSearch": {
+            "author": "dt@a@text##.*作者：",
+            "bookList": "dl",
+            "bookUrl": "dt@a@href",
+            "intro": "dd.des@text",
+            "kind": "dd > a.0:1@text",
+            "name": "dt@a@text##《|》.*"
+        },
+        "ruleToc": {
+            "chapterList": ".downfile@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/index.php?keyword={{key}}",
+        "weight": 0
+    }
+]

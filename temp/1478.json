@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "网站支持搜索：书名+空格+作者\nhttps://m.bulasw.com/\nhttps://m.humasw.com/\nhttps://m.chuxings.com/\nhttps://m.wujue8.com/\n貌似都是套娃网站",
+        "bookSourceGroup": "测试0000",
+        "bookSourceName": "布拉书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bulasw.com/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "完本::/store/0_2_{{page}}_0_0_0_0.html\n全部::/store/0_0_{{page}}_0_0_0_0.html\n言情::/store/0_0_{{page}}_0_0_2_0.html\n穿越::/store/0_0_{{page}}_0_0_3_0.html\n灵异::/store/0_0_{{page}}_0_0_4_0.html\n科幻::/store/0_0_{{page}}_0_0_5_0.html\n历史::/store/0_0_{{page}}_0_0_6_0.html\n推理::/store/0_0_{{page}}_0_0_7_0.html\n仙侠::/store/0_0_{{page}}_0_0_8_0.html\n奇幻::/store/0_0_{{page}}_0_0_9_0.html\n玄幻::/store/0_0_{{page}}_0_0_10_0.html\n游戏::/store/0_0_{{page}}_0_0_11_0.html\n热门::/store/0_0_{{page}}_3_0_0_0.html",
+        "header": "",
+        "lastUpdateTime": 1674351110180,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "[property~=description]@content",
+            "kind": "[property~=category|time|status]@content&&text.正文@text## « 返回介绍.*|\\s+",
+            "lastChapter": "",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nresult=java.ajax(\"http://\"+result.match(/\\(\"\\/\\/(.*?)\"/)[1])\n</js>\n@js:\nif(result.match(/replace/)){\ns=result.match(/replace.*?\\{(.*?)\\}/)[1].replace(/\\\\/g,'\\\\\\\\')\nnum=s.split(',').length\nfor(var i=0;i<num;i++){\n\tm=s.match(/\"(.*?)\":\"(.*?)\"/)\n\ts=s.replace(/.*?,/,'')\n\tresult=result.replace(new RegExp(m[2],'g'),m[1])\n\t}\n\t}else{\nresult\nif(result.match(/txt_call/)){\n\tresult=\"网站问题没有正文\"\n\t}\n\t\t}\nresult.replace(/(\\\\)+n/g,'<\\/br>').replace(/.*?:\"/,'').replace(/\",\".*/,'').replace(/\"\\}.*/,'').replace(/\\\\/g,'')",
+            "imageStyle": "",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "span.0@text",
+            "bookList": "div[class~=content-unit$]",
+            "bookUrl": "a.0@href##\\.html##/indexlist\\.html",
+            "intro": "p.-2@text",
+            "kind": "{{@@text##.*(共\\s*\\d+\\s*节).*##$1}}&&{{@@p.-1@text##.*\\d+(.*)##$1}}\n@js:result.replace(/\\s/g,'').replace(/&&/,'\\n')",
+            "name": "a.0@text",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": "div[class~=search-card$]",
+            "bookUrl": "text.作品目录@href",
+            "intro": "[class~=sc-content]@text",
+            "kind": ".gray@text##\\[|\\]",
+            "lastChapter": ".sc-time@span.0@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "[class~=chapter-list]@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "@js:\nif(!baseUrl.match(/_/)){\nnum=result.match(/i\\s*<=\\s*(\\d+)/)[1]\nfor(var i=2,txt=[];i<=num;i++){\n\ttxt.push(baseUrl.replace(/\\.html/,'_'+i+'\\.html'))\n\t}\ntxt.join(\"\\r\\n\")\n}",
+            "updateTime": ""
+        },
+        "searchUrl": "/search/,{\n\t\"method\":\"POST\",\n\t\"body\":\"keyword={{key}}&submit=\"\n\t}",
+        "weight": 0
+    }
+]

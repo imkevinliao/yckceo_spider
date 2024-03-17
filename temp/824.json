@@ -1,0 +1,30 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "巴巴鱼",
+        "bookSourceUrl": "https://m.babayu.com",
+        "enable": true,
+        "loginUrl": "",
+        "ruleBookContent": "id.BookText@p@html",
+        "ruleBookKind": "class.info@tag.span.0@a@text",
+        "ruleBookLastChapter": "class.clearfix.1@tag.li.0@a@textNodes",
+        "ruleChapterList": "class.bookshelf-list@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "",
+        "ruleContentUrl": "href##^##https://www.babayu.com",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.lazy.0@src",
+        "ruleFindUrl": "最近更新::https://m.babayu.com/all/order/update_time+desc.html?page=searchPage\n最新入库::https://m.babayu.com/all/order/id+desc.html?page=searchPage\n总人气榜::https://m.babayu.com/all/order/update_time+desc.html?page=searchPage\n玄幻奇幻::https://m.babayu.com/all/id/42.html?page=searchPage\n武侠修真::https://m.babayu.com/all/id/43.html?page=searchPage\n都市异能::https://m.babayu.com/all/id/44.html?page=searchPage\n历史军事::https://m.babayu.com/all/id/45.html?page=searchPage\n网游竞技::https://m.babayu.com/all/id/46.html?page=searchPage\n科幻灭世::https://m.babayu.com/all/id/47.html?page=searchPage\n惊悚悬疑::https://m.babayu.com/all/id/49.html?page=searchPage\n轻小说の::https://m.babayu.com/all/id/52.html?page=searchPage\n女生频道::https://m.babayu.com/all/id/48.html?page=searchPage",
+        "ruleIntroduce": "class.content@p@textNodes",
+        "ruleSearchAuthor": "span@textNodes",
+        "ruleSearchCoverUrl": "tag.img.0@src",
+        "ruleSearchIntroduce": "class.intro@textNodes",
+        "ruleSearchKind": "em@text",
+        "ruleSearchList": "class.clearfix@li",
+        "ruleSearchName": "class.tit@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://m.babayu.com/search.html@keyword=searchKey&page=searchPage",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

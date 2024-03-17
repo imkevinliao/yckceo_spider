@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceUrl": "https://m.tianlaixsw.com",
+        "bookSourceType": "0",
+        "bookSourceName": "天籁小说网(m)",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://m.tianlaixsw.com/search.html?searchkey={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": "class.list@tag.li",
+            "name": "tag.a.1@text",
+            "author": "tag.a.2@text",
+            "kind": "tag.span@text",
+            "lastChapter": "tag.a.-1@text",
+            "intro": "tag.p.2@text",
+            "coverUrl": "tag.img@src",
+            "bookUrl": "tag.a.1@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.detail@tag.p.0@text",
+            "author": "class.detail@tag.a.0@text",
+            "kind": "class.detail@tag.a.1@text",
+            "wordCount": "class.detail@tag.span.1@text",
+            "lastChapter": "class.detail@tag.a.-1@text",
+            "intro": "class.intro@tag.p.1@text",
+            "coverUrl": "class.detail@tag.img@src",
+            "tocUrl": "class.action@tag.a.0@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.read@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "class.content@tag.p!0:-1@html##关闭方法.*"
+        }
+    }
+]

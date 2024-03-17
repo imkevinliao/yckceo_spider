@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "风华居",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.fenghuaju.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1648173291218,
+        "respondTime": 1416,
+        "ruleBookInfo": {
+            "author": "class.author@text##作者\\：",
+            "coverUrl": "img@src",
+            "kind": "class.sort@text##类别\\：",
+            "lastChapter": "class.lastchapter@text##最新章节\\：",
+            "name": "class.title@text"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@p@html",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author.0@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": " ",
+            "kind": "class.author.1@text##类型\\：",
+            "lastChapter": "class.update@text##最后章节\\：",
+            "name": "class.iTit@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.directoryArea.1@p",
+            "chapterName": "p@a@text",
+            "chapterUrl": "p@a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.fenghuaju.com/search/,{\n'charset': 'utf-8',\n'method': 'POST',\n'body': 'searchkey={{key}}'}",
+        "weight": 0
+    }
+]

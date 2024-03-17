@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "海盗听书",
+        "bookSourceType": 1,
+        "bookSourceUrl": "https://www.tingxiaoshuo.cc/",
+        "bookUrlPattern": "",
+        "customOrder": -2085957779,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "奇幻玄幻::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=6\n都市言情::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=7\n宫频女斗::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=8\n官场商战::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=9\n武侠仙侠::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=10\n侦探推理::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=11\n探险科幻::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=12\n重生穿越::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=13\n恐怖惊悚::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=14\n文学历史::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=15\n两性情感::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=49\n网游竞技::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=50",
+        "header": "{\"Referer\":\"https://app.tingxiaoshuo.cc\"}",
+        "lastUpdateTime": 1664205940614,
+        "loginUi": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "$.data.bookData.bookName&&$.data.bookData.bookAnchor",
+            "coverUrl": "$.data.bookData.bookImage",
+            "init": "",
+            "intro": "$.data.bookData.bookDesc",
+            "kind": "$.data.bookData.categoryName",
+            "lastChapter": "",
+            "name": "$.data.bookData.bookTitle",
+            "tocUrl": "https://app.tingxiaoshuo.cc/listen/apptingchina/chapter?size=50000&page=1&sort=asc&bookId={{$.data.bookData.id}}",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "$.src",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "$.bookAnchor",
+            "bookList": "$.data.list[*]",
+            "bookUrl": "https://app.tingxiaoshuo.cc/listen/apptingchina/book?bookId={{$.id}}",
+            "coverUrl": "$.bookImage",
+            "intro": "$.bookDesc",
+            "kind": "$.bookName",
+            "name": "$.bookTitle##\\|.*",
+            "wordCount": "$.heat"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.bookAnchor",
+            "bookList": "$.data.bookData[*]",
+            "bookUrl": "https://app.tingxiaoshuo.cc/listen/apptingchina/book?bookId={{$.id}}",
+            "checkKeyWord": "大奉打更人",
+            "coverUrl": "$.bookImage",
+            "intro": "$.bookDesc",
+            "kind": "$.bookName",
+            "lastChapter": "",
+            "name": "$.bookTitle",
+            "wordCount": "$.heat"
+        },
+        "ruleToc": {
+            "chapterList": "$.data.list[*]",
+            "chapterName": "$.title",
+            "chapterUrl": "https://app.tingxiaoshuo.cc/listen/apptingchina/AppGetChapterUrl2022?uid=1&chapterId={{$.chapterId}}&bookId={{$.bookId}}",
+            "isVolume": "",
+            "updateTime": "$.update_date"
+        },
+        "searchUrl": "https://www.tingxiaoshuo.cc/listen/apptingchina/appSearch?search={{key}}",
+        "weight": 0
+    }
+]

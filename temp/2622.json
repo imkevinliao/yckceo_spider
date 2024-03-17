@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎨漫画",
+        "bookSourceName": "258漫画网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.shut123.com",
+        "bookUrlPattern": "",
+        "customOrder": -3592,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最新更新::/list/update/?page={{page}}\n点击排行::/list/click/?page={{page}}\n最新发布::/list/-post/?page={{page}}\n更新推荐::/update/{{page}}/\n全部::/list_{{page}}/\n连载::/list/lianzai/{{page}}/\n完结::/list/wanjie/{{page}}/\n日本漫画::/list/riben/{{page}}/\n韩国漫画::/list/hanguo/{{page}}/\n欧美漫画::/list/omei/{{page}}/\n港台漫画::/list/gangtai/{{page}}/\n其他漫画::/list/qita/{{page}}/",
+        "header": "UCWEB/2.0 (MIDP-2.0; U; Adr 9.0.0) UCBrowser U2/1.0.0 Focus/7.0.6 Gecko/63.0 Firefox/63.0 iPhone/7.1 SearchCraft/2.8.2 baiduboxapp/3.2.5.10 BingWeb/9.1 ALiSearchApp/2.4 MttCustomUA/2 QBWebViewType/1 WKType/1",
+        "lastUpdateTime": 1607416840841,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "tag.dl.1@tag.dd@text",
+            "coverUrl": "id.Cover@tag.mip-img@src",
+            "intro": "class.txtDesc@text##简介：",
+            "kind": "class.pic_zi.2@tag.dd@text",
+            "lastChapter": "class.pic_zi.0@tag.dd@text",
+            "name": "class.title@text##漫画"
+        },
+        "ruleContent": {
+            "content": "class.UnderPag@tag.mip-img@src||class.erPag@tag.mip-img@src@js:\nlist=result.split(\"\\n\");\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)}\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+'-webp'+','+JSON.stringify(headers)+'\">'\n}\nhtml",
+            "imageStyle": "FULL",
+            "nextContentUrl": "class.action-list@tag.mip-link.2@href，",
+            "replaceRegex": "##\\-webp"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.txtItme.0@text",
+            "bookList": "class.itemBox||class.list-comic",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.mip-img.0@src",
+            "kind": "class.pd@text",
+            "lastChapter": "class.coll@text||class.info@text",
+            "name": "class.title@text||class.txtA@text"
+        },
+        "ruleToc": {
+            "chapterList": "-class.comic-chapters@tag.li!0",
+            "chapterName": "tag.span@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search/?keywords={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

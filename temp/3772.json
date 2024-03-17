@@ -1,0 +1,38 @@
+[
+    {
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "class.bookbox",
+            "name": "class.bookname@text",
+            "author": "class.author@text",
+            "kind": "class.cat@text",
+            "lastChapter": "class.update@text",
+            "coverUrl": "img@src",
+            "bookUrl": "a@href"
+        },
+        "ruleBookInfo": {
+            "name": "h2@text",
+            "author": "span.1@text",
+            "kind": "span.2@text",
+            "wordCount": "span.4@text",
+            "lastChapter": "span.last.1@text",
+            "intro": "class.intro@text",
+            "coverUrl": "img@src"
+        },
+        "ruleToc": {
+            "chapterList": "dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "ruleContent": {
+            "content": "div#content.showtxt@text",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleReview": [],
+        "ruleExplore": [],
+        "searchUrl": "http://www.yetianlian.info/s.php?ie=utf-8&q={{key}}",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.yetianlian.info",
+        "bookSourceName": "小说"
+    }
+]

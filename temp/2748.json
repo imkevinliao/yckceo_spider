@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "第一版主111",
+        "bookSourceUrl": "https://www.111bz.cc",
+        "enable": true,
+        "ruleBookAuthor": "id.info@tag.p.0@text#作    者",
+        "ruleBookContent": "id.content@text",
+        "ruleBookKind": "",
+        "ruleBookLastChapter": "tag.dl@tag.dd.0@tag.a@text",
+        "ruleBookName": "tag.h1@text",
+        "ruleChapterList": "tag.dl@tag.dd",
+        "ruleChapterName": "tag.a@text",
+        "ruleContentUrl": "tag.a@href",
+        "ruleContentUrlNext": "",
+        "ruleCoverUrl": "id.fmimg@tag.img@src",
+        "ruleIntroduce": "id.intro@tag.p@text",
+        "ruleSearchAuthor": "class.odd.1@text",
+        "ruleSearchLastChapter": "class.even.0@tag.a@text",
+        "ruleSearchList": "tag.tbody.0@id.nr",
+        "ruleSearchName": "class.odd.0@tag.a@text",
+        "ruleSearchNoteUrl": "class.odd.0@tag.a@href",
+        "ruleSearchUrl": "http://www.111bz.cc/modules/article/search.php?searchkey=searchKey&searchtype=articlename&page=searchPage|char=gbk",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

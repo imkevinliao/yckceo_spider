@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "现实debug\n酷安同名\n接口数据参考了:http://www.yckceo.com/d/flhBe\n2022-8-12增加搜索页获取最新章节\n2022-8-12应大佬要求删除，已置空",
+        "bookSourceGroup": "现实debug",
+        "bookSourceName": "口袋阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://kdread.cn",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 0,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "$.picurl",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleToc": {
+            "chapterList": "",
+            "chapterName": "",
+            "chapterUrl": "",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

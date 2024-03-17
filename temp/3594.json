@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒，过快容易宕机",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "妙笔阁8",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.mbg8.com",
+        "bookUrlPattern": "https://www.mbg8.com/book/\\d+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"言情女生\",\"url\":\"https://www.mbg8.com/sort/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻奇幻\",\"url\":\"https://www.mbg8.com/sort/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市青春\",\"url\":\"https://www.mbg8.com/sort/3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"https://www.mbg8.com/sort/4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"耽美同人\",\"url\":\"https://www.mbg8.com/sort/5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"https://www.mbg8.com/sort/6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"轻小说の\",\"url\":\"https://www.mbg8.com/sort/7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"https://www.mbg8.com/sort/8/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"书库\",\"url\":\"https://www.mbg8.com/books\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1686906398922,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#TextContent@html",
+            "title": "h1@text"
+        },
+        "ruleExplore": {
+            "bookList": "#sitebox@dl",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@_src",
+            "intro": ".book_des@text",
+            "kind": "span.0:1:3@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "#sitebox@#nr",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@_src",
+            "intro": ".book_des@text",
+            "kind": "span.1:3:4@text",
+            "lastChapter": "a.2@text",
+            "name": ".hot@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterList@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.mbg8.com/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}&searchtype=articlename&Submit=\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

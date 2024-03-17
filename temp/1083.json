@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "六看小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.6kxs.net",
+        "bookUrlPattern": "",
+        "customOrder": -140610,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n仙侠::/xianxia/{{page}}.html\n游戏::/youxi/{{page}}.html\n综合其他::/qita/{{page}}.html\n历史::/lishi/{{page}}.html\n科幻::/kehuan/{{page}}.html\n都市言情::/dushi/{{page}}.html\n耽美同人::/danmei/{{page}}.html\n穿越小说::/chuanyue/{{page}}.html\n全部分类::/book/{{page}}.html",
+        "lastUpdateTime": 1627701642667,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "",
+            "intro": ".desc@text",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "[property=\"og:novel:read_url\"]@content"
+        },
+        "ruleContent": {
+            "content": ".article-body@p@html",
+            "nextContentUrl": ".article-page-next@href",
+            "replaceRegex": "##\\s*本章未完.*?继续阅读！\\s*"
+        },
+        "ruleExplore": {
+            "author": "tag.dd.0@a@text",
+            "bookList": ".book_list@li",
+            "bookUrl": "a@href",
+            "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3}).*##/files/cover/$1/$1$2/$1$2s.jpg",
+            "intro": ".desc@text",
+            "lastChapter": "tag.dd.1@a@text",
+            "name": "dt@a@text"
+        },
+        "ruleSearch": {
+            "author": ".author@text##作者：",
+            "bookList": "class.searchlist@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": ".directory@dl@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ".next@href"
+        },
+        "searchUrl": "https://www.6kxs.net/modules/article/search.php,{\n  \"charset\": \"\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "新笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.xdianjiangxin.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/all/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻\",\"url\":\"/xuanhuan/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/xiuzhen/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/dushi/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/lishi/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏\",\"url\":\"/wangyou/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/kehuan/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异\",\"url\":\"/lingyi/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人\",\"url\":\"/tongren/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生\",\"url\":\"/nvpin/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/qita/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1683938912106,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.pt-info.0@text",
+            "coverUrl": "class.baseinfo@img@src",
+            "init": "",
+            "intro": "class.intro@text",
+            "kind": "class.pt-info.1:3@text",
+            "lastChapter": "class.pt-info.2@text",
+            "name": "h1@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "#articlecon@html",
+            "replaceRegex": "##顶点小说.*网址.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.pt-info.0@text##\\|.*",
+            "bookList": "class.baseinfo&&ul@li",
+            "bookUrl": "class.pt-name@tag.a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".pt-desc@text",
+            "kind": "class.pt-info.1@tag.a@text",
+            "name": "class.pt-name@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.ptm-list-view-cell",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "class.pt-dir-sel@ul@li@a@href"
+        },
+        "searchUrl": "https://wap.xdianjiangxin.com/search.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

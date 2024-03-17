@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "关注星瞳_Official，送溜溜梅",
+        "bookSourceGroup": "星瞳",
+        "bookSourceName": "深夜看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shenyekanshu.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "<js>\nimportClass(org.jsoup.Jsoup);\nfunction get(www,css)\n{\t\nlist=Jsoup.parse(java.ajax(www)).select(css).toArray().map(a=>a.text()+\"·总榜::\"+a.attr(\"href\")).join(\"{{page}}.html&&\");\nreturn list;\n}\nresult=get(\"https://www.shenyekanshu.com/rank/all/0/\",\".CGsectionTwo-left a\")</js>",
+        "lastUpdateTime": 1659575369790,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "<js>\nc=result.match(/\\(\"(.*)\",/)[0].replace(/\\(\"/,\"\").replace(/\",/,\"\");\nm=result.match(/[a-z0-9]{32}/)[0];\nd=java.md5Encode(m);\ni=d.substring(0,16);\nw=d.substring(16);\nh=java.aesBase64DecodeToString(c,w,\"AES/CBC/PKCS7Padding\",i);\n</js>html##(.*\\s){2}.*正文.*",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": ".b@text",
+            "bookList": ".book_list_img@ul@li&&.CGsectionTwo-right-content-unit",
+            "bookUrl": ".r@href||a.0@href",
+            "coverUrl": "img.0@src",
+            "intro": "p.2@html",
+            "kind": "p.3@text##最近更新\\s",
+            "name": ".r@text||a.0@title"
+        },
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".SHsectionThree-middle@p",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "肉",
+            "kind": "a.0@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".BCsectionTwo-top-chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.shenyekanshu.com/search/{{key}}",
+        "weight": 0
+    }
+]

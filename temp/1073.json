@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔰 普通",
+        "bookSourceName": "🔰 02书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.02shu.cc",
+        "customOrder": 271,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuanxiaoshuo/\n修真::/xiuzhenxiaoshuo/\n都市::/dushixiaoshuo/\n穿越::/chuanyuexiaoshuo/\n网游::/wangyouxiaoshuo/\n科幻::/kehuanxiaoshuo/\n其他::/qitaxiaoshuo/\n全本::/wanben/1_1/",
+        "lastUpdateTime": 1628260308914,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "#fmimg img@src",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "replaceRegex": "##天才一秒记住.*|.*html|一秒记住.*阅读！",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".l li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://02www.cdn.bcebos.com/files/article/image/$2/$1/$1s.jpg###",
+            "kind": ".s5@text##\\s.*",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleSearch": {
+            "author": ".author@text##.*：",
+            "bookList": ".bookbox",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": ".cat@text##.*：|小说",
+            "lastChapter": "tag.a.2@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".listmain dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s123.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

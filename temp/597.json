@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️小说书库☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.duqu.net/modules/article/articlefilter.php",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1645051245956,
+        "ruleBookInfo": {
+            "author": "class.fss.0@text## 推荐：.*：.* 类别：.*点击：.*",
+            "coverUrl": "tag.img@src",
+            "kind": "class.fr fss@text",
+            "lastChapter": "class.ullist@tag.li.0@text##第一章 .*",
+            "name": "class.mbs@tag.a@text",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": "id.acontent@html",
+            "nextContentUrl": "tag.ul@tag.li.-1@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.gray@text## .*|",
+            "bookList": "class.c_row cf",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "name": "class.row_text@text## .* "
+        },
+        "ruleToc": {
+            "chapterList": "class.index@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.duqu.net/modules/article/search.php,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+        "weight": 0
+    }
+]

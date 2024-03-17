@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "修复By~江湖",
+        "bookSourceGroup": "",
+        "bookSourceName": "💦书迷楼①",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ishumilou.com/",
+        "bookUrlPattern": "https://www.ishumilou.com/\\d+/",
+        "customOrder": -229353,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "分类::\n玄幻::/category/xuanhuan/{{page}}.html\n修真::/category/xiuzhen/{{page}}.html\n都市::/category/dushi/{{page}}.html\n穿越::/category/chuanyue/{{page}}.html\n网游::/category/wangyou/{{page}}.html\n科幻::/category/kehuan/{{page}}.html\n其他::/category/qita/{{page}}.html\n",
+        "lastUpdateTime": 1656130147925,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "cover",
+            "init": "@js:\r\nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).attr('href'));\nvar w = selector => String(J.select(selector).text());\r\nvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\r\nvar book = {\r\n      name: og('novel:book_name'),\r\n      author: og('novel:author'),\r\n      last: og('novel:latest_chapter_name'),\r\n      intro: og('description'),\r\n      cover: og('image'),\r\n      kind: og('novel:category')+' '+og('novel:status')+' '+og('novel:update_time'),\n      url:o('#list a:last-child'),\n      word:w('.visible-x:nth-child(2)'),\n      toc:og('novel:read_url').replace(/(\\d+\\/)$/,\"read/$1\")\r\n};\r\nbook;",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "last",
+            "name": "name",
+            "tocUrl": "toc",
+            "wordCount": "word"
+        },
+        "ruleContent": {
+            "content": "#booktxt p@text",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": "#newscontent .l li",
+            "bookUrl": ".s2 a@href",
+            "coverUrl": ".s2 a@href@js:\nlet id = result.match(/\\/(\\d+)\\/$/)[1]\nlet iid = parseInt(id/1000)\n\"https://img.ishumilou.com/\"+iid+\"/\"+id+\"/\"+id+\"s.jpg\"",
+            "kind": ".s1,.s5@text",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text"
+        },
+        "ruleSearch": {
+            "author": "class.btm@tag.a.0@text",
+            "bookList": "class.item",
+            "bookUrl": "tag.dt.0@tag.a@href",
+            "coverUrl": "img@data-original",
+            "intro": "tag.dd.0@text",
+            "kind": "class.visible-xs@text",
+            "lastChapter": "",
+            "name": "tag.dt.0@tag.a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "#content_1 a",
+            "chapterName": "dd@text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.ishumilou.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

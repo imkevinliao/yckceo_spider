@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "正文加载较慢",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "安趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.actxt.net",
+        "bookUrlPattern": "https://m.actxt.net/shuwu/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuan/\n修真小说::/xianxia/\n都市小说::/dushi/\n历史小说::/lishi/\n网游小说::/wangyou/\n科幻小说::/kehuan/\n竞技小说::/jingji/\n言情小说::/yanqing/\n其他小说::/qita/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1687845183879,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@p.1@text",
+            "coverUrl": ".block_img2@img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2@p.2:3:4@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2@p.-1@a@text",
+            "name": ".block_txt2@a.1@text"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.↓一页@href##$##,{'webView': true}"
+        },
+        "ruleExplore": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@textNodes",
+            "kind": "0",
+            "lastChapter": ".update@a@text",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".slist@li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://m.actxt.net/search/,{\n  \"body\": \"type=articlename&searchkey={{key}}&submit=\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

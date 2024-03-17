@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceName": "76书屋(60秒)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.76sw.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "仙侠::/type/2_0_0_lastupdate_{{page}}.html\n都市::/type/3_0_0_lastupdate_{{page}}.html\n职场::/type/4_0_0_lastupdate_{{page}}.html\n历史::/type/5_0_0_lastupdate_{{page}}.html\n军事::/type/6_0_0_lastupdate_{{page}}.html\n科幻::/type/7_0_0_lastupdate_{{page}}.html\n游戏::/type/8_0_0_lastupdate_{{page}}.html\n灵异::/type/9_0_0_lastupdate_{{page}}.html\n短篇::/type/10_0_0_lastupdate_{{page}}.html\n现言::/type/11_0_0_lastupdate_{{page}}.html\n古言::/type/12_0_0_lastupdate_{{page}}.html\n幻侠::/type/13_0_0_lastupdate_{{page}}.html\n穿越::/type/14_0_0_lastupdate_{{page}}.html\n总裁::/type/15_0_0_lastupdate_{{page}}.html\n浪漫::/type/16_0_0_lastupdate_{{page}}.html\n耽美::/type/17_0_0_lastupdate_{{page}}.html",
+        "header": "{'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/71.0.3578.141 Safari/534.24 XiaoMi/MiuiBrowser/12.4.14'}",
+        "lastUpdateTime": 1694806797780,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##\\s\\d.*",
+            "lastChapter": "[property$=latest_chapter_name]@content##正文卷.|正文.|VIP章节.|免费章节.|VIP卷.|默认卷.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加].*?[】）\\)]",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.章节@href"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@textNodes",
+            "replaceRegex": "##76书屋|http://www.76sw.com，最快更新|最新章节！",
+            "sourceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "h4@a@href@js:'http://www.76sw.com'+result",
+            "checkKeyWord": "http://www.76sw.com/novel/193236/",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@textNodes",
+            "kind": "",
+            "lastChapter": ".update@a@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapterlist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ".pagelist@.pagenum@select@option@value||text.下一页@href"
+        },
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}\n/novelsearch/search/result.html?searchkey={{key}}&submit=",
+        "weight": 0
+    }
+]

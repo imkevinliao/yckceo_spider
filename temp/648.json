@@ -1,0 +1,67 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☁修正,☣️senhora起点,🍺特优,☁️可用",
+        "bookSourceName": "🍺 奇书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qishubook.com",
+        "bookUrlPattern": "",
+        "customOrder": 220807,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::https://www.qishubook.com/fenlei/1_{{page}}/\n言情小说::https://www.qishubook.com/fenlei/2_{{page}}/\n仙侠小说::https://www.qishubook.com/fenlei/3_{{page}}/\n都市小说::https://www.qishubook.com/fenlei/4_{{page}}/\n历史小说::https://www.qishubook.com/fenlei/5_{{page}}/\n网游小说::https://www.qishubook.com/fenlei/6_{{page}}/\n竞技小说::https://www.qishubook.com/fenlei/7_{{page}}/\n科幻小说::https://www.qishubook.com/fenlei/8_{{page}}/\n完本小说::https://www.qishubook.com/quanben/{{page}}",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1644840252859,
+        "loginUrl": "",
+        "respondTime": 2120,
+        "ruleBookInfo": {
+            "author": "id.info@h1@small@text##/",
+            "coverUrl": "id.picbox@img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "id.info@class.booktag@span@text",
+            "lastChapter": "id.info@tag.p.3@text##最新：",
+            "name": "id.info@h1@text##/.*",
+            "tocUrl": "",
+            "wordCount": "id.info@tag.p.2@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html##一秒记.*免费阅读！|.*更新.*最新章节！",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "class.sp_4@text",
+            "bookList": "class.gx_cont@tag.li!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": "class.sp_6@text"
+        },
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "class.odd.0@tag.a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "class.odd.2@text",
+            "lastChapter": "class.even.0@tag.a@text",
+            "name": "class.odd.0@tag.a@text",
+            "wordCount": "class.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.zjlist@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.qishubook.com/modules/article/search.php?searchkey={{key}}&submit=,{\"charset\":\"gbk\"}\n",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍉自制,修复",
+        "bookSourceName": "36书房网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.x36sfw.com",
+        "bookUrlPattern": "",
+        "customOrder": 616,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1664165702503,
+        "loginUrl": "",
+        "respondTime": 181071,
+        "ruleBookInfo": {
+            "coverUrl": "id.bookdetail@tag.img@src",
+            "intro": "class.review@textNodes",
+            "kind": ".sort@span@text",
+            "tocUrl": ".recommend@h2.1@a@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes",
+            "nextContentUrl": "class.Readpage@text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@a.1@text",
+            "bookList": "class.slide-item list1@class.hot_sale",
+            "bookUrl": "a.0@href",
+            "kind": "",
+            "lastChapter": ".author.1@a@textNodes",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@p!0:-1",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://wap.x36sfw.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

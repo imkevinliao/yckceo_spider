@@ -1,0 +1,68 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⚖️",
+        "bookSourceName": "⚖️ 啊酷小说(修复)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.owlook.top/##@遇知",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"🔖男生🍁全部🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部\",\"url\":\"/all/id/4.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"奇幻玄幻\",\"url\":\"/all/id/18.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/all/id/19.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/all/id/20.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市娱乐\",\"url\":\"/all/id/21.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻末日\",\"url\":\"/all/id/22.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/all/id/34.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/all/id/35.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖女生🍁全部🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部\",\"url\":\"/all/id/8.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"同人衍生\",\"url\":\"/all/id/39.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女频频道\",\"url\":\"/all/id/42.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖男生🍁完结🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部\",\"url\":\"/all/serialize/1/id/4.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"奇幻玄幻\",\"url\":\"/all/serialize/1/id/18.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/all/serialize/1/id/19.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/all/serialize/1/id/20.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市娱乐\",\"url\":\"/all/serialize/1/id/21.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻末日\",\"url\":\"/all/serialize/1/id/22.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/all/serialize/1/id/34.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/all/serialize/1/id/35.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖女生🍁完结🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部\",\"url\":\"/all/serialize/1/id/8.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"同人衍生\",\"url\":\"/all/serialize/1/id/39.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女频频道\",\"url\":\"/all/serialize/1/id/42.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n\n]",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 XiaoMi/MiuiBrowser/18.1.8 swan-mibrowser\"\n}",
+        "jsLib": "",
+        "lastUpdateTime": 1684752400277,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author.0@text",
+            "canReName": "",
+            "coverUrl": ".pic img@src\n@js:\"https://www.owlook.top\"+result;",
+            "intro": "🔔 {{@@.updatetime@text}}\n📂 内容简介：{{@@.summary1@text}}##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "{{@@.tags span.1:0@text}}\n{{@@.updatetime@text}}##.*:",
+            "lastChapter": ".chaptername a@text",
+            "name": ".name@text",
+            "tocUrl": "",
+            "wordCount": ".hits span.0@text##\\s"
+        },
+        "ruleContent": {
+            "content": ".read-content@html||.j_readContent@html",
+            "title": ""
+        },
+        "ruleExplore": {
+            "author": "dd a.1@text",
+            "bookList": "dl",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": ".big-book-info@text",
+            "kind": "dd a.2@text&&p.0@textNodes&&p.2@span.1@text##\\|\\s|\\s.*",
+            "name": "dd a.0@text",
+            "wordCount": "p.2@span.0@text##\\||\\s*"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dd a.1@text",
+            "bookList": "<js>\nif(result.match(/Just a moment/)){\ncookie.removeCookie(source.getKey());\nvar u = java.get('url');\njava.startBrowserAwait(u,\"验证\")\nresult=java.ajax(u)\n\t}\n\tresult\n</js>.secd-rank-list",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@data-original",
+            "intro": ".big-book-info@text",
+            "kind": "dd a.2@text&&p.0@textNodes&&p.2@span@text##\\|\\s|\\||\\s.*",
+            "lastChapter": "p.2@a@text",
+            "name": "dd a.0@text",
+            "wordCount": "em.0@text##\\s*"
+        },
+        "ruleToc": {
+            "chapterList": ".cate-list a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "updateTime": ""
+        },
+        "searchUrl": "@js:var ua = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\";\nvar headers = {\"User-Agent\": ua};\nurl = \"https://www.owlook.top/search.html\";\njava.put('url', String(url + \"?\" +\"keyword=\"+key+\"&page=\"+page+\",\"+JSON.stringify(headers)))",
+        "variableComment": "",
+        "weight": 0
+    }
+]

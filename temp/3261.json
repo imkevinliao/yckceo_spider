@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceGroup": "禁",
+        "bookSourceName": "Ⓜ️幻想 (短篇)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://txt.hxtxt.top",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "首页::/,{\"webView\":true}\n长篇连载::list.php?catid=936&page={{page}},{\"webView\":true}\n短篇小说::list.php?catid=937&page={{page}},{\"webView\":true}\n家庭乱伦::search.php?kw=家庭乱伦&page={{page}},{\"webView\":true}\n都市生活::search.php?kw=都市生活&page={{page}},{\"webView\":true}\n绿帽题材::search.php?kw=绿帽主题&page={{page}},{\"webView\":true}\n多人群交::search.php?kw=多人群交&page={{page}},{\"webView\":true}\n强奸性虐::search.php?kw=强暴性虐&page={{page}},{\"webView\":true}\n古典玄幻::search.php?kw=古典玄幻&page={{page}},{\"webView\":true}\n校园师生::search.php?kw=学生校园&page={{page}},{\"webView\":true}\n校园师生::search.php?kw=学生校园&page={{page}},{\"webView\":true}\n人妻女友::search.php?kw=人妻女友&page={{page}},{\"webView\":true}",
+        "lastUpdateTime": 1682260956985,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "#chaptercontent p@text"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".item",
+            "bookUrl": "a@href##$##,{\\\"webView\\\":true}",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": "@js:[{\"text\":\"正文\"}]",
+            "chapterName": "text"
+        },
+        "searchUrl": "/search.php?kw={{key}},{\"webView\":true}",
+        "weight": 0
+    }
+]

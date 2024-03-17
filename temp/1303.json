@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⭐收集书源",
+        "bookSourceName": "⭐采墨阁-电脑(修复)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.caimoge.net",
+        "bookUrlPattern": "",
+        "customOrder": 44,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "玄幻奇幻::/shuku/xuanhuan/{{page}}.html\n武侠仙侠::/shuku/wuxia/{{page}}.html\n女频言情::/shuku/yanqing/{{page}}.html\n现代都市::/shuku/dushi/{{page}}.html\n历史军事::/shuku/lishi/{{page}}.html\n游戏竞技::/shuku/youxi/{{page}}.html\n科幻灵异::/shuku/kehuan/{{page}}.html\n美文同人::/shuku/tongren/{{page}}.html\n其他类型::/shuku/qita/{{page}}.html",
+        "lastUpdateTime": 1680693879202,
+        "loginUrl": "https://www.caimoge.net",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.four@text",
+            "bookList": "class.shulist@ul",
+            "bookUrl": "class.three@a@href",
+            "name": "class.three@tag.a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.dd.1@a@text",
+            "bookList": "id.sitembox@dl",
+            "bookUrl": "tag.dd.0@a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.dd.2@text",
+            "lastChapter": "tag.dd.3@a@text",
+            "name": "tag.dd.0@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.readerlist@li",
+            "chapterName": "a@text##-",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

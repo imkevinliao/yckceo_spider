@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "🎓自制源",
+        "bookSourceName": "👑笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xsbiquge.org/",
+        "customOrder": -2086014611,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"推荐小说\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"玄幻\",\"url\":\"/html/xuanhuanmofa/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"仙侠\",\"url\":\"/html/xianxiaxiuzhen/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市\",\"url\":\"/html/dushiyanqing/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"/html/lishijunshi/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"网游\",\"url\":\"/html/wangyoudongman/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻\",\"url\":\"/html/kehuanxiaoshuo/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"女生\",\"url\":\"/html/nvshengxiaoshuo/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"其他\",\"url\":\"/html/qitaxiaoshuo/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"全本\",\"url\":\"/quanben/html/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n\n]\n\n",
+        "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"\n}",
+        "lastUpdateTime": 1685710749238,
+        "respondTime": 11304,
+        "ruleBookInfo": {
+            "author": "class.w100 dispc@span@text",
+            "coverUrl": "class.info-main[0]@img@data-original",
+            "intro": "class.w100[0]@div[3]@text",
+            "kind": "",
+            "lastChapter": "class.dispc[3]@a@text##最新章节：",
+            "name": "class.w100[0]@h1@text",
+            "tocUrl": "baseUrl"
+        },
+        "ruleContent": {
+            "content": "id.article@html",
+            "nextContentUrl": "id.next_url@text.下一页@href",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "div[2]@text##.* ##",
+            "bookList": "class.category-div",
+            "bookUrl": "div@a@href",
+            "coverUrl": "a@img@data-original",
+            "intro": "class.intro indent@text",
+            "name": "div@a[1]@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "div[2]@text##.* ##",
+            "bookList": "class.category-div",
+            "bookUrl": "div@a@href",
+            "checkKeyWord": "系统",
+            "coverUrl": "a@img@data-original",
+            "intro": "class.intro indent@text",
+            "name": "div@a[1]@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.info-chapters flex flex-wrap.1@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.xsbiquge.org/search/,{\n  \"charset\":\"UTF-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&Submit\",\n  \"webView\":\"true\"\n}",
+        "weight": 0
+    }
+]

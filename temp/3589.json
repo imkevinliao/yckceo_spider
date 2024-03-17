@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "//搜索间隔30秒\n\ni=[\"<span.class=\\\"Y_1\\\"><\\/span>\",\"<span.class=\\\"Y_2\\\"><\\/span>\",\"<span.class=\\\"Y_3\\\"><\\/span>\",\"<span.class=\\\"Y_4\\\"><\\/span>\",\"<span.class=\\\"Y_5\\\"><\\/span>\",\"<span.class=\\\"Y_6\\\"><\\/span>\",\"<span.class=\\\"Y_7\\\"><\\/span>\",\"<span.class=\\\"Y_8\\\"><\\/span>\",\"<span.class=\\\"Y_9\\\"><\\/span>\",\"<span.class=\\\"Y_10\\\"><\\/span>\",\"<span.class=\\\"Y_11\\\"><\\/span>\",\"<span.class=\\\"Y_12\\\"><\\/span>\",\"<span.class=\\\"Y_13\\\"><\\/span>\",\"<span.class=\\\"Y_14\\\"><\\/span>\",\"<span.class=\\\"Y_15\\\"><\\/span>\",\"<span.class=\\\"Y_16\\\"><\\/span>\",\"<span.class=\\\"Y_17\\\"><\\/span>\",\"<span.class=\\\"Y_18\\\"><\\/span>\",\"<span.class=\\\"Y_19\\\"><\\/span>\",\"<span.class=\\\"Y_20\\\"><\\/span>\",\"<span.class=\\\"Y_21\\\"><\\/span>\",\"<span.class=\\\"Y_22\\\"><\\/span>\",\"<span.class=\\\"Y_23\\\"><\\/span>\",\"<span.class=\\\"Y_24\\\"><\\/span>\",\"<span.class=\\\"Y_25\\\"><\\/span>\",\"<span.class=\\\"Y_26\\\"><\\/span>\",\"<span.class=\\\"Y_27\\\"><\\/span>\",\"<span.class=\\\"Y_28\\\"><\\/span>\",\"<span.class=\\\"Y_29\\\"><\\/span>\",\"<span.class=\\\"Y_30\\\"><\\/span>\",\"<span.class=\\\"Y_31\\\"><\\/span>\",\"<span.class=\\\"Y_32\\\"><\\/span>\",\"<span.class=\\\"Y_33\\\"><\\/span>\",\"<span.class=\\\"Y_34\\\"><\\/span>\",\"<span.class=\\\"Y_35\\\"><\\/span>\",\"<span.class=\\\"Y_36\\\"><\\/span>\",\"<span.class=\\\"Y_37\\\"><\\/span>\",\"<span.class=\\\"Y_38\\\"><\\/span>\",\"<span.class=\\\"Y_39\\\"><\\/span>\",\"<span.class=\\\"Y_40\\\"><\\/span>\",\"<span.class=\\\"Y_41\\\"><\\/span>\",\"<span.class=\\\"Y_42\\\"><\\/span>\",\"<span.class=\\\"Y_43\\\"><\\/span>\",\"<span.class=\\\"Y_44\\\"><\\/span>\",\"<span.class=\\\"Y_45\\\"><\\/span>\",\"<span.class=\\\"Y_46\\\"><\\/span>\",\"<span.class=\\\"Y_47\\\"><\\/span>\",\"<span.class=\\\"Y_48\\\"><\\/span>\",\"<span.class=\\\"Y_49\\\"><\\/span>\",\"<span.class=\\\"Y_50\\\"><\\/span>\",\"<span.class=\\\"Y_51\\\"><\\/span>\",\"<span.class=\\\"Y_52\\\"><\\/span>\",\"<span.class=\\\"Y_53\\\"><\\/span>\",\"<span.class=\\\"Y_54\\\"><\\/span>\",\"<span.class=\\\"Y_55\\\"><\\/span>\",\"<span.class=\\\"Y_56\\\"><\\/span>\",\"<span.class=\\\"Y_57\\\"><\\/span>\",\"<span.class=\\\"Y_58\\\"><\\/span>\",\"<span.class=\\\"Y_59\\\"><\\/span>\",\"<span.class=\\\"Y_60\\\"><\\/span>\",\"<span.class=\\\"Y_61\\\"><\\/span>\",\"<span.class=\\\"Y_62\\\"><\\/span>\",\"<span.class=\\\"Y_63\\\"><\\/span>\",\"<span.class=\\\"Y_64\\\"><\\/span>\",\"<span.class=\\\"Y_65\\\"><\\/span>\",\"<span.class=\\\"Y_66\\\"><\\/span>\",\"<span.class=\\\"Y_67\\\"><\\/span>\",\"<span.class=\\\"Y_68\\\"><\\/span>\",\"<span.class=\\\"Y_69\\\"><\\/span>\",\"<span.class=\\\"Y_70\\\"><\\/span>\",\"<span.class=\\\"Y_71\\\"><\\/span>\",\"<span.class=\\\"Y_72\\\"><\\/span>\",\"<span.class=\\\"Y_73\\\"><\\/span>\",\"<span.class=\\\"Y_74\\\"><\\/span>\",\"<span.class=\\\"Y_75\\\"><\\/span>\",\"<span.class=\\\"Y_76\\\"><\\/span>\",\"<span.class=\\\"Y_77\\\"><\\/span>\",\"<span.class=\\\"Y_78\\\"><\\/span>\",\"<span.class=\\\"Y_79\\\"><\\/span>\",\"<span.class=\\\"Y_80\\\"><\\/span>\",\"<span.class=\\\"Y_81\\\"><\\/span>\",\"<span.class=\\\"Y_82\\\"><\\/span>\",\"<span.class=\\\"Y_83\\\"><\\/span>\",\"<span.class=\\\"Y_84\\\"><\\/span>\",\"<span.class=\\\"Y_85\\\"><\\/span>\",\"<span.class=\\\"Y_86\\\"><\\/span>\",\"<span.class=\\\"Y_87\\\"><\\/span>\",\"<span.class=\\\"Y_88\\\"><\\/span>\",\"<span.class=\\\"Y_89\\\"><\\/span>\",\"<span.class=\\\"Y_90\\\"><\\/span>\",\"<span.class=\\\"Y_91\\\"><\\/span>\",\"<span.class=\\\"Y_92\\\"><\\/span>\",\"<span.class=\\\"Y_93\\\"><\\/span>\",\"<span.class=\\\"Y_94\\\"><\\/span>\",\"<span.class=\\\"Y_95\\\"><\\/span>\",\"<span.class=\\\"Y_96\\\"><\\/span>\",\"<span.class=\\\"Y_97\\\"><\\/span>\",\"<span.class=\\\"Y_98\\\"><\\/span>\",\"<span.class=\\\"Y_99\\\"><\\/span>\",\"<span.class=\\\"Y_100\\\"><\\/span>\",\"<span.class=\\\"Y_101\\\"><\\/span>\",\"<span.class=\\\"Y_102\\\"><\\/span>\",\"<span.class=\\\"Y_103\\\"><\\/span>\",\"<span.class=\\\"Y_104\\\"><\\/span>\",\"<span.class=\\\"Y_105\\\"><\\/span>\",\"<span.class=\\\"Y_106\\\"><\\/span>\",\"<span.class=\\\"Y_107\\\"><\\/span>\",\"<span.class=\\\"Y_108\\\"><\\/span>\",\"<span.class=\\\"Y_109\\\"><\\/span>\",\"<span.class=\\\"Y_110\\\"><\\/span>\",\"<span.class=\\\"Y_111\\\"><\\/span>\",\"<span.class=\\\"Y_112\\\"><\\/span>\",\"<span.class=\\\"Y_113\\\"><\\/span>\",\"<span.class=\\\"Y_114\\\"><\\/span>\",\"<span.class=\\\"Y_115\\\"><\\/span>\",\"<span.class=\\\"Y_116\\\"><\\/span>\",\"<span.class=\\\"Y_117\\\"><\\/span>\",\"<span.class=\\\"Y_118\\\"><\\/span>\",\"<span.class=\\\"Y_119\\\"><\\/span>\",\"<span.class=\\\"Y_120\\\"><\\/span>\",\"<span.class=\\\"Y_121\\\"><\\/span>\",\"<span.class=\\\"Y_122\\\"><\\/span>\",\"<span.class=\\\"Y_123\\\"><\\/span>\",\"<span.class=\\\"Y_124\\\"><\\/span>\",\"<span.class=\\\"Y_125\\\"><\\/span>\",\"<span.class=\\\"Y_126\\\"><\\/span>\",\"<span.class=\\\"Y_127\\\"><\\/span>\",\"<span.class=\\\"Y_128\\\"><\\/span>\",\"<span.class=\\\"Y_129\\\"><\\/span>\",\"<span.class=\\\"Y_130\\\"><\\/span>\",\"<span.class=\\\"Y_131\\\"><\\/span>\",\"<span.class=\\\"Y_132\\\"><\\/span>\",\"<span.class=\\\"Y_133\\\"><\\/span>\",\"<span.class=\\\"Y_134\\\"><\\/span>\",\"<span.class=\\\"Y_135\\\"><\\/span>\",\"<span.class=\\\"Y_136\\\"><\\/span>\",\"<span.class=\\\"Y_137\\\"><\\/span>\",\"<span.class=\\\"Y_138\\\"><\\/span>\",\"<span.class=\\\"Y_139\\\"><\\/span>\",\"<span.class=\\\"Y_140\\\"><\\/span>\",\"<span.class=\\\"Y_141\\\"><\\/span>\",\"<span.class=\\\"Y_142\\\"><\\/span>\",\"<span.class=\\\"Y_143\\\"><\\/span>\",\"<span.class=\\\"Y_144\\\"><\\/span>\",\"<span.class=\\\"Y_145\\\"><\\/span>\",\"<span.class=\\\"Y_146\\\"><\\/span>\",\"<span.class=\\\"Y_147\\\"><\\/span>\",\"<span.class=\\\"Y_148\\\"><\\/span>\",\"<span.class=\\\"Y_149\\\"><\\/span>\",\"<span.class=\\\"Y_150\\\"><\\/span>\",\"<span.class=\\\"Y_151\\\"><\\/span>\",\"<span.class=\\\"Y_152\\\"><\\/span>\",\"<span.class=\\\"Y_153\\\"><\\/span>\",\"<span.class=\\\"Y_154\\\"><\\/span>\",\"<span.class=\\\"Y_155\\\"><\\/span>\",\"<span.class=\\\"Y_156\\\"><\\/span>\",\"<span.class=\\\"Y_157\\\"><\\/span>\",\"<span.class=\\\"Y_158\\\"><\\/span>\",\"<span.class=\\\"Y_159\\\"><\\/span>\",\"<span.class=\\\"Y_160\\\"><\\/span>\",\"<span.class=\\\"Y_161\\\"><\\/span>\",\"<span.class=\\\"Y_162\\\"><\\/span>\",\"<span.class=\\\"Y_163\\\"><\\/span>\",\"<span.class=\\\"Y_164\\\"><\\/span>\",\"<span.class=\\\"Y_165\\\"><\\/span>\",\"<span.class=\\\"Y_166\\\"><\\/span>\",\"<span.class=\\\"Y_167\\\"><\\/span>\",\"<span.class=\\\"Y_168\\\"><\\/span>\",\"x`ue \",\"R`ou \"]\n\nz=[\"男\",\"人\",\"啊\",\"爱\",\"按\",\"暴\",\"臀\",\"逼\",\"擦\",\"潮\",\"动\",\"？\",\"吃\",\"抽\",\"处\",\"床\",\"春\",\"唇\",\"刺\",\"粗\",\"大\",\"洞\",\"逗\",\"硬\",\"儿\",\"反\",\"犯\",\"峰\",\"妇\",\"抚\",\"夫\",\"腹\",\"干\",\"搞\",\"根\",\"公\",\"宫\",\"勾\",\"股\",\"狠\",\"花\",\"滑\",\"坏\",\"魂\",\"鸡\",\"激\",\"夹\",\"奸\",\"交\",\"叫\",\"娇\",\"姐\",\"禁\",\"精\",\"进\",\"紧\",\"菊\",\"渴\",\"口\",\"裤\",\"胯\",\"快\",\"浪\",\"力\",\"搂\",\"乱\",\"裸\",\"妈\",\"毛\",\"迷\",\"靡\",\"妹\",\"摸\",\"嫩\",\"母\",\"娘\",\"尿\",\"咛\",\"女\",\"哦\",\"趴\",\"喷\",\"婆\",\"屁\",\"气\",\"枪\",\"窃\",\"骑\",\"妻\",\"情\",\"亲\",\"裙\",\"热\",\"日\",\"肉\",\"揉\",\"乳\",\"软\",\"润\",\"入\",\"塞\",\"骚\",\"色\",\"上\",\"舌\",\"射\",\"身\",\"深\",\"湿\",\"兽\",\"受\",\"舒\",\"爽\",\"水\",\"睡\",\"酥\",\"死\",\"烫\",\"痛\",\"舔\",\"天\",\"体\",\"挺\",\"头\",\"腿\",\"脱\",\"味\",\"慰\",\"吻\",\"握\",\"喔\",\"污\",\"下\",\"小\",\"性\",\"熊\",\"血\",\"穴\",\"阳\",\"痒\",\"药\",\"腰\",\"夜\",\"液\",\"野\",\"衣\",\"姨\",\"吟\",\"淫\",\"荫\",\"幽\",\"诱\",\"尤\",\"欲\",\"吁\",\"玉\",\"吮\",\"窄\",\"占\",\"征\",\"汁\",\"嘴\",\"，\",\"。\",\"…\",\"弄\",\"慾\",\"丢\",\"穴\",\"肉\"]\n\nhtml = result;\n\n//替换\nfunction ti(html,i,z){\n\treg = new RegExp(i,'g');\n\treturn html.replace(reg,z);\n\t}\nfor(x in i){\n\thtml = ti(html,i[x],z[x])\n\t}\nresult = html;",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "云书小说/云书中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://yunshuzw.com",
+        "bookUrlPattern": "https://yunshuzw.com/Novel.Asp?Id=\\d+",
+        "customOrder": 1000004,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "少年::/ShaoNian/<,{{page}}/>\n大叔::/DaShu/<,{{page}}/>\n萌妹::/MengMei/<,{{page}}/>\n完本::/WanBen/",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1686829312842,
+        "loginUrl": "https://yunshuzw.com/User/login.asp",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".detail@a.0@text",
+            "coverUrl": ".info flex@img@src",
+            "init": "",
+            "intro": "class.con gray@text",
+            "kind": ".detail@tag.i@text&&.detail@p.2@text\n##更新：|…",
+            "lastChapter": ".cataloglist@li.0@text##更新：.*",
+            "name": "h1@text",
+            "tocUrl": "{{baseUrl}}&Y=-1"
+        },
+        "ruleContent": {
+            "content": "#ak@html<js>\neval(String(source.bookSourceComment))</js>",
+            "replaceRegex": "##y.*m|Y.*M|云书小说.*|<img.*(\\s.*)*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".searchlist@li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "kind": "font@text||p.3@text\n##状态：|…",
+            "lastChapter": "a.3@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://yunshuzw.com/search.asp?S={{key}}&objectType=2,{\n  \"charset\": \"GB2312\"\n}",
+        "weight": 0
+    }
+]

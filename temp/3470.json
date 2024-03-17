@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.jieshengit.com",
+        "bookUrlPattern": "https://m.jieshengit.com/wapbook/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/xclass/0/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻小说\",\"url\":\"/xclass/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真小说\",\"url\":\"/xclass/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/xclass/3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越小说\",\"url\":\"/xclass/4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游小说\",\"url\":\"/xclass/5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/xclass/6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情小说\",\"url\":\"/xclass/7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他小说\",\"url\":\"/xclass/8/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1685837797219,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@text",
+            "coverUrl": "#thumb@img@src",
+            "intro": "class.review@text",
+            "kind": "#book_detail@li.1:2:3@text\n##类别：|状态：|更新：",
+            "lastChapter": "#chapterlist@p.0@text",
+            "name": "class.title@text",
+            "tocUrl": "text.章节列表@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##『.*』|.*\\[.*页\\]|j.*m|w.*m"
+        },
+        "ruleExplore": {
+            "author": "p@a.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "class.review@text",
+            "kind": "class.score@text",
+            "name": "a@p@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@a.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "a@href##.+\\D((\\d+)\\d{3})\\D##https://m.jieshengit.com/img/$2/$1.jpg###",
+            "kind": "p.2@textNodes\n##最近更新：\\s",
+            "lastChapter": "p.2@a@text",
+            "name": "a@p@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist@!0:-1",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://m.jieshengit.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

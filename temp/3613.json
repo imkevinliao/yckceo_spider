@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "吉星小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.jxgxlc.com",
+        "customOrder": 2,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"/sort/1_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠重生\",\"url\":\"/sort/2_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/sort/3_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史穿越\",\"url\":\"/sort/4_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游动漫\",\"url\":\"/sort/5_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻推理\",\"url\":\"/sort/6_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖灵异\",\"url\":\"/sort/7_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他类型\",\"url\":\"/sort/8_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "",
+        "lastUpdateTime": 1687178742255,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者：@a.0@text",
+            "coverUrl": ".block_img2@img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2@p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2@p.-1@a@text",
+            "name": "h2@a@text",
+            "tocUrl": "text.查看目录@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr1@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##Ｍ.*Μ|爱阅小说.*|网站即将关闭.*|章节错误,点此报送.*|报送后.*请耐心等待"
+        },
+        "ruleExplore": {
+            "author": "p.1@textNodes",
+            "bookList": ".book_list1@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".intro1@text",
+            "kind": "span@text&&p.-1@text##更新：",
+            "name": "p.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "<js>var page=result.match(/\\(第\\d+\\/(\\d+)页\\)当前\\d+条\\/页/)[1];\nvar id=baseUrl.match(/\\d+/)\nif(baseUrl.match(/_1/)){\n\tvar url=baseUrl;\n\t}else{\n\t\tvar go=baseUrl.replace(/list|.html/g,\"\");\n\t\tvar url=String(go+\"/\"+id+\"_1/\");\n}\nvar list=[];\nfor(var i=2;i<=page;i++){list.push(url.replace(/_1/,'_'+i))}\nlist;</js>"
+        },
+        "searchUrl": "https://m.jxgxlc.com/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"post\",\n\"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

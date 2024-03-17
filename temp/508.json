@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.mayiwxw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1648186348310,
+        "respondTime": 25148,
+        "ruleBookInfo": {
+            "author": "class.info_t4@text##类别\\：",
+            "coverUrl": "class.info_novel_img@img@src",
+            "intro": "id.inf@text",
+            "kind": "class.info_t2@text",
+            "lastChapter": "class.info_t6@text",
+            "name": "class.info_t1@text"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "li.2@a@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.sone",
+            "bookUrl": "class.sone@a@href",
+            "checkKeyWord": "",
+            "name": "class.sone@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.info_newest.1@ul@li",
+            "chapterName": "li@a@text",
+            "chapterUrl": "li@a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.mayiwxw.com/s.php,{\n'charset': 'utf-8',\n'method': 'POST',\n'body': 'search_key={{key}}'}",
+        "weight": 0
+    }
+]

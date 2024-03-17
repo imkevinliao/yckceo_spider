@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "https://api3-normal-lf.fqnovel.com/reading/bookapi/directory/all_items/v/?need_version=true&book_id={$.book_id}&iid=2665637677906061&aid=1967&app_name=novelapp&version_code=100103",
+        "bookSourceGroup": "",
+        "bookSourceName": "番茄小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api5-normal-lf.fqnovel.com",
+        "customOrder": 19,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; M2007J22C Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1649862410855,
+        "loginUrl": "",
+        "respondTime": 3772,
+        "ruleBookInfo": {
+            "author": ".author",
+            "coverUrl": ".thumb_url",
+            "init": "",
+            "intro": "👁️   阅读：{{$..sub_info}}\n🔗   来源：{{$..source}}\n🏷️   标签：{{$..tags}}\n👤   主角：{{$..roles}}{{'\\n'+'​'}}\n🔖   简介：{{$..abstract}}##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "{{$..category}},连载{{$..creation_status}}完结,{{$..score}}分,{{$..create_time##T.*}}@js:result.replace(/连载0完结/g,'完结').replace(/连载1完结/g,'连载').replace(/连载4完结/g,'已断更').replace(/连载-1完结/g,'完结')",
+            "lastChapter": ".last_chapter_title##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": ".book_name",
+            "wordCount": ".word_number"
+        },
+        "ruleContent": {
+            "content": "$..content<js>result</js>",
+            "replaceRegex": "##\\{.*\\}"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "$..book_data[*]||$..book_info[*]",
+            "bookUrl": "https://api5-normal-lf.fqnovel.com/reading/bookapi/directory/all_items/v/?need_version=true&book_id={{$.book_id}}&iid=2665637677906061&aid=1967&app_name=novelapp&version_code=495",
+            "checkKeyWord": "",
+            "coverUrl": "thumb_url",
+            "intro": "abstract",
+            "kind": "{{$.category}},{{$.source}},连载{{$.creation_status}}完结,{{$.score}}分,{{$.create_time##T.*}}@js:result.replace(/连载0完结/g,'完结').replace(/连载1完结/g,'连载').replace(/连载4完结/g,'已断更').replace(/连载-1完结/g,'完结')",
+            "lastChapter": "",
+            "name": "book_name",
+            "wordCount": "word_number"
+        },
+        "ruleToc": {
+            "chapterList": "$..item_data_list[*]",
+            "chapterName": "$..title##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "chapterUrl": "https://novel.snssdk.com/api/novel/book/reader/full/v1/?group_id={$..item_id}&item_id={$..item_id}"
+        },
+        "searchUrl": "https://api5-normal-lf.fqnovel.com/reading/bookapi/search/page/v/?offset=0&passback=&query={{key}}&search_id=&iid=4125792742674311&aid=1967",
+        "weight": 0
+    }
+]

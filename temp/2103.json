@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceUrl": "http://xiaoqiangla.net/",
+        "bookSourceType": "0",
+        "bookSourceName": "小强小说",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/modules/article/search.php,{\n \"charset\": \"gbk\",\n \"method\": \"POST\",\n \"body\": \"searchkey={{key}}\"\n}",
+        "exploreUrl": "凌辱::http://m.xiaoqiangla.net/tag/0/37/1.html\nSM::http://m.xiaoqiangla.net/tag/0/38/1.html\n调教::http://m.xiaoqiangla.net/tag/0/39/1.html\n催眠::http://m.xiaoqiangla.net/tag/0/40/1.html\n交换::http://m.xiaoqiangla.net/tag/0/41/1.html\n校园::http://m.xiaoqiangla.net/tag/0/42/1.html\n乡村::http://m.xiaoqiangla.net/tag/0/43/1.html\n职场::http://m.xiaoqiangla.net/tag/0/44/1.html\n真实::http://m.xiaoqiangla.net/tag/0/45/1.html\n故事::http://m.xiaoqiangla.net/tag/0/46/1.html\n武侠::http://m.xiaoqiangla.net/tag/0/47/1.html\n少妇::http://m.xiaoqiangla.net/tag/0/48/1.html\n娇妻::http://m.xiaoqiangla.net/tag/0/49/1.html\n后宫::http://m.xiaoqiangla.net/tag/0/50/1.html\n绿妻::http://m.xiaoqiangla.net/tag/0/51/1.html\n绿帽::http://m.xiaoqiangla.net/tag/0/52/1.html\n绿母::http://m.xiaoqiangla.net/tag/0/53/1.html\n乱伦::http://m.xiaoqiangla.net/tag/0/54/1.html\n同人::http://m.xiaoqiangla.net/tag/0/55/1.html\n妖文::http://m.xiaoqiangla.net/tag/0/56/1.html\n玄幻::http://m.xiaoqiangla.net/tag/0/57/1.html\n男同::http://m.xiaoqiangla.net/tag/0/58/1.html\n触手::http://m.xiaoqiangla.net/tag/0/59/1.html\n穿越::http://m.xiaoqiangla.net/tag/0/60/1.html\n丝足::http://m.xiaoqiangla.net/tag/0/61/1.html\n古典::http://m.xiaoqiangla.net/tag/0/62/1.html\n秀色::http://m.xiaoqiangla.net/tag/0/63/1.html\n暴露::http://m.xiaoqiangla.net/tag/0/64/1.html\n重生::http://m.xiaoqiangla.net/tag/0/65/1.html\n冰恋::http://m.xiaoqiangla.net/tag/0/66/1.html\n重口::http://m.xiaoqiangla.net/tag/0/68/1.html\n百合::http://m.xiaoqiangla.net/tag/0/69/1.html\n扶她::http://m.xiaoqiangla.net/tag/0/70/1.html\n科幻::http://m.xiaoqiangla.net/tag/0/71/1.html\n网游::http://m.xiaoqiangla.net/tag/0/72/1.html\n都市::http://m.xiaoqiangla.net/tag/0/73/1.html",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1617875149217,
+        "ruleSearch": {
+            "bookList": "id.alistbox",
+            "name": "class.title@tag.h2@tag.a@text",
+            "author": "class.title@tag.span@text",
+            "lastChapter": "class.sys@li@a@text",
+            "intro": "class.intro@text",
+            "coverUrl": "class.pic@a@img@src",
+            "bookUrl": "class.yuedu@a@href"
+        },
+        "ruleExplore": {
+            "bookList": "class.hot_sale",
+            "name": "class.title@text",
+            "author": "class.author@text",
+            "intro": "class.review@text",
+            "bookUrl": "class.hot_sale@tag.a@href##/\\d+_(\\d+)/##http://www.xiaoqiangla.net/book/$1.html"
+        },
+        "ruleBookInfo": {
+            "name": "class.f20h@text||class.title@text",
+            "author": "class.f20h@em@text##作者：||class.author@text",
+            "kind": "//*[@id=\"detail-box\"]/div/div[1]/div[1]/div[2]/table/tbody/tr[5]/td[1]/text()||class.sort@text##类别：",
+            "tocUrl": "class.btopt@tag.a@href||class.recommend@tag.h2.1@tag.a.0@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.liebiao@tag.ul@tag.li||id.chapterlist@tag.p!0",
+            "chapterName": "@tag.a@text",
+            "chapterUrl": "@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes||id.content@html"
+        }
+    }
+]

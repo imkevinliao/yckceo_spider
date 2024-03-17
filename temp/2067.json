@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌸 常用",
+        "bookSourceName": "墨雪🌸",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.moxue99.com",
+        "bookUrlPattern": "",
+        "customOrder": 60196,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618208393252,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "$4",
+            "coverUrl": "$2",
+            "init": ":g:d[^:]*:([^\"]*)(?:[^\"]*\"){8}([^\"]*)(?:[^\"]*\"){4}([^\"]*)(?:[^\"]*\"){4}([^\"]*)(?:[^\"]*\"){4}([^\"]*)(?:[^\"]*\"){12}([^\"]*)(?:[^\"]*\"){4}([^\\s]*)(?:[^\"]*\"){4}([^\"]*)",
+            "intro": "$1",
+            "kind": "$3,$6,$7",
+            "lastChapter": "$8",
+            "name": "$5"
+        },
+        "ruleContent": {
+            "content": "id.content@p@textNodes##喜欢.*速度最快。"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span.0@text",
+            "bookList": "id.sitembox@dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".book_des@text##\\...$",
+            "kind": "span!0:1@text##\\s.*",
+            "lastChapter": "a!0:1@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

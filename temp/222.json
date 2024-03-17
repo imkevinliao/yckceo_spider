@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "new",
+        "bookSourceName": "追书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.vipzhuishu.com/",
+        "bookUrlPattern": "http://www.vipzhuishu.com/book/\\d+.html",
+        "customOrder": -292892,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"玄幻\",\n\"url\":\"/list/1/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n{\"title\":\"仙侠\",\n\"url\":\"/list/2/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"都市\",\n\"url\":\"/list/3/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"历史\",\n\"url\":\"/list/4/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"科幻\",\n\"url\":\"/list/5/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"网游\",\n\"url\":\"/list/6/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"女频\",\n\"url\":\"/list/7/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"其他\",\n\"url\":\"/list/8/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}}]",
+        "lastUpdateTime": 1656678015719,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.booktag@a.0@text",
+            "coverUrl": "id.bookIntro@img@src",
+            "init": "",
+            "intro": "id.bookIntro@text",
+            "kind": "class.booktag@a.1@text&&class.blue.-1@text",
+            "lastChapter": "class.col-md-10@p.1@a@text",
+            "name": "class.bookTitle@text",
+            "wordCount": "class.blue.0@text##字数："
+        },
+        "ruleContent": {
+            "content": "body@script.-1@all\n<js>\nresult=result.match(/md5_content \\+\\= \"(.*?)\"/g);\nfor(i=0;i<=result.length-1;i++){\n\tresult[i]=result[i].match(/md5_content \\+\\= \"(.*?)\"/)[1];\n\t}\nresult=result.map(x=>'<p>'+x+'</p>').join(\"\\n\")\n</js>",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "td.2@text",
+            "bookList": "tr!0",
+            "bookUrl": "td.0@a@href",
+            "coverUrl": "td.0@a@href@js:\nid=result.replace(/[^\\d+]/g,\"\");\niid=parseInt(id/1000);\nresult=book.origin+'files/article/image/'+iid+'/'+id+'/'+id+'s.jpg'",
+            "kind": "td.-1@text",
+            "name": "td.0@text"
+        },
+        "ruleSearch": {
+            "author": "li.2@text##作者：",
+            "bookList": "class.mySearch@ul",
+            "bookUrl": "li.0@a@href",
+            "checkKeyWord": "全球高武",
+            "coverUrl": "li.0@a@href@js:\nid=result.replace(/[^\\d+]/g,\"\");\niid=parseInt(id/1000);\nresult=book.origin+'files/article/image/'+iid+'/'+id+'/'+id+'s.jpg'",
+            "kind": "li[4,5]@text##更新时间：|状态：",
+            "lastChapter": "",
+            "name": "li.0@a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.panel-chapterlist@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

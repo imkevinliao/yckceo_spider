@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceUrl": "https://www.1qxs.com",
+        "lastUpdateTime": 1674134761317,
+        "ruleToc": {
+            "chapterList": ".list@ul@ul@li",
+            "chapterName": "a@p@text",
+            "chapterUrl": "a@href",
+            "updateTime": ""
+        },
+        "bookSourceName": "一七小说",
+        "searchUrl": "https://www.1qxs.com/search.html?kw={{key}}",
+        "ruleSearch": {
+            "checkKeyWord": "",
+            "bookList": ".result_list@ul@li",
+            "name": "class.name@a@text",
+            "author": ".author@text",
+            "bookUrl": ".name@a@href",
+            "coverUrl": ".image@a@img@data-original",
+            "wordCount": ".count@text",
+            "kind": ".type@text",
+            "intro": ".desc.line_2@text"
+        },
+        "ruleBookInfo": {
+            "name": ".name@h1@text",
+            "author": ".name@span@text##著",
+            "kind": "class.label.1@span.0@text##分类：",
+            "wordCount": "class.label.0@span.1@text##字数：",
+            "lastChapter": "class.label.2@span@text",
+            "intro": "class.description@text##.*为转载作品.*",
+            "coverUrl": "class.book@class.image.0@img.0@data-original",
+            "tocUrl": "class.catalog.panel@a@href"
+        },
+        "ruleContent": {
+            "content": "class.content.font_familiy_1@html",
+            "replaceRegex": "##.*小说免费阅读.*|本章未完.*",
+            "nextContentUrl": "id.next@href"
+        }
+    }
+]

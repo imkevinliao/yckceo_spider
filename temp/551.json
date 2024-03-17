@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "④🎈  普通",
+        "bookSourceName": "🎈海棠书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.beiyongzhan.me/",
+        "bookUrlPattern": "",
+        "customOrder": 64,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "",
+        "lastUpdateTime": 1645801176536,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".info@a@text",
+            "coverUrl": "",
+            "init": "",
+            "intro": ".bd.2@html",
+            "kind": "class.info@text&&class.status@text##作者：.*?类型：|字数：.*?人气.*|\\n##,",
+            "lastChapter": ".list[0]@li[0]@text",
+            "name": ".right@text",
+            "tocUrl": "<js>\naid=result.match(/javascript:goChapterList\\((\\d+)\\)/)[1];\njava.put(\"aid\",aid)\nurl=\"https://www.beiyongzhan.me/mytool/getChapterList/\";\nverify=book.getVariable(\"custom\");\nbody=\"verify=\"+verify+\"&aid=\"+aid+\"&sbt=提交\"\nheader=source.getLoginHeader()?JSON.parse(source.getLoginHeader()).headers:\"\"\noption={\n\t\"method\":\"POST\",\n\t\"body\":String(body),\n\t\"headers\":header\n\t}\nresult=url+\",\"+JSON.stringify(option)\n</js>",
+            "wordCount": "class.info@text##作者：.*?字数：\\s*|\\s*人气.*\\s*"
+        },
+        "ruleContent": {
+            "content": "<js>\ncontent={\n    childNode:[],\n    childNodes:\nresult.match(/nrid=\"([^\"]+)\";/)?java.getElements(\"#\"+result.match(/nrid=\"([^\"]+)\";/)[1]+\"@p\").toArray():\"\",\n    UpWz:function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n    },\n    load:function(){\n  this.code=String(result).match(/codeurl=\"(\\d+)\"/)[1];\n        var e =String(java.base64Decode(java.getString('[name=client]@content'))).split(/[A-Z]+%/);\n\n        for (var i = 0; i < e.length; i++) {\n            var k = this.UpWz(e[i], i);\n            this.childNode[k]=this.childNodes[i]\n        }}\n}\nif(baseUrl.match(/getVerify/)){\n\thref=\"https://www.beiyongzhan.me/mytool/getVerify/?d=\"+Math.random();\n\t\naid=java.get('aid')\nurl=\"https://www.beiyongzhan.me/mytool/getChapterList/\";\nverify=book.getVariable(\"custom\");\nbody=\"verify=\"+verify+\"&aid=\"+aid+\"&sbt=提交\"\nc=String(java.post(url,body,{}).cookies()).replace(/\\{|\\}/g,'');\n\nheaders={\"headers\":{\"Cookie\":c}}\nsource.putLoginHeader(JSON.stringify(headers))\nresult='<img src=\"'+href+','+JSON.stringify(headers)+'\"><br>'+\"长按上面的图片查看验证码，或者右上角三点将图片样式改成FULL刷新正文查看验证码（没有图片的话请关闭替换净化）<br>详情页右上角三点，编辑书籍变量，填上验证码确定<br>详情页右上角三点刷新<br>如果刷新以后还是要获取的验证码，说明验证码不对，刷新正文获取新的验证码，重复上面步骤\"\n}else{if(baseUrl.match(/\\d+_2\\.html/)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");}else if(baseUrl.match(/\\/\\d+\\.html/)){\nresult=java.getElements(\"#contentinfo@p\")\n}else{\n\tresult=result.match(/html\\(d\\(\"([\\s\\S]+?)\",\".*?\\)\\)/)[1];\n\t}}\nresult+\"❎\"\n</js>",
+            "nextContentUrl": ".curr+a@href##.*?(\\d+),(\\d+),(\\d+),(\\d+).*##/$1/$2/$3_$4.html",
+            "replaceRegex": "##\\s*❎\\s*",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".info@a@text",
+            "bookList": ".column-2",
+            "bookUrl": "a@href",
+            "checkKeyWord": "千方百计",
+            "kind": "",
+            "lastChapter": ".update@a@text",
+            "name": ".name@text",
+            "wordCount": ".info@span@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "li a\n<js>\nif(String(src).match(/验证码不对/)){\nhref=\"https://www.beiyongzhan.me/mytool/getVerify/?d=\"+Math.random();\nresult=[{\"text\":\"验证码\",\"href\":href}]\n}else{result=result}\n</js>",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.beiyongzhan.me/s.html,{\n'charset': 'UTF-8',\n'method': 'POST',\n'body': 'wd={{key}}&submit=搜 索'\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "长夜余火小说网",
+        "bookSourceUrl": "https://www.changyeyuhuo.com",
+        "enable": false,
+        "ruleBookContent": "class.content@p@textNodes",
+        "ruleBookKind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+        "ruleBookLastChapter": "class.fix@tag.p.5@a@text",
+        "ruleChapterList": "class.section-list fix.1@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "",
+        "ruleChapterUrlNext": "option@value",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.imgbox@img@src",
+        "ruleFindUrl": "玄幻小说::https://www.changyeyuhuo.com/xiaoshuo/xuanhuan_searchPage/\n武侠小说::https://www.changyeyuhuo.com/xiaoshuo/wuxia_searchPage/\n都市小说::https://www.changyeyuhuo.com/xiaoshuo/dushi_searchPage/\n历史小说::https://www.changyeyuhuo.com/xiaoshuo/lishi_searchPage/\n科幻小说::https://www.changyeyuhuo.com/xiaoshuo/kehuan_searchPage/\n网游小说::https://www.changyeyuhuo.com/xiaoshuo/wangyou_searchPage/\n其他小说::https://www.changyeyuhuo.com/xiaoshuo/qita_searchPage/",
+        "ruleIntroduce": "class.m-desc xs-show@p@textNodes",
+        "ruleSearchAuthor": "class.s1@text",
+        "ruleSearchLastChapter": "class.s3@a@text",
+        "ruleSearchList": "class.txt-list txt-list-row5@li!0",
+        "ruleSearchName": "class.s2@a@text#《|》",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://www.changyeyuhuo.com/search/@searchkey=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

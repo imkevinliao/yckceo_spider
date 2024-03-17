@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceUrl": "https://www.biquge.win",
+        "bookSourceType": "0",
+        "bookSourceName": "笔趣阁W",
+        "bookSourceGroup": "🇨🇳",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://www.biquge.win/search.php?q={{key}}&p={{page}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 27,
+        "lastUpdateTime": 1632980935733,
+        "ruleSearch": {
+            "bookList": "class.result-item",
+            "name": "tag.a.1@text",
+            "author": "tag.p.1@text##作者.",
+            "kind": "tag.p.2@text##类型.",
+            "lastChapter": "tag.a.-1@text&&tag.p.-2@tag.span.1@text##..\\:.*",
+            "intro": "tag.p.0@text",
+            "coverUrl": "tag.img@src",
+            "bookUrl": "tag.a.1@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "id.info@tag.h1@text",
+            "author": "id.info@tag.p.0@text##作.*者.",
+            "kind": "class.con_top@tag.a.1@text",
+            "lastChapter": "id.info@tag.a.-1@text&&id.info@tag.p.-2@text##最后更新.|..\\:.*",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@tag.img.0@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        }
+    }
+]

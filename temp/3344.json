@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": " 有声",
+        "bookSourceName": "有声听书网",
+        "bookSourceType": 1,
+        "bookSourceUrl": "https://www.ysts.cc/",
+        "bookUrlPattern": "https://www.ysts.cc/tingshu/\\d+/",
+        "customOrder": -31076,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻有声::/book/xuanhuan/lastupdate/{{page}}.html\n灵异有声::/book/lingyi/lastupdate/{{page}}.html\n都市有声::/book/dushi/lastupdate/{{page}}.html\n军事有声::/book/junshi/lastupdate/{{page}}.html\n职场有声::/book/tongren/lastupdate/{{page}}.html\n网游竞技::/book/jingji/lastupdate/{{page}}.html\n长篇短评::/book/pingshu/lastupdate/{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+        "lastUpdateTime": 1641720298433,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book-info@tag.dd.3@text##演播：",
+            "coverUrl": "class.book-img@img@src",
+            "intro": "class.book-des@text",
+            "kind": "class.book-info@tag.dd.1@a@text&&\nclass.book-info@tag.dd.2@a@text&&\nclass.book-info@tag.dd.5@text##时间：",
+            "lastChapter": "class.book-info@tag.dd.4@text##状态：|更至",
+            "name": "class.book-info@tag.dt@h1@text##有声小说"
+        },
+        "ruleContent": {
+            "content": "<js>result</js>",
+            "replaceRegex": "",
+            "sourceRegex": ".*\\.(mp3|m4a).*"
+        },
+        "ruleExplore": {
+            "author": "class.list-book-cs@tag.span.1@text##演播：",
+            "bookList": "class.list-works@li",
+            "bookUrl": "class.list-book-dt@tag.a@href@js:result+',{webView:“true”}'",
+            "coverUrl": "img@data-original",
+            "intro": "class.list-book-des@text",
+            "kind": "class.list-book-cs@tag.span.0@text&&\nclass.list-book-cs@tag.span.3@text",
+            "lastChapter": "class.list-book-cs@tag.span.2@a@text",
+            "name": "class.list-book-dt@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.boyin.name",
+            "bookList": "$.[*]",
+            "bookUrl": "https://www.ysts.cc{$..url}",
+            "coverUrl": "https://www.ysts.cc{$..cover}",
+            "intro": "$..intro",
+            "kind": "",
+            "lastChapter": "$.last.name",
+            "name": "$..name##\\s.*"
+        },
+        "ruleToc": {
+            "chapterList": "class.playlist@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'",
+            "nextTocUrl": "class.hd-sel@option!0@value"
+        },
+        "searchUrl": "https://m.ysts.cc/api/ajax/solist?word={{key}}&type=name&page={{page}}&order=1",
+        "weight": 0
+    }
+]

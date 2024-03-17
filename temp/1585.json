@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceUrl": "https://gfnormal05at.com/h5/",
+        "lastUpdateTime": 1669773658543,
+        "ruleToc": {
+            "chapterList": ".child-title@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "bookSourceType": 0,
+        "bookSourceName": "笔趣阁gfnormal05at",
+        "bookSourceGroup": "笔趣阁",
+        "searchUrl": "https://gfnormal05at.com/h5/search?word={{key}}",
+        "ruleSearch": {
+            "checkKeyWord": "都市",
+            "bookList": ".books-list@li",
+            "name": ".weui-flex__item@text",
+            "author": ".type@span.0@text",
+            "kind": ".type@span.1@text",
+            "intro": ".desc@text",
+            "coverUrl": ".cover@img@src",
+            "bookUrl": ".cover@a@href"
+        },
+        "ruleBookInfo": {
+            "lastChapter": ".name@text",
+            "tocUrl": ".chapter@a@href"
+        },
+        "ruleContent": {
+            "content": ".weui_article@html",
+            "replaceRegex": "##[上下]一[章页]|看小说就用.*##"
+        }
+    }
+]

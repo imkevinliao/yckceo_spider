@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "🌀 仅发现",
+        "bookSourceName": "🌀 天天看书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kankan365.cc",
+        "customOrder": 1291,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"我的书架\",\"url\":\"/bookcase.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"排行榜\",\"url\":\"/rank/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻小说\",\"url\":\"/sort1/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真小说\",\"url\":\"/sort2/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/sort3/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史小说\",\"url\":\"/sort4/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游小说\",\"url\":\"/sort5/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/sort6/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生小说\",\"url\":\"/sort7/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"二次元\",\"url\":\"/sort8/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他小说\",\"url\":\"/sort9/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完本小说\",\"url\":\"/finish/?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\n\t\"User-Agents\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.92 Safari/537.36\",\n \"Referer\": \"{{baseUrl}}\"\n}",
+        "lastUpdateTime": 1698560236940,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "#fengmian > a > img@src",
+            "intro": "#list > div.book-main > div.book-text > div.intro@textNodes",
+            "kind": "#list > div.book-main > div.book-text > div.tag > span.blue@text&&\n#list > div.book-main > div.book-text > div.tag > span.red@text&&\n#list > div.book-main > div.book-text > div.tag > span.green@text&&\n#list > div.block-title > p.update-text > span@text",
+            "lastChapter": "#list > div.book-chapter-list > ul:nth-child(2) > li:nth-child(1) > a@text"
+        },
+        "ruleContent": {
+            "content": "#txt@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*章节错误.*"
+        },
+        "ruleExplore": {
+            "author": "div.book-info > p.author@text",
+            "bookList": "#main > div.main-content-2 > div.all-book-list > ul > li||\n#main > div.main-content > div > div.rank-box > div > ul > li",
+            "bookUrl": "div.book-info > h4 > a@href||\na@href",
+            "coverUrl": "div.book-img > a > img@src",
+            "intro": "div.book-info > p.intro@text",
+            "kind": "div.book-info > p.tag > span.blue@text&&\ndiv.book-info > p.tag > span.red@text&&\ndiv.book-info > p.tag > span.green@text",
+            "name": "div.book-info > h4 > a@text||\na@text",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "#list > div.book-chapter-list > ul:nth-child(4) > li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{\"webView\": true}",
+            "updateTime": ""
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

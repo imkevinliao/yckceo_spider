@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "零点小书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.ldxsw.co",
+        "bookUrlPattern": "http://www.ldxsw.co/\\d+_\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n排行::/paihangbang/\n完本::/wanben/1_{{page}}",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1688471655911,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\".m-desc@textNodes\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##『加入书签，方便阅读』"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": ".item||.txt-list@li",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:\"/themes/qu/nocover.jpg\"",
+            "intro": "a.-1@text",
+            "kind": "span.-1@text",
+            "name": "a.1@text||a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".odd.1@text",
+            "bookList": "#nr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "@js:\"/themes/qu/nocover.jpg\"",
+            "kind": "td.-1:-2@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@href",
+            "wordCount": "td.-3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".section-list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "@js:\nvar page=result.match(/当前第\\d+页，共(\\d+)页，每页显示\\d+章/)[1];\nif(baseUrl.match(/\\/1\\/$/)){\n\tvar url=baseUrl;\n\t}else{\n\t\tvar url=String(baseUrl+\"1/\");\n}\nvar list=[];\nfor(var i=2;i<=page;i++){\n\tlist.push(url.replace(/1\\/$/,i+\"/\"));\n}\nlist;"
+        },
+        "searchUrl": "http://www.ldxsw.co/modules/article/search.php?searchkey={{key}}&submit=&page={{page}},{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

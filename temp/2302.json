@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "酷安@匿名不然吓死你",
+        "bookSourceGroup": "微软必应",
+        "bookSourceName": "微软必应",
+        "bookSourceType": 0,
+        "bookSourceUrl": "微软必应",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1614290504166,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "li:matches(作者)@text||\np:matches(作者)@text||\ndiv:not(:has(div)):matches(作者)@text\n##作者：|简介.*",
+            "init": "",
+            "intro": "li:matches(简介)@all||\np:matches(简介)@all||\ndiv:not(:has(div)):matches(简介)@all",
+            "lastChapter": "",
+            "name": "title@text##\\(.*|_.*|-.*|最新.*|无弹窗.*|完整.*|\\:.*|全集.*|全文.*|免费.*|章节.*|免费.*|小说.*|,.*|txt.*",
+            "tocUrl": "a:matches(目录|列表|章节)@href"
+        },
+        "ruleContent": {
+            "content": "*:containsOwn(。)@all||\n*:has(>p:containsOwn(。))@all",
+            "nextContentUrl": "a:matches(下一章)@href||\na:matches(下一页)@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "intro": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.b_attribution@text",
+            "bookList": "@css:ol#b_results>li:not(:matches(百度百科|游戏|Douban|相关搜索|douban|电视剧|没有找到|未找到|微信|哔哩哔哩))",
+            "bookUrl": "h2@a@href",
+            "intro": "class.b_caption@text",
+            "kind": "",
+            "lastChapter": "span:matches(更新)@text",
+            "name": "h2@text##\\(.*|_.*|-.*|最新.*|无弹窗.*|完整.*|\\:.*|全集.*|全文.*|免费.*|章节.*|免费.*|小说.*|,.*|txt.*"
+        },
+        "ruleToc": {
+            "chapterList": "@css:div:containsOwn(章)>a,*:has(>ul):matches(第|章|Chapter)>ul a:not(:matches(返回|直达|上一页|下一页)),*:not(:has(div)):has(>*:has(>a)):matches(第|章|Chapter) a:not(:matches(返回|直达|上一页|下一页))",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "a:matches(下一页)@href"
+        },
+        "searchUrl": "http://www.bing.com/search?q={{key}}",
+        "weight": 0
+    }
+]

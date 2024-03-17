@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "通用搜索",
+        "bookSourceGroup": "普通",
+        "bookSourceName": "书林文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.shulinw.com/",
+        "bookUrlPattern": ".+/book/\\d+\\.html",
+        "customOrder": -118159,
+        "enabled": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "lastUpdateTime": 1616506442470,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "$4",
+            "canReName": "",
+            "coverUrl": "$2",
+            "init": ":(?=<meta property=\"og:desc)(?:([^\"]*)\"){4}(?:([^\"]*)\"){4}(?:([^\"]*)\"){4}(?:([^\"]*)\"){4}(?:([^\"]*)\"){4}(?:([^\"]*)\"){12}(?:([^\"']*)[\"']){8}(?:([^\"]*)\"){4}",
+            "intro": "$1",
+            "kind": "$3,$6",
+            "lastChapter": "$8",
+            "name": "$5",
+            "tocUrl": "",
+            "wordCount": "$7"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html",
+            "imageStyle": "",
+            "nextContentUrl": "",
+            "replaceRegex": "##\\s*{{book.durChapterTitle}}\\s*|你是天才，一秒记住.+",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "tag.h2@text##\\(([^\\(\\)]+)\\)##$1###",
+            "bookList": "class.results_links_deep",
+            "bookUrl": "class.result__url__domain@text##^##http://",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.h2@text##^([^\\(]+)\\(##$1###"
+        },
+        "ruleToc": {
+            "chapterList": "+id.list-chapterAll@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.dogedoge.com/results?q={{key}}+最新章节+site%3Awww.shulinw.com%2Fbook&lang=cn,{\"webView\":true}",
+        "weight": 0
+    }
+]

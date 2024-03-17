@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceName": "换源小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.huanyuan.app",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 0,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "tocUrl": "class.more.1@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.bodybox.0@html",
+            "title": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author.0@text",
+            "bookList": "class.library.0@tag.li",
+            "bookUrl": "class.bookname.0@href",
+            "checkKeyWord": "明克街13号",
+            "coverUrl": "class.bookimg.0@tag.img.0@src",
+            "intro": "class.intro.0@text",
+            "lastChapter": "class.chapter.0@text",
+            "name": "class.bookname.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.dd",
+            "chapterName": "tag.a.0@ownText",
+            "chapterUrl": "tag.a.0@href",
+            "nextTocUrl": "tag.a.0@tag.span.0@text"
+        },
+        "searchUrl": "/so/search.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "话本",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ihuaben.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1623488348317,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "$.modelData.content",
+            "replaceRegex": "##\\[img:(.*?)\\]##<img src=\"http://picapp.ihuaben.com/$1\">"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$.authorname",
+            "bookList": "$.pageUtil.pageList",
+            "bookUrl": "https://cdncn.ihuaben.com/cdn/chapters/{{$.bookid}}/{{$.updatetime}}000",
+            "coverUrl": "$.bookpic##^##http://picapp.ihuaben.com/",
+            "intro": "$.bookinfo",
+            "kind": "$.tag",
+            "lastChapter": "$.lastchaptertitle",
+            "name": "$.bookname",
+            "wordCount": "$.wordcount"
+        },
+        "ruleToc": {
+            "chapterList": "$.modelData.chapters",
+            "chapterName": "$.title",
+            "chapterUrl": "https://cdncn.ihuaben.com/cdn/chapter/{{$.bookId}}/{{$.chapterId}}/{{$.updateTime}}",
+            "updateTime": "{{$.wordCount}}字"
+        },
+        "searchUrl": "https://www.ihuaben.com/app/search?indexName=book&keyword={{key}}&page=1",
+        "weight": 0
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceName": "阅读吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.yuedu8.cc/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1671442109307,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.fix@p.0@text",
+            "coverUrl": "img@src",
+            "intro": "class.desc xs-hidden@text",
+            "kind": "class.xs-show.0@text##类 別：",
+            "lastChapter": "class.section-list fix.0@li.0@text&&class.fix@p.-2@text##最后更新：",
+            "name": "class.top@h1@text",
+            "tocUrl": "text.点击查看中间隐藏@href",
+            "wordCount": "class.fix@p.-1@text##字 数："
+        },
+        "ruleContent": {
+            "content": "class.content@p@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list txt-list-row5@li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "coverUrl": "class.s2@tag.a@href\n<js>java.ajax('http://www.yuedu8.cc'+result)</js>img@src",
+            "intro": "class.s2@tag.a@href\n<js>java.ajax('http://www.yuedu8.cc'+result)</js>class.desc xs-hidden@text",
+            "kind": "class.s1@text##\\[|\\].*",
+            "lastChapter": "class.s3@text&&class.s5@text",
+            "name": "class.s2@text",
+            "wordCount": "class.s2@tag.a@href\n<js>java.ajax('http://www.yuedu8.cc'+result)</js>class.fix@p.-1@text##字 数："
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix.0@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option@value",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "http://www.yuedu8.cc/search/,{\n  \"body\": \"searchkey={{key}}&submit=\",\n  \"method\": \"POST\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

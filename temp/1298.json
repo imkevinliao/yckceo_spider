@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "⭐卡夜阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.kygnew.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "header": "",
+        "lastUpdateTime": 1680695347489,
+        "respondTime": 10200,
+        "ruleBookInfo": {
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": "a@href##^##http://www.kygnew.com",
+            "coverUrl": "img@src",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "http://m.kygnew.com/dihviudxhgidusghi.php?ie=gbk&s=5256649918672294880&q={{key}}",
+        "weight": 0
+    }
+]

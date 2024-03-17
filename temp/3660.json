@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceName": "新多多书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xddtxt.com",
+        "customOrder": -2147483626,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "@js:\nsort=[];\npush=(title,url,type)=>sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: 1,\n\t\t\t\tlayout_flexBasisPercent: type\n\t\t\t}\n\t});\n\n\npush('༺ˇ»`ʚ排行ɞ´«ˇ༻', null, 1);\n[[\"周榜\",\"weekvisit\"],[\"月榜\",\"monthvisit\"],[\"总榜\",\"allvisit\"],[\"收藏\",\"goodnum\"]].map([title,uri]=>push(title, `/rank/${uri}/`, 0.4));\n\n\n\n$=[\"玄幻\",\"武侠\",\"都市\",\"历史\",\"网游\",\"科幻\",\"耽美\",\"其他\"];\n[[\"分类\",\"\"],[\"全本\",\"/quanben\"]]\n.map([title,uri]=>{\n\t\tpush('༺ˇ»`ʚ'+title+'ɞ´«ˇ༻', null, 1);\n\t\t$.map((title,index)=>{\n\t\t\t\tindex++;\n\t\t\t\tpush(title, uri+`/sort/${index}/{{page}\\}/`, 0.4);\n\t\t\t});\n\t});\nJSON.stringify(sort);",
+        "lastUpdateTime": 1687904083881,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##小说|\\s\\d.*",
+            "lastChapter": "{{@@[property$=chapter_name]@content}} • {{@@[property$=update_time]@content##\\s.*}}",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@textNodes##^/ | \\|[\\s\\S]*",
+            "bookList": "a.item||.list-1 li",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href##.*/(\\d+)##$1###\n@js:\na=~~(result);\nb=~~(a/1e3);\n`/images/${b}/${a}/${a}s.jpg`",
+            "intro": ".desc@text",
+            "kind": "[style~=red]@text&&.cate@text&&.time@text##\\[|\\]",
+            "name": ".name@textNodes",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".list.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option!0@value"
+        },
+        "searchUrl": "https://www.xddtxt.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

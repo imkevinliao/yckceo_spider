@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "// 第一次搜索排队，等待30秒后再次搜索\n// 晚上网站禁止搜索",
+        "bookSourceGroup": "🔰 普通",
+        "bookSourceName": "🔰 千鸟小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qn75.com",
+        "bookUrlPattern": "https?://www.qn75.com/book/\\d+/",
+        "customOrder": -2,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n排行::/rank/\n书库::/sort/{{page}}/\n玄幻::/sort/1/{{page}}/\n武侠::/sort/2/{{page}}/\n都市::/sort/3/{{page}}/\n历史::/sort/4/{{page}}/\n网游::/sort/5/{{page}}/\n科幻::/sort/6/{{page}}/\n耽美::/sort/7/{{page}}/\n其他::/sort/8/{{page}}/\n全本::/quanben/sort/{{page}}/",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1699345727088,
+        "loginCheckJs": "url=source.getKey();\ncookie.removeCookie(url);\nresult;",
+        "respondTime": 4771,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=lastest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "gl",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "kind": "em.-1@text",
+            "name": "a.1@text",
+            "wordCount": "em.-2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dl>a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.qn75.com/search/?searchkey={{key}},{\"webView\": true}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "阅读书源长期更新地址↓\nhttps://blog.itaj.xyz/2021/09/34.html",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "[阿玖·AJiu]灵域小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.lingyutxt.net",
+        "customOrder": -3860,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "全部::https://m.lingyutxt.com/xclass/0/{{page}}.html\n玄幻魔法::https://m.lingyutxt.com/xclass/1/{{page}}.html\n武侠修真::https://m.lingyutxt.com/xclass/2/{{page}}.html\n都市言情::https://m.lingyutxt.com/xclass/3/{{page}}.html\n历史军事::https://m.lingyutxt.com/xclass/4/{{page}}.html\n侦探推理::https://m.lingyutxt.com/xclass/5/{{page}}.html\n网游动漫::https://m.lingyutxt.com/xclass/6/{{page}}.html\n科幻小说::https://m.lingyutxt.com/xclass/7/{{page}}.html\n周榜::https://m.lingyutxt.com/ph/week0<,_{{page}}>.html\n月榜::https://m.lingyutxt.com/ph/month0<,_{{page}}>.html\n总榜::https://m.lingyutxt.com/ph/all0<,_{{page}}>.html",
+        "lastUpdateTime": 1628927708583,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@tag.a@text",
+            "coverUrl": "id.thumb@img@src",
+            "init": "id.bookdetail",
+            "kind": "class.sort@tag.a@text",
+            "tocUrl": "text.章节列表@href",
+            "wordCount": "tag.li.2@text##.*："
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href##/wapbook/\\d+_\\d+.html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.1@tag.a.1@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.a. \n@href<js>result.replace(/.*\\/(\\d{0,3})(\\d*).*/,\"/files/article/image/$1/$1$2/$1$2s.jpg\")</js>",
+            "intro": "tag.p.2@text##\\|.*",
+            "kind": "",
+            "lastChapter": "tag.p.2@tag.a@text",
+            "name": "tag.a@tag.p@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.p!0:",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search.php?type=undefined&keyword={{key}}",
+        "weight": 0
+    }
+]

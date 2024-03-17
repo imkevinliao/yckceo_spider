@@ -1,0 +1,36 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "A级",
+        "bookSourceName": "免费听书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tingfree.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618678755584,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "name": "tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.book_text@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "class.odd.0@tag.a.0@href",
+            "lastChapter": "class.even.0@tag.a.0@text",
+            "name": "class.odd.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.article_texttitleb@tag.li",
+            "chapterName": "tag.a@text##更新：.*",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.tingfree.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "new",
+        "bookSourceName": "笔趣阁xbiquge.so",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xbiquge.so/",
+        "customOrder": -2396,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\"\n\t}",
+        "lastUpdateTime": 1652732750593,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info@p.0@a@text",
+            "coverUrl": "class.bookinfo@table.0@td.0@img@src",
+            "init": "",
+            "intro": "class.intro@text",
+            "lastChapter": "class.info@p.-1@text##最新：",
+            "name": "class.info@h1@text",
+            "tocUrl": "class.book-op@td.1@a@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html",
+            "nextContentUrl": "id.pb_next@href",
+            "replaceRegex": "##本章未完.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "p@class.mr15@text##作者:",
+            "bookList": "class.list-item",
+            "bookUrl": "class.article@a.0@href",
+            "coverUrl": "td.0@a@img@src",
+            "intro": "class.article@a.1@text",
+            "name": "class.article@a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.last9@li!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n\t\"charset\":\"GB2312\",\n\t\"method\":\"POST\",\n\t\"body\":\"searchtype=articlename&searchkey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

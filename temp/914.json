@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌼晨光雨露🍒精品源💯",
+        "bookSourceName": "⚡️猫看书>增加更新时间",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.maokanshu.com",
+        "bookUrlPattern": "",
+        "customOrder": -165974,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "今日更新::https://www.maokanshu.com/lastupdate/{{page}}/\n上架新书::https://www.maokanshu.com/postdate/{{page}}/\n月点击榜::https://www.maokanshu.com/monthvisit/{{page}}/\n总收藏榜::https://www.maokanshu.com/goodnum/{{page}}/\n新书榜单::https://www.maokanshu.com/goodnew/{{page}}/\n玄幻小说::https://www.maokanshu.com/sort/1/{{page}}/\n奇幻小说::https://www.maokanshu.com/sort/2/{{page}}/\n武侠小说::https://www.maokanshu.com/sort/3/{{page}}/\n都市小说::https://www.maokanshu.com/sort/4/{{page}}/\n历史小说::https://www.maokanshu.com/sort/5/{{page}}/\n军事小说::https://www.maokanshu.com/sort/6/{{page}}/\n悬疑小说::https://www.maokanshu.com/sort/7/{{page}}/\n游戏小说::https://www.maokanshu.com/sort/8/{{page}}/\n科幻小说::https://www.maokanshu.com/sort/9/{{page}}/\n体育小说::https://www.maokanshu.com/sort/10/{{page}}/\n官场小说::https://www.maokanshu.com/sort/11/{{page}}/\n古言小说::https://www.maokanshu.com/sort/12/{{page}}/\n现言小说::https://www.maokanshu.com/sort/13/{{page}}/\n幻言小说::https://www.maokanshu.com/sort/14/{{page}}/\n仙侠小说::https://www.maokanshu.com/sort/15/{{page}}/\n青春小说::https://www.maokanshu.com/sort/16/{{page}}/\n穿越小说::https://www.maokanshu.com/sort/17/{{page}}/\n女生小说::https://www.maokanshu.com/sort/18/{{page}}/\nN次元::https://www.maokanshu.com/sort/19/{{page}}/",
+        "lastUpdateTime": 1625652228193,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.pic@img@src",
+            "intro": "tag.tr.3@tag.td.2@text&&class.intro@text##关于.*：",
+            "lastChapter": "class.txt@a@text",
+            "tocUrl": "class.btopt@a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p@html##手机阅读访问.*书架功能更好用."
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "id.alistbox",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "lastChapter": "class.sys@a@text",
+            "name": "h2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd@a",
+            "chapterName": "text##nbsp;",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.maokanshu.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"s=articlename&searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "趣书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://qushu.org",
+        "bookUrlPattern": "https?://qushu.org/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/category/0/{{page}}.html\n玄幻小说::/category/xuanhuan/{{page}}.html\n武侠小说::/category/wuxia/{{page}}.html\n仙侠小说::/category/xianxia/{{page}}.html\n都市小说::/category/dushi/{{page}}.html\n军历小说::/category/junli/{{page}}.html\n游戏小说::/category/youxi/{{page}}.html\n竞技小说::/category/jingji/{{page}}.html\n科幻小说::/category/kehuan/{{page}}.html\n灵异小说::/category/lingyi/{{page}}.html\n言情小说::/category/yanqing/{{page}}.html\n其他小说::/category/qita/{{page}}.html\n全本小说::/modules/article/articlelist.php?fullflag=1&page={{page}}\n玄幻小说::https://qushu.org/modules/article/articlelist.php?sortid=1&fullflag=1&page={{page}}\n武侠小说::https://qushu.org/modules/article/articlelist.php?sortid=2&fullflag=1&page={{page}}\n仙侠小说::https://qushu.org/modules/article/articlelist.php?sortid=3&fullflag=1&page={{page}}\n都市小说::https://qushu.org/modules/article/articlelist.php?sortid=4&fullflag=1&page={{page}}\n军历小说::https://qushu.org/modules/article/articlelist.php?sortid=5&fullflag=1&page={{page}}\n游戏小说::https://qushu.org/modules/article/articlelist.php?sortid=6&fullflag=1&page={{page}}\n竞技小说::https://qushu.org/modules/article/articlelist.php?sortid=7&fullflag=1&page={{page}}\n科幻小说::https://qushu.org/modules/article/articlelist.php?sortid=8&fullflag=1&page={{page}}\n灵异小说::https://qushu.org/modules/article/articlelist.php?sortid=9&fullflag=1&page={{page}}\n言情小说::https://qushu.org/modules/article/articlelist.php?sortid=10&fullflag=1&page={{page}}\n其他小说::https://qushu.org/modules/article/articlelist.php?sortid=11&fullflag=1&page={{page}}",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1696391119290,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "canReName": "",
+            "coverUrl": "@get:{c}",
+            "downloadUrls": "@get:{d}\n<js>\njava.ajax(book.origin+result)\n</js>\ntext.下载@href",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\"h2 span.1@ownText##字\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nd:\"text.下载@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "{{$.}}dir.html",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": ".read-content@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*本章未完.*\\s*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-src",
+            "intro": ".intro@text",
+            "kind": "span.0:-1@text##\\/##,",
+            "name": "a.1@text",
+            "wordCount": "span.1@text##字"
+        },
+        "ruleToc": {
+            "chapterList": ".booklist li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://qushu.org/search/?searchkey={{key}}&submit=",
+        "weight": 0
+    }
+]

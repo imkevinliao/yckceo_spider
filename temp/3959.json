@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "//\n\tdy@天天的鸟蛋蛋\n\t(自）\n<\t#\n\t账号：sxslib 密码：666666\n\t #>",
+        "bookSourceGroup": "有声书,需登录",
+        "bookSourceName": "云图有声（天天）(需登录)",
+        "bookSourceType": 1,
+        "bookSourceUrl": "https://library.yuntuys.com/#天天的鸟蛋蛋",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "特色::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=123&deptId=459&order=1&type=1&versionId=108\n文学::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=128&deptId=459&order=1&type=1&versionId=108\n教育::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=145&deptId=459&order=1&type=1&versionId=108\n人文::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=158&deptId=459&order=1&type=1&versionId=108\n军事::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=169&deptId=459&order=1&type=1&versionId=108\n生活::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=178&deptId=459&order=1&type=1&versionId=108",
+        "header": "",
+        "lastUpdateTime": 1693234861528,
+        "loginUi": "",
+        "loginUrl": "https://library.yuntuys.com/login",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "|{$..author}|{$..anchor}|",
+            "intro": "$..summary##<p>.*",
+            "kind": "{$..label}",
+            "name": "$..name",
+            "tocUrl": "https://api-micro.yuntuys.com/ytys/v5/sequel/page/1/99999999999?deptId=459&history=true&resourceId={$..id}&sortBy=ASC&type=1&versionId=108"
+        },
+        "ruleContent": {
+            "content": "$..source"
+        },
+        "ruleExplore": {
+            "author": "|{$..author}|{$..anchor}|",
+            "bookList": "$..list[*]",
+            "bookUrl": "https://api-micro.yuntuys.com/ytys/v5/resource/get/{$..id}?deptId=459&versionId=108",
+            "coverUrl": "cover",
+            "intro": "summary",
+            "kind": "{$..label}",
+            "name": "$..name"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "|{$.author}|{$.anchor}|",
+            "bookList": "$..list[*]",
+            "bookUrl": "https://api-micro.yuntuys.com/ytys/v5/resource/get/{$.id}?deptId=459&versionId=108",
+            "checkKeyWord": "旧事与新说：我的父亲冯友兰",
+            "coverUrl": "cover",
+            "intro": "summary",
+            "name": "name"
+        },
+        "ruleToc": {
+            "chapterList": "$..list[*]",
+            "chapterName": "{$..rank} {$..name}",
+            "chapterUrl": "https://api-micro.yuntuys.com/ytys/v5/sequel/get/{$..id}?deptId=459&versionId=108"
+        },
+        "searchUrl": "https://api-micro.yuntuys.com/ytys/v5/resource/search/1/99999999999?deptId=459&search={{key}}&type=1&versionId=108",
+        "weight": 0
+    }
+]

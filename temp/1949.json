@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "!!好用",
+        "bookSourceName": "完本",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.wanbentxt.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1619441593693,
+        "ruleBookInfo": {
+            "author": "text.作者：@text",
+            "intro": "class.intro_info@textNodes##推荐地址.*",
+            "kind": "text.分类：@text##分类：",
+            "lastChapter": "",
+            "wordCount": "text.状态：@text##状态："
+        },
+        "ruleContent": {
+            "content": "article@tag.p@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "class.bookone@td@tbody",
+            "bookUrl": "class.case_name@tag.a@href",
+            "lastChapter": "class.case_last@tag.a@text",
+            "name": "class.case_name@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.ul_all_chapters@li",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.wanbentxt.net/search/?submit=&searchkey={{key}}",
+        "weight": 0
+    }
+]

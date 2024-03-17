@@ -1,0 +1,23 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "书包网",
+        "bookSourceUrl": "http://www.bookbao99.net",
+        "enable": true,
+        "ruleBookContent": "id.contents@html",
+        "ruleBookLastChapter": "id.info@tag.p.-1@a@text",
+        "ruleChapterList": "id.chapterlist@li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "text.查看目录@href",
+        "ruleContentUrl": "href",
+        "ruleIntroduce": "class.infocontent@text",
+        "ruleSearchAuthor": "class.txt@tag.div.1@tag.span.0@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchList": "class.search_box@li",
+        "ruleSearchName": "class.t@text",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleSearchUrl": "http://www.bookbao99.net/Search/q_searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

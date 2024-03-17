@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "风筝小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.56fz.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1664024723364,
+        "respondTime": 2903,
+        "ruleBookInfo": {
+            "author": "#info@p.0@text",
+            "coverUrl": "#fmimg@img@src",
+            "intro": "#intro@p.0@html||div#intro@html",
+            "kind": "#info@p:nth-of-type(3)@text&&p:nth-of-type(5)@a@text##最后更新：",
+            "lastChapter": "#newchapter@dd.0@a@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "div#content@html",
+            "replaceRegex": "##\\s＞＞\\n\\s*|\\s*风筝小说\\n\\s*|\\s*[(]www.3qxs[)]\\n\\s*|\\s*[(]www.3qxs[)]"
+        },
+        "ruleSearch": {
+            "bookList": ".item-cover@a",
+            "bookUrl": "href",
+            "coverUrl": "img@data-original",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl > dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "/home/search,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"q={{key}}&action=search\"\n}",
+        "weight": 0
+    }
+]

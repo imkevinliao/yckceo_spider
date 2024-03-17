@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "var v = source.getVariable();\n\"\" == v || null == v || undefined == v? \n((v = \"源站：3\"), source.setVariable(v)): \"\"\n\nvar flag = 1,\n  host = \"https://www.wshm.uk\";\n  发布页=\"https://ws8.in/\"\nhost =\n  -1 !== v.indexOf(\"1\")\n    ? \"https://www.wshm22.com\"\n    : -1 !== v.indexOf(\"2\")\n    ? \"https://www.wshm27.com\"\n    : -1 !== v.indexOf(\"3\")\n    ? \"https://www.wshm.net\"\n    : \"https://www.wshm.uk\"",
+        "bookSourceGroup": "🗂 聚合",
+        "bookSourceName": "🗂🙈无删韩漫🚩",
+        "bookSourceType": 2,
+        "bookSourceUrl": "学编程救不了中国-----鲁迅",
+        "bookUrlPattern": "https://.*.wshm.*/plus/list-\\d+.html",
+        "concurrentRate": "",
+        "customOrder": 426,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "<js>\neval(String(source.bookSourceComment))\n\nlist=[\n  {\n    title: \"更新\",\n    url: \"/\",\n    style: { layout_flexGrow: 1 }\n  },\n  {\n    title: \"周一\",\n    url: \"/plus/list-5.html\",\n    style: { layout_flexGrow: 1 }\n  },\n  {\n    title: \"周二\",\n    url: \"/plus/list-6.html\",\n    style: { layout_flexGrow: 1 }\n  },\n  {\n    title: \"周三\",\n    url: \"/plus/list-7.html\",\n    style: { layout_flexGrow: 1 }\n  },\n  {\n    title: \"周四\",\n    url: \"/plus/list-8.html\",\n    style: { layout_flexGrow: 1 }\n  },\n  {\n    title: \"周五\",\n    url: \"/plus/list-9.html\",\n    style: { layout_flexGrow: 1 }\n  },\n  {\n    title: \"周六\",\n    url: \"/plus/list-10.html\",\n    style: { layout_flexGrow: 1 }\n  },\n  {\n    title: \"周日\",\n    url: \"/plus/list-10.html\",\n    style: { layout_flexGrow: 1 }\n  },{\"title\":\"完结\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,layout_flexBasisPercent:1}},{\"title\":\"2016\",\"url\":\"/plus/list-12-29-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"2017\",\"url\":\"/plus/list-13-26-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"2018\",\"url\":\"/plus/list-14-51-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"2019\",\"url\":\"/plus/list-15-94-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"2020\",\"url\":\"/plus/list-16-87-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"2021\",\"url\":\"/plus/list-17-104-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"2022\",\"url\":\"/plus/list-518-54-{{page}}.html\",\"style\":{\"layout_flexGrow\":1}}\n]\n\nlist.forEach(x=>{x.url=x.url!=\"\"?host+x.url:\"\"})\nJSON.stringify(list)\n</js>",
+        "header": "{\n  \"User-agent\":\"Firefox Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0\"\n}",
+        "lastUpdateTime": 1672141882772,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "https://www.wshm.net",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "cover",
+            "init": "<js>\neval(String(source.bookSourceComment));\nvar J = org.jsoup.Jsoup.parse(result),\n    $1 = function(a) {\n        return String(J.select('[property=\"og:' + a + '\"]').attr(\"content\"))\n    }, $2 = function(a) {\n        return String(J.select(a).text())\n    }, $3 = function(a) {\n        return String(J.select(a).attr(\"href\"))\n    }, $4 = function(a) {\n        return String(J.select(a).attr(\"src\"))\n    }, url = baseUrl,\n    s = $2(\".dl_left:nth-child(3) dd\").replace(/.*中.*/g, \"连载\").replace(/.*已.*/, \"完结\"),\n    k = $2(\".dl_left:nth-child(2) dd\"),\n    l = $2(\".stab_list ul li:last-child a\"),\n    t = $2(\".dl_left:last-child dd\"),\n    count = J.select(\".stab_list ul li a\").length;\n1 == flag ? (book = {\n    name: $2(\"span.name\"),\n    author: $2(\".dl.clearfix dl:first-child dd\").replace(/[,xX\\s]|[图文][:：]/g, \"/\").replace(/\\/\\/\\/|\\/\\//g, \"/\").replace(/^[\\/]/g, \"\"),\n    kind: s + \",\" + k + \",\" + t,\n    latest: l + \"·\" + t + \"·[\" + count + \"]\",\n    intro: \"<br>\" + $2(\".des_xy\").replace(/\\\\n/g, \"<br>\").replace(/\\\\/g, \"\"),\n    cover: $4(\".detail_img .dpic\"),\n    url: url\n}, book) : java.toast(\"\\n❗未启用书源❗\");\n</js>",
+            "intro": "intro",
+            "kind": "kind",
+            "lastChapter": "latest",
+            "name": "name",
+            "tocUrl": "url"
+        },
+        "ruleContent": {
+            "content": "<js>\neval(String(source.bookSourceComment))\nimgs=\"\"\nif (1 == flag){\n\timgs=java.getString\n\t(\".playerall@img[src*=img.pic-server]@html\")\n}\nelse java.toast(\"\\n❗未启用书源❗\");\nimgs\n</js>",
+            "imageStyle": "FULL",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": ".actor@text\n@js:result\n  .replace(/[,，xX\\s]|[图文][:：]/g,'/')\n  .replace(/\\/\\/\\/|\\/\\//g,'/')\n  .replace(/^[\\/]/g,'')",
+            "bookList": "<js>\neval(String(source.bookSourceComment))\n1 == flag ? (java.put(\"Enable\", 1), java.getElements(\".li_li.clearfix .li_all\")) : java.toast(\"\\n❗未启用书源❗\");\n</js>",
+            "bookUrl": "<js>\neval(String(source.bookSourceComment))\n\nhost+java.getString(\".name a@href\")\n</js>",
+            "coverUrl": ".li_img img@src",
+            "kind": "@js:\nString(java.getElements(\".rgba1\").textNodes()[1])\n  .replace(/\\s/g, \"\")",
+            "lastChapter": "@js:\njava.getElements(\".rgba1\").textNodes()[0]",
+            "name": ".name@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".li_text p.1@textNodes\n@js:result\n  .replace(/[,，xX\\s]|[图文][:：]/g,'/')\n  .replace(/\\/\\/\\/|\\/\\//g,'/')\n  .replace(/^[\\/]/g,'')",
+            "bookList": ".li_li.clearfix",
+            "bookUrl": "<js>\neval(String(source.bookSourceComment))\n\nhost+java.getString(\"a.0@href\")\n</js>",
+            "checkKeyWord": "秘密教学",
+            "coverUrl": ".li_img img@src",
+            "intro": ".li_text p.4@textNodes",
+            "kind": ".li_text p.2@textNodes##，##,",
+            "name": ".name a@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\neval(String(source.bookSourceComment))\nlist = java.getElements(\".stab_list ul li a\");\n1 == flag ? java.toast(\"\\n♥当前源变量♥\\n\"+host): java.toast(\"\\n❗未启用书源❗\");\nlist;\n</js>",
+            "chapterName": "text",
+            "chapterUrl": "href@js:\neval(String(source.bookSourceComment))\nhost+result"
+        },
+        "searchUrl": "<js>\neval(String(source.bookSourceComment))\nbody = {\n    method: \"POST\",\n    body: \"q = {{key}}\"\n};\n1 == flag ?host+ \"/plus/search.php,\" + JSON.stringify(body) : java.toast(\"\\n❗未启用书源❗\");\n</js>",
+        "variableComment": "❗源站范围[1-3]❗",
+        "weight": 0
+    }
+]

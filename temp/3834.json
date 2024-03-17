@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "//搜索需要登陆，每天下载限制20次。\n\nif(/请先登录/.test(src)){\n\tjava.toast(\"未登录，登陆后才能搜索下载！\");\n\tvar sz=source.getVariable();\n\tif(sz==1){\n\t\tvar login=source.loginUrl;\n\t\tjava.startBrowserAwait(login,\"登录\");\n\t\tjava.toast(\"如已登录，重新搜索即可\");\n\t\t}\n\tresult=\"\";\n\t}else{\n\t\tresult=result;\n\t\t}\nresult;",
+        "bookSourceGroup": "自制,下载,源仓库,网页源",
+        "bookSourceName": "添喜郎电子书",
+        "bookSourceType": 3,
+        "bookSourceUrl": "https://m.ttxxll.com",
+        "bookUrlPattern": "https://m.ttxxll.com/b/\\d+.html",
+        "customOrder": 54,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "言情小说::/yanqing/<,index_{{page}}.html>\n耽于唯美::/danmei/<,index_{{page}}.html>\n玄幻小说::/xuanhuan/<,index_{{page}}.html>\n武侠仙侠::/wuxia/<,index_{{page}}.html>\n网游竞技::/wangyou/<,index_{{page}}.html>\n科幻小说::/kehuan/<,index_{{page}}.html>\n灵异推理::/kongbu/<,index_{{page}}.html>\n军事历史::/lishi/<,index_{{page}}.html>\n纪实文学::/jishi/<,index_{{page}}.html>\n管理哲学::/zhexue/<,index_{{page}}.html>\n学习资料::/xuexi/<,index_{{page}}.html>\n其它小说::/qita/<,index_{{page}}.html>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691208275491,
+        "loginUrl": "https://m.ttxxll.com/e/member/login/",
+        "respondTime": 101113,
+        "ruleBookInfo": {
+            "author": ".infotype a.0@text",
+            "canReName": "true",
+            "coverUrl": ".pic img@src",
+            "downloadUrls": "text.TXT下载@href\n@js:\nvar sz=source.getVariable();\nif(sz==1){\n\tvar down=String(book.origin+result[0]);\n\tjava.startBrowserAwait(down,\"下载\");\n\t}else{\n\t\tjava.toast(\"如需下载，可在右上角三点设置源变量为1\");\n\t\t}",
+            "intro": ".intro p@text",
+            "kind": ".infotype p.1:2:3:4:5@text\n##分类：|星级：|状态：|大小：|更新时间：",
+            "name": "h3.0@text##txt下载",
+            "tocUrl": ""
+        },
+        "ruleContent": [],
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".article",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text",
+            "kind": "0",
+            "name": "h6@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "<js>\neval(String(source.bookSourceComment))\n</js>\n.articlegeneral",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": [],
+        "searchUrl": "/e/search/index.php,{\n  \"body\": \"keyboard={{key}}&show=title&tempid=1\",\n  \"method\": \"POST\"\n}",
+        "variableComment": "输入数字1开启登录下载",
+        "weight": 0
+    }
+]

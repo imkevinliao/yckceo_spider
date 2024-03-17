@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "注意，必须使用4月9号发布的测试版，或以后的版本。",
+        "bookSourceGroup": "精选",
+        "bookSourceName": "老猫小说APP",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api.laomaoxs.net",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "热门::/Search/hot?page={{page}}\n连载::/novel/lists&status=1&page={{page}}\n完结::/novel/lists&status=2&page={{page}}\n人气::/novel/lists?order=0&page={{page}}\n收藏::/novel/lists?order=1&page={{page}}\n更新::/novel/lists?order=2&page={{page}}\n上架::/novel/lists?order=3&page={{page}}\n奇幻玄幻::/novel/lists?type=3&page={{page}}\n武侠修真::/novel/lists?type=4&page={{page}}\n都市娱乐::/novel/lists?type=5&page={{page}}\n历史军事::/novel/lists?type=6&page={{page}}\n科幻悬疑::/novel/lists?type=7&page={{page}}\n游戏动漫::/novel/lists?type=8&page={{page}}\n男频其它::/novel/lists?type=9&page={{page}}\n女频全部::/novel/lists?type=2001&sex=2&page={{page}}\n古代言情::/novel/lists?type=2001&sex=2&page={{page}}\n现代言情::/novel/lists?type=2002&sex=2&page={{page}}\n幻想言情::/novel/lists?type=2003&sex=2&page={{page}}\n耽美同人::/novel/lists?type=2004&sex=2&page={{page}}\n女频其它::/novel/lists?type=2005&sex=2&page={{page}}",
+        "header": "",
+        "lastUpdateTime": 1617938745654,
+        "loginUrl": "",
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "<js>result=java.aesBase64DecodeToString(String(result),\"b23c159r9t88hl2q\",\"AES/CBC/PKCS5Padding\",\"8yeywyJ45esysW8M\");\n//java.log(result);</js>$.data"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$.book_author",
+            "bookList": "<js>result=java.aesBase64DecodeToString(String(result),\"b23c159r9t88hl2q\",\"AES/CBC/PKCS5Padding\",\"8yeywyJ45esysW8M\");\n</js>$.data[*]",
+            "bookUrl": "/novel/txt/@get:{sid}/@get:{bid}/index.html",
+            "coverUrl": "/novel/img/@get:{sid}/@get:{bid}/@get:{bid}.jpg",
+            "intro": "$.book_desc",
+            "kind": "<js>\nlist=[];\ntype=java.getString('$.book_type');\nstate=java.getString('book_status');\ncount=java.getString('$.chapter_count');\nhits=java.getString('$.book_hits');\nlist.push(type)\nif(state==1){list.push(\"连载\");}else if(state==2){list.push(\"完结\");}else{}\nif(count>0){list.push(count+\"章\");}\nif(hits>0){list.push(hits+\"点击\")}\nresult=list;\n</js>",
+            "name": "<js>\nbid=java.getString(\"$.book_id\");\njava.put(\"bid\",bid);\nsid=parseInt(parseInt(bid)/1000);\njava.put('sid',sid);\nresult=java.getString(\"$.book_title\")</js>"
+        },
+        "ruleToc": {
+            "chapterList": "<js>result=java.aesBase64DecodeToString(String(result),\"b23c159r9t88hl2q\",\"AES/CBC/PKCS5Padding\",\"8yeywyJ45esysW8M\");\n//java.log(result);\n</js>$.data.chapter_list[*]<js>\ndata=[];\nvar len=result.length;\nfor(var i=0;i<len;i++){\ndata.push(i+\"€\"+result[i])\n}\nresult=data;\n</js>",
+            "chapterName": "<js>result=String(result).split('€')[1];</js>",
+            "chapterUrl": "<js>result=parseInt(String(result).split('€')[0])+1;</js>/novel/txt/@get:{sid}/@get:{bid}/{{result}}.html"
+        },
+        "searchUrl": "https://api.laomaoxs.net/Search/index?key={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

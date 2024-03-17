@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "👍 看书室",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kanshushi.com",
+        "customOrder": 63,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/fenlei1-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/fenlei2-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/fenlei3-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/fenlei4-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/fenlei5-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/fenlei6-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖\",\"url\":\"/fenlei7-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生\",\"url\":\"/fenlei8-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/fenlei9-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"全本\",\"url\":\"/quanben-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+        "lastUpdateTime": 1640005826455,
+        "loginUrl": "",
+        "respondTime": 13220,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "#intro@html",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "replaceRegex": "##ＨＴΤＰＳ.*|章节错误.*|看书室小说网.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".novelslist2 li!0||.l li",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.kanshushi.com/img/'+iid+'/'+id+'.jpg';\n</js>",
+            "intro": "",
+            "kind": ".s1@text&&.s5@text&&.s6@text##\\[|\\]|小说",
+            "lastChapter": ".s3@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

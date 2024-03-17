@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "耽美坊",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.danmeifang.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1621996391976,
+        "ruleBookInfo": {
+            "author": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "class.pagebar@tag.a.-1@href"
+        },
+        "ruleContent": {
+            "content": "id.contents@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "h2@a@text##.*——",
+            "bookList": "class.list@li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "intro": "tag.p@text",
+            "kind": "tag.a.1@text",
+            "name": "h2@a@text##——.*"
+        },
+        "ruleToc": {
+            "chapterList": "@js:\npage=baseUrl.match(/_(\\d+)\\.html/)[1];\nlist=[{text:'1',href:baseUrl.replace(/_\\d+\\.html/,'.html')}];\nfor(i=2;i<=page;i++){\nlist.push({text:String(i),href:baseUrl.replace(/_\\d+\\.html/,'_'+String(i)+'.html')})\n}\nlist",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/e/search/index.php,{\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&tbname=news&show=title&tempid=1&search=dopost&mid=1\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "小书窝.m.xiaoshuwo.cc",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xiaoshuwo.cc",
+        "customOrder": -282068,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1630204092530,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "class.synopsisArea_detail@tag.img@src",
+            "init": "",
+            "name": "",
+            "tocUrl": "class.recommend@tag.a.-1@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.read@id.chaptercontent@html##『加入书签，方便阅读』"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author.0@text##.*作者：",
+            "bookList": "class.recommend mybook@class.hot_sale",
+            "bookUrl": "tag.a@href",
+            "kind": "class.author.0@text##\\| 作者：.*",
+            "lastChapter": "class.author.1@text##.*更新：",
+            "name": "class.title@text",
+            "wordCount": "class.author.1@text##\\| 更新：.*"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.p!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": ""
+        },
+        "searchUrl": "https://m.xiaoshuwo.cc/s.php,{\n'charset': 'utf-8',\n'method': 'POST',\n'body': 'keyword={{key}}&t=1'\n}",
+        "weight": 0
+    }
+]

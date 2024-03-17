@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "http://m.fqxsw.org",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "👍 西红柿小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.fanqianxs.com",
+        "customOrder": -88979832,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/xuanhuan/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/xiuzhen/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/dushi/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/lishi/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/wangyou/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/kehuan/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/yanqing/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其它\",\"url\":\"/qita/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"全本\",\"url\":\"/quanben/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1662503478625,
+        "respondTime": 4169,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ".chapter_more a@href"
+        },
+        "ruleContent": {
+            "content": "#nr1@html"
+        },
+        "ruleExplore": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".intro_line@textNodes",
+            "kind": "",
+            "lastChapter": ".update a@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": ".bookname@text"
+        },
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a.0@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": ".bookname@text##\\[|\\].*",
+            "lastChapter": ".update a@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": ".bookname@text##.*\\]"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "chapterUrl": "href",
+            "preUpdateJs": "java.refreshTocUrl()"
+        },
+        "searchUrl": "https://m.xhsxsw.com/modules/article/search.php,{\n  \"body\": \"keyword={{key}}&submit=%E6%90%9C%E7%B4%A2\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

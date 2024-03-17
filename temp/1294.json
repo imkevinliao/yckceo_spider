@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "爱看书吧net",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.aikanshuba.net",
+        "customOrder": -118184,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuan/{{page}}.html\n仙侠小说::/xianxia/{{page}}.html\n都市小说::/dushi/{{page}}.html\n军史小说::/junshi/{{page}}.html\n网游小说::/wangyou/{{page}}.html\n科幻小说::/kehuan/{{page}}.html\n恐怖小说::/kongbu/{{page}}.html\n其他小说::/qita/{{page}}.html\n完结小说::/full/{{page}}",
+        "lastUpdateTime": 1622993319437,
+        "ruleBookInfo": {
+            "author": "class.bq@tag.a.0@text",
+            "intro": "class.jj@text",
+            "kind": "class.bq@tag.span.-1@text",
+            "lastChapter": "class.lastchapter@a@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": ".novelcontent@html",
+            "imageStyle": "full"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.odd.1@text||class.p1@text##作者：",
+            "bookList": "class.grid@tag.tr!0||class.tt",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.a.0@href##.*/(\\d+)/(\\d+)/##https://www.aikanshuba.net/files/article/image/$1/$2/$2s.jpg",
+            "intro": "class.p2@text",
+            "lastChapter": "class.even.0@text",
+            "name": "class.odd.0@text||h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".ml_list@ul@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.aikanshuba.net/modules/article/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

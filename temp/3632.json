@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceGroup": "111待",
+        "bookSourceName": "书趣阁-3:14",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.ishuquge.la",
+        "customOrder": -2086087387,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\n\t\"title\":\"玄幻魔法\",\n\"url\":\"/sort/1/0_1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"武侠修真\",\n\"url\":\"/sort/2/0_1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"都市言情\",\n\"url\":\"/sort/3/0_1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"历史军事\",\n\"url\":\"/sort/4/0_1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"侦探推理\",\n\"url\":\"/sort/5/0_1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"网游动漫\",\n\"url\":\"/sort/6/0_1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"科幻灵异\",\n\"url\":\"/sort/7/0_1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"其他类型\",\n\"url\":\"/sort/8/0_1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"✘全本✘\",\n\"url\":\"quanben/1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"————————排行————————\",\n\"url\":\"\",\"style\":{\"layout_flexGrow\":99,\"layout_flexBasisPercent\": -1}},\n{\"title\":\"日点击榜\",\n\"url\":\"store/dayvisit-1{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"周点击榜\",\n\"url\":\"store/weekvisit-1{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"月点击榜\",\n\"url\":\"store/monthvisit-1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"总点击榜\",\n\"url\":\"store/allvisit-1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"总收藏榜\",\n\"url\":\"/store/goodnum-1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"字数排行\",\n\"url\":\"/store/size-1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"日推荐榜\",\n\"url\":\"/store/size-1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"周推荐榜\",\n\"url\":\"store/weekvote-1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"月推荐榜\",\n\"url\":\"/store/monthvote-1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"总推荐榜\",\n\"url\":\"store/allvote-1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"最新入库\",\n\"url\":\"store/postdate-1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},\n{\"title\":\"最近更新\",\n\"url\":\"store/lastupdate-1{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}}\n]",
+        "lastUpdateTime": 1687547691662,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "canReName": "",
+            "coverUrl": "[property$=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property$=\"og:novel:latest_chapter_name\"]@content&&class.cover@class.intro_info@text##(.*)(\\n)##最新章节 $1$2",
+            "kind": "[property$=\"og:novel:category\"]@content&&\n[property$=\"og:novel:update_time\"]@content&&\n[property$=\"og:novel:status\"]@content",
+            "lastChapter": "[property$=\"og:novel:latest_chapter_name\"]@content",
+            "name": "class.cover@class.bolck_txt2@class.bolck_txt2@tag.h2@tag.a@textNodes",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.nr1@html##（本章未完，请点击下一页继续阅读）|最新网址：wap.ishuquge.la|第.*章.*(第.*/.*页).*",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "@html##(.*)(a>)(.*)(</p>)##$3",
+            "bookList": "class.cover@class.line",
+            "bookUrl": "class.blue.0@href",
+            "coverUrl": "class.blue.0@href##/s/([0-9]{1,3})(.*).html##https://www.ishuquge.la/files/article/image/$1/$1$2/$1$2s.jpg",
+            "intro": "",
+            "kind": "a.0@textNodes",
+            "name": "class.blue.0@textNodes"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.bookinfo.0@class.author.0@textNodes",
+            "bookList": "class.read_book@class.bookbox",
+            "bookUrl": "class.bookinfo.0@tag.h4.0@tag.i.0@tag.a.0@href",
+            "coverUrl": "class.bookimg@tag.a.0@tag.img.0@src",
+            "lastChapter": "class.bookinfo.0@class.updatelast.0@tag.a.0@textNodes",
+            "name": "class.bookinfo.0@tag.h4.0@tag.i.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.cover@class.chapter@tag.li",
+            "chapterName": "a.0@textNodes",
+            "chapterUrl": "a.0@href",
+            "nextTocUrl": "class.cover@class.listpage@class.right@tag.a@href"
+        },
+        "searchUrl": "/search.php,{\n\t\"body\":\"searchkey={{key}}&submit=\",\n\t\"method\":\"POST\"\n\t}",
+        "weight": 0
+    }
+]

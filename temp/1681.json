@@ -1,0 +1,64 @@
+[
+    {
+        "bookSourceComment": "搜索不能用，网站的搜索加了限制（也可能是我太菜了搞不定），我用一个浏览器都不能搜索，换了一个才可以搜\n**本书源使用方法\n用浏览器打开网页，找到你想看的书的详情页，复制他的链接（要网页版的，www.的），然后填到发现地址里，模板--书名::链接\n例如，光阴之外::https://www.tianlaixsw.com/874/874565/index.html\n俩书之间换行或加&&\n之后保存，去发现哪里点开书，加入书架（书架里最好不要有同名其他源的书），然后就可以看了，正文不影响",
+        "bookSourceGroup": "✯.精品",
+        "bookSourceName": "天籁小说网（看源注释）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tianlaixsw.com/",
+        "bookUrlPattern": "",
+        "customOrder": -88962920,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "光阴之外::https://www.tianlaixsw.com/874/874565/index.html\n明克街13号::https://www.tianlaixsw.com/851/851036/index.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36\"\n}",
+        "lastUpdateTime": 1666192528955,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.detail@tag.a.0@text",
+            "coverUrl": "class.detail@tag.img@src",
+            "intro": "class.intro@tag.p.1@text",
+            "kind": "class.detail@tag.a.1@text",
+            "lastChapter": "class.detail@tag.a.-1@text",
+            "name": "class.detail@tag.p.0@text",
+            "tocUrl": "",
+            "wordCount": "class.detail@tag.span.1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p!-1@html",
+            "nextContentUrl": "class.next@href",
+            "replaceRegex": "##无错更新@"
+        },
+        "ruleExplore": {
+            "author": "id.author@a@text||id.info.0@p.0@a@text",
+            "bookList": "class.tabstit@a.2||id.main",
+            "bookUrl": "href||class.pc@p@a.1@href",
+            "coverUrl": "id.bookimg@img@src||id.fmimg@img@src",
+            "intro": "id.bookintro@text||id.maininfo@id.info.1@p.0@text",
+            "kind": "class.count@ul@li@span@text",
+            "lastChapter": "class.keywords@a@text||id.info.0@p.-1@a@text",
+            "name": "id.bookimg@img@alt||id.info.0@h1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.list@tag.li",
+            "bookUrl": "tag.a.1@href@js:'https://www.tianlaixsw.com'+result+'index.html'",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.p.2@text",
+            "kind": "tag.span@text",
+            "lastChapter": "tag.a.-1@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.readlist@dd@a||class.read@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.tianlaixsw.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\"\n}",
+        "weight": 0
+    }
+]

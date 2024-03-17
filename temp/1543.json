@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceName": "星际小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xjcyp.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1671842037698,
+        "respondTime": 865,
+        "ruleBookInfo": {
+            "kind": "class.breadcrumb@a.-1@text",
+            "lastChapter": "class.bookdes@a@text"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@p@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.-1@text",
+            "bookList": "class.content@dl",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@img@src",
+            "intro": "dd.0@text",
+            "kind": "span.-2@text",
+            "name": "a.0@title",
+            "wordCount": "span.-1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.all@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.xjcyp.cc/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

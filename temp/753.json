@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceUrl": "https://m.bimixsw.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "笔迷屋❎仅发现",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "",
+        "exploreUrl": "[{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"玄幻小说\",\"url\":\"/sort/1_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"修真小说\",\"url\":\"/sort/2_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"都市小说\",\"url\":\"/sort/3_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"穿越小说\",\"url\":\"/sort/4_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"网游小说\",\"url\":\"/sort/5_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"/sort/6_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"其他小说\",\"url\":\"/sort/7_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"小说\",\"url\":\"/sort/8_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"月点击\",\"url\":\"/top/monthvisit_1/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"周点击\",\"url\":\"/top/weekvisit_1/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"总点击\",\"url\":\"/top/allvisit_1/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"/full/1/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1642659070710,
+        "ruleSearch": [],
+        "ruleExplore": {
+            "bookList": "class.xbk.!0",
+            "name": "class.xsm@text",
+            "author": "class.tjxs@tag.span.1@text",
+            "intro": "class.tjxs@tag.span.2@text",
+            "coverUrl": "class.tjimg@tag.a@tag.img@src",
+            "bookUrl": "class.xsm@tag.a@href"
+        },
+        "ruleBookInfo": {
+            "name": "class.xx@tag.ul@li.0@text",
+            "author": "class.xx@tag.ul@li.2@a@text",
+            "kind": "class.xx@tag.ul@li.1@a@text",
+            "lastChapter": "class.xx@tag.ul@li.3@a@text",
+            "coverUrl": "class.xsfm@img@src",
+            "tocUrl": "class.gengduo@a@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.lb fk@tag.li.!0:41",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "class.showpage r3@tag.ul@tag.li.!0@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.nr@html##第(.*?)页",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

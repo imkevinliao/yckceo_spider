@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "百书楼",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bsl666.com/",
+        "customOrder": 11,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1624374676444,
+        "ruleBookInfo": {
+            "author": "class.xsinfo_text@tag.a.0@text",
+            "coverUrl": "class.xspic@tag.img.0@src",
+            "intro": "class.xsinfo_content@text",
+            "lastChapter": "class.newtxtbox@tag.li.0@text",
+            "name": "class.xsinfo@text",
+            "tocUrl": "class.xsinfo_btn@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "class.txtcontent@tag.p@text"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": "class.classbox",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "",
+            "kind": "class.alignCenter.0@text",
+            "lastChapter": "tag.a.2@text%%class.alignCenter.2@text",
+            "name": "class.aaa1.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.txtlistbox@tag.ul@tag.li",
+            "chapterName": "tag.a.0@text",
+            "chapterUrl": "tag.a.0@href"
+        },
+        "searchUrl": "https://www.bsl666.com/s.php\\?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

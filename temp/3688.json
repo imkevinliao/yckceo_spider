@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "选书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bookrbx.com",
+        "bookUrlPattern": "https://www.bookrbx.com/xsg/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::https://www.bookrbx.com/fenlei/all_{{page}}/\n玄幻::https://www.bookrbx.com/fenlei/1_{{page}}/\n修真::https://www.bookrbx.com/fenlei/2_{{page}}/\n都市::https://www.bookrbx.com/fenlei/3_{{page}}/\n女频::https://www.bookrbx.com/fenlei/5_{{page}}/\n历史::https://www.bookrbx.com/fenlei/4_{{page}}/\n恐怖::https://www.bookrbx.com/fenlei/6_{{page}}/\n耽美::https://www.bookrbx.com/fenlei/8_{{page}}/\n其他::https://www.bookrbx.com/fenlei/7_{{page}}/\n完本::https://www.bookrbx.com/full/all_{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1688461072742,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|update_time]@content",
+            "lastChapter": "[property$=lastest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##.*畅读模式.+"
+        },
+        "ruleExplore": {
+            "author": "p.1@a@text",
+            "bookList": ".CGBufenTwo-right-content-unit",
+            "bookUrl": "a.0@href",
+            "coverUrl": "@js:\"/images/noimg.jpg\"",
+            "intro": "p.2@text",
+            "kind": "0",
+            "lastChapter": "a.-1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".SHbufenThree-middle>p",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"/images/noimg.jpg\"",
+            "kind": "a.0@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ol@li",
+            "chapterName": "a@text##正文",
+            "chapterUrl": "a@href",
+            "isVolume": "text.链接已隐藏@text",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://www.bookrbx.com/search/,{\n  \"body\": \"s={{key}}&searchtype=all&submit=\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

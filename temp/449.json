@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceUrl": "http://www.bookfedex.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "文徒小说",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "sou.html?keywords={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1649685317972,
+        "ruleSearch": {
+            "bookList": "class.search-result-list",
+            "name": "class.tit@text",
+            "author": "class.bookinfo@tag.a.0@text",
+            "kind": "class.bookinfo@tag.a.1@text",
+            "intro": "class.bookinfo@tag.p@text",
+            "coverUrl": "class.imgbox@tag.img@src",
+            "bookUrl": "class.bkinfo@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.title@class.name@text",
+            "author": "class.title@class.author@text",
+            "kind": "class.tags@tag.a.!0@text",
+            "wordCount": "class.hits@tag.span.0",
+            "lastChapter": "class.brief@tag.div.3@tag.a@text",
+            "intro": "class.brief_text@text",
+            "coverUrl": "class.pic@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.cate-list@tag.a",
+            "chapterName": "class.chapter_name@text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "class.read-content@tag.p.!-1@html"
+        }
+    }
+]

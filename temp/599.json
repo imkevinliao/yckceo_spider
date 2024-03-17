@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️笔趣阁4☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qu-la.com#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::http://m.qu-la.com/class1/p{{page}}.html\n修真小说::http://m.qu-la.com/class2/p{{page}}.html\n都市小说::http://m.qu-la.com/class3/p{{page}}.html\n穿越小说::http://m.qu-la.com/class4/p{{page}}.html\n网游小说::http://m.qu-la.com/class5/p{{page}}.html\n科幻小说::http://m.qu-la.com/class6/p{{page}}.html\n其他小说::http://m.qu-la.com/class7/p{{page}}.html\n完本小说::http://m.qu-la.com/finish/p{{page}}.html",
+        "lastUpdateTime": 1643973897334,
+        "ruleBookInfo": {
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content&&\n[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "{{@@class.update-text@tag.a@text\n##更新至 }}▪️{{@@[property=\"og:novel:update_time\"]@content}}"
+        },
+        "ruleContent": {
+            "content": "id.txt@textNodes||class.txt@textNodes",
+            "nextContentUrl": "id.pb_next@href"
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.book-view-box||class.rank-view-box",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@html",
+            "kind": "class.blue@text",
+            "name": "tag.h4@text"
+        },
+        "ruleSearch": {
+            "author": "tag.span.2@text",
+            "bookList": "class.search-list@tag.li!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href\n@js:\nid=result.match(/((\\/\\d+)\\d{3})$/)\nurl='http://www.qu-la.com/files'+id[2]+id[1]+id[1]+'.jpg'",
+            "name": "tag.span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book-chapter-list@tag.ul.1@tag.li@tag.a||class.chapter-list@tag.li",
+            "chapterName": "text||tag.a@text",
+            "chapterUrl": "href||tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://so.biqusoso.com/s2.php?ie=utf-8&siteid=qu-la.com&q={{key}}",
+        "weight": 0
+    }
+]

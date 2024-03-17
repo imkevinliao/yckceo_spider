@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceComment": "\nsou=source.getVariable()\nsou==\"\"||sou==null?\n(source.setVariable(\"搜索源[1-3]:1\\n发现源[1-12]:1\"),sou=source.getVariable()):\"\"\nvar v = sou.split(\"\\n\")[0].match(/\\d+$/)[0],\n  b = sou.split(\"\\n\")[1].match(/\\d+$/)[0],\n  url = \"https://souxs.leeyegy.com\",\n  uri = \"https://infosxs.pysmei.com\";\n  name=\"笔趣阁\"\n1 == v\n  ? (url = \"https://sou.jiaston.com\")\n  : 2 == v\n  ? (url = \"https://souxs.leeyegy.com\")\n  : 3 == v\n  ? (url = \"https://souxs.pigqq.com\")\n  : \"\"\n  \n1 == b\n  ? (uri = \"https://content.shenbabao.com\")\n  : 2 == b\n  ? (uri = \"https://contentxs.apptuxing.com\")\n  : 3 == b\n  ? (uri = \"https://indexinfo.cdn.bcebos.com\")\n  : 4 == b\n  ? (uri = \"https://infos.anchengcn.com\")\n  : 5 == b\n  ? (uri = \"https://infosxs.pigqq.com\")\n  : 6 == b\n  ? (uri = \"https://infosxs.pysmei.com\")\n  : 7 == b\n  ? (uri = \"https://iosapp.canrike.com\")\n  : 8 == b\n  ? (name=\"快读\",uri = \"https://kuaiapi.jiaston.com\")\n  : 9 == b\n  ? (uri = \"https://quapp.shenbabao.com\")\n  : 10 == b\n  ? (uri = \"https://scxs.pigqq.com\")\n  : 11 == b\n  ? (uri = \"https://contentxs.pigqq.com\")\n  : 12 == b && (uri = \"https://scxs.pysmei.com\");\n",
+        "bookSourceGroup": "📖 精选,🌟 ΑΡΙ",
+        "bookSourceName": "📖💯笔趣阁🅰🚩（修复）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "笔趣阁(杀鸡取卵版)-----鲁迅",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 200,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "@js:\neval(String(source.bookSourceComment))\n'[{\"title\":\"🏷--------标-------签-------榜-------单--------🏷\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻奇幻 · 热门\",\"url\":\"'+uri+'/Categories/1/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 完结\",\"url\":\"'+uri+'/Categories/1/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 评分\",\"url\":\"'+uri+'/Categories/1/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"武侠仙侠 · 热门\",\"url\":\"'+uri+'/Categories/2/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 完结\",\"url\":\"'+uri+'/Categories/2/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 评分\",\"url\":\"'+uri+'/Categories/2/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"都市言情 · 热门\",\"url\":\"'+uri+'/Categories/3/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"· 完结\",\"url\":\"'+uri+'/Categories/3/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"· 评分\",\"url\":\"'+uri+'/Categories/3/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"历史军事 · 热门\",\"url\":\"'+uri+'/Categories/4/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 完结\",\"url\":\"'+uri+'/Categories/4/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 评分\",\"url\":\"'+uri+'/Categories/4/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"科幻灵异 · 热门\",\"url\":\"'+uri+'/Categories/5/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 完结\",\"url\":\"'+uri+'/Categories/5/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 评分\",\"url\":\"'+uri+'/Categories/5/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"小说同人 · 热门\",\"url\":\"'+uri+'/Categories/66/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 完结\",\"url\":\"'+uri+'/Categories/66/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 评分\",\"url\":\"'+uri+'/Categories/66/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"女生频道 · 热门\",\"url\":\"'+uri+'/Categories/6/hot/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 完结\",\"url\":\"'+uri+'/Categories/6/over/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\" · 评分\",\"url\":\"'+uri+'/Categories/6/vote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},'+'{\"title\":\"💠♂------男-------生-------榜-------单------💠♂\",\"url\":\"\",\"style\":{layout_flexGrow:1,layout_flexBasisPercent:1}},{\"title\":\"推荐 · 周榜\",\"url\":\"'+uri+'/top/man/top/commend/week/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"推荐 · 月榜\",\"url\":\"'+uri+'/top/man/top/commend/month/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"推荐 · 总榜\",\"url\":\"'+uri+'/top/man/top/commend/total/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"收藏 · 周榜\",\"url\":\"'+uri+'/top/man/top/collect/week/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"收藏 · 月榜\",\"url\":\"'+uri+'/top/man/top/collect/month/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"收藏 · 总榜\",\"url\":\"'+uri+'/top/man/top/collect/total/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"评分 · 周榜\",\"url\":\"'+uri+'/top/man/top/vote/week/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"评分 · 月榜\",\"url\":\"'+uri+'/top/man/top/vote/month/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"评分 · 总榜\",\"url\":\"'+uri+'/top/man/top/vote/total/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"完结 · 周榜\",\"url\":\"'+uri+'/top/man/top/over/week/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"完结 · 月榜\",\"url\":\"'+uri+'/top/man/top/over/month/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"完结 · 总榜\",\"url\":\"'+uri+'/top/man/top/over/total/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"最热 · 周榜\",\"url\":\"'+uri+'/top/man/top/hot/week/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"最热 · 月榜\",\"url\":\"'+uri+'/top/man/top/hot/month/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"最热 · 总榜\",\"url\":\"'+uri+'/top/man/top/hot/total/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},'+'{\"title\":\"🌸♀------女-------生-------榜-------单------🌸♀\",\"url\":\"\",\"style\":{layout_flexGrow:1,layout_flexBasisPercent:1}},{\"title\":\"推荐 · 周榜\",\"url\":\"'+uri+'/top/lady/top/commend/week/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"推荐 · 月榜\",\"url\":\"'+uri+'/top/lady/top/commend/month/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"推荐 · 总榜\",\"url\":\"'+uri+'/top/lady/top/commend/total/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"收藏 · 周榜\",\"url\":\"'+uri+'/top/lady/top/collect/week/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"收藏 · 月榜\",\"url\":\"'+uri+'/top/lady/top/collect/month/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"收藏 · 总榜\",\"url\":\"'+uri+'/top/lady/top/collect/total/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"评分 · 周榜\",\"url\":\"'+uri+'/top/lady/top/vote/week/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"评分 · 月榜\",\"url\":\"'+uri+'/top/lady/top/vote/month/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"评分 · 总榜\",\"url\":\"'+uri+'/top/lady/top/vote/total/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"完结 · 周榜\",\"url\":\"'+uri+'/top/lady/top/over/week/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"完结 · 月榜\",\"url\":\"'+uri+'/top/lady/top/over/month/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"完结 · 总榜\",\"url\":\"'+uri+'/top/lady/top/over/total/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"最热 · 周榜\",\"url\":\"'+uri+'/top/lady/top/hot/week/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"最热 · 月榜\",\"url\":\"'+uri+'/top/lady/top/hot/month/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"最热 · 总榜\",\"url\":\"'+uri+'/top/lady/top/hot/total/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}}]'",
+        "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.1.0; zh-cn; MI PAD 4 Build/OPM1.171019.019) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\",\n\"Accept-Language\": \"zh-CN,zh;q=0.8\",\n\"Content-Type\": \"application/x-www-form-urlencoded\"\n}",
+        "lastUpdateTime": 1674111365713,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 10380,
+        "ruleBookInfo": {
+            "author": "$.data.Author",
+            "coverUrl": "https://imgapi.jiaston.com/BookFiles/Bookimages/{{$.data.Img}}",
+            "init": "",
+            "intro": "$.data.Desc\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+            "kind": "$.data.BookStatus&&$.data.CName&&$.data.LastTime&&{$.data.Score}分##\\ .*",
+            "lastChapter": "$.data.LastChapter",
+            "name": "$.data.Name",
+            "tocUrl": "@js:\neval(String(source.bookSourceComment));\nid = java.getString(\"$.data.Id\");\ncid = Math.floor(id / 1000 + 1);\njava.put(\"id\",id)\njava.put(\"cid\",cid)\nuri + \"/BookFiles/Html/\" + cid + \"/\" + id + \"/index.html\";"
+        },
+        "ruleContent": {
+            "content": "$.data.content"
+        },
+        "ruleExplore": {
+            "author": "$.Author",
+            "bookList": "$.data.BookList",
+            "bookUrl": "@js:\neval(String(source.bookSourceComment));\nid = java.getString(\"$.Id\");\nvar cid = Math.floor(id / 1e3 + 1);\nuri + \"/BookFiles/Html/\" + cid + \"/\" + id + \"/info.html\";",
+            "coverUrl": "https://imgapixs.pysmei.com/BookFiles/BookImages/{{$.Img}}",
+            "intro": "$.Desc",
+            "kind": "$.CName&&{$.Score}分",
+            "name": "$.Name##[\\(（【].*?[求更谢乐发订合贺补加推票章字修防kK].*?[】）\\)]*.*"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.Author",
+            "bookList": "$.data[0:20]",
+            "bookUrl": "@js:\neval(String(source.bookSourceComment));\nid = java.getString(\"$.Id\");\ncid = Math.floor(id / 1e3 + 1);\nuri + \"/BookFiles/Html/\" + cid + \"/\" + id + \"/info.html\";",
+            "coverUrl": "$.Img",
+            "intro": "Desc\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+            "kind": "$.CName",
+            "lastChapter": "{{$.LastChapter}}·{{$.UpdateTime##\\s.*}}",
+            "name": "$.Name@put:{id:$.Id}"
+        },
+        "ruleToc": {
+            "chapterList": "$.data.list\n@js:\neval(String(source.bookSourceComment));\njava[\"toast\"](\"\\n搜索源url：\" + url + \"\\n发现源uri：\" + uri);\nid = java.get(\"id\");\ncid = java.get(\"cid\");\n\n//章节名显示卷名(true/false)\nvar opts = {\n  showVolName: true\n};\n\n\nvar list = [];\nJSON.parse(result).forEach((vol) => {\n  var chs = vol.list.map((ch) => ({\n    text: ch.name,\n    href:uri + \"/BookFiles/Html/\" + cid + \"/\" + id + \"/\" + ch.id + \".html\"\n  }));\n\n  if (vol.name != \"\"&&opts.showVolName) {\n    list.push({\n      text: \"📖[ \" + vol.name.replace(/(.*[卷部章节回])(.*)/, \"$1 $2\")+ \" ]📖\",\n      isVolume: true\n    });\n  }\n  list = list.concat(chs);\n});\n//java.log(JSON.stringify(list))\nlist;",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVolume": "isVolume",
+            "updateTime": ""
+        },
+        "searchUrl": "@js:\neval(String(source.bookSourceComment));\nurl + \"/search.aspx?key={{key}}&page={{page}}&siteid=app2\";",
+        "weight": 0
+    }
+]

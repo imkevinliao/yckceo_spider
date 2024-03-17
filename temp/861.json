@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "IOS阅读APP源阅读交流:103120951\n\nby--692",
+        "bookSourceGroup": "自做",
+        "bookSourceName": "豪橫文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.haohengwx.net",
+        "customOrder": 6,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "日点击榜::http://m.haohengwx.net/top/dayvisit_{{page}}/\n周点击榜::http://m.haohengwx.net/top/weekvisit_{{page}}/\n月点击榜::http://m.haohengwx.net/top/monthvisit_{{page}}/\n总点击榜::http://m.haohengwx.net/top/allvisit_{{page}}/\n总收藏榜::http://m.haohengwx.net/top/goodnum_{{page}}/\n字数排行::http://m.haohengwx.net/top/size_{{page}}/\n日推荐榜::http://m.haohengwx.net/top/dayvote_{{page}}/\n周推荐榜::http://m.haohengwx.net/top/weekvote_{{page}}/\n月推荐榜::http://m.haohengwx.net/top/monthvote_{{page}}/\n总推荐榜::http://m.haohengwx.net/top/allvote_{{page}}/\n最新入库::http://m.haohengwx.net/top/postdate_{{page}}/\n最近更新::http://m.haohengwx.net/top/lastupdate_{{page}}/",
+        "lastUpdateTime": 1639752096921,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "class.infotype@tag.p.1@text",
+            "lastChapter": "class.infotype@tag.p.3@text",
+            "tocUrl": "class.gochapter@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "class.articlecontent@html##本章尚未完结.*请点击下一页继续阅读.*",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.p3@text",
+            "bookList": "class.articlegeneral",
+            "bookUrl": "class.p2@tag.a@href",
+            "kind": "class.p1@text",
+            "name": "class.p2@text"
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.sone",
+            "bookUrl": "tag.a.0@href",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapters@tag.li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://m.haohengwx.net/s.html,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+        "weight": 0
+    }
+]

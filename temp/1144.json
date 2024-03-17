@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "zip",
+        "bookSourceName": "棉花糖小说APP",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api.mianhuatangxs.cn",
+        "customOrder": -118176,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "男频人气::https://api.mianhuatangxs.cn/static/ranking/1/1/popularity.json\n男频新书::https://api.mianhuatangxs.cn/static/ranking/1/1/new.json\n男频推荐::https://api.mianhuatangxs.cn/static/ranking/1/1/reco.json\n男频收藏::https://api.mianhuatangxs.cn/static/ranking/1/1/collect.json\n男频好评::https://api.mianhuatangxs.cn/static/ranking/1/1/praise.json\n男频热搜::https://api.mianhuatangxs.cn/static/ranking/1/1/hotsearch.json\n男频完结::https://api.mianhuatangxs.cn/static/ranking/1/1/finish.json\n玄幻热门::https://api.mianhuatangxs.cn/static/book/category/1/13/hot/{{page}}.json\n玄幻新书::https://api.mianhuatangxs.cn/static/book/category/1/13/new/{{page}}.json\n玄幻好评::https://api.mianhuatangxs.cn/static/book/category/1/13/praise/{{page}}.json\n玄幻完结::https://api.mianhuatangxs.cn/static/book/category/1/13/finish/{{page}}.json\n奇幻热门::https://api.mianhuatangxs.cn/static/book/category/1/17/hot/{{page}}.json\n奇幻新书::https://api.mianhuatangxs.cn/static/book/category/1/17/new/{{page}}.json\n奇幻好评::https://api.mianhuatangxs.cn/static/book/category/1/17/praise/{{page}}.json\n奇幻完结::https://api.mianhuatangxs.cn/static/book/category/1/17/finish/{{page}}.json\n武侠热门::https://api.mianhuatangxs.cn/static/book/category/1/10/hot/{{page}}.json\n武侠新书::https://api.mianhuatangxs.cn/static/book/category/1/10/new/{{page}}.json\n武侠好评::https://api.mianhuatangxs.cn/static/book/category/1/10/praise/{{page}}.json\n武侠完结::https://api.mianhuatangxs.cn/static/book/category/1/10/finish/{{page}}.json\n仙侠热门::https://api.mianhuatangxs.cn/static/book/category/1/18/hot/{{page}}.json\n仙侠新书::https://api.mianhuatangxs.cn/static/book/category/1/18/new/{{page}}.json\n仙侠好评::https://api.mianhuatangxs.cn/static/book/category/1/18/praise/{{page}}.json\n仙侠完结::https://api.mianhuatangxs.cn/static/book/category/1/18/finish/{{page}}.json\n都市热门::https://api.mianhuatangxs.cn/static/book/category/1/12/hot/{{page}}.json\n都市新书::https://api.mianhuatangxs.cn/static/book/category/1/12/new/{{page}}.json\n都市好评::https://api.mianhuatangxs.cn/static/book/category/1/12/praise/{{page}}.json\n都市完结::https://api.mianhuatangxs.cn/static/book/category/1/12/finish/{{page}}.json\n历史热门::https://api.mianhuatangxs.cn/static/book/category/1/15/hot/{{page}}.json\n历史新书::https://api.mianhuatangxs.cn/static/book/category/1/15/new/{{page}}.json\n历史好评::https://api.mianhuatangxs.cn/static/book/category/1/15/praise/{{page}}.json\n历史完结::https://api.mianhuatangxs.cn/static/book/category/1/15/finish/{{page}}.json\n军事热门::https://api.mianhuatangxs.cn/static/book/category/1/19/hot/{{page}}.json\n军事新书::https://api.mianhuatangxs.cn/static/book/category/1/19/new/{{page}}.json\n军事好评::https://api.mianhuatangxs.cn/static/book/category/1/19/praise/{{page}}.json\n军事完结::https://api.mianhuatangxs.cn/static/book/category/1/19/finish/{{page}}.json\n游戏热门::https://api.mianhuatangxs.cn/static/book/category/1/11/hot/{{page}}.json\n游戏新书::https://api.mianhuatangxs.cn/static/book/category/1/11/new/{{page}}.json\n游戏好评::https://api.mianhuatangxs.cn/static/book/category/1/11/praise/{{page}}.json\n游戏完结::https://api.mianhuatangxs.cn/static/book/category/1/11/finish/{{page}}.json\n体育热门::https://api.mianhuatangxs.cn/static/book/category/1/20/hot/{{page}}.json\n体育新书::https://api.mianhuatangxs.cn/static/book/category/1/20/new/{{page}}.json\n体育好评::https://api.mianhuatangxs.cn/static/book/category/1/20/praise/{{page}}.json\n体育完结::https://api.mianhuatangxs.cn/static/book/category/1/20/finish/{{page}}.json\n科幻热门::https://api.mianhuatangxs.cn/static/book/category/1/21/hot/{{page}}.json\n科幻新书::https://api.mianhuatangxs.cn/static/book/category/1/21/new/{{page}}.json\n科幻好评::https://api.mianhuatangxs.cn/static/book/category/1/21/praise/{{page}}.json\n科幻完结::https://api.mianhuatangxs.cn/static/book/category/1/21/finish/{{page}}.json\n灵异热门::https://api.mianhuatangxs.cn/static/book/category/1/22/hot/{{page}}.json\n灵异新书::https://api.mianhuatangxs.cn/static/book/category/1/22/new/{{page}}.json\n灵异好评::https://api.mianhuatangxs.cn/static/book/category/1/22/praise/{{page}}.json\n灵异完结::https://api.mianhuatangxs.cn/static/book/category/1/22/finish/{{page}}.json\n其它热门::https://api.mianhuatangxs.cn/static/book/category/1/16/hot/{{page}}.json\n其它新书::https://api.mianhuatangxs.cn/static/book/category/1/16/new/{{page}}.json\n其它好评::https://api.mianhuatangxs.cn/static/book/category/1/16/praise/{{page}}.json\n其它完结::https://api.mianhuatangxs.cn/static/book/category/1/16/finish/{{page}}.json\n女频人气::https://api.mianhuatangxs.cn/static/ranking/1/2/popularity.json\n女频新书::https://api.mianhuatangxs.cn/static/ranking/1/2/new.json\n女频推荐::https://api.mianhuatangxs.cn/static/ranking/1/2/reco.json\n女频收藏::https://api.mianhuatangxs.cn/static/ranking/1/2/collect.json\n女频好评::https://api.mianhuatangxs.cn/static/ranking/1/2/praise.json\n女频热搜::https://api.mianhuatangxs.cn/static/ranking/1/2/hotsearch.json\n女频完结::https://api.mianhuatangxs.cn/static/ranking/1/2/finish.json\n古言热门::https://api.mianhuatangxs.cn/static/book/category/1/8/hot/{{page}}.json\n古言新书::https://api.mianhuatangxs.cn/static/book/category/1/8/new/{{page}}.json\n古言好评::https://api.mianhuatangxs.cn/static/book/cat",
+        "lastUpdateTime": 1626480202186,
+        "ruleBookInfo": {
+            "author": "@get:{author}",
+            "lastChapter": "",
+            "name": "@get:{name}"
+        },
+        "ruleContent": {
+            "content": "all"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "$.author@put:{author:$.author}",
+            "bookList": "$.data.list||$.data[*]",
+            "bookUrl": "<js>\nvar bid=parseInt(java.getString('$.bookId'));\nif(!bid>0){\nbid=parseInt(java.getString('$.id'));\n}\njava.put(\"bid\",bid);\nvar subpath=parseInt((1999+bid)/2000);\nvar url=\"http://statics.rungean.com/static/book/zip/\"+subpath+\"/\"+bid+\".zip\";\nresult=url;</js>",
+            "coverUrl": "$.picture",
+            "intro": "$.intro",
+            "kind": "$.categoryName&&$.bookStatus",
+            "lastChapter": "$.chapterName@put:{update:$.chapterName}",
+            "name": "$.name@put:{name:$.name}",
+            "wordCount": "$.wordNum"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\n//java.log(\"SSSS\"+baseUrl)\nresult=java.getZipStringContent(baseUrl,\"chapter.json\")\n//java.log(result);\n</js>$.data[*]",
+            "chapterName": "$.name",
+            "chapterUrl": "$.content_url"
+        },
+        "searchUrl": "https://api.mianhuatangxs.cn/api/v1/novelsearch?content={{key}}&pageIndex={{page}}&pageSize=20&type=1",
+        "weight": 0
+    }
+]

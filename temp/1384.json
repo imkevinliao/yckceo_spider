@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "修复搜索",
+        "bookSourceFromType": "3",
+        "bookSourceGroup": "爱的奇迹口袋",
+        "bookSourceMainId": "c1816e59636fa4bb8ed68b5486d4fbf4",
+        "bookSourceName": "31小说网",
+        "bookSourceUrl": "https://www.31xs.net",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "createTime": 1676688271,
+        "customOrder": 1,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "玄幻::/list/1/&&修真::/list/2/&&都市::/list/3/&&穿越::/list/4/&&网游::/list/5/&&科幻::/list/6/&&次元::/list/7/&&言情::/list/8/&&青春::/list/9/&&现代::/list/10/&&古代::/list/11/&&幻想::/list/12/",
+        "header": "",
+        "helpUpdate": "1",
+        "helpUpdatePasswd": "http://www.yeguoyuedu.com",
+        "indexSourceType": "0",
+        "lastUpdateTime": 1676688271,
+        "loginCheckJs": "",
+        "loginUrl": "",
+        "miBookSourceUrl": "https://www.31xs.com",
+        "miUrl": "",
+        "id": "14",
+        "openRecommendToOfficial": false,
+        "recommendToOfficialState": 0,
+        "ruleBookInfo": {
+            "coverUrl": "tag.a.0@href##(/\\d+)(/\\d+)/##/img$1$2$2s.jpg###@js:result.replace('https://www.31xs.com/img/','https://img31xs.cdn.bcebos.com/')",
+            "intro": "id.intro@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##目前用下来，听书声音.*?换源App|稳定运行多年的小说.*?huanyuanapp|讲真，最近.*?苹果均可。|新章节更新迟缓的问题.*?在多个站点的最新章节。|稳定运行多年的小说.*?huanyuanapp|鉴于大环境如此.*?com|换源app|本章完|内容未完，下一页继续阅读|【31小说网\\s*31xs\\.com】|www\\.31xs\\.net\\s*|(^|\\s+)...[，,]【[^【\\n】]*咪.?咪.?阅.?读[^\\u4e00-\\u9fa5]*(?:\\.com|app)[^】a-z0-9A-Z\\u4e00-\\u9fa5]*】[^\\n]+"
+        },
+        "ruleExplore": {
+            "author": "tag.td.2@text",
+            "bookList": "tag.tr!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##(/\\d+)(/\\d+)/##/img$1$2$2s.jpg###@js:result.replace('https://www.31xs.com/img/','https://img31xs.cdn.bcebos.com/')",
+            "lastChapter": "tag.td.1@tag.a@text",
+            "name": "tag.td.0@tag.a@text",
+            "wordCount": "tag.td.3@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.3@text",
+            "bookList": "id.bookcase_list@tag.tr",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##(/\\d+)(/\\d+)/##/img$1$2$2s.jpg###@js:result.replace('https://www.31xs.com/img/','https://img31xs.cdn.bcebos.com/')",
+            "kind": "tag.td.0@text&&tag.td.5@text",
+            "lastChapter": "tag.a.1@text&&tag.td.4@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleUpdateDate": "2022-10-28 16:54:46",
+        "searchUrl": "https://www.31xs.com/search.php?keyword={{key}}",
+        "useNum": "131758"
+    }
+]

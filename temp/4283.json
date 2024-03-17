@@ -1,0 +1,40 @@
+[
+    {
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "li",
+            "bookUrl": ".card a@href@put:{u:\".card a@href\"}",
+            "name": "div.card-text@text",
+            "lastChapter": "div.abs-bottom@text",
+            "author": "",
+            "coverUrl": "img@src"
+        },
+        "ruleBookInfo": {
+            "name": "h1@text",
+            "coverUrl": "[property$=og:image]@content",
+            "author": "p:nth-of-type(3) span.l@text",
+            "kind": ".gray span:nth-of-type(1)@text",
+            "wordCount": "span.s@text",
+            "intro": "p.content@text",
+            "lastChapter": ".chd > span@text",
+            "tocUrl": "@get:{u}##^##http://www.sumanku.com/chapterlist"
+        },
+        "ruleToc": {
+            "chapterName": "name",
+            "chapterList": "data.list",
+            "chapterUrl": "http://www.sumanku.com@get:{u}{{$.id}}.html,{'webView':true}"
+        },
+        "ruleContent": {
+            "title": "",
+            "content": "img@html"
+        },
+        "ruleReview": [],
+        "ruleExplore": [],
+        "bookSourceType": 2,
+        "bookSourceUrl": "http://www.sumanku.com/",
+        "bookSourceName": "速漫库",
+        "searchUrl": "http://www.sumanku.com/search?keyword={{key}},\n{Referer:http://www.sumanku.com/}",
+        "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\",\n    \"Accept-Language\":\"zh-CN,zh;q=0.9\"\n}",
+        "exploreUrl": "[\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"冒险热血\",\"url\":\"/sort/1.html\",\"style\":{}},\n{\"title\":\"武侠格斗\",\"url\":\"/sort/2.html\",\"style\":{}},\n{\"title\":\"科幻魔幻\",\"url\":\"/sort/3.html\",\"style\":{}},\n{\"title\":\"侦探推理\",\"url\":\"/sort/4.html\",\"style\":{}},\n{\"title\":\"耽美爱情\",\"url\":\"/sort/5.html\",\"style\":{}},\n{\"title\":\"生活漫画\",\"url\":\"/sort/6.html\",\"style\":{}},\n{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"热门榜\",\"url\":\"/top/1.html\",\"style\":{}},\n{\"title\":\"综合榜\",\"url\":\"/top/2.html\",\"style\":{}},\n{\"title\":\"收藏榜\",\"url\":\"/top/3.html\",\"style\":{}},\n{\"title\":\"热议榜\",\"url\":\"/top/4.html\",\"style\":{}},\n{\"title\":\"最新榜\",\"url\":\"/top/5.html\",\"style\":{}},\n{\"title\":\"新作架\",\"url\":\"/top/6.html\",\"style\":{}},\n\n]"
+    }
+]

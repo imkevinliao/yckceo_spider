@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "作者：旅途",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "92k小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.92k.tw",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1679138733341,
+        "respondTime": 4049,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "kind": "",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##（本章未完，请翻页）"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.author.0@text##.*作者：",
+            "bookList": ".hot_sale||.hot_sale.hot_saleEm",
+            "bookUrl": "a@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "",
+            "kind": "p.author.0@text##\\|.*",
+            "name": "p.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "p!0:-1",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/s.php,{\n\"method\": \"POST\",\n\"body\":\"keyword={{key}}&t=1\"\n}",
+        "weight": 0
+    }
+]

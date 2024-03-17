@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自己",
+        "bookSourceName": "蓝悦小说网wap",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.lanyuejiaoyu.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻小说::/leibie1/?page={{page}}.html,{\"webView\": true}\n修真小说::/leibie2/?page={{page}}.html,{\"webView\": true}\n都市小说::/leibie3/?page={{page}}.html,{\"webView\": true}\n历史小说::/leibie4/?page={{page}}.html,{\"webView\": true}\n网游小说::/leibie5/?page={{page}}.html,{\"webView\": true}\n科幻小说::/leibie6/?page={{page}}.html,{\"webView\": true}\n女生小说::/leibie7/?page={{page}}.html,{\"webView\": true}\n二次元小说::/leibie8/?page={{page}}.html,{\"webView\": true}\n其他小说::/leibie9/?page={{page}}.html,{\"webView\": true}\n完本小说::/finish/?page={{page}}.html,{\"webView\": true}",
+        "header": "{\n\"referer\": \"https://wap.lanyuejiaoyu.com/\"\n}",
+        "lastUpdateTime": 1679825799524,
+        "respondTime": 22409,
+        "ruleBookInfo": {
+            "author": "span.author@text",
+            "coverUrl": "div.book-img img@src",
+            "init": "div.book-main",
+            "kind": ".blue a@text&&span.green@text",
+            "lastChapter": ".update a@text",
+            "name": "h1@text",
+            "wordCount": "p.time@textNodes"
+        },
+        "ruleContent": {
+            "content": "div.txt@html##『如果章节错误，点此举报』",
+            "nextContentUrl": "a#pb_next@href",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "p.author@text",
+            "bookList": "div.all-book-list dl",
+            "bookUrl": "h4 a@href",
+            "coverUrl": ".book-img a img@src",
+            "intro": "p.intro@text",
+            "kind": "span.blue@text&&span.green@text",
+            "name": "h4 a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "div:nth-of-type(7) li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "weight": 0
+    }
+]

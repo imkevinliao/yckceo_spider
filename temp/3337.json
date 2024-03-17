@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒。\n偶尔搜不出来，等会儿就好。\n类型：文本在线阅读，切换文件可以下载。",
+        "bookSourceGroup": "自制,女频,下载,源仓库,网页源",
+        "bookSourceName": "趣书网/76txt",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.76txt.com/",
+        "bookUrlPattern": "https://www.76txt.com/p.*html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/xuanhuan/<,{{page}}.html>\n武侠仙侠::/xianxia/<,{{page}}.html>\n现代都市::/dushi/<,{{page}}.html>\n女频言情::/yanqing/<,{{page}}.html>\n历史军事::/lishi/<,{{page}}.html>\n游戏竞技::/youxi/<,{{page}}.html>\n科幻灵异::/kehuan/<,{{page}}.html>\n其他小说::/qita/<,{{page}}.html>\n总排行榜::/top/<,{{page}}.html>",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\":\"https://www.76txt.com/\"}",
+        "lastUpdateTime": 1685611625050,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h3@text",
+            "canReName": "",
+            "coverUrl": "class.info1@img@src",
+            "downloadUrls": "text.点击下载@href\n<js>java.ajax(result[0])</js>\ntext.高速下载@href",
+            "intro": "class.info2@div@text",
+            "kind": ".panel-body@p.1:2@text##所属类别：|书籍类型：|发布日期：|连载状态：",
+            "name": "h1@a@text",
+            "tocUrl": "{{@@text.点击阅读@href}}&page=1"
+        },
+        "ruleContent": {
+            "content": "class.nr@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book_author@text",
+            "bookList": "class.media",
+            "bookUrl": "a@href",
+            "checkKeyWord": "寒山",
+            "coverUrl": "img@src",
+            "intro": "class.book-intro-index@textNodes",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\npage = java.getElement(\"@@class.last_page\");\ndata = page.attr(\"href\");\n\nys = data.match(/page=(\\d+)/)[1];\n\nlist = [({ text: \"第1页\", href: baseUrl })];\n\nif (ys !== null) {\n  for (i = 2; i <= ys; i++) {\n    list.push({ text: \"第\" + i + \"页\", href: baseUrl.replace(/page=1/, \"page=\" + i) });\n  }\n}\nlist;\n</js>",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "isVolume": "",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://s.553xs.com/s/?key={{key}},{\n  \"charset\": \"gb2312\"\n}",
+        "weight": 0
+    }
+]

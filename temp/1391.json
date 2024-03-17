@@ -1,0 +1,26 @@
+[
+    {
+        "bookSourceName": "顶点中文(希望大佬帮忙完善)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.jszxfx.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 0,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": [],
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span",
+            "checkKeyWord": "仙者",
+            "name": "h3"
+        },
+        "ruleToc": [],
+        "searchUrl": "https://www.jszxfx.com/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

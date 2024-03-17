@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "奇书网",
+        "bookSourceName": "奇书网-发现",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kankezw.com",
+        "bookUrlPattern": "",
+        "customOrder": -1,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::https://www.kankezw.com/soft/sort01/index_{{page}}.html\n武侠仙侠::https://www.kankezw.com/soft/sort02/index_{{page}}.html\n现代都市::https://www.kankezw.com/soft/sort04/index_{{page}}.html\n历史军事::https://www.kankezw.com/soft/sort05/index_{{page}}.html\n游戏竞技::https://www.kankezw.com/soft/sort06/index_{{page}}.html\n科幻灵异::https://www.kankezw.com/soft/sort07/index_{{page}}.html\n美文同人::https://www.kankezw.com/soft/sort08/index_{{page}}.html\n剧本教程::https://www.kankezw.com/soft/sort09/index_{{page}}.html\n名著杂志::https://www.kankezw.com/soft/sort010/index_{{page}}.html\n技术其他::https://www.kankezw.com/soft/sort011/index_{{page}}.html\n热门::https://www.kankezw.com/s/hot/index_{{page}}.html\n推荐::https://www.kankezw.com/s/good/index_{{page}}.html\n最新::https://www.kankezw.com/s/new/index_{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+        "lastUpdateTime": 1626663591139,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.small.5@text",
+            "coverUrl": "class.detail_pic@img@src",
+            "intro": "class.showInfo@p@text",
+            "kind": "class.wrap position@tag.a.2@text",
+            "lastChapter": "class.small.6@a@text",
+            "name": "class.detail_right@h1@text##\\《|\\》.*",
+            "tocUrl": "class.downButton@href",
+            "wordCount": "class.small.3@text##更新日期："
+        },
+        "ruleContent": {
+            "content": "id.content1@textNodes"
+        },
+        "ruleExplore": {
+            "author": "class.s@text##大小.*",
+            "bookList": "class.listBox@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.u@text",
+            "kind": "",
+            "lastChapter": "tag.a.1@text##最新章节：",
+            "name": "tag.a.0@text##《|》|全集",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "class.grid@tr!0",
+            "bookUrl": "a@href",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.pc_list@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.kankezw.com/search.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

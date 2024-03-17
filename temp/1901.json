@@ -1,0 +1,28 @@
+[
+    {
+        "bookSourceGroup": "登录; 发现",
+        "bookSourceName": "百合会",
+        "bookSourceUrl": "https://www.yamibo.com",
+        "enable": true,
+        "loginUrl": "https://www.yamibo.com/user/login",
+        "ruleBookContent": "class.panel-body@html",
+        "ruleBookKind": "",
+        "ruleChapterList": "class.row.5@tag.div@class.col-md-4 col-xs-6",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrl": "",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "class.container@class.row@class.col-xs-4@tag.img@src",
+        "ruleFindNoteUrl": "",
+        "ruleFindUrl": "编辑推荐::https://www.yamibo.com/novel/rcmds?type=2012&page=searchPage&per-page=10\n原创月榜::https://www.yamibo.com/novel/ranking?cat=1",
+        "ruleIntroduce": "id.w0@text&&id.w1@text&lt;js>\nvar qbgl=fgwb=zpjj=zzgg=qbjj=0;\nqbgl = result.split(/作品简介|目录/);\n\nif (qbgl != null) {\nqbgl=qbgl[1];\nfgwb = qbgl.split('作者公告');\n\n  if (fgwb.length > 1) {\n   zpjj = fgwb[0];\n   zzgg = fgwb[1];\n    //zpjj='\\n作品简介\\n'+zpjj;\n    zzgg='\\n公告\\n'+zzgg;\n  }else{\n  zpjj = qbgl;\n    //zpjj='\\n作品简介\\n'+zpjj;\n    zzgg='\\n未获取作者公告\\n'\n  }\n  qbjj=zpjj+zzgg;\n\n}else{\n  qbjj='\\n\\n都未获取\\n';\n}\nqbjj;\n&lt;/js>",
+        "ruleSearchAuthor": "tag.td.2@text",
+        "ruleSearchIntroduce": "",
+        "ruleSearchKind": "tag.td.3@text",
+        "ruleSearchList": "tag.tbody@tag.tr",
+        "ruleSearchName": "tag.td.1@text",
+        "ruleSearchNoteUrl": "tag.td.1@tag.a@href",
+        "ruleSearchUrl": "https://www.yamibo.com/search/novel?SearchForm%5Bkeyword%5D=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

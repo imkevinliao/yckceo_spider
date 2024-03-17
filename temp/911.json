@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceUrl": "http://www.ztgauntong.com",
+        "bookSourceType": "0",
+        "bookSourceName": "秋日蝉",
+        "bookSourceGroup": "🔞 特殊,翻墙",
+        "bookSourceComment": "不稳定需要梯子",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/s.html,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+        "exploreUrl": "[{\"title\":\"排行\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"日点击榜\",\"url\":\"/top/dayvisit_{{page}}/,{'webView': true}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"周点击榜\",\"url\":\"/top/weekvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"月点击榜\",\"url\":\"/top/monthvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"总点击榜\",\"url\":\"/top/allvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"总收藏榜\",\"url\":\"/top/goodnum_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"字数排行\",\"url\":\"/top/size_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"日推荐榜\",\"url\":\"/top/dayvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"周推荐榜\",\"url\":\"/top/weekvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"月推荐榜\",\"url\":\"/top/monthvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"总推荐榜\",\"url\":\"/top/allvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"最新入库\",\"url\":\"/top/postdate_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"/top/lastupdate_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"海棠耽美\",\"url\":\"http://www.ztgauntong.com/sort/1_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"耽美小说\",\"url\":\"http://www.ztgauntong.com/sort/2_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"男男情色\",\"url\":\"http://www.ztgauntong.com/sort/3_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"海棠言情\",\"url\":\"http://www.ztgauntong.com/sort/4_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"言情小说\",\"url\":\"http://www.ztgauntong.com/sort/5_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"百合小说\",\"url\":\"http://www.ztgauntong.com/sort/6_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"高辣小说\",\"url\":\"http://www.ztgauntong.com/sort/7_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"情欲小说\",\"url\":\"http://www.ztgauntong.com/sort/8_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"精品小说\",\"url\":\"http://www.ztgauntong.com/sort/9_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"评书品书\",\"url\":\"http://www.ztgauntong.com/sort/10_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"私密趣事\",\"url\":\"http://www.ztgauntong.com/sort/11_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"连城小说\",\"url\":\"http://www.ztgauntong.com/sort/12_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"长佩小说\",\"url\":\"http://www.ztgauntong.com/sort/13_{{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"标签\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"快穿\",\"url\":\"/tag/1/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"美攻\",\"url\":\"/tag/2/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"肉文\",\"url\":\"/tag/3/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"年下\",\"url\":\"/tag/4/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"年上\",\"url\":\"/tag/5/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"生子\",\"url\":\"/tag/6/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"人兽\",\"url\":\"/tag/7/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"强强\",\"url\":\"/tag/8/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/tag/9/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"双性\",\"url\":\"/tag/10/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"强受\",\"url\":\"/tag/11/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"ABO\",\"url\":\"/tag/12/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"重生\",\"url\":\"/tag/13/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"HP\",\"url\":\"/tag/14/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"虐文\",\"url\":\"/tag/15/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"温馨\",\"url\":\"/tag/16/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"NP\",\"url\":\"/tag/17/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"父子\",\"url\":\"/tag/18/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"兄弟\",\"url\":\"/tag/19/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"萌文\",\"url\":\"/tag/20/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"BE\",\"url\":\"/tag/21/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"末世\",\"url\":\"/tag/22/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"人鱼\",\"url\":\"/tag/23/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"师生\",\"url\":\"/tag/24/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/tag/25/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"娱乐圈\",\"url\":\"/tag/26/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"高干\",\"url\":\"/tag/27/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"金手指\",\"url\":\"/tag/28/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"反攻\",\"url\":\"/tag/29/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"诱受\",\"url\":\"/tag/30/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"种田\",\"url\":\"/tag/31/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"SM\",\"url\":\"/tag/32/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"调教\",\"url\":\"/tag/33/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"1V1\",\"url\":\"/tag/34/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"povip\",\"url\":\"/tag/35/p_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}}]",
+        "enabled": false,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -295125,
+        "lastUpdateTime": 1634743682332,
+        "ruleSearch": {
+            "bookList": ".sone",
+            "name": "tag.a.0@text",
+            "author": "tag.a.1@text",
+            "bookUrl": "a@href"
+        },
+        "ruleExplore": {
+            "bookList": "div.articlegeneral||div.content||#list_ul li",
+            "name": "a.blue@text||h6 a@text||li a.1@text",
+            "author": ".p3 a@text||.author a@text||span.list_author@text",
+            "kind": "p.p1@text||#list_ul a.0@text",
+            "intro": ".simple@text",
+            "bookUrl": "a.blue@href||h6 a@href||li a.1@href"
+        },
+        "ruleBookInfo": {
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "author": "[property=\"og:novel:author\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content##小说|\\s.*",
+            "wordCount": "class.infotype@tag.p.2@text##更新时间：|\\[|\\]",
+            "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "tocUrl": ".gochapter@a@href"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": ".articlecontent@p@html",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

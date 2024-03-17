@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "//原52ggd\n//搜索间隔10秒",
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "格格党",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.9ggd.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/lc/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"仙侠小说\",\"url\":\"/lc/2_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市小说\",\"url\":\"/lc/3_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"历史军事\",\"url\":\"/lc/4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"游戏竞技\",\"url\":\"/lc/5_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻小说\",\"url\":\"/lc/6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"恐怖小说\",\"url\":\"/lc/7_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他类型\",\"url\":\"/lc/8_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1683612084382,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@a@text",
+            "coverUrl": "img@data-original",
+            "intro": "class.book-intro.0@text",
+            "kind": "class.type@text&&class.time@text",
+            "lastChapter": ".laybox.1@ul@li.0@text",
+            "name": "class.info@h2@text"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "ul@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.desc@text",
+            "name": "h3@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text##/",
+            "bookList": ".tab-bd ul@li",
+            "bookUrl": ".item@href",
+            "checkKeyWord": "寒山",
+            "kind": ".time@text",
+            "name": ".name@textNodes"
+        },
+        "ruleToc": {
+            "chapterList": ".laybox.2@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": "option@value##$##,{'webView': true}"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

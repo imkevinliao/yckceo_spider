@@ -1,0 +1,26 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "静夜小说网",
+        "bookSourceUrl": "https://www.zzxyj.com",
+        "enable": true,
+        "ruleBookAuthor": "id.info@tag.p.0@text",
+        "ruleBookContent": "id.content@textNodes#天才一秒.*|静夜小说网.*| -->>",
+        "ruleBookLastChapter": "id.info@tag.p.3@a@text",
+        "ruleBookName": "h1@text",
+        "ruleChapterList": "id.list@dd@a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "id.fmimg@img@src",
+        "ruleFindUrl": "全部小说::https://www.zzxyj.com/xiaoshuodaquan{,/page_searchPage.html}\n完本小说::https://www.zzxyj.com/quanben{,page_searchPage.html}\n玄幻小说::https://www.zzxyj.com/xuanhuan{,page_searchPage.html}\n修真小说::https://www.zzxyj.com/xiuzhen{,page_searchPage.html}\n都市小说::https://www.zzxyj.com/dushi{,page_searchPage.html}\n历史小说::https://www.zzxyj.com/lishi{,page_searchPage.html}\n网游小说::https://www.zzxyj.com/wangyou{,page_searchPage.html}\n科幻小说::https://www.zzxyj.com/kehuan{,page_searchPage.html}\n女频小说::https://www.zzxyj.com/nvpin{,page_searchPage.html}",
+        "ruleIntroduce": "id.intro@text",
+        "ruleSearchCoverUrl": "img@data-original",
+        "ruleSearchList": "class.item-cover",
+        "ruleSearchName": "h3@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://www.zzxyj.com/home/search@q=searchKey&action=search",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

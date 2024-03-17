@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "兔九三小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tu93.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1673932382631,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "name": ".bookTitle@text",
+            "author": ".red.0@text",
+            "kind": ".red.1@text",
+            "wordCount": ".blue.0@text",
+            "lastChapter": ".text-danger.0@text",
+            "intro": ".text-muted.0@text"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".col-md-10",
+            "name": ".bookTitle@a@text",
+            "author": ".booktag@a@text",
+            "lastChapter": ".text-danger@text",
+            "intro": ".text-muted hidden-xs@text",
+            "bookUrl": ".bookTitle@a@href"
+        },
+        "ruleToc": {
+            "chapterList": ".col-md-3",
+            "chapterName": ".col-md-3@a@text",
+            "chapterUrl": ".col-md-3@a@href"
+        },
+        "searchUrl": "/search,{\n  \"body\": \"_token=ZqUqkANrYsEWmuuTCIuTYMxGCNFkc2iHgRVxZHVw&keyword={{key}}&action=login\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

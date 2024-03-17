@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "仅发现，搜索无效",
+        "bookSourceGroup": "自制,发现,网页源",
+        "bookSourceName": "思路文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.sunsilu.com",
+        "bookUrlPattern": "https://m.c236.com/\\d+/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::https://m.c236.com/sort/1_{{page}}/\n武侠重生::https://m.c236.com/sort/2_{{page}}/\n都市言情::https://m.c236.com/sort/3_{{page}}/\n历史穿越::https://m.c236.com/sort/4_{{page}}/\n网游动漫::https://m.c236.com/sort/5_{{page}}/\n科幻推理::https://m.c236.com/sort/6_{{page}}/\n恐怖灵异::https://m.c236.com/sort/7_{{page}}/\n其他类型::https://m.c236.com/sort/8_{{page}}/\n完本小说::https://m.c236.com/full/{{page}}/",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1685688531237,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "class.intro@text",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "{{$.}}page1.html"
+        },
+        "ruleContent": {
+            "content": ".readerCon@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##m.*com"
+        },
+        "ruleExplore": {
+            "author": "p.-1@text",
+            "bookList": "class.book-item||class.content_link",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.1@text",
+            "kind": "p.2@text\n##状态：",
+            "name": "p.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "weight": 0
+    }
+]

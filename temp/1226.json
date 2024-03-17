@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "乐文小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.lewen123.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1624966955592,
+        "ruleBookInfo": {
+            "author": "tag.p.0@text",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@tag.p.0@text",
+            "kind": "tag.p.1@text##状 态：",
+            "lastChapter": "tag.p.4@a@text",
+            "name": "h1@text",
+            "wordCount": "tag.p.3@text##最后更新："
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##http.*html|天才一秒.*net"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p@text",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "class.update@a@text",
+            "name": "h4@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.lewen123.net/s123.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

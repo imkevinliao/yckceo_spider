@@ -1,0 +1,24 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "ESJ Zone",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.esjzone.net",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1667447421697,
+        "respondTime": 17459,
+        "ruleBookInfo": [],
+        "ruleContent": [],
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": [],
+        "searchUrl": "",
+        "weight": 0
+    }
+]

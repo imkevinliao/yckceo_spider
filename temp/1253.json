@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔞漫画",
+        "bookSourceName": "肉漫屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://rouman5.com",
+        "bookUrlPattern": "",
+        "customOrder": -3687,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "连载中::https://rouman5.com/books?continued=true&page={{page-1}}\n已完结::https://rouman5.com/books?continued=false&page={{page-1}}\n\n正妹::https://rouman5.com/books?tag=正妹&page={{page-1}}\n恋爱::https://rouman5.com/books?tag=恋爱&page={{page-1}}\n出版漫画::https://rouman5.com/books?tag=出版漫画&page={{page-1}}\n肉慾::https://rouman5.com/books?tag=肉慾&page={{page-1}}\n浪漫::https://rouman5.com/books?tag=浪漫&page={{page-1}}\n大尺度::https://rouman5.com/books?tag=大尺度&page={{page-1}}\n巨乳::https://rouman5.com/books?tag=巨乳&page={{page-1}}\n有夫之婦::https://rouman5.com/books?tag=有夫之婦&page={{page-1}}\n女大生::https://rouman5.com/books?tag=女大生&page={{page1}}\n狗血劇::https://rouman5.com/books?tag=狗血劇&page={{page1}}\n同居::https://rouman5.com/books?tag=同居&page={{page-1}}\n好友::https://rouman5.com/books?tag=好友&page={{page-1}}\n調教::https://rouman5.com/books?tag=調教&page={{page1}}\n动作::https://rouman5.com/books?tag=动作&page={{page-1}}\n後宮::https://rouman5.com/books?tag=後宮&page={{page-1}}\n搞笑::https://rouman5.com/books?tag=搞笑&page={{page-1}}\n\nhttps://rouman5.com/_next/data/p5HfJEnLu90IdPo0eyosK/books.json?tag=正妹&p={{page}}",
+        "lastUpdateTime": 1624353938866,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.bookid_bookInfo__Gdq3I@tag.p.0@text",
+            "coverUrl": "class.img-thumbnail@src",
+            "intro": "class.bookid_bookInfo__Gdq3I@tag.p.3@text##簡介: ||敘述：",
+            "kind": "class.bookid_bookInfo__Gdq3I@tag.b@text",
+            "lastChapter": "class.bookid_chapterBox__CRrx9@tag.div.-1@tag.a@text",
+            "name": "tag.h5.0@text"
+        },
+        "ruleContent": {
+            "content": "$.chapter.images.[*]src@js:\nvar options = {\n\"headers\": {\"Referer\": baseUrl}\n}\nlist=result.split(\"\\n\");\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+'\">\\n'\n}\nhtml",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "bookList": "ul@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "class.comicBox_thumbImg__1aomD.0@data-src",
+            "name": "tag.span.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.bookid_chapterBox__CRrx9@div@a",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href##\\/books\\/##\\/api\\/books\\/"
+        },
+        "searchUrl": "https://rouman5.com/search?term={{key}}",
+        "weight": 0
+    }
+]

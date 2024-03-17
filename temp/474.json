@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔趣阁小说网[9x]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.9x.com/h5/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1648648971818,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "lastChapter": "class.chapter-info@p.0@text",
+            "tocUrl": "class.chapter@a@href"
+        },
+        "ruleContent": {
+            "content": "style.height:460px&&p!-1:-2:-3:-4:-5:-6:-7:-8:-9:-10:-11:-12@textNodes",
+            "nextContentUrl": "text.下一章@a@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.type@span.0@text",
+            "bookList": "class.weui-cell favorite",
+            "bookUrl": "class.weui-cell__bd@a.0@href",
+            "coverUrl": "class.weui-cell__hd cover@a@img@src",
+            "intro": "class.desc two-line-ellipsis@html",
+            "kind": "class.type@span.1@text",
+            "name": "class.weui-flex title-wrap@h3.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.child-title@li@a",
+            "chapterName": "text",
+            "chapterUrl": "@a@href"
+        },
+        "searchUrl": "https://www.9x.com/h5/search?word={{key}}",
+        "weight": 0
+    }
+]

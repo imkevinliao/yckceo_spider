@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceGroup": "📰出版",
+        "bookSourceName": "稻草人书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.daocaorenshuwu.com/",
+        "bookUrlPattern": "",
+        "customOrder": 1287,
+        "enabled": false,
+        "enabledExplore": false,
+        "exploreUrl": "玄幻::/xuanhuan<,{{page}}>.html\n奇幻::/qihuan<,{{page}}>.html\n武侠::/wuxia<,{{page}}>.html\n仙侠::/xianxia<,{{page}}>.html\n都市::/dushi<,{{page}}>.html\n轻改::/qing<,{{page}}>.html\n历史::/lishi<,{{page}}>.html\n军事::/junshi<,{{page}}>.html\n游戏::/youxi<,{{page}}>.html\n科幻::/kehuan<,{{page}}>.html\n灵异::/lingyi<,{{page}}>.html\n言情::/yanqing<,{{page}}>.html\n耽美::/danmei<,{{page}}>.html\n当代::/dangdai<,{{page}}>.html\n侦探::/zhentan<,{{page}}>.html\n儿童::/ertong<,{{page}}>.html\n名著::/mingzhu<,{{page}}>.html\n励志::/lizhi<,{{page}}>.html\n悬疑::/xuanyi<,{{page}}>.html\n经管::/jingguan<,{{page}}>.html\n同人::/tongren<,{{page}}>.html\n传记::/zhuanji<,{{page}}>.html\n散文::/sanwen<,{{page}}>.html\n外国::/waiguo<,{{page}}>.htmli\n畅销::/chuban<,{{page}}>.html\n杂志::/zazhi<,{{page}}>.html\n漫画::/manhua<,{{page}}>.html\n纪实::/jishi<,{{page}}>.html\n幽默::/youmo<,{{page}}>.html\n健康::/health<,{{page}}>.html\n诗集::/poetry<,{{page}}>.html\n学习::/xuexi<,{{page}}>.html\n心理::/xinli<,{{page}}>.html\n宗教::/foxue<,{{page}}>.html\n哲学::/zhexue<,{{page}}>.html\n旅游::/travel<,{{page}}>.html\n科普::/kepu<,{{page}}>.html\n育儿::/yuer<,{{page}}>.html\n女性::/woman<,{{page}}>.html\n文化::/culture<,{{page}}>.html\n官场::/guanchang<,{{page}}>.html\n青春::/youth<,{{page}}>.html\n网络::/net<,{{page}}>.html\n国学::/guoxue<,{{page}}>.html\n逻辑::/logic<,{{page}}>.html\n创业::/chuangye<,{{page}}>.html\n次元::/erciyuan<,{{page}}>.html\n英文::/english<,{{page}}>.html\n其他::/other<,{{page}}>.html",
+        "header": "<js>\n(()=>{\n\tvar ua = \"navigator.userAgent.toLowerCase(); \t\t\treturn { \t\t\t\t'mobile': !!(ua.match(/applewebkit.*mobile.*/) || ua.match(/iemobile/) || ua.match(/windows phone/) || ua.match(/android/) || ua.match(/iphone/) || ua.match(/ipad/)), \t\t\t\t'weixin': ua.indexOf('micromessenger') > -1 \t\t\t};\";\n\tvar heders = {\"User-Agent\": ua};\n\treturn JSON.stringify(heders);\n})()\n</js>",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.col-md-4 col-sm-6 dark.0@text##作者：",
+            "coverUrl": "class.book-img-middel@src",
+            "intro": "class.book-detail@text",
+            "kind": "class.col-md-4 col-sm-6 dark.1@text&&class.col-md-4 col-sm-6 dark.2@text##状态：|类型：",
+            "lastChapter": "class.col-md-8 col-sm-6 dark@tag.a@text",
+            "name": "class.book-name@tag.a.0@text",
+            "wordCount": "class.col-md-4 col-sm-6 dark hidden-sm hidden-xs@text"
+        },
+        "ruleContent": {
+            "content": "class.cont-text@tag.div@html##内容来自.*|www.*|daocao.*|copy.*|稻草人.*",
+            "imageStyle": "0",
+            "nextContentUrl": "class.col-md-6 text-center@tag.a.2@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "class.col-md-12 mb10",
+            "bookUrl": "h4@tag.a.0@href",
+            "coverUrl": "class.book-img-small@data-original",
+            "intro": "class.media-info@text",
+            "name": "h4@tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.1@text",
+            "bookList": "class.panel-body@tag.tbody@tag.tr",
+            "bookUrl": "tag.td.0@tag.a@href",
+            "name": "tag.td.0@tag.a@title"
+        },
+        "ruleToc": {
+            "chapterList": "class.col-md-6 item!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.daocaorenshuwu.com/plus/search.php?q={{key}}",
+        "weight": 0
+    }
+]

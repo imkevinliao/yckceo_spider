@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "PO18脸红心跳",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.po18in.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/list1_{{page}}.html\",\"style\":{}},{\"title\":\"武侠修真\",\"url\":\"/list2_{{page}}.html\",\"style\":{}},{\"title\":\"都市青春\",\"url\":\"/list3_{{page}}.html\",\"style\":{}},{\"title\":\"科幻悬疑\",\"url\":\"/list4_{{page}}.html\",\"style\":{}},{\"title\":\"穿越历史\",\"url\":\"/list5_{{page}}.html\",\"style\":{}},{\"title\":\"耽美纯情\",\"url\":\"/list6_{{page}}.html\",\"style\":{}},{\"title\":\"游戏竞技\",\"url\":\"/list7_{{page}}.html\",\"style\":{}},{\"title\":\"精品其他\",\"url\":\"/list8_{{page}}.html\",\"style\":{}}]",
+        "lastUpdateTime": 1630477074490,
+        "ruleBookInfo": {
+            "author": ".detail li.0@p@text",
+            "coverUrl": ".img_wrap.0@img@src",
+            "init": "",
+            "intro": ".mlist@text##首-发.*",
+            "kind": ".detail li.1:3:4@p@text",
+            "lastChapter": ".short_de a@text## \\(po.*",
+            "name": "h1@text",
+            "tocUrl": ".read@href",
+            "wordCount": ".detail li.2@p@text"
+        },
+        "ruleContent": {
+            "content": ".inner@html"
+        },
+        "ruleExplore": {
+            "author": "span.0@text",
+            "bookList": ".clearfix",
+            "bookUrl": ".name a@href",
+            "coverUrl": "img@src",
+            "intro": ".fr@text",
+            "kind": "span.1:2:3@text##分类：|状态：|更新：",
+            "name": ".name a@text",
+            "wordCount": "span.4@text##字数：|[kK]##000"
+        },
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "tr!0",
+            "bookUrl": "a@href",
+            "kind": "td.5:4@text",
+            "lastChapter": "a.1@text## \\(po.*",
+            "name": "a.0@text",
+            "wordCount": "td.3@text##[kK]##000"
+        },
+        "ruleToc": {
+            "chapterList": "ol li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.po18in.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

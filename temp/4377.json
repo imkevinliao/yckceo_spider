@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣中文/爱笔楼",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.ibiquzw.info",
+        "bookUrlPattern": "http://m.ibiquzw.info/[\\d_]+/",
+        "customOrder": 5,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/xclass/0/{{page}}.html\n玄幻奇幻::/xclass/1/{{page}}.html\n修真仙侠::/xclass/2/{{page}}.html\n都市青春::/xclass/3/{{page}}.html\n历史军事::/xclass/4/{{page}}.html\n网游竞技::/xclass/5/{{page}}.html\n科幻灵异::/xclass/6/{{page}}.html\n其它::/xclass/7/{{page}}.html\n全本::/quanben0_{{page}}.html\n其它::/quanben7_{{page}}.html\n玄幻奇幻::/quanben1_{{page}}.html\n修真仙侠::/quanben2_{{page}}.html\n都市青春::/quanben3_{{page}}.html\n历史军事::/quanben4_{{page}}.html\n网游竞技::/quanben5_{{page}}.html\n科幻灵异::/quanben6_{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698659567803,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##{{try{chapter.title}catch(e){\"\"} }}|\n\\(第\\d+.+页\\)"
+        },
+        "ruleExplore": {
+            "author": "p.author@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "p.-1@text##简介：",
+            "kind": ".score@text",
+            "name": "p.title@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.author a.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "p.-1@textNodes##\\|.*\\s##,",
+            "lastChapter": "a.-1@text",
+            "name": "p.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://m.ibiquzw.info/SearchBook.php?keyword={{key}}",
+        "weight": 0
+    }
+]

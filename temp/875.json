@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceUrl": "https://www.lusetxt.com",
+        "bookSourceType": "0",
+        "bookSourceName": "绿色小说网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "꧁♚无聊的我♚꧂",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=lvsetxt.com&q={{key}}",
+        "exploreUrl": "[\n{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/yanqing/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/lishi/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"文学名著\",\"url\":\"/mingzhu/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"恐怖灵异\",\"url\":\"/kongbu/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"其它综合\",\"url\":\"/qita/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"完本小说\",\"url\":\"/all.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"其他小说\",\"url\":\"/\",\"style\":{\"layout_flexGrow\":1}}\n]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1636132605579,
+        "ruleSearch": {
+            "bookList": ".search-list ul li[1:20]",
+            "name": ".s2@text",
+            "author": ".s4@text",
+            "coverUrl": "a.0@href\n<js>\nvar id = result.match(/(\\d+)/)[1];\nvar iid = parseInt(id/1000);\n'https://www.lusetxt.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "bookUrl": "a.0@href"
+        },
+        "ruleExplore": {
+            "bookList": ".l.bd li",
+            "name": ".s2@text",
+            "author": ".s4@text",
+            "kind": ".s1@text&&.s5@text##\\[|\\]|小说",
+            "lastChapter": ".s3@text",
+            "coverUrl": "a.0@href\n<js>\nvar id = result.match(/(\\d+)/)[1];\nvar iid = parseInt(id/1000);\n'https://www.lusetxt.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "bookUrl": "a.0@href"
+        },
+        "ruleBookInfo": {
+            "init": "@put:{\nn:\"meta[property~=book_name]@content\",\na:\"meta[property$=author]@content\",\nk:\"meta[property~=category|status|time|update_time]@content\",\nw:\"\",\nl:\"meta[property~=latest_chapter_name|lastest_chapter_name]@content\",\ni:\"meta[property~=description]@content\",\nc:\"meta[property~=image]@content\",\nu:\"text.章节目录@href\"\n}",
+            "name": "@get:{n}",
+            "author": "@get:{a}",
+            "kind": "@get:{k}##小说|中|已|...:.*|状态.|更新.",
+            "lastChapter": "@get:{l}##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+            "intro": "<br>@get:{i}##\\s\\s##<br>",
+            "coverUrl": "@get:{c}",
+            "tocUrl": "@get:{u}"
+        },
+        "ruleToc": {
+            "chapterList": ".listmain dd a[9:]",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": ".showtxt@html##https.*?html|请记住本.*com",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

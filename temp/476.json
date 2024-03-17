@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "因为目录下一页不知道更好的写法，所以遇到字数太多的书可能会失败，保证网络流畅多近几次，能加载上",
+        "bookSourceName": "米国度👿",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.scirym.club/999999999",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1648642175257,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "$.data",
+            "intro": ".long_summary",
+            "kind": "{{$.category}},{{$.geners##\\[|\\]|\\\"}},阅读:{{$.view_count}},{{$.finish_type}}",
+            "lastChapter": "",
+            "tocUrl": "$.id\n\n<js>\njava.put('bid',result);\n\n\n   \n   var ua = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\";\n    var headers = {\"User-Agent\": ua};\n    var body ='{\"page_limit\":12,\"id\":'+result+',\"sort\":\"asc\",\"page\":1}';\n    var option = {\n        \n        \"method\": \"POST\",\n        \"body\": String(body),\n        \"headers\": headers,\n   \n    };\n    \"https://www.scirym.club/novels/menu,\" + JSON.stringify(option)\n\n</js>\n\n"
+        },
+        "ruleContent": {
+            "content": ".wysiwyg.0@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".pen_name",
+            "bookList": "$.data.list",
+            "bookUrl": "$.id\n\n<js>\n\n   var ua = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\";\n    var headers = {\"User-Agent\": ua};\n    var body = \"null\";\n    var option = {\n        \n        \"method\": \"POST\",\n        \"body\": String(body),\n        \"headers\": headers,\n   \n    };\n    \"https://www.scirym.club/authors/api_novel_detailed/\"+result+\",\" + JSON.stringify(option)\n\n</js>",
+            "coverUrl": ".image",
+            "intro": ".short_summary",
+            "kind": "{{$.category_name}},{{$.genres##\\[|\\]|\\\"}},阅读:{{$.view_count}}",
+            "name": ".novel_title",
+            "wordCount": "{{$.word_count}}"
+        },
+        "ruleToc": {
+            "chapterList": "$.data.list",
+            "chapterName": ".title",
+            "chapterUrl": "$.id\n<js>\n\n\n\n\n\"https://www.scirym.club/chapters/\"+result\n</js>",
+            "nextTocUrl": "\n\n<js>\n\nsid=java.get('bid');\ns=result.match(/page\": (.*?)\\,/)[1];\nqs=result.match(/total_page\": (.*?)\\,/)[1];\nqs=parseInt(qs*1+1)\ns=parseInt(s*1+1)\n\nif(s < qs){String(s);\n\tvar ua = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\";\n    var headers = {\"User-Agent\": ua};\n    var body ='{\"page_limit\":12,\"id\":'+sid+',\"sort\":\"asc\",\"page\":'+s+'}';\n    var option = {\n        \n        \"method\": \"POST\",\n        \"body\": String(body),\n        \"headers\": headers,\n   \n    };\n    \"https://www.scirym.club/novels/menu,\" + JSON.stringify(option)\n}\n</js>\n"
+        },
+        "searchUrl": "https://www.scirym.club/search/search,{\n  \"body\": {\"page_limit\": 12,\"text\":\"{{key}}\",\"category\": [3,1],\"genres\": [],\"status\": 0,\"word\": 0,\"time\": \"\",\"sort\":\"desc\",\"sort_type\": \"1\",\"page\": {{page}}},\n  \"method\": \"POST\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\",\"Content-Length\":\"131\"}\n  \n}\n",
+        "weight": 0
+    }
+]

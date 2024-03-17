@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceGroup": "小书亭",
+        "bookSourceName": "小书亭",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.xiaoshuting.org/",
+        "customOrder": -117672,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1662887526102,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": ".review@text",
+            "kind": ".synopsisArea_detail@.sort@text",
+            "tocUrl": ".listpage@a@href"
+        },
+        "ruleContent": {
+            "content": ".text-justify@p@text##156n.com"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".hot_sale@.author[0]@text",
+            "bookList": ".bookcase-box@.hot_sale",
+            "bookUrl": ".hot_sale@.title@a@href",
+            "checkKeyWord": "特拉福买家俱乐部",
+            "lastChapter": ".hot_sale@.author[1]@text",
+            "name": ".hot_sale@.title@text"
+        },
+        "ruleToc": {
+            "chapterList": ".directoryArea@p",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://m.xiaoshuting.org/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

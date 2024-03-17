@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "📖小说",
+        "bookSourceName": "📝腐书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.fushuwang.co",
+        "customOrder": -84,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/class/xuanhuanqihuan/1/\"},{\"title\":\"武侠修真\",\"url\":\"/class/wuxiaxiuzhen/1/\"},{\"title\":\"都市重生\",\"url\":\"/class/dushichongsheng/1/\"},{\"title\":\"历史军事\",\"url\":\"/class/lishijunshi/1/\"},{\"title\":\"网游竞技\",\"url\":\"/class/wangyoujingji/1/\"},{\"title\":\"科幻次元\",\"url\":\"/class/kehuanchiyuan/1/\"},{\"title\":\"灵异恐怖\",\"url\":\"/class/lingyikongbu/1/\"},{\"title\":\"女生言情\",\"url\":\"/class/nvshengyanqing/1/\"}]",
+        "lastUpdateTime": 1670661731164,
+        "loginCheckJs": "cookie.removeCookie(result.url());\nresult",
+        "respondTime": 4624,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "intro": "class.intro@text",
+            "lastChapter": "class.read@tag.ul.0@tag.a@text&&class.detail@tag.p.-1@text\n\n<js>result.replace(/.*hapter/,'').replace(/(\\d+)(.*)/,'第$1章$2').replace(/(第)\\s*第(.*)(章)\\s*章/,'$1$2$3').replace(/\\s*(\\D{2,})-/,'$1')</js>##[最后更最新于至状态时间连载中:：已完结到]{2,}|求.*(票|\\(.*\\))|.*[目录章节]{2,}[:：]*|[正文]*卷[\\d+]*|\\d{2}:.*|…|[\\(（【】）\\)，。．\\.\\?·\\|、T\\[\\]]+|晋江.*发@js:result.replace(/\\s*(\\D{2,})第(\\d+)章/,'$1$2').replace(/.*(第.*章).*章(.*)/,'$1 $2').replace(/(\\D{2,})(\\d{2,4}\\D\\d{2}(\\D\\d{2})?)/,'$1⌚$2').replace(/\\n/,'⌚').replace(/⌚\\s*(\\d+)*⌚/,'$1⌚').replace(/(第\\d+章\\s*)\\d*\\s*\\d*(.*)(.*)/,'$1$2')",
+            "tocUrl": "text.阅读目录@href"
+        },
+        "ruleContent": {
+            "content": "#content p@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.dd.2@text",
+            "bookList": "div.lblr dl",
+            "bookUrl": "tag.a.-1@href##.*(/.*/)##http://m.fushuwang.co$1",
+            "checkKeyWord": "马甲",
+            "coverUrl": "img@src",
+            "kind": "",
+            "lastChapter": "tag.a.-1@href##.*(/.*/)##http://m.fushuwang.co$1<js>java.ajax(result)\n</js>class.read@tag.ul.0@tag.a@text&&class.detail@tag.p.-1@text\n\n<js>result.replace(/.*hapter/,'').replace(/(\\d+)(.*)/,'第$1章$2').replace(/(第)\\s*第(.*)(章)\\s*章/,'$1$2$3').replace(/\\s*(\\D{2,})-/,'$1')</js>##[最后更最新于至状态时间连载中:：已完结到]{2,}|求.*(票|\\(.*\\))|.*[目录章节]{2,}[:：]*|[正文]*卷[\\d+]*|\\d{2}:.*|…|[\\(（【】）\\)，。．\\.\\?·\\|、T\\[\\]]+|晋江.*发@js:result.replace(/\\s*(\\D{2,})第(\\d+)章/,'$1$2').replace(/.*(第.*章).*章(.*)/,'$1 $2').replace(/(\\D{2,})(\\d{2,4}\\D\\d{2}(\\D\\d{2})?)/,'$1⌚$2').replace(/\\n/,'⌚').replace(/⌚\\s*(\\d+)*⌚/,'$1⌚').replace(/(第\\d+章\\s*)\\d*\\s*\\d*(.*)(.*)/,'$1$2')",
+            "name": "img@alt",
+            "wordCount": "tag.dd.3@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "#readlist a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search/,{'method':'POST','body':'searchkey={{key}}'}",
+        "weight": 0
+    }
+]

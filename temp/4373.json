@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "经典笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.jdbqg.com",
+        "bookUrlPattern": "https?://m.jdbqg.com/[\\d_]+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort/1_{{page}}/\n修真小说::/sort/2_{{page}}/\n都市小说::/sort/3_{{page}}/\n穿越小说::/sort/4_{{page}}/\n网游小说::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n其他小说::/sort/4_{{page}}/\n新书入库::/top/postdate_{{page}}/\n完本小说::/wanben/1_{{page}}",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698630039599,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nu:\"text.章节目录@href\"}",
+            "intro": "@get:{i}##小说相关：.*",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}##.*最新章节：",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{u}"
+        },
+        "ruleContent": {
+            "content": "#novelcontent>p@textNodes",
+            "nextContentUrl": "text.下一@href\n@js:\n/_\\d+.html/.test(result)?result:\"\""
+        },
+        "ruleExplore": {
+            "author": ".author@text||.p3@text",
+            "bookList": ".article||.articlegeneral||.full_content",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".simple@text",
+            "kind": ".p1@text\\[|\\]",
+            "name": "h6@text||.p2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": "p.sone",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "kind": "0",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href\n@js:\nvar regex=/第\\d*.(\\d+)页.当前\\d*条.页/;\n//正则匹配页数\nvar page=src.match(regex);\npage=page?page[1]:\"\";\nvar next=result?result[0]:\"\";\nnext=String(next);\nvar url=[next];\nfor(i=2;i<=page;i++){\n\turl.push(next.replace(/_\\d+/,\"_\"+i))\n\t}\nurl;"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"s={{key}}&type=articlename\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "sis小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.sistxt.net/",
+        "customOrder": -88962997,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻小说::https://www.sistxt.net/list/xuanhuanxiaoshuo_{{page}}.html&&\n修真小说::https://www.sistxt.net/list/xiuzhenxiaoshuo_{{page}}.html&&\n都市小说::https://www.sistxt.net/list/dushixiaoshuo_{{page}}.html&&\n穿越小说::https://www.sistxt.net/list/chuanyuexiaoshuo_{{page}}.html&&\n网游小说::https://www.sistxt.net/list/wangyouxiaoshuo_{{page}}.html&&\n历史小说::https://www.sistxt.net/list/lishixiaoshuo_{{page}}.html&&\n科幻小说::https://www.sistxt.net/list/kehuanxiaoshuo_{{page}}.html&&\n其他小说::https://www.sistxt.net/list/qitaxiaoshuo_{{page}}.html",
+        "lastUpdateTime": 1664185424444,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".booktag.0@text## \\d+.*##",
+            "coverUrl": "img@src",
+            "intro": ".bookintro@text##....《.*》.*##",
+            "lastChapter": ".bookchapter@text&&.booktime@text##更新时间：##",
+            "name": "h1@text",
+            "tocUrl": "",
+            "wordCount": ".blue.0@text&&.red.2@text"
+        },
+        "ruleContent": {
+            "content": ".read@p@textNodes##(作者：.*|【未完，待续】)##",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": ".p10@.bookinfo@.author.0@text",
+            "bookList": ".content.book@.bookbox",
+            "bookUrl": "h4@a@href",
+            "intro": ".update@text",
+            "kind": "",
+            "lastChapter": ".cat@text",
+            "name": ".p10@.bookinfo@.bookname@text",
+            "wordCount": ".p10@.bookinfo@.author.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author.0@text",
+            "bookList": ".book@.bookbox",
+            "bookUrl": "a@href",
+            "intro": ".update@text##简介：##",
+            "kind": "",
+            "lastChapter": ".cat@text##更新到：##",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.sistxt.net/search/,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

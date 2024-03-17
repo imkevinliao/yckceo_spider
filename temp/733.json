@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "需要搜索的书＞15章，才可查看，主要是起点热门书\n\n不可频繁搜索，会出现验证码",
+        "bookSourceGroup": "☁️可用,☁修正",
+        "bookSourceName": "书快小说W",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shukuai.net/",
+        "bookUrlPattern": "https://www.shukuai.net/b/\\d+/",
+        "customOrder": -88922394,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort/1_{{page}}/\n武侠修真::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n网游竞技::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n恐怖灵异::/sort/7_{{page}}/\n其他小说::/sort/8_{{page}}/\n完本小说::/quanben_{{page}}/",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+        "lastUpdateTime": 1642845435749,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": "id.bookscore@class.score_avg@em@text&&id.bookscore@class.score_total@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html##章节错误.*章节内容.*|书快小说为你提供最.*",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "class.s4@a@text",
+            "bookList": "id.newscontent@ul@li",
+            "bookUrl": "class.s2@a@href",
+            "coverUrl": "class.img@a@img@src",
+            "intro": "",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text",
+            "wordCount": "class.s5@text"
+        },
+        "ruleSearch": {
+            "author": "class.s4@a@text",
+            "bookList": "class.novelslist2@li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "checkKeyWord": "日常系血族",
+            "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.shukuai.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "class.s6@text",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.box_con@id.list@dl@dd!0:1:2:3:4:5:6:7:8:9:10:11:12:13:14",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "https://www.shukuai.net/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

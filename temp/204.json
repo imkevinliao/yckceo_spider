@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceGroup": "小白自制",
+        "bookSourceName": "看书啦",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.shuxinyi.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1660066674742,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@tag.a@text",
+            "coverUrl": "#thumb@tag.img@src",
+            "intro": "class.review@text",
+            "kind": "class.sort@tag.span@text",
+            "lastChapter": "class.directoryArea@tag.p.0@text",
+            "name": "class.title@text",
+            "tocUrl": "class.recommend@h2.1@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "class.Readarea@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##特大好消息,退出转码页面,下载爱阅小说app后，全部小说免广告看，还能优先看最新章节。活动推广期间，用户还可以免费领取礼包100块钱话费。"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@tag.a.1@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "class.hot_sale@tag.a.0@href",
+            "lastChapter": "class.hot_sale@tag.p.2@tag.a@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.directoryArea@tag.p!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://wap.shuxinyi.net/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "四五中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.45zw.cc",
+        "bookUrlPattern": "https://m.45zw.cc/book/\\d+/",
+        "customOrder": 9,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/list/1_{{page}}.html\n修真::/list/2_{{page}}.html\n都市::/list/3_{{page}}.html\n历史::/list/4_{{page}}.html\n网游::/list/5_{{page}}.html\n科幻::/list/6_{{page}}.html\n完本::/full/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690366387590,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完.*继续阅读"
+        },
+        "ruleExplore": {
+            "author": ".mr15@text",
+            "bookList": ".list-item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "span.-1@text",
+            "kind": ".red@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": ".list-item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "span.-1@text",
+            "kind": "span.1@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://m.45zw.cc/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n  \"charset\": \"GBK\"\n}",
+        "weight": 0
+    }
+]

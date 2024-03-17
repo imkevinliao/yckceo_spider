@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "📖  小说",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.qu-la.com/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/class1/p{{page}}\n修真小说::/class2/p{{page}}\n都市小说::/class3/p{{page}}\n穿越小说::/class4/p{{page}}\n网游小说::/class5/p{{page}}\n科幻小说::/class6/p{{page}}\n其他小说::/class7/p{{page}}\n完本小说::/finish/?page= {{page}}",
+        "header": "",
+        "lastUpdateTime": 1641742116539,
+        "respondTime": 2777,
+        "ruleBookInfo": {
+            "author": ".book-text@span@text##作者：",
+            "coverUrl": "tag.img@src",
+            "intro": ".intro@text",
+            "kind": ".tag@tag.span.0@text&&.tag@tag.span.1@text##状态：",
+            "lastChapter": ".update-text@tag.a@text||.update@tag.a@text##更新至",
+            "name": ".book-text@h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": ".txt@html##记住.*网址.*|『如果章节错误，点此举报』|第.*章.*|第.*页|.*本章未完.*",
+            "nextContentUrl": "text.下一章@href||text.下章@href"
+        },
+        "ruleExplore": {
+            "author": ".author@text",
+            "bookList": ".book-view-box",
+            "bookUrl": "h4@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": ".intro@text",
+            "kind": ".tag@tag.span.0@text&&.tag@tag.span.1@text##状态：",
+            "name": ".book-info@tag.a@text"
+        },
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": "ul@tag.li!0",
+            "bookUrl": ".s2@tag.a@href",
+            "coverUrl": ".s2@tag.a@href<js>java.ajax(result)\n</js>tag.img@src",
+            "intro": "",
+            "kind": "",
+            "lastChapter": ".s2@tag.a@href<js>java.ajax(result)\n</js>.update-text@tag.a@text##更新至",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book-chapter-list@class.cf.1@li||.chapter-list.1@li",
+            "chapterName": "@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": ".update-text@tag.span@text||.time@##更新：|更新时间："
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=qu-la.com&q={{key}}",
+        "weight": 0
+    }
+]

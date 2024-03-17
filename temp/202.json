@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "\n\n自制",
+        "bookSourceGroup": "📖  小说",
+        "bookSourceName": "📝7017k小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.7017k.com",
+        "customOrder": -314,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/\n武侠::/xianxia/\n都市::/dushi/\n穿越::/chuanyue/\n恐怖::/kongbu/\n网游::/wangyou/\n科幻::/kehuan/\n全本::/full.html\n排行榜::/top.html",
+        "lastUpdateTime": 1657806338492,
+        "respondTime": 249836,
+        "ruleBookInfo": {
+            "author": ".dd_box.0@tag.span.0@text##作者：",
+            "coverUrl": "tag.img@src",
+            "init": "",
+            "intro": ".book_about@tag.dd@text##最新章节推荐地址：https://m.*",
+            "kind": ".dd_box.0@tag.span.1@text&&.dd_box.1@tag.span.0@text##分类：|状态：",
+            "lastChapter": "class.book_box@tag.span.-1:-2@text\n##、\n\n\n<js>result.replace(/.*hapter/,'').replace(/(\\d+)(.*)/,'第$1章$2').replace(/(第)\\s*第(.*)(章)\\s*章/,'$1$2$3').replace(/\\s*(\\D{2,})-/,'$1')</js>##[最后更最新于至状态时间连载中:：已完结]{2,}|求.*(票|\\(.*\\))|.*[目录章节]{2,}[:：]*|[正文]*卷[\\d+]*|\\d{2}:.*|…|[\\(（【】）\\)，。．\\.\\?·\\|、T]+|晋江.*发@js:result.replace(/\\s*(\\D{2,})第(\\d+)章/,'$1$2').replace(/.*(第.*章).*章(.*)/,'$1 $2').replace(/(\\D{2,})(\\d{2,4}\\D\\d{2}(\\D\\d{2})?)/,'$1⌚$2').replace(/\\n/,'⌚').replace(/⌚\\s*(\\d+)*⌚/,'$1⌚').replace(/(第\\d+章\\s*)\\d*\\s*\\d*(.*)(.*)/,'$1$2')",
+            "name": ".name@text",
+            "tocUrl": "",
+            "wordCount": ".dd_box.1@tag.span.1@text##字数："
+        },
+        "ruleContent": {
+            "content": "class.Readarea ReadAjax_content@text",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##[（本章未完，请翻页） ]{5,}|7017k小说网|[阅读网址：m.7017k.com]{5,}|[（本章完） ]{3,}|第.*章.*\\(第\\d/\\d页\\) "
+        },
+        "ruleExplore": {
+            "author": ".s3@text",
+            "bookList": "li",
+            "bookUrl": "tag.a@href",
+            "kind": "",
+            "name": "tag.a@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": ".author@text##作者：",
+            "bookList": ".bookbox",
+            "bookUrl": ".bookname@tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "",
+            "kind": ".cat@text##分类：",
+            "lastChapter": ".bookname@tag.a@href##(.*)##https://m.7017k.com$1###<js>java.ajax(result)\n</js>class.book_box@tag.span.-1:-2@text\n\n<js>result.replace(/.*hapter/,'').replace(/(\\d+)(.*)/,'第$1章$2').replace(/(第)\\s*第(.*)(章)\\s*章/,'$1$2$3').replace(/\\s*(\\D{2,})-/,'$1')</js>##[最后更最新于至状态时间连载中:：已完结]{2,}|求.*(票|\\(.*\\))|.*[目录章节]{2,}[:：]*|[正文]*卷[\\d+]*|\\d{2}:.*|…|[\\(（【】）\\)，。．\\.\\?·\\|、T]+|晋江.*发@js:result.replace(/\\s*(\\D{2,})第(\\d+)章/,'$1$2').replace(/.*(第.*章).*章(.*)/,'$1 $2').replace(/(\\D{2,})(\\d{2,4}\\D\\d{2}(\\D\\d{2})?)/,'$1⌚$2').replace(/\\n/,'⌚').replace(/⌚\\s*(\\d+)*⌚/,'$1⌚').replace(/(第\\d+章\\s*)\\d*\\s*\\d*(.*)(.*)/,'$1$2')",
+            "name": ".bookname@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last.1@tag.dd",
+            "chapterName": "@text",
+            "chapterUrl": "tag.a@href",
+            "isVolume": "",
+            "nextTocUrl": "text.下一页@href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://m.7017k.com/s.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

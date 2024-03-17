@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "api·凡",
+        "bookSourceName": "txt全本小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.txtqb2021.com/",
+        "bookUrlPattern": "",
+        "customOrder": 47,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\": \"全部分类\",\"url\": \"\",\n\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 1\n}},\n{\"title\": \"玄幻小说\",\"url\": \"https://s.txtqb2021.com/api/book/block/3156_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"奇幻小说\",\"url\": \"https://s.txtqb2021.com/api/book/block/3160_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"武侠仙侠\",\"url\": \"https://s.txtqb2021.com/api/book/block/3161_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"都市小说\",\"url\": \"https://s.txtqb2021.com/api/book/block/3162_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"科幻游戏\",\"url\": \"https://s.txtqb2021.com/api/book/block/3225_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"历史军事\",\"url\": \"https://s.txtqb2021.com/api/book/block/3231_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"女频玄幻\",\"url\": \"https://s.txtqb2021.com/api/book/block/3229_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"现代言情\",\"url\": \"https://s.txtqb2021.com/api/book/block/3226_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"女生仙侠\",\"url\": \"https://s.txtqb2021.com/api/book/block/3228_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"古代言情\",\"url\": \"https://s.txtqb2021.com/api/book/block/3227_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 0.29\n}},\n{\"title\": \"女生科幻\",\"url\": \"https://s.txtqb2021.com/api/book/block/3230_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 0.29\n}},\n{\"title\": \"男·排行榜\",\"url\": \"\",\n\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 1\n}},\n{\"title\": \"点点排行\",\"url\": \"https://s.txtqb2021.com/api/book/block/3158_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"横横排行\",\"url\": \"https://s.txtqb2021.com/api/book/block/3159_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"KK排行\",\"url\": \"https://s.txtqb2021.com/api/book/block/3157_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"掌阅榜\",\"url\": \"https://s.txtqb2021.com/api/book/block/2196_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"更新榜\",\"url\": \"https://s.txtqb2021.com/api/book/block/2194_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"热搜榜\",\"url\": \"https://s.txtqb2021.com/api/book/block/2193_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"完结榜\",\"url\": \"https://s.txtqb2021.com/api/book/block/2195_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 0.29\n}},\n{\"title\": \"女·排行榜\",\"url\": \"\",\n\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 1\n}},\n{\"title\": \"女生点点\",\"url\": \"https://s.txtqb2021.com/api/book/block/3223_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"横横女生\",\"url\": \"https://s.txtqb2021.com/api/book/block/3224_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"女生潇潇\",\"url\": \"https://s.txtqb2021.com/api/book/block/3222_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"热搜榜\",\"url\": \"https://s.txtqb2021.com/api/book/block/2210_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"完结榜\",\"url\": \"https://s.txtqb2021.com/api/book/block/2211_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"推荐榜\",\"url\": \"https://s.txtqb2021.com/api/book/block/2212_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0.25,\n\"layout_flexBasisPercent\": -1\n}},\n{\"title\": \"新书榜\",\"url\": \"https://s.txtqb2021.com/api/book/block/2213_{{page}}.json\",\n\"style\": {\"layout_flexGrow\": 0,\n\"layout_flexBasisPercent\": 0.29\n}}\n]",
+        "header": "{\"Version-Code\":\"33000\",\"Channel\":\"xiaomi\",\"appid\":\"txtqbxs\"}",
+        "lastUpdateTime": 1664792618935,
+        "loginUrl": "",
+        "respondTime": 13883,
+        "ruleBookInfo": {
+            "author": "$.author_name",
+            "coverUrl": "$.book_cover",
+            "init": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n    function decrypt(str){\n        var key=SecretKeySpec(String(\"ZKYm5vSUhvcG9IbXNZTG1pb2\").getBytes(),\"DESede\");\n        var iv=IvParameterSpec(String(\"01234567\").getBytes());\n        var bytes=Base64.decode(String(str).getBytes(),2);\n        var chipher=Cipher.getInstance(\"DESede/CBC/PKCS5Padding\");\n        chipher.init(2,key,iv);\n        return String(chipher.doFinal(bytes));\n    }\n}\ndecrypt(JSON.parse(result).data.replace(/(\\r\\n)|(\\n)|(\\r)/g,''))\n</js>result",
+            "intro": "$.book_brief",
+            "kind": "{{String(java.timeFormat(java.getString('$.update_time')*1000))}}\n{{$.category_name}}\n{{$.book_level}}分##/##-",
+            "lastChapter": "$.chapter_new_name",
+            "name": "$.book_name",
+            "tocUrl": "@js:\nlet bid=parseInt(java.getString('$.book_id'))\nlet subPath=parseInt(bid/1000)\n\"https://s.txtqb2021.com/api/book/chapter/\"+subPath+\"/\"+bid+\"/list.json\"",
+            "wordCount": "$.book_word_num"
+        },
+        "ruleContent": {
+            "content": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n    function decrypt(str){\n        var key=SecretKeySpec(String(\"ZKYm5vSUhvcG9IbXNZTG1pb2\").getBytes(),\"DESede\");\n        var iv=IvParameterSpec(String(\"01234567\").getBytes());\n        var bytes=Base64.decode(String(str).getBytes(),2);\n        var chipher=Cipher.getInstance(\"DESede/CBC/PKCS5Padding\");\n        chipher.init(2,key,iv);\n        return String(chipher.doFinal(bytes));\n    }\n}\ndecrypt(JSON.parse(result).data.replace(/(\\r\\n)|(\\n)|(\\r)/g,''))\n</js>content##【.*咪咪阅读.*】"
+        },
+        "ruleExplore": {
+            "author": "$.author_name",
+            "bookList": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n    function decrypt(str){\n        var key=SecretKeySpec(String(\"ZKYm5vSUhvcG9IbXNZTG1pb2\").getBytes(),\"DESede\");\n        var iv=IvParameterSpec(String(\"01234567\").getBytes());\n        var bytes=Base64.decode(String(str).getBytes(),2);\n        var chipher=Cipher.getInstance(\"DESede/CBC/PKCS5Padding\");\n        chipher.init(2,key,iv);\n        return String(chipher.doFinal(bytes));\n    }\n}\ndecrypt(JSON.parse(result).data.replace(/(\\r\\n)|(\\n)|(\\r)/g,''))\n</js>result.book_list",
+            "bookUrl": "@js:\nlet bid=parseInt(java.getString('$.book_id'))\nlet subPath=parseInt(bid/1000)\n\"https://s.txtqb2021.com/api/book/detail/\"+subPath+\"/\"+bid+\".json\"",
+            "coverUrl": "$.book_cover",
+            "intro": "$.book_brief",
+            "kind": "{{String(java.timeFormat(java.getString('$.update_time')*1000))}}\n{{$.category_name}}\n{{$.book_level}}分##/##-",
+            "lastChapter": "$.chapter_new_name",
+            "name": "$.book_name@put:{bid:$.book_id}",
+            "wordCount": "$.book_word_num"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.author_name",
+            "bookList": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto,\n    Packages.javax.crypto.spec,\n    Packages.android.util\n);\n\nwith(javaImport){\n    function decrypt(str){\n        var key=SecretKeySpec(String(\"ZKYm5vSUhvcG9IbXNZTG1pb2\").getBytes(),\"DESede\");\n        var iv=IvParameterSpec(String(\"01234567\").getBytes());\n        var bytes=Base64.decode(String(str).getBytes(),2);\n        var chipher=Cipher.getInstance(\"DESede/CBC/PKCS5Padding\");\n        chipher.init(2,key,iv);\n        return String(chipher.doFinal(bytes));\n    }\n}\ndecrypt(JSON.parse(result).data.replace(/(\\r\\n)|(\\n)|(\\r)/g,''))\n</js>result",
+            "bookUrl": "<js>let bid=parseInt(java.getString('$.book_id'))\nlet subPath=parseInt(bid/1000)\n\"https://s.txtqb2021.com/api/book/detail/\"+subPath+\"/\"+bid+\".json\"</js>",
+            "coverUrl": "$.book_cover",
+            "intro": "$.book_brief",
+            "kind": "{{String(java.timeFormat(java.getString('$.chapter_time')*1000))}}\n{{$.category_name}}\n{{$.book_level}}分##/##-",
+            "lastChapter": "$.chapter_new_name",
+            "name": "$.book_name@put:{bid:$.book_id}",
+            "wordCount": "$.book_word_num"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n    function decrypt(str){\n        var key=SecretKeySpec(String(\"ZKYm5vSUhvcG9IbXNZTG1pb2\").getBytes(),\"DESede\");\n        var iv=IvParameterSpec(String(\"01234567\").getBytes());\n        var bytes=Base64.decode(String(str).getBytes(),2);\n        var chipher=Cipher.getInstance(\"DESede/CBC/PKCS5Padding\");\n        chipher.init(2,key,iv);\n        return String(chipher.doFinal(bytes));\n    }\n}\ndecrypt(JSON.parse(result).data.replace(/(\\r\\n)|(\\n)|(\\r)/g,''))\n</js>result",
+            "chapterName": "$.chapter_name",
+            "chapterUrl": "https://s.txtqb2021.com/api/book/chapter/{{parseInt(java.get('bid')/1000)}}/@get:{bid}/{{$._id}}.json",
+            "isVip": "",
+            "updateTime": "{{$.words_count}} 字"
+        },
+        "searchUrl": "https://m.txtqb2021.com/search/book/result,{\"method\":\"POST\",\"body\":\"kw={{key}}&pn={{page}}\"}",
+        "weight": 0
+    }
+]

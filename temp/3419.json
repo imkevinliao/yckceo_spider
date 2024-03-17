@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "闪舞小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.35xss.com",
+        "customOrder": -119,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "@js:\nsort=[];\npush=(title,url,type)=>sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: 1,\n\t\t\t\tlayout_flexBasisPercent: type\n\t\t\t}\n\t});\n$$=(a,b,c)=>`https://m.35xss.com/shuku/${a}_${b}_${c}_{{page}\\}.html`;\n[[\"综合榜\",\"0\"],[\"总点击\",\"allvisit\"],[\"月点击\",\"monthvisit\"],[\"周点击\",\"weekvisit\"],[\"日点击\",\"dayvisit\"],[\"总推荐\",\"allvote\"],[\"月推荐\",\"monthvote\"],[\"周推荐\",\"weekvote\"],[\"日推荐\",\"dayvote\"],[\"总收藏\",\"goodnum\"],[\"字数榜\",\"size\"],[\"新入库\",\"postdate\"]].map([title,a]=>{\n\t\tpush(title,$$(a,0,0),1);\n\t\t[\"全部分类\",\"玄幻奇幻\",\"武侠仙侠\",\"都市生活\",\"历史军事\",\"游戏竞技\",\"科幻未来\",\"恐怖悬疑\",\"其他类型\",\"古代言情\",\"现代言情\",\"幻想奇缘\",\"游戏情缘\",\"浪漫青春\",\"言情美文\",\"科幻灵异\",\"其他类型\"].map((title,b)=>{\n\t\t\t\t[\"[\"+title+\"]\",\"连载\",\"完本\"].map((title,c)=>{\n\t\t\t\t\t\tpush(title,$$(a,b,c),0.25);\n\t\t\t\t\t});\n\t\t\t});\n\t});\nJSON.stringify(sort);",
+        "header": "{\n\t\"referer\": \"https://www.35xss.com/\",\n\t\"cookie\": \"0\"\n}",
+        "lastUpdateTime": 1685165180883,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content\n##(^|[。！？]+[”」）】]?)([\\s\\S]*观看小说\\:)?##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##小说|\\s\\d.*",
+            "lastChapter": "{{@@[property$=chapter_name]@content}} • {{@@[property$=update_time]@content##\\s.*}}",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#content@html\n##\\s+.+点击下一页[\\s\\S]+",
+            "nextContentUrl": "text.下一页@href\n##$##,{\n  \"headers\": {\n    \"cookie\": \"novel_{{baseUrl.replace(/.+\\/(\\d+)\\/(\\d+)[\\s\\S]+/,'$1=$2')}}\"\n  }\n}",
+            "replaceRegex": "##\\s+喜欢{{book.name}}请大家收藏.+",
+            "sourceRegex": "",
+            "title": ""
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".list li",
+            "bookUrl": "a.0@href\n##_(\\d+)##https://www.35xss.com/$1/###",
+            "coverUrl": "img@src",
+            "intro": ".intro@text",
+            "kind": "span@text",
+            "lastChapter": "a.3@text",
+            "name": "a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": "#sitembox dl",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": ".book_des@text",
+            "kind": "span.2:1:4@text## .*",
+            "lastChapter": "{{@a.2@text}} • {{@span.4@text}}",
+            "name": "h3@text",
+            "wordCount": "span.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\n\nurl = \"https://www.35xss.com/search.html\";\n\nbody = \"searchtype=all&searchkey=\"+key;\n\nhead = {\n\t\"referer\": \"https://www.35xss.com/\",\n\t\"cookie\": \"0\"\n};\n\n$ = java.post(url,body,head).headers();\n\nurl = $.Location||$.location;\n\nString(url).replace('1.html','{{page}\\}.html');",
+        "weight": 0
+    }
+]

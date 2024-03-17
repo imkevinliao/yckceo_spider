@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "目录多的书加载比较慢",
+        "bookSourceGroup": "自制,一般,源仓库,网页源",
+        "bookSourceName": "爱尚小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.itshang.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "都市言情::/class/1_{{page}}/\n历史军事::/class/2_{{page}}/\n玄幻奇幻::/class/3_{{page}}/\n武侠修真::/class/4_{{page}}/\n女生纯爱::/class/11_{{page}}/\n科幻网游::/class/7_{{page}}/\n悬疑灵异::/class/9_{{page}}/",
+        "lastUpdateTime": 1683715742916,
+        "loginUrl": "https://m.itshang.com/User/LogOn",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.xx@li.2@text",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": ".jianjie@p.0@text",
+            "kind": "class.xx@li.1:3@text##分类：|更新：",
+            "lastChapter": "class.xx@li.4@text##最新章节：",
+            "name": "class.xx@li.0@text",
+            "tocUrl": "text.全部章节@href"
+        },
+        "ruleContent": {
+            "content": "#nr@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.fk@li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li!-1",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.itshang.com/Search/{{key}}",
+        "weight": 0
+    }
+]

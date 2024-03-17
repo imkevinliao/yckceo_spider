@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "//搜索无效，仅发现。\n//可复制链接，在首页书架添加网址。\n//同站：https://m.sywtxt.com/",
+        "bookSourceGroup": "自制,发现,源仓库,网页源",
+        "bookSourceName": "书阅屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap2.shuyuewu.co",
+        "bookUrlPattern": "https?://wap2.shuyuewu.co/\\d+/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xclass/1/{{page}}.html\n修真::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n穿越::/xclass/4/{{page}}.html\n网游::/xclass/5/{{page}}.html\n科幻::/xclass/6/{{page}}.html\n其他::/xclass/7/{{page}}.html\n全本::/quanben.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691986750926,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.更多章节@href",
+            "wordCount": "{{@@text.字数@text##字数：}}"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##{{chapter.title}}|第\\(.+\\)页|（.*阅读模式.*）|请收藏.*co|\\(本章未完,请翻页\\)|记住手机版网址.+"
+        },
+        "ruleExplore": {
+            "author": ".s3@text",
+            "bookList": ".lis li",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:\"https://www.shuyuewu.co/files/article/image/32/32591/32591s.jpg\"",
+            "intro": "",
+            "kind": ".s1@text##\\[|\\]",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "<js>\n/Fatal error/.test(src)?java.toast(\"搜索出错！\"):result;\n</js>\n.item",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "kind": "0",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?siteid=shuyuewu.co&q={{key}},{\n  \"charset\": \"GBK\",\n  \"method\": \"GET\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

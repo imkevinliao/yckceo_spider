@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "📰 其他",
+        "bookSourceName": "诺哈📰💜",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://nuoha.com",
+        "customOrder": 60240,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/book/channel/1/{{page}}.html\n奇幻::/book/channel/2/{{page}}.html\n武侠::/book/channel/3/{{page}}.html\n仙侠::/book/channel/4/{{page}}.html\n都市::/book/channel/5/{{page}}.html\n历史::/book/channel/6/{{page}}.html\n军事::/book/channel/7/{{page}}.html\n悬疑::/book/channel/8/{{page}}.html\n现实::/book/channel/9/{{page}}.html\n体育::/book/channel/10/{{page}}.html\n古言::/book/channel/11/{{page}}.html\n现言::/book/channel/12/{{page}}.html\n幻情::/book/channel/13/{{page}}.html\n青春::/book/channel/14/{{page}}.html\n游戏::/book/channel/15/{{page}}.html\n科幻::/book/channel/16/{{page}}.html\n短篇::/book/channel/17/{{page}}.html\n小说::/book/channel/18/{{page}}.html\n轻小说::/book/channel/19/{{page}}.html\n悬疑灵异::/book/channel/20/{{page}}.html\n公版::/book/channel/21/{{page}}.html\n亲子::/book/channel/22/{{page}}.html\n耽美::/book/channel/23/{{page}}.html\n外语::/book/channel/24/{{page}}.html\n纯爱::/book/channel/25/{{page}}.html\n古代言情::/book/channel/26/{{page}}.html\n保健养生::/book/channel/27/{{page}}.html\n现代言情::/book/channel/28/{{page}}.html\n其他::/book/channel/29/{{page}}.html\n成功励志::/book/channel/30/{{page}}.html\n浪漫青春::/book/channel/31/{{page}}.html\n仙侠奇缘::/book/channel/32/{{page}}.html\n职场::/book/channel/33/{{page}}.html\n宗教::/book/channel/34/{{page}}.html\n玄幻言情::/book/channel/35/{{page}}.html\n文学::/book/channel/36/{{page}}.html\n同人小说::/book/channel/37/{{page}}.html\n耽美小说::/book/channel/38/{{page}}.html\n管理::/book/channel/39/{{page}}.html\n青春文学::/book/channel/40/{{page}}.html\n亲子家教::/book/channel/41/{{page}}.html\n传记::/book/channel/42/{{page}}.html\n灵异::/book/channel/43/{{page}}.html\n游戏竞技::/book/channel/44/{{page}}.html\n同人::/book/channel/45/{{page}}.html\n教材教辅::/book/channel/46/{{page}}.html\n社会科学::/book/channel/47/{{page}}.html\n经济::/book/channel/48/{{page}}.html\n两性关系::/book/channel/49/{{page}}.html\n休闲爱好::/book/channel/50/{{page}}.html\n科幻空间::/book/channel/51/{{page}}.html\n心理学::/book/channel/52/{{page}}.html\n风水占卜::/book/channel/53/{{page}}.html\n竞技::/book/channel/54/{{page}}.html\n童书::/book/channel/55/{{page}}.html\n文化::/book/channel/56/{{page}}.html\n政治::/book/channel/57/{{page}}.html\n投资理财::/book/channel/58/{{page}}.html\n古籍::/book/channel/59/{{page}}.html\n哲学::/book/channel/60/{{page}}.html\n艺术::/book/channel/61/{{page}}.html\n旅游地图::/book/channel/62/{{page}}.html\n时尚美妆::/book/channel/63/{{page}}.html\n科普读物::/book/channel/64/{{page}}.html\n医学::/book/channel/65/{{page}}.html\n烹饪美食::/book/channel/67/{{page}}.html\n法律::/book/channel/68/{{page}}.html\n工业技术::/book/channel/69/{{page}}.html\n自然科学::/book/channel/70/{{page}}.html\n期刊杂志::/book/channel/71/{{page}}.html\n家庭家居::/book/channel/72/{{page}}.html\n二次元::/book/channel/73/{{page}}.html\nN次元::/book/channel/74/{{page}}.html\n建筑::/book/channel/75/{{page}}.html\n农业林业::/book/channel/76/{{page}}.html\n都市小说::/book/channel/77/{{page}}.html\n工具书::/book/channel/78/{{page}}.html\n体育运动::/book/channel/79/{{page}}.html\n考试::/book/channel/80/{{page}}.html\n历史小说::/book/channel/81/{{page}}.html\n都市言情::/book/channel/82/{{page}}.html\n科普::/book/channel/83/{{page}}.html\n励志::/book/channel/84/{{page}}.html\n休闲::/book/channel/85/{{page}}.html\n养生::/book/channel/86/{{page}}.html\n社科::/book/channel/87/{{page}}.html\n孕产育儿::/book/channel/88/{{page}}.html\n漫画::/book/channel/89/{{page}}.html\n计算机网络::/book/channel/90/{{page}}.html\n专栏::/book/channel/91/{{page}}.html\n心理::/book/channel/92/{{page}}.html\n两性::/book/channel/93/{{page}}.html\n杂志::/book/channel/94/{{page}}.html\n时尚::/book/channel/95/{{page}}.html\n农林::/book/channel/96/{{page}}.html\n投资::/book/channel/97/{{page}}.html\n风水::/book/channel/98/{{page}}.html\n美食::/book/channel/99/{{page}}.html\n自然::/book/channel/100/{{page}}.html\n家居::/book/channel/101/{{page}}.html\n工业::/book/channel/102/{{page}}.html\n旅游::/book/channel/103/{{page}}.html\n英文图书::/book/channel/104/{{page}}.html\n情感小说::/book/channel/105/{{page}}.html\n教育教辅::/book/channel/106/{{page}}.html\n计算机::/book/channel/107/{{page}}.html\n手工::/book/channel/108/{{page}}.html\n短篇小说::/book/channel/109/{{page}}.html\n悬疑小说::/book/channel/110/{{page}}.html\n情感::/book/channel/111/{{page}}.html\n手工DIY::/book/channel/112/{{page}}.html\n女生频道::/book/channel/113/{{page}}.html\n工具::/book/channel/114/{{page}}.html",
+        "lastUpdateTime": 1618208988163,
+        "ruleBookInfo": {
+            "tocUrl": "class.row-c1@a@href"
+        },
+        "ruleContent": {
+            "content": "id.data@html"
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text",
+            "bookList": "class.row-b4@li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "tag.span.-2@text",
+            "kind": "tag.span.2@textNodes",
+            "lastChapter": "tag.span.-1@text##(\\d{4}-\\d{2})##•$1",
+            "name": "tag.a.1@text"
+        },
+        "ruleSearch": {
+            "author": "$.author##^\\d+\\n",
+            "bookList": "$.rlist",
+            "bookUrl": "https://nuoha.com/book/view/{{$.id}}.html",
+            "coverUrl": "$.icon",
+            "intro": "$.intro",
+            "kind": "$.channel##^\\d+",
+            "lastChapter": "$.chapter##^\\d+\\n",
+            "name": "$.name"
+        },
+        "ruleToc": {
+            "chapterList": "class.row-c2@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://s2.nuoha.com/server/book/search.do?pid=1&word={{key}}",
+        "weight": 0
+    }
+]

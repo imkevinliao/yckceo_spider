@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "部分晋江",
+        "bookSourceName": "指尖豆蔻文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zhijiandoukou.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1620130390683,
+        "ruleBookInfo": {
+            "author": "##作.*?者：([^<]+)<##$1###",
+            "coverUrl": "#fmimg img@src",
+            "init": "",
+            "intro": "#intro p@text",
+            "kind": "class.con_top@tag.a.1@text",
+            "lastChapter": "id.list@tag.a.0@text&&id.info@tag.p.2@text##\\n最后更新：##•",
+            "name": "h1@text",
+            "wordCount": "#fmimg span@class\n<js>result==\"a\"?\"完结\":\"连载\"</js>"
+        },
+        "ruleContent": {
+            "content": "id.content@html##喜欢.*更新速度最快[\\s\\S]+?\\)|.*可以在百度.*最新章节.*|\\(记住本站[\\s\\S]+?\\)|[汜(芈何)(牺如)].*?[汜芈(牺如)]"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "#nr",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##book(([\\d]+)[\\d]{3})##https://img.zhijiandoukou.com/files/article/image/$2/$1/$1s.jpg###",
+            "kind": "tag.td.-1@text",
+            "lastChapter": "tag.a.1@text&&tag.td.-2@text##\\n##•",
+            "name": "tag.a.0@text",
+            "wordCount": "tag.td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd!0:1:2:3:4:5:6:7:8@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{\n\"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

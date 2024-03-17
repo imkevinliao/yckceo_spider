@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "new",
+        "bookSourceName": "悠悠小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.uuxiaoshuo.net/",
+        "customOrder": -2397,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\"\n\t}",
+        "lastUpdateTime": 1652734261811,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.bookTitle@small@a@text",
+            "coverUrl": "class.img-thumbnail@img@src",
+            "init": "",
+            "intro": "id.bookIntro@text",
+            "lastChapter": "class.col-md-10@p.1@a@text##章节目录",
+            "name": "class.bookTitle@ownText"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html",
+            "nextContentUrl": "id.linkNext@href",
+            "replaceRegex": "##本章未完.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.text-muted.0@text##/",
+            "bookList": "class.book-coverlist",
+            "bookUrl": "class.col-md-5@a@href",
+            "coverUrl": "class.col-md-5@a@img@src",
+            "intro": "class.text-muted.1@text",
+            "name": "class.caption@h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.panel-chapterlist@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n\t\"charset\":\"gbk\",\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

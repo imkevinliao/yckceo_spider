@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔迷读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bimidu.com",
+        "bookUrlPattern": "https?://www.bimidu.com/\\d+/\\d+/",
+        "customOrder": 6,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/fenlei.html\n玄幻魔法::/fenlei/1_{{page}}.html\n武侠修真::/fenlei/2_{{page}}.html\n都市言情::/fenlei/3_{{page}}.html\n历史军事::/fenlei/4_{{page}}.html\n网游竞技::/fenlei/5_{{page}}.html\n科幻未来::/fenlei/6_{{page}}.html\n恐怖灵异::/fenlei/7_{{page}}.html\n其他类型::/fenlei/8_{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695192084771,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": ".txt_tcontent@html||#nr@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.-1@text",
+            "bookList": ".newlist li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text",
+            "lastChapter": "a.2@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".dirlist.1@li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n  \"body\": \"submit=搜索&searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

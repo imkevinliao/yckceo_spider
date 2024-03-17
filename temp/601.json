@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️新八一☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.x81zw.co#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::https://m.x81zw.co/sort1/\n言情小说::https://m.x81zw.co/sort2/\n仙侠小说::https://m.x81zw.co/sort3/\n都市小说::https://m.x81zw.co/sort4/\n历史小说::https://m.x81zw.co/sort5/\n网游小说::https://m.x81zw.co/sort6/\n竞技小说::https://m.x81zw.co/sort7/\n科幻小说::https://m.x81zw.co/sort8/\n完本小说::https://m.x81zw.co/quanben/",
+        "lastUpdateTime": 1643973882016,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "id.content@textNodes##ァ新ヤ~⑧~1~中文網ωωω.χ~⒏~1zщ.còм|<首发、域名、请记住 xīn 81zhōng wén xiǎo shuō wǎng|新81中文网.*x81zw.com/|新八一中文.*com|m.*com|新81中文.*com/||id.nr1@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "class.iTit@tag.a@href||h4@a@href@js:'https://www.x81zw.co'+result",
+            "intro": "class.intro_line@text",
+            "lastChapter": "class.update@text",
+            "name": "class.iTit@text"
+        },
+        "ruleSearch": {
+            "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+            "bookList": "class.result-list@class.result-item",
+            "bookUrl": "class.result-item-title@tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.result-game-item-desc@text",
+            "kind": "class.result-game-item-info-tag.1@tag.span.1@text&&\nclass.result-game-item-info-tag.2@tag.span.1@text",
+            "lastChapter": "class.result-game-item-info-tag.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+            "name": "class.result-item-title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.a||class.chapter@tag.li",
+            "chapterName": "text||tag.a@text",
+            "chapterUrl": "href##$##,{\"webView\":true}||",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.x81zw.co/search.php?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

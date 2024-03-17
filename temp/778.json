@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "普通,☁️可用,☣️精选senhora,🌹,⛩🎐senhora,☁修正,☣️发现大精选",
+        "bookSourceName": "笔墨看书网M",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bimoks.com",
+        "customOrder": -88917333,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "完本::https://m.bimoks.com/books/0_0_2_0_{{page}}_0_0.html\n              🍂  分类最新 🍂              ::https://m.bimoks.com/books/0_0_0_0_{{page}}_0_0.html\n神魔仙侠::https://m.bimoks.com/books/0_127_0_0_{{page}}_0_0.html\n机甲灵气::https://m.bimoks.com/books/0_149_0_0_{{page}}_0_0.html\n衍生同人::https://m.bimoks.com/books/0_341_0_0_{{page}}_0_0.html\n大陆异世::https://m.bimoks.com/books/0_33_0_0_{{page}}_0_0.html\n二次时空::https://m.bimoks.com/books/0_297_0_0_{{page}}_0_0.html\n同人诸天::https://m.bimoks.com/books/0_345_0_0_{{page}}_0_0.html\n法师西方::https://m.bimoks.com/books/0_125_0_0_{{page}}_0_0.html\n魔法秘术::https://m.bimoks.com/books/0_131_0_0_{{page}}_0_0.html\n诡秘孤冷::https://m.bimoks.com/books/0_129_0_0_{{page}}_0_0.html\n恐怖阴阳::https://m.bimoks.com/books/0_10_0_0_{{page}}_0_0.html\n惊悚奇异::https://m.bimoks.com/books/0_107_0_0_{{page}}_0_0.html\n鬼怪灵探::https://m.bimoks.com/books/0_111_0_0_{{page}}_0_0.html\n推理谍务::https://m.bimoks.com/books/0_279_0_0_{{page}}_0_0.html\n未来无限::https://m.bimoks.com/books/0_157_0_0_{{page}}_0_0.html\n职场济建::https://m.bimoks.com/books/0_161_0_0_{{page}}_0_0.html\n末世游戏::https://m.bimoks.com/books/0_119_0_0_{{page}}_0_0.html\n近代现代::https://m.bimoks.com/books/0_171_0_0_{{page}}_0_0.html\n法宝晋升::https://m.bimoks.com/books/0_19_0_0_{{page}}_0_0.html\n异界重生::https://m.bimoks.com/books/0_25_0_0_{{page}}_0_0.html\n洪荒隐世::https://m.bimoks.com/books/0_445_0_0_{{page}}_0_0.html\n网游世界::https://m.bimoks.com/books/0_8_0_0_{{page}}_0_0.html\n萝莉年少::https://m.bimoks.com/books/0_225_0_0_{{page}}_0_0.html\n真正技术::https://m.bimoks.com/books/0_135_0_0_{{page}}_0_0.html\n主角游戏::https://m.bimoks.com/books/0_137_0_0_{{page}}_0_0.html\n盗贼反角::https://m.bimoks.com/books/0_113_0_0_{{page}}_0_0.html\n宅男梦队::https://m.bimoks.com/books/0_151_0_0_{{page}}_0_0.html\n网游虚拟::https://m.bimoks.com/books/0_381_0_0_{{page}}_0_0.html\n游戏多维::https://m.bimoks.com/books/0_153_0_0_{{page}}_0_0.html\n学生解析::https://m.bimoks.com/books/0_75_0_0_{{page}}_0_0.html\n高干论情::https://m.bimoks.com/books/0_183_0_0_{{page}}_0_0.html\n都市事业::https://m.bimoks.com/books/0_187_0_0_{{page}}_0_0.html\n铁血强人::https://m.bimoks.com/books/0_395_0_0_{{page}}_0_0.html\n明清汉唐::https://m.bimoks.com/books/0_365_0_0_{{page}}_0_0.html\n自创历史::https://m.bimoks.com/books/0_357_0_0_{{page}}_0_0.html\n战争动乱::https://m.bimoks.com/books/0_355_0_0_{{page}}_0_0.html\n法力高强::https://m.bimoks.com/books/0_205_0_0_{{page}}_0_0.html\n权谋进身::https://m.bimoks.com/books/0_313_0_0_{{page}}_0_0.html\n帝王主角::https://m.bimoks.com/books/0_315_0_0_{{page}}_0_0.html\n步步智取::https://m.bimoks.com/books/0_333_0_0_{{page}}_0_0.html\n史书争霸::https://m.bimoks.com/books/0_203_0_0_{{page}}_0_0.html\n现代言情::https://m.bimoks.com/books/0_217_0_0_{{page}}_0_0.html\n三观一如::https://m.bimoks.com/books/0_261_0_0_{{page}}_0_0.html\n古代王侯::https://m.bimoks.com/books/0_255_0_0_{{page}}_0_0.html\n都市生活::https://m.bimoks.com/books/0_9_0_0_{{page}}_0_0.html",
+        "lastUpdateTime": 1642036921595,
+        "respondTime": 4689,
+        "ruleBookInfo": {
+            "author": "class.author text-hide@text",
+            "coverUrl": "img@data-lazy",
+            "intro": "class.sectionTwo-content.0@html##novel|《.*》",
+            "kind": "class.readtime@text&&class.isover text-hide@text&&class.channel text-hide@text&&class.time text-hide@text##小说状态：|作品频道：|创作|阅读|  ",
+            "name": "img.1@alt",
+            "tocUrl": "text.进入目录@href"
+        },
+        "ruleContent": {
+            "content": "<js>let json = java.ajax(\"https://\" + result.match(/q.bimoks.com\\/data.*?\\.xs/)[0])\r\n        if (json != null) {\r\n            json = eval(\"(\" + json.replace(\"_txt_call(\", \"\").replace(\")\", \"\") + \")\")\r\n            for (let key in json.replace) {\r\n                let i = new RegExp(json.replace[key], \"ig\");\r\n                json.content = json.content.replace(i, key)\r\n            }\r\n            result = json.content\r\n        }</js>",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "tag.a@class.gray@text##/ ",
+            "bookList": "class.row book-list@class.list-item",
+            "bookUrl": "class.item-text@href",
+            "coverUrl": "img@data-lazy",
+            "kind": "tag.a@class.tag@text&&tag.a@tag.p.1@text",
+            "lastChapter": "tag.a@tag.p.2@text##.* / ",
+            "name": "tag.a@tag.p.0@text## / .*"
+        },
+        "ruleSearch": {
+            "author": "class.sc-title@tag.a.1@text",
+            "bookList": "class.container@class.container search-card",
+            "bookUrl": "class.sc-title@tag.a.0@href",
+            "intro": "class.search-bold sc-content@text",
+            "kind": "class.s1@text",
+            "lastChapter": "class.sc-time@text",
+            "name": "class.sc-title@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BGsectionThree-content@li@tag.a||id.list@tag.li",
+            "chapterName": "@text",
+            "chapterUrl": "@href",
+            "isPay": "false",
+            "isVip": "false",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "https://m.bimoks.com/search/,{\n\t\"method\":\"post\",\n\t\"body\":\"keyword={{key}}\",\n\t\"webView\":true\n\t}",
+        "weight": 0
+    }
+]

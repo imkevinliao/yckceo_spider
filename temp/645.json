@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "笔下文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bxwx.la/",
+        "customOrder": -140592,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1645080774100,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "class.imgbox@img@src",
+            "intro": "class.desc xs-hidden@text",
+            "kind": "",
+            "lastChapter": "class.section-list fix.0@.0@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "nextContentUrl": "class.section-opt m-bottom-opt@tag.a.2@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.txt-list txt-list-row5@tag.li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "coverUrl": "class.imgbox@img@src",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix.1@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.right@tag.a@href"
+        },
+        "searchUrl": "https://www.bxwx.la/ar.php?keyWord={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "bookSourceName": "亲亲亲",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://mmm.qinqinxsw.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 0,
+        "ruleBookInfo": {
+            "author": "class.synopsisArea_detail@tag\n.a@text##作者：",
+            "lastChapter": "class.directoryArea@tag.a.0@text",
+            "tocUrl": "class.recommend@tag.a.-1@href"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "imageStyle": "full"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "class.hot_sale@tag.a@href",
+            "lastChapter": "",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.p!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://mmm.qinqinxsw.com/s.php?keyword={{key}}",
+        "weight": 0
+    }
+]

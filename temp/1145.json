@@ -1,0 +1,28 @@
+[
+    {
+        "bookSourceGroup": "R18",
+        "bookSourceName": "第一版主网",
+        "bookSourceUrl": "https://www.diyibanzhu7.net",
+        "enable": true,
+        "ruleBookAuthor": ".right@.info@text##\\作者：(.*)\\类型.*##$1###",
+        "ruleBookContent": "//*[@id=\"ChapterView\"]//p",
+        "ruleBookKind": ".right@.info@text##\\.*类型：(.*)\\字数.*##$1###",
+        "ruleBookLastChapter": "class.mod block update chapter-list.0@tag.li.0@tag.a@text",
+        "ruleBookName": ".right@tag.h1@text",
+        "ruleChapterList": "class.mod block update chapter-list.1@tag.li@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrlNext": ".page@tag.a.2@href",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "//a[@class=\"curr\"]/following-sibling::a[1]/@href",
+        "ruleFindUrl": "玄幻奇幻::/fenlei/1_1.html\n仙侠武侠::/fenlei/2_1.html\n都市言情::/fenlei/3_1.html\n穿越历史::/fenlei/4_1.html\n科幻灵异::/fenlei/5_1.html\n藏经阁::/fenlei/6_1.html\n其他类别::/fenlei/7_1.html\n最近更新::/shuku/0-lastupdate-0-searchPage.html",
+        "ruleIntroduce": "class.mod book-intro@class.bd@textNodes",
+        "ruleSearchAuthor": "tag.p@.info@text##\\作者：(.*)\\字数.*##$1###",
+        "ruleSearchLastChapter": ".update@tag.a@text",
+        "ruleSearchList": "class.mod block book-all-list@tag.li",
+        "ruleSearchName": ".name@text",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleSearchUrl": "https://www.diyibanzhu7.net/s.php@objectType=2&type=articlename&s=searchKey|char=gbk@header:{referer:diyibanzhu7.net}",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

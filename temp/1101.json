@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "啃书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.kenshuwu.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1624967449845,
+        "ruleBookInfo": {
+            "author": "tag.p.0@text",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@text",
+            "kind": "class.con_top@tag.a.-1@text",
+            "lastChapter": "tag.p.3@a@text",
+            "name": "h1@text",
+            "wordCount": "tag.p.2@text##更新时间："
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.span.2@text",
+            "bookList": "class.novelslist2@li!0",
+            "bookUrl": "a@href",
+            "kind": "tag.span.0@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": "tag.span.4@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.kenshuwu.com/web/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "⭐快读中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kdzw.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "玄幻::/xuanhuan/{{page}}/\n武侠::/wuxia/{{page}}/\n都市::/dushi/{{page}}/\n历史::/lishi/{{page}}/\n科幻::/kehuan/{{page}}/\n网游::/wangyou/{{page}}/\n女频::/nvpin/{{page}}/\n其他::/qita/{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1682235045181,
+        "loginUrl": "",
+        "respondTime": 6981,
+        "ruleBookInfo": {
+            "coverUrl": ".imgbox@img@src",
+            "intro": "class.xs-show.3@textNodes"
+        },
+        "ruleContent": {
+            "content": "#content@html"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": "class.layout-col2@tag.ul@tag.li",
+            "bookUrl": ".s2@a@href",
+            "kind": ".s1@text##\\[|\\]",
+            "lastChapter": ".s2@text",
+            "name": ".s2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dl@a.0@text",
+            "bookList": "class.item",
+            "bookUrl": "dl@a.1@href",
+            "checkKeyWord": "青春",
+            "coverUrl": "img@data-src",
+            "intro": "dl@dd@text",
+            "name": "dl@a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list fix@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search/?wd={{key}}\",{\n  \"headers\": {\n    \"referer\": \"https://www.kdzw.net\",\n     \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0) Mobile Safari/537.36\"\n  },\"webView\": true\n}",
+        "weight": 0
+    }
+]

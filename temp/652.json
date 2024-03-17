@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "Error: null \n\n",
+        "bookSourceGroup": "☣️。,☣️senhora起点,☁️可用,☁️修正",
+        "bookSourceName": "笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.fyxfcw.com",
+        "bookUrlPattern": "",
+        "customOrder": -88962022,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "       🍂              周      榜             🍂     ::https://www.fyxfcw/hot/week/\n      🍂                月      榜               🍂     ::https://www.fyxfcw/hot/month/\n     🍂                  合      榜                 🍂     ::https://www.fyxfcw/hot/total/",
+        "lastUpdateTime": 1644596378062,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info@class.author@text",
+            "coverUrl": "class.book-boxs@class.imgbox@img@src",
+            "intro": "class.book-dec@class.book-intro@textNodes",
+            "kind": "",
+            "lastChapter": "class.info@class.time@text##最后更新：",
+            "name": "class.info@class.name@text"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes",
+            "replaceRegex": "##@@.*@@@|正在手打中.*更新！"
+        },
+        "ruleExplore": {
+            "author": "class.author@text##｜.*",
+            "bookList": "class.g-plate@ul@li",
+            "bookUrl": "class.img@href",
+            "coverUrl": "class.img@img@data-src",
+            "intro": "class.desc@text",
+            "kind": "class.author@text##.*｜",
+            "name": "h3@text"
+        },
+        "ruleSearch": {
+            "author": ".author@text##/ ",
+            "bookList": "class.list search-list@li",
+            "bookUrl": "a@href",
+            "kind": ".cate@text##\\[|\\]",
+            "lastChapter": "class.time@text",
+            "name": "class.name@text##/ .*"
+        },
+        "ruleToc": {
+            "chapterList": "id.main@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://www.jx.la/ar.php,{\"charset\":\"UTF-8\",\"method\":\"post\",\"body\":\"keyWord={{key}}\"}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "⭐乐库小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.6lk.net",
+        "bookUrlPattern": "",
+        "customOrder": -2085977927,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "玄幻小说::/sort/10/{{page}}.html\n都市小说::/sort/3/{{page}}.html\n穿越小说::/sort/4/{{page}}.html\n仙侠小说::/sort/5/{{page}}.html\n武侠小说::/sort/6/{{page}}.html\n恐怖小说::/sort/7/{{page}}.html\n言情小说::/sort/1/{{page}}.html",
+        "lastUpdateTime": 1680266117196,
+        "respondTime": 3895,
+        "ruleBookInfo": {
+            "intro": "#bookintro@text",
+            "name": ".booktitle@h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "#content@html"
+        },
+        "ruleExplore": {
+            "author": ".book_other@span.0@textNodes",
+            "bookList": "#sitebox@dl",
+            "bookUrl": "a@href##^##http://www.6lk.net",
+            "coverUrl": "img@data-original",
+            "intro": ".book_des@textNodes",
+            "kind": ".book_other@span.2:1@textNodes",
+            "lastChapter": ".book_other@a@textNodes",
+            "name": "h3@tag.a@text",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".book_other.0@tag.span.0@text",
+            "bookList": "#sitembox@dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "kind": ".book_other@tag.span.2:1@text",
+            "lastChapter": ".book_other.1@a@text",
+            "name": "h3@text",
+            "wordCount": ".book_other@tag.span.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#readerlist@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

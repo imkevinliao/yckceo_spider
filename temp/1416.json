@@ -1,0 +1,68 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "📖小说,自",
+        "bookSourceName": "📝红甘泉",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.hgq26.com",
+        "bookUrlPattern": "https://m.hgq26.com/info-\\d+/",
+        "customOrder": 23,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "日点击榜::https://m.hgq26.com/top-dayvisit-{{page}}/\n周点击榜::https://m.hgq26.com/top-weekvisit-{{page}}/\n月点击榜::https://m.hgq26.com/top-monthvisit-{{page}}/\n总点击榜::https://m.hgq26.com/top-allvisit-{{page}}/\n总收藏榜::https://m.hgq26.com/top-goodnum-{{page}}/\n字数排行::https://m.hgq26.com/top-size-{{page}}/\n总推荐榜::https://m.hgq26.com/top-allvote-{{page}}/\n最新入库::https://m.hgq26.com/top-postdate-{{page}}/\n最近更新::https://m.hgq26.com/top-lastupdate-{{page}}/\n玄幻奇幻::https://m.hgq26.com/sort-1-{{page}}/\n武侠仙侠::https://m.hgq26.com/sort-2-{{page}}/\n都市言情::https://m.hgq26.com/sort-3-{{page}}/\n历史军事::https://m.hgq26.com/sort-4-{{page}}/\n游戏竞技::https://m.hgq26.com/sort-5-{{page}}/\n科幻灵异::https://m.hgq26.com/sort-6-{{page}}/\n其他类型::https://m.hgq26.com/sort-7-{{page}}/\n全本小说::https://m.hgq26.com/full-{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; M2011K2C Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.99 Mobile Safari/537.36 T7/12.16 SearchCraft/3.9.1 (Baidu; P1 11)\"}",
+        "lastUpdateTime": 1675939271000,
+        "loginUrl": "",
+        "respondTime": 9845,
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.a.2@text",
+            "coverUrl": "class.block_img2@img@src",
+            "init": "",
+            "intro": "class.intro_info@text",
+            "kind": "class.block_txt2@tag.p.3:4:5@text##.*：",
+            "lastChapter": "class.block_txt2@tag.p.-1:-2@text##更新：|最新：\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "class.block_txt2@h2@text",
+            "tocUrl": "text.查看目录@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr@html##{{book.name}}|{{title}}|第[零一二两三四五六七八九十百千万\\d+ ]+章.*",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##你是天才，一秒记住.*|您可以在.*最新章节！"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "全球高考",
+            "coverUrl": "a.1@href##.+\\D((\\d+)\\d{3})\\D##http://image.hgq26.com/$2/$1/$1s.jpg###",
+            "intro": "class.intro_info@text",
+            "kind": "a.0@text##.*：|\\[|\\]",
+            "lastChapter": "a.1@href<js>java.ajax('https://m.hgq26.com'+result)</js>class.block_txt2@tag.p.-1:-2@text||class.block_txt2@tag.p.-1:-2@text##更新：|最新：\n\n<js>result.replace(/[\\(（【】）\\) 「」]+/g,'').replace(/(\\d{2,}[\\-/]\\d{2}([\\-/]\\d{2})*).*/,'⌚$1')</js>##[最后更新于至状态到章节正文时间:：时间连载中]{2,}|.*(?=[分节目录]{2,})[:：]*|.*hapter|[…。\\-，．\\|｜\\,]$|{{book.name}}|([\\(（【].*?)*[求更谢乐发推].*[\\?□】）\\)]|[•·]+@js:result.replace(/(^[0-9]+)\\s*/,'第$1章').replace(/([页节章])([\\.\\-_、\\|；;\\d+:：｜\\s｜·｜]+)*/,'$1').replace(/.*?(第.*?章)(.*?章)*(.*)/,'$1 $3')\n",
+            "name": "a.1@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一@href"
+        },
+        "searchUrl": "https://m.hgq26.com/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

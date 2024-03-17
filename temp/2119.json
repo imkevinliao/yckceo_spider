@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "感谢莫问归途大佬的指点，利用百度的高级搜索，解决了网站无法搜索的问题\n\n发现规则：\n作者名::书籍页点作者名跳转的链接\n\neg.\n郑渊洁::https://www.xyyuedu.com/writer/zhengyuanjie/\n刘慈欣::https://www.xyyuedu.com/writer/liucixin/\n......",
+        "bookSourceGroup": "出版",
+        "bookSourceName": "轩宇阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xyyuedu.com",
+        "customOrder": -123794,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "刘慈欣::https://www.xyyuedu.com/writer/liucixin/\n郑渊洁::https://www.xyyuedu.com/writer/zhengyuanjie/",
+        "lastUpdateTime": 1617352892759,
+        "ruleBookInfo": {
+            "author": ".jianjie@a@text",
+            "coverUrl": ".jianjie@img@src",
+            "intro": ".jianjie@tag.p.-1@text",
+            "name": "h1@text##《|》阅读"
+        },
+        "ruleContent": {
+            "content": ".onearcxsbd@p@html||.onearcxsbd@textNodes||.article-article@html##<!--.*-->"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": ".mingzhu-main@li@tag.a.0",
+            "bookUrl": "href",
+            "coverUrl": "img@src",
+            "intro": "",
+            "name": "title"
+        },
+        "ruleSearch": {
+            "author": "text##.*作者:|_在线阅读|小说在线阅读_|《.*》|小说阅读|.*_小说在线阅读-",
+            "bookList": "h3@a",
+            "bookUrl": "href",
+            "name": "text##《|》.*|_.*在线阅读|-超级大坦克"
+        },
+        "ruleToc": {
+            "chapterList": ".zhangjie2@li@a||body",
+            "chapterName": ".article-title@text||text",
+            "chapterUrl": "href@js:'https://www.xyyuedu.com'+result"
+        },
+        "searchUrl": "https://www.baidu.com/s?q1={{key}}&q2=&q3=&q4=&gpc=stf&ft=&q5=&q6=xyyuedu.com&tn=baiduadv",
+        "weight": 0
+    }
+]

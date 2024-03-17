@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "笔趣阁①",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biquyue.com",
+        "bookUrlPattern": "",
+        "customOrder": 60242,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1649163672762,
+        "respondTime": 2301,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.nr1@html##{{chapter.title}}.*",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.result-game-item-info-tag.0@text##作者：",
+            "bookList": "class.result-item result-game-item",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": "class.result-game-item-desc@text",
+            "kind": "class.result-game-item-info-tag-title.2@text",
+            "lastChapter": "class.result-game-item-info-tag-item@text",
+            "name": "class.result-game-item-title-link@text",
+            "wordCount": "class.result-game-item-info-tag.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter.-1@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.biquyue.com/search.php?q={{key}}",
+        "weight": 0
+    }
+]

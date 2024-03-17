@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "自制,一般,源仓库,网页源",
+        "bookSourceName": "51阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.51read.org",
+        "bookUrlPattern": "https?://m.51read.org/xiaoshuo/\\d+",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "历史军事::https://m.51read.org/fenlei/lsjs\n二次元::https://m.51read.org/fenlei/ecy\n其它小说::https://m.51read.org/fenlei/qtxs\n女生频道::https://m.51read.org/fenlei/nspd\n修真小说::https://m.51read.org/fenlei/xzxs\n网游小说::https://m.51read.org/fenlei/wyxs\n科幻小说::https://m.51read.org/fenlei/khxs\n同人美文::https://m.51read.org/fenlei/trmw\n恐怖小说::https://m.51read.org/fenlei/kbxs\n社会都市::https://m.51read.org/fenlei/shds\n短篇小说::https://m.51read.org/fenlei/dpxs\n武侠仙侠::https://m.51read.org/fenlei/wxxx\n悬疑灵异::https://m.51read.org/fenlei/xyly\n玄幻异能::https://m.51read.org/fenlei/xhyn\n穿越重生::https://m.51read.org/fenlei/cyzs\n古代言情::https://m.51read.org/fenlei/gdyq\n现代言情::https://m.51read.org/fenlei/xdyq\n豪门总裁::https://m.51read.org/fenlei/hmzc",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695550487103,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".bi-wt a@text",
+            "coverUrl": ".bi-img img@src",
+            "intro": ".bi-cot p@text",
+            "kind": ".bi-inf span@text&&.bi-date@text\n##状态：|分类：|更新时间：",
+            "lastChapter": "",
+            "name": "h1@text",
+            "tocUrl": "text.查看更多@href"
+        },
+        "ruleContent": {
+            "content": ".kb-cot@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".jkpb-wt@text",
+            "bookList": ".kb-box li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "p.jkpb-cot@text",
+            "kind": "span@text",
+            "name": ".jkpb-name@text"
+        },
+        "ruleToc": {
+            "chapterList": ".kb-box li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.51read.org/sou?keyword={{key}}",
+        "weight": 0
+    }
+]

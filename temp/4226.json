@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "By_zhbyjm7783",
+        "bookSourceGroup": "自写&修复0930",
+        "bookSourceName": "旧时光文学[自写]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.oldtimescc.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1696681929394,
+        "respondTime": 788,
+        "ruleBookInfo": {
+            "author": "id.info@p.0@text",
+            "canReName": "",
+            "coverUrl": "img@data-original",
+            "intro": "id.intro@text",
+            "kind": ".con_top@a.1@text",
+            "lastChapter": ".hidden-xs.1@a@text",
+            "name": "id.info@h1@text",
+            "tocUrl": "id.list@dl@a.-1@href",
+            "wordCount": ".visible-xs.1@text"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@p!0@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".btm@a@text",
+            "bookList": ".item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": "dl@dd@text",
+            "lastChapter": ".btm@em.1@text",
+            "name": "dl@dt@a@text",
+            "wordCount": ".btm@em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1@a",
+            "chapterName": "dd@text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.oldtimescc.net/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

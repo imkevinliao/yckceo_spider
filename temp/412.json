@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "漫画",
+        "bookSourceName": "羞羞韩漫(登录)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xxhm.net/",
+        "customOrder": -185600,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "",
+        "lastUpdateTime": 1651228119137,
+        "loginUi": "",
+        "loginUrl": "https://www.xxhm.net/member/index.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "lastChapter": "class.dl-left.3@dd@text"
+        },
+        "ruleContent": {
+            "content": "id.listtj@img[0:-16]@html",
+            "imageStyle": "FULL",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.stext@p.1@span@ownText",
+            "bookList": "class.sul@li",
+            "bookUrl": "a@href",
+            "coverUrl": "class.img@img@data-original",
+            "intro": "class.stext@p.3@span@ownText",
+            "name": "class.name@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.detail-list-select@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.xxhm.net/plus/search.php?keyword={{key}}&pagesize=10&searchtype=titlekeyword&PageNo={{page}}",
+        "weight": 0
+    }
+]

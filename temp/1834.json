@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "72小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.72hf.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::https://m.72hf.com/xiaoshuodaquan/page_{{page}}.html\n玄幻小说::https://m.72hf.com/xuanhuan/page_{{page}}.html\n修真小说::https://m.72hf.com/xiuzhen/page_{{page}}.html\n都市小说::https://m.72hf.com/dushi/page_{{page}}.html\n历史小说::https://m.72hf.com/lishi/page_{{page}}.html\n网游小说::https://m.72hf.com/wangyou/page_{{page}}.html\n科幻小说::https://m.72hf.com/kehuan/page_{{page}}.html\n女频小说::https://m.72hf.com/nvpin/page_{{page}}.html",
+        "lastUpdateTime": 1621039710602,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.baseinfo@img@src",
+            "intro": "class.intro@textNodes##.*最新章节.*",
+            "lastChapter": "id.newchaperlist@tag.li.0@a@text"
+        },
+        "ruleContent": {
+            "content": "class.chaptercontent@html##本章未完.*",
+            "nextContentUrl": "text.下一页@href##$##$,{\"webView\":true}",
+            "replaceRegex": "##-->>"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.pt-author@text##作者：|分类：.*|\\|",
+            "bookList": "class.pt-card pt-card-7@li||class.ptm-card-content.1@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "class.pt-desc ptm-text-cut@textNodes##简介：",
+            "kind": "class.pt-author@text##.*分类：",
+            "name": "class.pt-name@a@text||class.ptm-img-body@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##$,{\"webView\":true}",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.72hf.com/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+        "weight": 0
+    }
+]

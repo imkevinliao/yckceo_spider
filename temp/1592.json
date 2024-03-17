@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "只写了翻页的净化规则",
+        "bookSourceName": "小说路上",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xs63.la",
+        "customOrder": -300,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\"}",
+        "lastUpdateTime": 1669545288643,
+        "respondTime": 2091,
+        "ruleBookInfo": {
+            "author": "span.red@text",
+            "coverUrl": "img@src",
+            "intro": "h3@text##《.*》简介：|！\\s*《.*》网址：.*",
+            "kind": ".title > a.1@text&&div.options@span.1@text##\\s",
+            "lastChapter": ".update@a@text",
+            "name": "h1@a@text"
+        },
+        "ruleContent": {
+            "content": ".contentbox@p@html",
+            "nextContentUrl": ".chapter_Turnpage@a.next@href",
+            "replaceRegex": "##\\n\\s*你看到的内容中间可能.*刷新页面试试。\\n|\\s*.*提醒您：本章未完，点下一页继续阅读。[>]{3}\\n\\s*|！\\n\\s*你看到的内容中间可能.*刷新页面试试。|\\s*.*向你推荐他的其他作品：.*(\\s.*)*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "li@p.s3@text",
+            "bookList": "li",
+            "bookUrl": ".s1@a@href",
+            "kind": "li@p.s6@text",
+            "name": ".s1@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "div.book_list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search,{\"method\": \"POST\",\"body\": \"kw={{key}}&page={{page}}\"}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceGroup": "🎉 精选",
+        "bookSourceName": "🎉 方宗小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.fangzongxs.com",
+        "customOrder": 1275,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "header": "{\n\t\"User-Agents\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.92 Safari/537.36\",\n \"Referer\": \"{{baseUrl}}\"\n}",
+        "lastUpdateTime": 1698383661355,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "body > div.container > div > div.col-sm-8.gbox > div.detail-box.row > div.info.col-8 > ul > li:nth-child(3)@textNodes"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一@href",
+            "replaceRegex": "##请记住.*com"
+        },
+        "ruleExplore": {
+            "kind": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "div.info > p:nth-child(2)@textNodes",
+            "bookList": "body > div.container > div > div.col-sm-8 > div > div.book-list > a[0:4]",
+            "bookUrl": "href",
+            "checkKeyWord": "活色生香2",
+            "coverUrl": "div.img > img@src",
+            "intro": "div.info > p:nth-child(4)@textNodes",
+            "lastChapter": "href\n<js>\njava.ajax(source.getKey() + result)\n</js>\nbody > div.container > div > div.col-sm-8.gbox > div:nth-child(6) > div > li:nth-child(1) > a@text",
+            "name": "div.info > h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "body > div.container > div > div.col-sm-8.gbox > div:nth-child(8) > div > li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/index/search/?word={{key}}",
+        "weight": 0
+    }
+]

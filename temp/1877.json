@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "HINOTORI修复,百度",
+        "bookSourceGroup": "💯 精品 💯",
+        "bookSourceName": "💯4020电子书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.wurexs.com",
+        "bookUrlPattern": "http://www.wurexs.com/read/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "武侠仙侠::http://www.wurexs.com/wuxia/index_{{page}}.html\n都市言情::/yanqing/index_{{page}}.html\n耽美小说::/danmei/index_{{page}}.html\n玄幻小说::/xuanhuan/index_{{page}}.html\n青春校园::/xiaoyuan/index_{{page}}.html\n网游竞技::/wangyou/index_{{page}}.html\n灵异推理::/kongbu/index_{{page}}.html\n纪实小说::/jishi/index_{{page}}.html\n军事历史::/lishi/index_{{page}}.html\n科幻小说::/kehuan/index_{{page}}.html\n管理哲学::/zhexue/index_{{page}}.html\n学习资料::/xuexi/index_{{page}}.html\n总排行榜::/paihangbang/index_{{page}}.html\n月排行榜::/mpaihangbang/index_{{page}}.html\n周排行榜::/wpaihangbang/index_{{page}}.html\n日排行榜::/dpaihangbang/index_{{page}}.html\n封推小说::/fengtui/index_{{page}}.html\n金牌推荐::/jinpaituijian/index_{{page}}.html\n网站推荐::/tuijian/index_{{page}}.html\n最新书籍::/new/index_{{page}}.html",
+        "lastUpdateTime": 1620210457410,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.detail_right@ul@tag.li.0@a@text",
+            "coverUrl": "class.detail_right@img@src",
+            "intro": "class.detail_right@ul@tag.li.4@text##简介：|作者.*发布.*推荐地址.*/",
+            "kind": "class.detail_right@ul@tag.li.2@text##更新日期：",
+            "lastChapter": "class.detail_right@ul@tag.li.3@a@text",
+            "name": "class.detail_right@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html##请记住本书.*|最新网址.*|书快书快.*|书快电子书.*|本文由.*小说论坛.*cn|您下载的文件.*为你制作!|【.*电子书】-立志.*下载论坛!",
+            "imageStyle": "0",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": "##作者：([^<]+)<##$1###",
+            "bookList": "//div[5]/div[2]/div/ul/li",
+            "bookUrl": "class.red@href",
+            "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.wsskw.com/headimgs/$2/$1/s$1.jpg###",
+            "intro": "class.u@textNodes",
+            "kind": "##更新：([^<]+)<##$1###",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text##txt.*",
+            "wordCount": "##大小：([^<]+)<##$1###"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "class.t@a",
+            "bookUrl": "href\n@js:try{java.put(\"url\",java.get(result,{})\n.header(\"Location\"))}catch(e){\njava.put(\"url\",result)}",
+            "coverUrl": "",
+            "kind": "tag.td.4@text",
+            "lastChapter": "",
+            "name": "text##最新章节列表.*|txt下载.*",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.showInfo.1@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.baidu.com/s?q1=&q2={{key}}&q3=&q4=&rn=10&lm=0&ct=0&ft=&q5=&q6=www.wurexs.com&tn=baiduadv",
+        "weight": 0
+    }
+]

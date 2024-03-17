@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "网页源",
+        "bookSourceName": "官术网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.biyuwu.cc/",
+        "bookUrlPattern": "http://www.tbxsw.com/html/\\d+/\\d+/",
+        "customOrder": 50,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "玄幻奇幻::http://m.tbxsw.com/class1-1.html\n武侠仙侠::http://m.tbxsw.com/class2-1.html\n都市言情::http://m.tbxsw.com/class3-1.html\n历史军事::http://m.tbxsw.com/class4-1.html\n网游竞技::http://m.tbxsw.com/class5-1.html\n科幻灵异::http://m.tbxsw.com/class6-1.html\n女频频道::http://m.tbxsw.com/class7-1.html\n全本小说::http://m.tbxsw.com/quanben.html\n连载小说::http://m.tbxsw.com/updatelist.aspx",
+        "lastUpdateTime": 1639755035453,
+        "loginUrl": "",
+        "respondTime": 1648,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作者：",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "class.con_top@tag.a.1@text&&\nid.info@tag.p.2@text&&\nid.info@tag.p.1@text##最后更新：|状 态：|,加入.*",
+            "lastChapter": "id.info@tag.p.3@a@text",
+            "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##一秒记住.*免费阅读！|.*第.*章.*",
+            "imageStyle": "0",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@a@href@js:\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.tbxsw.com/html/'+iid+'/'+id+'/'",
+            "coverUrl": "img@src",
+            "intro": "class.intro_line@text",
+            "kind": "",
+            "lastChapter": "class.update@a@text",
+            "name": "h4@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+            "bookList": "class.result-item",
+            "bookUrl": "class.result-item-title.0@tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.result-game-item-desc@text",
+            "kind": "class.result-game-item-info-tag.1@tag.span.1@text&&class.result-game-item-info-tag.2@tag.span.1@text",
+            "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text",
+            "name": "class.result-item-title.0@tag.a.0@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a.0@href"
+        },
+        "searchUrl": "http://www.tbxsw.com/search.php?q={{key}}&p={{page}}",
+        "weight": 0
+    }
+]

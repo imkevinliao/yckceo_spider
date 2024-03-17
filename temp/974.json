@@ -1,0 +1,30 @@
+[
+    {
+        "bookSourceGroup": "",
+        "bookSourceName": "斋书苑",
+        "bookSourceUrl": "http://zaishuyuan.com",
+        "enable": true,
+        "ruleBookAuthor": "class.p_author@tag.a.0@text",
+        "ruleBookContent": "id.content@textNodes",
+        "ruleBookKind": "id.count@tag.span.0@text",
+        "ruleBookLastChapter": "id.newlist@tag.ul.0@tag.li.0@tag.a.0@text",
+        "ruleBookName": "class.d_title@tag.h1@text",
+        "ruleChapterList": "id.readerlist@tag.li",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrl": "class.newrap@tag.a.0@href#/files/article/html/(\\d+)/(\\d+)/#/$1/$2/",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "id.bookimg@tag.img@src",
+        "ruleIntroduce": "id.bookintro@tag.p.2@textNodes",
+        "ruleSearchAuthor": "class.odd.1@text",
+        "ruleSearchCoverUrl": "class.even.0@tag.a.0@href#http://zaishuyuan.com/files/article/html/(\\d+)/(\\d+)/(\\d+).html#http://img.zaishuyuan.com/$1/$2/$2s.jpg",
+        "ruleSearchIntroduce": "",
+        "ruleSearchKind": "class.even.2@text",
+        "ruleSearchLastChapter": "class.even.0@tag.a.0@text",
+        "ruleSearchList": "class.grid@tag.tr!0",
+        "ruleSearchName": "class.odd.0@tag.a.0@text",
+        "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href",
+        "ruleSearchUrl": "http://zaishuyuan.com/modules/article/search.php@searchkey=searchKey&searchtype=articlename|char=gbk",
+        "serialNumber": 4,
+        "weight": 0
+    }
+]

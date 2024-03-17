@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "已校验",
+        "bookSourceName": "豆腐阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://api.doufu.me",
+        "customOrder": -2,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "header": "{\n  \"Cookie\": \"wh=1080*2120; uid=7383010; os=Android-10; av=7.1.0; ch=tencent; md=Mi 10; cskey=90b881a0908991; skey=5f00e564e3ede8.21979201; aid=3; xx=0\"\n}",
+        "lastUpdateTime": 1678887392863,
+        "loginUrl": "http://api.doufu.me/member/user_login",
+        "respondTime": 1269,
+        "ruleBookInfo": {
+            "author": "$.data.topic.author",
+            "coverUrl": "$.images[0].path",
+            "kind": "$.tags[0].name&&$.tags[2].name&&$.tags[1].name&&$.tags[3].name",
+            "lastChapter": "",
+            "name": "$.data.topic.title",
+            "tocUrl": "http://api.doufu.me/index.php/novel/chapter_list?novel_id={$.data.topic.id}"
+        },
+        "ruleContent": {
+            "content": "$.data.detail.des"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.data[*]",
+            "bookUrl": "http://api.doufu.me/topic/novel?topic_id={$.id}",
+            "coverUrl": "$.images[0].path",
+            "intro": "$.des",
+            "kind": "$.tags[0].name&&$.tags[2].name&&$.tags[1].name&&$.tags[3].name",
+            "name": "$.title"
+        },
+        "ruleToc": {
+            "chapterList": "$.data.list",
+            "chapterName": "$.title",
+            "chapterUrl": "http://api.doufu.me/index.php/post/view/{$.id}?with_ids=1&type=read",
+            "isVip": "$.vip",
+            "updateTime": "$.add_time"
+        },
+        "searchUrl": "http://api.doufu.me/search/content?keyword={{key}}&start=0&rows=20&types=18&order=&is_finished=&vip=",
+        "weight": 0
+    }
+]

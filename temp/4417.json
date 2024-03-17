@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "// 目录获取失败的小说网站里也没有相关内容\n// 港梯免验证",
+        "bookSourceGroup": "🍊 女频",
+        "bookSourceName": "🍊 半夏小说[梯]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xbanxia.com",
+        "customOrder": 345,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "耽美同人::/list/1_{{page}}.html\n男頻熱文::/list/2_{{page}}.html\n現代情感::/list/3_{{page}}.html\n古裝迷情::/list/4_{{page}}.html\n穿越重生::/list/5_{{page}}.html\n其他言情::/list/6_{{page}}.html\n臺灣言情::/list/7_{{page}}.html\n網游科幻::/list/8_{{page}}.html\n恐怖推理::/list/9_{{page}}.html\n仙俠言情::/list/10_{{page}}.html\n玄幻言情::/list/11_{{page}}.html\nBG同人::/list/12_{{page}}.html",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36\",\n\t\"Referer\": \"http://www.xbanxia.com/\"\n}",
+        "lastUpdateTime": 1699520247092,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "#content-list > div.book-intro.clearfix > div.book-describe > p:nth-child(2) > a@text",
+            "coverUrl": "@js:\nurl=baseUrl;\nbid=url.match(/books?\\/(\\d+?)\\.html/)[1];\nb1=bid.replace(/...$/, '');\nb2=bid.replace(/$/, 's');\nimgurl='http://image.xbanxia.com/files/article/image/'+b1+'/'+bid+'/'+b2+'.jpg';\nimgurl;",
+            "intro": "#content-list > div.book-intro.clearfix > div.book-describe > div > p@textNodes",
+            "kind": "#content-list > div.book-intro.clearfix > div.book-describe > p:nth-child(3)@text&&\n#content-list > div.book-intro.clearfix > div.book-describe > p:nth-child(4)@text&&\n#content-list > div.book-intro.clearfix > div.book-describe > p:nth-child(5)@text\n##類型︰|狀態︰|最近更新︰",
+            "name": "#content-list > div.book-intro.clearfix > div.book-describe > h1@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@textNodes",
+            "replaceRegex": "##{{chapter.title}}"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text||\np.0@a@text",
+            "bookList": "@js:// 书籍列表规则\npath = '#content-list > div.pop-books2.clearfix > ol > li||#content-list > div.book-intro.clearfix > div.book-describe';\nu=java.get('url');\nc=java.getElement(path);\nif (!c.length && result.includes('no-js')) {\n  cookie.removeCookie(source.getKey());\n  s=java.startBrowserAwait(u,\"验证\").body();\n  //java.webView(null,u,null);\n  //s=java.ajax(u);\n  java.setContent(s);\n  java.getElement(path);\n}",
+            "bookUrl": "##(https?:\\/\\/www\\.xbanxia\\.com\\/books\\/\\d+?\\.html)##$1###",
+            "checkKeyWord": "末世重生之女修士",
+            "coverUrl": "a.0@href\n@js:\nurl=result;\nbid=url.match(/books?\\/(\\d+?)\\.html/)[1];\nb1=bid.replace(/...$/, '');\nb2=bid.replace(/$/, 's');\nimgurl='http://image.xbanxia.com/files/article/image/'+b1+'/'+bid+'/'+b2+'.jpg';\nimgurl;",
+            "intro": "",
+            "kind": "",
+            "name": "a:nth-child(2) > h2@text||\nh1@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "#content-list > div.book-list.clearfix > ul > li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "@js:// 搜索规则\nvar head = JSON.parse(source.header);\nvar body = \"searchkey=\"+key+\"&Submit=\";\nvar option = { \n\t\"charset\": \"utf-8\",\n\t\"method\": \"POST\",\n\t\"body\": body,\n\t\"headers\": head\n\t};\nurl=\"http://www.xbanxia.com/modules/article/search_t.php,\"+JSON.stringify(option);\njava.put('url',url)",
+        "weight": 0
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌸  常用,📡  发现",
+        "bookSourceName": "🌸4020电子书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.wrlwx.com",
+        "bookUrlPattern": "",
+        "customOrder": 62,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "武侠仙侠::/wuxia/index_{{page}}.html\n都市言情::/yanqing/index_{{page}}.html\n耽美::/danmei/index_{{page}}.html\n玄幻::/xuanhuan/index_{{page}}.html\n青春校园::/xiaoyuan/index_{{page}}.html\n网游竞技::/wangyou/index_{{page}}.html\n灵异推理::/kongbu/index_{{page}}.html\n纪实::/jishi/index_{{page}}.html\n军事历史::/lishi/index_{{page}}.html\n科幻::/kehuan/index_{{page}}.html\n管理哲学::/zhexue/index_{{page}}.html\n学习资料::/xuexi/index_{{page}}.html\n总排行榜::/paihangbang/index_{{page}}.html\n月排行榜::/mpaihangbang/index_{{page}}.html\n周排行榜::/wpaihangbang/index_{{page}}.html\n日排行榜::/dpaihangbang/index_{{page}}.html\n封推::/fengtui/index_{{page}}.html\n金牌推荐::/jinpaituijian/index_{{page}}.html\n电子书推荐::/tuijian/index_{{page}}.html\n最新电子书::/new/index_{{page}}.html",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.block_txt2@tag.p.2@text##作者：",
+            "coverUrl": "img@src",
+            "kind": "class.block_txt2@tag.p.2@a@text",
+            "lastChapter": "class.block_txt2@tag.p.6@a@text",
+            "name": "class.block_txt2@h2@a@text",
+            "tocUrl": "class.block_txt2@tag.a.0@href##-(\\d+).html##http://www.wrltxt.com/read/$1/###"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##请记住本书.*",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": "class.s@text##大小.*",
+            "bookList": "//div[5]/div[2]/div/ul/li",
+            "bookUrl": "class.red@href",
+            "intro": "class.u@text",
+            "lastChapter": "tag.div.-1@text",
+            "name": "tag.a.0@text##txt.*"
+        },
+        "ruleSearch": {
+            "author": "tag.td.3@text",
+            "bookList": "tbody@tr!0",
+            "bookUrl": "tag.a.0@href",
+            "kind": "",
+            "lastChapter": "tag.td.2@text",
+            "name": "tag.td.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "//div[5]/div/div[3]/div[2]/ul/li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.wrlwx.com/so.html?q={{key}}",
+        "weight": 0
+    }
+]

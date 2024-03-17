@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceUrl": "http://www.uuxsw8.net",
+        "bookSourceType": "0",
+        "bookSourceName": "UU小说吧",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.uuxsw8.net/search?wd={{key}}&page={{page}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 563,
+        "lastUpdateTime": 1622634735770,
+        "ruleSearch": {
+            "bookList": "class.listconl@tag.li",
+            "name": "tag.a.0@text",
+            "author": "tag.a.-1@text",
+            "kind": "class.width369@text##\\[|\\].*",
+            "lastChapter": "tag.a.1@text",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.r420@tag.h1@text",
+            "author": "class.author@tag.a.0@text",
+            "kind": "class.author@tag.a.1@text",
+            "lastChapter": "class.lastrecord@tag.a@text",
+            "intro": "class.r_cons@text##内容简介：",
+            "coverUrl": "class.con_limg@tag.img@src",
+            "tocUrl": "class.dirlwrap.0@tag.a@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.clearfix.1@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "class.content@html"
+        }
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "跳转：https://m.1pwx.com/\n书书网：https://www.1pwx.com/\n\n手机版目录下一页erro，转网页版慢了些",
+        "bookSourceGroup": "天域战歌整理,☁️可用,☁️修正,☣️精选senhora",
+        "bookSourceName": "小说大全②",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xiaoshuodaquan.com",
+        "bookUrlPattern": "",
+        "customOrder": -88962030,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "更新     热门::https://m.1pwx.com/top/{{page}}.html\n最新     入库::https://m.1pwx.com/top/rk{{page}}.html\n玄幻                    ::https://m.1pwx.com/xuanhuan/{{page}}.html\n修真                    ::https://m.1pwx.com/xiuzhen/{{page}}.html\n都市                    ::https://m.1pwx.com/dushi/{{page}}.html\n历史                    ::https://m.1pwx.com/lishi/{{page}}.html\n网游                    ::https://m.1pwx.com/wangyou/{{page}}.html\n科幻                    ::https://m.1pwx.com/kehuan/{{page}}.html\n恐怖                    ::https://m.1pwx.com/kongbu/{{page}}.html\n武侠                    ::https://m.1pwx.com/wuxia/{{page}}.html\n               全本完结                    ::https://m.1pwx.com/quanben/{{page}}.html",
+        "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/",
+        "lastUpdateTime": 1644656234065,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@css::containsOwn(作者)>a@text",
+            "coverUrl": "@css:img@src",
+            "intro": "@css:.intro@html",
+            "lastChapter": "@css:a.red@text",
+            "name": "@css:h1@text",
+            "tocUrl": "text.立即阅读@href##https://m.*com@js:'https://www.1pwx.com'+result"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##书书网手机版.+$"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "@css:.author@text",
+            "bookList": "class.mlist||class.msearch",
+            "bookUrl": "@css:a@href",
+            "checkKeyWord": "晚上",
+            "coverUrl": "img.2@src",
+            "intro": "class.intro@textNodes",
+            "kind": "@css:.green@text",
+            "name": "class.booktt@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.clearfix dirconone@a",
+            "chapterName": "text",
+            "chapterUrl": "href##https://www.*com@js:'https://m.1pwx.com'+result",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://m.xiaoshuodaquan.com/bookso.php?so={{key}}&fromwap=1&searchtype=book,{\n\t\"charset\":\"gbk\",\n\t\"headers\":{\n\t\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 7.0; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 T7/10.3 SearchCraft/2.6.2 (baiduboxapp; P1 7.0)\",\n\"Referer\":\"https://m.xiaoshuodaquan.com/\"}\n}",
+        "weight": 0
+    }
+]

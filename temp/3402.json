@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☣️精选senhora",
+        "bookSourceName": "☁️玄幻文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xhwx3.com/",
+        "customOrder": -2086052300,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"https://m.xhwx3.com/xuanhuan.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"仙侠\",\"url\":\"https://m.xhwx3.com/xianxia.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"都市\",\"url\":\"https://m.xhwx3.com/dushi.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"历史\",\"url\":\"https://m.xhwx3.com/lishi.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"科幻\",\"url\":\"https://m.xhwx3.com/kehuan.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"恐怖\",\"url\":\"https://m.xhwx3.com/kongbu.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"其他\",\"url\":\"https://m.xhwx3.com/qita.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"全本\",\"url\":\"https://m.xhwx3.com/quanben.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\"referer\":\"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1691424650546,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@a.2@text",
+            "coverUrl": ".block_img2@img@src",
+            "downloadUrls": "text.TXT下载@href",
+            "intro": ".intro_info@ownText##简介：|最新章节推荐地址：.* \n\t@js:result##(^|[。！？]+[”」）】]?)##$1<br>\n",
+            "kind": ".block_txt2@p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2@p.6@text##最新：",
+            "name": "h2@a@text"
+        },
+        "ruleContent": {
+            "content": "#nr1@html##Ｘ.*|，最快更新.*|「如章节缺失.*」|\\,如内容.*阅读。|\\,请退出.*阅读全文。|.*最新章节网.*|您所看到的内容.*|本章未完.*\n@js:result+'下一页标识'",
+            "nextContentUrl": "@js:\nif (result.indexOf(\"nex22.png\") > -1) {\n  var code = result.match(/eval\\(function(.*)\\);/)[0];\n  code = code.replace(/u[0-9a-f]{10,}/, 'uData')\n  var uData = \"\";\n  eval(code);\n\t\n\tif(!uData.match('_')) {\n\tnext = java.getElement(\"@@#pb_next@a\")\n\tuData = next.attr(\"href\")\n\t}\n\t\n  uData;\n}",
+            "replaceRegex": "##(^|[。！？]+[”」）】]?)！##$1\n@js:result+'下一页标识'##\\s*下一页标识\\s*|",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".lis li",
+            "bookUrl": ".s2@a@href",
+            "checkKeyWord": "高天",
+            "coverUrl": "",
+            "kind": ".s1@text##\\[|\\]",
+            "name": ".s2@a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search,{\n\t\"method\":\"POST\",\n\t\"body\":\"kw={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

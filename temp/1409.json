@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceName": "孤星小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.gxhjcn.com",
+        "customOrder": -9,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄幻魔法::/sort/1/{{page}}/\n武侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n历史军事::/sort/4/{{page}}/\n科幻灵异::/sort/5/{{page}}/\n游戏竞技::/sort/6/{{page}}/\n女生小说::/sort/7/{{page}}/\n其他类型::/sort/8/{{page}}/",
+        "lastUpdateTime": 1676118495186,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "#bookintro@html",
+            "kind": "[property~=category|status|update_time]@content##\\s\\d.*",
+            "lastChapter": "{{@@[property$=chapter_name]@content}} • {{@@[property$=update_time]@content##\\s.*}}",
+            "name": "[property$=book_name]@content",
+            "wordCount": "{{@@#count span.1@text}}字"
+        },
+        "ruleContent": {
+            "content": "@js:result"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.2@text",
+            "bookList": "#sitebox dl",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": "dd.2@text",
+            "kind": "span.0:3:1@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text",
+            "wordCount": "span.4@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterList li a",
+            "chapterName": "text",
+            "chapterUrl": "href\n@js:\nid=result.match(/read\\/(\\d+)/)[1]\niid=parseInt(id/1000)\nresult.replace(/\\/read\\/\\d+/,'/files/article/txt/'+iid+'/'+id).replace(/html/,'txt')"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

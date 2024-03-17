@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceUrl": "www.zhegushao.com",
+        "bookSourceType": "0",
+        "bookSourceName": "鹧鸪哨",
+        "bookSourceGroup": "18禁",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.zhegushao.com/modules/article/search.php,{\n'charset': 'gbk',\n'method': 'post',\n'body': 'searchkey={{key}}'\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1642473810677,
+        "ruleSearch": {
+            "bookList": "tr:nth-of-type(n+2)",
+            "name": "td:nth-of-type(2)@a@text",
+            "author": "#booklast@p@a@text",
+            "bookUrl": "td:nth-of-type(2)@a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "h1@text",
+            "author": "h3@a@text",
+            "lastChapter": ".text-center@p@a@text",
+            "intro": "info2@p@text",
+            "tocUrl": "@href"
+        },
+        "ruleToc": {
+            "chapterList": "div:nth-of-type(1)@.panel@.list-charts@li",
+            "chapterName": "@a@text",
+            "chapterUrl": "@a@href"
+        },
+        "ruleContent": {
+            "content": "div.main@text"
+        }
+    }
+]

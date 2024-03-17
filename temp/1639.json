@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "",
+        "bookSourceName": "爱下电子书www.aixdzs.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.aixdzs.com",
+        "bookUrlPattern": "",
+        "customOrder": -2085958306,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "玄幻·奇幻::/sort/1/index_0_0_0_{{page}}.html\n修真·仙侠::/sort/2/index_0_0_0_{{page}}.html\n都市·军事::/sort/3/index_0_0_0_{{page}}.html\n历史·军事::/sort/4/index_0_0_0_{{page}}.html\n网游·竞技::/sort/5/index_0_0_0_{{page}}.html\n科幻·灵异::/sort/6/index_0_0_0_{{page}}.html\n言情·穿越::/sort/7/index_0_0_0_{{page}}.html\n台言·古言::/sort/9/index_0_0_0_{{page}}.html\n耽美·同人::/sort/8/index_0_0_0_{{page}}.html\n其他类别::/sort/0/index_0_0_0_{{page}}.html\n当代现代::/sort/14/index_0_0_0_{{page}}.html\n侦探·推理::/sort/12/index_0_0_0_{{page}}.html\n韩流青春::/sort/17/index_0_0_0_{{page}}.html\n武侠小说::/sort/10/index_0_0_0_{{page}}.html\n古典文学::/sort/11/index_0_0_0_{{page}}.html\n外国文学::/sort/13/index_0_0_0_{{page}}.html\n童话故事::/sort/15/index_0_0_0_{{page}}.html\n传记纪实::/sort/16/index_0_0_0_{{page}}.html\n影视文学::/sort/18/index_0_0_0_{{page}}.html\n排行::/hot.html?page={{page}}",
+        "lastUpdateTime": 1668227481748,
+        "loginUrl": "{\n  \"url\": \"\"\n}",
+        "respondTime": 1353,
+        "ruleBookInfo": {
+            "author": ".d_ac@tag.a.0@text",
+            "coverUrl": ".d_info@img@src",
+            "intro": ".d_co@text",
+            "kind": "class.d_ac fdl@tag.ul@tag.li.1@tag.a@text",
+            "lastChapter": ".d_av!0@a@text",
+            "name": "h1@text##txt.*",
+            "tocUrl": "",
+            "wordCount": "class.d_ac fdl@tag.ul@tag.li.2@text##字数：|\\|.*"
+        },
+        "ruleContent": {
+            "content": ".content@p@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".l1@a@text",
+            "bookList": ".box_k@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".b_intro@text",
+            "kind": "class.b_info.0@tag.span.0@tag.a@text##",
+            "lastChapter": ".l5@a@text",
+            "name": "h2@text",
+            "wordCount": "class.b_info@tag.span.1@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "+.chapter@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/bsearch?q={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceUrl": "https://m.ai9w.com",
+        "lastUpdateTime": 1680255706993,
+        "ruleToc": {
+            "chapterList": ".info_chapters@tag.ul.1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "bookSourceType": 0,
+        "bookSourceName": "爱看小说",
+        "bookSourceGroup": "new",
+        "searchUrl": "/s.php,{\n  \"method\": \"POST\",\n  \"charset\": \"gbk\",\n  \"body\": \"s={{key}}&type=articlename\"\n}\n",
+        "ruleSearch": {
+            "checkKeyWord": "凡人",
+            "bookList": ".content_link",
+            "name": ".p2@a@text",
+            "author": ".p3@a@text",
+            "bookUrl": ".p2@a@href",
+            "kind": ".p1@a@text##[\\[\\]]"
+        },
+        "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\"\n}",
+        "ruleBookInfo": {
+            "kind": "//meta[@property=\"og:novel:category\"]/@content",
+            "name": "",
+            "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+            "intro": "//meta[@property=\"og:description\"]/@content",
+            "coverUrl": "//meta[@property=\"og:image\"]/@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "#novelcontent@html",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "万象书城吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wxsc8.com",
+        "bookUrlPattern": "https?://www.wxsc8.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻·奇幻::/nav/xuanhuan<,_{{page}}>.html\n仙侠·武侠::/nav/xianxia<,_{{page}}>.html\n都市·娱乐::/nav/dushi<,_{{page}}>.html\n历史·军事::/nav/lishi<,_{{page}}>.html\n科幻·游戏::/nav/kehuan<,_{{page}}>.html\n恐怖·悬疑::/nav/kongbu<,_{{page}}>.html\n耽美·纯爱::/nav/chunai<,_{{page}}>.html\n女生·言情::/nav/yanqing<,_{{page}}>.html\n轻小说::/nav/erciyuan<,_{{page}}>.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698918234038,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "downloadUrls": "",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#cont-body@html",
+            "nextContentUrl": ".page a@href"
+        },
+        "ruleExplore": {
+            "author": "0",
+            "bookList": ".media",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": ".media-info@text",
+            "kind": "0",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.1@text",
+            "bookList": "tbody tr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "a.0@href\n##(\\d+)##/uploads/cover/pic$1.jpg###",
+            "kind": "0",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#all-chapter a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/plus/search.php?q={{key}}",
+        "weight": 0
+    }
+]

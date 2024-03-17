@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceName": "永远的神",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.yydsxs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "header": "{\n\"Cookie\": \"PHPSESSID=d2muhp6sfkgloq76mimj6qss04; _17mb_uid=41812; _17mb_uname=jbn14929\"\n\t}",
+        "lastUpdateTime": 1666334885888,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "init": "",
+            "name": "",
+            "tocUrl": "<js>\nvar aid = result.match(/go\\/(\\d+)/)[1];\nvar url = \"http://www.yydsxs.com/mytool/getChapterList/,\";\nvar opt = {\n\t\"method\": \"POST\",\n \"body\": \"verify=wheg&aid=\" + aid + \"&sbt=%E6%8F%90%E4%BA%A4\",\n \"Refer\": \"http://www.yydsxs.com/go/\" + aid + \"/\"\n};\nresult = url + JSON.stringify(opt)\n</js>"
+        },
+        "ruleContent": {
+            "content": ".readcontent@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author.0@a@text",
+            "bookList": ".keywords@.p10",
+            "bookUrl": ".del_but.0@href",
+            "coverUrl": "",
+            "intro": ".update@html##简介：",
+            "kind": "class.author.2@text",
+            "lastChapter": ".cat@a@text",
+            "name": ".bookname@text",
+            "wordCount": "class.author.1@text##字数：|字"
+        },
+        "ruleToc": {
+            "chapterList": "#list-chapterAll@dd!-1@a",
+            "chapterName": "text",
+            "chapterUrl": "href\n<js>\nvar bid = String(result.match(/(\\('|o\\/)(\\d+)/)[0]).replace(/(o\\/|\\(')/,'')\nvar cid = String(result.match(/(\\d+)(\\.h|'\\))/)[0]).replace(/(\\.h|'\\))/,'')\n\nresult = \"http://www.yydsxs.com/go/\" + bid + \"/\" + cid + \".html\"\nresult\n</js>"
+        },
+        "searchUrl": "/searchok.html,{\n\t\"method\": \"POST\",\n\t\"body\": \"token=177e58af2b48ca1f10103b85f219342f&searchkey={{key}}&action=login&submit=\"\n\t}",
+        "weight": 0
+    }
+]

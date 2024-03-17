@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "爱看小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.ixsw.info",
+        "bookUrlPattern": "http://m.ixsw.info/\\w+/",
+        "customOrder": 3,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/xs1<,_{{page}}>.html\n武侠仙侠::/xs2<,_{{page}}>.html\n都市言情::/xs3<,_{{page}}>.html\n历史军事::/xs4<,_{{page}}>.html\n科幻灵异::/xs5<,_{{page}}>.html\n网游竞技::/xs6<,_{{page}}>.html\n女频频道::/xs7<,_{{page}}>.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1692775707645,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.author@text",
+            "coverUrl": ".synopsisArea_detail img@src",
+            "intro": "p.review@text",
+            "kind": ".synopsisArea_detail p.1:2:3@text\n##类别：|状态：|更新：",
+            "lastChapter": ".str-over-dot a@text",
+            "name": "span.title@text",
+            "tocUrl": "{{$.}}all.html"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent>p@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##（本章未完.*继续阅读）|{{chapter.title}}| \\(第.+页\\)"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@text",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": "p.2@text##简介：",
+            "kind": "0",
+            "name": "p.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist p!0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉  备用",
+        "bookSourceName": "🎉搜搜小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.soeo.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1635667173802,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "//div[@id=\"intro\"]/text()",
+            "lastChapter": "//div[@id=\"info\"]/p[6]/a/text()",
+            "tocUrl": "//div[@id=\"maininfo\"]/div[@class=\"readbtn\"]/a[@class=\"chapterlist\"]/@href"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@p!0@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*本章未完.*\\s*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "//dl/div[@class=\"btm\"]/a/text()",
+            "bookList": "//div[@id=\"hotcontent\"]/div[@class=\"l rank\"]/div[@class=\"item\"]",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "dd@text",
+            "lastChapter": "//em[@class=\"blue visible-xs\"]/text()",
+            "name": "//dl/dt/a/text()",
+            "wordCount": "//em[@class=\"orange visible-xs\"]/text()"
+        },
+        "ruleToc": {
+            "chapterList": "//div[@id=\"content_1\"]/a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "//select[@id=\"indexselect\"]/option/@value"
+        },
+        "searchUrl": "https://www.soeo.net/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

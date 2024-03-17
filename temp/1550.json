@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "S",
+        "bookSourceName": "雅文库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yawenku.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1671263975918,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@tag.p@textNodes"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslist2@tag.ul@tag.li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "checkKeyWord": "神级",
+            "kind": "",
+            "lastChapter": "class.s3@tag.a@text",
+            "name": "class.s2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd!14",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.yawenku.com/search.php,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\",\n\"headers\": {\"cookie\":\"cf_clearance=Y6hgoiQtKAY0hl.EiQnOCO5FAAAnNbvgWkBkltp7J08-1671263730-0-160; __cf_bm=r1s0wnyM4C_HVxIZwddMJ9garih9C7Misv5WA6IMFw0-1671263733-0-AWkJHgp/JF5joXb/cxIXxMJr97NPbgYo8pPWJDNSMBuQ/V9Hw0cNQuv55hiXjKqAwpJx/Ugffaz8qa+f0jcb1/WtpJklar3TdtedfRPCsVmWkUDdm7Lv2aL1QkdgiFb86CrIeW4d3QdwyK4CrsLj4H0=\",\"user-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54\",\"referer\":\" https://www.yawenku.com/search.php\"}\n}",
+        "weight": 0
+    }
+]

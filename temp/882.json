@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceUrl": "http://www.5zwx.com",
+        "bookSourceType": "0",
+        "bookSourceName": "五洲文学",
+        "bookSourceGroup": "五洲文学",
+        "bookSourceComment": "",
+        "loginUrl": "https://www.5zwx.com/login.php",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.5zwx.com/search.html,{\n    \"method\": \"POST\",\n    \"body\": \"searchkey={{key}}\"\n}",
+        "exploreUrl": "全部分类::/0/{{page}}.html \n点击榜::/top_allvisit/{{page}}.html\n收藏榜::/top_goodnum/{{page}}.html\n推荐榜::/top_allvote/{{page}}.html\n玄幻奇幻::/xuanhuan/{{page}}.html\n都市青春::/dushi/{{page}}.html\n精品小说::/jingpin/{{page}}.html\n历史军事::/lishi/{{page}}.html\n女生言情::/yanqing/{{page}}.html\n网游竞技::/youxi/{{page}}.html\n科幻灵异::/kehuan/{{page}}.html\n耽美同人::/danmei/{{page}}.html",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1635580127324,
+        "ruleSearch": {
+            "bookList": "class.pr pb20 mb20",
+            "name": "h3@class.mb5 fs20 f_mbo pt5 ell@text",
+            "author": "//*[@id=\"hism\"]/em/span[2]/text()",
+            "kind": "//*[@id=\"hism\"]/em/span[1]/text()",
+            "intro": "//*[@id=\"hism\"]/p/text()##更多小说请收藏：po18h.vip",
+            "bookUrl": "//*[@id=\"hism\"]/h3/a/@href"
+        },
+        "ruleExplore": {
+            "bookList": "//*[@id=\"imgload\"]/ul/li",
+            "name": "class.lst-item pr lh1d5@h2@text",
+            "intro": "a.1@text",
+            "coverUrl": "img@src",
+            "bookUrl": "a@href"
+        },
+        "ruleBookInfo": {
+            "name": "class.g_col_8 pr@tag.h1@text",
+            "author": "//p/strong[1]/span/text()",
+            "wordCount": "//p/strong[4]/span/text()",
+            "lastChapter": "//*[@id=\"Contents\"]/div[1]/p/a/text()",
+            "coverUrl": "class.cover g_col_4@class.g_thumb@img@src"
+        },
+        "ruleToc": {
+            "chapterList": "//*[@id=\"chapterList\"]/li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "ruleContent": {
+            "content": "id.TextContent@text",
+            "imageStyle": "FULL"
+        }
+    }
+]

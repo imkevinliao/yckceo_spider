@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceUrl": "https://colorful-fantasybooks.com",
+        "bookSourceType": "0",
+        "bookSourceName": "📗📙缤纷幻想",
+        "bookSourceGroup": "📗日轻,📙禁书",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://colorful-fantasybooks.com/module/novel/search.php?s_type=1&keyword={{key}}&type=1&key={{key}}&page={{page}}",
+        "exploreUrl": "[\n{'title':'奇幻',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=38&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'都市',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=41&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'耽美',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=34&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'百合',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=35&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'宫斗',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=43&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'复仇',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=45&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'性转',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=29&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'科幻',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=46&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'言情',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=32&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'搞笑',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=44&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'同人',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=18&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'武侠',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=19&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'军武',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=25&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexGrow\":1}},\n\n{'title':'无限流',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=27&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'青春校园',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=36&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'末日灾难',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=21&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'异界穿越',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=33&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'虚拟网游',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=26&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'架空历史',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=17&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'竞技比赛',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=24&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'人文哲理',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=22&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'灵异恐怖',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=23&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'玄幻仙侠',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=37&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'推理犯罪',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=16&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}},\n\n{'title':'成人频道',\n'url':'/wmcms/action/novel/data.php?key_value=全部&order=no_order&cate_value=42&upd_time=inany&font_size=inanyfont&other=process_all&page={{page}}',\n'style':{\"layout_flexBasisPercent\":0.29}}\n]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 5400,
+        "lastUpdateTime": 1636404141238,
+        "ruleSearch": {
+            "bookList": ".mod_book_list li",
+            "name": "h4@text",
+            "kind": "sub@text##中|已",
+            "lastChapter": "@h3@text",
+            "coverUrl": "tag.img@src",
+            "bookUrl": "tag.a@href"
+        },
+        "ruleExplore": {
+            "bookList": "$.data",
+            "name": "$.novel_name",
+            "author": "$.novel_authname",
+            "kind": "$.type_name&&$.novel_uptime",
+            "wordCount": "$.novel_wordnumber",
+            "lastChapter": "$.novel_newcname",
+            "bookUrl": "https://colorful-fantasybooks.com/module/novel/info.php?tid={{$.type_id}}&nid={{$.novel_id}}"
+        },
+        "ruleBookInfo": {
+            "init": "@put:{\nn:\".works-intro-title strong@text\",\na:\".works-intro-digi em.0@text\",\nk:\".works-status li.0@text&&id.coll_count.3@text&&.works-chapter-log span.1@text\",\nw:\".works-status li.5@text\",\nl:\".works-ft-new a@text\",\ni:\".works-intro-short@html\",\ntags:\".tags-show a@text\",\nc:\".works-cover img@src\",\nu:\"\"\n}",
+            "name": "@get:{n}",
+            "author": "@get:{a}",
+            "kind": "@get:{k}##中|已|小说类别.|...:.*",
+            "wordCount": "@get:{w}##完成字数.",
+            "lastChapter": "@get:{l}",
+            "intro": "<br>🏷️@get:{tags}<br>@get:{i}@js:result.replace(/[\\r\\n]/g,' ')",
+            "coverUrl": "@get:{c}"
+        },
+        "ruleToc": {
+            "chapterList": ".works-chapter-list p a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "imageStyle": "FULL"
+        }
+    }
+]

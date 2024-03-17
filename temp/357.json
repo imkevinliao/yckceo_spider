@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "正文加密",
+        "bookSourceGroup": "",
+        "bookSourceName": "魔爪小说[需登录]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.mozhua.app",
+        "customOrder": -88962622,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::/cate/2922_0_0_0_0_{{page}}_0.html\n武侠仙侠::/cate/1963_0_0_0_0_{{page}}_0.html\n都市异能::/cate/8114_0_0_0_0_{{page}}_0.html\n历史军事::/cate/4478_0_0_0_0_{{page}}_0.html\n游戏竞技::/cate/9787_0_0_0_0_{{page}}_0.html\n灵异悬疑::/cate/3888_0_0_0_0_{{page}}_0.html\n耽美::/cate/2895_0_0_0_0_{{page}}_0.html\n百合::/cate/5693_0_0_0_0_{{page}}_0.html\n言情小说::/cate/7200_0_0_0_0_{{page}}_0.html\n免费小说::/cate/2968_0_0_0_0_{{page}}_0.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; PCLM10 Build/RKQ1.200928.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.88 Mobile Safari/537.36\",\n  \"referer\":\"https://m.mozhua.app/\"\n}",
+        "lastUpdateTime": 1651589021895,
+        "loginUrl": "https://m.mozhua.app",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##{{book.name}}",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "<js>\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者容正在手打中，请【收藏本站】稍访问或者联系管理员更新~\"}\n</js>"
+        },
+        "ruleExplore": {
+            "author": "span.0@a@text",
+            "bookList": ".CGsectionTwo-right-content-unit",
+            "bookUrl": "a@href",
+            "coverUrl": "",
+            "intro": "p.2@text",
+            "kind": ".tag@text",
+            "lastChapter": "p.1@textNodes##\\s*.*\\s*共|作者 :|分",
+            "name": ".title@text"
+        },
+        "ruleSearch": {
+            "author": "class.sc-title@tag.a.1@text",
+            "bookList": "class.search-card",
+            "bookUrl": "text.作品详情@href",
+            "lastChapter": "class.sc-time@text",
+            "name": "class.sc-title@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BGsectionThree-content@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "/search/,{\n'method': 'POST',\n'body': 'keyword={{key}}'\n}",
+        "weight": 0
+    }
+]

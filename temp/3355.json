@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "一品侠[同库]  https://www.yipingxia.com\n完本[同库]      https://m.mddtxt.net",
+        "bookSourceName": "一品侠小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yipingxia.com##旅途",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.019; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124\"}",
+        "lastUpdateTime": 1683831406137,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": ".jj@.p2@text",
+            "name": ".catalog1@h1@text",
+            "wordCount": ".p6@text"
+        },
+        "ruleContent": {
+            "content": "#novelcontent@html",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".search_list",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "校园",
+            "kind": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".info_chapters .p2.1@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"s={{key}}&type=articlename\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "置顶搜书",
+        "bookSourceName": "顶点小说⑩",
+        "bookSourceUrl": "https://www.booktxt.net",
+        "enable": true,
+        "ruleBookAuthor": "class.book-text@tag.span.0@text##著",
+        "ruleBookContent": "id.txt@html",
+        "ruleBookContentReplace": "##『如果章节.*』",
+        "ruleBookKind": "class.blue@text",
+        "ruleBookLastChapter": "class.book-chapter-list@tag.ul.0@tag.li.0@tag.a@text",
+        "ruleBookName": "class.book-text@h1@text",
+        "ruleBookUrlPattern": "",
+        "ruleChapterList": "class.book-chapter-list@tag.ul.1@tag.li@tag.a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "id.fengmian@img@src",
+        "ruleIntroduce": "class.intro@text",
+        "ruleSearchAuthor": "class.s4@text",
+        "ruleSearchList": "class.search-list@tag.li!0",
+        "ruleSearchName": "class.s2@text",
+        "ruleSearchNoteUrl": "tag.a@href",
+        "ruleSearchUrl": "https://so.biqusoso.com/s1.php?ie=utf-8&siteid=booktxt.net&q=searchKey",
+        "serialNumber": 373,
+        "weight": 0
+    }
+]

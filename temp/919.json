@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🌸  常用",
+        "bookSourceName": "🌸晨曦小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.chenxixsw.com",
+        "customOrder": 58,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "百合::/danmei/lastupdate_62_0_0_0_0_0_{{page}}.html\n青春言情::/yanqing/<,index_{{page}}.html>\n耽美同人::/danmei/<,index_{{page}}.html>\n武侠玄幻::/xuanhuan/<,index_{{page}}.html>\n恐怖侦破::/kongbu/<,index_{{page}}.html>\n军事历史::/lishi/<,index_{{page}}.html>\n国学名著::/guoxue/<,index_{{page}}.html>\n学习励志::/xuexi/<,index_{{page}}.html>\n生活休闲::/shenghuo/<,index_{{page}}.html>\n海外文学::/haiwai/<,index_{{page}}.html>\nnull",
+        "lastUpdateTime": 1625012314522,
+        "ruleBookInfo": {
+            "author": "class.article@tag.li.1@a@text",
+            "intro": "class.last9.1@text",
+            "name": ".title@text",
+            "tocUrl": "text.章节目录@href||text.目录@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html##本站.*?谢谢支持！！",
+            "imageStyle": "0.0"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.li.1@tag.a.0@text",
+            "bookList": ".searchcon ul",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "class.lastupdate@a@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.clist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.chenxixsw.com/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\",\n\"charset\":\"gbk\"\n}",
+        "weight": 0
+    }
+]

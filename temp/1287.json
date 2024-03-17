@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceUrl": "http://www.tstdoors.com",
+        "bookSourceType": "0",
+        "bookSourceName": "零点看书",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.tstdoors.com/ar.php?keyWord={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1622960057096,
+        "ruleSearch": {
+            "bookList": "class.txt-list.0@tag.li!0",
+            "name": "tag.a.0@text",
+            "author": "class.s4@text",
+            "kind": "class.s1@text##\\[|\\]",
+            "lastChapter": "tag.a.1@text&&class.s5@text",
+            "bookUrl": "tag.a.0@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.info@tag.h1@text",
+            "author": "class.info@tag.p.0@text##作者.",
+            "kind": "class.info@tag.p.1@text##类别.",
+            "lastChapter": "class.section-list.0@tag.a.0@text&&class.info@tag.p.-2@text##最后更新.|..\\:.*",
+            "intro": "class.desc@text",
+            "coverUrl": "class.imgbox@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.section-list.1@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html##章节错误.*刷新页面。",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

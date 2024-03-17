@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "飞卢小王子",
+        "bookSourceName": "书福袋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shufudai.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1635769872750,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.booktag@tag.a.0@text",
+            "coverUrl": "id.bookIntro@tag.img@src",
+            "intro": "id.bookIntro@text",
+            "kind": "class.booktag@tag.a.-1@text",
+            "lastChapter": "class.col-md-10@tag.p.1@tag.a@text##章节目录",
+            "name": "class.bookTitle@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html",
+            "imageStyle": "FULL",
+            "nextContentUrl": "id.linkNext@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.li.2@text##作者：",
+            "bookList": "class.mySearch@tag.ul",
+            "bookUrl": "tag.li.0@tag.a@href",
+            "coverUrl": "",
+            "kind": "tag.li.5@text##状态：",
+            "lastChapter": "tag.li.1@tag.a@text",
+            "name": "tag.li.0@tag.a@text",
+            "wordCount": "tag.li.3@text##大小："
+        },
+        "ruleToc": {
+            "chapterList": "class.col-md-3",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.shufudai.com/modules/article/search.php?searchkey={{key}},{\n\t\"charset\":\"gbk\"\n\t\n\t}",
+        "weight": 0
+    }
+]

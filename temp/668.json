@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "这个网站分类里只有一页",
+        "bookSourceGroup": "验,📖  小说",
+        "bookSourceName": "书阅屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.sywtxt.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xclass/1/1.html\n修真::/xclass/2/1.html\n都市::/xclass/3/1.html\n穿越::/xclass/4/1.html\n网游::/xclass/5/1.html\n科幻::/xclass/6/1.html\n其他::/xclass/7/1.html\n排行榜::/ph/all.html\n全本::/quanben.html",
+        "lastUpdateTime": 1644159227183,
+        "respondTime": 2861,
+        "ruleBookInfo": {
+            "author": ".dd_box.0@tag.span.0@text##作者：",
+            "coverUrl": "tag.img@src",
+            "intro": ".intro@text||.book_about@tag.dd@text",
+            "kind": ".tag@class.blue@text&&.tag@class.green@text||.dd_box.0@tag.span.1@text&&.dd_box.1@tag.span.0@text##分类：|状态：",
+            "lastChapter": ".update-text@tag.a@text||.book_box@tag.dd.3@tag.a@text##更新至",
+            "name": ".name@text",
+            "tocUrl": ".book_more@tag.a@href"
+        },
+        "ruleContent": {
+            "content": ".txt@html||#chaptercontent@html##记住.*网址.*|『如果章节错误，点此举报』|第.*章.*|第.*页|.*本章未完.*",
+            "nextContentUrl": "text.下章@href||text.下一章@href"
+        },
+        "ruleExplore": {
+            "author": ".s3@text||tag.dt@tag.span@text",
+            "bookList": "class.p10&&li",
+            "bookUrl": ".s2@tag.a@href||tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "tag.dd@text",
+            "kind": ".s1@text||.rate@text##\\[ | \\]",
+            "name": "tag.dt@tag.a@text||.s2@text||tag.a@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": "ul@tag.li!0",
+            "bookUrl": ".s2@tag.a@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": ".s2@tag.a@href<js>java.ajax(result)\n</js>.update-text@tag.a@text##更新至",
+            "name": "tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book-chapter-list@class.cf.1@li||.book_last@tag.dd!0",
+            "chapterName": "@text",
+            "chapterUrl": "tag.a@href",
+            "updateTime": ".update-text@tag.span@text||.book_box.2@text##更新："
+        },
+        "searchUrl": "https://so.biqusoso.com/s.php?,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 'siteid=shuyuewu.co&q={{key}}'\n}",
+        "weight": 0
+    }
+]

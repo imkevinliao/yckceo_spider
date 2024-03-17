@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceName": "笔趣读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.biqu55.net/",
+        "customOrder": -88903116,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 1671909708137,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.pt-info.1@text",
+            "coverUrl": "class.s71@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.pt-info.2@text",
+            "lastChapter": "class.ptm-list-view.0@li.0@text",
+            "name": "class.pt-name@text",
+            "wordCount": "class.pt-info.3@text"
+        },
+        "ruleContent": {
+            "content": "class.chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.ptm-list-view-cell",
+            "bookUrl": "class.ptm-block@a@href",
+            "coverUrl": "class.imgarea@img@src",
+            "name": "class.ptm-block@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.ptm-list-view.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://m.biqu55.net/home/search,{\n  \"body\": \"action=search&q={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

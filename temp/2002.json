@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "🍈笛寄明月楼",
+        "bookSourceGroup": "🍈精品",
+        "bookSourceName": "🍈 番茄小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.fqxsw.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "                              分类                              ::\n玄幻小说::/fenlei1/{{page}}.html\n言情小说::/fenlei2/{{page}}.html\n仙侠修真::/fenlei3/{{page}}.html\n都市小说::/fenlei4/{{page}}.html\n历史小说::/finley5/{{page}}.html\n网游小说::/fenlei6/{{page}}.html\n竞技小说::/fenlei7/{{page}}.html\n科幻小说::/fenlei8/{{page}}.html\n\n                              排行                              ::\n总排行榜::/topallvisit/{{page}}.html\n月排行榜::/topmonthvisit/{{page}}.html\n周排行榜::/topweekvisit/{{page}}.html\n总推荐榜::/topallvote/{{page}}.html\n月推荐榜::/topmonthvote/{{page}}.html\n周推荐榜::/topweekvote/{{page}}.html\n本站推荐::/toptoptime/{{page}}.html\n收藏排行::/topgoodnum/{{page}}.html\n字数排行::/topsize/{{page}}.html\n最近更新::/toplastupdate/{{page}}.html\n最新小说::/toppostdate/{{page}}.html\n全本小说::/wanben/{{page}}",
+        "lastUpdateTime": 1619144937963,
+        "ruleBookInfo": {
+            "author": "class.col-md-10@tag.small@tag.a@textNodes",
+            "coverUrl": "tag.img.1@src",
+            "intro": " //*[@property=\"og:description\"]/@content",
+            "kind": "class.booktag@tag.span.1@text",
+            "lastChapter": "class.col-md-10@tag.p.1@tag.a@text",
+            "name": "class.col-md-10@class.bookTitle@textNodes"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html",
+            "nextContentUrl": "id.linkNext@href",
+            "replaceRegex": "##&n... -->>|本章未完，点击下一页继续阅读|<img.*jpg\" >|请安装我们的客户端|更多好书.*|离线下载|无广告阅读|下载APP|终身免费阅读|饭圈小说网.*最快更新.*最新章节.*|/>|... -->>|本章未完，点击下一页继续阅读"
+        },
+        "ruleExplore": {
+            "coverUrl": "class.text-muted id.bookIntro@img@src"
+        },
+        "ruleSearch": {
+            "author": "class.text-muted fs-12@ownText## / 著",
+            "bookList": "class.col-md-4 col-xs-4 book-coverlist",
+            "bookUrl": "h4@tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "class.caption@tag.p@text",
+            "lastChapter": "",
+            "name": "class.caption@tag.h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list-chapterAll@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.fqxsw.cc/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

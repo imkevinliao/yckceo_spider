@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "御书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.yushubo.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::https://m.yushubo.com/all.html\n玄幻奇幻::https://m.yushubo.com/all/id/55.html\n武侠修真::https://m.yushubo.com/all/id/57.html\n都市异能::https://m.yushubo.com/all/id/59.html\n历史军事::https://m.yushubo.com/all/id/61.html\n游戏竞技::https://m.yushubo.com/all/id/63.html\n科幻灭世::https://m.yushubo.com/all/id/65.html\n灵异悬疑::https://m.yushubo.com/all/id/66.html\n轻小说::https://m.yushubo.com/all/id/60.html",
+        "lastUpdateTime": 1651996235095,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info@tag.span.1@text",
+            "coverUrl": "class.lazy@src",
+            "init": "",
+            "intro": "class.content@text",
+            "kind": "class.info@tag.span.0@text",
+            "lastChapter": "class.mod mod-attentions.0@tag.li.0@tag.a@text",
+            "name": "class.base clearfix@tag.h2@text",
+            "tocUrl": "class.chapters-more@id.reverse@href",
+            "wordCount": "class.info@tag.span.2@text"
+        },
+        "ruleContent": {
+            "content": "class.read-section jsChapterWrapper@html",
+            "nextContentUrl": "class.chapter-porn@tag.a.2@href"
+        },
+        "ruleExplore": {
+            "author": "class.info@tag.span@text",
+            "bookList": "class.clearfix@tag.li",
+            "bookUrl": "class.tit@href",
+            "coverUrl": "class.pic lazy@src",
+            "intro": "class.intro@text",
+            "kind": "class.type@text",
+            "lastChapter": "",
+            "name": "class.tit@text",
+            "wordCount": "class.word@text"
+        },
+        "ruleSearch": {
+            "author": "class.info@tag.span@text",
+            "bookList": "class.clearfix@tag.li",
+            "bookUrl": "class.tit@href",
+            "coverUrl": "class.pic lazy@src",
+            "intro": "class.intro@text",
+            "kind": "class.info@tag.em.2@text",
+            "name": "class.tit@text",
+            "wordCount": "class.info@tag.em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapter",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "updateTime": ""
+        },
+        "searchUrl": "https://m.yushubo.com/search.html?ss={{key}}",
+        "weight": 0
+    }
+]

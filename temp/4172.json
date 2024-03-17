@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "秋风书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qiufengshuwu.com",
+        "bookUrlPattern": "https?://www.qiufengshuwu.com/book/\\d+.html",
+        "customOrder": 6,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "男频小说::https://www.qiufengshuwu.com/sort/1_{{page}}/\n女频小说::https://www.qiufengshuwu.com/sort/2_{{page}}/\n中国文学::https://www.qiufengshuwu.com/sort/3_{{page}}/\n外国文学::https://www.qiufengshuwu.com/sort/4_{{page}}/\n轻小说::https://www.qiufengshuwu.com/sort/5_{{page}}/\n百合小说::https://www.qiufengshuwu.com/sort/6_{{page}}/\n耽美小说::https://www.qiufengshuwu.com/sort/7_{{page}}/\n网盘资源::https://www.qiufengshuwu.com/sort/8_{{page}}/\n完本小说::https://www.qiufengshuwu.com/full/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695718141092,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".infotype a.0@text",
+            "coverUrl": ".infohead img@src",
+            "intro": "#intro p@text",
+            "kind": ".infotype p.1:3:2@text\n##作品类型：|作品状态：|更新时间：",
+            "lastChapter": ".list_xm li.0@text",
+            "name": "h3.0@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "#novelcontent p@html"
+        },
+        "ruleExplore": {
+            "author": ".p3@text||a.2@text",
+            "bookList": ".article||.full_content",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-src",
+            "intro": "p.simple@text",
+            "kind": ".p1@text##\\[|\\]",
+            "name": ".p2@text||a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": "p.sone",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "0",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters li",
+            "chapterName": "text",
+            "chapterUrl": "a@href",
+            "isVolume": ".juan@text"
+        },
+        "searchUrl": "https://www.qiufengshuwu.com/s.html,{\n  \"body\": \"s={{key}}&type=articlename\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "https://www.wucuoxs.com",
+        "bookSourceGroup": "",
+        "bookSourceName": "无错小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wcxsw.org",
+        "bookUrlPattern": "",
+        "customOrder": -2086052334,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"女生\",\"url\":\"/fenlei1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/fenlei2/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/fenlei3/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/fenlei4/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/fenlei5/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/fenlei6/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/fenlei7/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军事\",\"url\":\"/fenlei8/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/fenlei9/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/fenlei10/\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"其他\",\"url\":\"/fenlei11/\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux) AppleWebKit Chrome UCBrowser Mobile Safari\"\n}",
+        "lastUpdateTime": 1683952002289,
+        "loginUi": "",
+        "loginUrl": "https://m.wcxsw.org/search.php",
+        "respondTime": 180882,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "init": "meta",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##\\s.*",
+            "lastChapter": "[property$=chapter_name]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "#content p@textNodes##【推荐下.*?下载 .*?】",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "author": ".s5@text",
+            "bookList": "+@css:.l li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.wcxsw.org/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": ".s3@textNodes##\\(|\\)",
+            "lastChapter": "a.1@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.0@text",
+            "bookList": "<js>\nif(result.match(/Just a moment/)){\ncookie.removeCookie(source.bookSourceUrl)\nvar x=java.get(\"url\")\njava.startBrowserAwait(x,\"验证\")\nresult=java.ajax(x)\n\t}\n\tresult\n</js>.m-bookcase dl",
+            "bookUrl": "a.0@href##\\/m##/www",
+            "checkKeyWord": "",
+            "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.wcxsw.org/image/$2/$1/$1s.jpg###",
+            "kind": ".bookcase_title@text&&p.1@text##\\[|]|{{book.name}}|更新：",
+            "lastChapter": "",
+            "name": "a@text##\\[连载\\]"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd[15:]@a",
+            "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\n   ua={\"User-Agent\":\"Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.019; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124\"};\nbody= \"keyword=\"+key;\noption={\"method\":\"POST\",\"headers\":ua,\"body\":String(body)};\n  \njava.put(\"url\",String(source.loginUrl+\",\"+JSON.stringify(option)))",
+        "weight": 0
+    }
+]

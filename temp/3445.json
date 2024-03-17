@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": ".stui-player__video@html  正文",
+        "bookSourceGroup": "0,漫画",
+        "bookSourceName": "一个漫画",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://www.amcomic.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "最新::https://www.amcomic.com/manhua/index.html\n漫画::https://www.amcomic.com/manhua/index<,-{{page}}>.html",
+        "lastUpdateTime": 1685242898615,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": ".imglist@html",
+            "nextContentUrl": ".mh_headpager@a.2@href",
+            "title": "h3@text",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "bookList": "li.stui-vodlist__item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@data-original",
+            "name": "h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "li.stui-vodlist__item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@data-original",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".stui-content__playlist@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "https://www.amcomic.com/vod/search/page/{{page}}.html,{\n  \"body\": \"wd={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

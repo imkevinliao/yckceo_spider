@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "//搜索需登录，设置源变量为1开启。\nvar user=/title.用户登录/.test(src);\nvar v=source.getVariable(),\nlogin=source.loginUrl;\nif(user){\n\tif(v==1){\n\t\tjava.startBrowserAwait(login,\"登录\");\n\t\tjava.toast(\"如已登录，重新搜索即可。\");\n\t\t}\n\t\tjava.toast(\"未登录，登录后才能搜索！\");\n\t}\nresult;",
+        "bookSourceGroup": "自制,备用,登录,源仓库,网页源",
+        "bookSourceName": "铅笔✏️小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.x23qb.com",
+        "bookUrlPattern": "https?://m.x23qb.com/book/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "言情女生::/yanqing/<,{{page}}/>\n玄幻奇幻::/xuanhuan/<,{{page}}/>\n都市青春::/dushi/<,{{page}}/>\n武侠仙侠::/wuxia/<,{{page}}/>\n唯美纯爱::/danmei/<,{{page}}/>\n科幻灵异::/kehuan/<,{{page}}/>\n轻小说の::/lightnovel/<,{{page}}/>\n历史军事::/lishi/<,{{page}}/>\n小说书库::/book/<,{{page}}/>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1697004742027,
+        "loginUrl": "https://m.x23qb.com/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "canReName": "1",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"#bookintro p.0@text\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#TextContent>p@textNodes",
+            "nextContentUrl": "@js:\nvar next=src.match(/nextpage=.*?;/);\nvar url=next?eval(next[0]):\"\";\n/_/.test(url)?url:\"\";",
+            "replaceRegex": "##铅笔小说.*com"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.2@text",
+            "bookList": "<js>\neval(String(source.bookSourceComment))</js>\n#sitebox dl",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@_src",
+            "intro": ".book_des@text",
+            "kind": "span.0:-2:1@text",
+            "lastChapter": "a.-1@text",
+            "name": "h3 a@text",
+            "wordCount": "span.-1@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterList li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/saerch.php,{\n  \"body\": \"searchkey={{key}}&searchtype=all\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "variableComment": "数字1开启登录检查",
+        "weight": 0
+    }
+]

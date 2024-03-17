@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "打不开挂梯\n搜索间隔30秒，过快容易宕机",
+        "bookSourceGroup": "自制,特殊,源仓库,网页源",
+        "bookSourceName": "言情小说网/工整",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.gozheng.com",
+        "bookUrlPattern": "http://www.gozheng.com/x/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/yq/1/{{page}}/\n武侠小说::/yq/2/{{page}}/\n都市小说::/yq/3/{{page}}/\n历史小说::/yq/4/{{page}}/\n网游小说::/yq/5/{{page}}/\n科幻小说::/yq/6/{{page}}/\n耽美小说::/yq/7/{{page}}/\n其他小说::/yq/8/{{page}}/",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1686100174398,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "text.作者：@a@text",
+            "coverUrl": ".pic@img@src",
+            "intro": ".intro.0@p@text",
+            "kind": ".infotype@p.1:2@text##类型：|更新时间：",
+            "lastChapter": "text.最新章节：@a@text",
+            "name": "h3.0@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": ".articlecontent@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*（本章未完.*继续阅读）"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": "class.article",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".simple@text",
+            "kind": "0",
+            "name": "h6@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://www.gozheng.com/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

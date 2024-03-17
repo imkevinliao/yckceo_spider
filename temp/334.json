@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "阅读库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.yuedsk.com",
+        "customOrder": -88965637,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1652705442385,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "##:author\"[^\"]*\"([^\"]*)##$1###",
+            "coverUrl": "##:image\"[^\"]*\"([^\"]*)##$1###",
+            "init": "",
+            "intro": ".tabvalue.0@text",
+            "kind": "##作品分类：([^<]*)[\\s\\S]*?连载状态：([^<]*)[\\s\\S]*?最后更新：([^<]*)##$1,$2,$3###",
+            "lastChapter": "h3@text",
+            "name": "##:book_name\"[^\"]*\"([^\"]*)##$1###",
+            "tocUrl": ".b_hot@href",
+            "wordCount": "##全文字数：([^<]*)##$1###"
+        },
+        "ruleContent": {
+            "content": "#clickeye_content@textNodes##\\(阅读库.*\\)|阅读库 www.*com"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "$4",
+            "bookList": ":\"fl\"[^\"]*\"([^\"]*)\"[^>]*>[^\"]*\"([^\"]*)\"[\\s\\S]*?href[^>]*>([^<]*)[\\s\\S]*?c_value\">([^<]*)[\\s\\S]*?c_value\">([^<]*)[\\s\\S]*?c_value\">([^<]*)[\\s\\S]*?c_value\">([^<]*)[\\s\\S]*?c_description\">([^<]*)[\\s\\S]*?_blank\">([^<]*)[\\s\\S]*?c_value\">([^<]*)",
+            "bookUrl": "$1",
+            "coverUrl": "$2",
+            "intro": "$8",
+            "kind": "$5,$7,$10",
+            "lastChapter": "$9",
+            "name": "$3",
+            "wordCount": "$6"
+        },
+        "ruleToc": {
+            "chapterList": "+@css:.chapter a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php?q={{key}}",
+        "weight": 0
+    }
+]

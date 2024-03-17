@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "✯.自用",
+        "bookSourceName": "顶漫漫画",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://toptoonfree.com",
+        "customOrder": -88962906,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "排行榜::https://toptoonfree.com/top.html?page={{page}}\n已完结::https://toptoonfree.com/complete/?page={{page - 1 == 0 ? \"\": page}}\n连载中::https://toptoonfree.com/weekly/?page={{page}}",
+        "lastUpdateTime": 1665905443360,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.mr10@text",
+            "coverUrl": "class.img-box@img.0@src",
+            "intro": "class.i50@text",
+            "kind": "class.span-b@text",
+            "lastChapter": "class.f-red@text##最新章节： ",
+            "name": "class.img-box@img.0@alt"
+        },
+        "ruleContent": {
+            "content": "class.lazy@tag.img@data-original@js:result.split(\"\\n\").map(x=>'<img src=\"'+x+'\">').join(\"\\n\")",
+            "imageStyle": "full"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "section@tag.p.0@text",
+            "bookList": "class.col-12",
+            "bookUrl": "class.style-img@tag.a.0@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "tag.img@src",
+            "intro": "class.f-gray@text",
+            "lastChapter": "class.f-red@text##最新章节： ",
+            "name": "class.style-img@tag.a.0@title"
+        },
+        "ruleToc": {
+            "chapterList": "class.ul-36@tag.li",
+            "chapterName": "a@title",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://toptoonfree.com/txsearch.html?&search={{key}}",
+        "weight": 0
+    }
+]

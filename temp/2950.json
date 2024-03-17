@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "haxc",
+        "bookSourceGroup": "",
+        "bookSourceName": "笔趣阁(移动版)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.biquge.com",
+        "customOrder": -3597,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/fenlei1_{{page}}.html\n修真小说::/fenlei2_{{page}}.html\n都市小说::/fenlei3_{{page}}.html\n历史小说::/fenlei4_{{page}}.html\n网游小说::/fenlei5_{{page}}.html\n科幻小说::/fenlei6_{{page}}.html\n言情小说::/fenlei7_{{page}}.html\n排行::/top_{{page}}.php",
+        "lastUpdateTime": 1602246572505,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "class.margin_right.0@a@href",
+            "wordCount": "class.block_txt2@tag.p.5@text"
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes",
+            "imageStyle": "full",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "class.intro_line@text##简介：",
+            "kind": "",
+            "lastChapter": "class.update@a@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.biquge.com/SearchBook.php,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"type=articlename&keyword={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

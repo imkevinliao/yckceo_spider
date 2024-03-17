@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "//可搜索，没做发现",
+        "bookSourceGroup": "",
+        "bookSourceName": "番茄小说fqxs.org",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.fqxs.org/",
+        "customOrder": 324,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1668315818565,
+        "respondTime": 2696,
+        "ruleBookInfo": {
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@tag.p.0@text",
+            "lastChapter": "class.infobar@tag.p.4@tag.a@text"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4.0@text",
+            "bookList": "id.bookcase@tag.ul@tag.li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "kind": "class.s2.0@text&&class.s4.1@text&&class.s4.2@text",
+            "lastChapter": "class.s5@text",
+            "name": "class.s2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/user/search.html?q={{key}},{\n  \"method\": \"GET\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

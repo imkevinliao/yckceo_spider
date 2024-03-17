@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "南山书院",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.szyangxiao.com",
+        "bookUrlPattern": "http://www.szyangxiao.com/(xs)?\\d+.shtml",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻:://www.szyangxiao.com/list/1_{{page}}.shtml\n修真:://www.szyangxiao.com/list/2_{{page}}.shtml\n都市:://www.szyangxiao.com/list/3_{{page}}.shtml\n历史:://www.szyangxiao.com/list/4_{{page}}.shtml\n游戏:://www.szyangxiao.com/list/5_{{page}}.shtml\n科幻:://www.szyangxiao.com/list/6_{{page}}.shtml\n言情:://www.szyangxiao.com/list/7_{{page}}.shtml\n同人:://www.szyangxiao.com/list/8_{{page}}.shtml\n灵异:://www.szyangxiao.com/list/9_{{page}}.shtml\n奇幻:://www.szyangxiao.com/list/10_{{page}}.shtml\n竞技:://www.szyangxiao.com/list/11_{{page}}.shtml\n武侠:://www.szyangxiao.com/list/12_{{page}}.shtml\n军事:://www.szyangxiao.com/list/13_{{page}}.shtml\n校园:://www.szyangxiao.com/list/14_{{page}}.shtml\n官场:://www.szyangxiao.com/list/15_{{page}}.shtml\n商战:://www.szyangxiao.com/list/16_{{page}}.shtml\n职场:://www.szyangxiao.com/list/17_{{page}}.shtml\n二次元:://www.szyangxiao.com/list/18_{{page}}.shtml\n其他:://www.szyangxiao.com/list/0_{{page}}.shtml\n总点击榜:://www.szyangxiao.com/top/allvisit/{{page}}.shtml\n月点击榜:://www.szyangxiao.com/top/monthvisit/{{page}}.shtml\n周点击榜:://www.szyangxiao.com/top/weekvisit/{{page}}.shtml\n最新小说:://www.szyangxiao.com/top/postdate/{{page}}.shtml\n最近更新:://www.szyangxiao.com/top/lastupdate/{{page}}.shtml\n总推荐榜:://www.szyangxiao.com/top/allvote/{{page}}.shtml\n月推荐榜:://www.szyangxiao.com/top/monthvote/{{page}}.shtml\n周推荐榜:://www.szyangxiao.com/top/weekvote/{{page}}.shtml\n总收藏榜:://www.szyangxiao.com/top/goodnum/{{page}}.shtml\n字数排行:://www.szyangxiao.com/top/size/{{page}}.shtml",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695121358521,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "small@text",
+            "coverUrl": "img@src",
+            "downloadUrls": "text.下载@href",
+            "intro": "p@ownText##是，类型属于|下载：|阅读：",
+            "kind": "p a.1@text",
+            "lastChapter": ".nav@text",
+            "name": "h1 a@text",
+            "tocUrl": "text.最新章节@href"
+        },
+        "ruleContent": {
+            "content": "#content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "ul.nav span",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "0",
+            "lastChapter": "ownText##.*：",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".nav a!0",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.szyangxiao.com/modules/article/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "手机页面和电脑版页面网址不同",
+        "bookSourceGroup": "☣️senhora起点",
+        "bookSourceName": "69飞速中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.feiszw.com",
+        "bookUrlPattern": "",
+        "customOrder": -302722,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "总点击榜::/top-allvisit-{{page}}/\n总收藏榜::/top-goodnum-{{page}}\n字数排行::/top-size-{{page}}/\n总推荐榜::/top-allvote-{{page}}/\n最新入库::/top-postdate-{{page}}/\n全本小说::/full-{{page}}/\n我的书架::/user/bookcase.aspx\n          分            类            整             理             \n玄幻魔法::/sort-1-{{page}}/\n仙侠修真::/sort-2-{{page}}/\n都市言情::/sort-3-{{page}}/\n历史军事::/sort-4-{{page}}/\n网游竞技::/sort-5-{{page}}/\n科幻小说::/sort-6-{{page}}/\n恐怖灵异::/sort-7-{{page}}/\n女生小说::/sort-8-{{page}}/\n其他小说::/sort-9-{{page}}/",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4080.0 Safari/537.36 Edg/82.0.453.0\"\n}",
+        "lastUpdateTime": 1633848777402,
+        "loginUrl": "https://m.feiszw.com/User/Login.aspx",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "class.block_img2@img@src",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content##《.*》",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:update_time\"]@content&&[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "class.nr_nr@html##.*m.feiszw. com",
+            "imageStyle": "full",
+            "nextContentUrl": "id.maintool@tag.a.1@href"
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text",
+            "bookList": "class.cover@class.line",
+            "bookUrl": "tag.a.1@href",
+            "kind": "tag.a.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.line",
+            "bookUrl": "tag.a.1@href##^##http://m.feiszw.com",
+            "coverUrl": "",
+            "intro": "dd@textNodes",
+            "kind": "tag.a.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.cover@class.chapter.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "https://m.feisuzw.com/search.aspx?s={{key}}&submit=",
+        "weight": 0
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceUrl": "https://www.yodu.org",
+        "bookSourceType": "0",
+        "bookSourceName": "📗💠有度中文",
+        "bookSourceGroup": "📗日轻,💠精选",
+        "bookSourceComment": "用以前收集的书源改的，忘了是谁的了，抱歉\n修复正文\n搜索失效轻更新Cookie",
+        "loginUrl": "https://www.yodu.org/login.php",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "{\n\"Cookie\":\"jq_Obj=1;zh_choose=n;jieqiVisitId=article_articleviews%3D14815;PHPSESSID=6pp08e03ojd13872mocbmlnjfh;jieqiUserInfo=jieqiUserId%3D38760%2CjieqiUserUname%3D%E6%97%A0%E8%81%8A%E7%9A%84%E6%88%91%2CjieqiUserName%3D%E6%97%A0%E8%81%8A%E7%9A%84%E6%88%91%2CjieqiUserGroup%3D3%2CjieqiUserGroupName%3D%E6%99%AE%E9%80%9A%E4%BC%9A%E5%91%98%2CjieqiUserVip%3D0%2CjieqiUserHonorId%3D1%2CjieqiUserHonor%3D%E5%A4%A9%E7%84%B6%2CjieqiUserToken%3D8f76dba976de6848debbe09bc55e2bbb%2CjieqiCodeLogin%3D0%2CjieqiCodePost%3D0%2CjieqiUserPassword%3D2e7cd8080a9314a17d7d25ffc6a5ffef%2CjieqiUserLogin%3D1628940698;jieqiVisitInfo=jieqiUserLogin%3D1628940698%2CjieqiUserId%3D38760\"\n}",
+        "bookUrlPattern": "https:\\/\\/www\\.yodu\\.org\\/book\\/\\d+\\/",
+        "searchUrl": "https://www.yodu.org/sa,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}&searchtype=all\"}",
+        "exploreUrl": "[\n{'title':'🔥------------有-------度-------榜-------单------------🔥',\n'url':'',\n'style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n\n{'title':'🔸总点击',\n'url':'/top/allvisit_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔸总推荐',\n'url':'/top/allvote_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔸收藏榜',\n'url':'/top/goodnum_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔸月点击',\n'url':'/top/monthvisit_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔸月推荐',\n'url':'/top/monthvote_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔸新入库',\n'url':'/top/postdate_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔸周点击',\n'url':'/top/weekvisit_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔸周推荐',\n'url':'/top/weekvote_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔸新书榜',\n'url':'/top/newhot_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔸日点击',\n'url':'/top/dayvisit_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔸日推荐',\n'url':'/top/dayvote_{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n\n\n{'title':'✨             轻        の        小        说             ✨',\n'url':'/qingxiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:1}},\n\n{'title':'电击文库',\n'url':'/dianjiwenku/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'富  士  见',\n'url':'/fushijianwenku/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'角川文库',\n'url':'/jiaochuanwenku/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'MF  文  库',\n'url':'/MFwenkuJ/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'Fami通文',\n'url':'/Famitongwenku/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'GA  文  库',\n'url':'/GAwenku/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'HJ  文  库',\n'url':'/HJwenku/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'一  迅  社',\n'url':'/yixunshe/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'集  英  社',\n'url':'/jiyingshe/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'小  学  馆',\n'url':'/xiaoxueguan/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'讲  谈  社',\n'url':'/jiangtanshe/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'少女文库',\n'url':'/shaonvwenku/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'其他文库',\n'url':'/qitawenku/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n\n\n{'title':'✨             网        络        小        说             ✨',\n'url':'/wangyouxiaoshuo/{{page}}.html',\n'style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n\n{'title':'🔹玄幻🔹',\n'url':'/xuanhuanxiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔹穿越🔹',\n'url':'/chuanyuexiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔹科幻🔹',\n'url':'/kehuanxiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔹仙侠🔹',\n'url':'/xianxiaxiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔹都市🔹',\n'url':'/dushixiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔹武侠🔹',\n'url':'/wuxiaxiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔹历史🔹',\n'url':'/lishixiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔹竞技🔹',\n'url':'/jingjixiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔹言情🔹',\n'url':'/yanqingxiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔹悬疑🔹',\n'url':'/xuanyixiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔹军事🔹',\n'url':'/junshixiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'🔹灵异🔹',\n'url':'/lingyixiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n\n\n{'title':'✨             经        典        文        学             ✨',\n'url':'',\n'style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n\n{'title':'传记回忆',\n'url':'/zhuanjihuiyi/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'英文读本',\n'url':'/yingwenduben/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'杂文随笔',\n'url':'/zawensuibi/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'经典言情',\n'url':'/jingdianyanqing/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'经典历史',\n'url':'/jingdianlishi/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'侦探推理',\n'url':'/zhentantuili/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'惊悚悬疑',\n'url':'/jingsongxuanyi/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'网络玄幻',\n'url':'/wangluoxuanhuan/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'寓言童话',\n'url':'/yuyantonghua/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'青春都市',\n'url':'/qingchundushi/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'社会心理',\n'url':'/shehuixinli/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'外国小说',\n'url':'/waiguoxiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'经典科幻',\n'url':'/jingdiankehuan/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'当代小说',\n'url':'/dangdaixiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'经典武侠',\n'url':'/jingdianwuxia/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'纪实报告',\n'url':'/jishibaogao/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'世界历史',\n'url':'/shijielishi/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'中国历史',\n'url':'/zhongguolishi/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'科普学习',\n'url':'/kepuxuexi/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'诗歌戏曲',\n'url':'/shigexiqu/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'宗教哲学',\n'url':'/zongjiaozhexue/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'文学理论',\n'url':'/wenxuelilun/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'日语读物',\n'url':'/riyuduwu/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'作品集',\n'url':'/zuopinji/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'国学古籍',\n'url':'/guoxueguji/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'战争军事',\n'url':'/zhanzhengjunshi/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'政治经济',\n'url':'/zhengzhijingji/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'古典文学',\n'url':'/gudianwenxue/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'现代小说',\n'url':'/xiandaixiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'官场小说',\n'url':'/guanchangxiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n\n\n{'title':'✨             繁        体        图        书             ✨',\n'url':'',\n'style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n\n{'title':'世纪百强',\n'url':'/shijibaiqiang/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'随身智囊',\n'url':'/suishenzhinang/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'历史烟云',\n'url':'/lishiyanyun/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'武侠小说',\n'url':'/wuxia/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'悬疑小说',\n'url':'/xuanyi/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'言情小说',\n'url':'/yanqing/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}},\n\n{'title':'奇幻小说',\n'url':'/qihuanxiaoshuo/{{page}}.html',\n'style':{layout_flexBasisPercent:0.29}}\n]",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 4200,
+        "lastUpdateTime": 1635702762162,
+        "ruleSearch": {
+            "bookList": ".ser-ret li",
+            "name": "h3@text##.+（漫画）$",
+            "author": "em span.1@text",
+            "kind": "em span!1@text##小说",
+            "lastChapter": "a.-1@text##正文.",
+            "intro": "p.0@text",
+            "coverUrl": "img@_src",
+            "bookUrl": "a.0@href##\\?for-search"
+        },
+        "ruleExplore": {
+            "bookList": ".j_bookList li",
+            "name": "h2@text##.+（漫画）$",
+            "author": "span.0@text",
+            "kind": "span.1:2@text##小说",
+            "intro": "a.-1@text",
+            "coverUrl": "img@_src",
+            "bookUrl": "a.0@href"
+        },
+        "ruleBookInfo": {
+            "init": "@put:{\nn:\"meta[property~=book_name]@content\",\na:\"meta[property$=author]@content\",\nk:\"meta[property~=category|status|time|update_time]@content\",\nw:\"class.mb15 ell _tags pt2@span.3@text\",\nl:\"meta[property~=latest_chapter_name|lastest_chapter_name]@content\",\ni:\"meta[property~=description]@content\",\nc:\"meta[property~=image]@content\",\nu:\"\"\n}",
+            "name": "@get:{n}",
+            "author": "@get:{a}",
+            "kind": "@get:{k}##小说|\\ .*",
+            "wordCount": "@get:{w}##\\s",
+            "lastChapter": "@get:{l}##正文.",
+            "intro": "<br>@get:{i}",
+            "coverUrl": "@get:{c}",
+            "tocUrl": "@get:{u}"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterList@li a",
+            "chapterName": "text",
+            "chapterUrl": "href<js>result.indexOf(\"html#\") != -1?java.ajax(result).match(/var url_preview = \"([^\"]+)/)[1]:result</js>"
+        },
+        "ruleContent": {
+            "content": ".read-content@html",
+            "nextContentUrl": ".mlfy_page a.-1@href##(.+_\\d+\\.html)##$1###",
+            "replaceRegex": "##\\s*（本章未完）\\s*|([…─—！？])\\1*(?=\\1\\1)|(?<=[『「“])(?:[…—─_]+|[\\.．]{3,})(?=\\w)|(?mi)^[^\\w\\n]+\\d{0,2}$|(?<=\\w：)\\s+(?=“\\w)|(?<=\\w，[”」]|[，、‘《（【［「『])\\s+|\\s+(?=[\\n，、’：；》）】］」』])"
+        }
+    }
+]

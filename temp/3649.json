@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "系统流小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://xitongliu.cn/",
+        "customOrder": 88,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻魔法::/xclass/xuanhuan/{{page}}/\n武侠修真::/xclass/wuxia/{{page}}/\n都市言情::/xclass/dushi/{{page}}/\n历史军事::/xclass/lishi/{{page}}/\n科幻小说::/xclass/kehuan/{{page}}/\n网游动漫::/xclass/youxi/{{page}}/\n女生频道::/xclass/nvsheng/{{page}}/\n其他类型::/xclass/qita/{{page}}/",
+        "header": "{\n\"User-Agent\":\n\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\"\n\n\n}",
+        "lastUpdateTime": 1687708158300,
+        "loginUrl": "https://xitongliu.cn/login/",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.bookright@class.d_title@a@text",
+            "coverUrl": "id.bookimg@img@src",
+            "name": "class.bookright@class.d_title@h1@text"
+        },
+        "ruleContent": {
+            "content": "id.TextContent@html",
+            "replaceRegex": "##系统流小说(.*?)cn|如果您还没有登录.*?您还不是本站会员请点击.*?本站会员！|系统流 .*?cn\n|您还没有登录，请登录后在继续阅读本部小说!"
+        },
+        "ruleExplore": {
+            "bookList": "id.sitebox@tag.dl",
+            "bookUrl": "dt.0@a@href",
+            "coverUrl": "class.lazy@img@data-original",
+            "intro": "class.book_des@text",
+            "kind": "class.book_other@span.0@text",
+            "name": "dd.0@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dd.1@span.0@text",
+            "bookList": "id.nr",
+            "bookUrl": "dd.0@a@href",
+            "coverUrl": "dt@a@img@data-original",
+            "intro": "class.book_des@text",
+            "kind": "dd.1@span.1@text",
+            "lastChapter": "dd.3@a@text",
+            "name": "dd.0@a@text",
+            "wordCount": "dd.1@span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterList@tag.li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://xitongliu.cn/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

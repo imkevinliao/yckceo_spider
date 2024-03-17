@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "Error: Failed to connect to /127.0.0.1:80 \n\n需登录才可搜索",
+        "bookSourceGroup": "仓库,失效,全部可用",
+        "bookSourceName": " 有度中文 ",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yoduzw.com",
+        "bookUrlPattern": "",
+        "customOrder": -213769,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"排行榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"总点击榜\",\"url\":\"/top/allvisit_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"月点击榜\",\"url\":\"/top/monthvisit_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"周点击榜\",\"url\":\"/top/weekvisit_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"日点击榜\",\"url\":\"/top/dayvisit_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"总推荐榜\",\"url\":\"/top/allvote_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"月推荐榜\",\"url\":\"/top/monthvote_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"周推荐榜\",\"url\":\"/top/weekvote_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"日推荐榜\",\"url\":\"/top/dayvote_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"新书榜单\",\"url\":\"/top/newhot_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"收藏榜单\",\"url\":\"/top/goodnum_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"最新入库\",\"url\":\"/top/postdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"网络小说\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"网游\",\"url\":\"/quanben/wangyouxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/quanben/xuanhuanxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/quanben/chuanyuexiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/quanben/kehuanxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/quanben/xianxiaxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/quanben/dushixiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/quanben/wuxiaxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/quanben/lishixiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"竞技\",\"url\":\"/quanben/jingjixiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/quanben/yanqingxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/quanben/xuanyixiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"军事\",\"url\":\"/quanben/junshixiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/quanben/lingyixiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.21}},\n{\"title\":\"繁体图书\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"世紀百強\",\"url\":\"/quanben/shijibaiqiang/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"隨身智囊\",\"url\":\"/quanben/suishenzhinang/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"歷史煙雲\",\"url\":\"/quanben/lishiyanyun/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"言情小說\",\"url\":\"/quanben/yanqing/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"经典文学\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"传记回忆\",\"url\":\"/quanben/zhuanjihuiyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"英文读本\",\"url\":\"/quanben/yingwenduben/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"杂文随笔\",\"url\":\"/quanben/zawensuibi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"经典言情\",\"url\":\"/quanben/jingdianyanqing/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"经典历史\",\"url\":\"/quanben/jingdianlishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"侦探推理\",\"url\":\"/quanben/zhentantuili/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"惊悚悬疑\",\"url\":\"/quanben/jingsongxuanyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"网络玄幻\",\"url\":\"/quanben/wangluoxuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"寓言童话\",\"url\":\"/quanben/yuyantonghua/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"青春都市\",\"url\":\"/quanben/qingchundushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"社会心理\",\"url\":\"/quanben/shehuixinli/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"外国小说\",\"url\":\"/quanben/waiguoxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"经典科幻\",\"url\":\"/quanben/jingdiankehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"当代小说\",\"url\":\"/quanben/dangdaixiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"经典武侠\",\"url\":\"/quanben/jingdianwuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"纪实报告\",\"url\":\"/quanben/jishibaogao/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"世界历史\",\"url\":\"/quanben/shijielishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"中国历史\",\"url\":\"/quanben/zhongguolishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"科普学习\",\"url\":\"/quanben/kepuxuexi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"诗歌戏曲\",\"url\":\"/quanben/shigexiqu/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"宗教哲学\",\"url\":\"/quanben/zongjiaozhexue/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"文学理论\",\"url\":\"/quanben/wenxuelilun/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"日语读物\",\"url\":\"/quanben/riyuduwu/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"作品合集\",\"url\":\"/quanben/zuopinji/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"国学古籍\",\"url\":\"/quanben/guoxueguji/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"战争军事\",\"url\":\"/quanben/zhanzhengjunshi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"政治经济\",\"url\":\"/quanben/zhengzhijingji/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"古典文学\",\"url\":\"/quanben/gudianwenxue/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"现代小说\",\"url\":\"/quanben/xiandaixiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"官场小说\",\"url\":\"/quanben/guanchangxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"轻の小说\",\"url\":\"/quanben/qingxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"轻の小说\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"电击\",\"url\":\"/quanben/dianjiwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"富士\",\"url\":\"/quanben/fushijianwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"角川\",\"url\":\"/quanben/jiaochuanwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"ＭＦ\",\"url\":\"/quanben/MFwenkuJ/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"ＦＡ\",\"url\":\"/quanben/Famitongwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"ＧＡ\",\"url\":\"/quanben/GAwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"ＨＪ\",\"url\":\"/quanben/HJwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"一迅\",\"url\":\"/quanben/yixunshe/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"集英\",\"url\":\"/quanben/jiyingshe/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"小学\",\"url\":\"/quanben/xiaoxueguan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"讲谈\",\"url\":\"/quanben/jiangtanshe/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"少女\",\"url\":\"/quanben/shaonvwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/quanben/qitawenku/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.21}}\n]",
+        "header": "{\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'\n}",
+        "lastUpdateTime": 1635653969585,
+        "loginUrl": "https://www.yoduzw.com/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|小說|\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": "class.mb15 ell _tags pt2@span.3@text"
+        },
+        "ruleContent": {
+            "content": "#TextContent@html",
+            "imageStyle": "FULL",
+            "nextContentUrl": "",
+            "replaceRegex": "##\\（本章未完\\）",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "span.0@text",
+            "bookList": ".j_bookList li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@_src",
+            "intro": "a.-1@text",
+            "kind": "span.1:2@text##小说|小說",
+            "name": "h2@text"
+        },
+        "ruleSearch": {
+            "author": "span.1@text",
+            "bookList": ".ser-ret li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@_src",
+            "intro": "p.0@text",
+            "kind": "span.0:2@text##小说|小說",
+            "lastChapter": "a.-1@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterList li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s/all-{{key}}-{{page}}.html",
+        "weight": 0
+    }
+]

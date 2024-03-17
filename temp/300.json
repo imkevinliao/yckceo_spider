@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "Li ™",
+        "bookSourceName": "【爱尚小说】",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.asxs.com/",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 10,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1654190055102,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "tag.i.0@text",
+            "coverUrl": "class.pic@tag.img@src",
+            "init": "",
+            "intro": "class.intro@text##小说介绍：",
+            "kind": "tag.i.2@text##类别：",
+            "lastChapter": "class.fl@text##最新章节：",
+            "name": "class.btitle@tag.h1@text",
+            "wordCount": "tag.i.1@text##作品进度："
+        },
+        "ruleContent": {
+            "content": "#contents@html"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "tag.td.3@text",
+            "bookList": "class.bdsub@tag.tbody@tag.tr!0",
+            "bookUrl": "tag.tr@tag.a.0@href",
+            "kind": "tag.td.0@text",
+            "lastChapter": "tag.tr@tag.a.1@text&&tag.td.4@text",
+            "name": "tag.tr@tag.a.0@text",
+            "wordCount": "tag.td.5@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.at@tag.a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

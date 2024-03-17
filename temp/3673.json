@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "笔趣阁/香书小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.ibiquges.com",
+        "bookUrlPattern": "https://wap.ibiquges.*wapbook.+html",
+        "customOrder": 114,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/wapsort/1_{{page}}/\n仙侠::/wapsort/2_{{page}}/\n都市::/wapsort/3_{{page}}/\n历史::/wapsort/4_{{page}}/\n网游::/wapsort/5_{{page}}/\n科幻::/wapsort/6_{{page}}/\n其他::/wapsort/7_{{page}}/\n全本::/wapfull/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691480229037,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##{{chapter.title}} |\\(第.*页\\)|（本章未完.+继续阅读）"
+        },
+        "ruleExplore": {
+            "author": "ownText##.*\\/",
+            "bookList": ".line",
+            "bookUrl": "a@href",
+            "coverUrl": "@js:'https://www.ibiquges.com/modules/article/images/nocover.jpg'",
+            "kind": "ownText##\\[|\\].*",
+            "name": "a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.3@text##作者：",
+            "bookList": ".block",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "kind": "p.2@text##分类：",
+            "lastChapter": "a.-1@text",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "isPay": "",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "https://wap.ibiquges.info/modules/article/waps.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

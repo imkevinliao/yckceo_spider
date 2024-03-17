@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceGroup": "18禁",
+        "bookSourceName": "疯情阅读?",
+        "bookSourceType": "",
+        "bookSourceUrl": "https://m.aaread.club",
+        "enable": true,
+        "httpUserAgent": "",
+        "ruleBookAuthor": "",
+        "ruleBookContent": "class.read-section jsChapterWrapper@html",
+        "ruleBookName": "",
+        "ruleChapterList": "class.chapter-li jsChapter",
+        "ruleChapterName": "tag.a@text",
+        "ruleChapterUrl": "class.book-meta book-status@tag.a.0@href",
+        "ruleChapterUrlNext": "",
+        "ruleContentUrl": "tag.a@href",
+        "ruleContentUrlNext": "",
+        "ruleCoverUrl": "",
+        "ruleFindUrl": "点击榜::https://m.aaread.club/rank?tab=rank-click&amp;type=click&amp;&amp;新书榜::https://m.aaread.club/rank?tab=rank-newbook&amp;type=newbook&amp;&amp;玄幻仙侠::https://m.aaread.club/category/%E7%8E%84%E5%B9%BB%E4%BB%99%E4%BE%A0&amp;&amp;历史古典::https://m.aaread.club/category/%E5%8E%86%E5%8F%B2%E5%8F%A4%E5%85%B8&amp;&amp;惊悚灵异::https://m.aaread.club/category/%E6%83%8A%E6%82%9A%E7%81%B5%E5%BC%82&amp;&amp;穿越同人::https://m.aaread.club/category/%E7%A9%BF%E8%B6%8A%E5%90%8C%E4%BA%BA&amp;&amp;生活都市::https://m.aaread.club/category/%E7%94%9F%E6%B4%BB%E9%83%BD%E5%B8%82&amp;&amp;耽美女尊::https://m.aaread.club/category/%E8%80%BD%E7%BE%8E%E5%A5%B3%E5%B0%8A&amp;&amp;言情校园::https://m.aaread.club/category/%E8%A8%80%E6%83%85%E6%A0%A1%E5%9B%AD&amp;&amp;官场职场::https://m.aaread.club/category/%E5%AE%98%E5%9C%BA%E8%81%8C%E5%9C%BA&amp;&amp;",
+        "ruleIntroduce": "id.bookSummary@tag.content@text",
+        "ruleSearchAuthor": "class.book-author@text",
+        "ruleSearchCoverUrl": "tag.img@src",
+        "ruleSearchIntroduce": "",
+        "ruleSearchKind": "tag.em.0@text&amp;&amp;tag.em.1@text&amp;&amp;tag.em.2@text&amp;&amp;",
+        "ruleSearchLastChapter": "",
+        "ruleSearchList": "class.book-li",
+        "ruleSearchName": "tag.h4@text",
+        "ruleSearchNoteUrl": "tag.a.0@href",
+        "ruleSearchUrl": "https://m.aaread.club/search?kw=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

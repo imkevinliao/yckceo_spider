@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍺特优",
+        "bookSourceName": "🍺 69中文网②",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.69zw.com/",
+        "customOrder": 3,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/list/1_{{page}}.html\n修真::/list/2_{{page}}.html\n都市::/list/3_{{page}}.html\n历史::/list/4_{{page}}.html\n网游::/list/5_{{page}}.html\n科幻::/list/6_{{page}}.html\n恐怖::/list/7_{{page}}.html\n其他::/list/8_{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1619273927691,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.info@tag.p.0@text##.*：",
+            "coverUrl": "class.bookinfo@tag.td@img@src",
+            "intro": "class.intro@text",
+            "kind": "class.info@tag.p.1@text##.*：",
+            "lastChapter": "class.info@tag.p.4@text",
+            "name": "h1@text",
+            "tocUrl": "class.book-op@tag.td.1@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html##.*69zw.*|手机用户.*m.69zw.com阅读.*|更优质的阅读体验|一秒记住.*|为您提供精彩小说.*|本章未完.*",
+            "nextContentUrl": "id.pb_next@href"
+        },
+        "ruleExplore": {
+            "author": "tag.td@class.mr15@text",
+            "bookList": "class.list-item@tag.tbody@tag.tr",
+            "bookUrl": "tag.td@tag.a.0@href",
+            "coverUrl": "tag.td@img@src",
+            "intro": "tag.td@tag.a.1@text",
+            "name": "tag.td@tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td@class.article@class.mr15@text",
+            "bookList": "tag.table@class.list-item",
+            "bookUrl": "tag.td@class.article@tag.a.0@href",
+            "coverUrl": "tag.tr@tag.td@img@src",
+            "intro": "tag.td@class.article@tag.a.1@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.td@class.article@tag.a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.alllist@tag.li!0",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a.0@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.69zw.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\"charset\":\"gbk\"}",
+        "weight": 0
+    }
+]

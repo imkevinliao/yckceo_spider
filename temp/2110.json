@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "关耳",
+        "bookSourceGroup": "🏮",
+        "bookSourceName": "宙斯小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.zhousixs.com",
+        "customOrder": -117559,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻奇幻::https://m.zhousixs.com/xuanhuan/{{page}}.html&&武侠仙侠::https://m.zhousixs.com/wuxia/{{page}}.html&&都市生活::https://m.zhousixs.com/dushi/{{page}}.html&&历史军事::https://m.zhousixs.com/lishi/{{page}}.html&&游戏竞技::https://m.zhousixs.com/youxi/{{page}}.html&&科幻未来::https://m.zhousixs.com/kehuan/{{page}}.html&&恐怖悬疑::https://m.zhousixs.com/xuanyi/{{page}}.html&&二次元::https://m.zhousixs.com/erciyuan/{{page}}.html&&经典网文::https://m.zhousixs.com/jingdian/{{page}}.html&&古代言情::https://m.zhousixs.com/guyan/{{page}}.html&&现代言情::https://m.zhousixs.com/xianyan/{{page}}.html&&幻想奇缘::https://m.zhousixs.com/huanqing/{{page}}.html&&青春校园::https://m.zhousixs.com/qingchun/{{page}}.html&&网络情缘::https://m.zhousixs.com/wangluo/{{page}}.html&&科幻空间::https://m.zhousixs.com/mmkehuan/{{page}}.html&&鬼怪灵异::https://m.zhousixs.com/lingyi/{{page}}.html&&N次元::https://m.zhousixs.com/Nciyuan/{{page}}.html&&言情美文::https://m.zhousixs.com/yanqing/{{page}}.html&&",
+        "lastUpdateTime": 1615202120487,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "//span[text()='开始阅读']/../@href"
+        },
+        "ruleContent": {
+            "content": "//*[@id='content']##喜欢.*?最快。",
+            "imageStyle": "0",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.data.0@tag.a.0@text",
+            "bookList": "class.list@li",
+            "bookUrl": "tag.a.0@href##^##https://www.zhousixs.com",
+            "coverUrl": "img@src",
+            "intro": "class.intro@text",
+            "kind": "class.data.0@span@text",
+            "lastChapter": "class.data.1@a@text",
+            "name": "class.bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

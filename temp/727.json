@@ -1,0 +1,30 @@
+[
+    {
+        "bookSourceGroup": "saberyz修复",
+        "bookSourceName": "一品中文",
+        "bookSourceUrl": "http://www.epzw.com",
+        "enable": true,
+        "loginUrl": "",
+        "ruleBookAuthor": "class.author@text作者.",
+        "ruleBookContent": "id.content@html",
+        "ruleBookKind": "class.topmenu chaptermenu@tag.a.1@text",
+        "ruleBookLastChapter": "class.p4.2@tag.a@text",
+        "ruleBookName": "class.p1.1@tag.h1@text",
+        "ruleBookUrlPattern": "",
+        "ruleChapterList": "class.chapterlist.1@li",
+        "ruleChapterName": "tag.a@text",
+        "ruleContentUrl": "tag.a@href",
+        "ruleCoverUrl": "tag.img.3@src",
+        "ruleFindUrl": "",
+        "ruleIntroduce": "class.p3@text",
+        "ruleSearchAuthor": "class.s4@text",
+        "ruleSearchKind": "class.s1@text##\\[|\\]",
+        "ruleSearchLastChapter": "class.s3@text",
+        "ruleSearchList": "class.banner@tag.ul",
+        "ruleSearchName": "class.s2@text",
+        "ruleSearchNoteUrl": "class.s2@a@href",
+        "ruleSearchUrl": "http://www.epzw.com/search.php?keyword=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

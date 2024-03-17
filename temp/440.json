@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "恆制作",
+        "bookSourceGroup": "小说",
+        "bookSourceName": "奇书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.kankezw.com",
+        "customOrder": -88951467,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1649308024851,
+        "respondTime": 23395,
+        "ruleBookInfo": {
+            "author": "class.infotype@tag.p.0@text",
+            "coverUrl": "img.0@src",
+            "init": "",
+            "intro": "class.intro@tag.p@html",
+            "kind": "class.infotype@tag.p.1@text##类型：",
+            "lastChapter": "class.infotype@tag.p.-1@text##最新章节：",
+            "name": "class.cataloginfo@tag.h3@text",
+            "wordCount": "class.infotype@tag.p.-2@text"
+        },
+        "ruleContent": {
+            "content": "#novelcontent@textNodes##{{chapter.title}}.*",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\（本章未完\\，请点击下一页继续阅读\\）"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.sone[0:19]",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.a@href\n<js>\njava.ajax('https://m.kankezw.com'+result)\n</js>\nimg.0@src",
+            "intro": "tag.a@href\n<js>\njava.ajax('https://m.kankezw.com'+result)\n</js>\nclass.intro@tag.p@html",
+            "kind": "",
+            "name": "tag.a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "class.list_xm.-1@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "li@tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

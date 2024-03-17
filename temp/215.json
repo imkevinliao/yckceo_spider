@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "by·holzora\ntips:\n需要加速器才能正常访问。\n\n感谢joer的发现页js",
+        "bookSourceGroup": "日文轻小说",
+        "bookSourceName": "ノクターンノベルズ",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://noc.syosetu.com/top/top/",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{'title':'每日','url':'https://noc.syosetu.com/rank/list/type/daily_total/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'每周','url':'https://noc.syosetu.com/rank/list/type/weekly_total/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'每月','url':'https://noc.syosetu.com/rank/list/type/monthly_total/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'每年','url':'https://noc.syosetu.com/rank/list/type/yearly_total/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}}]",
+        "header": "{\"Cookie\":\"over18=yes\"}",
+        "lastUpdateTime": 1657048597468,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.novel_writername@tag.a@text",
+            "init": "",
+            "intro": "id.novel_ex@all",
+            "lastChapter": "class.novel_sublist2.-1@tag.a@text&&\nclass.long_update.-1@text",
+            "name": "class.novel_title@text"
+        },
+        "ruleContent": {
+            "content": "id.novel_honbun@all",
+            "nextContentUrl": "class.novel_bn@tag.a.0@href"
+        },
+        "ruleExplore": {
+            "author": "class.name@text##作者：",
+            "bookList": "class.ranking_inbox@.rank_h, .rank_table\n<js>\nvar elements = []\nresult = Array.from(result)\nfor (let i = 0; i < result.length; i += 2) {\n  var div = org.jsoup.nodes.Element('div')\n  result.slice(i, i + 2).forEach(e => e.appendTo(div))\n  elements.push(div)\n}\nelements\n</js>",
+            "bookUrl": "class.tl@href",
+            "intro": ".ex@text",
+            "kind": ".rank_table .left@text##.*pt|中|\\(全.*部分\\)|済",
+            "name": "class.tl@text",
+            "wordCount": ".rank_table span.marginleft@text##文"
+        },
+        "ruleSearch": {
+            "author": "text##.*作者：|／小説情報.*",
+            "bookList": "class.searchkekka_box",
+            "bookUrl": "class.tl@href",
+            "intro": "class.ex@all",
+            "kind": "class.left@text##中|\\(全.*部分\\)|済",
+            "name": "class.tl@text",
+            "wordCount": "tag.td@class.marginleft.0@text##読了時間：約.*分（|文|）"
+        },
+        "ruleToc": {
+            "chapterList": "class.novel_sublist2",
+            "chapterName": "class.subtitle@tag.a@text",
+            "chapterUrl": "class.subtitle@tag.a@href",
+            "isVolume": "",
+            "updateTime": "class.long_update@text"
+        },
+        "searchUrl": "https://noc.syosetu.com/search/search/search.php?word={{key}}&notword=&type=&mintime=&maxtime=&minlen=&maxlen=&min_globalpoint=&max_globalpoint=&minlastup=&maxlastup=&minfirstup=&maxfirstup=&order=new",
+        "weight": 0
+    }
+]

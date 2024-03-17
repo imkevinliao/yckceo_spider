@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔞,耽美",
+        "bookSourceName": "耽美肉文(修复段落错位)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://danmeirouwen.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "快穿::http://danmeirouwen.com/tag/1/p_{{page}}.html\n美攻::http://danmeirouwen.com/tag/2/p_{{page}}.html\n肉文::http://danmeirouwen.com/tag/3/p_{{page}}.html\n年下::http://danmeirouwen.com/tag/4/p_{{page}}.html\n年上::http://danmeirouwen.com/tag/5/p_{{page}}.html\n生子::http://danmeirouwen.com/tag/6/p_{{page}}.html\n人受::http://danmeirouwen.com/tag/7/p_{{page}}.html\n强强::http://danmeirouwen.com/tag/8/p_{{page}}.html\n穿越::http://danmeirouwen.com/tag/9/p_{{page}}.html\n双性::http://danmeirouwen.com/tag/10/p_{{page}}.html\n强受::http://danmeirouwen.com/tag/11/p_{{page}}.html\nABO::http://danmeirouwen.com/tag/12/p_{{page}}.html\n重生::http://danmeirouwen.com/tag/13/p_{{page}}.html\nHP::http://danmeirouwen.com/tag/14/p_{{page}}.html\n虐文::http://danmeirouwen.com/tag/15/p_{{page}}.html\n温馨::http://danmeirouwen.com/tag/16/p_{{page}}.html\nNP::http://danmeirouwen.com/tag/17/p_{{page}}.html\n父子::http://danmeirouwen.com/tag/18/p_{{page}}.html\n兄弟::http://danmeirouwen.com/tag/19/p_{{page}}.html\n萌文::http://danmeirouwen.com/tag/20/p_{{page}}.html\nBE::http://danmeirouwen.com/tag/21/p_{{page}}.html\n末世::http://danmeirouwen.com/tag/22/p_{{page}}.html\n人鱼::http://danmeirouwen.com/tag/23/p_{{page}}.html\n师生::http://danmeirouwen.com/tag/24/p_{{page}}.html\n网游::http://danmeirouwen.com/tag/25/p_{{page}}.html\n娱乐圈::http://danmeirouwen.com/tag/26/p_{{page}}.html\n高干::http://danmeirouwen.com/tag/27/p_{{page}}.html\n金手指::http://danmeirouwen.com/tag/28/p_{{page}}.html\n反攻::http://danmeirouwen.com/tag/29/p_{{page}}.html\n诱受::http://danmeirouwen.com/tag/30/p_{{page}}.html\n种田::http://danmeirouwen.com/tag/31/p_{{page}}.html\nSM::http://danmeirouwen.com/tag/32/p_{{page}}.html\n调教::http://danmeirouwen.com/tag/33/p_{{page}}.html\n1V1::http://danmeirouwen.com/tag/34/p_{{page}}.html\npovip::http://danmeirouwen.com/tag/35/p_{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\",   \"Accept-Language\":\"zh-CN,zh;q=0.9\"}",
+        "lastUpdateTime": 1636776284182,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".infotype@tag.a@text",
+            "init": "",
+            "intro": ".intro@tag.p@text",
+            "kind": ".infotype@tag.p.1@text##类型：",
+            "lastChapter": ".list_xm@tag.li.0@tag.a@text",
+            "name": ".cataloginfo@tag.h3@text",
+            "tocUrl": ".infolink@tag.li.1@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "@js:\neval(function(p,a,c,k,e,r){e=function(c){return c.toString(36)};if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[3-9a-cfhjlnoqs-v]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\\\b'+e(c)+'\\\\b','g'),k[c]);return p}('4={8:[],6:f.getElements(\".articlecontent@p\").toArray(),h:j(m,i){7 k=l.n((i+1)%5.9);k=l.n(m-k);return k},o:j(){5.9=3.q(/9=(\\\\d+)/)[1];7 e=String(f.base64Decode(3.q(/name=\"client\" 4=\"(\\\\S+)\"/)[1])).split(/[A-Z]+%/);for(7 i=0;i<e.length;i++){7 k=5.h(e[i],i);5.8[k]=5.6[i]}}};s(a.t(\"_\")==-1){3=4.6.b(\"<c>\")}u s(Number(a[(a.t(\"_\")+1)])%2!=0){3=4.6.b(\"<c>\")}u{4.o();3=4.8.b(\"<c>\")}3=3.v(/本章尚未完结,请点击下一页继续阅读\\\\S+/g,\"\");3=3.v(/本章已阅读完毕\\\\(请点击下一章继续阅读\\\\!\\\\)/g,\"\");',[],32,'|||result|content|this|childNodes|var|childNode|code|baseUrl|join|br|||java||UpWz||function||Math||ceil|load||match||if|indexOf|else|replace'.split('|'),0,{}))",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text",
+            "bookList": "#list_ul@tag.li",
+            "bookUrl": "tag.a.1@href",
+            "intro": "",
+            "kind": "tag.a.0@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleSearch": {
+            "author": ".author@tag.a@text",
+            "bookList": ".sone",
+            "bookUrl": "tag.a.0@href",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": ".pages@tag.a.0@href"
+        },
+        "searchUrl": "http://danmeirouwen.com/s.html,{\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+        "weight": 0
+    }
+]

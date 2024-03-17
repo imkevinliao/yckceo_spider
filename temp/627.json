@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "搜索间隔为10秒",
+        "bookSourceGroup": "🎉 精品",
+        "bookSourceName": "🎉 御书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yushubo.com",
+        "customOrder": -296402,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\": \"男连榜单\",\"url\":\"\",\"style\": {\"layout_flexBasisPercent\":1}},\n{\"title\": \"更新时间\",\"url\":\"/all/id/52/serialize/0/order/update_time+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"添加时间\",\"url\":\"/all/id/52/serialize/0/order/id+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"日人气榜\",\"url\":\"/all/id/52/serialize/0/order/hits_day+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"周人气榜\",\"url\":\"/all/id/52/serialize/0/order/hits_week+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"月人气榜\",\"url\":\"/all/id/52/serialize/0/order/hits_month+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"总人气榜\",\"url\":\"/all/id/52/serialize/0/order/update_time+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"女连榜单\",\"url\":\"\",\"style\": {\"layout_flexBasisPercent\":1}},\n{\"title\": \"更新时间\",\"url\":\"/all/id/54/serialize/0/order/update_time+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"添加时间\",\"url\":\"/all/id/54/serialize/0/order/id+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"日人气榜\",\"url\":\"/all/id/54/serialize/0/order/hits_day+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"周人气榜\",\"url\":\"/all/id/54/serialize/0/order/hits_week+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"月人气榜\",\"url\":\"/all/id/54/serialize/0/order/hits_month+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"总人气榜\",\"url\":\"/all/id/54/serialize/0/order/update_time+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"男完榜单\",\"url\":\"\",\"style\": {\"layout_flexBasisPercent\":1}},\n{\"title\": \"更新时间\",\"url\":\"/all/id/52/serialize/1/order/update_time+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"添加时间\",\"url\":\"/all/id/52/serialize/1/order/id+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"日人气榜\",\"url\":\"/all/id/52/serialize/1/order/hits_day+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"周人气榜\",\"url\":\"/all/id/52/serialize/1/order/hits_week+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"月人气榜\",\"url\":\"/all/id/52/serialize/1/order/hits_month+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"总人气榜\",\"url\":\"/all/id/52/serialize/1/order/update_time+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"女完榜单\",\"url\":\"\",\"style\": {\"layout_flexBasisPercent\":1}},\n{\"title\": \"更新时间\",\"url\":\"/all/id/54/serialize/1/order/update_time+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"添加时间\",\"url\":\"/all/id/54/serialize/1/order/id+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"日人气榜\",\"url\":\"/all/id/54/serialize/1/order/hits_day+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"周人气榜\",\"url\":\"/all/id/54/serialize/1/order/hits_week+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"月人气榜\",\"url\":\"/all/id/54/serialize/1/order/hits_month+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"总人气榜\",\"url\":\"/all/id/54/serialize/1/order/update_time+desc.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"男生连载\",\"url\":\"\",\"style\": {\"layout_flexBasisPercent\":1}},\n{\"title\": \"玄幻奇幻\",\"url\":\"/all/serialize/0/id/55.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"武侠修真\",\"url\":\"/all/serialize/0/id/57.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"都市异能\",\"url\":\"/all/serialize/0/id/59.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"历史军事\",\"url\":\"/all/serialize/0/id/61.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"游戏竞技\",\"url\":\"/all/serialize/0/id/63.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"科幻灭世\",\"url\":\"/all/serialize/0/id/65.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"灵异悬疑\",\"url\":\"/all/serialize/0/id/66.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"轻の小说\",\"url\":\"/all/serialize/0/id/60.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"女生连载\",\"url\":\"\",\"style\": {\"layout_flexBasisPercent\":1}},\n{\"title\": \"现代言情\",\"url\":\"/all/serialize/0/id/67.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"古代言情\",\"url\":\"/all/serialize/0/id/68.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"幻想言情\",\"url\":\"/all/serialize/0/id/69.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"青春校园\",\"url\":\"/all/serialize/0/id/70.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"同人作品\",\"url\":\"/all/serialize/0/id/71.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"惊悚恐怖\",\"url\":\"/all/serialize/0/id/72.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"次元专区\",\"url\":\"/all/serialize/0/id/73.html?page={{page}}\",\"style\": {\"layout_flexBasisPercent\":0.3}},\n{\"title\": \"男生完本\",\"url\":\"\",\"style\": {\"layout_flexBasisPercent\":1}},\n{\"title\": \"玄幻奇幻\",\"url\":\"/all/serialize/1/id/55.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"武侠修真\",\"url\":\"/all/serialize/1/id/57.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"都市异能\",\"url\":\"/all/serialize/1/id/59.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"历史军事\",\"url\":\"/all/serialize/1/id/61.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"游戏竞技\",\"url\":\"/all/serialize/1/id/63.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"科幻灭世\",\"url\":\"/all/serialize/1/id/65.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"灵异悬疑\",\"url\":\"/all/serialize/1/id/66.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"轻の小说\",\"url\":\"/all/serialize/1/id/60.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"女生完本\",\"url\":\"\",\"style\": {\"layout_flexBasisPercent\":1}},\n{\"title\": \"现代言情\",\"url\":\"/all/serialize/1/id/67.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"古代言情\",\"url\":\"/all/serialize/1/id/68.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"幻想言情\",\"url\":\"/all/serialize/1/id/69.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"青春校园\",\"url\":\"/all/serialize/1/id/70.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"同人作品\",\"url\":\"/all/serialize/1/id/71.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"惊悚恐怖\",\"url\":\"/all/serialize/1/id/72.html?page={{page}}\",\"style\": {\"layout_flexGrow\":1}},\n{\"title\": \"次元专区\",\"url\":\"/all/serialize/1/id/73.html?page={{page}}\",\"style\": {\"layout_flexBasisPercent\":0.3}}\n]",
+        "lastUpdateTime": 1633346122005,
+        "loginUrl": "",
+        "respondTime": 10451,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": ".book-intro@html",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ".catalogbtn@href",
+            "wordCount": "##字数.([^<]+)<##$1###"
+        },
+        "ruleContent": {
+            "content": "#BookText@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "p.0@textNodes",
+            "bookList": ".item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@src",
+            "intro": "p.1@textNodes",
+            "kind": "span.0@text&&p.2@textNodes##\\s.*",
+            "lastChapter": "a.2@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html,{\n  'method': 'POST',\n  'body': 'ss={{key}}'\n}",
+        "weight": 0
+    }
+]

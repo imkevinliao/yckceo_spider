@@ -1,0 +1,36 @@
+[
+    {
+        "bookSourceName": "鬼故事",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.guiguaiwu.com/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "短篇鬼故事::/html/dpggs_1529.html\n长篇鬼故事::/html/cpggs_1528.html\n校园鬼故事::/html/xyggs_1527.html\n医院鬼故事::/html/yyggs_1526.html\n民间鬼故事::/html/mjggs_1525.html\n家里鬼故事::/html/jlggs_1524.html\n真实灵异事件::/html/zslysj_1523.html",
+        "lastUpdateTime": 1698205590898,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "name": "class.content_box whitebg@h1@text"
+        },
+        "ruleContent": {
+            "content": "class.content_box whitebg@html",
+            "replaceRegex": "##上一篇：.*|下一篇：没有了|您现在的位置是：.*|<img src.*|Tags：.*"
+        },
+        "ruleExplore": {
+            "author": "span.0@text",
+            "bookList": "class.whitebg bloglist@ul@li",
+            "bookUrl": "a.0@href",
+            "intro": "p.0@text",
+            "kind": "a.1@text",
+            "name": "h3@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "class.content_box whitebg",
+            "chapterName": "class.con_tilte@text"
+        },
+        "weight": 0
+    }
+]

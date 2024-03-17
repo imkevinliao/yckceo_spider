@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "顶点小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ddyueshu.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::https://www.ddyueshu.com/\n玄幻::https://www.ddyueshu.com/xuanhuanxiaoshuo/\n修真::https://www.ddyueshu.com/xiuzhenxiaoshuo/\n都市::https://www.ddyueshu.com/dushixiaoshuo/\n穿越::https://www.ddyueshu.com/chuanyuexiaoshuo/\n网游::https://www.ddyueshu.com/wangyouxiaoshuo/\n科幻::https://www.ddyueshu.com/kehuanxiaoshuo/\n全部::https://www.ddyueshu.com/xiaoshuodaquan/",
+        "lastUpdateTime": 1652110334232,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "class.tag@class.blue@text",
+            "lastChapter": "class.update-text@text",
+            "name": "id.info@tag.h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.content@all##请记住本书首发域名：ddyueshu.com。顶点小说手机版阅读网址：m.ddyueshu.com",
+            "nextContentUrl": "class.bottem1@tag.a.2@href"
+        },
+        "ruleExplore": {
+            "bookList": "tag.li.!0:1:2:3:4:5:6:7:8:9",
+            "bookUrl": "tag.a@href",
+            "name": "tag.a@text"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "tag.li.!0:1:2:3:4:5:6:7:8:9",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "",
+            "name": "tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "tag.dl@tag.dd.!0:1:2:3:4:5",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.ddyueshu.com/xiaoshuodaquan/",
+        "weight": 0
+    }
+]

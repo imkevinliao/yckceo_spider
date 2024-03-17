@@ -1,0 +1,22 @@
+[
+    {
+        "bookSourceName": "极品小说",
+        "bookSourceUrl": "https://www.jipinzw.cc",
+        "ruleSearchUrl": "/plus/search.php?kwtype=0&searchtype=&q=searchKey",
+        "ruleSearchList": ".container@class.so new",
+        "ruleSearchName": "h2@text",
+        "ruleSearchAuthor": ".infos@tag.span.0@a@text",
+        "ruleSearchKind": ".infos@tag.span.-2@text&&.infos@tag.span.-3@text##状态：|类别：",
+        "ruleSearchIntroduce": "p@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleChapterList": ".book_list@ul@li@a",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleBookContent": ".contentbox@textNodes",
+        "ruleContentUrlNext": ".next@href",
+        "serialNumber": 0,
+        "weight": 0,
+        "enable": true
+    }
+]

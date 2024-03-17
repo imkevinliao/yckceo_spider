@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🎉 正常,☣️senhora",
+        "bookSourceName": "🎉 梦幻小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.pan5.net",
+        "bookUrlPattern": "",
+        "customOrder": 87,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1683264090584,
+        "loginUrl": "",
+        "respondTime": 2212,
+        "ruleBookInfo": {
+            "author": "class.author fl@text",
+            "coverUrl": "class.pic fl@tag.img@src",
+            "intro": "class.brief_text@text##内容介绍.|阅读.*",
+            "kind": "class.tags clearfixer@text",
+            "lastChapter": "class.chaptername fl@tag.a.0@text",
+            "name": "class.name fl@text",
+            "tocUrl": "class.tab fl j-content-tab@tag.a.1@href",
+            "wordCount": "class.hits@tag.span.0@text"
+        },
+        "ruleContent": {
+            "content": "@js:\nlist=java.getElements(\"@@id.txt@dd\").toArray().sort((a,b)=>a.attr(\"data-id\")-b.attr(\"data-id\"));\nlist.join('\\n')",
+            "replaceRegex": "##阅读.*最新章节.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a.2@text",
+            "bookList": "class.secd-rank-list",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "kind": "tag.a.3@text",
+            "lastChapter": "tag.p.-1@text##最近更新|更新",
+            "name": "tag.a.1@text",
+            "wordCount": "class.clicknum@text##总字数"
+        },
+        "ruleToc": {
+            "chapterList": "id.listsss@ul@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.pan5.net/search.php?key={{key}}",
+        "weight": 0
+    }
+]

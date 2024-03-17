@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自用",
+        "bookSourceName": "五毛",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.5mzw.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36\"}",
+        "lastUpdateTime": 1635766315149,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.bq@tag.span.1@tag.a@text",
+            "coverUrl": "class.catalog1@tag.img@src",
+            "intro": "class.jj@text",
+            "kind": "class.bq@tag.span.2@tag.a@text##状态：",
+            "lastChapter": "class.lastchapter@tag.a@text",
+            "name": "class.introduce@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "class.novelcontent@html",
+            "imageStyle": "FULL",
+            "nextContentUrl": "class.nr_page@tag.a.3@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.grid.0@tag.tr.!0",
+            "bookUrl": "class.odd.0@tag.a@href",
+            "checkKeyWord": "",
+            "kind": "class.even.2@text",
+            "lastChapter": "class.even.0@tag.a@text",
+            "name": "class.odd.0@tag.a@text",
+            "wordCount": "class.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.ml_list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.5mzw.net/modules/article/search.php,{\n\t\"charset\":\"gbk\",\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n\t\n\t}",
+        "weight": 0
+    }
+]

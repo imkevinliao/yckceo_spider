@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "坏蛋小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.huaidan1.com",
+        "customOrder": -88962621,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "坏蛋1-4全集::https://www.huaidan1.com/huaidan/\n黑道小说::https://www.huaidan1.com/book/<,index_{{page}}.html>\n其它小说::https://www.huaidan1.com/Other/<,index_{{page}}.html>",
+        "lastUpdateTime": 1651320002384,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#content@p!0@text"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "td.1@text",
+            "bookList": "tbody@tr",
+            "bookUrl": "a@href",
+            "name": "a.0@text",
+            "wordCount": "td.2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".m-book-list@ul@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/e/search/index.php,{\n'charset': '',\n'method': 'POST',\n'body': 'tbname=bookname&show=title,writer&tempid=1&keyboard={{key}}'\n}",
+        "weight": 0
+    }
+]

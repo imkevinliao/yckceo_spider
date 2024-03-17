@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☣️精选senhora,⛎JJ城",
+        "bookSourceName": "缀舒阅读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.avqc.com.cn",
+        "bookUrlPattern": "https://www.avqc.com.cn/wap_info/\\d+/\\d+/",
+        "customOrder": -2086087815,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1691495088061,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book_info@class.p2@a@text",
+            "coverUrl": "class.book_info@class.left@img@src",
+            "intro": "class.box2.0@html",
+            "kind": "",
+            "lastChapter": "class.book_info@class.p3@a@textNodes",
+            "name": "class.book_info@class.p1@text",
+            "tocUrl": "text.目录@href",
+            "wordCount": "class.book_info@class.p4@text##最后更新："
+        },
+        "ruleContent": {
+            "content": "class.neirong@textNodes@js:result+'↔'",
+            "nextContentUrl": "text.下一篇@href",
+            "replaceRegex": "##\\s*↔\\s*|\\/>"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "bookList": ".box@ul@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "不是美强惨",
+            "kind": ".left@text",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.box@ul@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option@value!0"
+        },
+        "searchUrl": "/index.php?do=wap_sea&so=yes&name={{key}}",
+        "weight": 0
+    }
+]

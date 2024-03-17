@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "百书楼",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bsl666.com",
+        "customOrder": -134698,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1624519214929,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "#content@html##天才一秒.*|http://www.bsl666.com/xs/.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": "class.bookbox",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": ".update@a@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".listmain dt:nth-of-type(2) ~ dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.bsl666.com/s.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

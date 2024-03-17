@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "UAA漫画",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://www.uaa.com/app",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "最近更新::https://api.uaa.com/comic/app/comic/search?orderType=2&page={{page}}&size=25\n最多观看::https://api.uaa.com/comic/app/comic/search?orderType=3&page={{page}}&size=25\n最多收藏::https://api.uaa.com/comic/app/comic/search?orderType=4&page={{page}}&size=25\n上架时间::https://api.uaa.com/comic/app/comic/search?orderType=1&page={{page}}&size=25\n韩漫::https://api.uaa.com/comic/app/comic/search?page={{page}}&size=30&keyword=&origin=2&orderType=1&color=2\n剧情::https://api.uaa.com/comic/app/comic/search?page={{page}}&size=30&category=%E5%89%A7%E6%83%85&orderType=3&color=2\n奇幻::https://api.uaa.com/comic/app/comic/search?page={{page}}&size=30&category=%E5%A5%87%E5%B9%BB&orderType=3&color=2",
+        "header": "",
+        "lastUpdateTime": 1676889743210,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "$.model.images[*]\n@js:\nlist=result.split(\"\\n\");\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+'\">';\n}\nhtml\n",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.authors",
+            "bookList": "$.model.data",
+            "bookUrl": "$.id@js:\"https://api.uaa.com/comic/app/comic/catalog/\"+result",
+            "coverUrl": "$.coverUrl",
+            "intro": "$.brief",
+            "kind": "$.categories",
+            "name": "$.title",
+            "wordCount": "$.wordCount"
+        },
+        "ruleToc": {
+            "chapterList": "$.model.menus..children.*||$.model.menus",
+            "chapterName": "$.title",
+            "chapterUrl": "https://api.uaa.com/comic/app/comic/chapter?id={{$.id}}&offset=0&viewId=16758385134915627"
+        },
+        "searchUrl": "https://api.uaa.com/comic/app/comic/search?page={{page}}&size=30&keyword={{key}}&orderType=3",
+        "weight": 0
+    }
+]

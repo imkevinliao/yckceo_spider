@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "//地址1：https://www.youliaoxs.com\n//地址2：https://www.youyoukanshu.com",
+        "bookSourceGroup": "⭐自制",
+        "bookSourceName": "⭐呦呦看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.youliaoxs.com",
+        "bookUrlPattern": "https://www.youliaoxs.com/book/\\d+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1682045879221,
+        "loginUrl": "",
+        "respondTime": 8738,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "//*[@property=\"og:title\"]/@content",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".text-muted.0@text##作者：",
+            "bookList": ".col-12",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".list-group-item a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?search={{key}},{\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

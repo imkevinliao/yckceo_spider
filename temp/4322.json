@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "搜索间隔10s",
+        "bookSourceGroup": "🚬 刘备",
+        "bookSourceName": "🚬 OK小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ok120.net",
+        "customOrder": 1282,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "header": "{\n\t\"User-Agents\": \"Mozilla/5.0 (Linux; Android 13; Z832 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.92 Mobile Safari/537.36\",\n \"Referer\": \"{{baseUrl}}\"\n}",
+        "lastUpdateTime": 1698220074250,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "body > div.books > div.book_info > div.book_box > dl > dd:nth-child(2) > span:nth-child(2)@text##分类：",
+            "lastChapter": "body > div.books > div.book_last > dl > dd:nth-child(2) > a@text",
+            "tocUrl": "body > div.books > div.book_more > a@href",
+            "wordCount": "body > div.books > div.book_info > div.book_box > dl > dd:nth-child(3) > span:nth-child(2)@text##字数："
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes",
+            "nextContentUrl": "text.下一章@href",
+            "replaceRegex": "##\\n.*https?.*\\n　　|^第.*章$##"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dl > dt > span@text",
+            "bookList": "body > div.wrap > div > div > div[0:9]",
+            "bookUrl": "div > a@href",
+            "coverUrl": "div > a > img@src",
+            "intro": "dl > dd@text",
+            "lastChapter": "",
+            "name": "dl > dt > a@text"
+        },
+        "ruleToc": {
+            "chapterList": "body > div.book_last > dl > dd!0",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/s?q={{key}},{\"webView\": true}",
+        "weight": 0
+    }
+]

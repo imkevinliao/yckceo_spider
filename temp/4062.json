@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "天天的鸟蛋蛋",
+        "bookSourceGroup": "修复，天天",
+        "bookSourceName": "请看小说(天天修复) ",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.qingkanshu.net",
+        "customOrder": 9,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "{\"title\":\"玄幻\",\"url\":\"/xuanhuan/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/wuxia/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"言情\",\"url\":\"/yanqing/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/lishi/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"网游\",\"url\":\"/wangyou/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/kehuan/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"恐怖\",\"url\":\"/kongbu/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"排行榜\",\"url\":\"/top/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"全本\",\"url\":\"/quanben/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1694520938986,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##\\s\\d.*",
+            "lastChapter": "[property$=latest_chapter_name]@content##正文卷.|正文.|VIP章节.|免费章节.|VIP卷.|默认卷.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加].*?[】）\\)]",
+            "name": "[property$=book_name]@content",
+            "wordCount": "##字数[:：]([^<]+)<##$1###"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes",
+            "nextContentUrl": "text.下一@href",
+            "sourceRegex": "##\\(第.+页\\)|{{chapter.title}}"
+        },
+        "ruleExplore": {
+            "author": "dt@span@text",
+            "bookList": ".item",
+            "bookUrl": "dt@a@href",
+            "coverUrl": "img@src",
+            "intro": "dd@text",
+            "name": "dt@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": "h4@a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": ".cat@text##.*：",
+            "lastChapter": ".update@a@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".book_last@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/iofhvidoshgdsi.php?ie=gbk&s=5256649918672294880&q={{key}},{\n  \"charset\": \"GBK\",\n  \"method\": \"GET\"\n}",
+        "weight": 0
+    }
+]

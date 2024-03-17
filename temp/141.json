@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceComment": "言情小说多",
+        "bookSourceGroup": "女频",
+        "bookSourceName": "香网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xiang5.com",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"穿越\",\"url\":\"/sort/20/201/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"架空\",\"url\":\"/sort/20/202/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"宫斗\",\"url\":\"/sort/21/211/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"宅斗\",\"url\":\"/sort/21/212/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女尊\",\"url\":\"/sort/21/213/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"民国\",\"url\":\"/sort/21/214/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总裁\",\"url\":\"/sort/22/221/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"豪门\",\"url\":\"/sort/22/222/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春\",\"url\":\"/sort/23/231/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"校园\",\"url\":\"/sort/23/232/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/sort/24/241/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/sort/24/242/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/sort/24/244/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/sort/24/245/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"明星\",\"url\":\"/sort/25/251/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"动漫\",\"url\":\"/sort/25/252/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美\",\"url\":\"/sort/26/256/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/sort/27/243/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/sort/27/258/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+        "header": "",
+        "lastUpdateTime": 1660907373859,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "http://pass.xiang5.com/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@tag.a@text",
+            "coverUrl": ".bkdetail_top img@src",
+            "intro": "p.intro_neirong:nth-of-type(1)@text",
+            "kind": "class.lastchapter@tag.a@text",
+            "lastChapter": ".bkdetails_mulu p@text",
+            "name": "h4.tit@text",
+            "tocUrl": "a.mulu@href",
+            "wordCount": "class.type@text\\|"
+        },
+        "ruleContent": {
+            "content": "id.chapcont@textNodes"
+        },
+        "ruleExplore": {
+            "author": "a.3@text",
+            "bookList": ".second_content2_content li",
+            "bookUrl": "a.1@href##www##m",
+            "coverUrl": "img@src",
+            "intro": "p.2@text##\\s",
+            "kind": "a.2@text&&span.2@text&&p.1@a@text##小说|\\s.*",
+            "lastChapter": "a.-2@text",
+            "name": "a.1@text##\\《|\\》",
+            "wordCount": "##字数：</span>([^<]+)<##$1###"
+        },
+        "ruleSearch": {
+            "author": "class.textmiddle@tag.a.1@text",
+            "bookList": "class.textlist",
+            "bookUrl": "class.textmiddle@tag.a.0@href##www##m",
+            "coverUrl": "class.textleft@tag.img@src",
+            "intro": "class.textmiddle@tag.a.-2@text",
+            "kind": "class.textmiddle@tag.a.2@text",
+            "lastChapter": "class.textmiddle@tag.a.-1@text",
+            "name": "class.textmiddle@tag.a.0@text",
+            "wordCount": "span:nth-of-type(4)@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": "class.dir_list@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search.php?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

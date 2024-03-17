@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "评论最多设置了查看回复100条，多了会限制访问，所以超过100条的回复评论不完整",
+        "bookSourceName": "酷安应用评论",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://api.coolapk.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "阅读▪回复::https://api.coolapk.com/v6/page/dataList?url=#/feed/apkCommentList?id=256030&sort=&title=最近回复&page={{page}}&lastItem=\n\n阅读▪发布::https://api.coolapk.com/v6/page/dataList?url=#/feed/apkCommentList?id=256030&sort=dateline_desc&title=最近发布&page={{page}}&lastItem=\n\n阅读▪热度::https://api.coolapk.com/v6/page/dataList?url=#/feed/apkCommentList?id=256030&sort=popular&title=热度排序&page={{page}}&lastItem=",
+        "header": "<js>\nlet TOKEN = 'token://com.coolapk.market/c67ef5943784d09750dcfbb31020f0ab?'\nlet PACKAGE_NAME = 'com.coolapk.market';\nlet DEVICE_ID = String(java.randomUUID());\nlet APP_DEVICE = (length => {\n  let chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'\n  let result = ''\n  for (var i = length; i > 0; --i) {\n    result += chars[Math.floor(Math.random() * chars.length)]\n  }\n  return result\n})(50);\n\n  let t = parseInt(Date.now() / 1000)\n  let hex_t = `0x${t.toString(16)}`\n  let md5_t = java.digestHex(t.toString(), \"md5\")\n  let a = `${TOKEN}${md5_t}$${DEVICE_ID}&${PACKAGE_NAME}`;\n  let md5_a = java.digestHex(String(java.base64Encode(a)),\"md5\")\n  let token = `${md5_a}${DEVICE_ID}${hex_t}`\n\nhead = {\n      'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 10; Pixel 4 XL Build/QQ2A.200405.005) +CookMarket/10.1.2-2004302',\n      'X-Requested-With': 'XMLHttpRequest',\n      'X-Sdk-Int': '29',\n      'X-Sdk-Locale': 'zh-CN',\n      'X-App-Id': 'com.coolapk.market',\n      'X-App-Version': '10.1.2',\n      'X-App-Code': '2004302',\n      'X-App-Token': token,\n      'X-Api-Version': '10',\n      'X-App-Device': APP_DEVICE,\n      'X-Dark-Mode': '0'\n    }\nJSON.stringify(head)\n</js>",
+        "jsLib": "function pad(s) {\n  return s < 10 ? `0${s}` : s\n}\n\nfunction formatDate(timeStamp){\n\tlet diff = (Date.now() - timeStamp * 1000) / 1000\n    if (diff < 60) {\n      return '刚刚'\n    } else if (diff < 3600) {\n      return `${parseInt(diff / 60)}分钟前`\n    } else if (diff < 86400) {\n      return `${parseInt(diff / 3600)}小时前`\n    } else if (diff < 604800) {\n      return `${parseInt(diff / 86400)}天前`\n    } else if (diff < 2592000) {\n      return `${parseInt(diff / 604800)}周前`\n    } else if (diff < 31104000) {\n      return `${parseInt(diff / 2592000)}个月前`\n    } else {\n      let date = new Date(timeStamp * 1000)\n      return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`\n    }\n\t}\n\t\nfunction createReply(item, addPadding) {\n\t  let html = \"\";\n    addPadding?fu = \"▲\":fu=\"\"\n    html += `<br>&lrm;<br>---${fu}${item.username}▪${formatDate(item.dateline)}---<br>`\n    html += `${item.message}`\n    if (item.picArr && item.picArr.length) {\n      item.picArr.filter(it => it).map(it => {\n        html += `<img src=\"${it}\"><br>`\n      })\n    } else if (item.pic) {\n      html += `<img src=\"${item.pic}\"><br>`\n    }\n    return html\n  }",
+        "lastUpdateTime": 1692051696938,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "init": "$.data",
+            "intro": "<p>☼版本号:{{$.version}}</p>\n<p>☉最近更新：{{$.changehistory##\\n.*}}</p>\n<p>☪︎{{$.apksize}}/{{$.downCount}}下载/{{$.followCount}}人关注/{{$.commentCount}}人评论/{{$.language}}</p>\n<br>&lrm;<br>\n<p>📖新版特性📖</p>\n<p>{{$.changelog}}</p>\n<br>&lrm;<br>\n<p>📖应用介绍📖</p>\n{{$.introduce}}\n<js>\nif(/apk\\/detail/.test(baseUrl)){\n\tresult = result\n\t}else{\n\t\tresult = \"\"\n\t\t}\n</js>",
+            "kind": "",
+            "name": "",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nif(!/apk\\/detail/.test(baseUrl)){\n    let id = \"{{$.data.id}}\";\n    let html = \"\"\n    let item = JSON.parse(result).data;\n    let curPage = 1;\n    let lastItem = \"\";\n    let resp2 = JSON.parse(java.ajax(\"https://api.coolapk.com/v6/feed/replyList?id={{$.data.id}}&page=1&lastItem=\"));\n    let replynum5 = item.replynum;\n    replynum5 > 100?replynum5=100:replynum5\n    html += createReply(item)\n    let item_reply = []\n    let totalnum = 0\n    let item2 = resp2.data\n    item_reply = item_reply.concat(item2)\n    while (item2.length && (totalnum = totalnum + item2.length) < replynum5) {\n      curPage = curPage + 1\n      lastItem = item2[item2.length - 1].id\n      resp2 = JSON.parse(java.ajax(`https://api.coolapk.com/v6/feed/replyList?id=${id}&page=${curPage}&lastItem=${lastItem}`))\n      item2 = resp2.data\n      item_reply = item_reply.concat(item2)\n    }\n\n    let grouped_item_reply = {}\n    item_reply.map(item => {\n      if (item.rrid) {\n        grouped_item_reply[item.rrid] = grouped_item_reply[item.rrid] || []\n        grouped_item_reply[item.rrid].push(item)\n      } else {\n        grouped_item_reply[item.id] = grouped_item_reply[item.id] || []\n        grouped_item_reply[item.id].push(item)\n      }\n    })\n    for (key in grouped_item_reply) {\n      grouped_item_reply[key].sort((e1, e2) => {\n        return e1.dateline - e2.dateline\n      }).map(item => html += createReply(item, !!item.rrid))\n    }\n    result = String(html).replace(/<a .*?href=\"([^\"]+)\".*?>([^<]+)<\\/a>/g,'▪$2：$1▪')\n   }else{\n   \tlet html = \"软件地址：\\nhttps://www.coolapk.com/apk/{{$.data.apkname}}\\n\";\n   \t html +=\"---复制下面文字到发现规则可看评论---\\n\"\n   \thtml += \"{{$.data.title}}▪回复::https://api.coolapk.com/v6/page/dataList?url=#/feed/apkCommentList?id={{$.data.id}}&sort=&title=最近回复&page={\\{page}}&lastItem=\\n\"\n\nhtml += \"{{$.data.title}}▪发布::https://api.coolapk.com/v6/page/dataList?url=#/feed/apkCommentList?id=256030&sort=dateline_desc&title=最近发布&page={\\{page}}&lastItem=\\n\"\n\nhtml += \"{{$.data.title}}▪热度::https://api.coolapk.com/v6/page/dataList?url=#/feed/apkCommentList?id={{$.data.id}}&sort=popular&title=热度排序&page={\\{page}}&lastItem=\\n\"\n   \t}\n</js>",
+            "nextContentUrl": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "$.data[*]",
+            "bookUrl": "https://api.coolapk.com/v6/feed/detail?id={{$.id}}",
+            "coverUrl": "$.pic||$.userAvatar",
+            "intro": "$.message##<a .*?href=\"([^\"]+)\".*?>([^<]+)</a>##▪$2：$1▪",
+            "kind": "发布时间:{{formatDate(java.getString(\"$.dateline\"))}}",
+            "name": "$.username",
+            "wordCount": "@js:\nlet num = Number(\"{{$.replynum}}\");\nresult = `${num}回复${(num && '('+formatDate({{$.lastupdate}})+')') || \"\"}`"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.developername",
+            "bookList": "$.data[*]",
+            "bookUrl": "https://api.coolapk.com/v6/apk/detail?id={{$.apkname}}&installed=0",
+            "checkKeyWord": "阅读",
+            "coverUrl": "$.logo",
+            "intro": "$.note",
+            "kind": "{{$.apksize}},下载数：{{$.downCount}},评论：{{$.commentCount}}",
+            "name": "$.origTitle||$.title"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\nif(!/^\\{\"data\":\\[/.test(result)){\n\tresult = \"[\"+result +\"]\";\n\t}\n</js>\n$.[*]",
+            "chapterName": "{{$.data.username||$.data.title}}▪{{java.getString(\"$.data.dateline\")!=\"\"?formatDate(java.getString(\"$.data.dateline\")):\"\"}}##▪$",
+            "chapterUrl": "",
+            "formatJs": "",
+            "nextTocUrl": "",
+            "updateTime": "$.message##</*a.*?>"
+        },
+        "searchUrl": "https://api.coolapk.com/v6/search?type=apk&cat=&sort=default&searchValue={{key}}&page={{page}}&lastItem=",
+        "weight": 0
+    }
+]

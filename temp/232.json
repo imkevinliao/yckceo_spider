@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceGroup": "",
+        "bookSourceName": "E小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.eshu.cc",
+        "bookUrlPattern": "",
+        "customOrder": 299,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"玄幻\",\"url\":\"/fenlei/xuanhuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"武侠\",\"url\":\"/fenlei/wuxia/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市\",\"url\":\"/fenlei/dushi/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"历史\",\"url\":\"/fenlei/lishi/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻\",\"url\":\"/fenlei/kehuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"游戏\",\"url\":\"/fenlei/youxi/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"女生\",\"url\":\"/fenlei/nvsheng/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"其他\",\"url\":\"/fenlei/qita/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"全本\",\"url\":\"/quanben/fenlei/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"总排行\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"月排行\",\"url\":\"/rank/monthvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"周排行\",\"url\":\"/rank/weekvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"收藏榜\",\"url\":\"/rank/goodnum/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "header": "",
+        "lastUpdateTime": 1656133255900,
+        "loginUrl": "",
+        "respondTime": 180912,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content\t",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "#chaptercontent p@text@js:\nString(result) + \"<-下一页->\"",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*<-下一页->\\s*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".btm a@text",
+            "bookList": "#main .hotcontent .item",
+            "bookUrl": "dl dt a@href",
+            "checkKeyWord": "",
+            "coverUrl": ".image img@data-original",
+            "intro": "dd@text",
+            "kind": "em.1@text",
+            "lastChapter": "",
+            "name": "dl dt a@text",
+            "wordCount": "em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dl>dt:nth-of-type(2) ~ a",
+            "chapterName": "dd@text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

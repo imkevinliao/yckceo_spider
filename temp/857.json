@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "📥下载",
+        "bookSourceName": "图畅数字图书馆",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.gxgsxx.net:81",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "马克思主义、列宁主义、毛泽东思想、邓小平理论::http://www.gxgsxx.net:81/Index/clc/clc/A/s1/title/s2/isbn/p/{{page}}\n哲学、宗教::http://www.gxgsxx.net:81/Index/clc/clc/B/s1/title/s2/isbn/p/{{page}}\n社会科学总论::http://www.gxgsxx.net:81/Index/clc/clc/C/s1/title/s2/isbn/p/{{page}}\n政治、法律::http://www.gxgsxx.net:81/Index/clc/clc/D/s1/title/s2/isbn/p/{{page}}\n军事::http://www.gxgsxx.net:81/Index/clc/clc/E/s1/title/s2/isbn/p/{{page}}\n经济::http://www.gxgsxx.net:81/Index/clc/clc/F/s1/title/s2/isbn/p/{{page}}\n文化、科学、教育、体育::http://www.gxgsxx.net:81/Index/clc/clc/G/s1/title/s2/isbn/p/{{page}}\n语言、文字::http://www.gxgsxx.net:81/Index/clc/clc/H/s1/title/s2/isbn/p/{{page}}\n文学::http://www.gxgsxx.net:81/Index/clc/clc/I/s1/title/s2/isbn/p/{{page}}\n艺术::http://www.gxgsxx.net:81/Index/clc/clc/J/s1/title/s2/isbn/p/{{page}}\n历史、地理::http://www.gxgsxx.net:81/Index/clc/clc/K/s1/title/s2/isbn/p/{{page}}\n自然科学总论::http://www.gxgsxx.net:81/Index/clc/clc/N/s1/title/s2/isbn/p/{{page}}\n数理科学和化学::http://www.gxgsxx.net:81/Index/clc/clc/O/s1/title/s2/isbn/p/{{page}}\n天文学、地球科学::http://www.gxgsxx.net:81/Index/clc/clc/P/s1/title/s2/isbn/p/{{page}}\n生物科学::http://www.gxgsxx.net:81/Index/clc/clc/Q/s1/title/s2/isbn/p/{{page}}\n医药、卫生::http://www.gxgsxx.net:81/Index/clc/clc/R/s1/title/s2/isbn/p/{{page}}\n农业科学::http://www.gxgsxx.net:81/Index/clc/clc/S/s1/title/s2/isbn/p/{{page}}\n工业技术::http://www.gxgsxx.net:81/Index/clc/clc/T/s1/title/s2/isbn/p/{{page}}\n交通运输::http://www.gxgsxx.net:81/Index/clc/clc/U/s1/title/s2/isbn/p/{{page}}\n航空、航天::http://www.gxgsxx.net:81/Index/clc/clc/V/s1/title/s2/isbn/p/{{page}}\n环境科学、安全科学::http://www.gxgsxx.net:81/Index/clc/clc/X/s1/title/s2/isbn/p/{{page}}\n综合性图书::http://www.gxgsxx.net:81/Index/clc/clc/Z/s1/title/s2/isbn/p/{{page}}\n英语学习::http://www.gxgsxx.net:81/Index/booklist/booklist_id/4/p/{{page}}\n工具书::http://www.gxgsxx.net:81/Index/booklist/booklist_id/5/p/{{page}}\n中国历史::http://www.gxgsxx.net:81/Index/booklist/booklist_id/6/p/{{page}}\n有声图书::http://www.gxgsxx.net:81/Index/sbook/p/{{page}}",
+        "lastUpdateTime": 1637250270200,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "class.m-bookinfo@html"
+        },
+        "ruleContent": {
+            "content": "@js:\nif(!baseUrl.match(/sbookshow/)){\n\"点击章节链接下载，（如是在阅读里浏览的网页，显示系统没有pdf阅读器，再点击继续打开pdf，会提示下载bin文件，实际就是pdf文件，可以自己改成pdf后缀打开，或者直接用能看pdf的软件打开）\"+baseUrl}else{\n\tif(book.type==0){\n\t\t\tresult=\"▼修改书源类型为音频可播放音频，注意修改后要删除本书重新添加▼\\n\"+java.getString(\"@@class.m-booktxt@html\")\n\t\t}else if(book.type==1){\n\t\t\turl=result.match(/mp3_path=getSite\\(\\)\\+\"([^\"]+)\";/)[1];\n\t\t\tresult=\"http://www.gxgsxx.net:81\"+url\n\t\t\t}\n\t}"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.author@text||tag.td.1@text",
+            "bookList": "class.m-booklist@li||id.booklist@tr!0",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "kind": "##资源格式:([^<]+)<##$1###",
+            "lastChapter": "class.t.-1@text",
+            "name": "h3@text||tag.a.0@text",
+            "wordCount": "##主题词:([^<]+)<##$1###"
+        },
+        "ruleToc": {
+            "chapterList": "class.u-btn.0||tag.html",
+            "chapterName": "class.u-btn.0@text||tag.title@text##-.*",
+            "chapterUrl": "class.u-btn.0@href"
+        },
+        "searchUrl": "http://www.gxgsxx.net:81/Index/search?sv={{key}}",
+        "weight": 0
+    }
+]

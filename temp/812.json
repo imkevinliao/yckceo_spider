@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "无基础小白按照关耳大佬教程写的",
+        "bookSourceGroup": "📖  小说",
+        "bookSourceName": "汐落轩",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xiluoxuan.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/s/1/{{page}}/\n武侠修真::/s/1/{{page}}/\n都市言情::/s/1/{{page}}/\n历史军事::/s/1/{{page}}/\n侦探推理::/s/1/{{page}}/\n网游动漫::/s/1/{{page}}/\n科幻小说::/s/1/{{page}}/\n恐怖灵异::/s/1/{{page}}/\n散文诗词::/s/1/{{page}}/\n其他类型::/s/1/{{page}}/",
+        "lastUpdateTime": 1640780452672,
+        "respondTime": 16881,
+        "ruleBookInfo": {
+            "intro": "",
+            "kind": "",
+            "lastChapter": "p.1@tag.a@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": ".panel-body@html##.*最新章节.*",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\[【网站提示：如果章节内容错乱的话，关掉阅读模式即可正常】\n　　\\] "
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "name": ""
+        },
+        "ruleSearch": {
+            "author": "small@class.text-muted fs-12@text##/",
+            "bookList": "class.col-md-4 col-xs-4 book-coverlist",
+            "bookUrl": "h4@tag.a@href",
+            "checkKeyWord": "",
+            "coverUrl": "tag.img@src",
+            "intro": ".text-muted fs-12 hidden-xs@text",
+            "kind": "",
+            "name": "h4@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".col-md-3",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/s.php?keyword={{key}}",
+        "weight": 0
+    }
+]

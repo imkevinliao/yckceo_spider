@@ -1,0 +1,26 @@
+[
+    {
+        "bookSourceName": "顶点小说",
+        "bookSourceUrl": "https://www.x23us.com/",
+        "ruleSearchUrl": "https://www.x23us.com/modules/article/search.php?searchtype=keywords&searchkey=searchKey",
+        "ruleBookAuthor": "class.fl.2@tag.td.1@text",
+        "ruleBookContent": "id.contents@textNodes",
+        "ruleBookName": "tag.h1@text",
+        "ruleChapterList": "class.L@tag.a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "class.read@href",
+        "ruleContentUrl": "href ",
+        "ruleCoverUrl": "class.hst@tag.img@src ",
+        "ruleFindUrl": "",
+        "ruleIntroduce": "id.content@tag.dd.3@tag.p.1@text",
+        "ruleSearchAuthor": "class.odd.1@text",
+        "ruleSearchCoverUrl": "",
+        "ruleSearchKind": "",
+        "ruleSearchLastChapter": "class.even.0@tag.a@text",
+        "ruleSearchList": "class.grid@tag.tr!0",
+        "ruleSearchName": "class.odd.0@tag.a@text",
+        "ruleSearchNoteUrl": "class.odd.0@tag.a@href",
+        "enable": true,
+        "serialNumber": 1
+    }
+]

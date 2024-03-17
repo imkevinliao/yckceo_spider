@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "👍 笔趣阁⑥",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.1biquge.com",
+        "customOrder": -88963977,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/biquge_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/biquge_2/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/biquge_3/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/biquge_4/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/biquge_5/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/biquge_6/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女频频道\",\"url\":\"/biquge_7/\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+        "lastUpdateTime": 1650671990411,
+        "respondTime": 4387,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes",
+            "replaceRegex": "##一秒记住.*"
+        },
+        "ruleExplore": {
+            "author": ".s4@text",
+            "bookList": ".l li",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\n'https://www.1biquge.com/bookfiles/BookImages/'+id+'.jpg';\n</js>",
+            "kind": ".s1@text&&.s5@text##\\[|\\]",
+            "lastChapter": ".s3@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": ".s2@text"
+        },
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".novelslist2 li!0",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\n'https://www.1biquge.com/bookfiles/BookImages/'+id+'.jpg';\n</js>",
+            "kind": ".s1@text&&.s7@text&&.s6@text##\\[|\\]",
+            "lastChapter": ".s3@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dd a",
+            "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "chapterUrl": "href",
+            "isPay": ""
+        },
+        "searchUrl": "/searchbook.php?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

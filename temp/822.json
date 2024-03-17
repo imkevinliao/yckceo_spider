@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "搜索用的是百度站内搜索",
+        "bookSourceGroup": "🎉 精品,百度搜",
+        "bookSourceName": "🎉 落秋中文网📱",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://h.lqbook.com",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": -88897993,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "完本::/full/{{page}}.html\n玄幻::/list/1_{{page}}.html\n修真::/list/2_{{page}}.html\n都市::/list/3_{{page}}.html\n历史::/list/4_{{page}}.html\n网游::/list/5_{{page}}.html\n科幻::/list/6_{{page}}.html",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36 Edg/85.0.564.68\"\n}",
+        "lastUpdateTime": 1640164231839,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 6036,
+        "ruleBookInfo": {
+            "author": "class.info@tag.a.0@text",
+            "coverUrl": ".bookinfo@img@src",
+            "intro": ".intro@text",
+            "kind": "class.info@tag.a.1@text&&class.info@tag.p.2@text&&class.info@tag.p.3@text##状态：|更新：|\\s.*",
+            "lastChapter": "class.info@tag.a.2@text",
+            "name": "class.info@h1@text##\\/.*",
+            "tocUrl": "text.章节目录@href||.more@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@all",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##落秋中文.*|最新章节！|... -->>|本章未完，点击下一页继续阅读"
+        },
+        "ruleExplore": {
+            "author": ".mr15@text",
+            "bookList": ".list-item",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".article@a@span@text",
+            "name": ".article@a.0@text"
+        },
+        "ruleSearch": {
+            "author": "",
+            "bookList": "#results .c-result",
+            "bookUrl": "data-log\n@js:\n//java.log(result);\n\njson=eval(\"(\"+result+\")\");\njson.mu.replace(/www/g,\"h\");\n",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "intro": "div[role=\"text\"]@span.1@text",
+            "kind": "",
+            "lastChapter": ".c-text-line-text.0@text",
+            "name": ".c-title-text@text##最新章节.*"
+        },
+        "ruleToc": {
+            "chapterList": "#alllist ul li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.baidu.com/s?wd=site:lqbook.com {{key}},{\"webView\":true}",
+        "weight": 0
+    }
+]

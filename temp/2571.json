@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceUrl": "http://www.le77.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "快搜小说网",
+        "bookSourceGroup": "疯狂的蜗牛🐌",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.le77.com/home/search,{\"method\":\"POST\";\"body\":\"q={{key}}&action=search\"}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 0,
+        "ruleSearch": {
+            "bookList": "class.lll@tag.ul@tag.li",
+            "name": "@text",
+            "coverUrl": "class.item-cover@a@img@src",
+            "bookUrl": "class.item-cover@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.booktitle cf@text",
+            "author": "id.info@tag.p.0@text",
+            "lastChapter": "id.info@tag.p.3@tag.a@text",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dl@tag.dd@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html##本章未完，点击下一页继续阅读",
+            "nextContentUrl": "class.bottem2@tag.a.2@href"
+        }
+    }
+]

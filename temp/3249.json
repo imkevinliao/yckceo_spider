@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "⭐山药小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zhanqunbao.cn",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1682148059521,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[name=\"keywords\"]@content##.*\\(|\\).*",
+            "intro": "[name=\"description\"]@content",
+            "kind": "class.b@tag.span.0@text",
+            "lastChapter": "class.x_right@p.-1@a@text",
+            "name": "[name=\"keywords\"]@content##\\(.*",
+            "tocUrl": "@js:baseUrl.replace('novel','zhang')"
+        },
+        "ruleContent": {
+            "content": "class.read_content@html",
+            "nextContentUrl": ".shangxia@a.-1@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.a@href\n<js>java.ajax(''+result)</js>\n[name=\"keywords\"]@content##.*\\(|\\).*",
+            "bookList": "class.zhangjie@ul@li",
+            "bookUrl": "tag.a@href",
+            "checkKeyWord": "",
+            "kind": "tag.a@span.0@text##\\[|\\]",
+            "lastChapter": "tag.a@href\n<js>java.ajax(''+result)</js>class.x_right@p.-1@a@text",
+            "name": "tag.a@span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.zhangjie@ul@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/index.php?do=wap_sea&so=yes&name={{key}}",
+        "weight": 0
+    }
+]

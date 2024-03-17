@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "小说",
+        "bookSourceName": "笔趣阁35",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.bqg35.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1679664004619,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "tag.span.0@text##作者：##",
+            "coverUrl": "tag.img@src",
+            "downloadUrls": "",
+            "init": "class.book_info&&class.book_about&&class.book_more",
+            "intro": "tag.dd.3@text",
+            "kind": "tag.span.1@text##分类：##",
+            "lastChapter": "tag.span.4@text",
+            "name": "class.name@text",
+            "tocUrl": "tag.a@href",
+            "wordCount": "tag.span.3@text##字数：##"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes##请收藏：https://m.bqg35.cc",
+            "nextContentUrl": "id.pb_next@href@js:\nif(result.toString().match('_') == null){\n\tresult = ''\n\t}\nresult"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.dl@tag.span@text",
+            "bookList": "class.hot@class.item",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "class.image@tag.a@src",
+            "intro": "tag.dd@text",
+            "name": "tag.dl@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_last@tag.dd[1:-1]@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/s?q={{key}}",
+        "weight": 0
+    }
+]

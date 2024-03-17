@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "\ntime=Math.round(new Date()/1000);\nfunction sign(list){\n    var sb='2bb6ffe20b1eff00';\n    list=list.sort();\n    for(var i=0;i<list.length;i++){if(i==0){sb+=list[i];}else{sb+=\"&\";sb+=list[i];}}\n    sb+=\"cabf8a3adca20e831d7e96267f709032\";\n    return String(java.md5Encode(sb)).toUpperCase();\n}\nfunction getOption(body){\n\tlistSign=[]\n for(var key in body){\n    listSign.push(key+\"=\"+body[key])\n }\n body[\"sign\"]=sign(listSign)\n opt={\"method\":\"POST\",\"body\":\n       JSON.stringify(body)};\n  return JSON.stringify(opt)\n}",
+        "bookSourceGroup": "📖 正版,🌟 ΑΡΙ",
+        "bookSourceName": "📖💵拂袖🆔🅰",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://open.zzzapp.cn",
+        "bookUrlPattern": "",
+        "customOrder": -2085957105,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "@js:\neval(String(source.bookSourceComment))\n//页面\np=1\n\nlist=[{\"label\":\"频道\",\"field\":\"channel_id\",\"list\":[{\"display\":\"纯爱\",\"value\":1,\"checked\":1},{\"display\":\"同人\",\"value\":2,\"checked\":0}]},{\"label\":\"分类\",\"field\":\"cat\",\"list\":[{\"display\":\"全部\",\"value\":\"\",\"checked\":1},{\"display\":\"都市\",\"value\":6,\"checked\":0},{\"display\":\"古代\",\"value\":1,\"checked\":0},{\"display\":\"校园\",\"value\":4,\"checked\":0},{\"display\":\"ABO\",\"value\":5,\"checked\":0},{\"display\":\"穿越\",\"value\":7,\"checked\":0}]},{\"label\":\"状态\",\"field\":\"status\",\"list\":[{\"display\":\"全部\",\"value\":0,\"checked\":1},{\"display\":\"连载中\",\"value\":1,\"checked\":0},{\"display\":\"已完结\",\"value\":2,\"checked\":0}]},{\"label\":\"属性\",\"field\":\"flag\",\"list\":[{\"display\":\"全部\",\"value\":0,\"checked\":0},{\"display\":\"热度\",\"value\":\"hot\",\"checked\":1},{\"display\":\"更新\",\"value\":\"new\",\"checked\":0},{\"display\":\"完结\",\"value\":\"finish\",\"checked\":0}]}];\n\t      \nresult=[]\n\nlist.forEach(x=>{\n\t样式1={\"title\":\"模板\",\"url\":\"\",\n\t      \"style\":{\"layout_flexGrow\":1,\n\t      \"layout_flexBasisPercent\":1}};\n\t样式1.title=\"💠    \"+x.label+\"    💠\";\n\t样式1.style.layout_flexBasisPercent=1;\n\tresult.push(样式1)\n\tfor(var i=0;i<x.list.length;i++){\n\t\ty=x.list[i]\n\t\t  \nbody={\"product\":\"1\",\"ver\":\"1.0.0\",\"flag\":\"hot\",\"marketChannel\":\"oppo\",\"page_num\":p,\"sysVer\":\"11\",\"token\":\"\",\"appId\":\"\",\"cat\":\"\",\"osType\":\"2\",\"time\":time,\"packageName\":\"com.fuxiuyuedu.fuzReader\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"channel_id\":\"1\",\"status\":\"0\"};\n\n\t\tbody[x.field]=y.value\n\t\t\n\t\t样式2={\"title\":\"模板\",\"url\":\"\",\n\t      \"style\":{\"layout_flexGrow\":1,\n\t      \"layout_flexBasisPercent\":0.2}};\n\t\t样式2.title=y.display\n\t 样式2.url=\"/book/category-index,\"\n\t             +getOption(body);\n\t result.push(样式2)\n }\n\t\n})\nJSON.stringify(result)",
+        "header": "",
+        "lastUpdateTime": 1672793948094,
+        "loginUi": "[\n  {\n    \"name\": \"手机号码\",\n    \"type\": \"text\"\n  },\n  {\n    \"name\": \"验证码\",\n    \"type\": \"text\"\n  }\n]",
+        "loginUrl": "function login(params, username, password){\n  var loginUrl = `https://sk.hbooker.com/signup/login?${params}&login_name=${username}&passwd=${password}`\n}",
+        "respondTime": 12200,
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "cover",
+            "init": "data.book",
+            "intro": "description",
+            "kind": "tag.tab&&finished",
+            "lastChapter": "{{$.last_chapter}}·{{$.last_chapter_time}}",
+            "name": "name@put:{bid:$.book_id}",
+            "tocUrl": "@js:\neval(String(source.bookSourceComment))\n\nbody={\"book_id\":{{$.book_id}},\"packageName\":\"com.fuxiuyuedu.fuzReader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"vivo\",\"appId\":\"\",\"sysVer\":\"11\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.0.0\",\"product\":\"1\"};\n\n\"/chapter/new-catalog,\" + getOption(body);",
+            "wordCount": "total_words"
+        },
+        "ruleContent": {
+            "content": "data.content"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "data.list.list||data.list",
+            "bookUrl": "@js:\neval(String(source.bookSourceComment))\n\nbody={\"book_id\":{{$.book_id}},\"packageName\":\"com.fuxiuyuedu.fuzReader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"vivo\",\"appId\":\"\",\"sysVer\":\"11\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.0.0\",\"product\":\"1\"};\n\n\"/book/info,\" + getOption(body);",
+            "coverUrl": "cover",
+            "intro": "description",
+            "kind": "finished&&tag[*].tab",
+            "lastChapter": "@js:java.get(\"last_chapter\")",
+            "name": "name",
+            "wordCount": "@js:\neval(String(source.bookSourceComment))\n\nbody={\"book_id\":{{$.book_id}},\"packageName\":\"com.fuxiuyuedu.fuzReader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"vivo\",\"appId\":\"\",\"sysVer\":\"11\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.0.0\",\"product\":\"1\"};\n\nresp=JSON.parse(java.ajax(\"http://open.zzzapp.cn/book/info,\"+getOption(body)));\nlast_chapter=resp.data.book.last_chapter+\"·\"+resp.data.book.last_chapter_time\njava.put(\"last_chapter\",last_chapter)\njava.put(\"bookbody\",JSON.stringify(body))\ntotal_words=resp.data.book.total_words"
+        },
+        "ruleToc": {
+            "chapterList": "data.chapter_list",
+            "chapterName": "chapter_title@put:{a:$.next_chapter}",
+            "chapterUrl": "@js:\neval(String(source.bookSourceComment))\n\nbody={\"book_id\":{{$.book_id}},\"chapter_id\":{{$.chapter_id}},\"packageName\":\"com.fuxiuyuedu.fuzReader\",\"time\":time,\"token\":String(java.get('token')),\"marketChannel\":\"vivo\",\"appId\":\"\",\"sysVer\":\"11\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.0.0\",\"product\":\"1\"};\n\n\"/chapter/text,\" + getOption(body);",
+            "nextTocUrl": "<js>result</js>$.data.chapter_list[-1].last_chapter\n@js:\neval(String(source.bookSourceComment))\n\nbody={\"book_id\":String(java.get('bid')),\"chapter_id\":String(result[0]),\"scroll_type\":\"1\",\"packageName\":\"com.fuxiuyuedu.fuzReader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"vivo\",\"appId\":\"\",\"sysVer\":\"11\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.0.0\",\"product\":\"1\"};\n\n\"/chapter/new-catalog,\" + getOption(body);"
+        },
+        "searchUrl": "@js:\n/*调试->右上角的小虫子，随便搜一个词*/\n/*Token写了东西的话要删掉才能进行下面步骤：\n①填上电话号码点调试会获取验证码；\n②填上验证码点调试会获取token；\n③把token填在Token【目录的章节url那也有个token记得也要填，不填的话从发现点的书是没有登录的】；\n④把电话号码跟验证码的值删了【❗️填了电话号码会一搜索就发验证码】，保存书源*/\n/*如登录过期需要重新登录，请删除以前填写的token再调试获取验证码，重复前面的步骤*/\n\n\n电话号码=\"\";\n验证码=\"\";\nToken=\"\";\neval(String(source.bookSourceComment))\n\nmobile=电话号码;\ncode=验证码;\n\nif(mobile.match(/^\\d{11}$/) && !code && !Token){\n\nbody={\"mobile\":String(mobile),\"packageName\":\"com.fuxiuyuedu.fuzReader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"vivo\",\"appId\":\"\",\"sysVer\":\"7.1.2\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.0.0\",\"product\":\"1\"};\n\nurl='http://open.zzzapp.cn/message/send,'+getOption(body);\njava.log(JSON.parse(java.ajax(url)).msg==\"success\"?\"验证码发送成功，请注意短信\":\"验证码获取失败，请稍候再试\");\n}else if(code && !Token){\n\nbody={\"mobile\":mobile,\"code\":code,\"packageName\":\"com.fuxiuyuedu.fuzReader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"vivo\",\"appId\":\"\",\"sysVer\":\"7.1.2\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.0.0\",\"product\":\"1\"};\n\nurl='http://open.zzzapp.cn/user/mobile-login,'+getOption(body);\njson=JSON.parse(java.ajax(url));\njava.log(json.msg==\"success\"?'❗️下面是你的Token，请复制❗️\\n'+json.data.user_token:JSON.stringify(json));\n}\njava.put('token',Token);\n\nbody={\"packageName\":\"com.fuxiuyuedu.fuzReader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"vivo\",\"appId\":\"\",\"page_num\":page,\"sysVer\":\"7.1.2\",\"osType\":\"2\",\"keyword\":key,\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.0.0\",\"product\":\"1\"};\n\n\"/book/search,\" + getOption(body);",
+        "weight": 0
+    }
+]

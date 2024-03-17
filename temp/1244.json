@@ -1,0 +1,64 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "综合📘",
+        "bookSourceName": "📘得间小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.idejian.com",
+        "bookUrlPattern": "",
+        "customOrder": 20,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "♦                        男生                       ♦::奇幻::/books/nansheng?categoryId=1114&order=3&page={{page}}\n玄幻::/books/nansheng?categoryId=1115&order=3&page={{page}}\n武侠::/books/nansheng?categoryId=1116&order=3&page={{page}}\n仙侠::/books/nansheng?categoryId=1117&order=3&page={{page}}\n都市::/books/nansheng?categoryId=1118&order=3&page={{page}}\n校园::/books/nansheng?categoryId=1119&order=3&page={{page}}\n历史::/books/nansheng?categoryId=1120&order=3&page={{page}}\n军事::/books/nansheng?categoryId=1121&order=3&page={{page}}\n游戏::/books/nansheng?categoryId=1122&order=3&page={{page}}\n竞技::/books/nansheng?categoryId=1123&order=3&page={{page}}\n科幻::/books/nansheng?categoryId=1124&order=3&page={{page}}\n灵异::/books/nansheng?categoryId=1125&order=3&page={{page}}\n♦                        女生                       ♦::\n现代言情::/books/nvsheng?categoryId=1126&order=3&page={{page}}\n古代言情::/books/nvsheng?categoryId=1127&order=3&page={{page}}\n幻想言情::/books/nvsheng?categoryId=1128&order=3&page={{page}}\n青春校园::/books/nvsheng?categoryId=1129&order=3&page={{page}}\n同人作品::/books/nvsheng?categoryId=1130&order=3&page={{page}}\n惊悚恐怖::/books/nvsheng?categoryId=1132&order=3&page={{page}}\n次元专区::/books/nvsheng?categoryId=1133&order=3&page={{page}}\n♦                        出版                       ♦::\n人文社科::/books/chuban?categoryId=1134&order=3&page={{page}}\n经管励志::/books/chuban?categoryId=1135&order=3&page={{page}}\n生活::/books/chuban?categoryId=1136&order=3&page={{page}}\n教育::/books/chuban?categoryId=1137&order=3&page={{page}}\n文学艺术::/books/chuban?categoryId=1138&order=3&page={{page}}",
+        "header": "",
+        "lastUpdateTime": 1624560519973,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": ".detail_bkauthor@ownText",
+            "canReName": "true",
+            "coverUrl": ".book_img@img@src",
+            "intro": ".brief_con@html",
+            "kind": ".detail_bkgrade@text&&\n.book_page@span@text",
+            "lastChapter": ".link_name@text",
+            "name": ".nav_bkname@text",
+            "tocUrl": "",
+            "wordCount": ".bk_fontinfo@tag.span.0@text"
+        },
+        "ruleContent": {
+            "content": "<js>\n\"<img src=\\\"\"+java.getString(\"\\#\\#background-image: url\\\\((.*)\\\\?\\#\\#$1\\#\\#\\#\",false)+\"\\\">\"+\njava.getString(\".h5_mainbody_bg@html\",false)+\njava.getString(\".h5_mainbody@html\",false)\n</js>",
+            "imageStyle": "FULL",
+            "nextContentUrl": "",
+            "replaceRegex": "##<img src=\"\">"
+        },
+        "ruleExplore": {
+            "author": ".bkitem_author@text",
+            "bookList": ".v_books@tag.li",
+            "bookUrl": ".book_img@href",
+            "coverUrl": "img@src",
+            "intro": ".bkitem_brief@textNodes",
+            "kind": ".bkitem_types@text",
+            "name": ".bkitem_name@text",
+            "wordCount": ".bk_fontnum@text"
+        },
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".rank_ullist@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".rank_bkbrief@html",
+            "kind": ".rank_bkinfo@span!0@text&&\n.rank_bktime@text",
+            "lastChapter": ".rank_newpage@text##更新章节：",
+            "name": ".rank_bkname@a@text",
+            "wordCount": ".search_ohter@tag.span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".catelog_list@tag.li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##^##https://m.idejian.com\n<js>\nresult=result.replace(/$/,\",{'headers': \\\"{'User-Agent': 'Mobile'}\\\"}\")\n</js>",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/search?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

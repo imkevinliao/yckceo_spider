@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceName": "五六小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.wuliushu.com",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "全部小说::/sort/7/{{page}}/\n其他类型::/sort/8/{{page}}/\n高辣小说::/sort/{{page}}/\n情欲小说::/sort/4/{{page}}/\n海棠耽美::/sort/6/{{page}}/",
+        "lastUpdateTime": 1665558666555,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".infotype@p.0@a@text",
+            "coverUrl": "img@src",
+            "init": ".infohead",
+            "intro": ".intro@p@text",
+            "kind": ".infotype@p.2@text##更新时间：",
+            "lastChapter": ".infotype@p.-1@a@text",
+            "name": "h3@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": ".articlecontent p@text",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": ".article",
+            "bookUrl": "h6 a@href",
+            "coverUrl": "img@src",
+            "intro": ".simple@text",
+            "name": "h6 a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapters li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}&type=articlename\",\n  \"method\": \"POST\",\n  \"webView\": true\n}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "看了几个好像分类没有内容所以就做了搜索",
+        "bookSourceGroup": "📖  小说,验,🎁常用",
+        "bookSourceName": "21格格党",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.21ggd.com",
+        "customOrder": 35,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1643961671088,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".book-title@tag.em@text",
+            "kind": ".book-stats@text##状态：(.*)字数：.*更新时间：(.*)## $1   $2",
+            "lastChapter": "class.item-index ten-info@text##.*(第.*章)(.*)|第.*章.*(第.*章)(.*)##◆$1◆$2",
+            "name": ".book-title@tag.h1@text",
+            "tocUrl": "text.全文阅读@href",
+            "wordCount": ".book-stats@text##字数：(.*).*更新时间.*##$1字###"
+        },
+        "ruleContent": {
+            "content": "#BookText@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "p.0@i.0@text",
+            "bookList": "class.item-pic",
+            "bookUrl": "h3@tag.a@href",
+            "checkKeyWord": "[穿书]",
+            "coverUrl": "tag.img@src",
+            "kind": "p.0@i.1@text&&p.1@tag.i@text",
+            "lastChapter": "p.1@tag.a@text##.*(第.*章)(.*)|第.*章.*(第.*章)(.*)##◆$1◆$2",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapterlist@tag.a",
+            "chapterName": "@text##.*(第.*章)(.*)|第.*章.*(第.*章)(.*)##◆$1◆$2",
+            "chapterUrl": "@href"
+        },
+        "searchUrl": "https://www.21ggd.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n'charset': 'gbk'\n}",
+        "weight": 0
+    }
+]

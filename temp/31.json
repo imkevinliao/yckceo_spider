@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍉自制,修复",
+        "bookSourceName": "博发小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.8boo.com",
+        "customOrder": 617,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1664182668808,
+        "respondTime": 181738,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "intro": ".info_txt@tag.p.0@text"
+        },
+        "ruleContent": {
+            "content": "class.content@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.ph_con_tag@span.0@text##作者:",
+            "bookList": "class.box_c@class.ph_con@class.cf",
+            "bookUrl": "class.img@a@href",
+            "coverUrl": "tag.img@src",
+            "kind": "class.ph_con_tag@span.1@text##分类:",
+            "lastChapter": "class.zx@tag.a@text",
+            "name": "tag.h4@text",
+            "wordCount": "class.ph_con_tag@span.2@text##字数:"
+        },
+        "ruleToc": {
+            "chapterList": "class.box_c@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.8boo.com/modules/article/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

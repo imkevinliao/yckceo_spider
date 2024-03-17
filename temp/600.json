@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️灵域小说☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.lingyutxt.net#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::https://m.lingyutxt.net/xclass/1/{{page}}.html\n武侠修真::https://m.lingyutxt.net/xclass/2/{{page}}.html\n都市言情::https://m.lingyutxt.net/xclass/3/{{page}}.html\n历史军事::https://m.lingyutxt.net/xclass/4/{{page}}.html\n侦探推理::https://m.lingyutxt.net/xclass/5/{{page}}.html\n网游动漫::https://m.lingyutxt.net/xclass/6/{{page}}.html\n科幻小说::https://m.lingyutxt.net/xclass/7/{{page}}.html\n恐怖灵异::https://m.lingyutxt.net/xclass/8/{{page}}.html\n穿越小说::https://m.lingyutxt.net/xclass/9/{{page}}.html",
+        "lastUpdateTime": 1643973889485,
+        "ruleBookInfo": {
+            "author": "class.author@tag.a@text",
+            "coverUrl": "id.thumb@img@src",
+            "intro": "class.review@text",
+            "kind": "class.sort@tag.a@text&&li.2@text##状态：",
+            "lastChapter": "p.0@tag.a@text",
+            "name": "class.title@text",
+            "tocUrl": "text.查看完整目录@href",
+            "wordCount": "li.3@text##更新："
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href##/wapbook/\\d+_\\d+.html",
+            "replaceRegex": "##wωω.ξìйgyuＴxt.иeΤ"
+        },
+        "ruleExplore": {
+            "author": "class.author@tag.a.-1@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.longview@text",
+            "kind": "",
+            "lastChapter": "p.0@tag.a@text",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "author": "tag.p.1@tag.a.1@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a@href",
+            "kind": "tag.p.2@text##\\|.*",
+            "lastChapter": "tag.p.2@tag.a@text",
+            "name": "class.title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapterlist@tag.p@tag.a@js:result.remove(0);result",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://m.lingyutxt.net/search.php?type=undefined&keyword={{key}}",
+        "weight": 0
+    }
+]

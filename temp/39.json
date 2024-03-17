@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "💰 正版",
+        "bookSourceName": "💰 黑岩小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.heiyan.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "全部小说::/web/all/-1/-1/-1/-1/0/{{page}}/100\n免费小说::/web/all/-1/-1/1/-1/0/{{page}}/100\n收费小说::/web/all/-1/-1/0/-1/0/{{page}}/100\n完结小说::/web/all/-1/-1/-1/1/0/{{page}}/100\n连载小说::/web/all/-1/-1/-1/0/0/{{page}}/100\n悬疑全部::/web/all/1/-1/-1/-1/0/{{page}}/100\n悬疑免费::/web/all/1/-1/1/-1/0/{{page}}/100\n悬疑收费::/web/all/1/-1/0/-1/0/{{page}}/100\n悬疑完结::/web/all/1/-1/-1/1/0/{{page}}/100\n悬疑连载::/web/all/1/-1/-1/0/0/{{page}}/100\n历史全部::/web/all/3/-1/-1/-1/0/{{page}}/100\n历史免费::/web/all/3/-1/1/-1/0/{{page}}/100\n历史收费::/web/all/3/-1/0/-1/0/{{page}}/100\n历史完结::/web/all/3/-1/-1/1/0/{{page}}/100\n历史连载::/web/all/3/-1/-1/0/0/{{page}}/100\n军事全部::/web/all/5/-1/-1/-1/0/{{page}}/100\n军事免费::/web/all/5/-1/1/-1/0/{{page}}/100\n军事收费::/web/all/5/-1/0/-1/0/{{page}}/100\n军事完结::/web/all/5/-1/-1/1/0/{{page}}/100\n军事连载::/web/all/5/-1/-1/0/0/{{page}}/100\n玄幻全部::/web/all/6/-1/-1/-1/0/{{page}}/100\n玄幻免费::/web/all/6/-1/1/-1/0/{{page}}/100\n玄幻收费::/web/all/6/-1/0/-1/0/{{page}}/100\n玄幻完结::/web/all/6/-1/-1/1/0/{{page}}/100\n玄幻连载::/web/all/6/-1/-1/0/0/{{page}}/100\n奇幻全部::/web/all/14/-1/-1/-1/0/{{page}}/100\n奇幻免费::/web/all/14/-1/1/-1/0/{{page}}/100\n奇幻收费::/web/all/14/-1/0/-1/0/{{page}}/100\n奇幻完结::/web/all/14/-1/-1/1/0/{{page}}/100\n奇幻连载::/web/all/14/-1/-1/0/0/{{page}}/100\n仙侠全部::/web/all/7/-1/-1/-1/0/{{page}}/100\n仙侠免费::/web/all/7/-1/1/-1/0/{{page}}/100\n仙侠收费::/web/all/7/-1/0/-1/0/{{page}}/100\n仙侠完结::/web/all/7/-1/-1/1/0/{{page}}/100\n仙侠连载::/web/all/7/-1/-1/0/0/{{page}}/100\n武侠全部::/web/all/8/-1/-1/-1/0/{{page}}/100\n武侠免费::/web/all/8/-1/1/-1/0/{{page}}/100\n武侠收费::/web/all/8/-1/0/-1/0/{{page}}/100\n武侠完结::/web/all/8/-1/-1/1/0/{{page}}/100\n武侠连载::/web/all/8/-1/-1/0/0/{{page}}/100\n科幻全部::/web/all/10/-1/-1/-1/0/{{page}}/100\n科幻免费::/web/all/10/-1/1/-1/0/{{page}}/100\n科幻收费::/web/all/10/-1/0/-1/0/{{page}}/100\n科幻完结::/web/all/10/-1/-1/1/0/{{page}}/100\n科幻连载::/web/all/10/-1/-1/0/0/{{page}}/100\n游戏全部::/web/all/9/-1/-1/-1/0/{{page}}/100\n游戏免费::/web/all/9/-1/1/-1/0/{{page}}/100\n游戏收费::/web/all/9/-1/0/-1/0/{{page}}/100\n游戏完结::/web/all/9/-1/-1/1/0/{{page}}/100\n游戏连载::/web/all/9/-1/-1/0/0/{{page}}/100\n同人全部::/web/all/16/-1/-1/-1/0/{{page}}/100\n同人免费::/web/all/16/-1/1/-1/0/{{page}}/100\n同人收费::/web/all/16/-1/0/-1/0/{{page}}/100\n同人完结::/web/all/16/-1/-1/1/0/{{page}}/100\n同人连载::/web/all/16/-1/-1/0/0/{{page}}/100\n社会全部::/web/all/25/-1/-1/-1/0/{{page}}/100\n社会免费::/web/all/25/-1/1/-1/0/{{page}}/100\n社会收费::/web/all/25/-1/0/-1/0/{{page}}/100\n社会完结::/web/all/25/-1/-1/1/0/{{page}}/100\n社会连载::/web/all/25/-1/-1/0/0/{{page}}/100\n古言全部::/web/all/37/-1/-1/-1/0/{{page}}/100\n古言免费::/web/all/37/-1/1/-1/0/{{page}}/100\n古言收费::/web/all/37/-1/0/-1/0/{{page}}/100\n古言完结::/web/all/37/-1/-1/1/0/{{page}}/100\n古言连载::/web/all/37/-1/-1/0/0/{{page}}/100",
+        "lastUpdateTime": 1663322341656,
+        "loginUrl": "/accounts/login",
+        "respondTime": 8702,
+        "ruleBookInfo": {
+            "author": "//strong/text()",
+            "coverUrl": "//*[@class=\"book-cover\"]/@src",
+            "intro": "//*[@class=\"note\"]/text()",
+            "kind": "//*[@class=\"cate\"]/a/text()",
+            "lastChapter": "//h4[1]/a/text()<js>result.replace(\">>\",\"\")</js>",
+            "name": "//*[@class=\"hd\"]/h1/text()",
+            "tocUrl": "//*[@class=\"read\"]/@href"
+        },
+        "ruleContent": {
+            "content": "$.chapter.htmlContent<js>result.replace(/<.*?>/g,'').replace(/\\r/g,'\\n　　')</js>"
+        },
+        "ruleExplore": {
+            "author": "//a[@class=\"author\"]/text()",
+            "bookList": "//*[@id=\"resultDiv\"]/tr",
+            "bookUrl": "//*[@class=\"title\"]/@href",
+            "coverUrl": "//*[@class=\"title\"]/@href<js>result.replace(/.*\\/(\\d+)/,\"https://b.heiyanimg.com/book/$1.jpg@!bm?1\")</js>",
+            "kind": "//*[@class=\"time\"]/text()",
+            "lastChapter": "//*[@class=\"chapter\"]/text()",
+            "name": "//*[@class=\"title\"]/text()"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.authorname",
+            "bookList": "$.data.content[*]",
+            "bookUrl": "$.id@js:'https://www.heiyan.com/book/'+result",
+            "coverUrl": "$.iconUrlSmall",
+            "intro": "$.introduce",
+            "kind": "$.sortname",
+            "lastChapter": "$.lastchaptername",
+            "name": "$.name"
+        },
+        "ruleToc": {
+            "chapterList": ":(?s)(\\d+)\" class=\"(isvip)?[^\"]*name[^>]*>([^<]*)",
+            "chapterName": "$2$3",
+            "chapterUrl": "https://a.heiyan.com/ajax/chapter/content/$1"
+        },
+        "searchUrl": "https://search.heiyan.com/web/search?queryString={{key}}&highlight=false&page={{page}}",
+        "weight": 0
+    }
+]

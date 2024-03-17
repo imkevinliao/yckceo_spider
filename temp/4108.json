@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "搜索有验证码，可在浏览器复制书籍链接，再到阅读首页书架添加网址。\n//同库(我来读网)：https://m.wolaido.com\n//同库(博趣中文)：https://m.1bqg.net\n//同库(博看小说)：https://m.kchao.net\n//同库(希望中文)：https://m.5xw.net\n//同库(趣七书屋)：https://m.qu7.net\n//同库(洪都中文)：https://m.nchdzx.com",
+        "bookSourceGroup": "自制,备用,修复,源仓库,网页源",
+        "bookSourceName": "123读书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.123du.vip/",
+        "bookUrlPattern": "https://m.123du.vip/du.*",
+        "customOrder": 469,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"书库\",\"url\":\"/all/index.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"排行榜\",\"url\":\"/dudu/rec/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完本小说\",\"url\":\"/dudu/end/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市重生\",\"url\":\"/dudu-31/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻奇幻\",\"url\":\"/dudu-32/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠武侠\",\"url\":\"/dudu-33/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻未来\",\"url\":\"/dudu-34/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"二次元\",\"url\":\"/dudu-35/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/dudu-36/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生言情\",\"url\":\"/dudu-37/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/dudu-38/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异悬疑\",\"url\":\"/dudu-40/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1694917126438,
+        "loginUrl": "https://m.123du.vip/member/login.html",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property~=og:novel:category|og:novel:status|og:novel:update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nif (/内容正在载入/.test(src)) {\n    c2 = src.match(/c2=\"([^\"]+)/)[1];\n    url = src.match(/src=\"([^\"]+)/)[1];\n    j = java.ajax(source.getKey() + url);\n    reg = /function ajax[\\s\\S]+?\\}(?=Ajax)/;\n    eval(String(j.match(reg)[0]))\n    java.ajax(source.getKey() + ajax(c2))\n    h = java.ajax(baseUrl);\n    java.setContent(h), h;\n} else result;\n</js>div.TxtContent@html||div#content@html##\\\"|\\.",
+            "nextContentUrl": "div#PageSet@span+a@href",
+            "replaceRegex": "##本章没完.*继续阅读！如果被转码.*更换浏揽器即可。|.*提醒.*看完记得.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "dd.1@span.0@text",
+            "bookList": "<js>su = source.getKey()\nif (/内容正在载入/.test(result)) {\n    c2 = result.match(/c2=\"([^\"]+)/)[1];\n    url = result.match(/src=\"([^\"]+)/)[1];\n    j = java.ajax(su + url);\n    reg = /function ajax[\\s\\S]+?\\}(?=Ajax)/;\n    eval(String(j.match(reg)[0]))\n    java.ajax(su + ajax(c2))\n    result = java.ajax(baseUrl)\n}\n\nwhile (/请输入验证码：/.test(result)) {\n\timg = `${su}/member/getcode.asp,{\"headers\":{\"Referer\":\"${baseUrl}\"}}`;\n\n\tcode=java.getVerificationCode(img)\n\taa=org.jsoup.Jsoup.parse(result)\n\taa.select(\"[placeholder=请输入验证码]\").attr(\"value\",code)\n\tbody=Array.from(aa.select(\"div.RegDiv form input\"),x=>x.attr(\"name\")+\"=\"+x.attr(\"value\")).join(\"&\")\n\tresult=java.ajax(`${baseUrl},{\n  \"body\": \"${body}\",\n  \"charset\": \"GBK\",\n  \"headers\": {\n\"Referer\": \"${baseUrl}\"\n  },\n  \"method\": \"POST\"\n}`)\n}\n\nresult\n</js>dl.B",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": ".d2@text##简介：",
+            "kind": "dd.1@span.1@text##更新时间：",
+            "lastChapter": "dd.3@a@text",
+            "name": "dt.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.1@li||dl@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "@js:\nurl = source.getKey()\nhtml = java.ajax(url)\nact = org.jsoup.Jsoup.parse(html).select('input[name=act]').attr('value')\n\nsubmit = java.encodeURI(/www/.test(url) ? \"搜索 \" : \"快速搜书\", 'gbk')\nurl += \"sscc/\"\nbody = `act=${act}&q=${java.encodeURI(key, 'gbk')}&submit=${submit}`\n\nurl = `${url},{\"body\": \"${body}\", \"method\": \"POST\"}`",
+        "weight": 0
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceName": "一五文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.15zw.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻修真::http://www.15zw.net/list/postdate_1_0_0_1.html\n重生穿越::http://www.15zw.net/list/postdate_2_0_0_1.html\n都市小说::http://www.15zw.net/list/postdate_3_0_0_1.html\n军史小说::http://www.15zw.net/list/postdate_4_0_0_1.html\n网游小说::http://www.15zw.net/list/postdate_5_0_0_1.html\n科幻小说::http://www.15zw.net/list/postdate_6_0_0_1.html\n灵异小说::http://www.15zw.net/list/postdate_7_0_0_1.html\n言情小说::http://www.15zw.net/list/postdate_8_0_0_1.html\n其他小说::http://www.15zw.net/list/postdate_9_0_0_1.html",
+        "lastUpdateTime": 1667447236072,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "i@a@text",
+            "coverUrl": "",
+            "intro": "class.xs_introduce@text",
+            "lastChapter": "class.br-b-1.2@text",
+            "name": "class.br-b-1.0@text",
+            "tocUrl": "class.info_btn@a@href"
+        },
+        "ruleContent": {
+            "content": "class.word_in@p@text",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "class.autho.0@text",
+            "bookList": "class.list",
+            "bookUrl": "class.list@href",
+            "intro": "class.info@text",
+            "lastChapter": "class.autho!0@text",
+            "name": "class.fmy@h4@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "class.tl@a@href",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "kind": "",
+            "name": "class.tl@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.ph_list.0@li",
+            "chapterName": "class.s@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "class.icon-xiayiye@href"
+        },
+        "searchUrl": "http://www.15zw.net/s.php?type=articlename&s={{key}},{\n  \"charset\": \"GBK\",\n  \"method\": \"GET\"\n}",
+        "weight": 0
+    }
+]

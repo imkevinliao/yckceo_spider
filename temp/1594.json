@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "复制全部的书单id[包括前面的字]，可以搜索这个书单，如\n书单id：59b147b6ae4c010b5d987117",
+        "bookSourceGroup": "其他",
+        "bookSourceName": "优书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yousuu.com",
+        "bookUrlPattern": "",
+        "customOrder": 20001020,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "综合书库::https://api.yousuu.com/api/bookStore/books?sort=scorer&page={{page}}\n男频书库::https://api.yousuu.com/api/bookStore/books?sort=scorer&channel=0&page={{page}}\n女频书库::https://api.yousuu.com/api/bookStore/books?sort=scorer&channel=1&page={{page}}\n总评分榜::https://api.yousuu.com/api/bookStore/books?sort=score&page={{page}}\n男频评分::https://api.yousuu.com/api/bookStore/books?sort=score&channel=0&page={{page}}\n女频评分::https://api.yousuu.com/api/bookStore/books?sort=score&channel=1&page={{page}}\n总字数榜::https://api.yousuu.com/api/bookStore/books?sort=countWord&page={{page}}\n男频字数::https://api.yousuu.com/api/bookStore/books?sort=countWord&channel=0&page={{page}}\n女频字数::https://api.yousuu.com/api/bookStore/books?sort=countWord&channel=1&page={{page}}\n最近更新::https://api.yousuu.com/api/bookStore/books?countWord=3&update=1&page={{page}}\n热门连载::https://api.yousuu.com/api/bookStore/books?status=0&page={{page}}\n热门完结::https://api.yousuu.com/api/bookStore/books?status=1&page={{page}}\n太监断更::https://api.yousuu.com/api/bookStore/books?status=2&page={{page}}\n短篇小说::https://api.yousuu.com/api/bookStore/books?countWord=0&page={{page}}\n中篇小说::https://api.yousuu.com/api/bookStore/books?countWord=2&page={{page}}\n长篇小说::https://api.yousuu.com/api/bookStore/books?countWord=3&page={{page}}\n玄幻::https://api.yousuu.com/api/bookStore/books?classId=2&page={{page}}\n奇幻::https://api.yousuu.com/api/bookStore/books?classId=3&page={{page}}\n武侠::https://api.yousuu.com/api/bookStore/books?classId=4&page={{page}}\n仙侠::https://api.yousuu.com/api/bookStore/books?classId=5&page={{page}}\n都市::https://api.yousuu.com/api/bookStore/books?classId=6&page={{page}}\n现实::https://api.yousuu.com/api/bookStore/books?classId=7&page={{page}}\n军事::https://api.yousuu.com/api/bookStore/books?classId=8&page={{page}}\n历史::https://api.yousuu.com/api/bookStore/books?classId=9&page={{page}}\n悬疑::https://api.yousuu.com/api/bookStore/books?classId=10&page={{page}}\n游戏::https://api.yousuu.com/api/bookStore/books?classId=11&page={{page}}\n竞技::https://api.yousuu.com/api/bookStore/books?classId=12&page={{page}}\n科幻::https://api.yousuu.com/api/bookStore/books?classId=13&page={{page}}\n灵异::https://api.yousuu.com/api/bookStore/books?classId=15&page={{page}}\n二次元::https://api.yousuu.com/api/bookStore/books?classId=14&page={{page}}\n同人::https://api.yousuu.com/api/bookStore/books?classId=16&page={{page}}\n其他::https://api.yousuu.com/api/bookStore/books?classId=29&page={{page}}\n穿越时空::https://api.yousuu.com/api/bookStore/books?classId=17&page={{page}}\n架空历史::https://api.yousuu.com/api/bookStore/books?classId=18&page={{page}}\n总裁豪门::https://api.yousuu.com/api/bookStore/books?classId=20&page={{page}}\n都市言情::https://api.yousuu.com/api/bookStore/books?classId=21&page={{page}}\n仙侠奇缘::https://api.yousuu.com/api/bookStore/books?classId=22&page={{page}}\n幻想言情::https://api.yousuu.com/api/bookStore/books?classId=23&page={{page}}\n悬疑推理::https://api.yousuu.com/api/bookStore/books?classId=24&page={{page}}\n耽美纯爱::https://api.yousuu.com/api/bookStore/books?classId=25&page={{page}}\n衍生同人::https://api.yousuu.com/api/bookStore/books?classId=26&page={{page}}\n轻小说::https://api.yousuu.com/api/bookStore/books?classId=27&page={{page}}\n综合其他::https://api.yousuu.com/api/bookStore/books?classId=28&page={{page}}",
+        "lastUpdateTime": 1668865131475,
+        "loginUrl": "https://www.yousuu.com",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "{{$..introduction}}\n\n-----------\n包含本书的书单：\n{{$..booklist[*]}}\n<js>\nresult.replace(/\\{_id=.*?, booklistId=\\{shielded=.*?,|\\}/g,'').replace(/_id=/g,'书单id：').replace(/, title=/g,'  书单名：')\n</js>\n##^-----------\\n包含本书的书单：$",
+            "tocUrl": "<js>\n\"{{$.data.bookInfo.defaultSource}}\"!=\"\"?\"https://api.yousuu.com/api/book/{{$.data.bookInfo.defaultSource}}/comment?page=1\":\"\"\n</js>"
+        },
+        "ruleContent": {
+            "content": "<js>\nfunction parseComments(n){\n  for(var c=[],e=0;e<n.length;e++){\n    var o=n[e];\n    c.push(\"@\".concat(o.createrId.userName,\"  \").concat(o.createdAt.slice(0,10),\"\\n.\\n\").concat(\"⭐\".repeat(o.score),\"  👍\").concat(o.praiseCount,\"  💬 \").concat(o.replyCount,\"\\n.\\n\").concat(o.content))\n  }\n  return c.join(\"\\n.\\n                      - - - - - - - - - - - - - - - -\\n- - - - - - - - - - - - - - - -\\n.\\n\");\n}\nfunction parseBooklist(o){\n\thtml = \"\";\n\t\n\tfor(var e=0;e<o.length;e++){\n\t\tn = o[e];\n\t\tbookname = \"《\"+n.bookId.title+\"》 作者：\"+n.bookId.author+\"\\n&lrm;\\n\"\n\t\tbookcover = \"<img src=\\\"\"+n.bookId.cover+\"\\\">\\n\\n\";\n\t\tscore =\"评分：\"+ \"⭐\".repeat(n.score);\n\t\tcontent = \"\\n评价：\"+ n.content;\n\t\thtml+=bookname+bookcover+score+content+\"\\n\"+\"--------------------\\n\"\n\t\t}\n\t\treturn html\n\t}\n\t\nvar data = JSON.parse(result);\nif(data.data.comments){\ndata.data.comments.length === 0 ? '还没有人对这本书发表评价哦！<br>｡◕‿◕｡' : parseComments(data.data.comments);\n}else{\ndata.data.books.length === 0 ? '书单里还没有书！<br>｡◕‿◕｡' :parseBooklist(data.data.books);\n\n}\n</js>"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.user-name@text||$.author||$.userName",
+            "bookList": "$.data.books\n<js>\nkey = java.get(\"key\")\nif(!key.match(/书单id：/)){\nurl = \"https://api.yousuu.com/api/search?type=booklist&value=\"+key+\"&page=\"+java.get(\"page\")+\"&highlight=0&t=1585660326647\";\na = JSON.parse(java.ajax(url)).data.booklists;\nb = JSON.parse(result);\na.forEach((x,i)=>a[i].title=\"书单 > \"+x.title);\nc = a.concat(b);\nJSON.stringify(c);\n}else{\n\tid = String(key).replace(/书单id：/,'');\tjava.setContent(java.ajax(\"https://www.yousuu.com/booklist/\"+id));\n\tjava.getElement(\"@@tag.html\")\n\t}\n</js>\ntag.html||$.[*]",
+            "bookUrl": "<js>\n\"{{$.bookId}}\"!=\"\"?\"https://api.yousuu.com/api/book/{{$.bookId}}\":\"https://api.yousuu.com/api/booklist/{{$.booklistId}}{{String(java.get('key')).match(/书单id：/)?String(java.get('key')).replace(/书单id：/,''):''}}?page=1&sort=default&classId=&t=1667321498108\"\n</js>",
+            "coverUrl": "class.card-bookInfo-cover.0@cover||$.cover||$.covers[0]",
+            "intro": "点击数:{{$.clicks}}次 共{{$.bookTotal}}本##点击数:次 共本",
+            "kind": "$.tags||$.classes[*]##classId=\\d+,|\\{|className=|\\}|, count=",
+            "lastChapter": "{{$.score}}分▪最近更新时间：{{$.updateAt}}@js:result.replace(/\\..*|^分▪/,'').replace('T|最近更新时间：$',' ')",
+            "name": "class.booklistName@text||$.title##</*em>",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "@js:\ntotal = JSON.parse(result).data.total;\npage = baseUrl.match(/page=(\\d+)/);\npages = parseInt(Number(total)/20)+1;\nlist = [];\nfor(i=1;i<=pages;i++){\n\tlist.push({\n\t\t\"n\":baseUrl.replace(/page=\\d+/,'page='+i),\n\t\t\"v\":\"第\"+String(i)+\"页\"\n\t\t})\n\t}\nlist",
+            "chapterName": "v",
+            "chapterUrl": "n",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "https://api.yousuu.com/api/search?type=title&value={{java.put(\"key\",key)}}&page={{java.put(\"page\",page)}}&highlight=0&t=1585660326647",
+        "weight": 0
+    }
+]

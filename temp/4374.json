@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "新奇书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://qishula.com",
+        "bookUrlPattern": "http://qishula.com/txt/\\d+.html",
+        "customOrder": 4,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "最新全本::/newbook/<,index_{{page}}.html>\n玄幻奇幻::/xuanhuan/<,index_{{page}}.html>\n武侠仙侠::/xianxia/<,index_{{page}}.html>\n女频言情::/yanqing/<,index_{{page}}.html>\n现代都市::/dushi/<,index_{{page}}.html>\n历史军事::/lishi/<,index_{{page}}.html>\n游戏竞技::/youxi/<,index_{{page}}.html>\n科幻灵异::/kehuan/<,index_{{page}}.html>\n精校小说::/jingjiao/<,index_{{page}}.html>",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1698641584875,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".bookcover p.0@text",
+            "coverUrl": ".bookcover img@src",
+            "downloadUrls": "text.进入下载@href<js>\njava.ajax(book.origin+result[0])\n</js>text.本地下载@href",
+            "intro": ".con@text##下载小说",
+            "kind": ".bookcover p.1:2:3:4@text##.*：",
+            "name": "h1.title@text",
+            "tocUrl": "text.在线阅读@href"
+        },
+        "ruleContent": {
+            "content": ".articlecon p@html"
+        },
+        "ruleExplore": {
+            "author": "p.1@text",
+            "bookList": ".book_list li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text##简介：",
+            "kind": "p.2:3@text",
+            "name": "p.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "li.1@text",
+            "bookList": ".item ul.listtxt!0",
+            "bookUrl": "a@href",
+            "checkKeyWord": "快穿",
+            "kind": "li.2@text",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".cataloglist a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/e/search/index.php,{\n  \"body\": \"keyboard={{key}}&show=title,writer&tbname=book&tempid=1\",\n  \"charset\": \"GB2312\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

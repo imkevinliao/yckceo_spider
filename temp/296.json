@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "💯 精品，landseer修复",
+        "bookSourceName": "神八宝",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://quapp.shenbabao.com",
+        "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
+        "concurrentRate": "",
+        "customOrder": -2085984641,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1681045868659,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "$..content",
+            "imageStyle": "0"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "$.Author",
+            "bookList": "$..data[*]",
+            "bookUrl": "https://quapp.shenbabao.com/book/{$.Id}/",
+            "checkKeyWord": "",
+            "coverUrl": "$.Img",
+            "intro": "$.Desc",
+            "kind": "$.CName&&$.BookStatus",
+            "lastChapter": "$.LastChapter",
+            "name": "$.Name@put:{a:$.Id}"
+        },
+        "ruleToc": {
+            "chapterList": "$..list[*].list[*]",
+            "chapterName": "$.name",
+            "chapterUrl": "https://quapp.shenbabao.com/book/@get:{a}/{{$.id}}.html"
+        },
+        "searchUrl": "https://souxs.pigqq.com/search.aspx?key={{key}}&page={{page}}&siteid=app2",
+        "variableComment": "https://sou.jiaston.com/search.aspx?key={{key}}&page=Page&siteid=app2",
+        "weight": 0
+    }
+]

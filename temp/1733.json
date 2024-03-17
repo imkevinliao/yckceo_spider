@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "\\s代表空格\n\\n代表换行\n简介跳转\na@href<js>java.ajax('网址'+result)</js>详情简介规则",
+        "bookSourceGroup": "练习4，修，完成",
+        "bookSourceName": "宝书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.baoshus.com",
+        "customOrder": 3,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"青春校园\",\"url\":\"/shuclass/1/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市言情\",\"url\":\"/shuclass/2/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市生活\",\"url\":\"/shuclass/3/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"网游动漫\",\"url\":\"/shuclass/4/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"穿越重生\",\"url\":\"/shuclass/5/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻未来\",\"url\":\"/shuclass/6/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"现代言情\",\"url\":\"/shuclass/7/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"玄幻魔法\",\"url\":\"/shuclass/8/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/shuclass/9/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"游戏竞技\",\"url\":\"/shuclass/10/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"武侠修真\",\"url\":\"/shuclass/11/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"武侠仙侠\",\"url\":\"/shuclass/12/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"悬疑灵异\",\"url\":\"/shuclass/13/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"恐怖灵异\",\"url\":\"/shuclass/14/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"同人小说\",\"url\":\"/shuclass/15/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"古代言情\",\"url\":\"/shuclass/16/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史军事\",\"url\":\"/shuclass/17/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"侦探推理\",\"url\":\"/shuclass/18/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"二次元\",\"url\":\"/shuclass/19/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"新书\",\"url\":\"/shuclass/20/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"其他\",\"url\":\"/shuclass/21/{{page}}\",\n\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.25}}]",
+        "lastUpdateTime": 1681099562718,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book-author.0@text",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.aui-book-intro@tag.p@textNodes",
+            "kind": "class.book-status.0@text##(.*)\\|(.*)##$1",
+            "lastChapter": "class.last-chapter.0@text",
+            "name": "class.book-name.0@text",
+            "tocUrl": "class.aui-flex aui-book-chapter@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "class.chapter-content@html",
+            "replaceRegex": "##.la\\[.*小说网\\]|\\（.*的小说\\）"
+        },
+        "ruleExplore": {
+            "author": "class.book-author@text",
+            "bookList": "class.aui-book-list@a",
+            "bookUrl": "a@href",
+            "coverUrl": "tag.img@src",
+            "intro": "href<js>java.ajax('http://www.baoshus.com'+result)</js>class.aui-book-intro@tag.p@textNodes",
+            "kind": "class.book-category@text",
+            "lastChapter": "class.chapter-name@text",
+            "name": "class.book-name@text",
+            "wordCount": "class.update-time@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book-module@text##(.*)·\\s(.*)·(.*)##$1",
+            "bookList": "class.aui-book-list@tag.a",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.book-intro@tag.p@text",
+            "kind": "class.book-module@text##(.*)·\\s(.*)·(.*)##$2",
+            "name": "class.aui-book-img@tag.img@alt"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-index-name@tag.a",
+            "chapterName": "tag.a@text##.*?\\.|.*?\\、",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://www.baoshus.com/search/{{key}}",
+        "weight": 0
+    }
+]

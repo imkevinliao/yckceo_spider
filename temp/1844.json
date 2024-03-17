@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "360小说①",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.360xs.com",
+        "bookUrlPattern": "",
+        "customOrder": -100017,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "最近更新::https://www.360xs.com/library/quanbu_lastupdate_0_0_0_0_0_0_{{page}}.html\n最新入库::https://www.360xs.com/library/quanbu_postdate_0_0_0_0_0_0_{{page}}.html\n总点击榜::https://www.360xs.com/library/quanbu_allvisit_0_0_0_0_0_0_{{page}}.html\n总推荐榜::https://www.360xs.com/library/quanbu_allvote_0_0_0_0_0_0_{{page}}.html\n总收藏榜::https://www.360xs.com/library/quanbu_goodnum_0_0_0_0_0_0_{{page}}.html\n总字数榜::https://www.360xs.com/library/quanbu_size_0_0_0_0_0_0_{{page}}.html\n全部小说::https://www.360xs.com/library/quanbu_default_0_0_0_0_0_0_{{page}}.html\n热门连载::https://www.360xs.com/library/quanbu_default_0_0_0_0_1_0_{{page}}.html\n完本小说::https://www.360xs.com/library/quanbu_default_0_0_0_0_2_0_{{page}}.html\n玄幻小说::https://www.360xs.com/library/xuanhuan_default_0_0_0_0_0_0_{{page}}.html\n奇幻小说::https://www.360xs.com/library/qihuan_default_0_0_0_0_0_0_{{page}}.html\n武侠小说::https://www.360xs.com/library/wuxia_default_0_0_0_0_0_0_{{page}}.html\n仙侠小说::https://www.360xs.com/library/xianxia_default_0_0_0_0_0_0_{{page}}.html\n言情小说::https://www.360xs.com/library/yanqing_default_0_0_0_0_0_0_{{page}}.html\n都市小说::https://www.360xs.com/library/dushi_default_0_0_0_0_0_0_{{page}}.html\n历史小说::https://www.360xs.com/library/lishi_default_0_0_0_0_0_0_{{page}}.html\n军事小说::https://www.360xs.com/library/junshi_default_0_0_0_0_0_0_{{page}}.html\n科幻小说::https://www.360xs.com/library/kehuan_default_0_0_0_0_0_0_{{page}}.html\n灵异小说::https://www.360xs.com/library/lingyi_default_0_0_0_0_0_0_{{page}}.html\n游戏小说::https://www.360xs.com/library/youxi_default_0_0_0_0_0_0_{{page}}.html\n竞技小说::https://www.360xs.com/library/jingji_default_0_0_0_0_0_0_{{page}}.html\n美文小说::https://www.360xs.com/library/meiwen_default_0_0_0_0_0_0_{{page}}.html\n同人小说::https://www.360xs.com/library/tongren_default_0_0_0_0_0_0_{{page}}.html\n其他小说::https://www.360xs.com/library/qita_default_0_0_0_0_0_0_{{page}}.html",
+        "lastUpdateTime": 1620988362298,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "coverUrl": "class.article_img@img@src",
+            "intro": "class.article_maininfo@textNodes##关键字.*",
+            "lastChapter": "class.article_maininfo@h2@a@text",
+            "tocUrl": "text.点击阅读@href"
+        },
+        "ruleContent": {
+            "content": "id.read_content@textNodes##最快更新.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.0@a@text||tag.li.0@text",
+            "bookList": "id.article_info||class.storelistbt5a",
+            "bookUrl": "a@href",
+            "coverUrl": "class.article_info_img@img@src||img@src",
+            "intro": "tag.li.7@tag.a.0@title||tag.p.1@text",
+            "kind": "tag.p.0@text||tag.li.1@a@text##.*分类：|字数.*",
+            "lastChapter": "id.newcharpter@text||tag.p.2@a@text",
+            "name": "h1@text||class.bookname@text##《|》"
+        },
+        "ruleToc": {
+            "chapterList": "id.index@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.360xs.com/search.html?searchkey={{key}}&searchtype=articlename&submit.x=34&submit.y=3,{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

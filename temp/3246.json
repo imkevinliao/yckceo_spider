@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,一般",
+        "bookSourceName": "书趣啦",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.shuqula.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/fenlei/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"玄幻魔法\",\"url\":\"/xuanhuanmofa/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"仙侠修真\",\"url\":\"/wuxiaxiuzhen/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市言情\",\"url\":\"/dushiyanqing/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"历史军事\",\"url\":\"/lishijunshi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"网游竞技\",\"url\":\"/wangyoujingji/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻灵异\",\"url\":\"/kehuanlingyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他小说\",\"url\":\"/qitaxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "lastUpdateTime": 1682136114161,
+        "loginUrl": "http://m.shuqula.com/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@a.1@text",
+            "coverUrl": "class.synopsisArea_detail@img@src",
+            "intro": "class.review@html##.*最新章节地址：.*",
+            "kind": "class.synopsisArea_detail@p.1:2:4@text##作者：|类别：|状态：|更新：",
+            "lastChapter": "class.directoryArea.0@p.0@text",
+            "name": "class.title@text"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html##本章未完.*》》",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.author.0@a@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "class.title@a@href",
+            "coverUrl": "class.lazy@data-original",
+            "intro": "class.review@a@text",
+            "kind": "",
+            "name": "class.title@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author.0@a@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "class.title@a@href",
+            "checkKeyWord": "仙者",
+            "kind": "class.author.0@ownText##\\| 作者：",
+            "lastChapter": "class.author.1@a@text",
+            "name": "class.title@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.directoryArea.1@p",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "http://m.shuqula.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+        "weight": 0
+    }
+]

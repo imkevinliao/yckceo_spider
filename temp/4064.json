@@ -1,0 +1,51 @@
+[
+    {
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "div.secd-rank-list",
+            "name": "a.bigpic-book-name@text",
+            "author": "dd p:nth-of-type(1) a:nth-of-type(1)@text",
+            "kind": "dd p a:nth-of-type(2)@text",
+            "wordCount": "em:nth-of-type(1)@text",
+            "lastChapter": "a.red@text",
+            "intro": "更新时间：\n{{@@p:nth-of-type(3) span@text}}\n简介：\n{{@@p.big-book-info@text}}",
+            "coverUrl": "img.lazyimg@data-original",
+            "bookUrl": "a.detailbtn@href"
+        },
+        "ruleBookInfo": {
+            "name": "span.name@text",
+            "author": "a.author@text",
+            "kind": "a:nth-of-type(2) span.fl@text",
+            "wordCount": ".hits span:nth-of-type(1)@text",
+            "lastChapter": ".chaptername a@text",
+            "intro": "更新时间：\n{{@@span.updatetime@text}}\n简介：\n{{@@pre@text}}",
+            "tocUrl": "baseUrl##$##\\#catalog",
+            "coverUrl": "span img@src"
+        },
+        "ruleToc": {
+            "chapterList": ".cate-list a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": ".read-content p:nth-of-type(n+2)@text"
+        },
+        "ruleReview": [],
+        "ruleExplore": {
+            "bookList": "div.secd-rank-list",
+            "name": "a.bigpic-book-name@text",
+            "bookUrl": "a.bigpic-book-name@href",
+            "lastChapter": "a.red@text",
+            "intro": "更新时间：\n{{@@p:nth-of-type(3) span@text}}\n简介：\n{{@@p.big-book-info@text}}",
+            "coverUrl": "img.lazyimg@data-original",
+            "kind": "dd p a:nth-of-type(2)@text",
+            "author": "dd p:nth-of-type(1) a:nth-of-type(1)@text",
+            "wordCount": ""
+        },
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ysg0.com/",
+        "bookSourceName": "盐神阁",
+        "searchUrl": "https://www.ysg0.com/search.html?keyword={{key}}",
+        "exploreUrl": "[\n{\"title\":\"点击日榜\",\"url\":\"/other/rank_hits/order/hits_day.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击周榜\",\"url\":\"/other/rank_hits/order/hits_week.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击月榜\",\"url\":\"/other/rank_hits/order/hits_month.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击总榜\",\"url\":\"/other/rank_hits/order/hits.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书榜\",\"url\":\"/other/rank_hits/newbook/1.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完结榜\",\"url\":\"/other/rank_hits/over/1.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]"
+    }
+]

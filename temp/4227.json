@@ -1,0 +1,38 @@
+[
+    {
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "div.bookbox:nth-of-type(n+4)",
+            "name": ".iTit a@text",
+            "bookUrl": ".iTit a@href",
+            "coverUrl": "img@src",
+            "author": "div.author@text",
+            "lastChapter": ".update a@text",
+            "intro": "div.intro_line@text##简介："
+        },
+        "ruleBookInfo": {
+            "init": "",
+            "name": "h2 a@text",
+            "author": "p:nth-of-type(3)@text",
+            "kind": "p:nth-of-type(4) a@text",
+            "intro": "{{@@p:nth-of-type(5)@text}}\n{{@@p:nth-of-type(6)@text}}\n{{@@div.intro_info@text}}",
+            "lastChapter": "p:nth-of-type(7) a@text",
+            "coverUrl": ".block_img2 img@src"
+        },
+        "ruleToc": {
+            "chapterList": "ul:nth-of-type(2) a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "div#nr1@html##ъìＱυＧΕtＶ.net|！ъìＱυＧΕtＶ.net",
+            "nextContentUrl": "text.下一章@href"
+        },
+        "ruleReview": [],
+        "ruleExplore": [],
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.biqugetv.org/",
+        "bookSourceName": "笔趣TV",
+        "searchUrl": "https://m.biqugetv.org/search.php?keyword={{key}}&submit="
+    }
+]

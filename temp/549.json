@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceUrl": "https://qbtr.cc",
+        "bookSourceType": "0",
+        "bookSourceName": "全本同人小说网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "gone",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+        "exploreUrl": "",
+        "enabled": false,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": -88917394,
+        "lastUpdateTime": 1645854362787,
+        "ruleSearch": {
+            "bookList": "div.bk",
+            "name": "h3 a@text",
+            "author": "div.booknews@textNodes",
+            "kind": "label@text",
+            "intro": "p@all##简介：",
+            "bookUrl": "h3 a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "h1@text",
+            "author": ".date span@text##作者：",
+            "kind": "div.date@textNodes##日期：",
+            "intro": "p@all"
+        },
+        "ruleToc": {
+            "chapterList": ".clearfix li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": ".read_chapterDetail p@all"
+        }
+    }
+]

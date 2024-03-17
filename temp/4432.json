@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceName": "天天看小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ttkan.co/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄幻::https://cn.ttkan.co/novel/class/xuanhuan/<,index_{{page}}>\n都市::https://cn.ttkan.co/novel/class/dushi/<,index_{{page}}>\n仙侠::https://cn.ttkan.co/novel/class/xianxia/<,index_{{page}}>\n言情::https://cn.ttkan.co/novel/class/gudaiyanqing/<,index_{{page}}>\n穿越::/chuanyuechongsheng/<,index_{{page}}>\n游戏::https://cn.ttkan.co/novel/class/youxi/<,index_{{page}}>\n科幻::https://cn.ttkan.co/novel/class/kehuan/<,index_{{page}}>\n灵异::https://cn.ttkan.co/novel/class/linglingyi/<,index_{{page}}>\n悬疑::https://cn.ttkan.co/novel/class/xuanyi/<,index_{{page}}>\n其他::https://cn.ttkan.co/novel/class/qita/<,index_{{page}}>",
+        "lastUpdateTime": 1699706658626,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "tag.a.7@text",
+            "coverUrl": "class.novel_info@amp-img@src",
+            "intro": "p@text",
+            "kind": "",
+            "lastChapter": "class.near_chapter@all",
+            "name": "h1@text",
+            "tocUrl": "id.button_show_all_chatper@on\n@js:\nresult=result.match(/srcUrl: '([^']+)'/)[1];\njava.put('novelid',result.match(/novel_id=(.*)/)[1]);\nresult"
+        },
+        "ruleContent": {
+            "content": "class.content@p@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "li.0@text",
+            "bookList": "class.pure-u-1-1 pure-u-xl-1-3 pure-u-lg-1-3 pure-u-md-1-2 novel_cell",
+            "bookUrl": "a@href",
+            "coverUrl": "amp-img@src",
+            "intro": "li.2@text",
+            "kind": "",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "$.items[*]",
+            "chapterName": "$.chapter_name",
+            "chapterUrl": "$.chapter_id\n@js:\nid=result;\nnovelid=java.get('novelid');\n'https://www.ttkan.co/novel/user/page_direct?novel_id='+novelid+'&page='+id"
+        },
+        "searchUrl": "https://www.ttkan.co/novel/search?q={{key}}",
+        "weight": 0
+    }
+]

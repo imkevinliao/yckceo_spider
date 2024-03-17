@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "手机电子书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.waptxt.org",
+        "bookUrlPattern": "https://m.waptxt.org/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuan/{{page}}/\n仙侠小说::/wuxia/{{page}}/\n都市小说::/dushi/{{page}}/\n历史小说::/junshi/{{page}}/\n游戏小说::/game/{{page}}/\n科幻小说::/kehuan/{{page}}/\n女生小说::/girl/{{page}}/\n其他小说::/qita/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1690344648706,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@a.2@text",
+            "coverUrl": ".block_img2@img@src",
+            "intro": ".intro_info@text\n##最新章节推荐地址：.*",
+            "kind": ".block_txt2@p.3:4:5@text\n##分类：|状态：|更新：",
+            "lastChapter": ".block_txt2@a.-1@text",
+            "name": ".block_txt2@h2@text",
+            "tocUrl": "{{baseUrl}}list_1/"
+        },
+        "ruleContent": {
+            "content": "#nr1@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章未完.*继续阅读|【.*app.+】"
+        },
+        "ruleExplore": {
+            "author": "a.-1@text",
+            "bookList": ".block2",
+            "bookUrl": "a.2@href",
+            "coverUrl": "img@src",
+            "intro": "p.-1@text",
+            "kind": "p.-2@text##状态：",
+            "name": "h3@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".line",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "kind": "ownText##\\[|\\]|\\/",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "@js:\npage=result.match(/\\(第\\d+\\/(\\d+)页\\)当前\\d+条\\/页/)[1];\nlist=[];for(i=2;i<=page;i++){\n\tlist.push(baseUrl.replace(/_1/,'_'+i))\n\t}\n\tlist;"
+        },
+        "searchUrl": "https://m.waptxt.org/search.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

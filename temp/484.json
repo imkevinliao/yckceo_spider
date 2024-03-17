@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "谜题小说网👿",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.mitixs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "                        🌹全本小说🌹                     ::\n全本小说::http://www.mitixs.com/quanben/sort/{{page}}/\n玄幻魔法::http://www.mitixs.com//quanben/sort/1/{{page}}/\n武侠修真::http://www.mitixs.com//quanben/sort/2/{{page}}/\n言情小说::http://www.mitixs.com//quanben/sort/3/{{page}}/\n历史军事::http://www.mitixs.com//quanben/sort/4/{{page}}/\n科幻灵异::http://www.mitixs.com//quanben/sort/5/{{page}}/\n游戏竞技::http://www.mitixs.com//quanben/sort/6/{{page}}/\n耽美小说::http://www.mitixs.com//quanben/sort/7/{{page}}/\n其他类型::http://www.mitixs.com//quanben/sort/8/{{page}}/\n                       🌹小说书库🌹                      ::\n书库小说::http://www.mitixs.com/sort/{{page}}/\n玄幻魔法::http://www.mitixs.com/sort/1/{{page}}/\n武侠修真::http://www.mitixs.com/sort/2/{{page}}/\n言情小说::http://www.mitixs.com/sort/3/{{page}}/\n历史军事::http://www.mitixs.com/sort/4/{{page}}/\n科幻灵异::http://www.mitixs.com/sort/5/{{page}}/\n游戏竞技::http://www.mitixs.com/sort/6/{{page}}/\n耽美小说::http://www.mitixs.com/sort/7/{{page}}/\n其他类型::http://www.mitixs.com/sort/8/{{page}}/",
+        "lastUpdateTime": 1648531249877,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "",
+            "kind": "{{@@.breadcrumb@li.1@text}},{{@@.blue.1@text}},{{@@.red.1@text}}",
+            "lastChapter": "{{@@.bookchapter@text##页##章}}     {{@@.booktime@text}}"
+        },
+        "ruleContent": {
+            "content": ".readcontent@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": "",
+            "wordCount": ".author.2@text||class.author.1@text"
+        },
+        "ruleSearch": {
+            "author": ".author.0@text",
+            "bookList": ".bookbox",
+            "bookUrl": "a@href",
+            "coverUrl": "a@href\n<js>\nd=result.match(/mitixs\\/(.*)\\//)[1];\n\n\ns=d.match(/([0-9]{3})/)[1];\n\nd=d-4\n\n\nsrc='http://aila.cps88.cc/'+s+'/'+d+'/'+d+'s.jpg'\n</js>\n",
+            "intro": ".update@text##简介：",
+            "kind": ".author.2@text",
+            "lastChapter": ".cat@text",
+            "name": ".bookname@a@text",
+            "wordCount": ".author.1@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": ".chapterlist@tag.div.1@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "http://www.mitixs.com/search/,{\n  \"body\": \"searchkey={{key}}&submit=\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

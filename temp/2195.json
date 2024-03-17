@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "#class.sousuojieguo\n#class.section_list\n#\n————\nhttps://aavbook.club\nhttps://aabook.cc\nhttps://aabook.xyz\nhttps://aabook.work\nhttps://aastory.space\nhttps://aastory.club",
+        "bookSourceGroup": "",
+        "bookSourceName": "疯情书库~aabook",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.aabook.work/",
+        "bookUrlPattern": ".+\\?id=\\d+",
+        "customOrder": -100001,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "新书::/ranking.php?t=newbook\n字数::/ranking.php?t=totalword\n单篇::/category.php?t=danpian&p={{page}}\n点击::/category.php?ob=click&p={{page}}\n更新::/category.php?ob=update&p={{page}}\n玄幻::/category.php?t=xuanhuan&p={{page}}\n职场::/category.php?t=zhichang&p={{page}}\n古典::/category.php?t=gudian&p={{page}}\n惊悚::/category.php?t=jingsong&p={{page}}\n网游::/category.php?t=wangyou&p={{page}}\n乡土::/category.php?t=xiangtu&p={{page}}\n历史::/category.php?t=lishi&p={{page}}\n耽美::/category.php?t=danmei&p={{page}}\n女尊::/category.php?t=nvzun&p={{page}}\n穿越::/category.php?t=chuanyue&p={{page}}\n同人::/category.php?t=tongren&p={{page}}\n校园::/category.php?t=xiaoyuan&p={{page}}\n言情::/category.php?t=yanqing&p={{page}}\n官场::/category.php?t=guanchang&p={{page}}\n异能::/category.php?t=yineng&p={{page}}\n都市::/category.php?t=dushi&p={{page}}\n武侠::/category.php?t=wuxia&p={{page}}\n仙侠::/category.php?t=xianxia&p={{page}}",
+        "header": "",
+        "lastUpdateTime": 1615872992030,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.index_info@text##作者：",
+            "coverUrl": "class.nav@tag.a.-1@href##id=(\\d+)##/img-$1.jpg###",
+            "intro": "meta[name=\"Description\"]@content##.+内容简介：",
+            "kind": "",
+            "lastChapter": "class.section_list.-1@tag.a.-1@text",
+            "name": "tag.h1@text",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nm=baseUrl.match(/(.+)read\\.php\\?id=(\\d+)/);\nn=result.match(/\\.([^\"]+)\"\\+chapid\\+\"([^\"]+)/);\nresult=java.ajax(m[1]+n[1]+m[2]+n[2]);\nString(result).replace(/<(\\w+) class=.+?>.+?<\\/\\1>/g,'')</js>tag.p@html",
+            "imageStyle": "",
+            "nextContentUrl": "",
+            "replaceRegex": "##(?<=\\w：)\\s+(?=“\\w)|(?<=\\w，[”」]|[，、《（【［「『])\\s+|\\s+(?=[\\n，、：；》）】］」』])",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "tag.td.3@text",
+            "bookList": "tag.tbody@tag.tr",
+            "bookUrl": "tag.a.0@href##book(?=\\.)##archive",
+            "kind": "tag.td.1@text&&tag.td.5@text##[\\[\\]]|\\s.*",
+            "name": "tag.a.0@text##^([^【（]+)[【（].+##$1",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": "+class.sousuojieguo@tag.ul.0@tag.li",
+            "bookUrl": "tag.a.0@href##book(?=\\.)##archive",
+            "coverUrl": "tag.a.0@href##id=(\\d+)##/img-$1.jpg###",
+            "kind": "textNodes&&tag.cite@text##小说|[\\[\\]]",
+            "name": "tag.a.0@text##^([^【（]+)[【（].+##$1"
+        },
+        "ruleToc": {
+            "chapterList": "+class.section_list@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "updateTime": "title"
+        },
+        "searchUrl": "/search.php?searchword={{key}}",
+        "weight": 0
+    }
+]

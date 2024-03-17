@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🍩精品",
+        "bookSourceName": "🍩 婷阅中文",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tyue.me",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/sort/1_{{page}}/\n武侠修真::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n侦探推理::/sort/5_{{page}}/\n网游动漫::/sort/6_{{page}}/\n科幻小说::/sort/7_{{page}}/\n恐怖灵异::/sort/8_{{page}}/\n散文诗词::/sort/9_{{page}}/\n其他类型::/sort/10_{{page}}/\n全本小说::/sort/0_{{page}}/",
+        "lastUpdateTime": 1619395966454,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "kind": "class.sort@text##\\类别|\\：|",
+            "lastChapter": "class.recommend@tag.div.0@tag.p.0@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@textNodes##手机访问.*|附.*|【.*|。♂狂♂人♂小♂说.*|&&lt;/p&&gt;|。♂丝♂路♂文♂学.*|&&amp;|8195;|本章未完.*|天才一秒记住.*|♂狂♂人♂小♂说.*|，精彩小说无弹窗免费阅读！",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "class.author@text",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.img@data-original",
+            "intro": "class.review@text",
+            "lastChapter": "",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.topul@li",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "img@src",
+            "intro": "tag.p@text",
+            "name": "h2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.recommend@div@p",
+            "chapterName": "text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.tyue.me/s.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&t={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

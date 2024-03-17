@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "网源备份",
+        "bookSourceName": "风华居网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.fenghuaju.com",
+        "bookUrlPattern": "https://m.fenghuaju.com/index/\\d+/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻魔法\",\n\t\"url\":\"/xs/xuanhuan/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠修真\",\n\t\"url\":\"/xs/wuxia/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市言情\",\n\t\"url\":\"/xs/dushixiaoshuo/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史军事\",\n\t\"url\":\"/xs/lishi/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻灵异\",\n\t\"url\":\"/xs/kehuan/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"游戏竞技\",\n\t\"url\":\"/xs/youxi/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"女生小说\",\n\t\"url\":\"/xs/nvsheng/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"其他类型\",\n\t\"url\":\"/xs/qita/{{page}}/\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\n\t\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1663161502188,
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+        "loginUrl": "https://m.fenghuaju.com/login/",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html@js:result+\"🚫\"",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##\\s*🚫\\s*|『章节错误,点此举报』\\s*|\\s*『加入书签，方便阅读』"
+        },
+        "ruleExplore": {
+            "author": "class.author@text##作者.|（.*\\d+）",
+            "bookList": "class.hot_sale",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "@js:\"https://m.fenghuaju.com/static/3in1_bqg/nocover.jpg\"",
+            "intro": "class.review@text##简介.",
+            "kind": "0",
+            "name": "class.title@text"
+        },
+        "ruleSearch": {
+            "author": "class.author.0@text##作者.",
+            "bookList": "class.bookbox",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "kind": "class.author.1@text##类型.",
+            "lastChapter": "class.update@a@text",
+            "name": "class.iTit@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.directoryArea!0@tag.p",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "option!0@value"
+        },
+        "searchUrl": "https://m.fenghuaju.com/search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&submit=\"\n}",
+        "weight": 0
+    }
+]

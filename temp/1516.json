@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "网站延迟\n请求头不确定有效期多长",
+        "bookSourceName": "一读小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.121du.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "header": "{\n\t'cookie':'t=506479e350d38719802e162e49850d24; r=3107',\n\t'referer':'/'\n\t}",
+        "lastUpdateTime": 1668075256109,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "canReName": "1",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "div.book-intro@ownText##(^|[。！？\\s]+[”」）】]?)##$1<br>",
+            "kind": "[property~=status|category|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "div#BookText@html"
+        },
+        "ruleSearch": {
+            "author": "dd.book_other@span.0@text",
+            "bookList": "dl",
+            "bookUrl": "h3@a@href",
+            "coverUrl": "dt@img@data-src",
+            "intro": "dd.book_des@text##简介：|\\[详细]",
+            "kind": "dd.book_other@span.1:2@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl.chapterlist.clearfix@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/?wd={{key}},{\n\t\"referer\":\"https://m.121du.net/search/?wd={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

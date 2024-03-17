@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "自制,优质,精品,源仓库,网页源",
+        "bookSourceName": "看书先生",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://kans.hu/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1682411109994,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".video-info-actor@a@text",
+            "coverUrl": ".lazyload@data-src",
+            "downloadUrls": ".video-info-downbtn@href",
+            "intro": ".video-info-content@span@text",
+            "kind": ".video-info-aux@text",
+            "lastChapter": ".video-info-item.5@text",
+            "name": "h1@text",
+            "wordCount": ".video-info-item.2@text"
+        },
+        "ruleContent": {
+            "content": ".read-content@p@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".video-info-actor@a@text",
+            "bookList": ".module-search-item",
+            "bookUrl": "h3@a@href",
+            "checkKeyWord": "高天",
+            "coverUrl": "img@data-src",
+            "intro": ".video-info-item.2@text",
+            "kind": ".video-info-aux@text&&.video-info-item.1@text",
+            "lastChapter": ".video-serial@text##更新至",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".scroll-content.2@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.html?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

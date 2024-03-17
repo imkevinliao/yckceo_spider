@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "by 十一",
+        "bookSourceGroup": "漫画",
+        "bookSourceName": "韩漫居",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.hanmanju.com/",
+        "customOrder": -185613,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\"\n\t}",
+        "lastUpdateTime": 1651228074652,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "lastChapter": "class.detail-list-1@li.-1@a@text"
+        },
+        "ruleContent": {
+            "content": "id.cp_img@html",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "class.book-list-info-bottom-item@text##作者：",
+            "bookList": "class.book-list@li",
+            "bookUrl": "class.book-list-info@a@href",
+            "coverUrl": "class.book-list-cover@a@img@data-original",
+            "intro": "class.ook-list-info-desc@text",
+            "kind": "class.book-list-info-bottom-right-font@text",
+            "name": "class.book-list-info-title@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.detail-list-select@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.hanmanju.com/search?keyword={{key}},{\n\t\"charset\":\"utf-8\"\n\t}",
+        "weight": 0
+    }
+]

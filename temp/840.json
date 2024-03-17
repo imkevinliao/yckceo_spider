@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "By Shinki",
+        "bookSourceGroup": "轻小说🌈",
+        "bookSourceName": "亲小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.qinxiaoshuo.com/",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "日轻小说::/books/日轻/default/{{page}}.html\n原创小说::/books/原创/default/{{page}}.html\n同人小说::/books/同人/default/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1639361924779,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "http://www.qinxiaoshuo.com/login/",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.right@div.0@div.1@a@text##作者：",
+            "coverUrl": "class.volume_info@src",
+            "intro": "class.intro@text",
+            "lastChapter": "class.right@div.2@div.1##最新章节：",
+            "name": "class.right@h1@text"
+        },
+        "ruleContent": {
+            "content": "class.message@tag.div.0@html",
+            "replaceRegex": "##[查看目录.*|<o:p>.*?</o:p>|阅读器设置]"
+        },
+        "ruleExplore": {
+            "author": "class.items@div.1@text##作者: ",
+            "bookList": "class.book",
+            "bookUrl": "class.items@h3@a@href",
+            "coverUrl": "class.book_img@src",
+            "intro": "class.intro right@text",
+            "kind": "class.box_content@h2@text",
+            "lastChapter": "class.items@div.4@text##最新章节: ",
+            "name": "class.items@h3@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.items@div.1@text##作者: ",
+            "bookList": "class.book",
+            "bookUrl": "class.items@h3@a@href",
+            "coverUrl": "class.book_img@src",
+            "intro": "class.intro right@text",
+            "lastChapter": "class.items@div.4@text##最新章节: ",
+            "name": "class.items@h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter",
+            "chapterName": "a.0@text",
+            "chapterUrl": "a.0@href"
+        },
+        "searchUrl": "/search/{{key}}/{{page}}.html",
+        "weight": 0
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "轻小说📗",
+        "bookSourceName": "哔哩轻小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.linovelib.com",
+        "customOrder": -302725,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{'title':'全部榜单','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'点击总榜','url':'/wenku/allvisit_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'点击月榜','url':'/wenku/monthvisit_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'点击周榜','url':'/wenku/weekvisit_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'推荐总榜','url':'/wenku/allvote_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'推荐月榜','url':'/wenku/monthvote_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'推荐周榜','url':'/wenku/weekvote_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结总点','url':'/wenku/allvisit_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结月点','url':'/wenku/monthvisit_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结周点','url':'/wenku/weekvisit_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结总推','url':'/wenku/allvote_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结月推','url':'/wenku/monthvote_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完结周推','url':'/wenku/weekvote_0_0_0_0_0_0_5_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'收藏榜单','url':'/wenku/goodnum_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'字数榜单','url':'/wenku/words_0_0_0_0_0_0_0_{{page}}_0.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'新书榜单','url':'/top/newhot/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'全部文库','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'电击文库','url':'/wenku/dengekibunko//{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'角川文库','url':'/wenku/kadokawabunko/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'少女文库','url':'/wenku/teenagebunko/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'GA文库','url':'/wenku/gagraphicbunko/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'HJ文库','url':'/wenku/hobbyjapanbunko/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'MF文库J','url':'/wenku/emuefubunkojei/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'富士见文库','url':'/wenku//fujimibunko/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'Fami通文库','url':'/wenku/famitsubunko/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':' 小  学  馆 ','url':'/wenku/shogakukan/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':' 集  英  社 ','url':'/wenku/shueisha/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':' 讲  谈  社 ','url':'/wenku/kodansha/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':' 一  迅  社 ','url':'/wenku/ichijinsha/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'其他文库','url':'/wenku/other/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'轻改漫画','url':'/wenku/comic/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'这是空的','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}}]",
+        "lastUpdateTime": 1635950300090,
+        "loginUrl": "https://m.linovelib.com/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.book-rand-a@tag.span.0@text",
+            "coverUrl": "class.book-detail-info@class.book-layout@tag.img.0@src",
+            "intro": "<js>\nresult=\n'分类：'+\nString(java.getString('class.tag-small orange@html&&class.tag-small gray@html')).replace(/,/g,' / ')\n+'\\n标签：'+\nString(java.getString('class.tag-small-group origin-left@class.red@html')).replace(/\\s/g,'，')\n+'\\n状态：'+\njava.getString('class.book-cell@tag.p.1@ownText##.*万字')\n+'\\n字数：'+\njava.getString('class.book-cell@tag.p.1@ownText##连载|完结')\n+'\\n更新时间：'+\njava.getString('class.gray ell@text##·.*')\n+'\\n-------------------------------------------------\\n'+\njava.getString('id.bookSummary@tag.content@textNodes');\n</js>",
+            "kind": "<js>result=String(result).replace(/<\\/em><em[^>]*>/g,\" / \")</js>\nclass.tag-small-group origin-left@text&&\nclass.book-cell@tag.p.1@textNodes",
+            "lastChapter": "class.gray ell@text##.*·",
+            "name": "class.book-title.0@text\n@js:java.put('sm',result.replace(/\\s/g,' '))",
+            "tocUrl": "class.btn-normal red@href"
+        },
+        "ruleContent": {
+            "content": "<js>\nresult=!baseUrl.match(/google/)?\njava.getString('id.acontent@html'):baseUrl.match(/text=(.*)/)[1];\nresult = String(result).replace(/<img\\sa+[^>]+>/ig, '<p>〖插图，2.0暂不支持〗</p>');\n</js>",
+            "nextContentUrl": "##url_next:'([^']*)'##$1###",
+            "replaceRegex": "##\\s*\\（继续下一页\\）\\s*|\\s*\\（本章未完\\）\\s*"
+        },
+        "ruleExplore": {
+            "author": "class.book-author@ownText",
+            "bookList": "class.book-li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.book-desc@text",
+            "kind": "class.tag-small-group origin-right@em@text",
+            "name": "class.book-title@text"
+        },
+        "ruleSearch": {
+            "author": "class.book-author@text##作者",
+            "bookList": "class.book-ol book-ol-normal@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.book-desc@text",
+            "kind": "<js>result=String(result).replace(/<\\/em><em[^>]*>/g,\" / \")</js>\nclass.tag-small-group origin-right@text",
+            "name": "class.book-title@text"
+        },
+        "ruleToc": {
+            "chapterList": "//ol/*<js>\n//按卷分隔\nsub=String(result).slice(1,-1).split(/, (?=<li class=\"chapter-bar chapter-li\")/);\ner=0;\nsm=java.getString(\"class.header-back-title@text\");\n//显示卷名\nvar opts = {\n  showVolName: false\n};\nif(sub.length>=1)for(var i=0;i<sub.length;i++){\n//捕获卷名\njm=sub[i].match(/\\s*([^<>\\n]+)\\s*<\\/li/);\nif(!jm)continue;\n\n//插入卷名\nsub[i]=sub[i]\n.replace(/html([^>]*)><span([^>]*)>/g,(opts.showVolName ? 'html$1><span$2>['+jm[1]+']' :'html$1><span$2>'+ ('').padStart(3, \"\\u2000\")))\n\n.replace(/javascript\\:cid\\(0\\)([^>]*)><span([^>]*)>/g,(opts.showVolName ? 'javascript:cid(0)\\\\'+jm[1]+'$1><span$2>['+jm[1]+']❗' :'javascript:cid(0)\\\\'+jm[1]+'$1><span$2>'+ ('').padStart(3, \"\\u2000\")));\n\n//按卷分块\nsub[i]='<a href=\"https://translate.google.cn/#view=home&op=translate&sl=zh-CN&tl=en&text='+sm+'\\\\'+jm[1]+'\">['+jm[1]+']</a>'+sub[i]\n};\n//合并结果\nsub.join(\"\");\n\n//检查灰色章节\nsub_gray=String(sub).split(/(?=<a href=\"javascript\\:cid\\(0\\))/);\n\nfor(var j=0;j<sub_gray.length;j++){\nsub_gray[j]=sub_gray[j]\n.replace(/href=\"javascript\\:cid\\(0\\)([^\"]*)\"([^>]*)><span([^>]*)>(\\s*)([^<]*)/g,'href=\"https://translate.google.cn/#view=home&op=translate&sl=zh-CN&tl=en&text='+sm+'$1'+'\\\\'+\"灰色章节：\"+(er++)+'\"$2><span$3>$4$5');\n}\n\nsub_gray.join(\"\");\n\n</js>a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "<js>\nif(searchPage==1)\n{'https://m.linovelib.com/sa/@searchkey={{key}}&searchtype=all'}\nelse\n{'https://m.linovelib.com/sa/searchKey/searchPage.html'}\n</js>",
+        "weight": 0
+    }
+]

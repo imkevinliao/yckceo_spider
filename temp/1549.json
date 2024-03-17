@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceName": "飘天文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.piaotianwenxue.com/",
+        "customOrder": 7,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1671317260738,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//meta[@property=\"og:novel:author\"]/@content",
+            "coverUrl": "//meta[@property=\"og:image\"]/@content",
+            "intro": "//meta[@property=\"og:description\"]/@content",
+            "kind": "//meta[@property=\"og:novel:category\"]/@content",
+            "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content&&//meta[@property=\"og:novel:update_time\"]/@content##\\n##•\n<js>result.replace(/(.*)\\s/,'$1 • ')</js>\n<js>result.replace(/\\s\\d+:\\d+:\\d+/,'')</js>",
+            "name": "//meta[@property=\"og:title\"]/@content"
+        },
+        "ruleContent": {
+            "content": "class.panel-body@p@text",
+            "replaceRegex": "##.*野果阅读.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.table@tr!0",
+            "bookUrl": "class.odd.0@tag.a@href",
+            "coverUrl": "class.odd.0@tag.a@href\n<js>java.ajax(''+result)</js>\n//meta[@property=\"og:image\"]/@content",
+            "intro": "class.odd.0@tag.a@href\n<js>java.ajax(''+result)</js>\n//meta[@property=\"og:description\"]/@content",
+            "kind": "",
+            "lastChapter": "class.hidden-xs.0@text&&class.hidden-xs.1@text",
+            "name": "class.odd.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.panel-body panel-chapterlist@class.col-md-3",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.piaotianwenxue.com/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

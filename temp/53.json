@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "文学五一",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.regou6.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"https://www.regou6.com/sort/1-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"武侠\",\"url\":\"https://www.regou6.com/sort/2-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市\",\"url\":\"https://www.regou6.com/sort/3-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"穿越\",\"url\":\"https://www.regou6.com/sort/4-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻\",\"url\":\"https://www.regou6.com/sort/5-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"网游\",\"url\":\"https://www.regou6.com/sort/6-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"其他\",\"url\":\"https://www.regou6.com/sort/7-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
+        "lastUpdateTime": 1664023978039,
+        "respondTime": 2588,
+        "ruleBookInfo": {
+            "author": ".divbox > div > div.0@text##作者：|\\s*类别：.*",
+            "coverUrl": ".divbox@img@src",
+            "intro": "div.gray@html##尒説.*",
+            "kind": ".divbox > div > div.0@text##.*类别：(\\S*)\\s*状态：(\\S*)\\s/\\s更新时间：(\\S*)\\s/\\s举报错误##$1,$2,$3",
+            "lastChapter": ".ccss.-1@a@text",
+            "name": "h2@text"
+        },
+        "ruleContent": {
+            "content": "div.ccontent@html"
+        },
+        "ruleExplore": {
+            "author": "p.gray:nth-of-type(3)@text##\\s类型：.*",
+            "bookList": ".ultwo@li",
+            "bookUrl": "a.aname@href",
+            "intro": "p.gray:nth-of-type(4)@text##尒説.*",
+            "kind": "span.aflag@text&&p.gray:nth-of-type(3)@text##.*类型：",
+            "lastChapter": "p:nth-of-type(2)@a@text",
+            "name": "a.aname@text"
+        },
+        "ruleSearch": {
+            "author": "td:nth-of-type(3)@text",
+            "bookList": "tr!0",
+            "bookUrl": ".odd@a@href",
+            "kind": "td.even[align]@text&&td.odd[align]@text",
+            "lastChapter": ".even@a@text",
+            "name": ".odd@a@text",
+            "wordCount": "td:nth-of-type(4)@text"
+        },
+        "ruleToc": {
+            "chapterList": ".ccss@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchtype=articlename&searchkey={{key}}&t_btnsearch=&page={{page}}\"\n}",
+        "weight": 0
+    }
+]

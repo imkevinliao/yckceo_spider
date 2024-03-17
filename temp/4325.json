@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🇨🇳R18+",
+        "bookSourceName": "小强小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xiaoqiangla.com/",
+        "bookUrlPattern": "",
+        "customOrder": 7543,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "高辣::/sort/1/{{page}}/\n百合::/sort/2/{{page}}/\n情欲::/sort/4/{{page}}/\n海棠::/sort/6/{{page}}/\n其他::/sort/8/{{page}}/",
+        "header": "",
+        "lastUpdateTime": 1698298278607,
+        "loginUrl": "",
+        "respondTime": 16300,
+        "ruleBookInfo": {
+            "author": ".bookinfo@td.1@p.1@text##作者：",
+            "coverUrl": "tag.img@src",
+            "intro": ".intro@p@text",
+            "kind": ".bookinfo@td.1@p.2@text##类别：",
+            "lastChapter": "valign.top@p.5@text",
+            "name": "strong@text",
+            "tocUrl": "class.more@a@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@text",
+            "nextContentUrl": ".next@a@href"
+        },
+        "ruleExplore": {
+            "author": ".article@p@text##作者:",
+            "bookList": ".list-item",
+            "bookUrl": ".article@a.0@href",
+            "intro": ".article@a.1@text",
+            "name": ".article@a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.0@text",
+            "bookList": ".list-item",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "乡村",
+            "intro": "span.2@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".last9@li!0",
+            "chapterName": "@tag.a@text",
+            "chapterUrl": "a@href",
+            "isVip": ""
+        },
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}\n/search/,\n{\n \"charset\":\"UTF-8\",\n \"method\": \"POST\",\n \"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+        "weight": 0
+    }
+]

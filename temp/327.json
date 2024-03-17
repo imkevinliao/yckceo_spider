@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自用",
+        "bookSourceName": "⭕️笔趣阁②",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.biqudu.net/",
+        "customOrder": -2394,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1652886297286,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=og:novel:author]@content",
+            "coverUrl": "[property=og:image]@content",
+            "init": "meta",
+            "intro": "[property=og:description]@content",
+            "kind": "[property=og:novel:category],[property=og:novel:status],[property=og:novel:update_time]@content",
+            "lastChapter": "[property=og:novel:update_time],[property=og:novel:latest_chapter_name]@content",
+            "name": "[property=og:novel:book_name]@content",
+            "tocUrl": ".intro@tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html##笔趣阁网址：m.biqudu.net（看完记得收藏哦 ! 感谢 您的支持!)",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": ".iTit@tag.a@href",
+            "coverUrl": "",
+            "intro": ".intro_line@text",
+            "lastChapter": ".update@a@text##",
+            "name": ".iTit@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter@li",
+            "chapterName": "tag.a@text##【.|】",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": ".intro@tag.a@href"
+        },
+        "searchUrl": "https://m.biqudu.net/SearchBook.php?keyword={{key}}&submit={{}}",
+        "weight": 0
+    }
+]

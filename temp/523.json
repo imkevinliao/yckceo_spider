@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "正文图片替换修复",
+        "bookSourceGroup": "",
+        "bookSourceName": "第一版主",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.sinodan.link",
+        "bookUrlPattern": "",
+        "customOrder": -4,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "新更新::/book/9939_{{page}}.html\n总人气::/book/1_9939_{{page}}.html\n月人气::/book/2_9939_{{page}}.html\n新入库::/book/3_9939_{{page}}.html\n字数榜::/book/4_9939_{{page}}.html",
+        "lastUpdateTime": 1646402762764,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".info@text##作者：(.*?) ##$1###",
+            "coverUrl": "class.left@img@src",
+            "init": "",
+            "intro": ".book-intro@html",
+            "kind": "{{@@.info@text##类型：(.*?) ##$1###}},{{@@.status@text}}",
+            "lastChapter": ".list.0@a.0@text",
+            "name": "tag.h1@text",
+            "wordCount": ".info@text##字数：(.*?) ##$1###"
+        },
+        "ruleContent": {
+            "content": "id.nr1@html\n<js>\nm=[];n=[];\nfunction x(a,b){m.push(a);n.push(b)}\n\nresult=result.replace(/<em class=\"(.*?)\"><\\/em>/g,\"#$1#\")\n// 逐条添加：\nx(/#class属性#/gi,\"对应文本\");\nx(/#n_1#/gi,\"男\");\nx(/#n_2#/gi,\"人\");\nx(/#n_3#/gi,\"啊\");\nx(/#n_4#/gi,\"爱\");\nx(/#n_5#/gi,\"按\");\nx(/#n_6#/gi,\"暴\");\nx(/#n_7#/gi,\"臀\");\nx(/#n_8#/gi,\"逼\");\nx(/#n_9#/gi,\"擦\");\nx(/#n_10#/gi,\"潮\");\nx(/#n_11#/gi,\"操\");\nx(/#n_12#/gi,\"插\");\nx(/#n_13#/gi,\"吃\");\nx(/#n_14#/gi,\"抽\");\nx(/#n_15#/gi,\"处\");\nx(/#n_16#/gi,\"床\");\nx(/#n_17#/gi,\"春\");\nx(/#n_18#/gi,\"唇\");\nx(/#n_19#/gi,\"刺\");\nx(/#n_20#/gi,\"粗\");\nx(/#n_21#/gi,\"大\");\nx(/#n_22#/gi,\"洞\");\nx(/#n_23#/gi,\"逗\");\nx(/#n_24#/gi,\"硬\");\nx(/#n_25#/gi,\"儿\");\nx(/#n_26#/gi,\"反\");\nx(/#n_27#/gi,\"犯\");\nx(/#n_28#/gi,\"峰\");\nx(/#n_29#/gi,\"妇\");\nx(/#n_30#/gi,\"抚\");\nx(/#n_31#/gi,\"夫\");\nx(/#n_31#/gi,\"腹\");\nx(/#n_33#/gi,\"干\");\nx(/#n_34#/gi,\"搞\");\nx(/#n_35#/gi,\"根\");\nx(/#n_36#/gi,\"公\");\nx(/#n_37#/gi,\"宫\");\nx(/#n_38#/gi,\"勾\");\nx(/#n_39#/gi,\"股\");\nx(/#n_40#/gi,\"狠\");\nx(/#n_41#/gi,\"花\");\nx(/#n_42#/gi,\"滑\");\nx(/#n_43#/gi,\"坏\");\nx(/#n_44#/gi,\"魂\");\nx(/#n_45#/gi,\"鸡\");\nx(/#n_46#/gi,\"激\");\nx(/#n_47#/gi,\"夹\");\nx(/#n_48#/gi,\"奸\");\nx(/#n_49#/gi,\"交\");\nx(/#n_50#/gi,\"叫\");\nx(/#n_51#/gi,\"娇\");\nx(/#n_52#/gi,\"姐\");\nx(/#n_53#/gi,\"禁\");\nx(/#n_54#/gi,\"精\");\nx(/#n_55#/gi,\"进\");\nx(/#n_56#/gi,\"紧\");\nx(/#n_57#/gi,\"菊\");\nx(/#n_58#/gi,\"渴\");\nx(/#n_59#/gi,\"口\");\nx(/#n_60#/gi,\"裤\");\nx(/#n_61#/gi,\"胯\");\nx(/#n_62#/gi,\"快\");\nx(/#n_63#/gi,\"浪\");\nx(/#n_64#/gi,\"力\");\nx(/#n_65#/gi,\"搂\");\nx(/#n_66#/gi,\"乱\");\nx(/#n_67#/gi,\"裸\");\nx(/#n_68#/gi,\"妈\");\nx(/#n_69#/gi,\"毛\");\nx(/#n_70#/gi,\"迷\");\nx(/#n_71#/gi,\"靡\");\nx(/#n_72#/gi,\"妹\");\nx(/#n_73#/gi,\"摸\");\nx(/#n_74#/gi,\"嫩\");\nx(/#n_75#/gi,\"母\");\nx(/#n_76#/gi,\"娘\");\nx(/#n_77#/gi,\"尿\");\nx(/#n_78#/gi,\"咛\");\nx(/#n_79#/gi,\"女\");\nx(/#n_80#/gi,\"哦\");\nx(/#n_81#/gi,\"趴\");\nx(/#n_82#/gi,\"喷\");\nx(/#n_83#/gi,\"婆\");\nx(/#n_84#/gi,\"屁\");\nx(/#n_85#/gi,\"气\");\nx(/#n_86#/gi,\"枪\");\nx(/#n_87#/gi,\"窃\");\nx(/#n_88#/gi,\"骑\");\nx(/#n_89#/gi,\"妻\");\nx(/#n_90#/gi,\"情\");\nx(/#n_91#/gi,\"亲\");\nx(/#n_92#/gi,\"裙\");\nx(/#n_93#/gi,\"热\");\nx(/#n_94#/gi,\"日\");\nx(/#n_95#/gi,\"肉\");\nx(/#n_96#/gi,\"揉\");\nx(/#n_97#/gi,\"乳\");\nx(/#n_98#/gi,\"软\");\nx(/#n_99#/gi,\"润\");\nx(/#n_100#/gi,\"入\");\nx(/#n_101#/gi,\"塞\");\nx(/#n_102#/gi,\"骚\");\nx(/#n_103#/gi,\"色\");\nx(/#n_104#/gi,\"上\");\nx(/#n_105#/gi,\"舌\");\nx(/#n_106#/gi,\"射\");\nx(/#n_107#/gi,\"身\");\nx(/#n_108#/gi,\"深\");\nx(/#n_109#/gi,\"湿\");\nx(/#n_110#/gi,\"兽\");\nx(/#n_111#/gi,\"受\");\nx(/#n_112#/gi,\"舒\");\nx(/#n_113#/gi,\"爽\");\nx(/#n_114#/gi,\"水\");\nx(/#n_115#/gi,\"睡\");\nx(/#n_116#/gi,\"酥\");\nx(/#n_117#/gi,\"死\");\nx(/#n_118#/gi,\"烫\");\nx(/#n_119#/gi,\"痛\");\nx(/#n_120#/gi,\"舔\");\nx(/#n_121#/gi,\"天\");\nx(/#n_122#/gi,\"体\");\nx(/#n_123#/gi,\"挺\");\nx(/#n_124#/gi,\"头\");\nx(/#n_125#/gi,\"腿\");\nx(/#n_126#/gi,\"脱\");\nx(/#n_127#/gi,\"味\");\nx(/#n_128#/gi,\"慰\");\nx(/#n_129#/gi,\"吻\");\nx(/#n_130#/gi,\"握\");\nx(/#n_131#/gi,\"喔\");\nx(/#n_132#/gi,\"污\");\nx(/#n_133#/gi,\"下\");\nx(/#n_134#/gi,\"小\");\nx(/#n_135#/gi,\"性\");\nx(/#n_136#/gi,\"胸\");\nx(/#n_137#/gi,\"血\");\nx(/#n_138#/gi,\"穴\");\nx(/#n_139#/gi,\"阳\");\nx(/#n_140#/gi,\"痒\");\nx(/#n_141#/gi,\"药\");\nx(/#n_142#/gi,\"腰\");\nx(/#n_143#/gi,\"夜\");\nx(/#n_144#/gi,\"液\");\nx(/#n_145#/gi,\"野\");\nx(/#n_146#/gi,\"衣\");\nx(/#n_147#/gi,\"姨\");\nx(/#n_148#/gi,\"吟\");\nx(/#n_149#/gi,\"淫\");\nx(/#n_150#/gi,\"荫\");\nx(/#n_151#/gi,\"幽\");\nx(/#n_152#/gi,\"诱\");\nx(/#n_153#/gi,\"尤\");\nx(/#n_154#/gi,\"欲\");\nx(/#n_155#/gi,\"吁\");\nx(/#n_156#/gi,\"玉\");\nx(/#n_157#/gi,\"吮\");\nx(/#n_158#/gi,\"窄\");\nx(/#n_159#/gi,\"占\");\nx(/#n_160#/gi,\"征\");\nx(/#n_161#/gi,\"汁\");\nx(/#n_162#/gi,\"嘴\");\nx(/#n_163#/gi,\"，\");\nx(/#n_164#/gi,\"。\");\nx(/#n_165#/gi,\"...\");\nx(/#n_166#/gi,\"慾\");\nx(/#n_167#/gi,\"丢\");\nx(/#n_168#/gi,\"弄\");\n\nfor(i in n){result=result.replace(m[i],n[i])}\n\nresult+\"❎❎❎\"\n</js>",
+            "nextContentUrl": "//*[@class=\"curr\"]/following-sibling::a[1]/@href",
+            "replaceRegex": "##(\\s*.*【1】.*)?\\s*❎❎❎\\s*",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": ".info@textNodes##作者.",
+            "bookList": ".column-2",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "/images/jipin-default.jpg{{}}",
+            "kind": "span.0@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": "span.-1@text##字数."
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list.-1@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "option@value"
+        },
+        "searchUrl": "/wap.php?action=search,{\n  \"method\": \"POST\",\n  \"body\": \"objectType=2&wd={{key}}\"\n}",
+        "weight": 0
+    }
+]

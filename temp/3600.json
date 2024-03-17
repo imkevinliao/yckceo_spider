@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "123笔趣阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.123bqg.cc",
+        "bookUrlPattern": "https://www.123bqg.cc/book.*",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::https://www.123bqg.cc/0/{{page}}.html\n玄幻奇幻::https://www.123bqg.cc/xuanhuan/{{page}}.html\n都市青春::https://www.123bqg.cc/dushi/{{page}}.html\n武侠仙侠::https://www.123bqg.cc/xianxia/{{page}}.html\n历史军事::https://www.123bqg.cc/lishi/{{page}}.html\n女生言情::https://www.123bqg.cc/yanqing/{{page}}.html\n网游竞技::https://www.123bqg.cc/youxi/{{page}}.html\n科幻灵异::https://www.123bqg.cc/kehuan/{{page}}.html\n二次元の::https://www.123bqg.cc/2cy/{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1686960652307,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##本站提示：.*",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "wordCount": "class.mr15 ttc hisp.-1@span@text##字"
+        },
+        "ruleContent": {
+            "content": "#TextContent@html"
+        },
+        "ruleExplore": {
+            "author": "span.0@text",
+            "bookList": ".lst-item",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@_src",
+            "intro": "a.1@text",
+            "kind": "span.1@text##本站提示：.*",
+            "name": "h2@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.1@text",
+            "bookList": "#hism",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@_src",
+            "intro": "p.0@text##本站提示：.*",
+            "kind": "span.0@text",
+            "lastChapter": "a.-1@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterList@li",
+            "chapterName": "span@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.123bqg.cc/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}}",
+        "weight": 0
+    }
+]

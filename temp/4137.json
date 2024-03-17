@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "//登录切换接口，默认镜像站。\n//主站搜索需开代理挂梯，不然搜不出来。",
+        "bookSourceGroup": "自制,优质,源仓库,网页源",
+        "bookSourceName": "69书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.69shuba.com",
+        "bookUrlPattern": "https?://.*69shuba.*/book.+",
+        "customOrder": 17,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部分类\",\"url\":\"/ajax_novels/class/0/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"言情小说\",\"url\":\"/ajax_novels/class/3/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻魔法\",\"url\":\"/ajax_novels/class/1/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真武侠\",\"url\":\"/ajax_novels/class/2/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越时空\",\"url\":\"/ajax_novels/class/11/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/ajax_novels/class/9/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/ajax_novels/class/4/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/ajax_novels/class/5/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻空间\",\"url\":\"/ajax_novels/class/6/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑惊悚\",\"url\":\"/ajax_novels/class/7/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人小说\",\"url\":\"/ajax_novels/class/8/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"官场职场\",\"url\":\"/ajax_novels/class/10/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"青春校园\",\"url\":\"/ajax_novels/class/12/{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"完本小说\",\"url\":\"/ajax_wanben/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"小说排行\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_0_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"不限\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_0_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"连载\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_0_2_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_0_1_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"人气\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_0_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"推荐\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/allvote_0_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"新书\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/newhot_0_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻魔法\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_1_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真武侠\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_2_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情小说\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_3_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_4_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_5_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻空间\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_6_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑惊悚\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_7_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人小说\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_8_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_9_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"官场职场\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_10_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越时空\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_11_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"青春校园\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_12_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他小说\",\"url\":\"https://www.69shuba.com/<novels,ajax_novels>/weekvisit_13_0_{{page}}.htm\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
+        "lastUpdateTime": 1692870913224,
+        "loginCheckJs": "",
+        "loginUi": "[\n    {\n    \tname: \"设置搜索接口\",\n    \ttype: \"button\"\n    \t},\n    \t{\n    \t\tname: \"显示当前接口\",\n    \t\ttype: \"button\",\n    \t\taction: \"java.toast('当前接口：接口'+source.getVariable())\"\n    \t\t},\n    {\n        name: \"接口1：主站搜索，需开代理挂梯。\",\n        type: \"button\",\n        action: \"source.setVariable('1')\"\n    },\n    {\n        name: \" 接口2：（默认）备用镜像，可能会出错。\",\n        type: \"button\",\n        action: \"source.setVariable('2')\"\n    }\n]",
+        "loginUrl": "result.get(\"接口\")",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": ".navtxt>p.0@text",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "{{baseUrl.replace(/.htm/,\"/\")}}",
+            "wordCount": ".infolist li.0@textNodes"
+        },
+        "ruleContent": {
+            "content": ".txtnav@textNodes",
+            "replaceRegex": "##{{chapter.title}}|.*本章完.*"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "label.0@text",
+            "bookList": ".newbox li||li",
+            "bookUrl": "h3 a@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-src",
+            "intro": "ol@text",
+            "kind": "label.1:2@text",
+            "lastChapter": "p.-1@textNodes",
+            "name": "h3@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".catalog li a",
+            "chapterName": "text##\\d+\\.",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\nvar sz=source.getVariable();\nvar u1=source.getKey();\nu2=\"https://www_69shuba_com.lnkr.co\"\nvar so=\"/modules/article/search.php,\";\nvar post={\n\t\"body\": `searchkey=${key}&submit=Search`,\n\t\"charset\": \"GBK\",\n\t\"method\": \"POST\"\n\t};\nsz=sz?sz:2;\nif(sz!=null){\n\ttry{\n\tvar\turl=sz==1?u1:u2;\njava.put(\"url\",String(url+so+JSON.stringify(post)));\n}catch(e){\n\tjava.log(e);\n\tjava.longToast(\"搜索出错，登录切换接口\");\n\t}\n  }else{\n  \teval(source.loginUrl);\n  \t}",
+        "weight": 0
+    }
+]

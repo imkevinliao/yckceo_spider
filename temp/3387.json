@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "//原https://www.dongliuxiaoshuo.com/",
+        "bookSourceGroup": "常用,发现,优化",
+        "bookSourceName": "东流小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bifengzw.com/",
+        "bookUrlPattern": "https://www.bifengzw.com/read/.*",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"/sort/xuanhuanmofa/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"武侠修真\",\"url\":\"/sort/wuxiaxiuzhen/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市言情\",\"url\":\"/sort/dushiyanqing/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"历史军事\",\"url\":\"/sort/lishijunshi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"网游动漫\",\"url\":\"/sort/wangyoudongman/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"科幻小说\",\"url\":\"/sort/kehuanxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"恐怖灵异\",\"url\":\"/sort/kongbulingyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"其他类型\",\"url\":\"/sort/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{   \"connection\": \"keep-alive\",\n    \"cache-control\": \"max-age=0\",\n    \"upgrade-insecure-requests\": \"1\",\n    \"origin\": \"{{source.getKey()}}\",\n    \"content-type\": \"application/x-www-form-urlencoded\",\n    \"accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\",\n    \"x-requested-with\": \"XMLHttpRequest\",\n    \"sec-fetch-site\": \"same-origin\",\n    \"sec-fetch-mode\": \"navigate\",\n    \"sec-fetch-user\": \"?1\",\n    \"sec-fetch-dest\": \"document\",\n    \"referer\": \"{{source.getKey()}}/\",\n    \"accept-language\": \"zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7\"}",
+        "lastUpdateTime": 1684375230259,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "table@tr.1@text",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "class.intro@text\n##简介：|一秒记住本站地址.*",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property~=latest_chapter_name]@content",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "td.2@text",
+            "bookList": "table@tbody@tr",
+            "bookUrl": "a.0@href",
+            "coverUrl": "@js:\"/bookcover/37/37171.jpg\"",
+            "kind": "td.3@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "meta[property=\"og:novel:author\"]@content||li.2@text",
+            "bookList": "<js>doc = org.jsoup.Jsoup.parse(result)\n$ = (a) => doc.select(a)\nif (/function S2H/.test(result)) {\n\tfunction S2H(s){\n        var r = [];\n        for(var i=0;i<s.length/2;i++){\n            r[r.length]= parseInt(s.substr(i*2,2), 16);\n        }\n        return r;\n    }\n    var str = S2H(String($('str').html()).replace(/\\s/ig,''));\n    var key = S2H(String(cookie.getKey(source.getKey(),'key')));\n    var x = 0, ret = \"\";\n    for(var i=0;i<str.length;i++){\n        var d = (str[i] + key[x]);\n        if(d>255)d=d%255;\n        ret+='%'+('0'+d.toString(16)).substr(-2,2);\n        x++; if(x>=key.length) x=0;\n    }\n    var html = decodeURIComponent(decodeURI(ret));\n    $('str').html(html);\n}\ndoc</js>\nhtml:has(meta[property=\"og:type\"])||ul:has(li.col-md-4.col-sm-8.col-xs-8:has(a))",
+            "bookUrl": "meta[property=\"og:novel:read_url\"]@content||a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "meta[property=\"og:image\"]@content",
+            "intro": "meta[property=\"og:description\"]@content",
+            "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+            "lastChapter": "{{@@meta[property=\"og:novel:latest_chapter_name\"]@content||li.1@text}} {{@@meta[property=\"og:novel:update_time\"]@content||li.3@text}}",
+            "name": "meta[property=\"og:novel:book_name\"]@content||a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list-group.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search.php,{\n  \"body\": \"search={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"post\"\n}",
+        "weight": 0
+    }
+]

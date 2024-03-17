@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "123读书网,目录对不上求大佬修复",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.123duw.com##",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.204 Mobile Safari/537.36\"\n}",
+        "lastUpdateTime": 1676285406713,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.js@tag.span.0@text##作者：",
+            "coverUrl": "class.DivImg@img@src",
+            "intro": "id.nrjj@textNodes##简介：",
+            "kind": "class.js@span!0:3@text##.*：",
+            "lastChapter": "class.ListUL@tag.li.0@a@text",
+            "name": "h3@text",
+            "tocUrl": "text.完整目录@href"
+        },
+        "ruleContent": {
+            "content": "class.TxtContent@p@textNodes##本章未完.*|.*123读书.*",
+            "nextContentUrl": "//*[@class=\"PagesNoLink\"]/following-sibling::a[1]/@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.js@text##.*作者：|简介：.*",
+            "bookList": "class.NovelListDiv",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "class.js@text##.*简介：",
+            "kind": "class.js@text##类别：|/.*",
+            "name": "class.bt@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.MuLuUL@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}",
+            "isVolume": ""
+        },
+        "searchUrl": "@js:\nvalue = org.jsoup.Jsoup.parse(java.ajax(\"https://m.123duw.com\")).select(\"[name=act]\").val();\nbody = \"act=\"+value+\"&q={{key}}&submit=快速搜书\";\noption={\"charset\":\"gbk\",\"method\":\"POST\",\"body\":String(body)};\n\"https://m.123duw.com/sscc/,\"+JSON.stringify(option)",
+        "weight": 0
+    }
+]

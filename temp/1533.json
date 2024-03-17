@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceGroup": "测试1111",
+        "bookSourceName": "快读文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.plhydp.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄幻::/xs/1/{{page}}.html\n武侠::/xs/2/{{page}}.html\n都市::/xs/3/{{page}}.html\n历史::/xs/4/{{page}}.html\n网游::/xs/5/{{page}}.html\n科幻::/xs/6/{{page}}.html\n其他::/xs/7/{{page}}.html",
+        "lastUpdateTime": 1672448416275,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "[property~=description]@content",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "{{$.txt}}分页合并>",
+            "imageStyle": "",
+            "nextContentUrl": "@js:\nif(baseUrl.match(/_1\\./)){\nvar num=java.ajax(baseUrl.replace(/u\\./,'m\\.').replace(/\\?.*/,'')).match(/（.*\\/\\s*(\\d+)）/)[1]\nfor(var i=2,txt=[];i-num<=0;i++){\n\ttxt.push(baseUrl.replace(/_\\d+/,'_'+i))\n\t}\n\ttxt.join(\"\\r\\n\")\n}",
+            "replaceRegex": "##\\s*分页合并>\\s*|\\n\\s*。|[^\\n]\\s+\"\\n|<!-\\d+->"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s4@text",
+            "bookList": ".txt-list.0@li!0",
+            "bookUrl": "a.0@href",
+            "kind": ".s1@text##\\[|\\]",
+            "lastChapter": ".s3@text",
+            "name": ".s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "@js:java.getElements(\"ul.-1\").select(\"li a\")",
+            "chapterName": "text",
+            "chapterUrl": "{{baseUrl.match(/(.{10}.*?)\\//)[1].replace(/www/,'u')}}{{@@href##\\.ht##_1\\.ht}}?a=1",
+            "updateTime": ""
+        },
+        "searchUrl": "/search/,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}&Submit=搜索\"\n\t}",
+        "weight": 0
+    }
+]

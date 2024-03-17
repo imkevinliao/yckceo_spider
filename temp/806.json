@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "ESJ,日轻,国轻",
+        "bookSourceName": "ESJ",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.esjzone.cc",
+        "bookUrlPattern": "https?://www.esjzone.cc/detail/.*",
+        "concurrentRate": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "日轻::/list-11/{{page}}.html\n原创::/list-21/{{page}}.html\n韩轻::/list-31/{{page}}.html\nr15::/tags/R15/\n残酷描写::/tags/残酷描写/\n异世界::/tags/异世界/\n勇者::/tags/勇者/\n龙::/tags/龙/\n技能::/tags/技能/\n冒险::/tags/冒险/\n转生::/tags/转生/\n黑暗::/tags/黑暗/\n萝莉::/tags/萝莉/\n后宫::/tags/后宫/\n魔法::/tags/魔法/\n少女::/tags/少女/\n魔王::/tags/魔王/\n战争::/tags/战争/\n死亡::/tags/死亡/\n穿越::/tags/穿越/\n奴隶::/tags/奴隶/\n主角::/tags/主角/\nTS::/tags/TS/{{page}}.html\n百合::/tags/百合/",
+        "header": "",
+        "lastUpdateTime": 1641205758887,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "/login",
+        "respondTime": 2347,
+        "ruleBookInfo": {
+            "author": "@css:div.col-md-9.book-detail > ul>li:nth-child(2)>a@text",
+            "coverUrl": "@css:div.col-md-3 > div > a > img@src",
+            "intro": "@css:div.description@text",
+            "kind": "@css:section.widget.widget-tags.hidden-lg-up.mt-30 > a@text",
+            "lastChapter": "@css:div[id = chapterList] >a:last-child@text",
+            "name": "@css:div.col-md-9.book-detail > h2@text"
+        },
+        "ruleContent": {
+            "content": "@css:div.forum-content.mt-3,div[class =d_post_content j_d_post_content]@all"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "@css:div>div.card-body > div.card-author > a@text",
+            "bookList": "@css: div.col-xl-9 > div.row>div.col-lg-4",
+            "bookUrl": "@css:div> div > div > h5 > a@href",
+            "coverUrl": "@css:div>div>a>div>div>div@data-src",
+            "lastChapter": "@css:div>div>div[class=card-ep mt-2]@text",
+            "name": "@css:div > div > h5 > a@text"
+        },
+        "ruleToc": {
+            "chapterList": "@css:div[id=chapterList]>a",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.esjzone.cc/tags/{{key}}/",
+        "weight": 0
+    }
+]

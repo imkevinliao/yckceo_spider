@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceUrl": "https://www.899zw.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "999小说网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "晓磊",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "/search.php?keyword={{key}}",
+        "exploreUrl": "",
+        "enabled": false,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1622261326028,
+        "ruleSearch": {
+            "bookList": "class.result-game-item",
+            "name": "class.result-game-item-title-link@text",
+            "author": "class.result-game-item-info-tag.0@text",
+            "kind": "class.result-game-item-info-tag-title.2@text",
+            "lastChapter": "class.result-game-item-info-tag-item@text",
+            "intro": "class.result-game-item-desc@text",
+            "coverUrl": "class.result-game-item-pic-link-img@src",
+            "bookUrl": "class.result-game-item-pic-link@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "h1@text",
+            "author": "id.info@tag.p.0@text",
+            "lastChapter": "id.info@tag.p.2@text",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@textNodes##999小说首发|l https:|(http://)?([a-zA-Z]+\\\\.)+[a-zA-Z]+|(https?\\\\:)?(//)?[Ww锝楋挤]{1,3}.*"
+        }
+    }
+]

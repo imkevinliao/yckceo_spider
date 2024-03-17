@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "☀晨光雨露🍒精俢源💯",
+        "bookSourceName": "追读热搜.zhuidu>增加更新时间",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zhuidu.cc",
+        "customOrder": -165969,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "追书热度::/rank/zhuishu.html\n书旗热搜::/rank/shuqi.html\n掌阅热销::/rank/zhangyue.html\n起点月票::/rank/qidian.html\n百度热搜::/rank/baidu.html\n17K 鲜花::/rank/17k.html\n总点击榜::/rank/allvisit/<{{page}}>.html\n月点击榜::/rank/monthvisit/<{{page}}>.html\n周点击榜::/rank/weekvisit/<{{page}}>.html\n日点击榜::/rank/dayvisit/<{{page}}>.html\n推荐数榜::/rank/vote/<{{page}}>.html\n收藏数榜::/rank/mark/<{{page}}>.html\n下载数榜::/rank/down/<{{page}}>.html\n评论数榜::/rank/comment/<{{page}}>.html\n评分数榜::/rank/star_score/<{{page}}>.html\nnull",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36\"\n}",
+        "lastUpdateTime": 1625648645089,
+        "ruleBookInfo": {
+            "author": "//meta[@property=\"og:novel:author\"]/@content()",
+            "coverUrl": "//meta[@property=\"og:image\"]/@content()",
+            "intro": "//meta[@property=\"og:description\"]/@content()\n<js>result.replace(/^|\\s+(?=[^a-zA-Z])|(—|–|=){3,}/g,\"\\n\")</js>",
+            "kind": "//meta[@property=\"og:novel:category\"]/@content()",
+            "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content()",
+            "name": "//meta[@property=\"og:novel:book_name\"]/@content()",
+            "wordCount": "class.size12 color0@text"
+        },
+        "ruleContent": {
+            "content": "class.pt-read-text@children@textNodes"
+        },
+        "ruleExplore": {
+            "author": "tag.a.2@text",
+            "bookList": "class.pt-rk-detail@tag.li",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.intro@text",
+            "kind": "tag.a.3@text",
+            "lastChapter": "tag.a.4@text",
+            "name": "tag.a.1@text"
+        },
+        "ruleSearch": {
+            "author": "tag.a.2@title",
+            "bookList": "class.pt-rank-detail",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.desc@text",
+            "kind": "tag.a.3@title&&class.color5.0@text",
+            "lastChapter": "tag.a.-3@title",
+            "name": "tag.a.0@title"
+        },
+        "ruleToc": {
+            "chapterList": "class.pt-chapter-cont-detail full@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/result.html?searchkey={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

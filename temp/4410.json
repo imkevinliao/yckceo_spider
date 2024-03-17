@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceName": "笔趣阁新",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ydxrf.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/wap_sort/1_1/\n武侠修真::/wap_sort/2_1/\n都市言情::/wap_sort/3_1/\n历史军事::/wap_sort/4_1/\n网游动漫::/wap_sort/5_1/\n科幻灵异::/wap_sort/6_1/\n其他小说::/wap_sort/7_1/\n排行::/wap_top/allvisit/1/\n全本::/wap_quanben/allvisit/1/",
+        "lastUpdateTime": 1699382057180,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=og:novel:last_chapter_name]@content",
+            "name": "[property$=book_name]@content"
+        },
+        "ruleContent": {
+            "content": "//div[@id=\"text\"]"
+        },
+        "ruleExplore": {
+            "author": "//p[1]/text()",
+            "bookList": "//div[@id=\"list\"]/article",
+            "bookUrl": "/a[1]/@href",
+            "coverUrl": "img@src",
+            "intro": "//p[2]/text()",
+            "name": "//h2/text()"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "//p[1]/text()##作者：",
+            "bookList": "//div[@class=\"search\"]/a",
+            "bookUrl": "//@href",
+            "intro": "//p[2]",
+            "name": "//h2/text()"
+        },
+        "ruleToc": {
+            "chapterList": "//ul[@class=\"chapter\"]/li",
+            "chapterName": "//a/text()",
+            "chapterUrl": "//a/@href"
+        },
+        "searchUrl": "https://m.ydxrf.com/user/search.html?q={{key}},{'webView': true}",
+        "weight": 0
+    }
+]

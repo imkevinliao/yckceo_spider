@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "##tlh",
+        "bookSourceGroup": "18漫画",
+        "bookSourceName": "日漫之家",
+        "bookSourceType": 2,
+        "bookSourceUrl": "https://rimanzhijia.com/",
+        "customOrder": -801,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "热门排行::/index.php/custom/top\n日漫::/index.php/category/list/1/page/{{page}}\n韩漫::/index.php/category/list/2/page/{{page}}",
+        "lastUpdateTime": 1698601875078,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.dir@text",
+            "coverUrl": "img@src",
+            "intro": "class.tbox_js@text",
+            "kind": "class.yac@text##类别：",
+            "lastChapter": "class.act@text##更新：",
+            "name": "class.data@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "id.comic_pic@html",
+            "imageStyle": "full",
+            "title": "class.bo_tit@text##.*>"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "class.tbox_m@tag.li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "妹",
+            "coverUrl": "mip-img@src",
+            "intro": "",
+            "lastChapter": "tag.span@text",
+            "name": "tag.h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list_block show@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://rimanzhijia.com/index.php/search/{{key}}/{{page}}",
+        "weight": 0
+    }
+]

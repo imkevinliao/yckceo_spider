@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "看帮网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kanbang.cc",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "热门书籍::https://www.kanbang.cc/a/top.html\n玄幻仙侠::https://www.kanbang.cc/male/xhxx/list_2_{{page}}.html\n都市官场::https://www.kanbang.cc/male/dsgc/list_3_{{page}}.html\n科幻奇幻::https://www.kanbang.cc/male/khqh/list_4_{{page}}.html\n恐怖推理::https://www.kanbang.cc/male/kbtl/list_5_{{page}}.html\n动漫同人::https://www.kanbang.cc/male/dmtr/list_6_{{page}}.html\n游戏竞技::https://www.kanbang.cc/male/yxjj/list_7_{{page}}.html\n穿越历史::https://www.kanbang.cc/male/cyls/list_8_{{page}}.html\n军事战争::https://www.kanbang.cc/male/jszz/list_9_{{page}}.html\n现代言情::https://www.kanbang.cc/female/xdyq/list_11_{{page}}.html\n古代言情::https://www.kanbang.cc/female/gdyq/list_12_{{page}}.html\n仙侠魔幻::https://www.kanbang.cc/female/xxmh/list_13_{{page}}.html\n耽美百合::https://www.kanbang.cc/female/dmbh/list_14_{{page}}.html\n科幻恐怖::https://www.kanbang.cc/female/khkb/list_15_{{page}}.html\n娱乐同人::https://www.kanbang.cc/female/yltr/list_16_{{page}}.html\n古今文学::https://www.kanbang.cc/book/gjwx/list_18_{{page}}.html\n经济管理::https://www.kanbang.cc/book/jjgl/list_19_{{page}}.html\n励志教育::https://www.kanbang.cc/book/lzjy/list_20_{{page}}.html\n人文社科::https://www.kanbang.cc/book/rwsk/list_21_{{page}}.html\n外国名著::https://www.kanbang.cc/book/wgmz/list_22_{{page}}.html\n品质生活::https://www.kanbang.cc/book/pzsh/list_23_{{page}}.html",
+        "lastUpdateTime": 0,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "class.nbg@img@src",
+            "intro": "class.intro.0@p@textNodes",
+            "kind": "id.info@tag.a.1@text",
+            "tocUrl": "class.online-read@a@href"
+        },
+        "ruleContent": {
+            "content": "class.tagCol@p@textNodes##.*\\s*.*本文由看帮网.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.pub@text##\\/.*",
+            "bookList": "class.subject-list@li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "p@text",
+            "kind": "tag.span.0@textNodes##\\(|\\)",
+            "name": "h2@a@textNodes"
+        },
+        "ruleToc": {
+            "chapterList": "class.tagCol@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.kanbang.cc/plus/search.php?q={{key}}&kwtype=0",
+        "weight": 0
+    }
+]

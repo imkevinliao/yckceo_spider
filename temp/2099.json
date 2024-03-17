@@ -1,0 +1,39 @@
+[
+    {
+        "bookSourceUrl": "http://www.zgyouyi.com",
+        "bookSourceType": "0",
+        "bookSourceName": "朱阁小说",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.zgyouyi.com/zgyouyi8,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1617884692224,
+        "ruleSearch": {
+            "bookList": "class.elvwfustl-div",
+            "name": "class.flex tgubelmwd mgvwezfak-title@a@h3@text",
+            "author": "class.flex tgubelmwd mgvwezfak-title@span@text",
+            "intro": "class.intro indent@text",
+            "bookUrl": "class.flex tgubelmwd mgvwezfak-title@a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.kanpttpzq@h1@text",
+            "author": "class.kanpttpzq haowojyrk@span@text##作者："
+        },
+        "ruleToc": {
+            "chapterList": "class.idlktujix flex njgoebhqd!0@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href"
+        },
+        "ruleContent": {
+            "content": "id.article@html"
+        }
+    }
+]

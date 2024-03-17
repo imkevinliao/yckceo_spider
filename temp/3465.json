@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "//搜索翻页没必要，太多搜索会很慢",
+        "bookSourceGroup": "⭐备用,⌨自制",
+        "bookSourceName": "⌨趣书网(qubook)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.qubook.org##旅途",
+        "customOrder": -2086087031,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"🏅 热门排行 🏅\",\"url\":\"/images/rph.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"🎖 书荒推荐 🎖\",\"url\":\"/images/sph.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"💜 纯爱 💜\",\"url\":\"/bookbl/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"现耽\",\"url\":\"/BookList/blxd/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古耽\",\"url\":\"/BookList/blgd/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越\",\"url\":\"/BookList/blcy/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/BookList/blxh/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"ＢＬ\",\"url\":\"/BookList/bltr/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"ＧＬ\",\"url\":\"/BookList/blbh/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"❤️ 女生 ❤️\",\"url\":\"/booknv/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"现言\",\"url\":\"/BookList/nvds/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古言\",\"url\":\"/BookList/nvgd/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"重生\",\"url\":\"/BookList/nvcy/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/BookList/nvxh/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人\",\"url\":\"/BookList/nvqc/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/BookList/nvwy/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"💙 男生 💙\",\"url\":\"/bookna/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻\",\"url\":\"/BookList/naxh/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/BookList/nawx/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/BookList/nads/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/BookList/najs/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑\",\"url\":\"/BookList/nakb/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/BookList/nakh/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\"}",
+        "lastUpdateTime": 1685719807277,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "h1@text##.*\\(|\\).*",
+            "init": "",
+            "intro": "[name=description]@content##.*简介：",
+            "kind": ".listcd@textNodes&&.mlist li.-1@text##全文免费阅读|入库：|>|\\s",
+            "lastChapter": "",
+            "name": "h1@text##\\(.*\\)",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.conten@html"
+        },
+        "ruleExplore": {
+            "author": "h1@text||a@text##.*\\(|\\).*",
+            "bookList": ".man_first ul li",
+            "bookUrl": "h1@a@href||a@href",
+            "intro": "p@text##简介：",
+            "kind": "h3@text&&h4@text##/文|\\[|\\]",
+            "lastChapter": "",
+            "name": "h1@text||a@text##\\(.*\\)",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text##.*——BY：|\\)|.*\\(",
+            "bookList": "//div[@class=\"morelist\"]/ul/li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "kind": "a.0@text",
+            "name": "a.1@text##——BY：.*|\\(.*\\)",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "+<js>\nvar n=result.match(/<b>1<\\/b>\\/<b>(\\d+)<\\/b>/)[1];\n\nvar list=[{text:'第1页',href:baseUrl}];\n\nfor(var i=2;i<=n;i++){\nlist.push({text:'第'+i+'页',href:baseUrl.replace(/\\.html/,'_'+i+'.html')});\n\n}\nlist\n</js>",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "preUpdateJs": ""
+        },
+        "searchUrl": "/e/search/index.php,{\n\t\"method\":\"POST\",\n\"body\":\"show=title,newstext&btzz=b&keyboard={{key}}\"\n}",
+        "weight": 0
+    }
+]

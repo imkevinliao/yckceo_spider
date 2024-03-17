@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceGroup": "现实debug",
+        "bookSourceName": "全本小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xqb5.org/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1660995326997,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "#info@.wppc@p!2@text",
+            "lastChapter": "#info@.wppc@p.2@text"
+        },
+        "ruleContent": {
+            "content": "id.booktxt@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "dl@.btm@a@text",
+            "bookList": ".rank@.item",
+            "bookUrl": ".image@a@href",
+            "checkKeyWord": "http://www.xqb5.org/14_14977/",
+            "coverUrl": ".image@a@img@src",
+            "intro": "dl@dd@text",
+            "kind": "dl@.btm@em.1@text",
+            "lastChapter": "",
+            "name": "dl@dt@text",
+            "wordCount": "dl@.btm@em.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "@css:#list dl > *\n@js:\na=result\nlist=[]\nl=0\nfor(i=0;i<a.length;i++){\n\tjava.setContent(a[i])\n\tb=java.getElements(\"dt\")\n\tif(b!=\"\"){\n\tl++\n\t}\n\tif(l>=2&&b==\"\"){\n\t\tlist.push(a[i])\n\t\t}\n\t}\nlist",
+            "chapterName": "text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "{{cookie.removeCookie(source.getKey())}}\nhttp://www.xqb5.org/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

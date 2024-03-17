@@ -1,0 +1,38 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "精品",
+        "bookSourceName": "青豆小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.xinqingdou.net",
+        "customOrder": 950,
+        "enabled": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1614342376952,
+        "ruleBookInfo": {
+            "name": "class.one@text",
+            "tocUrl": "text.阅读@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html##.*新青豆小说.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "//dd[2]/text()",
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@img@src",
+            "intro": "class.book_des@a@text",
+            "kind": "//dd[1]//span/text()",
+            "name": "tag.dd.0@h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.readlist@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://m.xinqingdou.net/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit=搜索\"\n}",
+        "weight": 0
+    }
+]

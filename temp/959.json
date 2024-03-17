@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceUrl": "http://www.kandashuw.com",
+        "bookSourceType": "0",
+        "bookSourceName": "看大书网",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "http://www.kandashuw.com/plus/search.php?q={{key}}&searchtype=articlename",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 80,
+        "customOrder": 9,
+        "lastUpdateTime": 1632883897924,
+        "ruleSearch": {
+            "bookList": "class.grid@tag.tr!0",
+            "name": "tag.td.0@tag.a@text",
+            "author": "tag.td.2@text",
+            "kind": "tag.td.4@text",
+            "wordCount": "tag.td.3@text",
+            "lastChapter": "tag.td.1@tag.a@",
+            "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.biquges.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "bookUrl": "tag.td.0@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "init": "id.maininfo",
+            "name": "id.info@tag.h1.0@text",
+            "author": "id.info@tag.p.0@text##作    者：",
+            "kind": "id.info@tag.p.2@text##最后更新：",
+            "lastChapter": "id.info@tag.p.3@a@text",
+            "intro": "id.intro@text",
+            "coverUrl": "id.fmimg@tag.img.0@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html##本章未完.*继续阅读\\-\\-\\>\\>|更多h书尽.*更好的小说\\）",
+            "nextContentUrl": "text.下一页@href"
+        }
+    }
+]

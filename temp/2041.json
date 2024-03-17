@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "修复搜索地址变化（感谢渊啊大佬）和部分书籍作者为空",
+        "bookSourceGroup": "W",
+        "bookSourceName": "完本神站",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xinwanben.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "lastUpdateTime": 1618324688187,
+        "ruleBookInfo": {
+            "author": "class.writer@text",
+            "coverUrl": "class.detailTopLeft@img@src",
+            "init": "",
+            "intro": "class.detailTopMid@tag.table@tag.td.-1@text",
+            "kind": "class.detailTopMid@tag.table@a@text&&class.going@text",
+            "lastChapter": "##>([^>]+)更新至[^>]+>([^<]+)</##$2•$1###",
+            "name": "class.detailTitle@h1@text",
+            "wordCount": "class.detailTopMid@tag.table@tag.td.-3@text"
+        },
+        "ruleContent": {
+            "content": "class.readerCon@p@textNodes",
+            "nextContentUrl": "@js:\nvar list=[];\nvar txt = java.getString(\"@css:.readerTitle h2@text\",false);\nvar mat = txt.match(/\\(\\d\\/(\\d+)\\)/);\nif(mat){\nvar n = mat[1];\nfor(var i = 2;i <= n;i++){\nvar url = baseUrl.replace(/\\.html/,'_'+i+'.html');\nlist.push(url);\n}\n}\nlist",
+            "replaceRegex": "##(Wanbentxt|.*手机访问.*\\n|.*手机阅读地址.*\\n|p1.*\\n|.*完.*本.*神.*站.*|第.{0,10}章.*\\n)",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.resultLeft@li",
+            "bookUrl": "class.sortPhr@tag.a.0@href",
+            "coverUrl": "class.sortImg@img@src##_130x180.jpg##_230x320.jpg",
+            "intro": "class.intro@text",
+            "kind": "class.sortImg@span@text&&class.actor@a@text##主角：",
+            "lastChapter": "class.renew@a@text&&class.words@span@text##\\n时间：##•",
+            "name": "h3@text",
+            "wordCount": "class.words@textNodes##字"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\naction=org.jsoup.Jsoup.parse(String(java.ajax(\"https://www.xinwanben.com\"))).select(\".search form\").attr(\"action\")\n\nbody = \"searchtype=articlename&searchkey={{key}}\"\noption={\"charset\": \"GBK\",\"method\": \"POST\",\"body\": String(body)}\n\"https://www.xinwanben.com/\"+String(action)+\",\"+JSON.stringify(option)",
+        "weight": 0
+    }
+]

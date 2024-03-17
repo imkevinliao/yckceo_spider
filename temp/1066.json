@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "自编(无搜索)",
+        "bookSourceGroup": "一般网文",
+        "bookSourceName": "顶点小说(wxsy)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wxsy.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1628408655118,
+        "ruleBookInfo": {
+            "author": ".pt-bookdetail-info@span.0@a@text",
+            "coverUrl": ".pt-bookdetail-img@src",
+            "intro": ".pt-bookdetail-intro@p@text",
+            "kind": ".pt-bookdetail-info@span.1@a@text",
+            "lastChapter": ".pt-chapter-cont-detail@a.0@href",
+            "name": ".novelname@a@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": ".pt-read-text@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "name": ""
+        },
+        "ruleToc": {
+            "chapterList": ".pt-chapter-cont-detail@a",
+            "chapterName": "@text",
+            "chapterUrl": "@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

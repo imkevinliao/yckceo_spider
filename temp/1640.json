@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "出版",
+        "bookSourceName": "4020电子书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.iwurexs.com",
+        "bookUrlPattern": "",
+        "customOrder": -2085958206,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "日点击榜::/dpaihangbang/index_{{page}}.html\n周点击榜::/wpaihangbang/index_{{page}}.html\n月点击榜::/mpaihangbang/index_{{page}}.html\n总点击榜::/paihangbang/index_{{page}}.html\n封面推荐::/fengtui/index_{{page}}.html\n字数排行::/size/index_{{page}}.html\n日推荐榜::/dayvote/index_{{page}}.html\n周推荐榜::/weekvote/index_{{page}}.html\n月推荐榜::/tuijian/index_{{page}}.html\n金牌推荐::/jinpaituijian/index_{{page}}.html\n最新入库::/postdate/index_{{page}}.html\n最近更新::/new/index_{{page}}.html\n玄幻奇幻::/wuxia/index_{{page}}.html\n武侠仙侠::/yanqing/index_{{page}}.html\n耽美小说::/danmei/index_{{page}}.html\n都市言情::/xuanhuan/index_{{page}}.html\n历史军事::/xiaoyuan/index_{{page}}.html\n科幻灵异::/wangyou/index_{{page}}.html\n网友竞技::/kongbu/index_{{page}}.html\n女频频道::/jishi/index_{{page}}.html\n军事历史::/lishi/index_{{page}}.html\n科幻小说::/kehuan/index_{{page}}.html\n管理哲学::/zhexue/index_{{page}}.html\n学习资料::/xuexi/index_{{page}}.html\n其他小说::/qita/index_{{page}}.html\n金牌推荐::/jinpaituijian/index_{{page}}.html\n封推小说::/fengtui/index_{{page}}.html",
+        "lastUpdateTime": 1668223710399,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2@tag.p.1@text##作者：",
+            "coverUrl": "class.detail_info@tag.img@src",
+            "intro": "class.detail_info@class.detail_right@tag.li.-1@html",
+            "kind": "class.wrap position@tag.span@tag.a.1@text",
+            "lastChapter": ".block_txt2@tag.p.4@a@text",
+            "name": ".block_txt2@h2@text"
+        },
+        "ruleContent": {
+            "content": "class.content@id.content@textNodes##请记住本书首发.*",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "text##.*/",
+            "bookList": "class.cover@p",
+            "bookUrl": "a@href",
+            "kind": "text##].*",
+            "name": "a@text"
+        },
+        "ruleSearch": {
+            "author": "class.even.1@text",
+            "bookList": "class.grid@tag.tr!0",
+            "bookUrl": "class.even.0@tag.a@href",
+            "lastChapter": "class.odd.1@tag.a@text",
+            "name": "class.even.0@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.showInfo.1@class.chapter-item@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/so.html?q={{key}}",
+        "weight": 0
+    }
+]

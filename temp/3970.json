@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "//搜索有盾，需验证过盾\n//可复制链接，在首页书架添加网址",
+        "bookSourceGroup": "自制,备用,源仓库,网页源",
+        "bookSourceName": "小说屋/小说娃",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://xiaoshuow.cc",
+        "bookUrlPattern": "https?://xiaoshuow.cc/\\d+/",
+        "customOrder": 29,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n小说娃::/\n武侠::/sort/1/{{page}}/\n都市::/sort/2/{{page}}/\n历史::/sort/3/{{page}}/\n穿越::/sort/4/{{page}}/\n游戏::/sort/5/{{page}}/\n科幻::/sort/6/{{page}}/\n同人::/sort/7/{{page}}/\n社会::/sort/8/{{page}}/\n综合::/sort/9/{{page}}/\n唐家三少::/author/%E5%94%90%E5%AE%B6%E4%B8%89%E5%B0%91/",
+        "header": "{'User-Agent': 'Mozilla/5.0 (linux; u; android 9; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/100.0.2987.108 quark/6.5.5.137 mobile safari/537.36'}",
+        "lastUpdateTime": 1693976253674,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}"
+        },
+        "ruleContent": {
+            "content": "#content p!0@html",
+            "nextContentUrl": "text.下一页@href##$##,{'webView': true}",
+            "replaceRegex": "##.*最快更新.*无广告.*"
+        },
+        "ruleExplore": {
+            "author": "span@text||td.-2@text",
+            "bookList": ".m-rec-list li||.list-group li||tbody tr",
+            "bookUrl": "a.0@href||a.1@href\n@js:\nvar end=result.includes(\"_\");\nif(end){\n\tresult=String(result).replace(/_.+$/,\"/\")\n\t}else{\n\t\tresult=result;\n\t\t}\nresult;",
+            "coverUrl": "a@href\n@js:\nvar id=result.match(/\\d+/);\nvar iid=parseInt(id/1000);\n`https://xiaoshuow.cc/images/${iid}/${id}/${id}s.jpg`",
+            "kind": "td.-1@text",
+            "name": "a.0@text||a.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.-1@text",
+            "bookList": "<js>\nvar cf=/Just a moment|请稍候/;\nvar verify=cf.test(src);\nvar socd=/搜索间隔[:\\s\\d]+秒/;\nvar ms=socd.test(src);\nif(verify){\n\tcookie.removeCookie(source.getKey());\n\tvar x=java.get(\"url\");\n\tjava.startBrowserAwait(x,\"验证\");\n\tresult=java.ajax(x);\n\t}else if(ms){\n\t\tvar url=java.get(\"url\");\n\t\tresult=java.ajax(url);\n\t\t}else{\n\t\t\tresult=result;\n\t\t}\n\t\tresult;\n</js>\ntbody tr",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "a.0@href\n@js:\nvar id=result.match(/\\d+/);\nvar iid=parseInt(id/1000);\n`https://xiaoshuow.cc/images/${iid}/${id}/${id}s.jpg`",
+            "kind": "td.-1@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".m-book-list ul li a",
+            "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+            "chapterUrl": "href##$##,{'webView': true}"
+        },
+        "searchUrl": "@js:\nvar url=source.getKey();\nvar so=url+\"/search/,\";\nbody=`tbname=bookname&show=title,writer&tempid=1&searchkey=${key}`;\nvar head=source.header;\nvar post={\n\t\"body\": String(body),\"headers\": head,\n  \"method\": \"POST\",\"webView\": true\n  };\njava.put(\"url\",String(so+JSON.stringify(post)))",
+        "weight": 0
+    }
+]

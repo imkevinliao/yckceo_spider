@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "关注星瞳_Official，送溜溜梅",
+        "bookSourceName": "耽美小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.danmei.la",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "<js>\nimportClass(org.jsoup.Jsoup);\nfunction get(www,css)\n{\nlist=Jsoup.parse(java.ajax(www)).select(css).toArray().map(a=>a.text()+\"::\"+a.attr(\"href\")).join(\"&&\").replace(/1.html/,\"{{page}}.html\");\nreturn list;\n}\nresult=get(\"https://wap.danmei.la/list.html\",\".sortcontent ul li a\")+get(\"https://wap.danmei.la/top/\",\".sortcontent ul li a\")\n</js>",
+        "lastUpdateTime": 1659190978077,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": ""
+        },
+        "ruleContent": {
+            "content": "#nr@html##【更多精彩好书尽在耽美小说网http://www.danmei.la】"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.2@text",
+            "bookList": ".block",
+            "bookUrl": "a.0@href",
+            "coverUrl": ".block_img@a@img@src",
+            "intro": "tag.p.4@text##.*：",
+            "kind": "",
+            "lastChapter": "",
+            "name": "h2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/s.php,{\n\t \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=%CB%D1%CB%F7\"\n}",
+        "weight": 0
+    }
+]

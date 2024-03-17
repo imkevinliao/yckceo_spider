@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "三优同站",
+        "bookSourceGroup": "自制,反盗,更新快",
+        "bookSourceName": "择日小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.zrfsxs.com/",
+        "bookUrlPattern": "https://www.zrfsxs.com/xiaoshuo/\\d+/",
+        "customOrder": 2200,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"择日飞升\",\"url\":\"/xiaoshuo/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"仙者\",\"url\":\"/xiaoshuo/39/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"光阴之外\",\"url\":\"/xiaoshuo/26/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"宿命之环\",\"url\":\"/xiaoshuo/25/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"灵境行者\",\"url\":\"/xiaoshuo/19/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"长生\",\"url\":\"/xiaoshuo/23/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"半仙\",\"url\":\"/xiaoshuo/7/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"更多···最近\",\"url\":\"/xiaoshuo/1-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "lastUpdateTime": 1689322615893,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.itemtxt@p.1@text",
+            "coverUrl": "class.item@img@src",
+            "intro": "class.des bb.0@text",
+            "kind": "class.itemtxt@p.0@span@text",
+            "lastChapter": "class.itemtxt@ul@li.0@a@text",
+            "name": "class.itemtxt@h1@a@text",
+            "wordCount": "class.itemtxt@h1@i@text"
+        },
+        "ruleContent": {
+            "content": "class.con@html##br",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##必.应.*弹.窗。|必.应.*最.快。"
+        },
+        "ruleExplore": {
+            "author": "p.1@a@text",
+            "bookList": "class.item",
+            "bookUrl": "h1@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.des bb@text",
+            "kind": "p.0@span@text",
+            "lastChapter": "ul@li.0@a@text",
+            "name": "h1@a@text",
+            "wordCount": "h1@i@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "p.1@a@text",
+            "bookList": "class.item",
+            "bookUrl": "h3@a@href",
+            "checkKeyWord": "择日飞升",
+            "coverUrl": "img@src",
+            "kind": "p.0@span@text",
+            "lastChapter": "ul@li.0@a@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "https://www.zrfsxs.com/tag/?key={{key}}",
+        "weight": 0
+    }
+]

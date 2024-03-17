@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "两次搜索的间隔时间不得少于 30 秒",
+        "bookSourceName": "潇湘文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xxwx.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 1671908527639,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.red@text",
+            "coverUrl": "class.img-thumbnail@src",
+            "intro": "class.text-muted.0@text",
+            "kind": "class.breadcrumb@li.1@text&&class.blue@text",
+            "lastChapter": "class.col-md-10@p.1@a@text",
+            "name": "class.bookTitle@textNodes",
+            "wordCount": "class.visible-xs@text"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@textNodes##潇湘文学 www.*net，最快更新|最新章节！",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "td.3@text",
+            "bookList": "class.table@tr!0",
+            "bookUrl": "td.1@a@href",
+            "kind": "class.hidden-xs.0@text",
+            "lastChapter": "class.hidden-xs.1@text",
+            "name": "td.1@a@text",
+            "wordCount": "td.4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.panel-body@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "http://www.xxwx.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"GBK\",\n  \"method\": \"GET\"\n}",
+        "weight": 0
+    }
+]

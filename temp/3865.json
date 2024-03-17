@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "//仅发现，搜索无效，啥也搜不到",
+        "bookSourceGroup": "自制,发现,源仓库,网页源",
+        "bookSourceName": "171小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.171xs.net",
+        "bookUrlPattern": "https?://m.171xs.net/\\d+/",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n玄幻::/1_{{page}}/\n古言::/7_{{page}}/\n现言::/8_{{page}}/\n悬疑::/5_{{page}}/\n更多::/more/\n玄幻修真::/1_{{page}}/\n都市商战::/2_{{page}}/\n历史军事::/3_{{page}}/\n网游科幻::/4_{{page}}/\n悬疑推理::/5_{{page}}/\n穿越架空::/6_{{page}}/\n古典言情::/7_{{page}}/\n现代言情::/8_{{page}}/\n耽美同人::/9_{{page}}/\n综合其他::/10_{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691641283394,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "span.0@text",
+            "init": ".round",
+            "intro": ".des@text",
+            "lastChapter": "dd.0@text",
+            "name": "h3@text"
+        },
+        "ruleContent": {
+            "content": ".con@html",
+            "replaceRegex": "##{{chapter.title}}|【畅读.*】|为您提供.*最快更新|免费阅读.+net"
+        },
+        "ruleExplore": {
+            "author": "span.0@text",
+            "bookList": ".newt+ul li||.round",
+            "bookUrl": "a@href",
+            "intro": ".des@text",
+            "kind": "0",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "<js>\n/搜索的书暂时没有！/.test(src)?java.toast(\"没有搜到书！\"):result\n</js>"
+        },
+        "ruleToc": {
+            "chapterList": "#g dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.171xs.net/s/?wd={{key}}",
+        "weight": 0
+    }
+]

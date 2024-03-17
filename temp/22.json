@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "发现页翻不了页",
+        "bookSourceGroup": "🍉自制",
+        "bookSourceName": "阿迪夫",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.adf.cc",
+        "bookUrlPattern": "",
+        "customOrder": 654,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻奇幻::https://wap.adf.cc/sorts/fantastic?page={{page}}\n仙侠修真::https://wap.adf.cc/sorts/gods?page={{page}}\n都市现代::https://wap.adf.cc/sorts/popular?page={{page}}\n科幻未来::https://wap.adf.cc/sorts/science?page={{page}}\n网络游戏::https://wap.adf.cc/sorts/games?page={{page}}\n青春校园::https://wap.adf.cc/sorts/youth?page={{page}}\n军事历史::https://wap.adf.cc/sorts/history\n恐怖悬疑::https://wap.adf.cc/sorts/horrific\n穿越重生::https://wap.adf.cc/sorts/rebirth\n言情总裁::https://wap.adf.cc/sorts/love",
+        "lastUpdateTime": 1664518548241,
+        "loginUrl": "",
+        "respondTime": 180490,
+        "ruleBookInfo": {
+            "downloadUrls": "class.book-info@ul@li.-1@href",
+            "intro": "",
+            "lastChapter": "",
+            "tocUrl": "",
+            "wordCount": "class.book-info@ul@li.4@text## "
+        },
+        "ruleContent": {
+            "content": "class.chapter-content@tag.p@textNodes"
+        },
+        "ruleExplore": {
+            "author": "a@small@text",
+            "bookList": "class.sort-list@li@a",
+            "bookUrl": "a@href",
+            "name": "a@textNodes"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.book_info@tag.p.1@text##\\/|作者：",
+            "bookList": "id.content@class.author_book",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "我的",
+            "coverUrl": "tag.a.0@img@src",
+            "intro": "class.book_info@tag.small@text",
+            "lastChapter": "class.book_info@tag.p.2@text##\\/|最新：",
+            "name": "class.book_info@tag.h2@tag.a@text##\\/.*|《|》"
+        },
+        "ruleToc": {
+            "chapterList": "class.novel-list@dl@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://wap.adf.cc/search?keywords={{key}}",
+        "weight": 0
+    }
+]

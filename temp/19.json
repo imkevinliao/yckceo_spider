@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceUrl": "https://www.biqupai.com/",
+        "bookSourceType": "0",
+        "bookSourceName": "笔趣派",
+        "bookSourceGroup": "",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "https://www.biqupai.com/search.php?keyword={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1664549307667,
+        "ruleSearch": {
+            "bookList": "class.result-item",
+            "name": "class.result-game-item-title-link@text",
+            "author": "class.result-game-item-info.p:eq(0)@text",
+            "lastChapter": "class.result-game-item-info-tag-item@text",
+            "intro": "class.intro@text",
+            "coverUrl": "tag.img@src",
+            "bookUrl": "class.result-game-item-pic-link@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "#info@tag.h1@text##免费阅读",
+            "author": "#info@tag.p.eq(0)@text",
+            "lastChapter": "class.last@tag.a@text##最新章节：",
+            "intro": "#intro@tag.p@text",
+            "coverUrl": "class.pic@tag.img@src",
+            "tocUrl": "class.btopt@tag.a@href"
+        },
+        "ruleToc": {
+            "chapterList": "#list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        }
+    }
+]

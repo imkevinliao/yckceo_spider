@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "无图小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.wutuxs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/list/1_{{page}}.html&&武侠修真::/list/2_{{page}}.html&&都市言情::/list/3_{{page}}.html&&历史军事::/list/4_{{page}}.html&&网游动漫::/list/5_{{page}}.html&&科幻小说::/list/6_{{page}}.html&&恐怖灵异::/list/7_{{page}}.html&&其他::/list/8_{{page}}.html&&全本::/quanben/{{page}}&&",
+        "header": "",
+        "lastUpdateTime": 1623109454825,
+        "ruleBookInfo": {
+            "author": "tag.i.0@text",
+            "coverUrl": ".pic img@src",
+            "intro": ".js p@text",
+            "kind": "##作品状态：([^<]+).*?类别：([^<]+)##$1 $2###",
+            "lastChapter": ".fl a@text",
+            "name": "h1@text",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#contents@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "tr:has(td)",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.a.0@href##.*\\D(\\d+)\\D$##$1@js:result = Number(result);\nif (result >=1000){'http://www.wutuxs.com/files/article/image/'+Math.floor(result/1000)+'/'+result+'/'+result+'s.jpg'}else{'http://www.wutuxs.com/files/article/image/0/'+result+'/'+result+'s.jpg'}",
+            "intro": "",
+            "kind": "tag.td.4@text&&tag.td.5@text",
+            "lastChapter": "a[href$=html]@text",
+            "name": "tag.td.0@text",
+            "wordCount": "tag.td.3@text##K"
+        },
+        "ruleToc": {
+            "chapterList": ".L a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\naction=org.jsoup.Jsoup.parse(String(java.ajax(\"http://www.wutuxs.com/\"))).select(\"form\").attr(\"action\")\n\nbody = \"searchtype=articlename&searchkey={{key}}\"\noption={\"charset\": \"gbk\",\"method\": \"POST\",\"body\": String(body)}\n\"http://www.wutuxs.com\"+String(action)+\",\"+JSON.stringify(option)",
+        "weight": 0
+    }
+]

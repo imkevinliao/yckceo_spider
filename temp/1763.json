@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "需登录",
+        "bookSourceGroup": "正版",
+        "bookSourceName": "听姬",
+        "bookSourceType": 1,
+        "bookSourceUrl": "https://www.himehear.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1681635628295,
+        "loginUi": "[\n    {\n        name: \"账号\",\n        type: \"text\"\n    },\n    {\n        name: \"验证码\",\n        type: \"text\"\n    },\n    {\n        name: \"邮箱验证码\",\n        type: \"button\",\n        action: \"getCode(2)\"\n    },\n    {\n        name: \"手机验证码\",\n        type: \"button\",\n        action: \"getCode(1)\"\n    }\n]",
+        "loginUrl": "<js>\nfunction getCode(type){\n\ttry{\n\t\tphone = result.get(\"账号\");\n\t\t\n\turl = \"https://www.himehear.com/tjapp/v1/common/verifyCode\";\n\tbody={\n\t\t\"messageType\":1,\n\t\t\"sendType\":type,\n\t\t\"account\":String(phone)\n\t\t}\n\t\t\n\t\toption = {\n\t\t\t\"method\":\"POST\",\n\t\t\t\"body\":JSON.stringify(body)\n\t\t\t}\n\t\t\t\n\t\t\turl = url+\",\"+JSON.stringify(option);\n\t\t\t\n\t  \tJSON.parse(java.ajax(url)).code==0?java.toast(\"验证码发送成功，请注意查收\"):java.toast(\"验证码发送失败，请稍候再试\");\n\t  \t\n\t\t\t}catch(e){\n\t\t\t\tjava.log(e)\n\t\t\t\t}\n\t\t\t\t\n\t}\n\n\nfunction login(){\n\tphone = source.getLoginInfoMap().get(\"账号\");\n\tcode = source.getLoginInfoMap().get(\"验证码\");\n\turl = \"https://www.himehear.com/tjapp/v1/user/loginV2\";\n\t\n\tif(/@/.test(String(phone))){\n\t\tloginType = 2\n\t\t}else if(/^\\d{11}$/.test(String(phone))){\n\t\t\tloginType = 1\n\t\t\t}\n\t\n\tbody = {\n\t\t\"verifyCode\":String(code),\n\t\t\"loginType\":2,\n\t\t\"account\":String(phone)\n\t\t}\n\t\t\n\toption = {\n\t\t\"method\":\"POST\",\n\t\t\"body\":JSON.stringify(body)\n\t\t}\n\t\t\n\turl = url + \",\" + JSON.stringify(option);\n\t\n\ttoken =JSON.parse(java.ajax(url)).result.token;\n\tjava.log(token);\n\t\n\theaders = {\n\t\t\"token\":String(token)\n\t\t}\n\t\t\tsource.putLoginHeader(JSON.stringify(headers));\n\t\n\t}\n\n</js>",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "$.result.introduction"
+        },
+        "ruleContent": {
+            "content": "<js>\ndramaPath = baseUrl.match(/.*\\/(.*)/)[1];\njava.log(dramaPath)\nfunction re(a){\n\ta = String(java.encodeURI(a)).replace(/\\+/g,\"%20\").replace(/\\*/g,'%2A').replace(/%7E/g,'~').replace(/%2F/g,'/');\n\treturn a;\n\t}\n\t\noss = JSON.parse(java.get(\"https://www.himehear.com/tjapp/v1/oss/ali/sts\",source.getLoginHeaderMap()).body()).result;\n\nsk = oss.accessKeySecret;\nak = re(oss.accessKeyId);\nst = oss.securityToken.trim();\n\ndate = String(parseInt(Date.now()/1000+3600));\n\njava.log(date);\n\ndata = \"GET\\n\\n\\n\"+date+\"\\n\"+\"/tingjifm/\"+dramaPath+\"?security-token=\"+st;\n\nsign = java.HMacBase64(data, \"HMacSHA1\", sk);\n\nurl = `https://tingjifm.oss-cn-shenzhen.aliyuncs.com/${dramaPath}?Expires=${date}&OSSAccessKeyId=${ak}&Signature=${sign}&security-token=${re(st)}`;\n</js>",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "{{$.author}}◆{{$.studioName}}",
+            "bookList": "$.result[*]",
+            "bookUrl": "https://www.himehear.com/tjapp/v2/works/detail?radioId={{$.id}}",
+            "coverUrl": "https://tingjifm-pub.oss-cn-shenzhen.aliyuncs.com/{{$.radioImg}}",
+            "intro": "$.introduction",
+            "kind": "",
+            "name": "$.radioDramaName",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "$.result..partDramas[*]",
+            "chapterName": "$.dramaName",
+            "chapterUrl": "$.dramaPath",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.himehear.com/tjapp/v1/home/drama/searching,{\n\t\"method\":\"POST\",\n\t\"body\":{\"pageSize\":20,\"category\":\"drama\",\"pageNum\":1,\"key\":\"{{key}}\"}\n\t}",
+        "weight": 0
+    }
+]

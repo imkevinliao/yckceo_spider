@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "趣书网76txt同站，搜索间隔30秒。\n偶尔加载慢搜不出来，等会儿就好。\n类型：文本在线阅读，切换文件可以下载。",
+        "bookSourceGroup": "自制,女频,下载,源仓库,网页源",
+        "bookSourceName": "奇书网71qs",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.71qs.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "女频言情::/yanqing/<,{{page}}.html>\n玄幻奇幻::/xuanhuan/<,{{page}}.html>\n现代都市::/dushi/<,{{page}}.html>\n武侠仙侠::/xianxia/<,{{page}}.html>\n美文同人::/qita/<,{{page}}.html>\n科幻灵异::/kehuan/<,{{page}}.html>\n游戏竞技::/youxi/<,{{page}}.html>\n历史军事::/lishi/<,{{page}}.html>\n总排行榜::/top/<,{{page}}.html>",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\":\"https://www.71qs.com/\"}",
+        "lastUpdateTime": 1685946470642,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".p_author@text",
+            "coverUrl": "img@src",
+            "downloadUrls": "text.TXT下载@href\n<js>java.ajax(source.getKey()+result[0])</js>text.高速下载@href",
+            "intro": "#bookintro@text",
+            "kind": "#count@li.0:2:3@text\n##分类：|状态：|更新：",
+            "name": "h1.1@text",
+            "tocUrl": "{{@@text.点击阅读@href}}&page=1"
+        },
+        "ruleContent": {
+            "content": "class.nr@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".book_other@text##人气：.*",
+            "bookList": "#sitebox@dl||.topbooks@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "寒山",
+            "coverUrl": "img@src",
+            "intro": ".book_des@text",
+            "kind": ".uptime@text",
+            "name": "h3@a@text||a@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\npage = java.getElement(\"@@class.last_page\");\ndata = page.attr(\"href\");\n\nys = data.match(/page=(\\d+)/)[1];\n\nlist = [({ text: \"第1页\", href: baseUrl })];\n\nif (ys !== null) {\n  for (i = 2; i <= ys; i++) {\n    list.push({ text: \"第\" + i + \"页\", href: baseUrl.replace(/page=1/, \"page=\" + i) });\n  }\n}\nlist;\n</js>",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://s.553xs.com/s71/?key={{key}},{\n  \"charset\": \"gb2312\"\n}",
+        "weight": 0
+    }
+]

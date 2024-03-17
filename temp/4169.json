@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "20231001修复搜索\n搜索地址经常变动",
+        "bookSourceGroup": "自写&修复1001,地址变动1001",
+        "bookSourceName": "明月中文③[修复]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.56kog.com/",
+        "customOrder": 95,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"总收藏榜\",\"url\":\"/top/goodnum_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周点击榜\",\"url\":\"/top/weekvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新入库\",\"url\":\"/top/postdate_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本小说\",\"url\":\"/quanben/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻魔法\",\"url\":\"/class/1_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠修真\",\"url\":\"/class/2_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/class/4_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"侦探推理\",\"url\":\"/class/5_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游动漫\",\"url\":\"/class/6_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖灵异\",\"url\":\"/class/8_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/class/3_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/class/7_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生小说\",\"url\":\"/class/9_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/class/10_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},]",
+        "header": "",
+        "lastUpdateTime": 1696148255155,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 3214,
+        "ruleBookInfo": {
+            "author": ".mohe-content@p.0@textNodes",
+            "coverUrl": ".mohe-content@.mohe-imgs@img@src",
+            "init": "",
+            "intro": "#mohetext@ownText",
+            "kind": ".mohe-content@p.1@a@text&&.mohe-content@p.2:3@ownText",
+            "lastChapter": ".mohe-content@p.4@a@text",
+            "name": ".header@h1@ownText",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": ".nr_all@div[class~=back_r.+]@html",
+            "nextContentUrl": "",
+            "replaceRegex": "##\\&\\#30340记\\;##的",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@text",
+            "bookList": ".cover@p",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "ownText##\\[|\\]|\\/",
+            "lastChapter": "",
+            "name": "a@text"
+        },
+        "ruleToc": {
+            "chapterList": ".readchapter@li@el-tag",
+            "chapterName": "text",
+            "chapterUrl": "onclick##'(.*?)'##$1###\n@js:unescape(result.replace(/\\\\u/g,'%u'));",
+            "nextTocUrl": "select[name=pageselect]@option!0@value",
+            "updateTime": ""
+        },
+        "searchUrl": "https://s0l3kr.56kog.com/user/0glncpJdEG.php,{\n\t\"charset\": \"GBK\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+        "variableComment": "",
+        "weight": 0
+    }
+]

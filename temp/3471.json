@@ -1,0 +1,51 @@
+[
+    {
+        "bookSourceComment": "仅发现，搜索无效",
+        "bookSourceGroup": "自制,发现,源仓库,网页源",
+        "bookSourceName": "美乐读小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.meledxs.com",
+        "bookUrlPattern": "https://m.meledxs.com/\\d+/\\d+.html",
+        "customOrder": 0,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部小说::/sort/<,{{page}}.html>\n玄幻奇幻::/sort/1_{{page}}.html\n武侠修真::/sort/2_{{page}}.html\n都市青春::/sort/3_{{page}}.html\n历史军事::/sort/4_{{page}}.html\n恐怖科幻::/sort/5_{{page}}.html\n网游同人::/sort/6_{{page}}.html\n恐怖科幻::/sort/7_{{page}}.html\n其他综合::/sort/8_{{page}}.html",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1685842384319,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": "class.book-meta.-1@text##.*\\|"
+        },
+        "ruleContent": {
+            "content": "#booktxt@html",
+            "nextContentUrl": "text.下一页@href##$##,{'webView': true}"
+        },
+        "ruleExplore": {
+            "author": "dd.1@a@text",
+            "bookList": "class.content@dl",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": "dd.0@text",
+            "kind": "dd.1@span.0@text",
+            "name": "a.1@text",
+            "wordCount": "dd.1@span.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "weight": 0
+    }
+]

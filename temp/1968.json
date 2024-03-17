@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "👍 优质",
+        "bookSourceName": "优·四小说网™",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.xyusk.com",
+        "customOrder": -39132,
+        "enabled": false,
+        "enabledExplore": false,
+        "lastUpdateTime": 1619260014222,
+        "ruleBookInfo": {
+            "author": "##:author\"[^\"]*\"([^\"]*)##$1###",
+            "coverUrl": "##:image\"[^\"]*\"([^\"]*)##$1###",
+            "intro": "##:description\"[^\"]*\"([^\"]*)##$1###",
+            "kind": "##:category\"[^\"]*\"([^\"]*)[\\s\\S]*?status\"[^\"]*\"([^\"]*)[\\s\\S]*?_time\"[^\"]*\"([^\"]*)##$1,$2,$3###",
+            "lastChapter": "##_chapter_name\"[^\"]*\"([^\"]*)##$1###",
+            "name": "##:book_name\"[^\"]*\"([^\"]*)##$1###"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes##请记住本书首发域名：.+xyusk.com"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": "+@css:.bookbox",
+            "bookUrl": ".bookname a@href",
+            "coverUrl": "img@src",
+            "kind": ".cat@text##分类：",
+            "lastChapter": ".update a@text",
+            "name": ".bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": "+@css:.listmain dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?searchkey={{key}}",
+        "weight": 0
+    }
+]

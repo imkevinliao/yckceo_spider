@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceName": "笔趣1biqug",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.1biqug.net/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1674044205031,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "id.content@html",
+            "replaceRegex": "##.*最新域名.*|.*为您提供最快更新！|手机用户请浏览.*"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.s4@text",
+            "bookList": "class.novelslist2@li!0",
+            "bookUrl": "class.s2@tag.a@href",
+            "kind": "class.s1@text",
+            "lastChapter": "class.s3@text&&class.s6@text",
+            "name": "class.s2@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.1biqug.net/SearchBook.php?keyword={{key}}&submit=",
+        "weight": 0
+    }
+]

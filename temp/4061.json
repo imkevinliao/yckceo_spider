@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "书山",
+        "bookSourceName": "百字小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.baizixs.com",
+        "customOrder": -2147483648,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 13; V2073A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.74 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1694511267142,
+        "loginCheckJs": "",
+        "loginUrl": "https://m.baizixs.com/user/login.heml",
+        "respondTime": 3074,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content##^##https:",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##\\s.*",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.章节目录@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者内容正在手打中，请稍后访问~\"}\n</js>",
+            "nextContentUrl": "text.下页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.sc-title@span.1@a@text",
+            "bookList": "class.container search-card",
+            "bookUrl": "span.0@a@href",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "intro": "class.search-bold sc-content@text",
+            "kind": "class.sc-time@span.1@text",
+            "lastChapter": "class.sc-time@span.0@text",
+            "name": "class.sc-title@span.0@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chapter-list@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": " text.下页@href"
+        },
+        "searchUrl": "https://m.baizixs.com/search/,{\n  \"body\": \"keyword={{key}}&submit=\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

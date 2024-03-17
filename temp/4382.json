@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "追书帮",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.zhuishubox.com",
+        "bookUrlPattern": "https?://m.zhuishubox.com/\\d+/",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/sort/1_{{page}}/\n奇幻小说::/sort/2_{{page}}/\n武侠小说::/sort/3_{{page}}/\n仙侠小说::/sort/4_{{page}}/\n都市小说::/sort/5_{{page}}/\n职场小说::/sort/6_{{page}}/\n军事小说::/sort/7_{{page}}/\n历史小说::/sort/8_{{page}}/\n网游小说::/sort/9_{{page}}/\n竞技小说::/sort/10_{{page}}/\n科幻小说::/sort/11_{{page}}/\n灵异小说::/sort/12_{{page}}/\n同人小说::/sort/13_{{page}}/\n二次元::/sort/22_{{page}}/\n其他小说::/sort/23_{{page}}/\n古代言情::/sort/14_{{page}}/\n仙侠奇缘::/sort/15_{{page}}/\n现代言情::/sort/16_{{page}}/\n浪漫青春::/sort/17_{{page}}/\n玄幻言情::/sort/18_{{page}}/\n悬疑灵异::/sort/19_{{page}}/\n科幻空间::/sort/20_{{page}}/\n游戏竞技::/sort/21_{{page}}/\n全本::/full/{{page}}/",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1698719030097,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".block_txt2 a.1@text",
+            "coverUrl": ".block_img2 img@src",
+            "intro": ".intro_info@text",
+            "kind": ".block_txt2 p.3:4:5@text##.*：",
+            "lastChapter": ".block_txt2 a.-1@text",
+            "name": "h2 a@text",
+            "tocUrl": "{{$.}}mulu.html",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr1@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "p.line",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "kind": "a.0@text##\\[|\\]",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href\n@js:\nvar regex=/第\\d*.(\\d+)页.当前\\d*条.页/;\n//正则匹配页数\nvar page=src.match(regex);\npage=page?page[1]:\"\";\nvar next=result?result[0]:\"\";\nnext=String(next);\nvar url=[next];\nfor(i=2;i<=page;i++){\n\turl.push(next.replace(/_\\d+/,\"_\"+i))\n\t}\nurl;"
+        },
+        "searchUrl": "/s.php,{\n  \"body\": \"type=articlename&s={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

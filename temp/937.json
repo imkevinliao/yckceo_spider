@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "⁉️ 自制",
+        "bookSourceName": "柚子小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.18ij.com",
+        "customOrder": 28843,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "默认全部::http://m.18ij.com/modules/article/articlefilter.php?order=lastupdate&amp;page={{page}}\n奇幻玄幻::http://m.18ij.com/modules/article/articlefilter.php?order=lastupdate&amp;page={{page}}&amp;sortid=1\n武侠仙侠::http://m.18ij.com/modules/article/articlefilter.php?order=lastupdate&amp;page={{page}}&amp;sortid=2\n都市言情::http://m.18ij.com/modules/article/articlefilter.php?order=lastupdate&amp;page={{page}}&amp;sortid=3\n历史军事::http://m.18ij.com/modules/article/articlefilter.php?order=lastupdate&amp;page={{page}}&amp;sortid=4\n穿越女频::http://m.18ij.com/modules/article/articlefilter.php?order=lastupdate&amp;page={{page}}&amp;sortid=5\n网游竞技::http://m.18ij.com/modules/article/articlefilter.php?order=lastupdate&amp;page={{page}}&amp;sortid=6\n科幻灵异::http://m.18ij.com/modules/article/articlefilter.php?order=lastupdate&amp;page={{page}}&amp;sortid=7\n综合其他::http://m.18ij.com/modules/article/articlefilter.php?order=lastupdate&amp;page={{page}}&amp;sortid=8",
+        "header": "",
+        "lastUpdateTime": 1633778449601,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "p.gray@textNodes## 著[\\S\\s]*",
+            "coverUrl": "img.cover_l@src",
+            "intro": "#introa@html##\\[收起内容\\]",
+            "kind": ".mbs@span@text##\\[|\\]",
+            "lastChapter": ".blockc@.c_row.1@a@text",
+            "name": "h4.mbs@textNodes##《|》",
+            "tocUrl": "text.显示全部章节@href",
+            "wordCount": "{{@p.gray@span.0:1@text}}{{@p.gray@textNodes##.* 著}}##\\s##,"
+        },
+        "ruleContent": {
+            "content": "#acontent@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "a@span@text##^/",
+            "bookList": "#jieqi_page_contents@tr",
+            "bookUrl": "a@href",
+            "intro": "a@href\n<js>java.ajax(result)</js>\n#introa@html##\\[收起内容\\]",
+            "kind": "td.0:-1@text",
+            "lastChapter": "a@href\n<js>java.ajax(result)</js>\n.blockc@.c_row.1@a@text",
+            "name": "a@textNodes",
+            "wordCount": "{{@td.-2@text}}字"
+        },
+        "ruleSearch": {
+            "author": ".gray@text##\\|\\s.*",
+            "bookList": ".blockcontent@.c_row",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".gray@text##.*\\|\\s",
+            "lastChapter": "a@href\n<js>java.ajax(result)</js>\n.blockc@.c_row.1@a@text",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": ".index@dd@a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/modules/article/search.php,{\n'method': 'POST',\n'body': 'searchkey={{key}}&searchtype=all'\n}",
+        "weight": 0
+    }
+]

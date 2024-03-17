@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "美乐读小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.mldxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": true,
+        "lastUpdateTime": 1669025944438,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "canReName": "1",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[name=\"description\"]@content##(^|[。！？\\s]+[”」）】]?)##$1<br>",
+            "kind": "[property~=status|category|update_time]@content",
+            "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "body@script@all\n<js>\ncontent = String(result.match(/str_decode[(\"].*[\");]/));\ncontent = content.replace(/str_decode[(\"]|[\"][)][;]/,\"\");\njava.base64Decode(content)\n</js>",
+            "nextContentUrl": "a#linkNext@href"
+        },
+        "ruleSearch": {
+            "author": "td.text-muted@text",
+            "bookList": "tr!0",
+            "bookUrl": "td@a[title]@href",
+            "kind": "td.3:4@text",
+            "name": "td@a[title]@text"
+        },
+        "ruleToc": {
+            "chapterList": "dd.col-md-3@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/searchf81d?searchkey={{key}}&searchtype=all",
+        "weight": 0
+    }
+]

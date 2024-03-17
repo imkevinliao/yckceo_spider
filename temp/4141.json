@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "落秋中文5",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.luoqiu5.cc",
+        "bookUrlPattern": "http://m.luoqiu5.cc/\\w+/",
+        "customOrder": 1,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/sort/all<,/{{page}}>.html\n玄幻小说::/sort/xuanhuan<,/{{page}}>.html\n修真小说::/sort/xiuzhen<,/{{page}}>.html\n都市小说::/sort/dushi<,/{{page}}>.html\n历史小说::/sort/lishi<,/{{page}}>.html\n网游小说::/sort/wangyou<,/{{page}}>.html\n科幻小说::/sort/kehuan<,/{{page}}>.html\n其他小说::/sort/qita<,/{{page}}>.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1695357873108,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": ".content@html",
+            "nextContentUrl": "text.下一@href"
+        },
+        "ruleExplore": {
+            "author": "p.author@text",
+            "bookList": ".list-1 li",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": ".desc@text",
+            "kind": "0",
+            "name": "h3@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text##\\/",
+            "bookList": ".list li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "剑来",
+            "kind": "span.1@text&&i.time@text##\\[|\\]",
+            "name": ".name@ownText"
+        },
+        "ruleToc": {
+            "chapterList": ".list li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://m.luoqiu5.cc/search.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

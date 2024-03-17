@@ -1,0 +1,40 @@
+[
+    {
+        "bookSourceComment": "只能搜索全名",
+        "bookSourceName": "盗墓小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.daomutxt.com/",
+        "customOrder": -88903111,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "lastUpdateTime": 1669704218845,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": ".showtxt@html",
+            "replaceRegex": "##天才一秒.*|https.*##"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author@text",
+            "bookList": ".bookbox",
+            "bookUrl": ".bookname@a@href",
+            "checkKeyWord": "修仙就是这么科学",
+            "coverUrl": ".bookimg@img@src",
+            "intro": "p.0@text",
+            "kind": ".cat@text##分类：##",
+            "lastChapter": ".update@text##最新章节：##",
+            "name": ".bookname@text"
+        },
+        "ruleToc": {
+            "chapterList": ".listmain@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.daomutxt.com/search?keyword={{key}}",
+        "weight": 0
+    }
+]

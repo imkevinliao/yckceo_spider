@@ -1,0 +1,29 @@
+[
+    {
+        "bookSourceGroup": "new",
+        "bookSourceName": "八哥小说m",
+        "bookSourceUrl": "https://m.bagzw.com",
+        "enable": true,
+        "ruleBookAuthor": "class.xx@tag.li.2@text##作者[:：]",
+        "ruleBookContent": "id.nr@textNodes",
+        "ruleBookKind": "class.xx@tag.li.1@text##分类[:：]",
+        "ruleBookLastChapter": "class.xx@tag.li.4@a@text",
+        "ruleBookName": "class.xx@tag.li.0@text",
+        "ruleChapterList": "class.lb fk@li!-1",
+        "ruleChapterName": "a@text",
+        "ruleChapterUrl": "class.gengduo@a@href",
+        "ruleChapterUrlNext": "text.下一页@href",
+        "ruleContentUrl": "a@href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.xsfm@img@src",
+        "ruleIntroduce": "class.jianjie@textNodes",
+        "ruleSearchAuthor": "tag.a.2@text",
+        "ruleSearchKind": "tag.a.0@text##\\[|\\]",
+        "ruleSearchList": "class.fk@li",
+        "ruleSearchName": "tag.a.1@text",
+        "ruleSearchNoteUrl": "tag.a.1@href",
+        "ruleSearchUrl": "/Search/searchKey|char=utf-8",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

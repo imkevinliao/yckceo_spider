@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "塔读",
+        "bookSourceGroup": "okou",
+        "bookSourceName": "塔读",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.tadu.com/##正版-最新破解",
+        "bookUrlPattern": "",
+        "customOrder": -1,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "@js:let boyTypes = [\r\n    {i: 0, n: \"  全部分类  \"},\r\n    {i: 99, n: \"📔东方玄幻\"},\r\n    {i: 103, n: \"📕现代都市\"},\r\n    {i: 135, n: \"📗脑洞创意\"},\r\n    {i: 108, n: \"📘历史架空\"},\r\n    {i: 113, n: \"📙军事战争\"},\r\n    {i: 112, n: \"📒游戏竞技\"},\r\n    {i: 109, n: \"📔武侠仙侠\"},\r\n    {i: 111, n: \"📕科幻末世\"},\r\n    {i: 128, n: \"📗灵异悬疑\"},\r\n    {i: 107, n: \"📘西方奇幻\"},\r\n    {i: 281, n: \"📙短篇小说\"}\r\n];\r\n\r\nlet girlTypes = [\r\n    {i: 129, n: \"📔古代言情\"},\r\n    {i: 133, n: \"📕幻想言情\"},\r\n    {i: 104, n: \"📗现代言情\"},\r\n    {i: 105, n: \"📘浪漫青春\"},\r\n    {i: 288, n: \"📙悬疑小说\"},\r\n    {i: 291, n: \"📒短篇小说\"},\r\n];\r\n\r\nlet sort = [\r\n    {i: 0, n: \"全部字数\"},\r\n    {i: 11, n: \"100万字以下\"},\r\n    {i: 12, n: \"200万字以下\"},\r\n];\r\n\r\nlet girlRank = [\r\n    {i: 'hour72', n: \"🔥人气榜\"},\r\n    {i: 'potential', n: \"🆕新书榜\"},\r\n    {i: 'votes', n: \"💰银票榜\"},\r\n    {i: 'wholebook', n: \"📚完本榜\"},\r\n];\r\n\r\nlet boyRank = [\r\n    {i: 'hour72', n: \"🔥人气榜\"},\r\n    {i: 'potential', n: \"🆕新书榜\"},\r\n    {i: 'votes', n: \"💰银票榜\"},\r\n    {i: 'interactive', n: \"🤼‍♂️互动榜\"},\r\n    {i: 'wholebook', n: \"📚完本榜\"},\r\n];\r\n\r\nlet titleStyle = {\r\n    layout_flexGrow: 0,\r\n    layout_flexShrink: 1,\r\n    layout_alignSelf: \"auto\",\r\n    layout_flexBasisPercent: 1,\r\n    layout_wrapBefore: false\r\n};\r\nconst defaultStyle = {\r\n    layout_flexBasisPercent: .28\r\n};\r\nlet result = [];\r\nfor (let rank of boyRank) {\r\n    for (let s of sort) {\r\n        let title = `🔹 ♂️男频·${rank.n}·${s.n} 🔹`;\r\n        result.push({\r\n            title: title,\r\n            url: \"\",\r\n            style: titleStyle\r\n        });\r\n        for (let type of boyTypes) {\r\n            result.push({\r\n                title: type.n,\r\n                url: `/book/rank/list/0-${rank.i}-${type.i}-${s.i}-{{page}}`,\r\n                style: defaultStyle\r\n            });\r\n        }\r\n    }\r\n}\r\nfor (let rank of girlRank) {\r\n    for (let s of sort) {\r\n        let title = `🔸 ♀️女频·${rank.n}·${s.n}·可点击 🔸`;\r\n        result.push({\r\n            title: title,\r\n            url: `/book/rank/list/3-${rank.i}-0-${s.i}-{{page}}`,\r\n            style: titleStyle\r\n        });\r\n        for (let type of girlTypes) {\r\n            result.push({\r\n                title: type.n,\r\n                url: `/book/rank/list/3-${rank.i}-${type.i}-${s.i}-{{page}}`,\r\n                style: defaultStyle\r\n            });\r\n        }\r\n    }\r\n}\r\nJSON.stringify(result);",
+        "lastUpdateTime": 1697280698442,
+        "loginUrl": "https://www.tadu.com",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.author@text## 著",
+            "coverUrl": "class.bookCover@class.bookImg@tag.img@data-src##a.jpg##276_200.jpg",
+            "intro": "class.intro@text",
+            "kind": "class.list.-1@text",
+            "lastChapter": "class.newChapter clearfix@tag.div.0@tag.a.0@text",
+            "name": "class.bookIntro@class.bookNm@class.bkNm@text",
+            "wordCount": "class.datum@tag.span.0@tag.em@text"
+        },
+        "ruleContent": {
+            "content": "id.bookPartResourceUrl@value@js:let response = java.ajax('https://www.tadu.com/' + result + `,{\"headers\": {\"Cookie\": \"${java.getCookie(source.bookSourceUrl)}\"}}`);\nlet data = JSON.parse(response).data;\nlet text = data.content;\ntext = text.replace(/<p data-limit=\"[a-zA-Z0-9=]+\">(\\s+)(\\S+)<\\/p>/gm, (a,b,c) => {\n    let content = c.replace(/[\\^。~\\.\\:\\*@\\-&—<>]/gm, '');\n    if (content.indexOf(\"塔读小说\") != -1 || content.indexOf(\"作者题外话\") != -1 || content.indexOf(\"塔读APP\") != -1 || content.indexOf(\"免费小说网站\") != -1) {\n        return '';\n    }\n    return '    ' + c + '\\n';\n});\nif(data.url == '') {\n    text;\n} else {\n    let map = {0x3402: \"尸\",0x3424: \"已\",0x342F: \"化\",0x3460: \"才\",0x34B9: \"工\",0x3515: \"升\",0x351D: \"木\",0x3554: \"区\",0x35BE: \"口\",0x35FF: \"开\",0x378D: \"大\",0x379C: \"切\",0x3846: \"士\",0x38B4: \"巨\",0x38DE: \"千\",0x3A69: \"匀\",0x3AAD: \"山\",0x3AFD: \"贝\",0x3B82: \"牛\",0x3CB5: \"占\",0x3E9A: \"扎\",0x3F24: \"认\",0x401F: \"斗\",0x4020: \"止\",0x405C: \"水\",0x405D: \"火\",0x4085: \"干\",0x421C: \"土\",0x42B2: \"巴\",0x439A: \"无\",0x4490: \"予\",0x44EF: \"仍\",0x456E: \"太\",0x45E9: \"片\",0x4716: \"内\",0x4760: \"王\",0x47BC: \"比\",0x4810: \"少\",0x4857: \"瓦\",0x4888: \"日\",0x48DC: \"友\",0x48E1: \"尺\",0x496D: \"月\",0x49B5: \"办\",0x4A63: \"心\",0x4AE6: \"马\",0x4BAA: \"让\",0x4C69: \"卡\",0x4C79: \"历\",0x4CA9: \"手\",0x4EB8: \"仇\",0x508B: \"乃\",0x5129: \"刃\",0x5164: \"失\",0x520C: \"凶\",0x527A: \"队\",0x5299: \"劝\",0x52D7: \"讨\",0x530E: \"文\",0x5333: \"匆\",0x53E2: \"勾\",0x55B9: \"什\",0x55BA: \"什\",0x565A: \"丈\",0x5683: \"及\",0x5684: \"毛\",0x56B3: \"长\",0x5759: \"幻\",0x5794: \"己\",0x5B0A: \"反\",0x5B16: \"未\",0x5B96: \"主\",0x5DC3: \"夫\",0x5F40: \"印\",0x5FA0: \"付\",0x5FB0: \"风\",0x60AB: \"见\",0x6133: \"左\",0x618C: \"引\",0x61A5: \"出\",0x61AE: \"引\",0x61D9: \"力\",0x61F0: \"乐\",0x6206: \"厅\",0x624A: \"支\",0x633F: \"厉\",0x6395: \"八\",0x639A: \"亏\",0x63F1: \"天\",0x6429: \"女\",0x6725: \"双\",0x6801: \"归\",0x688D: \"凡\",0x68A1: \"仗\",0x68E5: \"午\",0x68FB: \"刀\",0x696C: \"功\",0x6A34: \"句\",0x6A4C: \"门\",0x6A65: \"儿\",0x6AB2: \"几\",0x6B16: \"欠\",0x6B1D: \"写\",0x6B78: \"计\",0x6BA9: \"古\",0x6C31: \"击\",0x6F33: \"广\",0x6F6B: \"瓜\",0x6FC4: \"申\",0x6FE5: \"田\",0x6FF8: \"又\",0x700B: \"发\",0x70C9: \"井\",0x710E: \"以\",0x715A: \"扔\",0x7161: \"叹\",0x719E: \"仪\",0x71B2: \"子\",0x7256: \"犯\",0x72AB: \"飞\",0x72E6: \"灭\",0x7363: \"小\",0x7369: \"本\",0x73FF: \"训\",0x7447: \"气\",0x7556: \"厂\",0x757B: \"巧\",0x761B: \"乎\",0x7829: \"入\",0x784E: \"包\",0x790B: \"代\",0x7995: \"分\",0x7A6A: \"一\",0x7AC1: \"尼\",0x7B0A: \"元\",0x7B1A: \"央\",0x7B7B: \"市\",0x7B99: \"仅\",0x7BC3: \"宁\",0x7C42: \"甲\",0x7C57: \"六\",0x7C82: \"今\",0x7CC0: \"母\",0x7D2E: \"亡\",0x7D6D: \"甘\",0x7DDB: \"穴\",0x7DDC: \"皮\",0x7F07: \"介\",0x7F45: \"们\",0x7F73: \"头\",0x7FBC: \"纠\",0x7FE5: \"它\",0x801C: \"玉\",0x8127: \"号\",0x813C: \"仙\",0x8195: \"奶\",0x81C8: \"互\",0x81E1: \"永\",0x81E9: \"圣\",0x8219: \"平\",0x82BB: \"十\",0x833B: \"记\",0x8466: \"叶\",0x848F: \"台\",0x84B0: \"议\",0x84E3: \"叮\",0x84EB: \"叫\",0x85C8: \"公\",0x85CA: \"务\",0x85D1: \"旦\",0x85E8: \"术\",0x8643: \"礼\",0x8661: \"外\",0x8758: \"斥\",0x87FD: \"北\",0x8848: \"对\",0x884F: \"从\",0x88A0: \"旧\",0x8A24: \"闪\",0x8A67: \"处\",0x8AEC: \"半\",0x8B71: \"布\",0x8CE1: \"汁\",0x8DA8: \"只\",0x8E8C: \"打\",0x8F5D: \"边\",0x8FAD: \"汇\",0x902D: \"去\",0x91AD: \"加\",0x922E: \"右\",0x929E: \"节\",0x92C6: \"可\",0x930C: \"令\",0x9383: \"四\",0x93BF: \"仔\",0x93F0: \"五\",0x9557: \"仓\",0x978F: \"另\",0x9AE8: \"书\",0x9D34: \"他\",0x9F37: \"与\",0x9F3D: \"专\",0x9F47: \"不\",0x9F49: \"下\",0x9F80: \"上\",0x9F86: \"且\",0x9F87: \"业\",0x9F8B: \"世\",0x9F8C: \"丰\",0x9F90: \"人\",0x9F93: \"丝\",0x9F96: \"七\",0x9F9C: \"东\",0x9F9D: \"了\",0x9F9E: \"也\",0x9FA0: \"三\",0x9FA1: \"中\",0x9FA2: \"万\",0x9FA3: \"义\",0x9FA4: \"久\",0x9FA5: \"个\",0xFA0D: \"丹\",0xFA0E: \"二\",0xFA11: \"习\",0xFA13: \"之\",0xFA14: \"丸\",0xFA18: \"九\",0xFA1F: \"为\",0xFA20: \"么\",0xFA21: \"于\",0xFA27: \"云\",0xFA28: \"乍\"};\n    let r = \"\";\n    for(let i = 0; i < text.length; i++) {\n        let c = text[i];\n        let code = c.charCodeAt(0);\n        r += map[code] || c;\n    }\n    r;\n}\n"
+        },
+        "ruleExplore": {
+            "author": "class.booknick@text##(\\S+)[\\s\\n]*·[\\s\\n]*(\\S+)[\\s\\n]*·[\\s\\n]*(\\d+万?)字([\\s\\n]*·[\\s\\n]*(日人气|银票数|互动值)(\\d+))?##$1",
+            "bookList": "class.booklist",
+            "bookUrl": "class.bookname@tag.a.0@href",
+            "coverUrl": "class.bookimg@tag.img@data-src",
+            "intro": "class.bookdes@text",
+            "kind": "class.booknick@text##(\\S+)[\\s\\n]*·[\\s\\n]*(\\S+)[\\s\\n]*·[\\s\\n]*(\\d+万?)字([\\s\\n]*·[\\s\\n]*(日人气|银票数|互动值)(\\d+))?##$2",
+            "lastChapter": "",
+            "name": "class.bookname_name@text",
+            "wordCount": "class.booknick@text##(\\S+)[\\s\\n]*·[\\s\\n]*(\\S+)[\\s\\n]*·[\\s\\n]*(\\d+万?)字([\\s\\n]*·[\\s\\n]*(日人气|银票数|互动值)(\\d+))?##$3"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.authorNm@text",
+            "bookList": "class.bookList@tag.li",
+            "bookUrl": "class.rtList@tag.a.0@href",
+            "coverUrl": "class.bookImg@tag.img@data-src",
+            "intro": "class.bookIntro@text",
+            "kind": "class.condition@tag.span.0:2@text",
+            "lastChapter": "",
+            "name": "class.rtList@tag.a.0@text",
+            "wordCount": "class.condition@tag.span.1@text## 字"
+        },
+        "ruleToc": {
+            "chapterList": "class.lfT@tag.li@tag.div.0@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href"
+        },
+        "searchUrl": "/search?query={{key}}&pageSize=30&pageNum={{page}}",
+        "weight": 0
+    }
+]

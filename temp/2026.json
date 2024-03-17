@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "寂寞书吧",
+        "bookSourceUrl": "https://www.4efu.com",
+        "enable": false,
+        "ruleBookContent": "id.acontent@html#校园港",
+        "ruleBookLastChapter": "h3@a@text",
+        "ruleChapterList": "class.index@dd@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "text.点击阅读@href",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.divbox cf@img@src",
+        "ruleFindUrl": "最近更新::https://www.4efu.com/modules/article/toplist.php?order=lastupdate&page=searchPage\n最新入库::https://www.4efu.com/modules/article/toplist.php?order=postdate&page=searchPage\n总点击榜::https://www.4efu.com/modules/article/toplist.php?order=allvisit&page=searchPage\n总推荐榜::https://www.4efu.com/modules/article/toplist.php?order=allvote&page=searchPage\n总收藏榜::https://www.4efu.com/modules/article/toplist.php?order=goodnum&page=searchPage\n总字数榜::https://www.4efu.com/modules/article/toplist.php?order=words&page=searchPage\n玄幻魔法::https://www.4efu.com/modules/article/articlelist.php?sortid=1&page=searchPage\n武侠修真::https://www.4efu.com/modules/article/articlelist.php?sortid=2&page=searchPage\n都市言情::https://www.4efu.com/modules/article/articlelist.php?sortid=3&page=searchPage\n历史军事::https://www.4efu.com/modules/article/articlelist.php?sortid=4&page=searchPage\n穿越架空::https://www.4efu.com/modules/article/articlelist.php?sortid=5&page=searchPage\n游戏竞技::https://www.4efu.com/modules/article/articlelist.php?sortid=6&page=searchPage\n科幻灵异::https://www.4efu.com/modules/article/articlelist.php?sortid=7&page=searchPage\n同人动漫::https://www.4efu.com/modules/article/articlelist.php?sortid=8&page=searchPage\n社会文学::https://www.4efu.com/modules/article/articlelist.php?sortid=9&page=searchPage",
+        "ruleIntroduce": "class.tabvalue.0@html",
+        "ruleSearchAuthor": "class.c_value.0@texttag.td.2@text",
+        "ruleSearchCoverUrl": "a@href#http.*#https://www.4efu.com/modules/article/images/nocover.jpg",
+        "ruleSearchKind": "class.c_value.1@text&&class.c_value.3@text&&tag.td.5@text",
+        "ruleSearchLastChapter": "class.c_value@a@text|tag.td.1@text",
+        "ruleSearchList": "class.c_row|class.grid@tr",
+        "ruleSearchName": "class.c_subject@tag.a.1@text|class.c_subject@a@text|tag.td.0@tag.a.1@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://www.4efu.com/modules/article/search.php?searchkey=searchKey&searchtype=all&page=1",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

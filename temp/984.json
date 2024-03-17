@@ -1,0 +1,41 @@
+[
+    {
+        "bookSourceComment": "[AJiu制作]\n博客地址：http://blog.itaj.xyz",
+        "bookSourceGroup": "漫画",
+        "bookSourceName": "[阿玖·AJiu]36漫画",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.36mh.net",
+        "concurrentRate": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 9.5.4; zh-cn; M032 Build/IML74K) AppleWebKit/5.4.9 (KHTML, like Gecko)Version/4.0 ajiu/4.1 Mobile Safari/5.4.9\"\n}",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1631545571701,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "class.txtDesc@text"
+        },
+        "ruleContent": {
+            "content": "tag.mip-link@tag.mip-img@src",
+            "imageStyle": "full",
+            "replaceRegex": "##(http.*)##<img src=\"$1\"/>"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "tag.p.0@text",
+            "bookList": "class.itemBox",
+            "bookUrl": "tag.a.0@href",
+            "kind": "class.pd@text",
+            "lastChapter": "class.coll@text",
+            "name": "class.title@text",
+            "wordCount": "class.date@text"
+        },
+        "ruleToc": {
+            "chapterList": "-id.chapter-list-4@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "/search/?keywords={{key}}",
+        "weight": 0
+    }
+]

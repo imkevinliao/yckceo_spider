@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "假装修复一下🙉",
+        "bookSourceName": "2k中文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.2kzw.com",
+        "customOrder": -6526,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::https://www.2kzw.com/xhtxt/\n仙侠小说::https://www.2kzw.com/xxtxt/\n都市小说::https://www.2kzw.com/dstxt/\n历史小说::https://www.2kzw.com/lstxt/\n网游小说::https://www.2kzw.com/wytxt/\n科幻小说::https://www.2kzw.com/khtxt/\n女生小说::https://www.2kzw.com/nstxt/\n同人小说::https://www.2kzw.com/trtxt/\n完本小说::https://www.2kzw.com/wanben/",
+        "lastUpdateTime": 1603119278835,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@text##作    者：",
+            "coverUrl": "id.fmimg@tag.img@src",
+            "intro": "id.intro@tag.p@text",
+            "lastChapter": "id.info@tag.p.3@tag.a@text",
+            "name": "id.info@tag.h1@text"
+        },
+        "ruleContent": {
+            "content": "class.content@html",
+            "nextContentUrl": ""
+        },
+        "ruleExplore": {
+            "author": "class.s5@text",
+            "bookList": "class.l@tag.ul@tag.li",
+            "bookUrl": "class.s2@tag.a@href",
+            "lastChapter": "class.s3@tag.a@text",
+            "name": "class.s2@tag.a@text"
+        },
+        "ruleSearch": {
+            "author": "class.odd.1@text",
+            "bookList": "class.category-div",
+            "bookUrl": "class.flex flex-between commend-title@tag.a@href",
+            "lastChapter": "class.even.0@tag.a@text",
+            "name": "class.flex flex-between commend-title@tag.a@text",
+            "wordCount": "class.even.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.info-chapters flex flex-wrap.1@tag.a",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://wap.2kzw.com/search/?searchkey={{key}},{\n\"charset\":\"utf-8\"}",
+        "weight": 0
+    }
+]

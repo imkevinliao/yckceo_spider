@@ -1,0 +1,46 @@
+[
+    {
+        "bookSourceComment": "目录源码随机排序，有大神可以帮忙修改一下",
+        "bookSourceGroup": "",
+        "bookSourceName": "大悟读书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://5165.org",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": -292876,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"东野圭吾\",\"url\":\"/dongyeguiwu/?p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"人文社科\",\"url\":\"/renwen/?p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"人物传记\",\"url\":\"/zhuanji/?p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"官场小说\",\"url\":\"/guanchang/?p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"文学作品\",\"url\":\"/wenxue/?p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"经济管理\",\"url\":\"/jingguan/?p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"言情小说\",\"url\":\"/yanqing/?p={{page}}\",\"style\":{\"layout_flexGrow\":1}}\n]",
+        "header": "",
+        "lastUpdateTime": 1634646069497,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "div#category-description-author@text",
+            "coverUrl": "#category-description-image@img@src",
+            "intro": "div#category-description-text@text",
+            "name": "h1@text"
+        },
+        "ruleContent": {
+            "content": ".entry-content@p@html"
+        },
+        "ruleExplore": {
+            "author": "span@text",
+            "bookList": "article",
+            "bookUrl": ".entry-title@a@href",
+            "coverUrl": "img@src",
+            "intro": "a@title##@text",
+            "name": ".entry-title@a@text"
+        },
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": ".entry-content@a",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

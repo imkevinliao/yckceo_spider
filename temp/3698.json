@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "爱小说18ys",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.18ys.net",
+        "bookUrlPattern": "http://m.18ys.net/\\d+/index.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan<,_{{page}}>.html\n奇幻::/qihuan<,_{{page}}>.html\n修真::/xiuzhen<,_{{page}}>.html\n都市::/dushi<,_{{page}}>.html\n言情::/yanqing<,_{{page}}>.html\n历史::/lishi<,_{{page}}>.html\n同人::/tongren<,_{{page}}>.html\n武侠::/wuxia<,_{{page}}>.html\n科幻::/kehuan<,_{{page}}>.html\n游戏::/youxi<,_{{page}}>.html\n军事::/junshi<,_{{page}}>.html\n竞技::/jingji<,_{{page}}>.html\n灵异::/lingyi<,_{{page}}>.html\n商战::/shangzhan<,_{{page}}>.html\n校园::/xiaoyuan<,_{{page}}>.html\n官场::/guanchang<,_{{page}}>.html\n职场::/zhichang<,_{{page}}>.html\n其他::/qita<,_{{page}}>.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1688696675471,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content",
+            "kind": "{{@@text.分类：@text}}\n{{@@text.状态：@text}}\n{{@@text.更新时间：@text}}\n##分类：|状态：|更新时间：",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "{{@@text.全部章节@href}}"
+        },
+        "ruleContent": {
+            "content": ".text@p@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "ownText##\\/|\\s+",
+            "bookList": ".book_textList2@li",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "@js:\"http://r.m.18ys.net/jieqi/cover/49/49455/49455s.jpg\"",
+            "kind": "i@text&&span@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "class.btn_op@text\n<js>var go=result.toString()\npage=go.match(/第1\\/(\\d+)页/)[1];\nlist=[];for(i=2;i<=page;i++){list.push(baseUrl.replace(/list1/,'list'+i))}\nlist</js>"
+        },
+        "searchUrl": "http://m.18ys.net/search.htm?keyword={{key}}",
+        "weight": 0
+    }
+]

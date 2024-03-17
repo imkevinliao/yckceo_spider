@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceGroup": "偏女频，没做发现",
+        "bookSourceName": "努努书坊",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kanunu1.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "lastUpdateTime": 1667191115388,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info@a@text",
+            "coverUrl": "tag.mip-img.0@src",
+            "intro": "class.right@p.1@text",
+            "kind": "class.right@span.0@text",
+            "lastChapter": "class.right@a.0@text",
+            "name": "class.right@h1@text",
+            "wordCount": "span.2@text"
+        },
+        "ruleContent": {
+            "content": "class.mip-box-body@p!1@textNodes",
+            "replaceRegex": "##\\·"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "tag.span@tag.a@text",
+            "bookList": "class.mipui-xs-item-list",
+            "bookUrl": "tag.a@href",
+            "coverUrl": "tag.mip-img@src",
+            "intro": "class.description@textNodes##\\最新章节：",
+            "lastChapter": "class.description@a@text",
+            "name": "tag.h4@tag.a@text",
+            "wordCount": "class.pull-right@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@a",
+            "chapterName": "title",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/e/search/index.php,{\n  \"body\": \"show=title&keyboard={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

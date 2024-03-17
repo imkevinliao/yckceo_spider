@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceUrl": "https://m.feiku.la",
+        "bookSourceType": "0",
+        "bookSourceName": "飞库网",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceComment": "疯狂的蜗牛",
+        "loginUrl": "",
+        "bookUrlPattern": "",
+        "header": "",
+        "searchUrl": "https://m.feiku.la/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": 0,
+        "lastUpdateTime": 1625240460767,
+        "ruleSearch": {
+            "bookList": "class.search_list",
+            "name": "@tag.a.0@text",
+            "author": "@tag.a.2@text",
+            "kind": "@tag.a.1@text",
+            "bookUrl": "@tag.a.0@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "name": "class.catalog1@h1@text",
+            "author": "class.p1@text##作者：",
+            "kind": "class.p4@text",
+            "wordCount": "class.p6@text",
+            "lastChapter": "class.p3@tag.a@text",
+            "coverUrl": "class.tu@img@src"
+        },
+        "ruleToc": {
+            "chapterList": "class.info_chapters@tag.ul.1@tag.li",
+            "chapterName": "@tag.a@text",
+            "chapterUrl": "@tag.a@href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "ruleContent": {
+            "content": "id.novelcontent@html"
+        }
+    }
+]

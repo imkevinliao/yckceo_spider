@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "https://raw.githubusercontent.com/jinrikuaile/ssr/master/diyibanzhu.json",
+        "bookSourceGroup": "第一版主",
+        "bookSourceName": "第一版主官网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.diyibanzhume7.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最后更新::http://www.diyibanzhume7.com/shuku/6-lastupdate-0-{{page}}.html\n字数::http://www.diyibanzhume7.com/shuku/6-size-0-{{page}}.html\n新书::http://www.diyibanzhume7.com/shuku/6-postdate-0-{{page}}.html",
+        "lastUpdateTime": 1619234938718,
+        "ruleBookInfo": {
+            "intro": "class.bd@text",
+            "lastChapter": "class.list.0@tag.a.0@text",
+            "name": "class.right@tag.h1@text",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.page-content font-large@tag.p@html",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "//a[@class=\"curr\"]/following-sibling::a[1]/@href"
+        },
+        "ruleExplore": {
+            "author": "class.info@tag.a@text",
+            "bookList": "class.column-2",
+            "bookUrl": "class.name@href",
+            "lastChapter": "class.info.1@text",
+            "name": "class.name@text",
+            "wordCount": "class.words@text"
+        },
+        "ruleSearch": {
+            "author": "//p[2]/text()",
+            "bookList": "class.column-2",
+            "bookUrl": "class.name@href",
+            "lastChapter": "class.update@tag.a@text",
+            "name": "class.name@text",
+            "wordCount": "class.words@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list.1@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": "class.nextPage@href"
+        },
+        "searchUrl": "http://www.diyibanzhume7.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&objectType=2&type=articlename\"\n}",
+        "weight": 0
+    }
+]

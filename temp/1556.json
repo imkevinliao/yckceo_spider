@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "规则和内容基本精华书阁一样，搜索地址不一样",
+        "bookSourceGroup": "1111",
+        "bookSourceName": "神仙书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.shenxianfaka.top/",
+        "customOrder": 73,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "排行::/Ranking_allvisit/{{page}}.html\n玄幻::/list/1_{{page}}.html\n修真::/list/2_{{page}}.html\n都市::/list/3_{{page}}.html\n穿越::/list/4_{{page}}.html\n网游::/list/5_{{page}}.html\n科幻::/list/6_{{page}}.html\n灵异::/list/7_{{page}}.html\n女生::/list/8_{{page}}.html\n其他::/list/9_{{page}}.html\n完本::/wanben_{{page}}.html",
+        "lastUpdateTime": 1671197960446,
+        "respondTime": 30625,
+        "ruleBookInfo": {
+            "author": "[property~=author]@content",
+            "intro": "[property~=og:description]@content",
+            "kind": "[property~=category|time|status]@content",
+            "lastChapter": "[property~=chapter_name]@content",
+            "name": "[property~=title]@content",
+            "wordCount": "text.字数：@text##字数."
+        },
+        "ruleContent": {
+            "content": "style@all&&id.nr_content@all\n@js:\nnum=result.split('._').length-1\nfor (var i=0;i<num;i++){\n\tresult=result.replace(/.*?\\}/,'')\n\ts=result.match(/\\.(_.*?):.*?\".(.*?)\"/)\n\ts1=\"<span class=\\\"\"+s[1]+\"\\\"></span>\"\n\ts2=\"%u\"+s[2]\nresult=result.replace(new RegExp(s1,'g'),unescape(s2))\n}\nresult=result.replace(/\\s/g,'').replace(/.*?最新章节！/,'分页合并>').replace(/([^>]+)(天才一秒记住|保存好书签).*/,'').replace(/@神仙书阁/,'').replace(title.replace(/ /,''),'').replace(/「/g,'“').replace(/」/g,'”')",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##(?<=[\\u4e00-\\u9fa5\\dA-Za-z，])\\n*\\s*分页合并>\\n*\\s*|分页合并>|\\s第.*?章"
+        },
+        "ruleExplore": {
+            "author": ".s4@text||.s5@text||p.3@text##作者.",
+            "bookList": "class.list_ul@li||ul.1@li",
+            "bookUrl": "a.0@href",
+            "kind": ".s1@text||p.0@text##\\[|\\]",
+            "lastChapter": ".s3@text||p.2@text",
+            "name": ".s2@text||p.1@text",
+            "wordCount": "p.4@text##字\n@js:parseInt(result/10000)+\"万字\""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".p3@text",
+            "bookList": "class.list_ul@li",
+            "bookUrl": "a.0@href",
+            "kind": ".p6@text&&.p5@text",
+            "lastChapter": "a.1@text",
+            "name": "a.0@text",
+            "wordCount": ".p4@text\n@js:parseInt(result/10000)+\"万字\""
+        },
+        "ruleToc": {
+            "chapterList": "id.list@dl.-1@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/search.html,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchtype=all&searchkey={{key}}&page={{page}}\"\n\t}",
+        "weight": 0
+    }
+]

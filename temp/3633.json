@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "无错小说屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wcxs5.com",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1688381374364,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "intro": "class.des.0@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": "class.itemtxt.0@tag.h1.0@tag.i.0@text"
+        },
+        "ruleContent": {
+            "content": "class.con.0@html",
+            "nextContentUrl": "text.下一页@href##$##,{'webView': true}",
+            "replaceRegex": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.itemtxt.0@tag.p.1@tag.a.0@text",
+            "bookList": "class.item",
+            "bookUrl": "class.item.0@tag.a.0@href",
+            "checkKeyWord": "深海余烬",
+            "coverUrl": "class.item.0@tag.a.0@tag.img.0@src",
+            "intro": "",
+            "kind": "class.itemtxt.0@tag.p.0@tag.span.1@text",
+            "lastChapter": "class.itemtxt.0@tag.ul.0@tag.li.0@tag.a.0@text",
+            "name": "class.itemtxt.0@tag.h3.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list.0@tag.ul.0@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/tag/?key={{key}}",
+        "weight": 5
+    }
+]

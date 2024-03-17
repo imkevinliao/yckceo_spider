@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,一般,源仓库,网页源",
+        "bookSourceName": "178小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.178yhr.com/",
+        "bookUrlPattern": "https://m.178yhr.com/book.*",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/category/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"奇幻\",\"url\":\"/category/qihuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"武侠\",\"url\":\"/category/wuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"仙侠\",\"url\":\"/category/xianxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"都市\",\"url\":\"/category/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"历史\",\"url\":\"/category/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"军事\",\"url\":\"/category/junshi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"游戏\",\"url\":\"/category/youxi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"竞技\",\"url\":\"/category/jingji/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"科幻\",\"url\":\"/category/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"灵异\",\"url\":\"/category/lingyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"其他\",\"url\":\"/category/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1683983016990,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property~=og:novel:category|og:novel:status|og:novel:update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "h1@text",
+            "tocUrl": "{{$.}}dir.html",
+            "wordCount": "class.size12.3@text##\\/.*"
+        },
+        "ruleContent": {
+            "content": "id.pt-pop@html"
+        },
+        "ruleExplore": {
+            "author": ".size12@a@text",
+            "bookList": "class.flex-wrp pt-popular-item",
+            "bookUrl": ".size14@a@href",
+            "coverUrl": "img@src",
+            "intro": ".mt10@text",
+            "kind": "class.pt-popular-label@text",
+            "name": ".size14@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".color5@a@title",
+            "bookList": "class.pt-recomment-cont",
+            "bookUrl": ".color7@tag.a@href",
+            "checkKeyWord": "高天",
+            "coverUrl": "img@src",
+            "intro": ".mt10@text",
+            "kind": "class.pt-recomment-label@text",
+            "name": ".color7@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.border-b chapter-list",
+            "chapterName": "a@title",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://m.178yhr.com/search/result.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceComment": "搜索间隔30秒",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "御书房文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.ysfwxc.com/",
+        "bookUrlPattern": "https://m.ysfwxc.com/book/\\d+.*",
+        "customOrder": -2085978476,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/class/cat/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"悬疑\",\"url\":\"/class/cat/5/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情\",\"url\":\"/class/cat/7/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/class/cat/3/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙武\",\"url\":\"/class/cat/2/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/class/cat/4/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏\",\"url\":\"/class/cat/6/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/class/cat/9/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/class/cat/1/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/class/cat/8/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1686719266108,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:title\"]@content",
+            "tocUrl": "text.打开目录@href",
+            "wordCount": "class.info@p.2@text##\\[字数\\]："
+        },
+        "ruleContent": {
+            "content": "class.content@html"
+        },
+        "ruleExplore": {
+            "author": "class.author_intro@text##\\|.*",
+            "bookList": "class.pictext",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-original",
+            "intro": "class.info_description@text",
+            "kind": "class.author_intro@text\n##(.*)\\|(.*)\\|(.*)\\|(.*)##$2,$4###",
+            "lastChapter": "",
+            "name": "class.info_title@text",
+            "wordCount": "class.author_intro@text\n##(.*)\\|(.*)\\|(.*)\\|(.*)##$3###"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.info@p.0@span@text",
+            "bookList": "class.partlist-info@dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "kind": "class.info@p.1@span@text",
+            "lastChapter": "class.info@p.3@a.1@text",
+            "name": "em@text",
+            "wordCount": "class.info@p.2@span@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
+        "weight": 0
+    }
+]

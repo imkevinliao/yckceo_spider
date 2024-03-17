@@ -1,0 +1,55 @@
+[
+    {
+        "bookSourceComment": "💡需要ID登录\n\n💡若加载缓慢可挂t\n\n💡若发现点不开 请更新阅读\n\n💡目录加载失败的书籍是因为ID等级限制\n\n乃星改 2021.8.19",
+        "bookSourceGroup": "🌾  登录",
+        "bookSourceName": "🌾 真  白  萌",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://masiro.me",
+        "bookUrlPattern": "",
+        "customOrder": 9,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{'title':'论坛首页','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'全部小说','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&status=1&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'日轻小说','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&order=2&ori=0','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'原创小说','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&order=2&ori=1','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'最近更新','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&order=1','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'这是空的','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'这是空的','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'世  界  观','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'VR/游戏','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=40&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'异  世  界','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=5&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'迷宫地域','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=6&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'现    代','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=45&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'科    幻','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=25&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'校    园','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=11&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'主题|题材','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'战    纪','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=12&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'游    记','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=20&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'美    食','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=21&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'恶    役','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=38&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'误解系','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=16&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'欢乐向','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=34&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'穿越/转生','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=24&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'种田/经营','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=43&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'异能/超自然战斗','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=26&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'主角类型','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'女性主角','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=8&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'青梅竹马','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=29&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'萝莉/幼女','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=39&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'病娇','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=19&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'人外','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=9&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'兽耳','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=10&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'妹妹','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=27&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'姐姐','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=28&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'伪娘','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=30&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'TS','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=23&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'吸血鬼','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=17&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'恋爱关系','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'喜剧','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=4&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'纯爱','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=31&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'后宫','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=33&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'百合','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=7&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'其他标签','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'治愈','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=36&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'黑深残','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=18&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'R17','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=22&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'短篇','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=37&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'同人','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=41&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'连载','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&status=0&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'完结','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=15&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'腰斩','url':'https://masiro.me/admin/loadMoreNovels?page={{page}}&tags=14&order=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}}]",
+        "header": "",
+        "lastUpdateTime": 1629332238863,
+        "loginUrl": "https://masiro.me/admin/auth/login",
+        "ruleBookInfo": {
+            "intro": "&nbsp;&nbsp;🎋更新时间：{{@@.s-font@text}}{{'\\n&lrm;\\n'}}{{@@.brief@html##简介：}}",
+            "kind": "{{@@.n-chapters@text##字数 : \\d+字}},{{@@.n-status@text##状态 : }},{{@@.tags a@text##完结}}"
+        },
+        "ruleContent": {
+            "content": "class.nvl-content@html",
+            "imageStyle": "FULL"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "<js>\ndoc=org.jsoup.Jsoup.parse(result);\nresult=doc.select(\".author\").text().replace(\"作者: \",\"\");\n//java.log(result);\n</js>",
+            "bookList": "<js>\nvar html = JSON.parse(result).html;\n//java.log(html);\ndoc=org.jsoup.Jsoup.parse(html);\nresult=doc.select(\".layui-card\");\n</js>",
+            "bookUrl": "<js>\ndoc=org.jsoup.Jsoup.parse(result);\nresult=doc.selectFirst(\"a\").attr(\"href\");\n//java.log(result);\n</js>",
+            "coverUrl": "<js>\ndoc=org.jsoup.Jsoup.parse(result);\nresult=doc.select(\".n-img\").attr(\"lay-src\");\n//java.log(result);\n</js>",
+            "intro": "<js>\ndoc=org.jsoup.Jsoup.parse(result);\nresult=doc.select(\".hot\").text();\n//java.log(result);\n</js>\n##热度: ",
+            "kind": "<js>\ndoc=org.jsoup.Jsoup.parse(result);\nresult=doc.select(\".words\").text().replace(\"字数: \",\"\").replace(\"字共话\",\"\");\nresult=result+\",\"+doc.select(\".tag\").text();\n//java.log(result);\n</js>\n<js>result.replace(/\\d+字(共\\d+话)/,'$1')</js>\n##\\s##,",
+            "lastChapter": "<js>\ndoc=org.jsoup.Jsoup.parse(result);\nresult=doc.select(\".new_up\").text();\n//java.log(result);\n</js>\n##最新:",
+            "name": "<js>\ndoc=org.jsoup.Jsoup.parse(result);\nresult=doc.select(\".layui-card-header\").attr(\"title\");\n//java.log(result);\n</js>",
+            "wordCount": "<js>\ndoc=org.jsoup.Jsoup.parse(result);\nresult=doc.select(\".words\").text();\n##字数: |字|共.+话|共话\nn=parselnt(result);\na=n/10000;\nresult=a＋\"万字\";\n//java.log(result);\n</js>\n##共话"
+        },
+        "ruleToc": {
+            "chapterList": "@css:a[href^=/admin/novelReading]",
+            "chapterName": "@css:span:first-child@text",
+            "chapterUrl": "href",
+            "isVip": "<js>result.attr(\"data-cost\")>0</js>",
+            "updateTime": ".episode-box span.-1@text"
+        },
+        "searchUrl": "https://masiro.me/admin/loadMoreNovels?page={{page}}&keyword={{key}}",
+        "weight": 0
+    }
+]

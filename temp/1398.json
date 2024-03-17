@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "自用",
+        "bookSourceName": "无错小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wucuoxs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "lastUpdateTime": 1676373972562,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "div.tbody@div.tr@div.td.1@text",
+            "coverUrl": ".hst@img@src",
+            "intro": "id.content@dd.3@p@text",
+            "name": "id.content@dd.0@h1@text##全文阅读",
+            "tocUrl": ".btnlinks@a@href"
+        },
+        "ruleContent": {
+            "content": "id.htmlContent@p@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".author",
+            "bookList": ".search[*]",
+            "bookUrl": ".book_detail_url",
+            "coverUrl": ".cover",
+            "intro": ".intro",
+            "kind": ".cate_name",
+            "lastChapter": ".latest_chapter_name",
+            "name": ".book_name"
+        },
+        "ruleToc": {
+            "chapterList": "@css:tbody>tr>td",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.wucuoxs.com/api/search?q={{key}}",
+        "weight": 0
+    }
+]

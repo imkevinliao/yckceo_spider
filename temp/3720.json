@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "正文需挂梯",
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "新天籁小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xintianlaixsw.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/allsort<,_{{page}}>/\n玄幻奇幻::/xuanhuan<,_{{page}}>/\n武侠仙侠::/wuxia<,_{{page}}>/\n都市生活::/dushi<,_{{page}}>/\n历史军事::/lishi<,_{{page}}>/\n游戏竞技::/youxi<,_{{page}}>/\n科幻未来::/kehuan<,_{{page}}>/\n恐怖悬疑::/xuanyi<,_{{page}}>/\n其他类型::/qita<,_{{page}}>/\n古代言情::/guyan<,_{{page}}>/\n现代言情::/xianyan<,_{{page}}>/\n幻想奇缘::/huanqing<,_{{page}}>/\n游戏情缘::/zongcai<,_{{page}}>/\n浪漫青春::/qingchun<,_{{page}}>/\n言情美文::/wangluo<,_{{page}}>/\n科幻灵异::/mmkehuan<,_{{page}}>/\n其他类型::/mmqita<,_{{page}}>/",
+        "header": "{\"referer\": \"https://m.xintianlaixsw.com\",\"x-requested-with\": \"mark.via\",\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1689227576646,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content\n##天籁小说.+观看小说:",
+            "kind": "[property~=category|status|update_time]@content",
+            "lastChapter": "[property$=latest_chapter_name]@content",
+            "name": "[property$=book_name]@content",
+            "tocUrl": "text.全部章节列表@href"
+        },
+        "ruleContent": {
+            "content": ".content@p@textNodes",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": ".list@li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@src",
+            "intro": "p.-2@text",
+            "kind": "span@text",
+            "lastChapter": "a.-1@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": ".read@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "option@value||text.下一页@href"
+        },
+        "searchUrl": "@js:\n(()=>{\n  if(page==1){\n    let url=source.getKey()+'/search.html,'+JSON.stringify({\n    \"method\":\"POST\",\n    \"body\":\"searchkey=\"+key\n    });\n    return java.put('surl',String(java.connect(url).raw().request().url()));\n  } else {\n    return java.get('surl').replace(/\\d+.html/,page+\".html\")\n  }\n})()",
+        "weight": 0
+    }
+]

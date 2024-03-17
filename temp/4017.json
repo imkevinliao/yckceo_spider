@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "发芽小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.fayaxs.com",
+        "bookUrlPattern": "https?://m.fayaxs.com/shu/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/shuku/{{page}}_0_0_0_0_0_0.html\n都市小说::/shuku/{{page}}_0_3_0_0_0_0.html\n青春小说::/shuku/{{page}}_0_4_0_0_0_0.html\n惊悚小说::/shuku/{{page}}_0_5_0_0_0_0.html\n同人衍生::/shuku/{{page}}_0_6_0_0_0_0.html\n穿越小说::/shuku/{{page}}_0_7_0_0_0_0.html\n游戏竞技::/shuku/{{page}}_0_8_0_0_0_0.html\n玄幻小说::/shuku/{{page}}_0_9_0_0_0_0.html\n科幻小说::/shuku/{{page}}_0_10_0_0_0_0.html\n古代言情::/shuku/{{page}}_0_11_0_0_0_0.html\n仙侠小说::/shuku/{{page}}_0_12_0_0_0_0.html\n最新作品::/shuku/{{page}}_0_0_0_0_0_0.html\n都市小说::/shuku/{{page}}_0_173_0_0_0_0.html\n青春小说::/shuku/{{page}}_0_263_0_0_0_0.html\n惊悚小说::/shuku/{{page}}_0_107_0_0_0_0.html\n同人衍生::/shuku/{{page}}_0_4231_0_0_0_0.html\n穿越小说::/shuku/{{page}}_0_201_0_0_0_0.html\n游戏竞技::/shuku/{{page}}_0_1375_0_0_0_0.html\n玄幻小说::/shuku/{{page}}_0_39_0_0_0_0.html\n科幻小说::/shuku/{{page}}_0_143_0_0_0_0.html\n古代言情::/shuku/{{page}}_0_253_0_0_0_0.html\n仙侠小说::/shuku/{{page}}_0_413_0_0_0_0.html\n书库小说::/shuku/\n榜单小说::/click.html\n完结小说::/finish.html\n总章数量::/chapters.html",
+        "header": "{\"referer\": \"{{source.getKey()}}\",\n\"x-requested-with\": \"mark.via\",\n\"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1694069131894,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\",\nt:\"text.目录@href\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "tocUrl": "@get:{t}"
+        },
+        "ruleContent": {
+            "content": "@js:\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{result=\"章节加载失败，或者内容正在手打中，请稍后访问~\"}"
+        },
+        "ruleExplore": {
+            "author": "a.2@text",
+            "bookList": ".CGsectionTwo-right-content-unit",
+            "bookUrl": "a.0@href",
+            "intro": "p.-2@text",
+            "kind": "p.-1@text",
+            "name": "a.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.1@text",
+            "bookList": ".search-card",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "剑来",
+            "intro": ".sc-content@text",
+            "kind": "span.-1@text",
+            "lastChapter": "span.-2@text",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list li a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下页@href"
+        },
+        "searchUrl": "/search/,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

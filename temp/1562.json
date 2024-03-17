@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceComment": "Hexagons124",
+        "bookSourceGroup": "婆婆",
+        "bookSourceName": "御书屋3322t",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.3322t.com",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": true,
+        "exploreUrl": "玄幻奇幻:: /sort/1_{{page}}/\n武侠仙侠:: /sort/2_{{page}}/\n都市言情:: /sort/3_{{page}}/\n科幻网游:: /sort/4_{{page}}/\n惊悚悬疑:: /sort/5_{{page}}/\n耽美同人:: /sort/6_{{page}}/\n穿越架空:: /sort/7_{{page}}/\n高辣浓情:: /sort/8_{{page}}/\n禁忌百合:: /sort/9_{{page}}/\n精品文学:: /sort/10_{{page}}/\n日点击榜::/top/dayvisit_{{page}}/\n周点击榜:: /top/weekvisit_{{page}}/\n月点击榜:: /top/monthvisit_{{page}}/\n总点击榜:: /top/allvisit_{{page}}/\n总收藏榜:: /top/goodnum_{{page}}/\n字数排行:: /top/size_{{page}}/\n日推荐榜:: /top/dayvote_{{page}}/\n周推荐榜:: /top/weekvote_{{page}}/\n月推荐榜:: /top/monthvote_{{page}}/\n总推荐榜:: /top/allvote_{{page}}/\n最新入库:: /top/postdate_{{page}}/\n最近更新:: /top/lastupdate_{{page}}/",
+        "lastUpdateTime": 1670755127453,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "div.infotype@p.0@a@text",
+            "coverUrl": "div.pic@img@src",
+            "intro": "div.intro@p@text",
+            "kind": "div.infotype@p.1@text",
+            "lastChapter": "div.infotype@p.3@a@text",
+            "name": ".cataloginfo@h3@text",
+            "tocUrl": "ul.infolink@li.1@p@a@href"
+        },
+        "ruleContent": {
+            "content": "#novelcontent@text",
+            "nextContentUrl": "ul.novelbutton@li.-1@p@a@href"
+        },
+        "ruleExplore": {
+            "author": "p.author@a@text&&p.p3@a@text",
+            "bookList": "div.branch_menu@.article&&.articlegeneral",
+            "bookUrl": "h6@href&&p.p2@a@href",
+            "coverUrl": "img@src",
+            "intro": "p.simple@text",
+            "kind": "p.p1@a@text",
+            "name": "h6@text&&p.p2@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span@a@text",
+            "bookList": "div.main@div.searchresult@p",
+            "bookUrl": ".sone@a@href",
+            "name": ".sone@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "ul.chapters@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "isPay": "true",
+            "isVip": "true",
+            "nextTocUrl": "div.page@a.0@href"
+        },
+        "searchUrl": "https://m.3322t.com/s.php,{\n\t \"body\": \"s={{key}}&&type=articlename\",\n\t \"charset\": \"gbk\",\n\t \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

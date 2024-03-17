@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "\n网站搜索用不了用的是360搜索，搜索时尽量用全名，正文内容用的是关耳大佬牛站小说po文里的正文内容,网站加载较慢发现内容错乱多刷新几次。",
+        "bookSourceGroup": "📖  小说,验",
+        "bookSourceName": "牛站小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.niuzhanxs.com",
+        "customOrder": 33,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "🍁                           分类                                🍁::\n精品小说::http://www.niuzhanxs.com/jingpinxiaoshuo/{{page}}.html\n海棠耽美::http://www.niuzhanxs.com/haitangdanmei/{{page}}.html\n耽美小说::http://www.niuzhanxs.com/danmeixiaoshuo/{{page}}.html\n海棠言情::http://www.niuzhanxs.com/haitangyanqing/{{page}}.html\n言情小说::http://www.niuzhanxs.com/yanqingxiaoshuo/{{page}}.html\n高辣小说::http://www.niuzhanxs.com/gaolaxiaoshuo/{{page}}.html\npo18小说::http://www.niuzhanxs.com/popoxiaoshuo/{{page}}.html\n科幻灵异::http://www.niuzhanxs.com/kehuanlingyi/{{page}}.html\n🌸                           排行                                🌸::\n总点击榜::/paihang/allvisit_{{page}}.html\n月点击榜::/paihang/monthvisit_{{page}}.html\n周点击榜::/paihang/weekvisit_{{page}}.html\n总推荐榜::/paihang/allvote_{{page}}.html\n月推荐榜::/paihang/monthvote_{{page}}.html\n周推荐榜::/paihang/weekvote_{{page}}.html\n总收藏榜::/paihang/goodnum_{{page}}.html\n总字数榜::/paihang/size_{{page}}.html\n最新入库::/paihang/postdate_{{page}}.html\n最近更新::/paihang/lastupdate_{{page}}.html\n☘️                           标签                                ☘️::\nABO::/tag/13/\n强受::/tag/12/\n双性::/tag/11/\n穿越::/tag/10/\n强强::/tag/9/\n人兽::/tag/8/\n生子::/tag/7/\n年上::/tag/6/\n年下::/tag/5/\n肉文::/tag/4/\n美攻::/tag/3/\n快穿::/tag/2/\n调教::/tag/1/\n完结小说::http://www.niuzhanxs.com/full/{{page}}",
+        "lastUpdateTime": 1643941613658,
+        "respondTime": 74133,
+        "ruleBookInfo": {
+            "author": ".bq@tag.a@text",
+            "intro": ".jj@text",
+            "kind": ".bq@tag.span.0:2@text##更新：|状态：",
+            "lastChapter": ".lastchapter@tag.a@text",
+            "name": ".introduce@h1@text"
+        },
+        "ruleContent": {
+            "content": "@js:\ncontent = {  \n    star: 0,   \n    childNode: [],\n    childNodes: java.getElements(\"@@class.novelcontent@p\").toArray(),\n   UpWz: function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n      },\n    load: function() {\n    this.code=result.match(/code=(\\d+)/)[1];\n    var e = String(java.base64Decode(java.getString('//*[@name=\"client\"]/@content'))).split(/[A-Z]+%/);\n    var j = 0; \n    for (var i = 0; i < e.length; i++) {\n    var k = this.UpWz(e[i], i);\n    this.childNode[k] = this.childNodes[i]\n    };\n    }\n}\nif(baseUrl.match(/\\d+_2/)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");}else{result=java.getElements(\"@@class.novelcontent@p\")}",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##本章尚未.*继续阅读.*|本章已阅读完毕.*继续阅读.*"
+        },
+        "ruleExplore": {
+            "author": "class.odd.0@text||class.p1@text||tag.td.2@text##作者：",
+            "bookList": "class.grid@tag.tr!0||class.fl_right@class.tt",
+            "bookUrl": "tag.a.0@href",
+            "intro": ".p2@text",
+            "kind": "tag.td.-1@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text",
+            "wordCount": "tag.td.-3@text"
+        },
+        "ruleSearch": {
+            "author": ".res-title@text##.*最新章节.*作品##$1###",
+            "bookList": ".alink.0:1",
+            "bookUrl": ".alink@href",
+            "checkKeyWord": "",
+            "intro": "class.g-main summary@text",
+            "name": ".res-title@text##(.*)最新章节.*##$1###"
+        },
+        "ruleToc": {
+            "chapterList": ".ml_list@tag.a",
+            "chapterName": "@text",
+            "chapterUrl": "@href"
+        },
+        "searchUrl": "https://m.so.com/s?q={{key}}site:.niuzhanxs.com",
+        "weight": 0
+    }
+]

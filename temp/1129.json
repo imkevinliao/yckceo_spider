@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "疯狂的蜗牛",
+        "bookSourceName": "娃娃乖小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.wawaguai.cc/",
+        "bookUrlPattern": "",
+        "customOrder": -159571,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "都市小说::https://m.wawaguai.cc/dushi/\n玄幻小说::https://m.wawaguai.cc/xuanhuan/\n仙侠小说::https://m.wawaguai.cc/xianxia/\n历史小说::https://m.wawaguai.cc/lishi/\n科幻小说::https://m.wawaguai.cc/kehuan/\n悬疑小说::https://m.wawaguai.cc/xuanyi/\n其他小说::https://m.wawaguai.cc/qita/\n全本小说::https://m.wawaguai.cc/quanben/\n榜单::https://m.wawaguai.cc/top.php",
+        "header": "",
+        "lastUpdateTime": 1626857503640,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.block_txt2@p.3@text##作者：",
+            "coverUrl": "class.block_img2@img@src",
+            "intro": "class.intro_info@text",
+            "kind": "class.block_txt2@p.4@a@text",
+            "lastChapter": "class.block_txt2@p.7@a@text",
+            "name": "class.block_txt2@h2@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.bookbox||class.content@ul@li",
+            "bookUrl": "class.iTit@href||@label@a@href",
+            "coverUrl": "class.bookimg@a@img@src",
+            "intro": "class.intro_line@text##简介：",
+            "lastChapter": "class.update@text",
+            "name": "class.bookname@text||@label@a@text"
+        },
+        "ruleSearch": [],
+        "ruleToc": {
+            "chapterList": "class.chapter@li",
+            "chapterName": "@a@text",
+            "chapterUrl": "@a@href"
+        },
+        "searchUrl": "https://m.wawaguai.cc/s.php,{\n  \"headers\": \"{Referer:'https://m.xiaoshuowa.com'}\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+        "weight": 0
+    }
+]

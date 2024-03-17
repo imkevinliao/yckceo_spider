@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceGroup": "自制源",
+        "bookSourceName": "海棠看书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bookhaitang.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1695175949385,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author@text",
+            "coverUrl": "img@src",
+            "intro": ".BGsectionTwo-bottom@text",
+            "kind": "class.category@span.0@text",
+            "lastChapter": ".BGsectionThree-content@li.0@a@text",
+            "name": ".title@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "class.RBGsectionThree-content@html",
+            "nextContentUrl": "text.下一@href##$##,{\"webView\": true}"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.2@text",
+            "bookList": "class.SHsectionThree-middle@p",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "kind": "span.0@text",
+            "name": "span.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.BCsectionTwo-top@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\": true}",
+            "nextTocUrl": "text.尾页@href"
+        },
+        "searchUrl": "https://www.bookhaitang.com/search/{{key}}<,/{{page}}.html>",
+        "weight": 0
+    }
+]

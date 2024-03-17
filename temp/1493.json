@@ -1,0 +1,35 @@
+[
+    {
+        "bookSourceUrl": "http://m.ibiqu.org/",
+        "lastUpdateTime": 1674054990581,
+        "ruleToc": {
+            "nextTocUrl": "text.下一页@href",
+            "chapterList": "-.chapter@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "bookSourceType": 0,
+        "searchUrl": "http://m.ibiqu.org/modules/article/waps.php?keyword={{key}}",
+        "ruleSearch": {
+            "bookList": ".line",
+            "name": "a.1@text",
+            "author": "a.2@text",
+            "kind": "a.0@text",
+            "bookUrl": "a.1@href"
+        },
+        "bookSourceName": "笔趣阁",
+        "ruleBookInfo": {
+            "name": ".block_txt2@h2@text",
+            "author": "p.2@a@text",
+            "kind": "p.3@a@text",
+            "wordCount": "p.4@text",
+            "lastChapter": "class.block_txt2@p.6@a@text",
+            "intro": ".intro_info@text",
+            "coverUrl": ".block_img2@img@src",
+            "tocUrl": "text.查看目录@href"
+        },
+        "ruleContent": {
+            "content": ".text.-1@html"
+        }
+    }
+]

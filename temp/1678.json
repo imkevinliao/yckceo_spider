@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "by🍉\n搜索需要验证码,网站速度挺快，可惜要验证码，不会弄\n！旧http://www.3wwd.com/\n新http://www.wdshucheng.com/",
+        "bookSourceGroup": "💡 仅发现",
+        "bookSourceName": "我的书城[仅发现]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.wdshucheng.com",
+        "bookUrlPattern": "",
+        "customOrder": -134649,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/fenlei/1/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"奇幻\",\"url\":\"/fenlei/2/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"武侠\",\"url\":\"/fenlei/3/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"仙侠\",\"url\":\"/fenlei/4/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市\",\"url\":\"/fenlei/5/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"军事\",\"url\":\"/fenlei/6/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"/fenlei/7/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"游戏\",\"url\":\"/fenlei/8/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻\",\"url\":\"/fenlei/10/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"二次元\",\"url\":\"/fenlei/24/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"排行榜\",\"url\":\"/rank/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+        "header": "",
+        "lastUpdateTime": 1666282034859,
+        "loginUrl": "",
+        "respondTime": 31926,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "id.intro@p.0@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "class.content@p@textNodes##\\d+访问.*?com",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##[^\\n]*搜索【看书助手】官方地址：[^\\n]*(?:\\s+……\\s+)?",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "href",
+            "coverUrl": "img@src",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text||tag.span@text",
+            "bookList": "class.l@ul@li||class.item",
+            "bookUrl": ".s2@a@href||tag.dd@a@href",
+            "coverUrl": "",
+            "intro": "tag.dd@a@text",
+            "kind": ".s1@text",
+            "lastChapter": ".s4@text",
+            "name": "class.s2@text||tag.dt@a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.list.1@dd@a",
+            "chapterName": "text##/[（［【\\{\\(].*?[更合求票赏鲜盟修推歉谢祝节年].*?[）］】\\}\\)]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "",
+        "weight": 0
+    }
+]

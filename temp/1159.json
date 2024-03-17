@@ -1,0 +1,33 @@
+[
+    {
+        "bookSourceName": "朦胧夜色",
+        "bookSourceGroup": "短篇小说",
+        "bookSourceUrl": "https://www.qxx14.com",
+        "loginUrl": "",
+        "checkUrl": "",
+        "httpUserAgent": "",
+        "ruleFindUrl": "都市情感::https://www.paa09.com/home/textlist/36/1280-searchPage.html\n人妻熟女::https://www.paa09.com/home/textlist/36/1281-searchPage.html\n玄幻武侠::https://www.paa09.com/home/textlist/36/1282-searchPage.html\n另类其它::https://www.paa09.com/home/textlist/36/1283-searchPage.html\n明星校园::https://www.paa09.com/home/textlist/36/1284-searchPage.html\n家庭乱伦::https://www.paa09.com/home/textlist/36/1285-searchPage.html\n成人小说::https://www.paa09.com/home/textlist/36/1286-searchPage.html\n暴力虐待::https://www.paa09.com/home/textlist/36/1287-searchPage.html",
+        "ruleSearchUrl": "",
+        "ruleSearchList": "class.col clearfix@li",
+        "ruleSearchName": "a@h3@text",
+        "ruleSearchAuthor": "",
+        "ruleSearchCoverUrl": "",
+        "ruleSearchKind": "",
+        "ruleSearchLastChapter": "span@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleBookUrlPattern": "",
+        "ruleBookName": "",
+        "ruleBookAuthor": "",
+        "ruleCoverUrl": "",
+        "ruleBookKind": "",
+        "ruleBookLastChapter": "",
+        "ruleChapterUrl": "",
+        "ruleChapterUrlNext": "",
+        "ruleIntroduce": "class.pgeUrl@tag.a.0@text",
+        "ruleChapterList": "class.pgeUrl@tag.a.0",
+        "ruleChapterName": "text",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "class.dd.2@tag.a",
+        "ruleBookContent": "class.zw@html||class.content@html||tag@video@html"
+    }
+]

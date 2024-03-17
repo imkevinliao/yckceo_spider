@@ -1,0 +1,61 @@
+[
+    {
+        "bookSourceGroup": "爱猫小说书源合集",
+        "bookSourceName": "歪歪小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.huangshiruanbao.com/index.html",
+        "customOrder": 182,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "点击日榜::https://www.huangshiruanbao.com/other/tpl/rank_hits/order/hits_day.html\n点击周榜::https://www.huangshiruanbao.com/other/tpl/rank_hits/order/hits_week.html\n点击月榜::https://www.huangshiruanbao.com/other/tpl/rank_hits/order/hits_month.html\n点击总榜::https://www.huangshiruanbao.com/other/tpl/rank_hits/order/hits.html\n新书榜::https://www.huangshiruanbao.com/other/tpl/rank_hits/newbook/1.html\n完结榜::https://www.huangshiruanbao.com/other/tpl/rank_hits/over/1.html",
+        "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66\"\n}",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "@css:a.author.fl@text",
+            "coverUrl": "@css:div.pic.fl>span>img@src",
+            "intro": "@css:p.brief_text@text",
+            "kind": "@css: div.tags.clearfixer>a:nth-child(2)>span@text",
+            "lastChapter": "@css:span.chaptername.fl>a@text##最近更新",
+            "name": "@css:span.name.fl@text",
+            "tocUrl": "@js:if(result.match(/全部章节/)){\nresult=result.match(/href=\"([^\"]+)\">全部章节/)[1]\n}else{result=baseUrl}",
+            "wordCount": "@css:div.hits>span:nth-child(2)@text"
+        },
+        "ruleContent": {
+            "content": "@js:\nresult=result.replace(/天才一秒钟.*?小说网站[!！]/,\"\");\ndoc=org.jsoup.Jsoup.parse(result).select(\"#txt\");\ndoc.select(\"h1\").remove();\ndoc.html();",
+            "imageStyle": "0.0",
+            "nextContentUrl": "text.下一章@href",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "@css:dd>p:nth-child(2)>a:nth-child(1)@text",
+            "bookList": "@css:div.secd-rank-list.rank dl",
+            "bookUrl": "@css:a.bigpic-book-name@href",
+            "coverUrl": "@css:img.lazyimg@data-original",
+            "intro": "@css:p.big-book-info@text",
+            "kind": "@css:dd>p:nth-child(2)>a:nth-child(2)@text",
+            "lastChapter": "@css:dd>p:nth-child(4)>a@text##最近更新",
+            "name": "//*[@class=\"bigpic-book-name\"]/text()"
+        },
+        "ruleSearch": {
+            "author": "@css:dd>p:eq(1)>a:eq(0)@text",
+            "bookList": "@css:div.secd-rank-list dl",
+            "bookUrl": "@css:a.bigpic-book-name@href",
+            "coverUrl": "@css:dt>a>img@data-original",
+            "intro": "@css:p.big-book-info@text",
+            "kind": "@css:dd>p:nth-child(2)>a:nth-child(2)@text",
+            "lastChapter": "@css:a.red@text##最近更新",
+            "name": "@css:a.bigpic-book-name@text",
+            "wordCount": "@css:span.clicknum>em:nth-child(1)@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.cate-list@li@a||class.panel-chapterlist@dd@a",
+            "chapterName": "class.chapter_name@text||text",
+            "chapterUrl": "href",
+            "updateTime": "class.date@text"
+        },
+        "searchUrl": "https://www.huangshiruanbao.com/search.html?keyword={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

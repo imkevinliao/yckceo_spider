@@ -1,0 +1,56 @@
+[
+    {
+        "bookSourceGroup": "qc自用",
+        "bookSourceName": "笔下文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bjpos.net",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[\n{\n\t\"title\":\"玄幻小说\",\n\t\"url\":\"https://www.biquge9.com/json?sortid=1&page={{page}}\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"武侠小说\",\n\t\"url\":\"https://www.biquge9.com/json?sortid=2&page={{page}}\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"都市小说\",\n\t\"url\":\"https://www.biquge9.com/json?sortid=3&page={{page}}\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"历史小说\",\n\t\"url\":\"https://www.biquge9.com/json?sortid=4&page={{page}}\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"网游小说\",\n\t\"url\":\"https://www.biquge9.com/json?sortid=5&page={{page}}\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"科幻小说\",\n\t\"url\":\"https://www.biquge9.com/json?sortid=6&page={{page}}\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"女生小说\",\n\t\"url\":\"https://www.biquge9.com/json?sortid=7&page={{page}}\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1\n}\n},\n{\n\t\"title\":\"完本小说\",\n\t\"url\":\"https://www.biquge9.com/json?sortid=0&page={{page}}\",\n\t\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1\n}\n}\n]",
+        "lastUpdateTime": 1663685409835,
+        "loginUrl": "https://www.biquge9.com/login.html",
+        "respondTime": 4826,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:update_time\"]@content&&\n[property=\"og:novel:category\"]@content&&\n[property=\"og:novel:status\"]@content##\\s##,",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "replaceRegex": "##请知悉本网.*笔趣阁手机版.*|『点此报错』『加入书签』"
+        },
+        "ruleExplore": {
+            "author": "$.author",
+            "bookList": "$",
+            "bookUrl": "$.url_list",
+            "coverUrl": "$.url_img",
+            "intro": "$.intro",
+            "kind": "0",
+            "name": "$.articlename"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "class.author@text##作者.",
+            "bookList": "class.bookbox",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "img@src",
+            "intro": "class.uptime@text",
+            "kind": "0",
+            "name": "class.bookname@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.listmain@dl@dd:not([class=\"more pc_none\"])",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.bjpos.net/s?q={{key}}",
+        "weight": 0
+    }
+]

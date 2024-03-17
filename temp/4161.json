@@ -1,0 +1,39 @@
+[
+    {
+        "ruleSearch": {
+            "checkKeyWord": "我的",
+            "bookList": "div.hot_sale",
+            "author": ".author a:nth-of-type(2)@text",
+            "name": ".hot_sale > a@text",
+            "bookUrl": ".hot_sale > a@href##$##,{'webView':true}",
+            "lastChapter": "a[target]@text",
+            "coverUrl": ".hot_sale > a@href\n@js:\nvar a =result.match(/\\d+/)[0];\nvar b = Math.floor(a/ 1000);\n'/img/'+b+'/'+a+'.jpg'"
+        },
+        "ruleBookInfo": {
+            "intro": "p.review@text",
+            "coverUrl": "#thumb img@src",
+            "author": ".author a@text",
+            "wordCount": "li:nth-of-type(4)@text",
+            "kind": ".sort span@text",
+            "name": "span.title@text",
+            "tocUrl": ".btn a:nth-of-type(1)@href",
+            "lastChapter": ".directoryArea p:nth-of-type(1) a@text"
+        },
+        "ruleToc": {
+            "chapterList": "p:nth-of-type(n+2) a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "ruleContent": {
+            "content": "div.Readarea@html##『章节错误，点此报送』|第.*章|.*\\[.*\\/.*页\\]|『加入书签，方便阅读』",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleReview": [],
+        "ruleExplore": [],
+        "bookSourceUrl": "https://m.1114txt2.com/",
+        "bookSourceType": 0,
+        "bookSourceName": "一世书城",
+        "searchUrl": "https://m.1114txt2.com/search.php?keyword={{key}},{'webView':true}",
+        "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult"
+    }
+]

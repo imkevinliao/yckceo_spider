@@ -1,0 +1,66 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "♠ 优选 ♠",
+        "bookSourceName": "♠ 神品屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shenpinwu.com/",
+        "bookUrlPattern": "",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 0,
+        "loginUrl": "",
+        "ruleBookInfo": {
+            "author": "class.info@h3@tag.a@text",
+            "coverUrl": "class.img@img@src",
+            "init": "class.content",
+            "intro": "id.intro@tag.p.0@text",
+            "kind": "class.info@tag.p.0@text&&\nclass.info@tag.p.1@text&&\nclass.info@tag.p.2@text##所属类型：|更新时间：|连载完成：",
+            "lastChapter": "class.info@tag.span@tag.a@text##《.*》",
+            "name": "class.info@h1@text",
+            "tocUrl": "",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.book_text@html##记住本站网址(.*|\\n)本站|m.*COM",
+            "nextContentUrl": "text.下一页@href",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "class.grid@tr!0",
+            "bookUrl": "tag.td.0@tag.a@href",
+            "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.shenpinwu.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "intro": "",
+            "kind": "tag.td.4@text&&\ntag.td.5@text",
+            "lastChapter": "tag.td.1@tag.a@text",
+            "name": "tag.td.0@tag.a@text",
+            "wordCount": "tag.td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.article_texttitleb@li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href",
+            "isVip": "",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "https://www.shenpinwu.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit=%26%23160%3B%CB%D1%26%23160%3B%26%23160%3B%CB%F7%26%23160%3B&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

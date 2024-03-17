@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceGroup": "自制,女频,源仓库,网页源",
+        "bookSourceName": "耽美文吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.dmwenba.com",
+        "bookUrlPattern": "https?://wap.dmwenba.com/\\w+.*html",
+        "customOrder": 147,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "穿越重生::/chuanyuechongsheng/<,index_{{page}}.html>\n玄幻灵异::/xuanhuanlingyi/<,index_{{page}}.html>\n现代都市::/xiandaidushi/<,index_{{page}}.html>\n古代架空::/gudaijiakong/<,index_{{page}}.html>\nBL同人::/tongrenxiaoshuo/<,index_{{page}}.html>\n网游竞技::/wangyoujingji/<,index_{{page}}.html>\n无限流派::/wuxianliupai/<,index_{{page}}.html>\n推理悬疑::/tuili/<,index_{{page}}.html>\n百合GL::/gl/<,index_{{page}}.html>",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1699660259745,
+        "respondTime": 8028,
+        "ruleBookInfo": {
+            "author": "h3@textNodes##.*——",
+            "kind": "h3 span@text##时间：",
+            "name": "h3@textNodes##——.*"
+        },
+        "ruleContent": {
+            "content": ".xscont div.1@html"
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a@text##.*——",
+            "bookList": ".article-list li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "快穿",
+            "kind": "span@text",
+            "name": "a@text##——.*"
+        },
+        "ruleToc": {
+            "chapterList": "@js:\ndata=java.getString(\"@@a[title=Page]@text\");\nvar page=data.match(/\\/(\\d+)/)[1];\nvar url=baseUrl.replace(/.html/,\"_1.html\")\nvar list=[{text:\"第1页\",href:baseUrl}];\nif(data&&page){\n\tfor(i=2;i<=page;i++){\n\t\tlist.push({text:`第${i}页`,href:url.replace(/_1/,\"_\"+i)})\n\t\t}\n\t\tlist;\n\t}",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\n(()=>{\n  if(page==1){\n    let url=source.getKey()+'/search/index.php,'+JSON.stringify({\n  \"body\": `keyboard=${key}&show=title&tempid=2&tbname=article`,\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n});\n    return java.put('surl',String(java.connect(url).raw().request().url()));\n  } else {\n    return java.get('surl')+'&page='+(page-1)\n  }\n})()",
+        "weight": 0
+    }
+]

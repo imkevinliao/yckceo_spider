@@ -1,0 +1,43 @@
+[
+    {
+        "bookSourceComment": "fix by h11128",
+        "bookSourceGroup": "",
+        "bookSourceName": "读一读duyidu.net",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://duyidu.net",
+        "customOrder": -2085958218,
+        "enabled": true,
+        "enabledExplore": true,
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36\"\n}",
+        "lastUpdateTime": 1631491057375,
+        "respondTime": 1983,
+        "ruleBookInfo": {
+            "author": "class.list-group@tag.li.0@tag.h1@tag.small@text",
+            "coverUrl": "class.col-xs-2.0@tag.img@src",
+            "intro": "id.all@textNodes",
+            "kind": "class.col-xs-4 list-group-item no-border@tag.a@text",
+            "lastChapter": "class.col-xs-12 list-group-item no-border@tag.@text",
+            "name": "class.list-group@tag.li.0@tag.h1@textNodes",
+            "tocUrl": "class.list-group@tag.li.5@tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "id.txtContent@textNodes"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.col-xs-2.0@text",
+            "bookList": "id.novel-list@tag.li!0",
+            "bookUrl": "class.col-xs-3@tag.a.0@href",
+            "kind": "class.col-xs-1@tag.i@text",
+            "lastChapter": "class.col-xs-4@tag.a.0@text",
+            "name": "class.col-xs-3@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapters-list@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://duyidu.net/search.htm?keyword={{key}}",
+        "weight": 0
+    }
+]

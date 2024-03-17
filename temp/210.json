@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "2022-08-15\n@tjjj812\n可搜，有分类，有预览图，能下载\n在线看网站是按照字数分页的，所以没有目录，最佳食用方式是下下来看。\n把【类型】改为【文本】就可以在线看了。\n不要用网页版编辑这个书源！！！\n不要用网页版编辑这个书源！！！\n不要用网页版编辑这个书源！！！\n网页版有bug\n如果编辑了之后要到手机端把【类型】改为【文件】，\n把详情页下载url规则改为\n【@js:java.get(\"bookDownURL\")】\n原看帮网，搞了一遍通过详情预处理来进行解析，并通过get方法获取文件地址的方式获取文件，站点也有ZIP可下，有需要的可以改成下载ZIP\n需要设置本地文件存储位置才能正确下载。\n用手机写js写的脑仁疼。。。",
+        "bookSourceGroup": "📚💾,📚💡,📚🌄,📚👍,📚🔍",
+        "bookSourceName": "📚🌄💾皇帝之家(看帮网)✈【huangdizhijia】",
+        "bookSourceType": 3,
+        "bookSourceUrl": "https://www.huangdizhijia.com#下载",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 15,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"📚📚📚📚站点都是校对的全本小说………………………………\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"👨‍🦰男频榜单…………………………………………………………\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻仙侠\",\"url\":\"/male/xhxx/list_2_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"都市官场\",\"url\":\"/male/dsgc/list_3_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"科幻奇幻\",\"url\":\"/male/khqh/list_4_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"恐怖推理\",\"url\":\"/male/kbtl/list_5_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"动漫同人\",\"url\":\"/male/dmtr/list_6_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"游戏竞技\",\"url\":\"/male/yxjj/list_7_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"穿越历史\",\"url\":\"/male/cyls/list_8_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"军事战争\",\"url\":\"/male/jszz/list_9_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"👩‍🦰女频榜单…………………………………………………………\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现代言情\",\"url\":\"/female/xdyq/list_11_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"古代言情\",\"url\":\"/female/gdyq/list_12_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"仙侠魔幻\",\"url\":\"/female/xxmh/list_13_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"耽美百合\",\"url\":\"/female/dmbh/list_14_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"科幻恐怖\",\"url\":\"/female/khkb/\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"娱乐同人\",\"url\":\"/female/yltr/\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"📖实体图书…………………………………………………………\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"古今文学\",\"url\":\"/book/gjwx/list_18_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"经济管理\",\"url\":\"/book/jjgl/\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"励志教育\",\"url\":\"/book/lzjy/\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"人文社科\",\"url\":\"/book/rwsk/list_21_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"外国名著\",\"url\":\"/book/wgmz/list_22_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"品质生活\",\"url\":\"/book/pzsh/list_23_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.24,\"layout_flexGrow\":0.32}},\n{\"title\":\"↑↑▲▲▲▲↑↑\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}}\n]",
+        "header": "",
+        "lastUpdateTime": 1660556050575,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@js:java.get(\"bookAuthor\")",
+            "coverUrl": "@js:java.get(\"bookPic\")",
+            "downloadUrls": "@js:java.get(\"bookDownURL\")",
+            "init": "class.online-read@tag.div@tag.a@text.在线阅读&&id.content@tag.div.0@class.article@tag.a&&class.btn@tag.a&&#info&&class.all@tag.span@class.intro@tag.div.0\n<js>\nif(result.length > 0){\njava.log(result);\n\tvar info = result[result.length-2].text();\n\tjava.log(\"1111111111111111111111111111111111111111111111111111\");\n\tjava.log(info);\n\tvar size = parseInt(parseFloat(info.match(/\\d*\\.\\d+(?=\\s*MB)/)[0])*1024*512);\n\tjava.put(\"bookTitle\",result[1].attr(\"title\"));\n\tjava.put(\"bookAuthor\",result[2].text());\n\tjava.put(\"bookKinds\",[result[3].text(),result[4].text(),info.match(/\\d\\d\\d\\d.\\d\\d.\\d\\d/)[0]]);\n\tjava.put(\"bookcCount\",size);\n\tjava.put(\"lastChaptor\",\"\");\n\tjava.put(\"bookIntro\",result[result.length-1].html());\n\tjava.put(\"bookPic\",result[1].getElementsByTag(\"img\")[0].attr(\"src\"));\n\tjava.put(\"bookTocURL\",result[0].attr(\"href\"));\n\tjava.put(\"bookDownURL\",result[result.length-3].attr(\"href\"));\n\tvar asd = java.get(\"https://www.huangdizhijia.com\" + java.get(\"bookDownURL\"), {\"method\":\"POST\"}).parse().getElementsByClass(\"btn-main-stroke\");\n\tfor(var i in asd){\n\t\tif(asd[i].text().match(/TXT格式下载/)){\n\t\t\tjava.put(\"bookDownURL\",\"https://www.huangdizhijia.com\" + asd[i].attr(\"href\"));\n\t\t\tbreak;\n\t\t}\n\t}\n\tjava.log(java.get(\"bookDownURL\"));\n\n}\nresult = \"\";\nresult;\n</js>",
+            "intro": "@js:java.get(\"bookIntro\")",
+            "kind": "@js:java.get(\"bookKinds\")",
+            "lastChapter": "@js:java.get(\"lastChaptor\")",
+            "name": "@js:java.get(\"bookTitle\")",
+            "wordCount": "@js:java.get(\"bookcCount\")"
+        },
+        "ruleContent": {
+            "content": "class.m-book-detail@tag.section@textNodes"
+        },
+        "ruleExplore": {
+            "author": "//*[@class=\"pub\"]/text()##\\/.*",
+            "bookList": "<js>java.log(result)</js>//*[@class=\"subject-item\"]",
+            "bookUrl": "//h2/a/@href",
+            "coverUrl": "//img/@src",
+            "intro": "//p/allText()",
+            "name": "class.info@tag.h2.0@text##(\\(校对\\))|(\\(精校\\))"
+        },
+        "ruleSearch": {
+            "author": "//*[@class=\"pub\"]/text()##\\/.*",
+            "bookList": "//*[@class=\"subject-item\"]",
+            "bookUrl": "//h2/a/@href",
+            "coverUrl": "//img/@src",
+            "intro": "//p/allText()",
+            "name": "class.info@tag.h2.0@text##(\\(校对\\))|(\\(精校\\))"
+        },
+        "ruleToc": {
+            "chapterList": "class.m-catalist-detail@tag.li@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "plus/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

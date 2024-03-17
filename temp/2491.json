@@ -1,0 +1,27 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "乐文书院",
+        "bookSourceUrl": "https://m.lw328.com",
+        "enable": false,
+        "ruleBookAuthor": "class.rt5@tag.p.0@text#作者：",
+        "ruleBookContent": "class.rdtext@p@html",
+        "ruleBookLastChapter": "class.cred.0@text",
+        "ruleChapterList": "id.lists@li@a",
+        "ruleChapterName": "class.order@text",
+        "ruleChapterUrl": "id.down@a@href",
+        "ruleContentUrl": "href",
+        "ruleCoverUrl": "class.lf2@img@src",
+        "ruleFindUrl": "首页推荐::https://m.lw328.com/\n全部小说::https://m.lw328.com/list/\n玄幻小说::https://m.lw328.com/xclass/1/searchPage.html\n修真小说::https://www.lw328.com/xclass/2/searchPage.html\n都市小说::https://www.lw328.com/xclass/3/searchPage.html\n穿越小说::https://www.lw328.com/xclass/4/searchPage.html\n网游小说::https://www.lw328.com/xclass/5/searchPage.html\n科幻小说::https://www.lw328.com/xclass/6/searchPage.html",
+        "ruleIntroduce": "class.intro@p@textNodes#各位书友要是.*",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchKind": "tag.span.0@text",
+        "ruleSearchLastChapter": "p@a@text",
+        "ruleSearchList": "id.result@li|ul@li",
+        "ruleSearchName": "h1@text|p@text",
+        "ruleSearchNoteUrl": "a@href",
+        "ruleSearchUrl": "https://m.lw328.com/result.aspx?searchstr=searchKey",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

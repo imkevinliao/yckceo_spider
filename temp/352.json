@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceUrl": "https://www.zxbiquge.net",
+        "bookSourceType": "0",
+        "bookSourceName": "✈ 笔趣阁 zxbiquge",
+        "bookSourceGroup": "精品书源",
+        "bookSourceComment": "",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "/search/,{\n\"method\":\"POST\",\n\"body\":\"searchkey={{key}}\"\n}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": false,
+        "weight": 0,
+        "customOrder": 2,
+        "lastUpdateTime": 1652148548643,
+        "ruleSearch": {
+            "bookList": "class.searchresult",
+            "name": "tag.h3@text",
+            "author": "tag.p.0@text## \\d+ 万字 .*",
+            "kind": "class.img_span@tag.span@text",
+            "wordCount": "class.s_gray@text## 万字.*##万字",
+            "lastChapter": "tag.p.2@text",
+            "intro": "class.searchresult_p@text",
+            "bookUrl": "class.img_span@tag.a@href"
+        },
+        "ruleExplore": [],
+        "ruleBookInfo": {
+            "coverUrl": "class.novel_info_main@tag.img@src"
+        },
+        "ruleToc": {
+            "chapterList": "id.ul_all_chapters@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "ruleContent": {
+            "content": "id.article@html",
+            "nextContentUrl": "id.next_url@href"
+        }
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "优特",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.utexs.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1643347128833,
+        "respondTime": 180000,
+        "ruleBookInfo": [],
+        "ruleContent": {
+            "content": "class.content@html",
+            "imageStyle": "TEXT"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.souyou@tag.a.0@text",
+            "bookList": "class.m9",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "++http://www.utexs.com/ute.asp?id=51023",
+            "intro": "class.soujj@text",
+            "kind": "class.souyou@text##作者.*?\\s\\|| \\| .{2}: |类型: ##,",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "<js>\nlist=java.getElements(\"//*[@class=\\\"mread\\\"][1]/tbody//tr[position()>1]\");\np=\"\"\nfor(i in list){\n\tjava.setContent(list[i]);\n\ta=java.getElement(\"@@class.bai\");\n\tb=java.getElement(\"@@class.du\");\n\tp+=String(a)+String(b)\n\t}\np\n</js>\ntag.div",
+            "chapterName": "text",
+            "chapterUrl": "tag.a.0@href"
+        },
+        "searchUrl": "http://www.utexs.com/search.asp?key={{key}}&x=0&y=0,{\"charset\":\"gbk\"}",
+        "weight": 0
+    }
+]

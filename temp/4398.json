@@ -1,0 +1,65 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "🔰 普通",
+        "bookSourceName": "🔰 小说路上",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xs63.me",
+        "customOrder": 1522,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "@js:\nJSON.stringify([\n    [\"玄幻\", \"xuanhuan\"],\n    [\"仙侠\", \"xianxia\"],\n    [\"都市\", \"dushi\"],\n    [\"历史\", \"lishi\"],\n    [\"科幻\", \"kehuan\"],\n    [\"恐怖\", \"kongbu\"],\n    [\"其他\", \"qita\"],\n    [\"全本\", \"quanben\"]\n].map([title, type] => ({\n    title: title,\n    url: `/${type}/{{page}\\}.html`,\n    style: {\n        layout_flexGrow: 1,\n        layout_flexBasisPercent: 0.25\n    }\n})));",
+        "header": "",
+        "lastUpdateTime": 1699086334507,
+        "loginUrl": "",
+        "respondTime": 32243,
+        "ruleBookInfo": {
+            "author": "[property$=author]@content",
+            "coverUrl": "[property$=image]@content",
+            "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "[property~=category|status|update_time]@content##小说|\\s\\d.*",
+            "lastChapter": "{{@@[property$=chapter_name]@content}} • {{@@[property$=update_time]@content##\\s.*}}",
+            "name": "[property$=book_name]@content",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#nr p:not([class])@html",
+            "imageStyle": "TEXT",
+            "nextContentUrl": "@js:\n    if (result.match(/\\/next\\.png/)) {\n        eval(result.match(/var jsarr =\\[.*\\];/)[0]);\n        eval(result.match(/var jsstr =\".*\";/)[0]);\n        jsstr = String(java.base64Decode(jsstr));\n\n        var nnstr = \"\";\n        var nnarr = [];\n        for (a = 0; a < jsstr.length; a++) {\n            nnarr.push(jsstr[a]);\n        }\n        for (b = 0; b < jsarr.length; b++) {\n            nnstr += nnarr[jsarr[b]];\n        }\n        nnstr + \".html\"\n    }",
+            "replaceRegex": "##.*向你推荐他的其他作品[\\s\\S]+|.*看最新章节.*|\\s*.*?(.{0,8}#){3,}.*\\s*|.*本站的域名.*\\s*|.*牢记网址.*\\s*|({{book.author}}.*?)?\\s*本章未完.*\\s*|.杰米哒.[\\w\\.0]*",
+            "sourceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "span.1@text",
+            "bookList": ".sitebox dl",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@data-original",
+            "intro": ".book_des@text",
+            "kind": "span.0@text",
+            "lastChapter": "a.-1@text",
+            "name": "h3@a@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".s3@text",
+            "bookList": ".toplist@li",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": ".s5@text&&.s6@text",
+            "lastChapter": "{{@.s2@text}} • {{@.s6@text}}",
+            "name": ".s1@text",
+            "wordCount": ".s4@text##K##000"
+        },
+        "ruleToc": {
+            "chapterList": ".book_list li a",
+            "chapterName": "text",
+            "chapterUrl": "href##www\\.##m.",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "@js:\nu='https://www.xs63.me/search/';\nu+','+JSON.stringify({\n  \"method\": \"POST\",\n  \"headers\": {Referer:u},\n  \"body\": \"kw={{key}}\"\n});",
+        "weight": 0
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceGroup": "♠ 优选 ♠",
+        "bookSourceName": "♠ 乐文小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.xs26.com/",
+        "customOrder": -18919,
+        "enabled": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/fenlei/1_{{page}}/\n修真小说::/fenlei/2_{{page}}/\n都市小说::/fenlei/3_{{page}}/\n历史小说::/fenlei/4_{{page}}/\n网游小说::/fenlei/5_{{page}}/\n科幻小说::/fenlei/6_{{page}}/\n完本小说::/quanben/{{page}}\n总排行榜::/top/allvisit/{{page}}.html\n总推荐榜::/top/allvote/{{page}}.html\n月排行榜::/top/monthvisit/{{page}}.html\n月推荐榜::/top/monthvote/{{page}}.html\n周排行榜::/top/weekvisit/{{page}}.html\n周推荐榜::/top/weekvote/{{page}}.html\n最新入库::/top/postdate/{{page}}.html\n最近更新::/top/lastupdate/{{page}}.html\n本站推荐::/top/toptime/{{page}}.html\n总收藏榜::/top/goodnum/{{page}}.html\n字数排行::/top/size/{{page}}.html",
+        "lastUpdateTime": 1648736339411,
+        "respondTime": 72051,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "id.intro@text",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.content@html##乐文小说网.*最新章节！"
+        },
+        "ruleExplore": {
+            "author": ".author@text||.l3@text",
+            "bookList": ".titlelist li||#articlelist li!0",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": ".sj@text||.l1,.l7@text",
+            "lastChapter": ".zz a@text||.l4 a@text",
+            "name": "a.0@text",
+            "wordCount": ".l5@text"
+        },
+        "ruleSearch": {
+            "author": "td.2@text",
+            "bookList": "tr!0",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "td.-1:-2@text",
+            "lastChapter": "td.1@a@text",
+            "name": "a.0@text",
+            "wordCount": "td.3@text"
+        },
+        "ruleToc": {
+            "chapterList": ".zjlist dd a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "/modules/article/search.php?searchkey={{key}}&submit=%CB%D1%CB%F7&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

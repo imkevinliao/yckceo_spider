@@ -1,0 +1,59 @@
+[
+    {
+        "bookSourceComment": "地址发布页(浏览器打开)\nhttp://m.xinbanzhu.net\n\n获取最新你可用网址\n替换👉源URL👈链接即可\n\n去掉所有一般人看不懂写法\n去掉js拼音替换(那个替换好像每天更新一次)\n需要的欢迎导入，(那个替换很好，缺点就是一天更新一次，而且版主书几万本，要是那个字替换缺少，也会报错的)",
+        "bookSourceGroup": "版主",
+        "bookSourceName": "第一版主(移动都能看，一次导入，永久可用，请看选注释)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://m.xinbanzhu.net/",
+        "customOrder": -230852,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部::/shuku/0-lastupdate-0-{{page}}.html\n热门::/shuku/0-monthvisit-0-{{page}}.html\n新书::/shuku/0-postdate-0-{{page}}.html\n1::/fenlei/1_{{page}}.html\n2::/fenlei/2_{{page}}.html\n3::/fenlei/3_{{page}}.html\n4::/fenlei/4_{{page}}.html\n5::/fenlei/5_{{page}}.html\n6::/fenlei/6_{{page}}.html\n7::/fenlei/7_{{page}}.html",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36\"}",
+        "lastUpdateTime": 1651358916132,
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "##作者：(.*)<br />##$1###",
+            "init": "",
+            "intro": ".bd.2@text",
+            "kind": "##类型：(.*)<br />##$1###",
+            "lastChapter": "ul.list.0@li.0@text",
+            "name": "h1@text",
+            "wordCount": "##字数：(.*)<br />##$1###"
+        },
+        "ruleContent": {
+            "content": ".neirong@html",
+            "imageStyle": "TEXT",
+            "nextContentUrl": ".chapterPages@a!0@href##$##,{\"webView\":true}"
+        },
+        "ruleExplore": {
+            "author": ".info@a@text",
+            "bookList": ".bd@.column-2",
+            "bookUrl": ".name@href",
+            "intro": "p.info.1@text",
+            "kind": "span.0@text",
+            "lastChapter": ".update@a@text",
+            "name": ".name@text",
+            "wordCount": ".info@span@text##字数："
+        },
+        "ruleSearch": {
+            "author": ".info@text",
+            "bookList": ".column-2 ",
+            "bookUrl": ".right@.name@href",
+            "intro": "",
+            "lastChapter": ".update@a@text",
+            "name": ".right@.name@text",
+            "wordCount": ".info@span@text##字数："
+        },
+        "ruleToc": {
+            "chapterList": ".chapter-list.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "class.nextPage@href"
+        },
+        "searchUrl": "/s.php,{\n\t\"charset\":\"gbk\",\n\t\"method\":\"POST\",\n\t\"headers\":{\"Referer\": \"{{baseUrl}}s/php\"},\n\t\"body\":\"objectType=2&type=articlename&s={{key}}&page={{page}}\"\n\t}",
+        "weight": 0
+    }
+]

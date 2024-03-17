@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceGroup": "自制,源仓库,网页源",
+        "bookSourceName": "飞悦凡文网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.feiyuefw.net",
+        "bookUrlPattern": "https?://www.feiyuefw.net/book/\\w+.html",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"首页\",\"url\":\"/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/Lsort/2.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻小说\",\"url\":\"/Lsort/4.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越小说\",\"url\":\"/Lsort/6.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市小说\",\"url\":\"/Lsort/8.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真小说\",\"url\":\"/Lsort/10.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游小说\",\"url\":\"/Lsort/12.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情小说\",\"url\":\"/Lsort/14.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古今言情\",\"url\":\"/Lsort/19.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"书库\",\"url\":\"/quanbu.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
+        "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1691659022500,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "@get:{a}",
+            "coverUrl": "@get:{c}",
+            "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nw:\"#count@span.1@text\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+            "intro": "@get:{i}",
+            "kind": "@get:{k}",
+            "lastChapter": "@get:{l}",
+            "name": "@get:{n}",
+            "wordCount": "@get:{w}"
+        },
+        "ruleContent": {
+            "content": "#TextContent@html",
+            "nextContentUrl": "text.下一页@onclick\n##open.'(.+)','##$1###",
+            "replaceRegex": "##【本章阅读完毕.*阅读更多精彩小说】"
+        },
+        "ruleExplore": {
+            "author": ".tit@text",
+            "bookList": ".recomclass dl||#sitebox dl",
+            "bookUrl": "a.1@href",
+            "coverUrl": "img@data-original",
+            "intro": ".name@text||.book_des@text",
+            "kind": "span.0:1@text",
+            "lastChapter": "a.2@text",
+            "name": "a.1@text",
+            "wordCount": "span.-1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "span.2@text",
+            "bookList": "#nr",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "剑来",
+            "coverUrl": "img@data-original",
+            "intro": ".book_des@text",
+            "kind": "span.0:1@text",
+            "lastChapter": "a.-1@text",
+            "name": "h3 a@text",
+            "wordCount": "span.-1@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterList li a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.feiyuefw.net/book/search.aspx?key={{key}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "要魔法！要魔法！要魔法！！！",
+        "bookSourceGroup": "【0.自制】",
+        "bookSourceName": "🚀🔞📖禁忌书屋（真！）",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.cool18.com/bbs4/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "                          分       类      一                       \n首页::https://www.cool18.com/bbs4/index.php?app=forum&act=cachepage&cp=tree{{page}}\n本版精华区::https://www.cool18.com/bbs4/index.php?app=forum&act=gold&p={{page}}\n书库藏文(单帖文)::https://www.cool18.com/bbs4/index.php?app=forum&act=threadview&tid=&tid=14131297#showbook\n书库藏文(2-20帖)::https://www.cool18.com/bbs4/index.php?app=forum&act=threadview&tid=14131299\n书库藏文(≥21帖)::https://www.cool18.com/bbs4/index.php?app=forum&act=threadview&tid=14131300\n人气热帖::https://www.cool18.com/bbs4/index.php?app=forum&act=hot\n原创达人榜::https://www.cool18.com/indexblog.php?dir=bbs4\n                                   分       类      二                                \n都市::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E9%83%BD%E5%B8%82&submit=%E6%9F%A5%E8%AF%A2&p={{page}}\n校园::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E6%A0%A1%E5%9B%AD&submit=%E6%9F%A5%E8%AF%A2&p={{page}}\n乡野::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E4%B9%A1%E9%87%8E&submit=%E6%9F%A5%E8%AF%A2&p={{page}}\n古风::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E5%8F%A4%E9%A3%8E&submit=%E6%9F%A5%E8%AF%A2&p={{page}}\n异国::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E5%BC%82%E5%9B%BD&submit=%E6%9F%A5%E8%AF%A2&p={{page}}\n玄幻::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E7%8E%84%E5%B9%BB&submit=%E6%9F%A5%E8%AF%A2&p={{page}}\n红杏::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E7%BA%A2%E6%9D%8F&submit=%E6%9F%A5%E8%AF%A2&p={{page}}\n伦理::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E4%BC%A6%E7%90%86&submit=%E6%9F%A5%E8%AF%A2&p={{page}}\n浪漫::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E6%B5%AA%E6%BC%AB&submit=%E6%9F%A5%E8%AF%A2&p={{page}}\n暴虐::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E6%9A%B4%E8%99%90&submit=%E6%9F%A5%E8%AF%A2&p={{page}}\n摄心::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E6%91%84%E5%BF%83&submit=%E6%9F%A5%E8%AF%A2&p={{page}}\n其他::https://www.cool18.com/bbs4/index.php?action=search&act=threadsearch&app=forum&type=%E5%85%B6%E4%BB%96&submit=%E6%9F%A5%E8%AF%A2&p={{page}}                  ",
+        "lastUpdateTime": 1688890880217,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "$.thumbnail\n@js:\nresult||\"https://s3.bmp.ovh/imgs/2023/07/09/0d081957bf422d9d.png\""
+        },
+        "ruleContent": {
+            "content": "pre@html##cool18.com"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": ".dc_bar2@a||.dc_bar td @a||table.2@tr@td.1@a||pre B@font@a||ul@a",
+            "bookUrl": "href",
+            "coverUrl": "$.thumbnail\n@js:\nresult||\"https://s3.bmp.ovh/imgs/2023/07/09/0d081957bf422d9d.png\"",
+            "intro": "text",
+            "name": "text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": ".t_author@text",
+            "bookList": ".t_l",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "",
+            "coverUrl": "$.thumbnail\n@js:\nresult||\"https://s3.bmp.ovh/imgs/2023/07/09/0d081957bf422d9d.png\"",
+            "name": "a.0@text",
+            "wordCount": ".t_dateline@text"
+        },
+        "ruleToc": {
+            "chapterList": ".show_content b.0",
+            "chapterName": "text##作者：.*",
+            "chapterUrl": "",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "index.php?action=search&bbsdr=life6&act=threadsearch&app=forum&keywords={{key}}",
+        "weight": 0
+    }
+]

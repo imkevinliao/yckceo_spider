@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "雪痕伤",
+        "bookSourceName": "E小说-电脑",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.exiaoshuo.com",
+        "customOrder": 8,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::/xuanhuan/\n修真小说::/xiuzhen/\n都市小说::/dushi/\n历史小说::/lishi/\n网游小说::/wangyou/\n科幻小说::/kehuan/\n言情小说::/yanqing/\n其他小说::/qita/",
+        "lastUpdateTime": 1654149823929,
+        "respondTime": 3472,
+        "ruleBookInfo": {
+            "coverUrl": "img@src",
+            "init": "",
+            "intro": "id.intro@text"
+        },
+        "ruleContent": {
+            "content": "id.content@html"
+        },
+        "ruleExplore": {
+            "author": "class.s4@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2@a@href",
+            "lastChapter": "class.s3@a@text",
+            "name": "class.s2@a@text"
+        },
+        "ruleSearch": {
+            "author": "class.author@text##作者：",
+            "bookList": "class.bookbox",
+            "bookUrl": "h4@a@href",
+            "coverUrl": "img@src",
+            "intro": "class.bookinfo@p@text",
+            "kind": "class.cat@text##分类：",
+            "lastChapter": "class.update@a@text",
+            "name": "h4@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "dl@dd",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "/fxgdf888.php?ie=gbk&q={{key}}",
+        "weight": 0
+    }
+]

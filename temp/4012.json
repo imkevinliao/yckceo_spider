@@ -1,0 +1,57 @@
+[
+    {
+        "bookSourceGroup": "自制源",
+        "bookSourceName": "可可文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.kekewx.com",
+        "customOrder": 20560503,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻小说::http://m.kekewx.com/fenlei/1-{{page}}.html\n武侠小说::http://m.kekewx.com/fenlei/2-{{page}}.html\n都市小说::http://m.kekewx.com/fenlei/3-{{page}}.html\n历史小说::http://m.kekewx.com/fenlei/4-{{page}}.html\n网游小说::http://m.kekewx.com/fenlei/5-{{page}}.html\n科幻小说::http://m.kekewx.com/fenlei/6-{{page}}.html\n其他小说::http://m.kekewx.com/fenlei/7-{{page}}.html",
+        "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36\"}",
+        "lastUpdateTime": 1694013200311,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.xx@ul@li.2@a@text",
+            "coverUrl": "",
+            "intro": "class.jianjie bk@text",
+            "kind": "class.xx@ul@li.1@a@text",
+            "lastChapter": "class.xx@ul@li.-1@a@text",
+            "name": "class.xx@ul@li.0@text",
+            "tocUrl": "text.全文目录@href"
+        },
+        "ruleContent": {
+            "content": "id.nr@html",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##.*kekewx.com.*|.*下一章.*",
+            "sourceRegex": "##本页章节列表结束！"
+        },
+        "ruleExplore": {
+            "author": "class.tjxs@span.1@text",
+            "bookList": "class.list fk@ul@li.1",
+            "bookUrl": "a@href",
+            "coverUrl": "class.xsm@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://pic.kekewx.com/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "intro": "class.tjxs@span.2@text",
+            "name": "class.tjxs@span.0@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.fk@li",
+            "bookUrl": "a.1@href",
+            "checkKeyWord": "",
+            "coverUrl": "tag.a.1@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://pic.kekewx.com/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+            "kind": "a.0@text",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.lb fk@ul@li",
+            "chapterName": "a@text##本页章节列表结束！",
+            "chapterUrl": "li@a@href",
+            "nextTocUrl": "class.showpage r3@ul@li@a@href"
+        },
+        "searchUrl": "http://m.kekewx.com/s.php,{\n  \"body\": \"s={{key}}&type=articlename\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

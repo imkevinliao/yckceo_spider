@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "要魔法！要魔法！要魔法！！！",
+        "bookSourceGroup": "【0.自制】",
+        "bookSourceName": "🎨🔞🚀E-Hentai",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://e-hentai.org",
+        "customOrder": 9,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "首页::/\n流行::/popular\n总排行::/toplist.php?tl=11&p={{page}}\n上年排行::/toplist.php?tl=12&p={{page}}\n上月排行::/toplist.php?tl=13&p={{page}}\n昨日排行::/toplist.php?tl=15&p={{page}}",
+        "lastUpdateTime": 1689015673898,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "coverUrl": "",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "id.i3@a@img@html",
+            "imageStyle": "full"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "table@tr!0",
+            "bookUrl": ".gl3c@a@href",
+            "coverUrl": "img.0@data-src||img.0@src",
+            "intro": ".gl3c@div.0@text",
+            "kind": ".gl3c@div.1@div@textNodes",
+            "lastChapter": ".gl2c@div.6@text",
+            "name": ".gl3c@div.0@text",
+            "wordCount": ".gl4c@div.1@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "bookList": "table@tr!0",
+            "bookUrl": ".gl3c@a@href",
+            "checkKeyWord": "重考生",
+            "coverUrl": "img.0@data-src||img.0@src",
+            "intro": ".gl3c@div.0@text",
+            "kind": ".gl3c@div.1@div@textNodes",
+            "name": ".gl3c@div.0@text",
+            "wordCount": ".gl4c@div.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.gdt@a",
+            "chapterName": "img@alt",
+            "chapterUrl": "href",
+            "nextTocUrl": ".ptb@a.-1@href"
+        },
+        "searchUrl": "/?f_search={{key}}",
+        "weight": 0
+    }
+]

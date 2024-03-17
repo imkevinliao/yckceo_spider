@@ -1,0 +1,29 @@
+[
+    {
+        "bookSourceGroup": "天域战歌",
+        "bookSourceName": "中文泡泡",
+        "bookSourceUrl": "https://zwpaopao.com",
+        "enable": true,
+        "ruleBookContent": "class.cp-content@p@html#小说.*最新章节.*|本章未完.*",
+        "ruleBookInfoInit": "",
+        "ruleBookLastChapter": "class.last@a@text",
+        "ruleChapterList": "class.booklist clearfix@dd@a",
+        "ruleChapterName": "text",
+        "ruleChapterUrl": "text.查看全部章节@href",
+        "ruleContentUrl": "href",
+        "ruleContentUrlNext": "text.下一页@href",
+        "ruleCoverUrl": "class.imgbox@img@src",
+        "ruleFindUrl": "编辑推荐::https://www.zwpaopao.com/toptime_searchPage.html\n最新入库::https://www.zwpaopao.com/postdate_searchPage.html\n总点击榜::https://www.zwpaopao.com/allvisit_searchPage.html\n总推荐榜::https://www.zwpaopao.com/allvote_searchPage.html\n总收藏榜::https://www.zwpaopao.com/goodnum_searchPage.html\n总字数榜::https://www.zwpaopao.com/words_searchPage.html\n言情小说::https://www.zwpaopao.com/dushi.html\n古代小说::https://www.zwpaopao.com/gudai.html\n穿越小说::https://www.zwpaopao.com/chuanyue.html\n校园小说::https://www.zwpaopao.com/xiaoyuan.html\n耽美小说::https://www.zwpaopao.com/danmei.html\n玄幻小说::https://www.zwpaopao.com/xuanhuan.html\n仙侠小说::https://www.zwpaopao.com/xianxia.html\n历史小说::https://www.zwpaopao.com/lishi.html\n网游小说::https://www.zwpaopao.com/wangyou.html\n灵异小说::https://www.zwpaopao.com/lingyi.html\n其他小说::https://www.zwpaopao.com/qita.html\n完本小说::https://www.zwpaopao.com/quanben.html",
+        "ruleIntroduce": "class.desc@html#本文链接.*html",
+        "ruleSearchAuthor": "class.author@text",
+        "ruleSearchCoverUrl": "img@src",
+        "ruleSearchKind": "class.data@tag.span!2:3@text#类别：|状态：",
+        "ruleSearchLastChapter": "class.chapter@a@text",
+        "ruleSearchList": "class.article",
+        "ruleSearchName": "h3@a@text",
+        "ruleSearchNoteUrl": "a@href#/html/(\\d+)/(\\d+)/#/book/$2.html",
+        "ruleSearchUrl": "https://zwpaopao.com/modules/article/search.php@searchkey=searchKey&searchtype=all",
+        "serialNumber": 0,
+        "weight": 0
+    }
+]

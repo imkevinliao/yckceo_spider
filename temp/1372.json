@@ -1,0 +1,58 @@
+[
+    {
+        "bookSourceComment": "https://cobiqu.com/\nhttps://7book.cc\nhttp://www.wingwahhk.com\nhttps://youcuoi.com\nhttps://www.lsbqg.com/",
+        "bookSourceName": "全书书阁",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://ssbiqu.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"sort/1_page={{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"武侠小说\",\"url\":\"sort/2_page={{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"都市小说\",\"url\":\"s/sort/3_page={{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"历史小说\",\"url\":\"sort/4_page={{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"sort/5_page={{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"游戏小说\",\"url\":\"sort/6_page={{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"女生小说\",\"url\":\"sort/7_page={{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"其他小说\",\"url\":\"sort/8_page={{page}}/\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"全本小说\",\"url\":\"quanben/sort/page={{page}}/\",\"style\":{\"layout_flexGrow\":1}}]",
+        "lastUpdateTime": 1677157711502,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".novel_info_title@i@a@text",
+            "coverUrl": ".novel_info_main@img@src",
+            "intro": ".intro@text",
+            "kind": ".novel_info_title@p@text",
+            "lastChapter": ".to100@a@text",
+            "name": ".novel_info_title@h1@text",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "id.article@html"
+        },
+        "ruleExplore": {
+            "author": ".fa-user-circle-o@text",
+            "bookList": ".flex@li",
+            "bookUrl": ".w100@a@href",
+            "coverUrl": ".lazy@data-original",
+            "intro": ".indent@text",
+            "kind": ".blue@text&&.img_span@span@text",
+            "lastChapter": "",
+            "name": ".w100@h2@text",
+            "wordCount": ".orange@text"
+        },
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "div.1@p.0@textNodes",
+            "bookList": ".searchresult",
+            "bookUrl": ".img_span@a@href",
+            "coverUrl": ".lazy@data-original",
+            "intro": ".searchresult_p@text",
+            "kind": ".img_span@span@text",
+            "lastChapter": "div.1@p.-1@text",
+            "name": "div.1@a@h3@text",
+            "wordCount": ".s_gray@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.ul_all_chapters@li",
+            "chapterName": "text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://ssbiqu.com/search,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

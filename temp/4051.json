@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "//同库(新笔趣阁)：https://m.bqgee.com\n//同库(七三中文)：https://m.73zw8.com\n//同库(一世书城)：https://m1.1114txt.net\n//同库(笔趣屋网)：https://m.jieshengit.com\n//同库(看书啦网)：https://wap.kanshu5.net\n//同库(看书室网)：https://wap.kanshushi.com\n\n20230905修复搜索By_zhbyjm7783",
+        "bookSourceGroup": "自写修复0909",
+        "bookSourceName": "看书室[修复]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.kanshushi.com/",
+        "customOrder": 757,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "",
+        "lastUpdateTime": 1694193396228,
+        "respondTime": 4214,
+        "ruleBookInfo": {
+            "author": ".author a@text",
+            "coverUrl": "#thumb img@src",
+            "intro": ".review@html##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "#book_detail li.1:2:3@text##.*：|\\s..:.*|小说",
+            "lastChapter": "#chapterlist a.0@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+            "name": "span.title@text",
+            "tocUrl": "text.查看完整目录@href"
+        },
+        "ruleContent": {
+            "content": "#chaptercontent@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##......//.*",
+            "title": ""
+        },
+        "ruleExplore": [],
+        "ruleReview": [],
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "class.slide-item list1",
+            "bookUrl": "a.0@href",
+            "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'/img/'+iid+'/'+id+'.jpg';\n</js>",
+            "intro": "a.0@href<js>java.ajax('https://wap.kanshushi.com'+result)</js>.review@text",
+            "kind": "p.2@textNodes##\\s\\|.*\\s##,",
+            "lastChapter": "a.3@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+            "name": "a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "#chapterlist p a!0",
+            "chapterName": "text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search.php?keyword={{key}}",
+        "weight": 0
+    }
+]

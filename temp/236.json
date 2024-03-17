@@ -1,0 +1,54 @@
+[
+    {
+        "bookSourceComment": "By~江湖",
+        "bookSourceGroup": "",
+        "bookSourceName": "九重文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.9cwx.com",
+        "bookUrlPattern": "https://www.9cwx.com/\\d+_\\d+/",
+        "customOrder": 381,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻魔法::/xuanhuanmofa/1_{{page}}.html\n武侠修真::/wuxiaxiuzhen/2_{{page}}.html\n都市言情::/doushiyanqing/3_{{page}}.html\n历史军事::/lishijunshi/4_{{page}}.html\n网游竞技::/wangyoujingji/5_{{page}}.html\n科幻灵异::/kehuanlingyi/6_{{page}}.html\n综合其他::/zongheqita/7_{{page}}.html",
+        "lastUpdateTime": 1655944129743,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "[property=\"og:novel:author\"]@content",
+            "coverUrl": "[property=\"og:image\"]@content",
+            "init": "",
+            "intro": "[property=\"og:description\"]@content",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
+            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+            "name": "[property=\"og:novel:book_name\"]@content"
+        },
+        "ruleContent": {
+            "content": "#content@textNodes"
+        },
+        "ruleExplore": {
+            "author": ".s5@text",
+            "bookList": "div.l ul li",
+            "bookUrl": ".s2 a@href",
+            "coverUrl": ".s2 a@href##(\\d+)_(\\d+)##https://www.9cwx.com/files/article/image/$1/$2/$2s.jpg###",
+            "lastChapter": ".s3 a@text",
+            "name": ".s2 a@text"
+        },
+        "ruleSearch": {
+            "author": "a.2@text",
+            "bookList": "ul.fk li",
+            "bookUrl": "a.1@href##^##https://www.9cwx.com",
+            "coverUrl": "a.1@href##(\\d+)_(\\d+)##https://www.9cwx.com/files/article/image/$1/$2/$2s.jpg###",
+            "intro": "",
+            "kind": "a.0@text##\\[|\\]",
+            "lastChapter": "",
+            "name": "a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "#list dt:last-of-type ~ dd a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://m.9cwx.com/s.php,{\n\t\"method\":\"post\",\n  \"body\":\"type=articlename&s={{key}}&submit=\",\n  \"charset\": \"gbk\"\n}",
+        "weight": 0
+    }
+]

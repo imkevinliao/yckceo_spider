@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceComment": "糖塔",
+        "bookSourceGroup": "",
+        "bookSourceName": "新暖才小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.xncwxw2.com/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "lastUpdateTime": 1662954159345,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".p1.0@text",
+            "coverUrl": ".tu@img@src",
+            "lastChapter": ".p3@a@text"
+        },
+        "ruleContent": {
+            "content": "id.nr1@textNodes",
+            "nextContentUrl": "text.下一页@href",
+            "replaceRegex": "##搜索，用户注册与阅读记录(.|\\n)*作者：|本章未完，请点击下一页(.|\\n)*即将改版,更多|精彩小说请点击.*"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": ".author.0@text##.*作者：",
+            "bookList": ".hot_sale",
+            "bookUrl": "a@href",
+            "checkKeyWord": "",
+            "kind": "",
+            "name": ".title@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.info_chapters@ul.1@li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href",
+            "nextTocUrl": "tag.select@option@value"
+        },
+        "searchUrl": "https://m.xncwxw2.com/s.php,{\n  \"body\": \"keyword={{key}}&t=1\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+        "weight": 0
+    }
+]

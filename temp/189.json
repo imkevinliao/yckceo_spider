@@ -1,0 +1,42 @@
+[
+    {
+        "bookSourceGroup": "new",
+        "bookSourceName": "百年小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.bnshuo.com/",
+        "customOrder": -292910,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\":\"玄幻\",\n\"url\":\"/lists/1/list_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n{\"title\":\"武侠\",\n\"url\":\"/lists/2/list_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"都市\",\n\"url\":\"/lists/3/list_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"历史\",\n\"url\":\"/lists/4/list_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"科幻\",\n\"url\":\"/lists/5/list_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"网游\",\n\"url\":\"/lists/6/list_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"女生\",\n\"url\":\"/lists/7/list_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}},\n\t{\"title\":\"其他\",\n\"url\":\"/lists/8/list_{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.2\n\t}}]",
+        "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\"\n\t}",
+        "lastUpdateTime": 1658286501048,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "kind": "[property=\"og:novel:category\"]@content",
+            "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content##(正文卷|章节目录)",
+            "wordCount": "[property=\"og:novel:status\"]@content"
+        },
+        "ruleContent": {
+            "content": "class.content@html"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.commend-title@span@text",
+            "bookList": "class.category-div",
+            "bookUrl": "h3@a@href",
+            "checkKeyWord": "不科学",
+            "coverUrl": "class.lazy@img@data-original",
+            "intro": "class.intro@text",
+            "name": "h3@a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.info-chapters.1@a",
+            "chapterName": "text##(正文卷|章节目录)",
+            "chapterUrl": "href",
+            "updateTime": ""
+        },
+        "searchUrl": "/search.html,{\n\t\"method\":\"POST\",\n\t\"body\":\"keyword={{key}}\"\n\t}",
+        "weight": 0
+    }
+]

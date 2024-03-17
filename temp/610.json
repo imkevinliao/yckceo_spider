@@ -1,0 +1,47 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "☘️乐文小说☘️",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.maxreader.net#响海",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::https://wap.maxreader.net/sort/xuanhuan/{{page}}.html\n奇幻::https://wap.maxreader.net/sort/qihuan/{{page}}.html\n武侠\" 武侠::https://wap.maxreader.net/sort/wuxia/{{page}}.html\n 仙侠::https://wap.maxreader.net/sort/xianxia/{{page}}.html\n 都市::https://wap.maxreader.net/sort/dushi/{{page}}.html\n历史::https://wap.maxreader.net/sort/lishi/{{page}}.html\n军事::https://wap.maxreader.net/sort/junshi/{{page}}.html \n游戏::https://wap.maxreader.net/sort/youxi/{{page}}.html\n竞技::https://wap.maxreader.net/sort/jingji/{{page}}.html\n科幻::https://wap.maxreader.net/sort/kehuan/{{page}}.html\n灵异::https://wap.maxreader.net/sort/lingyi{{page}}.html\n其他::https://wap.maxreader.net/sort/qita/{{page}}.html\n总裁::https://wap.maxreader.net/sort/zongcai/{{page}}.html\n穿越::https://wap.maxreader.net/sort/chongsheng/{{page}}.html\n 古典::https://wap.maxreader.net/sort/gudian/{{page}}.html\n宫斗::https://wap.maxreader.net/sort/gongdou/{{page}}.html\n现言::https://wap.maxreader.net/sort/dushi/{{page}}.html\n仙侠::https://wap.maxreader.net/sort/xianxiaxuanhuan/{{page}}.html\n青春::https://wap.maxreader.net/sort/qingchun/{{page}}.html\n游戏::https://wap.maxreader.net/sort/game/{{page}}.html\n灵异::https://wap.maxreader.net/sort/kehuanlingyi/{{page}}.html\n耽美::https://wap.maxreader.net/sort/danmei/{{page}}.html\n女尊::https://wap.maxreader.net/sort/nvzun/{{page}}.html\n其他::https://wap.maxreader.net/sort/other/{{page}}.html",
+        "lastUpdateTime": 1643973835518,
+        "ruleBookInfo": {
+            "intro": "class.con@text",
+            "lastChapter": "class.cataloglist@tag.li.0@text",
+            "tocUrl": "text.章节目录@href"
+        },
+        "ruleContent": {
+            "content": "class.articlecon font-normal@html",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": {
+            "author": "tag.p@text",
+            "bookList": "class.book_list@tag.li",
+            "bookUrl": "tag.li@tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "class.con@text",
+            "kind": "class.status@text",
+            "name": "class.book_title@text"
+        },
+        "ruleSearch": {
+            "author": "tag.p@text",
+            "bookList": "class.book_list@tag.li",
+            "bookUrl": "tag.li@tag.a.0@href",
+            "coverUrl": "tag.img@src",
+            "intro": "",
+            "kind": "class.status@text",
+            "name": "class.book_title@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.cataloglist@tag.li",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://wap.maxreader.net/search/result.html?searchkey={{key}}",
+        "weight": 0
+    }
+]

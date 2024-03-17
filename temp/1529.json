@@ -1,0 +1,48 @@
+[
+    {
+        "bookSourceComment": "搜索间隔60s",
+        "bookSourceGroup": "🎉 精选 🎉",
+        "bookSourceName": "🎉蜂蜜文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.fmwxw.com/",
+        "bookUrlPattern": "",
+        "customOrder": 744,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "lastUpdateTime": 1637275879799,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "id.info@tag.p.0@tag.a@text##\\!!",
+            "coverUrl": "id.fmimg@img@src",
+            "init": "class.box_con",
+            "intro": "id.intro@text",
+            "kind": "",
+            "lastChapter": "id.info@tag.p.3@tag.a@text",
+            "name": "id.info@tag.h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁",
+            "wordCount": "id.info@tag.p.2@text##最后更新："
+        },
+        "ruleContent": {
+            "content": "id.content@html##一秒记住.*无弹窗免费阅读！|～",
+            "nextContentUrl": "text.下一页@href"
+        },
+        "ruleExplore": [],
+        "ruleSearch": {
+            "author": "class.s4@text##\\!!",
+            "bookList": "id.content@ul@tag.li",
+            "bookUrl": "class.s2@tag.a@href",
+            "coverUrl": "",
+            "kind": "class.s1@text&&\nclass.s7@text",
+            "lastChapter": "class.s3@tag.a@text",
+            "name": "class.s2@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://www.fmwxw.com/Search/{{key}}",
+        "weight": 0
+    }
+]
