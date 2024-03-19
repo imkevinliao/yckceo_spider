@@ -10,7 +10,7 @@ from easydict import EasyDict
 
 import requests
 
-is_delay = False
+is_delay = True
 
 
 def download(url: str, is_json=False) -> str | list:
